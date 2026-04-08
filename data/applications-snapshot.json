@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-04-07",
+  "as_of": "2026-04-08",
   "count": 6,
   "applications": [
     {
@@ -12,6 +12,7 @@
         "P2",
         "P3",
         "DA4",
+        "DA9",
         "DC2"
       ],
       "relevant_mechanisms": [
@@ -22,12 +23,12 @@
       ],
       "evaluation_criteria": {
         "primary_test": "For any AI-generated output or AI-mediated interaction, ask: does this create conditions for real resolution of the human mechanism being engaged, or does it activate the mechanism without providing the resolution conditions?",
-        "dunbar_slot_prohibition": "Does this AI interaction pattern risk taking a Dunbar slot (a social-bond slot in the user's ~150-person ceiling)? AI must never take a Dunbar slot.",
+        "dunbar_slot_prohibition": "Does this AI interaction pattern risk taking a Dunbar slot (a social-bond slot in the user's ~150-person ceiling)? AI must never take a Dunbar slot (DA9).",
         "proxy_gradient_placement": "For M14 specifically, locate the AI output on the proxy gradient (real partner → attenuated real → partial proxy → pure proxy soft → pure proxy hard). Outputs on the right side of the gradient carry higher mismatch risk by design.",
         "resolution_check_per_mechanism": "For each mechanism an AI output engages, can the resolution conditions specified in v2_mechanisms.resolution_conditions actually be satisfied by interaction with this AI? If not, the AI is creating a proxy."
       },
       "example_outputs": [
-        "AI companion products fail the resolution-check for M3: the M3 resolution condition is reliable human co-regulation, which an AI cannot supply regardless of conversational quality. Recommendation: AI companions should route toward human connection, never replace it.",
+        "AI companion products fail the resolution-check for M3: the M3 resolution condition is reliable human co-regulation, which an AI cannot supply regardless of conversational quality. Recommendation: AI companions should route toward human connection, never replace it (DA9).",
         "Feed-ranking systems that maximize engagement fail the DA4 open-loop test: engagement is wanting (M2) without liking resolution, by construction. Recommendation: rank by retrospective satisfaction, not prospective click-through.",
         "AI-generated sexual content fails the M14 proxy-gradient test at the ZERO end: no pair bond, no reproductive consequence, maximum hijacking of the LUST circuit. Recommendation: age-gated is insufficient; the architectural risk is intrinsic to the modality."
       ],
@@ -37,11 +38,14 @@
       "id": 2,
       "code": "A2",
       "name": "Clinical Practice",
-      "description": "Current psychiatry classifies many aversive presentations as disorders and treats them with suppression (pharmacotherapy, CBT targeting the experience). Cor reframes many presentations as accurate signals of environmental mismatch: the architecture is working correctly, the environment is outside the expected range, and the signal is telling the clinician where to look. Clinical practice redesigned around Cor includes: (1) environmental audit against the mechanism inventory (M1-M14 + R1) before or alongside symptom treatment, (2) resolution-condition restoration as the first-line intervention where feasible, (3) pharmacotherapy and symptom-suppression reserved for genuinely dysregulated states (not for defensive-activation states that will resolve once the environmental input is corrected). The four categories the handoff distinguishes — defensive activation, dysregulation, damage, developmental miscalibration — each point to a different treatment approach.",
+      "description": "Current psychiatry classifies many aversive presentations as disorders and treats them with suppression (pharmacotherapy, CBT targeting the experience). Cor reframes many presentations as signals of environmental mismatch (OF2): the architecture is working correctly, the environment is outside the expected range, and the signal is telling the clinician where to look. Clinical practice redesigned around Cor includes: (1) environmental audit against the mechanism inventory (M1-M14 + R1) before or alongside symptom treatment, (2) resolution-condition restoration as the first-line intervention where feasible, (3) pharmacotherapy and symptom-suppression reserved for genuinely dysregulated states (not for defensive-activation states that will resolve once the environmental input is corrected). The four categories the handoff distinguishes — defensive activation, dysregulation, damage, developmental miscalibration — each point to a different treatment approach.",
       "relevant_foundations": [
+        "OF2",
         "DA1",
         "DA3",
-        "DA7"
+        "DA7",
+        "DA9",
+        "DC3"
       ],
       "relevant_mechanisms": [
         "M1",
@@ -56,13 +60,13 @@
       "evaluation_criteria": {
         "mechanism_audit": "For each presenting symptom, which mechanism(s) is it a signal from? Which resolution conditions are currently unmet?",
         "category_distinction": "Is this presentation (a) defensive activation under mismatch, (b) dysregulation of a previously functional system, (c) damage to the system, or (d) developmental miscalibration? Treatment differs in each case.",
-        "environment_vs_organism": "Can the environment be corrected? If yes, try that first — it's the less invasive and more durable intervention.",
+        "environment_vs_organism": "Can the environment be corrected? If yes, try that first (DC3) — it's the less invasive and more durable intervention.",
         "proxy_versus_resolution": "Are current interventions (pharmacological or behavioral) providing resolution or only attenuating the signal? A proxy that attenuates without resolving maintains the underlying mismatch."
       },
       "example_outputs": [
         "A depressed patient with poor sleep, sedentary work, and isolated living should get a mechanism audit (M7, M10, M3) before SSRI initiation. Ilardi's TLC protocol evidence supports this ordering.",
         "A panic disorder presenting after a sleep-deprivation period has M7-driven amygdala hyperreactivity as the likely driver (Walker). Treatment: sleep restoration, not benzodiazepine chronic use.",
-        "Adolescent anxiety in a high-device / low-movement / low-outdoor context may be M7 + M10 + M4 deprivation expressing as M1 over-activation. SSRI before environmental audit is missing the signal."
+        "Adolescent anxiety in a high-device / low-movement / low-outdoor context may be M7 + M10 + M4 deprivation expressing as M1 over-activation. SSRI before environmental audit is missing the signal (OF2)."
       ],
       "created_at": "2026-04-04T19:19:39.879157+00:00"
     },
@@ -70,12 +74,14 @@
       "id": 3,
       "code": "A3",
       "name": "Environment Design",
-      "description": "Architecture, urban planning, office design, product design, school design, and healthcare facility design currently proceed without a clear account of what the human organism requires to function. Cor provides the framework. Each evolved mechanism has resolution conditions (documented in Cor's mechanism architecture) that the designed environment either satisfies or degrades. The application: design environments that satisfy resolution conditions for each mechanism — M7 light/dark cycles, M10 movement integration, M3 social density, M4 unstructured play space for children, M9 alloparental-care commons, R1 touch-positive cultures. Designers should be able to audit any proposed environment against the Cor inventory and flag which mechanisms will be compromised by default.",
+      "description": "Architecture, urban planning, office design, product design, school design, and healthcare facility design currently proceed without a clear account of what the human organism requires to function. Cor provides the framework. Each evolved mechanism has resolution conditions (documented in Cor's mechanism architecture) that the designed environment either satisfies or degrades. The application: design environments that satisfy resolution conditions for each mechanism — M7 light/dark cycles, M10 movement integration, M3 social density, M4 unstructured play space for children, M9 alloparental-care commons, R1 touch-positive cultures. The 150 ceiling is the outer cognitive limit on coherent face-to-face relationships, but the layers below it are the structure M3 actually operates on day-to-day: 5 close confidants providing emotional and physical support, 15 in the sympathy group (jury-scale), 50 at the typical hunter-gatherer overnight camp scale, 150 at the clan ceiling, with looser layers extending to 500 and 1500. M3 resolution conditions are typically met or unmet at the 5 and 15 layers; the 150 ceiling matters most for team/floor design, urban planning, and institutional scale, where it sets the upper bound on coherent group cohesion. Designers should be able to audit any proposed environment against the Cor inventory and flag which mechanisms will be compromised by default (DC3).",
       "relevant_foundations": [
         "P3",
         "DA2",
         "DA4",
-        "DA7"
+        "DA7",
+        "DA9",
+        "DC3"
       ],
       "relevant_mechanisms": [
         "M3",
@@ -94,9 +100,9 @@
         "mechanism_satisfaction_audit": "For each mechanism M1-M14 + R1, does the designed environment satisfy, degrade, or ignore its resolution conditions? Rate each on a matched / attenuated / mismatched scale."
       },
       "example_outputs": [
-        "Office redesign: mandatory outdoor 30-minute walk windows built into the workflow serve M10 and M7 simultaneously; a ~150-person Dunbar ceiling for team/floor structure serves M3 and M5.",
-        "Apartment complex: shared alloparental-care commons with multiple trusted caregivers cycling through serves M9 and M3 for families without biological kin nearby.",
-        "School design: outdoor unstructured free-play time of ≥90 min/day serves M4 directly; classroom light with morning daylight exposure serves M7; staff-to-student ratios calibrated to attachment capacity serve M3."
+        "Office redesign: mandatory outdoor 30-minute walk windows built into the workflow serve M10 and M7 simultaneously; a ~150-person Dunbar ceiling for team/floor structure serves M3 and M5 (DA9).",
+        "Apartment complex: shared alloparental-care commons with multiple trusted caregivers cycling through serves M9 and M3 for families without biological kin nearby (DC3).",
+        "School design: outdoor unstructured free-play time of ≥90 min/day serves M4 directly; classroom light with morning daylight exposure serves M7; staff-to-student ratios calibrated to attachment capacity serve M3 (DC3)."
       ],
       "created_at": "2026-04-04T19:19:39.879157+00:00"
     },
@@ -107,7 +113,9 @@
       "description": "Individuals currently diagnose themselves through the cultural filter of psychiatric categories, productivity culture, wellness trends, or self-help frameworks. Cor provides a direct assessment: which mechanism's resolution conditions are unmet in your life right now? A tool built on the framework lets the user answer questions about their environment and get back a picture of which mechanisms are matched vs mismatched, with resolution-condition statements they can act on. This is not therapy, not diagnosis, not productivity advice; it is an audit of the inputs the user's evolved architecture currently is or is not receiving.",
       "relevant_foundations": [
         "OF1",
-        "DA1"
+        "OF2",
+        "DA1",
+        "DA9"
       ],
       "relevant_mechanisms": [
         "M1",
@@ -128,13 +136,13 @@
       ],
       "evaluation_criteria": {
         "one_lever_test": "If the user could change one input this week, which mechanism's resolution condition has the highest leverage? (Often M7 or M10 because they unblock cascades.)",
-        "proxy_identification": "Which resolution conditions is the user currently meeting via proxy rather than via matched input? (e.g., M5 satisfied via social media status metrics is a proxy; M5 satisfied via a trusted ~150-person reference group is matched.)",
+        "proxy_identification": "Which resolution conditions is the user currently meeting via proxy rather than via matched input? (e.g., M5 satisfied via social media status metrics is a proxy; M5 satisfied via a trusted ~150-person reference group is matched (DA9).)",
         "cascade_identification": "Are there active cross-mechanism cascades (e.g., M3 deficit → M1 elevated → M2 suppressed → M10 reduced → M8 inflammation)? The dashboard should surface these patterns.",
         "mechanism_state_self_report": "For each mechanism, the user reports the current state of its resolution conditions (satisfied, partial, absent)."
       },
       "example_outputs": [
         "Individual dashboard output: M3 (8 co-regulators, physical presence weekly) matched; M7 (sleep fragmented, blue-light exposure until late) mismatched; M10 (sedentary, 2000 steps/day) severely mismatched; M5 (social-media status comparison with millions) proxy-satisfied. Priority: M10 and M7 simultaneously (break the M10-M7-M8 cascade chain).",
-        "Audit for a new parent: M9 (no alloparental network, 0 trusted co-caregivers sharing load) severely mismatched, driving M7, M3, and M1 all into cascade. Priority: build alloparental network; this is the architectural rather than the cultural frame.",
+        "Audit for a new parent: M9 (no alloparental network, 0 trusted co-caregivers sharing load) severely mismatched, driving M7, M3, and M1 all into cascade. Priority: build alloparental network; this is the architectural rather than the cultural frame (DA9).",
         "Audit for a remote worker: M3 (mediated contact only), M6 (abstract work without visible action-outcome feedback), M10 (sedentary), M7 (no consistent light cue) all mismatched. Remote work is an architectural risk profile, not a lifestyle preference."
       ],
       "created_at": "2026-04-04T19:19:39.879157+00:00"
@@ -143,11 +151,13 @@
       "id": 5,
       "code": "A5",
       "name": "Education and Child Development",
-      "description": "Current education treats children as cognitive agents to fill with information, organized around the economic value of the adult they will become. Cor reframes education as organism care: children are developing organisms with mechanism requirements that current school design routinely violates. M4 (play) requires unstructured, age-matched, unsupervised physical play — which contemporary schooling systematically removes. M7 (circadian) requires age-appropriate school start times and daylight exposure — routinely violated for adolescents. M10 (movement) requires embedded daily movement, not scheduled PE. M3 (attachment) requires stable caring relationships with specific adults — eroded by class-rotation designs. M9 (alloparenting) assumes children will be cared for by multiple trusted adults — which school + family-only models fail to provide. Educational reform under Cor begins by auditing the design against the mechanism inventory and redesigning to satisfy the resolution conditions of the developing organism.",
+      "description": "Current education treats children as cognitive agents to fill with information, organized around the economic value of the adult they will become. Cor reframes education as organism care: children are developing organisms with mechanism requirements that current school design routinely violates. M4 (play) requires unstructured, age-matched, unsupervised physical play — which contemporary schooling systematically removes. M7 (circadian) requires age-appropriate school start times and daylight exposure — routinely violated for adolescents. M10 (movement) requires embedded daily movement, not scheduled PE. M3 (attachment) requires stable caring relationships with specific adults — eroded by class-rotation designs. M9 (alloparenting) assumes children will be cared for by multiple trusted adults — which school + family-only models fail to provide. Educational reform under Cor begins by auditing the design against the mechanism inventory and redesigning to satisfy the resolution conditions of the developing organism (DC3).",
       "relevant_foundations": [
         "DA7",
         "P2",
-        "DA2"
+        "DA2",
+        "DA9",
+        "DC3"
       ],
       "relevant_mechanisms": [
         "M3",
@@ -180,7 +190,9 @@
         "DC2",
         "P3",
         "DA2",
-        "DA4"
+        "DA4",
+        "DA9",
+        "DC3"
       ],
       "relevant_mechanisms": [
         "M3",
@@ -195,12 +207,12 @@
         "architectural_honesty": "Does the policy treat humans as the evolved organism they are, or as economic agents / cultural constructs / blank slates? Evaluate against P2 (domain-sensitive organism) rather than current economic-agent assumptions.",
         "proxy_vs_resolution_design": "Does the policy create or remove proxies? Policies that remove industrial proxy exploitation (ultra-processed food, variable-reward apps targeted at children, engagement-metric-maximizing platforms) correct mismatch; policies that subsidize proxies entrench it.",
         "population_mechanism_impact": "For each mechanism, how does this policy affect the population's resolution-condition satisfaction? (Net direction + magnitude + vulnerable-subpopulation disparities.)",
-        "subpopulation_vulnerability": "Which subpopulations are operating with the most degraded mechanism resolution conditions currently? Policy should target the bottleneck mechanisms for those populations first."
+        "subpopulation_vulnerability": "Which subpopulations are operating with the most degraded mechanism resolution conditions currently? Policy should target the bottleneck mechanisms for those populations first (DA9)."
       },
       "example_outputs": [
-        "Food policy: tax ultra-processed food (M13 proxy bypass of satiety), subsidize whole-food access in low-income areas, regulate marketing to children. Target: M13 and M8 via M13.",
-        "Urban design: walkable neighborhoods with third-place social infrastructure serve M3 + M10 + M11 simultaneously; dark-sky ordinances protect M7 for the population; universal child-play spaces serve M4.",
-        "Platform regulation: engagement-metric-maximizing algorithms targeted at minors fall under DC2 proxy exploitation and should face the same regulatory treatment as other proxy-exploitation industries. Age-of-access and algorithmic transparency are architectural not values-based issues."
+        "Food policy: tax ultra-processed food (M13 proxy bypass of satiety), subsidize whole-food access in low-income areas, regulate marketing to children. Target: M13 and M8 via M13 (DC3).",
+        "Urban design: walkable neighborhoods with third-place social infrastructure serve M3 + M10 + M11 simultaneously; dark-sky ordinances protect M7 for the population; universal child-play spaces serve M4 (DC3).",
+        "Platform regulation: engagement-metric-maximizing algorithms targeted at minors fall under DC2 proxy exploitation and should face the same regulatory treatment as other proxy-exploitation industries. Age-of-access and algorithmic transparency are architectural not values-based issues (DC3)."
       ],
       "created_at": "2026-04-04T19:19:39.879157+00:00"
     }

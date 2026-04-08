@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-04-07",
+  "as_of": "2026-04-08",
   "counts": {
-    "foundations": 14,
+    "foundations": 17,
     "convergences": 14,
     "mechanisms": 15,
     "empirical_demonstrations": 10,
@@ -28,6 +28,18 @@
       "scope_notes": null
     },
     {
+      "code": "DC3",
+      "layer": "consequence",
+      "name": "Environment as Primary Intervention Layer",
+      "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself.",
+      "derivation": "Empirical corollary of DA8 + DA9; supported by Forest Troop, Roseto, Ilardi TLC, BEIP, captive-chimpanzee enrichment.",
+      "epistemic_grade": "strongly_supported",
+      "scope_notes": "Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
+      "additional_paragraphs": [
+        "DC3 reframes intervention strategy at the systemic and population-scale level. Cortical override is metabolically costly and is degraded by exactly the chronic activation states that demand it most, so designing environments that do not require constant override is typically higher leverage than scaling up override capacity. This is not a claim that cognitive, pharmacological, or psychotherapeutic interventions fail — they often work, and where indicated they should be used. It is a claim about which layer institutional and design decisions should default to when both layers are available, particularly for population-scale outcomes. Whether environmental correction outperforms user-side intervention in head-to-head comparisons is an empirical question Cor does not currently make a strong claim on; the leverage claim is the primary content of DC3."
+      ]
+    },
+    {
       "code": "OF1",
       "layer": "frame",
       "name": "Fitness Interface",
@@ -35,6 +47,15 @@
       "derivation": "Hoffman (Interface Theory of Perception), Prakash et al. (Fitness Beats Truth theorem).",
       "epistemic_grade": "frame",
       "scope_notes": "Everything experienced is a species-specific interface shaped by natural selection to track fitness payoffs, not truth. The specification operates entirely within this interface. OF1 does not enter the derivation chain — its function is to clarify that every mechanism output is a fitness-relevant signal by design, and to keep the door open to ontological questions outside the interface."
+    },
+    {
+      "code": "OF2",
+      "layer": "frame",
+      "name": "Signal-Default Epistemology",
+      "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default.",
+      "derivation": "Frame; the diagnostic default the atlas applies before any clinical or design intervention.",
+      "epistemic_grade": "frame",
+      "scope_notes": "The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects."
     },
     {
       "code": "P1",
@@ -134,6 +155,18 @@
       "derivation": "Panksepp (phylogenetic depth of affective circuits) + cross-species conservation evidence.",
       "epistemic_grade": "forced",
       "scope_notes": null
+    },
+    {
+      "code": "DA9",
+      "layer": "property",
+      "name": "Non-Substitutability of Mechanism Resolution",
+      "statement": "Mechanism resolution conditions are not fully interchangeable. Improvement in one mechanism can buffer or modulate consequences in another, especially where mechanisms are recurrently coupled (DA3), but cross-system buffering does not generally replace the specific resolution conditions of an impaired mechanism.",
+      "derivation": "Bottleneck heuristic from Liebig 1840; follows from P2; coupling effects handled by DA3.",
+      "epistemic_grade": "strongly_supported",
+      "scope_notes": "Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states.",
+      "additional_paragraphs": [
+        "DA9 distinguishes the architecture from utility-aggregation frameworks. A severely degraded M3 cannot be substituted by a flourishing M2 — the resolution conditions are not interchangeable, even when the mechanisms are coupled (DA3) and one can buffer or modulate the other. The protocol therefore measures mechanism dimensions independently rather than collapsing them into a single well-being index. Liebig's Law of the Minimum (1840) is the historical heuristic for the bottleneck pattern: plant growth is often constrained by the scarcest essential nutrient. Cor adopts the bottleneck framing, not a strict biochemical claim of zero substitutability — the human architecture does show cross-system buffering, and DA3 handles that coupling explicitly."
+      ]
     }
   ],
   "convergences": [
@@ -341,6 +374,10 @@
       ],
       "forces_mechanism": "M3",
       "epistemic_grade": "forced",
+      "additional_paragraphs": [
+        "The 150 parameter has direct empirical validation: Facebook friend-count studies on UK national samples (N≈2000 and N≈1375) returned mean friend counts of ~155 and ~183, statistically indistinguishable from the prediction, with only ~14% of users exceeding 300 friends (Dunbar 2016).",
+        "Three of these literatures explicitly engage Dunbar's parameter in their own frameworks: Tomasello and Hrdy build on his layered social architecture directly (shared intentionality and cooperative-breeding respectively), and Henrich cites his social-brain parameter while reframing the underlying mechanism in terms of cumulative cultural learning rather than Machiavellian intelligence. The parameter survives the disagreement, which strengthens rather than weakens its load-bearing role across traditions."
+      ],
       "supporting_extractions": [
         46,
         47,

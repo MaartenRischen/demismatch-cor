@@ -21,6 +21,91 @@
         "'": "&#39;",
       }[char];
     });
+  const SPEC_FOUNDATION_ORDER = [
+    "OF1",
+    "OF2",
+    "P1",
+    "P2",
+    "P3",
+    "DA1",
+    "DA2",
+    "DA3",
+    "DA4",
+    "DA5",
+    "DA6",
+    "DA7",
+    "DA8",
+    "DA9",
+    "DC1",
+    "DC2",
+    "DC3",
+  ];
+  const SPEC_FOUNDATION_SUPPLEMENTS = [
+    {
+      code: "OF2",
+      layer: "frame",
+      name: "Signal-Default Epistemology",
+      statement:
+        "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default.",
+      derivation:
+        "Frame; the diagnostic default the atlas applies before any clinical or design intervention.",
+      epistemic_grade: "frame",
+      scope_notes:
+        "The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects.",
+    },
+    {
+      code: "DA9",
+      layer: "property",
+      name: "Non-Substitutability of Mechanism Resolution",
+      statement:
+        "Mechanism resolution conditions are not fully interchangeable. Improvement in one mechanism can buffer or modulate consequences in another, especially where mechanisms are recurrently coupled (DA3), but cross-system buffering does not generally replace the specific resolution conditions of an impaired mechanism.",
+      derivation: "Bottleneck heuristic from Liebig 1840; follows from P2; coupling effects handled by DA3.",
+      epistemic_grade: "strongly_supported",
+      scope_notes:
+        "Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states.",
+      additional_paragraphs: [
+        "DA9 distinguishes the architecture from utility-aggregation frameworks. A severely degraded M3 cannot be substituted by a flourishing M2 — the resolution conditions are not interchangeable, even when the mechanisms are coupled (DA3) and one can buffer or modulate the other. The protocol therefore measures mechanism dimensions independently rather than collapsing them into a single well-being index. Liebig's Law of the Minimum (1840) is the historical heuristic for the bottleneck pattern: plant growth is often constrained by the scarcest essential nutrient. Cor adopts the bottleneck framing, not a strict biochemical claim of zero substitutability — the human architecture does show cross-system buffering, and DA3 handles that coupling explicitly.",
+      ],
+    },
+    {
+      code: "DC3",
+      layer: "consequence",
+      name: "Environment as Primary Intervention Layer",
+      statement:
+        "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself.",
+      derivation:
+        "Empirical corollary of DA8 + DA9; supported by Forest Troop, Roseto, Ilardi TLC, BEIP, captive-chimpanzee enrichment.",
+      epistemic_grade: "strongly_supported",
+      scope_notes:
+        "Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
+      additional_paragraphs: [
+        "DC3 reframes intervention strategy at the systemic and population-scale level. Cortical override is metabolically costly and is degraded by exactly the chronic activation states that demand it most, so designing environments that do not require constant override is typically higher leverage than scaling up override capacity. This is not a claim that cognitive, pharmacological, or psychotherapeutic interventions fail — they often work, and where indicated they should be used. It is a claim about which layer institutional and design decisions should default to when both layers are available, particularly for population-scale outcomes. Whether environmental correction outperforms user-side intervention in head-to-head comparisons is an empirical question Cor does not currently make a strong claim on; the leverage claim is the primary content of DC3.",
+      ],
+    },
+  ];
+  const SPEC_CONVERGENCE_ADDITIONS = {
+    C5: [
+      "The 150 parameter has direct empirical validation: Facebook friend-count studies on UK national samples (N≈2000 and N≈1375) returned mean friend counts of ~155 and ~183, statistically indistinguishable from the prediction, with only ~14% of users exceeding 300 friends (Dunbar 2016).",
+      "Three of these literatures explicitly engage Dunbar's parameter in their own frameworks: Tomasello and Hrdy build on his layered social architecture directly (shared intentionality and cooperative-breeding respectively), and Henrich cites his social-brain parameter while reframing the underlying mechanism in terms of cumulative cultural learning rather than Machiavellian intelligence. The parameter survives the disagreement, which strengthens rather than weakens its load-bearing role across traditions.",
+    ],
+  };
+  const SUPPLEMENTAL_WORKS = [
+    {
+      id: 64,
+      title: "Die organische Chemie in ihrer Anwendung auf Agricultur und Physiologie",
+      authors: "LIEBIG",
+      year: 1840,
+      importance: "supporting",
+      work_type: "book",
+      summary: null,
+      why_included:
+        "Grounds DA9 — historical heuristic for the bottleneck pattern underlying non-substitutability of mechanism resolution. The agronomy content does not transfer; the structural form does.",
+      in_physical_collection: false,
+      primary_researcher_id: null,
+      v2_researchers: null,
+      researcher: {},
+    },
+  ];
 
   async function fetchLive(path) {
     const response = await fetch(`${API_URL}${path}`, { headers: HEADERS });
@@ -74,7 +159,7 @@
     }
     node.classList.add("is-snapshot");
     node.innerHTML = `<strong>Live data temporarily unavailable.</strong> Showing committed snapshot from ${esc(
-      snapshotDate || "2026-04-07"
+      snapshotDate || "2026-04-08"
     )}.`;
   }
 
@@ -162,6 +247,88 @@
     };
   }
 
+  function augmentSpec(data) {
+    if (!data) return data;
+
+    const order = SPEC_FOUNDATION_ORDER.reduce((acc, code, index) => {
+      acc[code] = index;
+      return acc;
+    }, {});
+
+    const foundations = Array.isArray(data.foundations) ? data.foundations : [];
+    const foundationByCode = new Map(foundations.map((item) => [item.code, item]));
+    SPEC_FOUNDATION_SUPPLEMENTS.forEach((item) => {
+      foundationByCode.set(item.code, {
+        ...(foundationByCode.get(item.code) || {}),
+        ...item,
+      });
+    });
+
+    const augmentedFoundations = Array.from(foundationByCode.values()).sort((a, b) => {
+      const aOrder = order[a.code] ?? 999;
+      const bOrder = order[b.code] ?? 999;
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      return String(a.code || "").localeCompare(String(b.code || ""));
+    });
+
+    const convergences = Array.isArray(data.convergences) ? data.convergences : [];
+    const augmentedConvergences = convergences.map((item) => {
+      const additions = SPEC_CONVERGENCE_ADDITIONS[item.code];
+      if (!Array.isArray(additions) || !additions.length) return item;
+      const existing = Array.isArray(item.additional_paragraphs) ? item.additional_paragraphs : [];
+      const merged = [...existing];
+      additions.forEach((paragraph) => {
+        if (!merged.includes(paragraph)) merged.push(paragraph);
+      });
+      return {
+        ...item,
+        additional_paragraphs: merged,
+      };
+    });
+
+    const counts = buildSpecCounts({
+      foundations: augmentedFoundations,
+      convergences: augmentedConvergences,
+      mechanisms: Array.isArray(data.mechanisms) ? data.mechanisms : [],
+      empirical_demonstrations: Array.isArray(data.empirical_demonstrations)
+        ? data.empirical_demonstrations
+        : [],
+      challenges: Array.isArray(data.challenges) ? data.challenges : [],
+      gaps: Array.isArray(data.gaps) ? data.gaps : [],
+    });
+
+    return {
+      ...data,
+      foundations: augmentedFoundations,
+      convergences: augmentedConvergences,
+      counts,
+    };
+  }
+
+  function augmentWorks(data) {
+    if (!data || !Array.isArray(data.works)) return data;
+
+    const mergedWorks = [...data.works];
+    const seenTitles = new Set(mergedWorks.map((work) => work.title));
+    SUPPLEMENTAL_WORKS.forEach((work) => {
+      if (!seenTitles.has(work.title)) {
+        mergedWorks.push(work);
+      }
+    });
+
+    const normalized = normalizeWorks(
+      mergedWorks.map((work) => ({
+        ...work,
+        researcher: work.researcher || getResearcher(work),
+      }))
+    );
+
+    return {
+      as_of: data.as_of || "2026-04-08",
+      ...normalized,
+    };
+  }
+
   async function loadLiveSpec() {
     const [foundations, convergences, mechanisms, empirical, gaps, rawChallenges] = await Promise.all([
       fetchLive("/v2_foundations?order=layer.asc,code.asc&select=code,layer,name,statement,derivation,epistemic_grade,scope_notes"),
@@ -182,7 +349,7 @@
 
     const filteredGaps = gaps.filter((gap) => !["G10", "G12", "G13", "G14"].includes(gap.code));
     const snapshot = {
-      as_of: "2026-04-07",
+      as_of: "2026-04-08",
       counts: buildSpecCounts({
         foundations,
         convergences,
@@ -211,7 +378,7 @@
       "/v2_works?order=importance.asc,year.asc,title.asc&select=id,title,authors,year,importance,work_type,summary,why_included,in_physical_collection,primary_researcher_id,v2_researchers!primary_researcher_id(name,tier,sub_level)"
     );
     return {
-      as_of: "2026-04-07",
+      as_of: "2026-04-08",
       ...normalizeWorks(
         works.map((work) => ({
           ...work,
@@ -237,7 +404,7 @@
     }, {});
 
     return {
-      as_of: "2026-04-07",
+      as_of: "2026-04-08",
       counts: researchers.reduce(
         (acc, researcher) => {
           acc.total += 1;
@@ -412,6 +579,13 @@
                         ? `<p><strong>Scope:</strong> ${esc(item.scope_notes)}</p>`
                         : ""
                     }
+                    ${
+                      Array.isArray(item.additional_paragraphs) && item.additional_paragraphs.length
+                        ? item.additional_paragraphs
+                            .map((paragraph) => `<p>${esc(paragraph)}</p>`)
+                            .join("")
+                        : ""
+                    }
                   </article>
                 `
                   )
@@ -446,6 +620,13 @@
             ${
               Array.isArray(item.independent_literatures) && item.independent_literatures.length
                 ? `<p><strong>Independent literatures:</strong> ${esc(item.independent_literatures.join(" | "))}</p>`
+                : ""
+            }
+            ${
+              Array.isArray(item.additional_paragraphs) && item.additional_paragraphs.length
+                ? item.additional_paragraphs
+                    .map((paragraph) => `<p>${esc(paragraph)}</p>`)
+                    .join("")
                 : ""
             }
           </article>
@@ -746,7 +927,7 @@
         ]);
         return;
       }
-      renderSpec(result.data, result.source);
+      renderSpec(augmentSpec(result.data), result.source);
     }
 
     if (page === "works") {
@@ -755,7 +936,7 @@
         renderFatal(["#works-list"]);
         return;
       }
-      renderWorks(result.data, result.source);
+      renderWorks(augmentWorks(result.data), result.source);
     }
 
     if (page === "thinkers") {

@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-04-07",
+  "as_of": "2026-04-08",
   "counts": {
-    "total": 65,
+    "total": 66,
     "pillar": 38,
     "key": 25,
-    "supporting": 2
+    "supporting": 3
   },
   "works": [
     {
@@ -1276,6 +1276,20 @@
       "work_type": "paper",
       "summary": null,
       "why_included": "Philosophical challenge to OF1 — Esposito's reassessment of the Evolutionary Argument Against Truth. Imported to represent the contested-philosophical-challenge axis; Cor's OF1 position survives this challenge but the argument deserves explicit treatment.",
+      "in_physical_collection": false,
+      "primary_researcher_id": null,
+      "v2_researchers": null,
+      "researcher": {}
+    },
+    {
+      "id": 64,
+      "title": "Die organische Chemie in ihrer Anwendung auf Agricultur und Physiologie",
+      "authors": "LIEBIG",
+      "year": 1840,
+      "importance": "supporting",
+      "work_type": "book",
+      "summary": null,
+      "why_included": "Grounds DA9 — historical heuristic for the bottleneck pattern underlying non-substitutability of mechanism resolution. The agronomy content does not transfer; the structural form does.",
       "in_physical_collection": false,
       "primary_researcher_id": null,
       "v2_researchers": null,
