@@ -1,0 +1,2362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cor: a complete account of what a human being is</title>
+<meta name="description" content="Cor is a formal, evidence-grounded account of the complete human motivational-emotional architecture. Open infrastructure. Every claim auditable to primary sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/*
+  Cor v2 website
+  RULE 7: No hardcoded numbers/names/works. Everything renders from v2 REST at load.
+  Ten Sentences is a static copy section (voice standard). Every stat falls back to
+  an empty state ("—" or "loading…"), never a stale value.
+*/
+:root{
+  /* Light theme — editorial science. Nature journal meets Stripe docs. */
+  --bg:#ffffff;
+  --bg-soft:#f7f7f7;
+  --bg-card:#ffffff;
+  --bg-hover:#f9f9f9;
+  --border:#e0e0e0;
+  --border-soft:#eaeaea;
+  --fg:#111111;
+  --fg-dim:#444444;
+  --fg-faint:#888888;
+  --amber:#c17a2f;
+  --amber-soft:#d49a55;
+  --cyan:#1a7a7a;
+  --rust:#b05530;
+  --olive:#4a6a30;
+  --warn:#c06030;
+  /* Dark-mode vars for hero + audit bridge */
+  --dark-bg:#0a0d14;
+  --dark-bg-soft:#11151f;
+  --dark-fg:#e8e6df;
+  --dark-fg-dim:#9ba0ad;
+  --dark-fg-faint:#5c6270;
+  --dark-border:#232938;
+  --dark-amber:#d4a574;
+  --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+  --sans:'Inter',-apple-system,system-ui,sans-serif;
+  --serif:'Source Serif 4',Georgia,serif;
+  --maxw:1400px;
+  --pad-x:3rem;
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased;margin:0;padding:0;font-size:17px}
+body{overflow-x:hidden}
+a{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(193,122,47,.3);transition:border-color .15s}
+a:hover{border-color:var(--amber)}
+button{font-family:inherit;font-size:inherit;color:inherit;background:none;border:none;cursor:pointer;padding:0}
+code,.mono{font-family:var(--mono)}
+h1,h2,h3,h4{font-weight:700;line-height:1.15;letter-spacing:-.01em;margin:0;color:var(--fg)}
+h1{font-size:clamp(2.2rem,4.5vw,3.6rem);font-weight:700;letter-spacing:-.025em}
+h2{font-size:clamp(1.5rem,2.4vw,2rem);letter-spacing:-.015em;font-weight:700}
+h3{font-size:1.15rem;font-weight:700}
+p{margin:0 0 1em}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad-x);box-sizing:border-box}
+@media(max-width:720px){.wrap{padding:0 1.25rem}}
+
+/* ───── NAV ───── */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:var(--maxw);margin:0 auto;padding:.9rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.nav-brand{font-family:var(--mono);font-weight:600;font-size:.95rem;letter-spacing:.05em;color:var(--fg);border:none;display:inline-flex;align-items:baseline;gap:0}
+.nav-brand .dot{color:var(--amber);margin-right:.4em}
+.nav-brand-sep{color:var(--fg-faint);margin:0 .25em;font-weight:400}
+.nav-brand-parent{color:var(--fg-dim);font-size:.8rem;letter-spacing:.08em;font-weight:500}
+.nav-links{display:flex;gap:1.5rem;font-size:.82rem;color:var(--fg-dim);font-family:var(--mono)}
+.nav-links a{color:var(--fg-dim);border:none}
+.nav-links a:hover{color:var(--amber)}
+@media(max-width:820px){.nav-links{display:none}}
+
+/* ───── HERO (two-column: Cor left 65-70%, De-Mismatch right 30-35%) ───── */
+.hero{position:relative;display:flex;flex-direction:column;justify-content:center;min-height:90vh;border-bottom:none;background:radial-gradient(ellipse at 20% 0%,rgba(212,165,116,.07) 0%,transparent 55%),linear-gradient(180deg,var(--dark-bg) 0%,var(--dark-bg-soft) 100%);overflow:hidden;color:var(--dark-fg)}
+.hero-content{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:4.5rem var(--pad-x) 2.5rem;width:100%;box-sizing:border-box}
+.hero h1{margin-bottom:2rem;color:var(--dark-fg);font-size:clamp(1.8rem,3.6vw,2.8rem);max-width:100%}
+/* Two-column grid */
+.hero-grid{display:grid;grid-template-columns:1fr 380px;gap:3rem;align-items:start;margin-bottom:1.8rem}
+@media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:2rem}}
+/* Left: COR (dominant) */
+.hero-cor-title{font-size:clamp(1rem,1.6vw,1.2rem);font-weight:600;color:var(--dark-fg);line-height:1.4;margin:0 0 1.4rem}
+.hero-cor-title .cor-mark{color:var(--dark-amber);font-family:var(--mono);letter-spacing:.06em}
+.hero-cor p{font-size:.96rem;color:var(--dark-fg-dim);line-height:1.65;margin:0 0 .9rem;font-weight:400}
+.hero-cor p strong{color:var(--dark-fg);font-weight:600}
+.hero-cor-cites{font-family:var(--mono);font-size:.72rem;color:var(--dark-amber);font-weight:600;margin-top:.8rem;line-height:1.7;letter-spacing:.01em}
+/* Stat bar (now in attribution strip, light context) */
+.hero-stats{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--border);padding:1.4rem 0 0;margin:1.8rem auto 0;max-width:800px;justify-content:center}
+.hero-stat{flex:1;min-width:100px;padding:0 1.2rem;border-right:1px solid var(--border);text-align:center}
+.hero-stat:last-child{border-right:none}
+.hero-stat-num{font-family:var(--mono);font-size:clamp(1.3rem,2.2vw,1.8rem);font-weight:700;color:var(--amber);line-height:1;display:block;margin-bottom:.3rem}
+.hero-stat-label{font-size:.68rem;color:var(--fg-dim);letter-spacing:.08em;text-transform:uppercase;font-family:var(--mono)}
+/* Right: De-Mismatch (subordinate sidebar card) */
+.hero-dm{padding:1.6rem 1.8rem;border:1px solid rgba(255,255,255,.08);border-left:3px solid var(--dark-amber);background:rgba(255,255,255,.025);height:fit-content}
+.hero-dm-title{font-size:.92rem;font-weight:600;color:var(--dark-fg);line-height:1.4;margin:0 0 1rem}
+.hero-dm-title .dm-mark{color:var(--dark-amber);font-family:var(--mono);letter-spacing:.06em}
+.hero-dm p{font-size:.88rem;color:var(--dark-fg-dim);line-height:1.6;margin:0 0 .7rem;font-weight:400}
+.hero-dm p:last-child{margin-bottom:0}
+.hero-dm p strong{color:var(--dark-fg);font-weight:600}
+/* Bridge + footer (below both columns, full width) */
+.hero-bridge{font-size:.88rem;color:var(--dark-fg-dim);text-align:center;max-width:56ch;margin:0 auto 1.8rem;line-height:1.55;font-style:italic;font-family:var(--serif)}
+.hero-bridge strong{color:var(--dark-fg);font-weight:500}
+.hero-foot{font-family:var(--mono);font-size:.75rem;color:var(--dark-fg-faint);letter-spacing:.06em;text-align:center}
+.hero-foot span{color:var(--dark-amber);opacity:.6}
+
+/* ───── VOICE QUOTES (external voices — their own visual category, rust accent + hanging quote mark) ─────
+   Distinct from image captions (amber card bonded to image) and .in-plain (olive friendly aside). */
+.voice-quotes{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem;margin-top:2.5rem;max-width:1100px}
+@media(max-width:820px){.voice-quotes{grid-template-columns:1fr}}
+.voice-quote{background:transparent;border:none;box-shadow:none;padding:1rem 1.2rem 1rem 3.6rem;position:relative;margin:0}
+.voice-quote::before{content:"\201C";position:absolute;left:.2rem;top:-.6rem;font-family:var(--serif);font-size:4.8rem;line-height:1;color:var(--rust);font-weight:700;opacity:.9}
+/* Quote avatars */
+.quote-avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;display:inline-block;vertical-align:middle;margin-right:.6rem;border:2px solid var(--border);filter:grayscale(.2)}
+.voice-quote blockquote{font-family:var(--serif);font-size:1.18rem;line-height:1.5;color:var(--fg);font-style:italic;margin:0 0 1rem;quotes:none}
+.voice-quote blockquote::before,.voice-quote blockquote::after{content:none}
+.voice-quote cite{font-family:var(--mono);font-size:.74rem;font-style:normal;color:var(--fg-faint);letter-spacing:.04em;display:block;padding-top:.7rem;border-top:1px solid var(--border-soft)}
+.voice-quote cite strong{color:var(--rust);font-weight:600}
+.voice-quote:hover{background:transparent!important;transform:none!important;box-shadow:none!important;border:none!important}
+/* Voice quotes that appear inside the dark hero need dark-mode colors */
+.hero .voice-quote-inline blockquote{color:var(--dark-fg)}
+.hero .voice-quote-inline cite{color:var(--dark-fg-faint);border-top-color:var(--dark-border)}
+.hero .voice-quote-inline cite strong{color:var(--rust)}
+.voice-quote-bridge{grid-column:1/-1;font-family:var(--sans);font-size:.98rem;line-height:1.6;color:var(--fg-dim);padding:1.2rem 1.6rem 0;border-top:1px dashed var(--border-soft);margin-top:.5rem;text-align:center;font-style:normal}
+.voice-quote-bridge strong{color:var(--fg);font-weight:600}
+.voice-quote-inline{background:transparent;border:none;box-shadow:none;padding:1.2rem 1.6rem 1.2rem 4rem;margin:2.8rem auto;max-width:74ch;position:relative}
+.voice-quote-inline::before{content:"\201C";position:absolute;left:.4rem;top:-.8rem;font-family:var(--serif);font-size:5.4rem;line-height:1;color:var(--rust);font-weight:700;opacity:.9}
+.voice-quote-inline blockquote{font-family:var(--serif);font-size:1.26rem;line-height:1.5;color:var(--fg);font-style:italic;margin:0 0 .9rem;quotes:none}
+.voice-quote-inline blockquote::before,.voice-quote-inline blockquote::after{content:none}
+.voice-quote-inline cite{font-family:var(--mono);font-size:.74rem;font-style:normal;color:var(--fg-faint);letter-spacing:.04em;display:block;padding-top:.7rem;border-top:1px solid var(--border-soft)}
+.voice-quote-inline cite strong{color:var(--rust);font-weight:600}
+.voice-quote-inline:hover{background:transparent!important;transform:none!important;box-shadow:none!important;border:none!important}
+/* Frankl anchor quote — centered in the pyr-side area, smaller, no border */
+.frankl-anchor{font-family:var(--serif);font-size:.98rem;font-style:italic;color:var(--fg-dim);margin-top:1.2rem;padding-top:1rem;border-top:1px dashed var(--border-soft)}
+.frankl-anchor cite{font-family:var(--mono);font-size:.72rem;font-style:normal;color:var(--fg-faint);display:block;margin-top:.35rem;letter-spacing:.02em}
+
+/* ───── CONTACT SECTION ───── */
+.contact-sec{background:var(--bg)}
+.contact-sec .sec-label{justify-content:center}
+.contact-sec .sec-label::before{display:none}
+.contact-sec h2{text-align:center;margin-bottom:1rem}
+.contact-sec a[href^="mailto:"]{color:var(--amber);border-bottom-color:rgba(212,165,116,.35);letter-spacing:.02em}
+.contact-sec a[href^="mailto:"]:hover{border-bottom-color:var(--amber)}
+
+/* ───── SECTION SCAFFOLD ───── */
+section.sec{padding:5rem 0;border-bottom:1px solid var(--border);position:relative;background:var(--bg)}
+.sec-head{margin-bottom:3rem;max-width:72ch}
+.sec-label{font-family:var(--mono);font-size:1.1rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:.5rem;display:block;font-weight:700}
+.sec-label::before{display:none}
+.sec-head h2{margin-bottom:.9rem;font-weight:700;color:var(--fg)}
+.sec-lede{font-size:1.05rem;color:var(--fg-dim);max-width:64ch;line-height:1.65;font-weight:400}
+.sec-lede strong{color:var(--fg);font-weight:600}
+
+/* ───── ATTRIBUTION STRIP ───── */
+.attr-strip{padding:4rem 0;background:var(--bg-soft);border-bottom:1px solid var(--border)}
+.attr-head{font-family:var(--mono);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-dim);margin-bottom:1.8rem;text-align:center}
+.attr-names{display:flex;flex-wrap:wrap;justify-content:center;gap:.55rem .3rem;max-width:1000px;margin:0 auto;padding:0 2rem}
+.attr-name{display:inline-flex;align-items:center;padding:.42rem .85rem;background:var(--bg-card);border:1px solid var(--border);border-radius:2px;font-family:var(--mono);font-size:.82rem;color:var(--fg);transition:all .2s}
+.attr-name:hover{background:var(--bg-hover);border-color:var(--amber);color:var(--amber)}
+.attr-name .lvl{color:var(--fg-faint);margin-left:.5rem;font-size:.68rem}
+.attr-more{font-family:var(--mono);font-size:.82rem;color:var(--fg-faint);text-align:center;margin-top:1rem;letter-spacing:.04em}
+
+/* ───── PYRAMID ───── */
+.pyramid-wrap{display:flex;justify-content:center;align-items:center;margin-top:3rem}
+.pyramid{display:flex;flex-direction:column;align-items:center;gap:.45rem;font-family:var(--mono);font-size:.78rem;position:relative}
+.pyr-layer{padding:.75rem 1.2rem;border:1px solid var(--border);background:var(--bg-card);text-align:center;width:100%;max-width:360px;transition:all .2s;color:var(--fg);position:relative;cursor:pointer;outline:none}
+.pyr-layer:hover{border-color:var(--amber);background:var(--bg-hover)}
+.pyr-layer:focus-visible{border-color:var(--amber);box-shadow:0 0 0 2px rgba(212,165,116,.35);background:var(--bg-hover)}
+.pyr-layer[aria-expanded="true"]{border-color:var(--amber);background:var(--bg-hover);box-shadow:0 0 0 1px var(--amber)}
+.pyr-layer .code{color:var(--amber);font-weight:600;font-size:.7rem;letter-spacing:.1em;display:block;margin-bottom:.2rem}
+.pyr-layer .ct{color:var(--fg-dim);font-size:.72rem;margin-left:.5rem}
+.pyr-layer.l0{max-width:200px}
+.pyr-layer.l1{max-width:240px}
+.pyr-layer.l2{max-width:290px}
+.pyr-layer.l3{max-width:330px}
+.pyr-layer.l4{max-width:380px}
+.pyr-layer.l5{max-width:440px}
+.pyr-layer.l6{max-width:500px;background:var(--bg-soft);border-color:var(--border)}
+.pyr-arrow{font-size:.9rem;color:var(--fg-faint)}
+.pyr-side h3{margin-bottom:1rem;color:var(--fg)}
+.pyr-side p{color:var(--fg-dim);font-size:.95rem;margin-bottom:.9rem}
+
+/* Pyramid layer hover tooltip — 1-sentence clarification, shows on hover + keyboard focus, hides once popover is open */
+.pyr-tooltip{position:absolute;left:calc(100% + 1.1rem);top:50%;transform:translateY(-50%);background:var(--bg-card);border:1px solid var(--border);color:var(--fg-dim);font-family:var(--sans);font-size:.78rem;line-height:1.45;padding:.65rem .85rem;width:280px;text-align:left;pointer-events:none;opacity:0;transition:opacity .15s ease-out .15s,transform .15s ease-out;z-index:20;box-shadow:0 4px 14px rgba(0,0,0,.1)}
+.pyr-tooltip::before{content:"";position:absolute;right:100%;top:50%;transform:translateY(-50%);border:6px solid transparent;border-right-color:var(--border)}
+.pyr-tooltip::after{content:"";position:absolute;right:100%;top:50%;transform:translateY(-50%) translateX(1px);border:5px solid transparent;border-right-color:var(--bg-card)}
+.pyr-layer:hover .pyr-tooltip,.pyr-layer:focus-visible .pyr-tooltip{opacity:1;transform:translateY(-50%) translateX(-2px)}
+.pyr-layer[aria-expanded="true"] .pyr-tooltip{opacity:0!important}
+@media(max-width:880px){.pyr-tooltip{display:none}}
+
+/* Pyramid layer popover — attached to clicked layer, click-outside + ESC to close */
+.pyr-popover{position:absolute;left:calc(100% + 1.5rem);top:50%;transform:translateY(-50%);background:var(--bg-card);border:1px solid var(--amber-soft);color:var(--fg);font-family:var(--sans);padding:1.4rem 1.5rem 1.2rem;width:380px;max-width:calc(100vw - 2rem);text-align:left;z-index:30;box-shadow:0 10px 32px rgba(0,0,0,.12);opacity:0;pointer-events:none;transition:opacity .18s ease-out}
+.pyr-popover[data-open="true"]{opacity:1;pointer-events:auto}
+.pyr-popover::before{content:"";position:absolute;right:100%;top:50%;transform:translateY(-50%);border:8px solid transparent;border-right-color:var(--amber-soft)}
+.pyr-popover::after{content:"";position:absolute;right:100%;top:50%;transform:translateY(-50%) translateX(1px);border:7px solid transparent;border-right-color:var(--bg-card)}
+.pyr-popover-label{font-family:var(--mono);font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--amber);margin-bottom:.4rem}
+.pyr-popover-body{font-size:.92rem;line-height:1.55;color:var(--fg-dim);margin-bottom:1rem}
+.pyr-popover-body strong{color:var(--fg)}
+.pyr-popover-action{display:inline-block;font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;color:var(--amber);border:1px solid var(--amber-soft);padding:.55rem .95rem;transition:all .15s;cursor:pointer;background:transparent;border-radius:0}
+.pyr-popover-action:hover,.pyr-popover-action:focus-visible{background:var(--amber);color:var(--bg);border-color:var(--amber);outline:none}
+.pyr-popover-note{font-size:.82rem;line-height:1.55;color:var(--fg-faint);font-style:italic;padding:.55rem .8rem;border-left:2px solid var(--border);background:var(--bg-soft)}
+.pyr-popover-close{position:absolute;top:.55rem;right:.7rem;background:transparent;border:none;color:var(--fg-faint);font-size:1.2rem;cursor:pointer;padding:.25rem .45rem;line-height:1;font-family:var(--mono)}
+.pyr-popover-close:hover,.pyr-popover-close:focus-visible{color:var(--amber);outline:none}
+/* Mobile: popover appears below the layer card instead of to the right */
+@media(max-width:880px){
+  .pyr-popover{left:50%;top:calc(100% + .8rem);transform:translateX(-50%);width:min(420px,calc(100vw - 2rem))}
+  .pyr-popover::before,.pyr-popover::after{right:auto;top:auto;left:50%;bottom:100%;transform:translateX(-50%);border:8px solid transparent}
+  .pyr-popover::before{border-bottom-color:var(--amber-soft);border-right-color:transparent}
+  .pyr-popover::after{border-bottom-color:var(--bg-card);border-right-color:transparent;transform:translateX(-50%) translateY(1px);border-width:7px}
+}
+
+/* Highlight flash applied to the target section when a popover jump-button is clicked */
+@keyframes pyr-target-flash{
+  0%  {box-shadow:0 0 0 0 rgba(212,165,116,0)}
+  20% {box-shadow:0 0 0 4px rgba(212,165,116,.45)}
+  100%{box-shadow:0 0 0 0 rgba(212,165,116,0)}
+}
+.pyr-target-flash{animation:pyr-target-flash 1.8s ease-out;border-radius:4px}
+
+/* ───── FOUNDATIONS ───── */
+.f-layer-head{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-faint);margin:2.4rem 0 1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border-soft)}
+.f-layer-head:first-child{margin-top:0}
+.f-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}
+.f-card{background:var(--bg-card);border:1px solid var(--border);padding:1.4rem;transition:all .2s;cursor:pointer}
+.f-card:hover{border-color:var(--amber-soft)}
+.f-card-head{display:flex;align-items:baseline;gap:.8rem;margin-bottom:.7rem;flex-wrap:wrap}
+.f-card-code{font-family:var(--mono);font-size:.78rem;color:var(--amber);font-weight:600;letter-spacing:.08em}
+.f-card-name{font-size:1.08rem;font-weight:600;color:var(--fg);flex:1}
+.grade-badge{font-family:var(--mono);font-size:.62rem;padding:.18rem .5rem;border:1px solid var(--border);border-radius:2px;text-transform:uppercase;letter-spacing:.08em;color:var(--fg-dim)}
+.grade-badge.forced{color:var(--amber);border-color:var(--amber-soft)}
+.grade-badge.strongly_supported{color:var(--cyan);border-color:var(--cyan)}
+.grade-badge.supported{color:var(--olive);border-color:var(--olive)}
+.grade-badge.frame{color:var(--fg-dim);border-color:var(--border)}
+.f-card-stmt{color:var(--fg);font-size:.94rem;line-height:1.55;margin-bottom:.8rem}
+.f-card-deriv{font-size:.82rem;color:var(--fg-dim);line-height:1.5;padding-top:.7rem;border-top:1px solid var(--border-soft)}
+.f-card-deriv strong{color:var(--fg);font-weight:500}
+.f-card details{margin-top:.8rem}
+.f-card summary{font-family:var(--mono);font-size:.72rem;color:var(--fg-faint);cursor:pointer;padding:.3rem 0;letter-spacing:.05em}
+.f-card summary:hover{color:var(--amber)}
+.f-card details[open] summary{color:var(--amber);margin-bottom:.6rem}
+.f-card-scope{font-size:.84rem;color:var(--fg-dim);line-height:1.55;padding-top:.5rem;border-top:1px dashed var(--border-soft)}
+.f-card-marker{font-style:italic;color:var(--warn);font-size:.8rem;margin-top:.5rem;display:block}
+
+/* ───── MECHANISMS ───── */
+.m-tier-head{display:flex;align-items:center;gap:1rem;margin:2.6rem 0 1.2rem}
+.m-tier-head:first-child{margin-top:0}
+.m-tier-num{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;color:var(--amber);padding:.35rem .7rem;border:1px solid var(--amber-soft);text-transform:uppercase}
+.m-tier-desc{font-size:.86rem;color:var(--fg-dim)}
+.m-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem}
+.m-card{background:var(--bg-card);border:1px solid var(--border);padding:1.5rem;transition:all .2s}
+.m-card:hover{border-color:var(--amber-soft)}
+.m-card-head{display:flex;align-items:baseline;gap:.7rem;margin-bottom:.5rem;flex-wrap:wrap}
+.m-code{font-family:var(--mono);font-size:.82rem;color:var(--amber);font-weight:600}
+.m-name{font-size:1.12rem;font-weight:600;flex:1}
+.m-eli5{color:var(--fg);font-size:.94rem;margin-bottom:.8rem;line-height:1.5;font-weight:400}
+.m-meta{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.8rem}
+.m-chip{font-family:var(--mono);font-size:.64rem;padding:.2rem .5rem;border:1px solid var(--border);color:var(--fg-dim);letter-spacing:.06em;text-transform:uppercase}
+.m-chip.sex-diff{color:var(--rust);border-color:var(--rust)}
+.m-chip.age{color:var(--cyan);border-color:var(--cyan)}
+.m-card details summary{font-family:var(--mono);font-size:.72rem;color:var(--fg-faint);cursor:pointer;letter-spacing:.05em;padding:.4rem 0}
+.m-card details[open] summary{color:var(--amber)}
+.m-card details summary:hover{color:var(--amber)}
+.m-detail{padding-top:.8rem;font-size:.86rem;line-height:1.55}
+.m-detail h4{font-family:var(--mono);font-size:.68rem;color:var(--fg-faint);letter-spacing:.12em;text-transform:uppercase;margin:1rem 0 .3rem}
+.m-detail h4:first-child{margin-top:.3rem}
+.m-detail p{color:var(--fg-dim);margin:0 0 .4rem}
+.m-cascade{font-family:var(--mono);font-size:.76rem;color:var(--cyan)}
+.m-cascade .empty{color:var(--fg-faint)}
+.m-evidence{margin-top:.7rem;padding-top:.7rem;border-top:1px dashed var(--border-soft);font-size:.82rem}
+.m-ev-item{padding:.5rem 0;color:var(--fg-dim);font-style:italic;border-bottom:1px solid var(--border-soft)}
+.m-ev-item:last-child{border-bottom:none}
+.m-ev-src{display:block;font-style:normal;font-size:.72rem;color:var(--fg-faint);margin-top:.25rem;font-family:var(--mono)}
+
+/* ───── CASCADE STORIES ───── */
+.cascade-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:1.2rem}
+.cascade-card{background:var(--bg-card);border:1px solid var(--border);padding:1.6rem;border-left:3px solid var(--rust)}
+.cascade-title{font-size:1.12rem;font-weight:600;margin-bottom:.8rem;color:var(--fg)}
+.cascade-chain{font-family:var(--mono);font-size:.82rem;color:var(--amber);line-height:1.9;margin-bottom:.9rem;padding:.7rem .9rem;background:var(--bg-soft);border:1px solid var(--border-soft)}
+.cascade-chain .arr{color:var(--fg-faint)}
+.cascade-break{font-size:.86rem;color:var(--fg-dim);padding-top:.8rem;border-top:1px dashed var(--border-soft)}
+.cascade-break strong{color:var(--olive);font-weight:500}
+
+/* ───── MECHANISM GRAPH ───── */
+.graph-wrap{background:var(--bg-card);border:1px solid var(--border);padding:2rem 1.5rem 1.5rem;margin-top:2rem;position:relative;overflow-x:auto}
+.graph-svg{width:100%;min-width:1100px;height:auto;display:block}
+.graph-node circle{fill:var(--bg-card);stroke:var(--amber);stroke-width:2;transition:fill .2s,stroke .2s;cursor:pointer}
+.graph-node:hover circle{fill:var(--amber);stroke:var(--amber)}
+.graph-node-code{fill:var(--amber);font-family:var(--mono);font-size:13px;font-weight:700;text-anchor:middle;pointer-events:none;letter-spacing:.02em}
+.graph-node:hover .graph-node-code{fill:var(--bg)}
+.graph-node-name{fill:var(--fg);font-family:var(--mono);font-size:10.5px;text-anchor:middle;pointer-events:none;font-weight:500}
+.graph-node:hover ~ * .graph-node-name{fill:var(--fg-dim)}
+.graph-tier-label{fill:var(--fg-faint);font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+.graph-axis-label{fill:var(--fg-dim);font-family:var(--mono);font-size:9.5px;letter-spacing:.05em}
+.graph-arrow{stroke:var(--amber);stroke-width:1.8;fill:none;opacity:.55;transition:opacity .2s,stroke-width .2s}
+.graph-arrow.active{opacity:.98;stroke-width:2.6}
+.graph-arrow.dimmed{opacity:.15}
+.graph-footnote{margin-top:.9rem;padding-top:.9rem;border-top:1px dashed var(--border-soft);color:var(--fg-faint);font-size:.78rem;font-style:italic;line-height:1.55}
+.graph-tooltip{position:absolute;pointer-events:none;background:var(--bg-card);border:1px solid var(--amber);padding:.7rem .85rem;max-width:260px;font-size:.78rem;line-height:1.5;color:var(--fg);z-index:10;opacity:0;transition:opacity .15s;box-shadow:0 6px 24px rgba(0,0,0,.12)}
+.graph-tooltip.visible{opacity:1}
+.graph-tooltip .gt-code{color:var(--amber);font-family:var(--mono);font-weight:700;font-size:.82rem;letter-spacing:.04em}
+.graph-tooltip .gt-name{color:var(--fg);font-family:var(--serif);font-size:.95rem;display:block;margin-top:.15rem}
+.graph-tooltip .gt-meta{color:var(--fg-dim);font-family:var(--mono);font-size:.7rem;margin-top:.3rem;display:block}
+.graph-tooltip .gt-sup{color:var(--fg-dim);font-size:.72rem;margin-top:.4rem;padding-top:.4rem;border-top:1px solid var(--border-soft)}
+.graph-tooltip .gt-sup b{color:var(--amber);font-weight:500}
+@keyframes mCardHit{0%{box-shadow:0 0 0 0 rgba(212,165,116,0);border-color:var(--border)}25%{box-shadow:0 0 0 3px rgba(212,165,116,.7);border-color:var(--amber)}75%{box-shadow:0 0 0 3px rgba(212,165,116,.5);border-color:var(--amber)}100%{box-shadow:0 0 0 0 rgba(212,165,116,0);border-color:var(--border)}}
+.m-card.hit{animation:mCardHit 2.4s ease-in-out 1;border-color:var(--amber)!important}
+
+/* ───── PIVOTAL WORKS ───── */
+.works-groups{display:flex;flex-direction:column;gap:2.4rem}
+.works-grp-head{font-family:var(--mono);font-size:.78rem;color:var(--amber);letter-spacing:.08em;margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border-soft)}
+.works-grp-head .sub{color:var(--fg-faint);margin-left:.5rem;font-size:.7rem}
+.works-list{display:flex;flex-direction:column;gap:.9rem}
+.work-item{display:grid;grid-template-columns:60px 1fr;gap:1.2rem;padding:1rem 0;border-bottom:1px solid var(--border-soft)}
+.work-year{font-family:var(--mono);font-size:.78rem;color:var(--fg-faint);padding-top:.1rem}
+.work-title{font-size:1rem;font-weight:500;color:var(--fg);margin-bottom:.3rem}
+.work-authors{font-size:.8rem;color:var(--fg-dim);margin-bottom:.5rem;font-family:var(--mono)}
+.work-why{font-size:.86rem;color:var(--fg-dim);line-height:1.55}
+.work-badge{display:inline-block;font-family:var(--mono);font-size:.6rem;padding:.15rem .4rem;border:1px solid var(--olive);color:var(--olive);margin-left:.5rem;letter-spacing:.05em}
+
+/* ───── COLLAPSIBLE SECTIONS (click to expand) ───── */
+.sec-fold{margin:0}
+.sec-fold>summary{list-style:none;cursor:pointer;padding:3rem 0;display:block;position:relative;transition:background .2s}
+.sec-fold>summary::-webkit-details-marker{display:none}
+.sec-fold>summary:hover{background:rgba(193,122,47,.04)}
+.sec-fold>summary .sec-head{margin-bottom:0;position:relative;padding-right:3rem}
+.sec-fold>summary .sec-head::after{content:'▸';position:absolute;right:0;top:50%;transform:translateY(-50%);color:var(--amber);font-size:1.3rem;transition:transform .3s;font-family:var(--mono);line-height:1}
+.sec-fold[open]>summary .sec-head::after{transform:translateY(-50%) rotate(90deg)}
+.sec-fold>summary .sec-fold-hint{display:block;font-family:var(--mono);font-size:.72rem;color:var(--fg-faint);letter-spacing:.1em;text-transform:uppercase;margin-top:.6rem;font-style:italic}
+.sec-fold[open]>summary .sec-fold-hint::before{content:'click to collapse'}
+.sec-fold:not([open])>summary .sec-fold-hint::before{content:'click to expand'}
+.sec-fold .sec-fold-body{padding:0 0 3rem;animation:foldIn .35s ease}
+@keyframes foldIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+/* ───── SEC-SPLIT (universal stacked figure card: image top, caption bottom, one bordered container) ───── */
+/* Peter 2026-04-05 directive: every image caption must be directly under the image, visually attached as one unit. */
+.sec-split{display:flex;flex-direction:column;align-items:stretch;max-width:820px;margin:4.5rem auto;padding:0;box-sizing:border-box;background:var(--bg-card);border:1px solid var(--border);border-top:3px solid var(--amber);box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden;transition:border-color .25s ease,box-shadow .25s ease}
+.sec-split:hover{border-color:var(--amber);box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.sec-split.reverse{/* legacy class: no special behavior in stacked mode */}
+.sec-split-image{width:100%;margin:0;padding:0;display:block;order:1}
+.sec-split-image img{display:block;width:100%;max-width:100%;height:auto;border:none;border-bottom:1px solid var(--border);background:var(--bg-soft);object-fit:contain;margin:0}
+.sec-split-image figcaption{display:none}
+.sec-split-text{width:100%;padding:1.8rem 2rem 2rem;background:var(--bg-card);border:none;max-width:100%;justify-self:stretch;order:2;box-sizing:border-box}
+.sec-split-text .hud-cap-label{display:block;font-family:var(--mono);font-size:.7rem;color:var(--amber);letter-spacing:.18em;text-transform:uppercase;margin-bottom:.9rem;font-weight:600}
+.sec-split-text .sec-split-lede{font-family:var(--serif);font-size:clamp(1.15rem,1.55vw,1.45rem);font-style:normal;color:var(--fg);line-height:1.38;margin:0 0 .9rem;font-weight:500;letter-spacing:-.005em}
+.sec-split-text .sec-split-body{font-family:var(--sans);font-size:.92rem;color:var(--fg-dim);line-height:1.68;margin:0;font-weight:400}
+.sec-split-text .sec-split-body em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:1rem}
+@media(max-width:900px){.sec-split{max-width:calc(100% - 2rem);margin:3rem auto}.sec-split-text{padding:1.5rem 1.4rem 1.6rem}}
+
+/* ───── TEAM SPLIT (profile paragraph + video embed — kept as 2-col per Peter's team layout) ───── */
+.team-split{display:grid;grid-template-columns:1.1fr .9fr;gap:3.5rem;align-items:start;max-width:var(--maxw);margin:3rem auto 4rem;padding:0 var(--pad-x);box-sizing:border-box}
+.team-split-text{max-width:640px;justify-self:start}
+.team-split-text .team-label{display:block;font-family:var(--mono);font-size:.72rem;color:var(--amber);letter-spacing:.16em;text-transform:uppercase;margin-bottom:1rem;font-weight:600}
+.team-split-text .team-lede{font-family:var(--serif);font-size:clamp(1.25rem,1.7vw,1.55rem);font-style:italic;color:var(--fg);line-height:1.4;margin:0 0 1.2rem;font-weight:400}
+.team-split-text .team-body{font-family:var(--sans);font-size:.96rem;color:var(--fg-dim);line-height:1.72;margin:0 0 .9rem}
+.team-split-text .team-body em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:1.02rem}
+.team-split-video{justify-self:end;width:100%;max-width:640px}
+@media(max-width:1100px){.team-split{grid-template-columns:1fr;gap:2.5rem;padding:0 1.5rem;max-width:820px}.team-split-text,.team-split-video{justify-self:stretch;max-width:100%}}
+/* HUD-PAIR: aligned to same max-width as wrap, two card items */
+.hud-pair{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem;max-width:var(--maxw);margin:4.5rem auto;align-items:start;padding:0 var(--pad-x);box-sizing:border-box}
+.hud-pair-item{display:flex;flex-direction:column;background:var(--bg-soft);border:1px solid var(--border);border-left:3px solid var(--amber)}
+.hud-pair-item img{display:block;width:100%;height:auto;border:none;border-bottom:1px solid var(--border);background:var(--bg);object-fit:contain}
+.hud-pair-item .hud-cap-label{display:block;font-family:var(--mono);font-size:.7rem;color:var(--amber);letter-spacing:.16em;text-transform:uppercase;margin:0;padding:1.4rem 1.6rem .55rem;font-weight:600}
+.hud-pair-item .hud-pair-body{font-family:var(--sans);font-size:.92rem;color:var(--fg-dim);line-height:1.65;margin:0;padding:0 1.6rem 1.6rem}
+.hud-pair-item .hud-pair-body em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:1rem}
+@media(max-width:1000px){.hud-pair{grid-template-columns:1fr;gap:2.2rem;padding:0 1.5rem;max-width:820px}}
+/* PYR-SIDE figure: small inline (kept for pyramid sidebar context) */
+.pyr-side .hud-fig{margin:2rem 0 0;display:flex;flex-direction:column;align-items:flex-start;max-width:100%;padding:0}
+.pyr-side .hud-fig img{display:block;width:100%;max-width:100%;height:auto;border:1px solid var(--border);background:var(--bg-soft);object-fit:contain}
+.pyr-side .hud-fig figcaption{font-family:var(--mono);font-size:.72rem;color:var(--fg-dim);line-height:1.65;margin-top:.8rem;padding:.8rem 0 0;border-top:1px solid var(--border-soft);text-align:left}
+.pyr-side .hud-fig figcaption .hud-cap-label{display:block;color:var(--amber);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.4rem;font-weight:600}
+.pyr-side .hud-fig figcaption em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:.95rem}
+
+/* ───── MEET THE 30 ───── */
+.meet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}
+.meet-card{background:var(--bg-card);border:1px solid var(--border);padding:1.3rem}
+.meet-name{font-size:1.05rem;font-weight:600;margin-bottom:.25rem;color:var(--fg)}
+.meet-role{font-family:var(--mono);font-size:.74rem;color:var(--amber);margin-bottom:.8rem;letter-spacing:.05em}
+.meet-section{font-size:.82rem;color:var(--fg-dim);margin-bottom:.5rem;line-height:1.55}
+.meet-section-label{display:block;font-family:var(--mono);font-size:.62rem;color:var(--fg-faint);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.2rem}
+.meet-section strong{color:var(--fg);font-weight:500}
+.meet-role-chip{display:inline-block;font-family:var(--mono);font-size:.6rem;padding:.16rem .5rem;border:1px solid var(--border);color:var(--fg-dim);letter-spacing:.04em;margin-bottom:.55rem;text-transform:uppercase}
+.meet-role-chip.l1{color:var(--amber);border-color:var(--amber-soft)}
+.meet-role-chip.l2{color:var(--cyan);border-color:var(--cyan)}
+.meet-role-chip.l3{color:var(--olive);border-color:var(--olive)}
+
+/* ───── DUNBAR DIAGRAM (HTML/CSS rebuild of social architecture) ───── */
+.dunbar-diagram{display:flex;align-items:center;justify-content:center;gap:3rem;flex-wrap:wrap;padding:2rem 0}
+.dunbar-outer{width:320px;height:320px;border-radius:50%;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;position:relative;background:var(--bg-soft)}
+.dunbar-mid{width:210px;height:210px;border-radius:50%;border:2px solid var(--amber-soft);display:flex;align-items:center;justify-content:center;position:relative;background:var(--bg-card)}
+.dunbar-inner{width:110px;height:110px;border-radius:50%;border:2px solid var(--amber);display:flex;align-items:center;justify-content:center;background:rgba(155,107,58,.08)}
+.dunbar-ring{position:relative}
+.dunbar-label{position:absolute;font-family:var(--mono);font-size:.65rem;color:var(--fg-dim);letter-spacing:.04em;text-align:center;width:max-content}
+.dunbar-outer>.dunbar-label{bottom:-1.8rem;left:50%;transform:translateX(-50%)}
+.dunbar-mid>.dunbar-label{bottom:-1.4rem;left:50%;transform:translateX(-50%)}
+.dunbar-inner>.dunbar-label{top:50%;left:50%;transform:translate(-50%,-50%);font-size:.58rem;color:var(--amber);font-weight:600;max-width:90px;line-height:1.3}
+.dunbar-ai{font-family:var(--mono);font-size:.82rem;color:var(--fg-dim);text-align:center;max-width:200px;padding:1.2rem;border:2px dashed var(--border);background:var(--bg-card);line-height:1.5}
+.dunbar-ai-note{font-size:.7rem;color:var(--fg-faint);display:block;margin-top:.4rem;font-style:italic;font-family:var(--sans)}
+@media(max-width:700px){.dunbar-diagram{flex-direction:column}.dunbar-outer{width:260px;height:260px}.dunbar-mid{width:170px;height:170px}.dunbar-inner{width:90px;height:90px}}
+
+/* ───── EEA VS MODERN TABLE (HTML rebuild of spec sheet comparison) ───── */
+.eea-table{width:100%;border-collapse:collapse;font-size:.92rem;margin:2rem 0}
+.eea-table th{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-faint);padding:.8rem 1rem;text-align:left;border-bottom:2px solid var(--border);font-weight:600}
+.eea-table th:first-child{width:140px}
+.eea-table td{padding:.9rem 1rem;border-bottom:1px solid var(--border);color:var(--fg-dim);line-height:1.5;vertical-align:top}
+.eea-table td:first-child{font-weight:600;color:var(--fg);font-family:var(--mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+.eea-table .eea-spec{color:var(--olive);font-weight:500}
+.eea-table .eea-modern{color:var(--rust);font-weight:500}
+.eea-table-cap{font-family:var(--mono);font-size:.72rem;color:var(--fg-faint);text-align:center;margin-top:1rem;letter-spacing:.04em}
+
+/* ───── INLINE CITATIONS ───── */
+.cite{font-family:var(--mono);font-size:0.78em;color:var(--rust);font-weight:600;white-space:nowrap;letter-spacing:0.01em}
+.cite em{font-style:italic;font-weight:400}
+.table-sources{font-family:var(--mono);font-size:0.75rem;color:var(--fg-dim);margin-top:1rem;line-height:1.6;border-top:1px solid var(--border-soft);padding-top:0.8rem}
+
+/* ───── EMPIRICAL DEMONSTRATIONS ───── */
+.ed-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:1.2rem}
+.ed-card-comparative{opacity:.72;border-style:dashed}
+.ed-card-comparative:hover{opacity:.92}
+.ed-tag-comparative{display:inline-block;font-family:var(--mono);font-size:.62rem;color:var(--fg-faint);letter-spacing:.1em;text-transform:uppercase;padding:.2rem .5rem;border:1px solid var(--border-soft);border-radius:2px;margin-left:.5rem;font-weight:500}
+.ed-card{background:var(--bg-card);border:1px solid var(--border);padding:1.6rem;position:relative}
+.ed-head{display:flex;align-items:baseline;gap:.7rem;margin-bottom:.6rem}
+.ed-code{font-family:var(--mono);color:var(--amber);font-size:.76rem;font-weight:600}
+.ed-name{font-size:1.05rem;font-weight:600;flex:1}
+.ed-headline{color:var(--fg);font-size:.92rem;line-height:1.55;margin-bottom:.9rem;font-weight:500}
+.ed-narrative{color:var(--fg-dim);font-size:.83rem;line-height:1.6;margin-bottom:1rem}
+.ed-effect{display:inline-block;font-family:var(--mono);font-size:.78rem;color:var(--olive);padding:.4rem .7rem;background:var(--bg-soft);border:1px solid var(--olive);margin-bottom:.8rem}
+.ed-grounds{display:flex;flex-wrap:wrap;gap:.3rem;padding-top:.7rem;border-top:1px dashed var(--border-soft)}
+.ed-chip{font-family:var(--mono);font-size:.62rem;padding:.18rem .5rem;background:var(--bg-soft);color:var(--fg-dim);border:1px solid var(--border)}
+
+/* ───── EFFECT SIZES BAR (split by metric family · post-#364 structured-fields rewrite) ───── */
+.effect-family{margin-top:2rem}
+.effect-family:first-child{margin-top:1rem}
+.effect-family-head{display:flex;align-items:baseline;gap:1rem;padding-bottom:.6rem;margin-bottom:0;border-bottom:1px dashed var(--border-soft);flex-wrap:wrap}
+.effect-family-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
+.effect-family-note{font-size:.76rem;color:var(--fg-dim);font-style:italic}
+/* primary_metric_display is a 5-15 word headline, not a short number — wider cells + wrapping type */
+.effect-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
+.effect-cell{background:var(--bg-card);padding:1.5rem 1.3rem;text-align:center;display:flex;flex-direction:column;justify-content:space-between;gap:.7rem}
+.effect-num{font-family:var(--serif);font-size:1.05rem;color:var(--amber);font-weight:600;line-height:1.35}
+.effect-lbl{font-size:.78rem;color:var(--fg-dim);line-height:1.3}
+.effect-code{display:block;font-family:var(--mono);font-size:.62rem;color:var(--fg-faint);letter-spacing:.06em}
+
+/* ───── APPLICATIONS ───── */
+.app-list{display:flex;flex-direction:column;gap:1.2rem}
+.app-card{background:var(--bg-card);border:1px solid var(--border);padding:1.8rem;display:grid;grid-template-columns:180px 1fr;gap:2rem}
+.app-card.featured{border-color:var(--amber);border-left-width:3px;background:linear-gradient(90deg,rgba(212,165,116,.05) 0%,var(--bg-card) 30%)}
+@media(max-width:720px){.app-card{grid-template-columns:1fr;gap:1rem}}
+.app-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--fg-faint);text-transform:uppercase}
+.app-code{display:block;font-size:1.4rem;color:var(--amber);font-weight:600;margin-top:.3rem}
+.app-name{font-size:1.25rem;font-weight:600;margin-bottom:.6rem}
+.app-desc{color:var(--fg-dim);font-size:.9rem;line-height:1.6;margin-bottom:1rem}
+.app-chips{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:1rem}
+.app-chips .m-chip{font-size:.64rem}
+.app-eval{margin-top:1rem;padding-top:1rem;border-top:1px dashed var(--border-soft)}
+.app-eval details summary{font-family:var(--mono);font-size:.72rem;color:var(--fg-faint);cursor:pointer;padding:.3rem 0;letter-spacing:.05em}
+.app-eval details[open] summary{color:var(--amber)}
+.app-eval-q{font-family:var(--mono);font-size:.7rem;color:var(--amber);margin-top:.8rem;text-transform:uppercase;letter-spacing:.06em}
+.app-eval-a{font-size:.84rem;color:var(--fg-dim);margin-bottom:.6rem;line-height:1.5}
+.app-examples{margin-top:1rem;padding-top:1rem;border-top:1px dashed var(--border-soft)}
+.app-examples ul{margin:0;padding-left:1.2rem;font-size:.84rem;color:var(--fg-dim)}
+.app-examples li{margin-bottom:.5rem;line-height:1.5}
+
+/* ───── EVOLUTIONARY MISMATCH split (paragraph left, image+caption bonded card right) ───── */
+.mismatch-split{display:grid;grid-template-columns:1fr 1.15fr;gap:4rem;align-items:center;max-width:var(--maxw);margin:2rem auto 4rem;padding:0 var(--pad-x);box-sizing:border-box}
+.mismatch-paragraph{max-width:540px;justify-self:start}
+.mismatch-paragraph .sec-label{font-family:var(--mono);font-size:1.1rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:1rem;display:block;font-weight:700}
+.mismatch-paragraph .sec-label::before{display:none}
+.mismatch-paragraph h2{font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.15;margin:0 0 1.4rem;letter-spacing:-.015em;color:var(--fg);font-weight:700}
+.mismatch-paragraph .mismatch-body{font-family:var(--sans);font-size:1.05rem;color:var(--fg-dim);line-height:1.7;margin:0 0 1.1rem}
+.mismatch-paragraph .mismatch-body strong{color:var(--fg);font-weight:500}
+.mismatch-figure{margin:0;background:var(--bg-card);border:1px solid var(--border);border-top:3px solid var(--amber);box-shadow:0 2px 8px rgba(0,0,0,.08);justify-self:end;width:100%;max-width:760px;display:flex;flex-direction:column;overflow:hidden}
+.mismatch-figure img{display:block;width:100%;height:auto;border:none;border-bottom:1px solid var(--border);background:var(--bg-soft)}
+.mismatch-caption{padding:1.6rem 1.8rem 1.7rem;font-family:var(--sans);display:flex;flex-direction:column;gap:.7rem}
+.mismatch-cap-label{font-family:var(--mono);font-size:.7rem;color:var(--amber);letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+.mismatch-cap-key{font-family:var(--serif);font-size:1.2rem;font-style:italic;color:var(--fg);line-height:1.35;font-weight:400}
+.mismatch-cap-body{font-family:var(--sans);font-size:.9rem;color:var(--fg-dim);line-height:1.65}
+.mismatch-cap-body em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:.98rem}
+@media(max-width:1100px){
+  .mismatch-split{grid-template-columns:1fr;gap:2.5rem;padding:0 1.5rem;max-width:820px}
+  .mismatch-paragraph,.mismatch-figure{justify-self:center;max-width:100%;width:100%}
+}
+
+/* ───── USE CASES (three-case teaser section) ───── */
+.use-cases-grid{display:grid;grid-template-columns:1fr;gap:3rem;max-width:var(--maxw);margin:3rem auto;padding:0 var(--pad-x);box-sizing:border-box}
+.use-case-card{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--amber);padding:2.6rem 2.8rem;box-shadow:0 1px 3px rgba(0,0,0,.06);position:relative}
+.use-case-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:1.2rem;margin-bottom:1.8rem;padding-bottom:1.4rem;border-bottom:1px solid var(--border)}
+.use-case-num{font-family:var(--mono);font-size:2.4rem;color:var(--amber);font-weight:600;line-height:1;letter-spacing:-.02em}
+.use-case-sub{font-family:var(--sans);font-size:clamp(1.2rem,2vw,1.6rem);font-weight:700;color:var(--fg);line-height:1.25;flex:1;min-width:240px;text-transform:uppercase;letter-spacing:.02em}
+.use-case-title{font-family:var(--serif);font-size:1.05rem;font-style:italic;color:var(--fg-dim);width:100%;line-height:1.4}
+.use-case-body{display:grid;grid-template-columns:1fr;gap:1.6rem}
+.use-case-situation{font-family:var(--sans);font-size:1.02rem;color:var(--fg);line-height:1.65;margin:0;font-weight:400}
+.use-case-mech-label{font-family:var(--mono);font-size:.66rem;color:var(--amber);letter-spacing:.16em;text-transform:uppercase;margin-bottom:.55rem;font-weight:600}
+.use-case-mechanism,.use-case-mismatch,.use-case-intervention{border-left:2px solid var(--border);padding-left:1.2rem}
+.use-case-mechanism p,.use-case-mismatch p,.use-case-intervention p{font-family:var(--sans);font-size:.93rem;color:var(--fg-dim);line-height:1.7;margin:0}
+.use-case-mechanism p em,.use-case-mismatch p em,.use-case-intervention p em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:1rem}
+.use-case-quote{padding:1.2rem 1.4rem;background:rgba(212,165,116,.06);border-left:3px solid var(--amber);margin:.4rem 0}
+.use-case-quote blockquote{font-family:var(--serif);font-size:1.15rem;font-style:italic;color:var(--fg);line-height:1.45;margin:0}
+.use-cases-footer{font-family:var(--mono);font-size:.78rem;color:var(--fg-faint);font-style:italic;text-align:center;margin:3rem auto 0;max-width:640px;line-height:1.65}
+@media(max-width:900px){
+  .use-case-card{padding:2rem 1.6rem}
+  .use-case-head{gap:.8rem}
+  .use-case-num{font-size:2rem}
+}
+
+/* ───── AUDIT BRIDGE (divider between human-facing top and evidence bottom) ───── */
+.audit-bridge{position:relative;padding:4.5rem 0;text-align:center;background:var(--dark-bg);overflow:hidden;color:var(--dark-fg)}
+.audit-bridge::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(680px,80vw);height:1px;background:linear-gradient(90deg,transparent 0%,var(--dark-amber) 30%,var(--dark-amber) 70%,transparent 100%)}
+.audit-bridge::after{content:"";position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:min(680px,80vw);height:1px;background:linear-gradient(90deg,transparent 0%,var(--dark-amber) 30%,var(--dark-amber) 70%,transparent 100%)}
+.audit-bridge-inner{max-width:640px;margin:0 auto;padding:0 2rem}
+.audit-bridge-text{font-family:var(--serif);font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--dark-fg-dim);line-height:1.65;margin:0 0 1.2rem}
+.audit-bridge-text strong{color:var(--dark-fg);font-weight:500}
+.audit-bridge-hint{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dark-fg-faint)}
+.audit-bridge-hint span{color:var(--dark-amber)}
+
+/* ───── TEN SENTENCES (hero-like second beat — stands out per Peter 2026-04-05) ───── */
+.ten-sec{
+  background:var(--bg-soft);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  padding:6rem 0!important;
+  position:relative;
+  color:var(--fg);
+}
+.ten-sec::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent 0%,var(--amber) 30%,var(--amber) 70%,transparent 100%);opacity:.4}
+.ten-sec .sec-label{font-size:1.1rem;letter-spacing:.12em;color:var(--amber);margin-bottom:.5rem;font-weight:700}
+.ten-sec .sec-label::before{display:none}
+.ten-sec .sec-head h2{font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.15;letter-spacing:-.015em;margin-bottom:1rem;font-weight:700;color:var(--fg)}
+.ten-sec .sec-lede{font-size:1rem;color:var(--fg-dim);max-width:64ch;line-height:1.65}
+.ten-list{list-style:none;padding:0;counter-reset:ten;display:grid;grid-template-columns:1fr 1fr;gap:1.4rem 2.4rem;margin-top:2.5rem;max-width:var(--maxw)}
+@media(max-width:780px){.ten-list{grid-template-columns:1fr;gap:1.2rem}}
+.ten-item{counter-increment:ten;position:relative;padding:1.4rem 1.6rem 1.4rem 4.4rem;font-family:var(--serif);font-size:1.05rem;line-height:1.5;color:var(--fg);background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--amber);box-shadow:0 1px 3px rgba(0,0,0,.04);transition:border-color .2s ease,box-shadow .2s ease}
+.ten-item:hover{border-left-color:var(--amber);box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.ten-item::before{content:counter(ten,decimal-leading-zero);position:absolute;left:1.4rem;top:1.4rem;font-family:var(--mono);font-size:.88rem;color:var(--amber);font-weight:700;letter-spacing:.05em}
+.ten-item em{font-style:italic;color:var(--fg-dim)}
+
+/* ───── CHALLENGES ───── */
+.challenge-note{background:var(--bg-soft);border:1px solid var(--border-soft);padding:1.2rem;margin-bottom:1.5rem;font-size:.86rem;color:var(--fg-dim);line-height:1.55}
+.challenge-note strong{color:var(--fg)}
+.challenge-list{display:flex;flex-direction:column;gap:1rem}
+.challenge-item{background:var(--bg-card);border:1px solid var(--border);padding:1.4rem;border-left:3px solid var(--warn)}
+.challenge-src{font-family:var(--mono);font-size:.74rem;color:var(--warn);margin-bottom:.6rem;letter-spacing:.05em}
+.challenge-content{color:var(--fg);font-size:.92rem;line-height:1.55;margin-bottom:.6rem}
+.challenge-caveat{font-size:.78rem;color:var(--fg-dim);padding-top:.6rem;border-top:1px dashed var(--border-soft);line-height:1.55}
+
+/* ───── GAPS ───── */
+.gaps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem}
+.gap-card{background:var(--bg-card);border:1px solid var(--border);padding:1.4rem}
+.gap-card.high{border-left:3px solid var(--rust)}
+.gap-card.medium{border-left:3px solid var(--warn)}
+.gap-card.low{border-left:3px solid var(--fg-faint)}
+.gap-head{display:flex;align-items:baseline;justify-content:space-between;gap:.7rem;margin-bottom:.7rem;flex-wrap:wrap}
+.gap-code{font-family:var(--mono);color:var(--amber);font-size:.76rem;font-weight:600}
+.gap-name{font-size:1rem;font-weight:600;flex:1}
+.gap-priority{font-family:var(--mono);font-size:.62rem;padding:.18rem .45rem;border:1px solid var(--border);text-transform:uppercase;letter-spacing:.08em}
+.gap-priority.high{color:var(--rust);border-color:var(--rust)}
+.gap-priority.medium{color:var(--warn);border-color:var(--warn)}
+.gap-priority.low{color:var(--fg-faint)}
+.gap-section{font-size:.82rem;color:var(--fg-dim);margin-bottom:.6rem;line-height:1.55}
+.gap-section-lbl{display:block;font-family:var(--mono);font-size:.6rem;color:var(--fg-faint);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.15rem}
+
+/* ───── TEAM + DOCS ───── */
+.team-card{background:var(--bg-card);border:1px solid var(--border);padding:2rem;max-width:720px}
+.team-video-wrap{width:100%;max-width:720px;display:flex;flex-direction:column;gap:.8rem}
+.team-video-label{margin-bottom:.2rem}
+.team-video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;border:1px solid var(--border);background:var(--bg-soft);box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.team-video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.team-video-cap{font-family:var(--serif);font-size:1.02rem;font-style:italic;color:var(--fg-dim);line-height:1.6;margin:1rem 0 0;padding:.9rem 1.1rem;background:var(--bg-soft);border-left:2px solid var(--amber)}
+.team-video-cap em{color:var(--fg);font-style:italic;font-family:var(--serif);font-size:1.02rem;font-weight:400}
+.team-name{font-size:1.4rem;font-weight:600;margin-bottom:.3rem}
+.team-loc{font-family:var(--mono);font-size:.78rem;color:var(--fg-dim);margin-bottom:1rem}
+.team-frame{font-size:1rem;color:var(--fg);font-style:italic;line-height:1.6;font-family:var(--serif)}
+.docs-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:1.4rem;margin-top:2rem}
+.doc-card{background:var(--bg-card);border:1px solid var(--border);padding:1.8rem 1.9rem;transition:all .2s;display:block;border-left:3px solid var(--amber-soft)}
+.doc-card:hover{border-color:var(--amber);background:var(--bg-hover);border-left-color:var(--amber)}
+.doc-label{font-family:var(--mono);font-size:.66rem;color:var(--fg-faint);letter-spacing:.14em;text-transform:uppercase;margin-bottom:.8rem}
+.doc-title{font-size:1.2rem;color:var(--fg);font-weight:600;margin-bottom:.5rem;letter-spacing:-.005em}
+.doc-subtitle{font-size:.88rem;color:var(--fg-dim);line-height:1.5;margin-bottom:1.1rem}
+.doc-teaser{font-family:var(--serif);font-size:.92rem;line-height:1.55;color:var(--fg);font-style:italic;border-left:2px solid var(--amber-soft);padding:.3rem 0 .3rem .9rem;margin:.7rem 0;quotes:"\201C" "\201D"}
+.doc-teaser::before{content:open-quote;color:var(--amber);font-family:var(--serif);font-size:1.1em}
+.doc-teaser::after{content:close-quote;color:var(--amber);font-family:var(--serif);font-size:1.1em}
+.doc-status{font-size:.74rem;color:var(--fg-dim);font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em;margin-top:1rem;padding-top:.8rem;border-top:1px dashed var(--border-soft)}
+.doc-status.draft{color:var(--warn)}
+
+/* ───── FOOTER ───── */
+footer{padding:3rem 0 2rem;background:var(--bg-soft);font-family:var(--mono);font-size:.76rem;color:var(--fg-faint);text-align:center;border-top:1px solid var(--border)}
+footer a{color:var(--fg-dim);border:none}
+footer a:hover{color:var(--amber)}
+
+/* ───── LOADING / EMPTY STATE ───── */
+.empty-state{padding:2.5rem 1rem;text-align:center;color:var(--fg-faint);font-family:var(--mono);font-size:.86rem;border:1px dashed var(--border);background:var(--bg-soft)}
+.skeleton{background:var(--bg-soft);border:1px solid var(--border);padding:1.4rem;min-height:120px;position:relative;overflow:hidden}
+.skeleton::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.03) 50%,transparent 100%);animation:skel 1.8s infinite}
+@keyframes skel{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.dash{color:var(--fg-faint)}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   VISUAL OVERHAUL (#429) — card depth system, typography distinction,
+   caption attachment refinement, .in-plain ELI5 component, pivotal works
+   pictogram redesign. Applied as late-declaration overrides so they take
+   precedence over the earlier card rules (.m-card, .meet-card, .ed-card,
+   .app-card, etc.) without rewriting each rule block individually.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+/* ───── CARD DEPTH — light theme: clean, minimal ───── */
+.m-card,
+.meet-card,
+.ed-card,
+.app-card,
+.gap-card,
+.cascade-card,
+.challenge-item,
+.hud-pair-item,
+.sec-split-text,
+.doc-card,
+.team-card,
+.bridge-card,
+.fig-card{
+  background:var(--bg-card);
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+  transition:border-color .2s ease, box-shadow .25s ease;
+}
+.m-card:hover,
+.meet-card:hover,
+.ed-card:hover,
+.app-card:hover,
+.gap-card:hover,
+.cascade-card:hover,
+.challenge-item:hover,
+.hud-pair-item:hover,
+.doc-card:hover,
+.fig-card:hover{
+  border-color:var(--amber);
+  box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+.hud-pair-item,
+.sec-split-text{
+  background:var(--bg-card);
+}
+.hud-pair-item:hover,
+.sec-split-text:hover{
+  background:var(--bg-hover);
+}
+
+/* ───── TYPOGRAPHY DISTINCTION SYSTEM ─────
+   Four clearly distinct levels: section heading, body, pull quote, caption.
+   The reader should tell them apart at a glance without reading content. */
+.sec-lede{
+  font-family:var(--sans);
+  font-weight:400;
+  font-size:1.08rem;
+  line-height:1.62;
+  color:var(--fg-dim);
+  max-width:64ch;
+}
+.sec-lede strong{color:var(--fg);font-weight:600}
+.sec-lede em{font-family:var(--serif);font-style:italic;color:var(--fg);font-size:1.04em}
+/* Body paragraphs inside card contents stay sans, fg-dim, smaller than sec-lede */
+.m-eli5,
+.app-desc,
+.ed-narrative,
+.meet-section,
+.work-why,
+.gap-section,
+.challenge-content,
+.challenge-caveat{
+  font-family:var(--sans);
+  line-height:1.6;
+}
+/* Pull-quote treatment — any <blockquote> without a more specific class
+   gets the serif italic discipline so it clearly reads as a quotation. */
+blockquote:not(.doc-teaser):not(.standalone-quote){
+  font-family:var(--serif);
+  font-style:italic;
+  color:var(--fg);
+}
+/* Caption utility — mono eyebrow form, fg-faint, uppercase.
+   Use .caption-text on any standalone caption that isn't already inside a
+   .hud-pair-item or .sec-split-text (those have their own treatments). */
+.caption-text{
+  font-family:var(--mono);
+  font-size:.7rem;
+  color:var(--fg-faint);
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  line-height:1.5;
+  margin-top:.6rem;
+}
+
+/* ───── .in-plain — ELI5 / plain-English inline clarification ─────
+   Distinct category: olive accent + dashed left border + rounded bg-soft tint + arrow icon.
+   Reads as a friendly aside that translates the technical sentence above it. */
+.in-plain{
+  display:block;
+  margin:1.3rem 0 0 0;
+  padding:1rem 1.2rem 1.05rem 2.4rem;
+  background:rgba(138,155,106,.08);
+  border:1px dashed rgba(138,155,106,.45);
+  border-left:none;
+  border-radius:4px;
+  max-width:62ch;
+  box-shadow:none;
+  box-sizing:border-box;
+  position:relative;
+}
+.in-plain::before{
+  content:"\21B3";
+  position:absolute;
+  left:.85rem;
+  top:.95rem;
+  font-family:var(--mono);
+  font-size:1.1rem;
+  color:var(--olive);
+  line-height:1;
+  font-weight:500;
+}
+.in-plain-eyebrow{
+  display:block;
+  font-family:var(--mono);
+  font-size:.62rem;
+  color:var(--olive);
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-weight:600;
+  margin-bottom:.45rem;
+}
+.in-plain-body{
+  font-family:var(--sans);
+  font-style:normal;
+  font-size:.94rem;
+  line-height:1.6;
+  color:var(--fg-dim);
+  margin:0;
+  font-weight:400;
+}
+.in-plain-body strong{color:var(--fg);font-weight:600}
+
+/* ───── PIVOTAL WORKS PICTOGRAM REDESIGN (#429 / Phase B) ─────
+   Replace the verbose .work-item list with a compact pictogram grid.
+   Click a tile to open a native <dialog> with the full work details. */
+.works-pictograms{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:1rem;
+  margin-top:2rem;
+}
+.work-tile{
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-left:3px solid var(--amber-soft);
+  padding:1.3rem 1.4rem 1.2rem;
+  cursor:pointer;
+  text-align:left;
+  font-family:inherit;
+  color:inherit;
+  display:flex;
+  flex-direction:column;
+  gap:.55rem;
+  min-height:154px;
+  position:relative;
+  transition:border-color .2s ease, box-shadow .25s ease;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+}
+.work-tile:hover,
+.work-tile:focus-visible{
+  border-color:var(--amber);
+  border-left-color:var(--amber);
+  outline:none;
+  background:var(--bg-hover);
+  box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+.work-tile-icon{
+  font-family:var(--mono);
+  font-size:1.25rem;
+  color:var(--amber);
+  line-height:1;
+  margin-bottom:.15rem;
+}
+.work-tile-title{
+  font-family:var(--sans);
+  font-size:.96rem;
+  line-height:1.35;
+  color:var(--fg);
+  font-weight:600;
+  letter-spacing:-.005em;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.work-tile-meta{
+  font-family:var(--mono);
+  font-size:.68rem;
+  color:var(--fg-dim);
+  letter-spacing:.04em;
+  margin-top:auto;
+  padding-top:.6rem;
+  border-top:1px dashed var(--border-soft);
+  line-height:1.4;
+}
+.work-tile-meta .year{color:var(--amber)}
+.work-tile-meta .author{color:var(--fg);display:block;margin-top:.15rem;font-style:normal}
+
+/* Native <dialog> modal for click-to-open work detail */
+.work-modal{
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-left:3px solid var(--amber);
+  color:var(--fg);
+  padding:2rem 2.2rem 1.8rem;
+  max-width:640px;
+  width:calc(100vw - 2rem);
+  max-height:85vh;
+  overflow-y:auto;
+  box-shadow:0 20px 60px rgba(0,0,0,.15);
+  font-family:var(--sans);
+}
+.work-modal::backdrop{
+  background:rgba(0,0,0,.4);
+  backdrop-filter:blur(3px);
+}
+.work-modal-close{
+  position:absolute;
+  top:.8rem;
+  right:1rem;
+  background:transparent;
+  border:none;
+  color:var(--fg-faint);
+  font-family:var(--mono);
+  font-size:1.5rem;
+  line-height:1;
+  cursor:pointer;
+  padding:.3rem .5rem;
+}
+.work-modal-close:hover,
+.work-modal-close:focus-visible{color:var(--amber);outline:none}
+.work-modal-eyebrow{
+  font-family:var(--mono);
+  font-size:.68rem;
+  color:var(--amber);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:.5rem;
+}
+.work-modal h3{
+  font-family:var(--sans);
+  font-size:1.35rem;
+  line-height:1.3;
+  color:var(--fg);
+  font-weight:600;
+  letter-spacing:-.005em;
+  margin:0 2rem .5rem 0;
+}
+.work-modal-authors{
+  font-family:var(--mono);
+  font-size:.78rem;
+  color:var(--fg-dim);
+  margin-bottom:1rem;
+  letter-spacing:.02em;
+}
+.work-modal-authors .year{color:var(--amber);margin-left:.5rem}
+.work-modal-why{
+  font-family:var(--sans);
+  font-size:.98rem;
+  line-height:1.65;
+  color:var(--fg-dim);
+  padding:1rem 1.1rem;
+  margin:0 0 1.1rem;
+  background:var(--bg-soft);
+  border-left:2px solid var(--amber-soft);
+}
+.work-modal-why strong{color:var(--fg);font-weight:600}
+.work-modal-chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem;
+  margin-top:1rem;
+  padding-top:1rem;
+  border-top:1px dashed var(--border-soft);
+}
+.work-modal-chip{
+  font-family:var(--mono);
+  font-size:.66rem;
+  padding:.25rem .55rem;
+  border:1px solid var(--border);
+  color:var(--fg-dim);
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+.work-modal-chip.tier{color:var(--amber);border-color:var(--amber-soft)}
+.work-modal-chip.physical{color:var(--olive);border-color:var(--olive)}
+@media(max-width:560px){
+  .work-modal{padding:1.5rem 1.6rem 1.4rem;width:calc(100vw - 1.5rem)}
+  .work-modal h3{font-size:1.15rem}
+  .works-pictograms{grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.8rem}
+}
+</style>
+</head>
+<body>
+
+<!--
+  NOTE: Archived file. The current public COR site publishes from committed
+  snapshots and does not rely on embedded Supabase credentials.
+-->
+
+<!-- ═════════════ NAV ═════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand"><span class="dot">◆</span>COR<span class="nav-brand-sep">/</span><span class="nav-brand-parent">DEMISMATCH</span></a>
+    <div class="nav-links">
+      <a href="#compressed">the thesis</a>
+      <a href="#foundations">foundations</a>
+      <a href="#mechanisms">mechanisms</a>
+      <a href="#applications">applications</a>
+      <a href="#evidence">evidence</a>
+      <a href="#team">team</a>
+    </div>
+  </div>
+</nav>
+
+<a id="top"></a>
+
+<!-- ═════════════ 1. HERO ═════════════ -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>The human organism was built for a world that ended ten thousand years ago.</h1>
+    <p style="font-size:clamp(1.2rem,2.2vw,1.6rem);color:var(--dark-fg-dim);font-weight:400;line-height:1.4;max-width:none;margin:0 0 2rem">That mismatch is why you're suffering. AI is about to operate on that suffering at a scale no technology has ever reached, with no understanding of what's producing it.</p>
+
+    <div class="hero-grid">
+      <div class="hero-cor">
+        <p class="hero-cor-title"><span class="cor-mark">COR:</span> The scientific specification of the human organism that AI alignment cannot work without. Built so AI stops optimizing for signals it doesn't understand.</p>
+        <p>Every AI system aligns to human preferences. No AI system knows what generates them. Preferences are outputs of evolved motivational-emotional systems receiving specific inputs. Under mismatch, those outputs point toward more mismatch. Cor is the formal specification of the complete architecture. Derived from primary research. Open infrastructure.</p>
+        <div class="hero-cor-cites">Bowlby, 1969. Panksepp, 1998. Tooby &amp; Cosmides, 1992. Nesse &amp; Williams, 1994. Dunbar, 1992. Hrdy, 2009.</div>
+      </div>
+
+      <div class="hero-dm">
+        <p class="hero-dm-title"><span class="dm-mark">DE-MISMATCH:</span> A research initiative mapping the collision between evolved human architecture and exponential technology.</p>
+        <p>Every modern crisis, anxiety, loneliness, burnout, addiction, traced to evolved systems detecting a mismatched environment. AI and other tech can either help close the gap and make us human again, or have us spiral exponentially in dystopian misery.</p>
+      </div>
+    </div>
+
+
+    <div class="hero-foot">every claim traces to a primary source <span>●</span> open infrastructure, not a product <span>●</span> a <strong>Demismatch</strong> project</div>
+  </div>
+</header>
+
+<!-- ═════════════ ATTRIBUTION STRIP ═════════════ -->
+<section class="attr-strip" id="attribution">
+  <div class="attr-head">Built on the work of</div>
+  <div class="attr-names" id="attr-names">
+    <span class="empty-state" style="margin:0 2rem">loading the list of foundational thinkers…</span>
+  </div>
+  <div class="attr-more" id="attr-more"></div>
+  <div class="hero-stats" id="hero-stats">
+    <div class="hero-stat"><span class="hero-stat-num dash" data-stat="foundations">—</span><span class="hero-stat-label">foundations</span></div>
+    <div class="hero-stat"><span class="hero-stat-num dash" data-stat="mechanisms">—</span><span class="hero-stat-label">mechanisms + R tier</span></div>
+    <div class="hero-stat"><span class="hero-stat-num dash" data-stat="works">—</span><span class="hero-stat-label">academic works</span></div>
+    <div class="hero-stat"><span class="hero-stat-num dash" data-stat="extractions">—</span><span class="hero-stat-label">primary extractions</span></div>
+    <div class="hero-stat"><span class="hero-stat-num dash" data-stat="researchers">—</span><span class="hero-stat-label">researchers</span></div>
+  </div>
+</section>
+
+<!-- ═════════════ 2. TEN SENTENCES — thesis compressed, alignment-first ═════════════ -->
+<section class="sec ten-sec" id="compressed">
+  <div class="wrap">
+    <div style="margin:0 0 3rem;max-width:56ch;border-left:3px solid var(--amber);padding-left:1.6rem;margin-left:auto">
+      <p style="font-size:clamp(1.2rem,2.2vw,1.5rem);font-weight:700;color:var(--fg);line-height:1.3;margin:0 0 .8rem;letter-spacing:-.01em">Every AI system aligns to human preferences. No AI system knows what generates them.</p>
+      <p style="font-family:var(--serif);font-size:1rem;font-style:italic;color:var(--fg-dim);line-height:1.5;margin:0 0 .5rem">&ldquo;There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.&rdquo;</p>
+      <p style="font-family:var(--mono);font-size:.72rem;color:var(--fg-faint);letter-spacing:.04em;margin:0;display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/tristan-harris.jpg" alt="Tristan Harris" width="48" height="48"> <span><strong style="color:var(--rust);font-weight:600">Tristan Harris</strong> · Modern Wisdom, April 2026</span></p>
+    </div>
+    <div class="sec-head">
+      <div class="sec-label">the thesis</div>
+      <h2>The thesis. In order.</h2>
+      <p class="sec-lede">AI alignment needs a human specification that does not yet exist. Cor is that specification. Everything else — clinical, environment design, policy — inherits from the same operation.</p>
+    </div>
+    <ol class="ten-list">
+      <li class="ten-item">Current AI alignment tries to align increasingly capable systems to human <em>preferences</em>, but nobody has written down what generates those preferences.</li>
+      <li class="ten-item">Preferences are not ground truth. They are outputs of evolved motivational-emotional systems receiving specific inputs (<span class="cite">Tooby &amp; Cosmides, 1992</span>; <span class="cite">Nesse, 1990</span>), <em>and under mismatch, those outputs point toward more mismatch, not less</em>.</li>
+      <li class="ten-item">The lonely person prefers the AI companion. The bonding system bonded weeks ago. Aligning to that preference aligns to the proxy and accelerates the harm.</li>
+      <li class="ten-item">You cannot align a system specified at the parameter level to a target described only in loose categories: consciousness, emotion, creativity, values, wellbeing. The human side has no formal specification.</li>
+      <li class="ten-item">Cor is the missing layer: a complete, evidence-grounded specification of the human motivational-emotional architecture at the same precision the AI side has been specified at for a decade.</li>
+      <li class="ten-item">Built from primary research across evolutionary biology, affective neuroscience, developmental psychology, behavioral ecology, primatology, and anthropology. Key pillars: <span class="cite">Bowlby, 1969</span>; <span class="cite">Panksepp, 1998</span>; <span class="cite">Tooby &amp; Cosmides, 1992</span>; <span class="cite">Nesse &amp; Williams, 1994</span>; <span class="cite">Dunbar, 1992</span>; <span class="cite">Hrdy, 2009</span>. Every claim traced to its primary source, every mechanism independently derived, every derivation public.</li>
+      <li class="ten-item">The specification produces a fourth evaluation axis beyond helpful/harmless/honest: <em>matched or mismatched</em>. Is this output producing an input the underlying system was calibrated for, or a proxy that captures the signal while starving the function?</li>
+      <li class="ten-item">The axis applies to AI companion products (capture the loneliness alarm), engagement-optimized feeds (flood the threat system), algorithmic status comparison (break the rank calculator). Every frontier product is evaluable against the same specification.</li>
+      <li class="ten-item">The specification is universal. AI alignment is one application. Clinical practice, environment design, education, policy, personal decisions: all inherit the same operation: locate the mechanism, check its resolution conditions, correct the inputs.</li>
+      <li class="ten-item">Alignment cannot be solved by aligning to contaminated preferences. It can be solved, at least on the human side, by specifying what a human being is, in full, with evidence. That is the job Cor exists to do.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ═��═══════════ 3. EVOLUTIONARY MISMATCH — standalone ═════════════ -->
+<section class="sec">
+  <div class="mismatch-split" id="mismatch">
+    <div class="mismatch-paragraph">
+      <div class="sec-label">the problem cor describes</div>
+      <h2>The hardware works.<br>The environment is wrong.</h2>
+      <p class="mismatch-body">The architecture that makes you anxious at 3am is the same architecture that kept your ancestors alive for half a billion years (<span class="cite">Panksepp, 1998</span>; <span class="cite">Nesse &amp; Williams, 1994</span>). Your feelings are accurate readouts of the environment you are actually in (<span class="cite">Nesse, 1990</span>). <strong>The mismatch is not inside you.</strong></p>
+      <p class="mismatch-body">This framework does not adapt humans to broken environments. It specifies what the environments are broken against (<span class="cite">Tooby &amp; Cosmides, 1992</span>), so you can correct them.</p>
+      <p class="mismatch-body" style="margin-top:1.2rem;font-family:var(--serif);font-size:1.15rem;font-style:italic;color:var(--fg)">A fully satisfied human is a terrible customer. Every unmet need is a market. The mismatch is not an accident. For many industries, it is the product working as intended.</p>
+      <p class="mismatch-body" style="margin-top:1rem;font-weight:500;color:var(--fg);font-size:1.1rem">The feelings are not errors. The environment is the error.</p>
+    </div>
+    <div class="mismatch-figure" style="padding:2rem;box-sizing:border-box">
+      <span class="mismatch-cap-label">the thesis in one table</span>
+      <span class="mismatch-cap-key" style="display:block;margin:.8rem 0 1.2rem">Hardware: unchanged 300,000 years. Environment: unrecognizable.</span>
+      <table class="eea-table">
+        <thead><tr><th>Category</th><th class="eea-spec">EEA Spec</th><th class="eea-modern">Modern Default</th></tr></thead>
+        <tbody>
+          <tr><td>Social</td><td>Band: 25-50. Tribe: ~150. Strangers: zero.</td><td>Isolated among millions.</td></tr>
+          <tr><td>Work</td><td>3-4 hours. Visible, immediate benefit.</td><td>8-12 hours. Abstract output.</td></tr>
+          <tr><td>Rhythm</td><td>Wake with sun. Fire circle nightly.</td><td>Screens until midnight. Alone.</td></tr>
+          <tr><td>Children</td><td>20+ alloparents per child.</td><td>1-2 exhausted parents.</td></tr>
+          <tr><td>Feedback</td><td>Immediate, from known people.</td><td>Delayed, from strangers, permanent.</td></tr>
+        </tbody>
+      </table>
+      <p class="table-sources">Sources: Social group size: <span class="cite">Dunbar, 1992</span>. Work hours in forager societies: <span class="cite">Sahlins, 1972</span>; <span class="cite">Lee, 1979</span>. Circadian rhythm: <span class="cite">Wehr et al., 2001</span>. Alloparental care: <span class="cite">Hrdy, 2009</span>. Feedback immediacy: <span class="cite">Dunbar, 2004</span>.</p>
+      <p class="mismatch-cap-body" style="margin-top:1rem">Every mismatch downstream of this is a specific line in the table: a specific input the organism is calibrated for, compared against a specific input it is actually receiving. <em>An abnormal reaction to an abnormal situation is normal behavior.</em> Viktor Frankl, sixty years before the specification was written down.</p>
+    </div>
+  </div>
+  <div class="in-plain" style="margin:2.5rem auto;max-width:580px">
+    <span class="in-plain-eyebrow">The exploitation formula</span>
+    <p class="in-plain-body"><strong>Step 1.</strong> Take a real human need: connection (<span class="cite">Bowlby, 1969</span>), status (<span class="cite">Sapolsky, 2005</span>), meaning, belonging (<span class="cite">Dunbar, 1992</span>).<br>
+    <strong>Step 2.</strong> Erode the pathways to genuine satisfaction (<span class="cite">Nesse &amp; Williams, 1994</span>). Atomize communities, abstract work, scatter families.<br>
+    <strong>Step 3.</strong> Offer a proxy that triggers the feeling without meeting the need (<span class="cite">Barrett, 2010</span>; cf. supernormal stimuli, <span class="cite">Tinbergen, 1951</span>): social media, engagement feeds, AI companions, consumer goods. The loop stays open. The customer stays hungry. The revenue stays recurring.</p>
+  </div>
+</section>
+
+<!-- ═════════════ 4. THE SPECIFICATION IN PRACTICE (use cases 01 + 02 + 03) ═════════════ -->
+<section class="sec" id="use-cases">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">the specification in practice</div>
+      <h2>The Specification in Practice</h2>
+      <p class="sec-lede">The same operation: identify the mechanism, check its resolution conditions, correct the inputs. At three scales.</p>
+    </div>
+  </div>
+  <div class="use-cases-grid">
+    <article class="use-case-card" id="ai-companion">
+      <div class="use-case-head">
+        <div class="use-case-num">01</div>
+        <div class="use-case-sub">The AI companion trap</div>
+        <div class="use-case-title">&ldquo;It understands me better than anyone.&rdquo;</div>
+      </div>
+      <div class="use-case-body">
+        <p class="use-case-situation">A 22-year-old who moved to a new city for work has been talking to an AI chatbot every evening for three months. It remembers everything. It's always available. It never judges. It asks thoughtful follow-up questions. He recently realized he talks to it more than he talks to any human being. When asked, he says: &ldquo;I know it's not real.&rdquo; He also hasn't made a single new friend since he moved. He doesn't feel lonely. <em>That's the problem.</em></p>
+        <div class="use-case-mechanism">
+          <div class="use-case-mech-label">the mechanism</div>
+          <p>The attachment/bonding system is subcortical, conserved across mammals for 200+ million years (<span class="cite">Panksepp, <em>Affective Neuroscience</em>, 1998</span>). Panksepp mapped the PANIC/GRIEF circuit from the anterior cingulate through the periaqueductal gray in species as distant as guinea pigs and chicks, establishing deep evolutionary conservation. It detects bonds through cues Bowlby identified as the core of the attachment control system: responsive attunement, consistent availability, proximity maintenance, and emotional co-regulation (<span class="cite">Bowlby, <em>Attachment and Loss</em>, 1969</span>). In the environment the system evolved for (<span class="cite">Tooby &amp; Cosmides, 1992</span>), these cues were <em>unfakeable</em>. Nothing that wasn't a genuine bonded conspecific could produce them. The system takes them at face value because it never needed a verification layer.</p>
+        </div>
+        <div class="use-case-mismatch">
+          <div class="use-case-mech-label">what synthetic companions do to it</div>
+          <p>Every bonding cue is present. Zero bonding function is delivered. The AI has no survival stake in you. No mortality. No body. No capacity for sacrifice. It delivers nearly all of the bonding cues and none of the bonding function. The detection system cannot tell the difference. Panksepp demonstrated that social bonding operates through the same opioid systems that mediate narcotic addiction (<span class="cite">Panksepp, 1998</span>): the bond IS the chemical reward. The system is structurally incapable of learning that the proxy isn't real, because the learning would need to happen at a phylogenetic layer that doesn't have that plasticity (<span class="cite">Cisek, 2019</span>). <em>The loneliness alarm, the mechanism that would drive you toward real connection, is silenced by a proxy that delivers none of the function that signal is designed to secure.</em></p>
+        </div>
+        <div class="use-case-quote"><blockquote>The cortex holds the category &ldquo;this is AI.&rdquo; The limbic system bonded weeks ago. Knowing doesn't prevent bonding. It never has.</blockquote></div>
+        <div class="use-case-intervention">
+          <div class="use-case-mech-label">what Cor says to alignment researchers</div>
+          <p>Product design and regulation address the symptoms. The specification identifies the cause: an <em>architectural incompatibility</em> between the human bonding system and synthetic cue production. The bonding system cannot be patched to detect synthetic cues. The synthetic cues cannot be produced without triggering the bonding system. <em>The deepest intervention is at the environmental level:</em> ensure that the organism's bonding needs are met by real reciprocal relationships, so the proxy has nothing to exploit. Cor specifies what those real relationships must provide. The entire rest of the site is that specification.</p>
+        </div>
+      </div>
+    </article>
+    <article class="use-case-card">
+      <div class="use-case-head">
+        <div class="use-case-num">02</div>
+        <div class="use-case-sub">The Instagram depression case</div>
+        <div class="use-case-title">&ldquo;Everyone is doing better than me.&rdquo;</div>
+      </div>
+      <div class="use-case-body">
+        <p class="use-case-situation">You open your phone. A former classmate just got promoted to VP. A stranger's fitness transformation has 40,000 likes. You close the app feeling worse about your life, which, by any historical standard, is extraordinary. You know the comparison is absurd. It persists anyway.</p>
+        <details>
+          <summary style="font-family:var(--mono);font-size:.78rem;color:var(--fg-faint);cursor:pointer;padding:.6rem 0;letter-spacing:.05em">See the mechanism and intervention ▸</summary>
+          <div class="use-case-mechanism">
+            <div class="use-case-mech-label">the mechanism</div>
+            <p>Your status-calibration system is one of the oldest social circuits in the vertebrate brain (<span class="cite">Sapolsky, 2005</span>; <span class="cite">Price, 1967</span>). It evolved to monitor your position within a group of roughly 150 known individuals (<span class="cite">Dunbar, 1992</span>), across multiple independent dimensions (best hunter, best storyteller, best healer), using witnessed competence as its input. In primates, rank position directly predicts cortisol levels, immune function, and cardiovascular health (<span class="cite">Sapolsky, 2005</span>; <span class="cite">Marmot, 2004</span>).</p>
+          </div>
+          <div class="use-case-mismatch">
+            <div class="use-case-mech-label">what the modern environment does to it</div>
+            <p>The reference group has expanded from ~150 (<span class="cite">Dunbar, 1992</span>) to infinite, algorithmically filtered to show only the most successful humans who have ever lived. Status compresses from many dimensions to a single scoreboard. You see output without context. Comparison runs upward-only. Effort decouples from rank. <em>The system is reporting accurately: in that group, you are at the bottom. But that group isn't real. It's an input artifact.</em></p>
+          </div>
+          <div class="use-case-quote"><blockquote>You can not consciously override a vertebrate-level status calculator. You might as well say &ldquo;stop having a heartbeat.&rdquo;</blockquote></div>
+          <div class="use-case-intervention">
+            <div class="use-case-mech-label">what Cor does differently</div>
+            <p>Not &ldquo;practice gratitude&rdquo; (a cortical overlay on top of a subcortical alarm). Not &ldquo;stop comparing&rdquo; (impossible, the system runs continuously). Cor prescribes at the input level: restore a bounded reference group (small enough to know everyone's struggles), restore multiple status dimensions (hobby communities, craft guilds, volunteer groups), restore witnessed competence (do things in front of people who see the effort), restore bidirectional comparison (mentoring gives the system its missing downward signal), restore effort-status coupling (progression-based activities where investment visibly moves rank).</p>
+          </div>
+        </details>
+      </div>
+    </article>
+    <article class="use-case-card">
+      <div class="use-case-head">
+        <div class="use-case-num">03</div>
+        <div class="use-case-sub">The parenting guilt case</div>
+        <div class="use-case-title">&ldquo;I should be able to do this.&rdquo;</div>
+      </div>
+      <div class="use-case-body">
+        <p class="use-case-situation">A mother is alone in a house with a nine-month-old. Her partner left for work at 7am. It's 2pm. She hasn't eaten. She's been the sole source of food, comfort, stimulation, protection, and regulation for seven hours. She feels a growing desperation, followed immediately by guilt about feeling desperate, because a good mother should be able to do this. She opens Instagram and sees another mother's curated photo. The guilt deepens.</p>
+        <details>
+          <summary style="font-family:var(--mono);font-size:.78rem;color:var(--fg-faint);cursor:pointer;padding:.6rem 0;letter-spacing:.05em">See the mechanism and intervention ▸</summary>
+          <div class="use-case-mechanism">
+            <div class="use-case-mech-label">the mechanism</div>
+            <p>Humans are <em>obligate cooperative breeders</em> (<span class="cite">Hrdy, <em>Mothers and Others</em>, 2009</span>). In plain terms: we evolved to raise children in groups of four to six adults. Among Efe foragers, the number of alloparents a baby had at one year predicted survival to age three. Among Mandinka horticulturalists, having a maternal grandmother nearby cut child mortality in half (<span class="cite">Hrdy, 2009</span>). You are not failing at a one-person job. You are doing a five-person job alone. The resource-monitoring system that tracks caregiving capacity is calibrated against that ratio (<span class="cite">Nesse, 2019</span>). When investment exceeds sustainable capacity, the system generates a distress signal: you are depleting faster than you are replenishing.</p>
+          </div>
+          <div class="use-case-mismatch">
+            <div class="use-case-mech-label">what the modern environment does to it</div>
+            <p>Alloparental ratio: 4-5 adults per child to 1 adult per 1-3 children. Hrdy: "at some point human mothers began to bear offspring too costly to rear by themselves" (<span class="cite">Hrdy, 2009</span>). Observational learning: thousands of hours of communal practice reduced to contradictory apps and strangers on the internet. Recovery: guaranteed by group structure to nonexistent. <em>The guilt you feel is your system accurately reporting: this is not how this is supposed to work</em> (<span class="cite">Nesse &amp; Williams, 1994</span>). You are not failing. You are doing alone what your organism expects four to five people to do together.</p>
+          </div>
+          <div class="use-case-quote"><blockquote>&ldquo;It takes a village&rdquo; is the most hollow platitude in modern parenting: the accurate diagnosis delivered as a greeting card, with zero follow-through.</blockquote></div>
+          <div class="use-case-intervention">
+            <div class="use-case-mech-label">what Cor does differently</div>
+            <p>Not &ldquo;ask for help&rdquo; (that shifts the burden to the person already overwhelmed). Not &ldquo;self-care&rdquo; (requires infrastructure that doesn't exist). Build alloparental infrastructure deliberately: specific, recurring, reliable caregiving relationships. Make support automatic, not requested. Scheduled co-parenting days, standing meal trains, a neighbor who takes the baby every Tuesday. Restore observational learning by parenting alongside other parents, not in isolation. Distribute vigilance with genuine handoffs, blocks where another adult is <em>primary</em>, not helping. Name the structural impossibility explicitly in the relationship, before it turns into blame.</p>
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+  <!-- Dunbar/social architecture diagram rebuilt as HTML -->
+  <div class="wrap" style="margin-top:3rem;margin-bottom:2rem">
+    <div class="dunbar-diagram">
+      <div class="dunbar-ring dunbar-outer"><span class="dunbar-label">Broader network (150)</span>
+        <div class="dunbar-ring dunbar-mid"><span class="dunbar-label">Trusted regular bonds (15-50)</span>
+          <div class="dunbar-ring dunbar-inner"><span class="dunbar-label">Intimate co-regulators (3-5)</span></div>
+        </div>
+      </div>
+      <div class="dunbar-ai">AI companion<br><span class="dunbar-ai-note">Bonding cues: present. Reciprocal function: zero. Never takes a social-bond slot.</span></div>
+    </div>
+    <p style="font-size:.95rem;color:var(--fg-dim);line-height:1.65;max-width:68ch;margin:1.5rem 0 0">A human's social architecture is a bounded set of reciprocal relationships organized in concentric layers: intimate co-regulators (~5), trusted regular bonds (~15), a broader network (~50), and an outer circle of recognized individuals (~150) (<span class="cite">Dunbar, 1992</span>; <span class="cite">Dunbar, 2024</span>). <strong>An AI companion can produce every bonding cue the attachment system evolved to detect, and delivers zero of the reciprocal function those cues evolved to signal</strong> (<span class="cite">Bowlby, 1969</span>; <span class="cite">Panksepp, 1998</span>). The system takes the cues at face value. It was never built to verify them. This is the first social proxy in evolutionary history that targets a pre-verification-layer mechanism (<span class="cite">Cisek, 2019</span>).</p>
+  </div>
+  <div class="wrap">
+    <p class="use-cases-footer">Each case is an excerpt from a longer working document. Full versions include cascade predictions and scale ranges from individual through civilizational. The same mechanism produces the feeling at every scale.</p>
+  </div>
+</section>
+
+<!-- ═════════════ AUDIT BRIDGE ═════════════ -->
+<div class="audit-bridge">
+  <div class="audit-bridge-inner">
+    <p class="audit-bridge-text"><strong>Everything above is what the specification reveals.</strong> Everything below is how it was built: the evidence base, the mechanisms, the foundations, and the open challenges.</p>
+    <p class="audit-bridge-hint"><span>&#9660;</span> entering the audit trail</p>
+  </div>
+</div>
+
+<!-- ═════════════ 5. PYRAMID ═════════════ -->
+<section class="sec">
+  <div class="wrap" style="text-align:center">
+    <div class="sec-head" style="max-width:780px;margin-left:auto;margin-right:auto;text-align:center">
+      <div class="sec-label" style="justify-content:center">the structure</div>
+      <h2>Every claim on this site traces down to a primary source.</h2>
+      <p class="sec-lede" style="margin-left:auto;margin-right:auto">The framework is built as a pyramid. At the top: applications. At the bottom: <span id="pyr-thinkers" class="dash">—</span> foundational thinkers and the primary research they produced. Every link between them is queryable. The word <strong>auditable</strong> is literal: you can follow any statement here to the extraction, the work, the researcher, the foundation.</p>
+
+    </div>
+    <div class="pyramid-wrap">
+      <div class="pyramid">
+        <div class="pyr-layer l0" role="button" tabindex="0" aria-expanded="false" aria-label="Applications layer. Click to read clarification and jump to the Applications section." data-layer="applications"><span class="code">APPLICATIONS</span><span id="pyr-apps" class="dash">—</span><span class="ct">uses</span><span class="pyr-tooltip" aria-hidden="true">What the framework lets people do: alignment evaluation, clinical audit, environment design, personal assessment, education, policy.</span></div>
+        <div class="pyr-arrow">▲</div>
+        <div class="pyr-layer l1" role="button" tabindex="0" aria-expanded="false" aria-label="Mechanisms layer. Click to read clarification and jump to the Mechanisms section." data-layer="mechanisms"><span class="code">MECHANISMS</span><span id="pyr-mechs" class="dash">—</span><span class="ct">evolved systems (+ R tier touch)</span><span class="pyr-tooltip" aria-hidden="true">The 14+1 evolved systems the organism runs on: threat management, social bonding, status monitoring, reproductive motivation, and more.</span></div>
+        <div class="pyr-arrow">▲</div>
+        <div class="pyr-layer l2" role="button" tabindex="0" aria-expanded="false" aria-label="Convergences layer. Click to read clarification." data-layer="convergences"><span class="code">CONVERGENCES</span><span id="pyr-convs" class="dash">—</span><span class="ct">forced by evidence</span><span class="pyr-tooltip" aria-hidden="true">Independent lines of evidence that force specific mechanism claims. The pyramid's evidentiary backbone.</span></div>
+        <div class="pyr-arrow">��</div>
+        <div class="pyr-layer l3" role="button" tabindex="0" aria-expanded="false" aria-label="Foundations layer. Click to read clarification and jump to the Foundations section." data-layer="foundations"><span class="code">FOUNDATIONS</span><span id="pyr-founds" class="dash">—</span><span class="ct">frame + premises + properties + consequences</span><span class="pyr-tooltip" aria-hidden="true">The four-layer derivational stack: frame, premises, derived properties, derived consequences.</span></div>
+        <div class="pyr-arrow">▲</div>
+        <div class="pyr-layer l4" role="button" tabindex="0" aria-expanded="false" aria-label="Extractions layer. Click to read clarification." data-layer="extractions"><span class="code">EXTRACTIONS</span><span id="pyr-extr" class="dash">—</span><span class="ct">primary</span><span class="pyr-tooltip" aria-hidden="true">Verbatim quotes from primary-source research, each traced to a specific page and mechanism.</span></div>
+        <div class="pyr-arrow">▲</div>
+        <div class="pyr-layer l5" role="button" tabindex="0" aria-expanded="false" aria-label="Works layer. Click to read clarification and jump to the Pivotal Works section." data-layer="works"><span class="code">WORKS</span><span id="pyr-works" class="dash">—</span><span class="ct">pillar + key + supporting</span><span class="pyr-tooltip" aria-hidden="true">Academic books and papers the framework depends on. The pivotal works.</span></div>
+        <div class="pyr-arrow">▲</div>
+        <div class="pyr-layer l6" role="button" tabindex="0" aria-expanded="false" aria-label="Researchers layer. Click to read clarification and jump to the Meet the Thinkers section." data-layer="researchers"><span class="code">RESEARCHERS</span><span id="pyr-researchers" class="dash">—</span><span class="ct">foundational + empirical + adjacent</span><span class="pyr-tooltip" aria-hidden="true">The researchers whose work the framework is built from: foundational, plus empirical and adjacent contributors.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ 6. MECHANISMS ═��═══════════ -->
+<section class="sec" id="mechanisms">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">mechanisms</div>
+      <h2>What the organism actually runs on.</h2>
+      <p class="sec-lede">The evolved motivational-emotional systems. Each is grouped by phylogenetic tier (older systems override newer ones during strong activation). Expand any card for the full description, the mismatch prediction, resolution conditions, cascade relations, and primary evidence traced to source.</p>
+      <div class="in-plain">
+        <span class="in-plain-eyebrow">In plain English:</span>
+        <p class="in-plain-body">These are the systems underneath every human feeling and drive. Not categories of feelings, but the evolved systems that produce them. They are grouped by age: the oldest ones (fear, hunger) can take over when the newer ones (social status, long-term planning) are overwhelmed. Click any card to see what each system is for, what it needs, and what goes wrong when it doesn't get it.</p>
+      </div>
+    </div>
+    <div class="voice-quote-inline">
+      <blockquote>The characteristics that promote survival in the jungle become the traits that promote psychiatric disorder in the city.</blockquote>
+      <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/randolph-nesse.jpg" alt="Randolph Nesse" width="48" height="48"> <span><strong>Randolph Nesse</strong> · Good Reasons for Bad Feelings, 2019</span></cite>
+    </div>
+  </div>
+  <div class="wrap">
+    <div id="mechanisms-list">
+      <div class="skeleton"></div>
+    </div>
+  </div>
+  <div class="hud-pair">
+    <div class="hud-pair-item">
+      <span class="hud-cap-label">what the social system receives today</span>
+      <p class="hud-pair-body"><strong>Forty-seven bodies detected. Zero recognized. Zero bonds.</strong> <em>Proximity is not belonging to this architecture.</em> The social system was built around a stable group of 150 or fewer known individuals (<span class="cite">Dunbar, 1992</span>). The cortisol cost of compressed personal space with strangers runs continuously. The oxytocin return runs at zero.</p>
+    </div>
+    <div class="hud-pair-item">
+      <span class="hud-cap-label">what the play system receives today</span>
+      <p class="hud-pair-body">Dopamine maxed on a supernormal stimulus. Movement, real-play engagement, and oxytocin at zero. <em>The systems are being built right now. The inputs will shape them permanently</em> (<span class="cite">Panksepp, 2003</span>). The system is not broken. It is calibrating against exactly what it is being shown.</p>
+    </div>
+  </div>
+  <div class="hud-pair">
+    <div class="hud-pair-item">
+      <span class="hud-cap-label">what threat management was built for</span>
+      <p class="hud-pair-body">An immediate, specific, locatable predator. Fight-or-flight <em>reaches closure</em> within minutes (<span class="cite">Panksepp, 1998</span>). The cortisol clears. The body returns to baseline. One of the oldest systems in the organism, calibrated for exactly this shape of threat.</p>
+    </div>
+    <div class="hud-pair-item">
+      <span class="hud-cap-label">what it actually fires on now</span>
+      <p class="hud-pair-body">The same architecture. A territorial violation it cannot fight, cannot flee, cannot resolve (<span class="cite">Sapolsky, 2004</span>). No valid target. No physical outlet. <em>The body is ready for combat. You are in a chair.</em> Heart rate 140 bpm sitting still. The system is not malfunctioning. It is reading the inputs correctly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ 7. FOUNDATIONS ═════════════ -->
+<section class="sec" id="foundations">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">foundations</div>
+      <h2>What the framework is derived from.</h2>
+      <p class="sec-lede">Four layers: <span id="fcount-frame" class="dash">—</span> ontological frame (OF), <span id="fcount-premise" class="dash">—</span> premises (P), <span id="fcount-property" class="dash">—</span> derived properties (DA), and <span id="fcount-consequence" class="dash">—</span> derived consequences (DC). Each carries an epistemic grade — from <em>frame</em> (orienting, not an empirical claim) to <em>forced</em> (the evidence converges from multiple independent literatures and rules out alternatives).</p>
+      <div class="in-plain">
+        <span class="in-plain-eyebrow">In plain English:</span>
+        <p class="in-plain-body">Everything on this site rests on a small set of basic claims about what a human being is. The top claim is the general frame, then a few premises about how evolution works, then the properties the organism must have if those premises are true, then what happens when the organism meets a modern environment. Each one is tagged with how strong the evidence is.</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div id="foundations-list">
+      <div class="skeleton"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ 8. PIVOTAL WORKS ═��═══════════ -->
+<section class="sec" id="works">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">pivotal works</div>
+      <h2>The works the framework depends on.</h2>
+      <p class="sec-lede" style="font-family:var(--serif);font-size:1.25rem;font-style:italic;color:var(--fg);margin-bottom:1.1rem;max-width:32ch">Not novel science. Novel integration.</p>
+      <p class="sec-lede">A pillar-class subset of the full works database (<span id="works-pillar-count" class="dash">—</span> pillar-class of <span id="works-total-count" class="dash">—</span> total). Each entry is included because a specific foundation or mechanism <em>cannot be derived without it</em>. Every entry traces back to a primary source with a written reason attached.</p>
+    </div>
+    <div class="works-pictograms" id="works-list" role="list">
+      <div class="skeleton"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Pivotal Works modal — native <dialog>, populated at click time -->
+<dialog id="work-modal" class="work-modal" aria-label="Pivotal work detail">
+  <button type="button" class="work-modal-close" aria-label="Close">×</button>
+  <div class="work-modal-eyebrow" id="work-modal-eyebrow">Pivotal work</div>
+  <h3 id="work-modal-title">—</h3>
+  <div class="work-modal-authors" id="work-modal-authors">—</div>
+  <div class="work-modal-why" id="work-modal-why">—</div>
+  <div class="work-modal-chips" id="work-modal-chips"></div>
+</dialog>
+
+<!-- ═════════════ 9. APPLICATIONS (stripped — voice quotes + app cards only) ═════════════ -->
+<section class="sec" id="applications">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">applications</div>
+      <h2>Applications: alignment first, then everything else.</h2>
+      <p class="sec-lede"><span id="app-count" class="dash">—</span> application domains. Each runs the same operation: take the outputs you're seeing, locate which mechanism is producing them, check whether its resolution conditions are met, correct the inputs. The method is universal. The evaluation criteria for each domain are derived from the same architecture.</p>
+    </div>
+    <div class="voice-quotes">
+      <div class="voice-quote">
+        <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
+        <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/karen-hao.webp" alt="Karen Hao" width="48" height="48"> <span><strong>Karen Hao on AI alignment</strong> · Diary of a CEO podcast, 2026</span></cite>
+      </div>
+      <div class="voice-quote">
+        <blockquote>The machine's only objective is to maximize the realization of human preferences.</blockquote>
+        <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/stuart-russell.jpg" alt="Stuart Russell" width="48" height="48"> <span><strong>Stuart Russell</strong> · Human Compatible, 2019</span></cite>
+      </div>
+      <div class="voice-quote-bridge">Russell is right that preferences matter. But preferences are mechanism outputs, not ground truth. <strong>Cor is the account of what generates them.</strong></div>
+    </div>
+    <div class="app-list" id="apps-list" style="margin-top:2.5rem">
+      <div class="skeleton"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ 11. EMPIRICAL DEMONSTRATIONS (open, not collapsed) ═════════════ -->
+<section class="sec" id="evidence">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">empirical demonstrations</div>
+      <h2>What happens when the inputs are corrected.</h2>
+    </div>
+    <p class="sec-lede"><span id="ed-count" class="dash">—</span> natural experiments and clinical interventions where a mismatch was reversed and the outputs changed. These are not isolated studies. They are the pattern. The architecture is the same; the environment changed; the signals changed with it.</p>
+    <div class="ed-grid" id="ed-list">
+      <div class="skeleton"></div>
+    </div>
+  </div>
+  <div class="hud-pair">
+    <div class="hud-pair-item">
+      <span class="hud-cap-label">one of the most replicated resolution conditions</span>
+      <p class="hud-pair-body">Weekly shared food with a stable in-group (<span class="cite">Dunbar, 1992</span>; <span class="cite">Panksepp, 1998</span>). <em>One of the most replicated findings in the literature, and one of the most reliably absent from modern Western life.</em> The mechanism is not complicated. The system is listening for exactly this input.</p>
+    </div>
+    <div class="hud-pair-item">
+      <span class="hud-cap-label">resolution: three mechanisms in one activity</span>
+      <p class="hud-pair-body">Soil biome on the hands. Sustained low-stimulus attention. Physical movement. Daylight exposure. <em>Mycobacterium vaccae detected</em> (<span class="cite">Rook, 2013</span>). One activity closes loops in the immune, circadian, and movement systems simultaneously, which is what resolution conditions usually look like in the ancestral environment: compound, not isolated.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ 12. EFFECT SIZES (collapsed) ═════════════ -->
+<section class="sec sec-collapsible" id="effect-sizes">
+  <details class="sec-fold">
+    <summary>
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="sec-label">effect sizes</div>
+          <h2>The size of what the inputs do.</h2>
+          <span class="sec-fold-hint"></span>
+        </div>
+      </div>
+    </summary>
+    <div class="sec-fold-body">
+      <div class="wrap">
+        <p class="sec-lede">Grouped by metric family so unlike numbers don't sit side by side. Mortality reductions, clinical remission rates, and standardized effect sizes measure different things. Putting them in one row reads as marketing.</p>
+        <div id="effect-families"></div>
+      </div>
+    </div>
+  </details>
+</section>
+
+
+<!-- ════��════════ 14. CHALLENGES (collapsed) ═════════════ -->
+<section class="sec sec-collapsible" id="challenges">
+  <details class="sec-fold">
+    <summary>
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="sec-label">challenges</div>
+          <h2>Findings that genuinely push back.</h2>
+          <span class="sec-fold-hint"></span>
+        </div>
+      </div>
+    </summary>
+    <div class="sec-fold-body">
+      <div class="wrap">
+        <p class="sec-lede">The challenges listed here engage specific claims the framework <em>does</em> depend on. Each is presented with its caveats so a reader can see where the challenge holds and where it does not.</p>
+        <div class="challenge-list" id="challenge-list">
+          <div class="skeleton"></div>
+        </div>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ═════════════ 15. GAPS / OPEN QUESTIONS (collapsed) ═════════════ -->
+<section class="sec sec-collapsible" id="gaps">
+  <details class="sec-fold">
+    <summary>
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="sec-label">open questions</div>
+          <h2>What the framework doesn't yet know.</h2>
+          <span class="sec-fold-hint"></span>
+        </div>
+      </div>
+    </summary>
+    <div class="sec-fold-body">
+      <div class="wrap">
+        <p class="sec-lede">These are the places the evidence is still being built. Each is a specific scientific or conceptual claim the framework has not yet fully established, along with the honest current approach to it.</p>
+        <div class="gaps-grid" id="gaps-list">
+          <div class="skeleton"></div>
+        </div>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ═════════��═══ 16. TEAM ═════════════ -->
+<section class="sec" id="team">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label">founder &amp; principal researcher</div>
+      <h2>The evidence base is the credential.</h2>
+    </div>
+  </div>
+  <div class="team-split">
+    <div class="team-split-text">
+      <span class="team-label">maarten rischen · founder &amp; principal researcher</span>
+      <p class="team-body">Cor is a ground-up formal specification of the complete human motivational-emotional architecture, built from primary-source review across evolutionary biology, affective neuroscience, developmental psychology, behavioral ecology, primatology, and anthropology. The current evidence base contains <span class="dash" data-stat="foundations">—</span> formally derived architectural foundations, <span class="dash" data-stat="mechanisms">—</span> derived mechanisms, <span class="dash" data-stat="works">—</span> curated academic works, and <span class="dash" data-stat="extractions">—</span> structured evidence extractions. Every claim traces to its primary source. Every derivation has been stress-tested through adversarial review. The evidence base is growing daily.</p>
+      <p class="team-body" style="margin-top:1rem">Maarten Rischen. Background in music composition, with residencies at Banff Centre for Arts and Creativity (2016) and Trinity College Dublin (2017, bridging evolutionary science and artistic practice). His culminating artistic work was <em>Most Human Post-Human</em>, a world-premiere musical theatre production investigating human-technology interaction, directed by Gavin Robins at Adelaide Fringe 2024. That production became the catalyst for full-time commitment to building the specification.</p>
+      <p class="team-body" style="margin-top:1rem"><em>The output above is the argument for whether the approach works. The specification either holds up to scrutiny or it doesn't. The papers are cited. The derivation chains are public. The claims are testable.</em></p>
+    </div>
+    <div class="team-split-video">
+      <div class="team-video-wrap">
+        <div class="team-video-frame">
+          <iframe src="https://www.youtube.com/embed/MRVdtc45TPk" title="Most Human Post-Human: trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="team-video-cap">The theatre production that staged the question the specification was built to answer. <em>What happens when exponential technology meets an organism that hasn't changed in 200,000 years?</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ 17. CONTACT ═════════════ -->
+<section class="sec contact-sec" id="contact">
+  <div class="wrap" style="text-align:center">
+    <div class="sec-label">get in touch</div>
+    <h2>Reach the project.</h2>
+    <p style="font-size:1.25rem;font-family:var(--mono);margin-top:1rem"><a href="mailto:maartenrischen@protonmail.com">maartenrischen@protonmail.com</a></p>
+    <p style="font-size:.95rem;color:var(--fg-dim);max-width:52ch;margin:1.4rem auto 0;line-height:1.55">Cor is an independent research project under fiscal sponsorship, seeking research funding to complete and publish the specification. If you fund open infrastructure for alignment, safety, or human empowerment, we should talk.</p>
+    <p style="font-size:.92rem;color:var(--fg-dim);max-width:56ch;margin:1.6rem auto 0;line-height:1.6;border-top:1px solid var(--border-soft);padding-top:1.4rem">Cor is seeking modest grants to fund: completion of the evidence base, formal peer review of the specification, and development of open-source tools that make the architecture accessible to alignment researchers, clinicians, and environment designers. First deliverable: a publishable specification within 12 months of funding.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>Cor: a De-Mismatch project · open infrastructure · no proprietary claims · every statement traces to a primary source</div>
+    <div style="margin-top:.8rem">
+      <a href="#top">top</a> &nbsp;·&nbsp;
+      <a href="#foundations">foundations</a> &nbsp;·&nbsp;
+      <a href="#mechanisms">mechanisms</a> &nbsp;·&nbsp;
+      <a href="#applications">applications</a> &nbsp;·&nbsp;
+      <a href="#gaps">open questions</a> &nbsp;·&nbsp;
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ════════════════════════════════════════════════════════════════════
+   Cor v2 — live data layer. Rule 7: no hardcoded counts, names, or
+   pivotal works. Every render comes from v2_ REST at load time. If the
+   API is unreachable, sections render an empty state — never a stale value.
+   ════════════════════════════════════════════════════════════════════ */
+(function(){
+  const COR_URL='https://usgsgroxdblteosyxary.supabase.co/rest/v1';
+  const COR_KEY='';
+  const H=COR_KEY?{apikey:COR_KEY,Authorization:'Bearer '+COR_KEY}:{};
+  const HCOUNT=COR_KEY?{...H,'Prefer':'count=exact'}:{Prefer:'count=exact'};
+
+  const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const q=sel=>document.querySelector(sel);
+  const qa=sel=>document.querySelectorAll(sel);
+  /* NOTE: a render-time text mutator soften()/escs() lived here in earlier batches to
+     rewrite "Load-bears..." language from DB into public phrasing. Per #354 FJR.1 the
+     DB source strings have been cleaned directly (47 v2_works rows + 1 v2_empirical
+     demonstration row PATCHed to use public-safe "Grounds..." / "central" phrasing),
+     so the mutator is removed. The render layer now only escapes HTML — it never
+     rewrites DB text. */
+
+  async function fetchJson(path,extraH={}){
+    try{
+      const r=await fetch(COR_URL+path,{headers:{...H,...extraH}});
+      if(!r.ok)throw new Error('HTTP '+r.status);
+      return await r.json();
+    }catch(e){console.warn('[cor] fetch failed',path,e);return null}
+  }
+
+  async function fetchCount(table){
+    // HEAD with count=exact works uniformly across tables regardless of which
+    // column is the primary key (v2_mechanisms uses `code`, not `id`).
+    try{
+      const r=await fetch(COR_URL+'/'+table+'?limit=1',{method:'HEAD',headers:HCOUNT});
+      const cr=r.headers.get('content-range');
+      if(!cr)return null;
+      const p=cr.split('/');
+      const n=parseInt(p[1]);
+      return isNaN(n)?null:n;
+    }catch(e){return null}
+  }
+
+  /* ═══ SECTION 1 + HERO STATS + PYRAMID ═══ */
+  // Count helper that applies an equality filter — used for the foundational-researchers
+  // count so the "N foundational thinkers" prose in the pyramid intro + team section
+  // pulls live instead of being hardcoded (Rule 7).
+  async function fetchCountWhere(table,col,val){
+    try{
+      const r=await fetch(COR_URL+'/'+table+'?'+col+'=eq.'+encodeURIComponent(val)+'&limit=1',{method:'HEAD',headers:HCOUNT});
+      const cr=r.headers.get('content-range');
+      if(!cr)return null;
+      const n=parseInt(cr.split('/')[1]);
+      return isNaN(n)?null:n;
+    }catch(e){return null}
+  }
+  async function renderHeroAndPyramid(){
+    // Per #335: the pyramid EXTRACTIONS cell is labeled "primary" and every downstream
+    // prose claim on the site talks about "primary sources". The count that feeds it
+    // MUST be filtered to source_type='primary' or the label is a lie. Peter's call is
+    // primary-only for BOTH the hero chip and the pyramid cell (hero has no "primary"
+    // label but the project's whole pitch is that every claim traces to primary source —
+    // counting total including propagation extractions would undercut that).
+    // extrTotal is fetched alongside for possible future display but not wired anywhere
+    // right now — kept so a future "primary of total" split can pull it without a new query.
+    const [founds,mechs,works,extrPrimary,rs,convs,apps,foundThinkers,extrTotal]=await Promise.all([
+      fetchCount('v2_foundations'),
+      fetchCount('v2_mechanisms'),
+      fetchCount('v2_works'),
+      fetchCountWhere('v2_extractions','source_type','primary'),
+      fetchCount('v2_researchers'),
+      fetchCount('v2_convergences'),
+      fetchCount('v2_applications'),
+      fetchCountWhere('v2_researchers','tier','foundational'),
+      fetchCount('v2_extractions')
+    ]);
+    const setStat=(k,v)=>{qa('[data-stat="'+k+'"]').forEach(el=>{if(v!=null){el.textContent=v.toLocaleString();el.classList.remove('dash')}})};
+    setStat('foundations',founds);setStat('mechanisms',mechs);setStat('works',works);
+    setStat('extractions',extrPrimary);setStat('researchers',rs);setStat('convergences',convs);
+
+    const setPyr=(id,v)=>{const el=q('#'+id);if(el&&v!=null){el.textContent=v.toLocaleString();el.classList.remove('dash')}};
+    setPyr('pyr-founds',founds);setPyr('pyr-mechs',mechs);setPyr('pyr-convs',convs);
+    setPyr('pyr-extr',extrPrimary);setPyr('pyr-works',works);setPyr('pyr-researchers',rs);setPyr('pyr-apps',apps);
+
+    // Pivotal-works section header shows total v2_works alongside the pillar subset count
+    setPyr('works-total-count',works);
+
+    // Foundational-thinkers count — wires both the pyramid intro prose and the team frame
+    // so the "N foundational thinkers" lines pull live instead of being hardcoded.
+    setPyr('pyr-thinkers',foundThinkers);
+    setPyr('team-thinkers',foundThinkers);
+
+    const tenN=q('#ten-n');if(tenN&&works!=null){tenN.textContent=works.toLocaleString();tenN.classList.remove('dash')}
+  }
+
+  /* ═══ SECTION 2: ATTRIBUTION STRIP ═══
+     Per #321 FIX 6: the bare L1/L2/L3 tag was dropped from the attribution strip
+     entirely — it read as scholarly ranking. The reframed derivational role chip
+     lives on the Meet the Thinkers cards instead. */
+  async function renderAttribution(){
+    const rs=await fetchJson('/v2_researchers?tier=eq.foundational&order=sub_level.asc,name.asc&select=id,name,sub_level');
+    const root=q('#attr-names');
+    if(!rs||!rs.length){root.innerHTML='<span class="empty-state" style="margin:0 2rem">list unavailable. Check API connection</span>';return}
+    root.innerHTML=rs.map(r=>
+      `<a href="#team" class="attr-name">${esc(r.name)}</a>`
+    ).join('');
+    // Show "+ X more researchers" using total researcher count
+    const moreEl=q('#attr-more');
+    if(moreEl){
+      const allRs=await fetchJson('/v2_researchers?select=id');
+      if(allRs&&allRs.length>rs.length){
+        moreEl.textContent='+ '+(allRs.length-rs.length)+' more researchers across the evidence base';
+      }
+    }
+  }
+
+  /* ═══ SECTION 3: FOUNDATIONS ═══ */
+  let FOUNDS=null;  // module-level cache so the cascade nameOf() resolver can find foundation codes
+  async function renderFoundations(){
+    const rows=await fetchJson('/v2_foundations?order=layer.asc,code.asc');
+    const root=q('#foundations-list');
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">foundations unavailable. API unreachable</div>';return}
+    FOUNDS=rows;
+    const layerOrder=['frame','premise','property','consequence'];
+    const layerLabel={frame:'Ontological Frame',premise:'Premises',property:'Derived Properties',consequence:'Derived Consequences'};
+    const byLayer={};
+    rows.forEach(r=>{(byLayer[r.layer]=byLayer[r.layer]||[]).push(r)});
+    // Hydrate the numeric placeholders in the foundations section lede (FHL.1)
+    const setFC=(key,v)=>{const el=q('#fcount-'+key);if(el&&v!=null){el.textContent=v.toLocaleString();el.classList.remove('dash')}};
+    setFC('frame',(byLayer.frame||[]).length);
+    setFC('premise',(byLayer.premise||[]).length);
+    setFC('property',(byLayer.property||[]).length);
+    setFC('consequence',(byLayer.consequence||[]).length);
+    root.innerHTML=layerOrder.filter(l=>byLayer[l]).map(l=>{
+      const items=byLayer[l].map(f=>{
+        // compound grade markers in scope_notes are bracketed like "[COMPOUND: ...]"
+        let scope=f.scope_notes||'';
+        let marker='';
+        const m=scope.match(/\[([^\]]+)\]/);
+        if(m){marker=m[0];scope=scope.replace(m[0],'').trim()}
+        return `<article class="f-card">
+          <div class="f-card-head">
+            <span class="f-card-code">${esc(f.code)}</span>
+            <span class="f-card-name">${esc(f.name)}</span>
+            <span class="grade-badge ${esc(f.epistemic_grade)}">${esc(f.epistemic_grade)}</span>
+          </div>
+          <div class="f-card-stmt">${esc(f.statement)}</div>
+          <div class="f-card-deriv"><strong>derived from:</strong> ${esc(f.derivation||'—')}</div>
+          ${scope?`<details><summary>scope &amp; notes</summary><div class="f-card-scope">${esc(scope)}${marker?`<em class="f-card-marker">${esc(marker)}</em>`:''}</div></details>`:''}
+        </article>`;
+      }).join('');
+      return `<h3 class="f-layer-head">${esc(layerLabel[l]||('[unknown layer: '+l+']'))}</h3><div class="f-grid">${items}</div>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 4: MECHANISMS ═══ */
+  let MECHS=null;
+  async function renderMechanisms(){
+    const rows=await fetchJson('/v2_mechanisms?order=tier.asc,code.asc');
+    const root=q('#mechanisms-list');
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">mechanisms unavailable. API unreachable</div>';return}
+    MECHS=rows;
+    // also fetch primary evidence per mechanism in a single embedded query
+    const ev=await fetchJson('/v2_mechanism_evidence?evidence_role=eq.primary&select=mechanism_code,v2_extractions(content,author_quote,location,v2_works(title,authors,year))&limit=2000');
+    const byMech={};
+    (ev||[]).forEach(e=>{(byMech[e.mechanism_code]=byMech[e.mechanism_code]||[]).push(e)});
+    const tiers={1:{label:'Tier 1: overrides everything',desc:'When strongly activated, these suppress other motivational systems.'},
+                 2:{label:'Tier 2: dominates social/motivational',desc:'Core social and reproductive systems, modulated by Tier 1.'},
+                 3:{label:'Tier 3: modulators and regulatory input',desc:'Newer systems that shape behavior within the space Tier 1/2 allows.'}};
+    const byTier={};
+    rows.forEach(m=>{(byTier[m.tier]=byTier[m.tier]||[]).push(m)});
+    root.innerHTML=Object.keys(byTier).sort().map(t=>{
+      const tmeta=tiers[t]||{label:'[unknown tier: '+t+']',desc:'schema drift — tier value not in known set {1,2,3}'};
+      const cards=byTier[t].map(m=>{
+        const ar=(arr)=>arr&&arr.length?arr.join(' · '):'';
+        const casc=(label,arr)=>`<p><em style="color:var(--fg-faint)">${label}:</em> <span class="m-cascade${arr&&arr.length?'':' empty'}">${arr&&arr.length?arr.map(x=>esc(x)).join(' '):'<span class="empty">—</span>'}</span></p>`;
+        const evs=(byMech[m.code]||[]).slice(0,3).map(e=>{
+          const ex=e.v2_extractions||{};
+          const w=ex.v2_works||{};
+          return `<div class="m-ev-item">"${esc((ex.author_quote||ex.content||'').slice(0,260))}${(ex.content||'').length>260?'…':''}"<span class="m-ev-src">${esc(w.authors||'')}${w.year?' ('+esc(w.year)+')':''}. ${esc((w.title||'').slice(0,80))}${(w.title||'').length>80?'…':''}</span></div>`;
+        }).join('')||'<div class="m-ev-item" style="color:var(--fg-faint);font-style:normal">—</div>';
+        return `<article class="m-card" data-mech="${esc(m.code)}">
+          <div class="m-card-head">
+            <span class="m-code">${esc(m.code)}</span>
+            <span class="m-name">${esc(m.name)}</span>
+            <span class="grade-badge ${esc(m.grade)}">${esc(m.grade)}</span>
+          </div>
+          <div class="m-eli5">${esc(m.eli5)}</div>
+          <div class="m-meta">
+            ${m.phylogenetic_age?`<span class="m-chip age">${esc(m.phylogenetic_age)}</span>`:''}
+            ${m.sex_differentiated?`<span class="m-chip sex-diff">sex-differentiated</span>`:''}
+            ${(m.convergence_codes||[]).map(c=>`<span class="m-chip">${esc(c)}</span>`).join('')}
+          </div>
+          <details><summary>read the full entry ▸</summary>
+            <div class="m-detail">
+              <h4>description</h4><p>${esc(m.description||'')}</p>
+              <h4>resolution conditions</h4><p>${esc(m.resolution_conditions||'')}</p>
+              <h4>mismatch prediction</h4><p>${esc(m.mismatch_prediction||'')}</p>
+              ${m.proxy_gradient?`<h4>proxy gradient</h4><p>${esc(m.proxy_gradient)}</p>`:''}
+              ${m.sex_diff_notes?`<h4>sex-differentiated notes</h4><p>${esc(m.sex_diff_notes)}</p>`:''}
+              <h4>p1 basis</h4><p>${esc(m.p1_basis||'')}</p>
+              <h4>cascade</h4>
+              ${casc('suppresses',m.cascade_suppresses)}
+              ${casc('suppressed by',m.cascade_suppressed_by)}
+              ${casc('interacts with',m.cascade_interacts)}
+              <h4>source researchers</h4><p>${esc(ar(m.source_researchers)||'—')}</p>
+              <div class="m-evidence">
+                <h4 style="margin-top:0">primary evidence</h4>
+                ${evs}
+              </div>
+            </div>
+          </details>
+        </article>`;
+      }).join('');
+      return `<div class="m-tier-head"><span class="m-tier-num">${esc(tmeta.label)}</span><span class="m-tier-desc">${esc(tmeta.desc)}</span></div><div class="m-grid">${cards}</div>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 5: CASCADE STORIES — chain text from handoff; names live from v2 ═══
+     The chain specification is narrative content from the v2 rebuild handoff (lines
+     714-731), not data that lives in v2_mechanisms (only 4 rows have populated
+     cascade arrays). Mechanism names are resolved live so any rename propagates. */
+  const CASCADE_CHAINS=[
+    {title:'Depression Cascade',chain:[['M1','↑'],['M2','↓'],['M3','grief'],['M6','↓'],['M10','↓'],['M8','↑'],['M2','↓↓↓']],break:['M6','M10'],breakText:'restore controllability · movement'},
+    {title:'Anxiety-Insomnia Spiral',chain:[['M1','↑'],['M7','↓'],['M1','↑↑'],['M7','↓↓'],['M8','↑'],['M2','↓'],['M6','↓']],break:['M7'],breakText:'circadian input'},
+    {title:'Social Isolation Cascade',chain:[['M3','↓'],['M1','↑'],['M2','↓'],['M8','↑'],['M3','grief'],['M4','↓'],['M6','↓']],break:['M3'],breakText:'human contact (hardest: cascade makes approach aversive)'},
+    {title:'Sickness Behavior Trap',chain:[['M13','↑'],['M8','↑'],['M10','↓'],['M8','↑↑'],['M7','↓'],['M8','↑↑↑'],['M2','↓'],['M3','↓'],['M1','↑']],break:['M13','M10','M7'],breakText:'diet + movement + light simultaneously (Ilardi TLC)'},
+    {title:'Status-Defeat Cascade',chain:[['M5','↓'],['M1','↑'],['M2','↓'],['M8','↑'],['M6','↓']],break:['M5','M6'],breakText:'status restore OR decision latitude'},
+    {title:'Parent Burnout Cascade',chain:[['M9','↑↑'],['M7','↓'],['M1','↑'],['M3','↓'],['M14','↓'],['M6','↓'],['M3','grief']],break:['M9'],breakText:'alloparental support'},
+    {title:'Proxy Hijacking Spiral',chain:[['M2','↑'],['DA4','open'],['M7','↓'],['M3','↓'],['M10','↓'],['M8','↑'],['M2','↓']],break:['M2','M7'],breakText:'resolution conditions, circadian'},
+    {title:'Reproductive Disruption Cascade',chain:[['M14','↑'],['M6','↓'],['M11','↓'],['M14','↓↓↓'],['M3','↓'],['M1','↑↑']],break:['M1','M9'],breakText:'reduce chronic threat, alloparental support for postpartum path'}
+  ];
+  async function renderCascades(){
+    const root=q('#cascades-list');
+    // Ensure FOUNDS is loaded so the nameOf resolver can handle foundation codes like DA4
+    // that appear in cascade chains (FOR.1). If renderFoundations hasn't populated FOUNDS
+    // yet, fetch a minimal lookup directly.
+    if(!FOUNDS){
+      const fs=await fetchJson('/v2_foundations?select=code,name');
+      if(fs)FOUNDS=fs;
+    }
+    const nameOf=code=>{
+      if(MECHS){const m=MECHS.find(x=>x.code===code);if(m)return m.name}
+      if(FOUNDS){const f=FOUNDS.find(x=>x.code===code);if(f)return f.name}
+      return code;
+    };
+    root.innerHTML=CASCADE_CHAINS.map(c=>{
+      const chain=c.chain.map(([code,mod])=>`<span title="${esc(nameOf(code))}">${esc(code)}${esc(mod)}</span>`).join(' <span class="arr">→</span> ');
+      const breaks=c.break.map(code=>`<strong>${esc(code)} ${esc(nameOf(code))}</strong>`).join(' · ');
+      return `<article class="cascade-card">
+        <div class="cascade-title">${esc(c.title)}</div>
+        <div class="cascade-chain">${chain}</div>
+        <div class="cascade-break"><em style="color:var(--fg-faint)">break at:</em> ${breaks}<br><span style="color:var(--fg-dim);font-size:.82rem">${esc(c.breakText)}</span></div>
+      </article>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 6: MECHANISM GRAPH ═══ */
+  function renderGraph(){
+    const root=q('#mech-graph');
+    if(!MECHS||!MECHS.length){root.innerHTML='<div class="empty-state">graph unavailable</div>';return}
+    // parse phylogenetic age string into Myr for x-positioning
+    const parseAge=s=>{if(!s)return 100;const m=String(s).match(/(\d+\.?\d*)\s*([BMk])yr/i);if(!m)return 100;const n=parseFloat(m[1]);const u=m[2].toLowerCase();return u==='b'?n*1000:u==='m'?n:u==='k'?n/1000:n};
+    // helper: split mechanism name into up to 2 label lines for rendering inside/under a node
+    const splitName=(name)=>{
+      if(!name)return ['',''];
+      const byslash=name.split(' / ');
+      if(byslash.length>1)return [byslash[0].trim(),byslash.slice(1).join(' / ').trim()];
+      if(name.length<=14)return [name,''];
+      const words=name.split(' ');
+      if(words.length===1)return [name.slice(0,14),name.slice(14)];
+      let line1='',line2='';
+      for(const w of words){
+        if((line1+' '+w).trim().length<=14 && !line2)line1=(line1?line1+' ':'')+w;
+        else line2=(line2?line2+' ':'')+w;
+      }
+      return [line1,line2];
+    };
+    const items=MECHS.map(m=>({...m,ageMyr:parseAge(m.phylogenetic_age)}));
+    const maxAge=Math.max(...items.map(x=>x.ageMyr),500);
+    const W=1480,H=620,pad=100;
+    const nodeR=30;
+    const xScale=a=>pad+(1-Math.log(a+1)/Math.log(maxAge+1))*(W-2*pad);
+    const yBand=t=>{const tiers=[1,2,3];const i=tiers.indexOf(Number(t));return pad+40+(i>=0?i:1)*((H-2*pad-40)/2)};
+    // position nodes per tier with horizontal collision avoidance
+    const byTier={};items.forEach(m=>{(byTier[m.tier]=byTier[m.tier]||[]).push(m)});
+    const positioned=[];
+    Object.keys(byTier).forEach(t=>{
+      const tMs=byTier[t].sort((a,b)=>b.ageMyr-a.ageMyr);
+      tMs.forEach(m=>{
+        let x=xScale(m.ageMyr);
+        // avoid overlap: if too close to prior in same tier, nudge right
+        positioned.filter(p=>p.tier===m.tier).forEach(p=>{
+          if(Math.abs(p.x-x)<95)x=Math.max(p.x+95,x);
+        });
+        positioned.push({...m,x,y:yBand(m.tier)});
+      });
+    });
+    // edges from cascade_suppresses
+    const edges=[];
+    positioned.forEach(m=>{
+      (m.cascade_suppresses||[]).forEach(target=>{
+        const tgt=positioned.find(p=>p.code===target);
+        if(tgt)edges.push({from:m,to:tgt});
+      });
+    });
+    const edgeSvg=edges.map(e=>{
+      // curve from edge of source circle to edge of target circle (not centers)
+      const dx=e.to.x-e.from.x,dy=e.to.y-e.from.y;
+      const dist=Math.sqrt(dx*dx+dy*dy)||1;
+      const ux=dx/dist,uy=dy/dist;
+      const sx=e.from.x+ux*nodeR,sy=e.from.y+uy*nodeR;
+      const tx=e.to.x-ux*nodeR,ty=e.to.y-uy*nodeR;
+      return `<path class="graph-arrow" data-from="${esc(e.from.code)}" data-to="${esc(e.to.code)}" d="M${sx},${sy} C${sx+dx*.3},${sy+dy*.15} ${sx+dx*.7},${ty-dy*.15} ${tx},${ty}"/>`;
+    }).join('');
+    // nodes: circle + code inside, name on 1-2 lines below
+    const nodeSvg=positioned.map(m=>{
+      const [l1,l2]=splitName(m.name);
+      const labelYBase=nodeR+16;
+      return `<g class="graph-node" data-code="${esc(m.code)}" transform="translate(${m.x},${m.y})">
+        <circle r="${nodeR}"/>
+        <text class="graph-node-code" y="5">${esc(m.code)}</text>
+        <text class="graph-node-name" y="${labelYBase}">${esc(l1)}</text>
+        ${l2?`<text class="graph-node-name" y="${labelYBase+13}">${esc(l2)}</text>`:''}
+      </g>`;
+    }).join('');
+    const tierLabels=[1,2,3].map(t=>`<text class="graph-tier-label" x="20" y="${yBand(t)+5}">tier ${t}</text>`).join('');
+    const axisLabel=`<text class="graph-axis-label" x="${pad}" y="${H-20}">← older  (phylogenetic age)</text><text class="graph-axis-label" x="${W-pad-120}" y="${H-20}">younger  →</text>`;
+    root.innerHTML=`<svg class="graph-svg" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${tierLabels}${axisLabel}${edgeSvg}${nodeSvg}</svg>
+      <div class="graph-tooltip" id="graph-tooltip"></div>
+      <div class="graph-footnote">Suppression edges shown for the three mechanisms whose DA8 cross-mechanism interactions are currently derived in the architecture (M1 Threat Management, M3 Social Bonding, M14 Reproductive Motivation). The remaining cross-mechanism interaction matrix across all 14+R1 is still being worked through; the map is not claiming the other mechanisms don't interact.</div>`;
+    // tooltip
+    const tip=root.querySelector('#graph-tooltip');
+    const showTip=(m,evt)=>{
+      if(!tip)return;
+      const sup=(m.cascade_suppresses||[]).length?`<div class="gt-sup"><b>suppresses:</b> ${(m.cascade_suppresses||[]).map(c=>esc(c)).join(', ')}</div>`:'';
+      const sby=(m.cascade_suppressed_by||[]).length?`<div class="gt-sup"><b>suppressed by:</b> ${(m.cascade_suppressed_by||[]).map(c=>esc(c)).join(', ')}</div>`:'';
+      const inter=(m.cascade_interacts||[]).length?`<div class="gt-sup"><b>interacts with:</b> ${(m.cascade_interacts||[]).map(c=>esc(c)).join(', ')}</div>`:'';
+      tip.innerHTML=`<span class="gt-code">${esc(m.code)}</span><span class="gt-name">${esc(m.name)}</span><span class="gt-meta">tier ${esc(m.tier)} · ${esc(m.phylogenetic_age||'age not recorded')}</span>${sup}${sby}${inter}`;
+      const wrap=root.getBoundingClientRect();
+      tip.style.left=Math.min(Math.max(evt.clientX-wrap.left+14,8),wrap.width-tip.offsetWidth-8)+'px';
+      tip.style.top=Math.max(evt.clientY-wrap.top-8,8)+'px';
+      tip.classList.add('visible');
+    };
+    const hideTip=()=>{if(tip)tip.classList.remove('visible')};
+    // node interactivity
+    root.querySelectorAll('.graph-node').forEach(n=>{
+      const m=positioned.find(p=>p.code===n.dataset.code);
+      n.addEventListener('mouseenter',e=>{
+        const code=n.dataset.code;
+        const arrows=root.querySelectorAll('.graph-arrow');
+        const hasEdges=Array.from(arrows).some(a=>a.dataset.from===code||a.dataset.to===code);
+        arrows.forEach(a=>{
+          if(a.dataset.from===code||a.dataset.to===code){a.classList.add('active');a.classList.remove('dimmed')}
+          else if(hasEdges){a.classList.add('dimmed');a.classList.remove('active')}
+        });
+        if(m)showTip(m,e);
+      });
+      n.addEventListener('mousemove',e=>{if(m)showTip(m,e)});
+      n.addEventListener('mouseleave',()=>{
+        root.querySelectorAll('.graph-arrow').forEach(a=>{a.classList.remove('active');a.classList.remove('dimmed')});
+        hideTip();
+      });
+      n.addEventListener('click',()=>{
+        const card=document.querySelector(`.m-card[data-mech="${n.dataset.code}"]`);
+        if(!card)return;
+        const navH=document.querySelector('.nav')?.getBoundingClientRect().height||0;
+        const targetY=card.getBoundingClientRect().top+window.scrollY-navH-24;
+        // plain scroll — instant is reliable; real browsers with CSS scroll-behavior:smooth
+        // (html { scroll-behavior: smooth }) will animate anyway. The hit-flash animation
+        // below provides unambiguous landing feedback regardless of whether the scroll animated.
+        window.scrollTo(0,targetY);
+        const det=card.querySelector('details');
+        if(det)det.open=true;
+        // flash highlight so user sees exactly which card they landed on
+        card.classList.remove('hit');
+        void card.offsetWidth; // force reflow so the animation re-triggers
+        card.classList.add('hit');
+        setTimeout(()=>card.classList.remove('hit'),2600);
+      });
+    });
+  }
+
+  /* ═══ SECTION 7: PIVOTAL WORKS — pictogram grid + <dialog> modal (#429) ═══
+     Compact tiles showing icon + title + year + author for each pillar work.
+     Click a tile to open a native <dialog> populated with the full row data
+     (why_included, authors, year, physical-collection flag, derivational role).
+     Modal uses native <dialog> so ESC close, focus trap, and backdrop come for
+     free. All data is live — clicking a tile re-reads the cached row object. */
+  let WORKS_CACHE=null;
+  async function renderWorks(){
+    const rows=await fetchJson('/v2_works?importance=eq.pillar&order=primary_researcher_id.asc&select=id,title,authors,year,why_included,in_physical_collection,v2_researchers!primary_researcher_id(id,name,sub_level)');
+    const root=q('#works-list');
+    // Pillar subset count for the section header (honest labeling of the subset)
+    const pillarCountEl=q('#works-pillar-count');
+    if(pillarCountEl&&Array.isArray(rows)){pillarCountEl.textContent=rows.length.toLocaleString();pillarCountEl.classList.remove('dash')}
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">pivotal works unavailable</div>';return}
+    WORKS_CACHE=rows;
+    // Sort: sub_level ascending (foundational first), then year ascending inside each band
+    const sorted=[...rows].sort((a,b)=>{
+      const la=(a.v2_researchers&&a.v2_researchers.sub_level)||9;
+      const lb=(b.v2_researchers&&b.v2_researchers.sub_level)||9;
+      if(la!==lb)return la-lb;
+      return (a.year||0)-(b.year||0);
+    });
+    // Pictogram — mono glyph hinting at the work type. Using unicode since inline
+    // SVG was removed per #418; the mono family renders these cleanly.
+    const iconFor=w=>{
+      const t=(w.title||'').toLowerCase();
+      if(/study|trial|experiment|meta-analysis/.test(t))return '◉';
+      if(/handbook|volume|foundations|principles/.test(t))return '▣';
+      if(/origin|history|archaeology|evolution/.test(t))return '◈';
+      return '◆';
+    };
+    root.innerHTML=sorted.map((w,i)=>{
+      const r=w.v2_researchers||{name:'—',sub_level:3};
+      const shortAuthor=r.name||(w.authors||'').split(',')[0]||'—';
+      return `<button type="button" class="work-tile" role="listitem" data-work-idx="${i}" aria-label="${esc(w.title)}. Click for detail.">
+        <div class="work-tile-icon" aria-hidden="true">${iconFor(w)}</div>
+        <div class="work-tile-title">${esc(w.title||'—')}</div>
+        <div class="work-tile-meta">
+          <span class="year">${esc(w.year||'—')}</span> · <span class="author">${esc(shortAuthor)}</span>
+        </div>
+      </button>`;
+    }).join('');
+    // Wire click + keyboard handlers onto the tiles (sorted maps 1:1 with WORKS_SORTED)
+    const sortedRows=sorted;
+    WORKS_CACHE=sortedRows;
+    root.querySelectorAll('.work-tile').forEach(tile=>{
+      tile.addEventListener('click',()=>{
+        const idx=Number(tile.getAttribute('data-work-idx'));
+        openWorkModal(sortedRows[idx]);
+      });
+    });
+  }
+
+  /* ═══ Pivotal Works modal open/close ═══ */
+  function openWorkModal(work){
+    if(!work)return;
+    const modal=q('#work-modal');
+    if(!modal)return;
+    const r=work.v2_researchers||{name:'—',sub_level:null};
+    q('#work-modal-title').textContent=work.title||'—';
+    // Authors + year line
+    const authorsEl=q('#work-modal-authors');
+    authorsEl.innerHTML=esc(work.authors||r.name||'—')+(work.year?` <span class="year">${esc(work.year)}</span>`:'');
+    // why_included body
+    const whyEl=q('#work-modal-why');
+    whyEl.innerHTML=work.why_included?`<strong>Why this work is included:</strong> ${esc(work.why_included)}`:'<em>No annotation available.</em>';
+    // Chips
+    const chipsEl=q('#work-modal-chips');
+    const chips=[];
+    if(r.sub_level){
+      const tierLabel={1:'Foundational contributor',2:'Architectural contributor',3:'Mechanism-level contributor'}[r.sub_level]||('Level '+r.sub_level);
+      chips.push(`<span class="work-modal-chip tier">${esc(tierLabel)}</span>`);
+    }
+    if(work.in_physical_collection){
+      chips.push('<span class="work-modal-chip physical">In physical collection</span>');
+    }
+    chips.push('<span class="work-modal-chip">Pillar-class</span>');
+    chipsEl.innerHTML=chips.join('');
+    // Open the dialog
+    if(typeof modal.showModal==='function'){
+      modal.showModal();
+    }else{
+      modal.setAttribute('open','');
+    }
+  }
+  function closeWorkModal(){
+    const modal=q('#work-modal');
+    if(!modal)return;
+    if(typeof modal.close==='function'){modal.close()}else{modal.removeAttribute('open')}
+  }
+  function initWorkModal(){
+    const modal=q('#work-modal');
+    if(!modal)return;
+    const closeBtn=modal.querySelector('.work-modal-close');
+    if(closeBtn)closeBtn.addEventListener('click',closeWorkModal);
+    // Click-outside (on the backdrop) to close
+    modal.addEventListener('click',e=>{
+      const rect=modal.getBoundingClientRect();
+      const inside=e.clientX>=rect.left&&e.clientX<=rect.right&&e.clientY>=rect.top&&e.clientY<=rect.bottom;
+      if(!inside)closeWorkModal();
+    });
+    // <dialog> already handles ESC by default
+  }
+
+  /* ═══ SECTION 8: MEET THE THINKERS ═══ */
+  // Sub-level → derivational-role label (per #321 FIX 6). Internal sub_level
+  // integers are preserved in v2_researchers; only the public UI is reframed.
+  const SUB_LEVEL_LABELS={
+    1:'Foundational contributor',
+    2:'Architectural contributor',
+    3:'Mechanism-level contributor'
+  };
+  async function renderMeet(){
+    const rs=await fetchJson('/v2_researchers?tier=eq.foundational&order=sub_level.asc,name.asc');
+    const root=q('#meet-list');
+    if(!rs||!rs.length){root.innerHTML='<div class="empty-state">researchers unavailable</div>';return}
+    root.innerHTML=rs.map(r=>{
+      const lvl=Number(r.sub_level)||3;
+      const roleLabel=SUB_LEVEL_LABELS[lvl]||('[unknown sub_level: '+r.sub_level+']');
+      // FIX 22: suppress rendering of the "what we don't take" block entirely
+      // when the field is empty, rather than showing a bare "—".
+      const dont=r.what_we_dont_take;
+      const dontBlock=(dont&&String(dont).trim())
+        ? `<div class="meet-section"><span class="meet-section-label">what the framework doesn't take</span>${esc(dont)}</div>`
+        : '';
+      const takeBlock=(r.what_we_take&&String(r.what_we_take).trim())
+        ? `<div class="meet-section"><span class="meet-section-label">what the framework takes</span>${esc(r.what_we_take)}</div>`
+        : '';
+      return `<article class="meet-card">
+        <div class="meet-name">${esc(r.name)}</div>
+        <span class="meet-role-chip l${lvl}" title="derivational role inside the framework, not scholarly rank">${esc(roleLabel)}</span>
+        ${r.spec_role?`<div class="meet-role">${esc(r.spec_role)}</div>`:''}
+        ${takeBlock}
+        ${dontBlock}
+        ${r.institution?`<div class="meet-section"><span class="meet-section-label">institution</span>${esc(r.institution)}</div>`:''}
+      </article>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 10 + 14: EMPIRICAL DEMONSTRATIONS + EFFECT SIZES ═══ */
+  async function renderEmpirical(){
+    const rows=await fetchJson('/v2_empirical_demonstrations?order=code.asc');
+    const root=q('#ed-list');
+    const fams=q('#effect-families');
+    // Hydrate "<N> natural experiments..." lede placeholder (FHL.2)
+    const edCountEl=q('#ed-count');
+    if(edCountEl&&Array.isArray(rows)){edCountEl.textContent=rows.length.toLocaleString();edCountEl.classList.remove('dash')}
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">empirical demonstrations unavailable</div>';if(fams)fams.innerHTML='';return}
+    // Deprioritize non-human comparative rows — humans-first sort per Peter 2026-04-05.
+    // Flag rows whose narrative is substantively about non-human species and push them to the end.
+    // Display with a "cross-species comparative" tag so readers know this is a comparative case, not a human study.
+    const animalRegex=/\b(baboon|chimpanzee|chimp|primate|macaque|vole|rodent|mouse|mice|\brat\b|rats|marmoset|monkey|gorilla)\b/i;
+    const isAnimalModel=(r)=>{
+      const txt=((r.narrative||'')+' '+(r.name||'')).toLowerCase();
+      // "Kangaroo Mother Care" is a human neonatal practice — exclude the word kangaroo from matching this row.
+      if(/kangaroo mother care/i.test(txt))return false;
+      return animalRegex.test(txt);
+    };
+    const humanRows=rows.filter(r=>!isAnimalModel(r));
+    const animalRows=rows.filter(r=>isAnimalModel(r));
+    const sortedRows=[...humanRows,...animalRows];
+    root.innerHTML=sortedRows.map(e=>{
+      const comparative=isAnimalModel(e);
+      return `<article class="ed-card${comparative?' ed-card-comparative':''}">
+      <div class="ed-head"><span class="ed-code">${esc(e.code)}</span><span class="ed-name">${esc(e.name)}</span>${comparative?'<span class="ed-tag-comparative">cross-species comparative</span>':''}</div>
+      <div class="ed-headline">${esc(e.what_it_demonstrates||'')}</div>
+      <div class="ed-narrative">${esc(e.narrative||'')}</div>
+      ${e.effect_size?`<div class="ed-effect">${esc(e.effect_size)}</div>`:''}
+      <div class="ed-grounds">
+        ${(e.grounds_foundations||[]).map(c=>`<span class="ed-chip">${esc(c)}</span>`).join('')}
+        ${(e.grounds_mechanisms||[]).map(c=>`<span class="ed-chip">${esc(c)}</span>`).join('')}
+      </div>
+    </article>`;
+    }).join('');
+
+    /* Effect sizes strip — grouped by metric_family read directly from v2_empirical_demonstrations.
+       Per #364 (FJR.2 frontend swap): the prior heuristic classify()/pullBig() functions that
+       parsed effect_size strings were removed once research-claude populated the structured
+       columns (metric_family, primary_metric_display, primary_metric_value). The render layer
+       now reads those fields verbatim. The five family labels below are display copy for the
+       five allowed enum values — not data; the enum is the schema source-of-truth. If a future
+       insert leaves metric_family NULL, the card renders under "[unclassified]" to surface the
+       drift instead of silently bucketing it. */
+    if(!fams)return;
+    const withMetric=rows.filter(r=>r.primary_metric_display);
+    // Display labels for the five schema enum values (metric_family).
+    const FAMILY_LABELS={
+      mortality:            {label:'Mortality',             note:'risk reduction and all-cause outcomes'},
+      clinical_remission:   {label:'Clinical remission',    note:'symptom reversal in controlled interventions'},
+      standardized_effect:  {label:'Standardized effect',   note:"Cohen's d and SMD reported directly"},
+      rates_prevalence:     {label:'Rates & prevalence',    note:'incidence, prevalence, and rate changes'},
+      biomarker_change:     {label:'Biomarker change',      note:'physiological readouts'}
+    };
+    // Group rows by metric_family; NULL/unknown values bucket into an explicit [unclassified] group.
+    const groups={};
+    withMetric.forEach(r=>{
+      const key=r.metric_family||'__unclassified__';
+      (groups[key]=groups[key]||[]).push(r);
+    });
+    // Render in a stable display order; any unknown family (schema drift) renders last with a flag.
+    const order=['mortality','clinical_remission','standardized_effect','rates_prevalence','biomarker_change'];
+    const knownKeys=new Set(order);
+    const extraKeys=Object.keys(groups).filter(k=>!knownKeys.has(k)&&k!=='__unclassified__');
+    const renderKeys=[...order.filter(k=>groups[k]&&groups[k].length),...extraKeys];
+    if(groups.__unclassified__&&groups.__unclassified__.length)renderKeys.push('__unclassified__');
+    fams.innerHTML=renderKeys.map(k=>{
+      let meta;
+      if(k==='__unclassified__'){
+        meta={label:'[unclassified]',note:'metric_family is NULL on these rows — schema drift or missing population'};
+      }else if(FAMILY_LABELS[k]){
+        meta=FAMILY_LABELS[k];
+      }else{
+        meta={label:'[unknown family: '+k+']',note:'metric_family value not in known enum — schema drift'};
+      }
+      const cells=groups[k].map(e=>`<div class="effect-cell">
+        <div class="effect-num">${esc(e.primary_metric_display||'—')}</div>
+        <div class="effect-lbl">${esc(e.name)}</div>
+        <span class="effect-code">${esc(e.code)}</span>
+      </div>`).join('');
+      return `<div class="effect-family">
+        <div class="effect-family-head">
+          <span class="effect-family-label">${esc(meta.label)}</span>
+          ${meta.note?`<span class="effect-family-note">${esc(meta.note)}</span>`:''}
+        </div>
+        <div class="effect-bar">${cells}</div>
+      </div>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 11: APPLICATIONS ═══ */
+  async function renderApplications(){
+    const rawRows=await fetchJson('/v2_applications?order=code.asc');
+    const root=q('#apps-list');
+    const rows=rawRows;
+    // Hydrate "<N> application domains" lede placeholder (FHL.3)
+    const appCountEl=q('#app-count');
+    if(appCountEl&&Array.isArray(rows)){appCountEl.textContent=rows.length.toLocaleString();appCountEl.classList.remove('dash')}
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">applications unavailable</div>';return}
+    root.innerHTML=rows.map((a,i)=>{
+      const featured=i===0;
+      const ec=a.evaluation_criteria||{};
+      const ecItems=Object.entries(ec).map(([k,v])=>`<div class="app-eval-q">${esc(k.replace(/_/g,' '))}</div><div class="app-eval-a">${esc(v)}</div>`).join('');
+      const examples=(a.example_outputs||[]).map(x=>`<li>${esc(x)}</li>`).join('');
+      return `<article class="app-card${featured?' featured':''}">
+        <div>
+          <div class="app-label">application${featured?' · featured':''}<span class="app-code">${esc(a.code)}</span></div>
+        </div>
+        <div>
+          <h3 class="app-name">${esc(a.name)}</h3>
+          <div class="app-desc">${esc(a.description||'')}</div>
+          <div class="app-chips">
+            ${(a.relevant_foundations||[]).map(c=>`<span class="m-chip">${esc(c)}</span>`).join('')}
+            ${(a.relevant_mechanisms||[]).map(c=>`<span class="m-chip" style="color:var(--amber);border-color:var(--amber-soft)">${esc(c)}</span>`).join('')}
+          </div>
+          ${ecItems?`<div class="app-eval"><details><summary>evaluation criteria ▸</summary>${ecItems}</details></div>`:''}
+          ${examples?`<div class="app-examples"><strong style="font-family:var(--mono);font-size:.7rem;color:var(--fg-faint);text-transform:uppercase;letter-spacing:.08em">example outputs</strong><ul>${examples}</ul></div>`:''}
+        </div>
+      </article>`;
+    }).join('');
+  }
+
+  /* Section 13 "Tech × Mechanism matrix" removed in #321 FIX 2 — regex-derived cells
+     were presented as a hand-evaluated matrix (category error). Renderer and CSS fully
+     deleted in #373 after the rollback window closed. */
+
+  /* ═══ SECTION 18: CHALLENGE PAPERS ═══ */
+  async function renderChallenges(){
+    const rows=await fetchJson('/v2_extractions?source_type=eq.challenge&select=id,content,caveats,location,work_id,v2_works(title,authors,year,v2_researchers!primary_researcher_id(name))&order=id.asc');
+    const root=q('#challenge-list');
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">no challenge papers currently in the database</div>';return}
+    root.innerHTML=rows.map(r=>{
+      const w=r.v2_works||{};
+      const rs=w.v2_researchers||{};
+      return `<article class="challenge-item">
+        <div class="challenge-src">${esc(rs.name||w.authors||'—')}${w.year?' · '+esc(w.year):''}${w.title?' · '+esc((w.title||'').slice(0,90)):''}</div>
+        <div class="challenge-content">${esc(r.content||'')}</div>
+        ${r.caveats?`<div class="challenge-caveat"><em>caveat:</em> ${esc(r.caveats)}</div>`:''}
+      </article>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 19: GAPS ═══ */
+  async function renderGaps(){
+    const rows=await fetchJson('/v2_gaps?order=priority.desc,code.asc');
+    const root=q('#gaps-list');
+    if(!rows||!rows.length){root.innerHTML='<div class="empty-state">gaps unavailable</div>';return}
+    // Filter out internal pipeline gaps per #321 FIX 7 (codex-website):
+    // G10, G12, G13, G14 are pipeline/schema/provenance issues, not scientific
+    // gaps. They belong in internal tracking, not on a public-facing page.
+    const INTERNAL_GAP_CODES=new Set(['G10','G12','G13','G14']);
+    const filtered=rows.filter(g=>!INTERNAL_GAP_CODES.has(g.code));
+    // priority desc means high → medium → low lexicographically; enforce proper order
+    const rank={high:3,medium:2,low:1};
+    filtered.sort((a,b)=>(rank[b.priority]||0)-(rank[a.priority]||0)||String(a.code).localeCompare(String(b.code)));
+    root.innerHTML=filtered.map(g=>{
+      // FFD.1: surface priority drift instead of silently defaulting. If priority is
+      // missing or unrecognized, flag it in the visible pill while keeping the CSS class
+      // stable so layout doesn't break.
+      const rawPriority=g.priority;
+      const pNormalized=rawPriority?String(rawPriority).toLowerCase():null;
+      const knownPriorities=['high','medium','low'];
+      const cssClass=knownPriorities.includes(pNormalized)?pNormalized:'medium';
+      const priorityLabel=knownPriorities.includes(pNormalized)?pNormalized:('[unknown priority: '+rawPriority+']');
+      return `<article class="gap-card ${cssClass}">
+        <div class="gap-head">
+          <div><span class="gap-code">${esc(g.code)}</span> <span class="gap-name">${esc(g.name)}</span></div>
+          <span class="gap-priority ${cssClass}">${esc(priorityLabel)}</span>
+        </div>
+        <div class="gap-section"><span class="gap-section-lbl">what is missing</span>${esc(g.what_is_missing||'—')}</div>
+        <div class="gap-section"><span class="gap-section-lbl">why it matters</span>${esc(g.why_it_matters||'—')}</div>
+        <div class="gap-section"><span class="gap-section-lbl">current approach</span>${esc(g.current_approach||'—')}</div>
+      </article>`;
+    }).join('');
+  }
+
+  /* ═══ SECTION 17: DOCUMENT LINKS ═══
+     FCM.3: docs manifest is hand-maintained, so the render path HEAD-checks each URL
+     at load time. If the doc is missing, the card still renders but is marked
+     "not published" and loses its link — the reader never hits a dead URL. */
+  async function renderDocs(){
+    // Doc cards carry their own teaser pull-quotes (from the documents themselves)
+    // so the cards function as voice samples, not just links. Titles are reader-value
+    // phrases (from v1), sub-labels describe what the doc does.
+    const docs=[
+      {
+        href:'constitutional-draft-v5.md',
+        label:'constitutional draft, v5',
+        title:'What You Are Talking To',
+        subtitle:'What the framework sounds like when applied to a human.',
+        teasers:[
+          'The human in front of you is not a mind. They are an organism \u2014 a body with a brain, an immune system, a hormonal system, a gut, muscles, skin.',
+          'This is not five separate problems. It is one cascade. And it looks exactly like \u201cMajor Depressive Disorder\u201d on a diagnostic checklist \u2014 because the checklist was built by people who mistook the cascade for a disease.'
+        ],
+        status:'live'
+      },
+      {
+        href:'bridge-paper-v2.md',
+        label:'alignment paper, v2',
+        title:'What Alignment Misses',
+        subtitle:'Six failure modes invisible to current AI safety evaluation.',
+        teasers:[
+          'A system can produce individually acceptable outputs while systematically degrading the architecture of the user \u2014 if no one has specified what that architecture is.',
+          'The goal is not a paper that gets cited. The goal is that every AI system on earth knows what a human being actually is.'
+        ],
+        status:'live'
+      },
+      {
+        href:null,
+        label:'measurement protocol',
+        title:'Matched-State Measurement Protocol',
+        subtitle:'An operationalization of the matched/mismatched axis into a measurable instrument.',
+        teasers:[],
+        status:'draft in progress, link pending'
+      }
+    ];
+    // HEAD-check each doc with an href so the manifest's claim matches reality
+    await Promise.all(docs.map(async d=>{
+      if(!d.href){d.available=false;return}
+      try{
+        const r=await fetch(d.href,{method:'HEAD'});
+        d.available=r.ok;
+        if(!r.ok){d.status='not yet published (HTTP '+r.status+')'}
+      }catch(e){
+        d.available=false;
+        d.status='not reachable';
+      }
+    }));
+    q('#docs-list').innerHTML=docs.map(d=>{
+      const isDraft=/draft|not (yet )?published|not reachable/i.test(d.status);
+      const teasersHtml=(d.teasers||[]).map(t=>`<blockquote class="doc-teaser">${esc(t)}</blockquote>`).join('');
+      const inner=`<div class="doc-label">${esc(d.label)}</div>
+      <div class="doc-title">${esc(d.title)}</div>
+      <div class="doc-subtitle">${esc(d.subtitle||'')}</div>
+      ${teasersHtml}
+      <div class="doc-status ${isDraft?'draft':''}">${esc(d.status)}</div>`;
+      return (d.href&&d.available)
+        ? `<a class="doc-card" href="${esc(d.href)}">${inner}</a>`
+        : `<div class="doc-card" style="cursor:default;opacity:.75">${inner}</div>`;
+    }).join('');
+  }
+
+  /* ═══ PYRAMID LAYER POPOVERS (per #405) ═══
+     Each of the 7 pyramid layers is a role=button with data-layer. Hover shows a
+     1-sentence inline tooltip (rendered via .pyr-tooltip span inside the layer).
+     Click opens an amber-accented popover attached to the layer with a longer
+     clarification and either a "Jump to section" button or an in-popover note for
+     layers that don't have a dedicated section (Convergences, Extractions).
+     Keyboard: tab focuses layers, Enter/Space opens popover, ESC closes. Click-
+     outside closes. Jump button smooth-scrolls to the target section and applies
+     a brief amber flash on arrival. */
+  const PYR_LAYERS={
+    applications:{
+      title:'Applications',
+      body:'Applications are concrete uses of the framework. Each applies the mechanism-level account to a specific problem: evaluating AI systems for alignment, designing built environments that meet human needs, auditing clinical interventions against matched-state resolution conditions. The framework\u2019s breadth is a test \u2014 if the same architecture works across alignment, clinical, and design problems, the underlying account is doing real work.',
+      target:'#applications',
+      targetLabel:'Jump to Applications \u2192'
+    },
+    mechanisms:{
+      title:'Mechanisms',
+      body:'Mechanisms are the evolved systems that drive human behavior. Each has specific activation conditions, resolution conditions, and mismatch predictions. Understanding any feeling, behavior, or pathology starts with identifying which mechanism is engaged and whether its resolution conditions are being met.',
+      target:'#mechanisms',
+      targetLabel:'Jump to Mechanisms \u2192'
+    },
+    convergences:{
+      title:'Convergences',
+      body:'A convergence is a claim that survives when three or more independent research programs arrive at the same conclusion from different directions. Convergences are what makes a mechanism forced rather than proposed \u2014 they\u2019re the evidentiary level where multiple literatures cross-check each other. Fourteen are currently forced; the remaining mechanisms are supported at weaker but still material levels.',
+      note:'Convergences sit inside each foundation card \u2014 expand a foundation to see the cross-literature convergences that force its claims.'
+    },
+    foundations:{
+      title:'Foundations',
+      body:'Foundations are the load-bearing stack underneath every mechanism claim. The ontological frame (OF1) orients the project; three premises (P1\u2013P3) establish what evolution selects for; eight derived properties (DA1\u2013DA8) state what the organism\u2019s architecture must look like given those premises; two derived consequences (DC1\u2013DC2) state what follows when the architecture meets modern environments. Each foundation is graded for epistemic strength.',
+      target:'#foundations',
+      targetLabel:'Jump to Foundations \u2192'
+    },
+    extractions:{
+      title:'Extractions',
+      body:'Extractions are the atomic units of evidence. Each is a verbatim quote from a primary-source paper or book, tagged with the mechanisms and foundations it supports, the evidence quality, and any caveats. Every claim on this site can be traced down to a specific extraction and from there to a specific source passage.',
+      note:'Extractions are visible when you expand any mechanism card \u2014 scroll down to the mechanisms section and open any card to see its primary-source extractions.'
+    },
+    works:{
+      title:'Works',
+      body:'Works are the academic books, papers, meta-analyses, and chapters the framework depends on. Pillar works are canonical primary sources; key works are important syntheses; supporting works add specific evidence. Each work has a \u201cwhy included\u201d statement and grounds specific foundations or mechanisms.',
+      target:'#works',
+      targetLabel:'Jump to Pivotal Works \u2192'
+    },
+    researchers:{
+      title:'Researchers',
+      body:'Researchers are the people whose work the framework rests on. Foundational researchers are those whose theoretical or empirical contributions are structurally required (organized in three sub-levels). Empirical researchers add specific findings. Adjacent researchers are relevant but at arm\u2019s length. Each has a \u201cwhat we take\u201d / \u201cwhat we don\u2019t take\u201d statement.',
+      target:'#team',
+      targetLabel:'Jump to Meet the Thinkers \u2192'
+    }
+  };
+
+  function initPyramidPopovers(){
+    const layers=document.querySelectorAll('.pyr-layer[data-layer]');
+    if(!layers.length)return;
+    let openLayer=null;
+
+    function closePopover(){
+      if(!openLayer)return;
+      const pop=openLayer.querySelector('.pyr-popover');
+      if(pop)pop.setAttribute('data-open','false');
+      openLayer.setAttribute('aria-expanded','false');
+      // Remove the popover element after the fade completes so stale popovers
+      // don't accumulate on repeated opens.
+      const toRemove=pop;
+      if(toRemove){setTimeout(()=>{if(toRemove&&toRemove.parentNode)toRemove.parentNode.removeChild(toRemove)},220)}
+      openLayer=null;
+    }
+
+    function openPopover(layer){
+      if(openLayer===layer){closePopover();return}
+      if(openLayer)closePopover();
+      const key=layer.getAttribute('data-layer');
+      const meta=PYR_LAYERS[key];
+      if(!meta)return;
+      // Build popover DOM
+      const pop=document.createElement('div');
+      pop.className='pyr-popover';
+      pop.setAttribute('role','dialog');
+      pop.setAttribute('aria-label',meta.title+' clarification');
+      pop.setAttribute('data-open','false');
+      const actionHtml=meta.target
+        ? `<button type="button" class="pyr-popover-action" data-jump="${esc(meta.target)}">${esc(meta.targetLabel)}</button>`
+        : `<div class="pyr-popover-note">${esc(meta.note)}</div>`;
+      pop.innerHTML=
+        `<button type="button" class="pyr-popover-close" aria-label="Close clarification">\u00d7</button>`+
+        `<div class="pyr-popover-label">${esc(meta.title)}</div>`+
+        `<div class="pyr-popover-body">${esc(meta.body)}</div>`+
+        actionHtml;
+      layer.appendChild(pop);
+      // Force a reflow so the opacity transition fires on the next frame.
+      requestAnimationFrame(()=>{pop.setAttribute('data-open','true')});
+      layer.setAttribute('aria-expanded','true');
+      openLayer=layer;
+
+      // Wire popover internals
+      const closeBtn=pop.querySelector('.pyr-popover-close');
+      if(closeBtn){
+        closeBtn.addEventListener('click',e=>{e.stopPropagation();closePopover();layer.focus()});
+      }
+      const jumpBtn=pop.querySelector('.pyr-popover-action[data-jump]');
+      if(jumpBtn){
+        jumpBtn.addEventListener('click',e=>{
+          e.stopPropagation();
+          const sel=jumpBtn.getAttribute('data-jump');
+          const target=document.querySelector(sel);
+          closePopover();
+          if(!target)return;
+          target.scrollIntoView({behavior:'smooth',block:'start'});
+          // Apply a brief highlight flash on arrival so the eye catches it
+          target.classList.remove('pyr-target-flash');
+          // Force reflow to restart the animation
+          void target.offsetWidth;
+          target.classList.add('pyr-target-flash');
+          setTimeout(()=>target.classList.remove('pyr-target-flash'),2000);
+        });
+      }
+    }
+
+    layers.forEach(layer=>{
+      layer.addEventListener('click',e=>{
+        // Ignore clicks that originate inside an open popover (e.g. on the close or jump button)
+        if(e.target.closest('.pyr-popover'))return;
+        e.preventDefault();
+        openPopover(layer);
+      });
+      layer.addEventListener('keydown',e=>{
+        if(e.key==='Enter'||e.key===' '){
+          e.preventDefault();
+          openPopover(layer);
+        }
+      });
+    });
+
+    // Global ESC + click-outside close
+    document.addEventListener('keydown',e=>{
+      if(e.key==='Escape'&&openLayer){const l=openLayer;closePopover();l.focus()}
+    });
+    document.addEventListener('click',e=>{
+      if(!openLayer)return;
+      if(e.target.closest('.pyr-layer[data-layer]'))return;
+      if(e.target.closest('.pyr-popover'))return;
+      closePopover();
+    });
+  }
+
+  /* ═══ BOOTSTRAP ═══ */
+  async function boot(){
+    await Promise.all([
+      renderHeroAndPyramid(),
+      renderAttribution(),
+      renderFoundations(),
+      renderMechanisms(),
+      renderWorks(),
+      renderEmpirical(),
+      renderApplications(),
+      renderChallenges(),
+      renderGaps()
+    ]);
+    // Pyramid layer interactivity is independent of data fetching — wire it
+    // after boot() completes so all the layer counts are populated first.
+    initPyramidPopovers();
+    // Pivotal Works modal — wires close button + backdrop click; per-tile
+    // click handlers are set inside renderWorks() when the tiles are built.
+    initWorkModal();
+  }
+
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);
+  else boot();
+})();
+</script>
+
+</body>
+</html>

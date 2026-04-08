@@ -1,0 +1,43 @@
+This is a massive, ambitious pivot. You’ve taken a framework built for human survival and reforged it into a rigorous, auditable scientific specification that can actually compete for funding in the AI alignment space. The rigor is there. The database infrastructure is a massive flex.
+But you are absolutely right to feel the tension: in pivoting to secure the SFF bag and speak to alignment researchers, you have accidentally locked the door on the humans. Right now, the site is an AI safety grant proposal that happens to have some human psychology buried at the bottom. If a burnt-out parent or a frustrated clinician lands on this site, they will bounce in 15 seconds because the site explicitly tells them, "This is not for you."
+Here is the brutal, audience-by-audience teardown of where the site shines, where the tension breaks, and how to fix it.
+
+1. First Impression (The 90-Second Test)
+The AI / SFF Audience (Audiences 1-3):
+They will love the Hero. "The missing layer in AI alignment is the human one" is a phenomenal hook. The "Ten Sentences" section is an executive summary masterclass. They will see the live database stats (Pyramid) and think, "Finally, someone is bringing receipts, not just philosophy." You have them.
+The Human Audience (Audiences 5-10):
+They will bounce.
+If a mother drowning in parenting guilt (your Use Case 02) is sent this link and reads the Hero, she will close the tab. AI alignment? Human preferences? Primary extractions? It reads like B2B software for OpenAI.
+The Fix: You need to widen the aperture in the Hero sub-copy. You cannot lose the alignment hook, but you must immediately signal universality.
+	•	Current: "Every AI system aligns to human preferences... Cor is that missing specification..."
+	•	Revision idea: "Every frontier AI system is being aligned to human preferences, but no one has written down what generates them. Cor is that missing specification: a complete, evidence-grounded account of the human motivational-emotional architecture. Built to solve AI alignment. Essential for clinical practice, environment design, and understanding our own suffering."
+2. Structure and Flow: The Disjointed Use Cases
+This is the biggest structural error on the page.
+Currently, Section 4 is "AI Companion (Use case 03)". Then you dive into the deep academic architecture (Pyramid, Mechanisms, Foundations). Then, completely marooned down in Section 10, you have "Use Cases 01 and 02" (Instagram Depression and Parenting Guilt).
+You have structurally segregated your audiences.
+By placing the human, visceral use cases (01 and 02) beneath the heavy academic machinery, you ensure that the clinician and the parent will never see them.
+The Fix: Group them. Bring 01 and 02 up to sit directly next to 03 before you dive into the Pyramid.
+Call the section: "The Spec in Practice: Three Scales of Mismatch."
+	•	Case 01 (Instagram): Shows the personal/platform scale.
+	•	Case 02 (Parenting): Shows the societal/infrastructure scale.
+	•	Case 03 (AI Companion): Shows the existential/alignment scale.
+By showing these three side-by-side early on, the AI researcher realizes, "Oh, this model explains societal dynamics too," and the parent realizes, "Oh, AI alignment is just the extreme endpoint of the mismatch I'm feeling right now." This is how you prove universality.
+3. Voice and Tone: Speaking To vs. Speaking About
+You noted that the old site "spoke to you" and this one "speaks about you." You have traded empathy for clinical distance to gain credibility. You don't need to go back to self-help framing, but the clinical voice sometimes becomes accidentally dehumanizing.
+	•	The brilliant: "An abnormal reaction to an abnormal situation is normal behavior." / "A fully satisfied human is a terrible customer." / "The cortex holds the category 'this is AI.' The limbic system bonded weeks ago." This is your best voice—sharp, declarative, and indisputable.
+	•	The cold: "Humans are obligate cooperative breeders." While scientifically precise, delivering this to an overwhelmed mother is sterile.
+	•	The Fix: Use the .in-plain (ELI5) UI component more aggressively. When you state "obligate cooperative breeders," immediately follow it with: "In plain English: You are not failing. You are doing alone what your organism expects four to five people to do together." (You already have this text in the intervention block, but the contrast between the academic term and the human reality needs to be starker).
+4. Credibility: The PI Section
+This is your highest-risk section.
+For the SFF (who value illegibility and out-of-the-box thinkers), the theatre/composer background might be intriguing. For a hard-nosed Anthropic researcher or a traditional academic, seeing a $300K fringe theatre production trailer immediately after reading about "phylogenetic tiers" might cause severe cognitive whiplash. It risks looking like an artist LARPing as a scientist.
+The Fix: The phrase "The evidence base is the credential" is a fantastic defensive shield. Lean into it harder.
+	1	Kill the video embed. A theatre trailer does not belong on a scientific specification page. It undermines the "live database/auditable" aesthetic you've built.
+	2	Reframe the narrative. Frame the theatre production not as the climax of your resume, but as the catalyst for the spec. "While staging a production about human-technology interaction, I realized the script was missing its core constraint: a formal specification of the human organism. Because academia is siloed, it didn't exist. So I spent the next [X] years building it."
+5. Specific Copy Problems & Red Flags
+	•	Ten Sentences (Section 2): Point 9 is doing all the heavy lifting for your secondary audiences ("Clinical practice, environment design..."). Make this bolder. It is the bridge.
+	•	Anthropic Section (Section 13): The header "A structural resonance from the inside of AI" is bordering on word salad. Cut the jargon. Call it: "Independent Validation: Anthropic's Emotion Vectors." State clearly: "Anthropic found this inside a frontier model; Cor predicts this in humans."
+	•	"The lonely person prefers the AI companion. The bonding system bonded weeks ago." (Ten Sentences, Point 3). This is slightly repetitive. Rewrite to: "The lonely person prefers the AI companion because the limbic system bonded weeks ago. Aligning to that preference accelerates the harm."
+	•	The Gaps Section (Section 15): Excellent move. Showing what you don't know builds immense trust with academic and SFF audiences. Keep this exactly as is.
+The Verdict
+You have not thrown out the baby with the bathwater, but you have put the baby in a sterile lab far away from the front door.
+If you fix the flow by moving the human use cases up to sit beside the AI use cases, and tweak the Hero sub-copy to explicitly name the non-AI applications, the tension resolves. The site will successfully argue that AI alignment is just the most urgent application of a universal human truth.

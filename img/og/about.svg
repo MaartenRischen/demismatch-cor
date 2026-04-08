@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1030" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0D14"/>
+      <stop offset="1" stop-color="#121826"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 50) rotate(40) scale(720 520)">
+      <stop stop-color="#D4A574" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D4A574" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="88" y="80" width="1024" height="470" rx="28" fill="#FFFFFF" fill-opacity="0.02" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <path d="M88 474C235 438 397 420 574 420C764 420 943 447 1112 500" stroke="#D4A574" stroke-opacity="0.22" stroke-width="2"/>
+  <text x="120" y="150" fill="#D4A574" font-family="'JetBrains Mono', monospace" font-size="22" letter-spacing="5.2">ABOUT</text>
+  <text x="120" y="248" fill="#E8E6DF" font-family="'Source Serif 4', Georgia, serif" font-size="64" font-weight="700"><tspan x="120" dy="0">The Evidence Base Is The</tspan><tspan x="120" dy="78">Credential</tspan></text>
+  <text x="120" y="420" fill="#A8A9B0" font-family="Inter, Arial, sans-serif" font-size="30"><tspan x="120" dy="0">A ground-up specification project built from</tspan><tspan x="120" dy="40">primary-source review across disciplines.</tspan></text>
+  <text x="120" y="530" fill="#727887" font-family="'JetBrains Mono', monospace" font-size="18" letter-spacing="4.2">OPEN INFRASTRUCTURE FOR HUMAN SPECIFICATION</text>
+</svg>

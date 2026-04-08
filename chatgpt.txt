@@ -1,0 +1,98 @@
+Universal framing is filtered out
+Dismiss
+The page says Cor is universal, but the public applications renderer explicitly removes Clinical Practice, Education and Child Development, and Policy and Governance from view. That means the copy promises breadth while the implementation hides the exact audience paths that would prove it, so clinicians, educators, and policymakers are told this applies to them and then shown a page that visibly does not.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:2052-2055
+
+P0
+Researcher layer points to nowhere
+Dismiss
+The attribution strip sends readers to #researchers, but there is no researchers section in the document and the meet-the-thinkers renderer is never booted. This creates a trust hit exactly where the page is trying to establish scholarly lineage.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:1548-1549
+
+P1
+Hero excludes non-AI readers too early
+Dismiss
+This lands fast for alignment readers, but it tells parents, clinicians, educators, and builders within seconds that the page is primarily about AI. The universal human claim exists elsewhere, but it arrives too late to rescue readers who bounce on the frame.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:895-896
+
+P1
+Weak authority signal in compressed opener
+Dismiss
+The page says the project is primary-source scientific infrastructure, then opens the compressed thesis with a Modern Wisdom quote. That signal is much weaker than a paper, book, or canonical researcher citation and makes the scaffolding feel internet-native instead of academically grounded.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:915-918
+
+P1
+AI companion section overclaims
+Dismiss
+Saying this is not a product design problem, not a regulation problem, and that the only intervention is environmental is too absolute. It dismisses builders and policymakers the site claims to serve, and it sounds more ideological than scientific at the exact point where precision matters most.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:988-989
+
+P1
+Founder section gives back credibility
+Dismiss
+The heading says the evidence base is the credential, but the first concrete credentialing move is a long arts and theatre biography with budget and namedrops. For SFF recommenders and alignment researchers this reads as founder mythology intruding on a scientific pitch.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:1403-1405
+
+P2
+Contact section does not help a funder decide
+Dismiss
+For a blitz-chess grant audience this is too vague. There is no ask size, no milestone plan, no timing, and no crisp statement of what funding unlocks next. After a very long page, the reader still has to infer the actual grant case.
+/Users/maartenrischen/code/DEMISMATCH COR WEBSITE/index.html:1421-1426
+
+This page is trying to be a grant pitch, a scientific specification, a database browser, and a humane landing page at the same time. Right now the alignment pitch wins, the human invitation loses, and the founder section gives back trust the evidence sections had earned.
+Top Findings
+	•	[P0] The biggest failure is strategic, not stylistic: the site claims universality in the copy, then the JS hides three of the six live application domains. I checked the live rows; Clinical Practice, Education and Child Development, and Policy and Governance exist in the database but are filtered out in public at index.html (line 2052). That directly violates the brief.
+	•	[P0] The page promises a researcher layer and does not deliver it. The attribution strip links every name to #researchers at index.html (line 1548), the pyramid popover also targets it at index.html (line 2250), but there is no such section and renderMeet() is never booted at index.html (line 2350). For a site built on "auditable," this is damaging.
+	•	[P1] The first screen is strong for SFF and alignment people, weak for almost everyone else. The title/meta frame a universal human project at index.html (line 6), then the hero narrows it to AI alignment at index.html (line 895). A parent or clinician can reasonably think, "not for me," before the page earns a second scroll.
+	•	[P1] The Ten Sentences section works as an alignment pitch, not as a universal pitch. It doubles down on AI, fronts a podcast quote, and includes a sloppy tonal break with "vibe level" at index.html (line 928). It is compressed, but not clean.
+	•	[P1] The AI companion case arrives too early and too absolutely. It hijacks the frame before the human frame has been emotionally established, and it makes claims like "the only intervention" at index.html (line 989) that are too total for a scientific site.
+	•	[P1] The founder section is the page's worst credibility moment. "The evidence base is the credential" at index.html (line 1398) is the right heading. Starting the actual bio with a 20-year music career and a $300K theatre production at index.html (line 1404) and index.html (line 1405) is the wrong proof.
+	•	[P2] The page is far too long for blitz-chess evaluation. In-browser it renders to about 30,531 px, roughly 40 laptop screens. The reader hits hero, compressed, mismatch, AI companion, pyramid, mechanisms, foundations, works, applications, use cases, evidence, effect sizes, Anthropic, challenges, gaps, founder, contact. That is not a landing page, it is a scroll test.
+	•	[P2] There is still no funder-grade ask. The contact block at index.html (line 1421) tells me you want funding, but not how much, for what, by when, or what a modest grant would concretely unlock.
+Audience Test
+	•	SFF recommenders: The first screen is strong enough to earn one more scroll. The counts and auditability language are hard-to-fake signals. But the page does not make the funding decision easy, and the founder section actively raises avoidable skepticism.
+	•	Alignment researchers: They will recognize the gap claim and some will lean in. They will also notice the tonal slips, podcast quotes, and totalizing claims quickly.
+	•	Karen Hao: The gap is real and relevant to her reporting, but the page is too alignment-insider in its first impression and not broad enough about the missing human specification.
+	•	HSEE: The page underserves this audience. Human empowerment is stated, not felt.
+	•	Clinicians: The mismatch thesis and parent case can land, but hiding the clinical application tells them they are not actually a first-class audience.
+	•	Parents: Most will bounce on the hero. The page finally speaks to them in the mismatch section and the parenting case, but that is too late.
+	•	Educators: They are basically absent in the visible page. The live application exists and is hidden.
+	•	Builders and policymakers: Builders get a partial path through AI companion and environment design. Policymakers are literally filtered out, and "not a regulation problem" pushes them away.
+	•	People in pain: The strongest humane lines exist, but they are buried under specification language and AI framing.
+	•	Academic researchers: Challenges and gaps help. Missing researcher profiles, broken anchors, and the founder bio all hurt.
+Specific Copy Problems
+	•	index.html (line 879): compressed is an internal label, not a reader-facing one.
+	•	index.html (line 899): mechanisms + R tier is internal jargon on the first screen.
+	•	index.html (line 916): opening the main pitch with a Modern Wisdom quote weakens the scientific signal.
+	•	index.html (line 922): alignment-first is strategically honest, but it also tells every non-AI reader they are secondary.
+	•	index.html (line 928): vibe level is a real tone break. It sounds like a different author.
+	•	index.html (line 945): kept your ancestors alive for half a billion years sounds grandiose and slightly loose.
+	•	index.html (line 947): A fully satisfied human is a terrible customer is memorable but slides toward polemic unless immediately grounded.
+	•	index.html (line 980): genuine bonded conspecific is dehumanizing jargon for a public page.
+	•	index.html (line 984): 100% of the bonding cues and 0% of the bonding function is false-precision rhetoric.
+	•	index.html (line 989): The only intervention... is a scientific overclaim and a strategic mistake.
+	•	index.html (line 1175): using Karen Hao via a podcast quote is weaker than citing her actual reporting or book.
+	•	index.html (line 1195): average modern human is flattening and faintly condescending.
+	•	index.html (line 1207): which, by any historical standard, is extraordinary scolds the reader instead of joining them.
+	•	index.html (line 1244): the greeting card line is sharp, but it sounds like a different, snarkier site.
+	•	index.html (line 1265): These are not isolated studies. They are the pattern. reads like pitch copy, not restraint.
+	•	index.html (line 1274): one of the most replicated findings in the literature needs immediate proof or softer wording.
+	•	index.html (line 1404): the musician/composer opener is the wrong credential frame.
+	•	index.html (line 1405): the budget and namedrops feel like founder mythology.
+	•	index.html (line 1407): The specification of the human organism has not been built is too total unless you can defend it at publication level.
+	•	index.html (line 1426): this asks for interest, not funding.
+No obvious typo-level failures stood out. The problems are strategic, tonal, and structural.
+What To Change First
+	•	Put one human sentence in the hero subhead. Something that tells a parent, clinician, and builder, within 10 seconds, that this explains burnout, loneliness, parenting overload, and bad environments, not just AI.
+	•	Restore the hidden application domains publicly. If you do not want to show them yet, stop claiming universality so strongly.
+	•	Move one human case, ideally parenting or clinical, above the AI companion case. Right now the page tells non-AI readers to wait too long.
+	•	Replace podcast quotes with stronger sources, or remove them entirely.
+	•	Rebuild or restore the researchers section, then make the attribution strip and pyramid links real.
+	•	Rewrite the founder section so it leads with research process, derivation method, review, and output. Put the arts background in one short sentence or on a separate page.
+	•	Add a real grant ask: amount, timeline, outputs, and what the next 3 to 6 months of funding buy.
+The strongest material on the page is the mismatch block at index.html (line 944), the line Not novel science. Novel integration. at index.html (line 1146), and the parent-case recognition at index.html (line 1242). That is the voice to trust. Everything that feels like manifesto, founder myth, or alignment-only tunnel vision is the part dragging the page down.
+
+
+
+
+

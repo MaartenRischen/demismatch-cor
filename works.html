@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Works | Cor</title>
+  <meta name="description" content="The current public bibliography behind the Cor atlas: pillar, key, and supporting works with reasons they are load-bearing.">
+  <meta property="og:title" content="The Works | Cor">
+  <meta property="og:description" content="The primary literature the atlas depends on.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/og/works.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/cor.css">
+</head>
+<body data-page="works" data-nav="works">
+  <header data-include="/partials/nav.html"></header>
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <span class="eyebrow">The Works</span>
+        <h1>The works the atlas depends on.</h1>
+        <p class="lede" id="works-summary">65 current public works: 38 pillar, 25 key, 2 supporting.</p>
+        <div id="data-status" class="data-status"><strong>Loading.</strong> Attempting live data fetch.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="filter-bar" aria-label="Filter works">
+          <button class="filter-button" data-importance="pillar" type="button">Pillar</button>
+          <button class="filter-button" data-importance="key" type="button">Key</button>
+          <button class="filter-button" data-importance="supporting" type="button">Supporting</button>
+          <button class="filter-button" data-importance="all" type="button">All</button>
+        </div>
+        <div id="works-list" class="works-list">
+          <div class="empty-state">Loading works…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer data-include="/partials/footer.html"></footer>
+  <script src="/js/partials.js"></script>
+  <script src="/js/cor-data.js"></script>
+</body>
+</html>

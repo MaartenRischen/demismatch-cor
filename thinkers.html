@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Thinkers | Cor</title>
+  <meta name="description" content="The researchers whose work the Cor atlas is built from, grouped by foundational, empirical, and adjacent roles.">
+  <meta property="og:title" content="The Thinkers | Cor">
+  <meta property="og:description" content="58 researchers grouped by foundational, empirical, and adjacent roles.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/og/thinkers.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/cor.css">
+</head>
+<body data-page="thinkers" data-nav="thinkers">
+  <header data-include="/partials/nav.html"></header>
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <span class="eyebrow">The Thinkers</span>
+        <h1>The work this is built on.</h1>
+        <p class="lede" id="thinkers-summary">58 researchers: 32 foundational, 19 empirical, 7 adjacent.</p>
+        <div id="data-status" class="data-status"><strong>Loading.</strong> Attempting live data fetch.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="filter-bar" aria-label="Filter thinkers">
+          <button class="filter-button" data-tier="all" type="button">All</button>
+          <button class="filter-button" data-tier="foundational" type="button">Foundational</button>
+          <button class="filter-button" data-tier="empirical" type="button">Empirical</button>
+          <button class="filter-button" data-tier="adjacent" type="button">Adjacent</button>
+        </div>
+        <div id="thinkers-list">
+          <div class="empty-state">Loading researchers…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer data-include="/partials/footer.html"></footer>
+  <script src="/js/partials.js"></script>
+  <script src="/js/cor-data.js"></script>
+</body>
+</html>
