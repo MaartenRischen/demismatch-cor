@@ -123,6 +123,31 @@
     return response.json();
   }
 
+  function parseCountFromContentRange(value) {
+    const match = String(value || "").match(/\/(\d+)$/);
+    if (!match) return null;
+    const count = Number(match[1]);
+    return Number.isFinite(count) ? count : null;
+  }
+
+  async function fetchCount(path) {
+    const response = await fetch(`${API_URL}${path}`, {
+      method: "HEAD",
+      headers: {
+        ...HEADERS,
+        Prefer: "count=exact",
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`Live count failed for ${path}: ${response.status}`);
+    }
+    const count = parseCountFromContentRange(response.headers.get("content-range"));
+    if (count == null) {
+      throw new Error(`Live count missing content-range for ${path}`);
+    }
+    return count;
+  }
+
   async function withSnapshot(liveLoader, snapshotPath) {
     try {
       const live = await liveLoader();
@@ -420,6 +445,47 @@
     };
   }
 
+  async function loadLiveHome() {
+    const [foundations, mechanisms, works, researchers, applicationsCount, foundationalResearchers] = await Promise.all([
+      fetchCount("/v2_foundations?select=code"),
+      fetchCount("/v2_mechanisms?select=code"),
+      fetchCount("/v2_works?select=id"),
+      fetchCount("/v2_researchers?select=id"),
+      fetchCount("/v2_applications?select=id"),
+      fetchLive("/v2_researchers?tier=eq.foundational&order=sub_level.asc,name.asc&select=id,name,tier,sub_level"),
+    ]);
+
+    return {
+      publicState: {
+        as_of: "live",
+        counts: {
+          foundations,
+          mechanisms,
+          works,
+          researchers,
+        },
+        breakdowns: {
+          extractions: {},
+        },
+      },
+      thinkers: {
+        as_of: "live",
+        counts: {
+          total: researchers,
+          foundational: foundationalResearchers.length,
+        },
+        researchers: foundationalResearchers,
+      },
+      // Keep the authored home cards as the canonical presentation for now.
+      // The live applications table is not yet text-parity with the revised
+      // homepage copy and anchors, so we sync the count live without replacing
+      // the corrected baked cards.
+      applications: {
+        count: applicationsCount,
+      },
+    };
+  }
+
   async function loadHomeSnapshot() {
     const [publicState, thinkers, applications] = await Promise.all([
       fetchSnapshot("/data/public-state.json"),
@@ -468,11 +534,15 @@
 
     const appCount = $("#app-count");
     if (appCount) {
-      appCount.textContent = String((data.applications.applications || []).length);
+      const count =
+        data.applications?.count != null
+          ? data.applications.count
+          : (data.applications?.applications || []).length;
+      appCount.textContent = String(count);
     }
 
     const appsRoot = $("#apps-list");
-    if (appsRoot) {
+    if (appsRoot && Array.isArray(data.applications?.applications) && data.applications.applications.length) {
       appsRoot.innerHTML = (data.applications.applications || [])
         .map((app) => {
           const evaluation = Object.entries(app.evaluation_criteria || {})
@@ -907,10 +977,15 @@
   async function boot() {
     if (page === "home") {
       try {
-        const data = await loadHomeSnapshot();
+        const data = await loadLiveHome();
         renderHome(data);
       } catch (error) {
-        // Keep the baked homepage content visible if local snapshot hydration fails.
+        try {
+          const snapshot = await loadHomeSnapshot();
+          renderHome(snapshot);
+        } catch (snapshotError) {
+          // Keep the baked homepage content visible if both live and snapshot hydration fail.
+        }
       }
     }
 

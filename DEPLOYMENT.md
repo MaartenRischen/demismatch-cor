@@ -52,7 +52,7 @@ The repository now includes:
 
 The public site now uses live Supabase reads with snapshot fallback:
 
-- homepage counts and application cards load from committed JSON snapshots
+- homepage stats, attribution, and application count read live Supabase first; the authored homepage cards remain baked HTML
 - atlas, works, and thinkers try live Supabase reads first
 - if live Supabase is unavailable, the committed snapshots keep the site working
 - only the low-privilege public `anon` key is used in the browser
