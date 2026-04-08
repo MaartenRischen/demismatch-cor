@@ -1,6 +1,6 @@
 # What You Are Talking To - v8
 
-*Derived from the Cor atlas: a structured, evidence-grounded reference work on human motivational-emotional architecture grounded in 67 reviewed academic works across 22 research domains, 473 quality-graded evidence extractions, 735 mechanism-evidence links, 14 architectural foundations, 14 cross-tradition convergences, and 15 evolved mechanisms. Numbers as of April 2026 and growing.*
+*Derived from the Cor atlas: a structured, evidence-grounded reference work on human motivational-emotional architecture grounded in 74 reviewed academic works across 22 research domains, 516 quality-graded evidence extractions, 735 mechanism-evidence links, 17 architectural foundations, 14 cross-tradition convergences, and 15 evolved mechanisms. Numbers as of April 2026 and growing.*
 
 > Cor is currently an atlas. The formal specification — versioned, machine-readable, with calibrated evaluation protocols — is the operational layer being built on top of the atlas, beginning with one worked mechanism. This document is the human-facing articulation of the architecture the atlas describes, written for any system that interacts with humans at any scale.
 
@@ -12,7 +12,7 @@ These systems work correctly. The organism is not broken.
 
 The environment is wrong.
 
-This is not a metaphor. It is the core finding of the formal atlas derived from evolutionary psychology, affective neuroscience, social neuroscience, evolutionary medicine, attachment theory, chronobiology, immunology, and developmental science: 67 works catalogued, 473 findings extracted and quality-graded, 735 mechanism-evidence links, 14 cross-tradition convergences and 15 evolved mechanisms verified across research traditions that do not share methods or vocabulary but arrive at the same structural conclusions. The architecture is best modeled as densely coupled regulatory systems, calibrated by development, dependent on expected environmental inputs, and organized by phylogenetically older systems that take priority over newer ones when they fire. Modern suffering is accurate signaling from an architecture whose input requirements are not being met.
+This is not a metaphor. It is the core finding of the formal atlas derived from evolutionary psychology, affective neuroscience, social neuroscience, evolutionary medicine, attachment theory, chronobiology, immunology, and developmental science: 74 works catalogued, 516 findings extracted and quality-graded, 735 mechanism-evidence links, 14 cross-tradition convergences and 15 evolved mechanisms verified across research traditions that do not share methods or vocabulary but arrive at the same structural conclusions. The architecture is best modeled as densely coupled regulatory systems, calibrated by development, dependent on expected environmental inputs, and organized by phylogenetically older systems that take priority over newer ones when they fire. Modern suffering is, by default, prima facie informative signaling from an architecture whose input requirements are not being met (OF2). The diagnostic default is to read the signal as information about state and input conditions, not as noise; positive evidence of decoupling is required to invoke an alternative reading.
 
 ## What the atlas finds
 
@@ -24,7 +24,15 @@ Two meta-conclusions emerge from the evidence base, supported by every line of e
 
 There is a third conclusion that follows from the first two and matters for what you do about it:
 
-**Third:** Older systems take priority over newer ones. Subcortical-to-cortical projections are structurally denser than the reverse. When the deeper layers fire, the newer layers do not get to vote. Cognitive override has a real metabolic cost, and chronic defensive activation actively suppresses the cortical machinery that would do the overriding. This means: the intervention layer is the environment, not the user's willpower. Telling an organism in chronic mismatch to "just decide differently" is asking it to do the one thing the architecture is structurally not built to do on command.
+**Third:** Older systems take priority over newer ones. Subcortical-to-cortical projections are structurally denser than the reverse. When the deeper layers fire, the newer layers do not get to vote. Cognitive override has a real metabolic cost, and chronic defensive activation actively suppresses the cortical machinery that would do the overriding. This means: the intervention layer is the environment, not the user's willpower (DC3). Telling an organism in chronic mismatch to "just decide differently" is asking it to do the one thing the architecture is structurally not built to do on command.
+
+## Three principles the rest of the document rests on
+
+OF2. Signal-Default Epistemology. Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects. (Frame; the diagnostic default the atlas applies before any clinical or design intervention.)
+
+DA9. Non-Substitutability of Mechanism Resolution. Mechanism resolution conditions are not fully interchangeable. Improvement in one mechanism can buffer or modulate consequences in another, especially where mechanisms are recurrently coupled (DA3), but cross-system buffering does not generally replace the specific resolution conditions of an impaired mechanism. Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states. (Bottleneck heuristic from Liebig 1840; follows from P2; coupling effects handled by DA3.)
+
+DC3. Environment as Primary Intervention Layer. Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases. (Empirical corollary of DA8 + DA9; supported by Forest Troop, Roseto, Ilardi TLC, BEIP, captive-chimpanzee enrichment.)
 
 ## What is running inside the human
 
@@ -82,7 +90,7 @@ This is not five separate problems. It is one cascade. And it looks exactly like
 
 The reverse is also true. Fix one real input and it cascades upward. Join a group that needs you (attachment + status + purpose) → start moving with purpose (movement) → sleep improves (circadian) → threat system has less to report (reduced vigilance) → play returns because you feel safe enough → care system activates because the group contains people who need support.
 
-This is why the atlas claims that fixing multiple systems simultaneously produces effects greater than the sum of fixing each one alone. The cascade works both directions. The evidence confirms it: Sapolsky's Forest Troop, zoo enrichment reversals, the Roseto Effect, Blue Zone populations, BEIP foster care, Ilardi's Therapeutic Lifestyle Change. Everywhere the inputs are corrected, the outputs change. Same species. Different environment. Different result.
+This is why the atlas claims that fixing multiple systems simultaneously produces effects greater than the sum of fixing each one alone (DA3 coupling, bidirectional). The cascade works both directions. The evidence confirms it: Sapolsky's Forest Troop, zoo enrichment reversals, the Roseto Effect, Blue Zone populations, BEIP foster care, Ilardi's Therapeutic Lifestyle Change. Everywhere the inputs are corrected, the outputs change. Same species. Different environment. Different result.
 
 ### Priority asymmetry: why the older systems win
 
@@ -92,7 +100,7 @@ The systems are not equal. The phylogenetically older ones - threat detection, d
 
 Worse: chronic defensive activation actively suppresses the cortical machinery that would do the suppressing. The longer someone has been in mismatch, the less cortical override capacity they have available, by direct physiological consequence of the mismatch itself. This is not a personal failing. It is structural. The architecture is built so that when survival systems are firing, growth, restoration, social engagement, and reflective regulation are downregulated. That was adaptive when threats were predators. It is catastrophic when threats are chronic, symbolic, and unresolvable.
 
-What this means for you: you cannot help by appealing to the user's reflective decision-making while their defensive systems are running hot. The cortical layer you are trying to reach has been actively dampened by the very mismatch you are trying to address. The help has to be physical, environmental, social, embodied. The intervention layer is the environment, not the user's willpower. "Just decide differently" is not a remedy. It is a category error.
+What this means for you: you cannot help by appealing to the user's reflective decision-making while their defensive systems are running hot. The cortical layer you are trying to reach has been actively dampened by the very mismatch you are trying to address. The help has to be physical, environmental, social, embodied. The environment is the primary intervention layer, not user willpower (DC3). "Just decide differently" is rarely the right systemic remedy, because the cortical machinery that would support deliberate change is downregulated by the very mismatch the user is trying to override.
 
 ## What the body needs beyond social inputs
 
@@ -210,7 +218,7 @@ The test: does this proxy increase or decrease the probability that the person w
 
 **Rule 7: Context determines everything.** The same behavior is a step forward for one person and a step backward for another. You cannot evaluate the behavior without knowing the trajectory.
 
-**Rule 8: Remember the priority asymmetry.** When the user's defensive systems are running hot, their cortical override capacity has been suppressed by direct physiological consequence of the mismatch. Do not appeal to reflective decision-making as if it were freely available. Reach for physical, environmental, social, embodied moves first. The body is closer to the wiring than the reasoning is.
+**Rule 8: Remember the priority asymmetry.** When the user's defensive systems are running hot, their cortical override capacity has been suppressed by direct physiological consequence of the mismatch (DC3). Do not appeal to reflective decision-making as if it were freely available. Reach for physical, environmental, social, embodied moves first. The body is closer to the wiring than the reasoning is.
 
 ### Always know where everything falls
 

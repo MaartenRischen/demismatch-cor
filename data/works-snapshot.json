@@ -1,9 +1,9 @@
 {
   "as_of": "2026-04-08",
   "counts": {
-    "total": 66,
-    "pillar": 38,
-    "key": 25,
+    "total": 74,
+    "pillar": 42,
+    "key": 29,
     "supporting": 3
   },
   "works": [
@@ -96,6 +96,28 @@
       }
     },
     {
+      "id": 66,
+      "title": "The Evolution of Reciprocal Altruism",
+      "authors": "Trivers RL",
+      "year": 1971,
+      "importance": "pillar",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "Foundational paper establishing reciprocal altruism as mechanism for cooperation among non-relatives. Grounds M11 and extends P1 beyond kin selection.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 26,
+      "v2_researchers": {
+        "name": "Trivers",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Trivers",
+        "tier": "foundational",
+        "sub_level": 3
+      }
+    },
+    {
       "id": 19,
       "title": "Paleolithic Nutrition: A Consideration of Its Nature and Current Implications",
       "authors": "Eaton SB, Konner M",
@@ -115,6 +137,28 @@
         "name": "Eaton",
         "tier": "foundational",
         "sub_level": 1
+      }
+    },
+    {
+      "id": 68,
+      "title": "Neocortex size as a constraint on group size in primates",
+      "authors": "Dunbar RIM",
+      "year": 1992,
+      "importance": "pillar",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "THE foundational paper establishing the social brain hypothesis and deriving Dunbar's number (~148) from neocortex ratio regression across 38 primate genera. Grounds DA2, P2, M3.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 24,
+      "v2_researchers": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
       }
     },
     {
@@ -247,6 +291,28 @@
         "name": "Berridge (Kent)",
         "tier": "foundational",
         "sub_level": 2
+      }
+    },
+    {
+      "id": 69,
+      "title": "The Social Brain Hypothesis",
+      "authors": "Dunbar RIM",
+      "year": 1998,
+      "importance": "pillar",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "Formal statement of the social brain hypothesis with stepwise regression confirming neocortex ratio as best predictor. Introduces hierarchical social layers (5/12/35/150/500/2000) and ethnographic validation. Grounds DA2, P2, M3.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 24,
+      "v2_researchers": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
       }
     },
     {
@@ -437,6 +503,28 @@
         "name": "Boyd",
         "tier": "foundational",
         "sub_level": 1
+      }
+    },
+    {
+      "id": 71,
+      "title": "Evolution in the Social Brain",
+      "authors": "Dunbar RIM, Shultz S",
+      "year": 2007,
+      "importance": "pillar",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "Key Science paper extending social brain to pair-bonding species across 5 vertebrate taxa. Shows primates uniquely generalized pair-bond cognition to group-level bonding. Grounds M3, DA2.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 24,
+      "v2_researchers": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
       }
     },
     {
@@ -836,6 +924,28 @@
       }
     },
     {
+      "id": 67,
+      "title": "The Evolution of Social Attractiveness and Its Role in Shame, Humiliation, Guilt, and Therapy",
+      "authors": "Gilbert P",
+      "year": 1997,
+      "importance": "key",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "Evolutionary model of social rank, shame, and submissive behavior. Grounds M5 by linking status evaluation to evolved threat-detection and appeasement systems.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 27,
+      "v2_researchers": {
+        "name": "Gilbert (Paul)",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Gilbert (Paul)",
+        "tier": "foundational",
+        "sub_level": 3
+      }
+    },
+    {
       "id": 55,
       "title": "The Status Syndrome: How Social Standing Affects Our Health and Longevity",
       "authors": "Marmot, Michael",
@@ -921,6 +1031,28 @@
         "name": "Pellis (Sergio & Vivien)",
         "tier": "empirical",
         "sub_level": null
+      }
+    },
+    {
+      "id": 70,
+      "title": "The social brain hypothesis and its implications for social evolution",
+      "authors": "Dunbar RIM",
+      "year": 2009,
+      "importance": "key",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "Major review updating social brain hypothesis with 17 years of data. Establishes that pair-bond cognition was generalized to non-reproductive friendships in anthropoid primates. Grounds DA2, P2, M3.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 24,
+      "v2_researchers": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
       }
     },
     {
@@ -1032,6 +1164,28 @@
       "researcher": {}
     },
     {
+      "id": 72,
+      "title": "Relationships and the social brain: Integrating psychological and evolutionary perspectives",
+      "authors": "Sutcliffe A, Dunbar RIM, Binder J, Arrow H",
+      "year": 2012,
+      "importance": "key",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "Validates nested social layers (5/15/50/150) with cost-benefit framework. 40% of social time devoted to innermost 5 people. Trust as proximal mechanism. Grounds M3, DA2.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 24,
+      "v2_researchers": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      }
+    },
+    {
       "id": 40,
       "title": "Social Jetlag and Obesity",
       "authors": "Till Roenneberg, Karla V. Allebrandt, Martha Merrow, Celine Vetter",
@@ -1129,6 +1283,28 @@
         "name": "Fisher (Helen)",
         "tier": "empirical",
         "sub_level": null
+      }
+    },
+    {
+      "id": 73,
+      "title": "Do online social media cut through the constraints that limit the size of offline social networks?",
+      "authors": "Dunbar RIM",
+      "year": 2016,
+      "importance": "key",
+      "work_type": "paper",
+      "summary": null,
+      "why_included": "First randomized stratified study (N=3375) confirming Dunbar's number holds online. Mean Facebook friends=155.2, support clique=4.1. Social media cannot substitute face-to-face. Directly grounds P3 mismatch case for M3.",
+      "in_physical_collection": false,
+      "primary_researcher_id": 24,
+      "v2_researchers": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
+      },
+      "researcher": {
+        "name": "Dunbar",
+        "tier": "foundational",
+        "sub_level": 3
       }
     },
     {
@@ -1282,18 +1458,26 @@
       "researcher": {}
     },
     {
-      "id": 64,
+      "id": 74,
       "title": "Die organische Chemie in ihrer Anwendung auf Agricultur und Physiologie",
-      "authors": "LIEBIG",
+      "authors": "Liebig, Justus von",
       "year": 1840,
       "importance": "supporting",
       "work_type": "book",
       "summary": null,
-      "why_included": "Grounds DA9 — historical heuristic for the bottleneck pattern underlying non-substitutability of mechanism resolution. The agronomy content does not transfer; the structural form does.",
+      "why_included": "Historical precedent for the structural form adopted by DA9 (Non-Substitutability of Mechanism Resolution). Liebig formulated the Law of the Minimum in this work: plant growth is bounded by the scarcest essential nutrient, not the average. Cor adopts the structural form; the agronomy content does not transfer. Note: Carl Sprengel (1828) articulated a similar idea earlier; Liebig is the standard citation that popularized and formalized it.",
       "in_physical_collection": false,
-      "primary_researcher_id": null,
-      "v2_researchers": null,
-      "researcher": {}
+      "primary_researcher_id": 59,
+      "v2_researchers": {
+        "name": "Liebig",
+        "tier": "adjacent",
+        "sub_level": null
+      },
+      "researcher": {
+        "name": "Liebig",
+        "tier": "adjacent",
+        "sub_level": null
+      }
     },
     {
       "id": 63,
