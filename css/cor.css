@@ -2136,13 +2136,6 @@ ol {
   max-width: 68rem;
 }
 
-#hard-core .section-head .lede {
-  max-width: 54ch;
-  font-family: var(--serif);
-  font-size: 1.18rem;
-  color: var(--fg-dim);
-}
-
 .hard-core-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2249,7 +2242,7 @@ ol {
   padding-bottom: 3.2rem;
 }
 
-.falsification-disclosure {
+.lakatos-disclosure {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--bg-card);
@@ -2257,34 +2250,51 @@ ol {
   overflow: hidden;
 }
 
-.falsification-disclosure summary {
+.lakatos-disclosure summary {
   cursor: pointer;
   padding: 1.15rem 1.35rem;
   list-style: none;
 }
 
-.falsification-disclosure summary::-webkit-details-marker {
+.lakatos-disclosure summary::-webkit-details-marker {
   display: none;
 }
 
-.falsification-disclosure summary::marker {
+.lakatos-disclosure summary::marker {
   content: "";
 }
 
-.falsification-preview-line {
+.lakatos-disclosure-core {
+  border-top: 4px solid var(--amber);
+  background: linear-gradient(180deg, rgba(193, 122, 47, 0.08) 0%, var(--bg-card) 18%);
+}
+
+.lakatos-summary-line {
   display: flex;
   align-items: flex-start;
   gap: 0.8rem;
 }
 
-.falsification-summary-text {
+.lakatos-summary-text {
   flex: 1;
   min-width: 0;
   color: var(--fg);
   line-height: 1.55;
 }
 
-.falsification-caret {
+.lakatos-disclosure-core .lakatos-summary-text {
+  max-width: 54ch;
+  font-family: var(--serif);
+  font-size: 1.12rem;
+  line-height: 1.6;
+}
+
+.lakatos-disclosure-belt .lakatos-summary-text,
+.lakatos-disclosure-falsification .lakatos-summary-text {
+  font-size: 0.98rem;
+}
+
+.lakatos-caret {
   flex: 0 0 auto;
   color: var(--amber);
   font-family: var(--mono);
@@ -2293,13 +2303,17 @@ ol {
   transition: transform 0.18s ease;
 }
 
-.falsification-disclosure[open] .falsification-caret {
+.lakatos-disclosure[open] .lakatos-caret {
   transform: rotate(180deg);
 }
 
-.falsification-content {
+.lakatos-content {
   padding: 0 1.35rem 1.35rem;
   border-top: 1px solid var(--border-soft);
+}
+
+.belt-body {
+  margin-top: 1.35rem;
 }
 
 .falsification-lede {
