@@ -36,7 +36,7 @@
       "epistemic_grade": "strongly_supported",
       "scope_notes": "Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
       "additional_paragraphs": [
-        "DC3 reframes intervention strategy at the systemic and population-scale level. Cortical override is metabolically costly and is degraded by exactly the chronic activation states that demand it most, so designing environments that do not require constant override is typically higher leverage than scaling up override capacity. This is not a claim that cognitive, pharmacological, or psychotherapeutic interventions fail — they often work, and where indicated they should be used. It is a claim about which layer institutional and design decisions should default to when both layers are available, particularly for population-scale outcomes. Whether environmental correction outperforms user-side intervention in head-to-head comparisons is an empirical question Cor does not currently make a strong claim on; the leverage claim is the primary content of DC3."
+        "DC3 reframes intervention strategy at the systemic and population-scale level. Cortical override is metabolically costly and is degraded by exactly the chronic activation states that demand it most, so designing environments that do not require constant override is typically higher leverage than scaling up override capacity. This is not a claim that cognitive, pharmacological, or psychotherapeutic interventions fail - they often work, and where indicated they should be used. It is a claim about which layer institutional and design decisions should default to when both layers are available, particularly for population-scale outcomes. Whether environmental correction outperforms user-side intervention in head-to-head comparisons is an empirical question Cor does not currently make a strong claim on; the leverage claim is the primary content of DC3."
       ]
     },
     {
@@ -46,7 +46,7 @@
       "statement": "Access to the world is mediated by evolved fitness interfaces, not guaranteed veridicality.",
       "derivation": "Hoffman (Interface Theory of Perception), Prakash et al. (Fitness Beats Truth theorem).",
       "epistemic_grade": "frame",
-      "scope_notes": "Everything experienced is a species-specific interface shaped by natural selection to track fitness payoffs, not truth. The specification operates entirely within this interface. OF1 does not enter the derivation chain — its function is to clarify that every mechanism output is a fitness-relevant signal by design, and to keep the door open to ontological questions outside the interface."
+      "scope_notes": "Everything experienced is a species-specific interface shaped by natural selection to track fitness payoffs, not truth. The specification operates entirely within this interface. OF1 does not enter the derivation chain - its function is to clarify that every mechanism output is a fitness-relevant signal by design, and to keep the door open to ontological questions outside the interface."
     },
     {
       "code": "OF2",
@@ -61,10 +61,10 @@
       "code": "P1",
       "layer": "premise",
       "name": "Inclusive Fitness",
-      "statement": "Inclusive fitness — survival and reproduction — is the loss function.",
+      "statement": "Inclusive fitness - survival and reproduction - is the loss function.",
       "derivation": "Darwin, Hamilton (kin selection, inclusive fitness).",
       "epistemic_grade": "forced",
-      "scope_notes": "The architecture exists because it contributed to the survival and reproduction of the organism and its genetic relatives across evolutionary time. The loss function explains why the mechanisms exist (ultimate). The mechanisms are how the loss function is implemented (proximate). No organism computes inclusive fitness explicitly — the mechanisms are proximate implementations shaped by selection. This is why proxies fail: they trigger input cues while failing to supply resolution conditions."
+      "scope_notes": "The architecture exists because it contributed to the survival and reproduction of the organism and its genetic relatives across evolutionary time. The loss function explains why the mechanisms exist (ultimate). The mechanisms are how the loss function is implemented (proximate). No organism computes inclusive fitness explicitly - the mechanisms are proximate implementations shaped by selection. This is why proxies fail: they trigger input cues while failing to supply resolution conditions."
     },
     {
       "code": "P2",
@@ -73,7 +73,7 @@
       "statement": "The organism contains evolved, domain-sensitive, interacting functional adaptations.",
       "derivation": "Tooby & Cosmides (design principle), confirmed empirically by Panksepp, Bowlby, Dunbar, Boehm, Trivers, Gilbert, Rozin.",
       "epistemic_grade": "forced",
-      "scope_notes": "\"Organism\" not \"mind\" — the immune system, HPA axis, circadian biology, gut-brain axis, thermoregulation are all evolved functional adaptations with environmental requirements. \"Interacting\" not \"modular\" — dense cross-system connections disprove informational encapsulation."
+      "scope_notes": "\"Organism\" not \"mind\" - the immune system, HPA axis, circadian biology, gut-brain axis, thermoregulation are all evolved functional adaptations with environmental requirements. \"Interacting\" not \"modular\" - dense cross-system connections disprove informational encapsulation."
     },
     {
       "code": "P3",
@@ -82,7 +82,7 @@
       "statement": "Modern environments often push these adaptations outside their expected or regulatable operating ranges.",
       "derivation": "Eaton & Konner (discordance), Gluckman & Hanson (developmental mismatch), Li/van Vugt/Colarelli (mismatch review). Constrained by Boyd & Richerson / Henrich.",
       "epistemic_grade": "forced",
-      "scope_notes": "Three modes — deprivation (expected inputs missing), conflict/overload (incompatible simultaneous demands), proxy hijack (false cues overstimulating systems). \"Matched\" means within the expectable range, often culturally scaffolded — NOT ancestrally identical in surface form. Modernity is mixed — it also brought sanitation, reduced violence, analgesia, literacy. The spec is diagnostic, not blanket indictment.\n\n[epistemic_grade full phrasing from handoff: forced (existence) / strongly_supported (scope). Stored primary label: forced — the existence of systematic mismatch is forced by P2+P3; the scope is strongly_supported.]"
+      "scope_notes": "Three modes - deprivation (expected inputs missing), conflict/overload (incompatible simultaneous demands), proxy hijack (false cues overstimulating systems). \"Matched\" means within the expectable range, often culturally scaffolded - NOT ancestrally identical in surface form. Modernity is mixed - it also brought sanitation, reduced violence, analgesia, literacy. The spec is diagnostic, not blanket indictment.\n\n[epistemic_grade full phrasing from handoff: forced (existence) / strongly_supported (scope). Stored primary label: forced - the existence of systematic mismatch is forced by P2+P3; the scope is strongly_supported.]"
     },
     {
       "code": "DA1",
@@ -91,7 +91,7 @@
       "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
       "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (100% captive chimps abnormal, 0% wild).",
       "epistemic_grade": "forced",
-      "scope_notes": "Does NOT claim all psychiatric presentations are mismatch signals. Four categories must be distinguished: defensive activation, dysregulation, damage, developmental miscalibration.\n\n[epistemic_grade full phrasing from handoff: forced (qualitative) / strongly_supported (quantitative). Stored primary label: forced — the qualitative claim (defensive signal, not defect) is forced by derivation; quantitative extent is strongly_supported.]"
+      "scope_notes": "Does NOT claim all psychiatric presentations are mismatch signals. Four categories must be distinguished: defensive activation, dysregulation, damage, developmental miscalibration.\n\n[epistemic_grade full phrasing from handoff: forced (qualitative) / strongly_supported (quantitative). Stored primary label: forced - the qualitative claim (defensive signal, not defect) is forced by derivation; quantitative extent is strongly_supported.]"
     },
     {
       "code": "DA2",
@@ -100,7 +100,7 @@
       "statement": "Human regulation is constitutively socially scaffolded; social context is likely the highest-leverage cross-cutting input dimension.",
       "derivation": "Dunbar + Coan & Sbarra (social baseline) + Bowlby (attachment) + Hrdy (cooperative breeding).",
       "epistemic_grade": "forced",
-      "scope_notes": "[epistemic_grade full phrasing from handoff: forced (modulation) / strongly_supported (primacy). Stored primary label: forced — social modulation of regulation is forced; that social is THE highest-leverage dimension is strongly_supported.]"
+      "scope_notes": "[epistemic_grade full phrasing from handoff: forced (modulation) / strongly_supported (primacy). Stored primary label: forced - social modulation of regulation is forced; that social is THE highest-leverage dimension is strongly_supported.]"
     },
     {
       "code": "DA3",
@@ -165,7 +165,7 @@
       "epistemic_grade": "strongly_supported",
       "scope_notes": "Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states.",
       "additional_paragraphs": [
-        "DA9 distinguishes the architecture from utility-aggregation frameworks. A severely degraded M3 cannot be substituted by a flourishing M2 — the resolution conditions are not interchangeable, even when the mechanisms are coupled (DA3) and one can buffer or modulate the other. The protocol therefore measures mechanism dimensions independently rather than collapsing them into a single well-being index. Liebig's Law of the Minimum (1840) is the historical heuristic for the bottleneck pattern: plant growth is often constrained by the scarcest essential nutrient. Cor adopts the bottleneck framing, not a strict biochemical claim of zero substitutability — the human architecture does show cross-system buffering, and DA3 handles that coupling explicitly."
+        "DA9 distinguishes the architecture from utility-aggregation frameworks. A severely degraded M3 cannot be substituted by a flourishing M2 - the resolution conditions are not interchangeable, even when the mechanisms are coupled (DA3) and one can buffer or modulate the other. The protocol therefore measures mechanism dimensions independently rather than collapsing them into a single well-being index. Liebig's Law of the Minimum (1840) is the historical heuristic for the bottleneck pattern: plant growth is often constrained by the scarcest essential nutrient. Cor adopts the bottleneck framing, not a strict biochemical claim of zero substitutability - the human architecture does show cross-system buffering, and DA3 handles that coupling explicitly."
       ]
     }
   ],
@@ -173,7 +173,7 @@
     {
       "code": "C1",
       "name": "Inclusive Fitness as Loss Function",
-      "statement": "Natural selection operates on inclusive fitness — survival plus reproduction weighted by relatedness — establishing a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory, Hamilton's kin-selection formalism, and experimental altruistic-punishment findings that humans enforce cooperation at personal cost where inclusive-fitness logic predicts.",
+      "statement": "Natural selection operates on inclusive fitness - survival plus reproduction weighted by relatedness - establishing a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory, Hamilton's kin-selection formalism, and experimental altruistic-punishment findings that humans enforce cooperation at personal cost where inclusive-fitness logic predicts.",
       "independent_literatures": [
         "Darwin natural selection theory",
         "Hamilton inclusive fitness formalism",
@@ -192,7 +192,7 @@
     {
       "code": "C10",
       "name": "Threat-Detection via Ancient Subcortical Circuits",
-      "statement": "Threat detection and defensive response are mediated by phylogenetically ancient subcortical circuits (amygdala, periaqueductal gray, hypothalamus) that operate pre-attentively and can override cortical processing — established independently by Panksepp's FEAR-system neuroanatomy, the Öhman/Mineka backward-masking fear-module research program, and Nesse's clinical evolutionary psychiatry linking panic and anxiety to these defensive systems.",
+      "statement": "Threat detection and defensive response are mediated by phylogenetically ancient subcortical circuits (amygdala, periaqueductal gray, hypothalamus) that operate pre-attentively and can override cortical processing - established independently by Panksepp's FEAR-system neuroanatomy, the Öhman/Mineka backward-masking fear-module research program, and Nesse's clinical evolutionary psychiatry linking panic and anxiety to these defensive systems.",
       "independent_literatures": [
         "Panksepp FEAR/RAGE circuit neuroanatomy",
         "Öhman & Mineka fear module visual attention / backward masking",
@@ -212,7 +212,7 @@
     {
       "code": "C11",
       "name": "Reciprocity, Norm Enforcement, and Coalition Architecture",
-      "statement": "Humans have specialized architecture for reciprocal exchange, cheater detection, norm enforcement, and coalitional identity — supported independently by Fehr & Gächter's experimental altruistic-punishment findings, Boehm's reverse-dominance coalition dynamics in hunter-gatherer anthropology, and Tomasello's shared-intentionality comparative-cognition research.",
+      "statement": "Humans have specialized architecture for reciprocal exchange, cheater detection, norm enforcement, and coalitional identity - supported independently by Fehr & Gächter's experimental altruistic-punishment findings, Boehm's reverse-dominance coalition dynamics in hunter-gatherer anthropology, and Tomasello's shared-intentionality comparative-cognition research.",
       "independent_literatures": [
         "Fehr & Gächter experimental economics of cooperation",
         "Boehm political anthropology of egalitarianism",
@@ -232,7 +232,7 @@
     {
       "code": "C12",
       "name": "Developmental Calibration within Evolved Ranges",
-      "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration — established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure.",
+      "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure.",
       "independent_literatures": [
         "Bowlby attachment developmental calibration",
         "McEwen HPA-axis neuroendocrinology",
@@ -252,7 +252,7 @@
     {
       "code": "C13",
       "name": "Aversive Outputs as Intelligible Defensive Signals",
-      "statement": "Many aversive psychological and physiological outputs (anxiety, low mood, pain, grief, fatigue, anger) are intelligible defensive signals produced by architecture that is functioning correctly in response to inputs outside its expected operating range — established independently by Nesse's 'good reasons for bad feelings' evolutionary psychiatry, Panksepp's affective neuroscience of conserved aversive systems, and Fehr & Gächter's finding that anger/moralistic outrage is the proximate mechanism for prosocial norm enforcement rather than a dysregulation.",
+      "statement": "Many aversive psychological and physiological outputs (anxiety, low mood, pain, grief, fatigue, anger) are intelligible defensive signals produced by architecture that is functioning correctly in response to inputs outside its expected operating range - established independently by Nesse's 'good reasons for bad feelings' evolutionary psychiatry, Panksepp's affective neuroscience of conserved aversive systems, and Fehr & Gächter's finding that anger/moralistic outrage is the proximate mechanism for prosocial norm enforcement rather than a dysregulation.",
       "independent_literatures": [
         "Nesse evolutionary psychiatry of defensive signals",
         "Panksepp affective neuroscience of aversive systems",
@@ -272,7 +272,7 @@
     {
       "code": "C14",
       "name": "Reproductive Motivation as Distinct Architecture",
-      "statement": "Reproductive motivation (desire, attraction, pair-bonding) is a distinct architectural system independent of general-purpose pursuit, with sex-differentiated substrates and a characteristic proxy gradient from real partner to pure proxy — established independently by Panksepp's LUST-circuit affective neuroscience, Buss's sexual strategies theory and sex-differentiated mate preferences research, and Haselton/Buss's error-management prediction of sex-differentiated perceptual biases around mating cues.",
+      "statement": "Reproductive motivation (desire, attraction, pair-bonding) is a distinct architectural system independent of general-purpose pursuit, with sex-differentiated substrates and a characteristic proxy gradient from real partner to pure proxy - established independently by Panksepp's LUST-circuit affective neuroscience, Buss's sexual strategies theory and sex-differentiated mate preferences research, and Haselton/Buss's error-management prediction of sex-differentiated perceptual biases around mating cues.",
       "independent_literatures": [
         "Panksepp LUST circuit affective neuroscience",
         "Buss sexual strategies theory",
@@ -292,7 +292,7 @@
     {
       "code": "C2",
       "name": "Domain-Sensitive Organism Architecture",
-      "statement": "The human organism contains evolved, domain-sensitive, interacting functional adaptations rather than a general-purpose learner — supported independently by Tooby & Cosmides' design-principle derivation, Panksepp's conserved subcortical affective-motivational systems, and Bowlby's attachment-as-primary-motivational-system framework.",
+      "statement": "The human organism contains evolved, domain-sensitive, interacting functional adaptations rather than a general-purpose learner - supported independently by Tooby & Cosmides' design-principle derivation, Panksepp's conserved subcortical affective-motivational systems, and Bowlby's attachment-as-primary-motivational-system framework.",
       "independent_literatures": [
         "Tooby & Cosmides evolutionary psychology design principle",
         "Panksepp affective neuroscience seven-systems taxonomy",
@@ -316,7 +316,7 @@
     {
       "code": "C3",
       "name": "Systematic EEA-Modern Environment Mismatch",
-      "statement": "Modern post-agricultural, post-industrial environments push evolved adaptations outside their expected operating ranges in systematic and predictable ways — established independently by Eaton & Konner's discordance hypothesis, Li/van Vugt/Colarelli's mismatch-identification framework, Boyd & Richerson's gene-culture coevolution constraint (matched must include cultural scaffolding), and Henrich's WEIRD empirical diagnostic showing Western populations anchor the extreme end of the cross-cultural distribution.",
+      "statement": "Modern post-agricultural, post-industrial environments push evolved adaptations outside their expected operating ranges in systematic and predictable ways - established independently by Eaton & Konner's discordance hypothesis, Li/van Vugt/Colarelli's mismatch-identification framework, Boyd & Richerson's gene-culture coevolution constraint (matched must include cultural scaffolding), and Henrich's WEIRD empirical diagnostic showing Western populations anchor the extreme end of the cross-cultural distribution.",
       "independent_literatures": [
         "Eaton & Konner evolutionary medicine / discordance hypothesis",
         "Li van Vugt Colarelli mismatch hypothesis review",
@@ -341,7 +341,7 @@
     {
       "code": "C4",
       "name": "Phylogenetic Conservation of Subcortical Affective Systems",
-      "statement": "The core affective-motivational systems (SEEKING, FEAR, RAGE, CARE, PANIC/GRIEF, PLAY, LUST) are anatomically and functionally conserved across mammals and extend into birds for specific systems — established independently by Panksepp's deep-brain-stimulation and cross-species neuroscience, Bowlby's attachment cross-mammalian homology, and Hrdy's cross-primate parental/alloparental evidence.",
+      "statement": "The core affective-motivational systems (SEEKING, FEAR, RAGE, CARE, PANIC/GRIEF, PLAY, LUST) are anatomically and functionally conserved across mammals and extend into birds for specific systems - established independently by Panksepp's deep-brain-stimulation and cross-species neuroscience, Bowlby's attachment cross-mammalian homology, and Hrdy's cross-primate parental/alloparental evidence.",
       "independent_literatures": [
         "Panksepp affective neuroscience cross-species",
         "Bowlby attachment cross-mammalian",
@@ -364,7 +364,7 @@
     {
       "code": "C5",
       "name": "Socially Scaffolded Regulation via Attachment",
-      "statement": "Human regulation is constitutively socially scaffolded: the organism's default expectation is proximity to trusted co-regulators, and this scaffolding is architectural rather than optional — established independently by Coan's Social Baseline Theory fMRI program, Bowlby's attachment theory, Hrdy's cooperative-breeding thesis, Dunbar's social-brain hypothesis, and Holt-Lunstad's mortality meta-analysis showing 50% survival advantage from strong social relationships.",
+      "statement": "Human regulation is constitutively socially scaffolded: the organism's default expectation is proximity to trusted co-regulators, and this scaffolding is architectural rather than optional - established independently by Coan's Social Baseline Theory fMRI program, Bowlby's attachment theory, Hrdy's cooperative-breeding thesis, Dunbar's social-brain hypothesis, and Holt-Lunstad's mortality meta-analysis showing 50% survival advantage from strong social relationships.",
       "independent_literatures": [
         "Coan social baseline theory affective neuroscience",
         "Bowlby attachment theory",
@@ -396,7 +396,7 @@
     {
       "code": "C6",
       "name": "Wanting-Liking Dissociation as Proxy Hijack",
-      "statement": "Motivational pursuit ('wanting', mediated by mesolimbic dopamine) is dissociable from hedonic satisfaction ('liking'), creating an open-loop vulnerability where proxy cues can activate the SEEKING system without providing the conditions that normally terminate or resolve it — established independently by Berridge & Robinson's incentive-salience neuroscience, Tinbergen's supernormal-stimuli ethology, and Panksepp's SEEKING-circuit affective neuroscience.",
+      "statement": "Motivational pursuit ('wanting', mediated by mesolimbic dopamine) is dissociable from hedonic satisfaction ('liking'), creating an open-loop vulnerability where proxy cues can activate the SEEKING system without providing the conditions that normally terminate or resolve it - established independently by Berridge & Robinson's incentive-salience neuroscience, Tinbergen's supernormal-stimuli ethology, and Panksepp's SEEKING-circuit affective neuroscience.",
       "independent_literatures": [
         "Berridge & Robinson incentive salience / mesolimbic dopamine",
         "Tinbergen ethology and supernormal stimuli",
@@ -418,7 +418,7 @@
     {
       "code": "C7",
       "name": "Adverse Experience Cascading Dose-Response",
-      "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) — established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation.",
+      "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation.",
       "independent_literatures": [
         "Felitti ACE Study clinical epidemiology",
         "McEwen allostatic load neuroendocrinology",
@@ -440,7 +440,7 @@
     {
       "code": "C8",
       "name": "Error Management Asymmetry in Defensive Systems",
-      "statement": "Defensive systems evolved under asymmetric error costs err reliably toward over-activation (false-positive) because the cost of missing a true threat historically exceeded the cost of reacting to a non-threat — established independently by Nesse's smoke-detector principle in evolutionary psychiatry, Haselton & Buss's Error Management Theory in evolutionary social psychology, and the Öhman/Mineka fear-module visual-attention program in cognitive neuroscience.",
+      "statement": "Defensive systems evolved under asymmetric error costs err reliably toward over-activation (false-positive) because the cost of missing a true threat historically exceeded the cost of reacting to a non-threat - established independently by Nesse's smoke-detector principle in evolutionary psychiatry, Haselton & Buss's Error Management Theory in evolutionary social psychology, and the Öhman/Mineka fear-module visual-attention program in cognitive neuroscience.",
       "independent_literatures": [
         "Nesse smoke detector principle evolutionary psychiatry",
         "Haselton & Buss Error Management Theory",
@@ -460,7 +460,7 @@
     {
       "code": "C9",
       "name": "Allostatic Load Accumulation",
-      "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction — established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology.",
+      "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology.",
       "independent_literatures": [
         "McEwen allostasis and allostatic load neuroendocrinology",
         "Felitti ACE clinical epidemiology",
@@ -491,7 +491,7 @@
       "phylogenetic_age": "~500Myr (all vertebrates)",
       "grade": "forced",
       "resolution_conditions": "Safety established, threat eliminated or avoided.",
-      "mismatch_prediction": "Modern threats — debt, emails, social media, status anxiety — can't be fought or fled. System stays on.",
+      "mismatch_prediction": "Modern threats - debt, emails, social media, status anxiety - can't be fought or fled. System stays on.",
       "convergence_codes": [
         "C10"
       ],
@@ -507,7 +507,7 @@
       "name": "Reproductive Motivation",
       "tier": 1,
       "description": "Fisher's three-system model. Independent from M2 pursuit. HPG axis, not just brain circuits.",
-      "eli5": "Three components — desire, attraction, and pair bonding — that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
+      "eli5": "Three components - desire, attraction, and pair bonding - that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
       "phylogenetic_age": "~500Myr sexual, ~200Myr pair bonding",
       "grade": "forced",
       "resolution_conditions": "Sexual fulfillment within pair bond + pair bond stability + reproductive success.",
@@ -586,11 +586,11 @@
       "code": "M5",
       "name": "Status Monitoring",
       "tier": 1,
-      "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional — runs continuously.",
+      "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional - runs continuously.",
       "eli5": "Constantly monitors where you stand relative to others.",
       "phylogenetic_age": "~50-100Myr (primates + social mammals)",
       "grade": "forced",
-      "resolution_conditions": "Acceptable position in ~150-person reference group. Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction — needs explicit treatment).",
+      "resolution_conditions": "Acceptable position in ~150-person reference group. Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction - needs explicit treatment).",
       "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
       "convergence_codes": [],
       "source_researchers": [
@@ -607,7 +607,7 @@
       "name": "Controllability / Agency",
       "tier": 1,
       "description": "vmPFC-DRN controllability circuit. Learned helplessness is the DEFAULT; agency is the override. Critical for breaking cascades.",
-      "eli5": "Tracks whether your actions produce results. Default is passivity — agency must be learned.",
+      "eli5": "Tracks whether your actions produce results. Default is passivity - agency must be learned.",
       "phylogenetic_age": "~200Myr",
       "grade": "forced",
       "resolution_conditions": "Genuine action-outcome feedback. Decision latitude.",
@@ -659,7 +659,7 @@
       "name": "Care / Alloparenting",
       "tier": 1,
       "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
-      "eli5": "Distributed care — the organism expects a village, not solo parenting.",
+      "eli5": "Distributed care - the organism expects a village, not solo parenting.",
       "phylogenetic_age": "~200Myr",
       "grade": "forced",
       "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical variable is the presence of a network.",
@@ -677,7 +677,7 @@
       "name": "Movement / Regulatory",
       "tier": 2,
       "description": "Physical activity as zeitgeber, anti-inflammatory, mood regulator.",
-      "eli5": "Movement isn't just exercise — it activates repair mechanisms throughout the organism.",
+      "eli5": "Movement isn't just exercise - it activates repair mechanisms throughout the organism.",
       "phylogenetic_age": "~500Myr",
       "grade": "strongly_supported",
       "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hunter-gatherers typically moved 9-15 km a day as a side effect of how they lived.",
@@ -694,7 +694,7 @@
       "code": "M11",
       "name": "Cooperation / Alliance",
       "tier": 2,
-      "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 reflects epistemic honesty. No single convergence FORCES a dedicated mechanism — but four converging streams strongly support it.",
+      "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 reflects epistemic honesty. No single convergence FORCES a dedicated mechanism - but four converging streams strongly support it.",
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
       "phylogenetic_age": "~2-5Myr (humans + great apes)",
       "grade": "strongly_supported",
@@ -771,7 +771,7 @@
       "what_it_demonstrates": "Hierarchy type (not the mere existence of hierarchy) determines pathology, and a troop's social culture is transmissible and reversible within a single generation without genetic turnover.",
       "primary_metric_display": "Cortisol reduced ~30-40% vs baseline",
       "metric_family": "biomarker_change",
-      "narrative": "Sapolsky's long-studied olive baboon troop in Kenya had its most aggressive adult males eliminated by a tuberculosis outbreak circa 1983 (the aggressive males were the ones willing to forgo morning socializing to raid a tourist-lodge garbage dump and consumed tubercular meat). The surviving troop — skewed to a 2:1 female-to-male ratio and disproportionately unaggressive, affiliative males — developed a dramatically more peaceful social style: more grooming, more sitting in contact, minimal displacement aggression, lower baseline cortisol. As new males transferred in over subsequent years (males leaving their natal troops at puberty), they were absorbed into the troop and adopted its low-aggression high-affiliation style, despite having grown up in typical aggressive troops. The culture was being transmitted horizontally without genetic change. This is a natural experiment, not a randomized intervention, but its explanatory power for the possibility of environmental correction of hierarchy-driven pathology is substantial.",
+      "narrative": "Sapolsky's long-studied olive baboon troop in Kenya had its most aggressive adult males eliminated by a tuberculosis outbreak circa 1983 (the aggressive males were the ones willing to forgo morning socializing to raid a tourist-lodge garbage dump and consumed tubercular meat). The surviving troop - skewed to a 2:1 female-to-male ratio and disproportionately unaggressive, affiliative males - developed a dramatically more peaceful social style: more grooming, more sitting in contact, minimal displacement aggression, lower baseline cortisol. As new males transferred in over subsequent years (males leaving their natal troops at puberty), they were absorbed into the troop and adopted its low-aggression high-affiliation style, despite having grown up in typical aggressive troops. The culture was being transmitted horizontally without genetic change. This is a natural experiment, not a randomized intervention, but its explanatory power for the possibility of environmental correction of hierarchy-driven pathology is substantial.",
       "grounds_foundations": [
         "DA1",
         "DA6",
@@ -786,10 +786,10 @@
     {
       "code": "ED10",
       "name": "The Roseto Effect",
-      "what_it_demonstrates": "Italian-American town had half the heart disease of neighbors — not from diet, exercise, or genetics, but from social cohesion. When the community dissolved, the protection vanished.",
+      "what_it_demonstrates": "Italian-American town had half the heart disease of neighbors - not from diet, exercise, or genetics, but from social cohesion. When the community dissolved, the protection vanished.",
       "primary_metric_display": "50% lower MI mortality during social cohesion; matched national average after dissolution",
       "metric_family": "mortality",
-      "narrative": "Roseto, Pennsylvania was studied for 50 years (1935-1985). Despite worse risk factors — higher fat diets, similar smoking rates — the town had significantly lower myocardial infarction mortality than neighboring Bangor. The protective factor was social architecture: multigenerational households, community rituals, an egalitarian ethos that discouraged ostentatious wealth display. When younger generations adopted American individualism — separate homes, status competition, weakened ties — heart disease mortality rose to match the national average. Same genetics. Same geography. Different social inputs. Different outputs. (Egolf et al. 1992, American Journal of Public Health; Wolf & Bruhn 1993, The Roseto Story.)",
+      "narrative": "Roseto, Pennsylvania was studied for 50 years (1935-1985). Despite worse risk factors - higher fat diets, similar smoking rates - the town had significantly lower myocardial infarction mortality than neighboring Bangor. The protective factor was social architecture: multigenerational households, community rituals, an egalitarian ethos that discouraged ostentatious wealth display. When younger generations adopted American individualism - separate homes, status competition, weakened ties - heart disease mortality rose to match the national average. Same genetics. Same geography. Different social inputs. Different outputs. (Egolf et al. 1992, American Journal of Public Health; Wolf & Bruhn 1993, The Roseto Story.)",
       "grounds_foundations": [
         "DA2",
         "DA3",
@@ -836,7 +836,7 @@
     {
       "code": "ED4",
       "name": "Roseto Effect",
-      "what_it_demonstrates": "Intense social cohesion can override standard cardiovascular risk factors to produce dramatically lower heart disease mortality — and the effect erodes within a generation once cohesion breaks down, confirming the causal role of the social input rather than any genetic or dietary confounder.",
+      "what_it_demonstrates": "Intense social cohesion can override standard cardiovascular risk factors to produce dramatically lower heart disease mortality - and the effect erodes within a generation once cohesion breaks down, confirming the causal role of the social input rather than any genetic or dietary confounder.",
       "primary_metric_display": "~50% lower heart disease mortality during cohesion era",
       "metric_family": "mortality",
       "narrative": "Roseto, Pennsylvania was a small Italian-American immigrant community with unusually strong intergenerational family structures, tight social cohesion, and community rituals through the 1950s-60s. Stewart Wolf and colleagues documented roughly half the heart disease mortality of surrounding communities despite comparable standard risk factors (diet, smoking, occupational exposures). As the younger generation assimilated into mainstream American individualism across the 1970s-80s, the social cohesion eroded and the mortality advantage disappeared on schedule. The Roseto effect is a natural experiment for DA2/DC1: strong social scaffolding can suppress the cardiovascular consequences of allostatic load, and its removal reveals the baseline.",
@@ -852,7 +852,7 @@
     {
       "code": "ED5",
       "name": "Ilardi TLC Protocol for Depression",
-      "what_it_demonstrates": "Treating depression by restoring resolution conditions across multiple mechanisms simultaneously (exercise, omega-3, sleep, sunlight, anti-rumination, social connection) produces remission rates comparable to or exceeding SSRI monotherapy — consistent with depression-as-mismatch-signal rather than depression-as-broken-brain.",
+      "what_it_demonstrates": "Treating depression by restoring resolution conditions across multiple mechanisms simultaneously (exercise, omega-3, sleep, sunlight, anti-rumination, social connection) produces remission rates comparable to or exceeding SSRI monotherapy - consistent with depression-as-mismatch-signal rather than depression-as-broken-brain.",
       "primary_metric_display": "~75% response vs ~45% on SSRI monotherapy",
       "metric_family": "clinical_remission",
       "narrative": "Stephen Ilardi's Therapeutic Lifestyle Change protocol is a six-lever intervention targeting M10 (movement), M7 (sleep and sunlight), M3 (social connection), M8/M13 (omega-3 / anti-inflammation), and cognitive anti-rumination. In his clinical trials and subsequent implementations, remission rates in moderate-to-severe depression have reached ~75%, comparable to or exceeding typical SSRI monotherapy rates (~45% remission). The protocol is consistent with Cor's prediction that many depression presentations are M1/M3/M5/M6 defensive-signal cascades resolvable by restoring the resolution conditions for the affected mechanisms.",
@@ -902,7 +902,7 @@
     {
       "code": "ED8",
       "name": "Chronotherapy in Depression",
-      "what_it_demonstrates": "Total sleep deprivation combined with morning bright light and sleep-phase advance produces 60%+ response rates in bipolar depression within days — orders of magnitude faster than pharmacotherapy — by targeting M7 (circadian regulation) directly. Demonstrates M7 as a cascade entry point.",
+      "what_it_demonstrates": "Total sleep deprivation combined with morning bright light and sleep-phase advance produces 60%+ response rates in bipolar depression within days - orders of magnitude faster than pharmacotherapy - by targeting M7 (circadian regulation) directly. Demonstrates M7 as a cascade entry point.",
       "primary_metric_display": "~60% bipolar depression response within first week",
       "metric_family": "clinical_remission",
       "narrative": "Wirz-Justice, Benedetti, and colleagues have developed chronotherapeutic protocols for treatment-resistant bipolar depression combining one night of total sleep deprivation (to rapidly shift circadian phase), morning bright light therapy (to re-entrain M7), and sleep-phase advance (to lock in the new timing). Response rates of 60%+ within the first week are consistent across multiple European trials, compared with ~30% for pharmacotherapy alone over the same interval. The protocol works because it targets the timing architecture that many depression cascades propagate through.",
@@ -918,7 +918,7 @@
     {
       "code": "ED9",
       "name": "Kangaroo Mother Care",
-      "what_it_demonstrates": "Skin-to-skin contact between premature infants and caregivers reduces mortality, improves physiological regulation, and produces long-term developmental benefits — demonstrating R1 (C-tactile touch as regulatory input to M3) as architecture rather than comfort measure, with effects that persist two decades.",
+      "what_it_demonstrates": "Skin-to-skin contact between premature infants and caregivers reduces mortality, improves physiological regulation, and produces long-term developmental benefits - demonstrating R1 (C-tactile touch as regulatory input to M3) as architecture rather than comfort measure, with effects that persist two decades.",
       "primary_metric_display": "~40% neonatal mortality reduction; benefits at 20 years",
       "metric_family": "mortality",
       "narrative": "Charpak et al. developed and studied Kangaroo Mother Care in Bogotá, Colombia for low-birth-weight infants: continuous skin-to-skin contact with the mother (or other caregiver) 24 hours a day, replacing or supplementing incubator care. In low-resource settings the intervention reduces neonatal mortality by ~40% compared to standard incubator care; in high-resource settings it produces improved physiological regulation (thermoregulation, heart rate variability, weight gain) and long-term cognitive and behavioral benefits demonstrated at 20-year follow-up (Charpak et al. 2017 Pediatrics). Feldman's longitudinal work confirms the effects on stress reactivity and executive function into adolescence. Kangaroo care is the strongest evidence that R1 (C-tactile input) is a genuine regulatory channel with architecture-level consequences, not a comfort measure.",
@@ -1001,7 +1001,7 @@
       "code": "G3",
       "name": "M6 human neurobiology replication",
       "priority": "medium",
-      "what_is_missing": "The Maier & Seligman 2016 reformulation of learned helplessness (default passivity with vmPFC-DRN override) is well-supported in rodent models, but the human neurobiological translation — fMRI studies of controllability in humans — is thinner. Karasek's decision-latitude work provides strong human-level evidence but at a different level of analysis.",
+      "what_is_missing": "The Maier & Seligman 2016 reformulation of learned helplessness (default passivity with vmPFC-DRN override) is well-supported in rodent models, but the human neurobiological translation - fMRI studies of controllability in humans - is thinner. Karasek's decision-latitude work provides strong human-level evidence but at a different level of analysis.",
       "why_it_matters": "M6 is critical as a cascade-break point in Cor's applied framework (A2 clinical practice, A3 environment design, A6 work regulation). Strong rodent evidence combined with weaker human-specific neural evidence leaves the mechanism vulnerable to challenge at the human-specificity level.",
       "current_approach": "The rodent-level circuit claims are treated as settled; the human-level circuit mapping is treated as well-supported rather than definitively established. The distinction is preserved in the mechanism description."
     },
@@ -1009,7 +1009,7 @@
       "code": "G4",
       "name": "Bridge Thesis BT1 empirical discriminator",
       "priority": "medium",
-      "what_is_missing": "BT1 (Panksepp-Barrett Resolution) is defended conceptually — subcortical affective circuits are real, and folk emotion categories are constructed overlays on top of them. What is missing is a crisp empirical discriminator test that would adjudicate specific cases where the Panksepp and Barrett frameworks make divergent predictions.",
+      "what_is_missing": "BT1 (Panksepp-Barrett Resolution) is defended conceptually - subcortical affective circuits are real, and folk emotion categories are constructed overlays on top of them. What is missing is a crisp empirical discriminator test that would adjudicate specific cases where the Panksepp and Barrett frameworks make divergent predictions.",
       "why_it_matters": "Bridge theses are load-bearing for Cor's epistemic credibility. If a bridge is only conceptually defensible and cannot be tested against a concrete prediction, critics can characterize the resolution as rhetorical rather than substantive.",
       "current_approach": "BT1 is presented as a level-of-analysis distinction: Panksepp's cross-species deep-brain-stimulation results ground the primary-process claim; Barrett's cross-cultural folk-category variation grounds the tertiary-process claim. The discriminator gap is explicitly acknowledged in the bridge-thesis narrative."
     },
@@ -1034,7 +1034,7 @@
       "name": "Tier 3 regulatory-input candidates beyond R1",
       "priority": "low",
       "what_is_missing": "R1 (Touch) is currently the only Tier 3 regulatory input in the inventory. Other candidate regulatory inputs deserve architectural consideration: thermoregulation signaling to M2/M6, gut-brain axis signaling to M3/M8, hydration signaling, and proprioceptive/vestibular input regulation.",
-      "why_it_matters": "R1's inclusion establishes the Tier 3 category — but leaving it as a set of one invites scope questions about why touch and not other regulatory inputs are architecturally load-bearing.",
+      "why_it_matters": "R1's inclusion establishes the Tier 3 category - but leaving it as a set of one invites scope questions about why touch and not other regulatory inputs are architecturally load-bearing.",
       "current_approach": "R1 is treated as the template for the Tier 3 category. Additional regulatory inputs are candidates for future architectural work but are not added retroactively without explicit review."
     },
     {
@@ -1049,7 +1049,7 @@
       "code": "G6",
       "name": "Matched-state measurement protocol",
       "priority": "high",
-      "what_is_missing": "Cor specifies resolution conditions per mechanism (for example M3: reliable intimate co-regulators typically ~5+; M10: varied daily movement typically ~9-15km/day; M7: dark-cued sleep onset), but operationalizing 'matched' as a measurable state across all 14 mechanisms — with inter-rater and test-retest reliability — is unfinished.",
+      "what_is_missing": "Cor specifies resolution conditions per mechanism (for example M3: reliable intimate co-regulators typically ~5+; M10: varied daily movement typically ~9-15km/day; M7: dark-cued sleep onset), but operationalizing 'matched' as a measurable state across all 14 mechanisms - with inter-rater and test-retest reliability - is unfinished.",
       "why_it_matters": "The measurement-protocol gap limits A4 personal assessment from becoming a validated instrument and blocks quantitative A6 policy evaluation against mechanism resolution conditions.",
       "current_approach": "A public-facing tool built on the framework will prototype the measurement protocol for A4 individual-level audits. Formal psychometric validation is independent research downstream of the core framework."
     },
@@ -1057,7 +1057,7 @@
       "code": "G9",
       "name": "AI alignment matched/mismatched evaluation axis operationalization",
       "priority": "high",
-      "what_is_missing": "A1 proposes 'matched / mismatched' as a fourth evaluation axis alongside helpful, harmless, and honest. What is missing is a concrete set of test cases — what a 'matched' response to a specific user query looks like versus a 'mismatched' one — scored in a way that a red-team or evaluation harness can apply systematically.",
+      "what_is_missing": "A1 proposes 'matched / mismatched' as a fourth evaluation axis alongside helpful, harmless, and honest. What is missing is a concrete set of test cases - what a 'matched' response to a specific user query looks like versus a 'mismatched' one - scored in a way that a red-team or evaluation harness can apply systematically.",
       "why_it_matters": "A1's matched/mismatched evaluation proposal is currently a framework, not an evaluation instrument. Without concrete scorable test cases, the matched/mismatched axis is a conceptual contribution to alignment evaluation rather than a working protocol that labs can run against model outputs.",
       "current_approach": "A1's evaluation-criteria field carries the resolution-check and proxy-gradient tests as conceptual criteria. Operational red-team-scorable test cases are the next step of the alignment evaluation work."
     }

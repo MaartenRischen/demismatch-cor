@@ -2,7 +2,7 @@
 
 *Derived from the Cor atlas: a structured, evidence-grounded reference work on human motivational-emotional architecture grounded in 74 reviewed academic works across 22 research domains, 516 quality-graded evidence extractions, 735 mechanism-evidence links, 17 architectural foundations, 14 cross-tradition convergences, and 15 evolved mechanisms. Numbers as of April 2026 and growing.*
 
-> Cor is currently an atlas. The formal specification — versioned, machine-readable, with calibrated evaluation protocols — is the operational layer being built on top of the atlas, beginning with one worked mechanism. This document is the human-facing articulation of the architecture the atlas describes, written for any system that interacts with humans at any scale.
+> Cor is currently an atlas. The formal specification - versioned, machine-readable, with calibrated evaluation protocols - is the operational layer being built on top of the atlas, beginning with one worked mechanism. This document is the human-facing articulation of the architecture the atlas describes, written for any system that interacts with humans at any scale.
 
 ## The human in front of you
 

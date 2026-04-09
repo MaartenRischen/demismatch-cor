@@ -64,7 +64,7 @@
       scope_notes:
         "Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states.",
       additional_paragraphs: [
-        "DA9 distinguishes the architecture from utility-aggregation frameworks. A severely degraded M3 cannot be substituted by a flourishing M2 — the resolution conditions are not interchangeable, even when the mechanisms are coupled (DA3) and one can buffer or modulate the other. The protocol therefore measures mechanism dimensions independently rather than collapsing them into a single well-being index. Liebig's Law of the Minimum (1840) is the historical heuristic for the bottleneck pattern: plant growth is often constrained by the scarcest essential nutrient. Cor adopts the bottleneck framing, not a strict biochemical claim of zero substitutability — the human architecture does show cross-system buffering, and DA3 handles that coupling explicitly.",
+        "DA9 distinguishes the architecture from utility-aggregation frameworks. A severely degraded M3 cannot be substituted by a flourishing M2 - the resolution conditions are not interchangeable, even when the mechanisms are coupled (DA3) and one can buffer or modulate the other. The protocol therefore measures mechanism dimensions independently rather than collapsing them into a single well-being index. Liebig's Law of the Minimum (1840) is the historical heuristic for the bottleneck pattern: plant growth is often constrained by the scarcest essential nutrient. Cor adopts the bottleneck framing, not a strict biochemical claim of zero substitutability - the human architecture does show cross-system buffering, and DA3 handles that coupling explicitly.",
       ],
     },
     {
@@ -79,7 +79,7 @@
       scope_notes:
         "Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
       additional_paragraphs: [
-        "DC3 reframes intervention strategy at the systemic and population-scale level. Cortical override is metabolically costly and is degraded by exactly the chronic activation states that demand it most, so designing environments that do not require constant override is typically higher leverage than scaling up override capacity. This is not a claim that cognitive, pharmacological, or psychotherapeutic interventions fail — they often work, and where indicated they should be used. It is a claim about which layer institutional and design decisions should default to when both layers are available, particularly for population-scale outcomes. Whether environmental correction outperforms user-side intervention in head-to-head comparisons is an empirical question Cor does not currently make a strong claim on; the leverage claim is the primary content of DC3.",
+        "DC3 reframes intervention strategy at the systemic and population-scale level. Cortical override is metabolically costly and is degraded by exactly the chronic activation states that demand it most, so designing environments that do not require constant override is typically higher leverage than scaling up override capacity. This is not a claim that cognitive, pharmacological, or psychotherapeutic interventions fail - they often work, and where indicated they should be used. It is a claim about which layer institutional and design decisions should default to when both layers are available, particularly for population-scale outcomes. Whether environmental correction outperforms user-side intervention in head-to-head comparisons is an empirical question Cor does not currently make a strong claim on; the leverage claim is the primary content of DC3.",
       ],
     },
   ];
@@ -99,7 +99,7 @@
       work_type: "book",
       summary: null,
       why_included:
-        "Grounds DA9 — historical heuristic for the bottleneck pattern underlying non-substitutability of mechanism resolution. The agronomy content does not transfer; the structural form does.",
+        "Grounds DA9 - historical heuristic for the bottleneck pattern underlying non-substitutability of mechanism resolution. The agronomy content does not transfer; the structural form does.",
       in_physical_collection: false,
       primary_researcher_id: null,
       v2_researchers: null,

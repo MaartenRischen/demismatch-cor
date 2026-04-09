@@ -686,7 +686,7 @@
       section.style.zIndex = String(sections.length - index);
     });
 
-    // Gentle parallax — labels drift slightly slower than scroll
+    // Gentle parallax - labels drift slightly slower than scroll
     let ticking = false;
     // Store each label's initial offset from viewport on first run
     const labelOffsets = new Map();
@@ -749,7 +749,7 @@
       const s = state;
       const mobile = isMobile();
 
-      // Frame (skip sizing on mobile — let CSS media queries handle it)
+      // Frame (skip sizing on mobile - let CSS media queries handle it)
       document.querySelectorAll('.truth-text').forEach(el => {
         if (!mobile) {
           el.style.padding = `${s.padY}rem ${s.padX}rem`;

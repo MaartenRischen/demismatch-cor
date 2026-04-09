@@ -1,4 +1,4 @@
-**Brutal review of Cor v2 (demismatch.com) — April 2026 live HTML.**
+**Brutal review of Cor v2 (demismatch.com) - April 2026 live HTML.**
 
 This is not a polish pass. This is a full autopsy from every audience the instructions require. I read the entire rendered site (hero through footer, all JS-populated sections, collapsed details, pyramid popovers, modals, mobile breakpoints). The pivot to “formal specification + alignment lead” was necessary for rigor and funding, but the execution has over-corrected into exclusionary academic density. The baby (the old site’s direct “you are not broken, the environment is” voice that made parents and clinicians feel *seen*) has been mostly thrown out. The site now speaks *about* humans far more than *to* them.
 
@@ -12,7 +12,7 @@ This is not a polish pass. This is a full autopsy from every audience the instru
 **Would they keep reading?**  
 - SFF recommender: Yes (alignment + live stats + pyramid traceability = hard-to-fake signal).  
 - Alignment researcher / Karen Hao: Yes.  
-- HSEE grant reviewer: Maybe — the parenting use case later helps, but they have to scroll past 3,000+ words of AI framing first.  
+- HSEE grant reviewer: Maybe - the parenting use case later helps, but they have to scroll past 3,000+ words of AI framing first.  
 - Parent / clinician / person in pain: No. The tone is cold, the examples academic, and the first human voice they hear is about an AI companion tricking a 22-year-old. The Instagram depression and parenting guilt use cases are buried *after* the mechanisms section. By the time they reach them the reader is exhausted.
 
 Verdict on first impression: **Fails the non-alignment 90-second test.** The site now optimizes for the April 22 SFF blitz at the expense of every other audience.
@@ -20,10 +20,10 @@ Verdict on first impression: **Fails the non-alignment 90-second test.** The sit
 ### 2. VOICE AND TONE
 
 The dominant voice is formal, precise, evidence-grounded, and *cold*.  
-- Repeated phrases like “the framework,” “the specification,” “the organism,” “the architecture” are consistent with the “organism not mind” principle — good.  
+- Repeated phrases like “the framework,” “the specification,” “the organism,” “the architecture” are consistent with the “organism not mind” principle - good.  
 - But they create distance. The site talks *about* the human motivational-emotional architecture the way a biologist talks about a lab rat.  
 - The few places it warms up (use-case #02 parenting guilt, mismatch “The feelings are not errors. The environment is the error.”) feel like they were written by a different author.  
-- Founder section is the most human part of the entire site — and it is at the very bottom. That is backwards.
+- Founder section is the most human part of the entire site - and it is at the very bottom. That is backwards.
 
 Tone breaks:  
 - Hero and Ten Sentences: crisp, alignment-pitch.  
@@ -49,7 +49,7 @@ The universality is *stated* but not *felt* until you are 60 % down the page.
 ### 4. CREDIBILITY
 
 **Strengths** (these are real):  
-- Live Supabase counts, pyramid traceability, primary extractions, challenges/gaps sections, pillar-works modal — this is the most auditable “specification” site I have ever seen. SFF will love it.  
+- Live Supabase counts, pyramid traceability, primary extractions, challenges/gaps sections, pillar-works modal - this is the most auditable “specification” site I have ever seen. SFF will love it.  
 - Empirical demonstrations and effect-size families are presented cleanly.  
 - Anthropic resonance card is clever without overclaiming.  
 - “Not novel science. Novel integration.” is perfectly humble.
@@ -82,26 +82,26 @@ Page length: too long for a landing page that needs to serve 10 different audien
 ### 6. SPECIFIC COPY PROBLEMS (brutal list)
 
 **Overclaims / hedging mismatches**  
-- Hero sub: “a complete, evidence-grounded account” — the Gaps section exists. Downgrade to “the most complete public attempt.”  
-- Ten Sentences #5: “Cor is the missing layer” — too absolute.  
-- Pyramid intro: “Every claim on this site traces down to a primary source” — true for mechanisms but the pyramid itself has “convergences” that are *synthesized*, not pure primary. Minor but pedantic readers will notice.
+- Hero sub: “a complete, evidence-grounded account” - the Gaps section exists. Downgrade to “the most complete public attempt.”  
+- Ten Sentences #5: “Cor is the missing layer” - too absolute.  
+- Pyramid intro: “Every claim on this site traces down to a primary source” - true for mechanisms but the pyramid itself has “convergences” that are *synthesized*, not pure primary. Minor but pedantic readers will notice.
 
 **Dehumanizing or cold phrasing**  
-- “The organism’s bonding needs” — repeated. Fine in mechanisms, alienating in use cases.  
+- “The organism’s bonding needs” - repeated. Fine in mechanisms, alienating in use cases.  
 - AI Companion section: the 22-year-old example is clinical and distant. The reader never feels the loneliness; they analyze it.  
-- Everywhere: “the architecture,” “the system,” “the mechanism” — the human disappears.
+- Everywhere: “the architecture,” “the system,” “the mechanism” - the human disappears.
 
 **Jargon that blocks non-specialists**  
 - Pyramid layer labels (l0–l6, DA4, M1, etc.) are used without on-ramp for non-technical readers.  
-- “Obligate cooperative breeders” in parenting use case — accurate but drops like a brick for a tired mother.  
-- “Supernormal stimulus” — used without explanation in child iPad image caption.
+- “Obligate cooperative breeders” in parenting use case - accurate but drops like a brick for a tired mother.  
+- “Supernormal stimulus” - used without explanation in child iPad image caption.
 
 **Tone shifts**  
-- Tristan Harris voice quote at top of Ten Sentences is great — then the list immediately goes back to academic.  
+- Tristan Harris voice quote at top of Ten Sentences is great - then the list immediately goes back to academic.  
 - Mismatch split uses Frankl quote beautifully, then the very next section (AI Companion) goes back to sterile analysis.
 
 **Small but telling**  
-- JS still has commented-out “bridge-thesis” and “tech × mechanism matrix” — dead code.  
+- JS still has commented-out “bridge-thesis” and “tech × mechanism matrix” - dead code.  
 - Some alt texts are excellent; some are missing (e.g. several HUD images).  
 - Footer is bare. No obvious “read the full specification” or “join the mailing list” for the non-funder audience.
 
