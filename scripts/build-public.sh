@@ -14,7 +14,6 @@ ROOT_FILES=(
   "contact.html"
   "how-to-read.html"
   "spec.html"
-  "support.html"
   "thinkers.html"
   "works.html"
   "CNAME"
