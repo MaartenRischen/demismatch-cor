@@ -12,6 +12,7 @@ ROOT_FILES=(
   "cases.html"
   "constitutional.html"
   "contact.html"
+  "eli5.html"
   "how-to-read.html"
   "spec.html"
   "thinkers.html"
