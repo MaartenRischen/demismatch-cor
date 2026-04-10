@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-04-08",
+  "as_of": "2026-04-10",
   "counts": {
     "foundations": 17,
     "mechanisms": 15,
     "convergences": 14,
-    "works": 74,
-    "extractions": 516,
-    "researchers": 59,
+    "works": 101,
+    "extractions": 573,
+    "researchers": 63,
     "public_gaps": 10
   },
   "breakdowns": {
@@ -22,19 +22,19 @@
       "tier_3": 1
     },
     "works": {
-      "pillar": 42,
-      "key": 29,
+      "pillar": 59,
+      "key": 39,
       "supporting": 3
     },
     "extractions": {
-      "primary": 516,
-      "propagation": 0,
-      "challenge": 0,
-      "empirical": 0
+      "primary": 487,
+      "propagation": 77,
+      "challenge": 5,
+      "empirical": 4
     },
     "researchers": {
-      "foundational": 32,
-      "empirical": 19,
+      "foundational": 34,
+      "empirical": 21,
       "adjacent": 8
     }
   },

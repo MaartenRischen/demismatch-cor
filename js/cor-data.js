@@ -446,11 +446,12 @@
   }
 
   async function loadLiveHome() {
-    const [foundations, mechanisms, works, researchers, applicationsCount, foundationalResearchers] = await Promise.all([
+    const [foundations, mechanisms, works, researchers, primaryExtractions, applicationsCount, foundationalResearchers] = await Promise.all([
       fetchCount("/v2_foundations?select=code"),
       fetchCount("/v2_mechanisms?select=code"),
       fetchCount("/v2_works?select=id"),
       fetchCount("/v2_researchers?select=id"),
+      fetchCount("/v2_extractions?source_type=eq.primary&select=id"),
       fetchCount("/v2_applications?select=id"),
       fetchLive("/v2_researchers?tier=eq.foundational&order=sub_level.asc,name.asc&select=id,name,tier,sub_level"),
     ]);
@@ -465,7 +466,7 @@
           researchers,
         },
         breakdowns: {
-          extractions: {},
+          extractions: { primary: primaryExtractions },
         },
       },
       thinkers: {
