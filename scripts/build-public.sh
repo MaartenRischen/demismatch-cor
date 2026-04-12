@@ -14,6 +14,7 @@ ROOT_FILES=(
   "contact.html"
   "eli5.html"
   "how-to-read.html"
+  "methodology.html"
   "spec.html"
   "thinkers.html"
   "works.html"
