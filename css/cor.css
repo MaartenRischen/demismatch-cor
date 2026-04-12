@@ -814,6 +814,43 @@ ol {
   color: var(--fg);
 }
 
+.proto-banner {
+  background: var(--bg-warm);
+  border-bottom: 1px solid var(--border-soft);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.proto-banner-inner {
+  width: min(100%, var(--maxw));
+  margin: 0 auto;
+  padding: 0.6rem var(--pad-x);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.proto-banner-label {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--amber);
+  white-space: nowrap;
+}
+
+.proto-banner-text {
+  color: var(--fg-dim);
+}
+
+.proto-banner-link {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--amber);
+  white-space: nowrap;
+}
+
 .hero {
   position: relative;
   background:

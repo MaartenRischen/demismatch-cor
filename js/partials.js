@@ -89,8 +89,20 @@ function setFooterYear() {
   });
 }
 
+async function injectBanner() {
+  const nav = document.querySelector(".site-nav");
+  if (!nav) return;
+  try {
+    const res = await fetch("/partials/banner.html");
+    if (!res.ok) return;
+    const html = await res.text();
+    nav.insertAdjacentHTML("afterend", html);
+  } catch (_) { /* banner is non-critical */ }
+}
+
 async function bootPartials() {
   await loadPartials();
+  await injectBanner();
   initActiveNav();
   initMobileNav();
   initCitations();
