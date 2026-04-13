@@ -571,7 +571,7 @@
                 ${(app.relevant_mechanisms || [])
                   .map(
                     (code) =>
-                      `<span class="chip" style="color:var(--amber);border-color:rgba(193,122,47,0.26)">${esc(
+                      `<span class="chip" style="color:var(--teal);border-color:rgba(45,107,107,0.35)">${esc(
                         code
                       )}</span>`
                   )
