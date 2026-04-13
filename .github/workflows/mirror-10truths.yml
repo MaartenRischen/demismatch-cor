@@ -1,0 +1,44 @@
+name: Mirror 10truths to demismatch.com repo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '10truths/**'
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source (demismatch-cor)
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Check out destination (10Truths)
+        uses: actions/checkout@v4
+        with:
+          repository: MaartenRischen/10Truths
+          ref: master
+          token: ${{ secrets.MIRROR_PAT }}
+          path: dest
+          fetch-depth: 0
+
+      - name: Sync 10truths/ to destination root
+        run: |
+          rsync -av --delete --exclude '.git' source/10truths/ dest/
+
+      - name: Commit and push if changed
+        working-directory: dest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Sync from demismatch-cor@${GITHUB_SHA:0:7}"
+            git push origin master
+          else
+            echo "No changes to mirror"
+          fi
