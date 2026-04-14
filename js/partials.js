@@ -116,7 +116,7 @@ function setFavicon() {
   const link = document.createElement("link");
   link.rel = "icon";
   link.type = "image/png";
-  link.href = "/img/cor-logo.png";
+  link.href = "/img/cor-mark.png";
   document.head.appendChild(link);
 }
 
