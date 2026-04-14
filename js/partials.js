@@ -100,8 +100,20 @@ async function injectBanner() {
   } catch (_) { /* banner is non-critical */ }
 }
 
+async function injectXsiteNav() {
+  const shell = document.querySelector(".site-nav-shell");
+  if (!shell) return;
+  try {
+    const res = await fetch("/partials/xsite-nav.html");
+    if (!res.ok) return;
+    const html = await res.text();
+    shell.insertAdjacentHTML("beforebegin", html);
+  } catch (_) { /* xsite nav is non-critical */ }
+}
+
 async function bootPartials() {
   await loadPartials();
+  await injectXsiteNav();
   await injectBanner();
   initActiveNav();
   initMobileNav();
