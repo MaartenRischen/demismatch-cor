@@ -111,7 +111,17 @@ async function injectXsiteNav() {
   } catch (_) { /* xsite nav is non-critical */ }
 }
 
+function setFavicon() {
+  if (document.querySelector("link[rel='icon']")) return;
+  const link = document.createElement("link");
+  link.rel = "icon";
+  link.type = "image/png";
+  link.href = "/img/cor-logo.png";
+  document.head.appendChild(link);
+}
+
 async function bootPartials() {
+  setFavicon();
   await loadPartials();
   await injectXsiteNav();
   await injectBanner();
