@@ -354,6 +354,10 @@ code, pre {
   box-shadow: 0 2px 0 0 var(--gold);
 }
 
+@media (max-width: 720px) {
+  .site-nav-shell { position: static; }
+}
+
 .site-nav {
   width: 100%;
   max-width: var(--reading-maxw);
