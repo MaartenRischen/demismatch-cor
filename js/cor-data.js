@@ -372,7 +372,6 @@
       ),
     ]);
 
-    const filteredGaps = gaps.filter((gap) => !["G10", "G12", "G13", "G14"].includes(gap.code));
     const snapshot = {
       as_of: "2026-04-08",
       counts: buildSpecCounts({
@@ -381,7 +380,7 @@
         mechanisms,
         empirical_demonstrations: empirical,
         challenges: normalizeChallenges(rawChallenges),
-        gaps: filteredGaps,
+        gaps,
       }),
       foundations,
       convergences: convergences.map((item) => ({
@@ -393,7 +392,7 @@
       mechanisms,
       empirical_demonstrations: empirical,
       challenges: normalizeChallenges(rawChallenges),
-      gaps: filteredGaps,
+      gaps,
     };
     return snapshot;
   }
@@ -796,9 +795,16 @@
 
     const gapRoot = $("#spec-gaps");
     if (gapRoot) {
-      gapRoot.innerHTML = data.gaps
-        .map(
-          (item) => `
+      const gapNum = (item) => Number(String(item.code || "").replace(/^G/, ""));
+      const frameworkGaps = data.gaps.filter((item) => {
+        const n = gapNum(item);
+        return n >= 1 && n <= 10;
+      });
+      const corpusGaps = data.gaps.filter((item) => {
+        const n = gapNum(item);
+        return n >= 11 && n <= 14;
+      });
+      const renderGap = (item) => `
           <article class="gap-card">
             <header>
               <strong>${esc(item.name)}</strong>
@@ -809,9 +815,28 @@
             <p><strong>Why it matters:</strong> ${esc(item.why_it_matters)}</p>
             <p><strong>Current approach:</strong> ${esc(item.current_approach)}</p>
           </article>
-        `
-        )
-        .join("");
+        `;
+      const renderGroup = (label, subtitle, items) =>
+        items.length
+          ? `<section class="gap-group">
+              <div class="gap-group-head">
+                <div class="gap-group-label">${esc(label)}</div>
+                <div class="gap-group-sub">${esc(subtitle)}</div>
+              </div>
+              <div class="gap-grid">${items.map(renderGap).join("")}</div>
+            </section>`
+          : "";
+      gapRoot.innerHTML =
+        renderGroup(
+          "Framework-level gaps",
+          "G1–G10 · holes in the specification itself",
+          frameworkGaps
+        ) +
+        renderGroup(
+          "Corpus-engineering gaps",
+          "G11–G14 · holes in how the atlas was assembled",
+          corpusGaps
+        );
     }
   }
 
