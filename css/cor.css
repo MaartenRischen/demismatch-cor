@@ -391,7 +391,6 @@ code, pre {
   height: 44px;
   width: auto;
   display: block;
-  mix-blend-mode: multiply;
 }
 
 @media (max-width: 720px) {
@@ -544,39 +543,34 @@ code, pre {
     grid-column: 1 / -1;
   }
 
-  .hero-inner > .hero-logo {
+  .hero-inner > .hero-masthead {
     grid-column: 1 / -1;
-    justify-self: center;
-    margin: 0 auto 0.8rem;
-    width: clamp(260px, 28vw, 360px);
-  }
-
-  .hero-inner > .eyebrow {
-    grid-column: 1 / -1;
-    justify-self: center;
-    margin-bottom: 0;
-  }
-
-  .hero-inner > h1 {
-    grid-column: 1 / -1;
+    justify-self: stretch;
+    align-items: center;
+    gap: clamp(1.5rem, 3.5vw, 3rem);
+    margin: 0 auto 1.6rem;
     max-width: none;
-    text-align: center;
-    font-size: clamp(3.6rem, 9.5vw, 9.5rem);
-    letter-spacing: -0.045em;
-    margin-bottom: 0.6rem;
+    width: 100%;
   }
 
-  .hero-line + .hero-line {
+  .hero-masthead .hero-logo {
+    width: clamp(240px, 24vw, 380px);
+  }
+
+  .hero-masthead .hero-title-block > h1 {
+    font-size: clamp(2.8rem, 6.2vw, 6rem);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-masthead .hero-title-block > h1 .hero-line {
+    display: block;
+  }
+
+  .hero-masthead .hero-title-block > h1 .hero-line + .hero-line {
+    font-size: 0.62em;
     max-width: 22ch;
-    font-size: 0.58em;
-  }
-
-  .hero-inner > .hero-dek {
-    grid-column: 1 / -1;
-    justify-self: center;
-    text-align: center;
-    max-width: 54ch;
-    margin: 0 auto 0.4rem;
   }
 
   .hero-inner > .hero-deck {
@@ -685,18 +679,59 @@ code, pre {
   letter-spacing: 0.005em;
 }
 
-/* ── Hero logo (big, proud, parchment-on-parchment blend) ── */
-.hero-logo {
-  display: block;
-  width: clamp(220px, 32vw, 340px);
-  height: auto;
-  margin: 0 auto 1.4rem;
-  mix-blend-mode: multiply;
+/* ── Hero masthead: logo + title block laid out side by side ── */
+.hero-masthead {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 3vw, 2.8rem);
+  margin: 0 auto 2rem;
+  max-width: 1100px;
+  text-align: left;
 }
 
-@media (max-width: 560px) {
+.hero-logo {
+  display: block;
+  flex-shrink: 0;
+  width: clamp(180px, 22vw, 300px);
+  height: auto;
+}
+
+.hero-title-block {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-title-block > .eyebrow {
+  display: inline-flex;
+  margin-bottom: 0.9rem;
+}
+
+.hero-title-block > h1 {
+  margin-bottom: 0.4rem;
+}
+
+.hero-title-block > .hero-dek {
+  margin: 0.3rem 0 0;
+  max-width: none;
+  text-align: left;
+}
+
+@media (max-width: 720px) {
+  .hero-masthead {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    text-align: center;
+  }
+  .hero-title-block { text-align: center; }
+  .hero-title-block > .hero-dek {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 44ch;
+  }
   .hero-logo {
-    width: clamp(180px, 62vw, 240px);
+    width: clamp(180px, 58vw, 240px);
   }
 }
 
