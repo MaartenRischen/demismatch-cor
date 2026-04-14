@@ -39,6 +39,65 @@ body {
     radial-gradient(circle at 80% 80%, rgba(45, 107, 107, 0.04) 0%, transparent 50%);
 }
 
+/* ── Cross-site navbar (edge-to-edge bar at top of .page) ── */
+.xsite-nav {
+  background: var(--oxblood-deep);
+  border-bottom: 1px solid var(--teal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px clamp(16px, 3vw, 40px);
+  flex-wrap: wrap;
+  margin: -72px -88px 40px;
+  border-radius: 14px 14px 0 0;
+}
+.xsite-nav-brand {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--parchment);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 140ms ease;
+}
+.xsite-nav-brand:hover { color: var(--teal-bright); }
+.xsite-nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.xsite-nav-links a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--parchment);
+  text-decoration: none;
+  transition: color 140ms ease;
+}
+.xsite-nav-links a:hover { color: var(--teal-bright); }
+.xsite-nav-links a[aria-current="page"] {
+  color: var(--teal-bright);
+  font-weight: 500;
+}
+.xsite-nav-sep {
+  color: #8a7d5e;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  opacity: 0.7;
+}
+@media (max-width: 560px) {
+  .xsite-nav { padding: 8px 16px; gap: 8px; margin: -72px -20px 32px; }
+  .xsite-nav-brand { font-size: 10px; letter-spacing: 0.22em; }
+  .xsite-nav-links { gap: 6px; }
+  .xsite-nav-links a { font-size: 9px; letter-spacing: 0.15em; }
+}
+
 .masthead {
   border-bottom: 2px solid var(--oxblood);
   padding-bottom: 28px;
@@ -562,6 +621,17 @@ body {
 </head>
 <body>
 <div class="page">
+  <nav class="xsite-nav" aria-label="Demismatch network">
+    <a class="xsite-nav-brand" href="https://demismatch.com/" aria-label="Demismatch home">DEMISMATCH</a>
+    <ul class="xsite-nav-links">
+      <li><a href="https://demismatch.com/" data-xsite-link="truths">10 Truths</a></li>
+      <li aria-hidden="true" class="xsite-nav-sep">·</li>
+      <li><a href="https://demismatch.com/vision.html" data-xsite-link="vision" aria-current="page">Vision</a></li>
+      <li aria-hidden="true" class="xsite-nav-sep">·</li>
+      <li><a href="https://cor.demismatch.com/" data-xsite-link="spec">Spec</a></li>
+    </ul>
+  </nav>
+
   <div class="masthead">
     <div class="left">Demismatch · Full Vision · April 2026</div>
     <div class="right">Vol. I &nbsp;·&nbsp; № 01</div>

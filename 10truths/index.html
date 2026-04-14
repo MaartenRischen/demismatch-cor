@@ -140,6 +140,63 @@
       50% { opacity: 0.6; transform: scaleY(1); }
     }
 
+    /* ── Cross-site navbar (top strip; oxblood-deep on all sites, non-sticky) ── */
+    .xsite-nav {
+      background: var(--oxblood-deep, #2a0c11);
+      border-bottom: 1px solid var(--teal);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.5rem clamp(0.9rem, 3vw, 2.5rem);
+      flex-wrap: wrap;
+    }
+    .xsite-nav-brand {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--parchment);
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 140ms ease;
+    }
+    .xsite-nav-brand:hover { color: var(--teal-bright); }
+    .xsite-nav-links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin: 0;
+      padding: 0;
+    }
+    .xsite-nav-links a {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--parchment);
+      text-decoration: none;
+      transition: color 140ms ease;
+    }
+    .xsite-nav-links a:hover { color: var(--teal-bright); }
+    .xsite-nav-links a[aria-current="page"] {
+      color: var(--teal-bright);
+      font-weight: 500;
+    }
+    .xsite-nav-sep {
+      color: var(--muted-warm);
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      opacity: 0.7;
+    }
+    @media (max-width: 560px) {
+      .xsite-nav { padding: 0.45rem 0.9rem; gap: 0.6rem; }
+      .xsite-nav-brand { font-size: 0.62rem; letter-spacing: 0.22em; }
+      .xsite-nav-links { gap: 0.4rem; }
+      .xsite-nav-links a { font-size: 0.58rem; letter-spacing: 0.15em; }
+    }
+
     /* ── Masthead (editorial issue strip, mirrors /vision) ── */
     .masthead {
       display: flex;
@@ -702,6 +759,17 @@
   </style>
 </head>
 <body>
+  <nav class="xsite-nav" aria-label="Demismatch network">
+    <a class="xsite-nav-brand" href="https://demismatch.com/" aria-label="Demismatch home">DEMISMATCH</a>
+    <ul class="xsite-nav-links">
+      <li><a href="https://demismatch.com/" data-xsite-link="truths" aria-current="page">10 Truths</a></li>
+      <li aria-hidden="true" class="xsite-nav-sep">·</li>
+      <li><a href="https://demismatch.com/vision.html" data-xsite-link="vision">Vision</a></li>
+      <li aria-hidden="true" class="xsite-nav-sep">·</li>
+      <li><a href="https://cor.demismatch.com/" data-xsite-link="spec">Spec</a></li>
+    </ul>
+  </nav>
+
   <div class="masthead">
     <div class="left">Demismatch · 10 Truths · April 2026</div>
     <div class="right">Vol. I · № 00</div>
