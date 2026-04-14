@@ -1197,42 +1197,15 @@ code, pre {
     grid-template-columns: 1fr;
   }
 
-  /* Argument list becomes 2-up when it lives in the content column */
+  /* Argument list: 2-up on wider viewports; emphasis items span both columns */
   .wrap:has(> .section-head) .argument-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.1rem;
+    align-items: start;
   }
 
-  .wrap:has(> .section-head) .argument-body {
-    flex-direction: column;
-    gap: 1.1rem;
-  }
-
-  .wrap:has(> .section-head) .argument-img {
-    flex: none;
-    width: 100%;
-    max-width: none;
-    aspect-ratio: 16 / 9;
-  }
-
-  .wrap:has(> .section-head) .argument-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  /* Emphasized argument items span both columns for weight */
   .wrap:has(> .section-head) .argument-item.argument-item-emphasis {
     grid-column: 1 / -1;
-  }
-
-  .wrap:has(> .section-head) .argument-item-emphasis .argument-body {
-    flex-direction: row;
-  }
-
-  .wrap:has(> .section-head) .argument-item-emphasis .argument-img {
-    flex: 0 0 42%;
-    aspect-ratio: auto;
   }
 }
 
@@ -2316,33 +2289,11 @@ code, pre {
 }
 
 .argument-body {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-}
-
-.argument-body--reverse {
-  flex-direction: row-reverse;
+  display: block;
 }
 
 .argument-body .argument-copy {
-  flex: 1;
   min-width: 0;
-}
-
-.argument-img {
-  flex: 0 0 420px;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-  border: 1px solid var(--oxblood);
-  box-shadow: 3px 3px 0 var(--gold);
-}
-
-.argument-img img {
-  width: 100%;
-  height: auto;
-  display: block;
-  filter: sepia(0.1) saturate(0.95);
 }
 
 .argument-title .argument-tag {
