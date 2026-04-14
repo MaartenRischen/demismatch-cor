@@ -2186,24 +2186,21 @@ code, pre {
   border-radius: var(--radius-sm);
   background: var(--parchment-dark);
   box-shadow: var(--shadow-double-sm);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .eea-table {
   width: 100%;
+  min-width: 620px;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .eea-table th:first-child,
 .eea-table td:first-child {
-  width: 15%;
-}
-
-.eea-table th:nth-child(2),
-.eea-table td:nth-child(2),
-.eea-table th:nth-child(3),
-.eea-table td:nth-child(3) {
-  width: 42.5%;
+  min-width: 9ch;
+  white-space: nowrap;
 }
 
 .eea-table th,
