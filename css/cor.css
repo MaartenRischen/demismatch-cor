@@ -378,13 +378,26 @@ code, pre {
 
 .site-brand-cor {
   border: 0;
-  color: var(--oxblood);
-  font-size: 0.88rem;
-  transition: color 140ms ease;
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 140ms ease;
 }
 
 .site-brand-cor:hover {
-  color: var(--teal);
+  opacity: 0.72;
+}
+
+.site-brand-logo {
+  height: 44px;
+  width: auto;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 720px) {
+  .site-brand-logo {
+    height: 34px;
+  }
 }
 
 .nav-toggle {
@@ -531,6 +544,13 @@ code, pre {
     grid-column: 1 / -1;
   }
 
+  .hero-inner > .hero-logo {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin: 0 auto 0.8rem;
+    width: clamp(260px, 28vw, 360px);
+  }
+
   .hero-inner > .eyebrow {
     grid-column: 1 / -1;
     justify-self: center;
@@ -663,6 +683,21 @@ code, pre {
   max-width: 54ch;
   margin: 0.6rem auto 1.6rem;
   letter-spacing: 0.005em;
+}
+
+/* ── Hero logo (big, proud, parchment-on-parchment blend) ── */
+.hero-logo {
+  display: block;
+  width: clamp(220px, 32vw, 340px);
+  height: auto;
+  margin: 0 auto 1.4rem;
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 560px) {
+  .hero-logo {
+    width: clamp(180px, 62vw, 240px);
+  }
 }
 
 /* ── Hero cross-site entry block (wayfinding from cor to other surfaces) ── */
