@@ -1126,7 +1126,37 @@ body {
     <div class="folio">demismatch.com &nbsp;·&nbsp; № 01</div>
   </div>
 
+  <aside class="xsite-entry" aria-label="Cross-site navigation">
+    <p class="xsite-entry-eyebrow">Elsewhere</p>
+    <ul class="xsite-entry-links">
+      <li>
+        <a href="https://demismatch.com/">
+          <span class="xsite-entry-arrow">→</span>
+          <span class="xsite-entry-label">10 Truths</span>
+          <span class="xsite-entry-desc">the thesis, felt</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://cor.demismatch.com/">
+          <span class="xsite-entry-arrow">→</span>
+          <span class="xsite-entry-label">Spec</span>
+          <span class="xsite-entry-desc">the research backing</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+
   <style>
+    .xsite-entry { margin: 40px auto 0; max-width: 640px; padding: 20px 0 16px; border-top: 1px solid rgba(58, 18, 24, 0.22); }
+    .xsite-entry-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--teal); margin-bottom: 14px; font-weight: 500; }
+    .xsite-entry-links { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 24px; margin: 0; padding: 0; }
+    .xsite-entry-links a { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; color: var(--oxblood); transition: color 140ms ease; flex-wrap: wrap; }
+    .xsite-entry-links a:hover { color: var(--teal); }
+    .xsite-entry-arrow { font-family: 'JetBrains Mono', monospace; font-size: 14px; }
+    .xsite-entry-label { font-family: 'Spectral', serif; font-size: 17px; font-weight: 500; }
+    .xsite-entry-desc { font-family: 'Spectral', serif; font-size: 14px; font-style: italic; color: #8a7d5e; opacity: 0.85; }
+    @media (max-width: 560px) { .xsite-entry-links { grid-template-columns: 1fr; gap: 8px; } }
+
     .xsite-footer { margin-top: 56px; padding-top: 40px; border-top: 1px solid rgba(58, 18, 24, 0.25); }
     .xsite-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; padding-bottom: 28px; border-bottom: 1px solid rgba(58, 18, 24, 0.18); margin-bottom: 24px; }
     .xsite-col { display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--oxblood); transition: color 140ms ease; }

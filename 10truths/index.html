@@ -342,6 +342,61 @@
       border-color: rgba(236, 224, 196, 0.5);
     }
 
+    /* ── Hero entry-point block (wayfinding between intro-band and Truth 01) ── */
+    .xsite-entry {
+      max-width: 640px;
+      margin: 1.5rem auto 3rem;
+      padding: 1rem 2rem 1.2rem;
+      border-top: 1px solid rgba(236, 224, 196, 0.22);
+    }
+    .xsite-entry-eyebrow {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--teal-bright);
+      margin-bottom: 0.9rem;
+      font-weight: 500;
+    }
+    .xsite-entry-links {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    .xsite-entry-links a {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: var(--parchment);
+      transition: color 140ms ease;
+      flex-wrap: wrap;
+    }
+    .xsite-entry-links a:hover { color: var(--teal-bright); }
+    .xsite-entry-arrow {
+      font-family: var(--mono);
+      font-size: 0.85rem;
+    }
+    .xsite-entry-label {
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+    .xsite-entry-desc {
+      font-family: var(--serif);
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--muted-warm);
+      opacity: 0.9;
+    }
+    @media (max-width: 560px) {
+      .xsite-entry { padding: 0.9rem 0.9rem 1rem; margin: 1rem auto 2rem; }
+      .xsite-entry-links { grid-template-columns: 1fr; gap: 0.5rem; }
+    }
+
     /* ── Truth sections ── */
     .section-divider {
       display: block;
@@ -790,6 +845,26 @@
       <h1 class="site-title">Demismatch</h1>
     </div>
   </header>
+
+  <aside class="xsite-entry" aria-label="Cross-site navigation">
+    <p class="xsite-entry-eyebrow">The Project</p>
+    <ul class="xsite-entry-links">
+      <li>
+        <a href="vision.html">
+          <span class="xsite-entry-arrow">→</span>
+          <span class="xsite-entry-label">Vision</span>
+          <span class="xsite-entry-desc">full map of the project</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://cor.demismatch.com/">
+          <span class="xsite-entry-arrow">→</span>
+          <span class="xsite-entry-label">Spec</span>
+          <span class="xsite-entry-desc">the research backing</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
 
   <main id="truths">
 

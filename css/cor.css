@@ -584,6 +584,13 @@ code, pre {
     margin: 0;
   }
 
+  .hero-inner > .xsite-entry {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 640px;
+    margin: 0.8rem auto 0;
+  }
+
   .hero-inner > .hero-onramp {
     grid-column: 1 / span 8;
     margin: 0;
@@ -656,6 +663,60 @@ code, pre {
   max-width: 54ch;
   margin: 0.6rem auto 1.6rem;
   letter-spacing: 0.005em;
+}
+
+/* ── Hero cross-site entry block (wayfinding from cor to other surfaces) ── */
+.xsite-entry {
+  max-width: 640px;
+  margin: 1.8rem auto 1.4rem;
+  padding: 1rem 0 1.2rem;
+  border-top: 1px solid rgba(58, 18, 24, 0.22);
+}
+.xsite-entry-eyebrow {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 0.9rem;
+  font-weight: 500;
+}
+.xsite-entry-links {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.xsite-entry-links a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--oxblood);
+  transition: color 140ms ease;
+  flex-wrap: wrap;
+}
+.xsite-entry-links a:hover { color: var(--teal); }
+.xsite-entry-arrow {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+.xsite-entry-label {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.xsite-entry-desc {
+  font-family: var(--serif);
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--muted-warm);
+  opacity: 0.9;
+}
+@media (max-width: 560px) {
+  .xsite-entry-links { grid-template-columns: 1fr; gap: 0.5rem; }
 }
 
 .hero-deck {
