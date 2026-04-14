@@ -570,7 +570,7 @@ code, pre {
 
   .hero-masthead .hero-title-block > h1 .hero-line + .hero-line {
     font-size: 0.62em;
-    max-width: 22ch;
+    max-width: none;
   }
 
   .hero-inner > .hero-deck {
@@ -581,7 +581,7 @@ code, pre {
     line-height: 1.55;
   }
 
-  .hero-inner > .hero-deck:nth-of-type(3) {
+  .hero-inner > .hero-deck:nth-of-type(2) {
     grid-column: 5 / span 4;
   }
 
