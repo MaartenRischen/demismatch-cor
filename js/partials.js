@@ -8,7 +8,7 @@ async function loadPartials() {
         target.classList.add("site-nav-shell");
       }
       try {
-        const response = await fetch(src);
+        const response = await fetch(src, { cache: "no-cache" });
         if (!response.ok) throw new Error("Partial unavailable");
         target.innerHTML = await response.text();
       } catch (error) {
@@ -93,7 +93,7 @@ async function injectBanner() {
   const nav = document.querySelector(".site-nav");
   if (!nav) return;
   try {
-    const res = await fetch("/partials/banner.html");
+    const res = await fetch("/partials/banner.html", { cache: "no-cache" });
     if (!res.ok) return;
     const html = await res.text();
     nav.insertAdjacentHTML("afterend", html);
@@ -104,7 +104,7 @@ async function injectXsiteNav() {
   const shell = document.querySelector(".site-nav-shell");
   if (!shell) return;
   try {
-    const res = await fetch("/partials/xsite-nav.html");
+    const res = await fetch("/partials/xsite-nav.html", { cache: "no-cache" });
     if (!res.ok) return;
     const html = await res.text();
     shell.insertAdjacentHTML("beforebegin", html);
