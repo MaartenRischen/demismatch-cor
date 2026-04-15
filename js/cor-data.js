@@ -21,6 +21,34 @@
         "'": "&#39;",
       }[char];
     });
+
+  const LEAK_PATTERNS = [
+    /HANDOFF[A-Z0-9_]*\.md\b/i,
+    /\bsource[_-]researchers?\b/i,
+    /\b[a-z]+_array\b/i,
+    /\bIDENTITY UNVERIFIED\b/i,
+    /Corherence\s+flagged/i,
+    /\b(corchestrator|cor-web|cor-spec|cor-app|claude-code|claude-web|claude-?desktop)\b/i,
+    /\b[A-Z][A-Z0-9_]{3,}\.md\b/,
+  ];
+
+  const containsLeak = (text) => LEAK_PATTERNS.some((p) => p.test(text));
+
+  const scrubLeak = (value) => {
+    if (!value) return value;
+    let out = String(value);
+    out = out.replace(/\s*\(([^()]*)\)/g, (m, inner) => (containsLeak(inner) ? "" : m));
+    out = out.replace(/[^.!?]*[.!?]+\s*/g, (sentence) => (containsLeak(sentence) ? "" : sentence));
+    if (containsLeak(out)) return "";
+    return out.replace(/\s+/g, " ").trim();
+  };
+
+  const formatEnumLabel = (value) => {
+    if (value === null || value === undefined || value === "") return value;
+    const str = String(value).toLowerCase().replace(/[_-]+/g, " ").trim();
+    if (!str) return str;
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
   const SPEC_FOUNDATION_ORDER = [
     "OF1",
     "OF2",
@@ -439,6 +467,9 @@
       ),
       researchers: researchers.map((researcher) => ({
         ...researcher,
+        spec_role: scrubLeak(researcher.spec_role),
+        what_we_take: scrubLeak(researcher.what_we_take),
+        what_we_dont_take: scrubLeak(researcher.what_we_dont_take),
         works: worksByResearcher[researcher.id] || [],
       })),
     };
@@ -636,8 +667,8 @@
                     </header>
                     <p>${esc(item.statement)}</p>
                     <div class="mechanism-meta">
-                      <span class="chip">${esc(item.epistemic_grade)}</span>
-                      <span class="chip">${esc(item.layer)}</span>
+                      <span class="chip">${esc(formatEnumLabel(item.epistemic_grade))}</span>
+                      <span class="chip">${esc(formatEnumLabel(item.layer))}</span>
                     </div>
                     ${
                       item.derivation
@@ -679,7 +710,7 @@
             </header>
             <p>${esc(item.statement)}</p>
             <div class="mechanism-meta">
-              <span class="chip">${esc(item.epistemic_grade)}</span>
+              <span class="chip">${esc(formatEnumLabel(item.epistemic_grade))}</span>
               ${
                 item.forces_mechanism
                   ? `<span class="chip">Forces ${esc(item.forces_mechanism)}</span>`
@@ -732,10 +763,10 @@
                   <p><strong>Resolution:</strong> ${esc(item.resolution_conditions || "Not recorded.")}</p>
                   <p><strong>Mismatch:</strong> ${esc(item.mismatch_prediction || "Not recorded.")}</p>
                   <div class="mechanism-meta">
-                    <span class="chip">Tier ${esc(item.tier)}</span>
-                    <span class="chip">${esc(item.grade || "graded")}</span>
+                    <span class="chip">Tier ${esc(formatEnumLabel(item.tier))}</span>
+                    <span class="chip">${esc(formatEnumLabel(item.grade) || "Graded")}</span>
                     ${
-                      item.phylogenetic_age ? `<span class="chip">${esc(item.phylogenetic_age)}</span>` : ""
+                      item.phylogenetic_age ? `<span class="chip">${esc(formatEnumLabel(item.phylogenetic_age))}</span>` : ""
                     }
                   </div>
                 </article>
@@ -808,7 +839,7 @@
           <article class="gap-card">
             <header>
               <strong>${esc(item.name)}</strong>
-              <span class="priority-badge">${esc(item.priority)}</span>
+              <span class="priority-badge">${esc(formatEnumLabel(item.priority))}</span>
             </header>
             <p><strong>${esc(item.code)}</strong></p>
             <p><strong>What is missing:</strong> ${esc(item.what_is_missing)}</p>
