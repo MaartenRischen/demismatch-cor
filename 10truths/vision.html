@@ -536,15 +536,12 @@ body {
   display: block;
   margin-bottom: 18px;
 }
-.cor .cor-title h2 {
-  font-family: 'Spectral', serif;
-  font-size: clamp(44px, 9.5vw, 104px);
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--parchment);
-  line-height: 1;
-  margin-bottom: 14px;
+.cor .cor-title .cor-mark-img {
+  display: block;
+  width: clamp(160px, 28vw, 280px);
+  height: auto;
+  margin: 0 auto 14px;
+  filter: invert(1) hue-rotate(180deg);
 }
 .cor .cor-title p {
   font-family: 'Spectral', serif;
@@ -1160,8 +1157,7 @@ body {
       <div class="cor-column">
         <div class="cor">
           <div class="cor-title">
-            <span class="chapter">— The Spine —</span>
-            <h2>Cor</h2>
+            <img class="cor-mark-img" src="../img/cor-mark.png" alt="Cor" />
             <p>The human specification</p>
             <div class="cor-answers">
               <span class="label">Answers:</span>
