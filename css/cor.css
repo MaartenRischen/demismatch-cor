@@ -301,38 +301,6 @@ code, pre {
   .xsite-nav-links a { font-size: 0.58rem; letter-spacing: 0.15em; }
 }
 
-/* ── Editorial masthead (sits above the sticky nav; non-sticky) ── */
-.cor-masthead {
-  background: var(--parchment);
-  border-bottom: 1px solid rgba(58, 18, 24, 0.16);
-}
-.cor-masthead-inner {
-  width: 100%;
-  max-width: var(--reading-maxw);
-  margin: 0 auto;
-  padding: 0.6rem var(--pad-x);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-.cor-masthead-left,
-.cor-masthead-right {
-  font-family: var(--mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.cor-masthead-left { color: var(--oxblood); }
-.cor-masthead-right { color: var(--teal); }
-@media (max-width: 720px) {
-  .cor-masthead-inner { padding: 0.5rem var(--pad-x); gap: 0.5rem; }
-  .cor-masthead-left,
-  .cor-masthead-right { font-size: 0.6rem; letter-spacing: 0.2em; }
-}
-
 .site-nav-shell {
   position: sticky;
   top: 0;
@@ -660,26 +628,6 @@ code, pre {
   line-height: 1.05;
 }
 
-.hero-h1-triptych .hero-h1-line {
-  display: block;
-}
-
-.hero-h1-triptych .hero-h1-line + .hero-h1-line {
-  margin-top: 0.04em;
-}
-
-.hero-dek {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: clamp(1.05rem, 1.35vw, 1.2rem);
-  line-height: 1.5;
-  color: var(--teal);
-  font-weight: 400;
-  max-width: 54ch;
-  margin: 0.6rem auto 1.6rem;
-  letter-spacing: 0.005em;
-}
-
 /* ── Hero masthead: logo + title block laid out side by side ── */
 .hero-masthead {
   display: flex;
@@ -711,12 +659,6 @@ code, pre {
   margin-bottom: 0.4rem;
 }
 
-.hero-title-block > .hero-dek {
-  margin: 0.3rem 0 0;
-  max-width: none;
-  text-align: left;
-}
-
 @media (max-width: 720px) {
   .hero-masthead {
     flex-direction: column;
@@ -725,12 +667,6 @@ code, pre {
     text-align: center;
   }
   .hero-title-block { text-align: center; }
-  .hero-title-block > .hero-dek {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 44ch;
-  }
   .hero-logo {
     width: clamp(180px, 58vw, 240px);
   }
