@@ -29,6 +29,68 @@
       font-style: italic;
     }
 
+    /* Hero answers block — sits between H1 and subhead */
+    .hero-answers {
+      margin: 1.35rem 0 0.25rem;
+      max-width: 44rem;
+    }
+    .hero-answers-label {
+      margin: 0 0 0.7rem;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 500;
+    }
+    .hero-answers-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border-top: 1px solid rgba(58, 18, 24, 0.22);
+    }
+    .hero-answers-list li {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1.25rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(58, 18, 24, 0.14);
+    }
+    .hero-answers-list .q {
+      font-family: var(--serif);
+      font-size: clamp(1rem, 1.3vw, 1.1rem);
+      line-height: 1.4;
+      color: var(--oxblood-ink);
+    }
+    .hero-answers-list .a {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 500;
+    }
+    .hero-answers-foot {
+      margin: 0;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(0.98rem, 1.1vw, 1.1rem);
+      line-height: 1.5;
+      color: var(--oxblood);
+      max-width: 44rem;
+    }
+    @media (max-width: 600px) {
+      .hero-answers-list li {
+        grid-template-columns: 1fr;
+        gap: 0.15rem;
+        padding: 0.55rem 0;
+      }
+    }
+
     /* Architecture: stacked layers */
     .layers-lede {
       margin: 0 0 2rem;
@@ -219,7 +281,17 @@
           <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184">
           <div class="hero-title-block">
             <span class="eyebrow">V0 Prototype · April 2026</span>
-            <h1 class="hero-h1-triptych">A specification of the human organism.</h1>
+            <h1 class="hero-h1-triptych">An atlas of the human.</h1>
+            <div class="hero-answers">
+              <p class="hero-answers-label">Answers</p>
+              <ul class="hero-answers-list">
+                <li><span class="q">What do humans need?</span> <span class="a">Foundations</span></li>
+                <li><span class="q">How do those needs operate?</span> <span class="a">Mechanisms</span></li>
+                <li><span class="q">Where does mismatch occur?</span> <span class="a">Diagnosis</span></li>
+                <li><span class="q">What repairs it?</span> <span class="a">Intervention</span></li>
+              </ul>
+              <p class="hero-answers-foot">A literature synthesis grounded in empirical evidence. Everything downstream is grounded here.</p>
+            </div>
             <p class="hero-subhead">Atlas now. Operational layer under construction. Evidence for every claim.</p>
             <p class="hero-infra-line">Open foundational infrastructure. Any team can build on it.</p>
           </div>
