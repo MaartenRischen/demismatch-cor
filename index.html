@@ -19,18 +19,251 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/cor.css?v=6">
+  <style>
+    /* Home-scoped additions for v0.2 - 15 April 2026. */
+    .hero-version {
+      grid-column: 1/-1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: baseline;
+      gap: 0.6rem;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--oxblood-warm);
+      margin-bottom: 1.25rem;
+    }
+    .hero-version strong { font-weight: 500; color: var(--oxblood); }
+    .hero-version a {
+      color: var(--teal);
+      text-decoration: none;
+      border-bottom: 1px dotted currentColor;
+    }
+    .hero-version a:hover { color: var(--teal-bright); }
+    .hero-infra-line {
+      margin-top: 0.55rem;
+      font-family: var(--serif);
+      font-size: clamp(0.95rem, 1.05vw, 1.05rem);
+      color: var(--teal);
+      font-style: italic;
+    }
+
+    /* Architecture: stacked layers */
+    .layers {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+    }
+    .layer {
+      display: grid;
+      grid-template-columns: 4.5rem 1fr;
+      gap: 1.25rem;
+      padding: 1.35rem 1.5rem 1.5rem;
+      background: var(--parchment-dark);
+      border: 1px solid var(--oxblood);
+      border-radius: 6px;
+      box-shadow: 4px 4px 0 var(--teal);
+    }
+    .layer-code {
+      font-family: var(--mono);
+      font-weight: 500;
+      color: var(--teal);
+      letter-spacing: 0.12em;
+      font-size: 1.1rem;
+      padding-top: 0.25rem;
+    }
+    .layer h3 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+      color: var(--oxblood);
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.01em;
+    }
+    .layer .layer-gloss {
+      margin: 0 0 0.65rem;
+      color: var(--oxblood-ink);
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+    .layer-examples {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .layer-examples li {
+      font-family: var(--serif);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--oxblood-ink);
+    }
+    .layer-examples .code {
+      font-family: var(--mono);
+      color: var(--teal);
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      margin-right: 0.35rem;
+    }
+    @media (max-width: 600px) {
+      .layer { grid-template-columns: 1fr; gap: 0.3rem; padding: 1.15rem 1.1rem 1.25rem; }
+    }
+
+    /* M3 detail block */
+    .mech-full {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.1rem;
+      padding: 1.75rem 1.75rem 1.75rem;
+      background: var(--parchment-dark);
+      border: 1px solid var(--oxblood);
+      border-radius: 6px;
+      box-shadow: 4px 4px 0 var(--teal);
+    }
+    .mech-full > div { display: flex; flex-direction: column; gap: 0.3rem; }
+    .mech-full dt {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 500;
+    }
+    .mech-full dd {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 1rem;
+      line-height: 1.55;
+      color: var(--oxblood-ink);
+    }
+
+    /* Frankl block-quote at top of mismatch section */
+    .frankl-quote {
+      margin: 0 0 1.5rem;
+      padding: 1rem 0 1rem 1.5rem;
+      border-left: 3px solid var(--teal);
+    }
+    .frankl-quote p {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(1.15rem, 1.7vw, 1.35rem);
+      line-height: 1.4;
+      color: var(--oxblood);
+      margin: 0 0 0.4rem;
+    }
+    .frankl-quote cite {
+      display: block;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--oxblood-warm);
+      font-style: normal;
+    }
+
+    /* Work-so-far counts block */
+    .counts-block {
+      margin: 0 0 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem 2rem;
+      padding: 0;
+    }
+    @media (min-width: 720px) {
+      .counts-block { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+    .counts-block > div {
+      display: flex;
+      align-items: baseline;
+      gap: 0.9rem;
+      border-top: 1px solid var(--border-soft, rgba(58, 18, 24, 0.18));
+      padding-top: 0.85rem;
+    }
+    .counts-block dt {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(2rem, 3.6vw, 2.6rem);
+      color: var(--oxblood);
+      letter-spacing: -0.01em;
+      line-height: 1;
+      min-width: 3.6rem;
+    }
+    .counts-block dd {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--oxblood-ink);
+      line-height: 1.35;
+    }
+
+    /* Changelog */
+    .changelog {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .changelog .entry { display: flex; flex-direction: column; gap: 0.4rem; }
+    .changelog dt {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 500;
+    }
+    .changelog dd { margin: 0; }
+    .changelog ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .changelog li {
+      font-family: var(--serif);
+      font-size: 0.98rem;
+      line-height: 1.5;
+      color: var(--oxblood-ink);
+    }
+
+    .section-foot {
+      margin-top: 1.5rem;
+      text-align: right;
+    }
+    .section-foot a {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--teal);
+      text-decoration: none;
+    }
+    .section-foot a:hover { color: var(--teal-bright); }
+  </style>
 </head>
 <body data-page="home" data-nav="home">
   <header data-include="/partials/nav.html"></header>
   <main>
     <section class="hero">
       <div class="hero-inner">
+        <p class="hero-version"><strong>v0.2</strong> · restructured 15 April 2026 · <a href="#changelog">what changed &rarr;</a></p>
         <div class="hero-masthead">
           <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184">
           <div class="hero-title-block">
             <span class="eyebrow">V0 Prototype · April 2026</span>
             <h1 class="hero-h1-triptych">A specification of the human organism.</h1>
             <p class="hero-subhead">Atlas now. Operational layer under construction. Evidence for every claim.</p>
+            <p class="hero-infra-line">Open foundational infrastructure. Any team can build on it.</p>
           </div>
         </div>
         <div class="hero-actions">
@@ -113,13 +346,136 @@
       </div>
     </section>
 
-    <section class="section" id="spec-sheet">
+    <section class="section" id="architecture">
       <div class="wrap">
         <div class="section-head">
-          <span class="eyebrow">The Spec Sheet</span>
-          <h2>The thesis in one table.</h2>
-          <p class="lede">Organism: unchanged 300,000 years. Environment: unrecognizable. Every mismatch downstream of Cor is a specific line in this table - a specific input the organism is calibrated for, compared against a specific input it is actually receiving.</p>
+          <span class="eyebrow">The Architecture</span>
+          <h2>What Cor specifies.</h2>
+          <p class="lede">Cor is structured in six layers, derived from evidence, not assumed.</p>
         </div>
+        <ol class="layers">
+          <li class="layer">
+            <span class="layer-code">L0</span>
+            <div>
+              <h3>Two frames (OF1, OF2)</h3>
+              <p class="layer-gloss">The frame the specification operates inside. The organism does not perceive reality. It runs a fitness-tuned interface. Its outputs are read as information about state and input conditions, not as noise.</p>
+              <ul class="layer-examples">
+                <li><span class="code">OF1</span>Access to the world is mediated by evolved fitness interfaces, not guaranteed veridicality.</li>
+                <li><span class="code">OF2</span>Motivational and emotional outputs are treated as prima facie informative about the organism's regulated conditions.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="layer">
+            <span class="layer-code">L1</span>
+            <div>
+              <h3>Three primitives (P1&ndash;P3)</h3>
+              <p class="layer-gloss">The minimum claims any account of the organism must satisfy.</p>
+              <ul class="layer-examples">
+                <li><span class="code">P1</span>Inclusive fitness, survival and reproduction, is the loss function.</li>
+                <li><span class="code">P2</span>The organism contains evolved, domain-sensitive, interacting functional adaptations.</li>
+                <li><span class="code">P3</span>Modern environments often push these adaptations outside their expected operating ranges.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="layer">
+            <span class="layer-code">L2</span>
+            <div>
+              <h3>Nine design affordances (DA1&ndash;DA9)</h3>
+              <p class="layer-gloss">What the organism is built to do, and what follows from how it is built.</p>
+              <ul class="layer-examples">
+                <li><span class="code">DA2</span>Human regulation is constitutively socially scaffolded.</li>
+                <li><span class="code">DA4</span>Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.</li>
+                <li><span class="code">DA7</span>The architecture calibrates to developmental and ongoing environmental input within evolved ranges.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="layer">
+            <span class="layer-code">L3</span>
+            <div>
+              <h3>Three design consequences (DC1&ndash;DC3)</h3>
+              <p class="layer-gloss">What falls out of the architecture under chronic mismatch.</p>
+              <ul class="layer-examples">
+                <li><span class="code">DC1</span>Chronic unresolved activation accumulates as allostatic load.</li>
+                <li><span class="code">DC2</span>Markets can industrialize proxy exploitation of unmet regulatory needs.</li>
+                <li><span class="code">DC3</span>The environment is a primary intervention layer, currently underweighted by major institutions.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="layer">
+            <span class="layer-code">L4</span>
+            <div>
+              <h3>Fourteen convergences</h3>
+              <p class="layer-gloss">Evidence patterns where independent research lines arrive at the same operational structure.</p>
+              <ul class="layer-examples">
+                <li><span class="code">C3</span>Systematic EEA-modern environment mismatch (Eaton &amp; Konner + Li/van Vugt + Boyd &amp; Richerson + Henrich).</li>
+                <li><span class="code">C5</span>Socially scaffolded regulation via attachment (Coan + Bowlby + Hrdy + Dunbar + Holt-Lunstad).</li>
+                <li><span class="code">C6</span>Wanting-liking dissociation as proxy hijack (Berridge &amp; Robinson + Tinbergen + Panksepp).</li>
+              </ul>
+            </div>
+          </li>
+          <li class="layer">
+            <span class="layer-code">L5</span>
+            <div>
+              <h3>Fifteen mechanisms</h3>
+              <p class="layer-gloss">The discrete operational units of the organism. Each mechanism has a resolution condition and a characteristic failure mode.</p>
+              <ul class="layer-examples">
+                <li><span class="code">M3</span>Social Bonding.</li>
+                <li><span class="code">M5</span>Status Monitoring.</li>
+                <li><span class="code">M14</span>Reproductive Motivation.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+        <p class="section-foot"><a href="/atlas.html">See the full architecture &rarr;</a></p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="mechanism-focus">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">One mechanism, in full</span>
+          <h2>M3 &middot; Social Bonding.</h2>
+        </div>
+        <dl class="mech-full">
+          <div>
+            <dt>What it is</dt>
+            <dd>An attachment and co-regulation system. Forms bonds with other humans. Produces pain-grade distress when they are gone. Two operating states: security, which enables broad engagement, and grief, which suppresses it.</dd>
+          </div>
+          <div>
+            <dt>Resolution condition</dt>
+            <dd>Reliable human co-regulation through physical presence, operating through nested social layers: roughly five intimate co-regulators for primary emotional and physical support, fifteen in the sympathy group, fifty close social partners, and a cognitive ceiling near one hundred fifty coherent face-to-face relationships (the Dunbar number). The innermost layer supplies the majority of regulation; the critical variable at that layer is reliability, not count.</dd>
+          </div>
+          <div>
+            <dt>Characteristic proxy</dt>
+            <dd>Nuclear family, isolated living, and mediated contact substituting for physical presence. The activation stays on while the resolution condition is never met.</dd>
+          </div>
+          <div>
+            <dt>Evidence base</dt>
+            <dd>189 evidence links drawn from the project's 573 extractions. Convergent across Bowlby, Panksepp, Coan, Hrdy, Dunbar, Holt-Lunstad.</dd>
+          </div>
+          <div>
+            <dt>Foundation links</dt>
+            <dd>P1 (inclusive fitness) and P2 (domain-sensitive interacting adaptations) as premises; DA2 (socially scaffolded regulation) as the design affordance M3 operationalizes.</dd>
+          </div>
+          <div>
+            <dt>Convergence membership</dt>
+            <dd>C5 &middot; Socially Scaffolded Regulation via Attachment.</dd>
+          </div>
+        </dl>
+        <p class="section-foot"><a href="/atlas.html#M3">Open M3 in the atlas &rarr;</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="mismatch-computable">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">The mismatch is computable</span>
+        </div>
+        <blockquote class="frankl-quote">
+          <p>An abnormal reaction to an abnormal situation is normal behavior.</p>
+          <cite>Viktor Frankl</cite>
+        </blockquote>
+        <p class="lede">Once the spec is in place, the mismatch is no longer a feeling. It is a per-mechanism quantity: the gap between the resolution condition and the actual input the organism is receiving.</p>
         <div class="eea-table-wrap">
           <table class="eea-table">
             <thead>
@@ -158,8 +514,28 @@
             </tbody>
           </table>
         </div>
-        <p class="mismatch-cap-body" style="margin-top:1.25rem;max-width:46rem"><em>An abnormal reaction to an abnormal situation is normal behavior.</em> Viktor Frankl, decades before the atlas was written down.</p>
-        <p class="foot-strip" style="margin-top:2rem">As of 14 April 2026: 17 foundations · 15 mechanisms · 14 convergences · 101 academic works · 573 extractions · 63 researchers. <a href="/atlas.html">Full state →</a></p>
+        <p class="mismatch-cap-body" style="margin-top:1.25rem;max-width:46rem">Every row is a measurement, not a metaphor. Every measurement traces to the mechanisms it engages and the convergences it rests on.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="work-so-far">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">The work so far</span>
+          <h2>As of 15 April 2026.</h2>
+        </div>
+        <dl class="counts-block">
+          <div><dt data-home-stat="foundations">17</dt><dd>Foundations<br><span style="opacity:.7;letter-spacing:.08em">2 frames &middot; 3 premises &middot; 9 affordances &middot; 3 consequences</span></dd></div>
+          <div><dt data-home-stat="mechanisms">15</dt><dd>Mechanisms<br><span style="opacity:.7;letter-spacing:.08em">14 plus R1 Touch</span></dd></div>
+          <div><dt>14</dt><dd>Convergences</dd></div>
+          <div><dt>22</dt><dd>Domains</dd></div>
+          <div><dt>10</dt><dd>Empirical demonstrations</dd></div>
+          <div><dt data-home-stat="researchers">63</dt><dd>Researchers</dd></div>
+          <div><dt data-home-stat="works">101</dt><dd>Academic works</dd></div>
+          <div><dt>573</dt><dd>Extractions</dd></div>
+        </dl>
+        <p class="section-copy">Every claim traces to a primary source.</p>
+        <p class="section-foot"><a href="/atlas.html">Full state &rarr;</a></p>
       </div>
     </section>
 
@@ -183,7 +559,7 @@
         <div class="section-head">
           <span class="eyebrow">Cases</span>
           <h2>The same operation at every scale.</h2>
-          <p class="lede">Five recognizable cases. Each reads lived experience through mechanism, mismatch, and input correction.</p>
+          <p class="lede">One architecture. The same operation at every scale. Five recognizable situations, each read through mechanism, mismatch, and resolution condition.</p>
         </div>
         <div class="case-grid">
           <article class="case-card">
@@ -220,9 +596,32 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="wrap" style="max-width:46rem">
-        <p class="section-copy">Every claim traces to a primary source. Open infrastructure, not a product. A Demismatch project.</p>
+    <section class="section" id="changelog">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Changelog</span>
+        </div>
+        <dl class="changelog">
+          <div class="entry">
+            <dt>v0.2 &middot; 15 April 2026</dt>
+            <dd>
+              <ul>
+                <li>Architecture section added. The six-layer structure (L0&ndash;L5) now appears on the landing page with examples for each layer.</li>
+                <li>One mechanism (M3, Social Bonding) shown in full on the landing page. No click required to see what the atlas contains.</li>
+                <li>Mismatch table reframed. It appears as a downstream output of the spec, not as the spec itself.</li>
+                <li>Counts unified to a live pull from the Cor dashboard.</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="entry">
+            <dt>v0.1 &middot; April 2026</dt>
+            <dd>
+              <ul>
+                <li>Initial prototype atlas published.</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
       </div>
     </section>
   </main>
