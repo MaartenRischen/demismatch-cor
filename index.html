@@ -21,26 +21,6 @@
   <link rel="stylesheet" href="/css/cor.css?v=6">
   <style>
     /* Home-scoped additions for v0.2 - 15 April 2026. */
-    .hero-version {
-      grid-column: 1/-1;
-      display: flex;
-      justify-content: flex-end;
-      align-items: baseline;
-      gap: 0.6rem;
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--oxblood-warm);
-      margin-bottom: 1.25rem;
-    }
-    .hero-version strong { font-weight: 500; color: var(--oxblood); }
-    .hero-version a {
-      color: var(--teal);
-      text-decoration: none;
-      border-bottom: 1px dotted currentColor;
-    }
-    .hero-version a:hover { color: var(--teal-bright); }
     .hero-infra-line {
       margin-top: 0.55rem;
       font-family: var(--serif);
@@ -205,37 +185,6 @@
       line-height: 1.35;
     }
 
-    /* Changelog */
-    .changelog {
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-    }
-    .changelog .entry { display: flex; flex-direction: column; gap: 0.4rem; }
-    .changelog dt {
-      font-family: var(--mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--teal);
-      font-weight: 500;
-    }
-    .changelog dd { margin: 0; }
-    .changelog ul {
-      margin: 0;
-      padding-left: 1.1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.35rem;
-    }
-    .changelog li {
-      font-family: var(--serif);
-      font-size: 0.98rem;
-      line-height: 1.5;
-      color: var(--oxblood-ink);
-    }
-
     .section-foot {
       margin-top: 1.5rem;
       text-align: right;
@@ -256,7 +205,6 @@
   <main>
     <section class="hero">
       <div class="hero-inner">
-        <p class="hero-version"><strong>v0.2</strong> · restructured 15 April 2026 · <a href="#changelog">what changed &rarr;</a></p>
         <div class="hero-masthead">
           <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184">
           <div class="hero-title-block">
@@ -596,34 +544,6 @@
       </div>
     </section>
 
-    <section class="section" id="changelog">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Changelog</span>
-        </div>
-        <dl class="changelog">
-          <div class="entry">
-            <dt>v0.2 &middot; 15 April 2026</dt>
-            <dd>
-              <ul>
-                <li>Architecture section added. The six-layer structure (L0&ndash;L5) now appears on the landing page with examples for each layer.</li>
-                <li>One mechanism (M3, Social Bonding) shown in full on the landing page. No click required to see what the atlas contains.</li>
-                <li>Mismatch table reframed. It appears as a downstream output of the spec, not as the spec itself.</li>
-                <li>Counts unified to a live pull from the Cor dashboard.</li>
-              </ul>
-            </dd>
-          </div>
-          <div class="entry">
-            <dt>v0.1 &middot; April 2026</dt>
-            <dd>
-              <ul>
-                <li>Initial prototype atlas published.</li>
-              </ul>
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </section>
   </main>
   <footer data-include="/partials/footer.html"></footer>
   <script src="/js/partials.js?v=2"></script>
