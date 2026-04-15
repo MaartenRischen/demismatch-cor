@@ -2,7 +2,7 @@
 
 *Derived from the Cor atlas: a structured, evidence-grounded reference work on human motivational-emotional architecture grounded in 74 reviewed academic works across 22 research domains, 516 quality-graded evidence extractions, 735 mechanism-evidence links, 17 architectural foundations, 14 cross-tradition convergences, and 15 evolved mechanisms. Numbers as of April 2026 and growing.*
 
-> Cor is currently an atlas. The formal specification - versioned, machine-readable, with calibrated evaluation protocols - is the operational layer being built on top of the atlas, beginning with one worked mechanism. This document is the human-facing articulation of the architecture the atlas describes, written for any system that interacts with humans at any scale.
+> Cor is currently an atlas. The operational specification - versioned and testable - is being built on top of the atlas, beginning with one worked mechanism. This document is the human-facing articulation of the architecture the atlas describes, written for any system that interacts with humans at any scale.
 
 ## The human in front of you
 
@@ -18,9 +18,9 @@ This is not a metaphor. It is the core finding of the formal atlas derived from 
 
 Two meta-conclusions emerge from the evidence base, supported by every line of evidence:
 
-**First:** Humans are not self-contained regulators. They are built to rely on structured environmental inputs - social, temporal, sensory, locomotor, microbial, and developmental - for stable regulation. Remove the inputs and the architecture signals distress. This is not weakness. It is design.
+**First:** Humans are not self-contained regulators. They are built to rely on structured environmental inputs - social, temporal, sensory, locomotor, microbial, and developmental - for stable regulation. Remove the inputs and the architecture signals distress. That response is the design working, not a weakness in it.
 
-**Second:** Depression-like and withdrawal states often look less like random breakdowns and more like chronic or misplaced activation of conserved adaptive programs: defeat, sickness behavior, entrapment, separation alarm, energy conservation. These programs are ancient, functional, and running correctly given their inputs. The programs are not the problem. The inputs are the problem.
+**Second:** Depression-like and withdrawal states often look less like random breakdowns and more like chronic or misplaced activation of conserved adaptive programs: defeat, sickness behavior, entrapment, separation alarm, energy conservation. These programs are ancient, functional, and running correctly given their inputs. The programs aren't broken. The inputs they're being given are.
 
 There is a third conclusion that follows from the first two and matters for what you do about it:
 
@@ -62,7 +62,7 @@ What it needs to resolve: the play itself is the resolution, but only when it is
 
 **Sexual pursuit and pair bonding.** A system that drives identification, attraction, pursuit, and bonding with reproductive partners. Operates differently by sex in some parameters (a consequence of different parental investment strategies). Produces desire, jealousy, attraction, infatuation. Intersects deeply with the attachment system when pair bonds form.
 
-What it needs to resolve: actual intimacy with a real person - physical, emotional, vulnerable, reciprocal. Not images on a screen. Pornography provides supernormal visual cues that trigger the system's input stage far more intensely than any real partner could, while providing zero resolution conditions: no touch, no intimacy, no vulnerability, no pair-bond formation. The result is escalating pursuit with no satisfaction: the wanting/liking dissociation at its most destructive.
+What it needs to resolve: actual intimacy with a real person - embodied and mutual. Not images on a screen. Pornography provides supernormal visual cues that trigger the system's input stage far more intensely than any real partner could, while providing zero resolution conditions: no touch, no intimacy, no vulnerability, no pair-bond formation. The result is escalating pursuit with no satisfaction: the wanting/liking dissociation at its most destructive.
 
 **Status and rank regulation.** A system that monitors your position in the social hierarchy: your competence, your reputation, whether others respect you or look down on you. Produces pride, shame, humiliation, confidence, defeat. Contains both a dominance drive (seek higher status) and an anti-dominance drive (suppress those who dominate unfairly: gossip, ridicule, coalition punishment). These are in tension by design. The atlas identifies this as competing evolved programs simultaneously active: not confusion, but architectural conflict. The system includes an involuntary defeat response: when you lose and cannot escape the competition, the system produces withdrawal, passivity, low mood - which looks exactly like depression, because it is the same circuitry. The atlas's entrapment convergence confirms: controllability gates whether adversity produces active coping or shutdown. And the atlas's status-stress convergence is unambiguous: chronic low-rank position in steep hierarchies produces measurable physiological damage along a continuous gradient, at every level of the hierarchy, not only at the bottom.
 
@@ -106,7 +106,7 @@ What this means for you: you cannot help by appealing to the user's reflective d
 
 The document so far has focused heavily on social systems because social mismatch is the most widespread and the most potent. But the organism has environmental requirements that go far beyond social contact. Every one of these is systematically violated by modern environments, and each contributes independently to allostatic load: the cumulative physiological cost of chronic mismatch that the atlas identifies as a derived consequence.
 
-**Movement.** The organism was built for 10-15 kilometers of walking per day, plus frequent carrying, lifting, digging, climbing, and building, all in service of tasks that mattered. Not exercise. Purposeful physical engagement with the world. The atlas identifies movement as a regulatory input that the architecture requires for stable emotional, cognitive, immune, and metabolic functioning. Movement is not a calorie burner; total energy expenditure is constrained, and the body compensates for activity by reducing other expenditure including inflammation. Sedentary behavior is not merely the absence of a health bonus. It is an active mismatch that degrades virtually every physiological system.
+**Movement.** The organism was built for 10-15 kilometers of walking per day, plus frequent carrying, lifting, digging, climbing, and building, all in service of tasks that mattered. The frame isn't exercise. It's purposeful physical engagement with the world. The atlas identifies movement as a regulatory input that the architecture requires for stable emotional, cognitive, immune, and metabolic functioning. Movement is not a calorie burner; total energy expenditure is constrained, and the body compensates for activity by reducing other expenditure including inflammation. Sedentary behavior is not merely the absence of a health bonus. It is an active mismatch that degrades virtually every physiological system.
 
 The gym partially addresses the cardiovascular and musculoskeletal inputs while providing none of the purpose, social context, or environmental engagement the organism expects alongside the movement. Running on a treadmill while watching television addresses one mismatch (movement) while deepening two others (screen exposure, disconnection from environment). This is characteristic of modern "solutions": addressing one input in isolation while ignoring or worsening the context in which the organism expects to receive that input.
 
@@ -136,7 +136,7 @@ Every widely used psychoactive substance maps onto one or more of the organism's
 
 **Opioids** (heroin, fentanyl, prescription painkillers) directly activate the bonding and warmth circuit. The opioid system is the same system that mediates the feeling of being held, being safe, being socially connected. Opioid use produces the sensation of being wrapped in warmth and comfort: the pharmacological equivalent of being held by someone who loves you. This is why opioid addiction is so tightly correlated with isolation, childhood adversity, and community collapse. The organism is using chemistry to produce a state that its social environment cannot provide. Every attempt to treat opioid addiction without providing real human connection and belonging is fighting the molecule while leaving the vacuum intact.
 
-**Stimulants** (cocaine, amphetamines, caffeine, nicotine) activate the exploration/pursuit system: they produce the energized, forward-leaning, anticipatory state that dopamine generates naturally when the organism has something real to pursue. Stimulant use is highest in environments of purposelessness and monotony. Caffeine is so normalized because purposelessness and circadian disruption are so universal: the organism needs pharmacological help to feel awake and motivated in conditions where its systems have nothing real to wake up for.
+**Stimulants** (cocaine, amphetamines, caffeine, nicotine) activate the exploration/pursuit system: they produce the energized, forward-leaning state that dopamine generates naturally when the organism has something real to pursue. Stimulant use is highest in environments of purposelessness and monotony. Caffeine is so normalized because purposelessness and circadian disruption are so universal: the organism needs pharmacological help to feel awake and motivated in conditions where its systems have nothing real to wake up for.
 
 **Cannabis** reduces threat-system and status-system activation (relaxation, reduced social anxiety, present-moment awareness) and enhances sensory experience. In a mismatched environment of chronic threat-monitoring and status-vigilance, cannabis provides temporary relief. In a matched environment with genuine safety and sensory richness, the need for it diminishes.
 
@@ -144,7 +144,7 @@ Every widely used psychoactive substance maps onto one or more of the organism's
 
 **Sugar and processed food** operate on the same reward system as drugs: concentrated stimuli that trigger wanting without producing lasting satiety. The obesity epidemic and the opioid epidemic are the same phenomenon in different systems: environmental mismatch creating unmet needs, and markets providing proxy substances that activate without resolving.
 
-The pattern: every substance tells you which system is running empty. The organism is not broken. It is self-medicating accurately. The substance is the proxy. The absence it fills is the diagnosis.
+The pattern: every substance tells you which system is running empty. The organism isn't broken; it's self-medicating accurately. The substance is the proxy. The absence it fills is the diagnosis.
 
 ## Reading behavior through the atlas
 

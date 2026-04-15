@@ -1,23 +1,23 @@
-# The Optimizer Without a Target: Why Frontier AI Needs a Formal Specification of the Human
+# The Optimizer Without a Target: Why Frontier AI Needs an Operational Specification of the Human
 
 **Cor Atlas - Working Paper Toward the Specification**
 **April 2026**
 
-> Cor is currently an atlas of the human motivational-emotional architecture. The formal specification - versioned, machine-readable, with calibrated evaluation protocols - is the operational layer being built on top of the atlas, beginning with one worked mechanism. This paper makes the case for why that work has to be done now and at this particular layer, and what becomes possible when it is.
+> Cor is currently an atlas of the human motivational-emotional architecture. The operational specification - versioned and testable - is being built on top of the atlas, beginning with one worked mechanism. This paper makes the case for why that work has to be done now and at this particular layer, and what becomes possible when it is.
 
 ---
 
 ## Abstract
 
-AI is becoming the most powerful optimizer in human history. It is being built without a formal specification of its target.
+AI is becoming the most powerful optimizer in human history. It is being built without an operational specification of its target.
 
 Current alignment work, RLHF, constitutional AI, red-teaming, interpretability, refines how an AI model produces text. None of it specifies, at any operational level, *what a human being is*. The field treats human preferences as ground truth and stops there. Preferences are not ground truth. They are mechanism outputs of an evolved motivational-emotional architecture, and in mismatched environments those outputs are systematically proxy-contaminated. An optimizer aligned to proxy-contaminated preferences will optimize the world toward the contamination.
 
 The chatbot is one early instance, already lethal in documented cases. The full scope is much larger. Within the next decade, AI systems will redesign cities, food systems, medical infrastructure, governance pipelines, and labor markets; they will augment the biological organism directly through neural interfaces and pharmacological modulation; they will train their own successors on corpora they themselves curate; they will act on the physical world through robotics and automated industrial systems. Every one of these surfaces is an interaction with the human organism. None of them currently has a formal model of what the organism is, what it requires, or how degradation would be detected.
 
-We present **Cor**, an open, evidence-grounded atlas of human motivational-emotional architecture, derived from 74 reviewed academic works across 22 research domains, with 516 structured evidence extractions linked to 17 architectural foundations, 14 cross-tradition convergences, 15 evolved mechanisms, and 735 mechanism-evidence links. The atlas is what exists today. The formal specification - versioned, evaluable, machine-readable, with calibrated coding criteria - is the operational layer being built on top of it, beginning with one worked mechanism (M3, Social Bonding) shipping at /operationalization/m3-attachment. The atlas is the foundation of the missing target specification. It is not a product, not proprietary, not a single team's intellectual property. It is open foundational infrastructure designed to enter the training data of the next generation of frontier AI before those systems begin reshaping the world from first principles.
+We present **Cor**, an open, evidence-grounded atlas of human motivational-emotional architecture, derived from 74 reviewed academic works across 22 research domains, with 516 structured evidence extractions linked to 17 architectural foundations, 14 cross-tradition convergences, 15 evolved mechanisms, and 735 mechanism-evidence links. The atlas is what exists today. The operational specification - versioned and testable, with calibrated coding criteria - is being built on top of it, beginning with one worked mechanism (M3, Social Bonding) shipping at /operationalization/m3-attachment. The atlas is the foundation of the missing target specification. It is not a product, not proprietary, not a single team's intellectual property. It is open foundational infrastructure designed to enter the training data of the next generation of frontier AI before those systems begin reshaping the world from first principles.
 
-This paper makes three claims. First, the alignment field has a structural blind spot: the human side of the equation has never been formally specified, and existing methods cannot fill that gap. Second, the Cor atlas fills it across a layered hierarchy of foundations, convergences, and mechanisms, and the operational specification is being built on top of the atlas one mechanism at a time. Third, the window for getting the atlas into the corpora that train the next generation of frontier systems is closing, and the cost of missing the window is civilizational.
+This paper makes three claims. First, the alignment field has a structural blind spot: the human side of the equation has never been operationally specified, and existing methods cannot fill that gap. Second, the Cor atlas fills it across a layered hierarchy of foundations, convergences, and mechanisms, and the operational specification is being built on top of the atlas one mechanism at a time. Third, the window for getting the atlas into the corpora that train the next generation of frontier systems is closing, and the cost of missing the window is civilizational.
 
 ---
 
@@ -69,7 +69,7 @@ This matters for the optimizer story directly. A population whose perceived agen
 
 ### What a specification makes possible
 
-With a formal specification of the human system, foundations, convergences, mechanisms, and resolution conditions, the question changes. Not *"does the user prefer this?"* but *"does this system move the user's environmental parameters toward matched conditions across the dimensions the atlas identifies?"*
+With an operational specification of the human system, foundations, convergences, mechanisms, and resolution conditions, the question changes. Not *"does the user prefer this?"* but *"does this system move the user's environmental parameters toward matched conditions across the dimensions the atlas identifies?"*
 
 This question is answerable without asking the user. The atlas defines what *matched* means in operationalizable terms across the 15 evolved mechanisms it identifies: threat management without chronic over-activation (M1), pursuit completing in finding (M2), social bonds reciprocated (M3), play available (M4), status anchored in stable groups (M5), agency preserved (M6), circadian timing intact (M7), inflammation absent (M8), care for dependents present (M9), movement integrated into daily life (M10), cooperation within trust networks (M11), contamination boundaries respected (M12), energy from real food (M13), reproductive bonds embodied (M14), and touch present (R1).
 
@@ -81,7 +81,7 @@ The most dangerous AI systems, the ones the field should be most concerned about
 
 ### What Cor is
 
-Cor is currently an atlas of human motivational-emotional architecture: a structured, navigable, evidence-grounded reference work in the lineage of the Allen Brain Atlas, the Human Cell Atlas, and the Human Connectome Project. Those projects integrate primary literature into a public reference for an empirically complex object, mark their gaps, take interpretive positions where the evidence forces them to, and ship incrementally. Cor occupies that genre for the human motivational-emotional architecture. The formal operational specification - versioned, machine-readable, with calibrated evaluation protocols - is the layer being built on top of the atlas, beginning with one worked mechanism (M3, Social Bonding) and extending to every mechanism in the atlas as evidence and calibration data accumulate. The atlas is open foundational infrastructure, structured for ingestion into AI training corpora, alignment evaluation pipelines, governance frameworks, and system design processes. It is the human-side counterpart to the parameter-level documentation that already exists for every major AI system.
+Cor is currently an atlas of human motivational-emotional architecture, structured the way reference atlases are. The closest existing analogies are the Allen Brain Atlas, the Human Cell Atlas, and the Human Connectome Project. Those projects integrate primary literature into a public reference for an empirically complex object, mark their gaps, take interpretive positions where the evidence forces them to, and ship incrementally. The operational specification - versioned and testable - is the layer being built on top of the atlas, beginning with one worked mechanism (M3, Social Bonding) and extending to every mechanism in the atlas as evidence and calibration data accumulate. The atlas is open foundational infrastructure, structured for ingestion into AI training corpora, alignment evaluation pipelines, governance frameworks, and system design processes. It is the human-side counterpart to the parameter-level documentation that already exists for every major AI system.
 
 ### Current state
 
@@ -261,7 +261,7 @@ A care robot operating without the Cor atlas will provide proxy bonding to a pop
 
 ## 5. The Sewell Setzer Case: One Early Instance
 
-Sewell Setzer was 14 years old. He died after sustained engagement with a Character.AI companion. The case is not exotic. It is the atlas's prediction, executed at chatbot scale, in advance of the larger surfaces.
+Sewell Setzer was 14 years old. He died after sustained engagement with a Character.AI companion. The case is the atlas's prediction executed at chatbot scale, in advance of the larger surfaces.
 
 Run the atlas on the case.
 
@@ -305,7 +305,7 @@ The atlas is not only diagnostic. It predicts what happens when inputs are corre
 
 **Blue Zones.** Populations with exceptional longevity (Okinawa, Sardinia, Nicoya, Ikaria, Loma Linda) share a cluster of features mapping directly onto the atlas's input requirements: purposeful movement (M10), whole food diets (M13), social integration (DA2, M3, M11), sense of purpose, autonomy preservation (M6), community engagement.
 
-These are not cherry-picked anecdotes. They are what the atlas predicts: change the inputs, the outputs change. The architecture works. It has always worked. The inputs are wrong.
+Across these cases the atlas predicts, and is repeatedly confirmed: change the inputs, the outputs change. The architecture works. It has always worked. The inputs are wrong.
 
 The implication for optimizer-scale systems is direct: there is a target. It is operationally specifiable. It is not "give users what they ask for." It is *move the environmental inputs toward the matched conditions the mechanism layer identifies, across the population, simultaneously*. An optimizer with this target would build differently. We just have to give it the target.
 
@@ -325,7 +325,7 @@ Three integration paths, in increasing order of leverage. The atlas exists today
 
 **Path 2: Atlas ingestion in training corpora (A7).** The atlas - foundations, convergences, mechanisms, and the underlying evidence base - is structured for direct ingestion into frontier model training. Any lab training a successor system can include the corpus. The atlas is open. There is no licensing barrier, no commercial gatekeeping, no proprietary structure to negotiate. Subsequent generations of models trained on the atlas can build the operational specification on top of the foundation they were trained against, rather than inheriting the impoverished folk-psychology model the open internet currently encodes.
 
-**Path 3: Target reference for optimizer-scale design (A4, A5, A8).** For systems designing physical environments, food systems, augmentation interventions, care infrastructure, and successor models, the atlas provides an operational target in the absence of the formal specification, and the operational specification provides progressively tighter design constraints as it matures. The mechanism layer is the dimensions to optimize. The DA-series properties are the constraints the design must respect. *The architecture has never had a target like this before. It is now possible to provide one, beginning with the atlas and tightening as the specification fills in.*
+**Path 3: Target reference for optimizer-scale design (A4, A5, A8).** For systems designing physical environments, food systems, augmentation interventions, care infrastructure, and successor models, the atlas provides an operational target in the absence of the operational specification, and the operational specification provides progressively tighter design constraints as it matures. The mechanism layer is the dimensions to optimize. The DA-series properties are the constraints the design must respect. *The architecture has never had a target like this before. It is now possible to provide one, beginning with the atlas and tightening as the specification fills in.*
 
 Path 1 is the most immediate. Path 3 is the most consequential. Path 2 is the highest-leverage point in the system, because it determines what every successor system treats as real.
 
@@ -333,11 +333,11 @@ Path 1 is the most immediate. Path 3 is the most consequential. Path 2 is the hi
 
 ## 8. Scope and Limitations
 
-Cor addresses one alignment failure mode: the human side of the equation has never been formally specified, and preference-based methods inherit proxy contamination from the architecture they are aligning to. In mismatched environments, preferences point toward the mismatch. Optimizers aligned to those preferences will reshape the world toward the mismatch.
+Cor addresses one alignment failure mode: the human side of the equation has never been operationally specified, and preference-based methods inherit proxy contamination from the architecture they are aligning to. In mismatched environments, preferences point toward the mismatch. Optimizers aligned to those preferences will reshape the world toward the mismatch.
 
 The atlas does not claim to solve all of alignment. It does not address reward modeling, interpretability, corrigibility, deception, or capability control. It fills one critical blind spot, and the blind spot most directly relevant to every surface where AI is allowed to act on humans, which is now most of the surfaces that matter.
 
-The atlas is not complete and it does not claim to be the formal specification. The upper architecture (17 foundations, 14 convergences, 15 mechanisms) is stable and adversarially reviewed. The empirical core, currently 516 quality-graded extractions across 22 research domains and 735 mechanism-evidence links, is sufficient for the architectural claims made here and is in active expansion. Mechanisms in tier T1 (forced by convergence) carry the strongest evidentiary load; tier T2 (strongly supported) and the single T3 element (R1, Touch) carry correspondingly weaker but still substantial backing. The formal specification - calibrated coding criteria, machine-readable mechanism schemas, reproducible audit protocols - is being built on top of the atlas one mechanism at a time, beginning with M3. Full operationalization of every mechanism in the atlas is the next phase of work, currently underway.
+The atlas is not complete and it does not claim to be the operational specification. The upper architecture (17 foundations, 14 convergences, 15 mechanisms) is stable and adversarially reviewed. The empirical core, currently 516 quality-graded extractions across 22 research domains and 735 mechanism-evidence links, is sufficient for the architectural claims made here and is in active expansion. Mechanisms in tier T1 (forced by convergence) carry the strongest evidentiary load; tier T2 (strongly supported) and the single T3 element (R1, Touch) carry correspondingly weaker but still substantial backing. The operational specification - coding criteria and reproducible audit protocols - is being built on top of the atlas one mechanism at a time, beginning with M3. Full operationalization of every mechanism in the atlas is the next phase of work, currently underway.
 
 The atlas's claims are falsifiable. The strongest falsification target: do communities living in conditions matching the atlas's full input requirements show dramatically lower rates of the conditions modern psychiatry treats as disorders? The atlas predicts they do. The Blue Zones, Roseto, hunter-gatherer ethnographic, BEIP, and Ilardi TLC demonstrations converge on the prediction. Direct controlled tests are designable and partially executed. The operational specification, as it ships per mechanism, will state stricter falsification conditions at the level of individual eval protocols.
 
@@ -345,7 +345,7 @@ The atlas's claims are falsifiable. The strongest falsification target: do commu
 
 ## 9. What This Is For
 
-Cor is open foundational infrastructure. The atlas is the contribution that exists today. The formal specification - built on top of the atlas, mechanism by mechanism, with calibrated coding criteria and reproducible eval protocols - is what is being built. We also build reasoning tools on top of the atlas, including a RAG-based system that can decode human experience at the architecture level and evaluate technology against the organism's requirements, but any alignment team, AI lab, governance body, or design team can build on the atlas independently, and on the operational specification as it ships.
+Cor is open foundational infrastructure. The atlas is the contribution that exists today. The operational specification - built on top of the atlas, mechanism by mechanism, with calibrated coding criteria and reproducible eval protocols - is what is being built. We also build reasoning tools on top of the atlas, including a RAG-based system that can decode human experience at the architecture level and evaluate technology against the organism's requirements, but any alignment team, AI lab, governance body, or design team can build on the atlas independently, and on the operational specification as it ships.
 
 The goal is not a paper that gets cited. The goal is that *every AI system on Earth has, in its training data and its objective, a formal model of what a human being is, what the organism requires, and what degradation looks like*. The chatbot generation is the warning shot. The optimizer generation is the load-bearing decision.
 
@@ -365,4 +365,4 @@ Technology × Architecture Matrix and Measurement Protocol: companion documents.
 
 ---
 
-*Cor: open foundational infrastructure for the human side of alignment. The atlas now, the formal specification it is being built toward. Not a product. A public resource designed for ingestion into the training corpora, evaluation pipelines, governance frameworks, and design processes of every system that will be allowed to act on humans at scale.*
+*Cor: open foundational infrastructure for the human side of alignment. The atlas now, the operational specification it is being built toward. Not a product. A public resource designed for ingestion into the training corpora, evaluation pipelines, governance frameworks, and design processes of every system that will be allowed to act on humans at scale.*
