@@ -3211,7 +3211,11 @@ code, pre {
 .contact-simple {
   display: grid;
   gap: 1.15rem;
-  max-width: 40rem;
+  max-width: 56rem;
+}
+
+.contact-simple .surface a {
+  overflow-wrap: anywhere;
 }
 
 /* ── Fund grid ─────────────────────────────── */
