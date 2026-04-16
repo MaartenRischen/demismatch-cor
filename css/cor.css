@@ -505,17 +505,12 @@ code, pre {
 
   .hero-inner > .hero-masthead {
     grid-column: 1 / span 8;
-    grid-row: 1;
     justify-self: stretch;
     align-items: center;
     gap: clamp(1.5rem, 3.5vw, 3rem);
     margin: 0 auto 1.6rem;
     max-width: none;
     width: 100%;
-  }
-
-  .hero-inner > .hero-masthead:last-child {
-    grid-column: 1 / -1;
   }
 
   .hero-masthead .hero-logo {
@@ -553,8 +548,6 @@ code, pre {
 
   .hero-inner > .hero-quote {
     grid-column: 9 / -1;
-    grid-row: 1;
-    align-self: center;
     max-width: none;
     margin: 0;
   }

@@ -270,6 +270,28 @@
       text-decoration: none;
     }
     .section-foot a:hover { color: var(--teal-bright); }
+
+    /* Top-right quotes rail — stacks in the upper-right of the hero at 1100px+. */
+    .hero-quotes-rail {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin: 0 0 1.5rem;
+    }
+    .hero-quotes-rail .hero-quote {
+      max-width: none;
+      margin: 0;
+    }
+    @media (min-width: 1100px) {
+      .hero-inner > .hero-quotes-rail {
+        position: absolute;
+        top: 0;
+        right: var(--pad-x);
+        width: clamp(300px, 28vw, 420px);
+        margin: 0;
+        z-index: 2;
+      }
+    }
   </style>
 </head>
 <body data-page="home" data-nav="home">
@@ -277,6 +299,16 @@
   <main>
     <section class="hero">
       <div class="hero-inner">
+        <aside class="hero-quotes-rail" aria-label="On AI alignment">
+          <div class="hero-quote">
+            <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
+            <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/karen-hao.webp" alt="Karen Hao" width="48" height="48"><span><strong>Karen Hao on AI alignment</strong> · Diary of a CEO podcast, 2026</span></cite>
+          </div>
+          <div class="hero-quote">
+            <blockquote>There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.</blockquote>
+            <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/tristan-harris.jpg" alt="Tristan Harris" width="48" height="48"><span><strong>Tristan Harris</strong> · Modern Wisdom, April 2026</span></cite>
+          </div>
+        </aside>
         <div class="hero-masthead">
           <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184">
           <div class="hero-title-block">
@@ -295,10 +327,6 @@
             <p class="hero-subhead">Atlas now. Operational layer under construction. Evidence for every claim.</p>
             <p class="hero-infra-line">Open foundational infrastructure. Any team can build on it.</p>
           </div>
-        </div>
-        <div class="hero-quote">
-          <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
-          <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/karen-hao.webp" alt="Karen Hao" width="48" height="48"><span><strong>Karen Hao</strong> · Diary of a CEO podcast, 2026</span></cite>
         </div>
         <div class="hero-actions">
           <a class="button button-primary" href="/atlas.html">See the Atlas</a>
