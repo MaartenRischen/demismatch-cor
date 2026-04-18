@@ -293,6 +293,44 @@
         z-index: 2;
       }
     }
+
+    /* Why this exists — horizon statement between the pull-quotes and the Cor mark */
+    .hero-horizon-statement {
+      max-width: 44rem;
+      margin: 0 auto 1.75rem;
+      text-align: center;
+    }
+    .hero-horizon-statement > .eyebrow {
+      display: inline-flex;
+      margin-bottom: 0.85rem;
+    }
+    .hero-horizon-heading {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(1.3rem, 2.1vw, 1.7rem);
+      line-height: 1.3;
+      color: var(--oxblood);
+      margin: 0 0 0.9rem;
+      letter-spacing: -0.005em;
+    }
+    .hero-horizon-statement p {
+      font-family: var(--serif);
+      font-size: clamp(0.98rem, 1.1vw, 1.08rem);
+      line-height: 1.55;
+      color: var(--oxblood-ink);
+      margin: 0 0 0.7rem;
+    }
+    .hero-horizon-statement p:last-child {
+      margin: 0;
+    }
+    @media (min-width: 1100px) {
+      .hero-inner > .hero-horizon-statement {
+        grid-column: 1 / span 8;
+        text-align: left;
+        max-width: none;
+        margin: 0 0 1.4rem;
+      }
+    }
   </style>
 </head>
 <body data-page="home" data-nav="home">
@@ -310,6 +348,12 @@
             <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/tristan-harris.jpg" alt="Tristan Harris" width="48" height="48"><span><strong>Tristan Harris</strong> · Modern Wisdom, April 2026</span></cite>
           </div>
         </aside>
+        <div class="hero-horizon-statement">
+          <span class="eyebrow">Why this exists</span>
+          <h3 class="hero-horizon-heading">A specification of the human is the missing input for two projects at once.</h3>
+          <p>Aligned AI needs to know what it is aligning to. Environment design &mdash; social, economic, political, virtual &mdash; needs a target. Both currently proceed without a shared spec of the organism. Both produce predictable failures.</p>
+          <p>Cor is that spec. The atlas is its current form. The horizon is a world built to it: environments, institutions, and systems calibrated to what the human actually is, and machines aligned to that same ground truth.</p>
+        </div>
         <div class="hero-masthead">
           <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184">
           <div class="hero-title-block">
