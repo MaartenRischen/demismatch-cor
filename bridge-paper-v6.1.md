@@ -19,13 +19,13 @@ This paper makes a single argument in four steps.
 
 **Two.** An optimizer acting on humans requires a model of the human. The model currently in use is revealed preferences: what people click on, rate highly, return to. Nothing at a deeper level has been specified.
 
-**Three.** Revealed preferences are not ground truth about human welfare. They are outputs of an evolved motivational-emotional architecture operating in environments it was not shaped around. Four properties of that architecture — open-loop hijacking, defensive over-activation, socially scaffolded regulation, and phylogenetic priority of older systems over newer ones — produce systematic divergence between what the architecture signals it wants and what it actually needs. This divergence is measurable, not mysterious.
+**Three.** Revealed preferences are not ground truth about human welfare. They are outputs of an evolved motivational-emotional architecture operating in environments it was not shaped around. Four properties of that architecture - open-loop hijacking, defensive over-activation, socially scaffolded regulation, and phylogenetic priority of older systems over newer ones - produce systematic divergence between what the architecture signals it wants and what it actually needs. This divergence is measurable, not mysterious.
 
 **Four.** The fix is a specification of the target organism: what it is, what it requires, what degradation looks like at the mechanism layer. Cor is that specification in atlas form today, and in operational form as it is written mechanism by mechanism. The atlas is open infrastructure. Any alignment team, lab, governance body, design team, or individual can build on it.
 
 **What Cor is at v0.** This paper describes Cor v0: a proof of concept that a rigorous, versioned, adversarially-reviewed specification of the human motivational-emotional architecture is a real object, not a category mistake. 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, one worked operationalization (M3). The numbers are not the claim. The claim is that the object exists. The counts and mechanisms in this paper are what v0 looks like. §2.5 describes what v0 demonstrates, what it does not, and what v1 adds.
 
-AI alignment is the urgent case because an optimizer is about to build most of the human environment. The broader project the atlas serves is environment-matching as such — including the individual choice of where and how to live, which the atlas can inform directly. The two uses are not the same work. The first is why this paper is addressed to the alignment field.
+AI alignment is the urgent case because an optimizer is about to build most of the human environment. The broader project the atlas serves is environment-matching as such - including the individual choice of where and how to live, which the atlas can inform directly. The two uses are not the same work. The first is why this paper is addressed to the alignment field.
 
 Read on for: the failure modes current evaluation misses (§3); the chatbot case already killing people and the larger surfaces where the same pattern is running at scale (§4, §5); how Cor relates to and differs from the major existing lines in alignment (§6); where the source literatures have known weaknesses and how the atlas is built to survive them (§7); what environmental correction actually does, across ten converging natural experiments (§8); and what the atlas can and cannot do today (§9–10).
 
@@ -35,7 +35,7 @@ Counts as of 14 April 2026, v0: 101 reviewed works, 573 extractions, 17 foundati
 
 ## Abstract
 
-AI is becoming the most powerful optimizer in human history, and has been built without an operational specification of its target. Current alignment work — RLHF, constitutional AI, red-teaming, interpretability — refines how a model produces text. None of it specifies, at any operational level, what a human being is. The field treats revealed preferences as ground truth. Preferences are outputs of an evolved motivational-emotional architecture, and in mismatched environments those outputs are systematically proxy-contaminated. An optimizer aligned to proxy-contaminated preferences will optimize the world toward the contamination. We present Cor v0: a proof of concept that an evidence-grounded, versioned, adversarially-reviewed atlas of human motivational-emotional architecture is buildable, together with the first worked operationalization of one mechanism. The atlas is open foundational infrastructure, designed for ingestion by the frontier AI field before those systems begin reshaping the world from first principles. As of 14 April 2026: 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, 864 mechanism-evidence links.
+AI is becoming the most powerful optimizer in human history, and has been built without an operational specification of its target. Current alignment work - RLHF, constitutional AI, red-teaming, interpretability - refines how a model produces text. None of it specifies, at any operational level, what a human being is. The field treats revealed preferences as ground truth. Preferences are outputs of an evolved motivational-emotional architecture, and in mismatched environments those outputs are systematically proxy-contaminated. An optimizer aligned to proxy-contaminated preferences will optimize the world toward the contamination. We present Cor v0: a proof of concept that an evidence-grounded, versioned, adversarially-reviewed atlas of human motivational-emotional architecture is buildable, together with the first worked operationalization of one mechanism. The atlas is open foundational infrastructure, designed for ingestion by the frontier AI field before those systems begin reshaping the world from first principles. As of 14 April 2026: 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, 864 mechanism-evidence links.
 
 ## 1. The Optimizer Without a Target
 
@@ -55,7 +55,7 @@ The closest the field comes is the implicit assumption that revealed preferences
 
 > We have no scientific consensus around what human intelligence is.
 >
-> — **Karen Hao** · *Diary of a CEO*, 2026
+> - **Karen Hao** · *Diary of a CEO*, 2026
 
 Hao's 2026 investigation (250+ interviews, 90+ OpenAI sources) documented the gap directly. No scientific consensus on what a human is has been adopted by the AI field. The human side is a black box labeled *preferences*.
 
@@ -91,7 +91,7 @@ Cor is an atlas of human motivational-emotional architecture, structured the way
 
 ### Current state
 
-The atlas ships with 573 quality-graded extractions linking 101 reviewed works to 17 foundations, 14 convergences, and 15 mechanisms, each versioned and adversarially reviewed (counts as of 14 April 2026, growing). M3 is the first worked operationalization — observable indicators, draft coding criteria, falsification conditions — as a concrete example of what every mechanism's specification will look like at scale.
+The atlas ships with 573 quality-graded extractions linking 101 reviewed works to 17 foundations, 14 convergences, and 15 mechanisms, each versioned and adversarially reviewed (counts as of 14 April 2026, growing). M3 is the first worked operationalization - observable indicators, draft coding criteria, falsification conditions - as a concrete example of what every mechanism's specification will look like at scale.
 
 ### Architectural structure
 
@@ -147,7 +147,7 @@ Below the foundations sit 14 convergences: points where three or more independen
 
 ### Mechanisms
 
-The 14 convergences entail 15 mechanisms — the operational layer where alignment claims are grounded. Each carries a tier indicating evidence strength: T1 (forced by convergence), T2 (strongly supported), T3 (moderate).
+The 14 convergences entail 15 mechanisms - the operational layer where alignment claims are grounded. Each carries a tier indicating evidence strength: T1 (forced by convergence), T2 (strongly supported), T3 (moderate).
 
 | Code | Mechanism | Tier | Forced or supported by |
 |------|-----------|------|------------------------|
@@ -251,7 +251,7 @@ Food systems are being optimized by AI at every layer: crop selection, formulati
 
 > There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.
 >
-> — **Tristan Harris** · *Modern Wisdom*, April 2026
+> - **Tristan Harris** · *Modern Wisdom*, April 2026
 
 DC2 predicts the result. Hall et al. 2019 (NIH metabolic ward RCT) showed that ultra-processed diets produce excess caloric intake and weight gain compared to matched whole-food diets despite identical nominal nutritional content. Harris's arms-race framing names the market dynamic DC2 predicts: once any participant captures proxy-level attention more effectively, the rest must follow or exit. A food system optimizer with Cor in its target would optimize against C6 hijack rather than for it. The technical capacity exists. The atlas of the target does not.
 

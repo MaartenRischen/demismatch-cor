@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────
-   Cor / De-Mismatch — cor.css
+   Cor / De-Mismatch - cor.css
    Full commitment to demismatch.com/vision aesthetic:
    oxblood-deep outer surface, parchment broadside inside,
    Spectral serif display, teal offset shadows, gold stats,
@@ -55,7 +55,7 @@
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
   --sans: "Spectral", Georgia, serif;
 
-  /* Layout — full-viewport parchment, generous reading max */
+  /* Layout - full-viewport parchment, generous reading max */
   --maxw: 1800px;
   --reading-maxw: 1720px;
   --pad-x: clamp(1.25rem, 4vw, 5rem);
@@ -486,7 +486,7 @@ code, pre {
   text-align: center;
 }
 
-/* Editorial hero at wide viewports — massive title across the top, then
+/* Editorial hero at wide viewports - massive title across the top, then
    a 2-col body: reading decks on the left, intro + quote on the right.
    Actions, papers, and foot-strip span the full width below. */
 @media (min-width: 1100px) {
@@ -3923,7 +3923,7 @@ code, pre {
   }
 }
 
-/* Cases strip — compact link-grid on cor home replacing inline case teasers */
+/* Cases strip - compact link-grid on cor home replacing inline case teasers */
 .cases-strip {
   display: flex;
   flex-wrap: wrap;
@@ -3956,7 +3956,7 @@ code, pre {
   opacity: 0.85;
 }
 
-/* Apps more — compact grid under A1 linking to other applications */
+/* Apps more - compact grid under A1 linking to other applications */
 .apps-more {
   display: flex;
   flex-wrap: wrap;
