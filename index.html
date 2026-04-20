@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Cor - A Structured Map of Human Needs, Motivation, and Distress</title>
+  <title>Cor - Aligning the world to what humans are.</title>
   <meta name="description" content="An atlas of the human motivational-emotional architecture, for the systems acting on it.">
-  <meta property="og:title" content="Cor - A Structured Map of Human Needs, Motivation, and Distress">
-  <meta property="og:description" content="What a human is. What a human needs. What to build from that.">
+  <meta property="og:title" content="Cor - Aligning the world to what humans are.">
+  <meta property="og:description" content="Aligning the world to what humans are.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/img/og/home.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Cor - A Structured Map of Human Needs, Motivation, and Distress">
-  <meta name="twitter:description" content="What a human is. What a human needs. What to build from that.">
+  <meta name="twitter:title" content="Cor - Aligning the world to what humans are.">
+  <meta name="twitter:description" content="Aligning the world to what humans are.">
   <meta name="twitter:image" content="/img/og/home.svg">
   <link rel="icon" type="image/png" href="/img/cor-mark.png">
   <link rel="apple-touch-icon" href="/img/cor-mark.png">
@@ -331,6 +331,27 @@
         margin: 0 0 1.4rem;
       }
     }
+
+    /* Project slogan - prominent mission banner crowning the hero */
+    .hero-slogan-banner {
+      font-family: var(--serif);
+      font-size: clamp(1.4rem, 2.9vw, 2.25rem);
+      font-weight: 500;
+      color: var(--oxblood);
+      text-align: center;
+      letter-spacing: -0.005em;
+      line-height: 1.25;
+      margin: 0 auto 2rem;
+      max-width: 44rem;
+    }
+    @media (min-width: 1100px) {
+      .hero-inner > .hero-slogan-banner {
+        grid-column: 1 / span 8;
+        text-align: left;
+        max-width: none;
+        margin: 0 0 1rem;
+      }
+    }
   </style>
 </head>
 <body data-page="home" data-nav="home">
@@ -338,6 +359,7 @@
   <main>
     <section class="hero">
       <div class="hero-inner">
+        <p class="hero-slogan-banner">Aligning the world to what humans are.</p>
         <aside class="hero-quotes-rail" aria-label="On AI alignment">
           <div class="hero-quote">
             <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
