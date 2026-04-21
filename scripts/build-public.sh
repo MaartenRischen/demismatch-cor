@@ -6,6 +6,7 @@ DIST="$ROOT/dist"
 
 ROOT_FILES=(
   "index.html"
+  "404.html"
   "about.html"
   "applications.html"
   "atlas.html"
@@ -13,8 +14,10 @@ ROOT_FILES=(
   "cases.html"
   "constitutional.html"
   "contact.html"
+  "cor.html"
   "eli5.html"
   "how-to-read.html"
+  "m3-worked-example.html"
   "methodology.html"
   "plan.html"
   "programme.html"
