@@ -7,7 +7,6 @@ DIST="$ROOT/dist"
 ROOT_FILES=(
   "index.html"
   "404.html"
-  "about.html"
   "applications.html"
   "atlas.html"
   "bridge-paper.html"

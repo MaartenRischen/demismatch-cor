@@ -237,7 +237,6 @@ python3 -m http.server 8765 --directory dist
 Once COR is live:
 
 - `https://cor.demismatch.com/`
-- `https://cor.demismatch.com/about.html`
 - `https://cor.demismatch.com/atlas.html`
 - `https://cor.demismatch.com/cases.html`
 - `https://cor.demismatch.com/case/ai-companion.html`
