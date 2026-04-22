@@ -3200,36 +3200,6 @@ code, pre {
   gap: 0.65rem;
 }
 
-/* ── Paper body (bridge-paper, constitutional) ── */
-@media (min-width: 1400px) {
-  .section > .wrap:has(> .paper-body) {
-    max-width: var(--reading-maxw) !important;
-  }
-
-  .paper-body {
-    columns: 2;
-    column-gap: clamp(2.4rem, 3.5vw, 4rem);
-    column-rule: 1px solid var(--border-soft);
-  }
-
-  .paper-body h2,
-  .paper-body h3 {
-    break-after: avoid-column;
-    margin-top: 1.6rem;
-  }
-
-  .paper-body h2:first-child,
-  .paper-body > :first-child {
-    margin-top: 0;
-  }
-
-  .paper-body blockquote,
-  .paper-body table,
-  .paper-body figure {
-    break-inside: avoid;
-  }
-}
-
 /* ── Contact ───────────────────────────────── */
 
 .contact-simple {
