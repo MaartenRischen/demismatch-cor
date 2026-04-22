@@ -331,6 +331,119 @@
         margin: 0 0 1.4rem;
       }
     }
+
+    /* Masthead: logo + CTA stacked on the left, title block on the right.
+       Top-aligned so the logo sits next to the H1, not vertically centered
+       against the full title block. */
+    .hero-masthead {
+      align-items: flex-start;
+    }
+    .hero-masthead-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.1rem;
+      flex-shrink: 0;
+    }
+    .hero-masthead-cta {
+      width: 100%;
+      max-width: clamp(180px, 22vw, 300px);
+    }
+    @media (max-width: 720px) {
+      .hero-masthead-left { width: 100%; }
+      .hero-masthead-cta { max-width: clamp(180px, 58vw, 240px); }
+    }
+
+    /* Read: paper cards — mirrors the hero-read-card pattern on
+       demismatch.com (/10truths/), adapted to the light parchment palette. */
+    .hero-reads {
+      margin: 2.4rem auto 0;
+      text-align: center;
+    }
+    .hero-reads-label {
+      margin: 0 0 1.1rem;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--muted-warm);
+    }
+    .hero-reads-label::before,
+    .hero-reads-label::after {
+      content: "";
+      display: inline-block;
+      width: 1.6rem;
+      height: 1px;
+      background: rgba(196, 150, 44, 0.55);
+      vertical-align: middle;
+      margin: 0 0.85rem;
+      transform: translateY(-1px);
+    }
+    .hero-reads-list {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .hero-read-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      padding: 1.05rem 3rem 1.05rem 1.4rem;
+      border: 1px solid rgba(196, 150, 44, 0.55);
+      background: rgba(196, 150, 44, 0.08);
+      color: var(--oxblood);
+      text-decoration: none;
+      min-width: 17rem;
+      max-width: 22rem;
+      text-align: left;
+      transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+      position: relative;
+    }
+    .hero-read-card::after {
+      content: "\2192";
+      position: absolute;
+      top: 50%;
+      right: 1.2rem;
+      transform: translateY(-50%);
+      color: var(--gold-dim);
+      font-family: var(--mono);
+      font-size: 1.05rem;
+      transition: transform 0.25s ease, color 0.25s ease;
+    }
+    .hero-read-card:hover,
+    .hero-read-card:focus-visible {
+      background: rgba(196, 150, 44, 0.18);
+      border-color: var(--gold);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(58, 18, 24, 0.12);
+      outline: none;
+    }
+    .hero-read-card:hover::after,
+    .hero-read-card:focus-visible::after {
+      transform: translate(4px, -50%);
+      color: var(--oxblood);
+    }
+    .hero-read-title {
+      font-family: var(--serif);
+      font-size: 1.08rem;
+      color: var(--oxblood);
+      font-weight: 500;
+      letter-spacing: 0.005em;
+    }
+    .hero-read-meta {
+      font-family: var(--mono);
+      font-size: 0.66rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted-warm);
+    }
+    @media (min-width: 1100px) {
+      .hero-inner > .hero-reads {
+        grid-column: 1 / -1;
+        margin: 1.8rem auto 0;
+      }
+    }
   </style>
 </head>
 <body data-page="home" data-nav="home">
@@ -354,7 +467,10 @@
           <p>Cor is that spec. The atlas is its current form. <strong>The horizon is a world built to it: environments, institutions, and systems calibrated to what the human actually is, and machines aligned to that same ground truth.</strong></p>
         </div>
         <div class="hero-masthead">
-          <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184" fetchpriority="high" decoding="async">
+          <div class="hero-masthead-left">
+            <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184" fetchpriority="high" decoding="async">
+            <a class="button button-primary hero-masthead-cta" href="/atlas.html">Open the Atlas</a>
+          </div>
           <div class="hero-title-block">
             <span class="eyebrow">V0 Prototype · April 2026</span>
             <h1 class="hero-h1-triptych">An atlas of the human.</h1>
@@ -372,12 +488,19 @@
             <p class="hero-infra-line">Open foundational infrastructure. Any team can build on it.</p>
           </div>
         </div>
-        <div class="hero-actions">
-          <a class="button button-primary" href="/atlas.html">See the Atlas</a>
+        <div class="hero-reads">
+          <p class="hero-reads-label">Read</p>
+          <div class="hero-reads-list">
+            <a class="hero-read-card" href="/bridge-paper.html">
+              <span class="hero-read-title">What Alignment Misses</span>
+              <span class="hero-read-meta">Working paper</span>
+            </a>
+            <a class="hero-read-card" href="/constitutional.html">
+              <span class="hero-read-title">What You Are Talking To</span>
+              <span class="hero-read-meta">Explaining humans to AI</span>
+            </a>
+          </div>
         </div>
-        <p class="hero-onramp" style="grid-column:1/-1;text-align:center">Read:<br>
-          <a href="/bridge-paper.html">What Alignment Misses</a> <span style="opacity:.55">(working paper)</span><br>
-          <a href="/constitutional.html">What You Are Talking To</a> <span style="opacity:.55">(explaining humans to AI)</span></p>
       </div>
     </section>
 
