@@ -2388,6 +2388,62 @@ code, pre {
   line-height: 1.62;
 }
 
+.door-also {
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px dashed rgba(106, 24, 24, 0.25);
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.door-also-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--teal);
+  flex-shrink: 0;
+}
+
+.door-also-link {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.8rem;
+  color: var(--oxblood-ink);
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.door-also-link:hover .door-also-title,
+.door-also-link:hover .door-also-cta {
+  color: var(--oxblood);
+  text-decoration: underline;
+}
+
+.door-also-title {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--oxblood);
+}
+
+.door-also-desc {
+  font-size: 0.92rem;
+  color: var(--oxblood-ink);
+  opacity: 0.85;
+}
+
+.door-also-cta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--oxblood);
+  white-space: nowrap;
+}
+
 /* ── Axis grid ─────────────────────────────── */
 
 .axis-grid {
