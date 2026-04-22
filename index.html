@@ -399,6 +399,31 @@
       text-align: left;
       transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
       position: relative;
+      box-sizing: border-box;
+    }
+    /* When the Read block lives inside the right-side quotes rail, stack the
+       cards vertically and let them fill the rail width. */
+    .hero-quotes-rail .hero-reads {
+      margin: 0.4rem 0 0;
+      text-align: left;
+    }
+    .hero-quotes-rail .hero-reads-list {
+      flex-direction: column;
+      gap: 0.7rem;
+      align-items: stretch;
+    }
+    .hero-quotes-rail .hero-read-card {
+      width: 100%;
+      min-width: 0;
+      max-width: none;
+    }
+    .hero-quotes-rail .hero-reads-label {
+      text-align: left;
+    }
+    .hero-quotes-rail .hero-reads-label::before { display: none; }
+    .hero-quotes-rail .hero-reads-label::after {
+      width: 2.4rem;
+      margin: 0 0 0 0.85rem;
     }
     .hero-read-card::after {
       content: "\2192";
@@ -438,12 +463,6 @@
       text-transform: uppercase;
       color: var(--muted-warm);
     }
-    @media (min-width: 1100px) {
-      .hero-inner > .hero-reads {
-        grid-column: 1 / -1;
-        margin: 1.8rem auto 0;
-      }
-    }
   </style>
 </head>
 <body data-page="home" data-nav="home">
@@ -454,11 +473,24 @@
         <aside class="hero-quotes-rail" aria-label="On AI alignment">
           <div class="hero-quote">
             <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
-            <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/karen-hao.webp" alt="Karen Hao" width="48" height="48" loading="lazy" decoding="async"><span><strong>Karen Hao on AI alignment</strong> · Diary of a CEO podcast, 2026</span></cite>
+            <cite><strong>Karen Hao on AI alignment</strong> · Diary of a CEO podcast, 2026</cite>
           </div>
           <div class="hero-quote">
             <blockquote>There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.</blockquote>
-            <cite style="display:flex;align-items:center"><img class="quote-avatar" src="img/quotes/tristan-harris.jpg" alt="Tristan Harris" width="48" height="48" loading="lazy" decoding="async"><span><strong>Tristan Harris</strong> · Modern Wisdom, April 2026</span></cite>
+            <cite><strong>Tristan Harris</strong> · Modern Wisdom, April 2026</cite>
+          </div>
+          <div class="hero-reads">
+            <p class="hero-reads-label">Read</p>
+            <div class="hero-reads-list">
+              <a class="hero-read-card" href="/bridge-paper.html">
+                <span class="hero-read-title">What Alignment Misses</span>
+                <span class="hero-read-meta">Working paper</span>
+              </a>
+              <a class="hero-read-card" href="/constitutional.html">
+                <span class="hero-read-title">What You Are Talking To</span>
+                <span class="hero-read-meta">Explaining humans to AI</span>
+              </a>
+            </div>
           </div>
         </aside>
         <div class="hero-masthead">
@@ -487,19 +519,6 @@
           <span class="eyebrow">Why this exists</span>
           <p>Aligned AI needs to know what it is aligning to. Environment design - social, economic, political, virtual - needs a target. Both currently proceed without a shared spec of the organism. Both produce predictable failures.</p>
           <p>Cor is that spec. The atlas is its current form. <strong>The horizon is a world built to it: environments, institutions, and systems calibrated to what the human actually is, and machines aligned to that same ground truth.</strong></p>
-        </div>
-        <div class="hero-reads">
-          <p class="hero-reads-label">Read</p>
-          <div class="hero-reads-list">
-            <a class="hero-read-card" href="/bridge-paper.html">
-              <span class="hero-read-title">What Alignment Misses</span>
-              <span class="hero-read-meta">Working paper</span>
-            </a>
-            <a class="hero-read-card" href="/constitutional.html">
-              <span class="hero-read-title">What You Are Talking To</span>
-              <span class="hero-read-meta">Explaining humans to AI</span>
-            </a>
-          </div>
         </div>
       </div>
     </section>
