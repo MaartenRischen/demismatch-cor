@@ -271,29 +271,6 @@
     }
     .section-foot a:hover { color: var(--teal-bright); }
 
-    /* Top-right quotes rail - stacks in the upper-right of the hero at 1100px+. */
-    .hero-quotes-rail {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      margin: 0 0 1.5rem;
-    }
-    .hero-quotes-rail .hero-quote {
-      max-width: none;
-      margin: 0;
-    }
-    @media (min-width: 1100px) {
-      .hero-inner > .hero-quotes-rail {
-        position: absolute;
-        top: 0;
-        left: auto;
-        right: 0;
-        width: clamp(300px, 28vw, 420px);
-        margin: 0;
-        z-index: 2;
-      }
-    }
-
     /* Why this exists - horizon statement between the pull-quotes and the Cor mark */
     .hero-horizon-statement {
       max-width: 44rem;
@@ -379,8 +356,6 @@
       .hero-masthead-left { width: 100%; }
       .hero-masthead-cta { max-width: clamp(180px, 58vw, 240px); }
       .hero-masthead-paper-meta { max-width: clamp(180px, 58vw, 240px); }
-      /* Mobile: hide the two hero quote blocks (Hao, Harris). */
-      .hero-quotes-rail > .hero-quote { display: none; }
     }
 
     /* Read: paper cards — mirrors the hero-read-card pattern on
@@ -430,30 +405,6 @@
       position: relative;
       box-sizing: border-box;
     }
-    /* When the Read block lives inside the right-side quotes rail, stack the
-       cards vertically and let them fill the rail width. */
-    .hero-quotes-rail .hero-reads {
-      margin: 0.4rem 0 0;
-      text-align: left;
-    }
-    .hero-quotes-rail .hero-reads-list {
-      flex-direction: column;
-      gap: 0.7rem;
-      align-items: stretch;
-    }
-    .hero-quotes-rail .hero-read-card {
-      width: 100%;
-      min-width: 0;
-      max-width: none;
-    }
-    .hero-quotes-rail .hero-reads-label {
-      text-align: left;
-    }
-    .hero-quotes-rail .hero-reads-label::before { display: none; }
-    .hero-quotes-rail .hero-reads-label::after {
-      width: 2.4rem;
-      margin: 0 0 0 0.85rem;
-    }
     .hero-read-card::after {
       content: "\2192";
       position: absolute;
@@ -499,16 +450,6 @@
   <main>
     <section class="hero">
       <div class="hero-inner">
-        <aside class="hero-quotes-rail" aria-label="On AI alignment">
-          <div class="hero-quote">
-            <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
-            <cite><strong>Karen Hao on AI alignment</strong> · Diary of a CEO podcast, 2026</cite>
-          </div>
-          <div class="hero-quote">
-            <blockquote>There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.</blockquote>
-            <cite><strong>Tristan Harris</strong> · Modern Wisdom, April 2026</cite>
-          </div>
-        </aside>
         <div class="hero-masthead">
           <div class="hero-masthead-left">
             <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184" fetchpriority="high" decoding="async">
