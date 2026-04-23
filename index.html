@@ -293,18 +293,62 @@
     .hero-horizon-statement p:last-child {
       margin: 0;
     }
-    .hero-horizon-statement .hero-masthead-paper {
-      margin-top: 1.4rem;
+
+    /* Paper reference (Read · title · meta) — editorial text block,
+       not a button. Sits inside the horizon-statement rail. */
+    .hero-paper-ref {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.4rem;
+      margin-top: 1.6rem;
     }
+    .hero-paper-ref-label {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--muted-warm);
+    }
+    .hero-paper-ref-link {
+      display: inline-block;
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(1.05rem, 1.2vw, 1.22rem);
+      line-height: 1.3;
+      color: var(--oxblood);
+      text-decoration: none;
+      border-bottom: 1.5px solid var(--gold);
+      padding-bottom: 0.08rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .hero-paper-ref-link:hover,
+    .hero-paper-ref-link:focus-visible {
+      color: var(--teal);
+      border-bottom-color: var(--teal);
+    }
+    .hero-paper-ref-meta {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: 0.64rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted-warm);
+      line-height: 1.4;
+    }
+
     @media (min-width: 1100px) {
       .hero-inner > .hero-horizon-statement {
         grid-column: 9 / -1;
         grid-row: 1;
-        align-self: start;
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
         text-align: left;
         max-width: none;
         margin: 0;
-        padding: 0.25rem 0 0 1.1rem;
+        padding: 0.25rem 0 0.5rem 1.1rem;
         border-left: 2px solid rgba(45, 107, 107, 0.55);
       }
       .hero-inner > .hero-horizon-statement > .eyebrow {
@@ -318,13 +362,17 @@
       .hero-inner > .hero-horizon-statement p:last-child {
         margin: 0;
       }
+      .hero-inner > .hero-horizon-statement > .hero-paper-ref {
+        margin-top: auto;
+        padding-top: 1.4rem;
+      }
     }
 
     /* Masthead: logo + CTA stacked on the left, title block on the right.
-       Top-aligned so the logo sits next to the H1, not vertically centered
-       against the full title block. */
+       Children stretch to the row height so the Atlas CTA can anchor at
+       the bottom (mirroring the Read block on the right rail). */
     .hero-masthead {
-      align-items: flex-start;
+      align-items: stretch;
     }
     .hero-masthead-left {
       display: flex;
@@ -333,40 +381,37 @@
       gap: 1.1rem;
       flex-shrink: 0;
     }
+    /* Primary CTA — sole prominent button in the hero, so it carries
+       the dominant weight; padding and font bumped for emphasis. */
     .hero-masthead-cta {
       width: 100%;
-      max-width: clamp(180px, 22vw, 300px);
+      max-width: clamp(220px, 26vw, 340px);
+      padding: 1.05rem 1.8rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.28em;
     }
-    .hero-masthead-paper {
+    /* Secondary About CTA — slightly slimmer + lighter than Atlas so the
+       primacy of "Open the Atlas" is preserved. */
+    .hero-masthead-cta-about {
+      padding: 0.82rem 1.6rem;
+      font-size: 0.74rem;
+      max-width: clamp(190px, 22vw, 280px);
+    }
+    /* CTA stack — anchored to the bottom of the masthead-left column so
+       the whole button group visually aligns with the Read block on the
+       right rail. */
+    .hero-masthead-ctas {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 0.45rem;
+      gap: 0.75rem;
       width: 100%;
-    }
-    .hero-masthead-paper-label {
-      margin: 0;
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.32em;
-      text-transform: uppercase;
-      color: var(--muted-warm);
-    }
-    .hero-masthead-paper-meta {
-      margin: 0;
-      font-family: var(--mono);
-      font-size: 0.66rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--muted-warm);
-      text-align: center;
-      max-width: clamp(180px, 22vw, 300px);
-      line-height: 1.4;
+      margin-top: auto;
     }
     @media (max-width: 720px) {
       .hero-masthead-left { width: 100%; }
-      .hero-masthead-cta { max-width: clamp(180px, 58vw, 240px); }
-      .hero-masthead-paper-meta { max-width: clamp(180px, 58vw, 240px); }
+      .hero-masthead-cta { max-width: clamp(200px, 62vw, 260px); }
+      .hero-masthead-cta-about { max-width: clamp(180px, 56vw, 240px); }
     }
 
     /* Read: paper cards — mirrors the hero-read-card pattern on
@@ -464,7 +509,10 @@
         <div class="hero-masthead">
           <div class="hero-masthead-left">
             <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184" fetchpriority="high" decoding="async">
-            <a class="button button-primary hero-masthead-cta" href="/atlas.html">Open the Atlas</a>
+            <div class="hero-masthead-ctas">
+              <a class="button button-primary hero-masthead-cta" href="/atlas.html">Open the Atlas</a>
+              <a class="button button-secondary-light hero-masthead-cta hero-masthead-cta-about" href="https://demismatch.com/about.html">About</a>
+            </div>
           </div>
           <div class="hero-title-block">
             <span class="eyebrow">V0 Prototype · April 2026</span>
@@ -487,10 +535,10 @@
           <span class="eyebrow">Why this exists</span>
           <p>Aligned AI needs to know what it is aligning to. Environment design - social, economic, political, virtual - needs a target. Both currently proceed without a shared spec of the organism. Both produce predictable failures.</p>
           <p>Cor is that spec. The atlas is its current form. <strong>The horizon is a world built to it: environments, institutions, and systems calibrated to what the human actually is, and machines aligned to that same ground truth.</strong></p>
-          <div class="hero-masthead-paper">
-            <p class="hero-masthead-paper-label">Read</p>
-            <a class="button button-primary hero-masthead-cta" href="/bridge-paper.html">The Optimizer Without a Target</a>
-            <p class="hero-masthead-paper-meta">what alignment misses · working paper</p>
+          <div class="hero-paper-ref">
+            <p class="hero-paper-ref-label">Read</p>
+            <a class="hero-paper-ref-link" href="/bridge-paper.html">The Optimizer Without a Target</a>
+            <p class="hero-paper-ref-meta">what alignment misses · working paper</p>
           </div>
         </div>
       </div>
