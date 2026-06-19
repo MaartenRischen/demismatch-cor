@@ -538,7 +538,7 @@
       "<h2 class='sec-head' id='ops-head'><span class='idx'>Operationalization</span> <span>From reference to test</span></h2>" +
       "<p class='ops-lede'>The first worked example of a Cor mechanism crossing the line from reference to a coding test. " +
       "Drafted from the converged evidence base under " + convChip + "; <b>not yet calibrated against pilot data</b>. " +
-      "Shown so the path from atlas to specification is concrete, today.</p>" +
+      "Shown so the path from spec to specification is concrete, today.</p>" +
       kpis +
 
       "<div class='ops-block'>" +

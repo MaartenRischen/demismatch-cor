@@ -1,5 +1,5 @@
 /* ============================================================================
-   Cor Portal v2 - atlas export / download UI
+   Cor Portal v2 - spec export / download UI
    Serves the pre-baked, reading-level printouts (window.COR_EXPORTS, generated
    by scripts/gen-export.py + assemble-exports.py from the live snapshot). Two
    outputs from one markdown source per level:
@@ -16,7 +16,7 @@
   var panel = document.getElementById("dl-panel");
   if (!panel) return;
   if (!EX || !EX.docs || !EX.meta) {
-    panel.innerHTML = "<p class='dl-unavailable'>Atlas export is unavailable - run " +
+    panel.innerHTML = "<p class='dl-unavailable'>Spec export is unavailable - run " +
       "<code>build-snapshot</code>, <code>build-exports-corpus</code>, the export " +
       "workflow, then <code>assemble-exports</code>.</p>";
     return;
@@ -69,7 +69,7 @@
     return sel ? sel.value : EX.meta.levels[0].key;
   }
   function docFor(key) { return EX.docs[key] || ""; }
-  function fileBase(key) { return "cor-atlas-" + key + "-" + today(); }
+  function fileBase(key) { return "cor-spec-" + key + "-" + today(); }
 
   function downloadMarkdown(key) {
     var blob = new Blob([docFor(key)], { type: "text/markdown;charset=utf-8" });
@@ -123,7 +123,7 @@
 
   panel.innerHTML =
     "<div class='dl-head'><span class='dia' aria-hidden='true'></span>" +
-      "<div><h2 class='dl-title'>Download the full atlas</h2>" +
+      "<div><h2 class='dl-title'>Download the full spec</h2>" +
       "<p class='dl-sub'>A complete printout of every mechanism and its proxy gradient" +
       ((m.eea && m.eea.parameters) ? ", plus The Gap (" + esc(String(m.eea.parameters)) +
         " EEA baseline parameters across " + esc(String(m.eea.domains)) + " domains)" : "") +

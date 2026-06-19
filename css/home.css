@@ -11,7 +11,7 @@
 }
 .hero-copy { max-width: 70ch; }
 
-/* wide screens: text left, the atlas map right (fills the empty-right hero) */
+/* wide screens: text left, the spec map right (fills the empty-right hero) */
 @media (min-width: 1000px) {
   .hero-home {
     display: grid;

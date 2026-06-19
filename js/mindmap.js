@@ -40,7 +40,7 @@
   if (cap) {
     cap.innerHTML = "<b>Cor</b> &#9670; the map &mdash; generated from the live snapshot" +
       (built ? ", built " + String(built).replace(/T.*/, "") : "") +
-      ". Every node links into the atlas.";
+      ". Every node links into the spec.";
   }
 
   function refit() { return Promise.resolve(mm.setData(result.root)).then(function () { mm.fit(); }); }

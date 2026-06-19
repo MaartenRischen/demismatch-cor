@@ -6,13 +6,13 @@
    The argument prose is authored static HTML in the page. This script does the
    data-bound work only, mirroring the bridge-paper.js idiom:
      1. fills the live "current snapshot" strip from CorData.counts() so the
-        frozen "as of" figures never silently contradict the live atlas;
+        frozen "as of" figures never silently contradict the live spec;
      2. freezes the snapshot-date stamp from meta().built_at (the honest "as of"
         label - never a hardcoded literal);
      3. turns every inline [data-code] placeholder in the prose into a CorXref
         chip: a link to the matching mechanism / foundation / reference surface
         if it exists, else PLAIN TEXT - no dead links, ever. This is what cross-
-        links the named systems to their interactive atlas cards.
+        links the named systems to their interactive spec cards.
 
    IIFE on window. No build step, works on file://. Reads only CorData/CorXref;
    degrades to plain text if either is missing. A failing block never white-
@@ -83,7 +83,7 @@
   // (foundation) etc. in the authored prose becomes a CorXref chip. Mechanisms
   // and Touch (R1) deep-link to mechanism.html#<CODE>; foundations to the
   // derivation layer; cut/unknown codes degrade to plain text. Keeps the named
-  // systems cross-linked to the interactive atlas without any dead links.
+  // systems cross-linked to the interactive spec without any dead links.
 
   safe(function () {
     var spots = document.querySelectorAll("[data-code]");

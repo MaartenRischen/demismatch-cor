@@ -133,7 +133,7 @@
       node.appendChild(wrap);
     }
 
-    // forces -> mechanism: the route from the derivation door into the atlas
+    // forces -> mechanism: the route from the derivation door into the spec
     var fm = has(c.forces_mechanism) ? c.forces_mechanism.trim() : "";
     if (fm) {
       var m = C.mechanismByCode(fm);

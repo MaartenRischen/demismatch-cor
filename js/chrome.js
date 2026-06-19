@@ -75,7 +75,7 @@
 
   // mechanism.html keeps its structural exception: the "Detail View" subtitle.
   function subtitleFor(pageKey) {
-    if (pageKey === "mechanism") return "Mechanism Atlas - Detail View";
+    if (pageKey === "mechanism") return "Mechanism Spec - Detail View";
     return "A complete account of the human organism";
   }
 
@@ -199,7 +199,7 @@
         'environment design are all built on it.</p>' +
       '<div class="foot-signature">' +
         '<span>Cor</span><span class="sep">/</span>' +
-        '<span>v0 prototype atlas - a living specification</span>' +
+        '<span>v0 prototype spec - a living specification</span>' +
         '<span class="sep">/</span><span id="foot-counts">' + esc(countSignature()) + '</span>' +
         '<span class="sep">/</span><span data-cor-honesty></span>' +
       '</div>';

@@ -2,7 +2,7 @@
    Cor Portal v2 - hero map (home page).
    Renders the generated map (window.COR_MINDMAP_MD) as a COMPACT interactive
    overview beside the hero: top sections expanded, pan + click to open branches,
-   every node deep-links into the atlas. Wheel-zoom is disabled so the page still
+   every node deep-links into the spec. Wheel-zoom is disabled so the page still
    scrolls normally over it; the full Map surface (mindmap.html) is one click away.
    Scripts are `defer`-loaded after the hero HTML, so the text never waits on this.
    ============================================================================ */

@@ -8,7 +8,7 @@
    This script does the data-bound work only:
      1. freezes the snapshot-date stamp from meta().built_at;
      2. fills the live "current snapshot" strip from CorData.counts(), so the
-        qualitative claims never silently contradict the live atlas;
+        qualitative claims never silently contradict the live spec;
      3. turns the inline data-code placeholders in the prose (e.g. OF2, M3) into
         CorXref chips - link if a surface exists, else plain text (no dead links).
 

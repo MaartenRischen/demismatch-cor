@@ -93,7 +93,7 @@
 
 /* The honest "current snapshot" line: frozen v0 figures in the prose are the
    historical record; this strip shows the live CorData counts so nothing in the
-   argument silently contradicts the current atlas. */
+   argument silently contradicts the current spec. */
 .lr-live {
   max-width: var(--reading-maxw);
   margin: 0 auto 2rem;
@@ -297,7 +297,7 @@
      explicit that this states the model FOR THE SYSTEMS (AI) and builders that
      design our environments.
    - .lr-mechrow / .lr-system-mechs : compact CorXref chip rows that hand the
-     reader off to the interactive atlas (mechanism.html#<CODE>). They are
+     reader off to the interactive spec (mechanism.html#<CODE>). They are
      plain links only - nothing here animates or imitates the proxy gradient.
    ============================================================================ */
 
@@ -348,7 +348,7 @@
 /* A named evolved-system block: heading + mechanism chip row + prose. Reads as
    a recessed card in the warm ground. The "what it needs to resolve" line is
    italic. Nothing here animates or imitates the proxy gradient; the chip row is
-   the handoff to the interactive atlas, where that interaction actually lives. */
+   the handoff to the interactive spec, where that interaction actually lives. */
 .lr-system {
   max-width: var(--reading-maxw);
   margin: clamp(22px, 3.5vw, 36px) auto;
