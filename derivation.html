@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cor - Derivation</title>
+  <meta name="description" content="Cor - the locked stack. How each layer of the framework is forced from the one beneath: frame, premise, property, consequence, convergences, mechanisms.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/cor-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="css/derivation.css">
+</head>
+<body data-page="derivation">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="shell">
+
+    <header class="masthead" data-masthead data-page="derivation"></header>
+
+    <div class="diamond-rule"><span class="dia"></span></div>
+
+    <main id="main" tabindex="-1">
+
+      <section class="deriv-intro">
+        <p class="deriv-kicker">The locked stack</p>
+        <h1 class="deriv-title">The derivation</h1>
+        <p class="deriv-lead">
+          The chain of reasoning the whole framework is forced from - the answer
+          to "why should any of this be true?" Cor's claims, all the way up to the
+          15 mechanisms, are not a list someone assembled; each is forced, step by
+          step, from a single starting point about what a human is.
+        </p>
+        <p class="deriv-lead deriv-lead-how">
+          This page lays out that chain in six layers. Each layer is forced by the
+          one beneath it, so the mechanisms at the end are conclusions, not
+          assumptions. Read top to bottom - every node states what is true and
+          where it comes from.
+        </p>
+        <nav class="deriv-jump" aria-label="Layers">
+          <a href="#layer-frame">Frame</a>
+          <a href="#layer-premise">Premise</a>
+          <a href="#layer-property">Property</a>
+          <a href="#layer-consequence">Consequence</a>
+          <a href="#layer-convergence">Convergences</a>
+          <a href="#layer-mechanism">Mechanisms</a>
+        </nav>
+      </section>
+
+      <div id="stack"><!-- rendered by derivation.js --></div>
+
+    </main>
+
+    <footer class="site-footer" data-footer></footer>
+
+  </div>
+
+  <script src="js/snapshot-data.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/xref.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/derivation.js"></script>
+</body>
+</html>

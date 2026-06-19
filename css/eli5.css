@@ -1,0 +1,413 @@
+/* ============================================================================
+   Cor Portal v2 - eli5 / the single newcomer door.
+   Plain-language teaching of the ordinal proxy gradient (lit cue lamp + draining
+   function staircase) plus the epistemic tiering (consensus / synthesis / open).
+   Inherits the identity verbatim from tokens.css + portal.css; adds NO new look.
+   All component classes namespaced .eli-*. The teaching figure is a STATIC,
+   frozen picture - the real interactive gradient lives, inviolable, on
+   mechanism.html and nothing here competes with it.
+   ============================================================================ */
+
+/* ---------------------------------------------------------------- hero ---- */
+.eli-hero { margin-top: clamp(8px, 2vw, 20px); max-width: 72ch; }
+.eli-eyebrow {
+  font-family: var(--mono);
+  font-size: var(--t-eyebrow);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+}
+.eli-h1 {
+  font-size: var(--t-h1);
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -.012em;
+  color: var(--oxblood);
+  margin: 14px 0 0;
+  text-wrap: balance;
+}
+.eli-lede {
+  margin-top: clamp(16px, 2.4vw, 22px);
+  font-size: var(--t-lead);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-ink);
+  max-width: 62ch;
+}
+
+/* jump nav: quiet mono row of in-page anchors */
+.eli-jump {
+  margin-top: clamp(20px, 3vw, 28px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+.eli-jump a {
+  font-family: var(--mono);
+  font-size: .64rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--oxblood-warm);
+  text-decoration: none;
+  border: 1px solid var(--border-soft);
+  border-radius: 4px;
+  padding: 5px 10px;
+  transition: border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease), background var(--dur-fast) var(--ease);
+}
+.eli-jump a:hover,
+.eli-jump a:focus-visible { border-color: var(--teal); color: var(--teal-deep); background: rgba(45,107,107,.08); }
+
+/* --------------------------------------------------------------- sections - */
+.eli-sec { max-width: 74ch; scroll-margin-top: 24px; }
+.eli-kicker {
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.eli-sec-h {
+  font-size: clamp(1.4rem, 3.2vw, 2.05rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -.01em;
+  color: var(--oxblood);
+  margin: 0 0 16px;
+  text-wrap: balance;
+}
+.eli-body {
+  font-size: clamp(.98rem, 1.6vw, 1.1rem);
+  font-weight: 300;
+  line-height: 1.62;
+  color: var(--oxblood-ink);
+  margin: 0 0 16px;
+}
+.eli-body b { font-weight: 500; color: var(--oxblood); }
+.eli-body i { font-style: italic; }
+.eli-body a {
+  color: var(--teal-deep);
+  text-decoration: underline;
+  text-decoration-color: rgba(45,107,107,.4);
+  text-underline-offset: 2px;
+}
+.eli-body a:hover,
+.eli-body a:focus-visible { text-decoration-color: var(--teal); }
+
+/* the spine sentence: gold-ruled pull, like .cue-thesis / .hero-claim */
+.eli-pull {
+  margin: clamp(20px, 3vw, 28px) 0;
+  font-size: clamp(1.08rem, 2vw, 1.28rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--oxblood-deep);
+  max-width: 60ch;
+  padding-left: 17px;
+  border-left: 3px solid var(--gold);
+}
+
+/* ------------------------------------------- the static teaching figure --- */
+/* Echoes the live gradient's visual language: a constant lit CUE lamp beside a
+   draining FUNCTION staircase. Frozen + captioned; no interaction, no scores. */
+.eli-fig {
+  margin: clamp(22px, 3.4vw, 32px) 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--parchment-soft);
+  box-shadow: var(--shadow-double-sm);
+  overflow: hidden;
+}
+.eli-fig-stage {
+  display: flex;
+  align-items: stretch;
+  gap: clamp(16px, 3vw, 30px);
+  padding: clamp(20px, 3vw, 30px);
+  flex-wrap: wrap;
+}
+
+/* left: the cue lamp - constant, never dims (mirrors the inviolable lamp) */
+.eli-cue {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-right: clamp(16px, 3vw, 28px);
+  border-right: 1px dashed var(--border);
+}
+.eli-cue-lamp {
+  width: clamp(54px, 11vw, 74px);
+  height: clamp(54px, 11vw, 74px);
+  display: block;
+  filter: drop-shadow(0 0 7px rgba(45,107,107,.45));
+}
+.eli-cue-lamp svg { width: 100%; height: 100%; display: block; }
+.eli-cue-cap {
+  font-family: var(--mono);
+  font-size: .58rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal-deep);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* right: the function staircase - five steps draining toward a pure cue */
+.eli-stair { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; }
+.eli-stair-cap {
+  font-family: var(--mono);
+  font-size: .58rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+  margin: 0 0 12px;
+}
+.eli-stair-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: end;
+  gap: clamp(4px, 1.4vw, 12px);
+  height: clamp(96px, 16vw, 128px);
+}
+.eli-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  height: 100%;
+  min-width: 0;
+}
+.eli-bar {
+  width: clamp(18px, 4vw, 30px);
+  height: var(--h, 50%);
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(180deg, var(--teal-bright), var(--teal-deep));
+  opacity: .92;
+}
+/* the drained right-hand step reads as the trap: a faint oxblood ghost */
+.eli-step:last-child .eli-bar {
+  background: linear-gradient(180deg, rgba(138,47,42,.55), rgba(138,47,42,.3));
+}
+.eli-step-lbl {
+  font-family: var(--mono);
+  font-size: .5rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+  text-align: center;
+  line-height: 1.3;
+}
+.eli-step:last-child .eli-step-lbl { color: #8a2f2a; }
+.eli-axis {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: .56rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--oxblood-warm);
+  border-top: 1px solid var(--border-soft);
+  padding-top: 9px;
+}
+.eli-axis-arrow { color: var(--muted-warm); }
+
+.eli-fig-cap {
+  font-size: .92rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--oxblood-ink);
+  padding: clamp(15px, 2.2vw, 20px) clamp(18px, 3vw, 30px);
+  border-top: 1px solid var(--border-soft);
+  background: var(--parchment-dark);
+  margin: 0;
+}
+.eli-fig-cap b { font-weight: 500; color: var(--oxblood); }
+
+@media (max-width: 520px) {
+  .eli-cue { border-right: 0; border-bottom: 1px dashed var(--border); padding-right: 0; padding-bottom: 16px; flex-direction: row; width: 100%; }
+}
+
+/* ----------------------------------------------- the four-question steps -- */
+.eli-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: clamp(14px, 2vw, 20px); }
+.eli-steps > li { display: flex; gap: 16px; align-items: flex-start; }
+.eli-step-n {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--parchment-soft);
+  background: var(--oxblood-warm);
+  border-radius: 50%;
+}
+.eli-steps h3 {
+  font-size: clamp(1.02rem, 1.9vw, 1.18rem);
+  font-weight: 500;
+  color: var(--oxblood);
+  margin: 4px 0 4px;
+  line-height: 1.2;
+}
+.eli-steps p {
+  font-size: clamp(.94rem, 1.5vw, 1.04rem);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-ink);
+  margin: 0;
+  max-width: 60ch;
+}
+
+/* ------------------------------------------------ epistemic tier cards ---- */
+.eli-tiers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(14px, 2.2vw, 20px);
+  margin: clamp(18px, 2.6vw, 26px) 0;
+}
+@media (min-width: 760px) { .eli-tiers { grid-template-columns: repeat(3, 1fr); } }
+.eli-tier {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--parchment-soft);
+  padding: clamp(16px, 2.2vw, 20px);
+  border-top: 3px solid var(--border);
+}
+.eli-tier-consensus { border-top-color: var(--teal); }
+.eli-tier-synthesis { border-top-color: var(--gold); }
+.eli-tier-open { border-top-color: #8a2f2a; }
+.eli-tier-tag {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.eli-tier-consensus .eli-tier-tag { color: var(--teal-deep); }
+.eli-tier-synthesis .eli-tier-tag { color: var(--gold-dim); }
+.eli-tier-open .eli-tier-tag { color: #8a2f2a; }
+.eli-tier h3 {
+  font-size: clamp(1.02rem, 1.9vw, 1.16rem);
+  font-weight: 500;
+  color: var(--oxblood);
+  margin: 0 0 9px;
+  line-height: 1.18;
+}
+.eli-tier p {
+  font-size: .92rem;
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-ink);
+  margin: 0;
+}
+.eli-tier a {
+  color: var(--teal-deep);
+  text-decoration: underline;
+  text-decoration-color: rgba(45,107,107,.4);
+  text-underline-offset: 2px;
+}
+.eli-tier a:hover,
+.eli-tier a:focus-visible { text-decoration-color: var(--teal); }
+
+/* -------------------------------------------------- what Cor is not ------- */
+.eli-nots { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.eli-nots li {
+  position: relative;
+  padding-left: 22px;
+  font-size: clamp(.96rem, 1.55vw, 1.06rem);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-ink);
+  max-width: 68ch;
+}
+.eli-nots li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: .62em;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background: var(--gold);
+}
+.eli-nots b { font-weight: 600; color: var(--oxblood); }
+
+/* ------------------------------------------------------ where-next doors -- */
+.eli-doors {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(14px, 2.2vw, 20px);
+  margin: clamp(18px, 2.6vw, 26px) 0 clamp(28px, 4vw, 40px);
+}
+@media (min-width: 640px) { .eli-doors { grid-template-columns: 1fr 1fr; } }
+.eli-door {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-decoration: none;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  background: var(--parchment-soft);
+  padding: clamp(15px, 2.2vw, 20px);
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.eli-door:hover,
+.eli-door:focus-visible { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: var(--border); }
+.eli-door-name {
+  font-size: clamp(1.05rem, 2vw, 1.22rem);
+  font-weight: 600;
+  color: var(--oxblood);
+  line-height: 1.14;
+}
+.eli-door-desc {
+  font-size: .9rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--oxblood-ink);
+  flex: 1;
+}
+.eli-door-go {
+  margin-top: 4px;
+  font-family: var(--mono);
+  font-size: .64rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--oxblood-warm);
+}
+/* the paper door leads: full double-shadow + warm face, mirrors door-a */
+.eli-door-paper {
+  background: linear-gradient(180deg, var(--parchment-soft), var(--parchment-dark));
+  border-color: var(--border);
+  box-shadow: var(--shadow-double-sm);
+}
+.eli-door-paper:hover,
+.eli-door-paper:focus-visible { transform: translate(-2px, -2px); box-shadow: var(--shadow-double-hover); }
+.eli-door-paper .eli-door-go { color: var(--teal-deep); }
+
+/* -------------------------------------------------- one-sentence takeaway - */
+.eli-takeaway {
+  margin-top: clamp(20px, 3vw, 28px);
+  font-size: clamp(1.02rem, 1.9vw, 1.2rem);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-deep);
+  max-width: 64ch;
+  border-top: 1px solid var(--border-soft);
+  padding-top: 18px;
+}
+.eli-takeaway-tag {
+  display: block;
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+  margin-bottom: 9px;
+}

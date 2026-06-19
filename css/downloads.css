@@ -1,0 +1,92 @@
+/* ============================================================================
+   Cor Portal v2 - Downloads page (downloads.html)
+   Page-level chrome around the export experience. The download panel itself
+   (.dl-panel and its internals) is styled in css/exports.css - this file only
+   adds the page intro, the date stamp, and the five-levels guide. Inherits the
+   Cor identity verbatim from tokens.css + portal.css: warm parchment, oxblood
+   Spectral serif, teal + gold accents, JetBrains Mono, diamond rules, and the
+   signature offset double hard-shadow.
+   ============================================================================ */
+
+/* ---------- intro ---------- */
+.dl-intro { max-width: 64ch; margin-top: 4px; }
+.dl-kicker {
+  font-family: var(--mono); font-size: .62rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 12px;
+}
+.dl-page-title {
+  font-size: clamp(1.7rem, 4.6vw, 2.7rem); font-weight: 600; line-height: 1.06;
+  color: var(--oxblood); letter-spacing: -.01em; margin-bottom: 14px;
+}
+.dl-lead {
+  font-size: clamp(1rem, 1.7vw, 1.16rem); font-weight: 300; line-height: 1.6;
+  color: var(--oxblood-ink); max-width: 60ch;
+}
+
+/* ---------- compiled / snapshot stamp ---------- */
+.dl-stamp {
+  margin-top: 18px;
+  display: flex; gap: 9px; align-items: flex-start;
+  font-family: var(--mono); font-size: .72rem; line-height: 1.65;
+  letter-spacing: .015em; color: var(--muted-warm);
+  padding-left: 13px; border-left: 2px solid var(--gold); max-width: 62ch;
+}
+.dl-stamp:empty { display: none; }
+.dl-stamp .dia {
+  flex: 0 0 auto; width: 8px; height: 8px; margin-top: 5px;
+  background: var(--gold); transform: rotate(45deg);
+}
+.dl-stamp-body strong { color: var(--oxblood-ink); font-weight: 500; }
+.dl-stamp-pending { color: var(--fg-faint); font-style: italic; }
+
+/* ---------- five reading levels guide ---------- */
+.dl-levels-guide { margin-top: clamp(2.2rem, 4.5vw, 3.4rem); }
+.dl-section-h {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.3rem, 3vw, 1.8rem); color: var(--oxblood);
+  letter-spacing: -.005em; margin: 0 0 8px;
+}
+.dl-section-sub {
+  font-size: clamp(.96rem, 1.5vw, 1.06rem); font-weight: 300; line-height: 1.55;
+  color: var(--oxblood-ink); max-width: 58ch; margin: 0 0 clamp(18px, 2.6vw, 26px);
+}
+
+.dl-level-list {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: clamp(12px, 1.8vw, 18px);
+  grid-template-columns: 1fr;
+  counter-reset: dl-level;
+}
+@media (min-width: 640px) { .dl-level-list { grid-template-columns: repeat(2, 1fr); } }
+
+.dl-level {
+  display: flex; gap: 14px; align-items: flex-start; min-width: 0;
+  padding: clamp(14px, 2vw, 18px);
+  background: var(--parchment-soft);
+  border: 1px solid rgba(58, 18, 24, .18); border-radius: var(--radius);
+  counter-increment: dl-level;
+}
+.dl-level-key {
+  flex: 0 0 auto;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px;
+  font-family: var(--mono); font-size: .72rem; font-weight: 500;
+  color: var(--parchment-soft); background: var(--oxblood);
+  border-radius: 3px;
+}
+.dl-level-key::before { content: counter(dl-level); }
+.dl-level-text { min-width: 0; }
+.dl-level-title {
+  font-family: var(--serif); font-weight: 600; font-size: 1.14rem;
+  line-height: 1.15; color: var(--oxblood); margin: 1px 0 6px;
+}
+.dl-level-sub {
+  font-size: .9rem; font-weight: 300; line-height: 1.5; color: var(--oxblood-ink); margin: 0;
+}
+
+.dl-level-empty {
+  font-family: var(--mono); font-size: .8rem; color: var(--muted-warm); margin: 0;
+}
+
+/* spacing so the inherited .dl-panel sits clearly below the guide */
+.dl-levels-guide + .dl-panel { margin-top: clamp(2.2rem, 4.5vw, 3.4rem); }

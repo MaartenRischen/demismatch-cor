@@ -1,0 +1,203 @@
+/* ============================================================================
+   Cor Portal v2 - mechanism INDEX ("Reason about the organism" door target).
+   A scannable grid of all 15 mechanisms. Inherits tokens.css + portal.css
+   (cards, chips, diamond, type). Clarity over chrome: flat documentary cards,
+   the signature offset shadow used sparingly (one soft step on hover only).
+   ============================================================================ */
+
+/* ---------- intro ---------- */
+.mx-intro { max-width: 64ch; margin-top: 4px; }
+.mx-eyebrow {
+  font-family: var(--mono); font-size: .62rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 12px;
+}
+.mx-title {
+  font-size: clamp(1.7rem, 4.6vw, 2.7rem); font-weight: 600; line-height: 1.06;
+  color: var(--oxblood); letter-spacing: -.01em; margin-bottom: 14px;
+}
+.mx-lead {
+  font-size: clamp(1rem, 1.7vw, 1.16rem); font-weight: 300; line-height: 1.6;
+  color: var(--oxblood-ink); max-width: 60ch;
+}
+.mx-note {
+  margin-top: 16px; font-family: var(--mono); font-size: .72rem; line-height: 1.65;
+  letter-spacing: .015em; color: var(--muted-warm);
+  display: flex; gap: 9px; align-items: flex-start;
+  padding-left: 13px; border-left: 2px solid var(--gold); max-width: 62ch;
+}
+
+/* ---------- salvaged Atlas epigraph (Nesse framing) ---------- */
+.mx-epigraph {
+  margin: 20px 0 0; max-width: 58ch;
+  padding-left: 15px; border-left: 2px solid var(--teal);
+}
+.mx-epigraph blockquote {
+  margin: 0; font-family: var(--serif); font-style: italic; font-weight: 400;
+  font-size: clamp(1.02rem, 1.9vw, 1.24rem); line-height: 1.4;
+  color: var(--oxblood); letter-spacing: -.005em;
+}
+.mx-epigraph figcaption {
+  margin-top: 8px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 9px;
+  font-family: var(--mono); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase;
+}
+.mx-epigraph-name { color: var(--oxblood-warm); font-weight: 500; }
+.mx-epigraph-src { color: var(--muted-warm); }
+
+/* ---------- grid ---------- */
+.mx-grid {
+  list-style: none; margin: clamp(26px, 4vw, 40px) 0 0; padding: 0;
+  display: grid; gap: clamp(14px, 2.2vw, 22px);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 560px) { .mx-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .mx-grid { grid-template-columns: repeat(3, 1fr); } }
+
+.mx-grid > li { display: flex; min-width: 0; }
+
+/* ---------- card (whole card is the anchor) ---------- */
+.mx-card {
+  display: flex; flex-direction: column; width: 100%; min-width: 0;
+  text-decoration: none; color: inherit;
+  background: var(--parchment-soft);
+  border: 1px solid rgba(58, 18, 24, .18); border-radius: var(--radius);
+  padding: clamp(15px, 2vw, 20px);
+  transition: transform var(--dur-fast) var(--ease),
+              box-shadow var(--dur-fast) var(--ease),
+              border-color var(--dur-fast) var(--ease);
+}
+.mx-card:hover {
+  border-color: rgba(58, 18, 24, .34);
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-double-sm);
+}
+.mx-card:focus-visible {
+  outline: 2.5px solid var(--teal); outline-offset: 3px;
+  border-color: rgba(58, 18, 24, .34);
+}
+
+/* top row: code + meta chips */
+.mx-top { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-bottom: 11px; }
+.mx-code {
+  font-family: var(--mono); font-size: .76rem; font-weight: 500; letter-spacing: .08em;
+  color: var(--parchment-soft); background: var(--oxblood);
+  padding: 3px 9px; border-radius: 3px;
+}
+.mx-grade, .mx-tier {
+  font-family: var(--mono); font-size: .58rem; letter-spacing: .12em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 3px; white-space: nowrap;
+}
+.mx-grade { color: var(--teal); border: 1px solid rgba(45, 107, 107, .5); }
+.mx-tier { color: var(--muted-warm); border: 1px solid var(--border-soft); }
+
+/* a single derived-proxy badge, M14 only */
+.mx-badge {
+  margin-left: auto;
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--gold-dim); background: rgba(196, 150, 44, .12);
+  border: 1px solid rgba(165, 128, 31, .5);
+  padding: 3px 8px; border-radius: 3px; white-space: nowrap;
+}
+.mx-badge .pip { width: 5px; height: 5px; transform: rotate(45deg); background: var(--gold); flex: 0 0 auto; }
+/* honest "not yet derived" marker - quiet, secondary to the derived badge */
+.mx-badge-pending { color: var(--muted-warm); background: transparent; border: 1px dashed rgba(58, 18, 24, .3); }
+
+/* name */
+.mx-name {
+  font-size: clamp(1.16rem, 2.1vw, 1.4rem); font-weight: 600; line-height: 1.12;
+  color: var(--oxblood); letter-spacing: -.005em; margin-bottom: 8px;
+}
+
+/* eli5 gloss - one plain line */
+.mx-gloss {
+  font-size: .92rem; font-weight: 300; line-height: 1.5; color: var(--oxblood-ink);
+  margin-bottom: 14px;
+}
+
+/* footer rail of card: evidence + phylo, pinned to bottom */
+.mx-foot {
+  margin-top: auto; padding-top: 12px; border-top: 1px dashed rgba(58, 18, 24, .18);
+  display: flex; flex-direction: column; gap: 9px;
+}
+.mx-stat { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+.mx-stat .n {
+  font-family: var(--serif); font-size: 1.18rem; font-weight: 500; color: var(--oxblood);
+  line-height: 1; flex: 0 0 auto;
+}
+.mx-stat .lbl {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted-warm); line-height: 1.35;
+}
+.mx-progress {
+  margin-left: auto;
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .06em; color: var(--muted-warm);
+  font-style: italic; white-space: nowrap; flex: 0 0 auto;
+}
+.mx-phylo {
+  display: flex; align-items: center; gap: 9px; min-width: 0;
+}
+.mx-phylo-bars { display: flex; align-items: flex-end; gap: 2px; height: 13px; flex: 0 0 auto; }
+.mx-phylo-bars i { width: 4px; border-radius: 1px; display: block; background: rgba(58, 18, 24, .16); }
+.mx-phylo-bars i.lit { background: var(--oxblood-warm); }
+.mx-phylo-age {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .02em; color: var(--oxblood-warm);
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* ---------- downloads teaser (links to downloads.html) ---------- */
+.mx-dl-teaser {
+  margin: clamp(2rem, 4vw, 3.2rem) 0 0;
+  padding: clamp(1.1rem, 2.2vw, 1.5rem) clamp(1.3rem, 2.6vw, 1.8rem);
+  display: flex; align-items: center; flex-wrap: wrap; gap: 14px 18px;
+  background: var(--bg-card-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-double-sm);
+}
+.mx-dl-teaser .dia {
+  flex: 0 0 auto; width: 12px; height: 12px; align-self: flex-start; margin-top: 5px;
+  background: var(--gold); transform: rotate(45deg);
+  box-shadow: 0 0 0 4px rgba(196, 150, 44, .16);
+}
+.mx-dl-teaser-body { flex: 1 1 280px; min-width: 0; }
+.mx-dl-teaser-title {
+  font-family: var(--serif); font-weight: 500; font-size: var(--t-h3);
+  color: var(--oxblood); margin: 0 0 4px; line-height: 1.15;
+}
+.mx-dl-teaser-sub {
+  font-size: var(--t-meta); font-weight: 300; line-height: 1.55;
+  color: var(--fg-dim); margin: 0; max-width: 56ch;
+}
+.mx-dl-teaser-link {
+  flex: 0 0 auto;
+  font-family: var(--serif); font-weight: 500; font-size: 1rem;
+  color: var(--oxblood); text-decoration: none;
+  padding: 10px 18px; border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong); background: var(--parchment-soft);
+  box-shadow: var(--shadow-card);
+  transition: transform var(--dur-fast) var(--ease),
+              box-shadow var(--dur-fast) var(--ease);
+}
+.mx-dl-teaser-link:hover { transform: translate(-1px, -1px); box-shadow: var(--shadow-card-hover); }
+.mx-dl-teaser-link:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--teal); }
+.mx-dl-teaser-link:focus-visible { outline: 2.5px solid var(--teal); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  .mx-dl-teaser-link:hover { transform: none; }
+}
+
+/* empty / failure state */
+.mx-empty {
+  margin-top: 30px; font-family: var(--mono); font-size: .8rem; color: var(--muted-warm);
+  text-align: center;
+}
+
+/* reduced motion: no transform jump */
+@media (prefers-reduced-motion: reduce) {
+  .mx-card:hover { transform: none; }
+}
+
+/* narrow phones */
+@media (max-width: 380px) {
+  .mx-top { gap: 6px; }
+  .mx-badge { margin-left: 0; }
+}

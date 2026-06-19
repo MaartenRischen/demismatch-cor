@@ -1,0 +1,98 @@
+/* ============================================================================
+   Cor Portal v2 - atlas download panel (mechanisms page)
+   Inherits the Cor identity: parchment card, oxblood serif, teal/gold accents,
+   the signature offset double-shadow.
+   ============================================================================ */
+.dl-panel {
+  margin: clamp(2rem, 4vw, 3.2rem) 0 0;
+  padding: clamp(1.3rem, 2.6vw, 2rem);
+  background: var(--bg-card-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-double-sm);
+}
+
+.dl-head { display: flex; gap: 14px; align-items: flex-start; }
+.dl-head .dia {
+  flex: 0 0 auto; width: 12px; height: 12px; margin-top: 7px;
+  background: var(--gold); transform: rotate(45deg);
+  box-shadow: 0 0 0 4px rgba(196, 150, 44, 0.16);
+}
+.dl-title {
+  font-family: var(--serif); font-weight: 500;
+  font-size: var(--t-h3); color: var(--oxblood); margin: 0 0 4px;
+}
+.dl-sub {
+  font-size: var(--t-meta); font-weight: 300; line-height: 1.55;
+  color: var(--fg-dim); margin: 0; max-width: 64ch;
+}
+
+.dl-levels {
+  border: 0; margin: 18px 0 0; padding: 0;
+  display: grid; gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+.dl-legend {
+  font-family: var(--mono); font-size: var(--t-eyebrow);
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg-faint);
+  padding: 0; margin: 0 0 6px;
+}
+.dl-opt {
+  display: flex; gap: 10px; align-items: flex-start;
+  padding: 11px 13px; cursor: pointer;
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft); border-radius: var(--radius-sm);
+  transition: border-color var(--dur-fast) var(--ease),
+              background var(--dur-fast) var(--ease),
+              box-shadow var(--dur-fast) var(--ease);
+}
+.dl-opt:hover { border-color: var(--border); background: var(--parchment-soft); }
+.dl-opt:has(input:checked) {
+  border-color: var(--teal); background: var(--parchment-soft);
+  box-shadow: var(--shadow-card);
+}
+.dl-opt:has(input:focus-visible) { outline: 2.5px solid var(--teal); outline-offset: 2px; }
+.dl-opt input { margin-top: 3px; accent-color: var(--teal); flex: 0 0 auto; }
+.dl-opt-body { display: flex; flex-direction: column; gap: 2px; }
+.dl-opt-title {
+  font-family: var(--serif); font-weight: 500; font-size: 1rem; color: var(--oxblood);
+}
+.dl-opt-sub { font-size: 0.74rem; font-weight: 300; line-height: 1.45; color: var(--fg-faint); }
+
+.dl-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+.dl-btn {
+  display: inline-flex; flex-direction: column; align-items: flex-start;
+  gap: 1px; padding: 11px 20px; cursor: pointer;
+  font-family: var(--serif); font-weight: 500; font-size: 1rem;
+  border-radius: var(--radius-sm); border: 1px solid var(--border-strong);
+  background: var(--parchment-soft); color: var(--oxblood);
+  transition: transform var(--dur-fast) var(--ease),
+              box-shadow var(--dur-fast) var(--ease),
+              background var(--dur-fast) var(--ease);
+  box-shadow: var(--shadow-card);
+}
+.dl-btn small {
+  font-family: var(--mono); font-weight: 300; font-size: 0.62rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-faint);
+}
+.dl-btn:hover { transform: translate(-1px, -1px); box-shadow: var(--shadow-card-hover); }
+.dl-btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--teal); }
+.dl-btn:focus-visible { outline: 2.5px solid var(--teal); outline-offset: 2px; }
+.dl-pdf {
+  background: var(--oxblood); color: var(--parchment); border-color: var(--oxblood-deep);
+  box-shadow: var(--shadow-gold);
+}
+.dl-pdf small { color: var(--parchment-tan); }
+.dl-pdf:hover { box-shadow: 6px 6px 0 var(--gold); }
+.dl-pdf:active { box-shadow: 1px 1px 0 var(--gold); }
+
+.dl-unavailable {
+  font-family: var(--mono); font-size: 0.8rem; color: var(--fg-faint); margin: 0;
+}
+.dl-unavailable code {
+  background: var(--bg-hover); padding: 1px 5px; border-radius: 4px; color: var(--oxblood-ink);
+}
+
+@media (max-width: 480px) {
+  .dl-actions .dl-btn { flex: 1 1 100%; align-items: center; }
+}

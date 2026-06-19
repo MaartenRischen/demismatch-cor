@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cor - The map</title>
+  <meta name="description" content="Cor - an interactive map of the whole atlas: foundations, convergences, mechanisms, applications, demonstrations, domains, researchers. Generated from the live snapshot; every node links into the atlas.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/cor-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/markmap-toolbar.min.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="css/mindmap.css">
+</head>
+<body data-page="mindmap">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead" data-masthead data-page="mindmap"></header>
+
+  <main id="main" class="mm-main">
+    <svg id="markmap" class="markmap"></svg>
+    <p class="mm-caption"><b>Cor</b> &#9670; the map</p>
+  </main>
+
+  <script src="js/snapshot-data.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/xref.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="vendor/d3.min.js"></script>
+  <script src="vendor/markmap-view.min.js"></script>
+  <script src="vendor/markmap-lib.min.js"></script>
+  <script src="vendor/markmap-toolbar.min.js"></script>
+  <script src="js/mindmap-data.js"></script>
+  <script src="js/mindmap.js"></script>
+</body>
+</html>

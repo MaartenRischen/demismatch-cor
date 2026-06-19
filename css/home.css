@@ -1,0 +1,407 @@
+/* ============================================================================
+   Cor Portal v2 - home / two-door landing.
+   The front door. Clarity first: quiet hero, one live stats strip, two doors
+   (A leads, B is the quieter foundation), one honest status note. Inherits the
+   shared identity from tokens.css + portal.css; adds nothing new to the look.
+   ============================================================================ */
+
+/* ---------------------------------------------------------------- hero ---- */
+.hero-home {
+  margin-top: clamp(8px, 2vw, 20px);
+}
+.hero-copy { max-width: 70ch; }
+
+/* wide screens: text left, the atlas map right (fills the empty-right hero) */
+@media (min-width: 1000px) {
+  .hero-home {
+    display: grid;
+    grid-template-columns: minmax(0, 60ch) minmax(0, 1fr);
+    gap: clamp(1.5rem, 4vw, 3.5rem);
+    align-items: start;
+  }
+  .hero-copy { max-width: none; }
+}
+
+/* ---- hero map column ---- */
+.hero-map {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* The framed "window": a markmap tree grows rightward without bound, so it is
+   penned inside a Cor card (the signature offset double shadow) that clips with
+   overflow:hidden. autoFit (js/hero-map.js) re-frames the tree on every toggle,
+   so it always sits inside this window no matter how deep it is expanded. */
+.hero-map-frame {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--parchment-soft), var(--parchment-dark));
+  box-shadow: var(--shadow-double-sm);
+  overflow: hidden;
+}
+.hmf-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px clamp(12px, 1.6vw, 16px);
+  border-bottom: 1px solid var(--border-soft);
+  background: rgba(58, 18, 24, .025);
+}
+.hmf-title {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--oxblood-warm);
+}
+.hmf-recenter {
+  font-family: var(--mono);
+  font-size: .56rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--teal);
+  background: none;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 3px 9px;
+  cursor: pointer;
+  transition: color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
+.hmf-recenter:hover,
+.hmf-recenter:focus-visible { color: var(--teal-deep); border-color: var(--teal); }
+/* The svg keeps the exact sizing that renders cleanly: a flex child with an
+   explicit min-height (markmap measures node boxes against this at create time;
+   a percentage height of a not-yet-laid-out parent makes it collapse). The frame
+   above clips with overflow:hidden, so a wide tree is penned without the svg
+   itself needing an overflow context. */
+#hero-markmap {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: clamp(360px, 52vh, 520px);
+  display: block;
+  cursor: grab;
+  touch-action: pan-y;    /* let the page still scroll vertically over the map on touch */
+}
+#hero-markmap:active { cursor: grabbing; }
+.hmf-hint {
+  font-family: var(--mono);
+  font-size: .54rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+  padding: 7px clamp(12px, 1.6vw, 16px);
+  border-top: 1px solid var(--border-soft);
+}
+.hero-map-link {
+  align-self: flex-start;
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: .72rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--teal);
+  text-decoration: none;
+}
+.hero-map-link:hover,
+.hero-map-link:focus-visible { color: var(--teal-deep); text-decoration: underline; }
+.hero-map-link .ar { display: inline-block; margin-left: 4px; transition: transform var(--dur-fast) var(--ease); }
+.hero-map-link:hover .ar { transform: translateX(4px); }
+
+/* markmap node styling (mindmap.css is not loaded here): oxblood Spectral nodes,
+   teal links, gold code - the Cor identity, same as the full Map surface */
+svg.markmap text { fill: var(--oxblood-ink) !important; font-family: var(--serif); }
+svg.markmap foreignObject,
+svg.markmap foreignObject * { color: var(--oxblood-ink) !important; font-family: var(--serif); }
+svg.markmap a, svg.markmap a * { color: var(--teal) !important; text-decoration: none; }
+svg.markmap a:hover, svg.markmap a:hover * { color: var(--teal-bright) !important; text-decoration: underline; }
+svg.markmap code {
+  font-family: var(--mono); color: var(--gold-dim);
+  background: rgba(58, 18, 24, .06); padding: .04em .32em; border-radius: 4px; font-size: .92em;
+}
+svg.markmap .markmap-link { opacity: .9; }
+
+/* on small screens the map stacks below the copy; keep it from dominating */
+@media (max-width: 999px) {
+  .hero-map { margin-top: clamp(1.5rem, 5vw, 2.5rem); }
+  #hero-markmap { min-height: clamp(300px, 46vh, 380px); }
+}
+.hero-eyebrow {
+  font-family: var(--mono);
+  font-size: var(--t-eyebrow);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+}
+.hero-h1 {
+  font-size: var(--t-h1);
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -.012em;
+  color: var(--oxblood);
+  margin: 14px 0 0;
+  text-wrap: balance;
+}
+.hero-lede {
+  margin-top: clamp(16px, 2.4vw, 22px);
+  font-size: var(--t-lead);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-ink);
+  max-width: 60ch;
+}
+.hero-claim {
+  margin-top: clamp(18px, 2.6vw, 26px);
+  font-size: clamp(.92rem, 1.5vw, 1.02rem);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--oxblood-warm);
+  max-width: 58ch;
+  padding-left: 15px;
+  border-left: 2px solid var(--gold);
+}
+
+/* quiet newcomer on-ramp - deliberately understated, a single mono line. */
+.hero-onramp {
+  margin-top: clamp(16px, 2.4vw, 22px);
+  font-family: var(--mono);
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+}
+.hero-onramp a {
+  color: var(--oxblood-warm);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  transition: color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
+.hero-onramp a:hover,
+.hero-onramp a:focus-visible { color: var(--teal-deep); border-color: var(--teal); }
+.hero-onramp .ar { margin-left: 6px; display: inline-block; transition: transform var(--dur-fast) var(--ease); }
+.hero-onramp a:hover .ar,
+.hero-onramp a:focus-visible .ar { transform: translateX(3px); }
+
+/* bridge-paper callout - prominent, mirrors the live hero paper-ref: a teal
+   ruled block, the link in oxblood serif display, mono meta beneath. */
+.hero-paper {
+  margin-top: clamp(26px, 3.6vw, 36px);
+  max-width: 58ch;
+  padding: clamp(15px, 2.2vw, 20px) clamp(16px, 2.4vw, 22px);
+  background: var(--parchment-soft);
+  border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--teal);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.hero-paper:hover { box-shadow: var(--shadow-card-hover); }
+.hero-paper-label {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--teal-deep);
+  margin-bottom: 7px;
+}
+.hero-paper-link {
+  font-family: var(--serif);
+  font-size: clamp(1.12rem, 2.4vw, 1.42rem);
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -.01em;
+  color: var(--oxblood);
+  text-decoration: none;
+  display: inline-block;
+}
+.hero-paper-link:hover,
+.hero-paper-link:focus-visible { color: var(--teal-deep); }
+.hero-paper-link .ar {
+  font-family: var(--mono);
+  font-weight: 400;
+  font-size: .8em;
+  margin-left: 8px;
+  display: inline-block;
+  transition: transform var(--dur-fast) var(--ease);
+}
+.hero-paper-link:hover .ar,
+.hero-paper-link:focus-visible .ar { transform: translateX(4px); }
+.hero-paper-meta {
+  margin-top: 9px;
+  font-family: var(--mono);
+  font-size: .64rem;
+  letter-spacing: .06em;
+  color: var(--muted-warm);
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------- stats ---- */
+.stats { margin-top: clamp(34px, 5vw, 56px); }
+.stats-h {
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.05rem, 2.3vw, 1.32rem);
+  color: var(--oxblood);
+  margin-bottom: 16px;
+}
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--border-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+@media (min-width: 540px) { .stat-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 860px) { .stat-grid { grid-template-columns: repeat(6, 1fr); } }
+.stat {
+  background: var(--parchment-soft);
+  padding: clamp(13px, 2vw, 18px) clamp(11px, 1.6vw, 15px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+.stat .n {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1;
+  color: var(--oxblood);
+  letter-spacing: -.01em;
+}
+.stat .lbl {
+  font-family: var(--mono);
+  font-size: .56rem;
+  font-weight: 400;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted-warm);
+  line-height: 1.3;
+}
+
+/* --------------------------------------------------------------- doors ---- */
+.doors { margin-top: clamp(8px, 2vw, 14px); }
+.doors-h {
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.05rem, 2.3vw, 1.32rem);
+  color: var(--oxblood);
+  margin-bottom: 18px;
+}
+.door-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(22px, 3.4vw, 34px);
+  align-items: stretch;
+}
+@media (min-width: 760px) { .door-grid { grid-template-columns: 1fr 1fr; } }
+
+.door {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  text-decoration: none;
+  position: relative;
+  border-radius: var(--radius);
+  padding: clamp(20px, 3vw, 30px);
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+  min-width: 0;
+}
+.door-idx {
+  font-family: var(--mono);
+  font-size: .62rem;
+  font-weight: 500;
+  letter-spacing: .14em;
+  color: var(--muted-warm);
+}
+.door-kicker {
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.door-title {
+  font-size: clamp(1.32rem, 3vw, 1.72rem);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -.01em;
+  color: var(--oxblood);
+}
+.door-desc {
+  font-size: clamp(.92rem, 1.5vw, 1.02rem);
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--oxblood-ink);
+  flex: 1;
+}
+.door-desc b { font-weight: 500; color: var(--oxblood); }
+.door-go {
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: .7rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--oxblood-warm);
+}
+.door-go .ar { transition: transform var(--dur-fast) var(--ease); }
+.door:hover .door-go .ar,
+.door:focus-visible .door-go .ar { transform: translateX(4px); }
+
+/* Door A leads: the lit front door, full double-shadow, parchment-soft face. */
+.door-a {
+  background: linear-gradient(180deg, var(--parchment-soft), var(--parchment-dark));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-double-sm);
+}
+.door-a:hover,
+.door-a:focus-visible { transform: translate(-2px, -2px); box-shadow: var(--shadow-double-hover); }
+.door-a .door-kicker { color: var(--teal); }
+
+/* Door B is deliberately quieter: the foundation under the building, not the
+   front door. Flat, no offset shadow, no warm gradient, a calm dashed frame. */
+.door-b {
+  background: var(--parchment-soft);
+  border: 1px solid var(--border-soft);
+  box-shadow: none;
+}
+.door-b:hover,
+.door-b:focus-visible { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: var(--border); }
+.door-b .door-kicker { color: var(--muted-warm); }
+.door-b .door-title { color: var(--oxblood-warm); font-weight: 500; }
+.door-b .door-desc { color: var(--oxblood-warm); }
+
+/* ---------------------------------------------------- honest status ------- */
+.status-note {
+  margin-top: clamp(40px, 6vw, 64px);
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  border-top: 1px solid var(--border-soft);
+  padding-top: 22px;
+  max-width: 70ch;
+}
+.status-note .sn-dia {
+  flex: 0 0 auto;
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  background: var(--gold);
+  margin-top: .5em;
+}
+.status-note p {
+  font-size: clamp(.9rem, 1.5vw, 1rem);
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--oxblood-warm);
+  min-width: 0;
+}

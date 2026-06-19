@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cor - Mechanism Atlas</title>
+  <meta name="description" content="Cor - a complete account of the human motivational-emotional architecture. Mechanism detail view: resolution conditions and the proxy gradient.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/cor-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="css/mechanism.css">
+</head>
+<body data-page="mechanism">
+  <a class="skip" href="#mech-main">Skip to mechanism content</a>
+
+  <div class="shell">
+
+    <header class="masthead" data-masthead data-page="mechanism"></header>
+
+    <div class="diamond-rule"><span class="dia"></span></div>
+
+    <div class="layout">
+      <nav class="rail" aria-label="Mechanism switcher">
+        <div class="rail-label">Mechanisms <span class="ct" id="rail-ct"></span></div>
+        <div class="switcher" id="switcher" role="tablist" aria-orientation="vertical"></div>
+        <div class="rail-foot">
+          <div class="lg"><span class="sw on"></span> proxy gradient derived</div>
+          <div class="lg"><span class="sw off"></span> gradient not yet derived</div>
+        </div>
+      </nav>
+
+      <main class="content" id="mech-main" tabindex="-1">
+        <div id="view"><!-- rendered by mechanism.js --></div>
+      </main>
+    </div>
+
+    <footer class="site-footer" data-footer></footer>
+  </div>
+
+  <script src="js/snapshot-data.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/xref.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/mechanism.js"></script>
+</body>
+</html>

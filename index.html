@@ -1,898 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Cor - Aligning the world to what humans are.</title>
-  <meta name="description" content="An atlas of the human motivational-emotional architecture, for the systems acting on it.">
-  <meta property="og:title" content="Cor - Aligning the world to what humans are.">
-  <meta property="og:description" content="Aligning the world to what humans are.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/img/og/home.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Cor - Aligning the world to what humans are.">
-  <meta name="twitter:description" content="Aligning the world to what humans are.">
-  <meta name="twitter:image" content="/img/og/home.svg">
-  <link rel="icon" type="image/png" href="/img/cor-mark.png">
-  <link rel="apple-touch-icon" href="/img/cor-mark.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cor - A complete account of the human organism</title>
+  <meta name="description" content="Cor - a complete account of the human motivational-emotional architecture. Modern suffering is accurate biological signaling in mismatched environments, not disorder in the individual.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/cor-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/cor.css?v=10">
-  <style>
-    /* Home-scoped additions for v0.2 - 14 April 2026. */
-    .hero-infra-line {
-      margin-top: 0.55rem;
-      font-family: var(--serif);
-      font-size: clamp(0.95rem, 1.05vw, 1.05rem);
-      color: var(--teal);
-      font-style: italic;
-    }
-
-    /* Hero answers block - sits between H1 and subhead */
-    .hero-answers {
-      margin: 1.35rem 0 0.25rem;
-      max-width: 44rem;
-    }
-    .hero-answers-label {
-      margin: 0 0 0.7rem;
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--teal);
-      font-weight: 500;
-    }
-    .hero-answers-list {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      border-top: 1px solid rgba(58, 18, 24, 0.22);
-    }
-    .hero-answers-list li {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 1.25rem;
-      align-items: baseline;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid rgba(58, 18, 24, 0.14);
-    }
-    .hero-answers-list .q {
-      font-family: var(--serif);
-      font-size: clamp(1rem, 1.3vw, 1.1rem);
-      line-height: 1.4;
-      color: var(--oxblood-ink);
-    }
-    .hero-answers-list .a {
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--teal);
-      font-weight: 500;
-    }
-    .hero-answers-foot {
-      margin: 0;
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: clamp(0.98rem, 1.1vw, 1.1rem);
-      line-height: 1.5;
-      color: var(--oxblood);
-      max-width: 44rem;
-    }
-    @media (max-width: 600px) {
-      .hero-answers-list li {
-        grid-template-columns: 1fr;
-        gap: 0.15rem;
-        padding: 0.55rem 0;
-      }
-    }
-
-    /* Architecture: stacked layers */
-    .layers-lede {
-      margin: 0 0 2rem;
-      font-family: var(--serif);
-      font-weight: 400;
-      font-size: clamp(1.35rem, 2.1vw, 1.75rem);
-      line-height: 1.4;
-      color: var(--oxblood);
-      letter-spacing: -0.005em;
-      max-width: 62rem;
-    }
-    .layers {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 1.1rem;
-    }
-    .layer {
-      display: grid;
-      grid-template-columns: 4.5rem 1fr;
-      gap: 1.25rem;
-      padding: 1.35rem 1.5rem 1.5rem;
-      background: var(--parchment-dark);
-      border: 1px solid var(--oxblood);
-      border-radius: 6px;
-      box-shadow: 4px 4px 0 var(--teal);
-    }
-    .layer-code {
-      font-family: var(--mono);
-      font-weight: 500;
-      color: var(--teal);
-      letter-spacing: 0.12em;
-      font-size: 1.1rem;
-      padding-top: 0.25rem;
-    }
-    .layer h3 {
-      font-family: var(--serif);
-      font-weight: 500;
-      font-size: clamp(1.15rem, 1.8vw, 1.4rem);
-      color: var(--oxblood);
-      margin: 0 0 0.5rem;
-      letter-spacing: -0.01em;
-    }
-    .layer .layer-gloss {
-      margin: 0 0 0.65rem;
-      color: var(--oxblood-ink);
-      font-size: 1rem;
-      line-height: 1.55;
-    }
-    .layer-examples {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 0.3rem;
-    }
-    .layer-examples li {
-      font-family: var(--serif);
-      font-size: 0.95rem;
-      line-height: 1.5;
-      color: var(--oxblood-ink);
-    }
-    .layer-examples .code {
-      font-family: var(--mono);
-      color: var(--teal);
-      font-size: 0.85rem;
-      letter-spacing: 0.1em;
-      margin-right: 0.35rem;
-    }
-    @media (max-width: 600px) {
-      .layer { grid-template-columns: 1fr; gap: 0.3rem; padding: 1.15rem 1.1rem 1.25rem; }
-    }
-
-    /* M3 detail block */
-    .mech-full {
-      margin: 0;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.1rem;
-      padding: 1.75rem 1.75rem 1.75rem;
-      background: var(--parchment-dark);
-      border: 1px solid var(--oxblood);
-      border-radius: 6px;
-      box-shadow: 4px 4px 0 var(--teal);
-    }
-    .mech-full > div { display: flex; flex-direction: column; gap: 0.3rem; }
-    .mech-full dt {
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--teal);
-      font-weight: 500;
-    }
-    .mech-full dd {
-      margin: 0;
-      font-family: var(--serif);
-      font-size: 1rem;
-      line-height: 1.55;
-      color: var(--oxblood-ink);
-    }
-
-    /* Frankl block-quote at top of mismatch section */
-    .frankl-quote {
-      margin: 0 0 1.5rem;
-      padding: 1rem 0 1rem 1.5rem;
-      border-left: 3px solid var(--teal);
-    }
-    .frankl-quote p {
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: clamp(1.15rem, 1.7vw, 1.35rem);
-      line-height: 1.4;
-      color: var(--oxblood);
-      margin: 0 0 0.4rem;
-    }
-    .frankl-quote cite {
-      display: block;
-      font-family: var(--mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--oxblood-warm);
-      font-style: normal;
-    }
-
-    /* Work-so-far counts block */
-    .counts-block {
-      margin: 0 0 1.5rem;
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 1rem 2rem;
-      padding: 0;
-    }
-    @media (min-width: 720px) {
-      .counts-block { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-    }
-    .counts-block > div {
-      display: flex;
-      align-items: baseline;
-      gap: 0.9rem;
-      border-top: 1px solid var(--border-soft, rgba(58, 18, 24, 0.18));
-      padding-top: 0.85rem;
-    }
-    .counts-block dt {
-      font-family: var(--serif);
-      font-weight: 500;
-      font-size: clamp(2rem, 3.6vw, 2.6rem);
-      color: var(--oxblood);
-      letter-spacing: -0.01em;
-      line-height: 1;
-      min-width: 3.6rem;
-    }
-    .counts-block dd {
-      margin: 0;
-      font-family: var(--mono);
-      font-size: 0.74rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--oxblood-ink);
-      line-height: 1.35;
-    }
-
-    .section-foot {
-      margin-top: 1.5rem;
-      text-align: right;
-    }
-    .section-foot a {
-      font-family: var(--mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--teal);
-      text-decoration: none;
-    }
-    .section-foot a:hover { color: var(--teal-bright); }
-
-    /* Why this exists - horizon statement. At wide viewports it occupies the
-       right rail (cols 9-12) alongside the masthead; below 1100px it falls back
-       to a centered full-width block. */
-    .hero-horizon-statement {
-      max-width: 44rem;
-      margin: 0 auto 1.75rem;
-      text-align: center;
-    }
-    .hero-horizon-statement > .eyebrow {
-      display: inline-flex;
-      margin-bottom: 0.85rem;
-    }
-    .hero-horizon-statement p {
-      font-family: var(--serif);
-      font-size: clamp(0.98rem, 1.1vw, 1.08rem);
-      line-height: 1.55;
-      color: var(--oxblood-ink);
-      margin: 0 0 0.7rem;
-    }
-    .hero-horizon-statement p:last-child {
-      margin: 0;
-    }
-
-    /* Paper reference (Read · title · meta) — editorial text block,
-       not a button. Sits inside the horizon-statement rail. */
-    .hero-paper-ref {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.4rem;
-      margin-top: 1.6rem;
-    }
-    .hero-paper-ref-label {
-      margin: 0;
-      font-family: var(--mono);
-      font-size: 0.7rem;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--muted-warm);
-    }
-    .hero-paper-ref-link {
-      display: inline-block;
-      font-family: var(--serif);
-      font-weight: 500;
-      font-size: clamp(1.05rem, 1.2vw, 1.22rem);
-      line-height: 1.3;
-      color: var(--oxblood);
-      text-decoration: none;
-      border-bottom: 1.5px solid var(--gold);
-      padding-bottom: 0.08rem;
-      transition: color 0.2s ease, border-color 0.2s ease;
-    }
-    .hero-paper-ref-link:hover,
-    .hero-paper-ref-link:focus-visible {
-      color: var(--teal);
-      border-bottom-color: var(--teal);
-    }
-    .hero-paper-ref-meta {
-      margin: 0;
-      font-family: var(--mono);
-      font-size: 0.64rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--muted-warm);
-      line-height: 1.4;
-    }
-
-    @media (min-width: 1100px) {
-      .hero-inner > .hero-horizon-statement {
-        grid-column: 9 / -1;
-        grid-row: 1;
-        align-self: stretch;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        max-width: none;
-        margin: 0;
-        padding: 0.25rem 0 0.5rem 1.1rem;
-        border-left: 2px solid rgba(45, 107, 107, 0.55);
-      }
-      .hero-inner > .hero-horizon-statement > .eyebrow {
-        margin-bottom: 0.7rem;
-      }
-      .hero-inner > .hero-horizon-statement p {
-        font-size: clamp(0.88rem, 0.95vw, 0.98rem);
-        line-height: 1.5;
-        margin: 0 0 0.65rem;
-      }
-      .hero-inner > .hero-horizon-statement p:last-child {
-        margin: 0;
-      }
-      .hero-inner > .hero-horizon-statement > .hero-paper-ref {
-        margin-top: auto;
-        padding-top: 1.4rem;
-      }
-    }
-
-    /* Masthead: logo + CTA stacked on the left, title block on the right.
-       Children stretch to the row height so the Atlas CTA can anchor at
-       the bottom (mirroring the Read block on the right rail). */
-    .hero-masthead {
-      align-items: stretch;
-    }
-    .hero-masthead-left {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.1rem;
-      flex-shrink: 0;
-    }
-    /* Primary CTA — sole prominent button in the hero, so it carries
-       the dominant weight; padding and font bumped for emphasis. */
-    .hero-masthead-cta {
-      width: 100%;
-      max-width: clamp(220px, 26vw, 340px);
-      padding: 1.05rem 1.8rem;
-      font-size: 0.82rem;
-      letter-spacing: 0.28em;
-    }
-    /* Secondary About CTA — slightly slimmer + lighter than Atlas so the
-       primacy of "Open the Atlas" is preserved. */
-    .hero-masthead-cta-about {
-      padding: 0.82rem 1.6rem;
-      font-size: 0.74rem;
-      max-width: clamp(190px, 22vw, 280px);
-    }
-    /* CTA stack — anchored to the bottom of the masthead-left column so
-       the whole button group visually aligns with the Read block on the
-       right rail. */
-    .hero-masthead-ctas {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.75rem;
-      width: 100%;
-      margin-top: auto;
-    }
-    @media (max-width: 720px) {
-      .hero-masthead-left { width: 100%; }
-      .hero-masthead-cta { max-width: clamp(200px, 62vw, 260px); }
-      .hero-masthead-cta-about { max-width: clamp(180px, 56vw, 240px); }
-    }
-
-    /* Read: paper cards — mirrors the hero-read-card pattern on
-       demismatch.com (/10truths/), adapted to the light parchment palette. */
-    .hero-reads {
-      margin: 2.4rem auto 0;
-      text-align: center;
-    }
-    .hero-reads-label {
-      margin: 0 0 1.1rem;
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.32em;
-      text-transform: uppercase;
-      color: var(--muted-warm);
-    }
-    .hero-reads-label::before,
-    .hero-reads-label::after {
-      content: "";
-      display: inline-block;
-      width: 1.6rem;
-      height: 1px;
-      background: rgba(196, 150, 44, 0.55);
-      vertical-align: middle;
-      margin: 0 0.85rem;
-      transform: translateY(-1px);
-    }
-    .hero-reads-list {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .hero-read-card {
-      display: flex;
-      flex-direction: column;
-      gap: 0.45rem;
-      padding: 1.05rem 3rem 1.05rem 1.4rem;
-      border: 1px solid rgba(196, 150, 44, 0.55);
-      background: rgba(196, 150, 44, 0.08);
-      color: var(--oxblood);
-      text-decoration: none;
-      min-width: 17rem;
-      max-width: 22rem;
-      text-align: left;
-      transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-      position: relative;
-      box-sizing: border-box;
-    }
-    .hero-read-card::after {
-      content: "\2192";
-      position: absolute;
-      top: 50%;
-      right: 1.2rem;
-      transform: translateY(-50%);
-      color: var(--gold-dim);
-      font-family: var(--mono);
-      font-size: 1.05rem;
-      transition: transform 0.25s ease, color 0.25s ease;
-    }
-    .hero-read-card:hover,
-    .hero-read-card:focus-visible {
-      background: rgba(196, 150, 44, 0.18);
-      border-color: var(--gold);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 18px rgba(58, 18, 24, 0.12);
-      outline: none;
-    }
-    .hero-read-card:hover::after,
-    .hero-read-card:focus-visible::after {
-      transform: translate(4px, -50%);
-      color: var(--oxblood);
-    }
-    .hero-read-title {
-      font-family: var(--serif);
-      font-size: 1.08rem;
-      color: var(--oxblood);
-      font-weight: 500;
-      letter-spacing: 0.005em;
-    }
-    .hero-read-meta {
-      font-family: var(--mono);
-      font-size: 0.66rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--muted-warm);
-    }
-  </style>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
-<body data-page="home" data-nav="home">
-  <header data-include="/partials/nav.html"></header>
-  <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <div class="hero-masthead">
-          <div class="hero-masthead-left">
-            <img src="/img/cor-mark.png" alt="COR" class="hero-logo" width="1438" height="1184" fetchpriority="high" decoding="async">
-            <div class="hero-masthead-ctas">
-              <a class="button button-primary hero-masthead-cta" href="/atlas.html">Open the Atlas</a>
-              <a class="button button-secondary-light hero-masthead-cta hero-masthead-cta-about" href="https://demismatch.com/about.html">About</a>
-            </div>
-          </div>
-          <div class="hero-title-block">
-            <span class="eyebrow">V0 Prototype · April 2026</span>
-            <h1 class="hero-h1-triptych">An atlas of the human.</h1>
-            <div class="hero-answers">
-              <p class="hero-answers-label">Answers</p>
-              <ul class="hero-answers-list">
-                <li><span class="q">What do humans need?</span> <span class="a">Foundations</span></li>
-                <li><span class="q">How do those needs operate?</span> <span class="a">Mechanisms</span></li>
-                <li><span class="q">Where does mismatch occur?</span> <span class="a">Diagnosis</span></li>
-                <li><span class="q">What repairs it?</span> <span class="a">Intervention</span></li>
-              </ul>
-              <p class="hero-answers-foot">A literature synthesis grounded in empirical evidence. Everything downstream is grounded here.</p>
-            </div>
-            <p class="hero-subhead">Atlas now. Operational layer under construction. Evidence for every claim.</p>
-            <p class="hero-infra-line">Open foundational infrastructure. Any team can build on it.</p>
-          </div>
-        </div>
-        <div class="hero-horizon-statement">
-          <span class="eyebrow">Why this exists</span>
-          <p>Aligned AI needs to know what it is aligning to. Environment design - social, economic, political, virtual - needs a target. Both currently proceed without a shared spec of the organism. Both produce predictable failures.</p>
-          <p>Cor is that spec. The atlas is its current form. <strong>The horizon is a world built to it: environments, institutions, and systems calibrated to what the human actually is, and machines aligned to that same ground truth.</strong></p>
-          <div class="hero-paper-ref">
-            <p class="hero-paper-ref-label">Read</p>
-            <a class="hero-paper-ref-link" href="/bridge-paper.html">The Optimizer Without a Target</a>
-            <p class="hero-paper-ref-meta">what alignment misses · working paper</p>
-          </div>
-        </div>
-      </div>
-    </section>
+<body data-page="home">
+  <a class="skip" href="#main">Skip to content</a>
 
-    <section class="attr-strip" id="attribution">
-      <div class="wrap">
-        <div class="attr-head">Built on the work of</div>
-        <div class="attr-names" id="attr-names">
-          <a class="attr-name" href="/thinkers.html">Hoffman</a>
-          <a class="attr-name" href="/thinkers.html">Darwin</a>
-          <a class="attr-name" href="/thinkers.html">Hamilton</a>
-          <a class="attr-name" href="/thinkers.html">Tooby</a>
-          <a class="attr-name" href="/thinkers.html">Cosmides</a>
-          <a class="attr-name" href="/thinkers.html">Eaton</a>
-          <a class="attr-name" href="/thinkers.html">Konner</a>
-          <a class="attr-name" href="/thinkers.html">Li (Norman)</a>
-          <a class="attr-name" href="/thinkers.html">van Vugt</a>
-          <a class="attr-name" href="/thinkers.html">Boyd</a>
-          <a class="attr-name" href="/thinkers.html">Richerson</a>
-          <a class="attr-name" href="/thinkers.html">Henrich</a>
-          <a class="attr-name" href="/thinkers.html">Nesse</a>
-          <a class="attr-name" href="/thinkers.html">Coan (James)</a>
-          <a class="attr-name" href="/thinkers.html">Felitti</a>
-          <a class="attr-name" href="/thinkers.html">Berridge (Kent)</a>
-          <a class="attr-name" href="/thinkers.html">Tinbergen</a>
-          <a class="attr-name" href="/thinkers.html">Haselton</a>
-          <a class="attr-name" href="/thinkers.html">Buss</a>
-          <a class="attr-name" href="/thinkers.html">Bowlby</a>
-          <a class="attr-name" href="/thinkers.html">Panksepp</a>
-          <a class="attr-name" href="/thinkers.html">McEwen</a>
-          <a class="attr-name" href="/thinkers.html">Barrett (Lisa Feldman)</a>
-          <a class="attr-name" href="/thinkers.html">Dunbar</a>
-          <a class="attr-name" href="/thinkers.html">Boehm</a>
-          <a class="attr-name" href="/thinkers.html">Trivers</a>
-          <a class="attr-name" href="/thinkers.html">Gilbert (Paul)</a>
-          <a class="attr-name" href="/thinkers.html">Rozin</a>
-          <a class="attr-name" href="/thinkers.html">Hrdy</a>
-          <a class="attr-name" href="/thinkers.html">Sapolsky</a>
-          <a class="attr-name" href="/thinkers.html">Tomasello</a>
-          <a class="attr-name" href="/thinkers.html">Fehr &amp; G&#228;chter</a>
-          <a class="attr-name" href="/thinkers.html">LeDoux</a>
-          <a class="attr-name" href="/thinkers.html">Ainsworth</a>
-          <a class="attr-name" href="/thinkers.html">Harlow</a>
-          <a class="attr-name" href="/thinkers.html">Baumeister &amp; Leary</a>
-          <a class="attr-name" href="/thinkers.html">de Waal</a>
-          <a class="attr-name" href="/thinkers.html">Holt-Lunstad</a>
-          <a class="attr-name" href="/thinkers.html">Meaney</a>
-          <a class="attr-name" href="/thinkers.html">Birkett &amp; Newton-Fisher</a>
-          <a class="attr-name" href="/thinkers.html">Marmot</a>
-          <a class="attr-name" href="/thinkers.html">Jacka</a>
-          <a class="attr-name" href="/thinkers.html">Moss (Michael)</a>
-          <a class="attr-name" href="/thinkers.html">Sch&uuml;ll (Natasha Dow)</a>
-          <a class="attr-name" href="/thinkers.html">Haugen (Frances)</a>
-          <a class="attr-name" href="/thinkers.html">Cacioppo (John T.)</a>
-          <a class="attr-name" href="/thinkers.html">Fisher (Helen)</a>
-          <a class="attr-name" href="/thinkers.html">Lieberman (Daniel)</a>
-          <a class="attr-name" href="/thinkers.html">Pellis (Sergio &amp; Vivien)</a>
-          <a class="attr-name" href="/thinkers.html">Bullmore (Edward)</a>
-          <a class="attr-name" href="/thinkers.html">Pontzer (Herman)</a>
-          <a class="attr-name" href="/thinkers.html">Field (Tiffany)</a>
-          <a class="attr-name" href="/thinkers.html">&Ouml;hman</a>
-          <a class="attr-name" href="/thinkers.html">Hazan</a>
-          <a class="attr-name" href="/thinkers.html">Borsboom</a>
-          <a class="attr-name" href="/thinkers.html">Liebig</a>
-          <a class="attr-name" href="/thinkers.html">Kenrick et al.</a>
-          <a class="attr-name" href="/thinkers.html">Active Inference / Friston</a>
-          <a class="attr-name" href="/thinkers.html">SDT / Deci &amp; Ryan</a>
-          <a class="attr-name" href="/thinkers.html">RDoC</a>
-          <a class="attr-name" href="/thinkers.html">ACT-R / SOAR / CLARION</a>
-          <a class="attr-name" href="/thinkers.html">Chollet / ARC-AGI</a>
-          <a class="attr-name" href="/thinkers.html">Muldoon &amp; Park</a>
-        </div>
-      </div>
-    </section>
+  <div class="shell">
 
-    <section class="section section-soft" id="start-here">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Start here</span>
-          <h2>Where to begin.</h2>
-          <p class="lede">I'm Maarten Rischen. I built Cor v0 over the past year. It's an atlas of the human motivational-emotional architecture - what each evolved need is, and what stops its signal once the need is met. v0 is the prototype. v1 is the academic rebuild. Where to start depends on what you came for.</p>
-        </div>
-        <div class="door-grid">
-          <article class="door-card">
-            <div class="case-meta">For the specification itself</div>
-            <h3>Open the Atlas</h3>
-            <p>The full v0 atlas: foundations, convergences, mechanisms, empirical demonstrations, challenges, and gaps. The specification in its current form.</p>
-            <a class="button button-link" href="/atlas.html">Open Cor &rarr;</a>
-          </article>
-          <article class="door-card">
-            <div class="case-meta">For the framework in action</div>
-            <h3>Read the worked example</h3>
-            <p>M3, attachment-based co-regulation, specified end-to-end from foundations through resolution conditions. One mechanism at operational depth.</p>
-            <a class="button button-link" href="/operationalization/m3-attachment.html">Open M3 &rarr;</a>
-          </article>
-          <article class="door-card">
-            <div class="case-meta">For AI alignment</div>
-            <h3>Read the bridge paper</h3>
-            <p>How a specification of the human organism changes what alignment is aligning to.</p>
-            <a class="button button-link" href="/bridge-paper.html">Open the paper &rarr;</a>
-          </article>
-        </div>
-        <aside class="door-also">
-          <span class="door-also-label">Also</span>
-          <a class="door-also-link" href="/constitutional.html">
-            <span class="door-also-title">What You Are Talking To</span>
-            <span class="door-also-desc">Cor in the first person, addressed to a human reader.</span>
-            <span class="door-also-cta">Open &rarr;</span>
-          </a>
+    <header class="masthead" data-masthead data-page="home"></header>
+
+    <div class="diamond-rule"><span class="dia"></span></div>
+
+    <main id="main" tabindex="-1">
+
+      <!-- ===================== HERO ===================== -->
+      <section class="hero-home" aria-labelledby="hero-h1">
+        <div class="hero-copy">
+        <p class="hero-eyebrow">The framework</p>
+        <h1 class="hero-h1" id="hero-h1">A complete account of what a human being is.</h1>
+        <p class="hero-lede">
+          Modern human suffering is accurate biological signaling in a mismatched
+          environment, not disorder in the individual. The fix is changing the
+          inputs so deep systems stop signaling, not patching the human.
+        </p>
+        <p class="hero-claim">
+          Preferences are mechanism outputs, not ground truth. A proxy can fire the
+          cue without supplying the function that would resolve it.
+        </p>
+        <p class="hero-onramp">
+          New here? <a href="eli5.html">Read it plainly<span class="ar" aria-hidden="true">-&gt;</span></a>
+        </p>
+
+        <!-- Bridge-paper callout: the AI-alignment wedge, mirroring the live
+             site's hero paper-ref. Prominent but distinct from the two doors. -->
+        <aside class="hero-paper" aria-label="Featured paper">
+          <p class="hero-paper-label">Read</p>
+          <a class="hero-paper-link" href="bridge-paper.html">Why frontier AI needs a spec of the human<span class="ar" aria-hidden="true">-&gt;</span></a>
+          <p class="hero-paper-meta">The Optimizer Without a Target - what alignment misses - working paper</p>
         </aside>
-      </div>
-    </section>
+        </div><!-- /.hero-copy -->
 
-    <section class="section" id="architecture">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">The Architecture</span>
-          <h2>What Cor specifies.</h2>
-        </div>
-        <p class="layers-lede">Cor is structured in six layers, derived from evidence, not assumed.</p>
-        <ol class="layers">
-          <li class="layer">
-            <span class="layer-code">L0</span>
-            <div>
-              <h3>Two frames (OF1, OF2)</h3>
-              <p class="layer-gloss">The frame the specification operates inside. The organism does not perceive reality. It runs a fitness-tuned interface. Its outputs are read as information about state and input conditions, not as noise.</p>
-              <ul class="layer-examples">
-                <li><span class="code">OF1</span>Access to the world is mediated by evolved fitness interfaces, not guaranteed veridicality.</li>
-                <li><span class="code">OF2</span>Motivational and emotional outputs are treated as prima facie informative about the organism's regulated conditions.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="layer">
-            <span class="layer-code">L1</span>
-            <div>
-              <h3>Three primitives (P1&ndash;P3)</h3>
-              <p class="layer-gloss">The minimum claims any account of the organism must satisfy.</p>
-              <ul class="layer-examples">
-                <li><span class="code">P1</span>Inclusive fitness, survival and reproduction, is the loss function.</li>
-                <li><span class="code">P2</span>The organism contains evolved, domain-sensitive, interacting functional adaptations.</li>
-                <li><span class="code">P3</span>Modern environments often push these adaptations outside their expected operating ranges.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="layer">
-            <span class="layer-code">L2</span>
-            <div>
-              <h3>Nine design affordances (DA1&ndash;DA9)</h3>
-              <p class="layer-gloss">What the organism is built to do, and what follows from how it is built.</p>
-              <ul class="layer-examples">
-                <li><span class="code">DA2</span>Human regulation is constitutively socially scaffolded.</li>
-                <li><span class="code">DA4</span>Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.</li>
-                <li><span class="code">DA7</span>The architecture calibrates to developmental and ongoing environmental input within evolved ranges.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="layer">
-            <span class="layer-code">L3</span>
-            <div>
-              <h3>Three design consequences (DC1&ndash;DC3)</h3>
-              <p class="layer-gloss">What falls out of the architecture under chronic mismatch.</p>
-              <ul class="layer-examples">
-                <li><span class="code">DC1</span>Chronic unresolved activation accumulates as allostatic load.</li>
-                <li><span class="code">DC2</span>Markets can industrialize proxy exploitation of unmet regulatory needs.</li>
-                <li><span class="code">DC3</span>The environment is a primary intervention layer, currently underweighted by major institutions.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="layer">
-            <span class="layer-code">L4</span>
-            <div>
-              <h3>Fourteen convergences</h3>
-              <p class="layer-gloss">Evidence patterns where independent research lines arrive at the same operational structure.</p>
-              <ul class="layer-examples">
-                <li><span class="code">C3</span>Systematic EEA-modern environment mismatch (Eaton &amp; Konner + Li/van Vugt + Boyd &amp; Richerson + Henrich).</li>
-                <li><span class="code">C5</span>Socially scaffolded regulation via attachment (Coan + Bowlby + Hrdy + Dunbar + Holt-Lunstad).</li>
-                <li><span class="code">C6</span>Wanting-liking dissociation as proxy hijack (Berridge &amp; Robinson + Tinbergen + Panksepp).</li>
-              </ul>
-            </div>
-          </li>
-          <li class="layer">
-            <span class="layer-code">L5</span>
-            <div>
-              <h3>Fifteen mechanisms</h3>
-              <p class="layer-gloss">The discrete operational units of the organism. Each mechanism has a resolution condition and a characteristic failure mode.</p>
-              <ul class="layer-examples">
-                <li><span class="code">M3</span>Social Bonding.</li>
-                <li><span class="code">M5</span>Status Monitoring.</li>
-                <li><span class="code">M14</span>Reproductive Motivation.</li>
-              </ul>
-            </div>
-          </li>
-        </ol>
-        <p class="section-foot"><a href="/atlas.html">See the full architecture &rarr;</a></p>
-      </div>
-    </section>
+        <!-- The whole atlas at a glance: an interactive map (generated from the
+             snapshot, the Map surface in miniature). A markmap tree grows rightward
+             and would bleed past this narrow hero column, so it lives inside a
+             framed "window" (overflow-clipped, Cor card identity) and re-frames
+             itself on every expand/collapse via autoFit (see js/hero-map.js).
+             Pan + click to open branches; every node deep-links into the atlas. -->
+        <aside class="hero-map" aria-label="Map of the Cor atlas">
+          <figure class="hero-map-frame">
+            <figcaption class="hmf-bar">
+              <span class="hmf-title">The atlas at a glance</span>
+              <button type="button" class="hmf-recenter" id="hero-map-recenter"
+                      aria-label="Recenter the map">Recenter</button>
+            </figcaption>
+            <svg id="hero-markmap" class="markmap"></svg>
+            <span class="hmf-hint" aria-hidden="true">Drag to explore &#183; click a node to open</span>
+          </figure>
+          <a class="hero-map-link" href="mindmap.html">Open the full map<span class="ar" aria-hidden="true">-&gt;</span></a>
+        </aside>
+      </section>
 
-    <section class="section section-soft" id="mechanism-focus">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">One mechanism, in full</span>
-          <h2>M3 &middot; Social Bonding.</h2>
-        </div>
-        <dl class="mech-full">
-          <div>
-            <dt>What it is</dt>
-            <dd>An attachment and co-regulation system. Forms bonds with other humans. Produces pain-grade distress when they are gone. Two operating states: security, which enables broad engagement, and grief, which suppresses it.</dd>
-          </div>
-          <div>
-            <dt>Resolution condition</dt>
-            <dd>Reliable human co-regulation through physical presence, operating through nested social layers: roughly five intimate co-regulators for primary emotional and physical support, fifteen in the sympathy group, fifty close social partners, and a cognitive ceiling near one hundred fifty coherent face-to-face relationships (the Dunbar number). The innermost layer supplies the majority of regulation; the critical variable at that layer is reliability, not count.</dd>
-          </div>
-          <div>
-            <dt>Characteristic proxy</dt>
-            <dd>Nuclear family, isolated living, and mediated contact substituting for physical presence. The activation stays on while the resolution condition is never met.</dd>
-          </div>
-          <div>
-            <dt>Evidence base</dt>
-            <dd>189 evidence links drawn from the project's 573 extractions. Convergent across Bowlby, Panksepp, Coan, Hrdy, Dunbar, Holt-Lunstad.</dd>
-          </div>
-          <div>
-            <dt>Foundation links</dt>
-            <dd>P1 (inclusive fitness) and P2 (domain-sensitive interacting adaptations) as premises; DA2 (socially scaffolded regulation) as the design affordance M3 operationalizes.</dd>
-          </div>
-          <div>
-            <dt>Convergence membership</dt>
-            <dd>C5 &middot; Socially Scaffolded Regulation via Attachment.</dd>
-          </div>
+      <!-- ===================== STATS STRIP ===================== -->
+      <section class="stats" aria-labelledby="stats-h">
+        <h2 class="stats-h" id="stats-h">The atlas, in numbers</h2>
+        <dl class="stat-grid" id="stat-grid">
+          <!-- populated live from CorData.counts() -->
         </dl>
-        <p class="section-foot"><a href="/atlas.html#M3">Open M3 in the atlas &rarr;</a></p>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="mismatch-computable">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">The mismatch is computable</span>
-        </div>
-        <blockquote class="frankl-quote">
-          <p>An abnormal reaction to an abnormal situation is normal behavior.</p>
-          <cite>Viktor Frankl</cite>
-        </blockquote>
-        <p class="lede">Once the spec is in place, the mismatch is no longer a feeling. It is a per-mechanism quantity: the gap between the resolution condition and the actual input the organism is receiving.</p>
-        <div class="eea-table-wrap">
-          <table class="eea-table">
-            <thead>
-              <tr>
-                <th>Category</th>
-                <th>Expected Inputs</th>
-                <th>Modern Default</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Social</td>
-                <td>Known people, layered bonds, daily co-presence, reciprocal dependence</td>
-                <td>Strangers, mobility, parasocial feeds, mediated contact, fragile inner circles</td>
-              </tr>
-              <tr>
-                <td>Work</td>
-                <td>Visible effort, tangible contribution, direct feedback, shared necessity</td>
-                <td>Abstract labor, delayed feedback, metrics without meaning, replaceable output</td>
-              </tr>
-              <tr>
-                <td>Rhythm</td>
-                <td>Dawn light, dark nights, shared timing, physical fatigue, communal evenings</td>
-                <td>Indoor light, screen nights, asynchronous schedules, restless inactivity</td>
-              </tr>
-              <tr>
-                <td>Children</td>
-                <td>Distributed care, observation, multiple trusted adults, alloparental backup</td>
-                <td>Nuclear-family isolation, expert advice, solo vigilance, support on request</td>
-              </tr>
-              <tr>
-                <td>Feedback</td>
-                <td>Bounded groups, closure, reputational consequences, repair after conflict</td>
-                <td>Infinite audiences, algorithmic comparison, anonymous judgment, open loops</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="mismatch-cap-body" style="margin-top:1.25rem;max-width:46rem">Every row is a measurement, not a metaphor. Every measurement traces to the mechanisms it engages and the convergences it rests on.</p>
-      </div>
-    </section>
+      <div class="diamond-rule"><span class="dia"></span></div>
 
-    <section class="section section-soft" id="work-so-far">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">The work so far</span>
-          <h2>As of 14 April 2026.</h2>
-        </div>
-        <dl class="counts-block">
-          <div><dt data-home-stat="foundations">17</dt><dd>Foundations<br><span style="opacity:.7;letter-spacing:.08em">2 frames &middot; 3 premises &middot; 9 affordances &middot; 3 consequences</span></dd></div>
-          <div><dt data-home-stat="mechanisms">15</dt><dd>Mechanisms<br><span style="opacity:.7;letter-spacing:.08em">14 plus R1 Touch</span></dd></div>
-          <div><dt data-home-stat="convergences">14</dt><dd>Convergences</dd></div>
-          <div><dt data-home-stat="works">101</dt><dd>Academic works</dd></div>
-          <div><dt data-home-stat="extractions">573</dt><dd>Extractions</dd></div>
-          <div><dt data-home-stat="gaps">14</dt><dd>Gaps</dd></div>
-          <div><dt data-home-stat="researchers">63</dt><dd>Researchers</dd></div>
-          <div><dt data-home-stat="domains">22</dt><dd>Domains</dd></div>
-          <div><dt data-home-stat="empirical_demos">10</dt><dd>Empirical demonstrations</dd></div>
-          <div><dt data-home-stat="applications">8</dt><dd>Applications</dd></div>
-        </dl>
-        <p class="section-copy">Every claim traces to a primary source.</p>
-        <p class="section-foot"><a href="/atlas.html">Full state &rarr;</a></p>
-      </div>
-    </section>
+      <!-- ===================== TWO DOORS ===================== -->
+      <section class="doors" aria-labelledby="doors-h">
+        <h2 class="doors-h" id="doors-h">Two ways in</h2>
 
-    <section class="section section-soft" id="cases-strip">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Cases</span>
-          <h2>The same operation at every scale.</h2>
-          <p class="lede">One architecture. The same operation at every scale. Five recognizable situations, each read through mechanism, mismatch, and resolution condition.</p>
-        </div>
-        <div class="case-grid">
-          <article class="case-card">
-            <div class="case-meta">Case 01</div>
-            <h3>The AI companion trap</h3>
-            <p>A chatbot becomes the most responsive relationship in a lonely life, and the loneliness alarm goes quiet for the wrong reason.</p>
-            <a class="button button-link" href="/case/ai-companion.html">Read the case</a>
-          </article>
-          <article class="case-card">
-            <div class="case-meta">Case 02</div>
-            <h3>Instagram depression</h3>
-            <p>Status circuitry built for bounded groups is forced to compare upward against millions of algorithmically selected lives.</p>
-            <a class="button button-link" href="/case/instagram-depression.html">Read the case</a>
-          </article>
-          <article class="case-card">
-            <div class="case-meta">Case 03</div>
-            <h3>Parenting guilt</h3>
-            <p>A mother tries to do a five-person job alone, then mistakes accurate distress for personal failure.</p>
-            <a class="button button-link" href="/case/parenting-guilt.html">Read the case</a>
-          </article>
-          <article class="case-card">
-            <div class="case-meta">Case 04</div>
-            <h3>Grief without ritual</h3>
-            <p>Loss is compressed into a weekend, while the architecture still expects a communal program of months.</p>
-            <a class="button button-link" href="/case/grief-without-ritual.html">Read the case</a>
-          </article>
-          <article class="case-card">
-            <div class="case-meta">Case 05</div>
-            <h3>The synthetic childhood</h3>
-            <p>Developmental windows close on a world designed to hold attention, not on a world calibrated to what those systems evolved to need.</p>
-            <a class="button button-link" href="/case/synthetic-childhood.html">Read the case</a>
-          </article>
-        </div>
-      </div>
-    </section>
+        <div class="door-grid">
 
-  </main>
-  <footer data-include="/partials/footer.html"></footer>
-  <script src="/js/partials.js?v=2"></script>
-  <script src="/js/cor-data.js?v=3"></script>
+          <a class="door door-a" href="mechanisms.html">
+            <span class="door-idx" aria-hidden="true">A</span>
+            <span class="door-kicker">Reason about the organism</span>
+            <span class="door-title">Start from the systems</span>
+            <span class="door-desc">
+              Begin with the <b id="door-a-mech">motivational-emotional systems</b>.
+              Each one opens to its resolution conditions and, where it has been
+              derived, its proxy gradient.
+            </span>
+            <span class="door-go">Open the mechanisms<span class="ar" aria-hidden="true">-&gt;</span></span>
+          </a>
+
+          <a class="door door-b" href="derivation.html">
+            <span class="door-idx" aria-hidden="true">B</span>
+            <span class="door-kicker">See the derivation</span>
+            <span class="door-title">Read the stack</span>
+            <span class="door-desc">
+              The locked stack: Frame, Premise, Property, Consequence,
+              Convergences, Mechanisms. Each claim is forced from the layer
+              beneath it.
+            </span>
+            <span class="door-go">Open the derivation<span class="ar" aria-hidden="true">-&gt;</span></span>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- ===================== HONEST STATUS ===================== -->
+      <section class="status-note" aria-label="Project status">
+        <span class="sn-dia" aria-hidden="true"></span>
+        <p>
+          This is a v0 prototype atlas, a living specification. Every count above is
+          read live from the baked snapshot at load; nothing is hand-entered. Some
+          fields are finished and evidence-graded; some are still in progress. The
+          structure is fixed; the filling-in is ongoing.
+        </p>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" data-footer></footer>
+
+  </div>
+
+  <script src="js/snapshot-data.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/xref.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/home.js"></script>
+
+  <!-- Hero map: vendored markmap libs + the generated map source, rendered as a
+       compact interactive overview beside the hero (see js/hero-map.js). -->
+  <script defer src="vendor/d3.min.js"></script>
+  <script defer src="vendor/markmap-view.min.js"></script>
+  <script defer src="vendor/markmap-lib.min.js"></script>
+  <script defer src="js/mindmap-data.js"></script>
+  <script defer src="js/hero-map.js"></script>
 </body>
 </html>

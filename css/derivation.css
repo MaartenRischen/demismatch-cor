@@ -1,0 +1,268 @@
+/* ============================================================================
+   Cor Portal v2 - derivation view ("The Locked Stack").
+   Deliberately QUIETER than the mechanism views: the foundation under the
+   building, not the front door. Structure over decoration. Mono labels,
+   hairline rules, diamond separators, minimal colour. Oxblood / parchment /
+   muted carry the page; teal and gold appear only as small accents.
+   Builds on tokens.css + portal.css. No heavy graph - a clean layered stack.
+   ============================================================================ */
+
+/* ---------- intro ---------- */
+.deriv-intro { max-width: 70ch; margin-top: 4px; }
+.deriv-kicker {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--muted-warm);
+}
+.deriv-title {
+  font-weight: 500; font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.05;
+  color: var(--oxblood); letter-spacing: -.01em; margin: 10px 0 14px;
+}
+.deriv-lead {
+  font-weight: 300; font-size: clamp(.98rem, 1.7vw, 1.1rem); line-height: 1.62;
+  color: var(--oxblood-ink); max-width: 64ch;
+}
+/* second lede paragraph (how to read the stack) sits a touch lower, and reads
+   slightly quieter than the "what this is" paragraph above it */
+.deriv-lead-how { margin-top: .85em; color: var(--muted-warm, var(--oxblood-ink)); }
+
+/* jump nav - quiet mono pills */
+.deriv-jump {
+  display: flex; flex-wrap: wrap; gap: 6px 8px; margin-top: 22px;
+}
+.deriv-jump a {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--oxblood-ink); text-decoration: none;
+  padding: 5px 10px; border: 1px solid var(--border-soft); border-radius: 3px;
+  background: var(--parchment-soft);
+  transition: border-color var(--dur-fast) ease, color var(--dur-fast) ease, background var(--dur-fast) ease;
+}
+.deriv-jump a:hover { border-color: var(--teal); color: var(--oxblood); background: var(--parchment); }
+
+/* ---------- the stack: a left-edge layer rail ---------- */
+.stack { margin-top: 34px; }
+
+.layer-block { position: relative; margin: 0; }
+
+/* layer header: the spine marker - mono, restrained, anchorable */
+.layer-head {
+  position: relative;
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  padding: 26px 0 12px;
+  border-top: 1px solid var(--border-soft);
+  scroll-margin-top: 14px;
+}
+.layer-block:first-child .layer-head { border-top: none; padding-top: 4px; }
+.layer-num {
+  font-family: var(--mono); font-size: .62rem; letter-spacing: .14em;
+  color: var(--muted-warm); flex: 0 0 auto;
+}
+.layer-name {
+  font-family: var(--mono); font-size: .74rem; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--oxblood); font-weight: 500;
+}
+.layer-desc {
+  font-style: italic; font-weight: 300; font-size: .92rem; color: var(--oxblood-warm);
+  flex: 1 1 220px; min-width: 0; line-height: 1.45;
+}
+
+/* the rail body: a hairline spine on the left, nodes hung off it */
+.layer-rail {
+  position: relative; padding-left: 22px; margin-left: 4px;
+}
+.layer-rail::before {
+  content: ""; position: absolute; left: 0; top: 2px; bottom: 6px;
+  width: 1px; background: var(--border);
+}
+@media (min-width: 640px) { .layer-rail { padding-left: 30px; } }
+
+/* downward-forcing connector between layers */
+.forcing {
+  display: flex; align-items: center; gap: 9px;
+  font-family: var(--mono); font-size: .58rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--muted-warm);
+  padding: 14px 0 14px 4px;
+}
+.forcing .arr {
+  width: 1px; height: 16px; background: var(--border-strong); position: relative; flex: 0 0 auto;
+}
+.forcing .arr::after {
+  content: ""; position: absolute; left: -3px; bottom: -1px;
+  width: 7px; height: 7px; transform: rotate(45deg);
+  border-right: 1px solid var(--border-strong); border-bottom: 1px solid var(--border-strong);
+}
+
+/* ---------- a node (foundation) ---------- */
+.node {
+  position: relative; padding: 12px 0 16px;
+  border-bottom: 1px dashed var(--border-soft);
+  scroll-margin-top: 18px; /* per-foundation #deriv-<CODE> deep-link landing */
+}
+.node:last-child { border-bottom: none; }
+/* the diamond tie-in to the spine */
+.node::before {
+  content: ""; position: absolute; left: -22px; top: 19px;
+  width: 7px; height: 7px; transform: translateX(-3px) rotate(45deg);
+  background: var(--oxblood-warm); box-shadow: 0 0 0 3px var(--parchment);
+}
+@media (min-width: 640px) { .node::before { left: -30px; } }
+
+.node-top { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 12px; }
+.node-code {
+  font-family: var(--mono); font-size: .72rem; font-weight: 500; letter-spacing: .06em;
+  color: var(--parchment-soft); background: var(--oxblood); padding: 2px 8px;
+  border-radius: 3px; flex: 0 0 auto;
+}
+.node-name {
+  font-size: clamp(1.05rem, 2vw, 1.22rem); font-weight: 500; color: var(--oxblood);
+  line-height: 1.2; letter-spacing: -.005em;
+}
+.node-grade {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted-warm);
+  border: 1px solid var(--border-soft); padding: 2px 7px; border-radius: 3px;
+  align-self: center; white-space: nowrap;
+}
+.node-statement {
+  margin-top: 9px; font-size: .98rem; font-weight: 300; line-height: 1.55;
+  color: var(--oxblood-ink); max-width: 70ch; overflow-wrap: anywhere;
+}
+
+/* derivation line: the spine of the credibility story */
+.node-forced {
+  margin-top: 11px; display: flex; gap: 10px; align-items: flex-start;
+  max-width: 72ch;
+}
+.node-forced .lbl {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--teal); flex: 0 0 auto; padding-top: 2px;
+}
+.node-forced .txt {
+  font-size: .88rem; font-weight: 300; line-height: 1.55; color: var(--oxblood-warm);
+  overflow-wrap: anywhere;
+}
+
+/* scope note: subordinate, only when present */
+.node-scope {
+  margin-top: 9px; display: flex; gap: 10px; align-items: flex-start;
+  max-width: 72ch;
+}
+.node-scope .lbl {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted-warm); flex: 0 0 auto; padding-top: 2px;
+}
+.node-scope .txt {
+  font-size: .84rem; font-weight: 300; line-height: 1.5; color: var(--muted-warm);
+}
+
+/* enrichment paragraphs (additional_paragraphs): dormant unless the source
+   grows the field; rendered as body prose, never stubbed when absent */
+.node-more { margin-top: 11px; max-width: 72ch; }
+.node-more-para {
+  margin-top: 9px; font-size: .9rem; font-weight: 300; line-height: 1.6;
+  color: var(--oxblood-ink); overflow-wrap: anywhere;
+}
+.node-more-para:first-child { margin-top: 0; }
+
+/* invisible canonical foundation-layer anchor (deriv-<layer>); the visible
+   layer header keeps its own id for the in-page jump nav. Kept in flow but
+   zero-size so it neither shifts the header layout nor breaks anchor scroll. */
+.deriv-anchor {
+  position: absolute; top: 0; left: 0; width: 1px; height: 1px;
+  overflow: hidden; pointer-events: none;
+  scroll-margin-top: 14px;
+}
+
+/* ---------- convergence node (carries the route into mechanisms) ---------- */
+.cnode::before { background: var(--teal); }
+.cnode .node-code { background: var(--teal-deep); }
+
+.lits {
+  margin-top: 11px;
+}
+.lits-cap {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--muted-warm); margin-bottom: 6px;
+}
+.lits-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.lit-chip {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .01em;
+  color: var(--oxblood-ink); background: var(--parchment); padding: 3px 8px;
+  border: 1px solid var(--border-soft); border-radius: 3px;
+  line-height: 1.3; max-width: 100%; overflow-wrap: anywhere;
+}
+
+/* the forces -> mechanism route: the one place teal/gold earn their keep */
+.forces-mech {
+  margin-top: 13px; display: inline-flex; align-items: center; gap: 9px;
+  flex-wrap: wrap;
+}
+.forces-mech .fm-lbl {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted-warm);
+}
+.fm-link {
+  display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+  font-family: var(--mono); font-size: .72rem; color: var(--oxblood-ink);
+  background: var(--parchment); border: 1px solid var(--border);
+  padding: 4px 10px; border-radius: 3px;
+  transition: background var(--dur-fast) ease, border-color var(--dur-fast) ease, color var(--dur-fast) ease, transform var(--dur-fast) ease;
+}
+.fm-link .fm-code { color: var(--teal-deep); font-weight: 500; }
+.fm-link .fm-name { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: 0; }
+.fm-link .fm-ar { opacity: .5; }
+.fm-link:hover {
+  background: var(--oxblood); color: var(--parchment-soft); border-color: var(--oxblood);
+  transform: translateY(-1px);
+}
+.fm-link:hover .fm-code, .fm-link:hover .fm-name { color: var(--parchment-soft); }
+.fm-link:hover .fm-ar { opacity: .9; }
+
+/* convergences with no forced mechanism: calm, honest empty state */
+.fm-none {
+  margin-top: 13px; font-family: var(--mono); font-size: .6rem; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--muted-warm); font-style: normal;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.fm-none .dia { width: 5px; height: 5px; transform: rotate(45deg); background: var(--border-strong); flex: 0 0 auto; }
+
+/* ---------- mechanisms row: terminal layer ---------- */
+.mech-grid {
+  display: grid; grid-template-columns: 1fr; gap: 5px;
+}
+@media (min-width: 520px) { .mech-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 880px) { .mech-grid { grid-template-columns: 1fr 1fr 1fr; } }
+.mech-cell {
+  display: flex; align-items: baseline; gap: 10px; text-decoration: none;
+  padding: 9px 11px; border: 1px solid var(--border-soft); border-radius: 4px;
+  background: var(--parchment-soft);
+  transition: background var(--dur-fast) ease, border-color var(--dur-fast) ease, transform var(--dur-fast) ease;
+}
+.mech-cell .mc-code {
+  font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: .04em;
+  color: var(--muted-warm); flex: 0 0 30px;
+}
+.mech-cell .mc-name {
+  font-size: .92rem; font-weight: 400; color: var(--oxblood-ink); line-height: 1.25; min-width: 0;
+}
+.mech-cell .mc-ar { margin-left: auto; font-family: var(--mono); opacity: .35; flex: 0 0 auto; }
+.mech-cell:hover {
+  background: var(--parchment); border-color: var(--teal); transform: translateY(-1px);
+}
+.mech-cell:hover .mc-code { color: var(--teal-deep); }
+.mech-cell:hover .mc-ar { opacity: .7; }
+.mech-note {
+  margin-top: 14px; font-size: .9rem; font-weight: 300; line-height: 1.55;
+  color: var(--oxblood-warm); max-width: 68ch;
+}
+
+/* graceful empty state if a layer renders nothing */
+.layer-empty {
+  font-family: var(--mono); font-size: .72rem; color: var(--muted-warm);
+  font-style: italic; padding: 8px 0;
+}
+
+/* ---------- small screen ---------- */
+@media (max-width: 380px) {
+  .layer-rail { padding-left: 18px; }
+  .node::before { left: -18px; }
+}

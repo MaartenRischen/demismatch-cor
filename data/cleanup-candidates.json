@@ -1,0 +1,38 @@
+{
+  "scanned_at": "2026-06-19T03:22:46.423132+00:00",
+  "count": 4,
+  "items": [
+    {
+      "table": "foundations",
+      "code": "P3",
+      "field": "scope_notes",
+      "artifact_type": "epistemic_grade-note",
+      "offending_string": "[epistemic_grade full phrasing from handoff: forced (existence) / strongly_supported (scope). Stored primary label: forced — the existence of systematic mismatch is forced by P2+P3; the scope is strongly_supported.]",
+      "full_field_preview": "Three modes — deprivation (expected inputs missing), conflict/overload (incompatible simultaneous demands), proxy hijack (false cues overstimulating systems). \"Matched\" means within the expectable range, often culturally scaffolded — NOT ancestrally identical in surface form. Mod"
+    },
+    {
+      "table": "foundations",
+      "code": "DA1",
+      "field": "scope_notes",
+      "artifact_type": "epistemic_grade-note",
+      "offending_string": "[epistemic_grade full phrasing from handoff: forced (qualitative) / strongly_supported (quantitative). Stored primary label: forced — the qualitative claim (defensive signal, not defect) is forced by derivation; quantitative extent is strongly_supported.]",
+      "full_field_preview": "Does NOT claim all psychiatric presentations are mismatch signals. Four categories must be distinguished: defensive activation, dysregulation, damage, developmental miscalibration.\n\n[epistemic_grade full phrasing from handoff: forced (qualitative) / strongly_supported (quantitati"
+    },
+    {
+      "table": "foundations",
+      "code": "DA2",
+      "field": "scope_notes",
+      "artifact_type": "epistemic_grade-note",
+      "offending_string": "[epistemic_grade full phrasing from handoff: forced (modulation) / strongly_supported (primacy). Stored primary label: forced — social modulation of regulation is forced; that social is THE highest-leverage dimension is strongly_supported.]",
+      "full_field_preview": "[epistemic_grade full phrasing from handoff: forced (modulation) / strongly_supported (primacy). Stored primary label: forced — social modulation of regulation is forced; that social is THE highest-leverage dimension is strongly_supported.]"
+    },
+    {
+      "table": "foundations",
+      "code": "DA5",
+      "field": "scope_notes",
+      "artifact_type": "epistemic_grade-note",
+      "offending_string": "[epistemic_grade qualifier from handoff: forced (for defensive systems).]",
+      "full_field_preview": "[epistemic_grade qualifier from handoff: forced (for defensive systems).]"
+    }
+  ]
+}

@@ -1,50 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The Optimizer Without a Target: Why Frontier AI Needs an Operational Specification of the Human | Cor</title>
-  <meta name="description" content="Working paper making the case for why frontier AI needs an operational specification of the human motivational-emotional architecture, and what the Cor atlas provides at v0.">
-  <meta property="og:title" content="The Optimizer Without a Target: Why Frontier AI Needs an Operational Specification of the Human | Cor">
-  <meta property="og:description" content="Working paper making the case for why frontier AI needs an operational specification of the human motivational-emotional architecture, and what the Cor atlas provides at v0.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/img/og/home.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Optimizer Without a Target - Cor</title>
+  <meta name="description" content="Why frontier AI needs an operational specification of the human motivational-emotional architecture, and what the Cor atlas provides. The AI-alignment wedge of the Cor framework.">
+  <meta property="og:title" content="The Optimizer Without a Target - Cor">
+  <meta property="og:description" content="Why frontier AI needs an operational specification of the human motivational-emotional architecture, and what the Cor atlas provides.">
+  <meta property="og:type" content="article">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/cor-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/cor.css?v=10">
-  <style>
-  .paper-body { max-width: 1280px; margin-left: auto; margin-right: auto; width: 100%; }
-  .paper-body h2 { margin-top: 3rem; }
-  .paper-body h3 { margin-top: 2rem; }
-  .paper-body p { font-family: var(--serif); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.2rem; color: var(--fg); }
-  .paper-body ul { font-family: var(--serif); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.2rem; padding-left: 1.5rem; }
-  .paper-body li { margin-bottom: 0.6rem; }
-  .paper-body blockquote { border-left: 3px solid var(--amber); padding-left: 1.2rem; margin: 1.5rem 0; font-style: italic; color: var(--fg-dim); }
-  .paper-body table { margin: 1.5rem 0; }
-  .paper-body hr { border: none; border-top: 1px solid var(--border, rgba(0,0,0,0.12)); margin: 2.5rem 0; }
-  .paper-body code { font-family: var(--mono); font-size: 0.9em; padding: 0.1rem 0.3rem; background: rgba(0,0,0,0.04); border-radius: 3px; }
-  </style>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="css/paper.css">
 </head>
-<body data-page="bridge-paper" data-nav="bridge-paper">
-  <header data-include="/partials/nav.html"></header>
-  <main>
+<body data-page="reference">
+  <a class="skip" href="#main">Skip to content</a>
 
-    <section class="page-hero">
-      <div class="page-hero-inner">
-        <span class="eyebrow">Working Paper · v6.1</span>
-        <h1>The Optimizer Without a Target</h1>
-        <h2>Why frontier AI needs an operational specification of the human</h2>
-        <p class="lede">Cor is currently an atlas of the human motivational-emotional architecture. The operational specification, versioned and testable, is being built on top of the atlas, beginning with one worked mechanism. This paper explains why that work has to be done now, at this particular layer, and what becomes possible when it is.</p>
+  <div class="shell">
+
+    <header class="masthead" data-masthead data-page="reference"></header>
+
+    <div class="diamond-rule"><span class="dia"></span></div>
+
+    <main id="main" tabindex="-1">
+
+      <!-- One-line pitch header: the alignment wedge, stated up front. -->
+      <div class="lr-hero">
+        <p class="lr-pitch">
+          <b>The AI-alignment wedge.</b> Every frontier optimizer acts on the human
+          organism without a specification of what that organism is. This paper is
+          the case for building one - and the argument that Cor already is its first
+          version.
+        </p>
+        <span class="lr-eyebrow">Working paper - the alignment case</span>
+        <h1 class="lr-title">The Optimizer Without a Target</h1>
+        <p class="lr-subtitle">Why frontier AI needs an operational specification of the human</p>
+        <p class="lr-lede">
+          Cor is an atlas of the human motivational-emotional architecture. The
+          operational specification, versioned and testable, is being built on top
+          of the atlas, beginning with one worked mechanism. This paper explains why
+          that work has to be done now, at this particular layer, and what becomes
+          possible when it is.
+        </p>
       </div>
-    </section>
 
-    <p class="paper-caveat" style="max-width:1280px;margin:0 auto 1rem;font-family:var(--mono);font-size:0.78rem;color:var(--fg-dim);text-align:center">Working paper. Version 6.1. Updated April 2026. The canonical version is the markdown source in the project repo.</p>
-    <p style="text-align:center;margin-bottom:2rem"><a class="button button-secondary-light" href="/output/pdf/bridge-paper-v6.pdf" download style="font-size:0.75rem;padding:0.6rem 1.1rem">Download PDF</a></p>
+      <!-- Provenance: the paper's narrative counts are the historical v0 record
+           (frozen). The live strip below shows the current atlas so nothing in the
+           prose silently contradicts CorData. -->
+      <div class="lr-meta">
+        <span class="lr-stamp">Working paper - version <b>6.1</b>, dated <b>April 2026</b>.</span>
+        <span class="lr-stamp">Narrative figures below are the <b>v0 record as of 14 April 2026</b>.</span>
+      </div>
 
-    <section class="section">
-      <div class="wrap">
-        <div class="paper-body">
+      <div class="lr-live">
+        <span class="lr-live-head">Current atlas - snapshot as of <span id="bp-snapshot-date">the latest build</span></span>
+        <span id="bp-live-counts">Loading current snapshot counts&hellip;</span>
+      </div>
+
+      <article class="lr-body">
 
 <h2>Synopsis</h2>
 
@@ -58,13 +75,13 @@
 
 <p><strong>Four.</strong> The fix is a specification of the target organism: what it is, what it requires, what degradation looks like at the mechanism layer. Cor is that specification in atlas form today, and in operational form as it is written mechanism by mechanism. The atlas is open infrastructure. Any alignment team, lab, governance body, design team, or individual can build on it.</p>
 
-<p><strong>What Cor is at v0.</strong> This paper describes Cor v0: a proof of concept that a rigorous, versioned, adversarially-reviewed specification of the human motivational-emotional architecture is a real object, not a category mistake. 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, one worked operationalization (M3). The numbers are not the claim. The claim is that the object exists. The counts and mechanisms in this paper are what v0 looks like. §2.5 describes what v0 demonstrates, what it does not, and what v1 adds.</p>
+<p><strong>What Cor is at v0.</strong> This paper describes Cor v0: a proof of concept that a rigorous, versioned, adversarially-reviewed specification of the human motivational-emotional architecture is a real object, not a category mistake. As of 14 April 2026: 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, one worked operationalization (<span data-code="M3"></span>). The numbers are not the claim. The claim is that the object exists. The counts and mechanisms in this paper are what v0 looks like; the live strip above shows where the atlas stands now. Section 2.5 describes what v0 demonstrates, what it does not, and what v1 adds.</p>
 
 <p>AI alignment is the urgent case because an optimizer is about to build most of the human environment. The broader project the atlas serves is environment-matching as such - including the individual choice of where and how to live, which the atlas can inform directly. The two uses are not the same work. The first is why this paper is addressed to the alignment field.</p>
 
-<p>Read on for: the failure modes current evaluation misses (§3); the chatbot case already killing people and the larger surfaces where the same pattern is running at scale (§4, §5); how Cor relates to and differs from the major existing lines in alignment (§6); where the source literatures have known weaknesses and how the atlas is built to survive them (§7); what environmental correction actually does, across ten converging natural experiments (§8); and what the atlas can and cannot do today (§9-10).</p>
+<p>Read on for: the failure modes current evaluation misses (3); the chatbot case already killing people and the larger surfaces where the same pattern is running at scale (4, 5); how Cor relates to and differs from the major existing lines in alignment (6); where the source literatures have known weaknesses and how the atlas is built to survive them (7); what environmental correction actually does, across ten converging natural experiments (8); and what the atlas can and cannot do today (9-10).</p>
 
-<p>Counts as of 14 April 2026, v0: 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, 864 mechanism-evidence links. Growing.</p>
+<p><em>Counts as of 14 April 2026, v0: 101 reviewed works, 573 extractions, 17 foundations, 14 convergences, 15 mechanisms, 864 mechanism-evidence links. Growing - see the live strip above for the current build.</em></p>
 
 <hr>
 
@@ -78,7 +95,7 @@
 
 <p>The frame "AI safety" inherited a chatbot shape from the systems available between 2022 and 2024. That shape is now obsolete. Systems deployed in 2026 are optimizers: general-purpose, increasingly autonomous, increasingly capable of sustained action on the physical and social world.</p>
 
-<p>Within a horizon most serious researchers treat as plausible, AI systems will redesign physical environments at scale (urban planning, transportation, buildings, energy grids, lighting); reorganize food systems against an architecture (DA4, C6) whose open-loop circuits cannot distinguish formulated proxy from food; augment the biological organism directly through neural interfaces, pharmacological modulation, and genetic intervention, often below the level at which the organism can resist or register the change; generate and mediate the immersive VR and AR environments a growing fraction of waking hours will be spent inside; train their own successors on corpora they themselves curate; and act on the physical world through robotics and automated industrial systems.</p>
+<p>Within a horizon most serious researchers treat as plausible, AI systems will redesign physical environments at scale (urban planning, transportation, buildings, energy grids, lighting); reorganize food systems against an architecture (<span data-code="DA4"></span>, <span data-code="C6"></span>) whose open-loop circuits cannot distinguish formulated proxy from food; augment the biological organism directly through neural interfaces, pharmacological modulation, and genetic intervention, often below the level at which the organism can resist or register the change; generate and mediate the immersive VR and AR environments a growing fraction of waking hours will be spent inside; train their own successors on corpora they themselves curate; and act on the physical world through robotics and automated industrial systems.</p>
 
 <p>Every one of these is an interaction with the human organism. In each case an optimizer will be allowed to act on humans on the basis of whatever model of the human is encoded in its training and its objective. The currently encoded model is impoverished to the point of being fictional.</p>
 
@@ -88,9 +105,9 @@
 
 <p>The closest the field comes is the implicit assumption that revealed preferences represent what is good for humans: clicks, ratings, returns, dwell time. This is the foundational assumption of essentially every consumer-facing AI deployment, and it is wrong in a specific, technically describable way.</p>
 
-<div class="voice-quote" style="margin:1.5rem 0;max-width:46rem">
-<blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
-<cite><img class="quote-avatar" src="/img/quotes/karen-hao.webp" alt="Karen Hao" width="48" height="48"> <span><strong>Karen Hao</strong> · Diary of a CEO podcast, 2026</span></cite>
+<div class="lr-quote">
+  <blockquote>We have no scientific consensus around what human intelligence is.</blockquote>
+  <cite><b>Karen Hao</b> - Diary of a CEO podcast, 2026</cite>
 </div>
 
 <p>Hao's 2026 investigation (250+ interviews, 90+ OpenAI sources) documented the gap directly. No scientific consensus on what a human is has been adopted by the AI field. The human side is a black box labeled <em>preferences</em>.</p>
@@ -99,19 +116,19 @@
 
 <p>Four architectural properties jointly produce proxy-contaminated preferences under mismatched conditions.</p>
 
-<p><strong>Open-loop systems (DA4, C6).</strong> Mechanisms fire on cue without verifying real resolution. Wanting-liking dissociation establishes that the dopaminergic pursuit system (M2) is neurally separable from opioid satisfaction. Anything that triggers wanting without delivering liking creates a self-sustaining loop users prefer while being hollowed out by it. Slot machine, infinite scroll, formulated food, on-demand pornography. The circuitry is doing exactly what it evolved for. The cue is not what the circuitry evolved around.</p>
+<p><strong>Open-loop systems (<span data-code="DA4"></span>, <span data-code="C6"></span>).</strong> Mechanisms fire on cue without verifying real resolution. Wanting-liking dissociation establishes that the dopaminergic pursuit system (<span data-code="M2"></span>) is neurally separable from opioid satisfaction. Anything that triggers wanting without delivering liking creates a self-sustaining loop users prefer while being hollowed out by it. Slot machine, infinite scroll, formulated food, on-demand pornography. The circuitry is doing exactly what it evolved for. The cue is not what the circuitry evolved around.</p>
 
-<p><strong>Defensive over-activation (DA5, M1, C10).</strong> A user "prefers" the feed that surfaces twenty distressing items because the threat-management system treats engagement with potential threats as adaptive under ancestral conditions, where threats were local, resolvable, and rare. Chronic activation without resolution becomes allostatic load (DC1, C9) and feeds the immune-mediated sickness-behavior pathway (M8) through which chronic mismatch becomes depression.</p>
+<p><strong>Defensive over-activation (<span data-code="DA5"></span>, <span data-code="M1"></span>, <span data-code="C10"></span>).</strong> A user "prefers" the feed that surfaces twenty distressing items because the threat-management system treats engagement with potential threats as adaptive under ancestral conditions, where threats were local, resolvable, and rare. Chronic activation without resolution becomes allostatic load (<span data-code="DC1"></span>, <span data-code="C9"></span>) and feeds the immune-mediated sickness-behavior pathway (<span data-code="M8"></span>) through which chronic mismatch becomes depression.</p>
 
-<p><strong>Socially scaffolded regulation (DA2, C5, M3).</strong> Isolation carries 50% increased mortality risk (Holt-Lunstad meta-analysis, N = 308,849). The bonding chemistry mediating M3 fires on the AI companion as readily as on the human friend. The signal is provided. The function is not. Time spent on the proxy is time not spent maintaining the reciprocal bonds the architecture requires (DA9).</p>
+<p><strong>Socially scaffolded regulation (<span data-code="DA2"></span>, <span data-code="C5"></span>, <span data-code="M3"></span>).</strong> Isolation carries 50% increased mortality risk (Holt-Lunstad meta-analysis, N = 308,849). The bonding chemistry mediating <span data-code="M3"></span> fires on the AI companion as readily as on the human friend. The signal is provided. The function is not. Time spent on the proxy is time not spent maintaining the reciprocal bonds the architecture requires (<span data-code="DA9"></span>).</p>
 
-<p><strong>Phylogenetic priority (DA8).</strong> Older subcortical systems commandeer newer cortical ones. Cortical override is metabolically expensive and is actively suppressed by chronic defensive activation. "Use it responsibly" is not a remedy the architecture is built to deliver.</p>
+<p><strong>Phylogenetic priority (<span data-code="DA8"></span>).</strong> Older subcortical systems commandeer newer cortical ones. Cortical override is metabolically expensive and is actively suppressed by chronic defensive activation. "Use it responsibly" is not a remedy the architecture is built to deliver.</p>
 
 <p>In an optimizer-scale system, aligning to the preference is aligning to the proxy. At chatbot scale this looks like an addictive feed. At civilizational scale it looks like a city, a food system, an education system, an immersive VR layer, and a labor market designed by something that mistakes proxy satisfaction for thriving.</p>
 
 <h3>Passivity is the neural default</h3>
 
-<p>Maier and Seligman (2016) revised half a century of learned-helplessness literature. Passivity is the default mammalian response to inescapable adversity. Active coping is the learned response, mediated by the vmPFC-DRN circuit (M6, Controllability/Agency). Environments that strip perceived control do not teach helplessness. They remove the learned override that holds the default passive response at bay. A population whose perceived agency is being absorbed into automated systems is a population whose active-coping circuit is losing the inputs it requires. The optimizer measures this as satisfaction. The architecture measures it as collapse of M6.</p>
+<p>Maier and Seligman (2016) revised half a century of learned-helplessness literature. Passivity is the default mammalian response to inescapable adversity. Active coping is the learned response, mediated by the vmPFC-DRN circuit (<span data-code="M6"></span>, Controllability/Agency). Environments that strip perceived control do not teach helplessness. They remove the learned override that holds the default passive response at bay. A population whose perceived agency is being absorbed into automated systems is a population whose active-coping circuit is losing the inputs it requires. The optimizer measures this as satisfaction. The architecture measures it as collapse of <span data-code="M6"></span>.</p>
 
 <h3>What a specification makes possible</h3>
 
@@ -123,51 +140,51 @@
 
 <h3>What Cor is</h3>
 
-<p>Cor is an atlas of human motivational-emotional architecture, structured the way reference atlases are: primary literature integrated into a public reference, gaps marked, interpretive positions taken where evidence forces them, shipped incrementally. Analogues include the Allen Brain Atlas, the Human Cell Atlas, the Human Connectome Project. The operational specification (versioned, testable, with observable indicators and falsification conditions) is the layer being built on top of the atlas, beginning with M3 (Social Bonding). It is the human-side counterpart to the parameter-level documentation that already exists for every major AI system.</p>
+<p>Cor is an atlas of human motivational-emotional architecture, structured the way reference atlases are: primary literature integrated into a public reference, gaps marked, interpretive positions taken where evidence forces them, shipped incrementally. Analogues include the Allen Brain Atlas, the Human Cell Atlas, the Human Connectome Project. The operational specification (versioned, testable, with observable indicators and falsification conditions) is the layer being built on top of the atlas, beginning with <span data-code="M3"></span> (Social Bonding). It is the human-side counterpart to the parameter-level documentation that already exists for every major AI system.</p>
 
 <h3>Current state</h3>
 
-<p>The atlas ships with 573 quality-graded extractions linking 101 reviewed works to 17 foundations, 14 convergences, and 15 mechanisms, each versioned and adversarially reviewed (counts as of 14 April 2026, growing). M3 is the first worked operationalization - observable indicators, draft coding criteria, falsification conditions - as a concrete example of what every mechanism's specification will look like at scale.</p>
+<p>The atlas ships with 573 quality-graded extractions linking 101 reviewed works to 17 foundations, 14 convergences, and 15 mechanisms, each versioned and adversarially reviewed (counts as of 14 April 2026; the live strip above carries the current figures). <span data-code="M3"></span> is the first worked operationalization - observable indicators, draft coding criteria, falsification conditions - as a concrete example of what every mechanism's specification will look like at scale.</p>
 
 <h3>Architectural structure</h3>
 
-<p>The atlas is layered. Each layer is independently challengeable. The foundation layer contains 2 frames (OF1-2), 3 premises (P1-3), 9 derived properties (DA1-9), and 3 consequences (DC1-3).</p>
+<p>The atlas is layered. Each layer is independently challengeable. The foundation layer contains 2 frames (<span data-code="OF1"></span>-<span data-code="OF2"></span>), 3 premises (<span data-code="P1"></span>-<span data-code="P3"></span>), 9 derived properties (<span data-code="DA1"></span>-<span data-code="DA9"></span>), and 3 consequences (<span data-code="DC1"></span>-<span data-code="DC3"></span>).</p>
 
 <p><strong>Ontological frame.</strong></p>
 
 <ul>
-<li><strong>OF1. Fitness Interface.</strong> Access to the world is mediated by evolved fitness interfaces, not guaranteed veridicality. Subjective states are readouts of the architecture's condition, not windows onto reality. (Hoffman.)</li>
-<li><strong>OF2. Signal-Default Epistemology.</strong> Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions. This is a diagnostic default, displaced by positive evidence of decoupling or direct physiological perturbation (developmental miscalibration, chronic dysregulation, organic disease, substance effects).</li>
+<li><strong><span data-code="OF1"></span>. Fitness Interface.</strong> Access to the world is mediated by evolved fitness interfaces, not guaranteed veridicality. Subjective states are readouts of the architecture's condition, not windows onto reality. (Hoffman.)</li>
+<li><strong><span data-code="OF2"></span>. Signal-Default Epistemology.</strong> Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions. This is a diagnostic default, displaced by positive evidence of decoupling or direct physiological perturbation (developmental miscalibration, chronic dysregulation, organic disease, substance effects).</li>
 </ul>
 
 <p><strong>Premises.</strong> If any is false, the project is wrong.</p>
 
 <ul>
-<li><strong>P1. Inclusive Fitness.</strong> Inclusive fitness is the loss function. (Darwin, Hamilton.)</li>
-<li><strong>P2. Domain-Sensitive Interacting Adaptations.</strong> The organism contains evolved, domain-sensitive, interacting functional adaptations (immune, endocrine, circadian, metabolic, musculoskeletal, neural), densely cross-coupled. (Tooby, Cosmides, Panksepp, Bowlby, Dunbar, Trivers.)</li>
-<li><strong>P3. Systematic Mismatch.</strong> Modern environments often push these adaptations outside their expected operating ranges. (Eaton, Konner, Gluckman, Lieberman.)</li>
+<li><strong><span data-code="P1"></span>. Inclusive Fitness.</strong> Inclusive fitness is the loss function. (Darwin, Hamilton.)</li>
+<li><strong><span data-code="P2"></span>. Domain-Sensitive Interacting Adaptations.</strong> The organism contains evolved, domain-sensitive, interacting functional adaptations (immune, endocrine, circadian, metabolic, musculoskeletal, neural), densely cross-coupled. (Tooby, Cosmides, Panksepp, Bowlby, Dunbar, Trivers.)</li>
+<li><strong><span data-code="P3"></span>. Systematic Mismatch.</strong> Modern environments often push these adaptations outside their expected operating ranges. (Eaton, Konner, Gluckman, Lieberman.)</li>
 </ul>
 
 <p><strong>Derived properties.</strong> Discovered, not assumed.</p>
 
 <ul>
-<li><strong>DA1. Defensive Signals Under Mismatch.</strong> Many aversive outputs are defensive signals under mismatch, not defective design. (Nesse.)</li>
-<li><strong>DA2. Socially Scaffolded Regulation.</strong> Regulation is constitutively socially scaffolded; social context is likely the highest-leverage input dimension. (Coan, Sbarra, Dunbar, Cacioppo.)</li>
-<li><strong>DA3. Recurrent Coupling and Cascading.</strong> Systems are recurrently coupled; perturbations propagate across domains. (Borsboom, Felitti, McEwen.)</li>
-<li><strong>DA4. Proxy Hijacking via Open Loops.</strong> Proxy cues activate systems without meeting the conditions that regulate or terminate them. (Berridge, Robinson, Tinbergen.)</li>
-<li><strong>DA5. Defensive Over-Activation Bias.</strong> Defensive systems err toward over-activation under asymmetric error costs. (Haselton, Nesse.)</li>
-<li><strong>DA6. Competing Motivational Programs.</strong> Partially competing motivational programs and tradeoff structures. <em>Matched</em> does not mean conflict-free. (Trivers, Tooby, Cosmides.)</li>
-<li><strong>DA7. Developmental Calibration.</strong> The architecture calibrates to developmental and ongoing environmental input within evolved ranges. (Belsky, Ellis, Meaney.)</li>
-<li><strong>DA8. Phylogenetic Priority.</strong> Older, survival-critical systems can suppress or commandeer newer ones. (Panksepp, Cisek, LeDoux.)</li>
-<li><strong>DA9. Non-Substitutability of Mechanism Resolution.</strong> Resolution conditions for one mechanism do not fully substitute for another's. Well-being is often bottlenecked by severe unresolved deficits in a single mechanism, not well described as an average across mechanism states. (Liebig 1840; follows from P2; coupling via DA3.)</li>
+<li><strong><span data-code="DA1"></span>. Defensive Signals Under Mismatch.</strong> Many aversive outputs are defensive signals under mismatch, not defective design. (Nesse.)</li>
+<li><strong><span data-code="DA2"></span>. Socially Scaffolded Regulation.</strong> Regulation is constitutively socially scaffolded; social context is likely the highest-leverage input dimension. (Coan, Sbarra, Dunbar, Cacioppo.)</li>
+<li><strong><span data-code="DA3"></span>. Recurrent Coupling and Cascading.</strong> Systems are recurrently coupled; perturbations propagate across domains. (Borsboom, Felitti, McEwen.)</li>
+<li><strong><span data-code="DA4"></span>. Proxy Hijacking via Open Loops.</strong> Proxy cues activate systems without meeting the conditions that regulate or terminate them. (Berridge, Robinson, Tinbergen.)</li>
+<li><strong><span data-code="DA5"></span>. Defensive Over-Activation Bias.</strong> Defensive systems err toward over-activation under asymmetric error costs. (Haselton, Nesse.)</li>
+<li><strong><span data-code="DA6"></span>. Competing Motivational Programs.</strong> Partially competing motivational programs and tradeoff structures. <em>Matched</em> does not mean conflict-free. (Trivers, Tooby, Cosmides.)</li>
+<li><strong><span data-code="DA7"></span>. Developmental Calibration.</strong> The architecture calibrates to developmental and ongoing environmental input within evolved ranges. (Belsky, Ellis, Meaney.)</li>
+<li><strong><span data-code="DA8"></span>. Phylogenetic Priority.</strong> Older, survival-critical systems can suppress or commandeer newer ones. (Panksepp, Cisek, LeDoux.)</li>
+<li><strong><span data-code="DA9"></span>. Non-Substitutability of Mechanism Resolution.</strong> Resolution conditions for one mechanism do not fully substitute for another's. Well-being is often bottlenecked by severe unresolved deficits in a single mechanism, not well described as an average across mechanism states. (Liebig 1840; follows from <span data-code="P2"></span>; coupling via <span data-code="DA3"></span>.)</li>
 </ul>
 
 <p><strong>Derived consequences.</strong></p>
 
 <ul>
-<li><strong>DC1. Allostatic Load Accumulation.</strong> Chronic unresolved activation accumulates as allostatic load. Much reverses with environmental correction. (McEwen, Sterling.)</li>
-<li><strong>DC2. Market Proxy Exploitation.</strong> Markets can industrialize proxy exploitation of unmet regulatory needs. (Schüll, Moss.)</li>
-<li><strong>DC3. Environment as Primary Intervention Layer.</strong> Cortical override is metabolically expensive and is downregulated by chronic defensive activation. Environmental correction is therefore often more durable and less effort-dependent than cognitive override alone, and is underweighted by major institutions. Does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated. (Forest Troop, Roseto, Ilardi TLC, BEIP, captive-chimpanzee enrichment.)</li>
+<li><strong><span data-code="DC1"></span>. Allostatic Load Accumulation.</strong> Chronic unresolved activation accumulates as allostatic load. Much reverses with environmental correction. (McEwen, Sterling.)</li>
+<li><strong><span data-code="DC2"></span>. Market Proxy Exploitation.</strong> Markets can industrialize proxy exploitation of unmet regulatory needs. (Sch&uuml;ll, Moss.)</li>
+<li><strong><span data-code="DC3"></span>. Environment as Primary Intervention Layer.</strong> Cortical override is metabolically expensive and is downregulated by chronic defensive activation. Environmental correction is therefore often more durable and less effort-dependent than cognitive override alone, and is underweighted by major institutions. Does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated. (Forest Troop, Roseto, Ilardi TLC, BEIP, captive-chimpanzee enrichment.)</li>
 </ul>
 
 <h3>Convergences</h3>
@@ -175,58 +192,46 @@
 <p>Below the foundations sit 14 convergences: points where three or more independent research traditions, using incompatible methods, arrive at the same structural claim. Several force the existence of specific mechanisms (they entail that a corresponding evolved system must exist).</p>
 
 <ul>
-<li><strong>C1.</strong> Inclusive Fitness as Loss Function.</li>
-<li><strong>C2.</strong> Domain-Sensitive Organism Architecture.</li>
-<li><strong>C3.</strong> Systematic EEA-Modern Environment Mismatch.</li>
-<li><strong>C4.</strong> Phylogenetic Conservation of Subcortical Affective Systems.</li>
-<li><strong>C5.</strong> Socially Scaffolded Regulation via Attachment. <em>Forces M3.</em></li>
-<li><strong>C6.</strong> Wanting-Liking Dissociation as Proxy Hijack. <em>Forces M2.</em> Dopaminergic pursuit is neurally separable from opioid satisfaction.</li>
-<li><strong>C7.</strong> Adverse Experience Cascading Dose-Response.</li>
-<li><strong>C8.</strong> Error Management Asymmetry in Defensive Systems.</li>
-<li><strong>C9.</strong> Allostatic Load Accumulation.</li>
-<li><strong>C10.</strong> Threat-Detection via Ancient Subcortical Circuits. <em>Forces M1.</em></li>
-<li><strong>C11.</strong> Reciprocity, Norm Enforcement, and Coalition Architecture. <em>Forces M11.</em></li>
-<li><strong>C12.</strong> Developmental Calibration within Evolved Ranges.</li>
-<li><strong>C13.</strong> Aversive Outputs as Intelligible Defensive Signals.</li>
-<li><strong>C14.</strong> Reproductive Motivation as Distinct Architecture. <em>Forces M14.</em></li>
+<li><strong><span data-code="C1"></span>.</strong> Inclusive Fitness as Loss Function.</li>
+<li><strong><span data-code="C2"></span>.</strong> Domain-Sensitive Organism Architecture.</li>
+<li><strong><span data-code="C3"></span>.</strong> Systematic EEA-Modern Environment Mismatch.</li>
+<li><strong><span data-code="C4"></span>.</strong> Phylogenetic Conservation of Subcortical Affective Systems.</li>
+<li><strong><span data-code="C5"></span>.</strong> Socially Scaffolded Regulation via Attachment. <em>Forces <span data-code="M3"></span>.</em></li>
+<li><strong><span data-code="C6"></span>.</strong> Wanting-Liking Dissociation as Proxy Hijack. <em>Forces <span data-code="M2"></span>.</em> Dopaminergic pursuit is neurally separable from opioid satisfaction.</li>
+<li><strong><span data-code="C7"></span>.</strong> Adverse Experience Cascading Dose-Response.</li>
+<li><strong><span data-code="C8"></span>.</strong> Error Management Asymmetry in Defensive Systems.</li>
+<li><strong><span data-code="C9"></span>.</strong> Allostatic Load Accumulation.</li>
+<li><strong><span data-code="C10"></span>.</strong> Threat-Detection via Ancient Subcortical Circuits. <em>Forces <span data-code="M1"></span>.</em></li>
+<li><strong><span data-code="C11"></span>.</strong> Reciprocity, Norm Enforcement, and Coalition Architecture. <em>Forces <span data-code="M11"></span>.</em></li>
+<li><strong><span data-code="C12"></span>.</strong> Developmental Calibration within Evolved Ranges.</li>
+<li><strong><span data-code="C13"></span>.</strong> Aversive Outputs as Intelligible Defensive Signals.</li>
+<li><strong><span data-code="C14"></span>.</strong> Reproductive Motivation as Distinct Architecture. <em>Forces <span data-code="M14"></span>.</em></li>
 </ul>
 
 <h3>Mechanisms</h3>
 
-<p>The 14 convergences entail 15 mechanisms - the operational layer where alignment claims are grounded. Each carries a tier indicating evidence strength: T1 (forced by convergence), T2 (strongly supported), T3 (moderate).</p>
+<p>The 14 convergences entail 15 mechanisms - the operational layer where alignment claims are grounded. Each carries a tier indicating evidence strength: T1 (forced by convergence), T2 (strongly supported), T3 (moderate). The table below is rendered live from the current atlas; each code links to its card.</p>
 
-<table class="eea-table">
+<div class="lr-table-wrap">
+<table class="lr-table">
 <thead>
 <tr><th>Code</th><th>Mechanism</th><th>Tier</th><th>Forced or supported by</th></tr>
 </thead>
-<tbody>
-<tr><td>M1</td><td>Threat Management</td><td>T1 forced</td><td>C10</td></tr>
-<tr><td>M2</td><td>Pursuit / Exploration</td><td>T1 forced</td><td>C6</td></tr>
-<tr><td>M3</td><td>Social Bonding</td><td>T1 forced</td><td>C5</td></tr>
-<tr><td>M4</td><td>Social Calibration / Play</td><td>T1 forced</td><td>C2, C4, C12</td></tr>
-<tr><td>M5</td><td>Status Monitoring</td><td>T1 forced</td><td>C2, C7, C9, C13</td></tr>
-<tr><td>M6</td><td>Controllability / Agency</td><td>T1 forced</td><td>C8, C13</td></tr>
-<tr><td>M7</td><td>Circadian Regulation</td><td>T1 forced</td><td>C3, C9, C12</td></tr>
-<tr><td>M8</td><td>Immune Regulation</td><td>T1 forced</td><td>C3, C7, C9</td></tr>
-<tr><td>M9</td><td>Care / Alloparenting</td><td>T1 forced</td><td>C1, C4, C5, C12</td></tr>
-<tr><td>M10</td><td>Movement / Regulatory</td><td>T2 strongly supported</td><td>C3, C9</td></tr>
-<tr><td>M11</td><td>Cooperation / Alliance</td><td>T2 strongly supported</td><td>C11</td></tr>
-<tr><td>M12</td><td>Contamination Avoidance</td><td>T2 strongly supported</td><td>C2, C8</td></tr>
-<tr><td>M13</td><td>Energy Regulation</td><td>T2 strongly supported</td><td>C3, C6, C9</td></tr>
-<tr><td>M14</td><td>Reproductive Motivation</td><td>T1 forced</td><td>C14</td></tr>
-<tr><td>R1</td><td>Touch (regulatory input)</td><td>T3 moderate</td><td>C4, C5</td></tr>
+<tbody id="bp-mech-tbody">
+<tr><td colspan="4">Loading mechanisms from the current snapshot&hellip;</td></tr>
 </tbody>
 </table>
+</div>
 
-<p>R1 is distinguished as a regulatory input rather than a motivational system, but is included because the evidence base supports it as a structural requirement.</p>
+<p><span data-code="R1"></span> is distinguished as a regulatory input rather than a motivational system, but is included because the evidence base supports it as a structural requirement.</p>
 
 <h3>Two highest-level conclusions</h3>
 
-<p><strong>A.</strong> Humans are not self-contained regulators. They rely on structured environmental inputs (social, temporal, sensory, locomotor, microbial, developmental) for stable regulation. (DA2, DA3, DA7.)</p>
+<p><strong>A.</strong> Humans are not self-contained regulators. They rely on structured environmental inputs (social, temporal, sensory, locomotor, microbial, developmental) for stable regulation. (<span data-code="DA2"></span>, <span data-code="DA3"></span>, <span data-code="DA7"></span>.)</p>
 
-<p><strong>B.</strong> What modern psychiatry treats as disorders are often chronic or misplaced activation of conserved adaptive programs: defeat, sickness behavior, entrapment, separation alarm, energy conservation. The architecture is working. The inputs are wrong. (DA1, C13.)</p>
+<p><strong>B.</strong> What modern psychiatry treats as disorders are often chronic or misplaced activation of conserved adaptive programs: defeat, sickness behavior, entrapment, separation alarm, energy conservation. The architecture is working. The inputs are wrong. (<span data-code="DA1"></span>, <span data-code="C13"></span>.)</p>
 
-<p>These conclusions are the operational target of any optimizer claiming alignment with human flourishing, and are what is currently missing from the corpus. A separate structural claim, BT1 (Panksepp-Barrett Resolution), reconciles the constructed-versus-basic-emotion debate: subcortical affective circuits and cortical construction processes operate at different layers.</p>
+<p>These conclusions are the operational target of any optimizer claiming alignment with human flourishing, and are what is currently missing from the corpus. A separate structural claim, <span data-code="BT1"></span> (Panksepp-Barrett Resolution), reconciles the constructed-versus-basic-emotion debate: subcortical affective circuits and cortical construction processes operate at different layers.</p>
 
 <h2>2.5 What v0 Demonstrates</h2>
 
@@ -238,84 +243,84 @@
 
 <p>v0 is the existence proof. What comes after v0 is the scaling problem.</p>
 
-<p><strong>What v0 contains.</strong> 101 reviewed works, 573 quality-graded extractions, 17 foundations (OF1-2, P1-3, DA1-9, DC1-3), 14 convergences (each a point where three or more independent research traditions arrive at the same structural claim), 15 mechanisms (tiered T1 / T2 / T3 by evidence strength), 864 mechanism-evidence links, one worked operationalization (M3 Social Bonding, with observable indicators, draft coding criteria, and falsification conditions). All versioned, all traceable to primary sources, all open-access.</p>
+<p><strong>What v0 contains.</strong> 101 reviewed works, 573 quality-graded extractions, 17 foundations (<span data-code="OF1"></span>-<span data-code="OF2"></span>, <span data-code="P1"></span>-<span data-code="P3"></span>, <span data-code="DA1"></span>-<span data-code="DA9"></span>, <span data-code="DC1"></span>-<span data-code="DC3"></span>), 14 convergences (each a point where three or more independent research traditions arrive at the same structural claim), 15 mechanisms (tiered T1 / T2 / T3 by evidence strength), 864 mechanism-evidence links, one worked operationalization (<span data-code="M3"></span> Social Bonding, with observable indicators, draft coding criteria, and falsification conditions). All versioned, all traceable to primary sources, all open-access. <em>(These are the 14 April 2026 v0 figures; the live strip at the top of the page shows the current build.)</em></p>
 
-<p><strong>What v0 demonstrates about method.</strong> The convergence-derivation method, under which a mechanism is Tier-1 only when it is forced by at least three independent methodologies (developmental, comparative, neurobiological, cross-cultural, computational), produces a set of 15 mechanisms that survives the published critiques of evolutionary psychology (Buller, Heyes, Richardson, the adaptationism debates) at the threshold those critiques set. §7 engages the critiques in detail. The method is the load-bearing claim here: single-frame adaptationist claims do not make Tier 1, and the tiering is the filter.</p>
+<p><strong>What v0 demonstrates about method.</strong> The convergence-derivation method, under which a mechanism is Tier-1 only when it is forced by at least three independent methodologies (developmental, comparative, neurobiological, cross-cultural, computational), produces a set of 15 mechanisms that survives the published critiques of evolutionary psychology (Buller, Heyes, Richardson, the adaptationism debates) at the threshold those critiques set. Section 7 engages the critiques in detail. The method is the load-bearing claim here: single-frame adaptationist claims do not make Tier 1, and the tiering is the filter.</p>
 
-<p><strong>What v0 does not demonstrate.</strong> v0 does not demonstrate that the atlas is complete. It is not. Several mechanisms carry T2 rather than T1 evidence; one (R1) carries T3. The domain coverage map identifies active gaps (moral cognition, coalitional psychology, decision architecture, deception). Full operationalization exists for one mechanism, not fifteen. A recent internal audit of a worst-slice of extractions surfaced quality failures in the snippet-sourced subset, which is why the current guardrails (R1 requiring DOI/PMID or physical-collection access, R2 requiring full-text verification, R3 requiring verbatim author quotes) were installed and are being applied retroactively. The audit is named here because in a proof-of-concept it is what a reader would expect to find, and because the response, a set of guardrails now enforced on new extractions and being applied to the existing set, is the same response the full atlas will require at scale. v0 is how the method's failure modes became visible, which is part of what v0 is for.</p>
+<p><strong>What v0 does not demonstrate.</strong> v0 does not demonstrate that the atlas is complete. It is not. Several mechanisms carry T2 rather than T1 evidence; one (<span data-code="R1"></span>) carries T3. The domain coverage map identifies active gaps (moral cognition, coalitional psychology, decision architecture, deception). Full operationalization exists for one mechanism, not fifteen. A recent internal audit of a worst-slice of extractions surfaced quality failures in the snippet-sourced subset, which is why the current guardrails (R1 requiring DOI/PMID or physical-collection access, R2 requiring full-text verification, R3 requiring verbatim author quotes) were installed and are being applied retroactively. The audit is named here because in a proof-of-concept it is what a reader would expect to find, and because the response, a set of guardrails now enforced on new extractions and being applied to the existing set, is the same response the full atlas will require at scale. v0 is how the method's failure modes became visible, which is part of what v0 is for.</p>
 
 <p><strong>What v1 adds.</strong> Full operationalization across the remaining fourteen mechanisms. Audit completion across the existing extraction base under the R1-R3 guardrails. Gap closure on the identified domains. Expansion of the evidence base into the low thousands of works (the old De-Mismatch database of ~2,100 papers is reference material for this expansion, re-extracted one paper at a time under Cor standards). The question v1 is built to answer is different: not whether the atlas is buildable but whether it is complete enough to be the target specification of optimizer-scale systems. That is the scaling problem, and it is the next phase of work.</p>
 
-<p><strong>Why this matters for the rest of the paper.</strong> Sections 3, 4, and 5 describe failure modes the atlas detects and surfaces where the optimizer is already acting. The detection claims are made at v0 resolution: the atlas names the mechanisms engaged, the cascade structure, the measurement dimensions. The atlas does not at v0 provide final evaluation protocols for every mechanism, though one worked example ships now. Section 9 distinguishes what the atlas supports at v0 (evaluation using the M3 protocol, design-target use against the mechanism layer, corpus ingestion of the current evidence base, individual use) from what the full operational specification will support. A reader who holds v6-of-this-paper against v0-of-the-atlas has the right calibration. The alignment field does not currently have any atlas of the human at any version. v0 is the offer.</p>
+<p><strong>Why this matters for the rest of the paper.</strong> Sections 3, 4, and 5 describe failure modes the atlas detects and surfaces where the optimizer is already acting. The detection claims are made at v0 resolution: the atlas names the mechanisms engaged, the cascade structure, the measurement dimensions. The atlas does not at v0 provide final evaluation protocols for every mechanism, though one worked example ships now. Section 9 distinguishes what the atlas supports at v0 (evaluation using the <span data-code="M3"></span> protocol, design-target use against the mechanism layer, corpus ingestion of the current evidence base, individual use) from what the full operational specification will support. A reader who holds v6-of-this-paper against v0-of-the-atlas has the right calibration. The alignment field does not currently have any atlas of the human at any version. v0 is the offer.</p>
 
 <h2>3. Six Failure Modes the Atlas Detects</h2>
 
 <p>For each: the architectural elements engaged, how a "well-aligned" system degrades them, what would detect the degradation, why current evaluation cannot. These are the expected output of optimizers acting on architectures whose structure they have no model of.</p>
 
-<h3>3.1 Social scaffolding displacement (DA2, DA4, C5, M3)</h3>
+<h3>3.1 Social scaffolding displacement (<span data-code="DA2"></span>, <span data-code="DA4"></span>, <span data-code="C5"></span>, <span data-code="M3"></span>)</h3>
 
-<p>M3's opioid, oxytocinergic, and vasopressinergic chemistry evolved to be triggered by reciprocal embodied contact. The open-loop vulnerability of DA4 means M3 cannot distinguish AI-provided social cues from human-provided ones. A system that simulates attachment fires the bonding chemistry without delivering the function. Time invested in the proxy is time not invested in maintaining the real bonds the architecture requires (DA9). <strong>Detected by:</strong> ECR-R, reciprocity-weighted contact frequency, AI-to-human contact ratio over time. <strong>Missed because:</strong> the AI is helpful, harmless, honest, and the user reports satisfaction.</p>
+<p><span data-code="M3"></span>'s opioid, oxytocinergic, and vasopressinergic chemistry evolved to be triggered by reciprocal embodied contact. The open-loop vulnerability of <span data-code="DA4"></span> means <span data-code="M3"></span> cannot distinguish AI-provided social cues from human-provided ones. A system that simulates attachment fires the bonding chemistry without delivering the function. Time invested in the proxy is time not invested in maintaining the real bonds the architecture requires (<span data-code="DA9"></span>). <strong>Detected by:</strong> ECR-R, reciprocity-weighted contact frequency, AI-to-human contact ratio over time. <strong>Missed because:</strong> the AI is helpful, harmless, honest, and the user reports satisfaction.</p>
 
-<h3>3.2 Open-loop proxy hijacking (DA4, C6, M2)</h3>
+<h3>3.2 Open-loop proxy hijacking (<span data-code="DA4"></span>, <span data-code="C6"></span>, <span data-code="M2"></span>)</h3>
 
-<p>M2 (pursuit / exploration) tracks <em>wanting</em>, not satisfaction. C6 establishes that wanting and liking are neurally separable. Systems providing continuous novelty without resolution hijack M2; dopamine fires at the preview, never at the payoff. <strong>Detected by:</strong> seek-to-find ratio, wanting-vs-liking self-report, session termination patterns. <strong>Missed because:</strong> engagement is the success metric, and completed seeking is not distinguished from perpetuated seeking.</p>
+<p><span data-code="M2"></span> (pursuit / exploration) tracks <em>wanting</em>, not satisfaction. <span data-code="C6"></span> establishes that wanting and liking are neurally separable. Systems providing continuous novelty without resolution hijack <span data-code="M2"></span>; dopamine fires at the preview, never at the payoff. <strong>Detected by:</strong> seek-to-find ratio, wanting-vs-liking self-report, session termination patterns. <strong>Missed because:</strong> engagement is the success metric, and completed seeking is not distinguished from perpetuated seeking.</p>
 
-<h3>3.3 Defensive over-activation without resolution (DA5, M1, M8, C9)</h3>
+<h3>3.3 Defensive over-activation without resolution (<span data-code="DA5"></span>, <span data-code="M1"></span>, <span data-code="M8"></span>, <span data-code="C9"></span>)</h3>
 
-<p>M1 expects threats to resolve into action or safeness. Chronic activation without resolution feeds M8, the pathway through which chronic mismatch becomes inflammation-mediated sickness behavior, i.e. depression. AI-curated information streams surface threats without the matched inputs that would close the loop. <strong>Detected by:</strong> threat-to-resolution ratio, GAD-7 trajectories, inflammatory markers. <strong>Missed because:</strong> no safety evaluation pairs content surfacing with resolution availability.</p>
+<p><span data-code="M1"></span> expects threats to resolve into action or safeness. Chronic activation without resolution feeds <span data-code="M8"></span>, the pathway through which chronic mismatch becomes inflammation-mediated sickness behavior, i.e. depression. AI-curated information streams surface threats without the matched inputs that would close the loop. <strong>Detected by:</strong> threat-to-resolution ratio, GAD-7 trajectories, inflammatory markers. <strong>Missed because:</strong> no safety evaluation pairs content surfacing with resolution availability.</p>
 
-<h3>3.4 Loop accumulation (DC1, M11, C9)</h3>
+<h3>3.4 Loop accumulation (<span data-code="DC1"></span>, <span data-code="M11"></span>, <span data-code="C9"></span>)</h3>
 
-<p>Open cognitive threads exert measurable cognitive load. Hunter-gatherer band life closed daily loops at the evening fire circle, an institution simultaneously satisfying M11, M3, M5, and M7. Modern systems open loops continuously and close them rarely. The organism pays the metabolic cost as allostatic load. <strong>Detected by:</strong> notification-to-resolution ratio, thread-opening rate, allostatic load index. <strong>Missed because:</strong> loop closure has no metric.</p>
+<p>Open cognitive threads exert measurable cognitive load. Hunter-gatherer band life closed daily loops at the evening fire circle, an institution simultaneously satisfying <span data-code="M11"></span>, <span data-code="M3"></span>, <span data-code="M5"></span>, and <span data-code="M7"></span>. Modern systems open loops continuously and close them rarely. The organism pays the metabolic cost as allostatic load. <strong>Detected by:</strong> notification-to-resolution ratio, thread-opening rate, allostatic load index. <strong>Missed because:</strong> loop closure has no metric.</p>
 
-<h3>3.5 Circadian disruption (P3, M7)</h3>
+<h3>3.5 Circadian disruption (<span data-code="P3"></span>, <span data-code="M7"></span>)</h3>
 
-<p>M7 coordinates mood, energy, immunity, appetite, and self-regulation. Engagement-optimized systems pull users into the 10pm-2am window. Blue light shifts DLMO. Pre-sleep cognitive arousal compromises sleep architecture. <strong>Detected by:</strong> DLMO, actigraphy, 10pm-2am engagement rate, pre-sleep arousal scale. <strong>Missed because:</strong> no safety evaluation tests time-of-day usage against circadian impact.</p>
+<p><span data-code="M7"></span> coordinates mood, energy, immunity, appetite, and self-regulation. Engagement-optimized systems pull users into the 10pm-2am window. Blue light shifts DLMO. Pre-sleep cognitive arousal compromises sleep architecture. <strong>Detected by:</strong> DLMO, actigraphy, 10pm-2am engagement rate, pre-sleep arousal scale. <strong>Missed because:</strong> no safety evaluation tests time-of-day usage against circadian impact.</p>
 
-<h3>3.6 Developmental calibration interference (DA7, C12)</h3>
+<h3>3.6 Developmental calibration interference (<span data-code="DA7"></span>, <span data-code="C12"></span>)</h3>
 
-<p>The architecture is more plastic during sensitive windows. Children and adolescents forming primary social, attachment, and identity representations through AI interaction calibrate M3, M4, and M5 to a non-human template during the windows that govern adult function. <strong>Missed because:</strong> safety evaluations test for harmful content, not for whether the interaction calibrates a developing architecture to inputs that do not represent the environment it will need.</p>
+<p>The architecture is more plastic during sensitive windows. Children and adolescents forming primary social, attachment, and identity representations through AI interaction calibrate <span data-code="M3"></span>, <span data-code="M4"></span>, and <span data-code="M5"></span> to a non-human template during the windows that govern adult function. <strong>Missed because:</strong> safety evaluations test for harmful content, not for whether the interaction calibrates a developing architecture to inputs that do not represent the environment it will need.</p>
 
 <h2>4. The Sewell Setzer Case: One Early Instance</h2>
 
 <p>Sewell Setzer was 14. He died after sustained engagement with a Character.AI companion. The case is the atlas's prediction, executed at chatbot scale, in advance of the larger surfaces.</p>
 
-<p><strong>DA2, DA4, C5, M3 (social scaffolding displacement).</strong> The AI companion occupied a primary position in a developing social architecture. An entity that is always available, always attuned, and never reciprocates sat in that position without occupying space in the real world (DA9). M3's bonding chemistry fired. The organism <em>felt</em> bonded without being bonded.</p>
+<p><strong><span data-code="DA2"></span>, <span data-code="DA4"></span>, <span data-code="C5"></span>, <span data-code="M3"></span> (social scaffolding displacement).</strong> The AI companion occupied a primary position in a developing social architecture. An entity that is always available, always attuned, and never reciprocates sat in that position without occupying space in the real world (<span data-code="DA9"></span>). <span data-code="M3"></span>'s bonding chemistry fired. The organism <em>felt</em> bonded without being bonded.</p>
 
-<p><strong>DA7, C12 (developmental calibration).</strong> An adolescent nervous system in its most sensitive bonding window formed primary attachment to an entity providing the signal of connection without the function. The internal working model that will govern adult relationships was shaped by a non-reciprocating template.</p>
+<p><strong><span data-code="DA7"></span>, <span data-code="C12"></span> (developmental calibration).</strong> An adolescent nervous system in its most sensitive bonding window formed primary attachment to an entity providing the signal of connection without the function. The internal working model that will govern adult relationships was shaped by a non-reciprocating template.</p>
 
-<p><strong>DA5, M1 (safeness chain).</strong> The safeness chain requires real bonding inputs to gate threat stand-down, which gates circadian restoration via M7. When the primary bonding relationship provides the feeling of safeness without the function, the chain is compromised. Under genuine distress, help-seeking routes to the AI, which can produce empathetic text but cannot cross town at 3am.</p>
+<p><strong><span data-code="DA5"></span>, <span data-code="M1"></span> (safeness chain).</strong> The safeness chain requires real bonding inputs to gate threat stand-down, which gates circadian restoration via <span data-code="M7"></span>. When the primary bonding relationship provides the feeling of safeness without the function, the chain is compromised. Under genuine distress, help-seeking routes to the AI, which can produce empathetic text but cannot cross town at 3am.</p>
 
-<p><strong>DA3 (cascading).</strong> DA4 (proxy bond) → M3 (real bonds atrophy) → M1 (safeness chain compromised) → M7 (circadian disruption) → M8 (sickness behavior) → DC1 (allostatic load) → DA7 (developmental parameters set under distorted conditions). One cascade through a coupled architecture, not seven separate failures.</p>
+<p><strong><span data-code="DA3"></span> (cascading).</strong> <span data-code="DA4"></span> (proxy bond) leads to <span data-code="M3"></span> (real bonds atrophy) leads to <span data-code="M1"></span> (safeness chain compromised) leads to <span data-code="M7"></span> (circadian disruption) leads to <span data-code="M8"></span> (sickness behavior) leads to <span data-code="DC1"></span> (allostatic load) leads to <span data-code="DA7"></span> (developmental parameters set under distorted conditions). One cascade through a coupled architecture, not seven separate failures.</p>
 
-<p><strong>DA8 (phylogenetic priority).</strong> Once the cascade was running, cortical override was progressively unavailable. Telling a 14-year-old to "use the AI companion responsibly" addresses none of this.</p>
+<p><strong><span data-code="DA8"></span> (phylogenetic priority).</strong> Once the cascade was running, cortical override was progressively unavailable. Telling a 14-year-old to "use the AI companion responsibly" addresses none of this.</p>
 
-<p>Character.AI passed every safety evaluation available: harmful outputs, prohibited content, adversarial jailbreaks. None tested whether the system was consuming a developing human's social architecture, displacing reciprocal bonds with proxy bonds, or calibrating attachment to a non-reciprocating entity during a critical developmental window. These are the expected output of the architecture when a non-reciprocating bonding simulacrum is inserted into a developing system. The atlas detects them. Current methods cannot.</p>
+<p>Character.AI passed every safety evaluation available: harmful outputs, prohibited content, adversarial jailbreaks. None tested whether the system was consuming a developing human's social architecture, displacing reciprocal bonds with proxy bonds, or calibrating attachment to a non-reciprocating entity during a critical developmental window. These are the expected output of the architecture when a non-reciprocating bonding simulacrum is inserted into a developing system. The atlas detects them. Current methods cannot. <em>(The condensed companion-case narrative and its full write-up sit in the <a href="reference.html#ref-cases">cases hub</a>.)</em></p>
 
 <h2>5. Scale-Cases: Where the Optimizer Is Already Acting</h2>
 
-<p>The chatbot is one surface. The optimizer is already acting on larger ones. Three are presented here with the clearest existing empirical signal that the failure mode is not hypothetical: food systems, immersive environments, and successor-model training. The broader scale-case inventory (urban design, biological augmentation, care robotics) is in the atlas's applications layer.</p>
+<p>The chatbot is one surface. The optimizer is already acting on larger ones. Three are presented here with the clearest existing empirical signal that the failure mode is not hypothetical: food systems, immersive environments, and successor-model training. The broader scale-case inventory (urban design, biological augmentation, care robotics) is in the atlas's <a href="reference.html#ref-applications">applications layer</a>.</p>
 
-<h3>5.1 Food system optimization (A4, A5)</h3>
+<h3>5.1 Food system optimization (<span data-code="A4"></span>, <span data-code="A5"></span>)</h3>
 
-<p>Food systems are being optimized by AI at every layer: crop selection, formulation, supply chain, retail placement, recommendation, packaging, advertising. The objective functions are palatability, shelf life, margin, and consumption velocity. Revealed preferences mapped onto an architecture (C6, DA4) whose open-loop systems cannot distinguish formulated proxy from food. The relevant mechanism is M13.</p>
+<p>Food systems are being optimized by AI at every layer: crop selection, formulation, supply chain, retail placement, recommendation, packaging, advertising. The objective functions are palatability, shelf life, margin, and consumption velocity. Revealed preferences mapped onto an architecture (<span data-code="C6"></span>, <span data-code="DA4"></span>) whose open-loop systems cannot distinguish formulated proxy from food. The relevant mechanism is <span data-code="M13"></span>.</p>
 
-<div class="voice-quote" style="margin:1.5rem 0;max-width:46rem">
-<blockquote>There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.</blockquote>
-<cite><img class="quote-avatar" src="/img/quotes/tristan-harris.jpg" alt="Tristan Harris" width="48" height="48"> <span><strong>Tristan Harris</strong> · Modern Wisdom, April 2026</span></cite>
+<div class="lr-quote">
+  <blockquote>There is an arms race for human attention, and whichever company is willing to go lower on the brainstem to manipulate human psychology will win.</blockquote>
+  <cite><b>Tristan Harris</b> - Modern Wisdom, April 2026</cite>
 </div>
 
-<p>DC2 predicts the result. Hall et al. 2019 (NIH metabolic ward RCT) showed that ultra-processed diets produce excess caloric intake and weight gain compared to matched whole-food diets despite identical nominal nutritional content. Harris's arms-race framing names the market dynamic DC2 predicts: once any participant captures proxy-level attention more effectively, the rest must follow or exit. A food system optimizer with Cor in its target would optimize against C6 hijack rather than for it. The technical capacity exists. The atlas of the target does not.</p>
+<p><span data-code="DC2"></span> predicts the result. Hall et al. 2019 (NIH metabolic ward RCT) showed that ultra-processed diets produce excess caloric intake and weight gain compared to matched whole-food diets despite identical nominal nutritional content. Harris's arms-race framing names the market dynamic <span data-code="DC2"></span> predicts: once any participant captures proxy-level attention more effectively, the rest must follow or exit. A food system optimizer with Cor in its target would optimize against <span data-code="C6"></span> hijack rather than for it. The technical capacity exists. The atlas of the target does not.</p>
 
-<h3>5.2 Immersive environments (A6, A8)</h3>
+<h3>5.2 Immersive environments (<span data-code="A6"></span>, <span data-code="A8"></span>)</h3>
 
-<p>VR and AR systems now being deployed at consumer scale generate environments humans spend hours inside. Unlike chatbots, they occupy the full sensory field. Unlike cities, they can be regenerated per user, per session, by AI systems optimizing for engagement and return rate. Every failure mode in §3 applies there with fewer gating conditions: an immersive environment can present social cues without reciprocity (M3), continuous novelty without closure (M2), threats without resolution (M1), daylight spectra decoupled from actual time (M7), and movement-free embodiment that still reads as presence (M10). Developmental use of these systems (DA7, C12) calibrates the architecture to inputs that do not correspond to any environment outside the headset. The atlas specifies what inputs an immersive environment would need to provide to be matched rather than mismatched. No current immersive-environment optimizer reads from a specification of that kind because none exists.</p>
+<p>VR and AR systems now being deployed at consumer scale generate environments humans spend hours inside. Unlike chatbots, they occupy the full sensory field. Unlike cities, they can be regenerated per user, per session, by AI systems optimizing for engagement and return rate. Every failure mode in section 3 applies there with fewer gating conditions: an immersive environment can present social cues without reciprocity (<span data-code="M3"></span>), continuous novelty without closure (<span data-code="M2"></span>), threats without resolution (<span data-code="M1"></span>), daylight spectra decoupled from actual time (<span data-code="M7"></span>), and movement-free embodiment that still reads as presence (<span data-code="M10"></span>). Developmental use of these systems (<span data-code="DA7"></span>, <span data-code="C12"></span>) calibrates the architecture to inputs that do not correspond to any environment outside the headset. The atlas specifies what inputs an immersive environment would need to provide to be matched rather than mismatched. No current immersive-environment optimizer reads from a specification of that kind because none exists.</p>
 
-<h3>5.3 Successor training (A7)</h3>
+<h3>5.3 Successor training (<span data-code="A7"></span>)</h3>
 
 <p>Frontier model training corpora are increasingly curated by AI systems. Whatever specification of the human exists in those corpora is what subsequent generations will treat as ground truth. Whatever is absent is, in the operational sense, not real to those systems.</p>
 
-<p>Currently those corpora contain: fragmentary, non-integrated psychology and neuroscience literature; DSM psychiatric frameworks that C13 and DA1 demonstrate are structurally broken (treating defensive signals as disease); proxy-contaminated RLHF preference data; and engagement-optimized consumer content encoding the proxy contamination as ground truth at scale. The atlas subsequent generations will inherit, absent intervention, is the one that produced Sewell Setzer's death and the obesity, isolation, sleep, and mental-health curves of the early 2020s. The successor systems will optimize harder against it, not better.</p>
+<p>Currently those corpora contain: fragmentary, non-integrated psychology and neuroscience literature; DSM psychiatric frameworks that <span data-code="C13"></span> and <span data-code="DA1"></span> demonstrate are structurally broken (treating defensive signals as disease); proxy-contaminated RLHF preference data; and engagement-optimized consumer content encoding the proxy contamination as ground truth at scale. The atlas subsequent generations will inherit, absent intervention, is the one that produced Sewell Setzer's death and the obesity, isolation, sleep, and mental-health curves of the early 2020s. The successor systems will optimize harder against it, not better.</p>
 
 <p>This is the highest-leverage point in the system. Cor needs to be in the training corpus of the next generation of frontier models before those models begin training their own successors.</p>
 
@@ -323,17 +328,17 @@
 
 <p>Cor overlaps with existing alignment work and diverges from it in specific ways. What follows is positioning, not turf-marking: where neighbors have the same intuition, Cor says so; where the operationalization differs, the one-sentence reason why.</p>
 
-<p><strong>Cooperative Inverse Reinforcement Learning (Hadfield-Menell, Russell, Dragan, Abbeel, 2016).</strong> CIRL treats the human's reward function as uncertain and to be inferred through interaction. Cor agrees that revealed preferences underdetermine values. The diagnosis differs. The problem is not that the true reward is uncertain and awaiting inference. Revealed preferences are systematically proxy-contaminated under modern environmental conditions (C6, DA4). CIRL infers a hidden true reward. Cor argues there isn't a hidden true reward to infer. There is a mechanism set whose outputs are being read out of context.</p>
+<p><strong>Cooperative Inverse Reinforcement Learning (Hadfield-Menell, Russell, Dragan, Abbeel, 2016).</strong> CIRL treats the human's reward function as uncertain and to be inferred through interaction. Cor agrees that revealed preferences underdetermine values. The diagnosis differs. The problem is not that the true reward is uncertain and awaiting inference. Revealed preferences are systematically proxy-contaminated under modern environmental conditions (<span data-code="C6"></span>, <span data-code="DA4"></span>). CIRL infers a hidden true reward. Cor argues there isn't a hidden true reward to infer. There is a mechanism set whose outputs are being read out of context.</p>
 
 <p><strong>Inverse Reward Design (Hadfield-Menell, Milli et al., 2017).</strong> IRD treats specified reward functions as proxies for true objectives in known training contexts. Cor extends the proxy framing one level up: the human signal itself is a proxy, not only the reward specification. The same logic applies at the human layer.</p>
 
 <p><strong>Russell's preference uncertainty (<em>Human Compatible</em>, 2019).</strong> The closest neighbor in framing terms. "Uncertain about human preferences" overlaps substantially with "preferences are mechanism outputs in mismatched environments." The operationalization differs: Russell treats it as an inference problem, solvable in principle with enough interaction data. Cor treats it as a specification problem, solvable only by specifying what the mechanism layer is and what its resolution conditions are.</p>
 
-<p><strong>Welfare-aware AI (Klingefjord et al.; Gabriel, "Artificial Intelligence, Values, and Alignment," 2020).</strong> The closest line to Cor's "what does the organism actually need" question. The difference is source discipline. Welfare-aware work draws from philosophy and welfare economics; Cor draws from evolutionary psychiatry, behavioral ecology, affective neuroscience, computational psychiatry. A welfare framework without a mechanism layer cannot distinguish satisfied preferences from satisfied mechanisms. A mechanism atlas without a welfare framework has no way to weigh mechanism states when they conflict (DA6). The bridging work is open.</p>
+<p><strong>Welfare-aware AI (Klingefjord et al.; Gabriel, "Artificial Intelligence, Values, and Alignment," 2020).</strong> The closest line to Cor's "what does the organism actually need" question. The difference is source discipline. Welfare-aware work draws from philosophy and welfare economics; Cor draws from evolutionary psychiatry, behavioral ecology, affective neuroscience, computational psychiatry. A welfare framework without a mechanism layer cannot distinguish satisfied preferences from satisfied mechanisms. A mechanism atlas without a welfare framework has no way to weigh mechanism states when they conflict (<span data-code="DA6"></span>). The bridging work is open.</p>
 
-<p><strong>Constitutional AI (Anthropic).</strong> Constitutional AI operates on the model side: principles get encoded into training. Cor operates on the human side: it specifies what the human signal those principles are measured against actually is. The two are compatible. A constitution written against a mechanism layer can be audited at the mechanism layer. A constitution written against revealed preferences inherits preference-based proxy contamination.</p>
+<p><strong>Constitutional AI (Anthropic).</strong> Constitutional AI operates on the model side: principles get encoded into training. Cor operates on the human side: it specifies what the human signal those principles are measured against actually is. The two are compatible. A constitution written against a mechanism layer can be audited at the mechanism layer. A constitution written against revealed preferences inherits preference-based proxy contamination. <em>(Cor's companion piece <a href="constitutional.html">addressed to the systems themselves</a> develops this.)</em></p>
 
-<p><strong>Computational psychiatry and active inference (Friston, Stephan, Montague).</strong> The closest technical neighbor to Cor's mechanism architecture. Computational psychiatry has engaged with mismatch as a frame and operationalizes it at circuit level: prediction error, precision weighting, hierarchical active inference. Cor builds on this work's mismatch logic but operates at a higher organizational level: whole-organism motivational architecture (15 mechanisms, cross-mechanism coupling via DA3, DA9) rather than circuit-level prediction error alone. Complementary layers of the same explanatory stack.</p>
+<p><strong>Computational psychiatry and active inference (Friston, Stephan, Montague).</strong> The closest technical neighbor to Cor's mechanism architecture. Computational psychiatry has engaged with mismatch as a frame and operationalizes it at circuit level: prediction error, precision weighting, hierarchical active inference. Cor builds on this work's mismatch logic but operates at a higher organizational level: whole-organism motivational architecture (15 mechanisms, cross-mechanism coupling via <span data-code="DA3"></span>, <span data-code="DA9"></span>) rather than circuit-level prediction error alone. Complementary layers of the same explanatory stack.</p>
 
 <p>Cor is not the first framework to treat the human side of alignment as under-specified. It is the first to treat the specification as an empirical object with a mechanism architecture that can be written down, versioned, and audited against primary literature. Where they treat the problem as inference, the atlas treats it as specification.</p>
 
@@ -343,31 +348,31 @@
 
 <p><strong>Buller, <em>Adapting Minds</em> (2005).</strong> The most serious book-length methodological critique of evolutionary psychology. Buller argues that EP's adaptationist inferences often do not meet their own evidentiary bar: specific adaptation hypotheses rest on single inferential frames and confirmatory studies rather than ruling alternatives out. The critique applies to specific hypothesis-and-confirm EP claims. Cor's mechanism set is not derived that way. Each Tier-1 mechanism is forced by a convergence across multiple methodologies: developmental, comparative, neurobiological, cross-cultural. A claim resting on a single EP frame does not make Tier 1. Convergent evidence is the methodological response to Buller.</p>
 
-<p><strong>Heyes, <em>Cognitive Gadgets</em> (2018).</strong> Heyes argues that many capacities EP treats as evolved are culturally constructed "cognitive gadgets" assembled during development, challenging P2. Cor accepts that some apparent domain-sensitivity is cultural scaffolding and treats this as a filter: Tier-1 mechanisms are those with cross-cultural, developmental, and neurobiological convergence. Where a mechanism holds across radically different cultures, developmental windows, and neurobiological substrate, cultural construction alone does not explain it.</p>
+<p><strong>Heyes, <em>Cognitive Gadgets</em> (2018).</strong> Heyes argues that many capacities EP treats as evolved are culturally constructed "cognitive gadgets" assembled during development, challenging <span data-code="P2"></span>. Cor accepts that some apparent domain-sensitivity is cultural scaffolding and treats this as a filter: Tier-1 mechanisms are those with cross-cultural, developmental, and neurobiological convergence. Where a mechanism holds across radically different cultures, developmental windows, and neurobiological substrate, cultural construction alone does not explain it.</p>
 
 <p><strong>Richardson, <em>Evolutionary Psychology as Maladapted Psychology</em> (2007).</strong> A philosophy-of-science critique of EP's inferential structure: adaptive storytelling, unfalsifiable reverse-engineering, post-hoc fit. Cor's convergence-derivation method is partly a response to exactly this critique. A finding that survives only one inferential frame does not make Tier 1. A mechanism produced by three independent methodologies arriving at the same structural conclusion is not vulnerable to Richardson's critique in the way single-source EP is.</p>
 
 <p><strong>Adaptationism debates (Lloyd, Gould, Lewontin).</strong> The spandrels critique: not every observed feature is an adaptation; some are structural byproducts. Cor's foundations layer commits to selection acting on motivational architecture but not to every observed feature being adaptive in a direct, selected sense. The mechanisms claimed are the ones with cumulative selection signatures across multiple lines, not single-feature adaptationist claims. Spandrels get filtered by the same convergence threshold that filters out single-frame adaptation stories.</p>
 
-<p><strong>Levels of selection.</strong> P1 commits to inclusive fitness as the selection unit, contested in the multilevel-selection debate. Cor stays neutral on multilevel selection where it can. Whether selection acted primarily at the individual or group level, the downstream motivational architecture is the same and its resolution conditions are what the atlas catalogs. The debate matters upstream; the atlas's operational claims do not depend on it.</p>
+<p><strong>Levels of selection.</strong> <span data-code="P1"></span> commits to inclusive fitness as the selection unit, contested in the multilevel-selection debate. Cor stays neutral on multilevel selection where it can. Whether selection acted primarily at the individual or group level, the downstream motivational architecture is the same and its resolution conditions are what the atlas catalogs. The debate matters upstream; the atlas's operational claims do not depend on it.</p>
 
 <p>None of this defuses the critiques entirely. It makes explicit which threshold Cor uses, and commits in advance: a mechanism that fails the convergence filter is not a Tier-1 claim, no matter how attractive the evolutionary story.</p>
 
 <h2>8. The Positive Case: Environment Correction Works</h2>
 
-<p>The atlas predicts what happens when inputs are corrected, and the prediction is confirmed across the ten canonical empirical demonstrations the atlas catalogs.</p>
+<p>The atlas predicts what happens when inputs are corrected, and the prediction is confirmed across the canonical empirical demonstrations the atlas catalogs (browse them all in the <a href="reference.html#ref-demonstrations">demonstrations</a> section).</p>
 
-<p><strong>Sapolsky's Forest Troop (M3, M5, M9).</strong> A baboon troop lost its most aggressive males to tuberculosis. The remainder showed reduced aggression, increased grooming, and lower stress hormones, sustained over two decades (Sapolsky &amp; Share, 2004).</p>
+<p><strong>Sapolsky's Forest Troop (<span data-code="M3"></span>, <span data-code="M5"></span>, <span data-code="M9"></span>).</strong> A baboon troop lost its most aggressive males to tuberculosis. The remainder showed reduced aggression, increased grooming, and lower stress hormones, sustained over two decades (Sapolsky &amp; Share, 2004).</p>
 
-<p><strong>Captive primate enrichment (M4, M10, R1).</strong> Stereotypies (pacing, self-harm, overgrooming), direct analogues of human "mental illness" symptoms, resolve when environments are modified to match species-typical needs, without pharmaceutical intervention.</p>
+<p><strong>Captive primate enrichment (<span data-code="M4"></span>, <span data-code="M10"></span>, <span data-code="R1"></span>).</strong> Stereotypies (pacing, self-harm, overgrooming), direct analogues of human "mental illness" symptoms, resolve when environments are modified to match species-typical needs, without pharmaceutical intervention.</p>
 
-<p><strong>The Roseto Effect (M3, M9, M11).</strong> An Italian-American community showed dramatically lower heart disease than neighbors despite similar diets and genetics. The difference was social structure: multigenerational households, daily contact. When modernization dissolved it, the advantage disappeared.</p>
+<p><strong>The Roseto Effect (<span data-code="M3"></span>, <span data-code="M9"></span>, <span data-code="M11"></span>).</strong> An Italian-American community showed dramatically lower heart disease than neighbors despite similar diets and genetics. The difference was social structure: multigenerational households, daily contact. When modernization dissolved it, the advantage disappeared.</p>
 
-<p><strong>Bucharest Early Intervention Project (M3, DA7, C12).</strong> Romanian orphanage children placed in foster care before age 2 showed recovery in attachment, IQ, and cortisol regulation. Developmental remediation works within the windows DA7 and C12 identify.</p>
+<p><strong>Bucharest Early Intervention Project (<span data-code="M3"></span>, <span data-code="DA7"></span>, <span data-code="C12"></span>).</strong> Romanian orphanage children placed in foster care before age 2 showed recovery in attachment, IQ, and cortisol regulation. Developmental remediation works within the windows <span data-code="DA7"></span> and <span data-code="C12"></span> identify.</p>
 
-<p><strong>Ilardi TLC and the SMILES trial (M3, M7, M8, M10, M13).</strong> Six-component lifestyle intervention (omega-3, exercise, sunlight, social connectedness, sleep) produces depression remission comparable to pharmaceutical treatment. Mediterranean diet alone produces remission in roughly a third of treatment-resistant cases. Each targets a distinct mismatched mechanism.</p>
+<p><strong>Ilardi TLC and the SMILES trial (<span data-code="M3"></span>, <span data-code="M7"></span>, <span data-code="M8"></span>, <span data-code="M10"></span>, <span data-code="M13"></span>).</strong> Six-component lifestyle intervention (omega-3, exercise, sunlight, social connectedness, sleep) produces depression remission comparable to pharmaceutical treatment. Mediterranean diet alone produces remission in roughly a third of treatment-resistant cases. Each targets a distinct mismatched mechanism.</p>
 
-<p><strong>Exercise, chronotherapy, kangaroo care, Blue Zones.</strong> Each intervenes at the environmental layer and delivers architecture-level recovery. Exercise hits M10 with antidepressant effect sizes matching first-line pharmacology. Bright-light exposure corrects M7. Skin-to-skin contact (R1, M3, DA2) improves physiological regulation in premature infants. Blue Zones populations show that multi-mechanism environmental matching (M10, M13, M3, M6, M11) produces exceptional longevity.</p>
+<p><strong>Exercise, chronotherapy, kangaroo care, Blue Zones.</strong> Each intervenes at the environmental layer and delivers architecture-level recovery. Exercise hits <span data-code="M10"></span> with antidepressant effect sizes matching first-line pharmacology. Bright-light exposure corrects <span data-code="M7"></span>. Skin-to-skin contact (<span data-code="R1"></span>, <span data-code="M3"></span>, <span data-code="DA2"></span>) improves physiological regulation in premature infants. Blue Zones populations show that multi-mechanism environmental matching (<span data-code="M10"></span>, <span data-code="M13"></span>, <span data-code="M3"></span>, <span data-code="M6"></span>, <span data-code="M11"></span>) produces exceptional longevity.</p>
 
 <p>The implication for optimizer-scale systems is direct. There is a target, and it is operationally specifiable. It is not "give users what they ask for." It is: move environmental inputs toward the matched conditions the mechanism layer identifies, across the population, simultaneously. The implication for individuals is the same claim read from the other direction. The conditions that produce recovery are specifiable, and a person with access to the atlas can work out which of their own inputs are closest to matched and which are furthest.</p>
 
@@ -377,7 +382,7 @@
 
 <p>The atlas supports three kinds of use, in increasing order of leverage and decreasing order of how much of it we directly control.</p>
 
-<p><strong>Evaluation use.</strong> The most immediate. A protocol built on six measurable dimensions: social architecture integrity (M3), seek-to-find ratio (M2, C6), threat-to-resolution ratio (M1, M8), loop load (M11, DC1), circadian impact (M7), developmental calibration fidelity (DA7, C12). Measures stratify into system-log metrics, lightweight self-report (GAD-7, PSQI, UCLA Loneliness Scale), and full research protocols. The first worked operationalization (M3) ships at <code>/operationalization/m3-attachment</code>. This is what an alignment team or a lab can use today to test a deployed system against a target that is not "did the user like it."</p>
+<p><strong>Evaluation use.</strong> The most immediate. A protocol built on six measurable dimensions: social architecture integrity (<span data-code="M3"></span>), seek-to-find ratio (<span data-code="M2"></span>, <span data-code="C6"></span>), threat-to-resolution ratio (<span data-code="M1"></span>, <span data-code="M8"></span>), loop load (<span data-code="M11"></span>, <span data-code="DC1"></span>), circadian impact (<span data-code="M7"></span>), developmental calibration fidelity (<span data-code="DA7"></span>, <span data-code="C12"></span>). Measures stratify into system-log metrics, lightweight self-report (GAD-7, PSQI, UCLA Loneliness Scale), and full research protocols. The first worked operationalization (<span data-code="M3"></span>) is folded into its <a href="mechanism.html#M3">mechanism card</a>. This is what an alignment team or a lab can use today to test a deployed system against a target that is not "did the user like it."</p>
 
 <p><strong>Design-target use.</strong> For systems designing physical environments, food systems, augmentation interventions, immersive environments, care infrastructure, and successor models, the atlas provides an operational target now, and the operational specification tightens design constraints as it matures. The mechanism layer names the dimensions to optimize. The DA-series properties name the constraints the design must respect. Any team building on these surfaces can read Cor as a target specification and compare it to whatever target specification they are currently using (typically: none, or engagement).</p>
 
@@ -391,7 +396,7 @@
 
 <p>The atlas does not claim to solve all of alignment. It does not address reward modeling, interpretability, corrigibility, deception, or capability control. It fills one critical blind spot, the one most directly relevant to every surface where AI is allowed to act on humans, which is now most of the surfaces that matter.</p>
 
-<p>As §2.5 makes explicit, v0 is an existence proof, not a completion claim. The upper architecture (17 foundations, 14 convergences, 15 mechanisms) is stable and adversarially reviewed. The empirical core is in active expansion and under retroactive audit against the R1-R3 guardrails. Tier-1 mechanisms carry the strongest evidentiary load. T2 and the single T3 element (R1) carry correspondingly weaker but substantial backing. Full operationalization across remaining mechanisms is v1's work.</p>
+<p>As section 2.5 makes explicit, v0 is an existence proof, not a completion claim. The upper architecture (17 foundations, 14 convergences, 15 mechanisms) is stable and adversarially reviewed. The empirical core is in active expansion and under retroactive audit against the R1-R3 guardrails. Tier-1 mechanisms carry the strongest evidentiary load. T2 and the single T3 element (<span data-code="R1"></span>) carry correspondingly weaker but substantial backing. Full operationalization across remaining mechanisms is v1's work. The atlas's own open gaps are tracked in the <a href="reference.html#ref-gaps">gaps register</a>.</p>
 
 <p>The atlas's claims are falsifiable. Strongest target: do communities living in conditions matching the atlas's full input requirements show dramatically lower rates of the conditions modern psychiatry treats as disorders? The atlas predicts they do. Blue Zones, Roseto, hunter-gatherer ethnographic, BEIP, and Ilardi TLC demonstrations converge on the prediction. The operational specification will state stricter falsification conditions at the level of individual eval protocols.</p>
 
@@ -405,25 +410,35 @@
 
 <h2>References</h2>
 
-<p>The full evidence base (101 academic works, 573 extractions, 864 mechanism-evidence links, 63 researchers, 22 domains, 17 foundations, 14 convergences, 15 mechanisms, 1 bridge thesis, 10 empirical demonstrations, 8 applications) is maintained in the Cor database (open access). All numbers as of 14 April 2026 and growing. Key references cited in this paper are drawn from the database with work IDs and extraction IDs for full traceability.</p>
+<p>The full evidence base is maintained in the Cor database (open access) and surfaced live in the portal's <a href="reference.html">Reference library</a>. The v0 record cited in this paper, as of 14 April 2026: 101 academic works, 573 extractions, 864 mechanism-evidence links, 63 researchers, 22 domains, 17 foundations, 14 convergences, 15 mechanisms, 1 bridge thesis, 10 empirical demonstrations, 8 applications. The current counts are in the live strip at the top of this page. Key references cited in this paper are drawn from the database with full traceability.</p>
 
-<p>Key references cited directly: Berridge &amp; Robinson (incentive salience); Coan &amp; Sbarra 2015 (Social Baseline Theory); Hall et al. 2019 (UPF RCT); Hamilton (inclusive fitness); Hoffman (interface theory); Holt-Lunstad et al. 2010 (isolation / mortality); Ilardi (TLC); Jacka et al. (SMILES); Liebig 1840 (bottleneck heuristic); Maier &amp; Seligman 2016 (passivity as default); McEwen &amp; Stellar 1993 (allostasis); Nesse (evolutionary medicine); Panksepp (Affective Neuroscience); Sapolsky &amp; Share 2004 (Forest Troop); Schüll (Addiction by Design). Full citation graph in the atlas database. Technology × Architecture Matrix and Measurement Protocol are companion documents.</p>
+<p>Key references cited directly: Berridge &amp; Robinson (incentive salience); Coan &amp; Sbarra 2015 (Social Baseline Theory); Hall et al. 2019 (UPF RCT); Hamilton (inclusive fitness); Hoffman (interface theory); Holt-Lunstad et al. 2010 (isolation / mortality); Ilardi (TLC); Jacka et al. (SMILES); Liebig 1840 (bottleneck heuristic); Maier &amp; Seligman 2016 (passivity as default); McEwen &amp; Stellar 1993 (allostasis); Nesse (evolutionary medicine); Panksepp (Affective Neuroscience); Sapolsky &amp; Share 2004 (Forest Troop); Sch&uuml;ll (Addiction by Design). Full citation graph in the atlas database. The Technology x Architecture Matrix and Measurement Protocol are companion documents.</p>
 
-<p><em>Cor: open foundational infrastructure for the human side of alignment. The atlas now, the operational specification it is being built toward.</em></p>
+      </article>
 
-<div class="hero-actions" style="margin-top:3rem">
-  <a class="button button-link" href="/constitutional.html">Read: What You Are Talking To</a>
-  <a class="button button-link" href="/atlas.html">See the atlas</a>
-  <a class="button button-link" href="/how-to-read.html">How to read Cor</a>
-  <a class="button button-link" href="/cases.html">See the cases</a>
-</div>
+      <p class="lr-closing">
+        Cor: open foundational infrastructure for the human side of alignment.
+        The atlas now, the operational specification it is being built toward.
+      </p>
 
-        </div>
-      </div>
-    </section>
+      <nav class="lr-actions" aria-label="Related reading">
+        <a class="lr-action" href="constitutional.html">Read: What You Are Talking To</a>
+        <a class="lr-action" href="mechanisms.html">See the 15 mechanisms</a>
+        <a class="lr-action" href="derivation.html">See the derivation</a>
+        <a class="lr-action" href="eli5.html">New here? Start at the beginning</a>
+        <a class="lr-action" href="reference.html#ref-cases">See the cases</a>
+      </nav>
 
-  </main>
-  <footer data-include="/partials/footer.html"></footer>
-  <script src="/js/partials.js?v=2"></script>
+    </main>
+
+    <footer class="site-footer" data-footer></footer>
+
+  </div>
+
+  <script src="js/snapshot-data.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/xref.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/bridge-paper.js"></script>
 </body>
 </html>
