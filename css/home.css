@@ -11,11 +11,13 @@
 }
 .hero-copy { max-width: 70ch; }
 
-/* wide screens: text left, the spec map right (fills the empty-right hero) */
+/* wide screens: text leads, the spec map sits to the right as a capped accent.
+   The thesis copy is the pitch and takes the larger share (1fr); the map is a
+   secondary glance, held to a fixed max so it never out-weighs the words. */
 @media (min-width: 1000px) {
   .hero-home {
     display: grid;
-    grid-template-columns: minmax(0, 60ch) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 24rem);
     gap: clamp(1.5rem, 4vw, 3.5rem);
     align-items: start;
   }
@@ -249,6 +251,10 @@ svg.markmap .markmap-link { opacity: .9; }
   color: var(--oxblood);
   margin-bottom: 16px;
 }
+/* Tiered: the spec (mechanisms + foundations) reads large on the top row; the
+   evidence base sits smaller beneath it. Grid is 2 cols on phones, 4 from
+   720px - spec cells span 2 (a full top row of two), evidence span 1 (a row
+   of four below). */
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -258,8 +264,7 @@ svg.markmap .markmap-link { opacity: .9; }
   border-radius: var(--radius-sm);
   overflow: hidden;
 }
-@media (min-width: 540px) { .stat-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 860px) { .stat-grid { grid-template-columns: repeat(6, 1fr); } }
+@media (min-width: 720px) { .stat-grid { grid-template-columns: repeat(4, 1fr); } }
 .stat {
   background: var(--parchment-soft);
   padding: clamp(13px, 2vw, 18px) clamp(11px, 1.6vw, 15px);
@@ -271,20 +276,27 @@ svg.markmap .markmap-link { opacity: .9; }
 .stat .n {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(1.5rem, 4vw, 2rem);
   line-height: 1;
   color: var(--oxblood);
   letter-spacing: -.01em;
 }
 .stat .lbl {
   font-family: var(--mono);
-  font-size: .56rem;
   font-weight: 400;
   letter-spacing: .12em;
   text-transform: uppercase;
   color: var(--muted-warm);
   line-height: 1.3;
 }
+
+/* spec tier: the architecture itself - large, full top row */
+.stat-spec { grid-column: span 2; padding: clamp(18px, 2.6vw, 26px) clamp(15px, 2vw, 22px); gap: 7px; }
+.stat-spec .n { font-size: clamp(2.4rem, 6vw, 3.4rem); }
+.stat-spec .lbl { font-size: .68rem; letter-spacing: .16em; color: var(--oxblood-warm); }
+
+/* evidence tier: the supporting base - smaller, quieter row beneath */
+.stat-evidence .n { font-size: clamp(1.25rem, 3vw, 1.6rem); color: var(--oxblood-warm); }
+.stat-evidence .lbl { font-size: .54rem; }
 
 /* --------------------------------------------------------------- doors ---- */
 .doors { margin-top: clamp(8px, 2vw, 14px); }
@@ -405,3 +417,6 @@ svg.markmap .markmap-link { opacity: .9; }
   color: var(--oxblood-warm);
   min-width: 0;
 }
+
+/* quiet pointer to the relocated FAQ (full set lives on faq.html now) */
+.home-faq-link { margin-top: clamp(28px, 4vw, 44px); }

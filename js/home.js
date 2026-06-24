@@ -29,20 +29,22 @@
   var counts = D.counts() || {};
 
   // ---- stats strip ---------------------------------------------------------
-  // Ordered, restrained selection. Each entry reads live; absent -> dash.
+  // Two tiers, leading with the spec. "spec" = the architecture itself
+  // (mechanisms + foundations), rendered large. "evidence" = the supporting
+  // base beneath it, rendered smaller. Each entry reads live; absent -> dash.
   var STATS = [
-    { key: "foundations",  label: "Foundations" },
-    { key: "mechanisms",   label: "Mechanisms" },
-    { key: "convergences", label: "Convergences" },
-    { key: "works",        label: "Works cited" },
-    { key: "extractions",  label: "Extractions" },
-    { key: "researchers",  label: "Researchers" },
+    { key: "mechanisms",   label: "Mechanisms",   tier: "spec" },
+    { key: "foundations",  label: "Foundations",  tier: "spec" },
+    { key: "convergences", label: "Convergences", tier: "evidence" },
+    { key: "works",        label: "Works cited",  tier: "evidence" },
+    { key: "extractions",  label: "Extractions",  tier: "evidence" },
+    { key: "researchers",  label: "Researchers",  tier: "evidence" },
   ];
 
   var grid = document.getElementById("stat-grid");
   if (grid) {
     var html = STATS.map(function (s) {
-      return "<div class='stat'>" +
+      return "<div class='stat stat-" + s.tier + "'>" +
         "<dt class='n'>" + num(counts[s.key]) + "</dt>" +
         "<dd class='lbl'>" + s.label + "</dd>" +
       "</div>";

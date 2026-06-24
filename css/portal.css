@@ -61,12 +61,31 @@ button { font-family: inherit; cursor: pointer; color: inherit; background: none
 
 /* shared brand + primary nav (all Phase B surfaces) */
 .mast-brand { display: flex; align-items: center; gap: 14px; text-decoration: none; min-width: 0; }
-.mast-nav { margin-left: auto; display: flex; gap: clamp(10px,2vw,22px); align-items: center; }
-.mast-nav a { font-family: var(--mono); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--oxblood-ink); text-decoration: none; padding: 4px 2px; border-bottom: 2px solid transparent; transition: color var(--dur-fast), border-color var(--dur-fast); white-space: nowrap; }
+
+/* Two-tier nav: PRIMARY destinations (the spec), then a hairline divider, then
+   SECONDARY utilities (reference + tools), set smaller and quieter. */
+.mast-nav { margin-left: auto; display: flex; align-items: baseline; gap: clamp(12px,1.8vw,20px); flex-wrap: wrap; justify-content: flex-end; row-gap: 8px; }
+.nav-group { display: flex; align-items: baseline; gap: clamp(10px,1.6vw,20px); flex-wrap: wrap; }
+.mast-nav a { font-family: var(--mono); text-transform: uppercase; text-decoration: none; padding: 4px 2px; border-bottom: 2px solid transparent; transition: color var(--dur-fast), border-color var(--dur-fast); white-space: nowrap; }
 .mast-nav a:hover { color: var(--oxblood); border-color: var(--gold); }
 .mast-nav a[aria-current="page"], .mast-nav a.is-current { color: var(--oxblood); border-color: var(--teal); }
-/* 5-item nav: allow wrap on narrow viewports rather than crowding off-screen */
-@media (max-width: 560px) { .mast-nav { flex-wrap: wrap; justify-content: flex-end; gap: 8px 14px; } }
+
+/* primary tier: the current weight, the loud links */
+.nav-primary { font-size: .72rem; letter-spacing: .14em; font-weight: 500; color: var(--oxblood); }
+
+/* divider between the tiers */
+.nav-sep { flex: 0 0 auto; width: 1px; align-self: stretch; min-height: 1.1em; background: var(--border); opacity: .6; }
+
+/* secondary tier: smaller, dimmer, recedes */
+.nav-secondary { font-size: .62rem; letter-spacing: .12em; font-weight: 400; color: var(--muted-warm); }
+.nav-secondary:hover { color: var(--oxblood); }
+
+/* narrow viewports: stack the two tiers, drop the vertical divider */
+@media (max-width: 640px) {
+  .mast-nav { gap: 6px 14px; }
+  .nav-sep { display: none; }
+  .nav-group { row-gap: 6px; }
+}
 
 /* ---------- shared footer (enriched: sitemap + cross-site triad) ---------- */
 .site-footer { margin-top: 64px; padding-top: 26px; border-top: 1px solid var(--border-soft); font-family: var(--mono); color: var(--muted-warm); }

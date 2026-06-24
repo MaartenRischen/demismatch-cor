@@ -23,16 +23,22 @@
 
   var D = window.CorData || null;
 
-  // Single source of nav order (contract sec.2). Frozen.
-  var NAV = Object.freeze([
-    Object.freeze({ key: "home",        label: "Home",       href: "index.html" }),
+  // Single source of nav order (contract sec.2). Two tiers: PRIMARY are the
+  // destinations (the spec itself); SECONDARY are utilities + reference. The
+  // logo is the home link, so "Home" is no longer a nav item.
+  var NAV_PRIMARY = Object.freeze([
     Object.freeze({ key: "mechanisms",  label: "Mechanisms", href: "mechanisms.html" }),
     Object.freeze({ key: "the-gap",     label: "The Gap",    href: "the-gap.html" }),
-    Object.freeze({ key: "derivation",  label: "Derivation", href: "derivation.html" }),
+    Object.freeze({ key: "derivation",  label: "Derivation", href: "derivation.html" })
+  ]);
+  var NAV_SECONDARY = Object.freeze([
     Object.freeze({ key: "reference",   label: "Reference",  href: "reference.html" }),
     Object.freeze({ key: "mindmap",     label: "Map",        href: "mindmap.html" }),
-    Object.freeze({ key: "downloads",   label: "Downloads",  href: "downloads.html" })
+    Object.freeze({ key: "downloads",   label: "Downloads",  href: "downloads.html" }),
+    Object.freeze({ key: "faq",         label: "FAQ",        href: "faq.html" })
   ]);
+  // Combined list (matching/compat for setCurrent + window.CorChrome.NAV).
+  var NAV = Object.freeze(NAV_PRIMARY.concat(NAV_SECONDARY));
 
   // mechanism.html is a detail surface under Mechanisms; light Mechanisms for it.
   // Long-reads (bridge-paper / constitutional / programme / eli5 / cases) use
@@ -79,14 +85,20 @@
     return "A complete account of the human organism";
   }
 
-  function mastheadHTML(pageKey) {
-    var navKey = navKeyFor(pageKey);
-    var links = NAV.map(function (item) {
+  function navLinks(list, navKey, cls) {
+    return list.map(function (item) {
       var current = item.key === navKey;
       return '<a href="' + esc(item.href) + '"' +
-        (current ? ' aria-current="page" class="is-current"' : '') +
+        ' class="' + cls + (current ? ' is-current' : '') + '"' +
+        (current ? ' aria-current="page"' : '') +
         '>' + esc(item.label) + '</a>';
     }).join("");
+  }
+
+  function mastheadHTML(pageKey) {
+    var navKey = navKeyFor(pageKey);
+    var primary = navLinks(NAV_PRIMARY, navKey, "nav-primary");
+    var secondary = navLinks(NAV_SECONDARY, navKey, "nav-secondary");
 
     return '' +
       '<a class="mast-brand" href="index.html">' +
@@ -96,7 +108,11 @@
           '<span class="masthead-sub">' + esc(subtitleFor(pageKey)) + '</span>' +
         '</span>' +
       '</a>' +
-      '<nav class="mast-nav" aria-label="Primary">' + links + '</nav>';
+      '<nav class="mast-nav" aria-label="Primary">' +
+        '<span class="nav-group nav-group-primary">' + primary + '</span>' +
+        '<span class="nav-sep" aria-hidden="true"></span>' +
+        '<span class="nav-group nav-group-secondary">' + secondary + '</span>' +
+      '</nav>';
   }
 
   /* ---------- footer ---------- */
