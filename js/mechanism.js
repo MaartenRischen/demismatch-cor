@@ -811,8 +811,7 @@
       // On mechanisms.html (the index), show a welcome state when no hash is
       // present rather than auto-selecting a default mechanism.
       var isIndex = document.body.getAttribute("data-page") === "mechanisms";
-      var start = h.code || (isIndex ? null : "M14");
-      if (!start) { renderWelcome(); return; }
+      var start = h.code || (isIndex ? "M1" : "M14");
       navigate(start);
       if (h.anchor && h.anchor.toUpperCase() !== start) {
         // a section suffix was supplied - scroll to it after render.
