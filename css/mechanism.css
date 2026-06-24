@@ -206,3 +206,29 @@
   display: inline-flex; align-items: center; gap: 6px;
 }
 .ops-null-meta .chip .xref { font-size: .68rem; }
+
+/* ===================== WELCOME STATE (mechanisms.html empty) ===================== */
+.mech-welcome { padding: clamp(24px, 5vw, 56px) 0; }
+.mech-welcome-mark { width: 68px; height: 68px; opacity: .2; margin-bottom: 26px; }
+.mech-welcome-mark svg { width: 100%; height: 100%; }
+.mech-welcome-eyebrow {
+  font-family: var(--mono); font-size: .66rem; letter-spacing: .28em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 12px;
+}
+.mech-welcome-title {
+  font-size: clamp(2rem, 5.5vw, 3.1rem); font-weight: 600; color: var(--oxblood);
+  margin: 0 0 18px; letter-spacing: -.015em; line-height: 1.04;
+}
+.mech-welcome-lead {
+  font-size: clamp(1rem, 1.8vw, 1.2rem); font-weight: 300; line-height: 1.65;
+  color: var(--oxblood-ink); max-width: 54ch; margin-bottom: 32px;
+}
+.mech-welcome-cues { display: flex; flex-direction: column; gap: 11px; }
+.mech-welcome-cue {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: .94rem; font-weight: 300; color: var(--oxblood-warm); line-height: 1.45;
+}
+.mech-welcome-cue .pip {
+  flex: 0 0 auto; width: 5px; height: 5px; transform: rotate(45deg);
+  background: var(--gold); margin-top: .55em;
+}

@@ -603,6 +603,21 @@
     wireSecondary();
   }
 
+  function renderWelcome() {
+    document.getElementById("view").innerHTML =
+      "<div class='mech-welcome'>" +
+        "<div class='mech-welcome-mark' aria-hidden='true'>" + ringMark() + "</div>" +
+        "<div class='mech-welcome-eyebrow'>Mechanism explorer</div>" +
+        "<h1 class='mech-welcome-title'>The fifteen systems</h1>" +
+        "<p class='mech-welcome-lead'>Each of the systems listed here produces wanting, distress, or relief in a human being. Select any one to see its resolution conditions and where modern proxies fire the cue without supplying what resolves it.</p>" +
+        "<div class='mech-welcome-cues'>" +
+          "<div class='mech-welcome-cue'><span class='pip'></span> Resolution conditions - what the system needs to settle</div>" +
+          "<div class='mech-welcome-cue'><span class='pip'></span> Proxy gradient - the spectrum from real to counterfeit</div>" +
+          "<div class='mech-welcome-cue'><span class='pip'></span> Phylogenetic depth - how old the circuit is, and how hard to adapt</div>" +
+        "</div>" +
+      "</div>";
+  }
+
   function renderMissing(code) {
     document.getElementById("view").innerHTML = "<section class='null-grad'><div class='null-body'>" +
       "<div class='null-kicker'>" + esc(code) + "</div><div class='null-title'>No record found for " + esc(code) + ".</div>" +
@@ -793,7 +808,11 @@
     try {
       buildSwitcher();
       var h = parseHash();
-      var start = h.code || "M14";
+      // On mechanisms.html (the index), show a welcome state when no hash is
+      // present rather than auto-selecting a default mechanism.
+      var isIndex = document.body.getAttribute("data-page") === "mechanisms";
+      var start = h.code || (isIndex ? null : "M14");
+      if (!start) { renderWelcome(); return; }
       navigate(start);
       if (h.anchor && h.anchor.toUpperCase() !== start) {
         // a section suffix was supplied - scroll to it after render.

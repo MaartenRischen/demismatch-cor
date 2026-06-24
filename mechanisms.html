@@ -12,10 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/portal.css">
-  <link rel="stylesheet" href="css/mechanisms.css">
+  <link rel="stylesheet" href="css/mechanism.css">
 </head>
 <body data-page="mechanisms">
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#mech-main">Skip to mechanism content</a>
 
   <div class="shell">
 
@@ -23,64 +23,28 @@
 
     <div class="diamond-rule"><span class="dia"></span></div>
 
-    <main id="main" tabindex="-1">
-
-      <section class="mx-intro">
-        <p class="mx-eyebrow">The mechanism spec</p>
-        <h1 class="mx-title">The organism's motivational-emotional systems</h1>
-        <p class="mx-lead">
-          <span id="mx-count"></span><span id="mx-lead-systems">Systems</span> that produce wanting, distress, and relief in a human being -
-          the evolved machinery that drives what you want, fear, and feel relief from.
-          Each resolves only under specific conditions; a proxy can fire the cue
-          without supplying what resolves it. This page is the full catalogue -
-          open any one for its resolution conditions and its proxy gradient.
-        </p>
-
-        <figure class="mx-epigraph">
-          <blockquote>The characteristics that promote survival in the jungle become the traits that promote psychiatric disorder in the city.</blockquote>
-          <figcaption><span class="mx-epigraph-name">Randolph Nesse</span><span class="mx-epigraph-src">Good Reasons for Bad Feelings, 2019</span></figcaption>
-        </figure>
-
-        <p class="mx-note">
-          The numbering tracks the order in which the inventory was assembled, not
-          priority. Both terms of the fitness loss function are load-bearing
-          throughout: survival anchors mechanisms like hunger, threat, and pain;
-          reproduction anchors mate signaling, pair-bonding, and parental
-          investment. Each card shows its resolution conditions and its proxy
-          gradient.
-        </p>
-      </section>
-
-      <ul class="mx-grid" id="mx-grid" aria-label="Mechanisms">
-        <!-- rendered by js/mechanisms.js -->
-      </ul>
-
-      <p class="mx-empty" id="mx-empty" hidden>Mechanism data did not load.</p>
-
-      <aside class="mx-dl-teaser">
-        <span class="dia" aria-hidden="true"></span>
-        <div class="mx-dl-teaser-body">
-          <h2 class="mx-dl-teaser-title">Want the whole spec in one document?</h2>
-          <p class="mx-dl-teaser-sub">
-            Every mechanism and its proxy gradient, written for five reading
-            levels - as Markdown or print-to-PDF.
-          </p>
+    <div class="layout">
+      <nav class="rail" aria-label="Mechanism switcher">
+        <div class="rail-label">Mechanisms <span class="ct" id="rail-ct"></span></div>
+        <div class="switcher" id="switcher" role="tablist" aria-orientation="vertical"></div>
+        <div class="rail-foot">
+          <div class="lg"><span class="sw on"></span> proxy gradient derived</div>
+          <div class="lg"><span class="sw off"></span> gradient not yet derived</div>
         </div>
-        <a class="mx-dl-teaser-link" href="downloads.html">
-          Go to downloads<span aria-hidden="true"> -&gt;</span>
-        </a>
-      </aside>
+      </nav>
 
-    </main>
+      <main class="content" id="mech-main" tabindex="-1">
+        <div id="view"><!-- rendered by mechanism.js --></div>
+      </main>
+    </div>
 
     <footer class="site-footer" data-footer></footer>
-
   </div>
 
   <script src="js/snapshot-data.js"></script>
   <script src="js/data.js"></script>
   <script src="js/xref.js"></script>
   <script src="js/chrome.js"></script>
-  <script src="js/mechanisms.js"></script>
+  <script src="js/mechanism.js"></script>
 </body>
 </html>
