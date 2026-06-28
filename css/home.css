@@ -420,3 +420,33 @@ svg.markmap .markmap-link { opacity: .9; }
 
 /* quiet pointer to the relocated FAQ (full set lives on faq.html now) */
 .home-faq-link { margin-top: clamp(28px, 4vw, 44px); }
+
+/* ===== Built on the work of - attribution strip (reinstated) ===== */
+.attr-strip {
+  padding: clamp(2.5rem, 4vw, 3.5rem) 0;
+  background: var(--parchment-soft);
+  border-top: 2px solid var(--oxblood);
+  border-bottom: 2px solid var(--oxblood);
+  position: relative;
+}
+.attr-head {
+  text-align: center; font-family: var(--mono); font-size: 0.78rem;
+  letter-spacing: 0.3em; text-transform: uppercase; color: var(--teal);
+  margin-bottom: 1.6rem; font-weight: 500;
+}
+.attr-names {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0.55rem;
+  max-width: 1040px; margin: 0 auto;
+}
+.attr-name {
+  display: inline-flex; align-items: center; padding: 0.45rem 0.9rem;
+  border: 1px solid var(--oxblood); background: var(--parchment-dark);
+  color: var(--oxblood); font-family: var(--mono); font-size: 0.76rem;
+  letter-spacing: 0.08em; border-radius: 0; text-decoration: none;
+  transition: all 0.18s ease; box-shadow: 2px 2px 0 var(--teal);
+}
+.attr-name:hover, .attr-name:focus-visible {
+  color: var(--parchment); background: var(--oxblood); border-color: var(--oxblood);
+  box-shadow: 3px 3px 0 var(--gold); transform: translateY(-1px);
+}
+@media (max-width: 600px) { .attr-name { font-size: 0.74rem; padding: 0.4rem 0.78rem; } }
