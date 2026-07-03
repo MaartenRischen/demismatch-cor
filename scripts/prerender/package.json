@@ -1,0 +1,14 @@
+{
+  "name": "cor-prerender",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Build-time pre-render for cor.demismatch.com: runs the site's own renderers in headless Chromium and bakes the rendered innerHTML into the static HTML shells (in dist/ only), so a no-JS fetch returns full content.",
+  "scripts": {
+    "prerender": "node prerender.mjs --dist ../../dist",
+    "verify": "node verify.mjs --dist ../../dist"
+  },
+  "dependencies": {
+    "playwright": "1.49.1"
+  }
+}

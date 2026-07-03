@@ -11,6 +11,14 @@ on:
     paths-ignore:
       - '10truths/**'
   workflow_dispatch:
+    inputs:
+      prerender:
+        description: "Bake rendered content into dist/ before deploy (kill switch). Set 'off' to ship raw shells (byte-for-byte pre-prerender behavior)."
+        type: choice
+        default: 'on'
+        options:
+          - 'on'
+          - 'off'
 
 permissions:
   contents: read
@@ -20,6 +28,14 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: true
+
+# Kill switch: PRERENDER defaults to 'on'. On workflow_dispatch it takes the
+# input; on push there is no input so it falls back to 'on'. To roll back
+# instantly WITHOUT reverting code: run the workflow manually with prerender=off,
+# or change the default below to 'off' (one-line edit) and push. With it off, the
+# pre-render + verify steps are skipped and dist/ ships exactly the raw shells.
+env:
+  PRERENDER: ${{ github.event.inputs.prerender || 'on' }}
 
 jobs:
   deploy:
@@ -33,6 +49,41 @@ jobs:
 
       - name: Build publish directory
         run: bash scripts/build-public.sh
+
+      # --- Pre-render stage: run the site's own renderers headless and bake the
+      # rendered content into dist/ ONLY. Gated on the PRERENDER kill switch.
+      # verify.mjs is a HARD GATE: any miss (renderer throws, empty mount,
+      # double-inject, count mismatch vs snapshot.json) fails and blocks deploy. ---
+      - name: Set up Node
+        if: env.PRERENDER != 'off'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache Playwright browsers
+        if: env.PRERENDER != 'off'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ms-playwright-${{ runner.os }}-1.49.1
+
+      - name: Install pre-render deps
+        if: env.PRERENDER != 'off'
+        working-directory: scripts/prerender
+        run: npm ci
+
+      - name: Install Chromium (Playwright)
+        if: env.PRERENDER != 'off'
+        working-directory: scripts/prerender
+        run: npx playwright install --with-deps chromium
+
+      - name: Pre-render (bake content into dist/)
+        if: env.PRERENDER != 'off'
+        run: node scripts/prerender/prerender.mjs --dist dist
+
+      - name: Verify pre-render (hard gate)
+        if: env.PRERENDER != 'off'
+        run: node scripts/prerender/verify.mjs --dist dist
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

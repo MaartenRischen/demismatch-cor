@@ -33,6 +33,12 @@
   var fm = result.frontmatter || {};
   var mm = M.Markmap.create(svg, M.deriveOptions(fm.markmap), result.root);
 
+  // The pre-render bakes a semantic nested-list fallback (#mindmap-fallback) so
+  // no-JS/crawler fetches get the full tree as real links; once the interactive
+  // markmap is live it's redundant, so remove it. No-op when absent (dev serve).
+  var _mmFallback = document.getElementById("mindmap-fallback");
+  if (_mmFallback) _mmFallback.remove();
+
   // Caption from the generated provenance, so it's honest about what's shown.
   var meta = window.COR_MINDMAP_META || {};
   var built = meta.generated_from_snapshot_built_at;

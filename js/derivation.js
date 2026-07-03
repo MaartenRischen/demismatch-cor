@@ -275,7 +275,10 @@
 
   var wrap = el("div", "stack");
   wrap.appendChild(frag);
-  stack.appendChild(wrap);
+  // Idempotent mount: replaceChildren (not appendChild) so a re-render over
+  // pre-rendered/baked HTML replaces the stack rather than doubling it. For an
+  // empty mount this is identical to appendChild.
+  stack.replaceChildren(wrap);
 
   // ---- footer counts (live from the snapshot) -------------------------------
   var foot = document.getElementById("foot-counts");
