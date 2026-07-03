@@ -5,6 +5,11 @@ on:
     branches:
       - main
       - master
+    # The Cor site (dist/) is built from repo-root files only; 10truths/ is a
+    # separate site deployed by mirror-10truths.yml. Skip Cor deploys for
+    # 10truths-only pushes so they don't spuriously re-deploy (and flake) here.
+    paths-ignore:
+      - '10truths/**'
   workflow_dispatch:
 
 permissions:
