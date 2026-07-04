@@ -102,6 +102,69 @@
     return node;
   }
 
+  // ---- the "grounded in" block: a convergence's foundational parent(s) ------
+  // Renders which foundation(s) this convergence instantiates, from the
+  // v2_foundation_convergences junction (via CorData.foundationParentsFor).
+  // Each parent deep-links up to its foundation node (#deriv-<CODE>) and carries
+  // the edge's relation/confidence + source_note. A convergence with no edge
+  // (C11, C14 today) renders an explicit, honest "open / no foundational parent"
+  // state - never a fabricated parent - mirroring the MCP's grounded=false.
+  function groundedBlock(c) {
+    var parents = C.foundationParentsFor ? C.foundationParentsFor(c.code) : [];
+    var wrap = el("div", "grounded");
+    wrap.appendChild(el("div", "grounded-cap", "Grounded in"));
+
+    if (!parents.length) {
+      var open = el("div", "grounded-open");
+      open.appendChild(el("span", "dia", ""));
+      open.appendChild(el("span", null, "Open - no foundational parent yet"));
+      wrap.appendChild(open);
+      return wrap;
+    }
+
+    var list = el("div", "grounded-list");
+    parents.forEach(function (p) {
+      var item = el("div", "gp");
+
+      var code = has(p.foundation_code) ? p.foundation_code.trim() : "";
+      var name = has(p.foundation_name) ? p.foundation_name : "";
+      var headHtml =
+        '<span class="gp-ar" aria-hidden="true">-&gt;</span>' +
+        '<span class="gp-code">' + C.clean(code) + "</span>" +
+        (name ? '<span class="gp-name">' + C.clean(name) + "</span>" : "");
+
+      var head = el("div", "gp-head");
+      // Deep-link to the foundation node above when it exists on the page;
+      // otherwise render static text so we never emit a broken anchor.
+      if (code && C.foundationByCode && C.foundationByCode(code)) {
+        var a = el("a", "gp-link", headHtml);
+        a.href = "#deriv-" + encodeURIComponent(code);
+        a.setAttribute("aria-label",
+          "Instantiates foundation " + C.clean(code) + (name ? " - " + C.clean(name) : ""));
+        head.appendChild(a);
+      } else {
+        head.appendChild(el("span", "gp-link gp-link-static", headHtml));
+      }
+
+      // relation . confidence, surfaced verbatim from the edge (data-driven).
+      var meta = [];
+      if (has(p.relation)) meta.push(p.relation.trim());
+      if (has(p.confidence)) meta.push(p.confidence.trim());
+      if (meta.length) {
+        head.appendChild(el("span", "gp-meta", C.clean(meta.join(" · "))));
+      }
+      item.appendChild(head);
+
+      // the source_note: why this grounding holds.
+      if (has(p.source_note)) {
+        item.appendChild(el("p", "gp-note", C.clean(p.source_note)));
+      }
+      list.appendChild(item);
+    });
+    wrap.appendChild(list);
+    return wrap;
+  }
+
   // ---- a single convergence node -------------------------------------------
   function convergenceNode(c) {
     var node = el("article", "node cnode");
@@ -116,6 +179,11 @@
     if (has(c.statement)) {
       node.appendChild(el("p", "node-statement", C.clean(c.statement)));
     }
+
+    // grounded in -> the foundational parent(s) this convergence instantiates
+    // (upstream), shown before the empirical literatures and the forced
+    // mechanism (downstream). Open convergences render an honest empty-state.
+    node.appendChild(groundedBlock(c));
 
     // independent literatures -> mono chips
     var lits = Array.isArray(c.independent_literatures)

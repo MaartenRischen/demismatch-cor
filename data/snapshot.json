@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-06-19T03:22:46.423132+00:00",
+    "built_at": "2026-07-04T04:10:55.538171+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,7 +10,7 @@
     "convergences": 14,
     "domains": 22,
     "gaps": 14,
-    "works": 120,
+    "works": 121,
     "extractions": 608,
     "researchers": 64,
     "mechanism_evidence": 932,
@@ -20,6 +20,7 @@
     "eea_parameters": 32,
     "parameter_mechanism": 60,
     "parameter_evidence": 152,
+    "foundation_convergences": 14,
     "challenges": 7
   },
   "tables": {
@@ -3248,6 +3249,15 @@
         "work_type": "paper",
         "importance": "supporting",
         "primary_researcher_id": null
+      },
+      {
+        "id": 121,
+        "title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+        "authors": "Barrett LF, Adolphs R, Marsella S, Martinez AM, Pollak SD",
+        "year": 2019,
+        "work_type": "review",
+        "importance": "key",
+        "primary_researcher_id": 23
       }
     ],
     "extractions": [
@@ -4228,18 +4238,6 @@
         "source_type": "primary"
       },
       {
-        "id": 283,
-        "work_id": 61,
-        "mechanism_codes": [
-          "M13"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 97,
         "work_id": 41,
         "mechanism_codes": [
@@ -4284,16 +4282,15 @@
         "source_type": "challenge"
       },
       {
-        "id": 284,
+        "id": 283,
         "work_id": 61,
         "mechanism_codes": [
           "M13"
         ],
         "foundation_codes": [
-          "P3",
-          "DA8"
+          "P3"
         ],
-        "evidence_quality": "replicated",
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -6922,18 +6919,6 @@
         "source_type": "primary"
       },
       {
-        "id": 579,
-        "work_id": 100,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 580,
         "work_id": 100,
         "mechanism_codes": [
@@ -6942,7 +6927,7 @@
         "foundation_codes": [
           "P2"
         ],
-        "evidence_quality": "replicated",
+        "evidence_quality": "contested",
         "source_type": "primary"
       },
       {
@@ -7032,6 +7017,19 @@
         "source_type": "primary"
       },
       {
+        "id": 236,
+        "work_id": 59,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DC1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
         "id": 228,
         "work_id": 59,
         "mechanism_codes": [
@@ -7055,19 +7053,6 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
-      },
-      {
-        "id": 236,
-        "work_id": 59,
-        "mechanism_codes": [
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DC1"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "propagation"
       },
       {
         "id": 230,
@@ -7932,6 +7917,19 @@
         "source_type": "primary"
       },
       {
+        "id": 284,
+        "work_id": 61,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
         "id": 262,
         "work_id": 4,
         "mechanism_codes": [
@@ -7994,6 +7992,19 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "propagation"
+      },
+      {
+        "id": 506,
+        "work_id": 73,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
       },
       {
         "id": 263,
@@ -8063,6 +8074,20 @@
           "P3"
         ],
         "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 435,
+        "work_id": 35,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -8162,20 +8187,6 @@
         "source_type": "primary"
       },
       {
-        "id": 435,
-        "work_id": 35,
-        "mechanism_codes": [
-          "M7",
-          "M8"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "primary"
-      },
-      {
         "id": 481,
         "work_id": 67,
         "mechanism_codes": [
@@ -8186,6 +8197,19 @@
           "DA1",
           "P3",
           "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 509,
+        "work_id": 73,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -9015,6 +9039,18 @@
         "source_type": "primary"
       },
       {
+        "id": 579,
+        "work_id": 100,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
         "id": 443,
         "work_id": 23,
         "mechanism_codes": [
@@ -9224,19 +9260,6 @@
         "source_type": "primary"
       },
       {
-        "id": 459,
-        "work_id": 21,
-        "mechanism_codes": [
-          "M14",
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 495,
         "work_id": 70,
         "mechanism_codes": [
@@ -9286,21 +9309,6 @@
           "DA7"
         ],
         "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 300,
-        "work_id": 11,
-        "mechanism_codes": [
-          "M1",
-          "M2",
-          "M3",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "meta_analysis",
         "source_type": "primary"
       },
       {
@@ -10837,19 +10845,6 @@
         "source_type": "primary"
       },
       {
-        "id": 506,
-        "work_id": 73,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 507,
         "work_id": 73,
         "mechanism_codes": [
@@ -10859,7 +10854,7 @@
           "DA2",
           "P3"
         ],
-        "evidence_quality": "replicated",
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -10872,33 +10867,7 @@
           "DA2",
           "P3"
         ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
-        "id": 509,
-        "work_id": 73,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
-        "id": 510,
-        "work_id": 73,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
-        ],
-        "evidence_quality": "replicated",
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -10968,6 +10937,19 @@
           "DA1",
           "DA3",
           "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 510,
+        "work_id": 73,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -11069,7 +11051,7 @@
           "DA9",
           "P2"
         ],
-        "evidence_quality": "replicated",
+        "evidence_quality": "theoretical",
         "source_type": "propagation"
       },
       {
@@ -11164,6 +11146,34 @@
           "OF1"
         ],
         "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 459,
+        "work_id": 21,
+        "mechanism_codes": [
+          "M14",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 300,
+        "work_id": 121,
+        "mechanism_codes": [
+          "M1",
+          "M2",
+          "M3",
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "meta_analysis",
         "source_type": "primary"
       }
     ],
@@ -17789,21 +17799,21 @@
             "extraction_id": 507,
             "evidence_role": "supporting",
             "author_quote": "We can only interact coherently with a very small number of other people (about three, in fact) at any one time.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Online inner social layers replicate offline sizes exactly. Support clique (crisis contacts): mean=4.1, not significantly different from offline values of 3.8+/-2.29 (z=0.13, p=0.897) or generic value of 5 (z=0.39, p=0.694). Sympathy group (close friends): mean=13.6, not differen"
           },
           {
             "extraction_id": 508,
             "evidence_role": "supporting",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
             "evidence_role": "supporting",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           }
         ]
@@ -17889,14 +17899,14 @@
             "extraction_id": 509,
             "evidence_role": "primary",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           },
           {
             "extraction_id": 510,
             "evidence_role": "supporting",
             "author_quote": "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Age strongly predicts total network size (r=-0.972, p=0.006) with 18-24 year olds averaging 282 friends, but inner layers show minimal age variation (support clique: r=-0.837, p=0.077; sympathy group: r=-0.042, p=0.947). The cognitive/time constraint on intimate relationships is "
           },
           {
@@ -18007,14 +18017,14 @@
             "extraction_id": 508,
             "evidence_role": "challenging",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
             "evidence_role": "challenging",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           }
         ]
@@ -19124,14 +19134,14 @@
             "extraction_id": 283,
             "evidence_role": "supporting",
             "author_quote": "Here we tested a Constrained total energy expenditure model, in which total energy expenditure increases with physical activity at low activity levels but plateaus at higher activity levels as the body adapts to maintain total energy expenditure within a narrow range. We compared total energy expenditure, measured using doubly labeled water, against physical activity, measured using accelerometry, for a large (n = 332) sample of adults living in five populations. After adjusting for body size and composition, total energy expenditure was positively correlated with physical activity, but the relationship was markedly stronger over the lower range of physical activity. For subjects in the upper range of physical activity, total energy expenditure plateaued, supporting a Constrained total energy expenditure model.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "The constrained total energy expenditure model: total daily energy expenditure (TEE) increases with physical activity at low activity levels but plateaus at higher levels as the body adapts metabolically to maintain TEE within a narrow range. Tested in a multi-population doubly-l"
           },
           {
             "extraction_id": 284,
             "evidence_role": "supporting",
             "author_quote": "People in less socioeconomically developed populations, including subsistence farmers and traditional hunter-gatherers, have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Mammals living in the wild, including non-human primate species, have total energy expenditures similar to captive populations. These population-level comparisons suggest that total energy expenditure is an evolved, species-specific trait that is homeostatically buffered against variation in habitual physical activity.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Cross-population pattern: people in less socioeconomically developed populations — subsistence farmers and traditional hunter-gatherers — have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Non-human "
           },
           {
@@ -19345,7 +19355,7 @@
             "extraction_id": 509,
             "evidence_role": "supporting",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           },
           {
@@ -19460,14 +19470,14 @@
             "extraction_id": 508,
             "evidence_role": "challenging",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
             "evidence_role": "supporting",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           },
           {
@@ -20995,6 +21005,134 @@
         "extraction_id": 617,
         "evidence_role": "challenging",
         "created_at": "2026-06-08T23:21:56.729138+00:00"
+      }
+    ],
+    "foundation_convergences": [
+      {
+        "id": 1,
+        "foundation_code": "P1",
+        "convergence_code": "C1",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "P1 'inclusive fitness = the loss function' = C1 verbatim; shared lit Darwin + Hamilton.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 2,
+        "foundation_code": "P2",
+        "convergence_code": "C2",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "P2 'evolved, domain-sensitive, interacting functional adaptations' = C2 verbatim; shared lit Tooby & Cosmides.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 3,
+        "foundation_code": "P3",
+        "convergence_code": "C3",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "P3 'push adaptations outside expected/regulatable operating ranges' = C3 verbatim; shared lit Eaton & Konner, Li/van Vugt/Colarelli, Boyd & Richerson, Henrich.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 4,
+        "foundation_code": "DA8",
+        "convergence_code": "C4",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA8.derivation literally cites 'cross-species conservation evidence' (= C4's claim); shared Panksepp cross-species lit. Phylogenetic conservation is DA8's evidentiary basis.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 5,
+        "foundation_code": "DA2",
+        "convergence_code": "C5",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA2 name + claim 'socially scaffolded regulation' identical to C5; shared lit Coan, Bowlby, Hrdy, Dunbar.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 6,
+        "foundation_code": "DA4",
+        "convergence_code": "C6",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA4 'proxy cues activate systems without meeting terminating conditions' = C6 verbatim; shared lit Tinbergen + Berridge & Robinson; C6 extractions carry foundation_code DA4.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 7,
+        "foundation_code": "DA3",
+        "convergence_code": "C7",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA3 'recurrently coupled; perturbations propagate and self-maintain across domains' = C7 verbatim; shared lit Panksepp cross-system inhibition, Felitti ACE, McEwen.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 8,
+        "foundation_code": "DA5",
+        "convergence_code": "C8",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA5 'defensive systems err toward over-activation under asymmetric error costs' = C8 verbatim; shared lit Haselton & Buss + Nesse smoke-detector.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 9,
+        "foundation_code": "DC1",
+        "convergence_code": "C9",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DC1 name + claim 'chronic unresolved activation -> allostatic load' identical to C9; shared lit McEwen.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 10,
+        "foundation_code": "DA8",
+        "convergence_code": "C10",
+        "relation": "instantiates",
+        "confidence": "medium",
+        "source_note": "COMPOSITE (primary). 'Ancient subcortical circuits override cortical processing' = DA8 (older systems suppress/commandeer newer); C10 extractions carry DA8.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 11,
+        "foundation_code": "DA5",
+        "convergence_code": "C10",
+        "relation": "instantiates",
+        "confidence": "medium",
+        "source_note": "COMPOSITE. Threat over-activation / smoke-detector aspect of C10; C10 extractions carry DA5 (Oehman & Mineka, Nesse).",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 12,
+        "foundation_code": "DA1",
+        "convergence_code": "C10",
+        "relation": "instantiates",
+        "confidence": "medium",
+        "source_note": "COMPOSITE. Defensive-signal aspect of C10; C10 extraction 5 carries DA1 (defensive signals under mismatch).",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 13,
+        "foundation_code": "DA7",
+        "convergence_code": "C12",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA7 name + claim 'developmental calibration within evolved ranges' identical to C12; shared lit Bowlby, McEwen.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
+      },
+      {
+        "id": 14,
+        "foundation_code": "DA1",
+        "convergence_code": "C13",
+        "relation": "instantiates",
+        "confidence": "high",
+        "source_note": "DA1 'aversive outputs are intelligible defensive signals' = C13 verbatim; shared lit Nesse.",
+        "created_at": "2026-07-04T03:33:29.318418+00:00"
       }
     ],
     "challenges": [

@@ -290,6 +290,45 @@
     }));
   }
 
+  // ---- foundation -> convergence derivation edges ---------------------------
+  // The v2_foundation_convergences junction: which foundation(s) each
+  // convergence instantiates (foundation_code, convergence_code, relation,
+  // confidence, source_note). Absent table degrades to [] so callers render the
+  // honest "open / no foundational parent" state (mirrors the MCP's
+  // grounded=false). No fabrication: a convergence with no edge (C11, C14) is
+  // open by design, never given a filler parent.
+  function foundationConvergences() { return table("foundation_convergences"); }
+  // The foundation parents of one convergence, ordered by foundation code
+  // (numeric within prefix), each joined to its foundation name for display.
+  // foundation_name is null when the code has no matching foundation row, so the
+  // caller can degrade the deep-link to plain text rather than a broken anchor.
+  // An empty array means the convergence is ungrounded (open) - render honestly.
+  function foundationParentsFor(convCode) {
+    var edges = foundationConvergences().filter(function (e) {
+      return e && e.convergence_code === convCode;
+    });
+    edges = edges.slice().sort(function (a, b) {
+      var ra = /^([A-Za-z]+)(\d+)$/.exec((a && a.foundation_code) || "");
+      var rb = /^([A-Za-z]+)(\d+)$/.exec((b && b.foundation_code) || "");
+      if (!ra || !rb) {
+        return String((a && a.foundation_code) || "")
+          .localeCompare(String((b && b.foundation_code) || ""));
+      }
+      if (ra[1] !== rb[1]) return ra[1].localeCompare(rb[1]);
+      return parseInt(ra[2], 10) - parseInt(rb[2], 10);
+    });
+    return edges.map(function (e) {
+      var f = foundationByCode(e.foundation_code);
+      return {
+        foundation_code: e.foundation_code,
+        foundation_name: (f && has(f.name)) ? f.name : null,
+        relation: e.relation,
+        confidence: e.confidence,
+        source_note: e.source_note,
+      };
+    });
+  }
+
   // ---- bridge thesis (Panksepp-Barrett resolution, BT1) ---------------------
   function bridgeTheses() { return table("bridge_theses"); }
   function bridgeThesis() { return bridgeTheses()[0] || null; }
@@ -369,6 +408,8 @@
     foundationsOrdered: foundationsOrdered,
     foundationByCode: foundationByCode,
     foundationsByLayer: foundationsByLayer,
+    foundationConvergences: foundationConvergences,
+    foundationParentsFor: foundationParentsFor,
     convergences: convergences,
     convergencesOrdered: convergencesOrdered,
     convergenceByCode: convergenceByCode,

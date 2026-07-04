@@ -225,6 +225,60 @@
 }
 .fm-none .dia { width: 5px; height: 5px; transform: rotate(45deg); background: var(--border-strong); flex: 0 0 auto; }
 
+/* ---------- grounded in: the convergence's foundational parent(s) ---------- */
+/* The upstream analog of the foundation node's "Forced by": which foundation(s)
+   this convergence instantiates. Deep-links up to the foundation node. C11/C14
+   carry no edge and render the honest "open" empty-state below. */
+.grounded { margin-top: 12px; max-width: 74ch; }
+.grounded-cap {
+  font-family: var(--mono); font-size: .56rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 7px;
+}
+.grounded-list { display: flex; flex-direction: column; gap: 11px; }
+.gp { display: flex; flex-direction: column; gap: 5px; }
+.gp-head { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+
+/* the parent chip: mirrors .fm-link, but points UP to a foundation (oxblood
+   accent rather than the mechanism route's teal) */
+.gp-link {
+  display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none;
+  font-family: var(--mono); font-size: .7rem; color: var(--oxblood-ink);
+  background: var(--parchment); border: 1px solid var(--border);
+  padding: 4px 10px; border-radius: 3px;
+  transition: background var(--dur-fast) ease, border-color var(--dur-fast) ease, color var(--dur-fast) ease, transform var(--dur-fast) ease;
+}
+.gp-link .gp-code { color: var(--oxblood); font-weight: 500; letter-spacing: .04em; }
+.gp-link .gp-name { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: 0; }
+.gp-link .gp-ar { opacity: .5; transform: rotate(180deg); }
+a.gp-link:hover {
+  background: var(--oxblood); color: var(--parchment-soft); border-color: var(--oxblood);
+  transform: translateY(-1px);
+}
+a.gp-link:hover .gp-code, a.gp-link:hover .gp-name { color: var(--parchment-soft); }
+a.gp-link:hover .gp-ar { opacity: .9; }
+/* static (no matching foundation node) - no hover affordance */
+.gp-link-static { cursor: default; }
+
+.gp-meta {
+  font-family: var(--mono); font-size: .54rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--muted-warm); white-space: nowrap;
+}
+.gp-note {
+  font-size: .84rem; font-weight: 300; line-height: 1.55; color: var(--oxblood-warm);
+  max-width: 72ch; overflow-wrap: anywhere;
+}
+
+/* honest open-state for an ungrounded convergence (C11/C14): mirrors .fm-none */
+.grounded-open {
+  font-family: var(--mono); font-size: .6rem; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--muted-warm); font-style: normal;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.grounded-open .dia {
+  width: 5px; height: 5px; transform: rotate(45deg);
+  background: var(--border-strong); flex: 0 0 auto;
+}
+
 /* ---------- mechanisms row: terminal layer ---------- */
 .mech-grid {
   display: grid; grid-template-columns: 1fr; gap: 5px;
