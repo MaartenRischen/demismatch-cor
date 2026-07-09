@@ -175,7 +175,6 @@
   // partials/footer.html + xsite-nav.html.
   var XSITE = [
     { head: "DEMISMATCH", role: "The why", desc: "the front door", href: "https://demismatch.com/" },
-    { head: "VISION",     role: "The what", desc: "the map",       href: "https://demismatch.com/vision.html" },
     { head: "COR",        role: "The how", desc: "the spec",       href: "https://cor.demismatch.com/", current: true }
   ];
 
