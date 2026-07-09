@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-06-09 02:27 UTC, from the live Cor atlas snapshot built 2026-06-09 02:13 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-07-09 09:22 UTC, from the live Cor atlas snapshot built 2026-07-04 04:10 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 120 works, 608 extractions, 64 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (8 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 121 works, 608 extractions, 64 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (8 contested-flagged).
 
 ---
 ## How to read this document
@@ -357,4 +357,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a v0 prototype atlas, a living specification. Every figure above is read from the baked snapshot built 2026-06-09 02:13 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-06-09 02:27 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-07-04 04:10 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-07-09 09:22 UTC.*

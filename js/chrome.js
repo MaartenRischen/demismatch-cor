@@ -215,7 +215,7 @@
         'environment design are all built on it.</p>' +
       '<div class="foot-signature">' +
         '<span>Cor</span><span class="sep">/</span>' +
-        '<span>v0 prototype spec - a living specification</span>' +
+        '<span>a living atlas, built toward the specification</span>' +
         '<span class="sep">/</span><span id="foot-counts">' + esc(countSignature()) + '</span>' +
         '<span class="sep">/</span><span data-cor-honesty></span>' +
       '</div>';
