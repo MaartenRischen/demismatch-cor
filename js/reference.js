@@ -46,6 +46,13 @@
     return D.normalizeDashes(String(v)).replace(/_/g, " ").trim();
   }
 
+  // Grade chip label. Confidence top tier stored as "forced" (decision 2250);
+  // rendered as "established". Entailment ("Forces") is a separate chip.
+  function gradeLabel(v) {
+    var s = humanize(v);
+    return s.toLowerCase() === "forced" ? "established" : s;
+  }
+
   // Set inner HTML of a section body, with a calm empty-state fallback.
   function fill(id, html, emptyMsg) {
     var el = document.getElementById(id);
@@ -86,7 +93,7 @@
       var head = '<div class="ref-card-top">' +
         chip(f.code) +
         (f.layer ? '<span class="ref-tag">' + esc(humanize(f.layer)) + "</span>" : "") +
-        (f.epistemic_grade ? '<span class="ref-tag ref-tag-grade">' + esc(humanize(f.epistemic_grade)) + "</span>" : "") +
+        (f.epistemic_grade ? '<span class="ref-tag ref-tag-grade">' + esc(gradeLabel(f.epistemic_grade)) + "</span>" : "") +
         "</div>";
       var name = '<h3 class="ref-card-name">' + clean(f.name || f.code) + "</h3>";
       var stmt = f.statement ? '<p class="ref-card-body">' + clean(f.statement) + "</p>" : "";
@@ -115,7 +122,7 @@
         : "";
       var head = '<div class="ref-card-top">' +
         chip(c.code) +
-        (c.epistemic_grade ? '<span class="ref-tag ref-tag-grade">' + esc(humanize(c.epistemic_grade)) + "</span>" : "") +
+        (c.epistemic_grade ? '<span class="ref-tag ref-tag-grade">' + esc(gradeLabel(c.epistemic_grade)) + "</span>" : "") +
         "</div>";
       return '<article class="ref-card">' +
         head +

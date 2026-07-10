@@ -38,7 +38,7 @@
     var key = g.toLowerCase().trim();
     var map = {
       "frame": "frame",
-      "forced": "forced",
+      "forced": "established", // confidence top tier stored as "forced" (decision 2250); rendered as "established"
       "strongly_supported": "strongly supported",
       "plausible_synthesis": "plausible synthesis",
       "plausible": "plausible",

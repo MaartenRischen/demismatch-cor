@@ -81,7 +81,7 @@
     return "<header class='ident'>" +
       "<div class='ident-top'>" +
         "<span class='ident-code'>" + esc(m.code) + "</span>" +
-        (m.grade ? "<span class='ident-grade'>" + esc(dash(m.grade)) + "</span>" : "") +
+        (m.grade ? "<span class='ident-grade'>" + esc(String(m.grade).toLowerCase().trim() === "forced" ? "established" : dash(m.grade)) + "</span>" : "") +
         (m.tier != null ? "<span class='ident-tier'>Tier " + esc(m.tier) + "</span>" : "") +
       "</div>" +
       "<h1 class='ident-name'>" + clean(m.name) + "</h1>" +

@@ -38,6 +38,18 @@
 }
 .deriv-jump a:hover { border-color: var(--teal); color: var(--oxblood); background: var(--parchment); }
 
+/* ---------- "how to read this stack" callout ---------- */
+.deriv-note {
+  max-width: 66ch; margin: 26px 0 4px; padding: 16px 18px;
+  border: 1px solid var(--border-soft); border-left: 3px solid var(--teal);
+  border-radius: 3px; background: var(--parchment-soft);
+}
+.deriv-note p {
+  font-weight: 300; font-size: .92rem; line-height: 1.6;
+  color: var(--oxblood-ink); margin: 0;
+}
+.deriv-note p + p { margin-top: .7em; color: var(--muted-warm, var(--oxblood-ink)); }
+
 /* ---------- the stack: a left-edge layer rail ---------- */
 .stack { margin-top: 34px; }
 

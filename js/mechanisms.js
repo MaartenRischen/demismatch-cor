@@ -58,7 +58,9 @@
   // "strongly_supported"). Underscores -> spaces; never invents a value.
   function gradeLabel(g) {
     if (g == null) return "";
-    return D.normalizeDashes(String(g)).replace(/_/g, " ").trim();
+    var s = D.normalizeDashes(String(g)).replace(/_/g, " ").trim();
+    // Confidence top tier stored as "forced" (decision 2250); render "established".
+    return s.toLowerCase() === "forced" ? "established" : s;
   }
 
   function hasGradient(m) {
