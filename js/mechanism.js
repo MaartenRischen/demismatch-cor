@@ -514,7 +514,7 @@
     var kpis = "<div class='ops-kpis'>" +
       opsKpi(m.code, "Mechanism under test") +
       "<div class='ops-kpi'><span class='ops-kpi-v'>" + convChip + "</span><span class='ops-kpi-l'>Forcing convergence</span></div>" +
-      opsKpi("draft v0.1", "Evaluation status (uncalibrated)") +
+      opsKpi("draft", "Evaluation status (uncalibrated)") +
       opsKpi("kappa > 0.7", "Coder reliability target") +
     "</div>";
 
@@ -552,7 +552,7 @@
       "</div>" +
 
       "<div class='ops-block'>" +
-        "<div class='ops-block-head'><span class='dia' aria-hidden='true'></span> Draft indicators and coding criteria (v0.1)</div>" +
+        "<div class='ops-block-head'><span class='dia' aria-hidden='true'></span> Draft indicators and coding criteria</div>" +
         "<p class='ops-block-sub'>Provisional thresholds. The point is to show what indicator-level operationalization looks like " +
         "before pilot calibration, not to pretend calibration exists. Each indicator targets a reliability of Cohen's kappa above 0.7 between two independent coders.</p>" +
         "<div class='ops-inds'>" + indicators + "</div>" +
