@@ -82,7 +82,7 @@
   // mechanism.html keeps its structural exception: the "Detail View" subtitle.
   function subtitleFor(pageKey) {
     if (pageKey === "mechanism") return "Mechanism Spec - Detail View";
-    return "A complete account of the human organism";
+    return "An evidence-graded atlas of human needs";
   }
 
   function navLinks(list, navKey, cls) {

@@ -5,7 +5,7 @@
    The argument prose is authored static HTML in the page. This script does the
    data-bound work only:
      1. fills the live "current snapshot" strip from CorData.counts() (so the
-        frozen v0 figures in the prose never silently contradict the spec);
+        frozen figures in the prose never silently contradict the spec);
      2. freezes the snapshot-date stamp from meta().built_at;
      3. renders the mechanism / tier / forcing-convergence table from
         CorData.mechanismsOrdered(), with every code as a CorXref chip;
