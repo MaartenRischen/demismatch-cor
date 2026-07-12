@@ -118,6 +118,25 @@
 }
 .lr-live b { color: var(--oxblood); font-weight: 500; }
 
+/* Dated-paper status note: this working paper is an April 2026 artifact; the
+   note states that plainly and points the reader at the live grounding. */
+.lr-note {
+  max-width: var(--reading-maxw);
+  margin: 0 auto 2rem;
+  font-family: var(--serif);
+  font-size: .92rem;
+  line-height: 1.6;
+  color: var(--oxblood-ink);
+  background: var(--bg-card-soft);
+  border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--teal);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-double-sm);
+  padding: 1rem 1.2rem;
+}
+.lr-note p { margin: 0; }
+.lr-note a { color: var(--teal); }
+
 /* ---- body prose ------------------------------------------------------------ */
 
 .lr-body { max-width: var(--reading-maxw); margin: 0 auto; }
