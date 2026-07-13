@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-04T04:10:55.538171+00:00",
+    "built_at": "2026-07-13T02:39:57.039109+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -8,12 +8,12 @@
     "foundations": 17,
     "mechanisms": 15,
     "convergences": 14,
-    "domains": 22,
-    "gaps": 14,
-    "works": 121,
+    "domains": 23,
+    "gaps": 16,
+    "works": 122,
     "extractions": 608,
     "researchers": 64,
-    "mechanism_evidence": 932,
+    "mechanism_evidence": 930,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -215,6 +215,280 @@
     ],
     "mechanisms": [
       {
+        "code": "M11",
+        "name": "Cooperation / Alliance",
+        "tier": 2,
+        "grade": "strongly_supported",
+        "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
+        "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 is a confidence grade, not an entailment status. M11 IS entailment-forced - convergence C11 forces it - and its four converging streams (Fehr & Gächter, Boehm, Tomasello, Trivers) strongly support it without reaching the top confidence tier.",
+        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (~150, the same Dunbar cognitive ceiling that bounds M3). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned — this tracking capacity is bounded by the same neocortex-ratio constraint (Dunbar 1992, Dunbar & Shultz 2007). Beyond ~150, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+        "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
+        "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
+        "convergence_codes": [
+          "C11"
+        ],
+        "p1_basis": null,
+        "phylogenetic_age": "~2-5Myr (humans + great apes)",
+        "source_researchers": [
+          "Trivers",
+          "Boehm",
+          "Fehr & Gächter",
+          "Tomasello"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [
+          "M14"
+        ],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
+          "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
+              "state": "FULL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 1,
+              "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
+              "state": "PARTIAL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 2,
+              "label": "market exchange among strangers backed by gameable reputation systems",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "coalition-signaling and parasocial alliance via symbolic in-group markers",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
+              "state": "ZERO",
+              "tag": "ARCHITECTURE-DERIVED",
+              "note": "architecture-derived"
+            }
+          ],
+          "trailing": "Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M14",
+        "name": "Reproductive Motivation",
+        "tier": 1,
+        "grade": "forced",
+        "eli5": "Three components — desire, attraction, and pair bonding — that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
+        "description": "Fisher's three-system model. Independent from M2 pursuit. HPG axis, not just brain circuits.",
+        "resolution_conditions": "Sexual fulfillment within pair bond + pair bond stability + reproductive success.",
+        "mismatch_prediction": "Pornography, dating apps, delayed reproduction, social media mate-value comparison.",
+        "proxy_gradient": "5 levels: real partner (FULL) → attenuated real / LDR (PARTIAL) → partial proxy / dating app to real meeting (MIXED) → pure proxy soft / romance fiction / parasocial (MINIMAL) → pure proxy hard / pornography / AI sexual (ZERO)",
+        "convergence_codes": [
+          "C14"
+        ],
+        "p1_basis": "Reproduction (half of inclusive fitness)",
+        "phylogenetic_age": "~500Myr sexual, ~200Myr pair bonding",
+        "source_researchers": [
+          "Panksepp",
+          "Fisher",
+          "Buss",
+          "Trivers",
+          "Hrdy"
+        ],
+        "cascade_suppresses": [
+          "M6",
+          "M11"
+        ],
+        "cascade_suppressed_by": [
+          "M1",
+          "M8",
+          "M9"
+        ],
+        "cascade_interacts": [
+          "M3",
+          "M5",
+          "M2"
+        ],
+        "sex_differentiated": true,
+        "sex_diff_notes": "Female: VMH-centered, estrous cycling, resource/commitment signals preferred, pair bond security emphasis. Male: POA-centered, tonic testosterone, fertility/accessibility cues, sexual variety emphasis.",
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels: real partner (FULL) → attenuated real / LDR (PARTIAL) → partial proxy / dating app to real meeting (MIXED) → pure proxy soft / romance fiction / parasocial (MINIMAL) → pure proxy hard / pornography / AI sexual (ZERO)",
+          "preamble": "5 levels",
+          "levels": [
+            {
+              "index": 0,
+              "label": "real partner",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "attenuated real / LDR",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "partial proxy / dating app to real meeting",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "pure proxy soft / romance fiction / parasocial",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "pure proxy hard / pornography / AI sexual",
+              "state": "ZERO",
+              "tag": null,
+              "note": ""
+            }
+          ],
+          "trailing": "",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M3",
+        "name": "Social Bonding",
+        "tier": 1,
+        "grade": "forced",
+        "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
+        "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly).",
+        "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number — outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 ceiling bounds the total network within which reputation, obligation, and face-to-face familiarity can be maintained (Dunbar 1992, replicated in phone, Christmas-card, and Facebook data).",
+        "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence.",
+        "proxy_gradient": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
+        "convergence_codes": [
+          "C5"
+        ],
+        "p1_basis": "Survival (social scaffolding was primary selection pressure)",
+        "phylogenetic_age": "~200Myr (mammalian)",
+        "source_researchers": [
+          "Bowlby",
+          "Panksepp",
+          "Coan",
+          "Hrdy"
+        ],
+        "cascade_suppresses": [
+          "M1",
+          "M2",
+          "M4",
+          "M10",
+          "M6"
+        ],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [
+          "M14"
+        ],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
+          "preamble": "5 levels (ordered by real co-regulatory function supplied, not amount of contact)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "reliable physically co-present inner circle",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "real bonded inner circle held at a distance, remote contact",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "large mediated network routing only partly to real co-presence",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "one-sided parasocial attachment to a non-reciprocating figure",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "AI companion engineered to simulate a reciprocating bond",
+              "state": "ZERO",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED-theoretical on ext595"
+            }
+          ],
+          "trailing": "Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
         "code": "M5",
         "name": "Status Monitoring",
         "tier": 1,
@@ -305,92 +579,6 @@
         }
       },
       {
-        "code": "M11",
-        "name": "Cooperation / Alliance",
-        "tier": 2,
-        "grade": "strongly_supported",
-        "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
-        "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 reflects epistemic honesty. No single convergence FORCES a dedicated mechanism — but four converging streams strongly support it.",
-        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (~150, the same Dunbar cognitive ceiling that bounds M3). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned — this tracking capacity is bounded by the same neocortex-ratio constraint (Dunbar 1992, Dunbar & Shultz 2007). Beyond ~150, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
-        "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
-        "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
-        "convergence_codes": [
-          "C11"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~2-5Myr (humans + great apes)",
-        "source_researchers": [
-          "Trivers",
-          "Boehm",
-          "Fehr & Gächter",
-          "Tomasello"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [
-          "M14"
-        ],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
-          "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
-              "state": "FULL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 1,
-              "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
-              "state": "PARTIAL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 2,
-              "label": "market exchange among strangers backed by gameable reputation systems",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "coalition-signaling and parasocial alliance via symbolic in-group markers",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
-              "state": "ZERO",
-              "tag": "ARCHITECTURE-DERIVED",
-              "note": "architecture-derived"
-            }
-          ],
-          "trailing": "Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M7",
         "name": "Circadian Regulation",
         "tier": 1,
@@ -412,7 +600,9 @@
           "Roenneberg",
           "Czeisler"
         ],
-        "cascade_suppresses": [],
+        "cascade_suppresses": [
+          "M2"
+        ],
         "cascade_suppressed_by": [],
         "cascade_interacts": [],
         "sex_differentiated": false,
@@ -584,10 +774,10 @@
         "cascade_suppresses": [],
         "cascade_suppressed_by": [
           "M1",
+          "M13",
           "M3",
           "M7",
-          "M8",
-          "M13"
+          "M8"
         ],
         "cascade_interacts": [
           "M4",
@@ -654,85 +844,75 @@
         }
       },
       {
-        "code": "M14",
-        "name": "Reproductive Motivation",
-        "tier": 1,
-        "grade": "forced",
-        "eli5": "Three components — desire, attraction, and pair bonding — that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
-        "description": "Fisher's three-system model. Independent from M2 pursuit. HPG axis, not just brain circuits.",
-        "resolution_conditions": "Sexual fulfillment within pair bond + pair bond stability + reproductive success.",
-        "mismatch_prediction": "Pornography, dating apps, delayed reproduction, social media mate-value comparison.",
-        "proxy_gradient": "5 levels: real partner (FULL) → attenuated real / LDR (PARTIAL) → partial proxy / dating app to real meeting (MIXED) → pure proxy soft / romance fiction / parasocial (MINIMAL) → pure proxy hard / pornography / AI sexual (ZERO)",
+        "code": "M13",
+        "name": "Energy Regulation",
+        "tier": 2,
+        "grade": "strongly_supported",
+        "eli5": "Hunger, satiety, and constrained total energy expenditure.",
+        "description": "Pontzer's constrained energy model. Energy is redistributed, not burned.",
+        "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
+        "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
+        "proxy_gradient": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
         "convergence_codes": [
-          "C14"
+          "C3",
+          "C6",
+          "C9"
         ],
-        "p1_basis": "Reproduction (half of inclusive fitness)",
-        "phylogenetic_age": "~500Myr sexual, ~200Myr pair bonding",
+        "p1_basis": null,
+        "phylogenetic_age": "~500Myr",
         "source_researchers": [
-          "Panksepp",
-          "Fisher",
-          "Buss",
-          "Trivers",
-          "Hrdy"
+          "Pontzer",
+          "Keys"
         ],
         "cascade_suppresses": [
-          "M6",
-          "M11"
-        ],
-        "cascade_suppressed_by": [
-          "M1",
-          "M8",
-          "M9"
-        ],
-        "cascade_interacts": [
-          "M3",
-          "M5",
           "M2"
         ],
-        "sex_differentiated": true,
-        "sex_diff_notes": "Female: VMH-centered, estrous cycling, resource/commitment signals preferred, pair bond security emphasis. Male: POA-centered, tonic testosterone, fertility/accessibility cues, sexual variety emphasis.",
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
         "created_at": "2026-04-04T19:09:50.118794+00:00",
         "proxy_gradient_parsed": {
-          "raw": "5 levels: real partner (FULL) → attenuated real / LDR (PARTIAL) → partial proxy / dating app to real meeting (MIXED) → pure proxy soft / romance fiction / parasocial (MINIMAL) → pure proxy hard / pornography / AI sexual (ZERO)",
-          "preamble": "5 levels",
+          "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
+          "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
           "levels": [
             {
               "index": 0,
-              "label": "real partner",
+              "label": "effortful, diverse, seasonal whole foods",
               "state": "FULL",
-              "tag": null,
-              "note": ""
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
             },
             {
               "index": 1,
-              "label": "attenuated real / LDR",
-              "state": "PARTIAL",
+              "label": "minimally processed traditional whole foods",
+              "state": "ATTENUATED",
               "tag": null,
               "note": ""
             },
             {
               "index": 2,
-              "label": "partial proxy / dating app to real meeting",
-              "state": "MIXED",
+              "label": "conventionally processed energy-dense food",
+              "state": "PARTIAL",
               "tag": null,
               "note": ""
             },
             {
               "index": 3,
-              "label": "pure proxy soft / romance fiction / parasocial",
+              "label": "energy-dense palatable food optimized for crave",
               "state": "MINIMAL",
               "tag": null,
               "note": ""
             },
             {
               "index": 4,
-              "label": "pure proxy hard / pornography / AI sexual",
-              "state": "ZERO",
-              "tag": null,
-              "note": ""
+              "label": "ultra-processed bliss-point food, an engineered supernormal stimulus",
+              "state": "DEFEATED",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
             }
           ],
-          "trailing": "",
+          "trailing": "Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -994,278 +1174,6 @@
         }
       },
       {
-        "code": "M13",
-        "name": "Energy Regulation",
-        "tier": 2,
-        "grade": "strongly_supported",
-        "eli5": "Hunger, satiety, and constrained total energy expenditure.",
-        "description": "Pontzer's constrained energy model. Energy is redistributed, not burned.",
-        "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
-        "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
-        "proxy_gradient": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
-        "convergence_codes": [
-          "C3",
-          "C6",
-          "C9"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~500Myr",
-        "source_researchers": [
-          "Pontzer",
-          "Keys"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
-          "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "effortful, diverse, seasonal whole foods",
-              "state": "FULL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 1,
-              "label": "minimally processed traditional whole foods",
-              "state": "ATTENUATED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "conventionally processed energy-dense food",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "energy-dense palatable food optimized for crave",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "ultra-processed bliss-point food, an engineered supernormal stimulus",
-              "state": "DEFEATED",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            }
-          ],
-          "trailing": "Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
-        "code": "M3",
-        "name": "Social Bonding",
-        "tier": 1,
-        "grade": "forced",
-        "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
-        "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly).",
-        "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number — outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 ceiling bounds the total network within which reputation, obligation, and face-to-face familiarity can be maintained (Dunbar 1992, replicated in phone, Christmas-card, and Facebook data).",
-        "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence.",
-        "proxy_gradient": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
-        "convergence_codes": [
-          "C5"
-        ],
-        "p1_basis": "Survival (social scaffolding was primary selection pressure)",
-        "phylogenetic_age": "~200Myr (mammalian)",
-        "source_researchers": [
-          "Bowlby",
-          "Panksepp",
-          "Coan",
-          "Hrdy"
-        ],
-        "cascade_suppresses": [
-          "M1",
-          "M2",
-          "M4",
-          "M10",
-          "M6"
-        ],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [
-          "M14"
-        ],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
-          "preamble": "5 levels (ordered by real co-regulatory function supplied, not amount of contact)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "reliable physically co-present inner circle",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "real bonded inner circle held at a distance, remote contact",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "large mediated network routing only partly to real co-presence",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "one-sided parasocial attachment to a non-reciprocating figure",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "AI companion engineered to simulate a reciprocating bond",
-              "state": "ZERO",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED-theoretical on ext595"
-            }
-          ],
-          "trailing": "Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
-        "code": "M9",
-        "name": "Care / Alloparenting",
-        "tier": 1,
-        "grade": "forced",
-        "eli5": "Distributed care — the organism expects a village, not solo parenting.",
-        "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
-        "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
-        "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
-        "proxy_gradient": "TWO scales (#1581). Axis A — real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B — fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
-        "convergence_codes": [
-          "C1",
-          "C4",
-          "C5",
-          "C12"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~200Myr",
-        "source_researchers": [
-          "Hrdy",
-          "Panksepp",
-          "Kenkel"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "TWO scales (#1581). Axis A — real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B — fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
-          "preamble": "TWO scales (#1581)",
-          "axes": [
-            {
-              "label": "Axis A — real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship)",
-              "levels": [
-                {
-                  "index": 0,
-                  "label": "distributed ~4+ kin-and-community network",
-                  "state": "FULL",
-                  "tag": null,
-                  "note": ""
-                },
-                {
-                  "index": 1,
-                  "label": "multiple reliable caregivers incl. high-quality paid care",
-                  "state": "REDUCED",
-                  "tag": null,
-                  "note": ""
-                },
-                {
-                  "index": 2,
-                  "label": "single intermittent helper / high-turnover institutional care",
-                  "state": "THIN",
-                  "tag": null,
-                  "note": ""
-                },
-                {
-                  "index": 3,
-                  "label": "solo/dyadic parent, no network",
-                  "state": "EMPTY SHELF",
-                  "tag": null,
-                  "note": "deprivation floor, not a proxy"
-                }
-              ]
-            },
-            {
-              "label": "Axis B — fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit)",
-              "levels": [
-                {
-                  "index": 0,
-                  "label": "screen/app babysitter → AI/robot 'caregiver'",
-                  "state": "ZERO",
-                  "tag": "ARCHITECTURE-DERIVED",
-                  "note": "architecture-derived"
-                }
-              ]
-            }
-          ],
-          "levels": [],
-          "trailing": "",
-          "demoted": "",
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M4",
         "name": "Social Calibration / Play",
         "tier": 1,
@@ -1442,6 +1350,104 @@
         }
       },
       {
+        "code": "M9",
+        "name": "Care / Alloparenting",
+        "tier": 1,
+        "grade": "forced",
+        "eli5": "Distributed care — the organism expects a village, not solo parenting.",
+        "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
+        "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
+        "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
+        "proxy_gradient": "TWO scales (#1581). Axis A — real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B — fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
+        "convergence_codes": [
+          "C1",
+          "C4",
+          "C5",
+          "C12"
+        ],
+        "p1_basis": null,
+        "phylogenetic_age": "~200Myr",
+        "source_researchers": [
+          "Hrdy",
+          "Panksepp",
+          "Kenkel"
+        ],
+        "cascade_suppresses": [
+          "M14"
+        ],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "TWO scales (#1581). Axis A — real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B — fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
+          "preamble": "TWO scales (#1581)",
+          "axes": [
+            {
+              "label": "Axis A — real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship)",
+              "levels": [
+                {
+                  "index": 0,
+                  "label": "distributed ~4+ kin-and-community network",
+                  "state": "FULL",
+                  "tag": null,
+                  "note": ""
+                },
+                {
+                  "index": 1,
+                  "label": "multiple reliable caregivers incl. high-quality paid care",
+                  "state": "REDUCED",
+                  "tag": null,
+                  "note": ""
+                },
+                {
+                  "index": 2,
+                  "label": "single intermittent helper / high-turnover institutional care",
+                  "state": "THIN",
+                  "tag": null,
+                  "note": ""
+                },
+                {
+                  "index": 3,
+                  "label": "solo/dyadic parent, no network",
+                  "state": "EMPTY SHELF",
+                  "tag": null,
+                  "note": "deprivation floor, not a proxy"
+                }
+              ]
+            },
+            {
+              "label": "Axis B — fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit)",
+              "levels": [
+                {
+                  "index": 0,
+                  "label": "screen/app babysitter → AI/robot 'caregiver'",
+                  "state": "ZERO",
+                  "tag": "ARCHITECTURE-DERIVED",
+                  "note": "architecture-derived"
+                }
+              ]
+            }
+          ],
+          "levels": [],
+          "trailing": "",
+          "demoted": "",
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
         "code": "M8",
         "name": "Immune Regulation",
         "tier": 1,
@@ -1463,7 +1469,10 @@
           "Danese",
           "Irwin"
         ],
-        "cascade_suppresses": [],
+        "cascade_suppresses": [
+          "M2",
+          "M14"
+        ],
         "cascade_suppressed_by": [],
         "cascade_interacts": [],
         "sex_differentiated": false,
@@ -2025,6 +2034,14 @@
         "cross_cutting": true,
         "description": "Research areas where seemingly conflicting frameworks admit a level-of-analysis resolution — notably the Panksepp-Barrett debate on emotion natural kinds vs constructed emotions. Grounds BT1.",
         "created_at": "2026-04-04T19:30:44.821523+00:00"
+      },
+      {
+        "id": 23,
+        "name": "Restorative Environments",
+        "primary_mechanism": null,
+        "cross_cutting": true,
+        "description": "Restricted contact with natural and restorative environments as an input mismatch. Framed resolution-condition-first, not form-first: the target is the functional restorative property (fractal visual complexity, soft-fascination attention recovery, non-threatening biological motion, restorative soundscape, phytoncide exposure), not \"return to nature\" and not an innate biophilia drive. Forest exposure is one delivery form; built and urban environments can supply the same properties, which keeps the domain scalable and out of the naturalistic-fallacy trap. Classified cross-cutting because restorative input resolves several existing systems rather than one: threat and vigilance de-arousal with parasympathetic recovery (Ulrich Stress Reduction Theory), directed-attention restoration (Kaplan Attention Restoration Theory), allostatic offloading (DC1 and C9), immune and inflammatory modulation (M8; forest-medicine phytoncide and NK-cell work), and reduced rumination (Bratman). No new mechanism is asserted; nature contact is treated as an environmental input that lets existing systems stand down, consistent with the core thesis that the fix is the environment. Evidence discipline: the stress-recovery and attention-restoration core is well-supported and partly replicated; forest-medicine immune findings are thinner and often small-sample, so tag down at extraction time. Primary-source grounding is pending (see the ingestion-queue gap, G15). Note: the biophilia literature is the umbrella term for this territory, but Cor treats it as an input-resolution domain, not an innate-drive claim.",
+        "created_at": "2026-07-10T07:09:51.471044+00:00"
       }
     ],
     "gaps": [
@@ -2167,6 +2184,26 @@
         "current_approach": "A public-facing tool built on the framework will prototype the measurement protocol for A4 individual-level audits. Formal psychometric validation is independent research downstream of the core framework.",
         "priority": "high",
         "created_at": "2026-04-04T19:32:21.883117+00:00"
+      },
+      {
+        "id": 16,
+        "code": "G15",
+        "name": "Restorative Environments domain primary-source grounding",
+        "what_is_missing": "The new Restorative Environments domain has no primary extractions yet. A primary-source ingestion queue is defined, each item to be grabbed under v2 standards (full text, fresh extraction, verbatim author_quote, DOI/PMID or physical collection) and never ingested via a review: (1) Ulrich 1984, \"View through a window may influence recovery from surgery,\" Science, the anchor stress-recovery result; (2) Kaplan and Kaplan 1989, The Experience of Nature (Attention Restoration Theory), with Berman, Jonides and Kaplan 2008, Psychological Science, as the experimental test; (3) Miyazaki and Li forest-medicine primaries on phytoncides, NK-cell activity, and cortisol/HRV (strongest primary studies, not review-of-reviews); (4) Hartig et al. 2014, \"Nature and health,\" Annual Review of Public Health, itself a review, so treat as a routing source only under the same rule as the Yong review; (5) Bratman et al. 2015, PNAS, nature walk reduces rumination and subgenual prefrontal activity, a strong mechanism-level primary.",
+        "why_it_matters": "Restorative-environment mismatch is the cleanest non-social mismatch available to Cor: strong evidence, an obvious resolution condition, and a delivery form that need not be literal wilderness. It makes the atlas visibly more than a social-mismatch account. Until the primaries are extracted, the domain is a container without grounding.",
+        "current_approach": "Domain created as a cross-cutting input-resolution domain with no new mechanism. Evidence-tagging discipline recorded in the domain description (stress-recovery and attention-restoration core well-supported and partly replicated; forest-medicine immune findings thinner and often small-sample, so tag down when in doubt). Queue to be worked as future v2 extraction work.",
+        "priority": "medium",
+        "created_at": "2026-07-10T07:10:01.84288+00:00"
+      },
+      {
+        "id": 17,
+        "code": "G16",
+        "name": "Social-mismatch competition: candidate convergence versus downstream expression",
+        "what_is_missing": "Yong, Lim, Tan and Chan 2026 (DOI 10.3390/bs16050650) advance a \"social evolutionary mismatch and competition hypothesis\": social features of mismatch (increasing population size, fragmented communities, rising socioeconomic inequality, constant exposure to inflated social-status cues) jointly inflate real and perceived competition, driving obsessive status pursuit, hostility, risk appetite, ultralow fertility, and social withdrawal (tang ping, quiet quitting, hikikomori). Open question: is this a distinct convergence Cor is currently missing, or a downstream expression of existing structure, namely C9 (Allostatic Load Accumulation) plus C11 (Reciprocity, Norm Enforcement, and Coalition Architecture) plus M5 status and rank regulation and DC2 market proxy exploitation?",
+        "why_it_matters": "It is the one original theoretical move in an otherwise routing-only review, and it bears directly on whether Cor's convergence layer is complete. Resolving it either surfaces a genuine gap in the forcing-set layer or sharpens the claim that competition intensification is already entailed by existing convergences and mechanisms.",
+        "current_approach": "Logged as an open derivation question, not added to the locked convergence inventory. Evaluate the theoretical spine first: Sng, Neuberg and Kenrick 2017 (resource competition and life-history, density-dependent life-history strategy) as candidate mechanism-level grounding, then test whether the Yong competition construct reduces to C9 plus C11 plus M5 plus DC2 or requires its own forcing convergence.",
+        "priority": "medium",
+        "created_at": "2026-07-10T07:10:05.861002+00:00"
       }
     ],
     "works": [
@@ -3258,6 +3295,15 @@
         "work_type": "review",
         "importance": "key",
         "primary_researcher_id": 23
+      },
+      {
+        "id": 122,
+        "title": "Evolutionary Mismatch, Stress, and Competition: Making Sense of Psychosocial Problems in the Polycrisis Era",
+        "authors": "Yong JC, Lim AJ, Tan E, Chan SHM",
+        "year": 2026,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
       }
     ],
     "extractions": [
@@ -6836,20 +6882,6 @@
         "source_type": "primary"
       },
       {
-        "id": 574,
-        "work_id": 98,
-        "mechanism_codes": [
-          "M1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA5",
-          "DA2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 575,
         "work_id": 98,
         "mechanism_codes": [
@@ -9647,6 +9679,20 @@
         "foundation_codes": [
           "DA1",
           "P2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 574,
+        "work_id": 98,
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA5",
+          "DA2"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -16753,18 +16799,6 @@
         "evidence_role": "primary"
       },
       {
-        "id": 865,
-        "mechanism_code": "M1",
-        "extraction_id": 574,
-        "evidence_role": "supporting"
-      },
-      {
-        "id": 866,
-        "mechanism_code": "M3",
-        "extraction_id": 574,
-        "evidence_role": "primary"
-      },
-      {
         "id": 867,
         "mechanism_code": "M3",
         "extraction_id": 575,
@@ -21256,9 +21290,9 @@
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 115,
+      "M1": 114,
       "M2": 67,
-      "M3": 206,
+      "M3": 205,
       "M4": 55,
       "M9": 64,
       "M14": 58,
