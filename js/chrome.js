@@ -29,7 +29,7 @@
   var NAV_PRIMARY = Object.freeze([
     Object.freeze({ key: "mechanisms",  label: "Mechanisms", href: "mechanisms.html" }),
     Object.freeze({ key: "the-gap",     label: "The Gap",    href: "the-gap.html" }),
-    Object.freeze({ key: "derivation",  label: "The Stack", href: "derivation.html" })
+    Object.freeze({ key: "derivation",  label: "Derivation", href: "derivation.html" })
   ]);
   var NAV_SECONDARY = Object.freeze([
     Object.freeze({ key: "reference",   label: "Reference",  href: "reference.html" }),
@@ -143,7 +143,7 @@
       links: [
         { label: "Home",        href: "index.html" },
         { label: "Mechanisms",  href: "mechanisms.html" },
-        { label: "The Stack",  href: "derivation.html" },
+        { label: "Derivation",  href: "derivation.html" },
         { label: "Map",         href: "mindmap.html" },
         { label: "Downloads",   href: "downloads.html" }
       ]
