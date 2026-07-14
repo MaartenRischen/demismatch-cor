@@ -203,7 +203,6 @@
   function gradientHero(m) {
     var pg = m.proxy_gradient_parsed;
     var head = "<h2 class='sec-head' id='grad-head'><span>Proxy gradient</span></h2>";
-    var thesis = "<p class='cue-thesis'>The cue is identical at every level. Only the resolving function changes. <b>A proxy can fire the cue without supplying what resolves it.</b></p>";
     var body = "";
 
     if (pg.axes && pg.axes.length) {
@@ -231,7 +230,7 @@
     }
 
     return "<section class='gradient-wrap' aria-labelledby='grad-head'>" +
-      head + body + thesis +
+      head + body +
     "</section>";
   }
 
@@ -573,10 +572,7 @@
       "<h2 class='sec-head' id='ops-head'><span class='idx'>Operationalization</span> <span>From reference to test</span></h2>" +
       "<div class='ops-null-body'>" +
         "<div class='ops-null-title'>Not yet operationalized for " + esc(m.code) + ".</div>" +
-        "<p class='ops-null-expl'>Operationalization turns a mechanism into a coding test: a mismatch hypothesis, observable " +
-        "indicators, hit/miss/ambiguous coding criteria, falsification conditions, and an inter-rater reliability target. " +
-        "For " + clean(m.name) + " that work has <b>not been done yet</b> - so nothing is shown here rather than padded out. " +
-        "The first worked example exists for " + xchip("M3") + "; the others follow as the specification is built.</p>" +
+        "<p class='ops-null-expl'>For " + clean(m.name) + " this work has <b>not been done yet</b>, so nothing is shown here rather than padded out.</p>" +
         "<div class='ops-null-meta'><span class='chip'>operationalization: not yet derived</span><span class='chip'>worked example: " + xchip("M3") + "</span></div>" +
       "</div>" +
     "</section>";
