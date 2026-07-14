@@ -33,6 +33,7 @@
   ]);
   var NAV_SECONDARY = Object.freeze([
     Object.freeze({ key: "reference",   label: "Reference",  href: "reference.html" }),
+    Object.freeze({ key: "programme",   label: "Programme",  href: "programme.html" }),
     Object.freeze({ key: "mindmap",     label: "Map",        href: "mindmap.html" }),
     Object.freeze({ key: "downloads",   label: "Downloads",  href: "downloads.html" }),
     Object.freeze({ key: "faq",         label: "FAQ",        href: "faq.html" })
