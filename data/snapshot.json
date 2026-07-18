@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-18T13:33:05.204572+00:00",
+    "built_at": "2026-07-18T13:46:33.981607+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -304,7 +304,7 @@
         "code": "M14",
         "name": "Reproductive Motivation",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Three components — desire, attraction, and pair bonding — that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
         "description": "Fisher's three-system model. Independent from M2 pursuit. HPG axis, not just brain circuits.",
         "resolution_conditions": "Sexual fulfillment within pair bond + pair bond stability + reproductive success.",
@@ -400,7 +400,7 @@
         "code": "M3",
         "name": "Social Bonding",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
         "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly).",
         "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number — outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 ceiling bounds the total network within which reputation, obligation, and face-to-face familiarity can be maintained (Dunbar 1992, replicated in phone, Christmas-card, and Facebook data).",
@@ -472,183 +472,6 @@
             }
           ],
           "trailing": "Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
-        "code": "M5",
-        "name": "Status Monitoring",
-        "tier": 1,
-        "grade": "forced",
-        "eli5": "Constantly monitors where you stand relative to others.",
-        "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional — runs continuously.",
-        "resolution_conditions": "Acceptable position in ~150-person reference group. Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction — needs explicit treatment).",
-        "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
-        "proxy_gradient": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
-        "convergence_codes": [
-          "C2",
-          "C7",
-          "C9",
-          "C13"
-        ],
-        "p1_basis": "Survival (hierarchy physiology, resource access)",
-        "phylogenetic_age": "~50-100Myr (primates + social mammals)",
-        "source_researchers": [
-          "Gilbert",
-          "Price",
-          "Mazur",
-          "Sapolsky",
-          "Marmot"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [
-          "M14"
-        ],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
-          "preamble": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "earned prestige in a small face-to-face group",
-              "state": "FULL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 1,
-              "label": "coerced/unstable dominance rank in a real group",
-              "state": "PARTIAL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 2,
-              "label": "status-striving in a large impersonal society",
-              "state": "MIXED",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 3,
-              "label": "global mediated comparison by follower/like counts",
-              "state": "MINIMAL",
-              "tag": "ARCHITECTURE-DERIVED",
-              "note": "architecture-derived"
-            },
-            {
-              "index": 4,
-              "label": "purchased status signals, luxury-brand display",
-              "state": "ZERO",
-              "tag": "ARCHITECTURE-DERIVED",
-              "note": "architecture-derived"
-            }
-          ],
-          "trailing": "Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
-        "code": "M7",
-        "name": "Circadian Regulation",
-        "tier": 1,
-        "grade": "forced",
-        "eli5": "Synchronizes every system to the light-dark cycle. Master timing architecture.",
-        "description": "SCN master clock. Gates metabolism, immunity, cognition, mood. Mismatch is usually timing/quality, not duration.",
-        "resolution_conditions": "Dark-cued sleep onset, bright daylight exposure, consistent rhythm.",
-        "mismatch_prediction": "Electric light, blue screens, shift work, caffeine",
-        "proxy_gradient": "5 levels (Kind B: not a constant-cue hijack — the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
-        "convergence_codes": [
-          "C3",
-          "C9",
-          "C12"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~3Byr (cyanobacteria onward)",
-        "source_researchers": [
-          "Walker",
-          "Roenneberg",
-          "Czeisler"
-        ],
-        "cascade_suppresses": [
-          "M2"
-        ],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (Kind B: not a constant-cue hijack — the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
-          "preamble": "5 levels (Kind B: not a constant-cue hijack — the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "outdoor light-dark cycle with dark-cued sleep",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "indoor daytime light with a mostly-dark, dimly-lit night",
-              "state": "ATTENUATED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "correctly-phased clock overridden by a misaligned social schedule / social jetlag",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "shift work and always-on connectivity with the dark cue largely gone",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "evening blue-light screens actively mis-setting the clock, false daylight at biological night",
-              "state": "DEFEATED",
-              "tag": null,
-              "note": ""
-            }
-          ],
-          "trailing": "All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -753,80 +576,79 @@
         }
       },
       {
-        "code": "M2",
-        "name": "Pursuit / Exploration",
+        "code": "M5",
+        "name": "Status Monitoring",
         "tier": 1,
-        "grade": "forced",
-        "eli5": "Drives you to explore, pursue goals, and engage with the world.",
-        "description": "General-purpose seeking system. SCOPE CHANGE from v3: sexual motivation removed (now M14). M2's resolution conditions narrow to: engagement with real-world challenges producing tangible outcomes, goal progress, skill building, resource acquisition.",
-        "resolution_conditions": "Engagement with real challenges producing tangible outcomes.",
-        "mismatch_prediction": "Variable-reward apps fire SEEKING without resolution. Open loop.",
-        "proxy_gradient": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL; EVIDENCED) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO; EVIDENCED). Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
+        "grade": "established",
+        "eli5": "Constantly monitors where you stand relative to others.",
+        "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional — runs continuously.",
+        "resolution_conditions": "Acceptable position in ~150-person reference group. Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction — needs explicit treatment).",
+        "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
+        "proxy_gradient": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
         "convergence_codes": [
-          "C6"
+          "C2",
+          "C7",
+          "C9",
+          "C13"
         ],
-        "p1_basis": "Survival (resource acquisition, learning, adaptation)",
-        "phylogenetic_age": "~500Myr",
+        "p1_basis": "Survival (hierarchy physiology, resource access)",
+        "phylogenetic_age": "~50-100Myr (primates + social mammals)",
         "source_researchers": [
-          "Panksepp",
-          "Berridge"
+          "Gilbert",
+          "Price",
+          "Mazur",
+          "Sapolsky",
+          "Marmot"
         ],
         "cascade_suppresses": [],
-        "cascade_suppressed_by": [
-          "M1",
-          "M13",
-          "M3",
-          "M7",
-          "M8"
-        ],
+        "cascade_suppressed_by": [],
         "cascade_interacts": [
-          "M4",
           "M14"
         ],
         "sex_differentiated": false,
         "sex_diff_notes": null,
         "created_at": "2026-04-04T19:09:50.118794+00:00",
         "proxy_gradient_parsed": {
-          "raw": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL; EVIDENCED) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO; EVIDENCED). Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
-          "preamble": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength)",
+          "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
+          "preamble": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top)",
           "levels": [
             {
               "index": 0,
-              "label": "engaging a real challenge that yields a real outcome",
+              "label": "earned prestige in a small face-to-face group",
               "state": "FULL",
               "tag": "EVIDENCED",
               "note": "EVIDENCED"
             },
             {
               "index": 1,
-              "label": "knowledge work with a real but abstracted, delayed outcome",
+              "label": "coerced/unstable dominance rank in a real group",
               "state": "PARTIAL",
-              "tag": null,
-              "note": ""
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
             },
             {
               "index": 2,
-              "label": "variable-reward app/feed with intermittent real payoff",
+              "label": "status-striving in a large impersonal society",
               "state": "MIXED",
-              "tag": null,
-              "note": ""
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
             },
             {
               "index": 3,
-              "label": "infinite novelty, content scroll/idle browsing",
+              "label": "global mediated comparison by follower/like counts",
               "state": "MINIMAL",
-              "tag": null,
-              "note": ""
+              "tag": "ARCHITECTURE-DERIVED",
+              "note": "architecture-derived"
             },
             {
               "index": 4,
-              "label": "machine gambling engineered for time-on-device with guaranteed net loss",
+              "label": "purchased status signals, luxury-brand display",
               "state": "ZERO",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
+              "tag": "ARCHITECTURE-DERIVED",
+              "note": "architecture-derived"
             }
           ],
-          "trailing": "Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
+          "trailing": "Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -1003,7 +825,7 @@
         "code": "M1",
         "name": "Threat Management",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Detects danger. Makes you freeze, fight, or flee.",
         "description": "Defensive system responding to threat cues. Includes offensive mode (frustration-aggression) absorbed from old M3 RAGE.",
         "resolution_conditions": "Safety established, threat eliminated or avoided.",
@@ -1091,10 +913,271 @@
         }
       },
       {
+        "code": "R1",
+        "name": "Touch",
+        "tier": 3,
+        "grade": "moderate",
+        "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
+        "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
+        "resolution_conditions": "Regular physical contact with trusted others.",
+        "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
+        "proxy_gradient": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+        "convergence_codes": [
+          "C4",
+          "C5"
+        ],
+        "p1_basis": null,
+        "phylogenetic_age": "~200Myr (mammalian)",
+        "source_researchers": [
+          "McGlone",
+          "Field"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+          "preamble": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "affectionate touch from a trusted, reciprocating other",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "affective touch from a non-intimate caregiver / massage",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "incidental, non-affective everyday contact",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "weighted / deep-pressure substitute, no living other",
+              "state": "MINIMAL",
+              "tag": "SPECULATIVE",
+              "note": "SPECULATIVE/future-conditional"
+            },
+            {
+              "index": 4,
+              "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
+              "state": "ZERO",
+              "tag": "SPECULATIVE",
+              "note": "SPECULATIVE/future-conditional"
+            }
+          ],
+          "trailing": "Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M7",
+        "name": "Circadian Regulation",
+        "tier": 1,
+        "grade": "established",
+        "eli5": "Synchronizes every system to the light-dark cycle. Master timing architecture.",
+        "description": "SCN master clock. Gates metabolism, immunity, cognition, mood. Mismatch is usually timing/quality, not duration.",
+        "resolution_conditions": "Dark-cued sleep onset, bright daylight exposure, consistent rhythm.",
+        "mismatch_prediction": "Electric light, blue screens, shift work, caffeine",
+        "proxy_gradient": "5 levels (Kind B: not a constant-cue hijack — the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
+        "convergence_codes": [
+          "C3",
+          "C9",
+          "C12"
+        ],
+        "p1_basis": null,
+        "phylogenetic_age": "~3Byr (cyanobacteria onward)",
+        "source_researchers": [
+          "Walker",
+          "Roenneberg",
+          "Czeisler"
+        ],
+        "cascade_suppresses": [
+          "M2"
+        ],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (Kind B: not a constant-cue hijack — the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
+          "preamble": "5 levels (Kind B: not a constant-cue hijack — the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "outdoor light-dark cycle with dark-cued sleep",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "indoor daytime light with a mostly-dark, dimly-lit night",
+              "state": "ATTENUATED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "correctly-phased clock overridden by a misaligned social schedule / social jetlag",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "shift work and always-on connectivity with the dark cue largely gone",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "evening blue-light screens actively mis-setting the clock, false daylight at biological night",
+              "state": "DEFEATED",
+              "tag": null,
+              "note": ""
+            }
+          ],
+          "trailing": "All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M2",
+        "name": "Pursuit / Exploration",
+        "tier": 1,
+        "grade": "established",
+        "eli5": "Drives you to explore, pursue goals, and engage with the world.",
+        "description": "General-purpose seeking system. SCOPE CHANGE from v3: sexual motivation removed (now M14). M2's resolution conditions narrow to: engagement with real-world challenges producing tangible outcomes, goal progress, skill building, resource acquisition.",
+        "resolution_conditions": "Engagement with real challenges producing tangible outcomes.",
+        "mismatch_prediction": "Variable-reward apps fire SEEKING without resolution. Open loop.",
+        "proxy_gradient": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL; EVIDENCED) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO; EVIDENCED). Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
+        "convergence_codes": [
+          "C6"
+        ],
+        "p1_basis": "Survival (resource acquisition, learning, adaptation)",
+        "phylogenetic_age": "~500Myr",
+        "source_researchers": [
+          "Panksepp",
+          "Berridge"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [
+          "M1",
+          "M13",
+          "M3",
+          "M7",
+          "M8"
+        ],
+        "cascade_interacts": [
+          "M4",
+          "M14"
+        ],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL; EVIDENCED) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO; EVIDENCED). Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
+          "preamble": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "engaging a real challenge that yields a real outcome",
+              "state": "FULL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 1,
+              "label": "knowledge work with a real but abstracted, delayed outcome",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "variable-reward app/feed with intermittent real payoff",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "infinite novelty, content scroll/idle browsing",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "machine gambling engineered for time-on-device with guaranteed net loss",
+              "state": "ZERO",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            }
+          ],
+          "trailing": "Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
         "code": "M4",
         "name": "Social Calibration / Play",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
         "description": "Play system develops social skills. Absent in threatened or ill animals.",
         "resolution_conditions": "Age-matched, self-directed, unsupervised play. Physical.",
@@ -1184,7 +1267,7 @@
         "code": "M6",
         "name": "Controllability / Agency",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Tracks whether your actions produce results. Default is passivity — agency must be learned.",
         "description": "vmPFC-DRN controllability circuit. Learned helplessness is the DEFAULT; agency is the override. Critical for breaking cascades.",
         "resolution_conditions": "Genuine action-outcome feedback. Decision latitude.",
@@ -1270,7 +1353,7 @@
         "code": "M9",
         "name": "Care / Alloparenting",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Distributed care — the organism expects a village, not solo parenting.",
         "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
         "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
@@ -1368,7 +1451,7 @@
         "code": "M8",
         "name": "Immune Regulation",
         "tier": 1,
-        "grade": "forced",
+        "grade": "established",
         "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
         "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to depression via DA3 cascade.",
         "resolution_conditions": "Pathogen cleared, inflammation resolved.",
@@ -1436,89 +1519,6 @@
             }
           ],
           "trailing": "All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) — could legitimately swap or collapse.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
-        "code": "R1",
-        "name": "Touch",
-        "tier": 3,
-        "grade": "moderate",
-        "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
-        "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
-        "resolution_conditions": "Regular physical contact with trusted others.",
-        "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
-        "proxy_gradient": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-        "convergence_codes": [
-          "C4",
-          "C5"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~200Myr (mammalian)",
-        "source_researchers": [
-          "McGlone",
-          "Field"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-          "preamble": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "affectionate touch from a trusted, reciprocating other",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "affective touch from a non-intimate caregiver / massage",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "incidental, non-affective everyday contact",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "weighted / deep-pressure substitute, no living other",
-              "state": "MINIMAL",
-              "tag": "SPECULATIVE",
-              "note": "SPECULATIVE/future-conditional"
-            },
-            {
-              "index": 4,
-              "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
-              "state": "ZERO",
-              "tag": "SPECULATIVE",
-              "note": "SPECULATIVE/future-conditional"
-            }
-          ],
-          "trailing": "Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
           "demoted": "",
           "axes": [],
           "state_order": [

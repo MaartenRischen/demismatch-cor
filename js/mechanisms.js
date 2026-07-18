@@ -59,8 +59,8 @@
   function gradeLabel(g) {
     if (g == null) return "";
     var s = D.normalizeDashes(String(g)).replace(/_/g, " ").trim();
-    // Confidence top tier stored as "forced" (decision 2250); render "established".
-    return s.toLowerCase() === "forced" ? "established" : s;
+    // grade is stored directly (mechanism top tier migrated forced -> established, 2026-07-18).
+    return s;
   }
 
   function hasGradient(m) {
