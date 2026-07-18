@@ -145,7 +145,7 @@ Below the foundations sit 14 convergences, points where three or more independen
 
 ### Mechanisms
 
-The 14 convergences entail the existence of 15 mechanisms, evolved functional systems the architecture maintains. Mechanisms are the operational layer where alignment-relevant claims are grounded. Each mechanism has a tier indicating evidence strength: T1 (forced by convergence), T2 (strongly supported), T3 (moderate).
+The 14 convergences entail the existence of 15 mechanisms, evolved functional systems the architecture maintains. Mechanisms are the operational layer where alignment-relevant claims are grounded. Each mechanism has a tier indicating evidence strength: T1 (strongest evidence), T2 (strongly supported), T3 (moderate).
 
 | Code | Mechanism | Tier | Forced/supported by |
 |---|---|---|---|
@@ -337,7 +337,7 @@ Cor addresses one alignment failure mode: the human side of the equation has nev
 
 The atlas does not claim to solve all of alignment. It does not address reward modeling, interpretability, corrigibility, deception, or capability control. It fills one critical blind spot, and the blind spot most directly relevant to every surface where AI is allowed to act on humans, which is now most of the surfaces that matter.
 
-The atlas is not complete and it does not claim to be the operational specification. The upper architecture (17 foundations, 14 convergences, 15 mechanisms) is stable and adversarially reviewed. The empirical core, currently 516 quality-graded extractions across 22 research domains and 735 mechanism-evidence links, is sufficient for the architectural claims made here and is in active expansion. Mechanisms in tier T1 (forced by convergence) carry the strongest evidentiary load; tier T2 (strongly supported) and the single T3 element (R1, Touch) carry correspondingly weaker but still substantial backing. The operational specification - coding criteria and reproducible audit protocols - is being built on top of the atlas one mechanism at a time, beginning with M3. Full operationalization of every mechanism in the atlas is the next phase of work, currently underway.
+The atlas is not complete and it does not claim to be the operational specification. The upper architecture (17 foundations, 14 convergences, 15 mechanisms) is stable and adversarially reviewed. The empirical core, currently 516 quality-graded extractions across 22 research domains and 735 mechanism-evidence links, is sufficient for the architectural claims made here and is in active expansion. Mechanisms in tier T1 carry the strongest evidentiary load; tier T2 (strongly supported) and the single T3 element (R1, Touch) carry correspondingly weaker but still substantial backing. The operational specification - coding criteria and reproducible audit protocols - is being built on top of the atlas one mechanism at a time, beginning with M3. Full operationalization of every mechanism in the atlas is the next phase of work, currently underway.
 
 The atlas's claims are falsifiable. The strongest falsification target: do communities living in conditions matching the atlas's full input requirements show dramatically lower rates of the conditions modern psychiatry treats as disorders? The atlas predicts they do. The Blue Zones, Roseto, hunter-gatherer ethnographic, BEIP, and Ilardi TLC demonstrations converge on the prediction. Direct controlled tests are designable and partially executed. The operational specification, as it ships per mechanism, will state stricter falsification conditions at the level of individual eval protocols.
 

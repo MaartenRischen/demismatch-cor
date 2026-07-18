@@ -147,7 +147,7 @@ Below the foundations sit 14 convergences: points where three or more independen
 
 ### Mechanisms
 
-The 14 convergences entail 15 mechanisms - the operational layer where alignment claims are grounded. Each carries a tier indicating evidence strength: T1 (forced by convergence), T2 (strongly supported), T3 (moderate).
+The 14 convergences entail 15 mechanisms - the operational layer where alignment claims are grounded. Each carries a tier indicating evidence strength: T1 (strongest evidence), T2 (strongly supported), T3 (moderate).
 
 | Code | Mechanism | Tier | Forced or supported by |
 |------|-----------|------|------------------------|
