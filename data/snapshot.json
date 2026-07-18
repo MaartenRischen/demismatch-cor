@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-18T08:20:55.176118+00:00",
+    "built_at": "2026-07-18T13:33:05.204572+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,8 +10,8 @@
     "convergences": 14,
     "domains": 23,
     "gaps": 16,
-    "works": 122,
-    "extractions": 608,
+    "works": 123,
+    "extractions": 609,
     "researchers": 64,
     "mechanism_evidence": 930,
     "empirical_demonstrations": 9,
@@ -19,7 +19,7 @@
     "bridge_theses": 1,
     "eea_parameters": 32,
     "parameter_mechanism": 60,
-    "parameter_evidence": 152,
+    "parameter_evidence": 153,
     "foundation_convergences": 14,
     "challenges": 7
   },
@@ -3303,6 +3303,15 @@
         "year": 2026,
         "work_type": "review",
         "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 123,
+        "title": "Kangaroo mother care to reduce morbidity and mortality in low birthweight infants",
+        "authors": "Conde-Agudelo A, Díaz-Rossello JL",
+        "year": 2016,
+        "work_type": "meta_analysis",
+        "importance": "key",
         "primary_researcher_id": null
       }
     ],
@@ -11221,6 +11230,20 @@
         ],
         "evidence_quality": "meta_analysis",
         "source_type": "primary"
+      },
+      {
+        "id": 618,
+        "work_id": 123,
+        "mechanism_codes": [
+          "R1",
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "empirical"
       }
     ],
     "researchers": [
@@ -18465,96 +18488,6 @@
         ]
       },
       {
-        "code": "EEA-TOUCH-01",
-        "domain": "touch_contact",
-        "name": "Affective (C-tactile) contact frequency and skin-to-skin time",
-        "eea_baseline": "Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day and night, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the phylogenetically first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.",
-        "eea_value": {
-          "note": "No defensible single ancestral 'touches-per-hour' number; cross-cultural touch frequency ranges enormously (0-180+ contacts/hour across modern societies per Jourard), so the EEA value is a high-contact regime with a floor, not a point estimate",
-          "qualitative": true,
-          "infant_contact": "near-continuous (carried, co-sleeping, fed at frequent short intervals)",
-          "touch_modality": "moderate-pressure affective (C-tactile) touch",
-          "caregiver_scope": "mother plus alloparents; high-touch social field for adults"
-        },
-        "modern_default": "WEIRD/industrialized environments are historically unusual in touch avoidance: infants spend much time in cribs, strollers, and carriers that minimize skin contact; personal-space norms and screen-mediated interaction strip casual affective touch from daily adult life. Many people experience chronic 'touch hunger' below the developmental and regulatory floor.",
-        "gap_statement": "Modern environments routinely fall below the ancestral affective-touch floor. Touch deprivation in extreme cases (institutional rearing) produces growth-hormone suppression, immune dysfunction, and developmental arrest; even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.",
-        "resolution_unit": "Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.",
-        "evidence_grade": "clinical",
-        "contested": false,
-        "confidence_note": "Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. Verified: the often-cited '~40% preterm mortality reduction' for kangaroo care is NOT present in the cited corpus; ext 100 reports developmental/autonomic advantage, not a mortality figure, so no mortality number is asserted here. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 9 cited extraction_ids verified to exist and support their 'why'.",
-        "created_at": "2026-06-08T12:32:38.608603+00:00",
-        "updated_at": "2026-06-08T12:32:38.608603+00:00",
-        "mechanism_codes": [
-          "M3",
-          "R1"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 296,
-            "evidence_role": "primary",
-            "author_quote": "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth.",
-            "evidence_quality": "theoretical",
-            "content": "Field's phylogenetic framing of touch as the first sense organ. The skin is the largest sense organ because it is the largest organ in the body — the 'first and largest sense organ to develop prenatally'. The fetus receives continuous touch stimulation in utero from amniotic flui"
-          },
-          {
-            "extraction_id": 293,
-            "evidence_role": "primary",
-            "author_quote": "We have since found that moderate pressure is key to the massage therapy effects. We massage babies from head to foot (all but their chests and stomachs; they do not want to be touched there, most likely because that is where all the tubes have been inserted). The babies who were massaged gained 47 percent more weight than those not massaged, a significant weight gain.",
-            "evidence_quality": "clinical",
-            "content": "Field's foundational premature-infant massage finding: infants massaged from head to foot (excluding chest and stomach where IVs were inserted) gained 47 percent more weight than unmassaged infants. This established touch as a quantifiable developmental input with direct physiolo"
-          },
-          {
-            "extraction_id": 89,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In a study of 112 parents and their 4-6 month olds, active parental touch triggered measurable OT responses. Mothers providing high levels of affectionate touch (>66% of interaction time) showed increased salivary OT from pre- to post-interaction, while mothers providing minimal "
-          },
-          {
-            "extraction_id": 100,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "longitudinal",
-            "content": "10-year longitudinal RCT (N=146): Kangaroo Care (14 days skin-to-skin) vs incubator care in preterm infants. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child cognitive development and executive functions from 6 months to 10 y"
-          },
-          {
-            "extraction_id": 294,
-            "evidence_role": "supporting",
-            "author_quote": "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment.",
-            "evidence_quality": "cross_species",
-            "content": "Field's synthesis of Harlow's foundational primate touch-deprivation work: infant rhesus monkeys preferred a terry-cloth surrogate mother without milk over a wire-mesh mother with milk, suggesting that touch stimulation is at least as important as nourishment. Harlow's experiment"
-          },
-          {
-            "extraction_id": 417,
-            "evidence_role": "supporting",
-            "author_quote": "Tana was raised in a Romanian orphanage. At age seven, relief workers found her all skin and bones and only half the height of a normal child her age.",
-            "evidence_quality": "clinical",
-            "content": "Touch deprivation in Romanian orphanages produced devastating consequences: children were skeletal, half normal height, unable to walk or run. After months of regular nutrition and massage therapy, orphanage children recovered physically — illustrating that touch is not merely pl"
-          },
-          {
-            "extraction_id": 418,
-            "evidence_role": "supporting",
-            "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
-            "evidence_quality": "theoretical",
-            "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
-          },
-          {
-            "extraction_id": 295,
-            "evidence_role": "supporting",
-            "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
-            "evidence_quality": "clinical",
-            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
-          },
-          {
-            "extraction_id": 537,
-            "evidence_role": "supporting",
-            "author_quote": "contact comfort is a variable of overwhelming importance in the development of affectional response, whereas lactation is a variable of negligible importance.",
-            "evidence_quality": "cross_species",
-            "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. No measurable difference between cloth-fed and wire-fed gro"
-          }
-        ]
-      },
-      {
         "code": "EEA-TOUCH-03",
         "domain": "touch_contact",
         "name": "Affective grooming/touch from trusted others (adult social touch)",
@@ -19669,6 +19602,103 @@
             "author_quote": "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated",
             "evidence_quality": "contested",
             "content": "McKenna himself stresses that bedsharing safety depends entirely on how it is practiced and on adverse co-factors — the live SIDS/safety contestation that keeps co-sleeping from being a clean \"ancestral good\"."
+          }
+        ]
+      },
+      {
+        "code": "EEA-TOUCH-01",
+        "domain": "touch_contact",
+        "name": "Affective (C-tactile) contact frequency and skin-to-skin time",
+        "eea_baseline": "Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day and night, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the phylogenetically first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.",
+        "eea_value": {
+          "note": "No defensible single ancestral 'touches-per-hour' number; cross-cultural touch frequency ranges enormously (0-180+ contacts/hour across modern societies per Jourard), so the EEA value is a high-contact regime with a floor, not a point estimate",
+          "qualitative": true,
+          "infant_contact": "near-continuous (carried, co-sleeping, fed at frequent short intervals)",
+          "touch_modality": "moderate-pressure affective (C-tactile) touch",
+          "caregiver_scope": "mother plus alloparents; high-touch social field for adults"
+        },
+        "modern_default": "WEIRD/industrialized environments are historically unusual in touch avoidance: infants spend much time in cribs, strollers, and carriers that minimize skin contact; personal-space norms and screen-mediated interaction strip casual affective touch from daily adult life. Many people experience chronic 'touch hunger' below the developmental and regulatory floor.",
+        "gap_statement": "Modern environments routinely fall below the ancestral affective-touch floor. Touch deprivation in extreme cases (institutional rearing) produces growth-hormone suppression, immune dysfunction, and developmental arrest; even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.",
+        "resolution_unit": "Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.",
+        "evidence_grade": "clinical",
+        "contested": false,
+        "confidence_note": "Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. The often-cited '~40% kangaroo-care mortality reduction' is now grounded in the corpus (ext 618): Conde-Agudelo and Diaz-Rossello's Cochrane 2016 meta-analysis reports reduced mortality in STABILIZED low-birthweight infants (RR 0.60, 95% CI 0.39-0.92 at discharge or 40-41 weeks; RR 0.67, 0.48-0.95 at latest follow-up), so the figure applies specifically to stabilized LBW infants and is largest in low- and middle-income settings, not to all newborns; ext 100 (Feldman) separately carries the developmental/autonomic results. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 10 cited extraction_ids verified to exist and support their 'why'.",
+        "created_at": "2026-06-08T12:32:38.608603+00:00",
+        "updated_at": "2026-06-08T12:32:38.608603+00:00",
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 296,
+            "evidence_role": "primary",
+            "author_quote": "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth.",
+            "evidence_quality": "theoretical",
+            "content": "Field's phylogenetic framing of touch as the first sense organ. The skin is the largest sense organ because it is the largest organ in the body — the 'first and largest sense organ to develop prenatally'. The fetus receives continuous touch stimulation in utero from amniotic flui"
+          },
+          {
+            "extraction_id": 293,
+            "evidence_role": "primary",
+            "author_quote": "We have since found that moderate pressure is key to the massage therapy effects. We massage babies from head to foot (all but their chests and stomachs; they do not want to be touched there, most likely because that is where all the tubes have been inserted). The babies who were massaged gained 47 percent more weight than those not massaged, a significant weight gain.",
+            "evidence_quality": "clinical",
+            "content": "Field's foundational premature-infant massage finding: infants massaged from head to foot (excluding chest and stomach where IVs were inserted) gained 47 percent more weight than unmassaged infants. This established touch as a quantifiable developmental input with direct physiolo"
+          },
+          {
+            "extraction_id": 89,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In a study of 112 parents and their 4-6 month olds, active parental touch triggered measurable OT responses. Mothers providing high levels of affectionate touch (>66% of interaction time) showed increased salivary OT from pre- to post-interaction, while mothers providing minimal "
+          },
+          {
+            "extraction_id": 100,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "longitudinal",
+            "content": "10-year longitudinal RCT (N=146): Kangaroo Care (14 days skin-to-skin) vs incubator care in preterm infants. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child cognitive development and executive functions from 6 months to 10 y"
+          },
+          {
+            "extraction_id": 294,
+            "evidence_role": "supporting",
+            "author_quote": "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment.",
+            "evidence_quality": "cross_species",
+            "content": "Field's synthesis of Harlow's foundational primate touch-deprivation work: infant rhesus monkeys preferred a terry-cloth surrogate mother without milk over a wire-mesh mother with milk, suggesting that touch stimulation is at least as important as nourishment. Harlow's experiment"
+          },
+          {
+            "extraction_id": 417,
+            "evidence_role": "supporting",
+            "author_quote": "Tana was raised in a Romanian orphanage. At age seven, relief workers found her all skin and bones and only half the height of a normal child her age.",
+            "evidence_quality": "clinical",
+            "content": "Touch deprivation in Romanian orphanages produced devastating consequences: children were skeletal, half normal height, unable to walk or run. After months of regular nutrition and massage therapy, orphanage children recovered physically — illustrating that touch is not merely pl"
+          },
+          {
+            "extraction_id": 418,
+            "evidence_role": "supporting",
+            "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
+            "evidence_quality": "theoretical",
+            "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
+          },
+          {
+            "extraction_id": 295,
+            "evidence_role": "supporting",
+            "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
+            "evidence_quality": "clinical",
+            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
+          },
+          {
+            "extraction_id": 537,
+            "evidence_role": "supporting",
+            "author_quote": "contact comfort is a variable of overwhelming importance in the development of affectional response, whereas lactation is a variable of negligible importance.",
+            "evidence_quality": "cross_species",
+            "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. No measurable difference between cloth-fed and wire-fed gro"
+          },
+          {
+            "extraction_id": 618,
+            "evidence_role": "supporting",
+            "author_quote": "At discharge or 40 to 41 weeks' postmenstrual age: \"KMC was associated with a statistically significant reduction in the risk of mortality (risk ratio [RR] 0.60, 95% confidence interval [CI] 0.39 to 0.92; eight trials, 1736 infants).\" At latest follow-up: \"KMC was associated with a significantly decreased risk of mortality (RR 0.67, 95% CI 0.48 to 0.95; 12 trials, 2293 infants; moderate-quality evidence).\"",
+            "evidence_quality": "meta_analysis",
+            "content": "Cochrane meta-analysis of kangaroo mother care (KMC) vs conventional care in low-birthweight infants. In STABILIZED LBW infants, KMC significantly reduced the risk of mortality at discharge or 40-41 weeks postmenstrual age (RR 0.60, 95% CI 0.39-0.92; 8 trials, 1736 infants) and a"
           }
         ]
       }
@@ -21039,6 +21069,13 @@
         "extraction_id": 617,
         "evidence_role": "challenging",
         "created_at": "2026-06-08T23:21:56.729138+00:00"
+      },
+      {
+        "id": 153,
+        "parameter_code": "EEA-TOUCH-01",
+        "extraction_id": 618,
+        "evidence_role": "supporting",
+        "created_at": "2026-07-18T13:25:44.932192+00:00"
       }
     ],
     "foundation_convergences": [
@@ -21329,11 +21366,11 @@
         "EEA-SOC-06",
         "EEA-CARE-01",
         "EEA-CARE-04",
-        "EEA-TOUCH-01",
         "EEA-TOUCH-03",
         "EEA-INFO-01",
         "EEA-SOC-02",
-        "EEA-TOUCH-02"
+        "EEA-TOUCH-02",
+        "EEA-TOUCH-01"
       ],
       "M5": [
         "EEA-SOC-01",
@@ -21355,9 +21392,9 @@
       ],
       "R1": [
         "EEA-CARE-02",
-        "EEA-TOUCH-01",
         "EEA-TOUCH-03",
-        "EEA-TOUCH-02"
+        "EEA-TOUCH-02",
+        "EEA-TOUCH-01"
       ],
       "M4": [
         "EEA-CARE-03"
