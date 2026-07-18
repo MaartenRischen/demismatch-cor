@@ -486,7 +486,7 @@ Five levels, flagged CONTESTED - possibly Kind C, and NOT a flagship. The cue-fu
 - **MINIMAL** (fires, no resolution): weighted / deep-pressure substitute, no living other [tag: SPECULATIVE] [note: SPECULATIVE/future-conditional]
 - **ZERO** (fires, no resolution): synthetic/haptic/AI C-tactile stimulation, zero relational embedding [tag: SPECULATIVE] [note: SPECULATIVE/future-conditional]
 
-**Mismatch prediction:** touch-starved modern environments. Kangaroo-care evidence shows a 40% mortality reduction in premature infants.
+**Mismatch prediction:** touch-starved modern environments. Kangaroo-care evidence shows large developmental and autonomic gains from skin-to-skin care.
 
 ### Cascade topology
 

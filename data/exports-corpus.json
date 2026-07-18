@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-06-09T02:13:07.947696+00:00",
+    "source_built_at": "2026-07-18T08:20:55.176118+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -26,18 +26,19 @@
     "foundations": 17,
     "mechanisms": 15,
     "convergences": 14,
-    "domains": 22,
-    "gaps": 14,
-    "works": 120,
+    "domains": 23,
+    "gaps": 16,
+    "works": 122,
     "extractions": 608,
     "researchers": 64,
-    "mechanism_evidence": 932,
-    "empirical_demonstrations": 10,
+    "mechanism_evidence": 930,
+    "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
     "eea_parameters": 32,
     "parameter_mechanism": 60,
     "parameter_evidence": 152,
+    "foundation_convergences": 14,
     "challenges": 7
   },
   "thesis": "Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
@@ -88,7 +89,7 @@
         "layer": "property",
         "name": "Defensive Signals Under Mismatch",
         "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
-        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (100% captive chimps abnormal, 0% wild).",
+        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
         "epistemic_grade": "forced"
       },
       {
@@ -435,7 +436,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 115,
+        "link_count": 114,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -522,10 +523,10 @@
         "suppresses": [],
         "suppressed_by": [
           "M1",
+          "M13",
           "M3",
           "M7",
-          "M8",
-          "M13"
+          "M8"
         ],
         "interacts_with": [
           "M4",
@@ -629,7 +630,7 @@
         ]
       },
       "evidence": {
-        "link_count": 206,
+        "link_count": 205,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -1022,7 +1023,9 @@
       },
       "proxy_gradient_derived": true,
       "cascade": {
-        "suppresses": [],
+        "suppresses": [
+          "M2"
+        ],
         "suppressed_by": [],
         "interacts_with": []
       },
@@ -1121,7 +1124,10 @@
       },
       "proxy_gradient_derived": true,
       "cascade": {
-        "suppresses": [],
+        "suppresses": [
+          "M2",
+          "M14"
+        ],
         "suppressed_by": [],
         "interacts_with": []
       },
@@ -1230,7 +1236,9 @@
       },
       "proxy_gradient_derived": true,
       "cascade": {
-        "suppresses": [],
+        "suppresses": [
+          "M14"
+        ],
         "suppressed_by": [],
         "interacts_with": []
       },
@@ -1369,7 +1377,7 @@
       "name": "Cooperation / Alliance",
       "grade": "strongly_supported",
       "tier": 2,
-      "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 reflects epistemic honesty. No single convergence FORCES a dedicated mechanism - but four converging streams strongly support it.",
+      "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 is a confidence grade, not an entailment status. M11 IS entailment-forced - convergence C11 forces it - and its four converging streams (Fehr & Gächter, Boehm, Tomasello, Trivers) strongly support it without reaching the top confidence tier.",
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
       "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (~150, the same Dunbar cognitive ceiling that bounds M3). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned - this tracking capacity is bounded by the same neocortex-ratio constraint (Dunbar 1992, Dunbar & Shultz 2007). Beyond ~150, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
@@ -1599,7 +1607,9 @@
       },
       "proxy_gradient_derived": true,
       "cascade": {
-        "suppresses": [],
+        "suppresses": [
+          "M2"
+        ],
         "suppressed_by": [],
         "interacts_with": []
       },
@@ -1744,7 +1754,7 @@
       "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
       "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
       "resolution_conditions": "Regular physical contact with trusted others.",
-      "mismatch_prediction": "Touch-starved modern environments. Kangaroo care evidence: 40% mortality reduction in premature infants.",
+      "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
       "phylogenetic_age": "~200Myr (mammalian)",
       "proxy_gradient": {
         "raw": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
@@ -2048,21 +2058,21 @@
           {
             "extraction_id": 507,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "We can only interact coherently with a very small number of other people (about three, in fact) at any one time.",
             "content": "Online inner social layers replicate offline sizes exactly. Support clique (crisis contacts): mean=4.1, not significantly different from offline values of 3.8+/-2.29 (z=0.13, p=0.897) or generic value of 5 (z=0.39, p=0.694). Sympathy group (close friends): mean=13.6, not differen"
           },
           {
             "extraction_id": 508,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           }
@@ -2132,14 +2142,14 @@
           {
             "extraction_id": 508,
             "evidence_role": "challenging",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           },
@@ -2422,14 +2432,14 @@
           {
             "extraction_id": 509,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           },
           {
             "extraction_id": 510,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact.",
             "content": "Age strongly predicts total network size (r=-0.972, p=0.006) with 18-24 year olds averaging 282 friends, but inner layers show minimal age variation (support clique: r=-0.837, p=0.077; sympathy group: r=-0.042, p=0.947). The cognitive/time constraint on intimate relationships is"
           },
@@ -2548,14 +2558,14 @@
           {
             "extraction_id": 508,
             "evidence_role": "challenging",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
             "evidence_role": "challenging",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           }
@@ -3710,14 +3720,14 @@
           {
             "extraction_id": 283,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "Here we tested a Constrained total energy expenditure model, in which total energy expenditure increases with physical activity at low activity levels but plateaus at higher activity levels as the body adapts to maintain total energy expenditure within a narrow range. We compared total energy expenditure, measured using doubly labeled water, against physical activity, measured using accelerometry, for a large (n = 332) sample of adults living in five populations. After adjusting for body size and composition, total energy expenditure was positively correlated with physical activity, but the relationship was markedly stronger over the lower range of physical activity. For subjects in the upper range of physical activity, total energy expenditure plateaued, supporting a Constrained total energy expenditure model.",
             "content": "The constrained total energy expenditure model: total daily energy expenditure (TEE) increases with physical activity at low activity levels but plateaus at higher levels as the body adapts metabolically to maintain TEE within a narrow range. Tested in a multi-population doubly-l"
           },
           {
             "extraction_id": 284,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "People in less socioeconomically developed populations, including subsistence farmers and traditional hunter-gatherers, have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Mammals living in the wild, including non-human primate species, have total energy expenditures similar to captive populations. These population-level comparisons suggest that total energy expenditure is an evolved, species-specific trait that is homeostatically buffered against variation in habitual physical activity.",
             "content": "Cross-population pattern: people in less socioeconomically developed populations - subsistence farmers and traditional hunter-gatherers - have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Non-human"
           },
@@ -3948,7 +3958,7 @@
           {
             "extraction_id": 509,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
           },

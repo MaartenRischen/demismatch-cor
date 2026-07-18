@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-13T02:39:57.039109+00:00",
+    "built_at": "2026-07-18T08:20:55.176118+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -67,17 +67,6 @@
         "derivation": "Eaton & Konner (discordance), Gluckman & Hanson (developmental mismatch), Li/van Vugt/Colarelli (mismatch review). Constrained by Boyd & Richerson / Henrich.",
         "epistemic_grade": "forced",
         "scope_notes": "Three modes — deprivation (expected inputs missing), conflict/overload (incompatible simultaneous demands), proxy hijack (false cues overstimulating systems). \"Matched\" means within the expectable range, often culturally scaffolded — NOT ancestrally identical in surface form. Modernity is mixed — it also brought sanitation, reduced violence, analgesia, literacy. The spec is diagnostic, not blanket indictment.",
-        "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
-        "id": 5,
-        "code": "DA1",
-        "layer": "property",
-        "name": "Defensive Signals Under Mismatch",
-        "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
-        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (100% captive chimps abnormal, 0% wild).",
-        "epistemic_grade": "forced",
-        "scope_notes": "Does NOT claim all psychiatric presentations are mismatch signals. Four categories must be distinguished: defensive activation, dysregulation, damage, developmental miscalibration.",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -177,6 +166,17 @@
         "derivation": "P3 + DA4 + market incentive structures + empirical (Moss food, Schull gambling, Haugen attention, Muldoon & Parke companion AI).",
         "epistemic_grade": "strongly_supported",
         "scope_notes": null,
+        "created_at": "2026-04-04T17:25:29.196006+00:00"
+      },
+      {
+        "id": 5,
+        "code": "DA1",
+        "layer": "property",
+        "name": "Defensive Signals Under Mismatch",
+        "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
+        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
+        "epistemic_grade": "forced",
+        "scope_notes": "Does NOT claim all psychiatric presentations are mismatch signals. Four categories must be distinguished: defensive activation, dysregulation, damage, developmental miscalibration.",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -1091,89 +1091,6 @@
         }
       },
       {
-        "code": "R1",
-        "name": "Touch",
-        "tier": 3,
-        "grade": "moderate",
-        "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
-        "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
-        "resolution_conditions": "Regular physical contact with trusted others.",
-        "mismatch_prediction": "Touch-starved modern environments. Kangaroo care evidence: 40% mortality reduction in premature infants.",
-        "proxy_gradient": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-        "convergence_codes": [
-          "C4",
-          "C5"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~200Myr (mammalian)",
-        "source_researchers": [
-          "McGlone",
-          "Field"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-          "preamble": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "affectionate touch from a trusted, reciprocating other",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "affective touch from a non-intimate caregiver / massage",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "incidental, non-affective everyday contact",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "weighted / deep-pressure substitute, no living other",
-              "state": "MINIMAL",
-              "tag": "SPECULATIVE",
-              "note": "SPECULATIVE/future-conditional"
-            },
-            {
-              "index": 4,
-              "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
-              "state": "ZERO",
-              "tag": "SPECULATIVE",
-              "note": "SPECULATIVE/future-conditional"
-            }
-          ],
-          "trailing": "Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M4",
         "name": "Social Calibration / Play",
         "tier": 1,
@@ -1519,6 +1436,89 @@
             }
           ],
           "trailing": "All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) — could legitimately swap or collapse.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "R1",
+        "name": "Touch",
+        "tier": 3,
+        "grade": "moderate",
+        "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
+        "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
+        "resolution_conditions": "Regular physical contact with trusted others.",
+        "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
+        "proxy_gradient": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+        "convergence_codes": [
+          "C4",
+          "C5"
+        ],
+        "p1_basis": null,
+        "phylogenetic_age": "~200Myr (mammalian)",
+        "source_researchers": [
+          "McGlone",
+          "Field"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+          "preamble": "5 levels (CONTESTED — possibly Kind C; NOT a flagship; cue–function separability premise disputed per #1584)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "affectionate touch from a trusted, reciprocating other",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "affective touch from a non-intimate caregiver / massage",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "incidental, non-affective everyday contact",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "weighted / deep-pressure substitute, no living other",
+              "state": "MINIMAL",
+              "tag": "SPECULATIVE",
+              "note": "SPECULATIVE/future-conditional"
+            },
+            {
+              "index": 4,
+              "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
+              "state": "ZERO",
+              "tag": "SPECULATIVE",
+              "note": "SPECULATIVE/future-conditional"
+            }
+          ],
+          "trailing": "Ordered by remaining relational/bond function; monotonic_ok=False — MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -17260,8 +17260,8 @@
         "id": 2,
         "code": "ED2",
         "name": "Captive vs Wild Chimpanzee Abnormality",
-        "what_it_demonstrates": "Aversive behavioral outputs in captive primates are a function of environmental mismatch rather than defective design: 100% of captive chimps studied exhibited at least one abnormal behavior, while 0% of wild chimps did. Strongest non-human demonstration of defensive signals under mismatch (DA1).",
-        "narrative": "Birkett & Newton-Fisher (2011) systematically surveyed abnormal behaviors (stereotypies, coprophagy, self-mutilation, rocking, etc.) in captive chimpanzees across accredited zoos and sanctuaries. They found these behaviors present in 100% of individuals across all studied populations. Wild chimpanzee observations find 0% prevalence of the same behaviors. The implication: the chimpanzee phenotype includes a suite of 'abnormal' behaviors only when the environment falls outside the species' expected range. The hardware works; environment is wrong.",
+        "what_it_demonstrates": "Aversive behavioral outputs in captive primates are a function of environmental mismatch rather than defective design: every one of the 40 captive chimpanzees studied showed at least one abnormal behavior, while no comparable abnormal repertoire has been reported in wild chimpanzees. Strongest non-human demonstration of defensive signals under mismatch (DA1).",
+        "narrative": "Birkett & Newton-Fisher (2011) systematically surveyed abnormal behaviors (stereotypies, coprophagy, self-mutilation, rocking, etc.) in captive chimpanzees across accredited zoos and sanctuaries. They found these behaviors present in every one of the 40 individuals studied. No comparable abnormal repertoire has been reported in wild chimpanzee observation. The implication: the chimpanzee phenotype includes a suite of 'abnormal' behaviors only when the environment falls outside the species' expected range. The hardware works; environment is wrong.",
         "source_work_id": 107,
         "grounds_foundations": [
           "DA1",
@@ -17271,10 +17271,10 @@
           "M1",
           "M4"
         ],
-        "effect_size": "100% prevalence of at least one abnormal behavior in captive chimps; 0% in wild chimps (Birkett & Newton-Fisher 2011 PLoS ONE).",
+        "effect_size": "All 40 captive chimps studied showed at least one abnormal behavior; none reported in wild chimps (Birkett & Newton-Fisher 2011 PLoS ONE).",
         "created_at": "2026-04-04T19:19:39.533572+00:00",
         "metric_family": "rates_prevalence",
-        "primary_metric_display": "100% captive vs 0% wild show abnormal behavior",
+        "primary_metric_display": "All 40 captive chimps abnormal; none reported in wild",
         "primary_metric_value": 1.0
       },
       {
