@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-07-18 08:22 UTC, from the live Cor atlas snapshot built 2026-07-18 08:20 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-07-18 14:42 UTC, from the live Cor atlas snapshot built 2026-07-18 14:42 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 122 works, 608 extractions, 64 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (8 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 124 works, 610 extractions, 65 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -500,10 +500,10 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Grades are inherited from the evidence and reuse Cor's own vocabulary. 'replicated' appears only twice. Mismatch interpretations are capped at 'theoretical' (the honesty floor); the original-affluent-society work-hours debate is 'contested' with no number asserted; most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**32 parameters across 8 domains** (grades: theoretical 16, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 8 carry a contested flag).
+**32 parameters across 8 domains** (grades: theoretical 16, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 9 carry a contested flag).
 ### Social structure
 
-**Social network layers (~5/15/50/150)** (grade: replicated)
+**Social network layers (~5/15/50/150)** (grade: replicated · CONTESTED)
   - The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
 **Lifetime known-individual ceiling (~1,000)** (grade: theoretical · CONTESTED)
@@ -625,4 +625,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-07-18 08:20 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-07-18 08:22 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-07-18 14:42 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-07-18 14:42 UTC.*

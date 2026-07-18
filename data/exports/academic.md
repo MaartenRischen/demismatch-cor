@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-07-18 08:22 UTC, from the live Cor atlas snapshot built 2026-07-18 08:20 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-07-18 14:42 UTC, from the live Cor atlas snapshot built 2026-07-18 14:42 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 122 works, 608 extractions, 64 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (8 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 124 works, 610 extractions, 65 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -97,7 +97,7 @@ None - a single shared implementation.
 
 The attachment and co-regulation system. Includes the grief mode absorbed from the old M9 GRIEF system. It runs in two states: security (enables broadly) and grief (suppresses broadly). It forms bonds with other humans and produces pain-grade distress when they are gone.
 
-**Resolution conditions:** reliable human co-regulation through physical presence, operating through nested social layers - ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, and ~150 coherent face-to-face relationships (the Dunbar number, the outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 ceiling bounds the total network within which reputation, obligation, and face-to-face familiarity can be maintained (Dunbar 1992, replicated in phone, Christmas-card, and Facebook data).
+**Resolution conditions:** reliable human co-regulation through physical presence, operating through nested social layers - ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, and ~150 coherent face-to-face relationships (the Dunbar number, the outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 outer figure is an illustrative central tendency, not a hard limit: its derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), while the layered structure and its low-hundreds clustering are separately observed in phone, Christmas-card, and Facebook data.
 
 C5 establishes that human regulation is constitutively socially scaffolded: the organism's default expectation is proximity to trusted co-regulators, and this scaffolding is architectural rather than optional. Established independently by Coan's Social Baseline Theory fMRI program, Bowlby's attachment theory, Hrdy's cooperative-breeding thesis, Dunbar's social-brain hypothesis, and Holt-Lunstad's mortality meta-analysis showing a 50% survival advantage from strong social relationships. Key researchers: Bowlby, Panksepp, Coan, Hrdy.
 
@@ -358,7 +358,7 @@ None - a single shared implementation.
 
 Reciprocity plus norm enforcement plus alliance dynamics. This mechanism absorbs the old M10 (Cooperation) and M11 (Coalitional). Its Tier 2 placement reflects epistemic honesty: no single convergence forces a dedicated mechanism, but four converging streams strongly support it. In plainest terms: reciprocal exchange, cheater detection, and coalitional identity.
 
-**Resolution conditions:** a trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (~150, the same Dunbar cognitive ceiling that bounds M3). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned - a tracking capacity bounded by the same neocortex-ratio constraint (Dunbar 1992, Dunbar & Shultz 2007). Beyond ~150, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. There is no shared fiction at the direct-reciprocity layer.
+**Resolution conditions:** a trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. There is no shared fiction at the direct-reciprocity layer.
 
 C11 establishes that humans have specialized architecture for reciprocal exchange, cheater detection, norm enforcement, and coalitional identity, supported independently by Fehr & Gächter's experimental altruistic-punishment findings, Boehm's reverse-dominance coalition dynamics in hunter-gatherer anthropology, and Tomasello's shared-intentionality comparative-cognition research. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello.
 
@@ -512,7 +512,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Grades are inherited from the evidence and reuse Cor's own vocabulary. 'replicated' appears only twice. Mismatch interpretations are capped at 'theoretical' (the honesty floor); the original-affluent-society work-hours debate is 'contested' with no number asserted; most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**32 parameters across 8 domains** (grades: theoretical 16, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 8 carry a contested flag).
+**32 parameters across 8 domains** (grades: theoretical 16, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 9 carry a contested flag).
 **Grade legend.**
 
 - **replicated** (2): multiple independent full-text studies converge
@@ -525,19 +525,18 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 ### Social structure
 
 #### Social network layers (~5/15/50/150)
-`EEA-SOC-01 · Social structure` - **grade: replicated**
+`EEA-SOC-01 · Social structure` - **grade: replicated** · **CONTESTED**
 
-**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 ceiling tracks human neocortical information-processing capacity: extrapolating the primate neocortex-ratio-to-group-size relationship predicts a human group size of ~148, matching the mean of ~153 found across the tribal/clan census societies for which data exist. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
+**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
 
 **EEA value** (illustrative, not constants):
 
   - unit: individuals
   - layer_sizes: {"affinity_band": 50, "active_network": 150, "support_clique": 5, "sympathy_group": 15}
-  - ceiling_range: [148, 153]
-  - outer_ceiling: 150
   - scaling_factor: 3
-  - tribal_clan_mean_observed: 153
-  - neocortex_predicted_group_size: 148
+  - outer_ceiling_note: low hundreds; ~150 is an approximate central tendency, not a constant; the neocortex-ratio derivation is contested (Lindenfors 2021)
+  - outer_ceiling_approx: 150
+  - tribal_clan_grouping: clusters in the low hundreds (ethnographic)
 
 **Modern default.** The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-180, but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.
 
@@ -549,12 +548,12 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 - ext#404 · replicated · primary: "The innermost group consists of about three to five people."
 - ext#490 · replicated · primary: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
-- ext#25 · replicated · primary: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
+- ext#25 · contested · primary: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
 - ext#483 · cross_species · supporting: "Group size is found to be a function of relative neocortical volume, but the ecological variables are not. This is interpreted as evidence in favour of the social intellect theory and against the ecological theories."
 - ext#485 · cross_species · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
 - (+5 more linked extraction(s))
 
-*Confidence note: This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan 153; 483/484/485 (Neocortex 1992, cross-species regression, predicted ~148, r2=0.764) for the cognitive basis; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). DELIBERATELY DROPPED as evidence: extractions 502 and 505 (work 72), both flagged 'Abstract-limited' (502: 'extraction from abstract and citing sources'); they are not full-text reads and must not back a replicated grade - 502 is redundant with full-text 404/490, and the 505-only 'trust = time invested' clause was softened in the prose. eea_value.ceiling_range [148,153] is an honest min/max of two reported central tendencies (148 neocortex-predicted; 153 ethnographic mean), not a hard interval or constant; exact integers vary by source (12/35 vs 15/50) and are central tendencies. M5 link is fixed by the locked architecture (the ~150 personally-known reference group is the substrate for status monitoring); cited extractions are tagged M3/M11, with M5 not separately evidenced.*
+*Confidence note: This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan; 483/484/485 (Neocortex 1992 cross-species regression) as the historical cognitive-basis citation; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). UPDATE 2026-07-18: the neocortex-ratio derivation of the ~150 figure is now challenged in the corpus (Lindenfors, Wartel & Lind 2021, work 124 / ext 619); contested flipped to true. Grade held replicated for the nested layer STRUCTURE and its comms-data replication, not for the precise number, whose derivation is contested; the precision statistics from the challenged regression (neocortex-predicted ~148, r-squared) have been removed from this parameter's baseline and value. layer_sizes is retained as a structure map (the structure is what survives the challenge). eea_value.outer_ceiling_approx marks ~150 as an approximate central tendency, not a hard interval or constant.*
 
 #### Lifetime known-individual ceiling (~1,000)
 `EEA-SOC-02 · Social structure` - **grade: theoretical** · **CONTESTED**
@@ -578,7 +577,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 - ext#502 · replicated · supporting: "Each layer increases relationship numbers by an approximate multiple of 3 (5-15-50-150) but decreasing levels of intimacy (strong, medium, and weak ties) and frequency of interaction."
 - ext#404 · replicated · supporting: "The innermost group consists of about three to five people."
-- ext#25 · replicated · supporting: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
+- ext#25 · contested · supporting: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
 - ext#490 · replicated · supporting: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#508 · theoretical · challenging: "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%."
 - (+4 more linked extraction(s))
@@ -905,16 +904,16 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M3 - Social Bonding, R1 - Touch
 
-**Evidence (9 links):**
+**Evidence (10 links):**
 
 - ext#296 · theoretical · primary: "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth."
 - ext#293 · clinical · primary: "We have since found that moderate pressure is key to the massage therapy effects. We massage babies from head to foot (all but their chests and stomachs; they do not want to be touched there, most likely because that is where all the tubes have been inserted). The babies who were massaged gained 47 percent more weight than those not massaged, a significant weight gain."
 - ext#89 · replicated · primary: In a study of 112 parents and their 4-6 month olds, active parental touch triggered measurable OT responses. Mothers providing high levels of affectionate touch (>66% of interaction time) showed increased salivary OT from pre- to post-interaction, while mothers providing minimal
 - ext#100 · longitudinal · supporting: 10-year longitudinal RCT (N=146): Kangaroo Care (14 days skin-to-skin) vs incubator care in preterm infants. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child cognitive development and executive functions from 6 months to 10 y
 - ext#294 · cross_species · supporting: "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment."
-- (+4 more linked extraction(s))
+- (+5 more linked extraction(s))
 
-*Confidence note: Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. Verified: the often-cited '~40% preterm mortality reduction' for kangaroo care is NOT present in the cited corpus; ext 100 reports developmental/autonomic advantage, not a mortality figure, so no mortality number is asserted here. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 9 cited extraction_ids verified to exist and support their 'why'.*
+*Confidence note: Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. The often-cited '~40% kangaroo-care mortality reduction' is now grounded in the corpus (ext 618): Conde-Agudelo and Diaz-Rossello's Cochrane 2016 meta-analysis reports reduced mortality in STABILIZED low-birthweight infants (RR 0.60, 95% CI 0.39-0.92 at discharge or 40-41 weeks; RR 0.67, 0.48-0.95 at latest follow-up), so the figure applies specifically to stabilized LBW infants and is largest in low- and middle-income settings, not to all newborns; ext 100 (Feldman) separately carries the developmental/autonomic results. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 10 cited extraction_ids verified to exist and support their 'why'.*
 
 #### Co-sleeping / nighttime body contact
 `EEA-TOUCH-02 · Touch & contact` - **grade: contested** · **CONTESTED**
@@ -1413,4 +1412,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-07-18 08:20 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-07-18 08:22 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-07-18 14:42 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-07-18 14:42 UTC.*

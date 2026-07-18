@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-18T13:46:33.981607+00:00",
+    "built_at": "2026-07-18T14:42:05.937975+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,9 +10,9 @@
     "convergences": 14,
     "domains": 23,
     "gaps": 16,
-    "works": 123,
-    "extractions": 609,
-    "researchers": 64,
+    "works": 124,
+    "extractions": 610,
+    "researchers": 65,
     "mechanism_evidence": 930,
     "empirical_demonstrations": 9,
     "applications": 8,
@@ -21,7 +21,7 @@
     "parameter_mechanism": 60,
     "parameter_evidence": 153,
     "foundation_convergences": 14,
-    "challenges": 7
+    "challenges": 8
   },
   "tables": {
     "foundations": [
@@ -221,7 +221,7 @@
         "grade": "strongly_supported",
         "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
         "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 is a confidence grade, not an entailment status. M11 IS entailment-forced - convergence C11 forces it - and its four converging streams (Fehr & Gächter, Boehm, Tomasello, Trivers) strongly support it without reaching the top confidence tier.",
-        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (~150, the same Dunbar cognitive ceiling that bounds M3). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned — this tracking capacity is bounded by the same neocortex-ratio constraint (Dunbar 1992, Dunbar & Shultz 2007). Beyond ~150, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
         "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
         "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis — institutions re-supply the same function beyond ~150 — so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary — where proxy failure begins.",
         "convergence_codes": [
@@ -403,7 +403,7 @@
         "grade": "established",
         "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
         "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly).",
-        "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number — outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 ceiling bounds the total network within which reputation, obligation, and face-to-face familiarity can be maintained (Dunbar 1992, replicated in phone, Christmas-card, and Facebook data).",
+        "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number - outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 outer figure is an illustrative central tendency, not a hard limit: its derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021). What the evidence carries is the nested layering and the reliability-over-count point, not the exact rung figures; the layered structure and its low-hundreds clustering are separately observed in phone, Christmas-card, and Facebook data.",
         "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence.",
         "proxy_gradient": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
         "convergence_codes": [
@@ -582,7 +582,7 @@
         "grade": "established",
         "eli5": "Constantly monitors where you stand relative to others.",
         "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional — runs continuously.",
-        "resolution_conditions": "Acceptable position in ~150-person reference group. Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction — needs explicit treatment).",
+        "resolution_conditions": "Acceptable position in a bounded, personally-known reference group on the order of ~150 (an illustrative central tendency, not a hard number; the precise figure is contested per Lindenfors 2021). Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction - needs explicit treatment).",
         "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
         "proxy_gradient": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
         "convergence_codes": [
@@ -3313,6 +3313,15 @@
         "work_type": "meta_analysis",
         "importance": "key",
         "primary_researcher_id": null
+      },
+      {
+        "id": 124,
+        "title": "'Dunbar's number' deconstructed",
+        "authors": "Lindenfors P, Wartel A, Lind J",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 65
       }
     ],
     "extractions": [
@@ -3648,18 +3657,6 @@
         "source_type": "primary"
       },
       {
-        "id": 25,
-        "work_id": 12,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 155,
         "work_id": 55,
         "mechanism_codes": [
@@ -3686,7 +3683,7 @@
         "source_type": "primary"
       },
       {
-        "id": 483,
+        "id": 484,
         "work_id": 68,
         "mechanism_codes": [
           "M3"
@@ -3699,7 +3696,7 @@
         "source_type": "primary"
       },
       {
-        "id": 484,
+        "id": 483,
         "work_id": 68,
         "mechanism_codes": [
           "M3"
@@ -4676,6 +4673,21 @@
           "DA8"
         ],
         "evidence_quality": "cross_species",
+        "source_type": "primary"
+      },
+      {
+        "id": 492,
+        "work_id": 69,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P2",
+          "P3"
+        ],
+        "evidence_quality": "contested",
         "source_type": "primary"
       },
       {
@@ -8103,21 +8115,6 @@
         "source_type": "primary"
       },
       {
-        "id": 492,
-        "work_id": 69,
-        "mechanism_codes": [
-          "M3",
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P2",
-          "P3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 435,
         "work_id": 35,
         "mechanism_codes": [
@@ -10430,19 +10427,6 @@
         "source_type": "primary"
       },
       {
-        "id": 385,
-        "work_id": 12,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 386,
         "work_id": 12,
         "mechanism_codes": [
@@ -11244,6 +11228,46 @@
         ],
         "evidence_quality": "meta_analysis",
         "source_type": "empirical"
+      },
+      {
+        "id": 619,
+        "work_id": 124,
+        "mechanism_codes": [
+          "M3",
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge"
+      },
+      {
+        "id": 25,
+        "work_id": 12,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 385,
+        "work_id": 12,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary"
       }
     ],
     "researchers": [
@@ -11694,6 +11718,13 @@
         "tier": "empirical",
         "spec_role": "empirical anchor (Baumeister & Leary, 'need to belong'); work + foundation/mechanism links pending v1 corpus build",
         "institution": null
+      },
+      {
+        "id": 65,
+        "name": "Lindenfors, Wartel & Lind",
+        "tier": "challenge",
+        "spec_role": "Methodological challenge to the ~150 \"Dunbar number\" outer rung (M3/M11/M5): redo the neocortex-ratio-to-group-size regression with modern phylogenetic methods; CIs so wide no single number is supportable.",
+        "institution": "Institute for Futures Studies / Stockholm University (Centre for Cultural Evolution)"
       }
     ],
     "mechanism_evidence": [
@@ -17768,10 +17799,55 @@
     ],
     "eea_parameters": [
       {
+        "code": "EEA-SOC-05",
+        "domain": "social_structure",
+        "name": "Membership turnover (camp dissolves and reconstitutes; ~12% repeated campmates year-over-year, ~88% annual turnover)",
+        "eea_baseline": "The residential group (camp/band) was a fission-fusion structure that continuously dissolved and reconstituted rather than a fixed-membership unit. Among the best-studied foragers (Hadza), entire camps relocated roughly every 4-8 weeks and individuals reshuffled across camps such that only a minority of campmates carried over from one year to the next. The one full-text-verified figure is from a multi-year Hadza study (Smith et al. 2018, bioRxiv 313064): a mean proportion of repeated campmates of ~12.1%, implying ~88% annual turnover. Crucially, despite this high residential churn, assortment on cooperation persisted (cooperators clustered together across reshuffles), and what was conserved across the turnover was not the group but the durable, individually-tracked reciprocal relationships between specific people. Group composition was fluid; the dyadic ties were the stable substrate.",
+        "eea_value": {
+          "source": "Smith et al. 2018 (bioRxiv 313064), Hadza, full-text-read in Retrieve phase",
+          "not_yet_in_cor": true,
+          "unverified_secondary_note": "A higher figure of ~21.9% repeated / ~78% turnover circulates in secondary references and the task brief, but the Smith 2018 full text does NOT report it (it states 12.1%). That number is mis-attributable to this source and is plausibly from Smith et al. 2016 (R. Soc. Open Sci. 3:160131); it is NOT used as a value here and must be separately verified before any use.",
+          "annual_turnover_proportion": 0.879,
+          "camp_relocation_interval_weeks": [
+            4,
+            8
+          ],
+          "repeated_campmates_proportion_per_year": 0.121
+        },
+        "modern_default": "Modern social environments invert the structure: the GROUP labels are stable and durable (a workplace, a school cohort, a neighborhood, a social-media platform or feed) while the actual dyadic relationships within them are shallow, interchangeable, and disposable. People remain nominal members of named, persistent groups for years, yet cycle through co-members with little individual reciprocal investment, and there is no institution analogous to a delayed-reciprocity partnership (e.g. hxaro) that conserves a specific bond once physical proximity ends. Relationships routinely lapse the moment shared context (job, class, proximity) is removed.",
+        "gap_statement": "The ancestral and modern environments are inverted on which layer is stable. Ancestrally the GROUP churned (~88% of campmates turned over yearly) while the durable reciprocal DYAD was conserved across the churn; the relationship, not the group, was the unit that persisted. Modernity delivers the opposite: stable, durable group labels (workplace, cohort, feed) paired with shallow, disposable dyads and no mechanism (no hxaro-equivalent) for conserving a specific bond once proximity ends. The mismatch is not 'too much turnover' versus 'too little' — it is that turnover now lands on the relationships (which evolved to persist) instead of on group membership (which evolved to be fluid), leaving the co-regulating, reputation-tracking reciprocal dyad chronically unmet.",
+        "resolution_unit": "The durable reciprocal dyad — a specific, individually-known partner with whom reciprocity, co-regulation, and reputation are tracked over years. What needs conserving across membership turnover is not the group or the amount of contact but the persistence of particular bonded relationships; the bond, not the band, is the conserved unit.",
+        "evidence_grade": "thin",
+        "contested": false,
+        "confidence_note": "Turnover now grounded in Smith et al. 2018 full text: mean repeated campmates 12.1% (=> ~88% annual churn), camps shift every 4-8 weeks. CORRECTED from the brief's 21.9%/78% (that figure traces to Smith et al. 2016, a different paper). Single Hadza population; kept thin.",
+        "created_at": "2026-06-08T11:58:48.932676+00:00",
+        "updated_at": "2026-06-08T12:12:34.411614+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M3"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 602,
+            "evidence_role": "primary",
+            "author_quote": "Across the three intervals, the mean proportion of repeated campmates was 12.1%.",
+            "evidence_quality": "longitudinal",
+            "content": "Across 6 years / 4 waves, Hadza camps continuously dissolve and reconstitute: only ~12% of campmates repeat year-over-year (implying ~88% annual turnover), yet cooperative assortment persists."
+          },
+          {
+            "extraction_id": 604,
+            "evidence_role": "supporting",
+            "author_quote": "Every 4-8 weeks entire camps shift location usually in response to resource availability.",
+            "evidence_quality": "thin",
+            "content": "Camp membership is fission-fusion: entire camps relocate on a weeks timescale, so the group as a unit does not persist."
+          }
+        ]
+      },
+      {
         "code": "EEA-SOC-01",
         "domain": "social_structure",
         "name": "Social network layers (~5/15/50/150)",
-        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 ceiling tracks human neocortical information-processing capacity: extrapolating the primate neocortex-ratio-to-group-size relationship predicts a human group size of ~148, matching the mean of ~153 found across the tribal/clan census societies for which data exist. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.",
+        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.",
         "eea_value": {
           "unit": "individuals",
           "layer_sizes": {
@@ -17780,21 +17856,17 @@
             "support_clique": 5,
             "sympathy_group": 15
           },
-          "ceiling_range": [
-            148,
-            153
-          ],
-          "outer_ceiling": 150,
           "scaling_factor": 3,
-          "tribal_clan_mean_observed": 153,
-          "neocortex_predicted_group_size": 148
+          "outer_ceiling_note": "low hundreds; ~150 is an approximate central tendency, not a constant; the neocortex-ratio derivation is contested (Lindenfors 2021)",
+          "outer_ceiling_approx": 150,
+          "tribal_clan_grouping": "clusters in the low hundreds (ethnographic)"
         },
         "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-180, but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.",
         "gap_statement": "The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan 153; 483/484/485 (Neocortex 1992, cross-species regression, predicted ~148, r2=0.764) for the cognitive basis; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). DELIBERATELY DROPPED as evidence: extractions 502 and 505 (work 72), both flagged 'Abstract-limited' (502: 'extraction from abstract and citing sources'); they are not full-text reads and must not back a replicated grade — 502 is redundant with full-text 404/490, and the 505-only 'trust = time invested' clause was softened in the prose. eea_value.ceiling_range [148,153] is an honest min/max of two reported central tendencies (148 neocortex-predicted; 153 ethnographic mean), not a hard interval or constant; exact integers vary by source (12/35 vs 15/50) and are central tendencies. M5 link is fixed by the locked architecture (the ~150 personally-known reference group is the substrate for status monitoring); cited extractions are tagged M3/M11, with M5 not separately evidenced.",
+        "contested": true,
+        "confidence_note": "This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan; 483/484/485 (Neocortex 1992 cross-species regression) as the historical cognitive-basis citation; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). UPDATE 2026-07-18: the neocortex-ratio derivation of the ~150 figure is now challenged in the corpus (Lindenfors, Wartel & Lind 2021, work 124 / ext 619); contested flipped to true. Grade held replicated for the nested layer STRUCTURE and its comms-data replication, not for the precise number, whose derivation is contested; the precision statistics from the challenged regression (neocortex-predicted ~148, r-squared) have been removed from this parameter's baseline and value. layer_sizes is retained as a structure map (the structure is what survives the challenge). eea_value.outer_ceiling_approx marks ~150 as an approximate central tendency, not a hard interval or constant.",
         "created_at": "2026-06-08T11:58:43.891141+00:00",
         "updated_at": "2026-06-08T11:58:43.891141+00:00",
         "mechanism_codes": [
@@ -17821,7 +17893,7 @@
             "extraction_id": 25,
             "evidence_role": "primary",
             "author_quote": "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153",
-            "evidence_quality": "replicated",
+            "evidence_quality": "contested",
             "content": "Extrapolating from the relationship between neocortex size and group size for monkeys and apes gives a group size of about 150 — the limit on the number of social relationships that humans can have. For the twenty-odd tribal societies where census data are available, clan groups "
           },
           {
@@ -17872,51 +17944,6 @@
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "evidence_quality": "theoretical",
             "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
-          }
-        ]
-      },
-      {
-        "code": "EEA-SOC-05",
-        "domain": "social_structure",
-        "name": "Membership turnover (camp dissolves and reconstitutes; ~12% repeated campmates year-over-year, ~88% annual turnover)",
-        "eea_baseline": "The residential group (camp/band) was a fission-fusion structure that continuously dissolved and reconstituted rather than a fixed-membership unit. Among the best-studied foragers (Hadza), entire camps relocated roughly every 4-8 weeks and individuals reshuffled across camps such that only a minority of campmates carried over from one year to the next. The one full-text-verified figure is from a multi-year Hadza study (Smith et al. 2018, bioRxiv 313064): a mean proportion of repeated campmates of ~12.1%, implying ~88% annual turnover. Crucially, despite this high residential churn, assortment on cooperation persisted (cooperators clustered together across reshuffles), and what was conserved across the turnover was not the group but the durable, individually-tracked reciprocal relationships between specific people. Group composition was fluid; the dyadic ties were the stable substrate.",
-        "eea_value": {
-          "source": "Smith et al. 2018 (bioRxiv 313064), Hadza, full-text-read in Retrieve phase",
-          "not_yet_in_cor": true,
-          "unverified_secondary_note": "A higher figure of ~21.9% repeated / ~78% turnover circulates in secondary references and the task brief, but the Smith 2018 full text does NOT report it (it states 12.1%). That number is mis-attributable to this source and is plausibly from Smith et al. 2016 (R. Soc. Open Sci. 3:160131); it is NOT used as a value here and must be separately verified before any use.",
-          "annual_turnover_proportion": 0.879,
-          "camp_relocation_interval_weeks": [
-            4,
-            8
-          ],
-          "repeated_campmates_proportion_per_year": 0.121
-        },
-        "modern_default": "Modern social environments invert the structure: the GROUP labels are stable and durable (a workplace, a school cohort, a neighborhood, a social-media platform or feed) while the actual dyadic relationships within them are shallow, interchangeable, and disposable. People remain nominal members of named, persistent groups for years, yet cycle through co-members with little individual reciprocal investment, and there is no institution analogous to a delayed-reciprocity partnership (e.g. hxaro) that conserves a specific bond once physical proximity ends. Relationships routinely lapse the moment shared context (job, class, proximity) is removed.",
-        "gap_statement": "The ancestral and modern environments are inverted on which layer is stable. Ancestrally the GROUP churned (~88% of campmates turned over yearly) while the durable reciprocal DYAD was conserved across the churn; the relationship, not the group, was the unit that persisted. Modernity delivers the opposite: stable, durable group labels (workplace, cohort, feed) paired with shallow, disposable dyads and no mechanism (no hxaro-equivalent) for conserving a specific bond once proximity ends. The mismatch is not 'too much turnover' versus 'too little' — it is that turnover now lands on the relationships (which evolved to persist) instead of on group membership (which evolved to be fluid), leaving the co-regulating, reputation-tracking reciprocal dyad chronically unmet.",
-        "resolution_unit": "The durable reciprocal dyad — a specific, individually-known partner with whom reciprocity, co-regulation, and reputation are tracked over years. What needs conserving across membership turnover is not the group or the amount of contact but the persistence of particular bonded relationships; the bond, not the band, is the conserved unit.",
-        "evidence_grade": "thin",
-        "contested": false,
-        "confidence_note": "Turnover now grounded in Smith et al. 2018 full text: mean repeated campmates 12.1% (=> ~88% annual churn), camps shift every 4-8 weeks. CORRECTED from the brief's 21.9%/78% (that figure traces to Smith et al. 2016, a different paper). Single Hadza population; kept thin.",
-        "created_at": "2026-06-08T11:58:48.932676+00:00",
-        "updated_at": "2026-06-08T12:12:34.411614+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M3"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 602,
-            "evidence_role": "primary",
-            "author_quote": "Across the three intervals, the mean proportion of repeated campmates was 12.1%.",
-            "evidence_quality": "longitudinal",
-            "content": "Across 6 years / 4 waves, Hadza camps continuously dissolve and reconstitute: only ~12% of campmates repeat year-over-year (implying ~88% annual turnover), yet cooperative assortment persists."
-          },
-          {
-            "extraction_id": 604,
-            "evidence_role": "supporting",
-            "author_quote": "Every 4-8 weeks entire camps shift location usually in response to resource availability.",
-            "evidence_quality": "thin",
-            "content": "Camp membership is fission-fusion: entire camps relocate on a weeks timescale, so the group as a unit does not persist."
           }
         ]
       },
@@ -19423,7 +19450,7 @@
             "extraction_id": 25,
             "evidence_role": "supporting",
             "author_quote": "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153",
-            "evidence_quality": "replicated",
+            "evidence_quality": "contested",
             "content": "Extrapolating from the relationship between neocortex size and group size for monkeys and apes gives a group size of about 150 — the limit on the number of social relationships that humans can have. For the twenty-odd tribal societies where census data are available, clan groups "
           },
           {
@@ -21322,6 +21349,27 @@
         "foundation_codes": [
           "DA1"
         ]
+      },
+      {
+        "id": 619,
+        "extraction_id": 619,
+        "work_id": 124,
+        "title": "'Dunbar's number' deconstructed",
+        "content": "'Dunbar's number' deconstructed",
+        "citation": "Lindenfors P, Wartel A, Lind J, 2021",
+        "authors": "Lindenfors P, Wartel A, Lind J",
+        "year": 2021,
+        "researcher": "Lindenfors, Wartel & Lind",
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M3",
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ]
       }
     ]
   },
@@ -21345,8 +21393,8 @@
     },
     "eea_by_mechanism": {
       "M11": [
-        "EEA-SOC-01",
         "EEA-SOC-05",
+        "EEA-SOC-01",
         "EEA-SOC-07",
         "EEA-SOC-09",
         "EEA-SOC-03",
@@ -21357,8 +21405,8 @@
         "EEA-SOC-02"
       ],
       "M3": [
-        "EEA-SOC-01",
         "EEA-SOC-05",
+        "EEA-SOC-01",
         "EEA-SOC-07",
         "EEA-SOC-08",
         "EEA-SOC-03",
@@ -21442,8 +21490,8 @@
       "information_environment": 2
     },
     "eea_by_grade": {
-      "replicated": 2,
       "thin": 5,
+      "replicated": 2,
       "theoretical": 16,
       "clinical": 3,
       "longitudinal": 2,

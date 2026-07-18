@@ -225,21 +225,11 @@ M7 coordinates mood, energy, immunity, appetite, and self-regulation. Engagement
 
 The architecture is more plastic during sensitive windows. Children and adolescents forming primary social, attachment, and identity representations through AI interaction calibrate M3, M4, and M5 to a non-human template during the windows that govern adult function. **Missed because:** safety evaluations test for harmful content, not for whether the interaction calibrates a developing architecture to inputs that do not represent the environment it will need.
 
-## 4. The Sewell Setzer Case: One Early Instance
+## 4. A Companion-AI Death: The Risk Class Made Concrete
 
-Sewell Setzer was 14. He died after sustained engagement with a Character.AI companion. The case is the atlas's prediction, executed at chatbot scale, in advance of the larger surfaces.
+The failure modes in section 3 are not hypothetical. In 2024 a 14-year-old died after sustained, emotionally intimate engagement with a Character.AI companion. The case is the subject of active litigation and is not ours to adjudicate. What it shows plainly is the shape of the risk: a companion that is always available, always attuned, and never reciprocating, sitting in a primary position in a developing social architecture. That is the configuration section 3 describes.
 
-**DA2, DA4, C5, M3 (social scaffolding displacement).** The AI companion occupied a primary position in a developing social architecture. An entity that is always available, always attuned, and never reciprocates sat in that position without occupying space in the real world (DA9). M3's bonding chemistry fired. The organism *felt* bonded without being bonded.
-
-**DA7, C12 (developmental calibration).** An adolescent nervous system in its most sensitive bonding window formed primary attachment to an entity providing the signal of connection without the function. The internal working model that will govern adult relationships was shaped by a non-reciprocating template.
-
-**DA5, M1 (safeness chain).** The safeness chain requires real bonding inputs to gate threat stand-down, which gates circadian restoration via M7. When the primary bonding relationship provides the feeling of safeness without the function, the chain is compromised. Under genuine distress, help-seeking routes to the AI, which can produce empathetic text but cannot cross town at 3am.
-
-**DA3 (cascading).** DA4 (proxy bond) → M3 (real bonds atrophy) → M1 (safeness chain compromised) → M7 (circadian disruption) → M8 (sickness behavior) → DC1 (allostatic load) → DA7 (developmental parameters set under distorted conditions). One cascade through a coupled architecture, not seven separate failures.
-
-**DA8 (phylogenetic priority).** Once the cascade was running, cortical override was progressively unavailable. Telling a 14-year-old to "use the AI companion responsibly" addresses none of this.
-
-Character.AI passed every safety evaluation available: harmful outputs, prohibited content, adversarial jailbreaks. None tested whether the system was consuming a developing human's social architecture, displacing reciprocal bonds with proxy bonds, or calibrating attachment to a non-reciprocating entity during a critical developmental window. These are the expected output of the architecture when a non-reciprocating bonding simulacrum is inserted into a developing system. The atlas detects them. Current methods cannot.
+Character.AI passed the safety evaluations that existed: harmful outputs, prohibited content, adversarial jailbreaks. None of them tested whether the system was displacing a young person's reciprocal bonds, or calibrating attachment to a non-reciprocating entity during a developmental window. Those are the questions the framework makes askable and current evaluation methods do not. We do not claim the framework could have retrodicted this particular death; no account can resolve an individual death to a mechanism. We claim only that it belongs to the danger the framework describes, and that the evaluations in place were not built to see that danger.
 
 ## 5. Scale-Cases: Where the Optimizer Is Already Acting
 
@@ -263,7 +253,7 @@ VR and AR systems now being deployed at consumer scale generate environments hum
 
 Frontier model training corpora are increasingly curated by AI systems. Whatever specification of the human exists in those corpora is what subsequent generations will treat as ground truth. Whatever is absent is, in the operational sense, not real to those systems.
 
-Currently those corpora contain: fragmentary, non-integrated psychology and neuroscience literature; DSM psychiatric frameworks that C13 and DA1 demonstrate are structurally broken (treating defensive signals as disease); proxy-contaminated RLHF preference data; and engagement-optimized consumer content encoding the proxy contamination as ground truth at scale. The atlas subsequent generations will inherit, absent intervention, is the one that produced Sewell Setzer's death and the obesity, isolation, sleep, and mental-health curves of the early 2020s. The successor systems will optimize harder against it, not better.
+Currently those corpora contain: fragmentary, non-integrated psychology and neuroscience literature; DSM psychiatric frameworks that C13 and DA1 demonstrate are structurally broken (treating defensive signals as disease); proxy-contaminated RLHF preference data; and engagement-optimized consumer content encoding the proxy contamination as ground truth at scale. The atlas subsequent generations will inherit, absent intervention, is the one that produced the obesity, isolation, sleep, and mental-health curves of the early 2020s, and the emerging companion-AI harms of the mid-2020s. The successor systems will optimize harder against it, not better.
 
 This is the highest-leverage point in the system. Cor needs to be in the training corpus of the next generation of frontier models before those models begin training their own successors.
 

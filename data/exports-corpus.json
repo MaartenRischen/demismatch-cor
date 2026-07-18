@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-07-18T08:20:55.176118+00:00",
+    "source_built_at": "2026-07-18T14:42:05.937975+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,18 +28,18 @@
     "convergences": 14,
     "domains": 23,
     "gaps": 16,
-    "works": 122,
-    "extractions": 608,
-    "researchers": 64,
+    "works": 124,
+    "extractions": 610,
+    "researchers": 65,
     "mechanism_evidence": 930,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
     "eea_parameters": 32,
     "parameter_mechanism": 60,
-    "parameter_evidence": 152,
+    "parameter_evidence": 153,
     "foundation_convergences": 14,
-    "challenges": 7
+    "challenges": 8
   },
   "thesis": "Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -359,7 +359,7 @@
     {
       "code": "M1",
       "name": "Threat Management",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Defensive system responding to threat cues. Includes offensive mode (frustration-aggression) absorbed from old M3 RAGE.",
       "eli5": "Detects danger. Makes you freeze, fight, or flee.",
@@ -456,7 +456,7 @@
     {
       "code": "M2",
       "name": "Pursuit / Exploration",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "General-purpose seeking system. SCOPE CHANGE from v3: sexual motivation removed (now M14). M2's resolution conditions narrow to: engagement with real-world challenges producing tangible outcomes, goal progress, skill building, resource acquisition.",
       "eli5": "Drives you to explore, pursue goals, and engage with the world.",
@@ -553,11 +553,11 @@
     {
       "code": "M3",
       "name": "Social Bonding",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly).",
       "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
-      "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number - outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 ceiling bounds the total network within which reputation, obligation, and face-to-face familiarity can be maintained (Dunbar 1992, replicated in phone, Christmas-card, and Facebook data).",
+      "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number - outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 outer figure is an illustrative central tendency, not a hard limit: its derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021). What the evidence carries is the nested layering and the reliability-over-count point, not the exact rung figures; the layered structure and its low-hundreds clustering are separately observed in phone, Christmas-card, and Facebook data.",
       "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence.",
       "phylogenetic_age": "~200Myr (mammalian)",
       "proxy_gradient": {
@@ -651,7 +651,7 @@
     {
       "code": "M4",
       "name": "Social Calibration / Play",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Play system develops social skills. Absent in threatened or ill animals.",
       "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
@@ -755,11 +755,11 @@
     {
       "code": "M5",
       "name": "Status Monitoring",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional - runs continuously.",
       "eli5": "Constantly monitors where you stand relative to others.",
-      "resolution_conditions": "Acceptable position in ~150-person reference group. Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction - needs explicit treatment).",
+      "resolution_conditions": "Acceptable position in a bounded, personally-known reference group on the order of ~150 (an illustrative central tendency, not a hard number; the precise figure is contested per Lindenfors 2021). Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction - needs explicit treatment).",
       "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
       "phylogenetic_age": "~50-100Myr (primates + social mammals)",
       "proxy_gradient": {
@@ -863,7 +863,7 @@
     {
       "code": "M6",
       "name": "Controllability / Agency",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "vmPFC-DRN controllability circuit. Learned helplessness is the DEFAULT; agency is the override. Critical for breaking cascades.",
       "eli5": "Tracks whether your actions produce results. Default is passivity - agency must be learned.",
@@ -959,7 +959,7 @@
     {
       "code": "M7",
       "name": "Circadian Regulation",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "SCN master clock. Gates metabolism, immunity, cognition, mood. Mismatch is usually timing/quality, not duration.",
       "eli5": "Synchronizes every system to the light-dark cycle. Master timing architecture.",
@@ -1060,7 +1060,7 @@
     {
       "code": "M8",
       "name": "Immune Regulation",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to depression via DA3 cascade.",
       "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
@@ -1162,7 +1162,7 @@
     {
       "code": "M9",
       "name": "Care / Alloparenting",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
       "eli5": "Distributed care - the organism expects a village, not solo parenting.",
@@ -1379,7 +1379,7 @@
       "tier": 2,
       "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 is a confidence grade, not an entailment status. M11 IS entailment-forced - convergence C11 forces it - and its four converging streams (Fehr & Gächter, Boehm, Tomasello, Trivers) strongly support it without reaching the top confidence tier.",
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
-      "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (~150, the same Dunbar cognitive ceiling that bounds M3). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned - this tracking capacity is bounded by the same neocortex-ratio constraint (Dunbar 1992, Dunbar & Shultz 2007). Beyond ~150, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+      "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
       "phylogenetic_age": "~2-5Myr (humans + great apes)",
       "proxy_gradient": {
@@ -1643,7 +1643,7 @@
     {
       "code": "M14",
       "name": "Reproductive Motivation",
-      "grade": "forced",
+      "grade": "established",
       "tier": 1,
       "description": "Fisher's three-system model. Independent from M2 pursuit. HPG axis, not just brain circuits.",
       "eli5": "Three components - desire, attraction, and pair bonding - that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
@@ -1962,7 +1962,7 @@
       "contested": 4,
       "longitudinal": 2
     },
-    "contested_count": 8,
+    "contested_count": 9,
     "total": 32,
     "domains_present": 8,
     "parameters": [
@@ -1971,7 +1971,7 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Social network layers (~5/15/50/150)",
-        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 ceiling tracks human neocortical information-processing capacity: extrapolating the primate neocortex-ratio-to-group-size relationship predicts a human group size of ~148, matching the mean of ~153 found across the tribal/clan census societies for which data exist. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.",
+        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.",
         "eea_value": {
           "unit": "individuals",
           "layer_sizes": {
@@ -1980,21 +1980,17 @@
             "support_clique": 5,
             "sympathy_group": 15
           },
-          "ceiling_range": [
-            148,
-            153
-          ],
-          "outer_ceiling": 150,
           "scaling_factor": 3,
-          "tribal_clan_mean_observed": 153,
-          "neocortex_predicted_group_size": 148
+          "outer_ceiling_note": "low hundreds; ~150 is an approximate central tendency, not a constant; the neocortex-ratio derivation is contested (Lindenfors 2021)",
+          "outer_ceiling_approx": 150,
+          "tribal_clan_grouping": "clusters in the low hundreds (ethnographic)"
         },
         "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-180, but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.",
         "gap_statement": "The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan 153; 483/484/485 (Neocortex 1992, cross-species regression, predicted ~148, r2=0.764) for the cognitive basis; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). DELIBERATELY DROPPED as evidence: extractions 502 and 505 (work 72), both flagged 'Abstract-limited' (502: 'extraction from abstract and citing sources'); they are not full-text reads and must not back a replicated grade - 502 is redundant with full-text 404/490, and the 505-only 'trust = time invested' clause was softened in the prose. eea_value.ceiling_range [148,153] is an honest min/max of two reported central tendencies (148 neocortex-predicted; 153 ethnographic mean), not a hard interval or constant; exact integers vary by source (12/35 vs 15/50) and are central tendencies. M5 link is fixed by the locked architecture (the ~150 personally-known reference group is the substrate for status monitoring); cited extractions are tagged M3/M11, with M5 not separately evidenced.",
+        "contested": true,
+        "confidence_note": "This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan; 483/484/485 (Neocortex 1992 cross-species regression) as the historical cognitive-basis citation; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). UPDATE 2026-07-18: the neocortex-ratio derivation of the ~150 figure is now challenged in the corpus (Lindenfors, Wartel & Lind 2021, work 124 / ext 619); contested flipped to true. Grade held replicated for the nested layer STRUCTURE and its comms-data replication, not for the precise number, whose derivation is contested; the precision statistics from the challenged regression (neocortex-predicted ~148, r-squared) have been removed from this parameter's baseline and value. layer_sizes is retained as a structure map (the structure is what survives the challenge). eea_value.outer_ceiling_approx marks ~150 as an approximate central tendency, not a hard interval or constant.",
         "mechanism_codes": [
           "M11",
           "M3",
@@ -2023,7 +2019,7 @@
           {
             "extraction_id": 25,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "contested",
             "author_quote": "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153",
             "content": "Extrapolating from the relationship between neocortex size and group size for monkeys and apes gives a group size of about 150 - the limit on the number of social relationships that humans can have. For the twenty-odd tribal societies where census data are available, clan groups"
           },
@@ -2128,7 +2124,7 @@
           {
             "extraction_id": 25,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "contested",
             "author_quote": "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153",
             "content": "Extrapolating from the relationship between neocortex size and group size for monkeys and apes gives a group size of about 150 - the limit on the number of social relationships that humans can have. For the twenty-odd tribal societies where census data are available, clan groups"
           },
@@ -2851,7 +2847,7 @@
         "resolution_unit": "Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.",
         "evidence_grade": "clinical",
         "contested": false,
-        "confidence_note": "Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. Verified: the often-cited '~40% preterm mortality reduction' for kangaroo care is NOT present in the cited corpus; ext 100 reports developmental/autonomic advantage, not a mortality figure, so no mortality number is asserted here. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 9 cited extraction_ids verified to exist and support their 'why'.",
+        "confidence_note": "Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. The often-cited '~40% kangaroo-care mortality reduction' is now grounded in the corpus (ext 618): Conde-Agudelo and Diaz-Rossello's Cochrane 2016 meta-analysis reports reduced mortality in STABILIZED low-birthweight infants (RR 0.60, 95% CI 0.39-0.92 at discharge or 40-41 weeks; RR 0.67, 0.48-0.95 at latest follow-up), so the figure applies specifically to stabilized LBW infants and is largest in low- and middle-income settings, not to all newborns; ext 100 (Feldman) separately carries the developmental/autonomic results. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 10 cited extraction_ids verified to exist and support their 'why'.",
         "mechanism_codes": [
           "M3",
           "R1"
@@ -2923,9 +2919,16 @@
             "evidence_quality": "cross_species",
             "author_quote": "contact comfort is a variable of overwhelming importance in the development of affectional response, whereas lactation is a variable of negligible importance.",
             "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. No measurable difference between cloth-fed and wire-fed gro"
+          },
+          {
+            "extraction_id": 618,
+            "evidence_role": "supporting",
+            "evidence_quality": "meta_analysis",
+            "author_quote": "At discharge or 40 to 41 weeks' postmenstrual age: \"KMC was associated with a statistically significant reduction in the risk of mortality (risk ratio [RR] 0.60, 95% confidence interval [CI] 0.39 to 0.92; eight trials, 1736 infants).\" At latest follow-up: \"KMC was associated with a significantly decreased risk of mortality (RR 0.67, 95% CI 0.48 to 0.95; 12 trials, 2293 infants; moderate-quality evidence).\"",
+            "content": "Cochrane meta-analysis of kangaroo mother care (KMC) vs conventional care in low-birthweight infants. In STABILIZED LBW infants, KMC significantly reduced the risk of mortality at discharge or 40-41 weeks postmenstrual age (RR 0.60, 95% CI 0.39-0.92; 8 trials, 1736 infants) and a"
           }
         ],
-        "evidence_count": 9
+        "evidence_count": 10
       },
       {
         "code": "EEA-TOUCH-02",
