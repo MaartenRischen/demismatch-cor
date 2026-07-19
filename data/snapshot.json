@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-18T14:42:05.937975+00:00",
+    "built_at": "2026-07-19T03:38:05.045032+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,7 +10,7 @@
     "convergences": 14,
     "domains": 23,
     "gaps": 16,
-    "works": 124,
+    "works": 125,
     "extractions": 610,
     "researchers": 65,
     "mechanism_evidence": 930,
@@ -3322,6 +3322,15 @@
         "work_type": "paper",
         "importance": "key",
         "primary_researcher_id": 65
+      },
+      {
+        "id": 125,
+        "title": "Beauty sleep: experimental study on the perceived health and attractiveness of sleep deprived people",
+        "authors": "Axelsson J, Sundelin T, Ingre M, Van Someren EJW, Olsson A, Lekander M",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
       }
     ],
     "extractions": [
@@ -7591,19 +7600,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 452,
-        "work_id": 22,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "DA8"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
-      },
-      {
         "id": 613,
         "work_id": 119,
         "mechanism_codes": [
@@ -7929,19 +7925,6 @@
         "source_type": "primary"
       },
       {
-        "id": 125,
-        "work_id": 23,
-        "mechanism_codes": [
-          "M3",
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
-      },
-      {
         "id": 416,
         "work_id": 65,
         "mechanism_codes": [
@@ -8019,20 +8002,6 @@
         ],
         "evidence_quality": "replicated",
         "source_type": "primary"
-      },
-      {
-        "id": 438,
-        "work_id": 35,
-        "mechanism_codes": [
-          "M7",
-          "M14"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "OF2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
       },
       {
         "id": 471,
@@ -11155,18 +11124,6 @@
         "source_type": "primary"
       },
       {
-        "id": 52,
-        "work_id": 25,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "primary"
-      },
-      {
         "id": 35,
         "work_id": 17,
         "mechanism_codes": [],
@@ -11267,6 +11224,58 @@
           "DA2"
         ],
         "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 125,
+        "work_id": 23,
+        "mechanism_codes": [
+          "M3",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
+        "id": 452,
+        "work_id": 22,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
+        "id": 438,
+        "work_id": 125,
+        "mechanism_codes": [
+          "M7",
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "OF2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 52,
+        "work_id": 25,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
         "source_type": "primary"
       }
     ],
