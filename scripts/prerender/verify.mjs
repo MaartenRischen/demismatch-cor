@@ -17,7 +17,7 @@ import { readFile } from "node:fs/promises";
 import { existsSync, statSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { startServer, locateMount } from "./lib.mjs";
-import { runContradictionGate, reportContradictions } from "./contradiction-gate.mjs";
+import { runContradictionGate, reportContradictions, blockingFailures } from "./contradiction-gate.mjs";
 
 const RENDER_TIMEOUT = 15000;
 
@@ -221,19 +221,30 @@ async function main() {
   }
   console.log(`\n${results.length - fails.length}/${results.length} checks passed.`);
 
-  /* ---- FAIL-SOFT contradiction gate (WARN only, never blocks) ------------- */
-  // Runs regardless of the hard-gate outcome and never touches the exit code.
-  // Any error inside it is swallowed so a soft check can never break a deploy.
+  /* ---- contradiction gate: D1/D2 hard-block, D3-D6 warn only -------------- */
+  // Runs regardless of the hard-gate outcome. D1/D2 are snapshot-only and can
+  // block; the soft detectors only warn. An INFRA error inside the gate is
+  // swallowed (a broken soft check must never break a deploy) - but that also
+  // means a network outage cannot mask a D1/D2 finding, because D1/D2 compute
+  // from the snapshot and run before the D4/D5 fetch.
+  let contradictionBlocks = [];
   try {
     const { findings } = await runContradictionGate({ dist, snap });
     console.log(reportContradictions(findings));
+    contradictionBlocks = blockingFailures(findings);
   } catch (e) {
-    console.log(`\n=== CONTRADICTION GATE skipped (non-blocking): ${e.message} ===`);
+    console.log(`\n=== CONTRADICTION GATE infra error (non-blocking): ${e.message} ===`);
   }
 
-  if (fails.length) {
-    console.error(`\n${fails.length} CHECK(S) FAILED:`);
-    for (const r of fails) console.error(`  - [${r.page}] ${r.name}  ${r.detail}`);
+  if (fails.length || contradictionBlocks.length) {
+    if (fails.length) {
+      console.error(`\n${fails.length} CHECK(S) FAILED:`);
+      for (const r of fails) console.error(`  - [${r.page}] ${r.name}  ${r.detail}`);
+    }
+    if (contradictionBlocks.length) {
+      console.error(`\n${contradictionBlocks.length} CONTRADICTION GATE HARD FAILURE(S):`);
+      for (const f of contradictionBlocks) console.error(`  - [${f.id}] ${f.title} (${f.count})`);
+    }
     process.exit(1);
   }
   console.log("ALL CHECKS PASSED.");

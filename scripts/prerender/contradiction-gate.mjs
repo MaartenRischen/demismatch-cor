@@ -1,10 +1,18 @@
 /* ============================================================================
-   contradiction-gate.mjs - FAIL-SOFT contradiction checks for the Cor deploy.
+   contradiction-gate.mjs - contradiction checks for the Cor deploy.
 
-   verify.mjs is the HARD gate (count + prerender integrity). This module is the
-   SOFT gate: it looks for internal contradictions in the shipped corpus and
-   WARNS. It never changes the exit code. Promote a detector to hard only after
-   it has run clean across several builds (a gate that cries wolf gets disabled).
+   verify.mjs is the HARD gate (count + prerender integrity). This module adds
+   contradiction checks in TWO tiers:
+
+     HARD (block the deploy): D1, D2. Structural, snapshot-only, no network
+       dependency, zero false positives across the current corpus. D2 is a pure
+       regression test - "forced" must never return as a mechanism grade.
+     SOFT (WARN only, never blocks): D3, D4, D5, D6. Promote a soft detector to
+       hard only after it has run clean across several builds AND, for D4/D5, only
+       after removing its network dependency (a fail-soft fetch must never gate).
+
+   Each finding carries `blocking`. A blocking finding with count>0 fails the
+   deploy; every other finding only warns.
 
    Six detectors, each mapped to a class of defect that actually shipped in this
    corpus (see _audit/DB_AUDIT_FINDINGS.md):
@@ -136,12 +144,20 @@ export async function runContradictionGate({ dist, snap, fetchImpl } = {}) {
     add({
       id: "D1",
       title: "Held-out (challenge-layer) extraction used as active evidence",
+      blocking: true, // HARD gate: structural, snapshot-only, zero-FP.
       count: hits.length,
       hits,
       note:
         `held-out set = source_type='challenge' (${challengeIds.size} rows); ` +
         "active = evidence_role in {primary,supporting}. A challenge is counter-" +
-        "evidence and must never count as forward support.",
+        "evidence and must never count as forward support. " +
+        // KNOWN GAP (close before the next ingestion batch): 'challenge' is also
+        // carried by evidence_role='challenging', not only source_type. This
+        // detector watches source_type; a challenging-role link on a NON-challenge
+        // source_type (e.g. ext 617, a primary-sourced contestation) is not caught.
+        // A held-out row could enter through the field the gate does not watch, so
+        // D1 should watch BOTH fields once the two are reconciled at ingestion.
+        "KNOWN GAP: does not yet watch evidence_role='challenging' on non-challenge source_type (see ext 617).",
     });
   }
 
@@ -165,6 +181,7 @@ export async function runContradictionGate({ dist, snap, fetchImpl } = {}) {
     add({
       id: "D2",
       title: "Mechanism graded 'forced' with no dedicated forcing convergence",
+      blocking: true, // HARD gate: pure regression test - "forced" must not return as a grade.
       count: hits.length,
       hits,
       note:
@@ -308,27 +325,37 @@ export async function runContradictionGate({ dist, snap, fetchImpl } = {}) {
   return { findings, corpusFetched: !!corpus };
 }
 
+/* Blocking findings that actually fired (count>0). verify.mjs fails on these. */
+export function blockingFailures(findings) {
+  return findings.filter((f) => f.blocking && f.count > 0);
+}
+
 /* ---- reporter -------------------------------------------------------------- */
 export function reportContradictions(findings) {
   const lines = [];
   lines.push("");
-  lines.push("=== CONTRADICTION GATE (fail-soft: WARN only, never blocks) ===");
+  lines.push("=== CONTRADICTION GATE (D1/D2 hard-block; D3-D6 warn only) ===");
   let warned = 0;
+  let failed = 0;
   for (const f of findings) {
     const state = f.skipped
       ? "SKIP"
       : f.stubbed
       ? "STUB"
       : f.count > 0
-      ? "WARN"
+      ? f.blocking
+        ? "FAIL"
+        : "WARN"
       : "OK";
     if (state === "WARN") warned++;
-    lines.push(`  [${state}] ${f.id}  ${f.title}  (${f.count} hit${f.count === 1 ? "" : "s"})`);
+    if (state === "FAIL") failed++;
+    const tier = f.blocking ? "hard" : "soft";
+    lines.push(`  [${state}] ${f.id} (${tier})  ${f.title}  (${f.count} hit${f.count === 1 ? "" : "s"})`);
     if (f.note) lines.push(`         ${f.note}`);
     for (const h of (f.hits || []).slice(0, 20)) lines.push(`         - ${h}`);
     if ((f.hits || []).length > 20) lines.push(`         ... +${f.hits.length - 20} more`);
   }
-  lines.push(`  ${warned} detector(s) warning; contradiction gate does NOT affect exit code.`);
+  lines.push(`  ${failed} hard failure(s), ${warned} soft warning(s).`);
   return lines.join("\n");
 }
 
@@ -341,9 +368,12 @@ if (isMain) {
   runContradictionGate({ dist })
     .then(({ findings }) => {
       console.log(reportContradictions(findings));
+      // Exit 1 if a HARD detector (D1/D2) fired; soft warnings never fail.
+      process.exit(blockingFailures(findings).length ? 1 : 0);
     })
     .catch((e) => {
-      console.error("contradiction-gate FATAL (non-blocking):", e.message);
-      process.exit(0); // fail-soft even on its own failure
+      // Infra failure of the gate itself is fail-soft (never blocks a deploy).
+      console.error("contradiction-gate infra error (non-blocking):", e.message);
+      process.exit(0);
     });
 }
