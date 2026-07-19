@@ -17,6 +17,7 @@ import { readFile } from "node:fs/promises";
 import { existsSync, statSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { startServer, locateMount } from "./lib.mjs";
+import { runContradictionGate, reportContradictions } from "./contradiction-gate.mjs";
 
 const RENDER_TIMEOUT = 15000;
 
@@ -219,6 +220,17 @@ async function main() {
     console.log(`    ${r.pass ? "PASS" : "FAIL"}  ${r.name}${r.detail ? "  [" + r.detail + "]" : ""}`);
   }
   console.log(`\n${results.length - fails.length}/${results.length} checks passed.`);
+
+  /* ---- FAIL-SOFT contradiction gate (WARN only, never blocks) ------------- */
+  // Runs regardless of the hard-gate outcome and never touches the exit code.
+  // Any error inside it is swallowed so a soft check can never break a deploy.
+  try {
+    const { findings } = await runContradictionGate({ dist, snap });
+    console.log(reportContradictions(findings));
+  } catch (e) {
+    console.log(`\n=== CONTRADICTION GATE skipped (non-blocking): ${e.message} ===`);
+  }
+
   if (fails.length) {
     console.error(`\n${fails.length} CHECK(S) FAILED:`);
     for (const r of fails) console.error(`  - [${r.page}] ${r.name}  ${r.detail}`);

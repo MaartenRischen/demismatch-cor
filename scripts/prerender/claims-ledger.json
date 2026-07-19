@@ -1,0 +1,20 @@
+{
+  "_README": [
+    "Seed ledger for contradiction-gate.mjs Detector 3 (asserted-figure vs unsupported-disclaimer).",
+    "This is the ED9 / EEA-TOUCH-01 pattern: one record asserts a numeric figure that another",
+    "record's scope/caveat/confidence_note calls unsupported or absent. It cannot be reduced to a",
+    "structural invariant (it is prose-vs-number), so it runs off this hand-curated ledger.",
+    "Each row names WHERE the figure is asserted and WHERE it is disclaimed; the gate warns only",
+    "when BOTH the asserted figure and the disclaimer string are still present live (i.e. neither",
+    "side was fixed). Seed a row the moment a reviewer finds a live asserted-vs-disclaimed pair.",
+    "Ships EMPTY on purpose: Detector 3 is stubbed until this ledger is curated (see report)."
+  ],
+  "_schema": {
+    "id": "short stable slug for the contradiction",
+    "figure": "the numeric/phrase claim in dispute, e.g. 'sixteen primate genera'",
+    "asserted_in": { "table": "v2_* table", "match": "id/code", "field": "content|scope|...", "needle": "substring proving the assertion is live" },
+    "disclaimed_in": { "table": "v2_* table", "match": "id/code", "field": "scope|caveats|confidence_note|...", "needle": "substring proving the disclaimer is live" },
+    "note": "why this is a contradiction; the audit ref"
+  },
+  "rows": []
+}
