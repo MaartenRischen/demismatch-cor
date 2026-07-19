@@ -13,6 +13,7 @@ DIST="$ROOT/dist"
 ROOT_FILES=(
   # v2 pages
   "index.html"
+  "about.html"
   "mechanisms.html"
   "mechanism.html"
   "derivation.html"

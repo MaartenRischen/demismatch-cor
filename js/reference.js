@@ -533,9 +533,9 @@
         abstract: "The framework as a Lakatosian research programme: hard core, protective belt, falsifiers, and boundary conditions."
       },
       {
-        href: "eli5.html",
-        title: "Start here",
-        abstract: "The newcomer door. Teaches the ordinal proxy gradient - a cue that fires without supplying what resolves it - and how to read the framework's epistemic tiers."
+        href: "about.html",
+        title: "About Cor",
+        abstract: "Start here. What Cor is in plain words, how the atlas was built, what its counts mean, and how to read the framework's epistemic tiers - the ordinal proxy gradient, a cue that fires without supplying what resolves it."
       }
     ];
     var shelf = '<div class="ref-papers-shelf">' + PAPERS.map(function (p) {

@@ -32,6 +32,7 @@
     Object.freeze({ key: "derivation",  label: "Derivation", href: "derivation.html" })
   ]);
   var NAV_SECONDARY = Object.freeze([
+    Object.freeze({ key: "about",       label: "About",      href: "about.html" }),
     Object.freeze({ key: "reference",   label: "Reference",  href: "reference.html" }),
     Object.freeze({ key: "programme",   label: "Programme",  href: "programme.html" }),
     Object.freeze({ key: "mindmap",     label: "Map",        href: "mindmap.html" }),
@@ -42,8 +43,9 @@
   var NAV = Object.freeze(NAV_PRIMARY.concat(NAV_SECONDARY));
 
   // mechanism.html is a detail surface under Mechanisms; light Mechanisms for it.
-  // Long-reads (bridge-paper / constitutional / programme / eli5 / cases) use
+  // Long-reads (bridge-paper / constitutional / programme / cases) use
   // data-page="reference" and therefore light Reference (contract sec.2).
+  // about.html is the newcomer + orientation page and lights its own About item.
   var NAV_ALIAS = { mechanism: "mechanisms" };
 
   function navKeyFor(pageKey) {
@@ -143,6 +145,7 @@
       head: "Core",
       links: [
         { label: "Home",        href: "index.html" },
+        { label: "About Cor",   href: "about.html" },
         { label: "Mechanisms",  href: "mechanisms.html" },
         { label: "Derivation",  href: "derivation.html" },
         { label: "Map",         href: "mindmap.html" },
@@ -166,8 +169,7 @@
       links: [
         { label: "The Optimizer Without a Target", href: "bridge-paper.html" },
         { label: "Constitutional",  href: "constitutional.html" },
-        { label: "Research Programme", href: "programme.html" },
-        { label: "Start here (newcomer)", href: "eli5.html" }
+        { label: "Research Programme", href: "programme.html" }
       ]
     }
   ];
@@ -176,7 +178,7 @@
   // partials/footer.html + xsite-nav.html.
   var XSITE = [
     { head: "DEMISMATCH", role: "The why", desc: "the front door", href: "https://demismatch.com/" },
-    { head: "COR",        role: "The how", desc: "the spec",       href: "https://cor.demismatch.com/", current: true }
+    { head: "COR",        role: "The how", desc: "the atlas",      href: "https://cor.demismatch.com/", current: true }
   ];
 
   function sitemapHTML() {
