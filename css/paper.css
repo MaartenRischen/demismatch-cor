@@ -91,7 +91,7 @@
 }
 .lr-stamp b { color: var(--oxblood-ink); font-weight: 500; }
 
-/* The honest "current snapshot" line: frozen v0 figures in the prose are the
+/* The honest "current snapshot" line: any frozen figures in the prose are the
    historical record; this strip shows the live CorData counts so nothing in the
    argument silently contradicts the current spec. */
 .lr-live {
