@@ -19,9 +19,9 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(300px, 24rem);
     gap: clamp(1.5rem, 4vw, 3.5rem);
-    /* start, not stretch: a stretched map column leaves the markmap svg without a
-       settled box at measure time and the tree never lays out. The two columns
-       are instead balanced by their natural heights (map + link + paper ~= copy). */
+    /* Both columns top-align at the eyebrow / map-title line. The copy column
+       (headline -> on-ramp -> paper callout) sets the height; the map's tall
+       min-height (below) reaches down toward that same foot. */
     align-items: start;
   }
   .hero-copy { max-width: none; }
@@ -87,10 +87,10 @@
 #hero-markmap {
   flex: 1 1 auto;
   width: 100%;
-  /* Landscape framing: the initial tree is capped at maxInitialScale (see
-     hero-map.js), so a tall svg only banks empty canvas above and below it.
-     Size the window to the tree instead - a compact viewport that fills. */
-  min-height: clamp(240px, 28vh, 300px);
+  /* A tall window: the paper callout now sits in the copy column, so the map
+     owns the whole right column. Give the tree generous canvas to breathe in
+     and to reach down toward the copy column's foot. */
+  min-height: clamp(440px, 62vh, 600px);
   display: block;
   cursor: grab;
   touch-action: pan-y;    /* let the page still scroll vertically over the map on touch */
@@ -119,15 +119,6 @@
 .hero-map-link:focus-visible { color: var(--teal-deep); text-decoration: underline; }
 .hero-map-link .ar { display: inline-block; margin-left: 4px; transition: transform var(--dur-fast) var(--ease); }
 .hero-map-link:hover .ar { transform: translateX(4px); }
-
-/* Featured paper now lives at the foot of the map column so the two hero
-   columns balance in height. It fills the narrower column; the map frame is
-   sized (below) so map + link + paper stacks to about the copy column's height,
-   landing their bottoms on the same line. */
-.hero-map .hero-paper {
-  margin-top: clamp(20px, 3vw, 30px);
-  max-width: none;
-}
 
 /* markmap node styling (mindmap.css is not loaded here): oxblood Spectral nodes,
    teal links, gold code - the Cor identity, same as the full Map surface */
