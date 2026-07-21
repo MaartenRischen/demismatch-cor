@@ -33,6 +33,7 @@
   ]);
   var NAV_SECONDARY = Object.freeze([
     Object.freeze({ key: "about",       label: "About",      href: "about.html" }),
+    Object.freeze({ key: "corpus",      label: "Corpus",     href: "corpus.html" }),
     Object.freeze({ key: "reference",   label: "Reference",  href: "reference.html" }),
     Object.freeze({ key: "programme",   label: "Programme",  href: "programme.html" }),
     Object.freeze({ key: "mindmap",     label: "Map",        href: "mindmap.html" }),
@@ -147,6 +148,7 @@
         { label: "Home",        href: "index.html" },
         { label: "About Cor",   href: "about.html" },
         { label: "Mechanisms",  href: "mechanisms.html" },
+        { label: "The Corpus",  href: "corpus.html" },
         { label: "Derivation",  href: "derivation.html" },
         { label: "Map",         href: "mindmap.html" },
         { label: "Downloads",   href: "downloads.html" }

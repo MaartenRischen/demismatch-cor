@@ -19,6 +19,9 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(300px, 24rem);
     gap: clamp(1.5rem, 4vw, 3.5rem);
+    /* start, not stretch: a stretched map column leaves the markmap svg without a
+       settled box at measure time and the tree never lays out. The two columns
+       are instead balanced by their natural heights (map + link + paper ~= copy). */
     align-items: start;
   }
   .hero-copy { max-width: none; }
@@ -84,7 +87,10 @@
 #hero-markmap {
   flex: 1 1 auto;
   width: 100%;
-  min-height: clamp(360px, 52vh, 520px);
+  /* Landscape framing: the initial tree is capped at maxInitialScale (see
+     hero-map.js), so a tall svg only banks empty canvas above and below it.
+     Size the window to the tree instead - a compact viewport that fills. */
+  min-height: clamp(240px, 28vh, 300px);
   display: block;
   cursor: grab;
   touch-action: pan-y;    /* let the page still scroll vertically over the map on touch */
@@ -113,6 +119,15 @@
 .hero-map-link:focus-visible { color: var(--teal-deep); text-decoration: underline; }
 .hero-map-link .ar { display: inline-block; margin-left: 4px; transition: transform var(--dur-fast) var(--ease); }
 .hero-map-link:hover .ar { transform: translateX(4px); }
+
+/* Featured paper now lives at the foot of the map column so the two hero
+   columns balance in height. It fills the narrower column; the map frame is
+   sized (below) so map + link + paper stacks to about the copy column's height,
+   landing their bottoms on the same line. */
+.hero-map .hero-paper {
+  margin-top: clamp(20px, 3vw, 30px);
+  max-width: none;
+}
 
 /* markmap node styling (mindmap.css is not loaded here): oxblood Spectral nodes,
    teal links, gold code - the Cor identity, same as the full Map surface */
@@ -450,3 +465,85 @@ svg.markmap .markmap-link { opacity: .9; }
   box-shadow: 3px 3px 0 var(--gold); transform: translateY(-1px);
 }
 @media (max-width: 600px) { .attr-name { font-size: 0.74rem; padding: 0.4rem 0.78rem; } }
+
+/* ===== The Corpus - homepage widget (compact, searchable list) ===== */
+.corpus-widget { margin-top: clamp(34px, 5vw, 56px); }
+.cw-head {
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;
+  gap: 12px 28px; margin-bottom: 16px;
+}
+.cw-head-txt { min-width: 0; }
+.cw-eyebrow {
+  font-family: var(--mono); font-size: .62rem; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--teal); margin: 0 0 8px;
+}
+.cw-h {
+  font-family: var(--serif); font-weight: 600; font-size: clamp(1.5rem, 3.2vw, 2rem);
+  line-height: 1.04; letter-spacing: -.01em; color: var(--oxblood); margin: 0;
+}
+.cw-sub {
+  margin: 10px 0 0; max-width: 62ch; font-weight: 300; font-size: clamp(.92rem, 1.5vw, 1.02rem);
+  line-height: 1.55; color: var(--oxblood-ink);
+}
+.cw-key-inline { white-space: normal; }
+.cw-dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  margin: 0 5px 0 3px; vertical-align: baseline; position: relative; top: 0;
+}
+.cw-dot.cw-pillar { background: var(--gold); }
+.cw-dot.cw-key { background: var(--teal); }
+.cw-dot.cw-supporting { background: #b8a988; }
+.cw-all {
+  flex: 0 0 auto; display: inline-flex; align-items: baseline; gap: 8px;
+  font-family: var(--mono); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--oxblood-warm); text-decoration: none; white-space: nowrap;
+}
+.cw-all .ar { transition: transform var(--dur-fast) var(--ease); }
+.cw-all:hover .ar, .cw-all:focus-visible .ar { transform: translateX(4px); }
+
+.cw-search { position: relative; display: block; margin-bottom: 12px; }
+.cw-search svg {
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 15px; height: 15px; stroke: var(--muted-warm); fill: none; pointer-events: none;
+}
+.cw-search input {
+  width: 100%; font-family: var(--serif); font-size: 15px; color: var(--ink);
+  padding: 10px 12px 10px 36px; background: var(--parchment-soft); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); outline: none;
+}
+.cw-search input:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(45, 107, 107, .16); }
+
+.cw-list {
+  list-style: none; margin: 0; padding: 0;
+  max-height: clamp(300px, 44vh, 400px); overflow-y: auto;
+  border: 1px solid var(--border-soft); border-radius: var(--radius-sm);
+  background: var(--parchment-soft);
+  display: grid; grid-template-columns: 1fr;
+  scrollbar-width: thin; scrollbar-color: var(--parchment-tan) transparent;
+}
+@media (min-width: 720px) { .cw-list { grid-template-columns: 1fr 1fr; } }
+.cw-list::-webkit-scrollbar { width: 10px; }
+.cw-list::-webkit-scrollbar-thumb { background: var(--parchment-tan); border-radius: 6px; border: 3px solid var(--parchment-soft); }
+.cw-item { min-width: 0; }
+.cw-item.is-hidden { display: none; }
+.cw-link {
+  display: flex; align-items: center; gap: 9px; min-width: 0;
+  padding: 9px 13px; text-decoration: none; color: var(--oxblood-ink);
+  border-bottom: 1px solid var(--border-soft); transition: background var(--dur-fast) var(--ease);
+}
+.cw-link:hover, .cw-link:focus-visible { background: var(--bg-hover); outline: none; }
+.cw-link:focus-visible { box-shadow: inset 3px 0 0 var(--teal); }
+.cw-link .cw-dot { flex: 0 0 auto; top: 0; margin: 0; }
+.cw-t {
+  flex: 1 1 auto; min-width: 0; font-family: var(--serif); font-size: .95rem; font-weight: 400;
+  color: var(--oxblood); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.cw-m {
+  flex: 0 0 auto; font-family: var(--mono); font-size: .66rem; letter-spacing: .02em;
+  color: var(--muted-warm); white-space: nowrap; max-width: 42%; overflow: hidden; text-overflow: ellipsis;
+}
+.cw-empty {
+  margin: 14px 0 0; font-family: var(--mono); font-size: .8rem; letter-spacing: .04em; color: var(--muted-warm);
+}
+.cw-empty a { color: var(--teal-deep); }
+@media (max-width: 520px) { .cw-m { display: none; } }

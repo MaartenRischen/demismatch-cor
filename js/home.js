@@ -75,3 +75,37 @@
   setText("foot-counts", footBits.length ? footBits.join(" - ") : "counts unavailable");
 
 })();
+
+/* ============================================================================
+   The Corpus widget - live client-side filter over the baked title list.
+   The list is server-baked into index.html (crawlable, prerender-safe); this
+   only shows/hides rows as you type. No data dependency, degrades to a plain
+   scrollable list if JS is off.
+   ============================================================================ */
+(function () {
+  "use strict";
+  var input = document.getElementById("cw-q");
+  var list = document.getElementById("cw-list");
+  var empty = document.getElementById("cw-empty");
+  if (!input || !list) return;
+
+  var items = [].slice.call(list.querySelectorAll(".cw-item"));
+  var timer;
+
+  function apply() {
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    for (var i = 0; i < items.length; i++) {
+      var hay = items[i].getAttribute("data-t") || "";
+      var hit = !q || hay.indexOf(q) !== -1;
+      items[i].classList.toggle("is-hidden", !hit);
+      if (hit) shown++;
+    }
+    if (empty) empty.hidden = shown !== 0;
+  }
+
+  input.addEventListener("input", function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 90);
+  });
+})();

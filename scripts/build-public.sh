@@ -16,6 +16,7 @@ ROOT_FILES=(
   "about.html"
   "mechanisms.html"
   "mechanism.html"
+  "corpus.html"
   "derivation.html"
   "reference.html"
   "downloads.html"
