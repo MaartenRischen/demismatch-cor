@@ -136,19 +136,30 @@ async function main() {
       /<svg id="markmap"[^>]*><\/svg>/.test(h) && !mountPrerendered(h, "markmap"));
   }
 
-  // --- size floors: baked must have grown well past the empty shell ---
+  // --- size floors: baked must have grown past the empty shell ---
+  // Ratio floors work where the bake injects a large fraction of the page
+  // (derivation, the-gap, reference, mechanisms). index.html and mindmap.html
+  // carry big static shells - index now holds the full corpus title list - so
+  // there the bake is a small FIXED injection (index: stat tiles + door text;
+  // mindmap: the fallback tree). A ratio floor mismodels that; use an absolute
+  // baked-minus-orig byte delta instead. The direct mount checks above already
+  // prove those bakes landed; this is just the belt-and-braces size guard.
   const FLOOR = { // min baked/orig ratio
     "index.html": 1.02, "derivation.html": 1.5, "the-gap.html": 1.5,
     "reference.html": 1.5, "mechanisms.html": 2.0, "mechanism.html": 2.0, "mindmap.html": 1.0,
   };
+  const ABS_FLOOR = { "mindmap.html": 3000, "index.html": 300 }; // min baked-orig bytes
   const sizes = {};
   for (const file of Object.keys(FLOOR)) {
     const orig = sizeOf(srcRoot, file);
     const baked = sizeOf(dist, file);
     sizes[file] = { orig, baked, ratio: orig > 0 ? +(baked / orig).toFixed(2) : 0 };
-    const minGrow = file === "mindmap.html" ? baked > orig + 3000 : baked >= orig * FLOOR[file];
-    check(file, `size floor (baked ${baked} >= orig ${orig} x${FLOOR[file]})`, orig > 0 && minGrow,
-      `orig ${orig} -> baked ${baked} (x${sizes[file].ratio})`);
+    const abs = ABS_FLOOR[file];
+    const minGrow = abs ? baked > orig + abs : baked >= orig * FLOOR[file];
+    const label = abs
+      ? `size floor (baked ${baked} >= orig ${orig} + ${abs}B)`
+      : `size floor (baked ${baked} >= orig ${orig} x${FLOOR[file]})`;
+    check(file, label, orig > 0 && minGrow, `orig ${orig} -> baked ${baked} (x${sizes[file].ratio})`);
   }
 
   /* ======================= B. JS-ON EQUIVALENCE ======================= */
