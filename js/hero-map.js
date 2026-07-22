@@ -29,6 +29,11 @@
   // no matter how deep it is expanded.
   opts.autoFit = true;
   opts.maxInitialScale = 1.9;  // headroom so the wider window enlarges the tree, not blows it up
+  // The window is now as tall as the copy column (down to the paper callout's
+  // foot). The tree is width-bound, so without help it would clump in the middle
+  // with dead space above and below; spread the sections vertically so the tree
+  // fills the tall frame top-to-bottom instead.
+  opts.spacingVertical = 26;
 
   var mm = M.Markmap.create(svg, opts, result.root);
 

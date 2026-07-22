@@ -20,11 +20,15 @@
     grid-template-columns: minmax(0, 1fr) minmax(340px, 32rem);
     gap: clamp(1.25rem, 2.6vw, 2.5rem);
     /* Both columns top-align at the eyebrow / map-title line. The copy column
-       (headline -> on-ramp -> paper callout) sets the height; the map's tall
-       min-height (below) reaches down toward that same foot. */
+       (headline -> on-ramp -> paper callout) sets the row height; the map
+       stretches to that same foot (below), so the map window reaches down to
+       the bottom of the paper callout instead of leaving the column short. */
     align-items: start;
   }
   .hero-copy { max-width: none; }
+  /* Stretch the map column to the copy column's full height, and let the frame
+     grow to fill it so its bottom lands at the paper callout's foot. */
+  .hero-map { align-self: stretch; }
 }
 
 /* ---- hero map column ---- */
@@ -40,6 +44,7 @@
    so it always sits inside this window no matter how deep it is expanded. */
 .hero-map-frame {
   margin: 0;
+  flex: 1 1 auto;   /* grow to fill the stretched map column (reaches the paper callout's foot) */
   display: flex;
   flex-direction: column;
   border: 1px solid var(--border);
