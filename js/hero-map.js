@@ -28,7 +28,7 @@
   // ends with `autoFit && this.fit()`), so the visible tree always fits the window
   // no matter how deep it is expanded.
   opts.autoFit = true;
-  opts.maxInitialScale = 1.5;  // don't blow the small default tree up huge
+  opts.maxInitialScale = 1.9;  // headroom so the wider window enlarges the tree, not blows it up
 
   var mm = M.Markmap.create(svg, opts, result.root);
 
