@@ -199,7 +199,7 @@
           cor: [
             "These treat the authored world as a dose to be managed. They miss that the developmental windows are closing on whatever is arriving, not waiting for balance.",
             "A child who calibrates inside an engagement-optimized world does not come out with a balanced calibration. She comes out calibrated for the one she was in.",
-            "The spec names each window and what it requires. That gives a platform built for children something concrete to refuse and something concrete to deliver - not “less screen time,” a different kind of world."
+            "The spec names each window and what it requires. That gives a platform built for children something concrete to refuse and something concrete to deliver: a different kind of world, not “less screen time.”"
           ]
         },
         {
