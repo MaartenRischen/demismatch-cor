@@ -44,7 +44,7 @@
   var built = meta.generated_from_snapshot_built_at;
   var cap = document.querySelector(".mm-caption");
   if (cap) {
-    cap.innerHTML = "<b>Cor</b> &#9670; the map &mdash; generated from the live snapshot" +
+    cap.innerHTML = "<b>Cor</b> &#9670; the map - generated from the live snapshot" +
       (built ? ", built " + String(built).replace(/T.*/, "") : "") +
       ". Every node links into the spec.";
   }

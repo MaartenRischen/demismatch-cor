@@ -223,7 +223,7 @@
         // M12: a demoted, NON-ordinal extension - rendered as a separate block,
         // visibly not part of the slider ladder.
         body += "<div class='demoted-block'>" +
-          "<div class='demoted-head'><span class='demoted-flag'>Demoted</span> non-ordinal &mdash; not a gradient rung</div>" +
+          "<div class='demoted-head'><span class='demoted-flag'>Demoted</span> non-ordinal - not a gradient rung</div>" +
           "<p class='demoted-body'>" + esc(dash(pg.demoted)) + "</p>" +
         "</div>";
       }
