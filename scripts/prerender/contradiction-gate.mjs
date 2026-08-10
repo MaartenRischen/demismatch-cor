@@ -17,7 +17,9 @@
    Six detectors, each mapped to a class of defect that actually shipped in this
    corpus (see _audit/DB_AUDIT_FINDINGS.md):
 
-     D1  Held-out (challenge-layer) extraction used as ACTIVE evidence.
+     D1  Held-out (challenge-layer) extraction used as ACTIVE evidence, watching
+         BOTH challenge-carrying fields (source_type AND evidence_role); its
+         field-mismatch companion D1b (ext-617 shape) is soft.
      D2  Mechanism graded "forced" without a dedicated forcing convergence
          (post-migration regression guard - grade is never literally "forced"
          now, so this is permanently clean unless someone re-introduces it).
@@ -117,28 +119,51 @@ export async function runContradictionGate({ dist, snap, fetchImpl } = {}) {
   const add = (f) => findings.push({ severity: "warn", blocking: false, ...f });
 
   /* ===== D1: held-out (challenge) extraction in active evidence ============ */
+  /* 'Challenge' is carried by TWO fields: extractions.source_type='challenge'
+     (the held-out set) and the per-link evidence_role='challenging' on the
+     junctions. Task 136 (2026-07-19): a held-out row could enter through the
+     field the gate did not watch. D1 now watches BOTH:
+       hard  - held-out extraction linked with an active role anywhere;
+       hard  - one extraction linked to the SAME code as both 'challenging' and
+               active (internally contradictory whatever its source_type);
+       D1b warn - evidence_role='challenging' on a non-challenge source_type.
+               Warn, not hard: a primary-sourced contestation is legitimate
+               (ext 617, McKenna bedsharing) - the mismatch is ingestion hygiene
+               to reconcile, not by itself a contradiction. */
   {
+    const srcType = new Map(
+      (T.extractions || []).map((e) => [e.id, String(e.source_type || "").toLowerCase()])
+    );
     const challengeIds = new Set(
-      (T.extractions || [])
-        .filter((e) => String(e.source_type || "").toLowerCase() === "challenge")
-        .map((e) => e.id)
+      [...srcType].filter(([, t]) => t === "challenge").map(([id]) => id)
     );
     const ACTIVE = new Set(["primary", "supporting"]);
     const hits = [];
-    for (const r of T.mechanism_evidence || []) {
-      if (
-        challengeIds.has(r.extraction_id) &&
-        ACTIVE.has(String(r.evidence_role || "").toLowerCase())
-      ) {
-        hits.push(`mech_evidence: ${r.mechanism_code} <- ext ${r.extraction_id} as ${r.evidence_role}`);
+    const roleMismatch = [];
+    const rolesByLink = new Map(); // `${extraction_id}|${code}` -> Set(roles)
+    const scan = (rows, kind, codeField) => {
+      for (const r of rows || []) {
+        const role = String(r.evidence_role || "").toLowerCase();
+        const code = r[codeField];
+        if (challengeIds.has(r.extraction_id) && ACTIVE.has(role)) {
+          hits.push(`${kind}: ${code} <- ext ${r.extraction_id} as ${r.evidence_role}`);
+        }
+        if (role === "challenging" && srcType.get(r.extraction_id) !== "challenge") {
+          roleMismatch.push(
+            `${kind}: ${code} <- ext ${r.extraction_id} role=challenging, source_type='${srcType.get(r.extraction_id) || "?"}'`
+          );
+        }
+        const key = `${r.extraction_id}|${code}`;
+        if (!rolesByLink.has(key)) rolesByLink.set(key, new Set());
+        rolesByLink.get(key).add(role);
       }
-    }
-    for (const r of T.parameter_evidence || []) {
-      if (
-        challengeIds.has(r.extraction_id) &&
-        ACTIVE.has(String(r.evidence_role || "").toLowerCase())
-      ) {
-        hits.push(`param_evidence: ${r.parameter_code} <- ext ${r.extraction_id} as ${r.evidence_role}`);
+    };
+    scan(T.mechanism_evidence, "mech_evidence", "mechanism_code");
+    scan(T.parameter_evidence, "param_evidence", "parameter_code");
+    for (const [key, roles] of rolesByLink) {
+      if (roles.has("challenging") && (roles.has("primary") || roles.has("supporting"))) {
+        const [extId, code] = key.split("|");
+        hits.push(`${code} <- ext ${extId} linked as BOTH challenging and active`);
       }
     }
     add({
@@ -150,14 +175,20 @@ export async function runContradictionGate({ dist, snap, fetchImpl } = {}) {
       note:
         `held-out set = source_type='challenge' (${challengeIds.size} rows); ` +
         "active = evidence_role in {primary,supporting}. A challenge is counter-" +
-        "evidence and must never count as forward support. " +
-        // KNOWN GAP (close before the next ingestion batch): 'challenge' is also
-        // carried by evidence_role='challenging', not only source_type. This
-        // detector watches source_type; a challenging-role link on a NON-challenge
-        // source_type (e.g. ext 617, a primary-sourced contestation) is not caught.
-        // A held-out row could enter through the field the gate does not watch, so
-        // D1 should watch BOTH fields once the two are reconciled at ingestion.
-        "KNOWN GAP: does not yet watch evidence_role='challenging' on non-challenge source_type (see ext 617).",
+        "evidence and must never count as forward support. Also hard-fails one " +
+        "extraction linked to the same code as both challenging and active.",
+    });
+    add({
+      id: "D1b",
+      title: "evidence_role='challenging' on a non-challenge source_type",
+      count: roleMismatch.length,
+      hits: roleMismatch,
+      note:
+        "the two challenge-carrying fields disagree - reconcile at ingestion. " +
+        "Baseline 2026-08-10 = 10 rows (exts 196,197,200,461,508,509,617): " +
+        "primary/propagation-sourced contestations, defensible per-link judgments " +
+        "(ext 617 McKenna is the type case). Growth past baseline means a new " +
+        "unreconciled row entered at ingestion.",
     });
   }
 
@@ -334,7 +365,7 @@ export function blockingFailures(findings) {
 export function reportContradictions(findings) {
   const lines = [];
   lines.push("");
-  lines.push("=== CONTRADICTION GATE (D1/D2 hard-block; D3-D6 warn only) ===");
+  lines.push("=== CONTRADICTION GATE (D1/D2 hard-block; D1b/D3-D6 warn only) ===");
   let warned = 0;
   let failed = 0;
   for (const f of findings) {
