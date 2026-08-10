@@ -525,7 +525,7 @@
       {
         href: "constitutional.html",
         title: "Constitutional",
-        abstract: "The model stated for the systems that will design our environments - written to be read by an AI and by the people building one."
+        abstract: "The model, written for the systems that will design our environments and for the people building them."
       },
       {
         href: "programme.html",

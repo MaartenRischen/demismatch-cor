@@ -279,7 +279,7 @@
 
   frag.appendChild(layerBlock(
     "layer-frame", "01", "Frame",
-    "What an interface can be. Sets the ground the rest stands on.",
+    "What an interface can be. Everything else is built on this.",
     ofLayer("frame"), foundationNode, "deriv-frame"));
   frag.appendChild(forcingConnector());
 
@@ -297,7 +297,7 @@
 
   frag.appendChild(layerBlock(
     "layer-consequence", "04", "Consequence",
-    "What the properties imply at the level of load, markets, and intervention.",
+    "What those properties mean for allostatic load, for markets, and for what you can do about it.",
     ofLayer("consequence"), foundationNode, "deriv-consequence"));
   frag.appendChild(forcingConnector());
 
@@ -305,7 +305,7 @@
   var convs = byCodeNum((C.convergences() || []).filter(function (c) { return has(c.code); }));
   frag.appendChild(layerBlock(
     "layer-convergence", "05", "Convergences",
-    "Independent literatures arriving at the same shape. Each forces structure below.",
+    "Separate research traditions arriving at the same shape. Each one forces part of the structure underneath.",
     convs, convergenceNode));
   frag.appendChild(forcingConnector());
 
