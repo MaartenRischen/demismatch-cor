@@ -54,7 +54,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **EEA value** (illustrative, not constants):
 
-  - note: The ~1000+ lifetime figure is now FULL-TEXT-VERIFIED against its primary, Hill et al. 2014 PLoS ONE (added to Cor 2026-06-09): a forager 'social universe of about a thousand individuals'; lifetime pool of individually-known interactants 'clearly more than 1,000'. It remains a SINGLE-study, model-based estimate on two forager populations (Ache, Hadza) plus a cited San corroboration — illustrative, not a constant. The ~150 concurrent ceiling and nested 5/15/50/150 layers are separately full-text-grounded/replicated (SOC-01).
+  - note: The ~1000+ lifetime figure is now FULL-TEXT-VERIFIED against its primary, Hill et al. 2014 PLoS ONE (added to Cor 2026-06-09): a forager 'social universe of about a thousand individuals'; lifetime pool of individually-known interactants 'clearly more than 1,000'. It remains a SINGLE-study, model-based estimate on two forager populations (Ache, Hadza) plus a cited San corroboration - illustrative, not a constant. The ~150 concurrent ceiling and nested 5/15/50/150 layers are separately full-text-grounded/replicated (SOC-01).
   - active_network_layers: [5, 15, 50, 150]
   - concurrent_active_network_ceiling: 150
   - lifetime_distinct_known_individuals: ~1000+
@@ -707,7 +707,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **EEA value** (illustrative, not constants):
 
-  - note: Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure — total subsistence work-hours are contested (see gap and held_out).
+  - note: Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure - total subsistence work-hours are contested (see gap and held_out).
   - desk_worker_PAL: ~1.6
   - hunter_gatherer_PAL: 1.8-1.9
   - hadza_men_miles_per_day: 7-10

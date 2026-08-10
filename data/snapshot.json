@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-07-24T08:53:37.265129+00:00",
+    "built_at": "2026-08-10T04:25:07.892076+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 14,
     "domains": 23,
     "gaps": 16,
-    "works": 125,
-    "extractions": 610,
-    "researchers": 65,
-    "mechanism_evidence": 930,
+    "works": 141,
+    "extractions": 625,
+    "researchers": 79,
+    "mechanism_evidence": 953,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -3331,6 +3331,150 @@
         "work_type": "paper",
         "importance": "supporting",
         "primary_researcher_id": null
+      },
+      {
+        "id": 127,
+        "title": "Making Sense of Self-Esteem",
+        "authors": "Leary, Mark R.",
+        "year": 1999,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": 66
+      },
+      {
+        "id": 128,
+        "title": "Sociometer theory and the pursuit of relational value: Getting to the root of self-esteem",
+        "authors": "Leary, Mark R.",
+        "year": 2005,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": 66
+      },
+      {
+        "id": 129,
+        "title": "The evolution of prestige: freely conferred deference as a mechanism for enhancing the benefits of cultural transmission",
+        "authors": "Henrich, Joseph; Gil-White, Francisco J.",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 67
+      },
+      {
+        "id": 130,
+        "title": "Two Ways to the Top: Evidence That Dominance and Prestige Are Distinct Yet Viable Avenues to Social Rank and Influence",
+        "authors": "Cheng, Joey T.; Tracy, Jessica L.; Foulsham, Tom; Kingstone, Alan; Henrich, Joseph",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 68
+      },
+      {
+        "id": 131,
+        "title": "Why do men seek status? Fitness payoffs to dominance and prestige",
+        "authors": "von Rueden, Christopher; Gurven, Michael; Kaplan, Hillard",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": 69
+      },
+      {
+        "id": 126,
+        "title": "Self-Esteem as an Interpersonal Monitor: The Sociometer Hypothesis",
+        "authors": "Leary, Mark R.; Tambor, Ellen S.; Terdal, Sonja K.; Downs, Deborah L.",
+        "year": 1995,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 66
+      },
+      {
+        "id": 132,
+        "title": "Investigating evolutionary models of leadership among recently settled Ethiopian hunter-gatherers",
+        "authors": "Garfield, Zachary H.; Hagen, Edward H.",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": 70
+      },
+      {
+        "id": 133,
+        "title": "Adverse metabolic and cardiovascular consequences of circadian misalignment",
+        "authors": "Scheer FAJL, Hilton MF, Mantzoros CS, Shea SA",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 72
+      },
+      {
+        "id": 134,
+        "title": "Circadian misalignment increases cardiovascular disease risk factors in humans",
+        "authors": "Morris CJ, Purvis TE, Hu K, Scheer FAJL",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": 73
+      },
+      {
+        "id": 135,
+        "title": "Sensitivity of the human circadian pacemaker to nocturnal light: melatonin phase resetting and suppression",
+        "authors": "Zeitzer JM, Dijk DJ, Kronauer RE, Brown EN, Czeisler CA",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 74
+      },
+      {
+        "id": 136,
+        "title": "A phase response curve to single bright light pulses in human subjects",
+        "authors": "Khalsa SBS, Jewett ME, Cajochen C, Czeisler CA",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 75
+      },
+      {
+        "id": 137,
+        "title": "Shift work and vascular events: systematic review and meta-analysis",
+        "authors": "Vyas MV, Garg AX, Iansavichus AV, Costella J, Donner A, Laugsand LE, Janszky I, Mrkobrada M, Parraga G, Hackam DG",
+        "year": 2012,
+        "work_type": "meta_analysis",
+        "importance": "key",
+        "primary_researcher_id": 76
+      },
+      {
+        "id": 138,
+        "title": "Chronotypes in the US - Influence of age and sex",
+        "authors": "Fischer D, Lombardi DA, Marucci-Wellman H, Roenneberg T",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": 77
+      },
+      {
+        "id": 139,
+        "title": "Longitudinal evidence that fatherhood decreases testosterone in human males",
+        "authors": "Gettler LT, McDade TW, Feranil AB, Kuzawa CW",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 78
+      },
+      {
+        "id": 140,
+        "title": "Father's brain is sensitive to childcare experiences",
+        "authors": "Abraham E, Hendler T, Shapira-Lichter I, Kanat-Maymon Y, Zagoory-Sharon O, Feldman R",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": 79
+      },
+      {
+        "id": 141,
+        "title": "The Causal Effects of Father Absence",
+        "authors": "McLanahan S, Tach L, Schneider D",
+        "year": 2013,
+        "work_type": "review",
+        "importance": "key",
+        "primary_researcher_id": 80
       }
     ],
     "extractions": [
@@ -7269,6 +7413,21 @@
         "source_type": "primary"
       },
       {
+        "id": 629,
+        "work_id": 134,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1",
+          "DA3"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
         "id": 235,
         "work_id": 59,
         "mechanism_codes": [
@@ -9659,20 +9818,6 @@
         "source_type": "primary"
       },
       {
-        "id": 574,
-        "work_id": 98,
-        "mechanism_codes": [
-          "M1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA5",
-          "DA2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 330,
         "work_id": 13,
         "mechanism_codes": [
@@ -11277,6 +11422,191 @@
         ],
         "evidence_quality": "meta_analysis",
         "source_type": "primary"
+      },
+      {
+        "id": 620,
+        "work_id": 126,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "OF2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 621,
+        "work_id": 126,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA5",
+          "DA2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 622,
+        "work_id": 130,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA6"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 623,
+        "work_id": 131,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P1",
+          "P2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 624,
+        "work_id": 132,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA6"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 574,
+        "work_id": 98,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA5",
+          "DA2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 627,
+        "work_id": 133,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 628,
+        "work_id": 134,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 630,
+        "work_id": 135,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3",
+          "P2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 631,
+        "work_id": 136,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P2",
+          "P3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 632,
+        "work_id": 137,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "empirical"
+      },
+      {
+        "id": 633,
+        "work_id": 138,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 634,
+        "work_id": 139,
+        "mechanism_codes": [
+          "M9",
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "longitudinal",
+        "source_type": "empirical"
+      },
+      {
+        "id": 635,
+        "work_id": 140,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 636,
+        "work_id": 141,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "empirical"
       }
     ],
     "researchers": [
@@ -11734,6 +12064,104 @@
         "tier": "challenge",
         "spec_role": "Methodological challenge to the ~150 \"Dunbar number\" outer rung (M3/M11/M5): redo the neocortex-ratio-to-group-size regression with modern phylogenetic methods; CIs so wide no single number is supportable.",
         "institution": "Institute for Futures Studies / Stockholm University (Centre for Cultural Evolution)"
+      },
+      {
+        "id": 66,
+        "name": "Mark R. Leary",
+        "tier": "empirical",
+        "spec_role": "Sociometer theory: self-esteem as an internal gauge of relational value / social acceptance. Supplies the measurement axis of M5 Status Monitoring - how the organism reads its own standing. Distinct from the Baumeister & Leary need-to-belong pairing (M3).",
+        "institution": "Duke University (formerly Wake Forest University)"
+      },
+      {
+        "id": 67,
+        "name": "Henrich & Gil-White",
+        "tier": "foundational",
+        "spec_role": "Theoretical origin of the prestige/dominance dual model of human social rank: prestige as freely conferred deference for competence (an information-goods adaptation for cultural learning), distinct from dominance (rank via force/fear). The distinction M5's resolution condition names.",
+        "institution": "Joseph Henrich (Harvard); Francisco Gil-White"
+      },
+      {
+        "id": 68,
+        "name": "Joey T. Cheng",
+        "tier": "empirical",
+        "spec_role": "Experimental demonstration that dominance and prestige are statistically independent yet both viable routes to real social rank and influence in live face-to-face groups. Empirical anchor for the prestige/dominance axis of M5.",
+        "institution": "York University (work conducted at University of British Columbia)"
+      },
+      {
+        "id": 69,
+        "name": "Christopher von Rueden",
+        "tier": "empirical",
+        "spec_role": "Non-WEIRD cross-cultural evidence that dominance and prestige are distinct status routes with real fitness payoffs among Tsimane forager-horticulturalists. Cross-cultural anchor for M5's prestige/dominance distinction and its adaptive basis.",
+        "institution": "University of Richmond (fieldwork with the Tsimane Health and Life History Project, UCSB)"
+      },
+      {
+        "id": 70,
+        "name": "Garfield & Hagen",
+        "tier": "empirical",
+        "spec_role": "Field test of evolutionary leadership models among the Chabu (recently settled Ethiopian hunter-gatherers): prestige and dominance largely independent, both predict elected leadership, prestige more important; strong covariation of leadership traits and notable women leaders.",
+        "institution": "Zachary H. Garfield & Edward H. Hagen, Washington State University"
+      },
+      {
+        "id": 72,
+        "name": "Scheer (Frank A. J. L.)",
+        "tier": "empirical",
+        "spec_role": "M7 - controlled human circadian-misalignment protocols; causal cardiometabolic consequences of misalignment (forced desynchrony).",
+        "institution": "Brigham and Women's Hospital / Harvard Medical School"
+      },
+      {
+        "id": 73,
+        "name": "Morris (Christopher J.)",
+        "tier": "empirical",
+        "spec_role": "M7 - simulated night-shift misalignment; blood-pressure and inflammatory-marker consequences.",
+        "institution": "Brigham and Women's Hospital / Harvard Medical School"
+      },
+      {
+        "id": 74,
+        "name": "Zeitzer (Jamie M.)",
+        "tier": "empirical",
+        "spec_role": "M7 - dose-response sensitivity of the human circadian pacemaker to nocturnal light.",
+        "institution": "Stanford University (work conducted at Brigham and Women's Hospital)"
+      },
+      {
+        "id": 75,
+        "name": "Khalsa (Sat Bir S.)",
+        "tier": "empirical",
+        "spec_role": "M7 - definitive human phase-response curve to single bright-light pulses.",
+        "institution": "Harvard Medical School / Brigham and Women's Hospital"
+      },
+      {
+        "id": 76,
+        "name": "Vyas (Manav V.)",
+        "tier": "empirical",
+        "spec_role": "M7 - meta-analysis of shift work and vascular events.",
+        "institution": "Western University (Canada)"
+      },
+      {
+        "id": 77,
+        "name": "Fischer (Dorothee)",
+        "tier": "empirical",
+        "spec_role": "M7 - chronotype distribution at US population scale (MCTQ mid-sleep applied to the American Time Use Survey).",
+        "institution": "Harvard T.H. Chan School of Public Health / LMU Munich (Roenneberg lab)"
+      },
+      {
+        "id": 78,
+        "name": "Gettler",
+        "tier": "empirical",
+        "spec_role": "fatherhood-testosterone longitudinal evidence (Cebu cohort)",
+        "institution": "University of Notre Dame"
+      },
+      {
+        "id": 79,
+        "name": "Feldman (Ruth)",
+        "tier": "empirical",
+        "spec_role": "parental brain and biobehavioral synchrony; paternal-care neuroplasticity",
+        "institution": "Reichman University / Yale Child Study Center"
+      },
+      {
+        "id": 80,
+        "name": "McLanahan",
+        "tier": "empirical",
+        "spec_role": "father-absence causal-design synthesis (Fragile Families)",
+        "institution": "Princeton University"
       }
     ],
     "mechanism_evidence": [
@@ -17316,6 +17744,144 @@
         "mechanism_code": "M3",
         "extraction_id": 617,
         "evidence_role": "challenging"
+      },
+      {
+        "id": 943,
+        "mechanism_code": "M5",
+        "extraction_id": 620,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 944,
+        "mechanism_code": "M5",
+        "extraction_id": 621,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 945,
+        "mechanism_code": "M5",
+        "extraction_id": 622,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 946,
+        "mechanism_code": "M5",
+        "extraction_id": 623,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 947,
+        "mechanism_code": "M5",
+        "extraction_id": 624,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 952,
+        "mechanism_code": "M3",
+        "extraction_id": 618,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 953,
+        "mechanism_code": "M9",
+        "extraction_id": 618,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 954,
+        "mechanism_code": "R1",
+        "extraction_id": 618,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 955,
+        "mechanism_code": "M3",
+        "extraction_id": 619,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 956,
+        "mechanism_code": "M11",
+        "extraction_id": 619,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 957,
+        "mechanism_code": "M5",
+        "extraction_id": 619,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 958,
+        "mechanism_code": "M7",
+        "extraction_id": 627,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 959,
+        "mechanism_code": "M7",
+        "extraction_id": 628,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 960,
+        "mechanism_code": "M7",
+        "extraction_id": 629,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 961,
+        "mechanism_code": "M8",
+        "extraction_id": 629,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 962,
+        "mechanism_code": "M7",
+        "extraction_id": 630,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 963,
+        "mechanism_code": "M7",
+        "extraction_id": 631,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 964,
+        "mechanism_code": "M7",
+        "extraction_id": 632,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 965,
+        "mechanism_code": "M7",
+        "extraction_id": 633,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 966,
+        "mechanism_code": "M9",
+        "extraction_id": 634,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 967,
+        "mechanism_code": "M14",
+        "extraction_id": 634,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 968,
+        "mechanism_code": "M9",
+        "extraction_id": 635,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 969,
+        "mechanism_code": "M9",
+        "extraction_id": 636,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -21386,19 +21952,19 @@
     "evidence_counts_by_mechanism": {
       "M1": 114,
       "M2": 67,
-      "M3": 205,
+      "M3": 207,
       "M4": 55,
-      "M9": 64,
-      "M14": 58,
-      "M11": 82,
-      "M5": 88,
+      "M9": 68,
+      "M14": 59,
+      "M11": 83,
+      "M5": 94,
       "M13": 34,
       "M10": 29,
-      "M8": 37,
+      "M8": 38,
       "M12": 12,
       "M6": 38,
-      "M7": 26,
-      "R1": 21
+      "M7": 33,
+      "R1": 22
     },
     "eea_by_mechanism": {
       "M11": [
