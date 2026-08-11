@@ -82,18 +82,27 @@
     if (!body || !D) return;
     var rows = D.mechanismsOrdered() || [];
     if (!rows.length) {
-      body.innerHTML = '<tr><td colspan="4">Mechanism table unavailable in this snapshot.</td></tr>';
+      body.innerHTML = '<tr><td colspan="5">Mechanism table unavailable in this snapshot.</td></tr>';
       return;
     }
 
-    // Tier is an integer in the snapshot (1 forced / 2 strongly supported /
-    // 3 moderate). Present it with the paper's own wording; never fabricate a
-    // tier where the field is absent.
+    // TIER and GROUNDING are two axes and must not share a word. Tier is an
+    // evidence-strength grade (1 strongest / 2 strongly supported / 3 moderate).
+    // Grounding is an entailment status: only a mechanism that some convergence
+    // declares in forces_mechanism is FORCED; the rest are SUPPORTED by
+    // convergent evidence. Five of fifteen are forced today, and the paper's own
+    // prose says so - the table used to say "T1 forced" on all of them.
     var TIER_LABEL = {
-      1: "T1 forced",
+      1: "T1 strongest evidence",
       2: "T2 strongly supported",
       3: "T3 moderate"
     };
+    // Derived from the snapshot, never a hand-kept list.
+    var FORCED = {};
+    (D.convergences ? D.convergences() : []).forEach(function (c) {
+      var fm = c && c.forces_mechanism;
+      if (fm) FORCED[String(fm).trim()] = c.code;
+    });
     function tierInfo(m) {
       var t = m.tier;
       var n = (typeof t === "number") ? t : parseInt(t, 10);
@@ -111,10 +120,15 @@
       var convCell = convs.length
         ? convs.map(function (c) { return chip(c); }).join(" ")
         : '<span class="lr-tier-t3">not stated</span>';
+      var isForced = Object.prototype.hasOwnProperty.call(FORCED, code);
+      var groundCell = isForced
+        ? '<span class="lr-tier-t1">forced</span>'
+        : '<span class="lr-tier-t2">supported</span>';
       return "<tr>" +
         "<td>" + chip(code) + "</td>" +
         '<td class="lr-mech-name">' + name + "</td>" +
         '<td><span class="' + ti.cls + '">' + esc(ti.label) + "</span></td>" +
+        "<td>" + groundCell + "</td>" +
         "<td>" + convCell + "</td>" +
         "</tr>";
     }).join("");

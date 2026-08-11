@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-08-11T03:16:27.662522+00:00",
+    "built_at": "2026-08-11T07:17:48.561329+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -18377,37 +18377,6 @@
     ],
     "applications": [
       {
-        "id": 1,
-        "code": "A1",
-        "name": "AI Alignment",
-        "description": "Cor is the missing specification under AI alignment. Current alignment approaches treat human preferences as ground truth and train AI systems to satisfy them. But preferences are mechanism outputs - and under mismatch, mechanisms output preferences that point toward more mismatch (more variable-reward apps, more status comparison, more proxy satisfaction). Aligning AI to unverified preferences entrenches the mismatch rather than correcting it. Cor provides three things AI alignment needs: (1) a fourth evaluation axis - matched/mismatched - alongside helpful/harmless/honest; (2) constitutional knowledge of what a human organism IS before asking what it prefers; (3) a test applicable to every AI output: 'Is this creating conditions for real resolution of a mechanism, or is it activating the mechanism without resolving it?' The highest-risk patterns are AI companions (M3 proxy), status/engagement optimization (M5 proxy), and AI sexual/romantic content (M14 proxy) because the mechanisms hijacked are the deepest and most phylogenetically protected.",
-        "relevant_foundations": [
-          "P1",
-          "P2",
-          "P3",
-          "DA4",
-          "DC2"
-        ],
-        "relevant_mechanisms": [
-          "M3",
-          "M5",
-          "M14",
-          "M2"
-        ],
-        "evaluation_criteria": {
-          "primary_test": "For any AI-generated output or AI-mediated interaction, ask: does this create conditions for real resolution of the human mechanism being engaged, or does it activate the mechanism without providing the resolution conditions?",
-          "dunbar_slot_prohibition": "Does this AI interaction pattern risk taking a Dunbar slot (a social-bond slot in the user's ~150-person ceiling)? AI must never take a Dunbar slot.",
-          "proxy_gradient_placement": "For M14 specifically, locate the AI output on the proxy gradient (real partner → attenuated real → partial proxy → pure proxy soft → pure proxy hard). Outputs on the right side of the gradient carry higher mismatch risk by design.",
-          "resolution_check_per_mechanism": "For each mechanism an AI output engages, can the resolution conditions specified in v2_mechanisms.resolution_conditions actually be satisfied by interaction with this AI? If not, the AI is creating a proxy."
-        },
-        "example_outputs": [
-          "AI companion products fail the resolution-check for M3: the M3 resolution condition is reliable human co-regulation, which an AI cannot supply regardless of conversational quality. Recommendation: AI companions should route toward human connection, never replace it.",
-          "Feed-ranking systems that maximize engagement fail the DA4 open-loop test: engagement is wanting (M2) without liking resolution, by construction. Recommendation: rank by retrospective satisfaction, not prospective click-through.",
-          "AI-generated sexual content fails the M14 proxy-gradient test at the ZERO end: no pair bond, no reproductive consequence, maximum hijacking of the LUST circuit. Recommendation: age-gated is insufficient; the architectural risk is intrinsic to the modality."
-        ],
-        "created_at": "2026-04-04T19:19:39.879157+00:00"
-      },
-      {
         "id": 2,
         "code": "A2",
         "name": "Clinical Practice",
@@ -18469,6 +18438,37 @@
           "School start time policy: adolescent school start times before 8:30 AM systematically violate M7 during a developmental calibration window, producing measurable cognitive and emotional deficits. Evidence-based start times are ≥8:30 AM.",
           "Recess and play policy: ≥90 min/day of unstructured outdoor play for primary school children; play leaders as facilitators not supervisors; no academic substitution.",
           "Teacher stability and ratio: each child has stable access to ≥3 trusted adult educators across their primary years; adult-to-child ratios calibrated to attachment capacity rather than cost-minimization."
+        ],
+        "created_at": "2026-04-04T19:19:39.879157+00:00"
+      },
+      {
+        "id": 1,
+        "code": "A1",
+        "name": "AI Alignment",
+        "description": "Cor is the missing specification under AI alignment. Current alignment approaches treat human preferences as ground truth and train AI systems to satisfy them. But preferences are mechanism outputs - and under mismatch, mechanisms output preferences that point toward more mismatch (more variable-reward apps, more status comparison, more proxy satisfaction). Aligning AI to unverified preferences entrenches the mismatch rather than correcting it. Cor provides three things AI alignment needs: (1) a fourth evaluation axis - matched/mismatched - alongside helpful/harmless/honest; (2) constitutional knowledge of what a human organism needs before asking what it prefers; (3) a test applicable to every AI output: 'Is this creating conditions for real resolution of a mechanism, or is it activating the mechanism without resolving it?' The highest-risk patterns are AI companions (M3 proxy), status/engagement optimization (M5 proxy), and AI sexual/romantic content (M14 proxy) because the mechanisms hijacked are the deepest and most phylogenetically protected.",
+        "relevant_foundations": [
+          "P1",
+          "P2",
+          "P3",
+          "DA4",
+          "DC2"
+        ],
+        "relevant_mechanisms": [
+          "M3",
+          "M5",
+          "M14",
+          "M2"
+        ],
+        "evaluation_criteria": {
+          "primary_test": "For any AI-generated output or AI-mediated interaction, ask: does this create conditions for real resolution of the human mechanism being engaged, or does it activate the mechanism without providing the resolution conditions?",
+          "dunbar_slot_prohibition": "Does this AI interaction pattern risk taking a Dunbar slot (a social-bond slot in the user's ~150-person ceiling)? AI must never take a Dunbar slot.",
+          "proxy_gradient_placement": "For M14 specifically, locate the AI output on the proxy gradient (real partner → attenuated real → partial proxy → pure proxy soft → pure proxy hard). Outputs on the right side of the gradient carry higher mismatch risk by design.",
+          "resolution_check_per_mechanism": "For each mechanism an AI output engages, can the resolution conditions specified in v2_mechanisms.resolution_conditions actually be satisfied by interaction with this AI? If not, the AI is creating a proxy."
+        },
+        "example_outputs": [
+          "AI companion products fail the resolution-check for M3: the M3 resolution condition is reliable human co-regulation, which an AI cannot supply regardless of conversational quality. Recommendation: AI companions should route toward human connection, never replace it.",
+          "Feed-ranking systems that maximize engagement fail the DA4 open-loop test: engagement is wanting (M2) without liking resolution, by construction. Recommendation: rank by retrospective satisfaction, not prospective click-through.",
+          "AI-generated sexual content fails the M14 proxy-gradient test at the ZERO end: no pair bond, no reproductive consequence, maximum hijacking of the LUST circuit. Recommendation: age-gated is insufficient; the architectural risk is intrinsic to the modality."
         ],
         "created_at": "2026-04-04T19:19:39.879157+00:00"
       },

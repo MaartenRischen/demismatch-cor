@@ -4,7 +4,7 @@ This document is a complete printout of the Cor atlas: a framework for locating 
 
 ### The derivation stack
 
-The framework is built as a forced derivation in which each layer is constrained by the one beneath it.
+The framework is built as a layered derivation in which each layer is constrained by the one beneath it. Only a minority of mechanisms are strictly forced by a dedicated convergence; the rest are grounded in convergent evidence.
 
 - **Frames.** OF1 (Fitness Interface) holds that organismal access to the world is mediated by evolved fitness interfaces, not by guaranteed veridicality. OF2 (Signal-Default Epistemology) treats motivational-emotional outputs as prima facie informative about the organism's regulated conditions, by default. This is a diagnostic default, not a presumption of veridicality (OF1 still stands), and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects.
 - **Premises.** P1 (Inclusive Fitness) makes inclusive fitness - survival and reproduction - the loss function of selection, not of the organism's runtime computation. P2 (Domain-Sensitive Interacting Adaptations) specifies an organism of evolved, domain-sensitive, interacting functional adaptations rather than a general-purpose learner. P3 (Systematic Mismatch) holds that modern environments often push these adaptations outside their expected or regulatable operating ranges.
@@ -15,13 +15,13 @@ The framework is built as a forced derivation in which each layer is constrained
 
 Each mechanism carries an ordinal ladder from full resolution to pure proxy. The load-bearing claim of every gradient is this: **the cue is identical at every level; only the resolving function changes.** A proxy can fire the cue without supplying what actually resolves the system. Reading the ladder top to bottom, the detectable cue stays roughly constant (or, in the cases flagged Kind B, the real input is progressively withdrawn or the terminating signal progressively disabled) while the conditions that would terminate the program drop away. The floor levels are where the cue fires and nothing is supplied - the open-loop state where activation cannot resolve. Verdict tags ('resolution met', 'partly resolved', 'fires, no resolution') record this independently of the level's ordinal name. Evidence tags (EVIDENCED, ARCHITECTURE-DERIVED, SPECULATIVE, CONTESTABLE) record the warrant for each rung; they are reported verbatim where present.
 
-Each section also records the epistemic grade, tier, phylogenetic age, the forcing convergence and its named independent research streams with verbatim evidence-link counts, the cascade topology (which mechanisms a system suppresses, is suppressed by, and interacts with), and any sex-differentiated parameterization.
+Each section also records the epistemic grade, tier, phylogenetic age, the forcing or grounding convergences and their named independent research streams with verbatim evidence-link counts, the cascade topology (which mechanisms a system suppresses, is suppressed by, and interacts with), and any sex-differentiated parameterization.
 
 ---
 
 ## M1 - Threat Management
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~500 Myr (all vertebrates). **Evidence link count:** 115. **Forced by convergence:** C10 (Threat-Detection via Ancient Subcortical Circuits).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500 Myr (all vertebrates). **Evidence link count:** 115. **Forced by convergence:** C10 (Threat-Detection via Ancient Subcortical Circuits).
 
 The defensive system responding to threat cues. Includes an offensive mode (frustration-aggression) absorbed from the old M3 RAGE system. In the plainest terms: it detects danger and produces freeze, fight, or flee. **Resolution conditions:** safety established, threat eliminated or avoided.
 
@@ -51,7 +51,7 @@ None - a single shared implementation.
 
 ## M2 - Pursuit / Exploration
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 67. **Forced by convergence:** C6 (Wanting-Liking Dissociation as Proxy Hijack).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 67. **Forced by convergence:** C6 (Wanting-Liking Dissociation as Proxy Hijack).
 
 The general-purpose seeking system. In a scope change from v3, sexual motivation has been removed and now lives in M14; M2's resolution conditions narrow to engagement with real-world challenges producing tangible outcomes, goal progress, skill building, and resource acquisition. **Resolution conditions:** engagement with real challenges producing tangible outcomes.
 
@@ -83,7 +83,7 @@ None - a single shared implementation.
 
 ## M3 - Social Bonding
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~200 Myr (mammalian). **Evidence link count:** 192. **Forced by convergence:** C5 (Socially Scaffolded Regulation via Attachment).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr (mammalian). **Evidence link count:** 192. **Forced by convergence:** C5 (Socially Scaffolded Regulation via Attachment).
 
 The attachment and co-regulation system. Includes the grief mode absorbed from the old M9 GRIEF system. It runs in two states: security (enables broadly) and grief (suppresses broadly). It forms bonds with other humans and produces pain-grade distress when they are gone.
 
@@ -117,11 +117,11 @@ None - a single shared implementation.
 
 ## M4 - Social Calibration / Play
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~200 Myr (mammalian, absent in reptiles). **Evidence link count:** 55. **Forced by convergence:** C2, C4, and C12.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr (mammalian, absent in reptiles). **Evidence link count:** 55. **Grounded in:** C2, C4, and C12.
 
 The play system develops social skills; it is absent in threatened or ill animals. It learns social rules through rough-and-tumble play and requires real playmates. **Resolution conditions:** age-matched, self-directed, unsupervised play, physical.
 
-This mechanism is forced by three converging streams. C2 (Domain-Sensitive Organism Architecture) holds the organism contains evolved, domain-sensitive, interacting functional adaptations rather than a general-purpose learner, supported independently by Tooby & Cosmides' design-principle derivation, Panksepp's conserved subcortical affective-motivational systems, and Bowlby's attachment-as-primary-motivational-system framework. C4 (Phylogenetic Conservation of Subcortical Affective Systems) establishes that the core affective-motivational systems (SEEKING, FEAR, RAGE, CARE, PANIC/GRIEF, PLAY, LUST) are anatomically and functionally conserved across mammals and extend into birds for specific systems, established independently by Panksepp's deep-brain-stimulation and cross-species neuroscience, Bowlby's attachment cross-mammalian homology, and Hrdy's cross-primate parental/alloparental evidence. C12 (Developmental Calibration within Evolved Ranges) holds that specific systems calibrate during specific developmental windows to inputs within evolved parameters, with out-of-parameter inputs producing persistent miscalibration, established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence. Key researchers: Panksepp, Pellis & Pellis, Gray.
+Three converging streams ground this mechanism. C2 (Domain-Sensitive Organism Architecture) holds the organism contains evolved, domain-sensitive, interacting functional adaptations rather than a general-purpose learner, supported independently by Tooby & Cosmides' design-principle derivation, Panksepp's conserved subcortical affective-motivational systems, and Bowlby's attachment-as-primary-motivational-system framework. C4 (Phylogenetic Conservation of Subcortical Affective Systems) establishes that the core affective-motivational systems (SEEKING, FEAR, RAGE, CARE, PANIC/GRIEF, PLAY, LUST) are anatomically and functionally conserved across mammals and extend into birds for specific systems, established independently by Panksepp's deep-brain-stimulation and cross-species neuroscience, Bowlby's attachment cross-mammalian homology, and Hrdy's cross-primate parental/alloparental evidence. C12 (Developmental Calibration within Evolved Ranges) holds that specific systems calibrate during specific developmental windows to inputs within evolved parameters, with out-of-parameter inputs producing persistent miscalibration, established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence. Key researchers: Panksepp, Pellis & Pellis, Gray.
 
 ### Proxy gradient
 
@@ -149,7 +149,7 @@ None - a single shared implementation.
 
 ## M5 - Status Monitoring
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~50-100 Myr (primates and social mammals). **Evidence link count:** 88. **Forced by convergence:** C2, C7, C9, and C13.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~50-100 Myr (primates and social mammals). **Evidence link count:** 88. **Grounded in:** C2, C7, C9, and C13.
 
 Rank regulation: shame, pride, submission, defeat, rank vigilance. It is not optional and runs continuously, monitoring where one stands relative to others. **Resolution conditions:** an acceptable position in a ~150-person reference group, with earned prestige preferred over coerced dominance (the Henrich & Gil-White distinction, which needs explicit treatment).
 
@@ -181,7 +181,7 @@ None - a single shared implementation.
 
 ## M6 - Controllability / Agency
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~200 Myr. **Evidence link count:** 38. **Forced by convergence:** C8 and C13.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr. **Evidence link count:** 38. **Grounded in:** C8 and C13.
 
 The vmPFC-DRN controllability circuit. Critically, learned helplessness is the DEFAULT; agency is the override. This mechanism is central to breaking cascades. It tracks whether actions produce results; the default is passivity, and agency must be learned. **Resolution conditions:** genuine action-outcome feedback and decision latitude.
 
@@ -213,11 +213,11 @@ None - a single shared implementation.
 
 ## M7 - Circadian Regulation
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~3 Byr (cyanobacteria onward). **Evidence link count:** 20. **Forced by convergence:** C3, C9, and C12.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~3 Byr (cyanobacteria onward). **Evidence link count:** 20. **Grounded in:** C3, C9, and C12.
 
 The SCN master clock. It gates metabolism, immunity, cognition, and mood. The mismatch is usually one of timing or quality, not duration. It synchronizes every system to the light-dark cycle and is the master timing architecture. **Resolution conditions:** dark-cued sleep onset, bright daylight exposure, and a consistent rhythm.
 
-C3 (Systematic EEA-Modern Environment Mismatch) holds that modern post-agricultural, post-industrial environments push evolved adaptations outside their expected operating ranges in systematic and predictable ways, established independently by Eaton & Konner's discordance hypothesis, the Li/van Vugt/Colarelli mismatch-identification framework, Boyd & Richerson's gene-culture coevolution constraint (matched must include cultural scaffolding), and Henrich's WEIRD empirical diagnostic showing Western populations anchor the extreme end of the cross-cultural distribution. C9 (Allostatic Load Accumulation) and C12 (Developmental Calibration within Evolved Ranges) co-force, with their named streams as above. Key researchers: Walker, Roenneberg, Czeisler.
+C3 (Systematic EEA-Modern Environment Mismatch) holds that modern post-agricultural, post-industrial environments push evolved adaptations outside their expected operating ranges in systematic and predictable ways, established independently by Eaton & Konner's discordance hypothesis, the Li/van Vugt/Colarelli mismatch-identification framework, Boyd & Richerson's gene-culture coevolution constraint (matched must include cultural scaffolding), and Henrich's WEIRD empirical diagnostic showing Western populations anchor the extreme end of the cross-cultural distribution. C9 (Allostatic Load Accumulation) and C12 (Developmental Calibration within Evolved Ranges) co-ground it, with their named streams as above. Key researchers: Walker, Roenneberg, Czeisler.
 
 ### Proxy gradient
 
@@ -245,7 +245,7 @@ None - a single shared implementation.
 
 ## M8 - Immune Regulation
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~600 Myr (all multicellular). **Evidence link count:** 37. **Forced by convergence:** C3, C7, and C9.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~600 Myr (all multicellular). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
 
 The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to depression via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
 
@@ -277,11 +277,11 @@ None - a single shared implementation.
 
 ## M9 - Care / Alloparenting
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~200 Myr. **Evidence link count:** 64. **Forced by convergence:** C1, C4, C5, and C12.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr. **Evidence link count:** 64. **Grounded in:** C1, C4, C5, and C12.
 
 The parental and alloparental care system, running on oxytocin/prolactin circuits. The architecture expects distributed care - a village, not solo parenting. **Resolution conditions:** a distributed care network rather than solo or dyadic parenting. Traditional-society data typically show multiple non-parent caregivers (~4+); the critical resolving variable is the presence and continuity of real alloparental supply (care plus provisioning), NOT bare kinship.
 
-Four convergences force this mechanism. C1 (Inclusive Fitness as Loss Function), demonstrated independently by Darwinian selection theory, Hamilton's kin-selection formalism, and experimental altruistic-punishment findings. C4 (Phylogenetic Conservation of Subcortical Affective Systems), established by Panksepp, Bowlby, and Hrdy. C5 (Socially Scaffolded Regulation via Attachment), established by Coan, Bowlby, Hrdy, Dunbar, and Holt-Lunstad. C12 (Developmental Calibration within Evolved Ranges), established by Bowlby, McEwen, and Felitti. Key researchers: Hrdy, Panksepp, Kenkel.
+Four convergences ground this mechanism. C1 (Inclusive Fitness as Loss Function), demonstrated independently by Darwinian selection theory, Hamilton's kin-selection formalism, and experimental altruistic-punishment findings. C4 (Phylogenetic Conservation of Subcortical Affective Systems), established by Panksepp, Bowlby, and Hrdy. C5 (Socially Scaffolded Regulation via Attachment), established by Coan, Bowlby, Hrdy, Dunbar, and Holt-Lunstad. C12 (Developmental Calibration within Evolved Ranges), established by Bowlby, McEwen, and Felitti. Key researchers: Hrdy, Panksepp, Kenkel.
 
 ### Proxy gradient
 
@@ -312,7 +312,7 @@ None - a single shared implementation.
 
 ## M10 - Movement / Regulatory
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 29. **Forced by convergence:** C3 and C9.
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 29. **Grounded in:** C3 and C9.
 
 Physical activity functioning as a zeitgeber, anti-inflammatory, and mood regulator. Movement is not merely exercise: it activates repair mechanisms throughout the organism. **Resolution conditions:** movement that is part of daily life rather than set aside as 'exercise'. Hunter-gatherers typically moved 9-15 km a day as a side effect of how they lived.
 
@@ -346,7 +346,7 @@ None - a single shared implementation.
 
 **Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~2-5 Myr (humans and great apes). **Evidence link count:** 73. **Forced by convergence:** C11 (Reciprocity, Norm Enforcement, and Coalition Architecture).
 
-Reciprocity plus norm enforcement plus alliance dynamics. This mechanism absorbs the old M10 (Cooperation) and M11 (Coalitional). Its Tier 2 placement reflects epistemic honesty: no single convergence forces a dedicated mechanism, but four converging streams strongly support it. In plainest terms: reciprocal exchange, cheater detection, and coalitional identity.
+Reciprocity plus norm enforcement plus alliance dynamics. This mechanism absorbs the old M10 (Cooperation) and M11 (Coalitional). Its Tier 2 placement is a confidence grade, not an entailment status: convergence C11 forces this mechanism, and its four converging streams strongly support it without reaching the top confidence tier. In plainest terms: reciprocal exchange, cheater detection, and coalitional identity.
 
 **Resolution conditions:** a trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. There is no shared fiction at the direct-reciprocity layer.
 
@@ -378,7 +378,7 @@ None - a single shared implementation.
 
 ## M12 - Contamination Avoidance
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~300 Myr. **Evidence link count:** 12. **Forced by convergence:** C2 and C8.
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~300 Myr. **Evidence link count:** 12. **Grounded in:** C2 and C8.
 
 Three-domain disgust (pathogen, sexual, moral): the behavioral immune system. Pathogen avoidance extended to moral and social contamination. **Resolution conditions:** clean food, clean social environment, moral disgust contained. (Note: the 'moral disgust contained' clause is flagged CONTESTED.)
 
@@ -408,7 +408,7 @@ None - a single shared implementation.
 
 ## M13 - Energy Regulation
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 34. **Forced by convergence:** C3, C6, and C9.
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 34. **Grounded in:** C3, C6, and C9.
 
 Pontzer's constrained energy model: energy is redistributed, not simply burned. The mechanism comprises hunger, satiety, and constrained total energy expenditure. **Resolution conditions:** effortful, diverse, seasonal whole foods; metabolic variety.
 
@@ -440,7 +440,7 @@ None - a single shared implementation.
 
 ## M14 - Reproductive Motivation
 
-**Grade:** forced. **Tier:** 1. **Phylogenetic age:** ~500 Myr sexual, ~200 Myr pair bonding. **Evidence link count:** 58. **Forced by convergence:** C14 (Reproductive Motivation as Distinct Architecture).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500 Myr sexual, ~200 Myr pair bonding. **Evidence link count:** 58. **Forced by convergence:** C14 (Reproductive Motivation as Distinct Architecture).
 
 Fisher's three-system model, independent from M2 pursuit and running on the HPG axis, not just brain circuits. The three components - desire, attraction, and pair bonding - can work independently of one another, and this system shapes much more of human behavior than reproduction itself. **Resolution conditions:** sexual fulfillment within a pair bond, plus pair-bond stability, plus reproductive success.
 
@@ -470,7 +470,7 @@ This is a sex-differentiated implementation: the same system with two parameteri
 
 ## R1 - Touch
 
-**Grade:** moderate. **Tier:** 3. **Phylogenetic age:** ~200 Myr (mammalian). **Evidence link count:** 18. **Forced by convergence:** C4 and C5.
+**Grade:** moderate. **Tier:** 3. **Phylogenetic age:** ~200 Myr (mammalian). **Evidence link count:** 18. **Grounded in:** C4 and C5.
 
 R1 is NOT a motivational system. It is a regulatory input to M3, carried by C-tactile afferents - a regulatory channel, not a motivation. **Resolution conditions:** regular physical contact with trusted others.
 

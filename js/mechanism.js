@@ -321,14 +321,38 @@
     return "<section class='secondary' aria-label='Supporting detail'>" + mismatch + phyloBlock(m) + cascade + evidence + sexdiff + "</section>";
   }
 
+  // Which convergence, if any, FORCES this mechanism. Derived from the snapshot
+  // (convergences[].forces_mechanism), never a hand-kept list: exactly 5 of the
+  // 15 mechanisms are forced today and the roster moves with the DB. The other
+  // ten are grounded in convergent evidence, not entailed by it - the label has
+  // to say which, because the derivation page and both FAQs already do.
+  function forcingConvergenceFor(code) {
+    var rows = D.convergences ? D.convergences() : [];
+    for (var i = 0; i < rows.length; i++) {
+      var fm = rows[i] && rows[i].forces_mechanism;
+      if (fm && String(fm).trim() === code) return rows[i].code;
+    }
+    return null;
+  }
+  function convChip(cc) {
+    var c = D.convergenceByCode(cc);
+    return "<span class='conv'><span class='cc'>" + esc(cc) + "</span>" + (c && c.name ? " <span class='cn'>" + clean(c.name) + "</span>" : "") + "</span>";
+  }
   function forcedLine(m) {
     var codes = m.convergence_codes || [];
     if (!codes.length) return "";
-    var convs = codes.map(function (cc) {
-      var c = D.convergenceByCode(cc);
-      return "<span class='conv'><span class='cc'>" + esc(cc) + "</span>" + (c && c.name ? " <span class='cn'>" + clean(c.name) + "</span>" : "") + "</span>";
-    }).join(" ");
-    return "<div class='forced'><span class='lbl'>Forced by convergence</span> " + convs + "</div>";
+    var forcing = forcingConvergenceFor(m.code);
+    if (!forcing) {
+      return "<div class='forced'><span class='lbl'>Grounded in</span> " +
+        codes.map(convChip).join(" ") + "</div>";
+    }
+    var rest = codes.filter(function (cc) { return cc !== forcing; });
+    var out = "<div class='forced'><span class='lbl'>Forced by convergence</span> " + convChip(forcing) + "</div>";
+    if (rest.length) {
+      out += "<div class='forced forced--also'><span class='lbl'>Also grounded in</span> " +
+        rest.map(convChip).join(" ") + "</div>";
+    }
+    return out;
   }
 
   // ---- cross-reference chips ----------------------------------------------
@@ -389,10 +413,19 @@
   function contextDrawer(m) {
     var rows = "";
 
-    // Forcing convergence (from convergence_codes; chips degrade to plain text).
+    // Forcing convergence, or - for the ten mechanisms no convergence forces -
+    // the convergences that ground it. Same derived rule as forcedLine().
     var convCodes = m.convergence_codes || [];
-    rows += drawerRow("Forced by convergence",
-      convCodes.length ? xchips(convCodes) : "<span class='ctx-empty'>none recorded</span>");
+    var drawerForcing = forcingConvergenceFor(m.code);
+    if (!convCodes.length) {
+      rows += drawerRow("Grounded in", "<span class='ctx-empty'>none recorded</span>");
+    } else if (drawerForcing) {
+      rows += drawerRow("Forced by convergence", xchips([drawerForcing]));
+      var drawerRest = convCodes.filter(function (cc) { return cc !== drawerForcing; });
+      if (drawerRest.length) rows += drawerRow("Also grounded in", xchips(drawerRest));
+    } else {
+      rows += drawerRow("Grounded in", xchips(convCodes));
+    }
 
     // Evidence count - live only, never a fabricated number.
     var ev = D.evidenceCount(m.code);

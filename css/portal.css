@@ -352,6 +352,8 @@ button { font-family: inherit; cursor: pointer; color: inherit; background: none
 .forced .conv { display: inline-flex; align-items: baseline; gap: 7px; }
 .forced .conv .cc { font-family: var(--mono); font-size: .74rem; color: var(--teal); border: 1px solid rgba(45,107,107,.4); padding: 2px 7px; border-radius: 3px; }
 .forced .conv .cn { font-style: italic; color: var(--oxblood-ink); }
+/* second row on a forced mechanism ("also grounded in") - same row, no rule */
+.forced--also { margin-top: 12px; padding-top: 0; border-top: 0; }
 
 @keyframes fadein { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
 
