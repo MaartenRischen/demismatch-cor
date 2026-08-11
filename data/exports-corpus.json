@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-07-19T03:38:05.045032+00:00",
+    "source_built_at": "2026-08-11T03:16:27.662522+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -23,22 +23,22 @@
     }
   },
   "counts": {
-    "foundations": 17,
+    "foundations": 18,
     "mechanisms": 15,
-    "convergences": 14,
+    "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 125,
-    "extractions": 610,
-    "researchers": 65,
-    "mechanism_evidence": 930,
+    "works": 148,
+    "extractions": 635,
+    "researchers": 81,
+    "mechanism_evidence": 959,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
     "eea_parameters": 32,
     "parameter_mechanism": 60,
     "parameter_evidence": 153,
-    "foundation_convergences": 14,
+    "foundation_convergences": 15,
     "challenges": 8
   },
   "thesis": "Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
@@ -64,7 +64,7 @@
         "code": "P1",
         "layer": "premise",
         "name": "Inclusive Fitness",
-        "statement": "Inclusive fitness - survival and reproduction - is the loss function.",
+        "statement": "Inclusive fitness - survival and reproduction - is the loss function of selection, not of the organism's runtime computation.",
         "derivation": "Darwin, Hamilton (kin selection, inclusive fitness).",
         "epistemic_grade": "forced"
       },
@@ -154,6 +154,14 @@
         "name": "Non-Substitutability of Mechanism Resolution",
         "statement": "Mechanism resolution conditions are not fully interchangeable. Improvement in one mechanism can buffer or modulate consequences in another, especially where mechanisms are recurrently coupled (DA3), but cross-system buffering does not generally replace the specific resolution conditions of an impaired mechanism. Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states.",
         "derivation": "Follows from P2 (domain-sensitive interacting adaptations: if mechanisms are domain-sensitive, their resolution conditions are not freely interchangeable). Coupling and cross-system buffering effects are handled separately by DA3 (Recurrent Coupling and Cascading); DA9 specifically claims non-fungibility of resolution conditions, not absence of cross-system effects. Liebig 1840 Law of the Minimum is a historical heuristic for the bottleneck pattern, not a claim of strict biochemical non-substitutability.",
+        "epistemic_grade": "strongly_supported"
+      },
+      {
+        "code": "DA10",
+        "layer": "property",
+        "name": "Heritable Parameter Variation",
+        "statement": "Architecture parameters (drive gains, thresholds, calibration setpoints) vary between individuals within heritable ranges.",
+        "derivation": "Complements DA7: DA7 says the environment tunes the operating point, developmentally and ongoing; DA10 says the tunable ranges themselves differ per person, substantially heritably. Grounded by C15 triangulation across three independent method families: twin designs (Polderman et al. 2015 meta-analysis of fifty years of twin studies), adoption/family designs (Plomin program), and molecular SNP-heritability from unrelated individuals (Yang et al. 2010 GCTA line). Canonical framing: Turkheimer 2000 three laws of behavior genetics.",
         "epistemic_grade": "strongly_supported"
       },
       {
@@ -352,6 +360,19 @@
           "Fehr & Gächter experimental economics of moralistic outrage"
         ],
         "epistemic_grade": "forced"
+      },
+      {
+        "code": "C15",
+        "name": "Heritable Individual Variation in Behavioral Traits",
+        "statement": "Individual differences in human behavioral and psychological traits are substantially heritable in every adequately measured domain, established independently by twin designs (Polderman et al. 2015 meta-analysis of fifty years of twin studies: 17,804 traits from 2,748 publications, average reported heritability 49%), adoption and family designs (the Plomin program: significant genetic influence on all psychological traits with corroborating adoption evidence), and molecular SNP-heritability estimated from unrelated individuals (the Yang et al. 2010 GCTA line), with Turkheimer's three laws of behavior genetics as the canonical framing. Heritability is a population statistic under a given environment distribution, not individual determinism.",
+        "forces_mechanism": null,
+        "independent_literatures": [
+          "Polderman twin-study meta-analysis (behavior genetics)",
+          "Plomin adoption and family designs (behavior genetics)",
+          "Yang GCTA molecular SNP-heritability (statistical genetics)",
+          "Turkheimer three laws (framing)"
+        ],
+        "epistemic_grade": "forced"
       }
     ]
   },
@@ -534,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 67,
+        "link_count": 69,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -630,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 205,
+        "link_count": 207,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -826,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 88,
+        "link_count": 94,
         "researchers": [
           "Gilbert",
           "Price",
@@ -1030,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 26,
+        "link_count": 33,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1132,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 37,
+        "link_count": 38,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1243,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 64,
+        "link_count": 68,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1446,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 82,
+        "link_count": 83,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1614,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 34,
+        "link_count": 35,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1723,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 58,
+        "link_count": 62,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1818,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 21,
+        "link_count": 22,
         "researchers": [
           "McGlone",
           "Field"
@@ -2082,7 +2103,7 @@
         "name": "Lifetime known-individual ceiling (~1,000)",
         "eea_baseline": "Across a foraging lifetime an individual accumulated a bounded pool of personally known others - people met face-to-face, named, placed in a kin/alliance/reputation map, and remembered. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), an order of magnitude above the ~150 actively-maintained network the social brain tracks concurrently. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). Crucially it was finite, slowly-growing, and fully reputation-indexed: nearly everyone one would ever encounter was either already known or one or two reciprocal links away, and almost no one was a true anonymous stranger. The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.",
         "eea_value": {
-          "note": "The ~1000+ lifetime figure is now FULL-TEXT-VERIFIED against its primary, Hill et al. 2014 PLoS ONE (added to Cor 2026-06-09): a forager 'social universe of about a thousand individuals'; lifetime pool of individually-known interactants 'clearly more than 1,000'. It remains a SINGLE-study, model-based estimate on two forager populations (Ache, Hadza) plus a cited San corroboration — illustrative, not a constant. The ~150 concurrent ceiling and nested 5/15/50/150 layers are separately full-text-grounded/replicated (SOC-01).",
+          "note": "The ~1000+ lifetime figure is now FULL-TEXT-VERIFIED against its primary, Hill et al. 2014 PLoS ONE (added to Cor 2026-06-09): a forager 'social universe of about a thousand individuals'; lifetime pool of individually-known interactants 'clearly more than 1,000'. It remains a SINGLE-study, model-based estimate on two forager populations (Ache, Hadza) plus a cited San corroboration - illustrative, not a constant. The ~150 concurrent ceiling and nested 5/15/50/150 layers are separately full-text-grounded/replicated (SOC-01).",
           "active_network_layers": [
             5,
             15,
@@ -3634,7 +3655,7 @@
         "name": "Acquisition effort (calories are physically worked for)",
         "eea_baseline": "Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, men walk roughly 7-10 miles/day and women ~5 miles/day plus several hours of digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.",
         "eea_value": {
-          "note": "Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure — total subsistence work-hours are contested (see gap and held_out).",
+          "note": "Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure - total subsistence work-hours are contested (see gap and held_out).",
           "desk_worker_PAL": "~1.6",
           "hunter_gatherer_PAL": "1.8-1.9",
           "hadza_men_miles_per_day": "7-10",

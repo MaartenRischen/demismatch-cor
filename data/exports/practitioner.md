@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-08-10 04:25 UTC, from the live Cor atlas snapshot built 2026-08-10 04:25 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-08-11 03:18 UTC, from the live Cor atlas snapshot built 2026-08-11 03:16 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 141 works, 625 extractions, 79 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 148 works, 635 extractions, 81 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -21,8 +21,8 @@ There are well-defined exceptions where the signal stops being a reliable readou
 The framework is built in layers, each forced by the one beneath it:
 
 - **Frame:** We never get unmediated access to reality. We get evolved interfaces that were selected to keep our ancestors alive and reproducing, not to tell us the truth. And the default reading of a motivational or emotional output is that it is information about conditions, not noise to suppress.
-- **Premise:** The loss function evolution optimized is inclusive fitness - survival and reproduction. The organism is not a general-purpose learner; it is a bundle of specialized, interacting systems. Modern environments routinely push those systems outside the ranges they expect.
-- **Properties:** From this it follows that many painful outputs are intelligible defensive signals, that human regulation is built to run on other people, that systems are coupled and can drag each other down, that proxy cues can switch a system on without ever switching it off, that defensive systems are biased toward false alarms, and that fixing one system does not generically fix another.
+- **Premise:** The loss function evolution optimized is inclusive fitness - survival and reproduction. That is selection's loss function, not something the organism computes at runtime. The organism is not a general-purpose learner; it is a bundle of specialized, interacting systems. Modern environments routinely push those systems outside the ranges they expect.
+- **Properties:** From this it follows that many painful outputs are intelligible defensive signals, that human regulation is built to run on other people, that systems are coupled and can drag each other down, that proxy cues can switch a system on without ever switching it off, that defensive systems are biased toward false alarms, that fixing one system does not generically fix another, and that the tuning of these systems - gains, thresholds, setpoints - varies from person to person within substantially heritable ranges. That last point is a population statistic, not a verdict on any client: it changes where mismatch bites first, not whether changing inputs works.
 - **Consequences:** Chronic unresolved activation accumulates as bodily wear (allostatic load). Markets learn to sell proxies for unmet needs. And because cortical override is metabolically expensive and degrades under chronic load, changing the actual inputs is usually more durable than asking the client to think their way out. The environment is a primary intervention layer - and it is the one most institutions underweight.
 
 This last point is the clinical heart of the document. Where indicated, individual cognitive, pharmacological, and psychotherapeutic work belongs in the plan. But the default leverage is in changing inputs, not in patching the person.
@@ -1077,4 +1077,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-10 04:25 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-08-10 04:25 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-11 03:16 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-08-11 03:18 UTC.*

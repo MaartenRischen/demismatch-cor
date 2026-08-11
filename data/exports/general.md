@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-08-10 04:25 UTC, from the live Cor atlas snapshot built 2026-08-10 04:25 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-08-11 03:18 UTC, from the live Cor atlas snapshot built 2026-08-11 03:16 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 17 foundations, 14 convergences, 141 works, 625 extractions, 79 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 148 works, 635 extractions, 81 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -22,7 +22,7 @@ This framework is built in layers, each one forced by the layer beneath it:
 
 - **Frame:** We never see the world directly. We see it through evolved interfaces built to keep us alive, not to show us the unvarnished truth. And the feelings these interfaces produce are treated, by default, as meaningful information.
 - **Premise:** Evolution's only scorecard is inclusive fitness - surviving and reproducing. To serve that, the organism contains many specialized, interacting subsystems. Modern environments routinely push them out of range.
-- **Properties:** From this it follows that many painful feelings are intelligent defensive signals, not defects; that humans regulate themselves through their social bonds; that trouble in one system spreads to others; that systems can be switched on by fake cues without being switched off; that they tend to over-react when the cost of missing a real danger was high; and that they compete, take priority over one another, and get calibrated by early experience.
+- **Properties:** From this it follows that many painful feelings are intelligent defensive signals, not defects; that humans regulate themselves through their social bonds; that trouble in one system spreads to others; that systems can be switched on by fake cues without being switched off; that they tend to over-react when the cost of missing a real danger was high; that they compete, take priority over one another, and get calibrated by early experience; and that how loudly each system runs differs from person to person, partly by inheritance - which changes where trouble shows up first, not whether the environment matters.
 - **Consequences:** Unresolved activation builds up as wear and tear on the body. Markets learn to sell fake fixes. And because forcing yourself to override these systems with willpower is exhausting and unreliable, changing your actual environment is usually the more durable fix.
 
 ### How to read a proxy gradient
@@ -625,4 +625,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Modern human suffering is accurate biological signaling in a mismatched environment, not disorder in the individual. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-10 04:25 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-08-10 04:25 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-11 03:16 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-08-11 03:18 UTC.*
