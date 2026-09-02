@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-08-11 09:34 UTC, from the live Cor atlas snapshot built 2026-08-11 07:17 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-09-02 02:02 UTC, from the live Cor atlas snapshot built 2026-09-02 02:01 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 148 works, 635 extractions, 81 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -336,7 +336,7 @@ Note: the bottom two rungs both have zero relational function - they're only spl
 
 ### What goes wrong now
 
-Modern life is touch-starved. How much this matters shows up powerfully in kangaroo care, where skin-to-skin contact is linked to a 40% reduction in mortality for premature infants. This system is around 200 million years old (mammalian).
+Modern life is touch-starved. How much this matters shows up powerfully in kangaroo care, where skin-to-skin contact cut neonatal mortality by about half for low-birth-weight babies in pooled randomised trials. This system is around 200 million years old (mammalian).
 
 ## The Gap - what your body expects vs what it gets
 
@@ -357,4 +357,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-11 07:17 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-08-11 09:34 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-09-02 02:01 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-09-02 02:02 UTC.*

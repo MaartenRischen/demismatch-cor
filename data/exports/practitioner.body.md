@@ -557,7 +557,7 @@ Note this gradient is not strictly monotonic: MINIMAL and ZERO both have zero re
 
 ### Mismatch prediction
 
-Touch-starved modern environments. The most striking evidence here is the kangaroo-care finding: roughly a 40% reduction in mortality in premature infants given skin contact - a vivid illustration that physical touch is a load-bearing regulatory input, not a luxury.
+Touch-starved modern environments. The most striking evidence here is the kangaroo-care finding: a 51% reduction in neonatal mortality for infants under 2000 g given skin contact, in pooled randomised trials - a vivid illustration that physical touch is a load-bearing regulatory input, not a luxury.
 
 ### What changing the inputs means
 

@@ -478,7 +478,7 @@ Note: the bottom two rungs both carry zero relational function and are separated
 
 ### What goes wrong in modern life
 
-We live in touch-starved environments. One striking piece of evidence: kangaroo care - skin-to-skin contact - is associated with a 40% reduction in mortality in premature infants.
+We live in touch-starved environments. One striking piece of evidence: kangaroo care - skin-to-skin contact - is linked to a 51% reduction in neonatal mortality for low-birth-weight babies in pooled randomised trials.
 
 ### How well-evidenced
 

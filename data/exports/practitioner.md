@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-08-11 09:34 UTC, from the live Cor atlas snapshot built 2026-08-11 07:17 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-09-02 02:02 UTC, from the live Cor atlas snapshot built 2026-09-02 02:01 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 148 works, 635 extractions, 81 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -567,7 +567,7 @@ Note this gradient is not strictly monotonic: MINIMAL and ZERO both have zero re
 
 ### Mismatch prediction
 
-Touch-starved modern environments. The most striking evidence here is the kangaroo-care finding: roughly a 40% reduction in mortality in premature infants given skin contact - a vivid illustration that physical touch is a load-bearing regulatory input, not a luxury.
+Touch-starved modern environments. The most striking evidence here is the kangaroo-care finding: a 51% reduction in neonatal mortality for infants under 2000 g given skin contact, in pooled randomised trials - a vivid illustration that physical touch is a load-bearing regulatory input, not a luxury.
 
 ### What changing the inputs means
 
@@ -1077,4 +1077,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-11 07:17 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-08-11 09:34 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-09-02 02:01 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-09-02 02:02 UTC.*

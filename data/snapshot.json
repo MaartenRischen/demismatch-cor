@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-08-11T07:17:48.561329+00:00",
+    "built_at": "2026-09-02T02:01:54.580484+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 148,
-    "extractions": 635,
-    "researchers": 81,
-    "mechanism_evidence": 959,
+    "works": 159,
+    "extractions": 659,
+    "researchers": 84,
+    "mechanism_evidence": 997,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -21,7 +21,7 @@
     "parameter_mechanism": 60,
     "parameter_evidence": 153,
     "foundation_convergences": 15,
-    "challenges": 8
+    "challenges": 10
   },
   "tables": {
     "foundations": [
@@ -202,17 +202,6 @@
         "created_at": "2026-04-08T14:00:24.018102+00:00"
       },
       {
-        "id": 19,
-        "code": "DC3",
-        "layer": "consequence",
-        "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (RCT-grade for depression remission); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
-        "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "DC3 is a leverage claim and a systemic-design claim, not a head-to-head comparative-efficacy claim. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support and remain valid tools. The CBT-as-proxy question - whether what is measured as cognitive intervention efficacy is partly driven by hidden environmental scaffolding such as therapeutic alliance, weekly attention, and structured agency-enabling tasks - is an open question Cor does not currently take a position on, but if true it would strengthen the underlying claim about leverage. DC3 was revised after Codex adversarial review (April 8, 2026) flagged the original reliably outperforms across measured domains as an unsupported comparative-efficacy claim, and the original follows from DA8 + DA9 framing as smuggling an empirical corollary into a derivation slot.",
-        "created_at": "2026-04-08T14:02:55.382263+00:00"
-      },
-      {
         "id": 21,
         "code": "DA10",
         "layer": "property",
@@ -222,6 +211,17 @@
         "epistemic_grade": "strongly_supported",
         "scope_notes": "Heritability is a population statistic under a given environment distribution, not individual determinism: it describes variance partitioning within that distribution and says nothing about what a changed environment does to the population mean. DA10 therefore does not weaken P3 - mismatch shifts the whole distribution regardless of where an individual sits in it. Nor does it license trait fatalism, which would contradict DC1 reversibility. The underlying heritability findings are among the most replicated in the field (Turkheimer first law); the mapping from measured trait heritability to architecture parameters (gains, thresholds, setpoints) is Cor's architectural interpretation, and that interpretive step is why the grade is strongly_supported rather than the top confidence tier.",
         "created_at": "2026-08-10T05:43:24.317829+00:00"
+      },
+      {
+        "id": 19,
+        "code": "DC3",
+        "layer": "consequence",
+        "name": "Environment as Primary Intervention Layer",
+        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "epistemic_grade": "plausible_synthesis",
+        "scope_notes": "DC3 is a leverage claim and a systemic-design claim, not a head-to-head comparative-efficacy claim. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support and remain valid tools. The CBT-as-proxy question - whether what is measured as cognitive intervention efficacy is partly driven by hidden environmental scaffolding such as therapeutic alliance, weekly attention, and structured agency-enabling tasks - is an open question Cor does not currently take a position on, but if true it would strengthen the underlying claim about leverage. DC3 was revised after Codex adversarial review (April 8, 2026) flagged the original reliably outperforms across measured domains as an unsupported comparative-efficacy claim, and the original follows from DA8 + DA9 framing as smuggling an empirical corollary into a derivation slot.",
+        "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
     "mechanisms": [
@@ -2601,15 +2601,6 @@
         "primary_researcher_id": 13
       },
       {
-        "id": 43,
-        "title": "Maternal-preterm skin-to-skin contact enhances child physiologic organization and cognitive control across the first 10 years of life.",
-        "authors": "Feldman R, Rosenthal Z, Eidelman AI.",
-        "year": 2014,
-        "work_type": "paper",
-        "importance": "key",
-        "primary_researcher_id": null
-      },
-      {
         "id": 45,
         "title": "Screens, Teens, and Psychological Well-Being: Evidence From Three Time-Use-Diary Studies.",
         "authors": "Orben A, Przybylski AK",
@@ -2707,6 +2698,15 @@
         "work_type": "paper",
         "importance": "key",
         "primary_researcher_id": 24
+      },
+      {
+        "id": 43,
+        "title": "Maternal-preterm skin-to-skin contact enhances child physiologic organization and cognitive control across the first 10 years of life.",
+        "authors": "Feldman R, Rosenthal Z, Eidelman AI.",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": null
       },
       {
         "id": 15,
@@ -3231,51 +3231,6 @@
         "primary_researcher_id": null
       },
       {
-        "id": 107,
-        "title": "How Abnormal Is the Behaviour of Captive, Zoo-Living Chimpanzees?",
-        "authors": "Birkett LP, Newton-Fisher NE",
-        "year": 2011,
-        "work_type": "paper",
-        "importance": "supporting",
-        "primary_researcher_id": null
-      },
-      {
-        "id": 108,
-        "title": "Cognitive Recovery in Socially Deprived Young Children: The Bucharest Early Intervention Project",
-        "authors": "Nelson CA, Zeanah CH, Fox NA, Marshall PJ, Smyke AT, Guthrie D",
-        "year": 2007,
-        "work_type": "paper",
-        "importance": "supporting",
-        "primary_researcher_id": null
-      },
-      {
-        "id": 109,
-        "title": "The Roseto effect: a 50-year comparison of mortality rates",
-        "authors": "Egolf B, Lasker J, Wolf S, Potvin L",
-        "year": 1992,
-        "work_type": "paper",
-        "importance": "supporting",
-        "primary_researcher_id": null
-      },
-      {
-        "id": 110,
-        "title": "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)",
-        "authors": "Jacka FN, O'Neil A, Opie R, et al.",
-        "year": 2017,
-        "work_type": "paper",
-        "importance": "key",
-        "primary_researcher_id": 40
-      },
-      {
-        "id": 111,
-        "title": "Exercise as a treatment for depression: A meta-analysis adjusting for publication bias",
-        "authors": "Schuch FB, Vancampfort D, Richards J, Rosenbaum S, Ward PB, Stubbs B",
-        "year": 2016,
-        "work_type": "meta_analysis",
-        "importance": "key",
-        "primary_researcher_id": null
-      },
-      {
         "id": 112,
         "title": "The Depression Cure: The 6-Step Program to Beat Depression without Drugs",
         "authors": "Ilardi SS",
@@ -3327,6 +3282,42 @@
         "year": 2018,
         "work_type": "paper",
         "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 108,
+        "title": "Cognitive Recovery in Socially Deprived Young Children: The Bucharest Early Intervention Project",
+        "authors": "Nelson CA, Zeanah CH, Fox NA, Marshall PJ, Smyke AT, Guthrie D",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 109,
+        "title": "The Roseto effect: a 50-year comparison of mortality rates",
+        "authors": "Egolf B, Lasker J, Wolf S, Potvin L",
+        "year": 1992,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 110,
+        "title": "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)",
+        "authors": "Jacka FN, O'Neil A, Opie R, et al.",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 40
+      },
+      {
+        "id": 111,
+        "title": "Exercise as a treatment for depression: A meta-analysis adjusting for publication bias",
+        "authors": "Schuch FB, Vancampfort D, Richards J, Rosenbaum S, Ward PB, Stubbs B",
+        "year": 2016,
+        "work_type": "meta_analysis",
+        "importance": "key",
         "primary_researcher_id": null
       },
       {
@@ -3615,6 +3606,114 @@
         "year": 2005,
         "work_type": "paper",
         "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 149,
+        "title": "Coronary atherosclerosis in indigenous South American Tsimane: a cross-sectional cohort study",
+        "authors": "Kaplan H, Thompson RC, Trumble BC, Wann LS, Allam AH, Beheim B, Frohlich B, Sutherland ML, Sutherland JD, Stieglitz J, Rodriguez DE, Michalik DE, Rowan CJ, Lombardi GP, Bedi R, Garcia AR, Min JK, Narula J, Finch CE, Gurven M, Thomas GS",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 84
+      },
+      {
+        "id": 150,
+        "title": "Does blood pressure inevitably rise with age? Longitudinal evidence among forager-horticulturalists",
+        "authors": "Gurven M, Blackwell AD, Rodriguez DE, Stieglitz J, Kaplan H",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 83
+      },
+      {
+        "id": 151,
+        "title": "Depression as sickness behavior? A test of the host defense hypothesis in a high pathogen population",
+        "authors": "Stieglitz J, Trumble BC, Thompson ME, Blackwell AD, Kaplan H, Gurven M",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": 85
+      },
+      {
+        "id": 153,
+        "title": "Depression as a disease of modernity: explanations for increasing prevalence",
+        "authors": "Hidaka BH",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 154,
+        "title": "Assessing subclinical psychopathological and personality traits in a small-scale subsistence society",
+        "authors": "Scaff C, Van Den Driessche C, Bani Cuata A, Vie Tayo A, Jaeggi AV",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 152,
+        "title": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers",
+        "authors": "Stieglitz J, Schniter E, von Rueden C, Kaplan H, Gurven M",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": 85
+      },
+      {
+        "id": 155,
+        "title": "Dietary transitions and health outcomes in four populations: systematic review",
+        "authors": "Pressler M, Devinsky J, Duster M, Lee JH, Glick CS, Wiener S, Laze J, Friedman D, Roberts T, Devinsky O",
+        "year": 2022,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 107,
+        "title": "How Abnormal Is the Behaviour of Captive, Zoo-Living Chimpanzees?",
+        "authors": "Birkett LP, Newton-Fisher NE",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 156,
+        "title": "Foster care leads to sustained cognitive gains following severe early deprivation",
+        "authors": "Nelson CA, Zeanah CH, Fox NA, Humphreys KL, Guyon-Harris KL, et al.",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 157,
+        "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials",
+        "authors": "Noetel M, Sanders T, Gallardo-Gomez D, Taylor P, del Pozo Cruz B, et al.",
+        "year": 2024,
+        "work_type": "meta_analysis",
+        "importance": "key",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 158,
+        "title": "Out-patient triple chronotherapy for the rapid treatment and maintenance of response in depression: feasibility and pilot randomised controlled trial",
+        "authors": "Veale D, Serfaty M, Humpston C, Papageorgiou A, Markham S, et al.",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 159,
+        "title": "Kangaroo mother care to prevent neonatal deaths due to preterm birth complications",
+        "authors": "Lawn JE, Mwansa-Kambafwile J, Horta BL, Barros FC, Cousens S",
+        "year": 2010,
+        "work_type": "meta_analysis",
+        "importance": "key",
         "primary_researcher_id": null
       }
     ],
@@ -11851,6 +11950,324 @@
         ],
         "evidence_quality": "clinical",
         "source_type": "propagation"
+      },
+      {
+        "id": 647,
+        "work_id": 149,
+        "mechanism_codes": [
+          "M13",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 648,
+        "work_id": 149,
+        "mechanism_codes": [
+          "M13",
+          "M8"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 649,
+        "work_id": 150,
+        "mechanism_codes": [
+          "M13",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 650,
+        "work_id": 150,
+        "mechanism_codes": [
+          "M13",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 651,
+        "work_id": 151,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge"
+      },
+      {
+        "id": 652,
+        "work_id": 151,
+        "mechanism_codes": [
+          "M8",
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 653,
+        "work_id": 152,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge"
+      },
+      {
+        "id": 654,
+        "work_id": 152,
+        "mechanism_codes": [
+          "M3",
+          "M5",
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 655,
+        "work_id": 153,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation"
+      },
+      {
+        "id": 656,
+        "work_id": 153,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation"
+      },
+      {
+        "id": 657,
+        "work_id": 154,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 658,
+        "work_id": 155,
+        "mechanism_codes": [
+          "M13",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation"
+      },
+      {
+        "id": 659,
+        "work_id": 90,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 660,
+        "work_id": 90,
+        "mechanism_codes": [
+          "M3",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 661,
+        "work_id": 107,
+        "mechanism_codes": [
+          "M1",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 664,
+        "work_id": 156,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 662,
+        "work_id": 107,
+        "mechanism_codes": [
+          "M1",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 663,
+        "work_id": 156,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2",
+          "DA1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 665,
+        "work_id": 110,
+        "mechanism_codes": [
+          "M13",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 666,
+        "work_id": 110,
+        "mechanism_codes": [
+          "M13",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 667,
+        "work_id": 157,
+        "mechanism_codes": [
+          "M10",
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary"
+      },
+      {
+        "id": 668,
+        "work_id": 157,
+        "mechanism_codes": [
+          "M10"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary"
+      },
+      {
+        "id": 669,
+        "work_id": 158,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 670,
+        "work_id": 159,
+        "mechanism_codes": [
+          "R1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary"
       }
     ],
     "researchers": [
@@ -12420,6 +12837,27 @@
         "tier": "empirical",
         "spec_role": "DA10, C15 (framing: three laws of behavior genetics)",
         "institution": "University of Virginia"
+      },
+      {
+        "id": 83,
+        "name": "Gurven (Michael)",
+        "tier": "empirical",
+        "spec_role": "Co-director of the Tsimane Health and Life History Project. Principal source of longitudinal health and ageing data on a forager-horticulturalist population: blood pressure trajectories, inflammatory load, coronary calcium, and depressive symptoms. The main empirical anchor for Cor's falsifier-1 test of whether EEA-matched populations show industrial rates of chronic disease.",
+        "institution": "University of California, Santa Barbara (Integrative Anthropological Sciences Unit)"
+      },
+      {
+        "id": 84,
+        "name": "Kaplan (Hillard)",
+        "tier": "empirical",
+        "spec_role": "Co-director of the Tsimane Health and Life History Project and lead author of the coronary artery calcium study that established the lowest reported level of coronary atherosclerosis of any population measured. Primary source for the cardiometabolic half of Cor's falsifier-1 test.",
+        "institution": "Chapman University (Economic Science Institute); previously University of New Mexico"
+      },
+      {
+        "id": 85,
+        "name": "Stieglitz (Jonathan)",
+        "tier": "empirical",
+        "spec_role": "Field researcher on depression in a small-scale subsistence society. Built the Tsimane depression interview and tested the host-defense (sickness-behaviour) account of depression in a high-pathogen population. Supplies the evidence that complicates a naive reading of Cor's falsifier 1 and that supports DA1 and M8 on defensive signalling.",
+        "institution": "Institute for Advanced Study in Toulouse, Universite Toulouse Capitole"
       }
     ],
     "mechanism_evidence": [
@@ -18176,57 +18614,243 @@
         "mechanism_code": "M14",
         "extraction_id": 646,
         "evidence_role": "supporting"
+      },
+      {
+        "id": 976,
+        "mechanism_code": "M13",
+        "extraction_id": 647,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 977,
+        "mechanism_code": "M10",
+        "extraction_id": 647,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 978,
+        "mechanism_code": "M13",
+        "extraction_id": 648,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 979,
+        "mechanism_code": "M8",
+        "extraction_id": 648,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 980,
+        "mechanism_code": "M13",
+        "extraction_id": 649,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 981,
+        "mechanism_code": "M10",
+        "extraction_id": 649,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 982,
+        "mechanism_code": "M13",
+        "extraction_id": 650,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 983,
+        "mechanism_code": "M10",
+        "extraction_id": 650,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 984,
+        "mechanism_code": "M8",
+        "extraction_id": 652,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 985,
+        "mechanism_code": "M13",
+        "extraction_id": 652,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 986,
+        "mechanism_code": "M3",
+        "extraction_id": 654,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 987,
+        "mechanism_code": "M5",
+        "extraction_id": 654,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 988,
+        "mechanism_code": "M13",
+        "extraction_id": 654,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 989,
+        "mechanism_code": "M13",
+        "extraction_id": 658,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 990,
+        "mechanism_code": "M10",
+        "extraction_id": 658,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 991,
+        "mechanism_code": "M5",
+        "extraction_id": 659,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 992,
+        "mechanism_code": "M3",
+        "extraction_id": 660,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 993,
+        "mechanism_code": "M5",
+        "extraction_id": 660,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 994,
+        "mechanism_code": "M1",
+        "extraction_id": 661,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 995,
+        "mechanism_code": "M4",
+        "extraction_id": 661,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 996,
+        "mechanism_code": "M1",
+        "extraction_id": 662,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 997,
+        "mechanism_code": "M4",
+        "extraction_id": 662,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 998,
+        "mechanism_code": "M3",
+        "extraction_id": 663,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 999,
+        "mechanism_code": "M9",
+        "extraction_id": 663,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1000,
+        "mechanism_code": "M3",
+        "extraction_id": 664,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1001,
+        "mechanism_code": "M9",
+        "extraction_id": 664,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1002,
+        "mechanism_code": "M13",
+        "extraction_id": 665,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1003,
+        "mechanism_code": "M8",
+        "extraction_id": 665,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1004,
+        "mechanism_code": "M13",
+        "extraction_id": 666,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1005,
+        "mechanism_code": "M8",
+        "extraction_id": 666,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1006,
+        "mechanism_code": "M10",
+        "extraction_id": 667,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1007,
+        "mechanism_code": "M7",
+        "extraction_id": 667,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1008,
+        "mechanism_code": "M8",
+        "extraction_id": 667,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1009,
+        "mechanism_code": "M10",
+        "extraction_id": 668,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1010,
+        "mechanism_code": "M7",
+        "extraction_id": 669,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1011,
+        "mechanism_code": "M8",
+        "extraction_id": 669,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1012,
+        "mechanism_code": "R1",
+        "extraction_id": 670,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1013,
+        "mechanism_code": "M3",
+        "extraction_id": 670,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
       {
-        "id": 2,
-        "code": "ED2",
-        "name": "Captive vs Wild Chimpanzee Abnormality",
-        "what_it_demonstrates": "Aversive behavioral outputs in captive primates are a function of environmental mismatch rather than defective design: every one of the 40 captive chimpanzees studied showed at least one abnormal behavior, while no comparable abnormal repertoire has been reported in wild chimpanzees. Strongest non-human demonstration of defensive signals under mismatch (DA1).",
-        "narrative": "Birkett & Newton-Fisher (2011) systematically surveyed abnormal behaviors (stereotypies, coprophagy, self-mutilation, rocking, etc.) in captive chimpanzees across accredited zoos and sanctuaries. They found these behaviors present in every one of the 40 individuals studied. No comparable abnormal repertoire has been reported in wild chimpanzee observation. The implication: the chimpanzee phenotype includes a suite of 'abnormal' behaviors only when the environment falls outside the species' expected range. The hardware works; environment is wrong.",
-        "source_work_id": 107,
-        "grounds_foundations": [
-          "DA1",
-          "P3"
-        ],
-        "grounds_mechanisms": [
-          "M1",
-          "M4"
-        ],
-        "effect_size": "All 40 captive chimps studied showed at least one abnormal behavior; none reported in wild chimps (Birkett & Newton-Fisher 2011 PLoS ONE).",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "rates_prevalence",
-        "primary_metric_display": "All 40 captive chimps abnormal; none reported in wild",
-        "primary_metric_value": 1.0
-      },
-      {
-        "id": 6,
-        "code": "ED6",
-        "name": "SMILES Trial: Diet and Depression",
-        "what_it_demonstrates": "A Mediterranean-style dietary intervention produces clinically meaningful remission from moderate-to-severe depression at ~4× the rate of social-support control over 12 weeks, supporting the causal role of M13 (energy regulation / diet quality) and M8 (inflammation) in depression onset/maintenance rather than treating diet as a correlate.",
-        "narrative": "Jacka et al. 2017 (BMC Medicine) conducted the SMILES randomized controlled trial, comparing a Mediterranean-style dietary intervention to a befriending/social-support control in adults with moderate-to-severe major depressive disorder. At 12 weeks, 32% of the dietary intervention group met remission criteria vs 8% of the control group. NNT ≈ 4. The effect is unusually large for a dietary intervention in a psychiatric population and has subsequently been partially replicated (HELFIMED and follow-up trials). SMILES grounds a causal rather than merely correlational reading of diet-depression links and supports the M13/M8/DA3 cascade.",
-        "source_work_id": 110,
-        "grounds_foundations": [
-          "DA1",
-          "DA3"
-        ],
-        "grounds_mechanisms": [
-          "M13",
-          "M8"
-        ],
-        "effect_size": "32% vs 8% remission at 12 weeks (NNT ≈ 4); Jacka et al. 2017 BMC Medicine.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "clinical_remission",
-        "primary_metric_display": "32% vs 8% remission at 12 weeks (NNT≈4)",
-        "primary_metric_value": 0.32
-      },
-      {
         "id": 4,
         "code": "ED4",
         "name": "Roseto Effect",
-        "what_it_demonstrates": "Intense social cohesion can override standard cardiovascular risk factors to produce dramatically lower heart disease mortality - and the effect erodes within a generation once cohesion breaks down, confirming the causal role of the social input rather than any genetic or dietary confounder.",
-        "narrative": "Roseto, Pennsylvania was a small Italian-American immigrant community with unusually strong intergenerational family structures, tight social cohesion, and community rituals through the 1950s-60s. Stewart Wolf and colleagues documented roughly half the heart disease mortality of surrounding communities despite comparable standard risk factors (diet, smoking, occupational exposures). As the younger generation assimilated into mainstream American individualism across the 1970s-80s, the social cohesion eroded and the mortality advantage disappeared on schedule. The Roseto effect is a natural experiment for DA2/DC1: strong social scaffolding can suppress the cardiovascular consequences of allostatic load, and its removal reveals the baseline.",
+        "what_it_demonstrates": "Roseto is the candidate case for intense social cohesion suppressing cardiovascular mortality, with the reported advantage over the neighbouring town eroding within a generation as the cohesion broke down. Cor carries it as a hypothesis-generating natural experiment and carries no effect size for it: the source paper is held as page scans with no open-access full text, the design is observational and single-town, and the effect is contested.",
+        "narrative": "Roseto, Pennsylvania was a small Italian-American immigrant community with unusually strong intergenerational family structures, tight social cohesion and shared community ritual through the 1950s and 1960s. Stewart Wolf and colleagues reported lower myocardial-infarction mortality there than in the neighbouring town of Bangor despite comparable standard risk factors, and reported that the advantage eroded as the younger generation assimilated. Egolf, Lasker, Wolf and Potvin extended the comparison across 1935 to 1985 to test whether the earlier finding was a small-town fluctuation. Cor carries Roseto as a suggestive natural experiment for the causal role of social scaffolding and carries no number for it: the 1992 paper has no open-access full text, so its mortality figures cannot be quoted verbatim under the extraction standard. The design is observational and single-town, the cohesion measures are retrospective, and the effect is contested in the epidemiological literature. Read this row as a hypothesis-generating case, not as an effect size.",
         "source_work_id": 109,
         "grounds_foundations": [
           "DA2",
@@ -18237,18 +18861,146 @@
           "M3",
           "M5"
         ],
-        "effect_size": "Roughly 50% lower heart disease mortality vs comparable communities during the cohesion period; effect disappeared within one generation of cohesion erosion.",
+        "effect_size": "No verbatim-sourced effect size. The 1992 American Journal of Public Health paper (PMID 1636828, PMC1695733) exists in PMC only as page scans with no open-access full text, so no mortality figure is carried. Observational, single-town natural experiment; the effect is contested.",
         "created_at": "2026-04-04T19:19:39.533572+00:00",
         "metric_family": "mortality",
-        "primary_metric_display": "~50% lower heart disease mortality during cohesion era",
-        "primary_metric_value": 0.5
+        "primary_metric_display": "No open-access effect size; observational, single town",
+        "primary_metric_value": null
+      },
+      {
+        "id": 2,
+        "code": "ED2",
+        "name": "Captive vs Wild Chimpanzee Abnormality",
+        "what_it_demonstrates": "Aversive behavioural outputs in captive primates track environmental mismatch rather than defective design. Every one of the 40 zoo-living chimpanzees studied showed abnormal behaviour, and every one showed at least two distinct types, despite living in social groups in enriched enclosures. The authors' own qualifier travels with the finding: 17 of the 37 catalogued behaviours have been reported to occur rarely in wild chimpanzees, so the claim is that abnormal behaviour is endemic in captivity; it is not a claim that such behaviour is unknown in the wild.",
+        "narrative": "Birkett and Newton-Fisher (2011, PLoS ONE) recorded abnormal behaviours through direct focal sampling of 40 adult and adolescent chimpanzees at six accredited zoological institutions, choosing individuals housed in social groups in enriched enclosures because that is the context in which abnormal behaviour should be least likely. Abnormal behaviour was present in every sampled individual and in all six groups, and every individual showed at least two different types. Frequency and duration varied widely and were not explained by sex, age, rearing history or prior housing. A typical individual carried about five abnormal behaviours and spent four to five percent of its activity on them; some exceeded 60 percent. The authors compare this with 1023 hours of focal sampling of wild chimpanzees in Uganda, in which none of the listed behaviours appeared, while noting that 17 of their 37 catalogued behaviours have been reported to occur rarely in the wild and that coprophagy, the most prevalent captive abnormality, is documented in at least six wild populations. Their conclusion is that most captive chimpanzee behaviour is normal in the sense of being seen in wild counterparts, and that abnormal behaviour is endemic in captivity. The hardware works; the environment is wrong.",
+        "source_work_id": 107,
+        "grounds_foundations": [
+          "DA1",
+          "P3"
+        ],
+        "grounds_mechanisms": [
+          "M1",
+          "M4"
+        ],
+        "effect_size": "Abnormal behaviour present in all 40 sampled individuals across six accredited zoological institutions, with every individual showing at least two different types. In 1023 hours of focal sampling of wild chimpanzees in Uganda none of the listed abnormal behaviours were observed, though 17 of the 37 catalogued behaviours have been reported to occur rarely in wild chimpanzees. Single observational study, described by its authors as preliminary.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "rates_prevalence",
+        "primary_metric_display": "Abnormal behaviour in all 40 captive chimpanzees sampled",
+        "primary_metric_value": 1
+      },
+      {
+        "id": 6,
+        "code": "ED6",
+        "name": "SMILES Trial: Diet and Depression",
+        "what_it_demonstrates": "A Mediterranean-style dietary intervention produced remission from moderate-to-severe depression in 32.3% of the dietary arm against 8.0% of a social-support control over 12 weeks, supporting a causal reading of M13 (energy regulation and diet quality) and M8 (inflammation) in depression onset and maintenance rather than treating diet as a correlate. One small unblinded trial, so the direction is better established than the magnitude.",
+        "narrative": "Jacka et al. 2017 (BMC Medicine) ran the SMILES randomised controlled trial, comparing a Mediterranean-style dietary intervention against a befriending social-support control in adults with moderate-to-severe major depressive disorder. Of 166 assessed for eligibility, 67 were randomised, 33 to diet and 34 to social support. At 12 weeks, 32.3% of the dietary arm and 8.0% of the control arm met remission criteria of a MADRS score below 10, giving a number needed to treat of 4.1 with a wide confidence interval of 2.3 to 27.8. The effect is unusually large for a dietary intervention in a psychiatric population, and the trial's own limitations section is the right counterweight: participants could not be blinded, completion differed sharply between arms (94% against 73.5%), the planned sample size was not reached, and the authors say this may have inflated the observed effect. SMILES supports a causal rather than merely correlational reading of the diet and depression link, and it does so as one small unblinded trial. Cor carries no replication claim for it.",
+        "source_work_id": 110,
+        "grounds_foundations": [
+          "DA1",
+          "DA3"
+        ],
+        "grounds_mechanisms": [
+          "M13",
+          "M8"
+        ],
+        "effect_size": "At 12 weeks, 32.3% (n=10) of the dietary support group and 8.0% (n=2) of the social support control group reached remission on the MADRS, chi-square(1)=4.84, p=0.028, from 67 adults randomised. Number needed to treat 4.1, 95% CI 2.3 to 27.8. Between-group Cohen's d on the continuous MADRS was 1.16.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "clinical_remission",
+        "primary_metric_display": "32.3% vs 8.0% remission at 12 weeks (NNT 4.1, 95% CI 2.3 to 27.8)",
+        "primary_metric_value": 0.323
+      },
+      {
+        "id": 7,
+        "code": "ED7",
+        "name": "Exercise as Depression Treatment",
+        "what_it_demonstrates": "Exercise is an effective treatment for major depression in its own right rather than a general-health adjunct, with modality-specific effect sizes that are moderate rather than large and certainty that is low. This supports M10 (movement) as a mechanism in the depression cascade while keeping the strength of the claim inside what the evidence carries.",
+        "narrative": "Noetel et al. 2024 (BMJ) pooled 218 randomised trials of exercise for major depressive disorder, 495 arms and 14170 participants, in a Bayesian network meta-analysis that compared exercise modalities against each other and against psychotherapy, antidepressants and control conditions. Measured against active controls such as usual care or a placebo tablet, walking or jogging, yoga and strength training all produced moderate reductions in depression, with effects proportional to the intensity prescribed and with yoga and strength training the best tolerated. The authors conclude these forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments. The certainty has to travel with the number: only one of the 218 studies met the Cochrane criteria for low risk of bias, so graded confidence was low for walking or jogging and very low for the rest, and the authors call for trials that blind participants and staff. Cor reads this as real support for M10 at a moderate effect size with low certainty, and drops the earlier claim of non-inferiority to SSRIs, which was not sourced. The Schuch 2016 meta-analysis (work 111) is paywalled and no open-access copy was reachable, so it carries no extraction.",
+        "source_work_id": 157,
+        "grounds_foundations": [
+          "DA1"
+        ],
+        "grounds_mechanisms": [
+          "M10",
+          "M7",
+          "M8"
+        ],
+        "effect_size": "Network meta-analysis of 218 randomised trials, 495 arms and 14170 participants. Against active controls, Hedges' g was -0.62 for walking or jogging (95% credible interval -0.80 to -0.45), -0.55 for yoga, -0.49 for strength training, -0.43 for mixed aerobic exercise and -0.42 for tai chi or qigong, with effects proportional to prescribed intensity. Only one included study met Cochrane low-risk-of-bias criteria, so CINeMA confidence was low for walking or jogging and very low for every other modality. The earlier 'Cohen's d ~0.8' and the head-to-head non-inferiority claim have been removed.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "standardized_effect",
+        "primary_metric_display": "Hedges' g -0.62 for walking or jogging vs active control (low certainty)",
+        "primary_metric_value": 0.62
+      },
+      {
+        "id": 8,
+        "code": "ED8",
+        "name": "Chronotherapy in Depression",
+        "what_it_demonstrates": "Directly re-timing the circadian and sleep system produces a rapid antidepressant response that is still present six months later, which makes M7 a cascade entry point rather than a downstream symptom. The size of the response is modest and comes from a single pilot trial, so this row demonstrates that the entry point exists and does not establish how large the effect is.",
+        "narrative": "Triple chronotherapy combines one bout of total sleep deprivation, a staged advance of sleep timing over the following days, and daily morning bright light, so that the timing architecture is reset directly instead of being approached through mood. Veale et al. 2021 (BJPsych Open) randomised 82 out-patients with depression, single blind, to the protocol or to a control of psychoeducation and written information. Response, defined as at least a 50% reduction in symptoms, reached 33.3% in the chronotherapy arm against 16.2% in controls after one week, and held at 35.9% against 13.9% at 26 weeks, with a between-group effect size of 0.8 rising to 1.30. Adherence was high and no adverse effects were reported. Two limits govern how far this goes: the trial was powered for feasibility rather than efficacy, and the comparator was psychoeducation, so nothing here compares chronotherapy with medication. Cor previously sourced this row to the Wirz-Justice and Benedetti clinician's manual (work 113), a book with no DOI, and carried response figures that could not be traced; the row now rests on the one open-access randomised trial reachable in full text.",
+        "source_work_id": 158,
+        "grounds_foundations": [
+          "DA1",
+          "DA3"
+        ],
+        "grounds_mechanisms": [
+          "M7",
+          "M8"
+        ],
+        "effect_size": "In a single-blind pilot randomised trial of 82 out-patients with depression, a response of at least 50% symptom reduction was achieved by 33.3% of the triple chronotherapy group against 16.2% of controls at week 1, and by 35.9% against 13.9% at week 26. Between-group Cohen's d on the HRSD-6 was 0.8 at week 1 and 1.30 at week 26. The trial's stated primary outcome was feasibility, and the comparator was psychoeducation rather than medication. The earlier '60%+ within a week' and '~30% for pharmacotherapy alone' figures were not traceable to a source and have been removed.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "clinical_remission",
+        "primary_metric_display": "33.3% vs 16.2% response at 1 week (pilot RCT, n=82)",
+        "primary_metric_value": 0.333
+      },
+      {
+        "id": 1,
+        "code": "ED1",
+        "name": "Forest Troop Culture Change",
+        "what_it_demonstrates": "Hierarchy type (not the mere existence of hierarchy) determines pathology, and a troop's social culture is transmissible and reversible within a single generation without genetic turnover.",
+        "narrative": "Sapolsky and Share's long-studied olive baboon troop in Kenya lost its most aggressive adult males to a bovine tuberculosis outbreak that began in 1983, after those males monopolised a tourist-lodge garbage dump and ate tubercular meat. All refuse-eating Forest Troop males died, 46% of the adult males, and no other Forest Troop animals did. The deaths more than doubled the female-to-male ratio, to roughly 2:1, and left a disproportionately unaggressive, affiliative set of survivors. By 1993 no adult male remained from the 1983-1986 period, yet the troop's social style persisted: males groomed more, sat in close proximity more, and directed less aggression at females and at males far below them in rank. Overall aggression rates matched the control troops; the distribution is what had shifted. Subordinate males lacked the stress physiology that subordination normally carries, showing neither elevated basal glucocorticoids nor a response to a pharmacological anxiety challenge that reliably affected low-ranking males in the control troop. Resident females, who treated new transfer males affiliatively and unconditionally, appear to carry the transmission. This is a natural experiment on one troop rather than a randomised intervention, and its force comes from the matched control troops rather than from randomisation.",
+        "source_work_id": 90,
+        "grounds_foundations": [
+          "DA1",
+          "DA6",
+          "DC1"
+        ],
+        "grounds_mechanisms": [
+          "M5",
+          "M1"
+        ],
+        "effect_size": "Subordinate Forest Troop 1993-96 males did not show the elevated basal glucocorticoid levels that low-ranking males show in the control troops, and a beta-carboline anxiety challenge raised anxiety-related behaviours in low-ranking control-troop males while leaving low-ranking Forest Troop males unaffected. Forest Troop males also groomed more often and were in close proximity to other animals more often than control-troop males. Overall rates of aggressive interaction did not differ between troops; what changed was the distribution, towards closely ranked dyads and away from females. The paper reports no percentage change for cortisol and none for grooming, so the earlier '30-40% cortisol reduction' and 'grooming roughly doubled' figures have been removed.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "biomarker_change",
+        "primary_metric_display": "Rank-linked stress physiology absent in Forest Troop subordinates",
+        "primary_metric_value": null
+      },
+      {
+        "id": 3,
+        "code": "ED3",
+        "name": "Bucharest Early Intervention Project",
+        "what_it_demonstrates": "Early developmental calibration (DA7) depends on the presence of specific social input; institutional care without an alloparental network produces durable brain, attachment, and cognitive deficits that are partially reversible by foster placement but persistently worse than never-institutionalized outcomes.",
+        "narrative": "The Bucharest Early Intervention Project (Zeanah, Nelson, Fox and colleagues) randomised institutionalised Romanian children to continued institutional care or to high-quality foster care, and compared both against never-institutionalised community children. The primary metric here is taken from the open-access 2022 PNAS follow-up, which assessed 135 participants in early adulthood at a mean age of 18.74 years: those randomised to foster care scored 9 IQ points higher, 0.6 SD, than those randomised to care as usual, sixteen years after the assignment and long after many participants in both arms had left their original placement. Mediation analyses attribute the effect to the caregiving relationship rather than to placement itself. The gap to the community comparison group remained large: any history of institutional care carried an average deficit of 26.21 full-scale IQ points, with the same direction on every subscale. Early developmental calibration depends on a specific social input, that input is partially restorable, and the restoration is incomplete. The original Science 2007 report (work 108) has no open-access full text and so carries no extraction.",
+        "source_work_id": 156,
+        "grounds_foundations": [
+          "DA7",
+          "DA2",
+          "DA1"
+        ],
+        "grounds_mechanisms": [
+          "M3",
+          "M9"
+        ],
+        "effect_size": "At age 18, sixteen years after randomisation, children randomised to high-quality foster care scored 9 IQ points higher than those randomised to care as usual, a standardised difference of 0.6 SD, in 135 participants. Anyone with a history of institutional care scored on average 26.21 full-scale IQ points below never-institutionalised community comparison participants, so the intervention gain is durable and does not close the deprivation gap. The earlier 'about 2x IQ' and 'attachment disorganisation approximately halved' figures were not traceable to any BEIP publication and have been removed.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "standardized_effect",
+        "primary_metric_display": "Foster care worth 9 IQ points (0.6 SD) at age 18 vs care as usual",
+        "primary_metric_value": 0.6
       },
       {
         "id": 5,
         "code": "ED5",
         "name": "Ilardi TLC Protocol for Depression",
-        "what_it_demonstrates": "Treating depression by restoring resolution conditions across multiple mechanisms simultaneously (exercise, omega-3, sleep, sunlight, anti-rumination, social connection) produces remission rates comparable to or exceeding SSRI monotherapy - consistent with depression-as-mismatch-signal rather than depression-as-broken-brain.",
-        "narrative": "Stephen Ilardi's Therapeutic Lifestyle Change protocol is a six-lever intervention targeting M10 (movement), M7 (sleep and sunlight), M3 (social connection), M8/M13 (omega-3 / anti-inflammation), and cognitive anti-rumination. In his clinical trials and subsequent implementations, remission rates in moderate-to-severe depression have reached ~75%, comparable to or exceeding typical SSRI monotherapy rates (~45% remission). The protocol is consistent with Cor's prediction that many depression presentations are M1/M3/M5/M6 defensive-signal cascades resolvable by restoring the resolution conditions for the affected mechanisms.",
+        "what_it_demonstrates": "Ilardi's Therapeutic Lifestyle Change protocol restores resolution conditions across several mechanisms at once (movement, light and sleep, social connection, omega-3, anti-rumination). Its response rates are author-reported, from a 2007 conference presentation and a 2009 trade book. No peer-reviewed randomized trial has been published, so the protocol stands as a worked example of multi-mechanism environmental correction, with the peer-reviewed evidence for its component levers carried by ED6, ED7 and ED8.",
+        "narrative": "Stephen Ilardi's Therapeutic Lifestyle Change protocol is a six-lever intervention that targets M10 (movement), M7 (sleep and sunlight), M3 (social connection), M8 and M13 (omega-3 and anti-inflammation), and cognitive anti-rumination, and delivers them together rather than one at a time. Its interest to Cor is structural: it treats depression by changing several inputs at once, which is what the mismatch reading predicts should work, instead of patching the individual. The evidence status is weak and is stated plainly here. The protocol's response figures come from a 2007 conference presentation and Ilardi's 2009 trade book; no peer-reviewed randomized trial of the full protocol has been published, so no effect size is carried. The peer-reviewed evidence for the individual levers sits in ED6 (diet), ED7 (exercise) and ED8 (circadian timing).",
         "source_work_id": 112,
         "grounds_foundations": [
           "DA1",
@@ -18260,105 +19012,19 @@
           "M10",
           "M8"
         ],
-        "effect_size": "~75% response/remission in moderate-to-severe depression in Ilardi's trials vs ~45% for typical SSRI monotherapy; NNT comparable to best pharmacotherapy approaches.",
+        "effect_size": "No peer-reviewed effect size. Author-reported response rates only (2007 conference presentation; 2009 trade book).",
         "created_at": "2026-04-04T19:19:39.533572+00:00",
         "metric_family": "clinical_remission",
-        "primary_metric_display": "~75% response vs ~45% on SSRI monotherapy",
-        "primary_metric_value": 0.75
-      },
-      {
-        "id": 7,
-        "code": "ED7",
-        "name": "Exercise as Depression Treatment",
-        "what_it_demonstrates": "Aerobic exercise at moderate intensity produces depression symptom reduction comparable to SSRI pharmacotherapy in head-to-head randomized trials and meta-analyses, supporting M10 (movement/regulatory) as a central mechanism in depression pathophysiology rather than a general-health adjunct.",
-        "narrative": "Multiple meta-analyses (Schuch et al. 2016 J Psychiatr Res and subsequent updates) pooling dozens of randomized trials find moderate-intensity aerobic exercise produces Cohen's d ~0.8 reduction in depression severity, comparable to SSRI effect sizes in the same literatures. Several head-to-head trials (Blumenthal et al. and follow-ups) show no significant difference between exercise monotherapy and sertraline at 16 weeks, with exercise showing better long-term relapse prevention. Exercise is not a correlate or adjunct; it is a primary intervention in its own right, consistent with M10's role in the depression cascade.",
-        "source_work_id": 111,
-        "grounds_foundations": [
-          "DA1"
-        ],
-        "grounds_mechanisms": [
-          "M10",
-          "M7",
-          "M8"
-        ],
-        "effect_size": "Cohen's d ~0.8 for depression severity reduction; non-inferior to SSRI in several head-to-head RCTs; better long-term relapse prevention.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "standardized_effect",
-        "primary_metric_display": "Cohen's d ~0.8; non-inferior to SSRI in RCTs",
-        "primary_metric_value": 0.8
-      },
-      {
-        "id": 1,
-        "code": "ED1",
-        "name": "Forest Troop Culture Change",
-        "what_it_demonstrates": "Hierarchy type (not the mere existence of hierarchy) determines pathology, and a troop's social culture is transmissible and reversible within a single generation without genetic turnover.",
-        "narrative": "Sapolsky's long-studied olive baboon troop in Kenya had its most aggressive adult males eliminated by a tuberculosis outbreak circa 1983 (the aggressive males were the ones willing to forgo morning socializing to raid a tourist-lodge garbage dump and consumed tubercular meat). The surviving troop - skewed to a 2:1 female-to-male ratio and disproportionately unaggressive, affiliative males - developed a dramatically more peaceful social style: more grooming, more sitting in contact, minimal displacement aggression, lower baseline cortisol. As new males transferred in over subsequent years (males leaving their natal troops at puberty), they were absorbed into the troop and adopted its low-aggression high-affiliation style, despite having grown up in typical aggressive troops. The culture was being transmitted horizontally without genetic change. This is a natural experiment, not a randomized intervention, but its explanatory power for the possibility of environmental correction of hierarchy-driven pathology is substantial.",
-        "source_work_id": 90,
-        "grounds_foundations": [
-          "DA1",
-          "DA6",
-          "DC1"
-        ],
-        "grounds_mechanisms": [
-          "M5",
-          "M1"
-        ],
-        "effect_size": "Cortisol reductions ~30-40% vs baseline; displacement aggression minimal vs typical troops; social grooming rates roughly doubled in adult male pairs.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "biomarker_change",
-        "primary_metric_display": "Cortisol reduced ~30-40% vs baseline",
-        "primary_metric_value": 0.35
-      },
-      {
-        "id": 8,
-        "code": "ED8",
-        "name": "Chronotherapy in Depression",
-        "what_it_demonstrates": "Total sleep deprivation combined with morning bright light and sleep-phase advance produces 60%+ response rates in bipolar depression within days - orders of magnitude faster than pharmacotherapy - by targeting M7 (circadian regulation) directly. Demonstrates M7 as a cascade entry point.",
-        "narrative": "Wirz-Justice, Benedetti, and colleagues have developed chronotherapeutic protocols for treatment-resistant bipolar depression combining one night of total sleep deprivation (to rapidly shift circadian phase), morning bright light therapy (to re-entrain M7), and sleep-phase advance (to lock in the new timing). Response rates of 60%+ within the first week are consistent across multiple European trials, compared with ~30% for pharmacotherapy alone over the same interval. The protocol works because it targets the timing architecture that many depression cascades propagate through.",
-        "source_work_id": 113,
-        "grounds_foundations": [
-          "DA1",
-          "DA3"
-        ],
-        "grounds_mechanisms": [
-          "M7",
-          "M8"
-        ],
-        "effect_size": "~60% response rate in bipolar depression within first week of chronotherapy vs ~30% for standard pharmacotherapy alone; Wirz-Justice & Benedetti trial series.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "clinical_remission",
-        "primary_metric_display": "~60% bipolar depression response within first week",
-        "primary_metric_value": 0.6
-      },
-      {
-        "id": 3,
-        "code": "ED3",
-        "name": "Bucharest Early Intervention Project",
-        "what_it_demonstrates": "Early developmental calibration (DA7) depends on the presence of specific social input; institutional care without an alloparental network produces durable brain, attachment, and cognitive deficits that are partially reversible by foster placement but persistently worse than never-institutionalized outcomes.",
-        "narrative": "The Bucharest Early Intervention Project (Zeanah, Nelson, Fox and colleagues) randomized institutionalized Romanian children to continued institutional care vs high-quality foster care and compared both groups to never-institutionalized community children. Across neurodevelopmental, attachment, cognitive, and psychiatric outcomes, the foster-care cohort showed substantial recovery (~2× IQ improvement, reduced disorganized attachment, reduced psychopathology) compared to the institutional-care cohort, with earlier placement predicting better outcomes. But neither ever caught up fully to the never-institutionalized community controls, confirming developmental calibration windows and the severity of the mismatch between institutional care and the evolved expectable environment.",
-        "source_work_id": 108,
-        "grounds_foundations": [
-          "DA7",
-          "DA2",
-          "DA1"
-        ],
-        "grounds_mechanisms": [
-          "M3",
-          "M9"
-        ],
-        "effect_size": "Foster-care cohort ~2× IQ recovery vs institutionalized cohort; attachment-disorganization prevalence approximately halved; neither group reached never-institutionalized baseline.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "standardized_effect",
-        "primary_metric_display": "Foster care doubles IQ recovery vs institutional care",
-        "primary_metric_value": 2.0
+        "primary_metric_display": "Author-reported only; no peer-reviewed trial",
+        "primary_metric_value": null
       },
       {
         "id": 9,
         "code": "ED9",
         "name": "Kangaroo Mother Care",
-        "what_it_demonstrates": "Skin-to-skin contact between premature infants and caregivers reduces mortality, improves physiological regulation, and produces long-term developmental benefits - demonstrating R1 (C-tactile touch as regulatory input to M3) as architecture rather than comfort measure, with effects that persist two decades.",
-        "narrative": "Charpak et al. developed and studied Kangaroo Mother Care in Bogotá, Colombia for low-birth-weight infants: continuous skin-to-skin contact with the mother (or other caregiver) 24 hours a day, replacing or supplementing incubator care. In low-resource settings the intervention reduces neonatal mortality by ~40% compared to standard incubator care; in high-resource settings it produces improved physiological regulation (thermoregulation, heart rate variability, weight gain) and long-term cognitive and behavioral benefits demonstrated at 20-year follow-up (Charpak et al. 2017 Pediatrics). Feldman's longitudinal work confirms the effects on stress reactivity and executive function into adolescence. Kangaroo care is the strongest evidence that R1 (C-tactile input) is a genuine regulatory channel with architecture-level consequences, not a comfort measure.",
-        "source_work_id": 43,
+        "what_it_demonstrates": "Skin-to-skin contact between preterm infants and caregivers lowers neonatal mortality, which makes R1 (C-tactile touch as regulatory input to M3) architecture rather than a comfort measure. The mortality result comes from pooled randomised trials in low and middle income settings against routine incubator care, and that scope travels with it.",
+        "narrative": "Kangaroo mother care is continuous skin-to-skin contact between a low-birth-weight infant and a caregiver, with support for exclusive breastfeeding and early response to illness, replacing or supplementing incubator care. Lawn et al. 2010 (Int J Epidemiol) reviewed 15 studies reporting mortality or morbidity and pooled the three randomised trials that started the intervention in the first week of life: neonatal mortality fell by 51%, relative risk 0.49, in infants under 2000 g. Three observational studies gave a smaller 32% reduction. The scope is specific and matters: hospital-based care in low and middle income settings, infants under 2000 g, and a comparator of routine incubator care rather than no care at all. Feldman's longitudinal work on maternal-preterm skin-to-skin contact is carried alongside as supporting evidence for the regulatory channel itself, on physiologic organisation and later stress reactivity, and it reports no mortality result; the '~40% mortality reduction' this row previously attributed to it does not appear there. Charpak's 20-year Bogota follow-up is real and relevant but was not reachable in open-access full text, so no number from it is carried here.",
+        "source_work_id": 159,
         "grounds_foundations": [
           "DA2",
           "DA7"
@@ -18368,11 +19034,11 @@
           "M3",
           "M9"
         ],
-        "effect_size": "~40% reduction in neonatal mortality in low-resource settings; persistent cognitive and behavioral benefits at 20-year follow-up in longitudinal Bogotá cohort.",
+        "effect_size": "Pooled across three randomised trials that began kangaroo mother care in the first week of life, the relative risk for neonatal mortality was 0.49 (95% CI 0.29 to 0.82) against standard care, a 51% reduction (95% CI 18 to 71) in babies under 2000 g, based on 988 infants. Three observational studies gave a smaller 32% reduction. Comparator is routine incubator care in low and middle income settings. The earlier '~40%' figure was not a finding of the work it was attributed to and has been replaced.",
         "created_at": "2026-04-04T19:19:39.533572+00:00",
         "metric_family": "mortality",
-        "primary_metric_display": "~40% neonatal mortality reduction; benefits at 20 years",
-        "primary_metric_value": 0.4
+        "primary_metric_display": "51% lower neonatal mortality (RR 0.49) in infants under 2000 g",
+        "primary_metric_value": 0.51
       }
     ],
     "applications": [
@@ -22248,26 +22914,60 @@
           "DA2",
           "P3"
         ]
+      },
+      {
+        "id": 651,
+        "extraction_id": 651,
+        "work_id": 151,
+        "title": "Depression as sickness behavior? A test of the host defense hypothesis in a high pathogen population",
+        "content": "Depression as sickness behavior? A test of the host defense hypothesis in a high pathogen population",
+        "citation": "Stieglitz J, Trumble BC, Thompson ME, Blackwell AD, Kaplan H, Gurven M, 2015",
+        "authors": "Stieglitz J, Trumble BC, Thompson ME, Blackwell AD, Kaplan H, Gurven M",
+        "year": 2015,
+        "researcher": "Stieglitz (Jonathan)",
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ]
+      },
+      {
+        "id": 653,
+        "extraction_id": 653,
+        "work_id": 152,
+        "title": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers",
+        "content": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers",
+        "citation": "Stieglitz J, Schniter E, von Rueden C, Kaplan H, Gurven M, 2015",
+        "authors": "Stieglitz J, Schniter E, von Rueden C, Kaplan H, Gurven M",
+        "year": 2015,
+        "researcher": "Stieglitz (Jonathan)",
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ]
       }
     ]
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 114,
+      "M1": 116,
       "M2": 69,
-      "M3": 207,
-      "M4": 55,
-      "M9": 68,
+      "M3": 212,
+      "M4": 57,
+      "M9": 70,
       "M14": 62,
       "M11": 83,
-      "M5": 94,
-      "M13": 35,
-      "M10": 29,
-      "M8": 38,
+      "M5": 97,
+      "M13": 44,
+      "M10": 35,
+      "M8": 44,
       "M12": 12,
       "M6": 38,
-      "M7": 33,
-      "R1": 22
+      "M7": 35,
+      "R1": 23
     },
     "eea_by_mechanism": {
       "M11": [

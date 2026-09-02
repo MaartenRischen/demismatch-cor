@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-08-11 09:34 UTC, from the live Cor atlas snapshot built 2026-08-11 07:17 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-09-02 02:02 UTC, from the live Cor atlas snapshot built 2026-09-02 02:01 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 148 works, 635 extractions, 81 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
 
 ---
 ## How to read this document
@@ -488,7 +488,7 @@ Note: the bottom two rungs both carry zero relational function and are separated
 
 ### What goes wrong in modern life
 
-We live in touch-starved environments. One striking piece of evidence: kangaroo care - skin-to-skin contact - is associated with a 40% reduction in mortality in premature infants.
+We live in touch-starved environments. One striking piece of evidence: kangaroo care - skin-to-skin contact - is linked to a 51% reduction in neonatal mortality for low-birth-weight babies in pooled randomised trials.
 
 ### How well-evidenced
 
@@ -625,4 +625,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-08-11 07:17 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-08-11 09:34 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-09-02 02:01 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-09-02 02:02 UTC.*

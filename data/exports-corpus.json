@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-08-11T07:17:48.561329+00:00",
+    "source_built_at": "2026-09-02T02:01:54.580484+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 148,
-    "extractions": 635,
-    "researchers": 81,
-    "mechanism_evidence": 959,
+    "works": 159,
+    "extractions": 659,
+    "researchers": 84,
+    "mechanism_evidence": 997,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -39,7 +39,7 @@
     "parameter_mechanism": 60,
     "parameter_evidence": 153,
     "foundation_convergences": 15,
-    "challenges": 8
+    "challenges": 10
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -185,7 +185,7 @@
         "layer": "consequence",
         "name": "Environment as Primary Intervention Layer",
         "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (RCT-grade for depression remission); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
         "epistemic_grade": "plausible_synthesis"
       }
     ],
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 114,
+        "link_count": 116,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 207,
+        "link_count": 212,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 55,
+        "link_count": 57,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 94,
+        "link_count": 97,
         "researchers": [
           "Gilbert",
           "Price",
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 33,
+        "link_count": 35,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 38,
+        "link_count": 44,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 68,
+        "link_count": 70,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1371,7 +1371,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 29,
+        "link_count": 35,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 35,
+        "link_count": 44,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 22,
+        "link_count": 23,
         "researchers": [
           "McGlone",
           "Field"

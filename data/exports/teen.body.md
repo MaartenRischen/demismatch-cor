@@ -326,4 +326,4 @@ Note: the bottom two rungs both have zero relational function - they're only spl
 
 ### What goes wrong now
 
-Modern life is touch-starved. How much this matters shows up powerfully in kangaroo care, where skin-to-skin contact is linked to a 40% reduction in mortality for premature infants. This system is around 200 million years old (mammalian).
+Modern life is touch-starved. How much this matters shows up powerfully in kangaroo care, where skin-to-skin contact cut neonatal mortality by about half for low-birth-weight babies in pooled randomised trials. This system is around 200 million years old (mammalian).
