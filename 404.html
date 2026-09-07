@@ -1,62 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- GitHub Pages serves this file at whatever missing path was requested, so every
+       relative URL on the page (the stylesheets, and the nav links chrome.js injects)
+       has to resolve from the site root, not from the dead path. -->
+  <base href="/">
   <title>Not Found | Cor</title>
-  <meta name="description" content="That page doesn't exist on cor.demismatch.com. Here are the entry points that do.">
+  <meta name="description" content="That page does not exist on cor.demismatch.com. These are the entry points that do.">
   <meta name="robots" content="noindex">
   <meta property="og:title" content="Not Found | Cor">
-  <meta property="og:description" content="That page doesn't exist on cor.demismatch.com.">
+  <meta property="og:description" content="That page does not exist on cor.demismatch.com.">
   <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/cor-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/cor.css?v=10">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="css/eli5.css">
+  <style>
+    .nf-list { list-style: none; margin: 0; padding: 0; }
+    .nf-list li { margin: 0 0 10px; }
+    .nf-list li a { font-weight: 500; }
+    .nf-sec { margin-top: clamp(28px, 4vw, 44px); }
+  </style>
 </head>
-<body data-page="not-found" data-nav="">
-  <header data-include="/partials/nav.html"></header>
-  <main>
-    <section class="page-hero">
-      <div class="page-hero-inner">
-        <span class="eyebrow">404 &middot; Not Found</span>
-        <h1>That page isn't here.</h1>
-        <p class="lede">The URL you requested doesn't exist on cor.demismatch.com. Below are the real entry points.</p>
-      </div>
-    </section>
+<body data-page="not-found">
 
-    <section class="section">
-      <div class="wrap simple-grid">
-        <div class="surface">
-          <h2>Start here</h2>
-          <ul>
-            <li><a href="/">Home</a> &mdash; the atlas, the architecture, and what Cor is.</li>
-            <li><a href="/how-to-read.html">How to Read Cor</a> &mdash; ten-minute reader's guide.</li>
-            <li><a href="/atlas.html">The atlas</a> &mdash; foundations, mechanisms, convergences, evidence.</li>
-            <li><a href="/operationalization/m3-attachment.html">M3 Worked Example</a> &mdash; one mechanism operationalized end to end.</li>
-            <li><a href="/cases.html">Cases</a> &mdash; the same operation at five scales.</li>
-            <li><a href="/programme.html">Programme</a> &mdash; hard core, protective belt, falsification.</li>
-          </ul>
-        </div>
+  <div class="shell">
 
-        <div class="surface">
-          <h2>Working papers</h2>
-          <ul>
-            <li><a href="/bridge-paper.html">What Alignment Misses</a> &mdash; alignment framing and failure modes.</li>
-            <li><a href="/constitutional.html">What You Are Talking To</a> &mdash; the human-facing articulation.</li>
-          </ul>
-        </div>
+    <header class="masthead" data-masthead data-page="not-found"></header>
 
-        <div class="surface">
-          <h2>Other properties</h2>
-          <ul>
-            <li><a href="https://demismatch.com/">demismatch.com</a> &mdash; the front door.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer data-include="/partials/footer.html"></footer>
-  <script src="/js/partials.js?v=2"></script>
+    <div class="diamond-rule"><span class="dia"></span></div>
+
+    <main id="main" tabindex="-1">
+
+      <section class="eli-hero" aria-labelledby="nf-h1">
+        <p class="eli-eyebrow">404 &middot; Not found</p>
+        <h1 class="eli-h1" id="nf-h1">That page is not here.</h1>
+        <p class="eli-lede">
+          The URL you requested does not exist on cor.demismatch.com. These are
+          the entry points that do.
+        </p>
+      </section>
+
+      <div class="diamond-rule"><span class="dia"></span></div>
+
+      <section class="eli-sec" aria-labelledby="nf-start-h">
+        <p class="eli-kicker" id="nf-start-h">Start here</p>
+        <ul class="eli-body nf-list">
+          <li><a href="/">Home</a> - the atlas, the architecture, and what Cor is.</li>
+          <li><a href="/about.html">About Cor</a> - what Cor is, how it was built, and how far to trust each part.</li>
+          <li><a href="/mechanisms.html">Mechanisms</a> - each mechanism with its resolution conditions and proxy gradient.</li>
+          <li><a href="/mechanism.html#M3-operationalization">M3 worked example</a> - one mechanism operationalized end to end.</li>
+          <li><a href="/reference.html">Reference</a> - foundations, convergences, demonstrations, cases, and the evidence lane.</li>
+          <li><a href="/programme.html">Programme</a> - hard core, protective belt, falsification.</li>
+        </ul>
+      </section>
+
+      <section class="eli-sec nf-sec" aria-labelledby="nf-papers-h">
+        <p class="eli-kicker" id="nf-papers-h">Working papers</p>
+        <ul class="eli-body nf-list">
+          <li><a href="/bridge-paper.html">What Alignment Misses</a> - alignment framing and failure modes.</li>
+          <li><a href="/constitutional.html">What You Are Talking To</a> - the human-facing articulation.</li>
+        </ul>
+      </section>
+
+      <section class="eli-sec nf-sec" aria-labelledby="nf-other-h">
+        <p class="eli-kicker" id="nf-other-h">Other properties</p>
+        <ul class="eli-body nf-list">
+          <li><a href="https://demismatch.com/">demismatch.com</a> - the front door.</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" data-footer></footer>
+
+  </div>
+
+  <script src="js/snapshot-data.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/xref.js"></script>
+  <script src="js/chrome.js"></script>
 </body>
 </html>
