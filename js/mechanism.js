@@ -826,10 +826,15 @@
     return { code: code, anchor: raw };
   }
 
+  // Deep-link jump to a section. Instant, not smooth: on this page a smooth
+  // scrollIntoView never moves the document (measured live 2026-09-07: "auto"
+  // landed on #M3-operationalization at 2227px, "smooth" ended at 0, same
+  // element, page fully loaded), so the SFF long-form URL and the two M3
+  // redirect stubs all landed at the top of M3 instead of the worked example.
   function scrollToAnchor(anchor) {
     if (!anchor) return;
     var el = document.getElementById(anchor);
-    if (el && el.scrollIntoView) el.scrollIntoView({ behavior: prefersReduced() ? "auto" : "smooth", block: "start" });
+    if (el && el.scrollIntoView) el.scrollIntoView({ behavior: "auto", block: "start" });
   }
 
   // ---- boot - never white-screen ------------------------------------------
@@ -843,8 +848,18 @@
       var start = h.code || (isIndex ? "M1" : "M14");
       navigate(start);
       if (h.anchor && h.anchor.toUpperCase() !== start) {
-        // a section suffix was supplied - scroll to it after render.
-        setTimeout(function () { scrollToAnchor(h.anchor); }, 0);
+        // A section suffix was supplied. navigate() has just replaced the hash
+        // with the bare code; put the full anchor back so the URL still names
+        // the section (reload, copy, back all keep it). Then jump after render,
+        // and jump again once the load event and the web fonts have settled the
+        // layout - but only inside a short window, so a reader who has already
+        // started scrolling is never yanked back.
+        try { history.replaceState(null, "", "#" + h.anchor); } catch (e) {}
+        var t0 = Date.now();
+        var jump = function () { if (Date.now() - t0 < 3000) scrollToAnchor(h.anchor); };
+        setTimeout(jump, 0);
+        if (document.readyState !== "complete") window.addEventListener("load", function () { setTimeout(jump, 0); });
+        if (document.fonts && document.fonts.ready && document.fonts.ready.then) document.fonts.ready.then(function () { setTimeout(jump, 0); });
       }
     } catch (err) {
       var v = document.getElementById("view");
