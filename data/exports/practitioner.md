@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-09-02 02:02 UTC, from the live Cor atlas snapshot built 2026-09-02 02:01 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-02 08:41 UTC, from the live Cor atlas snapshot built 2026-11-02 08:41 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 32 EEA baseline parameters across 8 domains (9 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
 ---
 ## How to read this document
@@ -583,14 +583,14 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Grades are inherited from the evidence and reuse Cor's own vocabulary. 'replicated' appears only twice. Mismatch interpretations are capped at 'theoretical' (the honesty floor); the original-affluent-society work-hours debate is 'contested' with no number asserted; most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**32 parameters across 8 domains** (grades: theoretical 16, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 9 carry a contested flag).
+**33 parameters across 8 domains** (grades: theoretical 17, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 10 carry a contested flag).
 **Grade legend.**
 
 - **replicated** (2): multiple independent full-text studies converge
 - **longitudinal** (2): anchored in a longitudinal / large-N study
 - **clinical** (3): controlled human / clinical evidence
 - **thin** (5): sparse / single-source evidence
-- **theoretical** (16): mechanism-derived; the EEA-mismatch interpretation is capped here (the honesty floor)
+- **theoretical** (17): mechanism-derived; the EEA-mismatch interpretation is capped here (the honesty floor)
 - **contested** (4): actively disputed evidence
 
 ### Social structure
@@ -701,7 +701,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.
 
-**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 2
+**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 3
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -715,6 +715,19 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **The gap to work with:** The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
 
 **Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 5
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Leadership and dominance (no rulers; prestige by consent; exit available)
+`EEA-SOC-10 · Social structure` - **grade: theoretical** · **CONTESTED**
+
+**Ancestrally:** Mobile hunter-gatherer bands had no rulers. Decisions that affected the group were reached by discussion toward consensus. Influence came from prestige and lasted only while others chose to listen. Anyone who tried to dominate was mocked, shunned or expelled, and in extreme cases killed. People could also leave a camp for another one, and that option checked anyone who tried to take control.
+
+**Now (modern default):** Rulers are chosen at state scale. The people who hold power are personally unknown to almost everyone they govern, and the polity is in practice impossible to leave.
+
+**The gap to work with:** The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
+
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 4
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1077,4 +1090,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-09-02 02:01 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-09-02 02:02 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-02 08:41 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-02 08:41 UTC.*

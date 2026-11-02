@@ -105,7 +105,7 @@ function hasAuthorQuote(e) {
 /* ---- read-only anon fetch of extraction content (D4/D5 only) --------------- */
 async function fetchExtractionContent() {
   const url =
-    `${API_URL}/v2_extractions?select=id,author_quote,content,source_type&order=id`;
+    `${API_URL}/v2_extractions?select=id,author_quote,content,source_type&tier=eq.core&order=id`;
   // Hard timeout so a slow/hung endpoint can never stall the deploy (the gate is
   // fail-soft, but only if it actually returns).
   const resp = await fetch(url, {

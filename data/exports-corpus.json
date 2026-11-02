@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-09-02T02:01:54.580484+00:00",
+    "source_built_at": "2026-11-02T08:41:30.319926+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -35,9 +35,9 @@
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
-    "eea_parameters": 32,
-    "parameter_mechanism": 60,
-    "parameter_evidence": 153,
+    "eea_parameters": 33,
+    "parameter_mechanism": 62,
+    "parameter_evidence": 158,
     "foundation_convergences": 15,
     "challenges": 10
   },
@@ -1906,7 +1906,8 @@
           "EEA-SOC-06",
           "EEA-SOC-07",
           "EEA-SOC-08",
-          "EEA-SOC-09"
+          "EEA-SOC-09",
+          "EEA-SOC-10"
         ]
       },
       {
@@ -1977,14 +1978,14 @@
     ],
     "grade_dist": {
       "replicated": 2,
-      "theoretical": 16,
+      "theoretical": 17,
       "thin": 5,
       "clinical": 3,
       "contested": 4,
       "longitudinal": 2
     },
-    "contested_count": 9,
-    "total": 32,
+    "contested_count": 10,
+    "total": 33,
     "domains_present": 8,
     "parameters": [
       {
@@ -2496,7 +2497,7 @@
         "resolution_unit": "The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Pure inference: no Cor extraction and no full-text retrieval quote directly measures or states an ancestral novel-stranger frequency, so eea_value is null and the grade is theoretical. The premise the inference rests on - a bounded, personally-known reference pool capped near ~150 and nested in ~5/15/50/150 layers - IS full-text-grounded via Dunbar's social-brain work: extraction 490 (work 69, DOI 10.1002/(SICI)1520-6505(1998)6:5<178::AID-EVAN5>3.0.CO;2-8; R1 satisfied) on familiarity-based layer clustering, and extraction 485 (work 68, DOI 10.1016/0047-2484(92)90081-J; R1 satisfied) on the neocortical limit to simultaneously-monitorable relationships. Both are cited as SUPPORTING (premise), not primary, because they bound the known pool but do not themselves count strangers. The complementary M1 claim that unfamiliarity functions as an innate danger cue is most directly stated by Bowlby (Attachment and Loss Vol. 2), but that work (id 98) has no DOI/PMID, is not in the physical collection, and its extraction (574) records the book was not directly accessed and carries no verbatim quote (author_quote=None) - it fails R1 and R2 and is deliberately NOT cited; the stranger-as-threat link is full-text-pending. Tomasello extractions 238/250 on cooperation with 'in-group strangers' were considered and rejected as cutting against, not supporting, the rare-stranger-as-threat framing. Not contested as an inference within the framework; it is simply unmeasured.",
+        "confidence_note": "Pure inference: no Cor extraction and no full-text retrieval quote directly measures or states an ancestral novel-stranger frequency, so eea_value is null and the grade is theoretical. The premise the inference rests on - a bounded, personally-known reference pool capped near ~150 and nested in ~5/15/50/150 layers - IS full-text-grounded via Dunbar's social-brain work: extraction 490 (work 69, DOI 10.1002/(SICI)1520-6505(1998)6:5<178::AID-EVAN5>3.0.CO;2-8; R1 satisfied) on familiarity-based layer clustering, and extraction 485 (work 68, DOI 10.1016/0047-2484(92)90081-J; R1 satisfied) on the neocortical limit to simultaneously-monitorable relationships. Both are cited as SUPPORTING (premise), not primary, because they bound the known pool but do not themselves count strangers. The complementary M1 claim that unfamiliarity functions as an innate danger cue is most directly stated by Bowlby (Attachment and Loss Vol. 2), but that work (id 98) has no DOI/PMID, is not in the physical collection, and its extraction (574) records the book was not directly accessed and carries no verbatim quote (author_quote=None) - it fails R1 and R2 and is deliberately NOT cited; the stranger-as-threat link is full-text-pending. Tomasello extractions 238/250 on cooperation with 'in-group strangers' were considered and rejected as cutting against, not supporting, the rare-stranger-as-threat framing. Not contested as an inference within the framework; it is simply unmeasured. ADDED 2026-11-02: core extraction 383 (Hrdy 2009: lethal raids by males from neighboring groups are a major source of chimpanzee mortality) linked as supporting evidence for the stranger-as-threat side; it is cross-species and does not measure ancestral human stranger frequency, so the grade stays theoretical.",
         "mechanism_codes": [
           "M1",
           "M3"
@@ -2519,9 +2520,16 @@
             "evidence_quality": "cross_species",
             "author_quote": "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously.",
             "content": "The number of neocortical neurons limits information-processing capacity, which constrains the number of relationships an individual can monitor simultaneously. The constraint operates on relationship structure and quality, not raw number of dyads."
+          },
+          {
+            "extraction_id": 383,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "Attacks from conspecifics (both infanticide and deaths due to lethal raids by bands of males from neighboring groups) are major sources of mortality.",
+            "content": "In chimpanzees, attacks from conspecifics - including infanticide and lethal raids by bands of males from neighboring groups - are major sources of mortality."
           }
         ],
-        "evidence_count": 2
+        "evidence_count": 3
       },
       {
         "code": "EEA-SOC-09",
@@ -2588,6 +2596,59 @@
           }
         ],
         "evidence_count": 5
+      },
+      {
+        "code": "EEA-SOC-10",
+        "domain": "social_structure",
+        "domain_display": "Social structure",
+        "name": "Leadership and dominance (no rulers; prestige by consent; exit available)",
+        "eea_baseline": "Mobile hunter-gatherer bands had no rulers. Decisions that affected the group were reached by discussion toward consensus. Influence came from prestige and lasted only while others chose to listen. Anyone who tried to dominate was mocked, shunned or expelled, and in extreme cases killed. People could also leave a camp for another one, and that option checked anyone who tried to take control.",
+        "eea_value": null,
+        "modern_default": "Rulers are chosen at state scale. The people who hold power are personally unknown to almost everyone they govern, and the polity is in practice impossible to leave.",
+        "gap_statement": "The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.",
+        "resolution_unit": null,
+        "evidence_grade": "theoretical",
+        "contested": true,
+        "confidence_note": "Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "mechanism_names": {
+          "M11": "Cooperation / Alliance",
+          "M5": "Status Monitoring"
+        },
+        "evidence": [
+          {
+            "extraction_id": 20,
+            "evidence_role": "primary",
+            "evidence_quality": "theoretical",
+            "author_quote": "egalitarianism involves a very special type of hierarchy, a curious type that is based on antihierarchical feelings",
+            "content": "My thesis is that egalitarianism does not result from the mere absence of hierarchy. Rather, egalitarianism involves a very special type of hierarchy, a curious type that is based on antihierarchical feelings. If a stable egalitarian hierarchy is to be achieved, the basic flow of"
+          },
+          {
+            "extraction_id": 21,
+            "evidence_role": "primary",
+            "evidence_quality": "theoretical",
+            "author_quote": "it takes some effort to keep the political tables turned",
+            "content": "In small local groups that are egalitarian, such as bands, the main political actors - usually adult heads of households - are the individuals who actively participate when the entire group must arrive at important consensual decisions. When the subordinates take charge to firmly"
+          },
+          {
+            "extraction_id": 372,
+            "evidence_role": "primary",
+            "evidence_quality": "replicated",
+            "author_quote": "The most frequent type of power coalition in egalitarian bands consists of the entire adult community coalescing against a deviant. In addition to the proscription of bullying by upstarts, all foragers are opposed to incest, murder within the group, and undue selfish use of deception.",
+            "content": "The entire moral community coalesces against deviants. All foragers oppose incest, murder within the group, and undue selfish use of deception. The most frequent type of power coalition in egalitarian bands consists of the entire adult community acting collectively against a devi"
+          },
+          {
+            "extraction_id": 374,
+            "evidence_role": "supporting",
+            "evidence_quality": "theoretical",
+            "author_quote": "I proposed that leveling mechanisms may be necessary because, as with chimpanzees, underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life.",
+            "content": "Leveling mechanisms may be necessary because underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life. Humans have innate dominance tendencies that must be actively suppressed through egali"
+          }
+        ],
+        "evidence_count": 4
       },
       {
         "code": "EEA-CARE-01",
@@ -3783,7 +3844,7 @@
         "resolution_unit": "Calibrate to threat TEMPORALITY (episode duration and duty cycle with a terminating standdown), not threat magnitude or count. A single intense-but-resolved spike is ancestral-normal; a mild-but-unending engagement is the mismatch. The unit is 'does the activation episode end and the system return to baseline,' not 'how scary was it.'",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded theoretical per the rule that mismatch interpretations stay theoretical, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted.",
+        "confidence_note": "The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded theoretical per the rule that mismatch interpretations stay theoretical, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
         "mechanism_codes": [
           "M1",
           "M8"
@@ -3841,7 +3902,7 @@
         "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it.",
+        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
         "mechanism_codes": [
           "M1",
           "M6"

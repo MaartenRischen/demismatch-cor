@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-09-02T02:01:54.580484+00:00",
+    "built_at": "2026-11-02T08:41:30.319926+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -17,9 +17,9 @@
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
-    "eea_parameters": 32,
-    "parameter_mechanism": 60,
-    "parameter_evidence": 153,
+    "eea_parameters": 33,
+    "parameter_mechanism": 62,
+    "parameter_evidence": 158,
     "foundation_convergences": 15,
     "challenges": 10
   },
@@ -3931,18 +3931,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 21,
-        "work_id": 9,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA6"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 147,
         "work_id": 54,
         "mechanism_codes": [
@@ -4495,20 +4483,6 @@
         "source_type": "primary"
       },
       {
-        "id": 411,
-        "work_id": 7,
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DC2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 73,
         "work_id": 33,
         "mechanism_codes": [],
@@ -4529,6 +4503,20 @@
         ],
         "evidence_quality": "clinical",
         "source_type": "propagation"
+      },
+      {
+        "id": 411,
+        "work_id": 7,
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
       },
       {
         "id": 188,
@@ -8550,20 +8538,6 @@
         "source_type": "primary"
       },
       {
-        "id": 408,
-        "work_id": 7,
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P1",
-          "P2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 265,
         "work_id": 4,
         "mechanism_codes": [
@@ -10490,20 +10464,6 @@
         "source_type": "primary"
       },
       {
-        "id": 361,
-        "work_id": 8,
-        "mechanism_codes": [
-          "M3",
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 362,
         "work_id": 8,
         "mechanism_codes": [
@@ -11726,19 +11686,6 @@
         "source_type": "primary"
       },
       {
-        "id": 624,
-        "work_id": 132,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA6"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 574,
         "work_id": 98,
         "mechanism_codes": [],
@@ -12267,6 +12214,59 @@
           "DA7"
         ],
         "evidence_quality": "meta_analysis",
+        "source_type": "primary"
+      },
+      {
+        "id": 361,
+        "work_id": 8,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 408,
+        "work_id": 7,
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "P1",
+          "P2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 624,
+        "work_id": 132,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA6"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 21,
+        "work_id": 9,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA6"
+        ],
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       }
     ],
@@ -19552,41 +19552,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-08",
-        "domain": "social_structure",
-        "name": "Novel-stranger frequency (rare, salient, often a threat)",
-        "eea_baseline": "Social cognition operated over a bounded pool: a personally-known reference network capped near the ~150 Dunbar ceiling, nested in ~5/15/50/150 layers of decreasing intimacy, the outermost being the people one recognizes and interacts with across a year. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger - an individual who could not be located anywhere in one's known network or in the known networks of one's allies - was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.",
-        "eea_value": null,
-        "modern_default": "The contemporary environment delivers a near-continuous stream of novel, unplaceable faces: dense urban crowds, transit, commerce, and especially the feeds and follower graphs of online platforms expose a person to more unfamiliar individuals in a single day than an ancestral forager might meet in a lifetime. Unfamiliarity is the modal condition rather than the rare exception, so the diagnostic value of novelty collapses - a stranger is no longer informative about anything. Yet the same M1 machinery still treats unplaceable others as potential threats, now firing against a constant baseline it was never calibrated for, while the reputational and vouching scaffolding that once resolved a stranger encounter is largely absent.",
-        "gap_statement": "The delta is one of base rate and resolvability. Ancestrally, novel strangers were rare, salient, and resolvable (place them in the known web, or treat unfamiliarity as an actionable threat signal); modernity inverts this to constant, non-diagnostic, unresolvable novelty. The threat-management system inherited from the rare-stranger regime cannot down-regulate to the new base rate: it either over-fires (chronic low-grade vigilance, stranger-directed wariness in crowds and online) or, where it habituates, leaves people transacting with a stream of others who carry none of the reputational accountability the system implicitly assumes. The conserved unit being eroded is not the count of strangers but the durable, reputationally-tracked dyad against which any new face used to be evaluated; once almost everyone is a stranger, the bounded-pool premise that made novelty meaningful no longer holds.",
-        "resolution_unit": "The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Pure inference: no Cor extraction and no full-text retrieval quote directly measures or states an ancestral novel-stranger frequency, so eea_value is null and the grade is theoretical. The premise the inference rests on - a bounded, personally-known reference pool capped near ~150 and nested in ~5/15/50/150 layers - IS full-text-grounded via Dunbar's social-brain work: extraction 490 (work 69, DOI 10.1002/(SICI)1520-6505(1998)6:5<178::AID-EVAN5>3.0.CO;2-8; R1 satisfied) on familiarity-based layer clustering, and extraction 485 (work 68, DOI 10.1016/0047-2484(92)90081-J; R1 satisfied) on the neocortical limit to simultaneously-monitorable relationships. Both are cited as SUPPORTING (premise), not primary, because they bound the known pool but do not themselves count strangers. The complementary M1 claim that unfamiliarity functions as an innate danger cue is most directly stated by Bowlby (Attachment and Loss Vol. 2), but that work (id 98) has no DOI/PMID, is not in the physical collection, and its extraction (574) records the book was not directly accessed and carries no verbatim quote (author_quote=None) - it fails R1 and R2 and is deliberately NOT cited; the stranger-as-threat link is full-text-pending. Tomasello extractions 238/250 on cooperation with 'in-group strangers' were considered and rejected as cutting against, not supporting, the rare-stranger-as-threat framing. Not contested as an inference within the framework; it is simply unmeasured.",
-        "created_at": "2026-06-08T11:58:51.726459+00:00",
-        "updated_at": "2026-06-08T11:58:51.726459+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M3"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 490,
-            "evidence_role": "supporting",
-            "author_quote": "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values.",
-            "evidence_quality": "replicated",
-            "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
-          },
-          {
-            "extraction_id": 485,
-            "evidence_role": "supporting",
-            "author_quote": "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously.",
-            "evidence_quality": "cross_species",
-            "content": "The number of neocortical neurons limits information-processing capacity, which constrains the number of relationships an individual can monitor simultaneously. The constraint operates on relationship structure and quality, not raw number of dyads."
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-09",
         "domain": "social_structure",
         "name": "Behavioral observability / reputation visibility",
@@ -19695,6 +19660,48 @@
             "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
             "evidence_quality": "thin",
             "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-08",
+        "domain": "social_structure",
+        "name": "Novel-stranger frequency (rare, salient, often a threat)",
+        "eea_baseline": "Social cognition operated over a bounded pool: a personally-known reference network capped near the ~150 Dunbar ceiling, nested in ~5/15/50/150 layers of decreasing intimacy, the outermost being the people one recognizes and interacts with across a year. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger - an individual who could not be located anywhere in one's known network or in the known networks of one's allies - was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.",
+        "eea_value": null,
+        "modern_default": "The contemporary environment delivers a near-continuous stream of novel, unplaceable faces: dense urban crowds, transit, commerce, and especially the feeds and follower graphs of online platforms expose a person to more unfamiliar individuals in a single day than an ancestral forager might meet in a lifetime. Unfamiliarity is the modal condition rather than the rare exception, so the diagnostic value of novelty collapses - a stranger is no longer informative about anything. Yet the same M1 machinery still treats unplaceable others as potential threats, now firing against a constant baseline it was never calibrated for, while the reputational and vouching scaffolding that once resolved a stranger encounter is largely absent.",
+        "gap_statement": "The delta is one of base rate and resolvability. Ancestrally, novel strangers were rare, salient, and resolvable (place them in the known web, or treat unfamiliarity as an actionable threat signal); modernity inverts this to constant, non-diagnostic, unresolvable novelty. The threat-management system inherited from the rare-stranger regime cannot down-regulate to the new base rate: it either over-fires (chronic low-grade vigilance, stranger-directed wariness in crowds and online) or, where it habituates, leaves people transacting with a stream of others who carry none of the reputational accountability the system implicitly assumes. The conserved unit being eroded is not the count of strangers but the durable, reputationally-tracked dyad against which any new face used to be evaluated; once almost everyone is a stranger, the bounded-pool premise that made novelty meaningful no longer holds.",
+        "resolution_unit": "The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Pure inference: no Cor extraction and no full-text retrieval quote directly measures or states an ancestral novel-stranger frequency, so eea_value is null and the grade is theoretical. The premise the inference rests on - a bounded, personally-known reference pool capped near ~150 and nested in ~5/15/50/150 layers - IS full-text-grounded via Dunbar's social-brain work: extraction 490 (work 69, DOI 10.1002/(SICI)1520-6505(1998)6:5<178::AID-EVAN5>3.0.CO;2-8; R1 satisfied) on familiarity-based layer clustering, and extraction 485 (work 68, DOI 10.1016/0047-2484(92)90081-J; R1 satisfied) on the neocortical limit to simultaneously-monitorable relationships. Both are cited as SUPPORTING (premise), not primary, because they bound the known pool but do not themselves count strangers. The complementary M1 claim that unfamiliarity functions as an innate danger cue is most directly stated by Bowlby (Attachment and Loss Vol. 2), but that work (id 98) has no DOI/PMID, is not in the physical collection, and its extraction (574) records the book was not directly accessed and carries no verbatim quote (author_quote=None) - it fails R1 and R2 and is deliberately NOT cited; the stranger-as-threat link is full-text-pending. Tomasello extractions 238/250 on cooperation with 'in-group strangers' were considered and rejected as cutting against, not supporting, the rare-stranger-as-threat framing. Not contested as an inference within the framework; it is simply unmeasured. ADDED 2026-11-02: core extraction 383 (Hrdy 2009: lethal raids by males from neighboring groups are a major source of chimpanzee mortality) linked as supporting evidence for the stranger-as-threat side; it is cross-species and does not measure ancestral human stranger frequency, so the grade stays theoretical.",
+        "created_at": "2026-06-08T11:58:51.726459+00:00",
+        "updated_at": "2026-06-08T11:58:51.726459+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 490,
+            "evidence_role": "supporting",
+            "author_quote": "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values.",
+            "evidence_quality": "replicated",
+            "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
+          },
+          {
+            "extraction_id": 485,
+            "evidence_role": "supporting",
+            "author_quote": "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously.",
+            "evidence_quality": "cross_species",
+            "content": "The number of neocortical neurons limits information-processing capacity, which constrains the number of relationships an individual can monitor simultaneously. The constraint operates on relationship structure and quality, not raw number of dyads."
+          },
+          {
+            "extraction_id": 383,
+            "evidence_role": "supporting",
+            "author_quote": "Attacks from conspecifics (both infanticide and deaths due to lethal raids by bands of males from neighboring groups) are major sources of mortality.",
+            "evidence_quality": "thin",
+            "content": "In chimpanzees, attacks from conspecifics - including infanticide and lethal raids by bands of males from neighboring groups - are major sources of mortality."
           }
         ]
       },
@@ -20683,108 +20690,6 @@
         ]
       },
       {
-        "code": "EEA-THREAT-01",
-        "domain": "threat_safety",
-        "name": "Threat temporality (acute, episodic, escapable-by-action)",
-        "eea_baseline": "Ancestral threats were overwhelmingly acute and episodic: predators, conspecific aggression, falls, rapid environmental dangers. Each was a short, life-or-death encounter resolved within seconds-to-minutes by a discrete motor response (flee, fight, freeze, hide), after which the threat-detection system stood down and physiology returned to baseline. The fight-or-flight architecture was selected to spike hard and briefly, then terminate. Threat exposure was thus pulsatile, not continuous.",
-        "eea_value": {
-          "duty_cycle": "low_intermittent",
-          "quantified": false,
-          "resolution_mode": "discrete_motor_action_then_standdown",
-          "temporal_profile": "acute_episodic_pulsatile",
-          "typical_episode_duration": "seconds_to_minutes"
-        },
-        "modern_default": "Modern stressors are chronic and non-terminating: the overbearing boss, the long commute, financial precarity, abstract status anxiety, always-on connectivity. The same stressor persists hour after hour, year after year, over a lifespan far longer than the ancestral norm, while the sympathetic/parasympathetic architecture is unchanged. The threat system is engaged at a low chronic duty cycle it was never built to sustain, and the beneficial acute response becomes damaging on the chronic timescale.",
-        "gap_statement": "The mismatch is in the time-course, not the threat machinery itself. The system is calibrated for brief, resolvable spikes; modern life supplies sustained, unresolved activation. Acute stress is adaptive (even enhances immunity); the identical response sustained chronically suppresses immunity and accumulates wear-and-tear. The gap is the absence of an episode boundary that lets the response shut down.",
-        "resolution_unit": "Calibrate to threat TEMPORALITY (episode duration and duty cycle with a terminating standdown), not threat magnitude or count. A single intense-but-resolved spike is ancestral-normal; a mild-but-unending engagement is the mismatch. The unit is 'does the activation episode end and the system return to baseline,' not 'how scary was it.'",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded theoretical per the rule that mismatch interpretations stay theoretical, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted.",
-        "created_at": "2026-06-08T12:32:55.597772+00:00",
-        "updated_at": "2026-06-08T12:32:55.597772+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M8"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 150,
-            "evidence_role": "primary",
-            "author_quote": "In contemporary society, as we've noted, most of our stressors do not come and go in the kind of short, life-or-death confrontations that drove the evolution of 'fight or flight.' We can have the same overbearing boss, the same long commute, the same worries about health care and retirement, and the same feelings of social isolation, hour after hour, year after year. Moreover, we now experience these persistent stressors over a life span that, on average, extends well beyond what was the norm during all but the last few centuries of our species' existence. The environment is entirely different now than it was in our environment of evolutionary adaptation",
-            "evidence_quality": "theoretical",
-            "content": "Human stressors no longer come and go in the kind of short, life-or-death confrontations that drove the evolution of fight-or-flight. We can have the same overbearing boss, the same long commute, the same worries about health care and retirement, and the same feelings of social i"
-          },
-          {
-            "extraction_id": 331,
-            "evidence_role": "primary",
-            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
-            "evidence_quality": "replicated",
-            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
-          },
-          {
-            "extraction_id": 130,
-            "evidence_role": "supporting",
-            "author_quote": "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a threatening environment, these changes may be adaptive; but, if the danger passes and the behavioral state persists along with the changes in neural circuitry, such maladaptation may need intervention",
-            "evidence_quality": "replicated",
-            "content": "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a t"
-          },
-          {
-            "extraction_id": 345,
-            "evidence_role": "supporting",
-            "author_quote": "the Smoke Detector Principle. Most of the responses that cause human suffering are unnecessary in the individual instance but still perfectly normal because they have low costs but protect against huge possible losses. They are like false alarms from smoke detectors. The occasional wail when you burn the toast is worth it to ensure that you are warned",
-            "evidence_quality": "theoretical",
-            "content": "The Smoke Detector Principle: most defensive responses that cause human suffering are unnecessary in the individual instance but perfectly normal because they have low costs but protect against huge possible losses. They are like false alarms from smoke detectors - the occasional"
-          }
-        ]
-      },
-      {
-        "code": "EEA-THREAT-02",
-        "domain": "threat_safety",
-        "name": "Threat controllability and predictability (resolvable by own action)",
-        "eea_baseline": "Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare and pathological case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.",
-        "eea_value": {
-          "quantified": false,
-          "predictability": "perceptually_verifiable",
-          "controllability": "high_action_contingent",
-          "uncontrollable_stress": "rare_exceptional"
-        },
-        "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
-        "gap_statement": "What is pathogenic is not threat per se but uncontrollability/unpredictability: the absence of an action that resolves the danger. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
-        "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it.",
-        "created_at": "2026-06-08T12:32:57.686271+00:00",
-        "updated_at": "2026-06-08T12:32:57.686271+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M6"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 333,
-            "evidence_role": "primary",
-            "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
-            "evidence_quality": "replicated",
-            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
-          },
-          {
-            "extraction_id": 442,
-            "evidence_role": "primary",
-            "author_quote": "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts.",
-            "evidence_quality": "replicated",
-            "content": "Learned helplessness in the laboratory produces eight of the nine DSM symptoms of depression (excepting suicidal thoughts). The prelimbic medial prefrontal cortex detects contingency between behavior and outcomes and inhibits the dorsal raphe nucleus, restoring the capacity for a"
-          },
-          {
-            "extraction_id": 587,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "theoretical",
-            "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
-          }
-        ]
-      },
-      {
         "code": "EEA-THREAT-03",
         "domain": "threat_safety",
         "name": "Real-vs-perceived threat ratio and all-clear resolution",
@@ -21263,6 +21168,157 @@
             "content": "Cochrane meta-analysis of kangaroo mother care (KMC) vs conventional care in low-birthweight infants. In STABILIZED LBW infants, KMC significantly reduced the risk of mortality at discharge or 40-41 weeks postmenstrual age (RR 0.60, 95% CI 0.39-0.92; 8 trials, 1736 infants) and a"
           }
         ]
+      },
+      {
+        "code": "EEA-THREAT-01",
+        "domain": "threat_safety",
+        "name": "Threat temporality (acute, episodic, escapable-by-action)",
+        "eea_baseline": "Ancestral threats were overwhelmingly acute and episodic: predators, conspecific aggression, falls, rapid environmental dangers. Each was a short, life-or-death encounter resolved within seconds-to-minutes by a discrete motor response (flee, fight, freeze, hide), after which the threat-detection system stood down and physiology returned to baseline. The fight-or-flight architecture was selected to spike hard and briefly, then terminate. Threat exposure was thus pulsatile, not continuous.",
+        "eea_value": {
+          "duty_cycle": "low_intermittent",
+          "quantified": false,
+          "resolution_mode": "discrete_motor_action_then_standdown",
+          "temporal_profile": "acute_episodic_pulsatile",
+          "typical_episode_duration": "seconds_to_minutes"
+        },
+        "modern_default": "Modern stressors are chronic and non-terminating: the overbearing boss, the long commute, financial precarity, abstract status anxiety, always-on connectivity. The same stressor persists hour after hour, year after year, over a lifespan far longer than the ancestral norm, while the sympathetic/parasympathetic architecture is unchanged. The threat system is engaged at a low chronic duty cycle it was never built to sustain, and the beneficial acute response becomes damaging on the chronic timescale.",
+        "gap_statement": "The mismatch is in the time-course, not the threat machinery itself. The system is calibrated for brief, resolvable spikes; modern life supplies sustained, unresolved activation. Acute stress is adaptive (even enhances immunity); the identical response sustained chronically suppresses immunity and accumulates wear-and-tear. The gap is the absence of an episode boundary that lets the response shut down.",
+        "resolution_unit": "Calibrate to threat TEMPORALITY (episode duration and duty cycle with a terminating standdown), not threat magnitude or count. A single intense-but-resolved spike is ancestral-normal; a mild-but-unending engagement is the mismatch. The unit is 'does the activation episode end and the system return to baseline,' not 'how scary was it.'",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded theoretical per the rule that mismatch interpretations stay theoretical, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
+        "created_at": "2026-06-08T12:32:55.597772+00:00",
+        "updated_at": "2026-06-08T12:32:55.597772+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M8"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 150,
+            "evidence_role": "primary",
+            "author_quote": "In contemporary society, as we've noted, most of our stressors do not come and go in the kind of short, life-or-death confrontations that drove the evolution of 'fight or flight.' We can have the same overbearing boss, the same long commute, the same worries about health care and retirement, and the same feelings of social isolation, hour after hour, year after year. Moreover, we now experience these persistent stressors over a life span that, on average, extends well beyond what was the norm during all but the last few centuries of our species' existence. The environment is entirely different now than it was in our environment of evolutionary adaptation",
+            "evidence_quality": "theoretical",
+            "content": "Human stressors no longer come and go in the kind of short, life-or-death confrontations that drove the evolution of fight-or-flight. We can have the same overbearing boss, the same long commute, the same worries about health care and retirement, and the same feelings of social i"
+          },
+          {
+            "extraction_id": 331,
+            "evidence_role": "primary",
+            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
+            "evidence_quality": "replicated",
+            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
+          },
+          {
+            "extraction_id": 130,
+            "evidence_role": "supporting",
+            "author_quote": "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a threatening environment, these changes may be adaptive; but, if the danger passes and the behavioral state persists along with the changes in neural circuitry, such maladaptation may need intervention",
+            "evidence_quality": "replicated",
+            "content": "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a t"
+          },
+          {
+            "extraction_id": 345,
+            "evidence_role": "supporting",
+            "author_quote": "the Smoke Detector Principle. Most of the responses that cause human suffering are unnecessary in the individual instance but still perfectly normal because they have low costs but protect against huge possible losses. They are like false alarms from smoke detectors. The occasional wail when you burn the toast is worth it to ensure that you are warned",
+            "evidence_quality": "theoretical",
+            "content": "The Smoke Detector Principle: most defensive responses that cause human suffering are unnecessary in the individual instance but perfectly normal because they have low costs but protect against huge possible losses. They are like false alarms from smoke detectors - the occasional"
+          }
+        ]
+      },
+      {
+        "code": "EEA-THREAT-02",
+        "domain": "threat_safety",
+        "name": "Threat controllability and predictability (resolvable by own action)",
+        "eea_baseline": "Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare and pathological case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.",
+        "eea_value": {
+          "quantified": false,
+          "predictability": "perceptually_verifiable",
+          "controllability": "high_action_contingent",
+          "uncontrollable_stress": "rare_exceptional"
+        },
+        "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
+        "gap_statement": "What is pathogenic is not threat per se but uncontrollability/unpredictability: the absence of an action that resolves the danger. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
+        "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
+        "created_at": "2026-06-08T12:32:57.686271+00:00",
+        "updated_at": "2026-06-08T12:32:57.686271+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M6"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 333,
+            "evidence_role": "primary",
+            "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
+            "evidence_quality": "replicated",
+            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
+          },
+          {
+            "extraction_id": 442,
+            "evidence_role": "primary",
+            "author_quote": "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts.",
+            "evidence_quality": "replicated",
+            "content": "Learned helplessness in the laboratory produces eight of the nine DSM symptoms of depression (excepting suicidal thoughts). The prelimbic medial prefrontal cortex detects contingency between behavior and outcomes and inhibits the dorsal raphe nucleus, restoring the capacity for a"
+          },
+          {
+            "extraction_id": 587,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "theoretical",
+            "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-10",
+        "domain": "social_structure",
+        "name": "Leadership and dominance (no rulers; prestige by consent; exit available)",
+        "eea_baseline": "Mobile hunter-gatherer bands had no rulers. Decisions that affected the group were reached by discussion toward consensus. Influence came from prestige and lasted only while others chose to listen. Anyone who tried to dominate was mocked, shunned or expelled, and in extreme cases killed. People could also leave a camp for another one, and that option checked anyone who tried to take control.",
+        "eea_value": null,
+        "modern_default": "Rulers are chosen at state scale. The people who hold power are personally unknown to almost everyone they govern, and the polity is in practice impossible to leave.",
+        "gap_statement": "The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.",
+        "resolution_unit": null,
+        "evidence_grade": "theoretical",
+        "contested": true,
+        "confidence_note": "Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.",
+        "created_at": "2026-11-02T07:59:06.537852+00:00",
+        "updated_at": "2026-11-02T07:59:06.537852+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 20,
+            "evidence_role": "primary",
+            "author_quote": "egalitarianism involves a very special type of hierarchy, a curious type that is based on antihierarchical feelings",
+            "evidence_quality": "theoretical",
+            "content": "My thesis is that egalitarianism does not result from the mere absence of hierarchy. Rather, egalitarianism involves a very special type of hierarchy, a curious type that is based on antihierarchical feelings. If a stable egalitarian hierarchy is to be achieved, the basic flow of"
+          },
+          {
+            "extraction_id": 21,
+            "evidence_role": "primary",
+            "author_quote": "it takes some effort to keep the political tables turned",
+            "evidence_quality": "theoretical",
+            "content": "In small local groups that are egalitarian, such as bands, the main political actors - usually adult heads of households - are the individuals who actively participate when the entire group must arrive at important consensual decisions. When the subordinates take charge to firmly"
+          },
+          {
+            "extraction_id": 372,
+            "evidence_role": "primary",
+            "author_quote": "The most frequent type of power coalition in egalitarian bands consists of the entire adult community coalescing against a deviant. In addition to the proscription of bullying by upstarts, all foragers are opposed to incest, murder within the group, and undue selfish use of deception.",
+            "evidence_quality": "replicated",
+            "content": "The entire moral community coalesces against deviants. All foragers oppose incest, murder within the group, and undue selfish use of deception. The most frequent type of power coalition in egalitarian bands consists of the entire adult community acting collectively against a devi"
+          },
+          {
+            "extraction_id": 374,
+            "evidence_role": "supporting",
+            "author_quote": "I proposed that leveling mechanisms may be necessary because, as with chimpanzees, underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life.",
+            "evidence_quality": "theoretical",
+            "content": "Leveling mechanisms may be necessary because underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life. Humans have innate dominance tendencies that must be actively suppressed through egali"
+          }
+        ]
       }
     ],
     "parameter_mechanism": [
@@ -21565,6 +21621,16 @@
         "parameter_code": "EEA-INFO-02",
         "mechanism_code": "M5",
         "created_at": "2026-06-08T12:33:02.101042+00:00"
+      },
+      {
+        "parameter_code": "EEA-SOC-10",
+        "mechanism_code": "M5",
+        "created_at": "2026-11-02T07:59:06.730045+00:00"
+      },
+      {
+        "parameter_code": "EEA-SOC-10",
+        "mechanism_code": "M11",
+        "created_at": "2026-11-02T07:59:06.730045+00:00"
       }
     ],
     "parameter_evidence": [
@@ -22638,6 +22704,41 @@
         "extraction_id": 618,
         "evidence_role": "supporting",
         "created_at": "2026-07-18T13:25:44.932192+00:00"
+      },
+      {
+        "id": 154,
+        "parameter_code": "EEA-SOC-08",
+        "extraction_id": 383,
+        "evidence_role": "supporting",
+        "created_at": "2026-11-02T07:58:50.653412+00:00"
+      },
+      {
+        "id": 155,
+        "parameter_code": "EEA-SOC-10",
+        "extraction_id": 20,
+        "evidence_role": "primary",
+        "created_at": "2026-11-02T07:59:06.924565+00:00"
+      },
+      {
+        "id": 156,
+        "parameter_code": "EEA-SOC-10",
+        "extraction_id": 21,
+        "evidence_role": "primary",
+        "created_at": "2026-11-02T07:59:06.924565+00:00"
+      },
+      {
+        "id": 157,
+        "parameter_code": "EEA-SOC-10",
+        "extraction_id": 372,
+        "evidence_role": "primary",
+        "created_at": "2026-11-02T07:59:06.924565+00:00"
+      },
+      {
+        "id": 158,
+        "parameter_code": "EEA-SOC-10",
+        "extraction_id": 374,
+        "evidence_role": "supporting",
+        "created_at": "2026-11-02T07:59:06.924565+00:00"
       }
     ],
     "foundation_convergences": [
@@ -22980,14 +23081,15 @@
         "EEA-SOC-06",
         "EEA-INFO-01",
         "EEA-INFO-02",
-        "EEA-SOC-02"
+        "EEA-SOC-02",
+        "EEA-SOC-10"
       ],
       "M3": [
         "EEA-SOC-05",
         "EEA-SOC-01",
         "EEA-SOC-07",
-        "EEA-SOC-08",
         "EEA-SOC-03",
+        "EEA-SOC-08",
         "EEA-SOC-04",
         "EEA-SOC-06",
         "EEA-CARE-01",
@@ -23002,13 +23104,14 @@
         "EEA-SOC-01",
         "EEA-SOC-09",
         "EEA-INFO-01",
-        "EEA-INFO-02"
+        "EEA-INFO-02",
+        "EEA-SOC-10"
       ],
       "M1": [
         "EEA-SOC-08",
+        "EEA-THREAT-03",
         "EEA-THREAT-01",
-        "EEA-THREAT-02",
-        "EEA-THREAT-03"
+        "EEA-THREAT-02"
       ],
       "M9": [
         "EEA-CARE-01",
@@ -23053,12 +23156,12 @@
         "EEA-DIET-04"
       ],
       "M8": [
-        "EEA-THREAT-01",
-        "EEA-THREAT-03"
+        "EEA-THREAT-03",
+        "EEA-THREAT-01"
       ]
     },
     "eea_by_domain": {
-      "social_structure": 9,
+      "social_structure": 10,
       "care_development": 4,
       "touch_contact": 3,
       "circadian_sensory": 3,
@@ -23070,7 +23173,7 @@
     "eea_by_grade": {
       "thin": 5,
       "replicated": 2,
-      "theoretical": 16,
+      "theoretical": 17,
       "clinical": 3,
       "longitudinal": 2,
       "contested": 4

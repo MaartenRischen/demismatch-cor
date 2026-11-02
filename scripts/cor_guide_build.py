@@ -54,9 +54,11 @@ G = load("v2_gaps")
 BT = load("v2_bridge_theses")
 ED = load("v2_empirical_demonstrations")
 RES = load("v2_researchers")
-WK = load("v2_works")
-EXT = load("v2_extractions")
-ME = load("v2_mechanism_evidence")
+# Core tier only (2026-11-02): background-tier rows are not part of the counts shown here.
+WK = [w for w in load("v2_works") if w.get("tier", "core") == "core"]
+EXT = [x for x in load("v2_extractions") if x.get("tier", "core") == "core"]
+_core_ids = {x["id"] for x in EXT}
+ME = [r for r in load("v2_mechanism_evidence") if r["extraction_id"] in _core_ids]
 
 mname = {m["code"]: m["name"] for m in M}
 fname = {f["code"]: f["name"] for f in F}

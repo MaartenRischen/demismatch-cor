@@ -4,7 +4,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Grades are inherited from the evidence and reuse Cor's own vocabulary. 'replicated' appears only twice. Mismatch interpretations are capped at 'theoretical' (the honesty floor); the original-affluent-society work-hours debate is 'contested' with no number asserted; most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**32 parameters across 8 domains** (grades: theoretical 16, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 9 carry a contested flag).
+**33 parameters across 8 domains** (grades: theoretical 17, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 10 carry a contested flag).
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (grade: replicated · CONTESTED)
@@ -33,6 +33,9 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 **Behavioral observability / reputation visibility** (grade: theoretical)
   - The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
+
+**Leadership and dominance (no rulers; prestige by consent; exit available)** (grade: theoretical · CONTESTED)
+  - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
 
 ### Care & development
