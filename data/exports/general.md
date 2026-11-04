@@ -3,7 +3,7 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-04 00:06 UTC, from the live Cor atlas snapshot built 2026-11-04 00:06 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 02:40 UTC, from the live Cor atlas snapshot built 2026-11-04 02:40 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
@@ -137,13 +137,13 @@ This is the play system. Through rough-and-tumble play, it teaches social rules 
 
 ### What actually satisfies it
 
-Age-matched, self-directed, unsupervised, physical play with peers.
+Self-directed, unsupervised, physical play with other children. In forager camps the group mixes ages.
 
 ### The proxy gradient
 
 The cue is the social-joy pull toward play. It still fires (in weaker or substitute form) even at the lower rungs. What changes is how much real, embodied, two-way play with a real partner survives:
 
-- **FULL (need met):** age-matched, self-directed, unsupervised physical play with peers.
+- **FULL (need met):** self-directed, unsupervised physical play with other children, older and younger mixed together.
 - **PARTIAL (partly resolved):** adult-structured, supervised physical activity, like organized sports.
 - **MIXED (partly resolved):** screen-mediated multiplayer play with real peers.
 - **MINIMAL (fires, no resolution):** solitary single-player screen play, with no reciprocating partner.
@@ -628,4 +628,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 00:06 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-04 00:06 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 02:40 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-04 02:40 UTC.*

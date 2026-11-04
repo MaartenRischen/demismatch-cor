@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-04T00:06:27.469677+00:00",
+    "source_built_at": "2026-11-04T02:40:04.333973+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -56,7 +56,7 @@
         "code": "OF2",
         "layer": "frame",
         "name": "Signal-Default Epistemology",
-        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects.",
+        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced in two ways. A measurable physical cause displaces it outright, and the output is then a symptom of that cause: acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. Developmental miscalibration carried forward and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers a threshold set early, or a loop that keeps running, more than the present input. Chronic dysregulation counts as a physical cause only where it is measured.",
         "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
         "epistemic_grade": "frame"
       },
@@ -88,7 +88,7 @@
         "code": "DA1",
         "layer": "property",
         "name": "Defensive Signals Under Mismatch",
-        "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
+        "statement": "Where no measurable physical cause is found, aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
         "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
         "epistemic_grade": "forced"
       },
@@ -676,11 +676,11 @@
       "tier": 1,
       "description": "Play system develops social skills. Absent in threatened or ill animals.",
       "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
-      "resolution_conditions": "Age-matched, self-directed, unsupervised play. Physical.",
+      "resolution_conditions": "Self-directed, unsupervised physical play with other children. In forager childhoods this is a mixed-age group.",
       "mismatch_prediction": "Structured activities replacing free play. Screens replacing bodies. Play deprivation.",
       "phylogenetic_age": "~200Myr (mammalian, absent in reptiles)",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): age-matched, self-directed, unsupervised physical play with peers (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
+        "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
         "preamble": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives)",
         "trailing": "Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
         "demoted": "",
@@ -688,7 +688,7 @@
         "levels": [
           {
             "index": 0,
-            "label": "age-matched, self-directed, unsupervised physical play with peers",
+            "label": "self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods",
             "state": "FULL",
             "tag": "EVIDENCED",
             "note": "EVIDENCED",
@@ -2810,7 +2810,7 @@
         "resolution_unit": "Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, screen time, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - is NOT verbatim-grounded in Cor's extractions; the ethnographic age-band detail is absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote.",
+        "confidence_note": "DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - was NOT verbatim-grounded in Cor's extractions when this row was written (June 2026); the numeric age band is still absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote. Update 4 Nov 2026: the mixed-age baseline is now grounded in background-tier evidence linked to this row: a meta-ethnographic review in which children 'transition into the multi-age playgroup' (Lew-Levy et al. 2017, verbatim), Konner 2010, and studies of children learning from and teaching other children (Lew-Levy et al. 2018, 2020). M4's resolution condition, which said 'age-matched', was reconciled to this row the same day. No Cor extraction supports age-matching: the rat partner studies compare more peers, fewer peers and an adult female only (212), and isolated monkeys recovered with younger partners (542). The grade stays theoretical: no extraction tests whether age mixing itself, beyond partnered play, changes outcomes, the brain evidence is cross-species, and the causal role of pretend play is contested (Lillard et al. 2013, background tier).",
         "mechanism_codes": [
           "M4",
           "M9"

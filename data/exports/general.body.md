@@ -127,13 +127,13 @@ This is the play system. Through rough-and-tumble play, it teaches social rules 
 
 ### What actually satisfies it
 
-Age-matched, self-directed, unsupervised, physical play with peers.
+Self-directed, unsupervised, physical play with other children. In forager camps the group mixes ages.
 
 ### The proxy gradient
 
 The cue is the social-joy pull toward play. It still fires (in weaker or substitute form) even at the lower rungs. What changes is how much real, embodied, two-way play with a real partner survives:
 
-- **FULL (need met):** age-matched, self-directed, unsupervised physical play with peers.
+- **FULL (need met):** self-directed, unsupervised physical play with other children, older and younger mixed together.
 - **PARTIAL (partly resolved):** adult-structured, supervised physical activity, like organized sports.
 - **MIXED (partly resolved):** screen-mediated multiplayer play with real peers.
 - **MINIMAL (fires, no resolution):** solitary single-player screen play, with no reciprocating partner.

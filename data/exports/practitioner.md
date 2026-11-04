@@ -3,7 +3,7 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-04 00:06 UTC, from the live Cor atlas snapshot built 2026-11-04 00:06 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 02:40 UTC, from the live Cor atlas snapshot built 2026-11-04 02:40 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
@@ -14,7 +14,7 @@ This document is a working map of human motivation and distress, written for peo
 
 Put plainly: the feeling is real, the signal is informative, and the problem is usually upstream of the person. When someone feels anxious, flat, restless, ashamed, or empty, the default reading here is not "this person is broken" but "this system is reporting on its input conditions." That is a diagnostic stance, not a romantic one. It does not mean the signal is always literally true, and it does not mean you should withhold symptom relief where it is indicated. It does mean you check the inputs before you conclude the machinery is faulty.
 
-There are well-defined exceptions where the signal stops being a reliable readout: developmental miscalibration carried forward from early life, chronic dysregulation, acute organic disease or state shifts (sleep deprivation, inflammation, endocrine disruption, delirium), structural damage, and substance or medication effects. In those cases the signal can be decoupled from current conditions. The line between them is a biomarker: organic disease or state shift, structural damage and substance or medication effects are measurable physical causes, and the behaviour is a symptom you treat at its cause. Developmental miscalibration and chronic dysregulation without a marker are still responses, set early (DA7) or kept running by coupled systems (DA3), and they are not a disease.
+There are well-defined exceptions where the signal stops being a reliable readout: developmental miscalibration carried forward from early life, chronic dysregulation, acute organic disease or state shifts (sleep deprivation, inflammation, endocrine disruption, delirium), structural damage, large-effect genetic variants with measurable physical effects, and substance or medication effects. In those cases the signal can be decoupled from current conditions. The line between them is a biomarker: organic disease or state shift, structural damage, a large-effect genetic variant with measurable physical effects (such as the 22q11.2 deletion) and substance or medication effects are measurable physical causes, and the behaviour is a symptom you treat at its cause. Developmental miscalibration and chronic dysregulation without a marker are still responses, set early (DA7) or kept running by coupled systems (DA3), and they are not a disease.
 
 ### The derivation stack, briefly
 
@@ -157,11 +157,11 @@ This is the highest-leverage cross-cutting input dimension in the framework, bec
 
 The play system develops social skills through rough-and-tumble. Tellingly, it is absent in threatened or ill animals - so a client (or child) who does not play is telling you something about their threat and health state. In people, especially in development, this shows up as the capacity to read social rules, take turns, recover from minor conflict, and self-direct in a group.
 
-What resolves it: age-matched, self-directed, unsupervised, physical play.
+What resolves it: self-directed, unsupervised, physical play with other children. In forager childhoods this is a mixed-age group.
 
 ### The proxy gradient (cue = the PLAY/SEEKING social-joy pull; ordered by surviving embodied reciprocity with a real partner)
 
-- **FULL:** age-matched, self-directed, unsupervised physical play with peers. (Evidenced.)
+- **FULL:** self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods. (Evidenced.)
 - **PARTIAL:** adult-structured supervised physical activity, organized sports - real bodies, but adult-directed.
 - **MIXED:** screen-mediated multiplayer play with real peers - real partners, mediated bodies.
 - **MINIMAL:** solitary single-player screen play, no reciprocating partner - cue fires, no real reciprocity.
@@ -179,7 +179,7 @@ M4 is suppressed by threat (M1) and bonding's grief state (M3) - consistent with
 
 ### What changing the inputs means
 
-Patching means trying to teach social skills didactically to someone the system expected to learn them through unsupervised peer play. Changing the inputs means restoring access to age-matched, self-directed, unsupervised physical play - and, given the cascade, reducing the threat load that switches play off in the first place.
+Patching means trying to teach social skills didactically to someone the system expected to learn them through unsupervised peer play. Changing the inputs means restoring access to self-directed, unsupervised physical play with other children, older and younger included - and, given the cascade, reducing the threat load that switches play off in the first place.
 
 ### Evidence
 
@@ -1090,4 +1090,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 00:06 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 00:06 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 02:40 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 02:40 UTC.*

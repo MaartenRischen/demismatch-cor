@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-04T00:06:27.469677+00:00",
+    "built_at": "2026-11-04T02:40:04.333973+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -173,10 +173,10 @@
         "code": "DA1",
         "layer": "property",
         "name": "Defensive Signals Under Mismatch",
-        "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
+        "statement": "Where no measurable physical cause is found, aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
         "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
         "epistemic_grade": "forced",
-        "scope_notes": "The line is a biomarker (project decision, 4 Nov 2026). Where a measurable physical cause exists (brain infection, autoimmune encephalitis such as anti-NMDA-receptor encephalitis, tumour, poisoning, a substance or medication effect, dementia or another neurodegenerative process, brain injury), the person is sick and the behaviour is a symptom of that disease, with a marker to point to. \"Damage\" in Cor means only a literal physical cause of this kind. Where no biomarker exists, Cor uses no \"disease\" or \"disorder\" category: the output is a normal response to a mismatched world. Inborn (heritable) sensitivity sets how easily a person tips and how large the response is (DA10), developmental calibration can set the threshold early (DA7), and recurrent coupling can keep a response running after its trigger has passed (DA3). Persistence alone does not move a case across the line; a marker does. Labels such as psychosis, bipolar and depression are applied to cases on both sides, so a label settles nothing by itself. If a biomarker is found for a subset of a label, that subset moves to the physical side. Counterpoints kept: Nesse places psychotic depression and mania, which have no validated marker, in a separate class of broken mood regulation (ext 355, 358), and Keller & Miller read much heritable liability as mutational load (ext 590, 594). Cor records both as challenges and applies the biomarker line.",
+        "scope_notes": "The line is a biomarker (project decision, 4 Nov 2026). The line is a stance, and Cor states it as one: it decides which cases Cor calls disease. It is never offered as an empirical result about foragers or any other population. Where a measurable physical cause exists (brain infection, autoimmune encephalitis such as anti-NMDA-receptor encephalitis, tumour, poisoning, a substance or medication effect, dementia or another neurodegenerative process, brain injury), the person is sick and the behaviour is a symptom of that disease, with a marker to point to. Large-effect genetic variants that cause measurable physical damage beyond the behaviour sit on the same side: the 22q11.2 deletion, for example, brings heart defects, immune deficiency and low calcium, and in about 90 percent of cases it arises new in the child (McDonald-McGinn et al. 2015). \"Damage\" in Cor means only a literal physical cause of this kind. Where no biomarker exists, Cor uses no \"disease\" or \"disorder\" category: the output is a normal response to a mismatched world. Inborn sensitivity, set by common genetic variation, decides how easily a person tips and how large the response is (DA10); common variants set sensitivity and cause no disease. Developmental calibration can set the threshold early (DA7), and recurrent coupling can keep a response running after its trigger has passed (DA3). Cor reads autism and ADHD traits without a physical cause of the kind above as normal heritable variation (DA10), with the distress and impairment coming from the setting the trait lands in. Persistence alone does not move a case across the line; a marker does. Labels such as psychosis, bipolar and depression are applied to cases on both sides, so a label settles nothing by itself. If a biomarker is found for a subset of a label, that subset moves to the physical side. Counterpoints kept: Nesse places psychotic depression and mania, which have no validated marker, in a separate class of broken mood regulation (ext 355, 358), and Keller & Miller read much heritable liability as mutational load (ext 590, 594). Cor records both as challenges and applies the biomarker line.",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -191,14 +191,25 @@
         "created_at": "2026-04-08T13:57:50.739198+00:00"
       },
       {
+        "id": 19,
+        "code": "DC3",
+        "layer": "consequence",
+        "name": "Environment as Primary Intervention Layer",
+        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "epistemic_grade": "plausible_synthesis",
+        "scope_notes": "DC3 is a leverage claim and a systemic-design claim, not a head-to-head comparative-efficacy claim. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support and remain valid tools. The CBT-as-proxy question - whether what is measured as cognitive intervention efficacy is partly driven by hidden environmental scaffolding such as therapeutic alliance, weekly attention, and structured agency-enabling tasks - is an open question Cor does not currently take a position on, but if true it would strengthen the underlying claim about leverage. DC3 was revised after Codex adversarial review (April 8, 2026) flagged the original reliably outperforms across measured domains as an unsupported comparative-efficacy claim, and the original follows from DA8 + DA9 framing as smuggling an empirical corollary into a derivation slot.",
+        "created_at": "2026-04-08T14:02:55.382263+00:00"
+      },
+      {
         "id": 18,
         "code": "OF2",
         "layer": "frame",
         "name": "Signal-Default Epistemology",
-        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects.",
+        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced in two ways. A measurable physical cause displaces it outright, and the output is then a symptom of that cause: acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. Developmental miscalibration carried forward and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers a threshold set early, or a loop that keeps running, more than the present input. Chronic dysregulation counts as a physical cause only where it is measured.",
         "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
         "epistemic_grade": "frame",
-        "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. The two claims operate at different levels and do not contradict. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The five-category list of decoupling exceptions is the working set, expanded from the original four after Codex adversarial review (April 8, 2026) flagged acute physiological state shifts as missing. Biomarker line (DA1, 4 Nov 2026): the list mixes two kinds of case. Acute organic disease or state shift, structural damage, and substance or medication effects are measurable physical causes, and the output is a symptom of that cause. Developmental miscalibration and chronic dysregulation displace the default reading of the CURRENT input without making the output a disease: a threshold set by early calibration (DA7) or by heritable sensitivity (DA10), or a loop kept running by coupled systems (DA3), is still a response. Chronic dysregulation counts as a physical cause only where it is measured, for example as an inflammatory profile (M8). Persistence across environmental change and loss of context-sensitivity are reasons to look for a physical cause and to check calibration and coupling; by themselves they do not license a disease label.",
+        "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. The two claims operate at different levels and do not contradict. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The list of decoupling exceptions is the working set: five categories after Codex adversarial review (April 8, 2026) flagged acute physiological state shifts as missing from the original four, and large-effect genetic variants with measurable physical effects added on 4 Nov 2026. The statement splits the list on the biomarker line (DA1, 4 Nov 2026). Acute organic disease or state shift, structural damage, large-effect variants such as the 22q11.2 deletion, and substance or medication effects are measurable physical causes, and the output is a symptom of that cause. Developmental miscalibration and chronic dysregulation displace the default reading of the CURRENT input without making the output a disease: a threshold set by early calibration (DA7) or by heritable sensitivity (DA10), or a loop kept running by coupled systems (DA3), is still a response. Chronic dysregulation counts as a physical cause only where it is measured, for example as an inflammatory profile (M8). Persistence across environmental change and loss of context-sensitivity are reasons to look for a physical cause and to check calibration and coupling; by themselves they do not license a disease label.",
         "created_at": "2026-04-08T14:00:24.018102+00:00"
       },
       {
@@ -209,19 +220,8 @@
         "statement": "Architecture parameters (drive gains, thresholds, calibration setpoints) vary between individuals within heritable ranges.",
         "derivation": "Complements DA7: DA7 says the environment tunes the operating point, developmentally and ongoing; DA10 says the tunable ranges themselves differ per person, substantially heritably. Grounded by C15 triangulation across three independent method families: twin designs (Polderman et al. 2015 meta-analysis of fifty years of twin studies), adoption/family designs (Plomin program), and molecular SNP-heritability from unrelated individuals (Yang et al. 2010 GCTA line). Canonical framing: Turkheimer 2000 three laws of behavior genetics.",
         "epistemic_grade": "strongly_supported",
-        "scope_notes": "Heritability is a population statistic under a given environment distribution, not individual determinism: it describes variance partitioning within that distribution and says nothing about what a changed environment does to the population mean. DA10 therefore does not weaken P3 - mismatch shifts the whole distribution regardless of where an individual sits in it. Nor does it license trait fatalism, which would contradict DC1 reversibility. The underlying heritability findings are among the most replicated in the field (Turkheimer first law); the mapping from measured trait heritability to architecture parameters (gains, thresholds, setpoints) is Cor's architectural interpretation, and that interpretive step is why the grade is strongly_supported rather than the top confidence tier.",
+        "scope_notes": "Heritability is a population statistic under a given environment distribution, not individual determinism: it describes variance partitioning within that distribution and says nothing about what a changed environment does to the population mean. DA10 therefore does not weaken P3 - mismatch shifts the whole distribution regardless of where an individual sits in it. Nor does it license trait fatalism, which would contradict DC1 reversibility. The underlying heritability findings are among the most replicated in the field (Turkheimer first law); the mapping from measured trait heritability to architecture parameters (gains, thresholds, setpoints) is Cor's architectural interpretation, and that interpretive step is why the grade is strongly_supported rather than the top confidence tier. Biomarker line (DA1, 4 Nov 2026): common genetic variants set sensitivity, meaning gains and thresholds, and cause no disease; a large-effect variant that causes measurable physical damage, such as the 22q11.2 deletion, sits on the physical side. Cor reads autism and ADHD traits without such a cause as normal heritable variation in these parameters, with the distress and impairment coming from the setting the trait lands in. Whether the traits carry advantages in a matched environment is a hypothesis with thin evidence. For ADHD there is one online foraging-task study, in which adults who screened positive left depleting patches sooner and earned higher reward rates (Barack et al. 2024), and one field study in which nomadic Ariaal men carrying the DRD4 7R allele, an allele linked to ADHD, had higher body mass and settled carriers lower (Eisenberg et al. 2008). For autism Cor holds none. Neither study is in Cor's evidence base, and the advantage reading carries no grade until one is.",
         "created_at": "2026-08-10T05:43:24.317829+00:00"
-      },
-      {
-        "id": 19,
-        "code": "DC3",
-        "layer": "consequence",
-        "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions. This does not preclude individual-level cognitive, pharmacological, or psychotherapeutic interventions where indicated; the claim is about default leverage and systemic design, not exclusivity or head-to-head comparative efficacy in individual cases.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
-        "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "DC3 is a leverage claim and a systemic-design claim, not a head-to-head comparative-efficacy claim. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support and remain valid tools. The CBT-as-proxy question - whether what is measured as cognitive intervention efficacy is partly driven by hidden environmental scaffolding such as therapeutic alliance, weekly attention, and structured agency-enabling tasks - is an open question Cor does not currently take a position on, but if true it would strengthen the underlying claim about leverage. DC3 was revised after Codex adversarial review (April 8, 2026) flagged the original reliably outperforms across measured domains as an unsupported comparative-efficacy claim, and the original follows from DA8 + DA9 framing as smuggling an empirical corollary into a derivation slot.",
-        "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
     "mechanisms": [
@@ -1038,99 +1038,6 @@
         }
       },
       {
-        "code": "M4",
-        "name": "Social Calibration / Play",
-        "tier": 1,
-        "grade": "established",
-        "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
-        "description": "Play system develops social skills. Absent in threatened or ill animals.",
-        "resolution_conditions": "Age-matched, self-directed, unsupervised play. Physical.",
-        "mismatch_prediction": "Structured activities replacing free play. Screens replacing bodies. Play deprivation.",
-        "proxy_gradient": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): age-matched, self-directed, unsupervised physical play with peers (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
-        "convergence_codes": [
-          "C2",
-          "C4",
-          "C12"
-        ],
-        "p1_basis": "Development (social skill acquisition)",
-        "phylogenetic_age": "~200Myr (mammalian, absent in reptiles)",
-        "source_researchers": [
-          "Panksepp",
-          "Pellis & Pellis",
-          "Gray"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [
-          "M1",
-          "M3"
-        ],
-        "cascade_interacts": [
-          "M2"
-        ],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": null,
-        "activation_class_secondary": null,
-        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): age-matched, self-directed, unsupervised physical play with peers (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
-          "preamble": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "age-matched, self-directed, unsupervised physical play with peers",
-              "state": "FULL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 1,
-              "label": "adult-structured supervised physical activity, organized sports",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "screen-mediated multiplayer play with real peers",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "solitary single-player screen play, no reciprocating partner",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "engineered companion-AI / supernormal variable-reward 'play' product",
-              "state": "ZERO",
-              "tag": "ARCHITECTURE-DERIVED",
-              "note": "architecture-derived"
-            }
-          ],
-          "trailing": "Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "R1",
         "name": "Touch",
         "tier": 3,
@@ -1577,6 +1484,99 @@
           "levels": [],
           "trailing": "",
           "demoted": "",
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M4",
+        "name": "Social Calibration / Play",
+        "tier": 1,
+        "grade": "established",
+        "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
+        "description": "Play system develops social skills. Absent in threatened or ill animals.",
+        "resolution_conditions": "Self-directed, unsupervised physical play with other children. In forager childhoods this is a mixed-age group.",
+        "mismatch_prediction": "Structured activities replacing free play. Screens replacing bodies. Play deprivation.",
+        "proxy_gradient": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
+        "convergence_codes": [
+          "C2",
+          "C4",
+          "C12"
+        ],
+        "p1_basis": "Development (social skill acquisition)",
+        "phylogenetic_age": "~200Myr (mammalian, absent in reptiles)",
+        "source_researchers": [
+          "Panksepp",
+          "Pellis & Pellis",
+          "Gray"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [
+          "M1",
+          "M3"
+        ],
+        "cascade_interacts": [
+          "M2"
+        ],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": null,
+        "activation_class_secondary": null,
+        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
+          "preamble": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods",
+              "state": "FULL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 1,
+              "label": "adult-structured supervised physical activity, organized sports",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "screen-mediated multiplayer play with real peers",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "solitary single-player screen play, no reciprocating partner",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "engineered companion-AI / supernormal variable-reward 'play' product",
+              "state": "ZERO",
+              "tag": "ARCHITECTURE-DERIVED",
+              "note": "architecture-derived"
+            }
+          ],
+          "trailing": "Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
+          "demoted": "",
+          "axes": [],
           "state_order": [
             "FULL",
             "ATTENUATED",
@@ -19043,38 +19043,6 @@
     ],
     "applications": [
       {
-        "id": 5,
-        "code": "A5",
-        "name": "Education and Child Development",
-        "description": "Current education treats children as cognitive agents to fill with information, organized around the economic value of the adult they will become. Cor reframes education as organism care: children are developing organisms with mechanism requirements that current school design routinely violates. M4 (play) requires unstructured, age-matched, unsupervised physical play - which contemporary schooling systematically removes. M7 (circadian) requires age-appropriate school start times and daylight exposure - routinely violated for adolescents. M10 (movement) requires embedded daily movement, not scheduled PE. M3 (attachment) requires stable caring relationships with specific adults - eroded by class-rotation designs. M9 (alloparenting) assumes children will be cared for by multiple trusted adults - which school + family-only models fail to provide. Educational reform under Cor begins by auditing the design against the mechanism inventory and redesigning to satisfy the resolution conditions of the developing organism.",
-        "relevant_foundations": [
-          "DA7",
-          "P2",
-          "DA2"
-        ],
-        "relevant_mechanisms": [
-          "M3",
-          "M4",
-          "M6",
-          "M7",
-          "M9",
-          "M10",
-          "R1"
-        ],
-        "evaluation_criteria": {
-          "movement_embedding": "Is movement embedded in the default school day, or is it a scheduled add-on? Embedded beats scheduled for M10 resolution.",
-          "play_deprivation_audit": "How many minutes/day of unstructured, age-matched, unsupervised physical play does the child have? (Benchmark: ≥90 min/day for children under 12; current average in many countries is <30 min.)",
-          "adult_attachment_stability": "How many trusted, stable adult relationships does the child have inside the school? (Cor's M3 prediction: children need multiple, not one, and stability across years matters.)",
-          "developmental_window_respect": "For each developmental window (M3 attachment, M4 play, M7 sleep timing, M9 alloparenting), does the educational environment provide the inputs that developmental calibration depends on?"
-        },
-        "example_outputs": [
-          "School start time policy: adolescent school start times before 8:30 AM systematically violate M7 during a developmental calibration window, producing measurable cognitive and emotional deficits. Evidence-based start times are ≥8:30 AM.",
-          "Recess and play policy: ≥90 min/day of unstructured outdoor play for primary school children; play leaders as facilitators not supervisors; no academic substitution.",
-          "Teacher stability and ratio: each child has stable access to ≥3 trusted adult educators across their primary years; adult-to-child ratios calibrated to attachment capacity rather than cost-minimization."
-        ],
-        "created_at": "2026-04-04T19:19:39.879157+00:00"
-      },
-      {
         "id": 1,
         "code": "A1",
         "name": "AI Alignment",
@@ -19256,7 +19224,7 @@
         "id": 2,
         "code": "A2",
         "name": "Clinical Practice",
-        "description": "Current psychiatry classifies many aversive presentations as disorders and treats them with suppression (pharmacotherapy, CBT targeting the experience). Cor applies the biomarker line (DA1). Where a measurable physical cause exists (infection, autoimmune encephalitis, tumour, poisoning, a substance or medication effect, dementia, brain injury), the behaviour is a symptom of that disease and the cause is treated. Where no biomarker exists, the presentation is read as an accurate signal of environmental mismatch: the architecture is working correctly, the environment is outside the expected range, heritable sensitivity sets how easily the person tips and how large the response is, and the signal is telling the clinician where to look. Labels such as psychosis, bipolar and depression cover cases on both sides of the line, so the first question is whether a physical cause is present. Clinical practice redesigned around Cor includes: (1) a search for a measurable physical cause, then an environmental audit against the mechanism inventory (M1-M14 + R1), before or alongside symptom treatment, (2) resolution-condition restoration as the first-line intervention where feasible, (3) symptom relief where it is needed, decided by the prescriber with the person. The mismatch reading is not a contraindication to medication (OF2), and nobody should stop or change a medication except with their prescriber.",
+        "description": "Current psychiatry classifies many aversive presentations as disorders and treats them with suppression (pharmacotherapy, CBT targeting the experience). Cor applies the biomarker line (DA1). Where a measurable physical cause exists (infection, autoimmune encephalitis, tumour, poisoning, a substance or medication effect, dementia, brain injury), the behaviour is a symptom of that disease and the cause is treated. Where no biomarker exists, the presentation is read as an accurate signal of environmental mismatch: the architecture is working correctly, the environment is outside the expected range, heritable sensitivity sets how easily the person tips and how large the response is, and the signal is telling the clinician where to look. Labels such as psychosis, bipolar and depression cover cases on both sides of the line, so the first question is whether a physical cause is present. Clinical practice redesigned around Cor includes: (1) a search for a measurable physical cause, then an environmental audit against the mechanism inventory (M1-M14 + R1), before or alongside symptom treatment, (2) resolution-condition restoration as the first-line intervention where feasible, (3) medication on the biomarker line. Where a physical cause is found, its treatment follows the medicine for that cause. Where no biomarker exists, there is no disease for a drug to treat, and the goal for a person on medication is to come off it: work on the cause, most often social, runs at the same time as a slow taper supervised by the prescriber. The two run together because a blunted signal also blunts the pain that points at what to fix, so fixing first and tapering later can stall. Where the passivity default (M6) is locked so hard that the person cannot act at all, some lift may come first. An abrupt stop is never part of the line: abrupt benzodiazepine withdrawal can cause seizures, stopping lithium abruptly raises the risk of relapse and suicide, and antidepressant withdrawal can be severe.",
         "relevant_foundations": [
           "DA1",
           "DA3",
@@ -19275,13 +19243,45 @@
         "evaluation_criteria": {
           "mechanism_audit": "For each presenting symptom, which mechanism(s) is it a signal from? Which resolution conditions are currently unmet?",
           "category_distinction": "Is there a measurable physical cause (infection, autoimmune encephalitis, tumour, poisoning, a substance or medication effect, dementia, brain injury)? If yes, the behaviour is a symptom of that disease and the cause is treated. If no biomarker is found: which mechanism is signalling, what sets its threshold (heritable sensitivity, DA10; developmental calibration, DA7), and is a coupled loop keeping it running after the trigger has passed (DA3)? Treatment differs in each case.",
-          "environment_vs_organism": "Can the environment be corrected? If yes, try that first - it's the less invasive and more durable intervention.",
+          "environment_vs_organism": "Can the environment be corrected? If yes, try that first: it is the less invasive and more durable intervention.",
           "proxy_versus_resolution": "Are current interventions (pharmacological or behavioral) providing resolution or only attenuating the signal? A proxy that attenuates without resolving maintains the underlying mismatch."
         },
         "example_outputs": [
-          "A depressed patient with poor sleep, sedentary work, and isolated living should get a mechanism audit (M7, M10, M3) before SSRI initiation. Ilardi's TLC protocol evidence supports this ordering.",
-          "Panic attacks that start after a period of sleep deprivation have M7-driven amygdala hyperreactivity as the likely driver (Walker). Treatment: sleep restoration, not benzodiazepine chronic use.",
-          "Adolescent anxiety in a high-device / low-movement / low-outdoor context may be M7 + M10 + M4 deprivation expressing as M1 over-activation. SSRI before environmental audit is missing the signal."
+          "Low mood with no physical cause found, in a person with poor sleep, sedentary work and isolated living: a mechanism audit (M7, M10, M3) names the unmet inputs, and the work starts on them. Ilardi's TLC protocol (ED5) targets these same inputs. If the person takes an antidepressant, the goal is to come off it, with a slow taper supervised by the prescriber running at the same time as the work on sleep, movement and company. Never an abrupt stop.",
+          "Panic attacks that start after a period of sleep deprivation have M7-driven amygdala hyperreactivity as the likely driver (Walker). Treatment: sleep restoration. Long-term benzodiazepine use quiets the signal and leaves the sleep loss in place; where one is already in use, it comes off by a slow taper supervised by the prescriber, because abrupt benzodiazepine withdrawal can cause seizures.",
+          "Adolescent anxiety in a high-device, low-movement, low-outdoor context may be M7, M10 and M4 deprivation expressing as M1 over-activation. The work starts on sleep, movement, daylight and free play with other children. A prescription started before that audit quiets the signal and leaves its source in place."
+        ],
+        "created_at": "2026-04-04T19:19:39.879157+00:00"
+      },
+      {
+        "id": 5,
+        "code": "A5",
+        "name": "Education and Child Development",
+        "description": "Current education treats children as cognitive agents to fill with information, organized around the economic value of the adult they will become. Cor reframes education as organism care: children are developing organisms with mechanism requirements that current school design routinely violates. M4 (play) requires unstructured, unsupervised physical play with other children (in forager childhoods, a mixed-age group), which contemporary schooling systematically removes. M7 (circadian) requires age-appropriate school start times and daylight exposure - routinely violated for adolescents. M10 (movement) requires embedded daily movement, not scheduled PE. M3 (attachment) requires stable caring relationships with specific adults - eroded by class-rotation designs. M9 (alloparenting) assumes children will be cared for by multiple trusted adults - which school + family-only models fail to provide. Educational reform under Cor begins by auditing the design against the mechanism inventory and redesigning to satisfy the resolution conditions of the developing organism.",
+        "relevant_foundations": [
+          "DA7",
+          "P2",
+          "DA2"
+        ],
+        "relevant_mechanisms": [
+          "M3",
+          "M4",
+          "M6",
+          "M7",
+          "M9",
+          "M10",
+          "R1"
+        ],
+        "evaluation_criteria": {
+          "movement_embedding": "Is movement embedded in the default school day, or is it a scheduled add-on? Embedded beats scheduled for M10 resolution.",
+          "play_deprivation_audit": "How many minutes/day of unstructured, unsupervised physical play with other children, older and younger included, does the child have? (Benchmark: ≥90 min/day for children under 12; current average in many countries is <30 min.)",
+          "adult_attachment_stability": "How many trusted, stable adult relationships does the child have inside the school? (Cor's M3 prediction: children need multiple, not one, and stability across years matters.)",
+          "developmental_window_respect": "For each developmental window (M3 attachment, M4 play, M7 sleep timing, M9 alloparenting), does the educational environment provide the inputs that developmental calibration depends on?"
+        },
+        "example_outputs": [
+          "School start time policy: adolescent school start times before 8:30 AM systematically violate M7 during a developmental calibration window, producing measurable cognitive and emotional deficits. Evidence-based start times are ≥8:30 AM.",
+          "Recess and play policy: ≥90 min/day of unstructured outdoor play for primary school children; play leaders as facilitators not supervisors; no academic substitution.",
+          "Teacher stability and ratio: each child has stable access to ≥3 trusted adult educators across their primary years; adult-to-child ratios calibrated to attachment capacity rather than cost-minimization."
         ],
         "created_at": "2026-04-04T19:19:39.879157+00:00"
       }
@@ -19952,62 +19952,6 @@
         ]
       },
       {
-        "code": "EEA-CARE-03",
-        "domain": "care_development",
-        "name": "Mixed-age child playgroups as developmental input",
-        "eea_baseline": "Ancestral children developed social competence largely through self-organized, free, physically-active play with a mixed-age band of other children - younger and older mixed together - rather than under continuous adult supervision or in age-segregated peer cohorts. Rough-and-tumble and pretend play during the juvenile period is a dedicated developmental input: in the mammalian design, play is a distinct emotional system (Panksepp's PLAY) and play experience physically tunes the maturing prefrontal cortex, refining the circuits that later dampen the amygdala and support social reciprocity, partner discrimination, and emotional regulation. Critically, the AMOUNT and quality of play partners matters: animals raised with more play partners show progressively greater play experience and corresponding PFC development, and even the untreated playmates of more-playful partners develop greater cortical thickness - play is a partnered input, so a richer multi-partner (and, in the human case, multi-age) play environment is the expected calibrating stimulus.",
-        "eea_value": null,
-        "modern_default": "Modern childhood compresses or eliminates free mixed-age play: age-segregated grade cohorts and daycare, adult-structured and supervised activities, indoor screen-based leisure, reduced unsupervised outdoor roaming, and safety norms that discourage rough-and-tumble. Children spend far less time in self-directed, physically-active, mixed-age peer play than the developmental window evolved to expect.",
-        "gap_statement": "The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. Because play partners causally shape PFC development and social-reciprocity circuits, reduced free play is plausibly a genuine developmental-input deficit, not merely a lifestyle change.",
-        "resolution_unit": "Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, screen time, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - is NOT verbatim-grounded in Cor's extractions; the ethnographic age-band detail is absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote.",
-        "created_at": "2026-06-08T12:32:36.274575+00:00",
-        "updated_at": "2026-06-08T12:32:36.274575+00:00",
-        "mechanism_codes": [
-          "M4",
-          "M9"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 212,
-            "evidence_role": "primary",
-            "author_quote": "We found that play fighting in juvenile rats alters the dendritic branching of the neurons of the prefrontal cortex, with the arborization of the basilar dendrites of the OFC cells increasing and that of the apical dendrites of the mPFC cells decreasing.",
-            "evidence_quality": "clinical",
-            "content": "Pellis lab original finding: juvenile play fighting experience changes the dendritic branching (arborization) of neurons in the prefrontal cortex - specifically, basilar dendrites of OFC cells increase and apical dendrites of mPFC cells decrease in response to play fighting exper"
-          },
-          {
-            "extraction_id": 220,
-            "evidence_role": "supporting",
-            "author_quote": "Measures of cortical thickness reveal that these more masculine rats have a greater volume of cortex and that the sex-typical asymmetry of their right hemisphere versus their left one is exaggerated relative to control males that were injected with an equal volume of oil. There is nothing particularly unexpected in this finding. However, when the untreated playmates of the testosterone-treated and oil-treated animals were compared, it was found that the partners of the more playful rats also tended to have greater cortical thickness. Just growing up with a more playful partner influences the development of the cortex!",
-            "evidence_quality": "clinical",
-            "content": "Pellis lab finding: male rats injected with testosterone shortly after birth play more AND develop greater cortical thickness, with exaggerated right-vs-left hemisphere asymmetry. Critically, the UNTREATED playmates of testosterone-treated rats also tended to have greater cortica"
-          },
-          {
-            "extraction_id": 216,
-            "evidence_role": "supporting",
-            "author_quote": "emotional responses are dependent on the activation of the amygdala, and, as we discussed in chapter 3, the amygdala is likely crucial to ensuring playful reciprocity. The prefrontal cortex dampens the activity of the amygdala, which thus prevents emotional overreaction. Here is a potential mechanism by which experience with play fighting in the juvenile period refines the prefrontal circuits, and, in doing so, produces animals that are better able to regulate their subcortically generated emotions.",
-            "evidence_quality": "theoretical",
-            "content": "Pellis's causal-mechanism proposal: play fighting in the juvenile period refines prefrontal circuits that dampen amygdala activity, which in turn prevents emotional overreaction in adult social situations. The amygdala is load-bearing for emotional-response generation (including "
-          },
-          {
-            "extraction_id": 256,
-            "evidence_role": "supporting",
-            "author_quote": "In addition to the preceding primitive systems that are evident in all mammals soon after birth, we also have more sophisticated special-purpose socioemotional systems that are engaged at appropriate times in the lives of all mammals-for instance, those that mediate sexual LUST (see Chapter 12), maternal CARE (see Chapter 13), and roughhousing PLAY (see Chapter 15). Each of these is built around neural complexities that are only provisionally understood. Sexual urges are mediated by specific brain circuits and chemistries that are quite distinct for males and females but appear to share some components such as the physiological and psychological effects of oxytocin, which also promotes maternal motivation.",
-            "evidence_quality": "theoretical",
-            "content": "Panksepp's identification of three additional special-purpose socioemotional systems beyond the 4 primitive ones: sexual LUST (Ch 12), maternal CARE (Ch 13), and roughhousing PLAY (Ch 15). Sexual urges are mediated by distinct brain circuits and chemistries for males and females "
-          },
-          {
-            "extraction_id": 274,
-            "evidence_role": "supporting",
-            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
-            "evidence_quality": "theoretical",
-            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
-          }
-        ]
-      },
-      {
         "code": "EEA-CARE-04",
         "domain": "care_development",
         "name": "Multigenerational presence (grandmothers as provisioning kin)",
@@ -20114,6 +20058,62 @@
             "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
             "evidence_quality": "theoretical",
             "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
+          }
+        ]
+      },
+      {
+        "code": "EEA-CARE-03",
+        "domain": "care_development",
+        "name": "Mixed-age child playgroups as developmental input",
+        "eea_baseline": "Ancestral children developed social competence largely through self-organized, free, physically-active play with a mixed-age band of other children - younger and older mixed together - rather than under continuous adult supervision or in age-segregated peer cohorts. Rough-and-tumble and pretend play during the juvenile period is a dedicated developmental input: in the mammalian design, play is a distinct emotional system (Panksepp's PLAY) and play experience physically tunes the maturing prefrontal cortex, refining the circuits that later dampen the amygdala and support social reciprocity, partner discrimination, and emotional regulation. Critically, the AMOUNT and quality of play partners matters: animals raised with more play partners show progressively greater play experience and corresponding PFC development, and even the untreated playmates of more-playful partners develop greater cortical thickness - play is a partnered input, so a richer multi-partner (and, in the human case, multi-age) play environment is the expected calibrating stimulus.",
+        "eea_value": null,
+        "modern_default": "Modern childhood compresses or eliminates free mixed-age play: age-segregated grade cohorts and daycare, adult-structured and supervised activities, indoor screen-based leisure, reduced unsupervised outdoor roaming, and safety norms that discourage rough-and-tumble. Children spend far less time in self-directed, physically-active, mixed-age peer play than the developmental window evolved to expect.",
+        "gap_statement": "The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. Because play partners causally shape PFC development and social-reciprocity circuits, reduced free play is plausibly a genuine developmental-input deficit, not merely a lifestyle change.",
+        "resolution_unit": "Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, screen time, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - was NOT verbatim-grounded in Cor's extractions when this row was written (June 2026); the numeric age band is still absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote. Update 4 Nov 2026: the mixed-age baseline is now grounded in background-tier evidence linked to this row: a meta-ethnographic review in which children 'transition into the multi-age playgroup' (Lew-Levy et al. 2017, verbatim), Konner 2010, and studies of children learning from and teaching other children (Lew-Levy et al. 2018, 2020). M4's resolution condition, which said 'age-matched', was reconciled to this row the same day. No Cor extraction supports age-matching: the rat partner studies compare more peers, fewer peers and an adult female only (212), and isolated monkeys recovered with younger partners (542). The grade stays theoretical: no extraction tests whether age mixing itself, beyond partnered play, changes outcomes, the brain evidence is cross-species, and the causal role of pretend play is contested (Lillard et al. 2013, background tier).",
+        "created_at": "2026-06-08T12:32:36.274575+00:00",
+        "updated_at": "2026-06-08T12:32:36.274575+00:00",
+        "mechanism_codes": [
+          "M4",
+          "M9"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 212,
+            "evidence_role": "primary",
+            "author_quote": "We found that play fighting in juvenile rats alters the dendritic branching of the neurons of the prefrontal cortex, with the arborization of the basilar dendrites of the OFC cells increasing and that of the apical dendrites of the mPFC cells decreasing.",
+            "evidence_quality": "clinical",
+            "content": "Pellis lab original finding: juvenile play fighting experience changes the dendritic branching (arborization) of neurons in the prefrontal cortex - specifically, basilar dendrites of OFC cells increase and apical dendrites of mPFC cells decrease in response to play fighting exper"
+          },
+          {
+            "extraction_id": 220,
+            "evidence_role": "supporting",
+            "author_quote": "Measures of cortical thickness reveal that these more masculine rats have a greater volume of cortex and that the sex-typical asymmetry of their right hemisphere versus their left one is exaggerated relative to control males that were injected with an equal volume of oil. There is nothing particularly unexpected in this finding. However, when the untreated playmates of the testosterone-treated and oil-treated animals were compared, it was found that the partners of the more playful rats also tended to have greater cortical thickness. Just growing up with a more playful partner influences the development of the cortex!",
+            "evidence_quality": "clinical",
+            "content": "Pellis lab finding: male rats injected with testosterone shortly after birth play more AND develop greater cortical thickness, with exaggerated right-vs-left hemisphere asymmetry. Critically, the UNTREATED playmates of testosterone-treated rats also tended to have greater cortica"
+          },
+          {
+            "extraction_id": 216,
+            "evidence_role": "supporting",
+            "author_quote": "emotional responses are dependent on the activation of the amygdala, and, as we discussed in chapter 3, the amygdala is likely crucial to ensuring playful reciprocity. The prefrontal cortex dampens the activity of the amygdala, which thus prevents emotional overreaction. Here is a potential mechanism by which experience with play fighting in the juvenile period refines the prefrontal circuits, and, in doing so, produces animals that are better able to regulate their subcortically generated emotions.",
+            "evidence_quality": "theoretical",
+            "content": "Pellis's causal-mechanism proposal: play fighting in the juvenile period refines prefrontal circuits that dampen amygdala activity, which in turn prevents emotional overreaction in adult social situations. The amygdala is load-bearing for emotional-response generation (including "
+          },
+          {
+            "extraction_id": 256,
+            "evidence_role": "supporting",
+            "author_quote": "In addition to the preceding primitive systems that are evident in all mammals soon after birth, we also have more sophisticated special-purpose socioemotional systems that are engaged at appropriate times in the lives of all mammals-for instance, those that mediate sexual LUST (see Chapter 12), maternal CARE (see Chapter 13), and roughhousing PLAY (see Chapter 15). Each of these is built around neural complexities that are only provisionally understood. Sexual urges are mediated by specific brain circuits and chemistries that are quite distinct for males and females but appear to share some components such as the physiological and psychological effects of oxytocin, which also promotes maternal motivation.",
+            "evidence_quality": "theoretical",
+            "content": "Panksepp's identification of three additional special-purpose socioemotional systems beyond the 4 primitive ones: sexual LUST (Ch 12), maternal CARE (Ch 13), and roughhousing PLAY (Ch 15). Sexual urges are mediated by distinct brain circuits and chemistries for males and females "
+          },
+          {
+            "extraction_id": 274,
+            "evidence_role": "supporting",
+            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
+            "evidence_quality": "theoretical",
+            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
           }
         ]
       },
@@ -23116,8 +23116,8 @@
       "M9": [
         "EEA-CARE-01",
         "EEA-CARE-02",
-        "EEA-CARE-03",
-        "EEA-CARE-04"
+        "EEA-CARE-04",
+        "EEA-CARE-03"
       ],
       "R1": [
         "EEA-CARE-02",
