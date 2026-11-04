@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-04T07:30:11.559516+00:00",
+    "built_at": "2026-11-04T09:36:46.365954+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -11,7 +11,7 @@
     "domains": 23,
     "gaps": 16,
     "works": 159,
-    "extractions": 659,
+    "extractions": 658,
     "researchers": 84,
     "mechanism_evidence": 997,
     "empirical_demonstrations": 9,
@@ -21,7 +21,7 @@
     "parameter_mechanism": 62,
     "parameter_evidence": 158,
     "foundation_convergences": 15,
-    "challenges": 10
+    "challenges": 8
   },
   "tables": {
     "foundations": [
@@ -220,7 +220,7 @@
         "statement": "Architecture parameters (drive gains, thresholds, calibration setpoints) vary between individuals within heritable ranges.",
         "derivation": "Complements DA7: DA7 says the environment tunes the operating point, developmentally and ongoing; DA10 says the tunable ranges themselves differ per person, substantially heritably. Grounded by C15 triangulation across three independent method families: twin designs (Polderman et al. 2015 meta-analysis of fifty years of twin studies), adoption/family designs (Plomin program), and molecular SNP-heritability from unrelated individuals (Yang et al. 2010 GCTA line). Canonical framing: Turkheimer 2000 three laws of behavior genetics.",
         "epistemic_grade": "strongly_supported",
-        "scope_notes": "Heritability is a population statistic under a given environment distribution, not individual determinism: it describes variance partitioning within that distribution and says nothing about what a changed environment does to the population mean. DA10 therefore does not weaken P3 - mismatch shifts the whole distribution regardless of where an individual sits in it. Nor does it license trait fatalism, which would contradict DC1 reversibility. The underlying heritability findings are among the most replicated in the field (Turkheimer first law); the mapping from measured trait heritability to architecture parameters (gains, thresholds, setpoints) is Cor's architectural interpretation, and that interpretive step is why the grade is strongly_supported rather than the top confidence tier. Biomarker line (DA1, 4 Nov 2026): common genetic variants set sensitivity, meaning gains and thresholds, and cause no disease; a large-effect variant that causes measurable physical damage, such as the 22q11.2 deletion, sits on the physical side. Cor reads autism and ADHD traits without such a cause as normal heritable variation in these parameters, with the distress and impairment coming from the setting the trait lands in. Whether the traits carry advantages in a matched environment is a hypothesis with thin evidence. For ADHD there is one online foraging-task study, in which adults who screened positive left depleting patches sooner and earned higher reward rates (Barack et al. 2024), and one field study in which nomadic Ariaal men carrying the DRD4 7R allele, an allele linked to ADHD, had higher body mass and settled carriers lower (Eisenberg et al. 2008). For autism Cor holds none. Neither study is in Cor's evidence base, and the advantage reading carries no grade until one is.",
+        "scope_notes": "Heritability is a population statistic under a given environment distribution, not individual determinism: it describes variance partitioning within that distribution and says nothing about what a changed environment does to the population mean. DA10 therefore does not weaken P3 - mismatch shifts the whole distribution regardless of where an individual sits in it. Nor does it license trait fatalism, which would contradict DC1 reversibility. The underlying heritability findings are among the most replicated in the field (Turkheimer first law); the mapping from measured trait heritability to architecture parameters (gains, thresholds, setpoints) is Cor's architectural interpretation, and that interpretive step is why the grade is strongly_supported rather than the top confidence tier. Biomarker line (DA1, 4 Nov 2026): common genetic variants set sensitivity, meaning gains and thresholds, and cause no disease; a large-effect variant that causes measurable physical damage, such as the 22q11.2 deletion, sits on the physical side. Cor reads autism and ADHD traits without such a cause as normal heritable variation in these parameters, with the distress and impairment coming from the setting the trait lands in. Whether the traits carry advantages in a matched environment is an untested hypothesis, theoretical at most, and no record in Cor supports it. The studies usually cited do not test it: an online foraging task with modern adults, in which those who screened positive for ADHD left depleting patches sooner and earned higher reward rates (Barack et al. 2024), and a study of Ariaal pastoralist men that measured body mass against DRD4 7R genotype and no behaviour or attention (Eisenberg et al. 2008). For autism Cor holds none. Neither study is in Cor's evidence base, and the advantage reading carries no grade until a source that tests it is.",
         "created_at": "2026-08-10T05:43:24.317829+00:00"
       }
     ],
@@ -1124,97 +1124,6 @@
         }
       },
       {
-        "code": "M8",
-        "name": "Immune Regulation",
-        "tier": 1,
-        "grade": "established",
-        "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
-        "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to depression via DA3 cascade.",
-        "resolution_conditions": "Pathogen cleared, inflammation resolved.",
-        "mismatch_prediction": "Chronic low-grade inflammation from diet, sedentarism, social isolation.",
-        "proxy_gradient": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
-        "convergence_codes": [
-          "C3",
-          "C7",
-          "C9"
-        ],
-        "p1_basis": null,
-        "phylogenetic_age": "~600Myr (all multicellular)",
-        "source_researchers": [
-          "Dantzer",
-          "Danese",
-          "Irwin"
-        ],
-        "cascade_suppresses": [
-          "M2",
-          "M14"
-        ],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": "event_triggered",
-        "activation_class_secondary": null,
-        "activation_note": "Fires on infection or injury; sickness behavior runs until inflammation resolves.",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
-          "preamble": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "acute infection/injury fought off and fully resolved",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "recurrent acute stress resolving each time but with incomplete recovery",
-              "state": "ATTENUATED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "chronic social isolation/status stress defeating the inflammatory off-switch",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "self-sustaining chronic low-grade inflammation, allostatic-load collapse",
-              "state": "DEFEATED",
-              "tag": null,
-              "note": ""
-            }
-          ],
-          "trailing": "All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M6",
         "name": "Controllability / Agency",
         "tier": 1,
@@ -1287,6 +1196,97 @@
             }
           ],
           "trailing": "Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one; most contestable: the MINIMAL-vs-ZERO ordering.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M8",
+        "name": "Immune Regulation",
+        "tier": 1,
+        "grade": "established",
+        "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
+        "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to low mood via DA3 cascade.",
+        "resolution_conditions": "Pathogen cleared, inflammation resolved.",
+        "mismatch_prediction": "Chronic low-grade inflammation from diet, sedentarism, social isolation.",
+        "proxy_gradient": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
+        "convergence_codes": [
+          "C3",
+          "C7",
+          "C9"
+        ],
+        "p1_basis": null,
+        "phylogenetic_age": "~600Myr (all multicellular)",
+        "source_researchers": [
+          "Dantzer",
+          "Danese",
+          "Irwin"
+        ],
+        "cascade_suppresses": [
+          "M2",
+          "M14"
+        ],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": "event_triggered",
+        "activation_class_secondary": null,
+        "activation_note": "Fires on infection or injury; sickness behavior runs until inflammation resolves.",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
+          "preamble": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "acute infection/injury fought off and fully resolved",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "recurrent acute stress resolving each time but with incomplete recovery",
+              "state": "ATTENUATED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "chronic social isolation/status stress defeating the inflammatory off-switch",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "self-sustaining chronic low-grade inflammation, allostatic-load collapse",
+              "state": "DEFEATED",
+              "tag": null,
+              "note": ""
+            }
+          ],
+          "trailing": "All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -1978,14 +1978,6 @@
         "created_at": "2026-04-04T19:30:44.821523+00:00"
       },
       {
-        "id": 8,
-        "name": "Inflammation and Immune Regulation",
-        "primary_mechanism": "M8",
-        "cross_cutting": false,
-        "description": "Sickness behavior research, cytokine signaling, inflammation-depression links, and the cascading role of chronic low-grade inflammation. Maps to M8; key hub for DA3 cascading and A2 clinical rethinking.",
-        "created_at": "2026-04-04T19:30:44.821523+00:00"
-      },
-      {
         "id": 9,
         "name": "Alloparenting and Distributed Care",
         "primary_mechanism": "M9",
@@ -2039,14 +2031,6 @@
         "primary_mechanism": "R1",
         "cross_cutting": false,
         "description": "C-tactile afferent research (McGlone), skin-to-skin contact trials (Feldman, Charpak kangaroo care), and touch as a regulatory input to M3 rather than a standalone motivational system. Maps to R1.",
-        "created_at": "2026-04-04T19:30:44.821523+00:00"
-      },
-      {
-        "id": 16,
-        "name": "Cascade Dynamics",
-        "primary_mechanism": null,
-        "cross_cutting": true,
-        "description": "Cross-mechanism cascade research: depression cascades, anxiety-insomnia spirals, social isolation cascades, sickness behavior traps, status-defeat cascades, parent burnout, proxy hijacking spirals, and reproductive disruption cascades. Grounds DA3 (cascading) and DA8 (phylogenetic priority). Central for A2 clinical reasoning about which lever to pull first.",
         "created_at": "2026-04-04T19:30:44.821523+00:00"
       },
       {
@@ -2111,6 +2095,22 @@
         "primary_mechanism": "M7",
         "cross_cutting": false,
         "description": "SCN master clock research, chronotype variation, social jetlag, sleep deprivation consequences, and chronotherapy in psychiatric care. Maps to M7; large evidence base and central to A2 clinical and A3 environment design.",
+        "created_at": "2026-04-04T19:30:44.821523+00:00"
+      },
+      {
+        "id": 8,
+        "name": "Inflammation and Immune Regulation",
+        "primary_mechanism": "M8",
+        "cross_cutting": false,
+        "description": "Sickness behavior research, cytokine signaling, links between inflammation and low mood, and the cascading role of chronic low-grade inflammation. Maps to M8; key hub for DA3 cascading and A2 clinical rethinking.",
+        "created_at": "2026-04-04T19:30:44.821523+00:00"
+      },
+      {
+        "id": 16,
+        "name": "Cascade Dynamics",
+        "primary_mechanism": null,
+        "cross_cutting": true,
+        "description": "Cross-mechanism cascade research: low-mood cascades, anxiety-insomnia spirals, social isolation cascades, sickness behavior traps, status-defeat cascades, parent burnout, proxy hijacking spirals, and reproductive disruption cascades. Grounds DA3 (cascading) and DA8 (phylogenetic priority). Central for A2 clinical reasoning about which lever to pull first.",
         "created_at": "2026-04-04T19:30:44.821523+00:00"
       },
       {
@@ -3780,19 +3780,6 @@
         "source_type": "primary"
       },
       {
-        "id": 145,
-        "work_id": 54,
-        "mechanism_codes": [
-          "M3",
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 10,
         "work_id": 3,
         "mechanism_codes": [],
@@ -4231,27 +4218,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 53,
-        "work_id": 26,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA3",
-          "DA7"
-        ],
-        "evidence_quality": "longitudinal",
-        "source_type": "primary"
-      },
-      {
-        "id": 54,
-        "work_id": 26,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA3"
-        ],
-        "evidence_quality": "longitudinal",
-        "source_type": "primary"
-      },
-      {
         "id": 51,
         "work_id": 25,
         "mechanism_codes": [
@@ -4408,18 +4374,6 @@
           "DA7"
         ],
         "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
-        "id": 70,
-        "work_id": 32,
-        "mechanism_codes": [
-          "M6"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -4676,18 +4630,6 @@
         "source_type": "challenge"
       },
       {
-        "id": 103,
-        "work_id": 46,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge"
-      },
-      {
         "id": 283,
         "work_id": 61,
         "mechanism_codes": [
@@ -4914,7 +4856,7 @@
         "foundation_codes": [
           "DA2"
         ],
-        "evidence_quality": "replicated",
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -4980,18 +4922,6 @@
         "source_type": "primary"
       },
       {
-        "id": 131,
-        "work_id": 27,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 133,
         "work_id": 27,
         "mechanism_codes": [
@@ -5029,6 +4959,17 @@
         "source_type": "primary"
       },
       {
+        "id": 135,
+        "work_id": 53,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1",
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
         "id": 532,
         "work_id": 75,
         "mechanism_codes": [],
@@ -5046,17 +4987,6 @@
           "M2",
           "M6"
         ],
-        "foundation_codes": [
-          "DA1",
-          "OF2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 135,
-        "work_id": 53,
-        "mechanism_codes": [],
         "foundation_codes": [
           "DA1",
           "OF2"
@@ -5593,21 +5523,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 527,
-        "work_id": 79,
-        "mechanism_codes": [
-          "M2",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3",
-          "DA8"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
         "id": 500,
         "work_id": 71,
         "mechanism_codes": [
@@ -5663,15 +5578,13 @@
         "source_type": "primary"
       },
       {
-        "id": 528,
-        "work_id": 79,
+        "id": 597,
+        "work_id": 114,
         "mechanism_codes": [
-          "M3"
+          "M12"
         ],
         "foundation_codes": [
-          "DA1",
-          "DA2",
-          "DA8"
+          "P2"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -5687,18 +5600,6 @@
           "DA1"
         ],
         "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
-        "id": 597,
-        "work_id": 114,
-        "mechanism_codes": [
-          "M12"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -6032,21 +5933,6 @@
         "source_type": "primary"
       },
       {
-        "id": 310,
-        "work_id": 11,
-        "mechanism_codes": [
-          "M3",
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "DA3",
-          "DC1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 542,
         "work_id": 83,
         "mechanism_codes": [
@@ -6072,18 +5958,6 @@
           "DA4"
         ],
         "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
-        "id": 96,
-        "work_id": 41,
-        "mechanism_codes": [
-          "M12"
-        ],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -6238,19 +6112,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 153,
-        "work_id": 54,
-        "mechanism_codes": [
-          "M3",
-          "M6"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation"
-      },
-      {
         "id": 189,
         "work_id": 56,
         "mechanism_codes": [
@@ -6286,18 +6147,6 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
-      },
-      {
-        "id": 192,
-        "work_id": 56,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation"
       },
       {
         "id": 312,
@@ -6376,19 +6225,6 @@
         "foundation_codes": [
           "P2",
           "DA7"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation"
-      },
-      {
-        "id": 156,
-        "work_id": 55,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DC1"
         ],
         "evidence_quality": "theoretical",
         "source_type": "propagation"
@@ -7086,18 +6922,6 @@
         "source_type": "primary"
       },
       {
-        "id": 95,
-        "work_id": 41,
-        "mechanism_codes": [
-          "M12"
-        ],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 221,
         "work_id": 58,
         "mechanism_codes": [
@@ -7245,18 +7069,6 @@
         "source_type": "primary"
       },
       {
-        "id": 104,
-        "work_id": 47,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge"
-      },
-      {
         "id": 105,
         "work_id": 48,
         "mechanism_codes": [
@@ -7317,19 +7129,6 @@
         "source_type": "primary"
       },
       {
-        "id": 236,
-        "work_id": 59,
-        "mechanism_codes": [
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DC1"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
-      },
-      {
         "id": 228,
         "work_id": 59,
         "mechanism_codes": [
@@ -7353,6 +7152,19 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
+      },
+      {
+        "id": 236,
+        "work_id": 59,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DC1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
       },
       {
         "id": 230,
@@ -7379,17 +7191,14 @@
         "source_type": "propagation"
       },
       {
-        "id": 232,
-        "work_id": 59,
+        "id": 85,
+        "work_id": 38,
         "mechanism_codes": [
-          "M8"
+          "M7"
         ],
-        "foundation_codes": [
-          "DA1",
-          "DC1"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
+        "foundation_codes": [],
+        "evidence_quality": "thin",
+        "source_type": "primary"
       },
       {
         "id": 233,
@@ -7404,28 +7213,6 @@
         ],
         "evidence_quality": "replicated",
         "source_type": "propagation"
-      },
-      {
-        "id": 85,
-        "work_id": 38,
-        "mechanism_codes": [
-          "M7"
-        ],
-        "foundation_codes": [],
-        "evidence_quality": "thin",
-        "source_type": "primary"
-      },
-      {
-        "id": 234,
-        "work_id": 59,
-        "mechanism_codes": [
-          "M8"
-        ],
-        "foundation_codes": [
-          "DC1"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "primary"
       },
       {
         "id": 63,
@@ -8770,20 +8557,6 @@
         "source_type": "primary"
       },
       {
-        "id": 526,
-        "work_id": 79,
-        "mechanism_codes": [
-          "M2",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 81,
         "work_id": 36,
         "mechanism_codes": [
@@ -8834,7 +8607,7 @@
           "DA6",
           "OF2"
         ],
-        "evidence_quality": "clinical",
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -9144,19 +8917,6 @@
         "source_type": "primary"
       },
       {
-        "id": 441,
-        "work_id": 32,
-        "mechanism_codes": [
-          "M6"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA5"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 579,
         "work_id": 100,
         "mechanism_codes": [
@@ -9285,23 +9045,6 @@
         "source_type": "primary"
       },
       {
-        "id": 453,
-        "work_id": 26,
-        "mechanism_codes": [
-          "M1",
-          "M3",
-          "M6",
-          "M9"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DC1",
-          "DA3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "primary"
-      },
-      {
         "id": 454,
         "work_id": 26,
         "mechanism_codes": [
@@ -9327,6 +9070,23 @@
           "P2"
         ],
         "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 453,
+        "work_id": 26,
+        "mechanism_codes": [
+          "M1",
+          "M3",
+          "M6",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DC1",
+          "DA3"
+        ],
+        "evidence_quality": "meta_analysis",
         "source_type": "primary"
       },
       {
@@ -9498,48 +9258,6 @@
           "DA1"
         ],
         "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 307,
-        "work_id": 11,
-        "mechanism_codes": [
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA3",
-          "DC1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 308,
-        "work_id": 11,
-        "mechanism_codes": [
-          "M1",
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3",
-          "DC1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 309,
-        "work_id": 11,
-        "mechanism_codes": [
-          "M1",
-          "M5",
-          "M6"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "thin",
         "source_type": "primary"
       },
       {
@@ -9726,21 +9444,6 @@
         "source_type": "primary"
       },
       {
-        "id": 327,
-        "work_id": 5,
-        "mechanism_codes": [
-          "M3",
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3",
-          "DA7"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
         "id": 328,
         "work_id": 5,
         "mechanism_codes": [
@@ -9825,20 +9528,6 @@
         "source_type": "primary"
       },
       {
-        "id": 334,
-        "work_id": 13,
-        "mechanism_codes": [
-          "M1",
-          "M9",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
-      },
-      {
         "id": 335,
         "work_id": 13,
         "mechanism_codes": [
@@ -9878,35 +9567,6 @@
         "source_type": "primary"
       },
       {
-        "id": 338,
-        "work_id": 13,
-        "mechanism_codes": [
-          "M1",
-          "M9"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
-        "id": 339,
-        "work_id": 13,
-        "mechanism_codes": [
-          "M1",
-          "M5",
-          "M8"
-        ],
-        "foundation_codes": [
-          "DC1",
-          "DA3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 340,
         "work_id": 13,
         "mechanism_codes": [
@@ -9936,19 +9596,19 @@
         "source_type": "primary"
       },
       {
-        "id": 343,
+        "id": 339,
         "work_id": 13,
         "mechanism_codes": [
           "M1",
-          "M3",
-          "M9"
+          "M5",
+          "M8"
         ],
         "foundation_codes": [
-          "DA7",
+          "DC1",
           "DA3"
         ],
         "evidence_quality": "replicated",
-        "source_type": "propagation"
+        "source_type": "primary"
       },
       {
         "id": 344,
@@ -10044,20 +9704,6 @@
         "source_type": "primary"
       },
       {
-        "id": 349,
-        "work_id": 2,
-        "mechanism_codes": [
-          "M1",
-          "M5"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "OF2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 350,
         "work_id": 2,
         "mechanism_codes": [
@@ -10102,20 +9748,6 @@
         "source_type": "primary"
       },
       {
-        "id": 100,
-        "work_id": 43,
-        "mechanism_codes": [
-          "M3",
-          "R1"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "DA7"
-        ],
-        "evidence_quality": "longitudinal",
-        "source_type": "primary"
-      },
-      {
         "id": 355,
         "work_id": 2,
         "mechanism_codes": [
@@ -10126,19 +9758,6 @@
           "DA1",
           "P3",
           "DA5"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 359,
-        "work_id": 2,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5",
-          "P3"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -10181,6 +9800,19 @@
         ],
         "foundation_codes": [
           "DA7",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 359,
+        "work_id": 2,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5",
           "P3"
         ],
         "evidence_quality": "theoretical",
@@ -10624,16 +10256,16 @@
         "source_type": "primary"
       },
       {
-        "id": 463,
-        "work_id": 25,
+        "id": 466,
+        "work_id": 16,
         "mechanism_codes": [
-          "M3",
-          "M9"
+          "M9",
+          "M11"
         ],
         "foundation_codes": [
-          "DA2"
+          "P1"
         ],
-        "evidence_quality": "meta_analysis",
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -10647,19 +10279,6 @@
           "P2"
         ],
         "evidence_quality": "meta_analysis",
-        "source_type": "primary"
-      },
-      {
-        "id": 466,
-        "work_id": 16,
-        "mechanism_codes": [
-          "M9",
-          "M11"
-        ],
-        "foundation_codes": [
-          "P1"
-        ],
-        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -10684,20 +10303,6 @@
           "P1"
         ],
         "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 473,
-        "work_id": 26,
-        "mechanism_codes": [
-          "M1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DC1"
-        ],
-        "evidence_quality": "meta_analysis",
         "source_type": "primary"
       },
       {
@@ -10753,6 +10358,16 @@
         "source_type": "primary"
       },
       {
+        "id": 98,
+        "work_id": 41,
+        "mechanism_codes": [
+          "M12"
+        ],
+        "foundation_codes": [],
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
         "id": 482,
         "work_id": 67,
         "mechanism_codes": [
@@ -10775,16 +10390,6 @@
           "OF1"
         ],
         "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 98,
-        "work_id": 41,
-        "mechanism_codes": [
-          "M12"
-        ],
-        "foundation_codes": [],
-        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -11592,17 +11197,6 @@
         "source_type": "primary"
       },
       {
-        "id": 651,
-        "work_id": 151,
-        "mechanism_codes": null,
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge"
-      },
-      {
         "id": 652,
         "work_id": 151,
         "mechanism_codes": [
@@ -11618,32 +11212,6 @@
         "source_type": "primary"
       },
       {
-        "id": 653,
-        "work_id": 152,
-        "mechanism_codes": null,
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge"
-      },
-      {
-        "id": 654,
-        "work_id": 152,
-        "mechanism_codes": [
-          "M3",
-          "M5",
-          "M13"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary"
-      },
-      {
         "id": 656,
         "work_id": 153,
         "mechanism_codes": null,
@@ -11652,16 +11220,6 @@
         ],
         "evidence_quality": "contested",
         "source_type": "propagation"
-      },
-      {
-        "id": 657,
-        "work_id": 154,
-        "mechanism_codes": null,
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary"
       },
       {
         "id": 658,
@@ -11762,20 +11320,6 @@
         "source_type": "primary"
       },
       {
-        "id": 665,
-        "work_id": 110,
-        "mechanism_codes": [
-          "M13",
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
         "id": 666,
         "work_id": 110,
         "mechanism_codes": [
@@ -11803,12 +11347,10 @@
         "source_type": "primary"
       },
       {
-        "id": 667,
+        "id": 668,
         "work_id": 157,
         "mechanism_codes": [
-          "M10",
-          "M7",
-          "M8"
+          "M10"
         ],
         "foundation_codes": [
           "DA1"
@@ -11817,13 +11359,15 @@
         "source_type": "primary"
       },
       {
-        "id": 668,
-        "work_id": 157,
+        "id": 670,
+        "work_id": 159,
         "mechanism_codes": [
-          "M10"
+          "R1",
+          "M3"
         ],
         "foundation_codes": [
-          "DA1"
+          "DA2",
+          "DA7"
         ],
         "evidence_quality": "meta_analysis",
         "source_type": "primary"
@@ -11840,20 +11384,6 @@
           "DA3"
         ],
         "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
-        "id": 670,
-        "work_id": 159,
-        "mechanism_codes": [
-          "R1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "DA7"
-        ],
-        "evidence_quality": "meta_analysis",
         "source_type": "primary"
       },
       {
@@ -11979,20 +11509,6 @@
         "source_type": "primary"
       },
       {
-        "id": 410,
-        "work_id": 7,
-        "mechanism_codes": [
-          "M5",
-          "M14"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DC2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 27,
         "work_id": 13,
         "mechanism_codes": [
@@ -12032,32 +11548,6 @@
         "source_type": "primary"
       },
       {
-        "id": 259,
-        "work_id": 4,
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA8"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
-        "id": 264,
-        "work_id": 4,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 326,
         "work_id": 5,
         "mechanism_codes": [
@@ -12074,32 +11564,17 @@
         "source_type": "propagation"
       },
       {
-        "id": 357,
-        "work_id": 2,
+        "id": 259,
+        "work_id": 4,
         "mechanism_codes": [
-          "M6",
-          "M5"
+          "M3",
+          "M9"
         ],
         "foundation_codes": [
-          "DA1",
-          "DA3",
-          "OF2"
+          "P2",
+          "DA8"
         ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 435,
-        "work_id": 35,
-        "mechanism_codes": [
-          "M7",
-          "M8"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
+        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -12133,15 +11608,33 @@
         "source_type": "primary"
       },
       {
-        "id": 655,
-        "work_id": 153,
-        "mechanism_codes": null,
+        "id": 357,
+        "work_id": 2,
+        "mechanism_codes": [
+          "M6",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 435,
+        "work_id": 35,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
         "foundation_codes": [
           "P3",
           "DA1"
         ],
-        "evidence_quality": "contested",
-        "source_type": "propagation"
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
       },
       {
         "id": 590,
@@ -12268,6 +11761,506 @@
         ],
         "evidence_quality": "clinical",
         "source_type": "propagation"
+      },
+      {
+        "id": 651,
+        "work_id": 151,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "OF2",
+          "DA1",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 654,
+        "work_id": 152,
+        "mechanism_codes": [
+          "M3",
+          "M5",
+          "M13"
+        ],
+        "foundation_codes": [
+          "OF2",
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 655,
+        "work_id": 153,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3",
+          "DA1",
+          "OF1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation"
+      },
+      {
+        "id": 657,
+        "work_id": 154,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3",
+          "OF1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 103,
+        "work_id": 46,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge"
+      },
+      {
+        "id": 463,
+        "work_id": 25,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary"
+      },
+      {
+        "id": 665,
+        "work_id": 110,
+        "mechanism_codes": [
+          "M13",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 264,
+        "work_id": 4,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 53,
+        "work_id": 26,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA3",
+          "DA7"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 54,
+        "work_id": 26,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA3"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 70,
+        "work_id": 32,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 95,
+        "work_id": 41,
+        "mechanism_codes": [
+          "M12"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 96,
+        "work_id": 41,
+        "mechanism_codes": [
+          "M12"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 100,
+        "work_id": 43,
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA7"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 104,
+        "work_id": 47,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge"
+      },
+      {
+        "id": 131,
+        "work_id": 27,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 145,
+        "work_id": 54,
+        "mechanism_codes": [
+          "M3",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 153,
+        "work_id": 54,
+        "mechanism_codes": [
+          "M3",
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation"
+      },
+      {
+        "id": 156,
+        "work_id": 55,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation"
+      },
+      {
+        "id": 192,
+        "work_id": 56,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation"
+      },
+      {
+        "id": 232,
+        "work_id": 59,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DC1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
+        "id": 234,
+        "work_id": 59,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DC1"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 307,
+        "work_id": 11,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA3",
+          "DC1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 308,
+        "work_id": 11,
+        "mechanism_codes": [
+          "M1",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "DC1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 309,
+        "work_id": 11,
+        "mechanism_codes": [
+          "M1",
+          "M5",
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 310,
+        "work_id": 11,
+        "mechanism_codes": [
+          "M3",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA3",
+          "DC1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 327,
+        "work_id": 5,
+        "mechanism_codes": [
+          "M3",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "DA7"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 334,
+        "work_id": 13,
+        "mechanism_codes": [
+          "M1",
+          "M9",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
+        "id": 338,
+        "work_id": 13,
+        "mechanism_codes": [
+          "M1",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 343,
+        "work_id": 13,
+        "mechanism_codes": [
+          "M1",
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
+        "id": 349,
+        "work_id": 2,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 410,
+        "work_id": 7,
+        "mechanism_codes": [
+          "M5",
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 441,
+        "work_id": 32,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA5"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 473,
+        "work_id": 26,
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DC1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary"
+      },
+      {
+        "id": 526,
+        "work_id": 79,
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 527,
+        "work_id": 79,
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "DA8"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 528,
+        "work_id": 79,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA2",
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 667,
+        "work_id": 157,
+        "mechanism_codes": [
+          "M10",
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary"
       }
     ],
     "researchers": [
@@ -18871,7 +18864,7 @@
         "id": 6,
         "code": "ED6",
         "name": "SMILES Trial: Diet and Depression",
-        "what_it_demonstrates": "A Mediterranean-style dietary intervention produced remission from moderate-to-severe depression in 32.3% of the dietary arm against 8.0% of a social-support control over 12 weeks, supporting a causal reading of M13 (energy regulation and diet quality) and M8 (inflammation) in depression onset and maintenance rather than treating diet as a correlate. One small unblinded trial, so the direction is better established than the magnitude.",
+        "what_it_demonstrates": "A Mediterranean-style dietary intervention brought 32.3% of the dietary arm below the MADRS remission cut against 8.0% of a social-support control over 12 weeks, supporting a causal reading of M13 (energy regulation and diet quality) and M8 (inflammation) in what keeps the low-mood signal firing, rather than treating diet as a correlate. One small unblinded trial, so the direction is better established than the magnitude.",
         "narrative": "Jacka et al. 2017 (BMC Medicine) ran the SMILES randomised controlled trial, comparing a Mediterranean-style dietary intervention against a befriending social-support control in adults diagnosed with moderate-to-severe major depressive disorder. Of 166 assessed for eligibility, 67 were randomised, 33 to diet and 34 to social support. At 12 weeks, 32.3% of the dietary arm and 8.0% of the control arm met remission criteria of a MADRS score below 10, giving a number needed to treat of 4.1 with a wide confidence interval of 2.3 to 27.8. The effect is unusually large for a dietary intervention in a clinical sample, and the trial's own limitations section is the right counterweight: participants could not be blinded, completion differed sharply between arms (94% against 73.5%), the planned sample size was not reached, and the authors say this may have inflated the observed effect. SMILES supports a causal rather than merely correlational reading of the diet and depression link, and it does so as one small unblinded trial. Cor carries no replication claim for it.",
         "source_work_id": 110,
         "grounds_foundations": [
@@ -18910,32 +18903,11 @@
         "primary_metric_value": 1
       },
       {
-        "id": 8,
-        "code": "ED8",
-        "name": "Chronotherapy in Depression",
-        "what_it_demonstrates": "Directly re-timing the circadian and sleep system produces a rapid antidepressant response that is still present six months later, which makes M7 a cascade entry point rather than a downstream symptom. The size of the response is modest and comes from a single pilot trial, so this row demonstrates that the entry point exists and does not establish how large the effect is.",
-        "narrative": "Triple chronotherapy combines one bout of total sleep deprivation, a staged advance of sleep timing over the following days, and daily morning bright light, so that the timing architecture is reset directly instead of being approached through mood. Veale et al. 2021 (BJPsych Open) randomised 82 out-patients with depression, single blind, to the protocol or to a control of psychoeducation and written information. Response, defined as at least a 50% reduction in symptoms, reached 33.3% in the chronotherapy arm against 16.2% in controls after one week, and held at 35.9% against 13.9% at 26 weeks, with a between-group effect size of 0.8 rising to 1.30. Adherence was high and no adverse effects were reported. Two limits govern how far this goes: the trial was powered for feasibility rather than efficacy, and the comparator was psychoeducation, so nothing here compares chronotherapy with medication. Cor previously sourced this row to the Wirz-Justice and Benedetti clinician's manual (work 113), a book with no DOI, and carried response figures that could not be traced; the row now rests on the one open-access randomised trial reachable in full text.",
-        "source_work_id": 158,
-        "grounds_foundations": [
-          "DA1",
-          "DA3"
-        ],
-        "grounds_mechanisms": [
-          "M7",
-          "M8"
-        ],
-        "effect_size": "In a single-blind pilot randomised trial of 82 out-patients with depression, a response of at least 50% symptom reduction was achieved by 33.3% of the triple chronotherapy group against 16.2% of controls at week 1, and by 35.9% against 13.9% at week 26. Between-group Cohen's d on the HRSD-6 was 0.8 at week 1 and 1.30 at week 26. The trial's stated primary outcome was feasibility, and the comparator was psychoeducation rather than medication. The earlier '60%+ within a week' and '~30% for pharmacotherapy alone' figures were not traceable to a source and have been removed.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "clinical_remission",
-        "primary_metric_display": "33.3% vs 16.2% response at 1 week (pilot RCT, n=82)",
-        "primary_metric_value": 0.333
-      },
-      {
         "id": 7,
         "code": "ED7",
-        "name": "Exercise as Depression Treatment",
-        "what_it_demonstrates": "Exercise is an effective treatment for major depression in its own right rather than a general-health adjunct, with modality-specific effect sizes that are moderate rather than large and certainty that is low. This supports M10 (movement) as a mechanism in the depression cascade while keeping the strength of the claim inside what the evidence carries.",
-        "narrative": "Noetel et al. 2024 (BMJ) pooled 218 randomised trials of exercise in people diagnosed with major depressive disorder, 495 arms and 14170 participants, in a Bayesian network meta-analysis that compared exercise modalities against each other and against psychotherapy, antidepressants and control conditions. Measured against active controls such as usual care or a placebo tablet, walking or jogging, yoga and strength training all produced moderate reductions in depression, with effects proportional to the intensity prescribed and with yoga and strength training the best tolerated. The authors conclude these forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments. The certainty has to travel with the number: only one of the 218 studies met the Cochrane criteria for low risk of bias, so graded confidence was low for walking or jogging and very low for the rest, and the authors call for trials that blind participants and staff. Cor reads this as real support for M10 at a moderate effect size with low certainty, and drops the earlier claim of non-inferiority to SSRIs, which was not sourced. The Schuch 2016 meta-analysis (work 111) is paywalled and no open-access copy was reachable, so it carries no extraction.",
+        "name": "Exercise Trials in Diagnosed Depression",
+        "what_it_demonstrates": "In people diagnosed with major depression, exercise lowers depression scores in its own right, beyond any general-health benefit, with modality-specific effect sizes that are moderate and certainty that is low. Randomisation orders the arrow. This supports M10 (movement) as a mechanism in what keeps the low-mood signal firing while keeping the strength of the claim inside what the evidence carries.",
+        "narrative": "Noetel et al. 2024 (BMJ) pooled 218 randomised trials of exercise in people diagnosed with major depressive disorder, 495 arms and 14170 participants, in a Bayesian network meta-analysis that compared exercise modalities against each other and against psychotherapy, antidepressants and control conditions. Measured against active controls such as usual care or a placebo tablet, walking or jogging, yoga and strength training all produced moderate reductions in depression scores, with effects proportional to the intensity prescribed and with yoga and strength training the best tolerated. The authors conclude these forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments. The certainty has to travel with the number: only one of the 218 studies met the Cochrane criteria for low risk of bias, so graded confidence was low for walking or jogging and very low for the rest, and the authors call for trials that blind participants and staff. Cor reads this as real support for M10 at a moderate effect size with low certainty, and drops the earlier claim of non-inferiority to SSRIs, which was not sourced. The Schuch 2016 meta-analysis (work 111) is paywalled and no open-access copy was reachable, so it carries no extraction.",
         "source_work_id": 157,
         "grounds_foundations": [
           "DA1"
@@ -18950,6 +18922,27 @@
         "metric_family": "standardized_effect",
         "primary_metric_display": "Hedges' g -0.62 for walking or jogging vs active control (low certainty)",
         "primary_metric_value": 0.62
+      },
+      {
+        "id": 8,
+        "code": "ED8",
+        "name": "Chronotherapy in Depression",
+        "what_it_demonstrates": "Directly re-timing the circadian and sleep system produces a rapid drop in depression scores (HRSD-6) that is still present six months later, which makes M7 a cascade entry point rather than a downstream symptom. The size of the response is modest and comes from a single pilot trial, so this row demonstrates that the entry point exists and does not establish how large the effect is.",
+        "narrative": "Triple chronotherapy combines one bout of total sleep deprivation, a staged advance of sleep timing over the following days, and daily morning bright light, so that the timing architecture is reset directly instead of being approached through mood. Veale et al. 2021 (BJPsych Open) randomised 82 out-patients diagnosed with depression, single blind, to the protocol or to a control of psychoeducation and written information. Response, defined as at least a 50% reduction in symptoms, reached 33.3% in the chronotherapy arm against 16.2% in controls after one week, and held at 35.9% against 13.9% at 26 weeks, with a between-group effect size of 0.8 rising to 1.30. Adherence was high and no adverse effects were reported. Two limits govern how far this goes: the trial was powered for feasibility rather than efficacy, and the comparator was psychoeducation, so nothing here compares chronotherapy with medication. Cor previously sourced this row to the Wirz-Justice and Benedetti clinician's manual (work 113), a book with no DOI, and carried response figures that could not be traced; the row now rests on the one open-access randomised trial reachable in full text.",
+        "source_work_id": 158,
+        "grounds_foundations": [
+          "DA1",
+          "DA3"
+        ],
+        "grounds_mechanisms": [
+          "M7",
+          "M8"
+        ],
+        "effect_size": "In a single-blind pilot randomised trial of 82 out-patients diagnosed with depression, a response of at least 50% symptom reduction was achieved by 33.3% of the triple chronotherapy group against 16.2% of controls at week 1, and by 35.9% against 13.9% at week 26. Between-group Cohen's d on the HRSD-6 was 0.8 at week 1 and 1.30 at week 26. The trial's stated primary outcome was feasibility, and the comparator was psychoeducation rather than medication. The earlier '60%+ within a week' and '~30% for pharmacotherapy alone' figures were not traceable to a source and have been removed.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "clinical_remission",
+        "primary_metric_display": "33.3% vs 16.2% response at 1 week (pilot RCT, n=82)",
+        "primary_metric_value": 0.333
       },
       {
         "id": 1,
@@ -18996,29 +18989,6 @@
         "primary_metric_value": 0.6
       },
       {
-        "id": 5,
-        "code": "ED5",
-        "name": "Ilardi TLC Protocol for Depression",
-        "what_it_demonstrates": "Ilardi's Therapeutic Lifestyle Change protocol restores resolution conditions across several mechanisms at once (movement, light and sleep, social connection, omega-3, anti-rumination). Its response rates are author-reported, from a 2007 conference presentation and a 2009 trade book. No peer-reviewed randomized trial has been published, so the protocol stands as a worked example of multi-mechanism environmental correction, with the peer-reviewed evidence for its component levers carried by ED6, ED7 and ED8.",
-        "narrative": "Stephen Ilardi's Therapeutic Lifestyle Change protocol is a six-lever intervention that targets M10 (movement), M7 (sleep and sunlight), M3 (social connection), M8 and M13 (omega-3 and anti-inflammation), and cognitive anti-rumination, and delivers them together rather than one at a time. Its interest to Cor is structural: it treats depression by changing several inputs at once, which is what the mismatch reading predicts should work, instead of patching the individual. The evidence status is weak and is stated plainly here. The protocol's response figures come from a 2007 conference presentation and Ilardi's 2009 trade book; no peer-reviewed randomized trial of the full protocol has been published, so no effect size is carried. The peer-reviewed evidence for the individual levers sits in ED6 (diet), ED7 (exercise) and ED8 (circadian timing).",
-        "source_work_id": 112,
-        "grounds_foundations": [
-          "DA1",
-          "DC1"
-        ],
-        "grounds_mechanisms": [
-          "M3",
-          "M7",
-          "M10",
-          "M8"
-        ],
-        "effect_size": "No peer-reviewed effect size. Author-reported response rates only (2007 conference presentation; 2009 trade book).",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "clinical_remission",
-        "primary_metric_display": "Author-reported only; no peer-reviewed trial",
-        "primary_metric_value": null
-      },
-      {
         "id": 9,
         "code": "ED9",
         "name": "Kangaroo Mother Care",
@@ -19039,6 +19009,29 @@
         "metric_family": "mortality",
         "primary_metric_display": "51% lower neonatal mortality (RR 0.49) in infants under 2000 g",
         "primary_metric_value": 0.51
+      },
+      {
+        "id": 5,
+        "code": "ED5",
+        "name": "Ilardi TLC Protocol for Depression",
+        "what_it_demonstrates": "Ilardi's Therapeutic Lifestyle Change protocol restores resolution conditions across several mechanisms at once (movement, light and sleep, social connection, omega-3, anti-rumination). Its response rates are author-reported, from a 2007 conference presentation and a 2009 trade book. No peer-reviewed randomized trial has been published, so the protocol stands as a worked example of multi-mechanism environmental correction, with the peer-reviewed evidence for its component levers carried by ED6, ED7 and ED8.",
+        "narrative": "Stephen Ilardi's Therapeutic Lifestyle Change protocol is a six-lever intervention that targets M10 (movement), M7 (sleep and sunlight), M3 (social connection), M8 and M13 (omega-3 and anti-inflammation), and cognitive anti-rumination, and delivers them together rather than one at a time. Its interest to Cor is structural: it targets what the protocol calls depression by changing several inputs at once, which is what the mismatch reading predicts should work, instead of patching the individual. The evidence status is weak and is stated plainly here. The protocol's response figures come from a 2007 conference presentation and Ilardi's 2009 trade book; no peer-reviewed randomized trial of the full protocol has been published, so no effect size is carried. The peer-reviewed evidence for the individual levers sits in ED6 (diet), ED7 (exercise) and ED8 (circadian timing).",
+        "source_work_id": 112,
+        "grounds_foundations": [
+          "DA1",
+          "DC1"
+        ],
+        "grounds_mechanisms": [
+          "M3",
+          "M7",
+          "M10",
+          "M8"
+        ],
+        "effect_size": "No peer-reviewed effect size. Author-reported response rates only (2007 conference presentation; 2009 trade book).",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "clinical_remission",
+        "primary_metric_display": "Author-reported only; no peer-reviewed trial",
+        "primary_metric_value": null
       }
     ],
     "applications": [
@@ -19433,7 +19426,7 @@
             "evidence_role": "supporting",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "evidence_quality": "theoretical",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           }
         ]
       },
@@ -19541,7 +19534,7 @@
             "evidence_role": "challenging",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "evidence_quality": "theoretical",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           }
         ]
       },
@@ -19671,7 +19664,7 @@
             "evidence_role": "primary",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "evidence_quality": "theoretical",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
             "extraction_id": 510,
@@ -20609,7 +20602,7 @@
             "evidence_role": "supporting",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "evidence_quality": "theoretical",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
             "extraction_id": 250,
@@ -20659,75 +20652,6 @@
             "author_quote": "cultural evolution initiated a process of self-domestication, driving genetic evolution to make us prosocial, docile, rule followers who expect a world governed by social norms monitored and enforced by communities.",
             "evidence_quality": "theoretical",
             "content": "Cultural evolution initiated a process of self-domestication, driving genetic evolution to make us prosocial, docile, rule followers who expect a world governed by social norms monitored and enforced by communities. Norms influence a vast range of human action, including ancient "
-          }
-        ]
-      },
-      {
-        "code": "EEA-THREAT-03",
-        "domain": "threat_safety",
-        "name": "Real-vs-perceived threat ratio and all-clear resolution",
-        "eea_baseline": "Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.",
-        "eea_value": {
-          "quantified": false,
-          "resolution": "behavioral_all_clear_plus_social_all_clear",
-          "termination": "reliable",
-          "alarm_validity": "mostly_real_present_verifiable",
-          "false_alarm_rate": "high_but_each_resolved"
-        },
-        "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
-        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
-        "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect. Note: prose previously referenced ids 339/444 in passing; only ids actually in the evidence array (331, 469, 308, 565, 125, 461) are load-bearing and all are verified.",
-        "created_at": "2026-06-08T12:32:58.731416+00:00",
-        "updated_at": "2026-06-08T12:32:58.731416+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M8"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 331,
-            "evidence_role": "primary",
-            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
-            "evidence_quality": "replicated",
-            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
-          },
-          {
-            "extraction_id": 469,
-            "evidence_role": "primary",
-            "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
-            "evidence_quality": "meta_analysis",
-            "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
-          },
-          {
-            "extraction_id": 308,
-            "evidence_role": "supporting",
-            "author_quote": "My view is that some major illnesses considered distinct and \"mental\" are all rooted in a chronically unbalanced body budget and unbridled inflammation. We categorize and name them as different disorders, based on context, much like we categorize and name the same bodily changes as different emotions.",
-            "evidence_quality": "theoretical",
-            "content": "Barrett proposes that major illnesses considered distinct and mental - chronic stress, chronic pain, anxiety, depression - are all rooted in a chronically unbalanced body budget and unbridled inflammation. Different disorders share symptoms, cause atrophy in the same brain region"
-          },
-          {
-            "extraction_id": 565,
-            "evidence_role": "supporting",
-            "author_quote": "Out of 1000 episodes of flight at this response threshold, on the average, 999 will be false alarms and only 1 will be flight from an actual predator.",
-            "evidence_quality": "theoretical",
-            "content": "The smoke detector principle formalized via signal detection theory. For all-or-none defenses, expression is optimal whenever p(Harm) > Cost_defense/Cost_harm. With a 1000:1 cost ratio (300 kcal flight vs 300,000 kcal predator attack), the optimal threshold produces 999 false ala"
-          },
-          {
-            "extraction_id": 125,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking "
-          },
-          {
-            "extraction_id": 461,
-            "evidence_role": "challenging",
-            "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
-            "evidence_quality": "theoretical",
-            "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
           }
         ]
       },
@@ -20800,7 +20724,7 @@
             "evidence_role": "supporting",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "evidence_quality": "theoretical",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
             "extraction_id": 606,
@@ -21011,7 +20935,7 @@
             "evidence_role": "supporting",
             "author_quote": null,
             "evidence_quality": "longitudinal",
-            "content": "10-year longitudinal RCT (N=146): Kangaroo Care (14 days skin-to-skin) vs incubator care in preterm infants. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child cognitive development and executive functions from 6 months to 10 y"
+            "content": "10-year longitudinal study with case-matched controls (N=146): Kangaroo Care (14 days skin-to-skin) for 73 preterm infants vs standard incubator care for 73 matched controls. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child c"
           },
           {
             "extraction_id": 294,
@@ -21162,53 +21086,6 @@
         ]
       },
       {
-        "code": "EEA-THREAT-02",
-        "domain": "threat_safety",
-        "name": "Threat controllability and predictability (resolvable by own action)",
-        "eea_baseline": "Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare, extreme case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.",
-        "eea_value": {
-          "quantified": false,
-          "predictability": "perceptually_verifiable",
-          "controllability": "high_action_contingent",
-          "uncontrollable_stress": "rare_exceptional"
-        },
-        "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
-        "gap_statement": "The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
-        "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
-        "created_at": "2026-06-08T12:32:57.686271+00:00",
-        "updated_at": "2026-06-08T12:32:57.686271+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M6"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 333,
-            "evidence_role": "primary",
-            "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
-            "evidence_quality": "replicated",
-            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
-          },
-          {
-            "extraction_id": 442,
-            "evidence_role": "primary",
-            "author_quote": "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts.",
-            "evidence_quality": "theoretical",
-            "content": "Learned helplessness in the laboratory produces eight of the nine DSM symptoms of depression (excepting suicidal thoughts). The prelimbic medial prefrontal cortex detects contingency between behavior and outcomes and inhibits the dorsal raphe nucleus, restoring the capacity for a"
-          },
-          {
-            "extraction_id": 587,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "theoretical",
-            "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
-          }
-        ]
-      },
-      {
         "code": "EEA-DIET-02",
         "domain": "diet_metabolic",
         "name": "Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)",
@@ -21316,6 +21193,122 @@
             "author_quote": null,
             "evidence_quality": "theoretical",
             "content": "Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about "
+          }
+        ]
+      },
+      {
+        "code": "EEA-THREAT-03",
+        "domain": "threat_safety",
+        "name": "Real-vs-perceived threat ratio and all-clear resolution",
+        "eea_baseline": "Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.",
+        "eea_value": {
+          "quantified": false,
+          "resolution": "behavioral_all_clear_plus_social_all_clear",
+          "termination": "reliable",
+          "alarm_validity": "mostly_real_present_verifiable",
+          "false_alarm_rate": "high_but_each_resolved"
+        },
+        "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
+        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
+        "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect. Note: prose previously referenced ids 339/444 in passing; only ids actually in the evidence array (331, 469, 308, 565, 125, 461) are load-bearing and all are verified.",
+        "created_at": "2026-06-08T12:32:58.731416+00:00",
+        "updated_at": "2026-06-08T12:32:58.731416+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M8"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 331,
+            "evidence_role": "primary",
+            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
+            "evidence_quality": "replicated",
+            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
+          },
+          {
+            "extraction_id": 469,
+            "evidence_role": "primary",
+            "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
+            "evidence_quality": "meta_analysis",
+            "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
+          },
+          {
+            "extraction_id": 308,
+            "evidence_role": "supporting",
+            "author_quote": "My view is that some major illnesses considered distinct and \"mental\" are all rooted in a chronically unbalanced body budget and unbridled inflammation. We categorize and name them as different disorders, based on context, much like we categorize and name the same bodily changes as different emotions.",
+            "evidence_quality": "theoretical",
+            "content": "Barrett proposes that major illnesses considered distinct and mental - chronic stress, chronic pain, anxiety, depression - are all rooted in a chronically unbalanced body budget and unbridled inflammation. Different disorders share symptoms, cause atrophy in the same brain region"
+          },
+          {
+            "extraction_id": 565,
+            "evidence_role": "supporting",
+            "author_quote": "Out of 1000 episodes of flight at this response threshold, on the average, 999 will be false alarms and only 1 will be flight from an actual predator.",
+            "evidence_quality": "theoretical",
+            "content": "The smoke detector principle formalized via signal detection theory. For all-or-none defenses, expression is optimal whenever p(Harm) > Cost_defense/Cost_harm. With a 1000:1 cost ratio (300 kcal flight vs 300,000 kcal predator attack), the optimal threshold produces 999 false ala"
+          },
+          {
+            "extraction_id": 125,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking "
+          },
+          {
+            "extraction_id": 461,
+            "evidence_role": "challenging",
+            "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
+            "evidence_quality": "theoretical",
+            "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
+          }
+        ]
+      },
+      {
+        "code": "EEA-THREAT-02",
+        "domain": "threat_safety",
+        "name": "Threat controllability and predictability (resolvable by own action)",
+        "eea_baseline": "Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare, extreme case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.",
+        "eea_value": {
+          "quantified": false,
+          "predictability": "perceptually_verifiable",
+          "controllability": "high_action_contingent",
+          "uncontrollable_stress": "rare_exceptional"
+        },
+        "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
+        "gap_statement": "The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of the nine symptoms the DSM lists for depression. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
+        "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
+        "created_at": "2026-06-08T12:32:57.686271+00:00",
+        "updated_at": "2026-06-08T12:32:57.686271+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M6"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 333,
+            "evidence_role": "primary",
+            "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
+            "evidence_quality": "replicated",
+            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
+          },
+          {
+            "extraction_id": 442,
+            "evidence_role": "primary",
+            "author_quote": "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts.",
+            "evidence_quality": "theoretical",
+            "content": "Learned helplessness in the laboratory produces eight of the nine DSM symptoms of depression (excepting suicidal thoughts). The prelimbic medial prefrontal cortex detects contingency between behavior and outcomes and inhibits the dorsal raphe nucleus, restoring the capacity for a"
+          },
+          {
+            "extraction_id": 587,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "theoretical",
+            "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
           }
         ]
       }
@@ -22923,42 +22916,6 @@
         ]
       },
       {
-        "id": 103,
-        "extraction_id": 103,
-        "work_id": 46,
-        "title": "A meta-analysis of the association between adolescent social media use and depressive symptoms.",
-        "content": "A meta-analysis of the association between adolescent social media use and depressive symptoms.",
-        "citation": "Ivie EJ, Pettitt A, Moses LJ, Allen NB, 2020",
-        "authors": "Ivie EJ, Pettitt A, Moses LJ, Allen NB",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
-        "id": 104,
-        "extraction_id": 104,
-        "work_id": 47,
-        "title": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis.",
-        "content": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis.",
-        "citation": "Fassi L, Thomas K, Parry DA, Leyland-Craggs A, Ford TJ, Orben A, 2024",
-        "authors": "Fassi L, Thomas K, Parry DA, Leyland-Craggs A, Ford TJ, Orben A",
-        "year": 2024,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
         "id": 105,
         "extraction_id": 105,
         "work_id": 48,
@@ -22996,40 +22953,6 @@
         ]
       },
       {
-        "id": 651,
-        "extraction_id": 651,
-        "work_id": 151,
-        "title": "Depression as sickness behavior? A test of the host defense hypothesis in a high pathogen population",
-        "content": "Depression as sickness behavior? A test of the host defense hypothesis in a high pathogen population",
-        "citation": "Stieglitz J, Trumble BC, Thompson ME, Blackwell AD, Kaplan H, Gurven M, 2015",
-        "authors": "Stieglitz J, Trumble BC, Thompson ME, Blackwell AD, Kaplan H, Gurven M",
-        "year": 2015,
-        "researcher": "Stieglitz (Jonathan)",
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ]
-      },
-      {
-        "id": 653,
-        "extraction_id": 653,
-        "work_id": 152,
-        "title": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers",
-        "content": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers",
-        "citation": "Stieglitz J, Schniter E, von Rueden C, Kaplan H, Gurven M, 2015",
-        "authors": "Stieglitz J, Schniter E, von Rueden C, Kaplan H, Gurven M",
-        "year": 2015,
-        "researcher": "Stieglitz (Jonathan)",
-        "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ]
-      },
-      {
         "id": 590,
         "extraction_id": 590,
         "work_id": 105,
@@ -23059,6 +22982,42 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "DA1"
+        ]
+      },
+      {
+        "id": 103,
+        "extraction_id": 103,
+        "work_id": 46,
+        "title": "A meta-analysis of the association between adolescent social media use and depressive symptoms.",
+        "content": "A meta-analysis of the association between adolescent social media use and depressive symptoms.",
+        "citation": "Ivie EJ, Pettitt A, Moses LJ, Allen NB, 2020",
+        "authors": "Ivie EJ, Pettitt A, Moses LJ, Allen NB",
+        "year": 2020,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 104,
+        "extraction_id": 104,
+        "work_id": 47,
+        "title": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis.",
+        "content": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis.",
+        "citation": "Fassi L, Thomas K, Parry DA, Leyland-Craggs A, Ford TJ, Orben A, 2024",
+        "authors": "Fassi L, Thomas K, Parry DA, Leyland-Craggs A, Ford TJ, Orben A",
+        "year": 2024,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3"
         ]
       }
     ]
@@ -23120,8 +23079,8 @@
       ],
       "M1": [
         "EEA-SOC-08",
-        "EEA-THREAT-03",
         "EEA-THREAT-01",
+        "EEA-THREAT-03",
         "EEA-THREAT-02"
       ],
       "M9": [
@@ -23167,8 +23126,8 @@
         "EEA-DIET-01"
       ],
       "M8": [
-        "EEA-THREAT-03",
-        "EEA-THREAT-01"
+        "EEA-THREAT-01",
+        "EEA-THREAT-03"
       ]
     },
     "eea_by_domain": {

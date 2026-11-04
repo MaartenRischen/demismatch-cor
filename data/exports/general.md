@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-04 07:30 UTC, from the live Cor atlas snapshot built 2026-11-04 07:30 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 09:37 UTC, from the live Cor atlas snapshot built 2026-11-04 09:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
 ---
 ## How to read this document
@@ -253,7 +253,7 @@ Forced, 20 evidence links - all five rungs are evidenced. The most debatable poi
 
 ### What it does
 
-This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in everything else. It can override your conscious intentions, and it is a hub that connects inflammation to depression through cross-system cascades.
+This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in everything else. It can override your conscious intentions, and it is a hub that connects inflammation to low mood through cross-system cascades.
 
 ### What actually satisfies it
 
@@ -609,10 +609,10 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - The mismatch is in the time-course, not the threat machinery itself. The system is calibrated for brief, resolvable spikes; modern life supplies sustained, unresolved activation. Acute stress is adaptive (even enhances immunity); the identical response sustained chronically suppresses immunity and accumulates wear-and-tear. The gap is the absence of an episode boundary that lets the response shut down.
 
 **Threat controllability and predictability (resolvable by own action)** (grade: theoretical)
-  - The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
+  - The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of the nine symptoms the DSM lists for depression. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
 
 **Real-vs-perceived threat ratio and all-clear resolution** (grade: theoretical)
-  - The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
+  - The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
 
 
 ### Information environment
@@ -628,4 +628,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 07:30 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-04 07:30 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 09:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-04 09:37 UTC.*

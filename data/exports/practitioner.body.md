@@ -289,7 +289,7 @@ This is a near-pure inputs problem. Patching means treating the downstream mood 
 
 ### What it looks like in a person
 
-This is the cytokine signaling system that produces sickness behavior - and crucially, **it overrides voluntary intention.** It is also the hub connecting inflammation to depression via cross-system cascade. In the room: fatigue, withdrawal, low mood, anhedonia, "I just can't" - the same profile as depression, because inflammation produces it. A client cannot willpower their way out of cytokine-driven sickness behavior.
+This is the cytokine signaling system that produces sickness behavior - and crucially, **it overrides voluntary intention.** It is also the hub connecting inflammation to low mood via cross-system cascade. In the room: fatigue, withdrawal, low mood, anhedonia, "I just can't" - the same profile as depression, because inflammation produces it. A client cannot willpower their way out of cytokine-driven sickness behavior.
 
 What resolves it: pathogen cleared, inflammation resolved.
 
@@ -309,7 +309,7 @@ Chronic low-grade inflammation from diet, sedentarism, and social isolation. The
 
 ### Cascade
 
-No recorded cascade links, but this is described as the **hub** connecting inflammation to depression across the wider system. When you see a depression-like picture, inflammation is a candidate input - and the relevant inputs (diet, movement, sleep, social connection) sit in M13, M10, M7, and M3.
+No recorded cascade links, but this is described as the **hub** connecting inflammation to low mood across the wider system. When you see a low-mood picture, inflammation is a candidate input - and the relevant inputs (diet, movement, sleep, social connection) sit in M13, M10, M7, and M3.
 
 ### What changing the inputs means
 

@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-04 07:30 UTC, from the live Cor atlas snapshot built 2026-11-04 07:30 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 09:37 UTC, from the live Cor atlas snapshot built 2026-11-04 09:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
 ---
 ## How to read this document
@@ -299,7 +299,7 @@ This is a near-pure inputs problem. Patching means treating the downstream mood 
 
 ### What it looks like in a person
 
-This is the cytokine signaling system that produces sickness behavior - and crucially, **it overrides voluntary intention.** It is also the hub connecting inflammation to depression via cross-system cascade. In the room: fatigue, withdrawal, low mood, anhedonia, "I just can't" - the same profile as depression, because inflammation produces it. A client cannot willpower their way out of cytokine-driven sickness behavior.
+This is the cytokine signaling system that produces sickness behavior - and crucially, **it overrides voluntary intention.** It is also the hub connecting inflammation to low mood via cross-system cascade. In the room: fatigue, withdrawal, low mood, anhedonia, "I just can't" - the same profile as depression, because inflammation produces it. A client cannot willpower their way out of cytokine-driven sickness behavior.
 
 What resolves it: pathogen cleared, inflammation resolved.
 
@@ -319,7 +319,7 @@ Chronic low-grade inflammation from diet, sedentarism, and social isolation. The
 
 ### Cascade
 
-No recorded cascade links, but this is described as the **hub** connecting inflammation to depression across the wider system. When you see a depression-like picture, inflammation is a candidate input - and the relevant inputs (diet, movement, sleep, social connection) sit in M13, M10, M7, and M3.
+No recorded cascade links, but this is described as the **hub** connecting inflammation to low mood across the wider system. When you see a low-mood picture, inflammation is a candidate input - and the relevant inputs (diet, movement, sleep, social connection) sit in M13, M10, M7, and M3.
 
 ### What changing the inputs means
 
@@ -1029,7 +1029,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.
 
-**The gap to work with:** The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
+**The gap to work with:** The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of the nine symptoms the DSM lists for depression. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
 
 **What actually has to be present (resolution unit):** Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.
 
@@ -1044,7 +1044,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.
 
-**The gap to work with:** The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
+**The gap to work with:** The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
 
 **What actually has to be present (resolution unit):** Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'
 
@@ -1090,4 +1090,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 07:30 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 07:30 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 09:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 09:37 UTC.*

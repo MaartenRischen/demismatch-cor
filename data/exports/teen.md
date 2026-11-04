@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-11-04 07:30 UTC, from the live Cor atlas snapshot built 2026-11-04 07:30 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 09:37 UTC, from the live Cor atlas snapshot built 2026-11-04 09:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
 ---
 ## How to read this document
@@ -170,7 +170,7 @@ Electric light, blue screens late at night, shift work, caffeine. This is the ol
 
 ## M8 - Immune Regulation
 
-This is the system behind "sickness behavior." When you're fighting an infection, inflammation signals shut down everything else - energy, mood, appetite, motivation - so your body can focus on the fight. It overrides what you *want* to do. It's also a major hub that links inflammation to depression.
+This is the system behind "sickness behavior." When you're fighting an infection, inflammation signals shut down everything else - energy, mood, appetite, motivation - so your body can focus on the fight. It overrides what you *want* to do. It's also a major hub that links inflammation to low mood.
 
 What resolves it: the pathogen is cleared and the inflammation settles down.
 
@@ -357,4 +357,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 07:30 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-04 07:30 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 09:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-04 09:37 UTC.*

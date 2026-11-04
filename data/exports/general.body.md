@@ -243,7 +243,7 @@ Forced, 20 evidence links - all five rungs are evidenced. The most debatable poi
 
 ### What it does
 
-This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in everything else. It can override your conscious intentions, and it is a hub that connects inflammation to depression through cross-system cascades.
+This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in everything else. It can override your conscious intentions, and it is a hub that connects inflammation to low mood through cross-system cascades.
 
 ### What actually satisfies it
 

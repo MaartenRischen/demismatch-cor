@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-04T07:30:11.559516+00:00",
+    "source_built_at": "2026-11-04T09:36:46.365954+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -29,7 +29,7 @@
     "domains": 23,
     "gaps": 16,
     "works": 159,
-    "extractions": 659,
+    "extractions": 658,
     "researchers": 84,
     "mechanism_evidence": 997,
     "empirical_demonstrations": 9,
@@ -39,7 +39,7 @@
     "parameter_mechanism": 62,
     "parameter_evidence": 158,
     "foundation_convergences": 15,
-    "challenges": 10
+    "challenges": 8
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -1083,7 +1083,7 @@
       "name": "Immune Regulation",
       "grade": "established",
       "tier": 1,
-      "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to depression via DA3 cascade.",
+      "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to low mood via DA3 cascade.",
       "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
       "resolution_conditions": "Pathogen cleared, inflammation resolved.",
       "mismatch_prediction": "Chronic low-grade inflammation from diet, sedentarism, social isolation.",
@@ -2092,7 +2092,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           }
         ],
         "evidence_count": 10
@@ -2169,7 +2169,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
             "extraction_id": 606,
@@ -2450,7 +2450,7 @@
             "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
             "extraction_id": 510,
@@ -2590,7 +2590,7 @@
             "evidence_role": "challenging",
             "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           }
         ],
         "evidence_count": 5
@@ -2963,7 +2963,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "longitudinal",
             "author_quote": null,
-            "content": "10-year longitudinal RCT (N=146): Kangaroo Care (14 days skin-to-skin) vs incubator care in preterm infants. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child cognitive development and executive functions from 6 months to 10 y"
+            "content": "10-year longitudinal study with case-matched controls (N=146): Kangaroo Care (14 days skin-to-skin) for 73 preterm infants vs standard incubator care for 73 matched controls. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child c"
           },
           {
             "extraction_id": 294,
@@ -3897,7 +3897,7 @@
           "uncontrollable_stress": "rare_exceptional"
         },
         "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
-        "gap_statement": "The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
+        "gap_statement": "The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of the nine symptoms the DSM lists for depression. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
         "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
         "evidence_grade": "theoretical",
         "contested": false,
@@ -3949,7 +3949,7 @@
           "false_alarm_rate": "high_but_each_resolved"
         },
         "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
-        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
+        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
         "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
         "evidence_grade": "theoretical",
         "contested": false,
@@ -4044,7 +4044,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
             "extraction_id": 250,

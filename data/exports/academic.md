@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-04 07:30 UTC, from the live Cor atlas snapshot built 2026-11-04 07:30 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 09:37 UTC, from the live Cor atlas snapshot built 2026-11-04 09:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
 ---
 ## How to read this document
@@ -257,7 +257,7 @@ None - a single shared implementation.
 
 **Grade:** established. **Tier:** 1. **Phylogenetic age:** ~600 Myr (all multicellular). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
 
-The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to depression via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
+The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
 
 C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above. C7 (Adverse Experience Cascading Dose-Response), established independently by Felitti, McEwen, and Panksepp. C9 (Allostatic Load Accumulation), established independently by McEwen, Felitti, and Sapolsky. Key researchers: Dantzer, Danese, Irwin.
 
@@ -931,7 +931,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#296 · theoretical · primary: "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth."
 - ext#293 · clinical · primary: "We have since found that moderate pressure is key to the massage therapy effects. We massage babies from head to foot (all but their chests and stomachs; they do not want to be touched there, most likely because that is where all the tubes have been inserted). The babies who were massaged gained 47 percent more weight than those not massaged, a significant weight gain."
 - ext#89 · replicated · primary: In a study of 112 parents and their 4-6 month olds, active parental touch triggered measurable OT responses. Mothers providing high levels of affectionate touch (>66% of interaction time) showed increased salivary OT from pre- to post-interaction, while mothers providing minimal
-- ext#100 · longitudinal · supporting: 10-year longitudinal RCT (N=146): Kangaroo Care (14 days skin-to-skin) vs incubator care in preterm infants. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child cognitive development and executive functions from 6 months to 10 y
+- ext#100 · longitudinal · supporting: 10-year longitudinal study with case-matched controls (N=146): Kangaroo Care (14 days skin-to-skin) for 73 preterm infants vs standard incubator care for 73 matched controls. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child c
 - ext#294 · cross_species · supporting: "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment."
 - (+5 more linked extraction(s))
 
@@ -1339,7 +1339,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.
 
-**The gap.** The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
+**The gap.** The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of the nine symptoms the DSM lists for depression. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
 
 **Resolution unit.** Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.
 
@@ -1368,7 +1368,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.
 
-**The gap.** The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
+**The gap.** The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
 
 **Resolution unit.** Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'
 
@@ -1435,4 +1435,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 07:30 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-04 07:30 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 09:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-04 09:37 UTC.*

@@ -247,7 +247,7 @@ None - a single shared implementation.
 
 **Grade:** established. **Tier:** 1. **Phylogenetic age:** ~600 Myr (all multicellular). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
 
-The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to depression via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
+The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
 
 C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above. C7 (Adverse Experience Cascading Dose-Response), established independently by Felitti, McEwen, and Panksepp. C9 (Allostatic Load Accumulation), established independently by McEwen, Felitti, and Sapolsky. Key researchers: Dantzer, Danese, Irwin.
 

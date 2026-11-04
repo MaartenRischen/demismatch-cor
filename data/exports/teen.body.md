@@ -160,7 +160,7 @@ Electric light, blue screens late at night, shift work, caffeine. This is the ol
 
 ## M8 - Immune Regulation
 
-This is the system behind "sickness behavior." When you're fighting an infection, inflammation signals shut down everything else - energy, mood, appetite, motivation - so your body can focus on the fight. It overrides what you *want* to do. It's also a major hub that links inflammation to depression.
+This is the system behind "sickness behavior." When you're fighting an infection, inflammation signals shut down everything else - energy, mood, appetite, motivation - so your body can focus on the fight. It overrides what you *want* to do. It's also a major hub that links inflammation to low mood.
 
 What resolves it: the pathogen is cleared and the inflammation settles down.
 

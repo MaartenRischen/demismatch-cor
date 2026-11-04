@@ -474,6 +474,14 @@
           citeHTML +
           "</article>";
       }).join("") + "</div>";
+      // Rows taken off the counted list stay named, each with its reason.
+      var aside = D.table("challenges_set_aside") || [];
+      if (aside.length) {
+        html += '<div class="ref-sub ref-set-aside"><span class="ref-sub-lbl">Set aside, not counted above</span>' +
+          '<ul class="ref-lit">' + aside.map(function (a) {
+            return "<li><strong>" + clean(a.citation) + "</strong>, " + clean(a.title) + ". " + clean(a.reason) + "</li>";
+          }).join("") + "</ul></div>";
+      }
     } else {
       html =
         '<div class="ref-emptystate">' +
