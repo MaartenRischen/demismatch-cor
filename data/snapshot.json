@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-04T04:42:38.719835+00:00",
+    "built_at": "2026-11-04T06:29:06.094232+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -6589,20 +6589,6 @@
         "source_type": "primary"
       },
       {
-        "id": 602,
-        "work_id": 116,
-        "mechanism_codes": [
-          "M3",
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
-        ],
-        "evidence_quality": "longitudinal",
-        "source_type": "primary"
-      },
-      {
         "id": 200,
         "work_id": 57,
         "mechanism_codes": [
@@ -12267,6 +12253,20 @@
           "P3"
         ],
         "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 602,
+        "work_id": 116,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "thin",
         "source_type": "primary"
       }
     ],
@@ -19471,8 +19471,8 @@
             "extraction_id": 602,
             "evidence_role": "primary",
             "author_quote": "Across the three intervals, the mean proportion of repeated campmates was 12.1%.",
-            "evidence_quality": "longitudinal",
-            "content": "Across 6 years / 4 waves, Hadza camps continuously dissolve and reconstitute: only ~12% of campmates repeat year-over-year (implying ~88% annual turnover), yet cooperative assortment persists."
+            "evidence_quality": "thin",
+            "content": "Across 6 years / 4 waves, Hadza camps continuously dissolve and reconstitute: only about 12% of campmates repeat from one survey wave to the next (waves 1 to 3 years apart), yet cooperative assortment persists."
           },
           {
             "extraction_id": 604,
@@ -19480,75 +19480,6 @@
             "author_quote": "Every 4-8 weeks entire camps shift location usually in response to resource availability.",
             "evidence_quality": "thin",
             "content": "Camp membership is fission-fusion: entire camps relocate on a weeks timescale, so the group as a unit does not persist."
-          }
-        ]
-      },
-      {
-        "code": "EEA-SOC-07",
-        "domain": "social_structure",
-        "name": "Relationship longevity & maintenance (decades-long durable dyads; ~27-yr co-survival ceiling; maintenance institutions like hxaro conserve bonds across distance)",
-        "eea_baseline": "In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with the large majority of campmates turning over year-to-year), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Two adults who reached adulthood together could expect on the order of ~27 years of overlapping co-survival, and reciprocal alliances ran over that whole horizon. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.",
-        "eea_value": {
-          "_note": "All numeric values are ILLUSTRATIVE and full-text-PENDING in Cor; NO extraction id is cited for any of them. The ~27-yr co-survival ceiling and the hxaro figures (childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) are attributed to Wiessner 2002 EHB 23:407-436, which is NOT in Cor and whose full text could NOT be obtained (retrieval is_fulltext=false, zero verbatim quotes; snippet figures rejected per R2). For turnover: the only retrieval-grounded figure is from Smith et al. bioRxiv 313064 (mean repeated campmates 12.1% => ~88% annual turnover; camps shift every ~4-8 weeks), which is itself NOT yet a Cor extraction; the ~78% lower bound of the range is web/recall-sourced and full-text-UNVERIFIED and must NOT be attributed to bioRxiv 313064. Treat the range edges as soft.",
-          "camp_reshuffle_interval_weeks": [
-            4,
-            8
-          ],
-          "hxaro_partner_max_distance_km": 200,
-          "co_survival_ceiling_years_approx": 27,
-          "annual_campmate_turnover_pct_approx": [
-            78,
-            88
-          ],
-          "hxaro_partners_in_own_camp_pct_approx": 18
-        },
-        "modern_default": "The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Empirically, friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and online media at best slows that decay rather than preventing it. Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.",
-        "gap_statement": "The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, lifelong delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.",
-        "resolution_unit": "The durable, spatially-dispersed reciprocal DYAD plus the maintenance institutions that conserve it across distance and time - i.e., a specific named partner whose bond is actively serviced (face-to-face when possible, and via hxaro-type delayed-reciprocity exchange when apart) so the relationship persists for decades and survives the reshuffling of any particular group. Conserved across the churn is the relationship, not the group; the resolution requires migrating a bond to an institution that keeps it alive once proximity ends, not merely accumulating more low-investment ties.",
-        "evidence_grade": "thin",
-        "contested": false,
-        "confidence_note": "Mixed and honestly LOW. The headline EEA numbers for this parameter (~27-yr co-survival ceiling; hxaro childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) come from Wiessner 2002 (Evolution and Human Behavior 23:407-436, DOI 10.1016/S1090-5138(02)00096-X), which is NOT in Cor and whose full text could not be legitimately obtained (paywalled Elsevier; retrieval returned is_fulltext=false with zero verbatim quotes; snippet figures were rejected per R2). The turnover/reshuffle figures trace to Smith et al. (bioRxiv 313064: 12.1% repeated => ~88% turnover; camps shift every ~4-8 weeks), which is likewise not yet a Cor extraction; the ~78% lower bound is web/recall-sourced and full-text-unverified. So NO extraction id is cited for any specific ancestral number here; those values are flagged ILLUSTRATIVE / full-text-pending. The evidence that IS cited grounds only the general durability-and-maintenance logic and the modern-side decay, from genuine full-text-backed Cor extractions: 509 and 510 (Dunbar 2016, rsos.150292 - face-to-face contact required to prevent friendship decay; media only slows decay), 503 and 505 (Sutcliffe, Dunbar, Binder & Arrow 2012 - maintenance cost is time-linear; trust is a function of time invested), and 479 (Trivers 1971 - reciprocal altruism requires long lifetime, low dispersal, repeated interaction with the same small set; author_quote intentionally absent/None per its remediation, so no verbatim quote is attributed). Grade held at 'thin' because the parameter-defining ancestral figures are unverified and the cited extractions address the why/modern-half rather than the EEA co-survival/hxaro specifics. Not 'replicated' despite some cited extractions being individually replicated, because they do not converge on this parameter's ancestral claims.",
-        "created_at": "2026-06-08T11:58:50.673795+00:00",
-        "updated_at": "2026-06-08T11:58:50.673795+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M3"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 509,
-            "evidence_role": "primary",
-            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "theoretical",
-            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
-          },
-          {
-            "extraction_id": 510,
-            "evidence_role": "supporting",
-            "author_quote": "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact.",
-            "evidence_quality": "theoretical",
-            "content": "Age strongly predicts total network size (r=-0.972, p=0.006) with 18-24 year olds averaging 282 friends, but inner layers show minimal age variation (support clique: r=-0.837, p=0.077; sympathy group: r=-0.042, p=0.947). The cognitive/time constraint on intimate relationships is "
-          },
-          {
-            "extraction_id": 503,
-            "evidence_role": "supporting",
-            "author_quote": "At each layer, the benefits are asymptotic but the costs of maintaining a relationship at that level (most obviously, the time that has to be invested in servicing it) are roughly linear with the number of relationships.",
-            "evidence_quality": "theoretical",
-            "content": "At each social layer, the benefits of adding more relationships are asymptotic (diminishing returns), while the costs of maintenance - primarily time - are roughly linear with relationship count. The intersection of these curves creates natural breakpoints that generate the layer"
-          },
-          {
-            "extraction_id": 505,
-            "evidence_role": "supporting",
-            "author_quote": "psychologically, these trade-offs are related to the level of trust in a relationship, and that this is itself a function of the time invested in the relationship.",
-            "evidence_quality": "theoretical",
-            "content": "Trust is the proximal psychological mechanism mediating social layer structure. Trade-offs at each layer are related to the level of trust in a relationship, and trust is itself a function of time invested. Trust operates as a cognitive heuristic that calibrates relationship inve"
-          },
-          {
-            "extraction_id": 479,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "theoretical",
-            "content": "Trivers identifies conditions maximizing the chance reciprocal altruism will be selected for: (1) many altruistic situations in the lifetime of the altruists, (2) a given altruist repeatedly interacts with the same small set of individuals, and (3) pairs of altruists are exposed "
           }
         ]
       },
@@ -19703,6 +19634,72 @@
             "author_quote": "Attacks from conspecifics (both infanticide and deaths due to lethal raids by bands of males from neighboring groups) are major sources of mortality.",
             "evidence_quality": "thin",
             "content": "In chimpanzees, attacks from conspecifics - including infanticide and lethal raids by bands of males from neighboring groups - are major sources of mortality."
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-07",
+        "domain": "social_structure",
+        "name": "Relationship longevity & maintenance (decades-long durable dyads; ~27-yr co-survival ceiling; maintenance institutions like hxaro conserve bonds across distance)",
+        "eea_baseline": "In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with most campmates changing from one survey wave to the next), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Two adults who reached adulthood together could expect on the order of ~27 years of overlapping co-survival, and reciprocal alliances ran over that whole horizon. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.",
+        "eea_value": {
+          "_note": "All numeric values are ILLUSTRATIVE and full-text-PENDING in Cor; NO extraction id is cited for any of them. The ~27-yr co-survival ceiling and the hxaro figures (childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) are attributed to Wiessner 2002 EHB 23:407-436, which is NOT in Cor and whose full text could NOT be obtained (retrieval is_fulltext=false, zero verbatim quotes; snippet figures rejected per R2). For turnover: no number is used; see campmate_turnover_status. Camps shift every ~4-8 weeks (Smith et al. 2018, core work 116).",
+          "campmate_turnover_status": "UNVERIFIED: see EEA-SOC-05. Smith et al. 2018 (Hadza; in Cor as core work 116) preprint v1 reports 12.1% repeated campmates and v2 reports 21.9%, under different definitions; survey waves are 1 to 3 years apart, so neither is an annual rate; the published figure was not read. Use no turnover number until it is.",
+          "camp_reshuffle_interval_weeks": [
+            4,
+            8
+          ],
+          "hxaro_partner_max_distance_km": 200,
+          "co_survival_ceiling_years_approx": 27,
+          "hxaro_partners_in_own_camp_pct_approx": 18
+        },
+        "modern_default": "The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Empirically, friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and online media at best slows that decay rather than preventing it. Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.",
+        "gap_statement": "The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, lifelong delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.",
+        "resolution_unit": "The durable, spatially-dispersed reciprocal DYAD plus the maintenance institutions that conserve it across distance and time - i.e., a specific named partner whose bond is actively serviced (face-to-face when possible, and via hxaro-type delayed-reciprocity exchange when apart) so the relationship persists for decades and survives the reshuffling of any particular group. Conserved across the churn is the relationship, not the group; the resolution requires migrating a bond to an institution that keeps it alive once proximity ends, not merely accumulating more low-investment ties.",
+        "evidence_grade": "thin",
+        "contested": false,
+        "confidence_note": "Mixed and honestly LOW. The headline EEA numbers for this parameter (~27-yr co-survival ceiling; hxaro childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) come from Wiessner 2002 (Evolution and Human Behavior 23:407-436, DOI 10.1016/S1090-5138(02)00096-X), which is NOT in Cor and whose full text could not be legitimately obtained (paywalled Elsevier; retrieval returned is_fulltext=false with zero verbatim quotes; snippet figures were rejected per R2). The reshuffle figures trace to Smith et al. 2018 (Hadza; in Cor as core work 116, extractions 602-605; camps shift every ~4-8 weeks). Its repeated-campmates proportion is unverified (preprint v1 12.1%, v2 21.9%, different definitions, waves 1 to 3 years apart, published figure unread), so no turnover number is used here. So NO extraction id is cited for any specific ancestral number here; those values are flagged ILLUSTRATIVE / full-text-pending. The evidence that IS cited grounds only the general durability-and-maintenance logic and the modern-side decay, from genuine full-text-backed Cor extractions: 509 and 510 (Dunbar 2016, rsos.150292 - face-to-face contact required to prevent friendship decay; media only slows decay), 503 and 505 (Sutcliffe, Dunbar, Binder & Arrow 2012 - maintenance cost is time-linear; trust is a function of time invested), and 479 (Trivers 1971 - reciprocal altruism requires long lifetime, low dispersal, repeated interaction with the same small set; author_quote intentionally absent/None per its remediation, so no verbatim quote is attributed). Grade held at 'thin' because the parameter-defining ancestral figures are unverified and the cited extractions address the why/modern-half rather than the EEA co-survival/hxaro specifics. Not 'replicated' despite some cited extractions being individually replicated, because they do not converge on this parameter's ancestral claims. Turnover figure corrected 2026-11-04 (tier-2 quality flag, batch 5).",
+        "created_at": "2026-06-08T11:58:50.673795+00:00",
+        "updated_at": "2026-06-08T11:58:50.673795+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M3"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 509,
+            "evidence_role": "primary",
+            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
+            "evidence_quality": "theoretical",
+            "content": "Face-to-face contact is required to prevent friendships from decaying through the network layers and eventually becoming mere acquaintances. Social media may slow the natural rate of decay but cannot substitute for in-person interaction. This directly confirms that the bonding sy"
+          },
+          {
+            "extraction_id": 510,
+            "evidence_role": "supporting",
+            "author_quote": "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact.",
+            "evidence_quality": "theoretical",
+            "content": "Age strongly predicts total network size (r=-0.972, p=0.006) with 18-24 year olds averaging 282 friends, but inner layers show minimal age variation (support clique: r=-0.837, p=0.077; sympathy group: r=-0.042, p=0.947). The cognitive/time constraint on intimate relationships is "
+          },
+          {
+            "extraction_id": 503,
+            "evidence_role": "supporting",
+            "author_quote": "At each layer, the benefits are asymptotic but the costs of maintaining a relationship at that level (most obviously, the time that has to be invested in servicing it) are roughly linear with the number of relationships.",
+            "evidence_quality": "theoretical",
+            "content": "At each social layer, the benefits of adding more relationships are asymptotic (diminishing returns), while the costs of maintenance - primarily time - are roughly linear with relationship count. The intersection of these curves creates natural breakpoints that generate the layer"
+          },
+          {
+            "extraction_id": 505,
+            "evidence_role": "supporting",
+            "author_quote": "psychologically, these trade-offs are related to the level of trust in a relationship, and that this is itself a function of the time invested in the relationship.",
+            "evidence_quality": "theoretical",
+            "content": "Trust is the proximal psychological mechanism mediating social layer structure. Trade-offs at each layer are related to the level of trust in a relationship, and trust is itself a function of time invested. Trust operates as a cognitive heuristic that calibrates relationship inve"
+          },
+          {
+            "extraction_id": 479,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "theoretical",
+            "content": "Trivers identifies conditions maximizing the chance reciprocal altruism will be selected for: (1) many altruistic situations in the lifetime of the altruists, (2) a given altruist repeatedly interacts with the same small set of individuals, and (3) pairs of altruists are exposed "
           }
         ]
       },
@@ -23075,9 +23072,9 @@
       "M11": [
         "EEA-SOC-01",
         "EEA-SOC-05",
-        "EEA-SOC-07",
         "EEA-SOC-09",
         "EEA-SOC-03",
+        "EEA-SOC-07",
         "EEA-SOC-04",
         "EEA-SOC-06",
         "EEA-INFO-01",
@@ -23088,9 +23085,9 @@
       "M3": [
         "EEA-SOC-01",
         "EEA-SOC-05",
-        "EEA-SOC-07",
         "EEA-SOC-03",
         "EEA-SOC-08",
+        "EEA-SOC-07",
         "EEA-SOC-04",
         "EEA-SOC-06",
         "EEA-CARE-01",
