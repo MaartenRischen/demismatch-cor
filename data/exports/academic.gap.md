@@ -131,23 +131,24 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 *Confidence note: Low within-camp relatedness now grounded in two full-text primaries (Apicella 2012: "first-order relatives make up less than 10% of residential camps"; Smith 2018: primary kin 1.43/1.93 per camp). Both single-population / partly restating Hill 2011; kept thin.*
 
-#### Membership turnover (camp dissolves and reconstitutes; ~12% repeated campmates year-over-year, ~88% annual turnover)
+#### Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)
 `EEA-SOC-05 · Social structure` — **grade: thin**
 
-**EEA baseline.** The residential group (camp/band) was a fission-fusion structure that continuously dissolved and reconstituted rather than a fixed-membership unit. Among the best-studied foragers (Hadza), entire camps relocated roughly every 4-8 weeks and individuals reshuffled across camps such that only a minority of campmates carried over from one year to the next. The one full-text-verified figure is from a multi-year Hadza study (Smith et al. 2018, bioRxiv 313064): a mean proportion of repeated campmates of ~12.1%, implying ~88% annual turnover. Crucially, despite this high residential churn, assortment on cooperation persisted (cooperators clustered together across reshuffles), and what was conserved across the turnover was not the group but the durable, individually-tracked reciprocal relationships between specific people. Group composition was fluid; the dyadic ties were the stable substrate.
+**EEA baseline.** The residential group (camp/band) was a fission-fusion structure that continuously dissolved and reconstituted rather than a fixed-membership unit. Among the best-studied foragers (Hadza), entire camps relocated roughly every 4-8 weeks and individuals reshuffled across camps such that only a minority of campmates carried over from one survey wave to the next (Smith et al. 2018, Hadza waves 1 to 3 years apart; the exact proportion is unverified, see eea_value). Crucially, despite this high residential churn, assortment on cooperation persisted (cooperators clustered together across reshuffles), and what was conserved across the turnover was not the group but the durable, individually-tracked reciprocal relationships between specific people. Group composition was fluid; the dyadic ties were the stable substrate.
 
 **EEA value** (illustrative, not constants):
 
-  - source: Smith et al. 2018 (bioRxiv 313064), Hadza, full-text-read in Retrieve phase
-  - not_yet_in_cor: True
-  - unverified_secondary_note: A higher figure of ~21.9% repeated / ~78% turnover circulates in secondary references and the task brief, but the Smith 2018 full text does NOT report it (it states 12.1%). That number is mis-attributable to this source and is plausibly from Smith et al. 2016 (R. Soc. Open Sci. 3:160131); it is NOT used as a value here and must be separately verified before any use.
-  - annual_turnover_proportion: 0.879
+  - source: Smith et al. 2018, Current Biology, doi 10.1016/j.cub.2018.07.064 (Hadza; survey waves 2010, 2013, 2014, 2016); in Cor as core work 116
+  - not_yet_in_cor: False
+  - preprint_v1_proportion: 0.121
+  - preprint_v2_proportion: 0.219
+  - repeated_campmates_status: UNVERIFIED: the published version was not read (publisher copy behind a bot check, 2026-11-04). The two preprint versions disagree because they define the measure differently: bioRxiv 313064v1 reports 12.1% (people lived with at both waves divided by all unique people lived with at either wave); v2 reports 21.9% (share of campmates at one wave still living with the person at the next). Waves are 1 to 3 years apart, so neither is an annual rate. Use no number until the published text is read.
+  - repeated_campmates_proportion: None
   - camp_relocation_interval_weeks: [4, 8]
-  - repeated_campmates_proportion_per_year: 0.121
 
 **Modern default.** Modern social environments invert the structure: the GROUP labels are stable and durable (a workplace, a school cohort, a neighborhood, a social-media platform or feed) while the actual dyadic relationships within them are shallow, interchangeable, and disposable. People remain nominal members of named, persistent groups for years, yet cycle through co-members with little individual reciprocal investment, and there is no institution analogous to a delayed-reciprocity partnership (e.g. hxaro) that conserves a specific bond once physical proximity ends. Relationships routinely lapse the moment shared context (job, class, proximity) is removed.
 
-**The gap.** The ancestral and modern environments are inverted on which layer is stable. Ancestrally the GROUP churned (~88% of campmates turned over yearly) while the durable reciprocal DYAD was conserved across the churn; the relationship, not the group, was the unit that persisted. Modernity delivers the opposite: stable, durable group labels (workplace, cohort, feed) paired with shallow, disposable dyads and no mechanism (no hxaro-equivalent) for conserving a specific bond once proximity ends. The mismatch is not 'too much turnover' versus 'too little' - it is that turnover now lands on the relationships (which evolved to persist) instead of on group membership (which evolved to be fluid), leaving the co-regulating, reputation-tracking reciprocal dyad chronically unmet.
+**The gap.** The ancestral and modern environments are inverted on which layer is stable. Ancestrally the GROUP churned (most campmates changed between survey waves) while the durable reciprocal DYAD was conserved across the churn; the relationship, not the group, was the unit that persisted. Modernity delivers the opposite: stable, durable group labels (workplace, cohort, feed) paired with shallow, disposable dyads and no mechanism (no hxaro-equivalent) for conserving a specific bond once proximity ends. The mismatch lies in where turnover lands: on the relationships, which evolved to persist, instead of on group membership, which evolved to be fluid. That leaves the co-regulating, reputation-tracking reciprocal dyad chronically unmet.
 
 **Resolution unit.** The durable reciprocal dyad - a specific, individually-known partner with whom reciprocity, co-regulation, and reputation are tracked over years. What needs conserving across membership turnover is not the group or the amount of contact but the persistence of particular bonded relationships; the bond, not the band, is the conserved unit.
 
@@ -158,7 +159,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#602 · longitudinal · primary: "Across the three intervals, the mean proportion of repeated campmates was 12.1%."
 - ext#604 · thin · supporting: "Every 4-8 weeks entire camps shift location usually in response to resource availability."
 
-*Confidence note: Turnover now grounded in Smith et al. 2018 full text: mean repeated campmates 12.1% (=> ~88% annual churn), camps shift every 4-8 weeks. CORRECTED from the brief's 21.9%/78% (that figure traces to Smith et al. 2016, a different paper). Single Hadza population; kept thin.*
+*Confidence note: Smith et al. 2018 (Hadza). Corrected 2026-11-04: the earlier 12.1% (v1 preprint) and 21.9% (v2 preprint) are both real and use different definitions; the published Current Biology figure is unverified, and 'annual turnover' was dropped because the waves are 1 to 3 years apart. Single Hadza population; kept thin.*
 
 #### Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity; kinship not main glue)
 `EEA-SOC-06 · Social structure` — **grade: thin**
@@ -838,7 +839,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 **Evidence (3 links):**
 
 - ext#333 · replicated · primary: "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala."
-- ext#442 · replicated · primary: "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts."
+- ext#442 · theoretical · primary: "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts."
 - ext#587 · theoretical · supporting: Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation
 
 *Confidence note: The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
