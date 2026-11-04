@@ -662,7 +662,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)
 `EEA-DIET-01 · Diet & metabolic` — **grade: theoretical** · **CONTESTED**
 
-**EEA baseline.** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero processed food.
+**EEA baseline.** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero industrially processed food.
 
 **EEA value** (illustrative, not constants):
 
@@ -671,7 +671,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
   - potassium: high
   - added_sugar: minimal
   - seasonality: high (composition tracked season/geography)
-  - processed_food: near-zero
+  - processed_food: near-zero industrial processing
   - micronutrient_density: high
   - protein_pct_calories_approx: 34
   - modern_protein_pct_calories_approx: 12
@@ -695,12 +695,12 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` — **grade: theoretical** · **CONTESTED**
 
-**EEA baseline.** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix and at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
+**EEA baseline.** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
 
 **EEA value** (illustrative, not constants):
 
   - note: Fiber figures are reconstructions; treat magnitude as approximate.
-  - sweet_fat_salt_availability: ancestrally rare, bundled in whole-food matrix
+  - sweet_fat_salt_availability: sweet food seasonal and costly (honey); fat and salt concentrations ancestrally rare; bundled in whole-food matrix
   - fiber_g_per_day_modern_approx: 20
   - fiber_g_per_day_ancestral_estimate: 100-150
 
@@ -720,20 +720,21 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#76 · clinical · supporting: Moss reveals through internal industry sources that food companies knowingly engineer products to exploit evolved taste preferences and are aware of the overconsumption consequences. At a secret 1999 meeting of eleven food industry CEOs, Pillsbury executive James Behnke confronte
 - ext#440 · clinical · supporting: "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits."
 
-*Confidence note: VERIFIED with one role correction. The modern half (bliss-point engineering that defeats satiety) is strongly evidenced by full-text industry-sourced extractions 75, 439, 76, 440 (all corpus-clinical, content confirmed). The ancestral fiber NUMBER is a reconstruction (ext 39, which states 100-150 vs 20 g/day verbatim) and the precise figure is contested, so the parameter is graded theoretical + contested. CORRECTION: ext 75 was mislabeled 'challenging' in the draft - it documents the modern mismatch mechanism (bliss-point optimization), which SUPPORTS the parameter's modern-default claim rather than challenging the parameter. Re-roled to supporting. All 5 ids confirmed to exist and match their content.*
+*Confidence note: VERIFIED with one role correction. The modern half (bliss-point engineering that defeats satiety) is strongly evidenced by full-text industry-sourced extractions 75, 439, 76, 440 (all corpus-clinical, content confirmed). The ancestral fiber NUMBER is a reconstruction (ext 39, which states 100-150 vs 20 g/day verbatim) and the precise figure is contested, so the parameter is graded theoretical + contested. CORRECTION: ext 75 was mislabeled 'challenging' in the draft - it documents the modern mismatch mechanism (bliss-point optimization), which SUPPORTS the parameter's modern-default claim rather than challenging the parameter. Re-roled to supporting. All 5 ids confirmed to exist and match their content. Sweetness narrowed 2026-11-04 (tier-2 quality flag, batch 7): seasonal and costly, per Marlowe et al. 2014 (honey, Hadza).*
 
 #### Acquisition effort (calories are physically worked for)
 `EEA-DIET-03 · Diet & metabolic` — **grade: clinical**
 
-**EEA baseline.** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, men walk roughly 7-10 miles/day and women ~5 miles/day plus several hours of digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
+**EEA baseline.** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
 
 **EEA value** (illustrative, not constants):
 
   - note: Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure - total subsistence work-hours are contested (see gap and held_out).
   - desk_worker_PAL: ~1.6
   - hunter_gatherer_PAL: 1.8-1.9
-  - hadza_men_miles_per_day: 7-10
-  - hadza_women_miles_per_day: ~5 plus hours digging
+  - hadza_distance_source: Pontzer et al. 2012, PLoS ONE, doi 10.1371/journal.pone.0040503 (GPS, means; SD 2.1 men, 1.7 women); women also dig several hours (ext 196)
+  - hadza_men_km_per_day_gps: 11.4
+  - hadza_women_km_per_day_gps: 5.8
   - hunter_gatherer_daily_travel_km_approx: ~10
 
 **Modern default.** Calories require essentially zero acquisition effort: hyperpalatable, energy-dense food is available on demand, pre-processed, often delivered, with no movement, foraging, or processing cost between impulse and ingestion. The effort gate that historically bounded intake is gone.
@@ -750,7 +751,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#197 · replicated · supporting: "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals."
 - ext#427 · theoretical · supporting: "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress."
 
-*Confidence note: VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed.*
+*Confidence note: VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed. Distances corrected 2026-11-04 (tier-2 quality flag, batch 7): the baseline now gives the GPS-measured Hadza means from Pontzer et al. 2012 (men 11.4 km/day, women 5.8 km/day); ext 196's 7-10 and 5 miles come from a trade book and overstate the women's figure.*
 
 #### Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)
 `EEA-DIET-04 · Diet & metabolic` — **grade: replicated**

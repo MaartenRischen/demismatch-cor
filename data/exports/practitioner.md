@@ -3,7 +3,7 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-04 06:29 UTC, from the live Cor atlas snapshot built 2026-11-04 06:29 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 07:22 UTC, from the live Cor atlas snapshot built 2026-11-04 07:22 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
@@ -951,7 +951,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)
 `EEA-DIET-01 · Diet & metabolic` - **grade: theoretical** · **CONTESTED**
 
-**Ancestrally:** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero processed food.
+**Ancestrally:** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero industrially processed food.
 
 **Now (modern default):** A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.
 
@@ -966,7 +966,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` - **grade: theoretical** · **CONTESTED**
 
-**Ancestrally:** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix and at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
+**Ancestrally:** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
 
 **Now (modern default):** Ultra-processed, hyperpalatable products engineered to the 'bliss point' - the mathematically optimized concentration of sugar, fat, and salt that maximizes craving - stripped of fiber and whole-food bulk. These foods decouple palatability from nutritional value and deliver calories faster than satiety signaling can register them, so the evolved fullness/reward proxies no longer track intake. Ultra-processed hyperpalatability is the modern proxy that defeats satiety.
 
@@ -981,7 +981,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Acquisition effort (calories are physically worked for)
 `EEA-DIET-03 · Diet & metabolic` - **grade: clinical**
 
-**Ancestrally:** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, men walk roughly 7-10 miles/day and women ~5 miles/day plus several hours of digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
+**Ancestrally:** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
 
 **Now (modern default):** Calories require essentially zero acquisition effort: hyperpalatable, energy-dense food is available on demand, pre-processed, often delivered, with no movement, foraging, or processing cost between impulse and ingestion. The effort gate that historically bounded intake is gone.
 
@@ -1090,4 +1090,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 06:29 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 06:29 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 07:22 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 07:22 UTC.*

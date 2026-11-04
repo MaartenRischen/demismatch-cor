@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-04T06:29:06.094232+00:00",
+    "built_at": "2026-11-04T07:22:38.732098+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -4758,20 +4758,6 @@
         ],
         "evidence_quality": "clinical",
         "source_type": "propagation"
-      },
-      {
-        "id": 413,
-        "work_id": 64,
-        "mechanism_codes": [
-          "M13",
-          "M1"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
       },
       {
         "id": 113,
@@ -12267,6 +12253,20 @@
           "P3"
         ],
         "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 413,
+        "work_id": 64,
+        "mechanism_codes": [
+          "M13",
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
         "source_type": "primary"
       }
     ],
@@ -20467,166 +20467,6 @@
         ]
       },
       {
-        "code": "EEA-DIET-01",
-        "domain": "diet_metabolic",
-        "name": "Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)",
-        "eea_baseline": "Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero processed food.",
-        "eea_value": {
-          "note": "Specific paleo-diet macronutrient figures are reconstructions and the exact numbers are contested; direction of divergence is robust, magnitude is not.",
-          "sodium": "low",
-          "potassium": "high",
-          "added_sugar": "minimal",
-          "seasonality": "high (composition tracked season/geography)",
-          "processed_food": "near-zero",
-          "micronutrient_density": "high",
-          "protein_pct_calories_approx": 34,
-          "modern_protein_pct_calories_approx": 12
-        },
-        "modern_default": "A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.",
-        "gap_statement": "The modern food environment collapses a seasonally varied, micronutrient-dense, whole-food omnivory into a year-round monotony of refined, energy-dense, nutrient-diluted products, removing both the variety and the whole-food matrix the metabolic and digestive systems were calibrated to.",
-        "resolution_unit": "Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.",
-        "evidence_grade": "theoretical",
-        "contested": true,
-        "confidence_note": "VERIFIED. The DIRECTION of divergence (less processed, more micronutrient-dense, more varied ancestrally) is well-supported; ext 39 (corpus-clinical, primary) carries the clean nutrient-profile claim including the 34% vs 12% protein figures verbatim. The SPECIFIC reconstructed numbers and the seasonality claim rest on Paleolithic-nutrition reconstructions: ext 471 (quarantined, snippet-sourced) is the only seasonality anchor and is cited supporting-only, never load-bearing. Held theoretical + contested because the row's distinctive seasonality/variety claim rests on a quarantined source even though the core nutrient-profile claim is clinical. Confirmed all 3 cited ids exist and support their roles.",
-        "created_at": "2026-06-08T12:32:51.168455+00:00",
-        "updated_at": "2026-06-08T12:32:51.168455+00:00",
-        "mechanism_codes": [
-          "M13"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 39,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "clinical",
-            "content": "Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di"
-          },
-          {
-            "extraction_id": 38,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "theoretical",
-            "content": "The discordance hypothesis: the human genome was shaped under Paleolithic nutritional conditions and has changed negligibly since the advent of agriculture (~10,000 years ago). Modern diseases of civilization - atherosclerosis, hypertension, obesity, diabetes - result from the mi"
-          },
-          {
-            "extraction_id": 471,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "theoretical",
-            "content": "Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about "
-          }
-        ]
-      },
-      {
-        "code": "EEA-DIET-02",
-        "domain": "diet_metabolic",
-        "name": "Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)",
-        "eea_baseline": "Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix and at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.",
-        "eea_value": {
-          "note": "Fiber figures are reconstructions; treat magnitude as approximate.",
-          "sweet_fat_salt_availability": "ancestrally rare, bundled in whole-food matrix",
-          "fiber_g_per_day_modern_approx": 20,
-          "fiber_g_per_day_ancestral_estimate": "100-150"
-        },
-        "modern_default": "Ultra-processed, hyperpalatable products engineered to the 'bliss point' - the mathematically optimized concentration of sugar, fat, and salt that maximizes craving - stripped of fiber and whole-food bulk. These foods decouple palatability from nutritional value and deliver calories faster than satiety signaling can register them, so the evolved fullness/reward proxies no longer track intake. Ultra-processed hyperpalatability is the modern proxy that defeats satiety.",
-        "gap_statement": "Industrial formulation deliberately separates the reward cues (sweet/fat/salt) from the satiety cues (fiber, bulk, slow digestion) the two were ancestrally bundled together, so modern hyperpalatable food drives consumption past the point the body would otherwise stop, defeating the honest-signal logic of appetite regulation.",
-        "resolution_unit": "Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.",
-        "evidence_grade": "theoretical",
-        "contested": true,
-        "confidence_note": "VERIFIED with one role correction. The modern half (bliss-point engineering that defeats satiety) is strongly evidenced by full-text industry-sourced extractions 75, 439, 76, 440 (all corpus-clinical, content confirmed). The ancestral fiber NUMBER is a reconstruction (ext 39, which states 100-150 vs 20 g/day verbatim) and the precise figure is contested, so the parameter is graded theoretical + contested. CORRECTION: ext 75 was mislabeled 'challenging' in the draft - it documents the modern mismatch mechanism (bliss-point optimization), which SUPPORTS the parameter's modern-default claim rather than challenging the parameter. Re-roled to supporting. All 5 ids confirmed to exist and match their content.",
-        "created_at": "2026-06-08T12:32:52.468179+00:00",
-        "updated_at": "2026-06-08T12:32:52.468179+00:00",
-        "mechanism_codes": [
-          "M13"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 39,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "clinical",
-            "content": "Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di"
-          },
-          {
-            "extraction_id": 75,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "clinical",
-            "content": "Moss documents how the food industry systematically optimizes products for the \"bliss point\" - the precise concentration of sugar, fat, and salt that maximizes sensory pleasure and craving. Howard Moskowitz, a mathematician and experimental psychologist, built a consulting empire"
-          },
-          {
-            "extraction_id": 439,
-            "evidence_role": "supporting",
-            "author_quote": "To plot what industry insiders call the 'bliss point,' or the precise amount of sugar or fat or salt that will send consumers over the moon. At a laboratory in White Plains, New York, industry scientists who perform this alchemy walked me, step by step, through the process of engineering a new soda so that I could see the creation of bliss firsthand.",
-            "evidence_quality": "clinical",
-            "content": "The food industry engineers bliss points - the precise amount of sugar, fat, or salt that sends consumers over the moon. Industry scientists mathematically optimize the hedonic response curve for each product, finding the exact concentration that maximizes craving. This is not ac"
-          },
-          {
-            "extraction_id": 76,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "clinical",
-            "content": "Moss reveals through internal industry sources that food companies knowingly engineer products to exploit evolved taste preferences and are aware of the overconsumption consequences. At a secret 1999 meeting of eleven food industry CEOs, Pillsbury executive James Behnke confronte"
-          },
-          {
-            "extraction_id": 440,
-            "evidence_role": "supporting",
-            "author_quote": "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits.",
-            "evidence_quality": "clinical",
-            "content": "Salt, sugar, and fat are the three pillars of processed food - the creators of crave. Each CEO needed them in huge quantities to turn products into hits. Officials discussed the power of foods to create cravings that overwhelm the best intentions of dieters. Industry-wide limits "
-          }
-        ]
-      },
-      {
-        "code": "EEA-DIET-03",
-        "domain": "diet_metabolic",
-        "name": "Acquisition effort (calories are physically worked for)",
-        "eea_baseline": "Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, men walk roughly 7-10 miles/day and women ~5 miles/day plus several hours of digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.",
-        "eea_value": {
-          "note": "Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure - total subsistence work-hours are contested (see gap and held_out).",
-          "desk_worker_PAL": "~1.6",
-          "hunter_gatherer_PAL": "1.8-1.9",
-          "hadza_men_miles_per_day": "7-10",
-          "hadza_women_miles_per_day": "~5 plus hours digging",
-          "hunter_gatherer_daily_travel_km_approx": "~10"
-        },
-        "modern_default": "Calories require essentially zero acquisition effort: hyperpalatable, energy-dense food is available on demand, pre-processed, often delivered, with no movement, foraging, or processing cost between impulse and ingestion. The effort gate that historically bounded intake is gone.",
-        "gap_statement": "Removing the work between hunger and food eliminates a natural brake on consumption and decouples eating from the obligate daily movement it was bundled with - calories are now frictionless to obtain and detached from the physical activity that ancestrally accompanied acquisition.",
-        "resolution_unit": "Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Daily distance/movement is solid; a specific subsistence work-HOURS number is contested and is not asserted here.",
-        "evidence_grade": "clinical",
-        "contested": false,
-        "confidence_note": "VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed.",
-        "created_at": "2026-06-08T12:32:53.491089+00:00",
-        "updated_at": "2026-06-08T12:32:53.491089+00:00",
-        "mechanism_codes": [
-          "M10",
-          "M13"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 196,
-            "evidence_role": "primary",
-            "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
-            "evidence_quality": "clinical",
-            "content": "Quantitative data from Hadza heart rate monitor study: average adult Hadza spends ~3h40m/day on light activities and ~2h14m/day on moderate-vigorous activities. Hadza men walk 7-10 miles/day, women walk 5 miles/day and dig for several hours. This is roughly 12x more active than t"
-          },
-          {
-            "extraction_id": 197,
-            "evidence_role": "supporting",
-            "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
-            "evidence_quality": "replicated",
-            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
-          },
-          {
-            "extraction_id": 427,
-            "evidence_role": "supporting",
-            "author_quote": "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress.",
-            "evidence_quality": "theoretical",
-            "content": "Modern sedentary lifestyle is directly mismatched with ancestral activity patterns. Walking or running 10+ kilometers daily, climbing trees, throwing, eschewing chairs, and sleeping on hard surfaces were normal for most of human evolutionary history. The primal-lifestyle movement"
-          }
-        ]
-      },
-      {
         "code": "EEA-DIET-04",
         "domain": "diet_metabolic",
         "name": "Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)",
@@ -20684,6 +20524,56 @@
             "author_quote": "We hypothesize that human daily energy expenditure may be an evolved physiological trait largely independent of cultural differences.",
             "evidence_quality": "theoretical",
             "content": "Pontzer's evolved-trait hypothesis from the 2012 Hadza paper: human daily energy expenditure may be an evolved physiological trait largely independent of cultural differences. This is the theoretical claim that motivated the broader Constrained TEE research program - TEE is not a"
+          }
+        ]
+      },
+      {
+        "code": "EEA-DIET-03",
+        "domain": "diet_metabolic",
+        "name": "Acquisition effort (calories are physically worked for)",
+        "eea_baseline": "Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.",
+        "eea_value": {
+          "note": "Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure - total subsistence work-hours are contested (see gap and held_out).",
+          "desk_worker_PAL": "~1.6",
+          "hunter_gatherer_PAL": "1.8-1.9",
+          "hadza_distance_source": "Pontzer et al. 2012, PLoS ONE, doi 10.1371/journal.pone.0040503 (GPS, means; SD 2.1 men, 1.7 women); women also dig several hours (ext 196)",
+          "hadza_men_km_per_day_gps": 11.4,
+          "hadza_women_km_per_day_gps": 5.8,
+          "hunter_gatherer_daily_travel_km_approx": "~10"
+        },
+        "modern_default": "Calories require essentially zero acquisition effort: hyperpalatable, energy-dense food is available on demand, pre-processed, often delivered, with no movement, foraging, or processing cost between impulse and ingestion. The effort gate that historically bounded intake is gone.",
+        "gap_statement": "Removing the work between hunger and food eliminates a natural brake on consumption and decouples eating from the obligate daily movement it was bundled with - calories are now frictionless to obtain and detached from the physical activity that ancestrally accompanied acquisition.",
+        "resolution_unit": "Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Daily distance/movement is solid; a specific subsistence work-HOURS number is contested and is not asserted here.",
+        "evidence_grade": "clinical",
+        "contested": false,
+        "confidence_note": "VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed. Distances corrected 2026-11-04 (tier-2 quality flag, batch 7): the baseline now gives the GPS-measured Hadza means from Pontzer et al. 2012 (men 11.4 km/day, women 5.8 km/day); ext 196's 7-10 and 5 miles come from a trade book and overstate the women's figure.",
+        "created_at": "2026-06-08T12:32:53.491089+00:00",
+        "updated_at": "2026-06-08T12:32:53.491089+00:00",
+        "mechanism_codes": [
+          "M10",
+          "M13"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 196,
+            "evidence_role": "primary",
+            "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
+            "evidence_quality": "clinical",
+            "content": "Quantitative data from Hadza heart rate monitor study: average adult Hadza spends ~3h40m/day on light activities and ~2h14m/day on moderate-vigorous activities. Hadza men walk 7-10 miles/day, women walk 5 miles/day and dig for several hours. This is roughly 12x more active than t"
+          },
+          {
+            "extraction_id": 197,
+            "evidence_role": "supporting",
+            "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
+            "evidence_quality": "replicated",
+            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
+          },
+          {
+            "extraction_id": 427,
+            "evidence_role": "supporting",
+            "author_quote": "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress.",
+            "evidence_quality": "theoretical",
+            "content": "Modern sedentary lifestyle is directly mismatched with ancestral activity patterns. Walking or running 10+ kilometers daily, climbing trees, throwing, eschewing chairs, and sleeping on hard surfaces were normal for most of human evolutionary history. The primal-lifestyle movement"
           }
         ]
       },
@@ -21315,6 +21205,117 @@
             "author_quote": null,
             "evidence_quality": "theoretical",
             "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
+          }
+        ]
+      },
+      {
+        "code": "EEA-DIET-02",
+        "domain": "diet_metabolic",
+        "name": "Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)",
+        "eea_baseline": "Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.",
+        "eea_value": {
+          "note": "Fiber figures are reconstructions; treat magnitude as approximate.",
+          "sweet_fat_salt_availability": "sweet food seasonal and costly (honey); fat and salt concentrations ancestrally rare; bundled in whole-food matrix",
+          "fiber_g_per_day_modern_approx": 20,
+          "fiber_g_per_day_ancestral_estimate": "100-150"
+        },
+        "modern_default": "Ultra-processed, hyperpalatable products engineered to the 'bliss point' - the mathematically optimized concentration of sugar, fat, and salt that maximizes craving - stripped of fiber and whole-food bulk. These foods decouple palatability from nutritional value and deliver calories faster than satiety signaling can register them, so the evolved fullness/reward proxies no longer track intake. Ultra-processed hyperpalatability is the modern proxy that defeats satiety.",
+        "gap_statement": "Industrial formulation deliberately separates the reward cues (sweet/fat/salt) from the satiety cues (fiber, bulk, slow digestion) the two were ancestrally bundled together, so modern hyperpalatable food drives consumption past the point the body would otherwise stop, defeating the honest-signal logic of appetite regulation.",
+        "resolution_unit": "Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.",
+        "evidence_grade": "theoretical",
+        "contested": true,
+        "confidence_note": "VERIFIED with one role correction. The modern half (bliss-point engineering that defeats satiety) is strongly evidenced by full-text industry-sourced extractions 75, 439, 76, 440 (all corpus-clinical, content confirmed). The ancestral fiber NUMBER is a reconstruction (ext 39, which states 100-150 vs 20 g/day verbatim) and the precise figure is contested, so the parameter is graded theoretical + contested. CORRECTION: ext 75 was mislabeled 'challenging' in the draft - it documents the modern mismatch mechanism (bliss-point optimization), which SUPPORTS the parameter's modern-default claim rather than challenging the parameter. Re-roled to supporting. All 5 ids confirmed to exist and match their content. Sweetness narrowed 2026-11-04 (tier-2 quality flag, batch 7): seasonal and costly, per Marlowe et al. 2014 (honey, Hadza).",
+        "created_at": "2026-06-08T12:32:52.468179+00:00",
+        "updated_at": "2026-06-08T12:32:52.468179+00:00",
+        "mechanism_codes": [
+          "M13"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 39,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "clinical",
+            "content": "Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di"
+          },
+          {
+            "extraction_id": 75,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "clinical",
+            "content": "Moss documents how the food industry systematically optimizes products for the \"bliss point\" - the precise concentration of sugar, fat, and salt that maximizes sensory pleasure and craving. Howard Moskowitz, a mathematician and experimental psychologist, built a consulting empire"
+          },
+          {
+            "extraction_id": 439,
+            "evidence_role": "supporting",
+            "author_quote": "To plot what industry insiders call the 'bliss point,' or the precise amount of sugar or fat or salt that will send consumers over the moon. At a laboratory in White Plains, New York, industry scientists who perform this alchemy walked me, step by step, through the process of engineering a new soda so that I could see the creation of bliss firsthand.",
+            "evidence_quality": "clinical",
+            "content": "The food industry engineers bliss points - the precise amount of sugar, fat, or salt that sends consumers over the moon. Industry scientists mathematically optimize the hedonic response curve for each product, finding the exact concentration that maximizes craving. This is not ac"
+          },
+          {
+            "extraction_id": 76,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "clinical",
+            "content": "Moss reveals through internal industry sources that food companies knowingly engineer products to exploit evolved taste preferences and are aware of the overconsumption consequences. At a secret 1999 meeting of eleven food industry CEOs, Pillsbury executive James Behnke confronte"
+          },
+          {
+            "extraction_id": 440,
+            "evidence_role": "supporting",
+            "author_quote": "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits.",
+            "evidence_quality": "clinical",
+            "content": "Salt, sugar, and fat are the three pillars of processed food - the creators of crave. Each CEO needed them in huge quantities to turn products into hits. Officials discussed the power of foods to create cravings that overwhelm the best intentions of dieters. Industry-wide limits "
+          }
+        ]
+      },
+      {
+        "code": "EEA-DIET-01",
+        "domain": "diet_metabolic",
+        "name": "Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)",
+        "eea_baseline": "Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero industrially processed food.",
+        "eea_value": {
+          "note": "Specific paleo-diet macronutrient figures are reconstructions and the exact numbers are contested; direction of divergence is robust, magnitude is not.",
+          "sodium": "low",
+          "potassium": "high",
+          "added_sugar": "minimal",
+          "seasonality": "high (composition tracked season/geography)",
+          "processed_food": "near-zero industrial processing",
+          "micronutrient_density": "high",
+          "protein_pct_calories_approx": 34,
+          "modern_protein_pct_calories_approx": 12
+        },
+        "modern_default": "A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.",
+        "gap_statement": "The modern food environment collapses a seasonally varied, micronutrient-dense, whole-food omnivory into a year-round monotony of refined, energy-dense, nutrient-diluted products, removing both the variety and the whole-food matrix the metabolic and digestive systems were calibrated to.",
+        "resolution_unit": "Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.",
+        "evidence_grade": "theoretical",
+        "contested": true,
+        "confidence_note": "VERIFIED. The DIRECTION of divergence (less processed, more micronutrient-dense, more varied ancestrally) is well-supported; ext 39 (corpus-clinical, primary) carries the clean nutrient-profile claim including the 34% vs 12% protein figures verbatim. The SPECIFIC reconstructed numbers and the seasonality claim rest on Paleolithic-nutrition reconstructions: ext 471 (quarantined, snippet-sourced) is the only seasonality anchor and is cited supporting-only, never load-bearing. Held theoretical + contested because the row's distinctive seasonality/variety claim rests on a quarantined source even though the core nutrient-profile claim is clinical. Confirmed all 3 cited ids exist and support their roles.",
+        "created_at": "2026-06-08T12:32:51.168455+00:00",
+        "updated_at": "2026-06-08T12:32:51.168455+00:00",
+        "mechanism_codes": [
+          "M13"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 39,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "clinical",
+            "content": "Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di"
+          },
+          {
+            "extraction_id": 38,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "theoretical",
+            "content": "The discordance hypothesis: the human genome was shaped under Paleolithic nutritional conditions and has changed negligibly since the advent of agriculture (~10,000 years ago). Modern diseases of civilization - atherosclerosis, hypertension, obesity, diabetes - result from the mi"
+          },
+          {
+            "extraction_id": 471,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "theoretical",
+            "content": "Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about "
           }
         ]
       }
@@ -22876,6 +22877,18 @@
         "created_at": "2026-08-10T05:45:57.110031+00:00"
       }
     ],
+    "challenges_set_aside": [
+      {
+        "citation": "Stieglitz et al. 2015",
+        "title": "Depression as sickness behavior? A test of the host defense hypothesis in a high pathogen population (Tsimane)",
+        "reason": "Refiled as support. The scores show low mood firing on its own triggers, here immune activation, in a forager-horticulturalist population, which is what OF2 predicts. One population with no matched comparison cannot score falsifier 1."
+      },
+      {
+        "citation": "Stieglitz et al. 2015",
+        "title": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers (Tsimane), prevalence finding",
+        "reason": "Set aside as a weak test and moved out of the core set. It is one cross-sectional sample, and its comparison with industrial prevalence runs across questionnaires that are not equivalent. The study's correlates (disability, a lost provider role, conflict) stay in the atlas."
+      }
+    ],
     "challenges": [
       {
         "id": 101,
@@ -23148,10 +23161,10 @@
         "EEA-THREAT-02"
       ],
       "M13": [
-        "EEA-DIET-01",
-        "EEA-DIET-02",
+        "EEA-DIET-04",
         "EEA-DIET-03",
-        "EEA-DIET-04"
+        "EEA-DIET-02",
+        "EEA-DIET-01"
       ],
       "M8": [
         "EEA-THREAT-03",
