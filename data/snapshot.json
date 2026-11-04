@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-02T08:41:30.319926+00:00",
+    "built_at": "2026-11-04T00:06:27.469677+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -136,17 +136,6 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 13,
-        "code": "DC1",
-        "layer": "consequence",
-        "name": "Allostatic Load Accumulation",
-        "statement": "Chronic unresolved activation accumulates as allostatic load.",
-        "derivation": "McEwen (allostatic load) + DA3 + P3.",
-        "epistemic_grade": "forced",
-        "scope_notes": "Much wear reverses with environmental correction. Some may not (telomere shortening, hippocampal volume loss).",
-        "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
         "id": 14,
         "code": "DC2",
         "layer": "consequence",
@@ -158,14 +147,14 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 5,
-        "code": "DA1",
-        "layer": "property",
-        "name": "Defensive Signals Under Mismatch",
-        "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
-        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
+        "id": 13,
+        "code": "DC1",
+        "layer": "consequence",
+        "name": "Allostatic Load Accumulation",
+        "statement": "Chronic unresolved activation accumulates as allostatic load.",
+        "derivation": "McEwen (allostatic load) + DA3 + P3.",
         "epistemic_grade": "forced",
-        "scope_notes": "Does NOT claim all psychiatric presentations are mismatch signals. Four categories must be distinguished: defensive activation, dysregulation, damage, developmental miscalibration.",
+        "scope_notes": "Allostatic load is physical and measured (cortisol, blood pressure, HbA1c, CRP and other markers; ext 128), so measured wear sits on the physical side of the biomarker line (DA1): chronic mismatch can produce a disease with a marker, and behaviour driven by that disease, such as inflammation-driven low mood (M8), is its symptom. The response that built the load stays a normal response. Much wear reverses with environmental correction. Some may not (telomere shortening, hippocampal volume loss).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -177,6 +166,17 @@
         "derivation": "Darwin, Hamilton (kin selection, inclusive fitness).",
         "epistemic_grade": "forced",
         "scope_notes": "The architecture exists because it contributed to the survival and reproduction of the organism and its genetic relatives across evolutionary time. The loss function explains why the mechanisms exist (ultimate). The mechanisms are how the loss function is implemented (proximate). No organism computes inclusive fitness explicitly - the mechanisms are proximate implementations shaped by selection. This is why proxies fail: they trigger input cues while failing to supply resolution conditions.",
+        "created_at": "2026-04-04T17:25:29.196006+00:00"
+      },
+      {
+        "id": 5,
+        "code": "DA1",
+        "layer": "property",
+        "name": "Defensive Signals Under Mismatch",
+        "statement": "Many aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
+        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
+        "epistemic_grade": "forced",
+        "scope_notes": "The line is a biomarker (project decision, 4 Nov 2026). Where a measurable physical cause exists (brain infection, autoimmune encephalitis such as anti-NMDA-receptor encephalitis, tumour, poisoning, a substance or medication effect, dementia or another neurodegenerative process, brain injury), the person is sick and the behaviour is a symptom of that disease, with a marker to point to. \"Damage\" in Cor means only a literal physical cause of this kind. Where no biomarker exists, Cor uses no \"disease\" or \"disorder\" category: the output is a normal response to a mismatched world. Inborn (heritable) sensitivity sets how easily a person tips and how large the response is (DA10), developmental calibration can set the threshold early (DA7), and recurrent coupling can keep a response running after its trigger has passed (DA3). Persistence alone does not move a case across the line; a marker does. Labels such as psychosis, bipolar and depression are applied to cases on both sides, so a label settles nothing by itself. If a biomarker is found for a subset of a label, that subset moves to the physical side. Counterpoints kept: Nesse places psychotic depression and mania, which have no validated marker, in a separate class of broken mood regulation (ext 355, 358), and Keller & Miller read much heritable liability as mutational load (ext 590, 594). Cor records both as challenges and applies the biomarker line.",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -198,7 +198,7 @@
         "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands) and not a contraindication to symptom relief where indicated. The default is displaced by positive evidence of decoupling or direct physiological perturbation: developmental miscalibration carried forward, chronic dysregulation, acute organic disease or state shift (sleep deprivation, inflammation, endocrine perturbation, delirium), structural damage, and substance or medication effects.",
         "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
         "epistemic_grade": "frame",
-        "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. The two claims operate at different levels and do not contradict. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The five-category list of decoupling exceptions is the working set, expanded from the original four after Codex adversarial review (April 8, 2026) flagged acute physiological state shifts as missing.",
+        "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. The two claims operate at different levels and do not contradict. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The five-category list of decoupling exceptions is the working set, expanded from the original four after Codex adversarial review (April 8, 2026) flagged acute physiological state shifts as missing. Biomarker line (DA1, 4 Nov 2026): the list mixes two kinds of case. Acute organic disease or state shift, structural damage, and substance or medication effects are measurable physical causes, and the output is a symptom of that cause. Developmental miscalibration and chronic dysregulation displace the default reading of the CURRENT input without making the output a disease: a threshold set by early calibration (DA7) or by heritable sensitivity (DA10), or a loop kept running by coupled systems (DA3), is still a response. Chronic dysregulation counts as a physical cause only where it is measured, for example as an inflammatory profile (M8). Persistence across environmental change and loss of context-sensitivity are reasons to look for a physical cause and to check calibration and coupling; by themselves they do not license a disease label.",
         "created_at": "2026-04-08T14:00:24.018102+00:00"
       },
       {
@@ -1938,14 +1938,6 @@
     ],
     "domains": [
       {
-        "id": 1,
-        "name": "Threat Management",
-        "primary_mechanism": "M1",
-        "cross_cutting": false,
-        "description": "Research and applied work on defensive responses to threat cues: fear circuitry, frustration-aggression, panic disorder, PTSD, and the conditions under which safety can be established. Maps to M1; feeds A2 clinical and A3 environment design applications.",
-        "created_at": "2026-04-04T19:30:44.821523+00:00"
-      },
-      {
         "id": 2,
         "name": "Pursuit and Exploration",
         "primary_mechanism": "M2",
@@ -1983,14 +1975,6 @@
         "primary_mechanism": "M6",
         "cross_cutting": false,
         "description": "Learned helplessness research (Maier & Seligman reformulation), decision latitude, vmPFC-DRN circuitry, and the agency-as-override-of-default-passivity framework. Maps to M6; critical cascade-break point for A2 clinical work.",
-        "created_at": "2026-04-04T19:30:44.821523+00:00"
-      },
-      {
-        "id": 7,
-        "name": "Sleep and Circadian Regulation",
-        "primary_mechanism": "M7",
-        "cross_cutting": false,
-        "description": "SCN master clock research, chronotype variation, social jetlag, sleep deprivation consequences, and chronotherapy in psychiatric conditions. Maps to M7; large evidence base and central to A2 clinical and A3 environment design.",
         "created_at": "2026-04-04T19:30:44.821523+00:00"
       },
       {
@@ -2111,6 +2095,22 @@
         "primary_mechanism": null,
         "cross_cutting": true,
         "description": "Research areas where seemingly conflicting frameworks admit a level-of-analysis resolution - notably the Panksepp-Barrett debate on emotion natural kinds vs constructed emotions. Grounds BT1.",
+        "created_at": "2026-04-04T19:30:44.821523+00:00"
+      },
+      {
+        "id": 1,
+        "name": "Threat Management",
+        "primary_mechanism": "M1",
+        "cross_cutting": false,
+        "description": "Research and applied work on defensive responses to threat cues: fear circuitry, frustration-aggression, panic attacks, post-traumatic stress, and the conditions under which safety can be established. Maps to M1; feeds A2 clinical and A3 environment design applications.",
+        "created_at": "2026-04-04T19:30:44.821523+00:00"
+      },
+      {
+        "id": 7,
+        "name": "Sleep and Circadian Regulation",
+        "primary_mechanism": "M7",
+        "cross_cutting": false,
+        "description": "SCN master clock research, chronotype variation, social jetlag, sleep deprivation consequences, and chronotherapy in psychiatric care. Maps to M7; large evidence base and central to A2 clinical and A3 environment design.",
         "created_at": "2026-04-04T19:30:44.821523+00:00"
       },
       {
@@ -2754,15 +2754,6 @@
         "primary_researcher_id": 4
       },
       {
-        "id": 52,
-        "title": "Stress and anxiety: Structural plasticity and epigenetic regulation as a consequence of stress",
-        "authors": "McEwen, Bruce S.; Eiland, Lisa; Hunter, Richard G.; Miller, Melinda M.",
-        "year": 2012,
-        "work_type": "review",
-        "importance": "pillar",
-        "primary_researcher_id": 22
-      },
-      {
         "id": 51,
         "title": "Allostatic load biomarkers of chronic stress and impact on health and cognition",
         "authors": "Juster, Robert-Paul; McEwen, Bruce S.; Lupien, Sonia J.",
@@ -3132,15 +3123,6 @@
         "primary_researcher_id": 20
       },
       {
-        "id": 98,
-        "title": "Attachment and Loss, Volume 2: Separation: Anxiety and Anger",
-        "authors": "Bowlby J",
-        "year": 1973,
-        "work_type": "book",
-        "importance": "pillar",
-        "primary_researcher_id": 20
-      },
-      {
         "id": 100,
         "title": "The logic of social exchange: Has natural selection shaped how humans reason?",
         "authors": "Cosmides L",
@@ -3220,15 +3202,6 @@
         "work_type": "chapter",
         "importance": "pillar",
         "primary_researcher_id": 4
-      },
-      {
-        "id": 105,
-        "title": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
-        "authors": "Keller, M. C., & Miller, G. F.",
-        "year": 2006,
-        "work_type": "paper",
-        "importance": "key",
-        "primary_researcher_id": null
       },
       {
         "id": 112,
@@ -3715,6 +3688,33 @@
         "work_type": "meta_analysis",
         "importance": "key",
         "primary_researcher_id": null
+      },
+      {
+        "id": 98,
+        "title": "Attachment and Loss, Volume 2: Separation: Anxiety and Anger",
+        "authors": "Bowlby J",
+        "year": 1973,
+        "work_type": "book",
+        "importance": "pillar",
+        "primary_researcher_id": 20
+      },
+      {
+        "id": 52,
+        "title": "Stress and anxiety: Structural plasticity and epigenetic regulation as a consequence of stress",
+        "authors": "McEwen, Bruce S.; Eiland, Lisa; Hunter, Richard G.; Miller, Melinda M.",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "pillar",
+        "primary_researcher_id": 22
+      },
+      {
+        "id": 105,
+        "title": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
+        "authors": "Keller, M. C., & Miller, G. F.",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "key",
+        "primary_researcher_id": null
       }
     ],
     "extractions": [
@@ -3747,15 +3747,13 @@
         "source_type": "primary"
       },
       {
-        "id": 410,
-        "work_id": 7,
+        "id": 6,
+        "work_id": 2,
         "mechanism_codes": [
-          "M5",
-          "M14"
+          "M1"
         ],
         "foundation_codes": [
-          "P3",
-          "DC2"
+          "DA5"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -3777,18 +3775,6 @@
         "foundation_codes": [
           "P1",
           "P2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 6,
-        "work_id": 2,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -3902,19 +3888,6 @@
           "DC1"
         ],
         "evidence_quality": "longitudinal",
-        "source_type": "primary"
-      },
-      {
-        "id": 12,
-        "work_id": 5,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA7"
-        ],
-        "evidence_quality": "theoretical",
         "source_type": "primary"
       },
       {
@@ -5057,21 +5030,6 @@
         "source_type": "primary"
       },
       {
-        "id": 492,
-        "work_id": 69,
-        "mechanism_codes": [
-          "M3",
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P2",
-          "P3"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary"
-      },
-      {
         "id": 290,
         "work_id": 64,
         "mechanism_codes": [
@@ -5085,12 +5043,12 @@
         "source_type": "primary"
       },
       {
-        "id": 135,
-        "work_id": 53,
+        "id": 532,
+        "work_id": 75,
         "mechanism_codes": [],
         "foundation_codes": [
           "DA1",
-          "OF2"
+          "DA8"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -5110,7 +5068,7 @@
         "source_type": "primary"
       },
       {
-        "id": 134,
+        "id": 135,
         "work_id": 53,
         "mechanism_codes": [],
         "foundation_codes": [
@@ -5220,19 +5178,6 @@
           "DA8"
         ],
         "evidence_quality": "cross_species",
-        "source_type": "primary"
-      },
-      {
-        "id": 404,
-        "work_id": 12,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -5831,17 +5776,6 @@
         "foundation_codes": [
           "DA2",
           "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 532,
-        "work_id": 75,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1",
-          "DA8"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -6792,21 +6726,6 @@
         "source_type": "empirical"
       },
       {
-        "id": 490,
-        "work_id": 69,
-        "mechanism_codes": [
-          "M3",
-          "M4",
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 491,
         "work_id": 69,
         "mechanism_codes": [
@@ -7020,19 +6939,6 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "DA5"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 567,
-        "work_id": 94,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5",
-          "DA1"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -7540,18 +7446,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 27,
-        "work_id": 13,
-        "mechanism_codes": [
-          "M5",
-          "M1",
-          "M3"
-        ],
-        "foundation_codes": [],
-        "evidence_quality": "longitudinal",
-        "source_type": "primary"
-      },
-      {
         "id": 85,
         "work_id": 38,
         "mechanism_codes": [
@@ -7971,22 +7865,6 @@
         "source_type": "primary"
       },
       {
-        "id": 227,
-        "work_id": 59,
-        "mechanism_codes": [
-          "M8",
-          "M3"
-        ],
-        "foundation_codes": [
-          "P1",
-          "DA1",
-          "P3",
-          "OF2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation"
-      },
-      {
         "id": 613,
         "work_id": 119,
         "mechanism_codes": [
@@ -8009,6 +7887,22 @@
         ],
         "evidence_quality": "thin",
         "source_type": "primary"
+      },
+      {
+        "id": 227,
+        "work_id": 59,
+        "mechanism_codes": [
+          "M8",
+          "M3"
+        ],
+        "foundation_codes": [
+          "P1",
+          "DA1",
+          "P3",
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation"
       },
       {
         "id": 249,
@@ -8226,20 +8120,6 @@
         "source_type": "primary"
       },
       {
-        "id": 259,
-        "work_id": 4,
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA8"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
         "id": 260,
         "work_id": 4,
         "mechanism_codes": [
@@ -8367,16 +8247,6 @@
         "source_type": "primary"
       },
       {
-        "id": 590,
-        "work_id": 105,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge"
-      },
-      {
         "id": 129,
         "work_id": 52,
         "mechanism_codes": [
@@ -8471,32 +8341,6 @@
         "source_type": "primary"
       },
       {
-        "id": 435,
-        "work_id": 35,
-        "mechanism_codes": [
-          "M7",
-          "M8"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 264,
-        "work_id": 4,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 592,
         "work_id": 103,
         "mechanism_codes": [
@@ -8567,6 +8411,19 @@
         "source_type": "primary"
       },
       {
+        "id": 509,
+        "work_id": 73,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
         "id": 481,
         "work_id": 67,
         "mechanism_codes": [
@@ -8577,19 +8434,6 @@
           "DA1",
           "P3",
           "OF2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 509,
-        "work_id": 73,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -8608,16 +8452,6 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
-      },
-      {
-        "id": 594,
-        "work_id": 105,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge"
       },
       {
         "id": 400,
@@ -8938,20 +8772,6 @@
         "source_type": "primary"
       },
       {
-        "id": 409,
-        "work_id": 7,
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA5"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 121,
         "work_id": 50,
         "mechanism_codes": [
@@ -9014,20 +8834,6 @@
           "DA3"
         ],
         "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 130,
-        "work_id": 52,
-        "mechanism_codes": [
-          "M1",
-          "M6"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DC1"
-        ],
-        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -9099,20 +8905,6 @@
         "source_type": "primary"
       },
       {
-        "id": 417,
-        "work_id": 65,
-        "mechanism_codes": [
-          "R1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "DA7"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "primary"
-      },
-      {
         "id": 418,
         "work_id": 65,
         "mechanism_codes": [
@@ -9151,6 +8943,20 @@
           "P2"
         ],
         "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 417,
+        "work_id": 65,
+        "mechanism_codes": [
+          "R1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA7"
+        ],
+        "evidence_quality": "clinical",
         "source_type": "primary"
       },
       {
@@ -9205,21 +9011,6 @@
           "P2"
         ],
         "evidence_quality": "replicated",
-        "source_type": "primary"
-      },
-      {
-        "id": 425,
-        "work_id": 64,
-        "mechanism_codes": [
-          "M10",
-          "M13",
-          "M8"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DC1"
-        ],
-        "evidence_quality": "clinical",
         "source_type": "primary"
       },
       {
@@ -9988,22 +9779,6 @@
         "source_type": "primary"
       },
       {
-        "id": 326,
-        "work_id": 5,
-        "mechanism_codes": [
-          "M3",
-          "M4",
-          "M14"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA7",
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation"
-      },
-      {
         "id": 327,
         "work_id": 5,
         "mechanism_codes": [
@@ -10364,21 +10139,6 @@
         "source_type": "primary"
       },
       {
-        "id": 355,
-        "work_id": 2,
-        "mechanism_codes": [
-          "M5",
-          "M6"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "P3",
-          "DA5"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 356,
         "work_id": 2,
         "mechanism_codes": [
@@ -10389,20 +10149,6 @@
           "P1",
           "DA5",
           "P3",
-          "DA1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 354,
-        "work_id": 2,
-        "mechanism_codes": [
-          "M1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "P1",
           "DA1"
         ],
         "evidence_quality": "theoretical",
@@ -10423,15 +10169,16 @@
         "source_type": "primary"
       },
       {
-        "id": 358,
+        "id": 355,
         "work_id": 2,
         "mechanism_codes": [
-          "M5"
+          "M5",
+          "M6"
         ],
         "foundation_codes": [
           "DA1",
-          "DA3",
-          "OF2"
+          "P3",
+          "DA5"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -10820,18 +10567,6 @@
         ],
         "evidence_quality": "cross_species",
         "source_type": "primary"
-      },
-      {
-        "id": 391,
-        "work_id": 7,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": [
-          "P1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation"
       },
       {
         "id": 392,
@@ -11280,21 +11015,6 @@
         "source_type": "propagation"
       },
       {
-        "id": 357,
-        "work_id": 2,
-        "mechanism_codes": [
-          "M6",
-          "M5"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3",
-          "OF2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 510,
         "work_id": 73,
         "mechanism_codes": [
@@ -11379,21 +11099,6 @@
           "OF2"
         ],
         "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 442,
-        "work_id": 32,
-        "mechanism_codes": [
-          "M6",
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA1",
-          "DA3",
-          "DC3"
-        ],
-        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -12006,17 +11711,6 @@
         "source_type": "primary"
       },
       {
-        "id": 655,
-        "work_id": 153,
-        "mechanism_codes": null,
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation"
-      },
-      {
         "id": 656,
         "work_id": 153,
         "mechanism_codes": null,
@@ -12163,6 +11857,19 @@
         "source_type": "primary"
       },
       {
+        "id": 567,
+        "work_id": 94,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5",
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
         "id": 667,
         "work_id": 157,
         "mechanism_codes": [
@@ -12265,6 +11972,299 @@
         ],
         "foundation_codes": [
           "DA6"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 404,
+        "work_id": 12,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 490,
+        "work_id": 69,
+        "mechanism_codes": [
+          "M3",
+          "M4",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 492,
+        "work_id": 69,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P2",
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 391,
+        "work_id": 7,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation"
+      },
+      {
+        "id": 409,
+        "work_id": 7,
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA5"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 410,
+        "work_id": 7,
+        "mechanism_codes": [
+          "M5",
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 27,
+        "work_id": 13,
+        "mechanism_codes": [
+          "M5",
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary"
+      },
+      {
+        "id": 12,
+        "work_id": 5,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 130,
+        "work_id": 52,
+        "mechanism_codes": [
+          "M1",
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DC1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 259,
+        "work_id": 4,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 264,
+        "work_id": 4,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 326,
+        "work_id": 5,
+        "mechanism_codes": [
+          "M3",
+          "M4",
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation"
+      },
+      {
+        "id": 357,
+        "work_id": 2,
+        "mechanism_codes": [
+          "M6",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 435,
+        "work_id": 35,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 442,
+        "work_id": 32,
+        "mechanism_codes": [
+          "M6",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "DC3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 425,
+        "work_id": 64,
+        "mechanism_codes": [
+          "M10",
+          "M13",
+          "M8"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC1"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "primary"
+      },
+      {
+        "id": 655,
+        "work_id": 153,
+        "mechanism_codes": null,
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation"
+      },
+      {
+        "id": 590,
+        "work_id": 105,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge"
+      },
+      {
+        "id": 594,
+        "work_id": 105,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge"
+      },
+      {
+        "id": 134,
+        "work_id": 53,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1",
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 354,
+        "work_id": 2,
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "P1",
+          "DA1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 358,
+        "work_id": 2,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA1",
+          "DA3",
+          "OF2"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -18868,6 +18868,27 @@
         "primary_metric_value": null
       },
       {
+        "id": 6,
+        "code": "ED6",
+        "name": "SMILES Trial: Diet and Depression",
+        "what_it_demonstrates": "A Mediterranean-style dietary intervention produced remission from moderate-to-severe depression in 32.3% of the dietary arm against 8.0% of a social-support control over 12 weeks, supporting a causal reading of M13 (energy regulation and diet quality) and M8 (inflammation) in depression onset and maintenance rather than treating diet as a correlate. One small unblinded trial, so the direction is better established than the magnitude.",
+        "narrative": "Jacka et al. 2017 (BMC Medicine) ran the SMILES randomised controlled trial, comparing a Mediterranean-style dietary intervention against a befriending social-support control in adults diagnosed with moderate-to-severe major depressive disorder. Of 166 assessed for eligibility, 67 were randomised, 33 to diet and 34 to social support. At 12 weeks, 32.3% of the dietary arm and 8.0% of the control arm met remission criteria of a MADRS score below 10, giving a number needed to treat of 4.1 with a wide confidence interval of 2.3 to 27.8. The effect is unusually large for a dietary intervention in a clinical sample, and the trial's own limitations section is the right counterweight: participants could not be blinded, completion differed sharply between arms (94% against 73.5%), the planned sample size was not reached, and the authors say this may have inflated the observed effect. SMILES supports a causal rather than merely correlational reading of the diet and depression link, and it does so as one small unblinded trial. Cor carries no replication claim for it.",
+        "source_work_id": 110,
+        "grounds_foundations": [
+          "DA1",
+          "DA3"
+        ],
+        "grounds_mechanisms": [
+          "M13",
+          "M8"
+        ],
+        "effect_size": "At 12 weeks, 32.3% (n=10) of the dietary support group and 8.0% (n=2) of the social support control group reached remission on the MADRS, chi-square(1)=4.84, p=0.028, from 67 adults randomised. Number needed to treat 4.1, 95% CI 2.3 to 27.8. Between-group Cohen's d on the continuous MADRS was 1.16.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "clinical_remission",
+        "primary_metric_display": "32.3% vs 8.0% remission at 12 weeks (NNT 4.1, 95% CI 2.3 to 27.8)",
+        "primary_metric_value": 0.323
+      },
+      {
         "id": 2,
         "code": "ED2",
         "name": "Captive vs Wild Chimpanzee Abnormality",
@@ -18889,48 +18910,6 @@
         "primary_metric_value": 1
       },
       {
-        "id": 6,
-        "code": "ED6",
-        "name": "SMILES Trial: Diet and Depression",
-        "what_it_demonstrates": "A Mediterranean-style dietary intervention produced remission from moderate-to-severe depression in 32.3% of the dietary arm against 8.0% of a social-support control over 12 weeks, supporting a causal reading of M13 (energy regulation and diet quality) and M8 (inflammation) in depression onset and maintenance rather than treating diet as a correlate. One small unblinded trial, so the direction is better established than the magnitude.",
-        "narrative": "Jacka et al. 2017 (BMC Medicine) ran the SMILES randomised controlled trial, comparing a Mediterranean-style dietary intervention against a befriending social-support control in adults with moderate-to-severe major depressive disorder. Of 166 assessed for eligibility, 67 were randomised, 33 to diet and 34 to social support. At 12 weeks, 32.3% of the dietary arm and 8.0% of the control arm met remission criteria of a MADRS score below 10, giving a number needed to treat of 4.1 with a wide confidence interval of 2.3 to 27.8. The effect is unusually large for a dietary intervention in a psychiatric population, and the trial's own limitations section is the right counterweight: participants could not be blinded, completion differed sharply between arms (94% against 73.5%), the planned sample size was not reached, and the authors say this may have inflated the observed effect. SMILES supports a causal rather than merely correlational reading of the diet and depression link, and it does so as one small unblinded trial. Cor carries no replication claim for it.",
-        "source_work_id": 110,
-        "grounds_foundations": [
-          "DA1",
-          "DA3"
-        ],
-        "grounds_mechanisms": [
-          "M13",
-          "M8"
-        ],
-        "effect_size": "At 12 weeks, 32.3% (n=10) of the dietary support group and 8.0% (n=2) of the social support control group reached remission on the MADRS, chi-square(1)=4.84, p=0.028, from 67 adults randomised. Number needed to treat 4.1, 95% CI 2.3 to 27.8. Between-group Cohen's d on the continuous MADRS was 1.16.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "clinical_remission",
-        "primary_metric_display": "32.3% vs 8.0% remission at 12 weeks (NNT 4.1, 95% CI 2.3 to 27.8)",
-        "primary_metric_value": 0.323
-      },
-      {
-        "id": 7,
-        "code": "ED7",
-        "name": "Exercise as Depression Treatment",
-        "what_it_demonstrates": "Exercise is an effective treatment for major depression in its own right rather than a general-health adjunct, with modality-specific effect sizes that are moderate rather than large and certainty that is low. This supports M10 (movement) as a mechanism in the depression cascade while keeping the strength of the claim inside what the evidence carries.",
-        "narrative": "Noetel et al. 2024 (BMJ) pooled 218 randomised trials of exercise for major depressive disorder, 495 arms and 14170 participants, in a Bayesian network meta-analysis that compared exercise modalities against each other and against psychotherapy, antidepressants and control conditions. Measured against active controls such as usual care or a placebo tablet, walking or jogging, yoga and strength training all produced moderate reductions in depression, with effects proportional to the intensity prescribed and with yoga and strength training the best tolerated. The authors conclude these forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments. The certainty has to travel with the number: only one of the 218 studies met the Cochrane criteria for low risk of bias, so graded confidence was low for walking or jogging and very low for the rest, and the authors call for trials that blind participants and staff. Cor reads this as real support for M10 at a moderate effect size with low certainty, and drops the earlier claim of non-inferiority to SSRIs, which was not sourced. The Schuch 2016 meta-analysis (work 111) is paywalled and no open-access copy was reachable, so it carries no extraction.",
-        "source_work_id": 157,
-        "grounds_foundations": [
-          "DA1"
-        ],
-        "grounds_mechanisms": [
-          "M10",
-          "M7",
-          "M8"
-        ],
-        "effect_size": "Network meta-analysis of 218 randomised trials, 495 arms and 14170 participants. Against active controls, Hedges' g was -0.62 for walking or jogging (95% credible interval -0.80 to -0.45), -0.55 for yoga, -0.49 for strength training, -0.43 for mixed aerobic exercise and -0.42 for tai chi or qigong, with effects proportional to prescribed intensity. Only one included study met Cochrane low-risk-of-bias criteria, so CINeMA confidence was low for walking or jogging and very low for every other modality. The earlier 'Cohen's d ~0.8' and the head-to-head non-inferiority claim have been removed.",
-        "created_at": "2026-04-04T19:19:39.533572+00:00",
-        "metric_family": "standardized_effect",
-        "primary_metric_display": "Hedges' g -0.62 for walking or jogging vs active control (low certainty)",
-        "primary_metric_value": 0.62
-      },
-      {
         "id": 8,
         "code": "ED8",
         "name": "Chronotherapy in Depression",
@@ -18950,6 +18929,27 @@
         "metric_family": "clinical_remission",
         "primary_metric_display": "33.3% vs 16.2% response at 1 week (pilot RCT, n=82)",
         "primary_metric_value": 0.333
+      },
+      {
+        "id": 7,
+        "code": "ED7",
+        "name": "Exercise as Depression Treatment",
+        "what_it_demonstrates": "Exercise is an effective treatment for major depression in its own right rather than a general-health adjunct, with modality-specific effect sizes that are moderate rather than large and certainty that is low. This supports M10 (movement) as a mechanism in the depression cascade while keeping the strength of the claim inside what the evidence carries.",
+        "narrative": "Noetel et al. 2024 (BMJ) pooled 218 randomised trials of exercise in people diagnosed with major depressive disorder, 495 arms and 14170 participants, in a Bayesian network meta-analysis that compared exercise modalities against each other and against psychotherapy, antidepressants and control conditions. Measured against active controls such as usual care or a placebo tablet, walking or jogging, yoga and strength training all produced moderate reductions in depression, with effects proportional to the intensity prescribed and with yoga and strength training the best tolerated. The authors conclude these forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments. The certainty has to travel with the number: only one of the 218 studies met the Cochrane criteria for low risk of bias, so graded confidence was low for walking or jogging and very low for the rest, and the authors call for trials that blind participants and staff. Cor reads this as real support for M10 at a moderate effect size with low certainty, and drops the earlier claim of non-inferiority to SSRIs, which was not sourced. The Schuch 2016 meta-analysis (work 111) is paywalled and no open-access copy was reachable, so it carries no extraction.",
+        "source_work_id": 157,
+        "grounds_foundations": [
+          "DA1"
+        ],
+        "grounds_mechanisms": [
+          "M10",
+          "M7",
+          "M8"
+        ],
+        "effect_size": "Network meta-analysis of 218 randomised trials, 495 arms and 14170 participants. Against active controls, Hedges' g was -0.62 for walking or jogging (95% credible interval -0.80 to -0.45), -0.55 for yoga, -0.49 for strength training, -0.43 for mixed aerobic exercise and -0.42 for tai chi or qigong, with effects proportional to prescribed intensity. Only one included study met Cochrane low-risk-of-bias criteria, so CINeMA confidence was low for walking or jogging and very low for every other modality. The earlier 'Cohen's d ~0.8' and the head-to-head non-inferiority claim have been removed.",
+        "created_at": "2026-04-04T19:19:39.533572+00:00",
+        "metric_family": "standardized_effect",
+        "primary_metric_display": "Hedges' g -0.62 for walking or jogging vs active control (low certainty)",
+        "primary_metric_value": 0.62
       },
       {
         "id": 1,
@@ -19042,39 +19042,6 @@
       }
     ],
     "applications": [
-      {
-        "id": 2,
-        "code": "A2",
-        "name": "Clinical Practice",
-        "description": "Current psychiatry classifies many aversive presentations as disorders and treats them with suppression (pharmacotherapy, CBT targeting the experience). Cor reframes many presentations as accurate signals of environmental mismatch: the architecture is working correctly, the environment is outside the expected range, and the signal is telling the clinician where to look. Clinical practice redesigned around Cor includes: (1) environmental audit against the mechanism inventory (M1-M14 + R1) before or alongside symptom treatment, (2) resolution-condition restoration as the first-line intervention where feasible, (3) pharmacotherapy and symptom-suppression reserved for genuinely dysregulated states (not for defensive-activation states that will resolve once the environmental input is corrected). The four categories the handoff distinguishes - defensive activation, dysregulation, damage, developmental miscalibration - each point to a different treatment approach.",
-        "relevant_foundations": [
-          "DA1",
-          "DA3",
-          "DA7"
-        ],
-        "relevant_mechanisms": [
-          "M1",
-          "M2",
-          "M3",
-          "M6",
-          "M7",
-          "M8",
-          "M10",
-          "M13"
-        ],
-        "evaluation_criteria": {
-          "mechanism_audit": "For each presenting symptom, which mechanism(s) is it a signal from? Which resolution conditions are currently unmet?",
-          "category_distinction": "Is this presentation (a) defensive activation under mismatch, (b) dysregulation of a previously functional system, (c) damage to the system, or (d) developmental miscalibration? Treatment differs in each case.",
-          "environment_vs_organism": "Can the environment be corrected? If yes, try that first - it's the less invasive and more durable intervention.",
-          "proxy_versus_resolution": "Are current interventions (pharmacological or behavioral) providing resolution or only attenuating the signal? A proxy that attenuates without resolving maintains the underlying mismatch."
-        },
-        "example_outputs": [
-          "A depressed patient with poor sleep, sedentary work, and isolated living should get a mechanism audit (M7, M10, M3) before SSRI initiation. Ilardi's TLC protocol evidence supports this ordering.",
-          "A panic disorder presenting after a sleep-deprivation period has M7-driven amygdala hyperreactivity as the likely driver (Walker). Treatment: sleep restoration, not benzodiazepine chronic use.",
-          "Adolescent anxiety in a high-device / low-movement / low-outdoor context may be M7 + M10 + M4 deprivation expressing as M1 over-activation. SSRI before environmental audit is missing the signal."
-        ],
-        "created_at": "2026-04-04T19:19:39.879157+00:00"
-      },
       {
         "id": 5,
         "code": "A5",
@@ -19284,6 +19251,39 @@
         "evaluation_criteria": null,
         "example_outputs": null,
         "created_at": "2026-04-08T07:16:37.345673+00:00"
+      },
+      {
+        "id": 2,
+        "code": "A2",
+        "name": "Clinical Practice",
+        "description": "Current psychiatry classifies many aversive presentations as disorders and treats them with suppression (pharmacotherapy, CBT targeting the experience). Cor applies the biomarker line (DA1). Where a measurable physical cause exists (infection, autoimmune encephalitis, tumour, poisoning, a substance or medication effect, dementia, brain injury), the behaviour is a symptom of that disease and the cause is treated. Where no biomarker exists, the presentation is read as an accurate signal of environmental mismatch: the architecture is working correctly, the environment is outside the expected range, heritable sensitivity sets how easily the person tips and how large the response is, and the signal is telling the clinician where to look. Labels such as psychosis, bipolar and depression cover cases on both sides of the line, so the first question is whether a physical cause is present. Clinical practice redesigned around Cor includes: (1) a search for a measurable physical cause, then an environmental audit against the mechanism inventory (M1-M14 + R1), before or alongside symptom treatment, (2) resolution-condition restoration as the first-line intervention where feasible, (3) symptom relief where it is needed, decided by the prescriber with the person. The mismatch reading is not a contraindication to medication (OF2), and nobody should stop or change a medication except with their prescriber.",
+        "relevant_foundations": [
+          "DA1",
+          "DA3",
+          "DA7"
+        ],
+        "relevant_mechanisms": [
+          "M1",
+          "M2",
+          "M3",
+          "M6",
+          "M7",
+          "M8",
+          "M10",
+          "M13"
+        ],
+        "evaluation_criteria": {
+          "mechanism_audit": "For each presenting symptom, which mechanism(s) is it a signal from? Which resolution conditions are currently unmet?",
+          "category_distinction": "Is there a measurable physical cause (infection, autoimmune encephalitis, tumour, poisoning, a substance or medication effect, dementia, brain injury)? If yes, the behaviour is a symptom of that disease and the cause is treated. If no biomarker is found: which mechanism is signalling, what sets its threshold (heritable sensitivity, DA10; developmental calibration, DA7), and is a coupled loop keeping it running after the trigger has passed (DA3)? Treatment differs in each case.",
+          "environment_vs_organism": "Can the environment be corrected? If yes, try that first - it's the less invasive and more durable intervention.",
+          "proxy_versus_resolution": "Are current interventions (pharmacological or behavioral) providing resolution or only attenuating the signal? A proxy that attenuates without resolving maintains the underlying mismatch."
+        },
+        "example_outputs": [
+          "A depressed patient with poor sleep, sedentary work, and isolated living should get a mechanism audit (M7, M10, M3) before SSRI initiation. Ilardi's TLC protocol evidence supports this ordering.",
+          "Panic attacks that start after a period of sleep deprivation have M7-driven amygdala hyperreactivity as the likely driver (Walker). Treatment: sleep restoration, not benzodiazepine chronic use.",
+          "Adolescent anxiety in a high-device / low-movement / low-outdoor context may be M7 + M10 + M4 deprivation expressing as M1 over-activation. SSRI before environmental audit is missing the signal."
+        ],
+        "created_at": "2026-04-04T19:19:39.879157+00:00"
       }
     ],
     "bridge_theses": [
@@ -20690,75 +20690,6 @@
         ]
       },
       {
-        "code": "EEA-THREAT-03",
-        "domain": "threat_safety",
-        "name": "Real-vs-perceived threat ratio and all-clear resolution",
-        "eea_baseline": "Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.",
-        "eea_value": {
-          "quantified": false,
-          "resolution": "behavioral_all_clear_plus_social_all_clear",
-          "termination": "reliable",
-          "alarm_validity": "mostly_real_present_verifiable",
-          "false_alarm_rate": "high_but_each_resolved"
-        },
-        "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
-        "gap_statement": "The pathogenic feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
-        "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect. Note: prose previously referenced ids 339/444 in passing; only ids actually in the evidence array (331, 469, 308, 565, 125, 461) are load-bearing and all are verified.",
-        "created_at": "2026-06-08T12:32:58.731416+00:00",
-        "updated_at": "2026-06-08T12:32:58.731416+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M8"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 331,
-            "evidence_role": "primary",
-            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
-            "evidence_quality": "replicated",
-            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
-          },
-          {
-            "extraction_id": 469,
-            "evidence_role": "primary",
-            "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
-            "evidence_quality": "meta_analysis",
-            "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
-          },
-          {
-            "extraction_id": 308,
-            "evidence_role": "supporting",
-            "author_quote": "My view is that some major illnesses considered distinct and \"mental\" are all rooted in a chronically unbalanced body budget and unbridled inflammation. We categorize and name them as different disorders, based on context, much like we categorize and name the same bodily changes as different emotions.",
-            "evidence_quality": "theoretical",
-            "content": "Barrett proposes that major illnesses considered distinct and mental - chronic stress, chronic pain, anxiety, depression - are all rooted in a chronically unbalanced body budget and unbridled inflammation. Different disorders share symptoms, cause atrophy in the same brain region"
-          },
-          {
-            "extraction_id": 565,
-            "evidence_role": "supporting",
-            "author_quote": "Out of 1000 episodes of flight at this response threshold, on the average, 999 will be false alarms and only 1 will be flight from an actual predator.",
-            "evidence_quality": "theoretical",
-            "content": "The smoke detector principle formalized via signal detection theory. For all-or-none defenses, expression is optimal whenever p(Harm) > Cost_defense/Cost_harm. With a 1000:1 cost ratio (300 kcal flight vs 300,000 kcal predator attack), the optimal threshold produces 999 false ala"
-          },
-          {
-            "extraction_id": 125,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking "
-          },
-          {
-            "extraction_id": 461,
-            "evidence_role": "challenging",
-            "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
-            "evidence_quality": "theoretical",
-            "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
-          }
-        ]
-      },
-      {
         "code": "EEA-INFO-01",
         "domain": "information_environment",
         "name": "Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)",
@@ -20840,6 +20771,75 @@
             "author_quote": "cultural evolution initiated a process of self-domestication, driving genetic evolution to make us prosocial, docile, rule followers who expect a world governed by social norms monitored and enforced by communities.",
             "evidence_quality": "theoretical",
             "content": "Cultural evolution initiated a process of self-domestication, driving genetic evolution to make us prosocial, docile, rule followers who expect a world governed by social norms monitored and enforced by communities. Norms influence a vast range of human action, including ancient "
+          }
+        ]
+      },
+      {
+        "code": "EEA-THREAT-03",
+        "domain": "threat_safety",
+        "name": "Real-vs-perceived threat ratio and all-clear resolution",
+        "eea_baseline": "Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.",
+        "eea_value": {
+          "quantified": false,
+          "resolution": "behavioral_all_clear_plus_social_all_clear",
+          "termination": "reliable",
+          "alarm_validity": "mostly_real_present_verifiable",
+          "false_alarm_rate": "high_but_each_resolved"
+        },
+        "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
+        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
+        "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect. Note: prose previously referenced ids 339/444 in passing; only ids actually in the evidence array (331, 469, 308, 565, 125, 461) are load-bearing and all are verified.",
+        "created_at": "2026-06-08T12:32:58.731416+00:00",
+        "updated_at": "2026-06-08T12:32:58.731416+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M8"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 331,
+            "evidence_role": "primary",
+            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
+            "evidence_quality": "replicated",
+            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
+          },
+          {
+            "extraction_id": 469,
+            "evidence_role": "primary",
+            "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
+            "evidence_quality": "meta_analysis",
+            "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
+          },
+          {
+            "extraction_id": 308,
+            "evidence_role": "supporting",
+            "author_quote": "My view is that some major illnesses considered distinct and \"mental\" are all rooted in a chronically unbalanced body budget and unbridled inflammation. We categorize and name them as different disorders, based on context, much like we categorize and name the same bodily changes as different emotions.",
+            "evidence_quality": "theoretical",
+            "content": "Barrett proposes that major illnesses considered distinct and mental - chronic stress, chronic pain, anxiety, depression - are all rooted in a chronically unbalanced body budget and unbridled inflammation. Different disorders share symptoms, cause atrophy in the same brain region"
+          },
+          {
+            "extraction_id": 565,
+            "evidence_role": "supporting",
+            "author_quote": "Out of 1000 episodes of flight at this response threshold, on the average, 999 will be false alarms and only 1 will be flight from an actual predator.",
+            "evidence_quality": "theoretical",
+            "content": "The smoke detector principle formalized via signal detection theory. For all-or-none defenses, expression is optimal whenever p(Harm) > Cost_defense/Cost_harm. With a 1000:1 cost ratio (300 kcal flight vs 300,000 kcal predator attack), the optimal threshold produces 999 false ala"
+          },
+          {
+            "extraction_id": 125,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking "
+          },
+          {
+            "extraction_id": 461,
+            "evidence_role": "challenging",
+            "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
+            "evidence_quality": "theoretical",
+            "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
           }
         ]
       },
@@ -21225,53 +21225,6 @@
         ]
       },
       {
-        "code": "EEA-THREAT-02",
-        "domain": "threat_safety",
-        "name": "Threat controllability and predictability (resolvable by own action)",
-        "eea_baseline": "Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare and pathological case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.",
-        "eea_value": {
-          "quantified": false,
-          "predictability": "perceptually_verifiable",
-          "controllability": "high_action_contingent",
-          "uncontrollable_stress": "rare_exceptional"
-        },
-        "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
-        "gap_statement": "What is pathogenic is not threat per se but uncontrollability/unpredictability: the absence of an action that resolves the danger. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
-        "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
-        "created_at": "2026-06-08T12:32:57.686271+00:00",
-        "updated_at": "2026-06-08T12:32:57.686271+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M6"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 333,
-            "evidence_role": "primary",
-            "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
-            "evidence_quality": "replicated",
-            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
-          },
-          {
-            "extraction_id": 442,
-            "evidence_role": "primary",
-            "author_quote": "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts.",
-            "evidence_quality": "replicated",
-            "content": "Learned helplessness in the laboratory produces eight of the nine DSM symptoms of depression (excepting suicidal thoughts). The prelimbic medial prefrontal cortex detects contingency between behavior and outcomes and inhibits the dorsal raphe nucleus, restoring the capacity for a"
-          },
-          {
-            "extraction_id": 587,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "theoretical",
-            "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-10",
         "domain": "social_structure",
         "name": "Leadership and dominance (no rulers; prestige by consent; exit available)",
@@ -21317,6 +21270,53 @@
             "author_quote": "I proposed that leveling mechanisms may be necessary because, as with chimpanzees, underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life.",
             "evidence_quality": "theoretical",
             "content": "Leveling mechanisms may be necessary because underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life. Humans have innate dominance tendencies that must be actively suppressed through egali"
+          }
+        ]
+      },
+      {
+        "code": "EEA-THREAT-02",
+        "domain": "threat_safety",
+        "name": "Threat controllability and predictability (resolvable by own action)",
+        "eea_baseline": "Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare, extreme case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.",
+        "eea_value": {
+          "quantified": false,
+          "predictability": "perceptually_verifiable",
+          "controllability": "high_action_contingent",
+          "uncontrollable_stress": "rare_exceptional"
+        },
+        "modern_default": "Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.",
+        "gap_statement": "The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.",
+        "resolution_unit": "Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.",
+        "created_at": "2026-06-08T12:32:57.686271+00:00",
+        "updated_at": "2026-06-08T12:32:57.686271+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M6"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 333,
+            "evidence_role": "primary",
+            "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
+            "evidence_quality": "replicated",
+            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
+          },
+          {
+            "extraction_id": 442,
+            "evidence_role": "primary",
+            "author_quote": "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts.",
+            "evidence_quality": "replicated",
+            "content": "Learned helplessness in the laboratory produces eight of the nine DSM symptoms of depression (excepting suicidal thoughts). The prelimbic medial prefrontal cortex detects contingency between behavior and outcomes and inhibits the dorsal raphe nucleus, restoring the capacity for a"
+          },
+          {
+            "extraction_id": 587,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "theoretical",
+            "content": "Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation"
           }
         ]
       }
@@ -22964,38 +22964,6 @@
         "foundation_codes": []
       },
       {
-        "id": 590,
-        "extraction_id": 590,
-        "work_id": 105,
-        "title": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
-        "content": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
-        "citation": "Keller, M. C., & Miller, G. F., 2006",
-        "authors": "Keller, M. C., & Miller, G. F.",
-        "year": 2006,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1"
-        ]
-      },
-      {
-        "id": 594,
-        "extraction_id": 594,
-        "work_id": 105,
-        "title": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
-        "content": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
-        "citation": "Keller, M. C., & Miller, G. F., 2006",
-        "authors": "Keller, M. C., & Miller, G. F.",
-        "year": 2006,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1"
-        ]
-      },
-      {
         "id": 619,
         "extraction_id": 619,
         "work_id": 124,
@@ -23047,6 +23015,38 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "P3",
+          "DA1"
+        ]
+      },
+      {
+        "id": 590,
+        "extraction_id": 590,
+        "work_id": 105,
+        "title": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
+        "content": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
+        "citation": "Keller, M. C., & Miller, G. F., 2006",
+        "authors": "Keller, M. C., & Miller, G. F.",
+        "year": 2006,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1"
+        ]
+      },
+      {
+        "id": 594,
+        "extraction_id": 594,
+        "work_id": 105,
+        "title": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
+        "content": "Resolving the paradox of common, harmful, heritable mental disorders: Which evolutionary genetic models work best?",
+        "citation": "Keller, M. C., & Miller, G. F., 2006",
+        "authors": "Keller, M. C., & Miller, G. F.",
+        "year": 2006,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
+        "foundation_codes": [
           "DA1"
         ]
       }
@@ -23167,8 +23167,8 @@
       "circadian_sensory": 3,
       "subsistence_timeuse": 4,
       "diet_metabolic": 4,
-      "threat_safety": 3,
-      "information_environment": 2
+      "information_environment": 2,
+      "threat_safety": 3
     },
     "eea_by_grade": {
       "thin": 5,

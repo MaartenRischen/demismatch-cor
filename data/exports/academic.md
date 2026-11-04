@@ -3,14 +3,14 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-02 08:41 UTC, from the live Cor atlas snapshot built 2026-11-02 08:41 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-04 00:06 UTC, from the live Cor atlas snapshot built 2026-11-04 00:06 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 659 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
 ---
 ## How to read this document
 
-This document is a complete printout of the Cor atlas: a framework for locating modern human suffering within an evolutionary-functional architecture rather than within a presumption of individual defect. The central thesis is deflationary with respect to the disorder model and inflationary with respect to signal: a large fraction of aversive affective and physiological output is accurate biological signaling produced by adaptations operating correctly, but operating on inputs that fall outside the ranges within which those adaptations were calibrated to resolve. Suffering, on this account, is frequently diagnostic information about a mismatched environment, not noise to be suppressed and not evidence of broken design. Preferences are mechanism outputs, not ground truth.
+This document is a complete printout of the Cor atlas: a framework for locating modern human suffering within an evolutionary-functional architecture rather than within a presumption of individual defect. The central thesis is deflationary with respect to the disorder model and inflationary with respect to signal: where no measurable physical cause is found, aversive affective and physiological output is accurate biological signaling produced by adaptations operating correctly, but operating on inputs that fall outside the ranges within which those adaptations were calibrated to resolve. Suffering, on this account, is frequently diagnostic information about a mismatched environment, not noise to be suppressed and not evidence of broken design. Preferences are mechanism outputs, not ground truth.
 
 ### The derivation stack
 
@@ -1326,7 +1326,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Threat controllability and predictability (resolvable by own action)
 `EEA-THREAT-02 · Threat & safety` - **grade: theoretical**
 
-**EEA baseline.** Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare and pathological case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.
+**EEA baseline.** Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare, extreme case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.
 
 **EEA value** (illustrative, not constants):
 
@@ -1337,7 +1337,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Many modern stressors are structurally uncontrollable and unpredictable: algorithmic management and electronic monitoring strip decision latitude, outcomes hinge on systems no single action can move, and dread is open-ended (an unknown deadline, an unbounded threat). No behavior reliably terminates the stressor, producing the conditions for learned helplessness and chronic anticipatory dread.
 
-**The gap.** What is pathogenic is not threat per se but uncontrollability/unpredictability: the absence of an action that resolves the danger. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
+**The gap.** The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of nine DSM depression symptoms. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
 
 **Resolution unit.** Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.
 
@@ -1366,7 +1366,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.
 
-**The gap.** The pathogenic feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
+**The gap.** The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, anxiety, depression and physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
 
 **Resolution unit.** Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'
 
@@ -1433,4 +1433,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-02 08:41 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-02 08:41 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 00:06 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-04 00:06 UTC.*

@@ -305,7 +305,7 @@
       },
       {
         h: "Strong vs weak mismatch",
-        p: "The framework takes the strong-mismatch position: the modern environment is systematically misaligned with the architecture, and that misalignment is the primary driver of widespread non-pathological distress. Weak-mismatch readings - environments are different but the architecture is sufficiently flexible that the mismatch is mostly absorbed - are addressed in the Challenges section but not adopted."
+        p: "The framework takes the strong-mismatch position: the modern environment is systematically misaligned with the architecture, and that misalignment is the primary driver of widespread distress that has no measurable physical cause. Weak-mismatch readings - environments are different but the architecture is sufficiently flexible that the mismatch is mostly absorbed - are addressed in the Challenges section but not adopted."
       },
       {
         h: "Domain-sensitive architecture vs general learning",
