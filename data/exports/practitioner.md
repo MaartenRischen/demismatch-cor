@@ -3,7 +3,7 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-04 09:54 UTC, from the live Cor atlas snapshot built 2026-11-04 09:54 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-06 02:28 UTC, from the live Cor atlas snapshot built 2026-11-06 02:28 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
 
@@ -581,22 +581,20 @@ Because R1 feeds M3, patching the person is largely beside the point - this is a
 
 What the environment used to supply, what it supplies now, and the gap you are actually working against when a person's signal fires but the resolving input is absent. Inputs, not the person, are what changed.
 
-> This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Grades are inherited from the evidence and reuse Cor's own vocabulary. 'replicated' appears only twice. Mismatch interpretations are capped at 'theoretical' (the honesty floor); the original-affluent-society work-hours debate is 'contested' with no number asserted; most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
+> This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**33 parameters across 8 domains** (grades: theoretical 17, thin 5, contested 4, clinical 3, replicated 2, longitudinal 2; 10 carry a contested flag).
+**33 parameters across 8 domains** (grades: tested many times 12, argued, not yet tested 11, contested 5, tested once 5; 10 carry a contested flag).
 **Grade legend.**
 
-- **replicated** (2): multiple independent full-text studies converge
-- **longitudinal** (2): anchored in a longitudinal / large-N study
-- **clinical** (3): controlled human / clinical evidence
-- **thin** (5): sparse / single-source evidence
-- **theoretical** (17): mechanism-derived; the EEA-mismatch interpretation is capped here (the honesty floor)
-- **contested** (4): actively disputed evidence
+- **tested many times** (12): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested once** (5): one good study, or one group's results, not yet repeated
+- **argued, not yet tested** (11): a reasoned case with no direct test
+- **contested** (5): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
 #### Social network layers (~5/15/50/150)
-`EEA-SOC-01 · Social structure` - **grade: replicated** · **CONTESTED**
+`EEA-SOC-01 · Social structure` - **contested** · **CONTESTED**
 
 **Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
 
@@ -609,7 +607,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Lifetime known-individual ceiling (~1,000)
-`EEA-SOC-02 · Social structure` - **grade: theoretical** · **CONTESTED**
+`EEA-SOC-02 · Social structure` - **tested once** · **CONTESTED**
 
 **Ancestrally:** Across a foraging lifetime an individual accumulated a bounded pool of personally known others - people met face-to-face, named, placed in a kin/alliance/reputation map, and remembered. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), an order of magnitude above the ~150 actively-maintained network the social brain tracks concurrently. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). Crucially it was finite, slowly-growing, and fully reputation-indexed: nearly everyone one would ever encounter was either already known or one or two reciprocal links away, and almost no one was a true anonymous stranger. The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.
 
@@ -622,7 +620,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Band / camp size (a few dozen adults; ~25-50)
-`EEA-SOC-03 · Social structure` - **grade: thin** · **CONTESTED**
+`EEA-SOC-03 · Social structure` - **tested many times** · **CONTESTED**
 
 **Ancestrally:** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
 
@@ -635,7 +633,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Within-camp kin fraction (low; campmates mostly unrelated)
-`EEA-SOC-04 · Social structure` - **grade: thin**
+`EEA-SOC-04 · Social structure` - **tested many times**
 
 **Ancestrally:** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (illustratively under ~10%), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
 
@@ -645,10 +643,8 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 2
 
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
-
 #### Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)
-`EEA-SOC-05 · Social structure` - **grade: thin**
+`EEA-SOC-05 · Social structure` - **tested once**
 
 **Ancestrally:** The residential group (camp/band) was a fission-fusion structure that continuously dissolved and reconstituted rather than a fixed-membership unit. Among the best-studied foragers (Hadza), entire camps relocated roughly every 4-8 weeks and individuals reshuffled across camps such that only a minority of campmates carried over from one survey wave to the next (Smith et al. 2018, Hadza waves 1 to 3 years apart; the exact proportion is unverified, see eea_value). Crucially, despite this high residential churn, assortment on cooperation persisted (cooperators clustered together across reshuffles), and what was conserved across the turnover was not the group but the durable, individually-tracked reciprocal relationships between specific people. Group composition was fluid; the dyadic ties were the stable substrate.
 
@@ -663,7 +659,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity; kinship not main glue)
-`EEA-SOC-06 · Social structure` - **grade: thin**
+`EEA-SOC-06 · Social structure` - **tested once**
 
 **Ancestrally:** Who you lived alongside was not assigned by birth or fixed institution but produced by an ongoing, choice-driven assortment process operating across frequent residential reshuffling. In Hadza camps this "algorithm" had recurring structure: (1) homophily - co-residence was more likely between people similar in age, height, weight, body fat, and handgrip strength; (2) strong reciprocity - naming was near-symmetric, with an ego roughly 37-51x (point ~44x) more likely to name an alter who named them; (3) cooperator assortment - cooperators clustered with cooperators, an association extending out to two degrees of separation in gift networks; plus transitivity and geographic decay. Crucially, kinship was NOT the main glue: people actively sorted on disposition and reciprocity, not primarily on relatedness. The output was a camp continually re-composed of preferred, reciprocating, similarly-cooperative partners.
 
@@ -676,7 +672,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Relationship longevity & maintenance (decades-long durable dyads; ~27-yr co-survival ceiling; maintenance institutions like hxaro conserve bonds across distance)
-`EEA-SOC-07 · Social structure` - **grade: thin**
+`EEA-SOC-07 · Social structure` - **tested once**
 
 **Ancestrally:** In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with most campmates changing from one survey wave to the next), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Two adults who reached adulthood together could expect on the order of ~27 years of overlapping co-survival, and reciprocal alliances ran over that whole horizon. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.
 
@@ -691,7 +687,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Novel-stranger frequency (rare, salient, often a threat)
-`EEA-SOC-08 · Social structure` - **grade: theoretical**
+`EEA-SOC-08 · Social structure` - **argued, not yet tested**
 
 **Ancestrally:** Social cognition operated over a bounded pool: a personally-known reference network capped near the ~150 Dunbar ceiling, nested in ~5/15/50/150 layers of decreasing intimacy, the outermost being the people one recognizes and interacts with across a year. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger - an individual who could not be located anywhere in one's known network or in the known networks of one's allies - was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.
 
@@ -706,7 +702,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Behavioral observability / reputation visibility
-`EEA-SOC-09 · Social structure` - **grade: theoretical**
+`EEA-SOC-09 · Social structure` - **argued, not yet tested**
 
 **Ancestrally:** In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, "the band keeps a dossier on every individual, noting positive and negative points." Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.
 
@@ -719,7 +715,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Leadership and dominance (no rulers; prestige by consent; exit available)
-`EEA-SOC-10 · Social structure` - **grade: theoretical** · **CONTESTED**
+`EEA-SOC-10 · Social structure` - **contested** · **CONTESTED**
 
 **Ancestrally:** Mobile hunter-gatherer bands had no rulers. Decisions that affected the group were reached by discussion toward consensus. Influence came from prestige and lasted only while others chose to listen. Anyone who tried to dominate was mocked, shunned or expelled, and in extreme cases killed. People could also leave a camp for another one, and that option checked anyone who tried to take control.
 
@@ -735,7 +731,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Care & development
 
 #### Alloparental care supply (a village, not a dyad)
-`EEA-CARE-01 · Care & development` - **grade: theoretical**
+`EEA-CARE-01 · Care & development` - **tested many times**
 
 **Ancestrally:** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than other apes (every 6-8 years) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, infants under four are held by the mother roughly 69% of the time and by allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
 
@@ -747,10 +743,8 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 7
 
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
-
 #### Caregiver continuity and reliability (present, not merely countable)
-`EEA-CARE-02 · Care & development` - **grade: theoretical**
+`EEA-CARE-02 · Care & development` - **argued, not yet tested**
 
 **Ancestrally:** The ancestral infant developed within a web of stable, repeatedly-present attachment figures whose availability could be counted on. Attachment is not a single dyadic bond but secure attachment to one or more trusted caretakers - Bowlby's design refined by Hrdy to plural, reliably-present figures - and human infants are equipped with traits (cuteness, prolonged eye contact, social smiling, differentiated cries) for recruiting and holding the attention of multiple potential caretakers. Crucially, maternal commitment itself is contingent and reliability-sensitive: for a cooperatively breeding mammal, the capacity to conceive is only part of the equation; the mother must be able to carry through to rearing independence, which she assesses against the dependable support actually available. Touch is part of this continuity - the infant evolved to expect near-continuous skin contact (carried, held, co-sleeping), a sense developed first in utero and serving as a primary regulatory channel. The expectation is not a list of relatives but caregivers who are reliably, physically present across time.
 
@@ -765,7 +759,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Mixed-age child playgroups as developmental input
-`EEA-CARE-03 · Care & development` - **grade: theoretical**
+`EEA-CARE-03 · Care & development` - **tested many times**
 
 **Ancestrally:** Ancestral children developed social competence largely through self-organized, free, physically-active play with a mixed-age band of other children - younger and older mixed together - rather than under continuous adult supervision or in age-segregated peer cohorts. Rough-and-tumble and pretend play during the juvenile period is a dedicated developmental input: in the mammalian design, play is a distinct emotional system (Panksepp's PLAY) and play experience physically tunes the maturing prefrontal cortex, refining the circuits that later dampen the amygdala and support social reciprocity, partner discrimination, and emotional regulation. Critically, the AMOUNT and quality of play partners matters: animals raised with more play partners show progressively greater play experience and corresponding PFC development, and even the untreated playmates of more-playful partners develop greater cortical thickness - play is a partnered input, so a richer multi-partner (and, in the human case, multi-age) play environment is the expected calibrating stimulus.
 
@@ -777,10 +771,8 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 5
 
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
-
 #### Multigenerational presence (grandmothers as provisioning kin)
-`EEA-CARE-04 · Care & development` - **grade: theoretical**
+`EEA-CARE-04 · Care & development` - **contested**
 
 **Ancestrally:** Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that uniquely long human lifespans were selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.
 
@@ -798,7 +790,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Touch & contact
 
 #### Affective (C-tactile) contact frequency and skin-to-skin time
-`EEA-TOUCH-01 · Touch & contact` - **grade: clinical**
+`EEA-TOUCH-01 · Touch & contact` - **tested many times**
 
 **Ancestrally:** Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day and night, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the phylogenetically first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.
 
@@ -811,7 +803,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 10
 
 #### Co-sleeping / nighttime body contact
-`EEA-TOUCH-02 · Touch & contact` - **grade: contested** · **CONTESTED**
+`EEA-TOUCH-02 · Touch & contact` - **tested many times** · **CONTESTED**
 
 **Ancestrally:** Ancestral infants and young children slept in body contact with the mother and others rather than alone, extending the daytime carried-contact regime through the night. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels (and likely circadian entrainment cues from the caregiver) operated continuously across the 24-hour cycle, not just during waking.
 
@@ -826,7 +818,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Affective grooming/touch from trusted others (adult social touch)
-`EEA-TOUCH-03 · Touch & contact` - **grade: clinical**
+`EEA-TOUCH-03 · Touch & contact` - **argued, not yet tested**
 
 **Ancestrally:** Beyond infancy, ancestral adults maintained social bonds through frequent affiliative body contact: the human homolog of primate grooming. Primate grooming is fundamentally about the intimacy of massage, where skin stimulation triggers endorphin release and underwrites social bonding. Ancestral adults lived in high-touch social fields where reassuring, stress-buffering touch from trusted others (partners, kin, allies) was a routine, ever-present channel of social and physiological regulation.
 
@@ -838,11 +830,13 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 5
 
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
 
 ### Circadian & sensory
 
 #### Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal
-`EEA-CIRC-01 · Circadian & sensory` - **grade: theoretical**
+`EEA-CIRC-01 · Circadian & sensory` - **tested many times**
 
 **Ancestrally:** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset clustering around 8-10 p.m., aligned with dusk-driven melatonin release. The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
 
@@ -854,10 +848,8 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M7 - Circadian Regulation  ·  evidence links: 9
 
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
-
 #### Sleep timing/phase alignment to the biological night (not a fixed duration target)
-`EEA-CIRC-02 · Circadian & sensory` - **grade: longitudinal**
+`EEA-CIRC-02 · Circadian & sensory` - **tested many times**
 
 **Ancestrally:** Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from preindustrial-style foraging/horticultural societies place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep, but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.
 
@@ -870,7 +862,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **Serves:** M7 - Circadian Regulation  ·  evidence links: 10
 
 #### Falling evening ambient temperature as a co-primary sleep-onset cue
-`EEA-CIRC-03 · Circadian & sensory` - **grade: theoretical**
+`EEA-CIRC-03 · Circadian & sensory` - **tested once**
 
 **Ancestrally:** Outside thermally buffered shelter, ancestral evenings carried a reliable nocturnal drop in ambient temperature that paralleled dusk. This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light. The baseline environment thus paired a dimming light gradient with a falling temperature gradient at the day-night transition.
 
@@ -888,7 +880,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Subsistence & time-use
 
 #### Daily incidental movement load
-`EEA-SUBS-01 · Subsistence & time-use` - **grade: theoretical**
+`EEA-SUBS-01 · Subsistence & time-use` - **tested many times**
 
 **Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp - roughly 9-15 km/day (Hadza men ~7-10 mi, women ~5 mi plus hours of digging), with movement woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
 
@@ -900,10 +892,8 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M10 - Movement / Regulatory  ·  evidence links: 7
 
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
-
 #### Effort-to-outcome contingency (closed-loop, self-attributable)
-`EEA-SUBS-02 · Subsistence & time-use` - **grade: longitudinal**
+`EEA-SUBS-02 · Subsistence & time-use` - **argued, not yet tested**
 
 **Ancestrally:** Subsistence effort sat in a short, visible, self-attributable causal loop: the same individual who tracked, dug, gathered, knapped, or built directly observed the outcome of that effort, on a timescale of minutes to days. Effort-outcome links were embodied and legible - you could see whether your action produced the result. The evolved controllability circuitry (vmPFC detects response-outcome contingency and, when contingency is present, inhibits the dorsal-raphe passivity default) was calibrated to environments where such contingency was routinely present and detectable, and where experiences of control immunized against later helplessness.
 
@@ -915,8 +905,10 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M2 - Pursuit / Exploration, M6 - Controllability / Agency  ·  evidence links: 7
 
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
 #### Task diversity within the subsistence day
-`EEA-SUBS-03 · Subsistence & time-use` - **grade: theoretical**
+`EEA-SUBS-03 · Subsistence & time-use` - **argued, not yet tested**
 
 **Ancestrally:** A forager's day cycled through a wide and shifting portfolio of tasks - tracking, gathering, digging, processing, toolmaking/repair, child-tending, food sharing, travel - recruiting varied skills and continually engaging the appetitive SEEKING/exploration system across novel and changing problems. The evolved exploratory-pursuit substrate (mesolimbic-dopamine SEEKING) is built for persistent inquisitive engagement with a varied environment, not for indefinitely repeating one narrow operation.
 
@@ -931,7 +923,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Daily subsistence work-hours (contested)
-`EEA-SUBS-04 · Subsistence & time-use` - **grade: contested** · **CONTESTED**
+`EEA-SUBS-04 · Subsistence & time-use` - **contested** · **CONTESTED**
 
 **Ancestrally:** QUALITATIVE ONLY. The duration of daily subsistence effort in the EEA is genuinely unresolved and must not be stated as a number. The 'original affluent society' position (Sahlins/Lee) reads the data as short food-quest hours and ample leisure; the opposing reading (Kaplan/Hawkes/Pontzer, and Lieberman's own qualifications) emphasizes that total productive effort includes processing, childcare, toolwork, and travel, and that activity is modest-intensity but spread across the day. What the full-text evidence DOES support qualitatively is that forager workloads are not 'backbreaking' and that overall energetic activity is only modestly above a sedentary Westerner's - but this does not license any specific daily work-hour figure.
 
@@ -949,7 +941,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Diet & metabolic
 
 #### Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)
-`EEA-DIET-01 · Diet & metabolic` - **grade: theoretical** · **CONTESTED**
+`EEA-DIET-01 · Diet & metabolic` - **contested** · **CONTESTED**
 
 **Ancestrally:** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero industrially processed food.
 
@@ -964,7 +956,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
-`EEA-DIET-02 · Diet & metabolic` - **grade: theoretical** · **CONTESTED**
+`EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested** · **CONTESTED**
 
 **Ancestrally:** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
 
@@ -979,7 +971,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Acquisition effort (calories are physically worked for)
-`EEA-DIET-03 · Diet & metabolic` - **grade: clinical**
+`EEA-DIET-03 · Diet & metabolic` - **tested many times**
 
 **Ancestrally:** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
 
@@ -992,7 +984,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 3
 
 #### Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)
-`EEA-DIET-04 · Diet & metabolic` - **grade: replicated**
+`EEA-DIET-04 · Diet & metabolic` - **tested many times**
 
 **Ancestrally:** Total daily energy expenditure (TEE) is an evolved, species-typical trait that the body holds within a narrow range, compensating metabolically rather than expending proportionally more as physical activity rises. Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite far greater physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
 
@@ -1008,7 +1000,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Threat & safety
 
 #### Threat temporality (acute, episodic, escapable-by-action)
-`EEA-THREAT-01 · Threat & safety` - **grade: theoretical**
+`EEA-THREAT-01 · Threat & safety` - **argued, not yet tested**
 
 **Ancestrally:** Ancestral threats were overwhelmingly acute and episodic: predators, conspecific aggression, falls, rapid environmental dangers. Each was a short, life-or-death encounter resolved within seconds-to-minutes by a discrete motor response (flee, fight, freeze, hide), after which the threat-detection system stood down and physiology returned to baseline. The fight-or-flight architecture was selected to spike hard and briefly, then terminate. Threat exposure was thus pulsatile, not continuous.
 
@@ -1023,7 +1015,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Threat controllability and predictability (resolvable by own action)
-`EEA-THREAT-02 · Threat & safety` - **grade: theoretical**
+`EEA-THREAT-02 · Threat & safety` - **argued, not yet tested**
 
 **Ancestrally:** Ancestral threats were typically controllable and predictable in the relevant sense: the animal's own behavior (run, climb, hide, defend, call allies) reliably altered the outcome, and the threat's presence/absence was perceptually verifiable. Uncontrollable, action-proof stressors were the rare, extreme case. The threat system evolved on the expectation that vigilance would be followed by an effective response that resolves the danger.
 
@@ -1038,7 +1030,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Real-vs-perceived threat ratio and all-clear resolution
-`EEA-THREAT-03 · Threat & safety` - **grade: theoretical**
+`EEA-THREAT-03 · Threat & safety` - **argued, not yet tested**
 
 **Ancestrally:** Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.
 
@@ -1056,7 +1048,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Information environment
 
 #### Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)
-`EEA-INFO-01 · Information environment` - **grade: contested** · **CONTESTED**
+`EEA-INFO-01 · Information environment` - **argued, not yet tested** · **CONTESTED**
 
 **Ancestrally:** Ancestrally, virtually all socially consequential information reached an individual through known, identifiable, reputation-bearing senders within a face-to-face band. A claim about who did what, where the game was, who could be trusted, or what was dangerous arrived attached to a specific person whose track record was known and who was themselves accountable to the same dense web of relationships. There was no anonymous, unaccountable, or de-contextualized information channel: the source of a signal and the receiver's ability to weigh that source by its history were inseparable. Boehm's ethnography of forager gossip describes a band that effectively keeps a running 'dossier' on every individual - provenance was the substrate of trust.
 
@@ -1071,7 +1063,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Gossip and narrative flow as reputation and norm transmission
-`EEA-INFO-02 · Information environment` - **grade: contested** · **CONTESTED**
+`EEA-INFO-02 · Information environment` - **tested many times** · **CONTESTED**
 
 **Ancestrally:** The dominant high-bandwidth information process in ancestral groups was gossip and narrative: talk about who behaved how, who is reliable or stingy, what happened, and what one ought to do. This stream did double duty - it transmitted norms, calibrated each person's reputation in the eyes of the group, and deterred free-riding because everyone knew gossip was constantly underway and anyone could become its subject. Boehm documents gossip, ridicule, and ostracism as the primary, low-cost enforcement mechanism against free-riders (bullies, the lazy, feigners, secret meat-eaters); Henrich notes that norm violations meant 'reputational damage, gossip, and a consequent loss of marriage opportunities and allies.' Information about people and norms was the central content of the ancestral information environment.
 
@@ -1090,4 +1082,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-04 09:54 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-04 09:54 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-06 02:28 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-06 02:28 UTC.*

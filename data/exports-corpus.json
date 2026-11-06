@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-04T09:54:10.058799+00:00",
+    "source_built_at": "2026-11-06T02:28:03.694429+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -1862,16 +1862,13 @@
     }
   ],
   "eea": {
-    "banner": "This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Grades are inherited from the evidence and reuse Cor's own vocabulary. 'replicated' appears only twice. Mismatch interpretations are capped at 'theoretical' (the honesty floor); the original-affluent-society work-hours debate is 'contested' with no number asserted; most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.",
+    "banner": "This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.",
     "grade_legend": {
-      "replicated": "multiple independent full-text studies converge",
-      "meta_analysis": "a meta-analysis",
-      "longitudinal": "anchored in a longitudinal / large-N study",
-      "clinical": "controlled human / clinical evidence",
-      "cross_species": "cross-species evidence",
-      "thin": "sparse / single-source evidence",
-      "theoretical": "mechanism-derived; the EEA-mismatch interpretation is capped here (the honesty floor)",
-      "contested": "actively disputed evidence"
+      "tested many times": "consistent results across independent groups or methods, or a meta-analysis of good studies",
+      "tested once": "one good study, or one group's results, not yet repeated",
+      "seen in animals": "animal evidence only; not yet tested in humans",
+      "argued, not yet tested": "a reasoned case with no direct test",
+      "contested": "published evidence on both sides; the note says which way the weight leans"
     },
     "domain_order": [
       "social_structure",
@@ -1977,12 +1974,10 @@
       }
     ],
     "grade_dist": {
-      "replicated": 2,
-      "theoretical": 17,
-      "thin": 5,
-      "clinical": 3,
-      "contested": 4,
-      "longitudinal": 2
+      "contested": 5,
+      "tested once": 5,
+      "tested many times": 12,
+      "argued, not yet tested": 11
     },
     "contested_count": 10,
     "total": 33,
@@ -2010,9 +2005,9 @@
         "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-180, but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.",
         "gap_statement": "The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
-        "evidence_grade": "replicated",
+        "evidence_grade": "contested",
         "contested": true,
-        "confidence_note": "This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan; 483/484/485 (Neocortex 1992 cross-species regression) as the historical cognitive-basis citation; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). UPDATE 2026-07-18: the neocortex-ratio derivation of the ~150 figure is now challenged in the corpus (Lindenfors, Wartel & Lind 2021, work 124 / ext 619); contested flipped to true. Grade held replicated for the nested layer STRUCTURE and its comms-data replication, not for the precise number, whose derivation is contested; the precision statistics from the challenged regression (neocortex-predicted ~148, r-squared) have been removed from this parameter's baseline and value. layer_sizes is retained as a structure map (the structure is what survives the challenge). eea_value.outer_ceiling_approx marks ~150 as an approximate central tendency, not a hard interval or constant.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Layered personal networks scaling by about 3 hold up in modern network data, much of it from Dunbar's group, while the 150 derivation fails re-analysis (Lindenfors, Wartel and Lind 2021) and forager groups are fluid (Bird et al. 2019). Weight of evidence: the layering holds; the exact layer sizes and the 150 ceiling are disputed, so treat them as approximate.\n\nEarlier grading notes (rubric v1, kept for the record): This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan; 483/484/485 (Neocortex 1992 cross-species regression) as the historical cognitive-basis citation; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). UPDATE 2026-07-18: the neocortex-ratio derivation of the ~150 figure is now challenged in the corpus (Lindenfors, Wartel & Lind 2021, work 124 / ext 619); contested flipped to true. Grade held replicated for the nested layer STRUCTURE and its comms-data replication, not for the precise number, whose derivation is contested; the precision statistics from the challenged regression (neocortex-predicted ~148, r-squared) have been removed from this parameter's baseline and value. layer_sizes is retained as a structure map (the structure is what survives the challenge). eea_value.outer_ceiling_approx marks ~150 as an approximate central tendency, not a hard interval or constant.",
         "mechanism_codes": [
           "M11",
           "M3",
@@ -2055,14 +2050,14 @@
           {
             "extraction_id": 485,
             "evidence_role": "supporting",
-            "evidence_quality": "cross_species",
+            "evidence_quality": "theoretical",
             "author_quote": "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously.",
             "content": "The number of neocortical neurons limits information-processing capacity, which constrains the number of relationships an individual can monitor simultaneously. The constraint operates on relationship structure and quality, not raw number of dyads."
           },
           {
             "extraction_id": 484,
             "evidence_role": "supporting",
-            "evidence_quality": "cross_species",
+            "evidence_quality": "contested",
             "author_quote": "even if it were true that energetic considerations constrain brain size, a proper functional explanation must still be given to explain why brains grow to the size they do.",
             "content": "Ecological variables fail to predict neocortex ratio. Percentage fruit in diet is unrelated. Range size and day journey length correlate in raw form but collapse to near zero when body mass is partialled out (residual r²=0.017 for range, r²<0.001 for day journey). Extractive fora"
           },
@@ -2076,14 +2071,14 @@
           {
             "extraction_id": 507,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": "We can only interact coherently with a very small number of other people (about three, in fact) at any one time.",
             "content": "Online inner social layers replicate offline sizes exactly. Support clique (crisis contacts): mean=4.1, not significantly different from offline values of 3.8+/-2.29 (z=0.13, p=0.897) or generic value of 5 (z=0.39, p=0.694). Sympathy group (close friends): mean=13.6, not differen"
           },
           {
             "extraction_id": 508,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
@@ -2117,9 +2112,9 @@
         "modern_default": "A networked individual is exposed to vastly more than 1,000 distinct identities - thousands of nominal \"friends\"/followers plus a near-unbounded daily stream of strangers (crowds, feeds, comment sections, customer interactions). Nominal contact counts routinely run into the thousands while the genuinely-tracked inner network stays pinned near the same ~150, and only ~27.6% of those nominal ties register as genuine close friends. The result is a permanent flood of identities the reputation-tracking and trust-calibration system was never built to index: most are anonymous, non-reciprocal, never re-encountered, and carry no durable reputation, so they neither enter the lifetime roster nor decay out of it normally - they simply accumulate as un-indexable noise. The pool of actually-known, reputation-bearing people is no larger than ancestrally, but it is now embedded in an environment of effectively infinite strangers.",
         "gap_statement": "EEA delivered a finite, slowly-accreting lifetime roster (~1,000+) in which virtually every encountered person was known or one reciprocal link away and carried trackable reputation; modernity delivers an unbounded firehose of identities, the overwhelming majority anonymous, non-reciprocal, and reputation-less. The mismatch is not in the size of the maintainable network (still ~150) but in the ratio of known-to-unknown: a system tuned to \"almost everyone you meet is someone you can place\" now operates where almost everyone you meet is someone you cannot. This chronically engages strangers as ambient novelty/threat (threat-management framing) and starves the cooperation/reputation system (M11) of the direct, repeated, reciprocal observability it evolved to run on, while the cumulative roster of genuinely-known people fails to grow despite massive nominal connection.",
         "resolution_unit": null,
-        "evidence_grade": "theoretical",
+        "evidence_grade": "thin",
         "contested": true,
-        "confidence_note": "GROUNDED 2026-06-09: the defining ~1,000 lifetime-known-individual figure is now full-text-verified against its actual primary, Hill et al. 2014 PLoS ONE (work added this pass; ext H1-H3) - 'social universe of about a thousand individuals' and a lifetime pool 'clearly more than 1,000', which Hill explicitly contrasts with the ~150 'Dunbar number' (attributed to primate brain/group-size regressions). This replaces the prior web/recall, full-text-pending sourcing. Grade set to 'theoretical' (the EEA-mismatch floor): it is a SINGLE study with model-based estimates (yearly interaction rates x life tables, Table S16) on two forager populations, not a multi-study replicated convergence, and the 'lifetime roster conserved while modern stranger-exposure explodes' framing is a mismatch interpretation (capped at theoretical per the hard rule). contested=true retained: EEA-representativeness of Ache/Hadza is genuinely debated and the figure is a single-population model estimate - treat ~1,000 as illustrative. The adjacent ~150 concurrent ceiling / 5-15-50-150 layers remain separately replicated under SOC-01.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.\n\nEarlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09: the defining ~1,000 lifetime-known-individual figure is now full-text-verified against its actual primary, Hill et al. 2014 PLoS ONE (work added this pass; ext H1-H3) - 'social universe of about a thousand individuals' and a lifetime pool 'clearly more than 1,000', which Hill explicitly contrasts with the ~150 'Dunbar number' (attributed to primate brain/group-size regressions). This replaces the prior web/recall, full-text-pending sourcing. Grade set to 'theoretical' (the EEA-mismatch floor): it is a SINGLE study with model-based estimates (yearly interaction rates x life tables, Table S16) on two forager populations, not a multi-study replicated convergence, and the 'lifetime roster conserved while modern stranger-exposure explodes' framing is a mismatch interpretation (capped at theoretical per the hard rule). contested=true retained: EEA-representativeness of Ache/Hadza is genuinely debated and the figure is a single-population model estimate - treat ~1,000 as illustrative. The adjacent ~150 concurrent ceiling / 5-15-50-150 layers remain separately replicated under SOC-01.",
         "mechanism_codes": [
           "M11",
           "M3"
@@ -2160,7 +2155,7 @@
           {
             "extraction_id": 508,
             "evidence_role": "challenging",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
@@ -2213,9 +2208,9 @@
         "modern_default": "Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the ~25-50 face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.",
         "gap_statement": "The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.",
         "resolution_unit": null,
-        "evidence_grade": "thin",
+        "evidence_grade": "replicated",
         "contested": true,
-        "confidence_note": "Camp ~30 (range 25-50) now grounded in Smith et al. 2018 full text (\"average about 30 individuals\"); single Hadza population, cross-society range (Hill 2011 mean 28.2) still contested. contested=true.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people of all ages) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide and how typical small mobile bands were is debated.\n\nEarlier grading notes (rubric v1, kept for the record): Camp ~30 (range 25-50) now grounded in Smith et al. 2018 full text (\"average about 30 individuals\"); single Hadza population, cross-society range (Hill 2011 mean 28.2) still contested. contested=true.",
         "mechanism_codes": [
           "M11",
           "M3"
@@ -2268,9 +2263,9 @@
         "modern_default": "Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small, geographically dispersed, and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.",
         "gap_statement": "The ancestral signal was: 'the group around me is mostly unrelated people I (or my band) actively chose and continuously vetted through reciprocity and reputation; kinship is not what holds us together, the relationships are.' The modern signal is degraded on the selection axis: the unrelated people around us are still mostly unrelated (that part matches), but they are assigned rather than chosen, and the reciprocity/reputation machinery that turned unrelated campmates into durable trusted allies is largely absent or shallow. Mechanisms M3 (bonding) and M11 (cooperation/alliance) evolved expecting that low kin-relatedness would be compensated by self-selected, reciprocal, reputation-anchored dyads. Modernity delivers the low relatedness WITHOUT the compensating chosen-and-vetted dyadic structure, so the mechanisms fire in a world of unrelated-but-also-unbonded co-residents, which is a key part of why being surrounded by people can still register as social isolation.",
         "resolution_unit": null,
-        "evidence_grade": "thin",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Low within-camp relatedness now grounded in two full-text primaries (Apicella 2012: \"first-order relatives make up less than 10% of residential camps\"; Smith 2018: primary kin 1.43/1.93 per camp). Both single-population / partly restating Hill 2011; kept thin.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Low relatedness within camps comes from a 32-society co-residence census (Hill et al. 2011) and is repeated by separate teams in Hadza, Agta and BaYaka (Apicella et al. 2012; Dyble et al. 2015); the under-10-percent primary-kin figure is Hadza-anchored.\n\nEarlier grading notes (rubric v1, kept for the record): Low within-camp relatedness now grounded in two full-text primaries (Apicella 2012: \"first-order relatives make up less than 10% of residential camps\"; Smith 2018: primary kin 1.43/1.93 per camp). Both single-population / partly restating Hill 2011; kept thin.",
         "mechanism_codes": [
           "M11",
           "M3"
@@ -2283,7 +2278,7 @@
           {
             "extraction_id": 601,
             "evidence_role": "supporting",
-            "evidence_quality": "thin",
+            "evidence_quality": "replicated",
             "author_quote": "first-order relatives make up less than 10% of residential camps",
             "content": "Within-camp relatedness is low: most co-residents are not first-order kin."
           },
@@ -2455,7 +2450,7 @@
           {
             "extraction_id": 510,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact.",
             "content": "Age strongly predicts total network size (r=-0.972, p=0.006) with 18-24 year olds averaging 282 friends, but inner layers show minimal age variation (support clique: r=-0.837, p=0.077; sympathy group: r=-0.042, p=0.947). The cognitive/time constraint on intimate relationships is"
           },
@@ -2515,14 +2510,14 @@
           {
             "extraction_id": 485,
             "evidence_role": "supporting",
-            "evidence_quality": "cross_species",
+            "evidence_quality": "theoretical",
             "author_quote": "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously.",
             "content": "The number of neocortical neurons limits information-processing capacity, which constrains the number of relationships an individual can monitor simultaneously. The constraint operates on relationship structure and quality, not raw number of dyads."
           },
           {
             "extraction_id": 383,
             "evidence_role": "supporting",
-            "evidence_quality": "thin",
+            "evidence_quality": "cross_species",
             "author_quote": "Attacks from conspecifics (both infanticide and deaths due to lethal raids by bands of males from neighboring groups) are major sources of mortality.",
             "content": "In chimpanzees, attacks from conspecifics - including infanticide and lethal raids by bands of males from neighboring groups - are major sources of mortality."
           }
@@ -2567,7 +2562,7 @@
           {
             "extraction_id": 375,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
             "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury,"
           },
@@ -2581,7 +2576,7 @@
           {
             "extraction_id": 508,
             "evidence_role": "challenging",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
@@ -2605,9 +2600,9 @@
         "modern_default": "Rulers are chosen at state scale. The people who hold power are personally unknown to almost everyone they govern, and the polity is in practice impossible to leave.",
         "gap_statement": "The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.",
         "resolution_unit": null,
-        "evidence_grade": "theoretical",
+        "evidence_grade": "contested",
         "contested": true,
-        "confidence_note": "Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993; Garfield, von Rueden and Hagen 2019), while Singh and Glowacki 2022 find many non-agricultural peoples sedentary and stratified. Weight of evidence: the description holds for mobile foragers; how representative they were of the ancestral past is disputed.\n\nEarlier grading notes (rubric v1, kept for the record): Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.",
         "mechanism_codes": [
           "M11",
           "M5"
@@ -2672,9 +2667,9 @@
         "modern_default": "The modern default is the isolated nuclear (often single-caregiver) household: one or two adults, frequently without resident grandmothers, aunts, older cousins, or trusted neighbours sharing the daily load. The idealized breadwinner-father / homemaker-mother / biological-children unit is a historical aberration roughly a century old (Victorian at most; the 1950s template in the US), departing from the extended-kin allomaternal norm that held for the vast majority of human history. Care that was distributed across many hands is now concentrated on one or two, often supplemented by paid, rotating, or institutional caregivers rather than a stable invested kin network.",
         "gap_statement": "The mismatch is between the reliable, present, multi-caregiver surround the infant's attachment and the mother's reproductive psychology evolved to expect, and the thin one- or two-adult household the modern environment supplies. The load that was carried by a village now falls on isolated parents; maternal investment is calibrated to assess available allomaternal support (M9), so its evolved absence produces overload, depleted caregivers, and infants with fewer attachment figures than the cooperative-breeding design assumes. This is a supply mismatch, not a parental-competence failure.",
         "resolution_unit": "Reliable, present alloparental supply - care plus provisioning actually delivered by invested caregivers - NOT bare kin count or genealogical presence. Four relatives who live far away and do not share the daily load do not satisfy the parameter; what the infant and mother expect is dependable, hands-on, repeated care from a stable surround.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "GRADE DOWNGRADED replicated -> theoretical on adversarial review. Cor grades the ethnographic shared-care survey (382) 'replicated' because the underlying foraging fieldwork is cross-cultural (!Kung, Trobriand, Hadza), but that item is a single-author Hrdy compilation within one work (the Hadza 69% figure is itself Marlowe's fieldwork per 382's own caveat), and ~all other CARE-01 evidence is interpretive synthesis from just two Hrdy books (works 10 and 60). The HARD RULES reserve 'replicated' for genuine multi-study full-text convergence and keep mismatch interpretations theoretical; 'when unsure DOWNGRADE.' The cooperative-breeding architecture (13M-calorie cost, faster-than-ape breeding, alloparental provisioning) is Hrdy's interpretive synthesis. The measured Hadza ~69/31 holding split is retained as the replicated-in-Cor ethnographic anchor (382, kept as primary) but does not lift the whole mismatch row to replicated. I did NOT find extraction support for a specific 'alloparents deliver ~40-50% of infant care' figure or a universal 'alloparent count ~4+'; those are held qualitative.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Shared infant care is observed in many forager populations by separate field teams (Hadza, Efe, Aka, !Kung, Agta, Pume); the share of care varies widely. The 'cooperative breeder' reading and the calorie argument stay Hrdy's interpretation.\n\nEarlier grading notes (rubric v1, kept for the record): GRADE DOWNGRADED replicated -> theoretical on adversarial review. Cor grades the ethnographic shared-care survey (382) 'replicated' because the underlying foraging fieldwork is cross-cultural (!Kung, Trobriand, Hadza), but that item is a single-author Hrdy compilation within one work (the Hadza 69% figure is itself Marlowe's fieldwork per 382's own caveat), and ~all other CARE-01 evidence is interpretive synthesis from just two Hrdy books (works 10 and 60). The HARD RULES reserve 'replicated' for genuine multi-study full-text convergence and keep mismatch interpretations theoretical; 'when unsure DOWNGRADE.' The cooperative-breeding architecture (13M-calorie cost, faster-than-ape breeding, alloparental provisioning) is Hrdy's interpretive synthesis. The measured Hadza ~69/31 holding split is retained as the replicated-in-Cor ethnographic anchor (382, kept as primary) but does not lift the whole mismatch row to replicated. I did NOT find extraction support for a specific 'alloparents deliver ~40-50% of infant care' figure or a universal 'alloparent count ~4+'; those are held qualitative.",
         "mechanism_codes": [
           "M3",
           "M9"
@@ -2806,9 +2801,9 @@
         "modern_default": "Modern childhood compresses or eliminates free mixed-age play: age-segregated grade cohorts and daycare, adult-structured and supervised activities, indoor screen-based leisure, reduced unsupervised outdoor roaming, and safety norms that discourage rough-and-tumble. Children spend far less time in self-directed, physically-active, mixed-age peer play than the developmental window evolved to expect.",
         "gap_statement": "The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. Because play partners causally shape PFC development and social-reciprocity circuits, reduced free play is plausibly a genuine developmental-input deficit, not merely a lifestyle change.",
         "resolution_unit": "Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, screen time, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - was NOT verbatim-grounded in Cor's extractions when this row was written (June 2026); the numeric age band is still absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote. Update 4 Nov 2026: the mixed-age baseline is now grounded in background-tier evidence linked to this row: a meta-ethnographic review in which children 'transition into the multi-age playgroup' (Lew-Levy et al. 2017, verbatim), Konner 2010, and studies of children learning from and teaching other children (Lew-Levy et al. 2018, 2020). M4's resolution condition, which said 'age-matched', was reconciled to this row the same day. No Cor extraction supports age-matching: the rat partner studies compare more peers, fewer peers and an adult female only (212), and isolated monkeys recovered with younger partners (542). The grade stays theoretical: no extraction tests whether age mixing itself, beyond partnered play, changes outcomes, the brain evidence is cross-species, and the causal role of pretend play is contested (Lillard et al. 2013, background tier).",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans.\n\nEarlier grading notes (rubric v1, kept for the record): DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - was NOT verbatim-grounded in Cor's extractions when this row was written (June 2026); the numeric age band is still absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote. Update 4 Nov 2026: the mixed-age baseline is now grounded in background-tier evidence linked to this row: a meta-ethnographic review in which children 'transition into the multi-age playgroup' (Lew-Levy et al. 2017, verbatim), Konner 2010, and studies of children learning from and teaching other children (Lew-Levy et al. 2018, 2020). M4's resolution condition, which said 'age-matched', was reconciled to this row the same day. No Cor extraction supports age-matching: the rat partner studies compare more peers, fewer peers and an adult female only (212), and isolated monkeys recovered with younger partners (542). The grade stays theoretical: no extraction tests whether age mixing itself, beyond partnered play, changes outcomes, the brain evidence is cross-species, and the causal role of pretend play is contested (Lillard et al. 2013, background tier).",
         "mechanism_codes": [
           "M4",
           "M9"
@@ -2821,14 +2816,14 @@
           {
             "extraction_id": 212,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "cross_species",
             "author_quote": "We found that play fighting in juvenile rats alters the dendritic branching of the neurons of the prefrontal cortex, with the arborization of the basilar dendrites of the OFC cells increasing and that of the apical dendrites of the mPFC cells decreasing.",
             "content": "Pellis lab original finding: juvenile play fighting experience changes the dendritic branching (arborization) of neurons in the prefrontal cortex - specifically, basilar dendrites of OFC cells increase and apical dendrites of mPFC cells decrease in response to play fighting exper"
           },
           {
             "extraction_id": 220,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "cross_species",
             "author_quote": "Measures of cortical thickness reveal that these more masculine rats have a greater volume of cortex and that the sex-typical asymmetry of their right hemisphere versus their left one is exaggerated relative to control males that were injected with an equal volume of oil. There is nothing particularly unexpected in this finding. However, when the untreated playmates of the testosterone-treated and oil-treated animals were compared, it was found that the partners of the more playful rats also tended to have greater cortical thickness. Just growing up with a more playful partner influences the development of the cortex!",
             "content": "Pellis lab finding: male rats injected with testosterone shortly after birth play more AND develop greater cortical thickness, with exaggerated right-vs-left hemisphere asymmetry. Critically, the UNTREATED playmates of testosterone-treated rats also tended to have greater cortica"
           },
@@ -2866,9 +2861,9 @@
         "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
         "gap_statement": "The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.",
         "resolution_unit": "Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "contested",
         "contested": false,
-        "confidence_note": "Graded theoretical. The grandmother hypothesis / active-grandparent corollary is Lieberman's interpretive evolutionary argument (203, eq=theoretical, explicitly a corollary to Hawkes et al.'s grandmother hypothesis); it is well-known but interpretive, not a replicated empirical demonstration in Cor's corpus, and mismatch framing stays theoretical per the HARD RULES. eea_value is null because no specific quantitative grandmother-presence parameter is extraction-grounded. The row meets the 3-part inclusion rule and connects directly to the M9 alloparental-supply backbone. Note: 203's mechanism_codes in Cor are M10/M9; the M3 row tag is an architectural mapping carried by the M9/M3 supporting items (401, 274, 403), not by 203.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.\n\nEarlier grading notes (rubric v1, kept for the record): Graded theoretical. The grandmother hypothesis / active-grandparent corollary is Lieberman's interpretive evolutionary argument (203, eq=theoretical, explicitly a corollary to Hawkes et al.'s grandmother hypothesis); it is well-known but interpretive, not a replicated empirical demonstration in Cor's corpus, and mismatch framing stays theoretical per the HARD RULES. eea_value is null because no specific quantitative grandmother-presence parameter is extraction-grounded. The row meets the 3-part inclusion rule and connects directly to the M9 alloparental-supply backbone. Note: 203's mechanism_codes in Cor are M10/M9; the M3 row tag is an architectural mapping carried by the M9/M3 supporting items (401, 274, 403), not by 203.",
         "mechanism_codes": [
           "M3",
           "M9"
@@ -2925,9 +2920,9 @@
         "modern_default": "WEIRD/industrialized environments are historically unusual in touch avoidance: infants spend much time in cribs, strollers, and carriers that minimize skin contact; personal-space norms and screen-mediated interaction strip casual affective touch from daily adult life. Many people experience chronic 'touch hunger' below the developmental and regulatory floor.",
         "gap_statement": "Modern environments routinely fall below the ancestral affective-touch floor. Touch deprivation in extreme cases (institutional rearing) produces growth-hormone suppression, immune dysfunction, and developmental arrest; even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.",
         "resolution_unit": "Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.",
-        "evidence_grade": "clinical",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. The often-cited '~40% kangaroo-care mortality reduction' is now grounded in the corpus (ext 618): Conde-Agudelo and Diaz-Rossello's Cochrane 2016 meta-analysis reports reduced mortality in STABILIZED low-birthweight infants (RR 0.60, 95% CI 0.39-0.92 at discharge or 40-41 weeks; RR 0.67, 0.48-0.95 at latest follow-up), so the figure applies specifically to stabilized LBW infants and is largest in low- and middle-income settings, not to all newborns; ext 100 (Feldman) separately carries the developmental/autonomic results. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 10 cited extraction_ids verified to exist and support their 'why'.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Near-continuous infant carrying and frequent nursing are documented in !Kung, Aka and Efe, with breastfeeding into the second or third year across non-industrial societies (Sellen 2007). The adult high-touch part rests on modern observation and is argued.\n\nEarlier grading notes (rubric v1, kept for the record): Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. The often-cited '~40% kangaroo-care mortality reduction' is now grounded in the corpus (ext 618): Conde-Agudelo and Diaz-Rossello's Cochrane 2016 meta-analysis reports reduced mortality in STABILIZED low-birthweight infants (RR 0.60, 95% CI 0.39-0.92 at discharge or 40-41 weeks; RR 0.67, 0.48-0.95 at latest follow-up), so the figure applies specifically to stabilized LBW infants and is largest in low- and middle-income settings, not to all newborns; ext 100 (Feldman) separately carries the developmental/autonomic results. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 10 cited extraction_ids verified to exist and support their 'why'.",
         "mechanism_codes": [
           "M3",
           "R1"
@@ -2954,14 +2949,14 @@
           {
             "extraction_id": 89,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "In a study of 112 parents and their 4-6 month olds, active parental touch triggered measurable OT responses. Mothers providing high levels of affectionate touch (>66% of interaction time) showed increased salivary OT from pre- to post-interaction, while mothers providing minimal"
           },
           {
             "extraction_id": 100,
             "evidence_role": "supporting",
-            "evidence_quality": "longitudinal",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "10-year longitudinal study with case-matched controls (N=146): Kangaroo Care (14 days skin-to-skin) for 73 preterm infants vs standard incubator care for 73 matched controls. KC increased autonomic functioning (RSA), maternal attachment, reduced maternal anxiety. Enhanced child c"
           },
@@ -2975,7 +2970,7 @@
           {
             "extraction_id": 417,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "theoretical",
             "author_quote": "Tana was raised in a Romanian orphanage. At age seven, relief workers found her all skin and bones and only half the height of a normal child her age.",
             "content": "Touch deprivation in Romanian orphanages produced devastating consequences: children were skeletal, half normal height, unable to walk or run. After months of regular nutrition and massage therapy, orphanage children recovered physically - illustrating that touch is not merely pl"
           },
@@ -2989,7 +2984,7 @@
           {
             "extraction_id": 295,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
             "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
           },
@@ -3020,9 +3015,9 @@
         "modern_default": "WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.",
         "gap_statement": "Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. This is a plausible but, in the present corpus, evidentially thin extension of the daytime affective-touch and attachment findings; it should not be over-stated.",
         "resolution_unit": "Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.",
-        "evidence_grade": "contested",
+        "evidence_grade": "replicated",
         "contested": true,
-        "confidence_note": "GROUNDED 2026-06-09; grade 'thin' -> 'contested' (contested=true retained). The row's previously ZERO-evidence status is resolved with the best verifiable full text after the canonical McKenna reviews (2005 Paediatr Respir Rev; 2007 AJPA) proved paywalled / not in PMC: McKenna JJ 2014, Evolution Medicine & Public Health (doi:10.1093/emph/eou006, CC-BY open access; work added this pass). Supporting evidence for the nighttime co-regulation channel: ext M1 (cosleeping mother-infant 'interconnected, mutually dependent, synchronous arousals') and M2 (cosleeping infant physiology 'intimately linked to underlying EEGs, breathing patterns, ... body temperature ... maternal physiological and behavioral events'). CHALLENGING evidence: ext M3 (McKenna himself: bedsharing 'safety is determined specifically by how it is practiced ... adverse factors' - the live SIDS/safety contestation). Grade 'contested' is the honest, non-inflationary label: the evidence is a single-author commentary reviewing one research program (McKenna's own lab) in an active scientific debate, and the claim is genuinely contested on SIDS grounds. M1/M2 evidence the proximate co-regulation mechanism (not a literal touch measurement); McKenna in this same text explicitly distances from a naive 'return to the Pleistocene'/Bowlby-EEA reading. If TOUCH-02 is read as an EEA-mismatch claim rather than a co-regulation-channel claim, that interpretation would itself be capped at 'theoretical' per the hard rule.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands.\n\nEarlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09; grade 'thin' -> 'contested' (contested=true retained). The row's previously ZERO-evidence status is resolved with the best verifiable full text after the canonical McKenna reviews (2005 Paediatr Respir Rev; 2007 AJPA) proved paywalled / not in PMC: McKenna JJ 2014, Evolution Medicine & Public Health (doi:10.1093/emph/eou006, CC-BY open access; work added this pass). Supporting evidence for the nighttime co-regulation channel: ext M1 (cosleeping mother-infant 'interconnected, mutually dependent, synchronous arousals') and M2 (cosleeping infant physiology 'intimately linked to underlying EEGs, breathing patterns, ... body temperature ... maternal physiological and behavioral events'). CHALLENGING evidence: ext M3 (McKenna himself: bedsharing 'safety is determined specifically by how it is practiced ... adverse factors' - the live SIDS/safety contestation). Grade 'contested' is the honest, non-inflationary label: the evidence is a single-author commentary reviewing one research program (McKenna's own lab) in an active scientific debate, and the claim is genuinely contested on SIDS grounds. M1/M2 evidence the proximate co-regulation mechanism (not a literal touch measurement); McKenna in this same text explicitly distances from a naive 'return to the Pleistocene'/Bowlby-EEA reading. If TOUCH-02 is read as an EEA-mismatch claim rather than a co-regulation-channel claim, that interpretation would itself be capped at 'theoretical' per the hard rule.",
         "mechanism_codes": [
           "M3",
           "M7",
@@ -3037,14 +3032,14 @@
           {
             "extraction_id": 615,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "Moreover, infants and mothers are induced to awaken by an arousal exhibited by the other (within seconds) therein creating interconnected, mutually dependent, synchronous arousals [1, 2].",
             "content": "Cosleeping mother and infant induce arousals in one another within seconds, creating interconnected, mutually-dependent, synchronous arousals (nighttime physiological co-regulation)."
           },
           {
             "extraction_id": 616,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "the behavior can be seen to be intimately linked to underlying EEGs, breathing patterns, changes in sleep architecture, body temperature and linked simultaneously to maternal physiological and behavioral events [5].",
             "content": "Across the sleep period, cosleeping infant behavior is intimately linked to underlying EEG, breathing patterns, sleep architecture, and body temperature, coupled simultaneously to maternal physiological and behavioral events."
           },
@@ -3073,9 +3068,9 @@
         "modern_default": "Adult-to-adult affiliative touch is sharply curtailed in WEIRD societies by personal-space norms, professionalization of touch, and screen-mediated relationships; trusted-other touch is increasingly confined to a single partner or absent entirely, and remote communication carries none of it.",
         "gap_statement": "Loss of routine affiliative touch from trusted others removes a direct endorphin-bonding and cortisol/cardiovascular stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.",
         "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
-        "evidence_grade": "clinical",
+        "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Solid: Dunbar's grooming-endorphin link (ext 386) is replicated primate neuroscience extended to human touch bonding, and Field's partner-touch finding (ext 429) is clinical (pre-stress partner contact significantly lowers cortisol and heart-rate responses, outperforming verbal support). Verified: ext 429's author_quote notes cortisol/HR drop with 'no different plasma oxytocin levels', and the 'why' correctly claims cortisol/HR not oxytocin. The mismatch interpretation (modern adult touch deficit) leans on the cross-cultural touch-variance data and is somewhat more inferential than the core physiology, but the underlying mechanism is well-grounded. All 5 cited extraction_ids verified to exist and support their 'why'.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value.\n\nEarlier grading notes (rubric v1, kept for the record): Solid: Dunbar's grooming-endorphin link (ext 386) is replicated primate neuroscience extended to human touch bonding, and Field's partner-touch finding (ext 429) is clinical (pre-stress partner contact significantly lowers cortisol and heart-rate responses, outperforming verbal support). Verified: ext 429's author_quote notes cortisol/HR drop with 'no different plasma oxytocin levels', and the 'why' correctly claims cortisol/HR not oxytocin. The mismatch interpretation (modern adult touch deficit) leans on the cross-cultural touch-variance data and is somewhat more inferential than the core physiology, but the underlying mechanism is well-grounded. All 5 cited extraction_ids verified to exist and support their 'why'.",
         "mechanism_codes": [
           "M3",
           "R1"
@@ -3088,28 +3083,28 @@
           {
             "extraction_id": 386,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "cross_species",
             "author_quote": "Monkey grooming is not about removing fleas. Rather, it is about the intimacy of massage. The physical stimulation of the skin triggers the release of endorphins in the brain.",
             "content": "Primate grooming is not about removing fleas - it is about the intimacy of massage. Physical stimulation of the skin triggers endorphin release in the brain. Low-level pain associated with generalized stresses is dealt with by the endorphin system, creating a sense of wellbeing a"
           },
           {
             "extraction_id": 429,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "Women with physical contact before stress exhibited significantly lower cortisol and heart rate responses to stress but no different plasma oxytocin levels.",
             "content": "Physical contact from a partner before stress significantly lowers cortisol and heart rate responses. A ten-minute neck and shoulder massage produced greater stress buffering than verbal social support or no partner interaction. Touch-based social regulation operates through dire"
           },
           {
             "extraction_id": 430,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "We compared 'grandparent' volunteers massaging infants (figure 2.2), with 'grandparent' volunteers being massaged themselves. Both experiences had positive effects, including such lifestyle changes as participants having more social contacts, drinking less coffee, and making fewer trips to the doctor's office.",
             "content": "Elderly volunteers who massaged infants showed positive health effects: more social contacts, less coffee consumption, fewer doctor visits. Being massaged and giving massage both produced benefits. This reciprocal caregiving-through-touch model demonstrates that touch regulation"
           },
           {
             "extraction_id": 295,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
             "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
           },
@@ -3142,9 +3137,9 @@
         "modern_default": "Indoor electric and screen light keeps evening illumination bright and short-wavelength (blue-enriched, ~450nm) well past dusk, suppressing melatonin and delaying its onset by 1.5-3 hours; daytime indoor light is far dimmer than outdoor light, flattening the day-night amplitude. The dusk dimming/reddening gradient and true nocturnal darkness are largely abolished.",
         "gap_statement": "The modern light environment inverts the ancestral pattern on both ends: too little bright light by day, too much blue-enriched light at night, with no real darkness. This delays circadian phase, compresses and fragments the biological night, and decouples internal time from external solar time.",
         "resolution_unit": "Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness), not total daily light dose or generic 'brightness'.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "EVIDENCE BASE STRENGTHENED 2026-06-09 but grade HELD at 'theoretical' (a correct outcome, not a failure). The natural-light entrainment MECHANISM is now genuine multi-study full-text convergence: added Wright et al. 2013 (Current Biology; within-subject natural-light field study, n=8; ext W1/W3) and Stothard et al. 2017 (winter + weekend camping, n=5/n=14; ext S1/S3), which directly show natural light entrains the human clock to solar time (biological night begins near sunset) and that modern electrical lighting delays circadian phase, with measured natural-light intensities ~4,500-10,300 lux and a cited Toba/Qom hunter-gatherer + Brazilian rubber-tapper corroboration. This resolves the prior 'single secondary synthesis (Walker) + single 12-person RCT (Chang)' basis for the downgrade. The grade nonetheless STAYS 'theoretical' because the row's eea_value asserts SPECIFIC FORAGER ANCESTRAL BASELINE VALUES (sleep onset ~20:00-22:00, >10,000 lux daytime, firelight ~600nm) - an EEA-baseline reconstruction. The camping studies substitute modern subjects under natural light as a PROXY for the ancestral condition (Wright's own caveat); they validate the mechanism, not the specific ancestral numbers, so the hard mismatch-interpretation cap binds. Not contested: the entrainment finding is robust and convergent, not in dispute - it is capped, not disputed.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Pre-electric light exposure and sleep timing are measured in Hadza, San and Tsimane (Yetish et al. 2015), in Toba/Qom with and without electricity (de la Iglesia et al. 2015) and in natural-light camping studies; samples are small and modern foragers stand in for ancestral ones. Sleep onset averaged about 3.3 hours after sunset in Yetish et al.\n\nEarlier grading notes (rubric v1, kept for the record): EVIDENCE BASE STRENGTHENED 2026-06-09 but grade HELD at 'theoretical' (a correct outcome, not a failure). The natural-light entrainment MECHANISM is now genuine multi-study full-text convergence: added Wright et al. 2013 (Current Biology; within-subject natural-light field study, n=8; ext W1/W3) and Stothard et al. 2017 (winter + weekend camping, n=5/n=14; ext S1/S3), which directly show natural light entrains the human clock to solar time (biological night begins near sunset) and that modern electrical lighting delays circadian phase, with measured natural-light intensities ~4,500-10,300 lux and a cited Toba/Qom hunter-gatherer + Brazilian rubber-tapper corroboration. This resolves the prior 'single secondary synthesis (Walker) + single 12-person RCT (Chang)' basis for the downgrade. The grade nonetheless STAYS 'theoretical' because the row's eea_value asserts SPECIFIC FORAGER ANCESTRAL BASELINE VALUES (sleep onset ~20:00-22:00, >10,000 lux daytime, firelight ~600nm) - an EEA-baseline reconstruction. The camping studies substitute modern subjects under natural light as a PROXY for the ancestral condition (Wright's own caveat); they validate the mechanism, not the specific ancestral numbers, so the hard mismatch-interpretation cap binds. Not contested: the entrainment finding is robust and convergent, not in dispute - it is capped, not disputed.",
         "mechanism_codes": [
           "M7"
         ],
@@ -3155,7 +3150,7 @@
           {
             "extraction_id": 77,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "replicated",
             "author_quote": null,
             "content": "Electric light, caffeine, and alarm clocks systematically disrupt the ancestral dark-cycle sleep pattern that governed human circadian biology for millennia. Walker describes how Edison's incandescent light \"put an end to this natural order of things,\" delaying melatonin release"
           },
@@ -3169,14 +3164,14 @@
           {
             "extraction_id": 82,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "In a randomized crossover study (N=12), reading a light-emitting eReader (LE-eBook) for 4 hours before bedtime for 5 consecutive evenings produced multiple measurable disruptions compared to reading a printed book in identical dim light conditions. Melatonin was suppressed by 55."
           },
           {
             "extraction_id": 83,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "The circadian disruption from evening LE-eReader use persisted beyond the reading session. Next-morning sleepiness was significantly greater after LE-eBook reading (P<0.001) and participants took hours longer to fully wake up. The circadian phase shift (dim light melatonin onset"
           },
@@ -3211,7 +3206,7 @@
           {
             "extraction_id": 614,
             "evidence_role": "supporting",
-            "evidence_quality": "thin",
+            "evidence_quality": "replicated",
             "author_quote": "others have reported later circadian and/or sleep timing in Brazilian rubber tappers [2] and in hunter-gatherers from the indigenous Toba/Qom in the Argentinean Chaco with access to electrical lighting compared to those from the same communities without access to electrical lighting",
             "content": "Convergent field evidence: indigenous Toba/Qom hunter-gatherers and Brazilian rubber-tappers WITH electrical lighting show later circadian/sleep timing than same-community members WITHOUT it."
           }
@@ -3228,9 +3223,9 @@
         "modern_default": "Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.",
         "gap_statement": "The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.",
         "resolution_unit": "Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration. Do not encode a must-hit-8-9h rule.",
-        "evidence_grade": "longitudinal",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "RE-GRADED 2026-06-09 'theoretical' -> 'longitudinal'. The single-dataset basis for the prior downgrade is resolved: the load-bearing 'phase/timing-not-duration' claim is now supported by a convergence of independent designs - the Roenneberg social-jetlag epidemiology (work 40, n>65,000; the row's existing 'longitudinal'-graded primary) PLUS two controlled natural-light field experiments added this pass: Wright et al. 2013 (ext W2: all circadian markers ~2h earlier while weekly sleep duration 6.7h vs 6.8h, p=0.268, and efficiency were statistically unchanged) and Stothard et al. 2017 (ext S2: weekend natural light advanced melatonin onset/midpoint ~1.4h/~1.0h 'despite no change in sleep timing'). Graded 'longitudinal' (matching its Roenneberg anchor's evidence type), deliberately NOT 'replicated': the two camping experiments share a laboratory and senior author, so they are not fully independent, and top-tier 'replicated' is reserved for stronger independent convergence. The mismatch-interpretation cap does NOT bind here because eea_value is NULL - the row asserts no contested ancestral sleep number; its claim is the present-tense, directly-measured dissociation of circadian PHASE from sleep DURATION in living humans. NOTE: this is the only genuine grade promotion in this pass; flagged for review.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Night-anchored sleep of about 5.7 to 7.1 hours is measured by actigraphy in three forager societies (Yetish et al. 2015) and in Toba/Qom (de la Iglesia et al. 2015); camping studies move phase while duration holds. Actigraphy only, and parts of the interpretation are disputed.\n\nEarlier grading notes (rubric v1, kept for the record): RE-GRADED 2026-06-09 'theoretical' -> 'longitudinal'. The single-dataset basis for the prior downgrade is resolved: the load-bearing 'phase/timing-not-duration' claim is now supported by a convergence of independent designs - the Roenneberg social-jetlag epidemiology (work 40, n>65,000; the row's existing 'longitudinal'-graded primary) PLUS two controlled natural-light field experiments added this pass: Wright et al. 2013 (ext W2: all circadian markers ~2h earlier while weekly sleep duration 6.7h vs 6.8h, p=0.268, and efficiency were statistically unchanged) and Stothard et al. 2017 (ext S2: weekend natural light advanced melatonin onset/midpoint ~1.4h/~1.0h 'despite no change in sleep timing'). Graded 'longitudinal' (matching its Roenneberg anchor's evidence type), deliberately NOT 'replicated': the two camping experiments share a laboratory and senior author, so they are not fully independent, and top-tier 'replicated' is reserved for stronger independent convergence. The mismatch-interpretation cap does NOT bind here because eea_value is NULL - the row asserts no contested ancestral sleep number; its claim is the present-tense, directly-measured dissociation of circadian PHASE from sleep DURATION in living humans. NOTE: this is the only genuine grade promotion in this pass; flagged for review.",
         "mechanism_codes": [
           "M7"
         ],
@@ -3241,42 +3236,42 @@
           {
             "extraction_id": 92,
             "evidence_role": "primary",
-            "evidence_quality": "longitudinal",
+            "evidence_quality": "replicated",
             "author_quote": null,
             "content": "In a large epidemiological database (n>65,000, primarily Central European), social jetlag - the discrepancy between biological circadian clock and socially imposed sleep timing - is associated with increased BMI independently of sleep duration. 69% of the population experiences a"
           },
           {
             "extraction_id": 93,
             "evidence_role": "primary",
-            "evidence_quality": "longitudinal",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Social jetlag - the discrepancy between biological and social clocks - is chronic throughout working careers. 69% of the population (N>65,000, central European) experiences at least 1 hour of social jetlag; one-third suffers 2+ hours. Social jetlag peaks in late adolescence due t"
           },
           {
             "extraction_id": 94,
             "evidence_role": "supporting",
-            "evidence_quality": "longitudinal",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Hierarchical multiple regression revealed social jetlag positively predicts BMI specifically in the overweight group (BMI>=25, n=20,731), with an effect size more than half that of sleep duration, but does NOT predict BMI in the normal weight group (BMI<25, n=43,308). Logistic re"
           },
           {
             "extraction_id": 81,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Roenneberg identifies \"social jet lag\" - the chronic discrepancy between an individual's biological clock and socially imposed schedules - as a pervasive mismatch condition in industrialized societies. Over 40% of the Central European population suffers from social jet lag of two"
           },
           {
             "extraction_id": 79,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "replicated",
             "author_quote": null,
             "content": "During puberty, the suprachiasmatic nucleus shifts the adolescent circadian rhythm progressively forward, pushing sleep onset several hours later than both younger children and adult parents. Walker describes how a nine-year-old's melatonin-driven sleep onset around 9 p.m. shifts"
           },
           {
             "extraction_id": 77,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "replicated",
             "author_quote": null,
             "content": "Electric light, caffeine, and alarm clocks systematically disrupt the ancestral dark-cycle sleep pattern that governed human circadian biology for millennia. Walker describes how Edison's incandescent light \"put an end to this natural order of things,\" delaying melatonin release"
           },
@@ -3321,9 +3316,9 @@
         "modern_default": "Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the evening cooling ramp; evening heat (and sometimes overheated bedrooms) can also oppose the core-temperature fall required for sleep onset.",
         "gap_statement": "By flattening the daily thermal cycle, modern housing removes a candidate onset cue that historically co-occurred with dusk and reinforced circadian timing, potentially leaving light as the sole (and now corrupted) entrainment channel.",
         "resolution_unit": "Direction and timing of the evening ambient-temperature change (a falling ramp at dusk), not absolute thermostat setpoint or daytime comfort.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Kept on inclusion-rule grounds (clear M7 link, real modern_default, real gap) but at the lowest applicable grade and with NO evidence links - verified that Cor's existing M7 temperature extractions (IDs 85, 86) concern the ENDOGENOUS body-temperature rhythm used to estimate intrinsic circadian period via forced desynchrony, NOT ambient falling-temperature as an external onset cue, so none genuinely supports this claim. A full keyword scan of all M7 extractions for temperature/thermal/cooling/ambient returned no supporting source. The ambient-thermal-cue hypothesis is biologically plausible but ungrounded in the current extraction base; treat as theoretical pending a dedicated source.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested once. Yetish et al. 2015 found sleep fell during the nightly drop in ambient temperature in Hadza, San and Tsimane; one research group, association only. That temperature acts as a sleep cue is argued.\n\nEarlier grading notes (rubric v1, kept for the record): Kept on inclusion-rule grounds (clear M7 link, real modern_default, real gap) but at the lowest applicable grade and with NO evidence links - verified that Cor's existing M7 temperature extractions (IDs 85, 86) concern the ENDOGENOUS body-temperature rhythm used to estimate intrinsic circadian period via forced desynchrony, NOT ambient falling-temperature as an external onset cue, so none genuinely supports this claim. A full keyword scan of all M7 extractions for temperature/thermal/cooling/ambient returned no supporting source. The ambient-thermal-cue hypothesis is biologically plausible but ungrounded in the current extraction base; treat as theoretical pending a dedicated source.",
         "mechanism_codes": [
           "M7"
         ],
@@ -3362,9 +3357,9 @@
         "modern_default": "Movement has been extracted from subsistence and re-inserted, if at all, as discretionary 'exercise': set-aside, planned, dose-prescribed (e.g. 150 min/week guidelines), and separated from the rest of a chair-bound, motor-transported, indoor day. Most waking hours are spent in continuous chair-sitting that holds the lower limbs near-inactive, and total daily distance on foot collapses far below the ancestral range.",
         "gap_statement": "The gap is not a calorie or PAL gap (these are surprisingly close) but a distributional one: ancestral movement was low-intensity, continuous, and obligatory; modern movement is optional, bunched, and easily skipped, leaving long uninterrupted muscular-inactivity bouts that the body never encountered. The mismatch is in HOW the day's muscle activity is spread, not in gross energy turnover.",
         "resolution_unit": "Incidental all-day movement woven into the fabric of living (errands, carrying, standing, walking between activities, active rest postures) - NOT a set-aside 'exercise' session. The functional target is the continuous distribution of low-level activity across waking hours, not weekly minutes of vigorous training.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade DOWNGRADED from 'replicated' to 'theoretical' on adversarial review. Two reasons: (a) this is a mismatch interpretation (embedded/continuous vs modern bunched movement), which the grade rules require to stay theoretical; (b) the headline quantitative claim - the 9-15 km/day band and the PAL/MVPA/rest figures - is anchored to a narrow source base (Lieberman/work 57 supplies 196,197,198,195; the single Raichlen/Pontzer 2020 paper/work 63 supplies 288,289; one author/work 64 supplies 427), i.e. essentially Hadza-population data filtered through two source-works, not broad multi-study full-text convergence. What IS robust and converges across these full-text sources is the QUALITATIVE picture: movement is embedded not bout-shaped, active-rest posture matters, and forager PAL is only ~15% above a sedentary Westerner's. Cor must not hide the genuine tension: the same data show hunter-gatherers rest ~9.9h/day and are only modestly more active, so 'we evolved to move constantly and hard' is itself partly myth - the defensible claim is continuity-of-movement and active-rest posture, not heroic exertion. The specific km band is approximate and population-variable.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Forager activity of over 100 minutes a day of moderate-to-vigorous movement and activity levels modestly above Western ones are found across populations (Pontzer, Wood and Raichlen 2018); the kilometre band and rest figures are Hadza only.\n\nEarlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'replicated' to 'theoretical' on adversarial review. Two reasons: (a) this is a mismatch interpretation (embedded/continuous vs modern bunched movement), which the grade rules require to stay theoretical; (b) the headline quantitative claim - the 9-15 km/day band and the PAL/MVPA/rest figures - is anchored to a narrow source base (Lieberman/work 57 supplies 196,197,198,195; the single Raichlen/Pontzer 2020 paper/work 63 supplies 288,289; one author/work 64 supplies 427), i.e. essentially Hadza-population data filtered through two source-works, not broad multi-study full-text convergence. What IS robust and converges across these full-text sources is the QUALITATIVE picture: movement is embedded not bout-shaped, active-rest posture matters, and forager PAL is only ~15% above a sedentary Westerner's. Cor must not hide the genuine tension: the same data show hunter-gatherers rest ~9.9h/day and are only modestly more active, so 'we evolved to move constantly and hard' is itself partly myth - the defensible claim is continuity-of-movement and active-rest posture, not heroic exertion. The specific km band is approximate and population-variable.",
         "mechanism_codes": [
           "M10"
         ],
@@ -3375,7 +3370,7 @@
           {
             "extraction_id": 196,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
             "content": "Lieberman reports a Hadza heart-rate monitor study of 46 adults: the average adult spent about 3 h 40 min a day in light activity and 2 h 14 min in moderate or vigorous activity, which he puts at about twelve times the activity of the average American or European, and he writes t"
           },
@@ -3396,14 +3391,14 @@
           {
             "extraction_id": 288,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "theoretical",
             "author_quote": "Here, we test the hypothesis that the ways in which urban populations rest, rather than the amount of time spent resting, represents an inactivity mismatch with an evolutionarily relevant hunting and gathering lifestyle, and propose that this mismatch may contribute to the negative health impacts of sedentary behavior today.",
             "content": "The Inactivity Mismatch Hypothesis (Raichlen, Pontzer et al. 2020): Hadza adults spend similar amounts of time in nonambulatory rest as industrialized adults (~9.9 hours/day), but they rest in postures - squatting, kneeling, ground-sitting - that maintain higher lower-limb muscle"
           },
           {
             "extraction_id": 289,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "In addition to ground-sitting postures, Hadza individuals also spend a large percentage of their nonambulatory time in squatting (∼18%) and kneeling postures (∼12.5%) that differ from ground sitting by individuals maintaining an elevated buttocks. [...] For soleus, the assisted squat posture (squatting with heels in ground contact and with the buttocks resting on a small rock) elicited significantly higher muscle activity compared with chair sitting.",
             "content": "The empirical result: Hadza adults spend roughly as much time in nonambulatory rest as industrialized adults (~9.9 hours/day for Hadza vs ~8.8 hours/day for Australian adults in comparison data), with similar average sedentary bout duration (~15 min) and similar numbers of transi"
           },
@@ -3417,7 +3412,7 @@
           {
             "extraction_id": 195,
             "evidence_role": "supporting",
-            "evidence_quality": "thin",
+            "evidence_quality": "theoretical",
             "author_quote": "Many things surprised me when I first walked into a Hadza camp mid-morning on a torrid, sunny day in 2013, but I remember being especially struck by how everyone was apparently doing nothing. Hadza camps consist of a few temporary grass huts that blend in with the surrounding bushes. I didn't realize I had walked into a camp until I found myself amid about fifteen Hadza men, women, and children who were sitting on the ground as shown in figure 2. The women and children were relaxing on one side, and the men on another. One fellow was straightening some arrows, and a few children were toddling about, but no one was engaged in any hard work. To be sure, the Hadza weren't lounging on sofas, watching TV, munching potato chips, and sipping soda, but they were doing what so many health experts warn us to avoid: sitting.",
             "content": "Lieberman's first-person observation of a Hadza hunter-gatherer camp in 2013 contradicts the standard Western assumption about hunter-gatherer activity levels. Upon arrival he found Hadza men, women, and children sitting on the ground, doing light chores, with no one engaged in h"
           }
@@ -3434,9 +3429,9 @@
         "modern_default": "Much modern productive effort is decoupled from any visible, self-attributable outcome: work is mediated by long opaque chains, algorithmic management, and electronic monitoring that reduce decision latitude; rewards are detached in time and attribution from the effort that earned them; and many roles offer high demand with low control. The closed loop between one's own action and an observable result is frequently broken.",
         "gap_statement": "Because passivity is the unlearned default that only switches OFF when controllability is detected, environments that obscure the effort-outcome link don't feel neutral - they default the organism toward helplessness-type physiology. The gap is the loss of routinely detectable, self-attributable contingency, which population health data link to elevated disease risk (low job control predicts coronary disease independent of grade).",
         "resolution_unit": "Reliably PRESENT and DETECTABLE response-outcome contingency that the actor can attribute to their own effort - not mere busyness, throughput, or nominal 'autonomy.' What must be restored is the closed, legible loop between action and observed result, not the quantity of work.",
-        "evidence_grade": "longitudinal",
+        "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade DOWNGRADED from 'replicated' to 'longitudinal' on adversarial review. The Maier-Seligman CONTROLLABILITY MECHANISM (extractions 66/68/69, all work 32) is genuinely replicated full-text - contingency detection, the passivity-default inversion, and trans-situational immunization - and Whitehall II (159, longitudinal) provides independent population confirmation that low control causes coronary disease. However, those replicated items are all one synthesizing source-work (32); the PARAMETER's ancestral-subsistence framing ('effort-outcome links visible and physical in forager work') rests solely on the van Vugt mismatch synthesis (583/587, work 102, quality=theoretical). So the EEA-baseline claim itself is not replicated - the softer link is the bridge from lab/epidemiology to the ancestral baseline. 'longitudinal' honestly reflects that the strongest PARAMETER-LEVEL outcome evidence is the Whitehall II longitudinal finding, while the mechanism beneath it is replicated and the EEA mapping is theoretical. eea_value is null because contingency is qualitative, not a number.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures how visible the link between effort and outcome was in forager work; the ancestral claim is a mismatch synthesis (van Vugt et al. 2024). The Whitehall II and rodent controllability findings test the modern side and the mechanism, not this ancestral value.\n\nEarlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'replicated' to 'longitudinal' on adversarial review. The Maier-Seligman CONTROLLABILITY MECHANISM (extractions 66/68/69, all work 32) is genuinely replicated full-text - contingency detection, the passivity-default inversion, and trans-situational immunization - and Whitehall II (159, longitudinal) provides independent population confirmation that low control causes coronary disease. However, those replicated items are all one synthesizing source-work (32); the PARAMETER's ancestral-subsistence framing ('effort-outcome links visible and physical in forager work') rests solely on the van Vugt mismatch synthesis (583/587, work 102, quality=theoretical). So the EEA-baseline claim itself is not replicated - the softer link is the bridge from lab/epidemiology to the ancestral baseline. 'longitudinal' honestly reflects that the strongest PARAMETER-LEVEL outcome evidence is the Whitehall II longitudinal finding, while the mechanism beneath it is replicated and the EEA mapping is theoretical. eea_value is null because contingency is qualitative, not a number.",
         "mechanism_codes": [
           "M2",
           "M6"
@@ -3449,14 +3444,14 @@
           {
             "extraction_id": 68,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "cross_species",
             "author_quote": null,
             "content": "Control is detected via vmPFC-DMS circuit, then vmPFC inhibits dorsal raphe. Two separable prelimbic cortex functions identified: (1) DETECT - a prelimbic-dorsomedial striatum (DMS) circuit detects contingency between response and outcome (the presence of control); (2) ACT - sepa"
           },
           {
             "extraction_id": 66,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "cross_species",
             "author_quote": null,
             "content": "Passivity is the default, not learned. The original learned helplessness theory got it backward. Passivity in response to prolonged aversive events is the unlearned default response, not a learned expectation of uncontrollability. The neural evidence shows that aversive shock per"
           },
@@ -3470,7 +3465,7 @@
           {
             "extraction_id": 69,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "cross_species",
             "author_quote": null,
             "content": "Experience of control produces lasting immunization via plasticity in vmPFC-DRN pathway. Prior escapable shock prevents passivity/anxiety from later inescapable shock even in completely different situations (trans-situational). This 'immunization' requires new protein synthesis i"
           },
@@ -3554,7 +3549,7 @@
         "resolution_unit": "Self-paced, resource-contingent, intermittently-bounded work time - the time ARCHITECTURE (when and how effort is scheduled and bounded), not a target number of daily hours.",
         "evidence_grade": "contested",
         "contested": true,
-        "confidence_note": "HARD-RULE row, fully compliant and UNCHANGED. The original-affluent-society debate is live: Sahlins/Lee vs Kaplan/Hawkes/Pontzer. eea_value is NULL and NO daily work-hour number is asserted anywhere. All three cited extractions are correctly tagged 'challenging' and support only the qualitative bounded claims (workloads modest/not backbreaking per 196; PAL only ~15% above desk per 197; constrained energetics itself contested per 200) - offered as context for why a clean hour-count cannot be stated, not as a measurement of work duration. Grade is the lowest applicable ('contested').",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Weight of evidence: once processing, travel and childcare are counted, forager work time is longer than the short-hours figures, while foragers still have more leisure than neighbouring farmers (Dyble et al. 2019); no single daily hour figure is supported.\n\nEarlier grading notes (rubric v1, kept for the record): HARD-RULE row, fully compliant and UNCHANGED. The original-affluent-society debate is live: Sahlins/Lee vs Kaplan/Hawkes/Pontzer. eea_value is NULL and NO daily work-hour number is asserted anywhere. All three cited extractions are correctly tagged 'challenging' and support only the qualitative bounded claims (workloads modest/not backbreaking per 196; PAL only ~15% above desk per 197; constrained energetics itself contested per 200) - offered as context for why a clean hour-count cannot be stated, not as a measurement of work duration. Grade is the lowest applicable ('contested').",
         "mechanism_codes": [
           "M10",
           "M2",
@@ -3569,7 +3564,7 @@
           {
             "extraction_id": 196,
             "evidence_role": "challenging",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
             "content": "Lieberman reports a Hadza heart-rate monitor study of 46 adults: the average adult spent about 3 h 40 min a day in light activity and 2 h 14 min in moderate or vigorous activity, which he puts at about twelve times the activity of the average American or European, and he writes t"
           },
@@ -3610,9 +3605,9 @@
         "modern_default": "A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.",
         "gap_statement": "The modern food environment collapses a seasonally varied, micronutrient-dense, whole-food omnivory into a year-round monotony of refined, energy-dense, nutrient-diluted products, removing both the variety and the whole-food matrix the metabolic and digestive systems were calibrated to.",
         "resolution_unit": "Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.",
-        "evidence_grade": "theoretical",
+        "evidence_grade": "contested",
         "contested": true,
-        "confidence_note": "VERIFIED. The DIRECTION of divergence (less processed, more micronutrient-dense, more varied ancestrally) is well-supported; ext 39 (corpus-clinical, primary) carries the clean nutrient-profile claim including the 34% vs 12% protein figures verbatim. The SPECIFIC reconstructed numbers and the seasonality claim rest on Paleolithic-nutrition reconstructions: ext 471 (quarantined, snippet-sourced) is the only seasonality anchor and is cited supporting-only, never load-bearing. Held theoretical + contested because the row's distinctive seasonality/variety claim rests on a quarantined source even though the core nutrient-profile claim is clinical. Confirmed all 3 cited ids exist and support their roles.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.\n\nEarlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION of divergence (less processed, more micronutrient-dense, more varied ancestrally) is well-supported; ext 39 (corpus-clinical, primary) carries the clean nutrient-profile claim including the 34% vs 12% protein figures verbatim. The SPECIFIC reconstructed numbers and the seasonality claim rest on Paleolithic-nutrition reconstructions: ext 471 (quarantined, snippet-sourced) is the only seasonality anchor and is cited supporting-only, never load-bearing. Held theoretical + contested because the row's distinctive seasonality/variety claim rests on a quarantined source even though the core nutrient-profile claim is clinical. Confirmed all 3 cited ids exist and support their roles.",
         "mechanism_codes": [
           "M13"
         ],
@@ -3623,7 +3618,7 @@
           {
             "extraction_id": 39,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "contested",
             "author_quote": null,
             "content": "Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di"
           },
@@ -3672,35 +3667,35 @@
           {
             "extraction_id": 39,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "contested",
             "author_quote": null,
             "content": "Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di"
           },
           {
             "extraction_id": 75,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "theoretical",
             "author_quote": null,
             "content": "Moss documents how the food industry systematically optimizes products for the \"bliss point\" - the precise concentration of sugar, fat, and salt that maximizes sensory pleasure and craving. Howard Moskowitz, a mathematician and experimental psychologist, built a consulting empire"
           },
           {
             "extraction_id": 439,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "theoretical",
             "author_quote": "To plot what industry insiders call the 'bliss point,' or the precise amount of sugar or fat or salt that will send consumers over the moon. At a laboratory in White Plains, New York, industry scientists who perform this alchemy walked me, step by step, through the process of engineering a new soda so that I could see the creation of bliss firsthand.",
             "content": "The food industry engineers bliss points - the precise amount of sugar, fat, or salt that sends consumers over the moon. Industry scientists mathematically optimize the hedonic response curve for each product, finding the exact concentration that maximizes craving. This is not ac"
           },
           {
             "extraction_id": 76,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "theoretical",
             "author_quote": null,
             "content": "Moss reveals through internal industry sources that food companies knowingly engineer products to exploit evolved taste preferences and are aware of the overconsumption consequences. At a secret 1999 meeting of eleven food industry CEOs, Pillsbury executive James Behnke confronte"
           },
           {
             "extraction_id": 440,
             "evidence_role": "supporting",
-            "evidence_quality": "clinical",
+            "evidence_quality": "theoretical",
             "author_quote": "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits.",
             "content": "Salt, sugar, and fat are the three pillars of processed food - the creators of crave. Each CEO needed them in huge quantities to turn products into hits. Officials discussed the power of foods to create cravings that overwhelm the best intentions of dieters. Industry-wide limits"
           }
@@ -3725,9 +3720,9 @@
         "modern_default": "Calories require essentially zero acquisition effort: hyperpalatable, energy-dense food is available on demand, pre-processed, often delivered, with no movement, foraging, or processing cost between impulse and ingestion. The effort gate that historically bounded intake is gone.",
         "gap_statement": "Removing the work between hunger and food eliminates a natural brake on consumption and decouples eating from the obligate daily movement it was bundled with - calories are now frictionless to obtain and detached from the physical activity that ancestrally accompanied acquisition.",
         "resolution_unit": "Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Daily distance/movement is solid; a specific subsistence work-HOURS number is contested and is not asserted here.",
-        "evidence_grade": "clinical",
+        "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed. Distances corrected 2026-11-04 (tier-2 quality flag, batch 7): the baseline now gives the GPS-measured Hadza means from Pontzer et al. 2012 (men 11.4 km/day, women 5.8 km/day); ext 196's 7-10 and 5 miles come from a trade book and overstate the women's figure.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Hadza daily distances are GPS-measured (Pontzer et al. 2012) and forager activity levels are compared across populations (Pontzer, Wood and Raichlen 2018); the distance figures are Hadza only.\n\nEarlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed. Distances corrected 2026-11-04 (tier-2 quality flag, batch 7): the baseline now gives the GPS-measured Hadza means from Pontzer et al. 2012 (men 11.4 km/day, women 5.8 km/day); ext 196's 7-10 and 5 miles come from a trade book and overstate the women's figure.",
         "mechanism_codes": [
           "M10",
           "M13"
@@ -3740,7 +3735,7 @@
           {
             "extraction_id": 196,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
             "content": "Lieberman reports a Hadza heart-rate monitor study of 46 adults: the average adult spent about 3 h 40 min a day in light activity and 2 h 14 min in moderate or vigorous activity, which he puts at about twelve times the activity of the average American or European, and he writes t"
           },
@@ -3797,21 +3792,21 @@
           {
             "extraction_id": 286,
             "evidence_role": "primary",
-            "evidence_quality": "clinical",
+            "evidence_quality": "thin",
             "author_quote": "As expected, physical activity level, PAL, was greater among Hadza foragers than among Westerners. Nonetheless, average daily energy expenditure of traditional Hadza foragers was no different than that of Westerners after controlling for body size. The metabolic cost of walking and resting were also similar among Hadza and Western groups. The similarity in metabolic rates across a broad range of cultures challenges current models of obesity suggesting that Western lifestyles lead to decreased energy expenditure.",
             "content": "The Pontzer 2012 Hadza-energetics finding: despite dramatically greater physical activity (Hadza PAL ~1.78-2.26 vs Western PAL ~1.68-1.81), Hadza hunter-gatherers expend no more total daily energy than Western adults after controlling for body size. The metabolic cost of walking"
           },
           {
             "extraction_id": 283,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "thin",
             "author_quote": "Here we tested a Constrained total energy expenditure model, in which total energy expenditure increases with physical activity at low activity levels but plateaus at higher activity levels as the body adapts to maintain total energy expenditure within a narrow range. We compared total energy expenditure, measured using doubly labeled water, against physical activity, measured using accelerometry, for a large (n = 332) sample of adults living in five populations. After adjusting for body size and composition, total energy expenditure was positively correlated with physical activity, but the relationship was markedly stronger over the lower range of physical activity. For subjects in the upper range of physical activity, total energy expenditure plateaued, supporting a Constrained total energy expenditure model.",
             "content": "The constrained total energy expenditure model: total daily energy expenditure (TEE) increases with physical activity at low activity levels but plateaus at higher levels as the body adapts metabolically to maintain TEE within a narrow range. Tested in a multi-population doubly-l"
           },
           {
             "extraction_id": 284,
             "evidence_role": "supporting",
-            "evidence_quality": "theoretical",
+            "evidence_quality": "replicated",
             "author_quote": "People in less socioeconomically developed populations, including subsistence farmers and traditional hunter-gatherers, have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Mammals living in the wild, including non-human primate species, have total energy expenditures similar to captive populations. These population-level comparisons suggest that total energy expenditure is an evolved, species-specific trait that is homeostatically buffered against variation in habitual physical activity.",
             "content": "Cross-population pattern: people in less socioeconomically developed populations - subsistence farmers and traditional hunter-gatherers - have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Non-human"
           },
@@ -3870,7 +3865,7 @@
           {
             "extraction_id": 130,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "cross_species",
             "author_quote": "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a threatening environment, these changes may be adaptive; but, if the danger passes and the behavioral state persists along with the changes in neural circuitry, such maladaptation may need intervention",
             "content": "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a t"
           },
@@ -3973,7 +3968,7 @@
           {
             "extraction_id": 469,
             "evidence_role": "primary",
-            "evidence_quality": "meta_analysis",
+            "evidence_quality": "theoretical",
             "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
             "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
           },
@@ -4018,9 +4013,9 @@
         "modern_default": "Most information now arrives through anonymous, algorithmically-mediated, or institutionally-impersonal channels in which the sender's identity, track record, and accountability to the receiver are absent or unverifiable. The shift Tomasello describes - from face-to-face 'I-you' exchange to impersonal 'we-as-group' broadcast - is taken to an extreme by mass and digital media, where signals are detached from any reputation-bearing source the receiver can sanction or even locate.",
         "gap_statement": "The evolved machinery for weighing information by source reputation and face-to-face accountability is deprived of the provenance cues it was calibrated to use. Receivers must evaluate high-stakes claims from sources they cannot place in any reputational web, and senders bear little reputational cost for deception - removing the gossip/ostracism feedback loop that ancestrally policed signal honesty.",
         "resolution_unit": "Proportion of consequential information arriving from a known, reputation-bearing, accountable source the receiver can locate and sanction - NOT raw access to information or number of contacts. A person can be flooded with information yet have almost none of it carry verifiable provenance.",
-        "evidence_grade": "contested",
+        "evidence_grade": "theoretical",
         "contested": true,
-        "confidence_note": "Speculative as a stand-alone EEA parameter. The underlying ethnography (forager information flow is gossip-borne and provenance-bound, Boehm/373) and the bonding requirement for face-to-face co-presence (Dunbar/509) are well-attested, but framing the modern anonymous-information channel as a distinct 'information_environment' mismatch is a theoretical extrapolation that overlaps heavily with social-structure (SOC-09 reputation) and M3 bonding parameters. Held at the lowest grade and eea_value=NULL because there is no clean ancestral metric for signal provenance. Mechanism codes retained: M11 (grounded by 373/250), M3 (grounded by 509, face-to-face co-presence), M5 (grounded by 373, reputational monitoring).",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from; the claim that nearly all of it came from known people is inferred from band size and gossip ethnography. No published evidence argues the other way.\n\nEarlier grading notes (rubric v1, kept for the record): Speculative as a stand-alone EEA parameter. The underlying ethnography (forager information flow is gossip-borne and provenance-bound, Boehm/373) and the bonding requirement for face-to-face co-presence (Dunbar/509) are well-attested, but framing the modern anonymous-information channel as a distinct 'information_environment' mismatch is a theoretical extrapolation that overlaps heavily with social-structure (SOC-09 reputation) and M3 bonding parameters. Held at the lowest grade and eea_value=NULL because there is no clean ancestral metric for signal provenance. Mechanism codes retained: M11 (grounded by 373/250), M3 (grounded by 509, face-to-face co-presence), M5 (grounded by 373, reputational monitoring).",
         "mechanism_codes": [
           "M11",
           "M3",
@@ -4066,9 +4061,9 @@
         "modern_default": "Reputation- and norm-bearing narrative now flows largely through impersonal mass and digital media to audiences who cannot reciprocally gossip about, sanction, or verify the subjects - and much of the daily information stream is impersonal content (commercial, abstract, broadcast) rather than locally-actionable talk about known persons and norms. The tight loop in which gossip simultaneously informed, judged, and deterred within a single accountable group is broken: reputational narrative is broadcast without the reciprocal accountability that made it self-policing.",
         "gap_statement": "The gossip/narrative channel that ancestrally fused information transmission with reputation tracking and norm enforcement is decoupled. People consume reputational narrative about strangers they cannot sanction, and the norm-deterrence function (knowing the group is watching and will talk) is weakened in anonymous or one-to-many settings - leaving the evolved appetite for reputational narrative engaged but its enforcement payload disabled.",
         "resolution_unit": "Reputation/norm narrative circulating within a bounded group where subjects and audience are mutually known and can reciprocally sanction - NOT raw volume of social content consumed. Doomscrolling celebrity gossip is high-volume but supplies almost no actionable, reciprocal reputational signal.",
-        "evidence_grade": "contested",
+        "evidence_grade": "replicated",
         "contested": true,
-        "confidence_note": "Speculative as an information_environment parameter and heavily overlapping with social-structure reputation (SOC-09) and M5 status. The forager gossip-as-norm-enforcement finding is robustly attested ethnographically (Boehm 373/375, both 'replicated' in-source; Henrich 121), but the claim that the MODERN information channel degrades this specific function is a mismatch interpretation, so the row is held at the lowest grade with eea_value=NULL. Distinct from EEA-INFO-01 in foregrounding the content (reputational/normative narrative) rather than the provenance of arbitrary signals. M3 was REMOVED from the draft mechanism set: none of the three cited extractions (373=M4/M5/M11, 375=M11/M4, 121=M11/M5) carry M3, and the row's content is about gossip/reputation/norm enforcement, not face-to-face bonding - M3 was unsupported here.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Gossip, ridicule and ostracism as norm enforcement are documented across forager ethnography (Boehm 1993, 1999; Wiessner 2014; Smith et al. 2017) and gossip deters selfishness in experiments (Feinberg et al. 2012). That modern channels weaken this function is the framework's reading, untested.\n\nEarlier grading notes (rubric v1, kept for the record): Speculative as an information_environment parameter and heavily overlapping with social-structure reputation (SOC-09) and M5 status. The forager gossip-as-norm-enforcement finding is robustly attested ethnographically (Boehm 373/375, both 'replicated' in-source; Henrich 121), but the claim that the MODERN information channel degrades this specific function is a mismatch interpretation, so the row is held at the lowest grade with eea_value=NULL. Distinct from EEA-INFO-01 in foregrounding the content (reputational/normative narrative) rather than the provenance of arbitrary signals. M3 was REMOVED from the draft mechanism set: none of the three cited extractions (373=M4/M5/M11, 375=M11/M4, 121=M11/M5) carry M3, and the row's content is about gossip/reputation/norm enforcement, not face-to-face bonding - M3 was unsupported here.",
         "mechanism_codes": [
           "M11",
           "M5"
@@ -4088,7 +4083,7 @@
           {
             "extraction_id": 375,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "theoretical",
             "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
             "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury,"
           },

@@ -376,6 +376,21 @@
       return (p.mechanism_codes || []).indexOf(code) !== -1;
     }));
   }
+  // Public evidence labels (GRADING-RUBRIC-v2.md, mapping table). The DB keeps its
+  // eight internal values; every page shows one of these five labels. One place,
+  // every page: never render a raw evidence_quality / evidence_grade value.
+  var PUBLIC_GRADE = {
+    replicated: "tested many times", meta_analysis: "tested many times",
+    longitudinal: "tested many times", clinical: "tested many times",
+    thin: "tested once", cross_species: "seen in animals",
+    theoretical: "argued, not yet tested", contested: "contested",
+  };
+  var PUBLIC_GRADE_ORDER = ["tested many times", "tested once", "seen in animals", "argued, not yet tested", "contested"];
+  function gradePublic(v) {
+    if (v == null || v === "") return "";
+    return PUBLIC_GRADE[v] || String(v).replace(/_/g, " ");
+  }
+
   // Grade distribution (live, from the rows) for the section legend.
   function eeaGradeCounts() {
     var out = {};
@@ -438,6 +453,8 @@
     eeaParameterByCode: eeaParameterByCode,
     eeaForMechanism: eeaForMechanism,
     eeaGradeCounts: eeaGradeCounts,
+    gradePublic: gradePublic,
+    PUBLIC_GRADE_ORDER: PUBLIC_GRADE_ORDER,
     hasTable: hasTable,
     evidenceCount: evidenceCount,
     gradientCount: gradientCount,

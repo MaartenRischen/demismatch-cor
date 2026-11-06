@@ -34,20 +34,24 @@
   };
   // Grade -> confidence tier (drives the badge colour class). Reuses Cor's own
   // evidence_quality vocab; never invents a grade.
+  // Keyed by PUBLIC label (GRADING-RUBRIC-v2.md); the raw value maps through
+  // CorData.gradePublic first, so the badge text and its colour always agree.
   var GRADE_TIER = {
-    replicated: "strong", meta_analysis: "strong",
-    longitudinal: "moderate", clinical: "moderate", cross_species: "moderate",
-    theoretical: "neutral",
-    thin: "weak", contested: "weak",
+    "tested many times": "strong",
+    "tested once": "moderate", "seen in animals": "moderate",
+    "argued, not yet tested": "neutral",
+    "contested": "weak",
   };
+  function label(g) { return D && D.gradePublic ? D.gradePublic(g) : String(g || ""); }
 
   function esc(s) { return D ? D.esc(s) : String(s == null ? "" : s); }
   function clean(s) { return D ? D.clean(s) : esc(s); }
   function cleanML(s) { return D ? D.cleanMultiline(s) : esc(s); }
 
   function gradeBadge(grade) {
-    var tier = GRADE_TIER[grade] || "neutral";
-    return '<span class="gap-grade gap-grade--' + esc(tier) + '" title="evidence grade (Cor evidence_quality vocab)">' + clean(grade) + "</span>";
+    var l = label(grade);
+    var tier = GRADE_TIER[l] || "neutral";
+    return '<span class="gap-grade gap-grade--' + esc(tier) + '" title="how well tested (Cor evidence label)">' + clean(l) + "</span>";
   }
 
   function mechChips(codes) {
@@ -76,7 +80,7 @@
     }
     var items = ev.map(function (e) {
       var meta = "ext#" + esc(e.extraction_id) +
-        (e.evidence_quality ? " &middot; " + clean(e.evidence_quality) : "") +
+        (e.evidence_quality ? " &middot; " + clean(label(e.evidence_quality)) : "") +
         (e.evidence_role ? " &middot; " + clean(e.evidence_role) : "");
       var quote = e.author_quote
         ? '<q class="gap-quote">' + clean(e.author_quote) + "</q>"
@@ -117,17 +121,18 @@
   }
 
   function honestyBanner() {
-    var counts = D.eeaGradeCounts ? D.eeaGradeCounts() : {};
-    var order = ["replicated", "meta_analysis", "longitudinal", "clinical", "cross_species", "theoretical", "thin", "contested"];
-    var legend = order.filter(function (g) { return counts[g]; }).map(function (g) {
-      return '<span class="gap-leg ' + "gap-grade--" + (GRADE_TIER[g] || "neutral") + '">' + esc(g) + " &middot; " + counts[g] + "</span>";
+    var raw = D.eeaGradeCounts ? D.eeaGradeCounts() : {};
+    var counts = {};
+    Object.keys(raw).forEach(function (g) { var l = label(g); counts[l] = (counts[l] || 0) + raw[g]; });
+    var order = D.PUBLIC_GRADE_ORDER || Object.keys(counts);
+    var legend = order.filter(function (l) { return counts[l]; }).map(function (l) {
+      return '<span class="gap-leg ' + "gap-grade--" + (GRADE_TIER[l] || "neutral") + '">' + esc(l) + " &middot; " + counts[l] + "</span>";
     }).join("");
     var banner =
-      "This layer holds EEA numbers <b>next to</b> the spec, not inside it. Grades are inherited from the " +
-      "evidence and reuse Cor's own vocabulary: <b>replicated</b> appears only twice. Mismatch interpretations " +
-      "stay <b>theoretical</b>; the original-affluent-society work-hours figure is <b>contested</b> with no number " +
-      "asserted; most of the information environment is held out. Exact figures from single forager populations " +
-      "are <b>illustrative, not constants</b>.";
+      "This layer holds EEA numbers <b>next to</b> the spec, not inside it. Each label says how well the " +
+      "ancestral figure was tested: <b>tested many times</b>, <b>tested once</b>, <b>seen in animals</b>, " +
+      "<b>argued, not yet tested</b> or <b>contested</b>. Most of the information environment is held out. " +
+      "Exact figures from single forager populations are <b>illustrative, not constants</b>.";
     return '<p class="gap-banner-txt">' + banner + "</p>" +
       (legend ? '<div class="gap-legend">' + legend + "</div>" : "");
   }

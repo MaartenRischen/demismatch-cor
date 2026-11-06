@@ -464,7 +464,7 @@
           chipRowLabeled("Bears on", r.mechanism_codes) +
           chipRowLabeled("Bears on", r.foundation_codes);
         var grade = r.evidence_quality
-          ? '<span class="ref-tag ref-tag-grade">' + esc(humanize(r.evidence_quality)) + "</span>"
+          ? '<span class="ref-tag ref-tag-grade">' + esc(D.gradePublic ? D.gradePublic(r.evidence_quality) : humanize(r.evidence_quality)) + "</span>"
           : "";
         return '<article class="ref-card">' +
           (grade ? '<div class="ref-card-top">' + grade + "</div>" : "") +
