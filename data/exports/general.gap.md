@@ -4,7 +4,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**33 parameters across 8 domains** (grades: tested many times 12, argued, not yet tested 11, contested 5, tested once 5; 10 carry a contested flag).
+**42 parameters across 8 domains** (grades: tested many times 15, argued, not yet tested 11, tested once 9, contested 7; 13 carry a contested flag).
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (contested · CONTESTED)
@@ -36,6 +36,30 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 **Leadership and dominance (no rulers; prestige by consent; exit available)** (contested · CONTESTED)
   - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
+
+**Status reference group (ranked against people who know you)** (tested once · CONTESTED)
+  - The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.
+
+**How standing is earned (prestige and dominance)** (contested · CONTESTED)
+  - In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.
+
+**What standing buys (children)** (tested many times)
+  - Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
+
+**Wealth gaps (low to moderate in foragers)** (tested many times)
+  - Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
+
+**Famous strangers (one-way bonds)** (tested once)
+  - The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
+
+**Size of "us" (the language group)** (tested once)
+  - The largest group a forager counted as 'us' held hundreds to a few thousand people, reachable on foot and linked by marriage. Modern 'us' groups are thousands of times larger and held together by labels and media.
+
+**Contact between groups (visiting and exchange alongside hostility)** (tested once)
+  - Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours. Modern intergroup ties rarely run through personal relationships.
+
+**What marks someone as "them" (alliance cues)** (tested many times)
+  - The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
 
 
 ### Care & development
@@ -117,6 +141,9 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 **Real-vs-perceived threat ratio and all-clear resolution** (argued, not yet tested)
   - The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
+
+**Killing between groups (frequency contested)** (contested · CONTESTED)
+  - The two headline numbers measure different things (share of all deaths in war, share of killings between groups) and cannot be averaged. A page can say lethal raids between groups occurred and were sometimes frequent; it cannot give one ancestral percentage.
 
 
 ### Information environment

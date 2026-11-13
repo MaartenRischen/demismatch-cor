@@ -27,6 +27,7 @@ ROOT_FILES=(
   "mindmap.html"
   "the-gap.html"
   "faq.html"
+  "objections.html"
   # redirect stubs for cut/legacy URLs (see CUTS.md in Cor Portal v2)
   "how-to-read.html"
   "methodology.html"

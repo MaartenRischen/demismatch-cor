@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-06 02:28 UTC, from the live Cor atlas snapshot built 2026-11-06 02:28 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-13 01:37 UTC, from the live Cor atlas snapshot built 2026-11-13 01:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 259 works, 845 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
 
 ---
 ## How to read this document
@@ -583,13 +583,13 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**33 parameters across 8 domains** (grades: tested many times 12, argued, not yet tested 11, contested 5, tested once 5; 10 carry a contested flag).
+**42 parameters across 8 domains** (grades: tested many times 15, argued, not yet tested 11, tested once 9, contested 7; 13 carry a contested flag).
 **Grade legend.**
 
-- **tested many times** (12): consistent results across independent groups or methods, or a meta-analysis of good studies
-- **tested once** (5): one good study, or one group's results, not yet repeated
+- **tested many times** (15): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested once** (9): one good study, or one group's results, not yet repeated
 - **argued, not yet tested** (11): a reasoned case with no direct test
-- **contested** (5): published evidence on both sides; the note says which way the weight leans
+- **contested** (7): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
@@ -602,7 +602,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 10
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 11
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -682,7 +682,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** The durable, spatially-dispersed reciprocal DYAD plus the maintenance institutions that conserve it across distance and time - i.e., a specific named partner whose bond is actively serviced (face-to-face when possible, and via hxaro-type delayed-reciprocity exchange when apart) so the relationship persists for decades and survives the reshuffling of any particular group. Conserved across the churn is the relationship, not the group; the resolution requires migrating a bond to an institution that keeps it alive once proximity ends, not merely accumulating more low-investment ties.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 5
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -697,7 +697,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.
 
-**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 3
+**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 5
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -710,7 +710,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 5
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -723,9 +723,107 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 4
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Status reference group (ranked against people who know you)
+`EEA-SOC-11 · Social structure` - **tested once** · **CONTESTED**
+
+**Ancestrally:** A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.
+
+**Now (modern default):** Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.
+
+**The gap to work with:** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.
+
+**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 10
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### How standing is earned (prestige and dominance)
+`EEA-SOC-12 · Social structure` - **contested** · **CONTESTED**
+
+**Ancestrally:** Two routes to rank exist: dominance, through fear, and prestige, through skill that others choose to defer to. In experiments with strangers both routes work. In small-scale societies prestige is the stronger route to leadership (Chabu, Tsimane), and in mobile foragers a leader's influence is informal, tied to the situation, and rests on others choosing to follow. Authority from skill stays inside the activity: Mbendjele BaYaka specialists are consulted on elephant hunting, healing or ritual and can oblige no one, and Tsimane fishing-trip organisers rotate across households and take no extra fish. Respect is different: where it was measured (one Tsimane village of 57 men, the Chabu), fighting ability, influence and respect sat with the same few men.
+
+**Now (modern default):** Standing is earned in large organisations and markets among people who mostly do not know each other, through titles, pay and audience size. Formal authority carries across domains: a manager commands in every part of the job, and wealth or fame buys influence outside the skill that earned it.
+
+**The gap to work with:** In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.
+
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### What standing buys (children)
+`EEA-SOC-13 · Social structure` - **tested many times**
+
+**Ancestrally:** Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had more surviving children in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.
+
+**Now (modern default):** In industrial societies the link between men's status and number of children is weak, and higher-status people often have fewer children. Professional status-seeking takes the time and money that children need.
+
+**The gap to work with:** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
+
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 5
+
+#### Wealth gaps (low to moderate in foragers)
+`EEA-SOC-14 · Social structure` - **tested many times**
+
+**Ancestrally:** Forager material inequality was low to moderate. Weighted wealth Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and inherited (21 small-scale populations). Across eleven kinds of forager wealth most Ginis fell between 0.2 and 0.5; the two material measures averaged 0.36. House sizes at 63 archaeological sites give the same order: median Gini 0.17 at hunter-gatherer sites, 0.35 at agricultural sites.
+
+**Now (modern default):** Wealth Gini coefficients in modern states are far higher: about 0.80 for the USA in 2000 and 0.73 for China, figures Kohler et al. cite from other studies. Among the Ju/'hoansi, 44 years of cash income produced large material differences even between neighbours.
+
+**The gap to work with:** Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
+
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 4
+
+#### Famous strangers (one-way bonds)
+`EEA-SOC-15 · Social structure` - **tested once**
+
+**Ancestrally:** Everyone a forager knew of could be met. The lifetime pool of individually known people was about 1,000, and the people one heard about in stories were part of the same regional network, tied to people one knew. A person you saw and heard often knew you back.
+
+**Now (modern default):** Media supply one-way bonds with people who do not know you exist. In a quota sample of 2,028 Hungarian adults, 39% had a favourite celebrity, and on the authors' scale 4.5% of adults and 8.5% of 18 to 34 year olds had a high level of admiration. Of 151 US early adolescents, 61% thought of their favourite media figure as a relationship partner: girls mostly as a friend, boys more often as a mentor.
+
+**The gap to work with:** The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
+
+**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 4
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Size of "us" (the language group)
+`EEA-SOC-16 · Social structure` - **tested once**
+
+**Ancestrally:** A forager lived in a camp of a few dozen inside a wider group that shared a language and intermarried. Across 339 forager societies the regional ethnic unit had a geometric mean of about 840 people, with a wide spread (one standard deviation on the log scale runs from roughly 240 to 2,900). In 2012 the Eastern Hadza numbered about 950 people in 49 named bands sharing one language; the Ache tribe was defined by one language, had no tribe-wide leaders, and never gathered as a whole.
+
+**Now (modern default):** People identify with nations, parties, religions and fan bases of millions, most of whose members they will never meet.
+
+**The gap to work with:** The largest group a forager counted as 'us' held hundreds to a few thousand people, reachable on foot and linked by marriage. Modern 'us' groups are thousands of times larger and held together by labels and media.
+
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Contact between groups (visiting and exchange alongside hostility)
+`EEA-SOC-17 · Social structure` - **tested once**
+
+**Ancestrally:** Forager bands were linked. Among the Hadza and Ache, adults who were in-laws or ritual partners interacted across bands more often, and in-law ties mattered about as much as blood ties. In 1974 each Ju/'hoansi adult kept about 15 gift-exchange partners living 2 to 200 km away and spent on average 4.4 months a year living with them. Humans form peaceful ties between groups, which chimpanzees do not. Hostility was also part of the record: the Ache and Hadza had hostile relations with neighbouring ethnic groups and no long-distance trade, and in 20 of 21 mobile forager societies about 15% of recorded killings were between groups.
+
+**Now (modern default):** Contact between large groups runs through trade, media and institutions; most members of two groups never meet, marry or visit each other.
+
+**The gap to work with:** Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours. Modern intergroup ties rarely run through personal relationships.
+
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### What marks someone as "them" (alliance cues)
+`EEA-SOC-19 · Social structure` - **tested many times**
+
+**Ancestrally:** Foragers marked groups by language, dialect, ritual and marriage ties, and rarely met people genetically distant enough to look like another race. The tested part: the mind sorts people by alliance, and the sorting can be redrawn within minutes. When team membership cut across race, US participants sorted people by race less (a preregistered replication with 463 people found the drop at a smaller size; race was not erased). Arbitrary labels produce favouritism toward one's own group; a meta-analysis of cooperation experiments gives d 0.32, larger when outcomes depend on each other, and driven more by favouring 'us' than by harming 'them'.
+
+**Now (modern default):** Large labelled groups (parties, nations, teams) supply alliance cues without any shared life. In the US, the gap between feelings toward one's own and the other party grew from 22.64 to 40.87 points on a 0 to 100 scale between 1978 and 2016, driven by colder feelings toward the other side. The rise is not general: across 12 OECD democracies six saw it fall. Posts about the political out-group are shared more (each out-group word about 67% higher odds, US media and Congress). Sports fans claim a team's win as their own and say 'we' twice as often after a win.
+
+**The gap to work with:** The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
+
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 11
 
 
 ### Care & development
@@ -782,7 +880,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.
 
-**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 4
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 5
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1044,6 +1142,19 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
+#### Killing between groups (frequency contested)
+`EEA-THREAT-04 · Threat & safety` - **contested** · **CONTESTED**
+
+**Ancestrally:** Lethal raids between groups occurred among foragers, and in some populations they were frequent. How often they happened among mobile Pleistocene foragers is not settled. Bowles compiled 23 sources and found war deaths averaged 14% of all deaths (archaeological 12%, ethnographic 16%; single sites 0% to 46%), in samples that include sedentary and contact-period groups. Fry and Soderberg found that in 21 mobile forager band societies most of 148 recorded killings had one killer and one victim; about a third were between groups, but 38 of those 50 came from one society, the Tiwi, and in the other 20 societies about 15% were. A phylogenetic estimate puts all killing by other humans at about 2% of deaths.
+
+**Now (modern default):** Killing between groups is done by states with armies, and most people never take part in or see it. Group conflict reaches most people as news and political talk.
+
+**The gap to work with:** The two headline numbers measure different things (share of all deaths in war, share of killings between groups) and cannot be averaged. A page can say lethal raids between groups occurred and were sometimes frequent; it cannot give one ancestral percentage.
+
+**Serves:** M1 - Threat Management, M11 - Cooperation / Alliance  ·  evidence links: 5
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
 
 ### Information environment
 
@@ -1082,4 +1193,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-06 02:28 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-06 02:28 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-13 01:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-13 01:37 UTC.*

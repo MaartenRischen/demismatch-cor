@@ -171,7 +171,8 @@
       links: [
         { label: "The Optimizer Without a Target", href: "bridge-paper.html" },
         { label: "Constitutional",  href: "constitutional.html" },
-        { label: "Research Programme", href: "programme.html" }
+        { label: "Research Programme", href: "programme.html" },
+        { label: "Objections", href: "objections.html" }
       ]
     }
   ];

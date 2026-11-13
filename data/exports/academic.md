@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-06 02:28 UTC, from the live Cor atlas snapshot built 2026-11-06 02:28 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-13 01:37 UTC, from the live Cor atlas snapshot built 2026-11-13 01:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 159 works, 658 extractions, 84 researchers. Plus **The Gap**: 33 EEA baseline parameters across 8 domains (10 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 259 works, 845 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
 
 ---
 ## How to read this document
@@ -512,13 +512,13 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**33 parameters across 8 domains** (grades: tested many times 12, argued, not yet tested 11, contested 5, tested once 5; 10 carry a contested flag).
+**42 parameters across 8 domains** (grades: tested many times 15, argued, not yet tested 11, tested once 9, contested 7; 13 carry a contested flag).
 **Grade legend.**
 
-- **tested many times** (12): consistent results across independent groups or methods, or a meta-analysis of good studies
-- **tested once** (5): one good study, or one group's results, not yet repeated
+- **tested many times** (15): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested once** (9): one good study, or one group's results, not yet repeated
 - **argued, not yet tested** (11): a reasoned case with no direct test
-- **contested** (5): published evidence on both sides; the note says which way the weight leans
+- **contested** (7): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
@@ -542,14 +542,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring
 
-**Evidence (10 links):**
+**Evidence (11 links):**
 
 - ext#404 · tested many times · primary: "The innermost group consists of about three to five people."
 - ext#490 · tested many times · primary: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#25 · contested · primary: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
 - ext#483 · seen in animals · supporting: "Group size is found to be a function of relative neocortical volume, but the ecological variables are not. This is interpreted as evidence in favour of the social intellect theory and against the ecological theories."
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
-- (+5 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Layered personal networks scaling by about 3 hold up in modern network data, much of it from Dunbar's group, while the 150 derivation fails re-analysis (Lindenfors, Wartel and Lind 2021) and forager groups are fluid (Bird et al. 2019). Weight of evidence: the layering holds; the exact layer sizes and the 150 ceiling are disputed, so treat them as approximate.
 
@@ -723,13 +723,14 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 
-**Evidence (5 links):**
+**Evidence (6 links):**
 
 - ext#509 · argued, not yet tested · primary: "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances."
 - ext#510 · tested once · supporting: "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact."
 - ext#503 · argued, not yet tested · supporting: "At each layer, the benefits are asymptotic but the costs of maintaining a relationship at that level (most obviously, the time that has to be invested in servicing it) are roughly linear with the number of relationships."
 - ext#505 · argued, not yet tested · supporting: "psychologically, these trade-offs are related to the level of trust in a relationship, and that this is itself a function of the time invested in the relationship."
 - ext#479 · argued, not yet tested · supporting: Trivers identifies conditions maximizing the chance reciprocal altruism will be selected for: (1) many altruistic situations in the lifetime of the altruists, (2) a given altruist repeatedly interacts with the same small set of individuals, and (3) pairs of altruists are exposed
+- (+1 more linked extraction(s))
 
 *Confidence note: Mixed and honestly LOW. The headline EEA numbers for this parameter (~27-yr co-survival ceiling; hxaro childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) come from Wiessner 2002 (Evolution and Human Behavior 23:407-436, DOI 10.1016/S1090-5138(02)00096-X), which is NOT in Cor and whose full text could not be legitimately obtained (paywalled Elsevier; retrieval returned is_fulltext=false with zero verbatim quotes; snippet figures were rejected per R2). The reshuffle figures trace to Smith et al. 2018 (Hadza; in Cor as core work 116, extractions 602-605; camps shift every ~4-8 weeks). Its repeated-campmates proportion is unverified (preprint v1 12.1%, v2 21.9%, different definitions, waves 1 to 3 years apart, published figure unread), so no turnover number is used here. So NO extraction id is cited for any specific ancestral number here; those values are flagged ILLUSTRATIVE / full-text-pending. The evidence that IS cited grounds only the general durability-and-maintenance logic and the modern-side decay, from genuine full-text-backed Cor extractions: 509 and 510 (Dunbar 2016, rsos.150292 - face-to-face contact required to prevent friendship decay; media only slows decay), 503 and 505 (Sutcliffe, Dunbar, Binder & Arrow 2012 - maintenance cost is time-linear; trust is a function of time invested), and 479 (Trivers 1971 - reciprocal altruism requires long lifetime, low dispersal, repeated interaction with the same small set; author_quote intentionally absent/None per its remediation, so no verbatim quote is attributed). Grade held at 'thin' because the parameter-defining ancestral figures are unverified and the cited extractions address the why/modern-half rather than the EEA co-survival/hxaro specifics. Not 'replicated' despite some cited extractions being individually replicated, because they do not converge on this parameter's ancestral claims. Turnover figure corrected 2026-11-04 (tier-2 quality flag, batch 5).*
 
@@ -746,11 +747,13 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 
 **Serves mechanisms:** M1 - Threat Management, M3 - Social Bonding
 
-**Evidence (3 links):**
+**Evidence (5 links):**
 
 - ext#490 · tested many times · supporting: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
 - ext#383 · seen in animals · supporting: "Attacks from conspecifics (both infanticide and deaths due to lethal raids by bands of males from neighboring groups) are major sources of mortality."
+- ext#673 · contested · supporting: "the estimated level of mortality in intergroup conflicts would have had substantial effects, allowing the proliferation of group-beneficial behaviors that were quite costly to the individual altruist"
+- ext#674 · contested · challenging: "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman."
 
 *Confidence note: Pure inference: no Cor extraction and no full-text retrieval quote directly measures or states an ancestral novel-stranger frequency, so eea_value is null and the grade is theoretical. The premise the inference rests on - a bounded, personally-known reference pool capped near ~150 and nested in ~5/15/50/150 layers - IS full-text-grounded via Dunbar's social-brain work: extraction 490 (work 69, DOI 10.1002/(SICI)1520-6505(1998)6:5<178::AID-EVAN5>3.0.CO;2-8; R1 satisfied) on familiarity-based layer clustering, and extraction 485 (work 68, DOI 10.1016/0047-2484(92)90081-J; R1 satisfied) on the neocortical limit to simultaneously-monitorable relationships. Both are cited as SUPPORTING (premise), not primary, because they bound the known pool but do not themselves count strangers. The complementary M1 claim that unfamiliarity functions as an innate danger cue is most directly stated by Bowlby (Attachment and Loss Vol. 2), but that work (id 98) has no DOI/PMID, is not in the physical collection, and its extraction (574) records the book was not directly accessed and carries no verbatim quote (author_quote=None) - it fails R1 and R2 and is deliberately NOT cited; the stranger-as-threat link is full-text-pending. Tomasello extractions 238/250 on cooperation with 'in-group strangers' were considered and rejected as cutting against, not supporting, the rare-stranger-as-threat framing. Not contested as an inference within the framework; it is simply unmeasured. ADDED 2026-11-02: core extraction 383 (Hrdy 2009: lethal raids by males from neighboring groups are a major source of chimpanzee mortality) linked as supporting evidence for the stranger-as-threat side; it is cross-species and does not measure ancestral human stranger frequency, so the grade stays theoretical.*
 
@@ -773,13 +776,14 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
 
-**Evidence (5 links):**
+**Evidence (7 links):**
 
 - ext#373 · tested many times · primary: "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function."
 - ext#375 · argued, not yet tested · primary: "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism."
 - ext#239 · argued, not yet tested · supporting: "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully."
 - ext#508 · tested once · challenging: "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%."
 - ext#509 · argued, not yet tested · challenging: "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances."
+- (+2 more linked extraction(s))
 
 *Confidence note: EEA-baseline side is full-text-grounded and convergent across two works in Cor's physical collection: Boehm 1999 'Hierarchy in the Forest' (ext 373 'the band keeps a dossier on every individual, noting positive and negative points'; ext 375 gossip/ridicule/ostracism as enforcement; both graded 'replicated' in Cor) and Tomasello 2014 (ext 239, bidirectional evaluation of collaborative partners; verbatim full-text quote, M11/M5). The ~150 reputational reference-group ceiling is full-text-grounded in Cor via the Dunbar works. Modern-decay side is grounded in Dunbar 2016 (Royal Society Open Science 3:150292): ext 508 (only 27.6% of Facebook friends genuine, modal 0-10%) and ext 509 (face-to-face required to prevent friendship decay through the layers), both 'replicated'. Despite the individual extractions being 'replicated'-graded, the PARAMETER is graded 'theoretical' because the specific EEA-SOC-09 claim (ancestral observability near-total/embodied/high-accountability vs modern visibility mediated/gameable/low-accountability) is an interpretive mismatch synthesis, not a single replicated measured quantity, and the 'near-total observability' baseline is qualitative. Deliberately EXCLUDED: ext 506/507 (about layer SIZES and concurrent-interaction limits, not observability) and ext 480 (QUARANTINED, snippet-sourced). The camp-shuffle/hxaro specifics and the Apicella reciprocity figures failed full-text retrieval (R2) or belong to other parameters and are NOT linked here. contested=false: reputational monitoring in small-scale societies is ethnographically well-established and uncontested; only the modern-mismatch framing is interpretive, which the 'theoretical' grade already encodes.*
 
@@ -794,16 +798,232 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
 
-**Evidence (4 links):**
+**Evidence (7 links):**
 
 - ext#20 · argued, not yet tested · primary: "egalitarianism involves a very special type of hierarchy, a curious type that is based on antihierarchical feelings"
 - ext#21 · argued, not yet tested · primary: "it takes some effort to keep the political tables turned"
 - ext#372 · tested many times · primary: "The most frequent type of power coalition in egalitarian bands consists of the entire adult community coalescing against a deviant. In addition to the proscription of bullying by upstarts, all foragers are opposed to incest, murder within the group, and undue selfish use of deception."
 - ext#374 · argued, not yet tested · supporting: "I proposed that leveling mechanisms may be necessary because, as with chimpanzees, underlying dominance and submission tendencies facilitate competition among individuals and constitute a powerful force for hierarchy in group life."
+- ext#848 · tested once · primary: "Individuals who hunt a lot will become a target for teasing and mockery, even cursing, if people perceive that the group is eating their production too often."
+- (+2 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993; Garfield, von Rueden and Hagen 2019), while Singh and Glowacki 2022 find many non-agricultural peoples sedentary and stratified. Weight of evidence: the description holds for mobile foragers; how representative they were of the ancestral past is disputed.
 
-Earlier grading notes (rubric v1, kept for the record): Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.*
+Earlier grading notes (rubric v1, kept for the record): Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.
+
+Added 11 Nov 2026 (mating/status dispatch), grade unchanged: Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848, now read in full). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.*
+
+#### Status reference group (ranked against people who know you)
+`EEA-SOC-11 · Social structure` - **tested once** · **CONTESTED**
+
+**EEA baseline.** A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.
+
+**EEA value** (illustrative, not constants):
+
+  - camp_size: about 30 (Hadza, ext 603)
+  - lifetime_known_pool: about 1,000 (Ache, Hadza, ext 606-608)
+  - shame_own_vs_other_community_r: 0.84 vs 0.69 (15 small-scale communities, ext 722)
+
+**Modern default.** Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.
+
+**The gap.** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.
+
+**Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
+
+**Evidence (10 links):**
+
+- ext#722 · tested many times · primary: "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84."
+- ext#721 · tested many times · supporting: "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67"
+- ext#1042 · tested once · primary: "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly."
+- ext#603 · tested once · supporting: "The Hadza live in temporary camps that average about 30 individuals."
+- ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
+- (+5 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Contested on the modern side: social media effect sizes are small (ext 103, 104) and near zero in time-use diaries (ext 102).*
+
+#### How standing is earned (prestige and dominance)
+`EEA-SOC-12 · Social structure` - **contested** · **CONTESTED**
+
+**EEA baseline.** Two routes to rank exist: dominance, through fear, and prestige, through skill that others choose to defer to. In experiments with strangers both routes work. In small-scale societies prestige is the stronger route to leadership (Chabu, Tsimane), and in mobile foragers a leader's influence is informal, tied to the situation, and rests on others choosing to follow. Authority from skill stays inside the activity: Mbendjele BaYaka specialists are consulted on elephant hunting, healing or ritual and can oblige no one, and Tsimane fishing-trip organisers rotate across households and take no extra fish. Respect is different: where it was measured (one Tsimane village of 57 men, the Chabu), fighting ability, influence and respect sat with the same few men.
+
+**EEA value** (illustrative, not constants):
+
+  - tsimane_task_leaders: only 7 of 31 regular households never organised a fishing trip (von Rueden et al. 2014)
+  - tsimane_hunting_skill_respect_r: 0.47 (ext from von Rueden et al. 2008)
+
+**Modern default.** Standing is earned in large organisations and markets among people who mostly do not know each other, through titles, pay and audience size. Formal authority carries across domains: a manager commands in every part of the job, and wealth or fame buys influence outside the skill that earned it.
+
+**The gap.** In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
+
+**Evidence (7 links):**
+
+- ext#622 · tested many times · primary: "The finding that Dominance and Prestige can coexist within social groups as viable rank-promoting strategies suggests that human social hierarchies are multidimensional."
+- ext#623 · tested once · primary: "Prestigious but not dominant men marry wives who first give birth at earlier ages, which multivariate analysis suggests is the strongest pathway between status and fitness in this population."
+- ext#624 · tested once · primary: "Measures of prestige and dominance were largely independent, and although both predicted leader status, prestige was more important."
+- ext#1035 · tested once · primary: "But they have no ability to oblige anyone to do as they suggest, no recognition beyond this activity, and no privilege or lasting benefits from the role."
+- ext#1038 · tested once · supporting: "Whereas most individuals may at some point expect to organize a barbasco event, few individuals ever become corregidor."
+- (+2 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): contested. The two-routes finding is tested many times (Cheng et al. 2013, ext 622; von Rueden et al. 2011, ext 623; Garfield and Hagen 2020, ext 624). The 'authority stays inside the activity' clause holds for command in Mbendjele BaYaka ethnography (Lewis 2014) and Tsimane task leadership (von Rueden et al. 2014) and fails for respect in a Tsimane village (von Rueden et al. 2008) and among the Chabu (ext 624). Lean: holds for command, fails for respect. Both quantitative counter-samples are semi-sedentary, which leaves room for mobile bands to differ. The modern side is described, not measured here. Background-tier evidence cited (abstract or book only): ext 689, 732.*
+
+#### What standing buys (children)
+`EEA-SOC-13 · Social structure` - **tested many times**
+
+**EEA baseline.** Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had more surviving children in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.
+
+**EEA value** (illustrative, not constants):
+
+  - forager_Zr: 0.18
+  - status_rs_r: 0.19 (33 societies, men)
+  - nonhuman_primate_r: 0.8
+
+**Modern default.** In industrial societies the link between men's status and number of children is weak, and higher-status people often have fewer children. Professional status-seeking takes the time and money that children need.
+
+**The gap.** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
+
+**Evidence (5 links):**
+
+- ext#731 · tested many times · primary: "Contra the egalitarianism hypothesis, the effect of status on men’s RS does not differ significantly by subsistence type"
+- ext#1033 · tested many times · primary: "The effect of status on number of surviving offspring, the RS measure that most closely corresponds to biological fitness, is roughly a third smaller in monogamous populations"
+- ext#623 · tested once · supporting: "Prestigious but not dominant men marry wives who first give birth at earlier ages, which multivariate analysis suggests is the strongest pathway between status and fitness in this population."
+- ext#410 · argued, not yet tested · supporting: "You are engaged in maladaptive behavior right now."
+- ext#892 · tested once · challenging: "Among nonelders, raiding was not associated with an increased number of wives or children."
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Counter-evidence: among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2018, doi:10.1007/s12110-018-9334-2, cited in ext 731, not yet a Cor work); among the Waorani and Nyangatom, frequent raiders did not have more wives or children (ext 897, 892). The modern reversal is argued (ext 410), not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.*
+
+#### Wealth gaps (low to moderate in foragers)
+`EEA-SOC-14 · Social structure` - **tested many times**
+
+**EEA baseline.** Forager material inequality was low to moderate. Weighted wealth Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and inherited (21 small-scale populations). Across eleven kinds of forager wealth most Ginis fell between 0.2 and 0.5; the two material measures averaged 0.36. House sizes at 63 archaeological sites give the same order: median Gini 0.17 at hunter-gatherer sites, 0.35 at agricultural sites.
+
+**EEA value** (illustrative, not constants):
+
+  - pastoralist: 0.42
+  - agriculturalist: 0.48
+  - horticulturalist: 0.27
+  - hunter_gatherer_wealth_gini: 0.25
+  - hunter_gatherer_house_size_gini_median: 0.17
+
+**Modern default.** Wealth Gini coefficients in modern states are far higher: about 0.80 for the USA in 2000 and 0.73 for China, figures Kohler et al. cite from other studies. Among the Ju/'hoansi, 44 years of cash income produced large material differences even between neighbours.
+
+**The gap.** Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
+
+**Evidence (4 links):**
+
+- ext#1039 · tested many times · primary: "hunter-gatherer and horticultural populations are both quite egalitarian, while pastoral and agricultural societies are characterized by substantial wealth inequality"
+- ext#1040 · tested many times · primary: "Thus, to the extent that our measures for this set of foragers are representative, wealth inequality is moderate"
+- ext#1041 · tested once · primary: "As expected, the hunter-gatherers in this sample exhibit low Gini indices (wealth differences) using the house-size proxy (median = 0.17)"
+- ext#1034 · tested once · supporting: "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist."
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis are secondary (cited inside Kohler et al.); the primary source, Davies et al. 2011, was not read. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.*
+
+#### Famous strangers (one-way bonds)
+`EEA-SOC-15 · Social structure` - **tested once**
+
+**EEA baseline.** Everyone a forager knew of could be met. The lifetime pool of individually known people was about 1,000, and the people one heard about in stories were part of the same regional network, tied to people one knew. A person you saw and heard often knew you back.
+
+**EEA value** (illustrative, not constants):
+
+  - lifetime_known_pool: about 1,000 (ext 606-608)
+
+**Modern default.** Media supply one-way bonds with people who do not know you exist. In a quota sample of 2,028 Hungarian adults, 39% had a favourite celebrity, and on the authors' scale 4.5% of adults and 8.5% of 18 to 34 year olds had a high level of admiration. Of 151 US early adolescents, 61% thought of their favourite media figure as a relationship partner: girls mostly as a friend, boys more often as a mentor.
+
+**The gap.** The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
+
+**Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
+
+**Evidence (4 links):**
+
+- ext#608 · tested once · primary: "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions"
+- ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
+- ext#1044 · tested once · primary: "Of the 2,028 individuals, 800 participants reported having a favorite celebrity (39%) after reading general definition of a favorite celebrity."
+- ext#1043 · tested once · primary: "Most adolescents (61.1%) thought of their favorite media figures as relationship partners"
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Background-tier evidence cited (abstract or book only): ext 1045.*
+
+#### Size of "us" (the language group)
+`EEA-SOC-16 · Social structure` - **tested once**
+
+**EEA baseline.** A forager lived in a camp of a few dozen inside a wider group that shared a language and intermarried. Across 339 forager societies the regional ethnic unit had a geometric mean of about 840 people, with a wide spread (one standard deviation on the log scale runs from roughly 240 to 2,900). In 2012 the Eastern Hadza numbered about 950 people in 49 named bands sharing one language; the Ache tribe was defined by one language, had no tribe-wide leaders, and never gathered as a whole.
+
+**EEA value** (illustrative, not constants):
+
+  - lower_levels: family 4.5, dispersed group 15.6, aggregated camp 54, periodic gathering 165 (Hamilton et al. 2007)
+  - eastern_hadza_2012: 950
+  - regional_unit_95pct_limits: 736 to 954
+  - regional_unit_geometric_mean: 840
+
+**Modern default.** People identify with nations, parties, religions and fan bases of millions, most of whose members they will never meet.
+
+**The gap.** The largest group a forager counted as 'us' held hundreds to a few thousand people, reachable on foot and linked by marriage. Modern 'us' groups are thousands of times larger and held together by labels and media.
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
+
+**Evidence (4 links):**
+
+- ext#1048 · tested once · primary: "The geometric mean of group sizes varied from 4.5 individuals per family to populations of about 840 individuals."
+- ext#685 · contested · supporting: "We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4."
+- ext#1049 · tested once · primary: "During the 2012 interview period, the Eastern Hadza consisted of approximately 950 individuals living in 49 named bands."
+- ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Hamilton et al. 2007 (Binford's compilation, 339 societies); one coding of what counts as a regional population, and 216 of 339 societies are North American. Hill et al. 2014 adds two populations. The nested shape is better supported than the exact size of the outer unit (EEA-SOC-01). Background-tier evidence cited (abstract or book only): ext 684, 754.*
+
+#### Contact between groups (visiting and exchange alongside hostility)
+`EEA-SOC-17 · Social structure` - **tested once**
+
+**EEA baseline.** Forager bands were linked. Among the Hadza and Ache, adults who were in-laws or ritual partners interacted across bands more often, and in-law ties mattered about as much as blood ties. In 1974 each Ju/'hoansi adult kept about 15 gift-exchange partners living 2 to 200 km away and spent on average 4.4 months a year living with them. Humans form peaceful ties between groups, which chimpanzees do not. Hostility was also part of the record: the Ache and Hadza had hostile relations with neighbouring ethnic groups and no long-distance trade, and in 20 of 21 mobile forager societies about 15% of recorded killings were between groups.
+
+**EEA value** (illustrative, not constants):
+
+  - juhoansi_hxaro_partners: 15
+  - juhoansi_months_with_partners: 4.4
+
+**Modern default.** Contact between large groups runs through trade, media and institutions; most members of two groups never meet, marry or visit each other.
+
+**The gap.** Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours. Modern intergroup ties rarely run through personal relationships.
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
+
+**Evidence (4 links):**
+
+- ext#1050 · tested once · primary: "First, both study populations are small and encapsulated, with hostile relations with neighbors."
+- ext#752 · tested once · primary: "In 1974, both men and women maintained an average of 15 partnerships with consanguineous kin who lived between 2 and 200 km away"
+- ext#691 · argued, not yet tested · supporting: "Arranged marriages are inferred to go back at least to first modern human migrations out of Africa. Reconstructions are equivocal on whether or not earlier human marriages were arranged because several African hunter-gatherers have courtship marriages"
+- ext#1047 · contested · challenging: "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone"
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once per population. Contact between bands within one language group is documented in several populations (Hill et al. 2014; Wiessner and Huang 2022, ext 752). Cor has no measured rate of marriage or trade between different language groups. Hill et al. 2014 warn that their two populations understate contact because both had hostile neighbours. Background-tier evidence cited (abstract or book only): ext 672.*
+
+#### What marks someone as "them" (alliance cues)
+`EEA-SOC-19 · Social structure` - **tested many times**
+
+**EEA baseline.** Foragers marked groups by language, dialect, ritual and marriage ties, and rarely met people genetically distant enough to look like another race. The tested part: the mind sorts people by alliance, and the sorting can be redrawn within minutes. When team membership cut across race, US participants sorted people by race less (a preregistered replication with 463 people found the drop at a smaller size; race was not erased). Arbitrary labels produce favouritism toward one's own group; a meta-analysis of cooperation experiments gives d 0.32, larger when outcomes depend on each other, and driven more by favouring 'us' than by harming 'them'.
+
+**EEA value** (illustrative, not constants):
+
+  - ingroup_favouritism_d: 0.32 overall; 0.19 bare labels; 0.42 interdependent (Balliet et al. 2014)
+
+**Modern default.** Large labelled groups (parties, nations, teams) supply alliance cues without any shared life. In the US, the gap between feelings toward one's own and the other party grew from 22.64 to 40.87 points on a 0 to 100 scale between 1978 and 2016, driven by colder feelings toward the other side. The rise is not general: across 12 OECD democracies six saw it fall. Posts about the political out-group are shared more (each out-group word about 67% higher odds, US media and Congress). Sports fans claim a team's win as their own and say 'we' twice as often after a win.
+
+**The gap.** The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
+
+**Evidence (11 links):**
+
+- ext#1051 · tested many times · primary: "when cues of coalitional affiliation no longer track or correspond to race, subjects markedly reduce the extent to which they categorize others by race, and indeed may cease doing so entirely"
+- ext#1054 · tested many times · primary: "We did not, however, find support for the thesis that the encoding of race is entirely erased in a coalitional context."
+- ext#1053 · tested once · supporting: "Common enemies are not necessary to erase important social boundaries; peaceful cooperation can have the same effect."
+- ext#1052 · argued, not yet tested · supporting: "ancestral hunter-gatherers traveled primarily by foot and, consequently, residential moves of greater than 40 miles would have been rare"
+- ext#1059 · tested many times · supporting: "this measure shows a significant increase in affective polarization since 1980, rising from 22.64 degrees in 1978 to 40.87 degrees in 2016"
+- (+6 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'us and them are drawn from alliance cues and can be redrawn' (Kurzban et al. 2001; Voorspoels et al. 2014 preregistered replication; Pietraszewski et al. 2014; Balliet et al. 2014 meta-analysis). Every sample is modern, mostly students; which cues foragers used is argued (Kurzban et al. 2001), not tested. Modern side: US affective polarization tested many times (Iyengar et al. 2019) and not general across countries (ext 682); out-group sharing tested once (Rathje et al. 2021); moral contagion contested; exposure to the other side moved US Republicans further right in one field experiment (Bail et al. 2018), measured as ideology. Background-tier evidence cited (abstract or book only): ext 1055, 1056, 1057, 682, 1066, 679, 681, 890, 798.*
 
 
 ### Care & development
@@ -905,12 +1125,13 @@ Earlier grading notes (rubric v1, kept for the record): DOWNGRADED honestly and 
 
 **Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting
 
-**Evidence (4 links):**
+**Evidence (5 links):**
 
 - ext#203 · argued, not yet tested · primary: "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity."
 - ext#401 · argued, not yet tested · supporting: "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule."
 - ext#274 · argued, not yet tested · supporting: "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species."
 - ext#403 · argued, not yet tested · supporting: "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times."
+- ext#710 · tested many times · supporting: "No children in any forager society produced as much as they consumed until they reached their mid- to late teens."
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.
 
@@ -1421,6 +1642,33 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in fu
 
 *Confidence note: Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect. Note: prose previously referenced ids 339/444 in passing; only ids actually in the evidence array (331, 469, 308, 565, 125, 461) are load-bearing and all are verified.*
 
+#### Killing between groups (frequency contested)
+`EEA-THREAT-04 · Threat & safety` - **contested** · **CONTESTED**
+
+**EEA baseline.** Lethal raids between groups occurred among foragers, and in some populations they were frequent. How often they happened among mobile Pleistocene foragers is not settled. Bowles compiled 23 sources and found war deaths averaged 14% of all deaths (archaeological 12%, ethnographic 16%; single sites 0% to 46%), in samples that include sedentary and contact-period groups. Fry and Soderberg found that in 21 mobile forager band societies most of 148 recorded killings had one killer and one victim; about a third were between groups, but 38 of those 50 came from one society, the Tiwi, and in the other 20 societies about 15% were. A phylogenetic estimate puts all killing by other humans at about 2% of deaths.
+
+**EEA value** (illustrative, not constants):
+
+  - bowles_war_deaths_share: 14% of deaths (selected samples)
+  - gomez_all_lethal_violence: about 2% of deaths
+  - fry_soderberg_intergroup_share: about 15% of killings, excluding the Tiwi
+
+**Modern default.** Killing between groups is done by states with armies, and most people never take part in or see it. Group conflict reaches most people as news and political talk.
+
+**The gap.** The two headline numbers measure different things (share of all deaths in war, share of killings between groups) and cannot be averaged. A page can say lethal raids between groups occurred and were sometimes frequent; it cannot give one ancestral percentage.
+
+**Serves mechanisms:** M1 - Threat Management, M11 - Cooperation / Alliance
+
+**Evidence (5 links):**
+
+- ext#1046 · contested · primary: "The 8 ethnographic and 15 archaeological sources included yield similar results (Table 1), consistent with the view that prehistoric warfare was frequent and lethal"
+- ext#673 · contested · primary: "the estimated level of mortality in intergroup conflicts would have had substantial effects, allowing the proliferation of group-beneficial behaviors that were quite costly to the individual altruist"
+- ext#1047 · contested · challenging: "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone"
+- ext#674 · contested · challenging: "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman."
+- ext#892 · tested once · supporting: "Among nonelders, raiding was not associated with an increased number of wives or children."
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): contested. For frequent war: Bowles 2009 (ext 673 and the new numbers extraction), Wrangham and Glowacki 2012 (ext 672). Against: Fry and Soderberg 2013 (ext 674, new numbers extraction), Gomez et al. 2016. Lean: killing between groups was part of the ancestral setting; Bowles's 14% comes from samples weighted toward sedentary and contact-period groups and is no forager default. Choi and Bowles 2007 is a model whose inputs come from Bowles 2009. Background-tier evidence cited (abstract or book only): ext 672, 1058, 675, 897.*
+
 
 ### Information environment
 
@@ -1475,4 +1723,4 @@ Earlier grading notes (rubric v1, kept for the record): Speculative as an inform
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-06 02:28 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-06 02:28 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-13 01:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-13 01:37 UTC.*
