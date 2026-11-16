@@ -940,8 +940,8 @@ Earlier grading notes (rubric v1, kept for the record): HARD-RULE row, fully com
 **Evidence (3 links):**
 
 - ext#39 · contested · primary: Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di
-- ext#38 · argued, not yet tested · supporting: The discordance hypothesis: the human genome was shaped under Paleolithic nutritional conditions and has changed negligibly since the advent of agriculture (~10,000 years ago). Modern diseases of civilization - atherosclerosis, hypertension, obesity, diabetes - result from the mi
-- ext#471 · argued, not yet tested · supporting: Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about
+- ext#38 · argued, not yet tested · supporting: "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time."
+- ext#471 · argued, not yet tested · supporting: "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1)."
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.
 

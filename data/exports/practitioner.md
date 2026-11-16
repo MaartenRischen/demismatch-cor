@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-13 01:37 UTC, from the live Cor atlas snapshot built 2026-11-13 01:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-16 09:16 UTC, from the live Cor atlas snapshot built 2026-11-16 09:15 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 259 works, 845 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 303 works, 926 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
 
 ---
 ## How to read this document
@@ -45,7 +45,7 @@ A note on the ladders: most are simple top-to-bottom ordinal ladders. A few syst
 
 ### What it looks like in a person
 
-This is the freeze-fight-flee system, plus the offensive mode of frustration-aggression. In the room, it shows up as panic, hypervigilance, a racing heart, irritability, a client who is "always on," who cannot relax, who startles, who is exhausted by a danger they cannot name. It is mediated by phylogenetically ancient subcortical circuits - amygdala, periaqueductal gray, hypothalamus - that operate pre-attentively and can override cortical processing. This is roughly 500 million years old, shared by all vertebrates, and it is a single shared implementation across the sexes.
+This is the freeze-fight-flee system, plus the offensive mode of frustration-aggression. In the room, it shows up as panic, hypervigilance, a racing heart, irritability, a client who is "always on," who cannot relax, who startles, who is exhausted by a danger they cannot name. It is mediated by phylogenetically ancient subcortical circuits - amygdala, periaqueductal gray, hypothalamus - that operate pre-attentively and can override cortical processing. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old, and it is a single shared implementation across the sexes.
 
 What resolves it is simple and physical: safety established, the threat eliminated or avoided.
 
@@ -119,7 +119,7 @@ You cannot satisfy a hijacked SEEKING system with more of the proxy - that is th
 
 ### What it looks like in a person
 
-This is attachment and co-regulation, and it now also includes grief (absorbed from the old GRIEF system). It runs in two states: security, which enables the person broadly, and grief, which suppresses broadly. In the room: the securely-bonded client recovers from stress faster and explores more; the grieving or isolated client looks shut down across the board. This is roughly 200 million years old (mammalian), with 192 evidence links - the most heavily grounded mechanism in the entire atlas.
+This is attachment and co-regulation, and it now also includes grief (absorbed from the old GRIEF system). It runs in two states: security, which enables the person broadly, and grief, which suppresses broadly. In the room: the securely-bonded client recovers from stress faster and explores more; the grieving or isolated client looks shut down across the board. Attachment is about 165 to 200 million years old, as old as the mammals, with 192 evidence links - the most heavily grounded mechanism in the entire atlas.
 
 What resolves it is reliable human co-regulation through physical presence, organized in nested layers: about 5 intimate co-regulators who provide most of the regulation, about 15 in the sympathy group, about 50 close partners, and about 150 coherent face-to-face relationships (the Dunbar number, the outer cognitive ceiling). The critical variable at the innermost layer of about 5 is **reliability, not count**.
 
@@ -175,7 +175,7 @@ Structured activities replacing free play. Screens replacing bodies. Play depriv
 
 ### Cascade
 
-M4 is suppressed by threat (M1) and bonding's grief state (M3) - consistent with its absence in threatened animals - and it interacts with pursuit (M2). This is roughly 200 million years old, present in mammals and absent in reptiles.
+M4 is suppressed by threat (M1) and bonding's grief state (M3) - consistent with its absence in threatened animals - and it interacts with pursuit (M2). Social play is at least about 60 million years old (every primate plays); play in reptiles and fish arose separately.
 
 ### What changing the inputs means
 
@@ -263,7 +263,7 @@ Patching means cognitively reframing helplessness in a client whose actual envir
 
 ### What it looks like in a person
 
-The SCN master clock gates metabolism, immunity, cognition, and mood. This is the oldest system in the atlas - roughly 3 billion years, from cyanobacteria onward. The key clinical insight: the modern mismatch is usually about **timing and quality, not duration**. A client may be "getting eight hours" and still be circadian-disrupted. Presentations include mood disturbance, cognitive fog, metabolic and immune problems - all downstream of a mis-set clock.
+The SCN master clock gates metabolism, immunity, cognition, and mood. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately. The key clinical insight: the modern mismatch is usually about **timing and quality, not duration**. A client may be "getting eight hours" and still be circadian-disrupted. Presentations include mood disturbance, cognitive fog, metabolic and immune problems - all downstream of a mis-set clock.
 
 What resolves it: dark-cued sleep onset, bright daylight exposure, and a consistent rhythm.
 
@@ -428,7 +428,7 @@ Anonymous transactions, ghosting, no shared narrative. The system needs reputati
 
 ### Cascade
 
-M11 is suppressed by M14 (reproduction). This is roughly 2-5 million years old (humans plus great apes).
+M11 is suppressed by M14 (reproduction). Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
 
 ### What changing the inputs means
 
@@ -1193,4 +1193,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-13 01:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-13 01:37 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-16 09:15 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-16 09:16 UTC.*

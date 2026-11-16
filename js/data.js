@@ -118,6 +118,13 @@
 
   // Parse the leading phylogenetic age (in Myr) for the depth indicator.
   // Returns { myr:Number|null, label:String, depth:0..1 } - never invents.
+  // Sourced, graded age per mechanism part (v2_mechanism_ages, 16 Nov 2026).
+  // Rows come back raw: callers clean() prose fields. [] when the table is absent.
+  function mechanismAges(code) {
+    return table("mechanism_ages").filter(function (r) { return r.mechanism_code === code; })
+      .sort(function (a, b) { return (a.sort || 0) - (b.sort || 0); });
+  }
+
   function phyloDepth(ageStr) {
     if (typeof ageStr !== "string" || !ageStr.trim()) return { myr: null, label: "", depth: 0 };
     var s = ageStr.replace(/,/g, "");
@@ -460,6 +467,7 @@
     gradientCount: gradientCount,
     buildHonesty: buildHonesty,
     phyloDepth: phyloDepth,
+    mechanismAges: mechanismAges,
   };
 
   // Auto-populate the quiet build-honesty marker on any surface that includes

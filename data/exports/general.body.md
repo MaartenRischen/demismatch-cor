@@ -53,7 +53,7 @@ Modern threats - debt, a hostile email, social media pile-ons, status anxiety - 
 
 ### How well-evidenced
 
-This is among the most strongly supported mechanisms here, with 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. The system is about 500 million years old, shared by all vertebrates. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration); the only thing that overrides it is the social bonding system.
+This is among the most strongly supported mechanisms here, with 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration); the only thing that overrides it is the social bonding system.
 
 ---
 
@@ -83,7 +83,7 @@ Variable-reward apps are designed to fire the seeking drive again and again with
 
 ### How well-evidenced
 
-Forced, 67 evidence links. Top and bottom rungs are well-evidenced; the trickiest call is whether the variable-reward app really sits above mindless scrolling. Key researchers: Panksepp, Berridge. About 500 million years old. It gets suppressed by threat, social bonding, circadian, immune, and energy systems.
+Forced, 67 evidence links. Top and bottom rungs are well-evidenced; the trickiest call is whether the variable-reward app really sits above mindless scrolling. Key researchers: Panksepp, Berridge. Its dopamine-driven basal ganglia circuit is probably about 460 to 535 million years old, shared with lampreys (contested); the reward pathway itself is at least about 165 million years old. It gets suppressed by threat, social bonding, circadian, immune, and energy systems.
 
 ---
 
@@ -115,7 +115,7 @@ The nuclear family, solo living, and screens substituting for physical presence 
 
 ### How well-evidenced
 
-This is the most heavily supported mechanism in the framework, with 192 evidence links. Forced. Key researchers: Bowlby, Panksepp, Coan, Hrdy. About 200 million years old. The supporting research includes a finding that strong social relationships carry roughly a 50% survival advantage. In its secure state it enables most other systems; nothing recorded suppresses it.
+This is the most heavily supported mechanism in the framework, with 192 evidence links. Forced. Key researchers: Bowlby, Panksepp, Coan, Hrdy. Attachment is about 165 to 200 million years old, as old as the mammals. The supporting research includes a finding that strong social relationships carry roughly a 50% survival advantage. In its secure state it enables most other systems; nothing recorded suppresses it.
 
 ---
 
@@ -145,7 +145,7 @@ Structured activities crowd out free play. Screens replace bodies. The result is
 
 ### How well-evidenced
 
-Forced, 55 evidence links. The most debatable call is ranking screen-play-with-real-peers above a solitary scripted game. Key researchers: Panksepp, Pellis & Pellis, Gray. About 200 million years old, present in mammals but absent in reptiles. It is suppressed by threat and by grief.
+Forced, 55 evidence links. The most debatable call is ranking screen-play-with-real-peers above a solitary scripted game. Key researchers: Panksepp, Pellis & Pellis, Gray. Social play is at least about 60 million years old (every primate plays); play in reptiles and fish arose separately. It is suppressed by threat and by grief.
 
 ---
 
@@ -175,7 +175,7 @@ Social media throws you into global comparison against millions of "peers." Ther
 
 ### How well-evidenced
 
-Forced, 88 evidence links. The most contested point is whether purchased signals really sit below social-media comparison. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. About 50 to 100 million years old, found in primates and social mammals.
+Forced, 88 evidence links. The most contested point is whether purchased signals really sit below social-media comparison. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. Its rank circuit is about 420 to 445 million years old, shared with bony fish.
 
 ---
 
@@ -205,7 +205,7 @@ Abstract work where effort never visibly registers, rigid hierarchies, and burea
 
 ### How well-evidenced
 
-Forced, 38 evidence links. The first four rungs are well-evidenced; the trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. About 200 million years old. Suppressed by threat, reproduction, and social bonding.
+Forced, 38 evidence links. The first four rungs are well-evidenced; the trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat, reproduction, and social bonding.
 
 ---
 
@@ -235,7 +235,7 @@ Electric light, blue screens, shift work, and caffeine all disrupt the clock's s
 
 ### How well-evidenced
 
-Forced, 20 evidence links - all five rungs are evidenced. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. About 3 billion years old, reaching back to cyanobacteria.
+Forced, 20 evidence links - all five rungs are evidenced. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
 
 ---
 
@@ -265,7 +265,7 @@ Chronic low-grade inflammation from diet, sedentary living, and social isolation
 
 ### How well-evidenced
 
-Forced, 37 evidence links - all five rungs evidenced. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. About 600 million years old, present in all multicellular life.
+Forced, 37 evidence links - all five rungs evidenced. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
 
 ---
 
@@ -300,7 +300,7 @@ The nuclear family without an alloparental network leaves parents carrying a loa
 
 ### How well-evidenced
 
-Forced, 64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. About 200 million years old.
+Forced, 64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. Maternal care is about 165 to 200 million years old, as old as the mammals; human cooperative breeding is argued to be at least about 2 million years old.
 
 ---
 
@@ -330,7 +330,7 @@ Sedentary living, with gym sessions as only partial compensation.
 
 ### How well-evidenced
 
-This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence links, all five rungs evidenced. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. About 500 million years old. Suppressed by threat and grief.
+This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence links, all five rungs evidenced. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
 
 ---
 
@@ -360,7 +360,7 @@ Anonymous transactions, ghosting, and the absence of any shared narrative leave 
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. About 2 to 5 million years old, shared with great apes. Suppressed by reproduction.
+Strongly supported (Tier 2), 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years. Suppressed by reproduction.
 
 ---
 
@@ -390,7 +390,7 @@ Moral disgust gets weaponized in politics, fueling purity spirals.
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), but with only 12 evidence links - the thinnest in the framework. Key researchers: Rozin, Curtis, Schaller. About 300 million years old.
+Strongly supported (Tier 2), but with only 12 evidence links - the thinnest in the framework. Key researchers: Rozin, Curtis, Schaller. Avoiding contaminated food is at least about 25 to 34 million years old, shared with Old World monkeys; parasite avoidance across animals has no single age.
 
 ---
 
@@ -420,7 +420,7 @@ Ultra-processed foods are engineered to defeat the satiety signal, so the "stop"
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 34 evidence links. The endpoints are well-evidenced; the middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. About 500 million years old.
+Strongly supported (Tier 2), 34 evidence links. The endpoints are well-evidenced; the middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
 
 ---
 
@@ -450,7 +450,7 @@ Pornography, dating apps, delayed reproduction, and social-media mate-value comp
 
 ### How well-evidenced
 
-Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrdy. The sexual component is about 500 million years old; pair-bonding about 200 million. This is one of the systems with a **sex-differentiated implementation** - the same system, two settings. The female-typical version is VMH-centered, tied to estrous cycling, with a preference for resource and commitment signals and an emphasis on pair-bond security. The male-typical version is POA-centered, driven by tonic testosterone, attentive to fertility and accessibility cues, with an emphasis on sexual variety. It is suppressed by threat, immune activation, and care; it suppresses agency and cooperation.
+Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrdy. The sexual hormone axis is about 460 to 535 million years old, shared with lampreys; the human pair bond is about 2 to 4 million years old, and that date is contested. This is one of the systems with a **sex-differentiated implementation** - the same system, two settings. The female-typical version is VMH-centered, tied to estrous cycling, with a preference for resource and commitment signals and an emphasis on pair-bond security. The male-typical version is POA-centered, driven by tonic testosterone, attentive to fertility and accessibility cues, with an emphasis on sexual variety. It is suppressed by threat, immune activation, and care; it suppresses agency and cooperation.
 
 ---
 
@@ -482,4 +482,4 @@ We live in touch-starved environments. One striking piece of evidence: kangaroo 
 
 ### How well-evidenced
 
-This is the most tentative entry, rated moderate (Tier 3), with 18 evidence links. Key researchers: McGlone, Field. About 200 million years old, mammalian.
+This is the most tentative entry, rated moderate (Tier 3), with 18 evidence links. Key researchers: McGlone, Field. The touch fibres are at least about 60 to 90 million years old, shown in placental mammals.

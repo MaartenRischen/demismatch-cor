@@ -264,7 +264,25 @@
     return "<div class='card'><div class='card-head'><span class='dia'></span> Phylogenetic Depth</div>" +
       "<div class='phylo'><div class='phylo-bars' role='img' aria-label='Depth " + lit + " of 5'>" + bars + "</div>" +
       "<div class='phylo-txt'><div class='phylo-age'>" + esc(dep.label || "not recorded") + "</div>" +
-      "<div class='phylo-note'>" + (dep.myr != null ? esc(sev) + ". " : "") + "Severity tracks inversely with the age of the targeted circuit.</div></div></div></div>";
+      "<div class='phylo-note'>" + (dep.myr != null ? esc(sev) + ". " : "") + "Severity tracks inversely with the age of the targeted circuit.</div></div></div>" +
+      phyloParts(m) + "</div>";
+  }
+
+  // Sourced age per part of the system (v2_mechanism_ages), each with what it
+  // dates and its public evidence label. Nothing rendered when no rows exist.
+  function phyloParts(m) {
+    var rows = D.mechanismAges ? D.mechanismAges(m.code) : [];
+    if (!rows.length) return "";
+    var cap = function (t) { t = String(t || ""); return t.charAt(0).toUpperCase() + t.slice(1); };
+    return "<ul class='phylo-parts'>" + rows.map(function (r) {
+      var lab = D.gradePublic(r.grade);
+      return "<li><span class='phylo-part'>" + clean(cap(r.part)) + "</span>: " +
+        "<span class='phylo-part-age'>" + clean(r.age_label) + "</span>. " + clean(cap(r.dates_what)) +
+        (r.dates_what && !/[.!?]$/.test(String(r.dates_what).trim()) ? "." : "") +
+        (lab ? " <span class='chip'>" + esc(lab) + "</span>" : "") +
+        (r.contested && r.grade !== "contested" ? " <span class='chip'>sources disagree</span>" : "") +
+        "</li>";
+    }).join("") + "</ul>";
   }
 
   // ---- cascade chips -------------------------------------------------------

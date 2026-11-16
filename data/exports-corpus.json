@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-13T01:36:56.914482+00:00",
+    "source_built_at": "2026-11-16T09:15:45.413550+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 259,
-    "extractions": 845,
+    "works": 303,
+    "extractions": 926,
     "researchers": 84,
-    "mechanism_evidence": 1181,
+    "mechanism_evidence": 1249,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -39,7 +39,8 @@
     "parameter_mechanism": 80,
     "parameter_evidence": 222,
     "foundation_convergences": 15,
-    "challenges": 88
+    "mechanism_ages": 27,
+    "challenges": 90
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -386,7 +387,7 @@
       "eli5": "Detects danger. Makes you freeze, fight, or flee.",
       "resolution_conditions": "Safety established, threat eliminated or avoided.",
       "mismatch_prediction": "Modern threats - debt, emails, social media, status anxiety - can't be fought or fled. System stays on.",
-      "phylogenetic_age": "~500Myr (all vertebrates)",
+      "phylogenetic_age": "~460-535Myr (defence centre, all vertebrates); amygdala circuit ~340Myr+ (four-limbed vertebrates)",
       "proxy_gradient": {
         "raw": "5 levels (resolvability/actionability axis; true DA4 proxy only at floor): acute danger you can fight/flee then escape (FULL) → real present threat resolved by a trusted other (PARTIAL) → chronic slow-burn real threat, no terminating action (MIXED) → abstract/anticipated threat, no physical target (MINIMAL) → engineered supernormal outrage/threat media (ZERO; CONTESTABLE)",
         "preamble": "5 levels (resolvability/actionability axis; true DA4 proxy only at floor)",
@@ -457,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 121,
+        "link_count": 138,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -483,7 +484,7 @@
       "eli5": "Drives you to explore, pursue goals, and engage with the world.",
       "resolution_conditions": "Engagement with real challenges producing tangible outcomes.",
       "mismatch_prediction": "Variable-reward apps fire SEEKING without resolution. Open loop.",
-      "phylogenetic_age": "~500Myr",
+      "phylogenetic_age": "~460-535Myr (dopamine basal ganglia, all vertebrates; contested); reward pathway ~165Myr+ (mammals)",
       "proxy_gradient": {
         "raw": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL; EVIDENCED) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO; EVIDENCED). Most contestable: the MIXED-app vs MINIMAL-scroll ordering.",
         "preamble": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength)",
@@ -555,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 88,
+        "link_count": 102,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -580,7 +581,7 @@
       "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
       "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number - outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 outer figure is an illustrative central tendency, not a hard limit: its derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021). What the evidence carries is the nested layering and the reliability-over-count point, not the exact rung figures; the layered structure and its low-hundreds clustering are separately observed in phone, Christmas-card, and Facebook data.",
       "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence.",
-      "phylogenetic_age": "~200Myr (mammalian)",
+      "phylogenetic_age": "~165-200Myr (attachment, mammals); human layered network not dated",
       "proxy_gradient": {
         "raw": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
         "preamble": "5 levels (ordered by real co-regulatory function supplied, not amount of contact)",
@@ -651,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 203,
+        "link_count": 246,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -678,7 +679,7 @@
       "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
       "resolution_conditions": "Self-directed, unsupervised physical play with other children. In forager childhoods this is a mixed-age group.",
       "mismatch_prediction": "Structured activities replacing free play. Screens replacing bodies. Play deprivation.",
-      "phylogenetic_age": "~200Myr (mammalian, absent in reptiles)",
+      "phylogenetic_age": "~60Myr+ (social play, all primates; up to ~170Myr if one mammal system); play in reptiles and fish arose separately",
       "proxy_gradient": {
         "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). Most contestable: screen-mediated-real-peers (MIXED) ranked above solitary scripted game (MINIMAL).",
         "preamble": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives)",
@@ -746,7 +747,7 @@
         ]
       },
       "evidence": {
-        "link_count": 58,
+        "link_count": 67,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -782,7 +783,7 @@
       "eli5": "Constantly monitors where you stand relative to others.",
       "resolution_conditions": "Acceptable position in a bounded, personally-known reference group on the order of ~150 (an illustrative central tendency, not a hard number; the precise figure is contested per Lindenfors 2021). Earned prestige preferred over coerced dominance (Henrich & Gil-White distinction - needs explicit treatment).",
       "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
-      "phylogenetic_age": "~50-100Myr (primates + social mammals)",
+      "phylogenetic_age": "~420-445Myr (rank circuit, bony vertebrates); rank-linked health ~25-34Myr+ (Old World primates)",
       "proxy_gradient": {
         "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). Most contestable: purchased-signals (ZERO) vs social-media comparison (MINIMAL) floor ordering.",
         "preamble": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top)",
@@ -847,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 107,
+        "link_count": 131,
         "researchers": [
           "Gilbert",
           "Price",
@@ -890,7 +891,7 @@
       "eli5": "Tracks whether your actions produce results. Default is passivity - agency must be learned.",
       "resolution_conditions": "Genuine action-outcome feedback. Decision latitude.",
       "mismatch_prediction": "Abstract work where effort doesn't visibly register. Rigid hierarchies. Bureaucratic systems.",
-      "phylogenetic_age": "~200Myr",
+      "phylogenetic_age": "~60-90Myr+ (placental mammals; possibly ~165-200Myr, all mammals; contested)",
       "proxy_gradient": {
         "raw": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied): decision latitude over consequential, visibly-feedbacking outcomes (FULL; EVIDENCED) → high demand with reduced but real decision latitude (PARTIAL; EVIDENCED) → abstract/surveilled/screen-mediated work where effort doesn't visibly register (MIXED; EVIDENCED) → chronically uncontrollable real environment, learned helplessness (MINIMAL; EVIDENCED) → engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence (ZERO; architecture-derived). Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one; most contestable: the MINIMAL-vs-ZERO ordering.",
         "preamble": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied)",
@@ -957,7 +958,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 35,
+        "link_count": 44,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -986,7 +987,7 @@
       "eli5": "Synchronizes every system to the light-dark cycle. Master timing architecture.",
       "resolution_conditions": "Dark-cued sleep onset, bright daylight exposure, consistent rhythm.",
       "mismatch_prediction": "Electric light, blue screens, shift work, caffeine",
-      "phylogenetic_age": "~3Byr (cyanobacteria onward)",
+      "phylogenetic_age": "~500Myr+ (animal clock genes, insects and vertebrates); cyanobacterial clocks are older but a separate origin",
       "proxy_gradient": {
         "raw": "5 levels (Kind B: not a constant-cue hijack - the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Most contestable: social-jetlag (PARTIAL) vs shift-work (MINIMAL) ordering, and whether screens' signal-inversion is the true floor.",
         "preamble": "5 levels (Kind B: not a constant-cue hijack - the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation)",
@@ -1051,7 +1052,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 18,
+        "link_count": 40,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1087,7 +1088,7 @@
       "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
       "resolution_conditions": "Pathogen cleared, inflammation resolved.",
       "mismatch_prediction": "Chronic low-grade inflammation from diet, sedentarism, social isolation.",
-      "phylogenetic_age": "~600Myr (all multicellular)",
+      "phylogenetic_age": "~550-830Myr (innate immunity, animals; contested); adaptive immunity ~420-470Myr (jawed vertebrates)",
       "proxy_gradient": {
         "raw": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). All five EVIDENCED. Most contestable: lifestyle-drivers (PARTIAL) ranked above social-isolation (MINIMAL) - could legitimately swap or collapse.",
         "preamble": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains)",
@@ -1153,7 +1154,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 37,
+        "link_count": 49,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1189,7 +1190,7 @@
       "eli5": "Distributed care - the organism expects a village, not solo parenting.",
       "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
       "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
-      "phylogenetic_age": "~200Myr",
+      "phylogenetic_age": "~165-200Myr (maternal care, mammals); human cooperative breeding ~2Myr+ (argued)",
       "proxy_gradient": {
         "raw": "TWO scales (#1581). Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
         "preamble": "TWO scales (#1581)",
@@ -1264,7 +1265,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 66,
+        "link_count": 82,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1305,7 +1306,7 @@
       "eli5": "Movement isn't just exercise - it activates repair mechanisms throughout the organism.",
       "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hunter-gatherers typically moved 9-15 km a day as a side effect of how they lived.",
       "mismatch_prediction": "Sedentarism. Gym sessions as partial compensation.",
-      "phylogenetic_age": "~500Myr",
+      "phylogenetic_age": "~2Myr (human form, argued); older regulatory roles not dated",
       "proxy_gradient": {
         "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
         "preamble": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied)",
@@ -1371,7 +1372,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 26,
+        "link_count": 36,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1402,7 +1403,7 @@
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
       "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
-      "phylogenetic_age": "~2-5Myr (humans + great apes)",
+      "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
       "proxy_gradient": {
         "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
         "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
@@ -1467,7 +1468,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 93,
+        "link_count": 116,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1494,7 +1495,7 @@
       "eli5": "Disgust system. Pathogen avoidance extended to moral/social contamination.",
       "resolution_conditions": "Clean food, clean social environment, moral disgust contained.",
       "mismatch_prediction": "Moral disgust weaponized in politics, purity spirals.",
-      "phylogenetic_age": "~300Myr",
+      "phylogenetic_age": "~25-34Myr+ (contamination avoidance, Old World primates); parasite avoidance across animals has no single age",
       "proxy_gradient": {
         "raw": "3-rung EVIDENCED pathogen-disgust gradient (FULL→PARTIAL→MIXED): clean food + clean social environment, disgust firing on real pathogen cues (FULL) → vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression (PARTIAL) → behavioral-immune smoke-detector false positives on harmless people (MIXED; floor). ▼ DEMOTED, non-ordinal SPECULATIVE/CONTESTED moral-disgust extension (per #1583, confirmed by ext597 Tybur - moral disgust functionally distinct, shares only the expressive component; ext105 d≈0): purity-coded social aversion + weaponized moral disgust / purity spirals - unordered, NOT rungs; the purity-spiral/dehumanization mismatch prediction lives entirely here on the weakest evidence. Registered resolution_conditions untouched; the 'moral disgust contained' clause is flagged CONTESTED.",
         "preamble": "3-rung EVIDENCED pathogen-disgust gradient (FULL→PARTIAL→MIXED)",
@@ -1539,7 +1540,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 13,
+        "link_count": 15,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1570,7 +1571,7 @@
       "eli5": "Hunger, satiety, and constrained total energy expenditure.",
       "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
       "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
-      "phylogenetic_age": "~500Myr",
+      "phylogenetic_age": "~420Myr+ (appetite brake, jawed vertebrates); human energy budget under ~10Myr",
       "proxy_gradient": {
         "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
         "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
@@ -1635,7 +1636,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 39,
+        "link_count": 54,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1670,7 +1671,7 @@
       "eli5": "Three components - desire, attraction, and pair bonding - that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
       "resolution_conditions": "Sexual fulfillment within pair bond + pair bond stability + reproductive success.",
       "mismatch_prediction": "Pornography, dating apps, delayed reproduction, social media mate-value comparison.",
-      "phylogenetic_age": "~500Myr sexual, ~200Myr pair bonding",
+      "phylogenetic_age": "~460-535Myr (sexual hormone axis, all vertebrates); human pair bond ~2-4Myr (contested)",
       "proxy_gradient": {
         "raw": "5 levels: real partner (FULL) → attenuated real / LDR (PARTIAL) → partial proxy / dating app to real meeting (MIXED) → pure proxy soft / romance fiction / parasocial (MINIMAL) → pure proxy hard / pornography / AI sexual (ZERO)",
         "preamble": "5 levels",
@@ -1744,7 +1745,7 @@
         ]
       },
       "evidence": {
-        "link_count": 78,
+        "link_count": 105,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1776,7 +1777,7 @@
       "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
       "resolution_conditions": "Regular physical contact with trusted others.",
       "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
-      "phylogenetic_age": "~200Myr (mammalian)",
+      "phylogenetic_age": "~60-90Myr (C-tactile touch fibres, placental mammals)",
       "proxy_gradient": {
         "raw": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
         "preamble": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584)",
@@ -1839,7 +1840,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 18,
+        "link_count": 24,
         "researchers": [
           "McGlone",
           "Field"
@@ -4277,14 +4278,14 @@
             "extraction_id": 38,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
-            "author_quote": null,
-            "content": "The discordance hypothesis: the human genome was shaped under Paleolithic nutritional conditions and has changed negligibly since the advent of agriculture (~10,000 years ago). Modern diseases of civilization - atherosclerosis, hypertension, obesity, diabetes - result from the mi"
+            "author_quote": "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time.",
+            "content": "Eaton and Konner argue that the human genus is about 2 million years old and that this evolutionary history shaped our current genetic make-up, partly through the diets of the time. Ancestral diets varied with period, place and season, so humans kept an omnivore's flexibility, ye"
           },
           {
             "extraction_id": 471,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
-            "author_quote": null,
+            "author_quote": "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1).",
             "content": "Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about"
           }
         ],

@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-11-13 01:37 UTC, from the live Cor atlas snapshot built 2026-11-13 01:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-16 09:16 UTC, from the live Cor atlas snapshot built 2026-11-16 09:15 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 259 works, 845 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 303 works, 926 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
 
 ---
 ## How to read this document
@@ -54,7 +54,7 @@ What actually shuts it off? Safety. The threat is gone, beaten, or escaped.
 
 ### What goes wrong now
 
-Most modern "threats" can't be punched or outrun. Debt. A scary email. A nasty comment. Status anxiety. The alarm fires, but there's no lion to escape, so the system never gets the "you're safe now" signal. It just stays on. This system is ancient - around 500 million years old, shared by all vertebrates. It's so powerful it can shut down a bunch of other systems, and only one thing reliably calms it: social bonding.
+Most modern "threats" can't be punched or outrun. Debt. A scary email. A nasty comment. Status anxiety. The alarm fires, but there's no lion to escape, so the system never gets the "you're safe now" signal. It just stays on. This system is ancient: its defence centre is around 460 to 535 million years old, shared with lampreys. It's so powerful it can shut down a bunch of other systems, and only one thing reliably calms it: social bonding.
 
 ## M2 - Pursuit / Exploration
 
@@ -92,7 +92,7 @@ Note: being totally isolated isn't a rung on this ladder - it's just an empty sh
 
 ### What goes wrong now
 
-Small nuclear families, people living alone, and screens standing in for actual physical presence. This system is around 200 million years old (mammal-level). Strong social bonds are linked to a 50% survival advantage. When it's secure, it helps everything else work. When it's in grief, it shuts a lot of things down.
+Small nuclear families, people living alone, and screens standing in for actual physical presence. This system is around 165 to 200 million years old, as old as the mammals. Strong social bonds are linked to a 50% survival advantage. When it's secure, it helps everything else work. When it's in grief, it shuts a lot of things down.
 
 ## M4 - Social Calibration / Play
 
@@ -110,7 +110,7 @@ What satisfies it: real play with kids your own age, that you run yourselves, wi
 
 ### What goes wrong now
 
-Structured, scheduled activities replace free play. Screens replace actual bodies. Kids end up play-deprived. The pull to play feels satisfied by a solo game, but it doesn't build the social skills the real thing does. This system is also around 200 million years old, found in mammals but not reptiles.
+Structured, scheduled activities replace free play. Screens replace actual bodies. Kids end up play-deprived. The pull to play feels satisfied by a solo game, but it doesn't build the social skills the real thing does. Play is at least around 60 million years old (every primate plays); reptiles and fish that play got there separately.
 
 ## M5 - Status Monitoring
 
@@ -128,7 +128,7 @@ What it needs: a decent position within a group of about 150 people. And it pref
 
 ### What goes wrong now
 
-Social media lets you compare yourself to millions of "peers" instead of 150. There's always someone richer, hotter, more famous. So the system reads "you're losing" constantly, which can spiral into a status-defeat cascade. The comparison cue feels just as real whether you're measured against your village or against the entire internet. This system is roughly 50 to 100 million years old, from social mammals and primates.
+Social media lets you compare yourself to millions of "peers" instead of 150. There's always someone richer, hotter, more famous. So the system reads "you're losing" constantly, which can spiral into a status-defeat cascade. The comparison cue feels just as real whether you're measured against your village or against the entire internet. Its rank circuit is around 420 to 445 million years old, shared with fish.
 
 ## M6 - Controllability / Agency
 
@@ -146,7 +146,7 @@ What resolves it: real action-outcome feedback, and genuine room to make decisio
 
 ### What goes wrong now
 
-Lots of modern work is abstract - you push paper or pixels and never see your effort make a difference. Rigid hierarchies and bureaucracy make it worse. The dangerous floor is the fake one: things engineered to give you the *feeling* of agency (tap, win, level up) with zero real consequence. This system is around 200 million years old.
+Lots of modern work is abstract - you push paper or pixels and never see your effort make a difference. Rigid hierarchies and bureaucracy make it worse. The dangerous floor is the fake one: things engineered to give you the *feeling* of agency (tap, win, level up) with zero real consequence. This system is at least around 60 to 90 million years old, maybe as old as the mammals.
 
 ## M7 - Circadian Regulation
 
@@ -166,7 +166,7 @@ This one works a little differently. Instead of a fake cue being fired, the real
 
 ### What goes wrong now
 
-Electric light, blue screens late at night, shift work, caffeine. This is the oldest system here by far - around 3 billion years old, going back to cyanobacteria.
+Electric light, blue screens late at night, shift work, caffeine. Its clock genes are more than 500 million years old, shared with insects; bacteria have older clocks, but those evolved separately.
 
 ## M8 - Immune Regulation
 
@@ -186,7 +186,7 @@ Like the clock, this one is about the off-switch breaking down, not a fake cue.
 
 ### What goes wrong now
 
-Chronic low-grade inflammation driven by diet, sitting around, and social isolation. There's no infection to clear, so the system never gets its "all clear." This system is roughly 600 million years old, in all multicellular life.
+Chronic low-grade inflammation driven by diet, sitting around, and social isolation. There's no infection to clear, so the system never gets its "all clear." This system is around 550 to 830 million years old, found across animals.
 
 ## M9 - Care / Alloparenting
 
@@ -209,7 +209,7 @@ This mechanism has **two separate scales** - don't mix them up.
 
 ### What goes wrong now
 
-The nuclear family with no village behind it. Parents burn out because they're doing a job the human design assumed several people would share. This system is around 200 million years old.
+The nuclear family with no village behind it. Parents burn out because they're doing a job the human design assumed several people would share. Mothering is around 165 to 200 million years old, as old as the mammals.
 
 ## M10 - Movement / Regulatory
 
@@ -229,7 +229,7 @@ This one inverts the usual story - the real input gets withdrawn rather than a f
 
 ### What goes wrong now
 
-We sit all day, then try to fix it with a gym session. That helps, but it doesn't replace the all-day movement the system actually expects. This system is around 500 million years old.
+We sit all day, then try to fix it with a gym session. That helps, but it doesn't replace the all-day movement the system actually expects. Its human form is argued to be around 2 million years old.
 
 ## M11 - Cooperation / Alliance
 
@@ -249,7 +249,7 @@ Interesting twist: the first step down is still a real solution - institutions a
 
 ### What goes wrong now
 
-Anonymous transactions, getting ghosted, no shared narrative tying people together. This system is roughly 2 to 5 million years old, shared with great apes.
+Anonymous transactions, getting ghosted, no shared narrative tying people together. Trading favours is at least around 25 to 34 million years old, shared with monkeys.
 
 ## M12 - Contamination Avoidance
 
@@ -269,7 +269,7 @@ There's also a separate, much weaker and contested extension into **moral disgus
 
 ### What goes wrong now
 
-The contested part is where moral disgust gets weaponized in politics, fueling purity spirals. Just remember the evidence there is weak. This system is around 300 million years old.
+The contested part is where moral disgust gets weaponized in politics, fueling purity spirals. Just remember the evidence there is weak. Avoiding dirty food is at least around 25 to 34 million years old, shared with monkeys.
 
 ## M13 - Energy Regulation
 
@@ -289,7 +289,7 @@ Here the *fullness* signal - the thing that tells you to stop eating - gets grad
 
 ### What goes wrong now
 
-Ultra-processed foods are built to slip right past your "I'm full" signal, so you keep eating past the point where real food would have stopped you. This system is around 500 million years old.
+Ultra-processed foods are built to slip right past your "I'm full" signal, so you keep eating past the point where real food would have stopped you. Its appetite brake is more than 420 million years old, shared with fish.
 
 ## M14 - Reproductive Motivation
 
@@ -314,7 +314,7 @@ This system runs with two parameterizations of the same design:
 
 ### What goes wrong now
 
-Pornography, dating apps, delayed reproduction, and comparing your mate value to a flood of images on social media. The pure-proxy versions fire the same drive without delivering any of what actually resolves it. The sexual side is around 500 million years old; pair-bonding is around 200 million years old.
+Pornography, dating apps, delayed reproduction, and comparing your mate value to a flood of images on social media. The pure-proxy versions fire the same drive without delivering any of what actually resolves it. The sexual side is around 460 to 535 million years old; the human pair bond is around 2 to 4 million years old, and that date is argued over.
 
 ## R1 - Touch
 
@@ -336,7 +336,7 @@ Note: the bottom two rungs both have zero relational function - they're only spl
 
 ### What goes wrong now
 
-Modern life is touch-starved. How much this matters shows up powerfully in kangaroo care, where skin-to-skin contact cut neonatal mortality by about half for low-birth-weight babies in pooled randomised trials. This system is around 200 million years old (mammalian).
+Modern life is touch-starved. How much this matters shows up powerfully in kangaroo care, where skin-to-skin contact cut neonatal mortality by about half for low-birth-weight babies in pooled randomised trials. The touch fibres are at least around 60 to 90 million years old, shown in placental mammals.
 
 ## The Gap - what your body expects vs what it gets
 
@@ -357,4 +357,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-13 01:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-13 01:37 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-16 09:15 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-16 09:16 UTC.*

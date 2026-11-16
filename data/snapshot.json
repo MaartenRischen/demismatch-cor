@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-13T01:36:56.914482+00:00",
+    "built_at": "2026-11-16T09:15:45.413550+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 259,
-    "extractions": 845,
+    "works": 303,
+    "extractions": 926,
     "researchers": 84,
-    "mechanism_evidence": 1181,
+    "mechanism_evidence": 1249,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -21,7 +21,8 @@
     "parameter_mechanism": 80,
     "parameter_evidence": 222,
     "foundation_convergences": 15,
-    "challenges": 88
+    "mechanism_ages": 27,
+    "challenges": 90
   },
   "tables": {
     "foundations": [
@@ -226,95 +227,6 @@
     ],
     "mechanisms": [
       {
-        "code": "M11",
-        "name": "Cooperation / Alliance",
-        "tier": 2,
-        "grade": "strongly_supported",
-        "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
-        "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 is a confidence grade, not an entailment status. M11 IS entailment-forced - convergence C11 forces it - and its four converging streams (Fehr & Gächter, Boehm, Tomasello, Trivers) strongly support it without reaching the top confidence tier.",
-        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
-        "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
-        "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
-        "convergence_codes": [
-          "C11"
-        ],
-        "p1_basis": "Survival (survival, security and marriages depended on alliance networks)",
-        "phylogenetic_age": "~2-5Myr (humans + great apes)",
-        "source_researchers": [
-          "Trivers",
-          "Boehm",
-          "Fehr & Gächter",
-          "Tomasello"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [
-          "M14"
-        ],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": null,
-        "activation_class_secondary": null,
-        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
-          "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
-              "state": "FULL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 1,
-              "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
-              "state": "PARTIAL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 2,
-              "label": "market exchange among strangers backed by gameable reputation systems",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "coalition-signaling and parasocial alliance via symbolic in-group markers",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
-              "state": "ZERO",
-              "tag": "ARCHITECTURE-DERIVED",
-              "note": "architecture-derived"
-            }
-          ],
-          "trailing": "Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M14",
         "name": "Reproductive Motivation",
         "tier": 1,
@@ -328,7 +240,7 @@
           "C14"
         ],
         "p1_basis": "Reproduction (half of inclusive fitness)",
-        "phylogenetic_age": "~500Myr sexual, ~200Myr pair bonding",
+        "phylogenetic_age": "~460-535Myr (sexual hormone axis, all vertebrates); human pair bond ~2-4Myr (contested)",
         "source_researchers": [
           "Panksepp",
           "Fisher",
@@ -427,7 +339,7 @@
           "C5"
         ],
         "p1_basis": "Survival (social scaffolding was primary selection pressure)",
-        "phylogenetic_age": "~200Myr (mammalian)",
+        "phylogenetic_age": "~165-200Myr (attachment, mammals); human layered network not dated",
         "source_researchers": [
           "Bowlby",
           "Panksepp",
@@ -509,96 +421,6 @@
         }
       },
       {
-        "code": "M10",
-        "name": "Movement / Regulatory",
-        "tier": 2,
-        "grade": "strongly_supported",
-        "eli5": "Movement isn't just exercise - it activates repair mechanisms throughout the organism.",
-        "description": "Physical activity as zeitgeber, anti-inflammatory, mood regulator.",
-        "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hunter-gatherers typically moved 9-15 km a day as a side effect of how they lived.",
-        "mismatch_prediction": "Sedentarism. Gym sessions as partial compensation.",
-        "proxy_gradient": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
-        "convergence_codes": [
-          "C3",
-          "C9"
-        ],
-        "p1_basis": "Survival (fitness predicts mortality)",
-        "phylogenetic_age": "~500Myr",
-        "source_researchers": [
-          "Pontzer",
-          "Lieberman",
-          "Ratey"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [
-          "M1",
-          "M3"
-        ],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": null,
-        "activation_class_secondary": null,
-        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
-          "preamble": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "all-day incidental movement of foraging life, locomotion plus active rest postures",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "a physically active job, farming/manual labour/walking-heavy trade",
-              "state": "ATTENUATED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "chair-bound sedentarism with essentially no movement",
-              "state": "DEFEATED",
-              "tag": null,
-              "note": ""
-            }
-          ],
-          "trailing": "All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M5",
         "name": "Status Monitoring",
         "tier": 1,
@@ -615,7 +437,7 @@
           "C13"
         ],
         "p1_basis": "Survival (hierarchy physiology, resource access)",
-        "phylogenetic_age": "~50-100Myr (primates + social mammals)",
+        "phylogenetic_age": "~420-445Myr (rank circuit, bony vertebrates); rank-linked health ~25-34Myr+ (Old World primates)",
         "source_researchers": [
           "Gilbert",
           "Price",
@@ -706,7 +528,7 @@
           "C8"
         ],
         "p1_basis": "Survival (pathogen avoidance; a behavioural immune system)",
-        "phylogenetic_age": "~300Myr",
+        "phylogenetic_age": "~25-34Myr+ (contamination avoidance, Old World primates); parasite avoidance across animals has no single age",
         "source_researchers": [
           "Rozin",
           "Curtis",
@@ -765,6 +587,95 @@
         }
       },
       {
+        "code": "M13",
+        "name": "Energy Regulation",
+        "tier": 2,
+        "grade": "strongly_supported",
+        "eli5": "Hunger, satiety, and constrained total energy expenditure.",
+        "description": "Pontzer's constrained energy model. Energy is redistributed, not burned.",
+        "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
+        "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
+        "proxy_gradient": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
+        "convergence_codes": [
+          "C3",
+          "C6",
+          "C9"
+        ],
+        "p1_basis": "Reproduction (energy stores were tuned for fertility more than for health)",
+        "phylogenetic_age": "~420Myr+ (appetite brake, jawed vertebrates); human energy budget under ~10Myr",
+        "source_researchers": [
+          "Pontzer",
+          "Keys"
+        ],
+        "cascade_suppresses": [
+          "M2"
+        ],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": "homeostatic",
+        "activation_class_secondary": null,
+        "activation_note": "Deprivation builds pressure (hunger), consummation terminates it.",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
+          "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "effortful, diverse, seasonal whole foods",
+              "state": "FULL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 1,
+              "label": "minimally processed traditional whole foods",
+              "state": "ATTENUATED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "conventionally processed energy-dense food",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "energy-dense palatable food optimized for crave",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "ultra-processed bliss-point food, an engineered supernormal stimulus",
+              "state": "DEFEATED",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            }
+          ],
+          "trailing": "Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
         "code": "M1",
         "name": "Threat Management",
         "tier": 1,
@@ -778,7 +689,7 @@
           "C10"
         ],
         "p1_basis": "Survival (predation avoidance, competitor management)",
-        "phylogenetic_age": "~500Myr (all vertebrates)",
+        "phylogenetic_age": "~460-535Myr (defence centre, all vertebrates); amygdala circuit ~340Myr+ (four-limbed vertebrates)",
         "source_researchers": [
           "Panksepp",
           "LeDoux",
@@ -859,95 +770,6 @@
         }
       },
       {
-        "code": "M13",
-        "name": "Energy Regulation",
-        "tier": 2,
-        "grade": "strongly_supported",
-        "eli5": "Hunger, satiety, and constrained total energy expenditure.",
-        "description": "Pontzer's constrained energy model. Energy is redistributed, not burned.",
-        "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
-        "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
-        "proxy_gradient": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
-        "convergence_codes": [
-          "C3",
-          "C6",
-          "C9"
-        ],
-        "p1_basis": "Reproduction (energy stores were tuned for fertility more than for health)",
-        "phylogenetic_age": "~500Myr",
-        "source_researchers": [
-          "Pontzer",
-          "Keys"
-        ],
-        "cascade_suppresses": [
-          "M2"
-        ],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": "homeostatic",
-        "activation_class_secondary": null,
-        "activation_note": "Deprivation builds pressure (hunger), consummation terminates it.",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
-          "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "effortful, diverse, seasonal whole foods",
-              "state": "FULL",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            },
-            {
-              "index": 1,
-              "label": "minimally processed traditional whole foods",
-              "state": "ATTENUATED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "conventionally processed energy-dense food",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "energy-dense palatable food optimized for crave",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "ultra-processed bliss-point food, an engineered supernormal stimulus",
-              "state": "DEFEATED",
-              "tag": "EVIDENCED",
-              "note": "EVIDENCED"
-            }
-          ],
-          "trailing": "Endpoints EVIDENCED, middle three architecture-derived. Most contestable: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M7",
         "name": "Circadian Regulation",
         "tier": 1,
@@ -963,7 +785,7 @@
           "C12"
         ],
         "p1_basis": "Survival (gates metabolism and immunity; shift work raises heart attack risk)",
-        "phylogenetic_age": "~3Byr (cyanobacteria onward)",
+        "phylogenetic_age": "~500Myr+ (animal clock genes, insects and vertebrates); cyanobacterial clocks are older but a separate origin",
         "source_researchers": [
           "Walker",
           "Roenneberg",
@@ -1038,92 +860,6 @@
         }
       },
       {
-        "code": "R1",
-        "name": "Touch",
-        "tier": 3,
-        "grade": "moderate",
-        "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
-        "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
-        "resolution_conditions": "Regular physical contact with trusted others.",
-        "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
-        "proxy_gradient": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-        "convergence_codes": [
-          "C4",
-          "C5"
-        ],
-        "p1_basis": "Survival (touch is a growth input for infants)",
-        "phylogenetic_age": "~200Myr (mammalian)",
-        "source_researchers": [
-          "McGlone",
-          "Field"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_differentiated": false,
-        "sex_diff_notes": null,
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": null,
-        "activation_class_secondary": null,
-        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-          "preamble": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "affectionate touch from a trusted, reciprocating other",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "affective touch from a non-intimate caregiver / massage",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "incidental, non-affective everyday contact",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "weighted / deep-pressure substitute, no living other",
-              "state": "MINIMAL",
-              "tag": "SPECULATIVE",
-              "note": "SPECULATIVE/future-conditional"
-            },
-            {
-              "index": 4,
-              "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
-              "state": "ZERO",
-              "tag": "SPECULATIVE",
-              "note": "SPECULATIVE/future-conditional"
-            }
-          ],
-          "trailing": "Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
         "code": "M6",
         "name": "Controllability / Agency",
         "tier": 1,
@@ -1138,7 +874,7 @@
           "C13"
         ],
         "p1_basis": "Survival (escape from uncontrollable threat; low control predicts heart disease)",
-        "phylogenetic_age": "~200Myr",
+        "phylogenetic_age": "~60-90Myr+ (placental mammals; possibly ~165-200Myr, all mammals; contested)",
         "source_researchers": [
           "Maier & Seligman"
         ],
@@ -1228,7 +964,7 @@
           "C9"
         ],
         "p1_basis": "Survival (infection was a leading ancestral killer)",
-        "phylogenetic_age": "~600Myr (all multicellular)",
+        "phylogenetic_age": "~550-830Myr (innate immunity, animals; contested); adaptive immunity ~420-470Myr (jawed vertebrates)",
         "source_researchers": [
           "Dantzer",
           "Danese",
@@ -1304,6 +1040,107 @@
         }
       },
       {
+        "code": "M9",
+        "name": "Care / Alloparenting",
+        "tier": 1,
+        "grade": "established",
+        "eli5": "Distributed care - the organism expects a village, not solo parenting.",
+        "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
+        "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
+        "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
+        "proxy_gradient": "TWO scales (#1581). Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
+        "convergence_codes": [
+          "C1",
+          "C4",
+          "C5",
+          "C12"
+        ],
+        "p1_basis": "Reproduction (raising slow-maturing young needs more care than one mother can supply)",
+        "phylogenetic_age": "~165-200Myr (maternal care, mammals); human cooperative breeding ~2Myr+ (argued)",
+        "source_researchers": [
+          "Hrdy",
+          "Panksepp",
+          "Kenkel"
+        ],
+        "cascade_suppresses": [
+          "M14"
+        ],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": null,
+        "activation_class_secondary": null,
+        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
+        "proxy_gradient_parsed": {
+          "raw": "TWO scales (#1581). Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
+          "preamble": "TWO scales (#1581)",
+          "axes": [
+            {
+              "label": "Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship)",
+              "levels": [
+                {
+                  "index": 0,
+                  "label": "distributed ~4+ kin-and-community network",
+                  "state": "FULL",
+                  "tag": null,
+                  "note": ""
+                },
+                {
+                  "index": 1,
+                  "label": "multiple reliable caregivers incl. high-quality paid care",
+                  "state": "REDUCED",
+                  "tag": null,
+                  "note": ""
+                },
+                {
+                  "index": 2,
+                  "label": "single intermittent helper / high-turnover institutional care",
+                  "state": "THIN",
+                  "tag": null,
+                  "note": ""
+                },
+                {
+                  "index": 3,
+                  "label": "solo/dyadic parent, no network",
+                  "state": "EMPTY SHELF",
+                  "tag": null,
+                  "note": "deprivation floor, not a proxy"
+                }
+              ]
+            },
+            {
+              "label": "Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit)",
+              "levels": [
+                {
+                  "index": 0,
+                  "label": "screen/app babysitter → AI/robot 'caregiver'",
+                  "state": "ZERO",
+                  "tag": "ARCHITECTURE-DERIVED",
+                  "note": "architecture-derived"
+                }
+              ]
+            }
+          ],
+          "levels": [],
+          "trailing": "",
+          "demoted": "",
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
         "code": "M2",
         "name": "Pursuit / Exploration",
         "tier": 1,
@@ -1317,7 +1154,7 @@
           "C6"
         ],
         "p1_basis": "Survival (resource acquisition, learning, adaptation)",
-        "phylogenetic_age": "~500Myr",
+        "phylogenetic_age": "~460-535Myr (dopamine basal ganglia, all vertebrates; contested); reward pathway ~165Myr+ (mammals)",
         "source_researchers": [
           "Panksepp",
           "Berridge"
@@ -1413,7 +1250,7 @@
           "C12"
         ],
         "p1_basis": "Development (social skill acquisition)",
-        "phylogenetic_age": "~200Myr (mammalian, absent in reptiles)",
+        "phylogenetic_age": "~60Myr+ (social play, all primates; up to ~170Myr if one mammal system); play in reptiles and fish arose separately",
         "source_researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -1491,31 +1328,205 @@
         }
       },
       {
-        "code": "M9",
-        "name": "Care / Alloparenting",
-        "tier": 1,
-        "grade": "established",
-        "eli5": "Distributed care - the organism expects a village, not solo parenting.",
-        "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
-        "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. Traditional-society data typically shows multiple non-parent caregivers (~4+); the critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
-        "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
-        "proxy_gradient": "TWO scales (#1581). Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
+        "code": "M10",
+        "name": "Movement / Regulatory",
+        "tier": 2,
+        "grade": "strongly_supported",
+        "eli5": "Movement isn't just exercise - it activates repair mechanisms throughout the organism.",
+        "description": "Physical activity as zeitgeber, anti-inflammatory, mood regulator.",
+        "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hunter-gatherers typically moved 9-15 km a day as a side effect of how they lived.",
+        "mismatch_prediction": "Sedentarism. Gym sessions as partial compensation.",
+        "proxy_gradient": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
         "convergence_codes": [
-          "C1",
-          "C4",
-          "C5",
-          "C12"
+          "C3",
+          "C9"
         ],
-        "p1_basis": "Reproduction (raising slow-maturing young needs more care than one mother can supply)",
-        "phylogenetic_age": "~200Myr",
+        "p1_basis": "Survival (fitness predicts mortality)",
+        "phylogenetic_age": "~2Myr (human form, argued); older regulatory roles not dated",
         "source_researchers": [
-          "Hrdy",
-          "Panksepp",
-          "Kenkel"
+          "Pontzer",
+          "Lieberman",
+          "Ratey"
         ],
-        "cascade_suppresses": [
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [
+          "M1",
+          "M3"
+        ],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": null,
+        "activation_class_secondary": null,
+        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
+          "preamble": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "all-day incidental movement of foraging life, locomotion plus active rest postures",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "a physically active job, farming/manual labour/walking-heavy trade",
+              "state": "ATTENUATED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "chair-bound sedentarism with essentially no movement",
+              "state": "DEFEATED",
+              "tag": null,
+              "note": ""
+            }
+          ],
+          "trailing": "All five EVIDENCED. Most contestable: the gym (MINIMAL) ranked below incidental all-day NEAT (PARTIAL) - would swap on a fitness/mortality rather than distribution axis.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "M11",
+        "name": "Cooperation / Alliance",
+        "tier": 2,
+        "grade": "strongly_supported",
+        "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
+        "description": "Reciprocity + norm enforcement + alliance dynamics. Absorbs old M10 (Cooperation) and M11 (Coalitional). NOTE: Tier 2 is a confidence grade, not an entailment status. M11 IS entailment-forced - convergence C11 forces it - and its four converging streams (Fehr & Gächter, Boehm, Tomasello, Trivers) strongly support it without reaching the top confidence tier.",
+        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+        "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
+        "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
+        "convergence_codes": [
+          "C11"
+        ],
+        "p1_basis": "Survival (survival, security and marriages depended on alliance networks)",
+        "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
+        "source_researchers": [
+          "Trivers",
+          "Boehm",
+          "Fehr & Gächter",
+          "Tomasello"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [
           "M14"
         ],
+        "cascade_interacts": [],
+        "sex_differentiated": false,
+        "sex_diff_notes": null,
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": null,
+        "activation_class_secondary": null,
+        "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
+          "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
+              "state": "FULL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 1,
+              "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
+              "state": "PARTIAL",
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED"
+            },
+            {
+              "index": 2,
+              "label": "market exchange among strangers backed by gameable reputation systems",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "coalition-signaling and parasocial alliance via symbolic in-group markers",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
+              "state": "ZERO",
+              "tag": "ARCHITECTURE-DERIVED",
+              "note": "architecture-derived"
+            }
+          ],
+          "trailing": "Most contestable: the PARTIAL/MIXED boundary - where proxy failure begins.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
+        "code": "R1",
+        "name": "Touch",
+        "tier": 3,
+        "grade": "moderate",
+        "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
+        "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
+        "resolution_conditions": "Regular physical contact with trusted others.",
+        "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
+        "proxy_gradient": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+        "convergence_codes": [
+          "C4",
+          "C5"
+        ],
+        "p1_basis": "Survival (touch is a growth input for infants)",
+        "phylogenetic_age": "~60-90Myr (C-tactile touch fibres, placental mammals)",
+        "source_researchers": [
+          "McGlone",
+          "Field"
+        ],
+        "cascade_suppresses": [],
         "cascade_suppressed_by": [],
         "cascade_interacts": [],
         "sex_differentiated": false,
@@ -1525,58 +1536,48 @@
         "activation_class_secondary": null,
         "activation_note": "activation_class deliberately unassigned; judge on next evidence ingestion for this mechanism (wave-2 brief).",
         "proxy_gradient_parsed": {
-          "raw": "TWO scales (#1581). Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed ~4+ kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
-          "preamble": "TWO scales (#1581)",
-          "axes": [
+          "raw": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
+          "preamble": "5 levels (CONTESTED - possibly Kind C; NOT a flagship; cue - function separability premise disputed per #1584)",
+          "levels": [
             {
-              "label": "Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship)",
-              "levels": [
-                {
-                  "index": 0,
-                  "label": "distributed ~4+ kin-and-community network",
-                  "state": "FULL",
-                  "tag": null,
-                  "note": ""
-                },
-                {
-                  "index": 1,
-                  "label": "multiple reliable caregivers incl. high-quality paid care",
-                  "state": "REDUCED",
-                  "tag": null,
-                  "note": ""
-                },
-                {
-                  "index": 2,
-                  "label": "single intermittent helper / high-turnover institutional care",
-                  "state": "THIN",
-                  "tag": null,
-                  "note": ""
-                },
-                {
-                  "index": 3,
-                  "label": "solo/dyadic parent, no network",
-                  "state": "EMPTY SHELF",
-                  "tag": null,
-                  "note": "deprivation floor, not a proxy"
-                }
-              ]
+              "index": 0,
+              "label": "affectionate touch from a trusted, reciprocating other",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
             },
             {
-              "label": "Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit)",
-              "levels": [
-                {
-                  "index": 0,
-                  "label": "screen/app babysitter → AI/robot 'caregiver'",
-                  "state": "ZERO",
-                  "tag": "ARCHITECTURE-DERIVED",
-                  "note": "architecture-derived"
-                }
-              ]
+              "index": 1,
+              "label": "affective touch from a non-intimate caregiver / massage",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "incidental, non-affective everyday contact",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "weighted / deep-pressure substitute, no living other",
+              "state": "MINIMAL",
+              "tag": "SPECULATIVE",
+              "note": "SPECULATIVE/future-conditional"
+            },
+            {
+              "index": 4,
+              "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
+              "state": "ZERO",
+              "tag": "SPECULATIVE",
+              "note": "SPECULATIVE/future-conditional"
             }
           ],
-          "levels": [],
-          "trailing": "",
+          "trailing": "Ordered by remaining relational/bond function; monotonic_ok=False - MINIMAL and ZERO both have zero relational function, split only by a secondary cue-magnitude axis.",
           "demoted": "",
+          "axes": [],
           "state_order": [
             "FULL",
             "ATTENUATED",
@@ -2475,15 +2476,6 @@
         "primary_researcher_id": 22
       },
       {
-        "id": 31,
-        "title": "Disgust as an Adaptive System for Disease Avoidance Behaviour",
-        "authors": "Curtis V, de Barra M, Aunger R",
-        "year": 2011,
-        "work_type": "paper",
-        "importance": "pillar",
-        "primary_researcher_id": 64
-      },
-      {
         "id": 34,
         "title": "Salt Sugar Fat: How the Food Giants Hooked Us",
         "authors": "Moss M",
@@ -2536,6 +2528,15 @@
         "work_type": "review",
         "importance": "key",
         "primary_researcher_id": null
+      },
+      {
+        "id": 31,
+        "title": "Disgust as an Adaptive System for Disease Avoidance Behaviour",
+        "authors": "Curtis V, de Barra M, Aunger R",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "pillar",
+        "primary_researcher_id": 64
       },
       {
         "id": 94,
@@ -4615,6 +4616,402 @@
         "work_type": "paper",
         "importance": "supporting",
         "primary_researcher_id": null
+      },
+      {
+        "id": 523,
+        "title": "Rethinking the emotional brain",
+        "authors": "LeDoux J",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 524,
+        "title": "Evolution of the amygdaloid complex in vertebrates, with special reference to the anamnio-amniotic transition",
+        "authors": "Moreno N, Gonzalez A",
+        "year": 2007,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 525,
+        "title": "Avoidance response in goldfish: emotional and temporal involvement of medial and lateral telencephalic pallium",
+        "authors": "Portavella M, Torres B, Salas C",
+        "year": 2004,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 526,
+        "title": "Griseum centrale, a homologue of the periaqueductal gray in the lamprey",
+        "authors": "Olson I, Suryanarayana SM, Robertson B, Grillner S",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 527,
+        "title": "The neural bases of vertebrate motor behaviour through the lens of evolution",
+        "authors": "Suryanarayana SM, Robertson B, Grillner S",
+        "year": 2022,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 528,
+        "title": "The basal ganglia downstream control of action: an evolutionarily conserved strategy",
+        "authors": "Frost-Nylen J, Thompson WS, Robertson B, Grillner S",
+        "year": 2024,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 529,
+        "title": "The evolution of dopamine systems in chordates",
+        "authors": "Yamamoto K, Vernier P",
+        "year": 2011,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 530,
+        "title": "Cross-species affective neuroscience decoding of the primal affective experiences of humans and related animals",
+        "authors": "Panksepp J",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 531,
+        "title": "Affective neuroscience of the emotional BrainMind: evolutionary perspectives and implications for understanding depression",
+        "authors": "Panksepp J",
+        "year": 2010,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 532,
+        "title": "The implications of multiple circadian clock origins",
+        "authors": "Rosbash M",
+        "year": 2009,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 533,
+        "title": "Light entrained rhythmic gene expression in the sea anemone Nematostella vectensis: the evolution of the animal circadian clock",
+        "authors": "Reitzel AM, Behrendt L, Tarrant AM",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 534,
+        "title": "Origin and evolution of circadian clock genes in prokaryotes",
+        "authors": "Dvornyk V, Vinogradova O, Nevo E",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 535,
+        "title": "Adaptive capacity: an evolutionary neuroscience model linking exercise, cognition, and brain health",
+        "authors": "Raichlen DA, Alexander GE",
+        "year": 2017,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 537,
+        "title": "Assessing the functional role of leptin in energy homeostasis and the stress response in vertebrates",
+        "authors": "Deck CA, Honeycutt JL, Cheung E, Reynolds HM, Borski RJ",
+        "year": 2017,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 538,
+        "title": "Functional characterization of two melanocortin (MC) receptors in lamprey showing orthology to the MC1 and MC4 receptor subtypes",
+        "authors": "Haitina T, Klovins J, Takahashi A, Lowgren M, Ringholm A, Enberg J, Kawauchi H, Larson ET, Fredriksson R, Schioth HB",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 539,
+        "title": "Metabolic acceleration and the evolution of human brain size and life history",
+        "authors": "Pontzer H, Brown MH, Raichlen DA, Dunsworth H, Hare B, Walker K, Luke A, Dugas LR, Durazo-Arvizu R, Schoeller D, Plange-Rhule J, Bovet P, Forrester TE, Lambert EV, Thompson ME, Shumaker RW, Ross SR",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 542,
+        "title": "Structure and function in human and primate social networks: implications for diffusion, network stability and health",
+        "authors": "Dunbar RIM",
+        "year": 2020,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 549,
+        "title": "The evolutionary origin of human hyper-cooperation",
+        "authors": "Burkart JM, Allon O, Amici F, Fichtel C, Finkenwirth C, Heschl A, Huber J, Isler K, Kosonen ZK, Martins E, Meulman EJ, Richiger R, Rueth K, Spillmann B, Wiesendanger S, van Schaik CP",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 550,
+        "title": "Cooperative breeding as a likely early catalyst of human evolution",
+        "authors": "Burkart JM, Cerrito P, Natalucci G, van Schaik CP",
+        "year": 2025,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 552,
+        "title": "The neural mechanisms and circuitry of the pair bond",
+        "authors": "Walum H, Young LJ",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 554,
+        "title": "Sexual dimorphism in Australopithecus afarensis was similar to that of modern humans",
+        "authors": "Reno PL, Meindl RS, McCollum MA, Lovejoy CO",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 558,
+        "title": "Genetic identification of C fibres that detect massage-like stroking of hairy skin in vivo",
+        "authors": "Vrontou S, Wong AM, Rau KK, Koerber HR, Anderson DJ",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 570,
+        "title": "Phylogenomic datasets provide both precision and accuracy in estimating the timescale of placental mammal phylogeny",
+        "authors": "dos Reis M, Inoue J, Hasegawa M, Asher RJ, Donoghue PCJ, Yang Z",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 540,
+        "title": "Universal nomenclature for oxytocin-vasotocin ligand and receptor families",
+        "authors": "Theofanopoulou C, Gedman G, Cahill JA, Boeckx C, Jarvis ED",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 541,
+        "title": "Network scaling reveals consistent fractal pattern in hierarchical mammalian societies",
+        "authors": "Hill RA, Bentley RA, Dunbar RIM",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 551,
+        "title": "Evolution of vertebrate GnRH receptors from the perspective of a basal vertebrate",
+        "authors": "Sower SA, Decatur WA, Joseph NT, Freamat M",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 557,
+        "title": "Tactile C fibers and their contributions to pleasant sensations and to tactile allodynia",
+        "authors": "Liljencrantz J, Olausson H",
+        "year": 2014,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 564,
+        "title": "Origin and evolution of the adaptive immune system: genetic events and selective pressures",
+        "authors": "Flajnik MF, Kasahara M",
+        "year": 2010,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 569,
+        "title": "Uncertainty in the timing of origin of animals and the limits of precision in molecular timescales",
+        "authors": "dos Reis M, Thawornwattana Y, Angelis K, Telford MJ, Donoghue PCJ, Yang Z",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 574,
+        "title": "Current perspectives and the future of domestication studies",
+        "authors": "Larson G, Piperno DR, Allaby RG, Purugganan MD, Andersson L, Arroyo-Kalin M, Barton L, Climer Vigueira C, Denham T, Dobney K, Doust AN, Gepts P, Gilbert MTP, Gremillion KJ, Lucas L, Lukens L, Marshall FB, Olsen KM, Pires JC, Richerson PJ, Rubio de Casas R, Sanjur OI, Thomas MG, Fuller DQ",
+        "year": 2014,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 575,
+        "title": "Domestication and early agriculture in the Mediterranean Basin: Origins, diffusion, and impact",
+        "authors": "Zeder MA",
+        "year": 2008,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 576,
+        "title": "The past explains the present: Emotional adaptations and the structure of ancestral environments",
+        "authors": "Tooby J, Cosmides L",
+        "year": 1990,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 543,
+        "title": "The biology of mammalian parenting and its effect on offspring social development",
+        "authors": "Rilling JK, Young LJ",
+        "year": 2014,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 553,
+        "title": "The evolution of social monogamy in mammals",
+        "authors": "Lukas D, Clutton-Brock TH",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 559,
+        "title": "Social information changes the brain",
+        "authors": "Fernald RD, Maruska KP",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 560,
+        "title": "Social determinants of health and survival in humans and other animals",
+        "authors": "Snyder-Mackler N, Burger JR, Gaydosh L, Belsky DW, Noppert GA, Campos FA, Bartolomucci A, Yang YC, Aiello AE, O'Rand A, Harris KM, Shively CA, Alberts SC, Tung J",
+        "year": 2020,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 562,
+        "title": "What, if anything, is rodent prefrontal cortex?",
+        "authors": "Laubach M, Amarante LM, Swanson K, White SR",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 571,
+        "title": "Generation times in wild chimpanzees and gorillas suggest earlier divergence times in great ape and human evolution",
+        "authors": "Langergraber KE, Prüfer K, Rowney C, Boesch C, Crockford C, Fawcett K, Inoue E, Inoue-Muruyama M, Mitani JC, Muller MN, Robbins MM, Schubert G, Stoinski TS, Viola B, Watts D, Wittig RM, Wrangham RW, Zuberbühler K, Pääbo S, Vigilant L",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 545,
+        "title": "A brief glimpse at the long evolutionary history of play",
+        "authors": "Burghardt GM",
+        "year": 2014,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 546,
+        "title": "Animal play and evolution: Seven timely research issues about enigmatic phenomena",
+        "authors": "Burghardt GM, Pellis SM, Schank JC, Smaldino PE, Vanderschuren LJMJ, Palagi E",
+        "year": 2024,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 547,
+        "title": "Play behavior in crocodilians",
+        "authors": "Dinets V",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 563,
+        "title": "Serotonin modulates a depression-like state in Drosophila responsive to lithium treatment",
+        "authors": "Ries AS, Hermanns T, Poeck B, Strauss R",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 568,
+        "title": "Constraints on the timescale of animal evolutionary history",
+        "authors": "Benton MJ, Donoghue PCJ, Asher RJ, Friedman M, Near TJ, Vinther J",
+        "year": 2015,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null
+      },
+      {
+        "id": 572,
+        "title": "New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+        "authors": "Hublin J-J, Ben-Ncer A, Bailey SE, Freidline SE, Neubauer S, Skinner MM, Bergmann I, Le Cabec A, Benazzi S, Harvati K, Gunz P",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null
       }
     ],
     "extractions": [
@@ -5014,18 +5411,6 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "OF1"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 38,
-        "work_id": 19,
-        "mechanism_codes": [
-          "M13"
-        ],
-        "foundation_codes": [
-          "P3"
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
@@ -7779,6 +8164,16 @@
         "source_type": "primary"
       },
       {
+        "id": 1141,
+        "work_id": 534,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
         "id": 209,
         "work_id": 57,
         "mechanism_codes": [
@@ -7990,17 +8385,6 @@
         "source_type": "primary"
       },
       {
-        "id": 577,
-        "work_id": 99,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P2",
-          "P3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
         "id": 578,
         "work_id": 99,
         "mechanism_codes": [],
@@ -8020,6 +8404,16 @@
           "P2"
         ],
         "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 1144,
+        "work_id": 537,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
         "source_type": "primary"
       },
       {
@@ -8309,21 +8703,6 @@
         ],
         "foundation_codes": [
           "P1",
-          "P2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary"
-      },
-      {
-        "id": 267,
-        "work_id": 4,
-        "mechanism_codes": [
-          "M1",
-          "M2",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA8",
           "P2"
         ],
         "evidence_quality": "theoretical",
@@ -8945,18 +9324,6 @@
         "source_type": "empirical"
       },
       {
-        "id": 471,
-        "work_id": 19,
-        "mechanism_codes": [
-          "M13"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation"
-      },
-      {
         "id": 129,
         "work_id": 52,
         "mechanism_codes": [
@@ -9023,6 +9390,18 @@
         ],
         "evidence_quality": "thin",
         "source_type": "challenge"
+      },
+      {
+        "id": 1123,
+        "work_id": 523,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
       },
       {
         "id": 202,
@@ -9103,6 +9482,16 @@
           "P3"
         ],
         "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1124,
+        "work_id": 523,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -9586,6 +9975,18 @@
         "source_type": "primary"
       },
       {
+        "id": 1125,
+        "work_id": 524,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
         "id": 477,
         "work_id": 67,
         "mechanism_codes": [
@@ -9611,6 +10012,26 @@
           "OF2"
         ],
         "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1127,
+        "work_id": 525,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1131,
+        "work_id": 527,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
         "source_type": "primary"
       },
       {
@@ -10773,6 +11194,16 @@
         "source_type": "primary"
       },
       {
+        "id": 1126,
+        "work_id": 524,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
         "id": 356,
         "work_id": 2,
         "mechanism_codes": [
@@ -10871,6 +11302,16 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "primary"
+      },
+      {
+        "id": 1147,
+        "work_id": 539,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
       },
       {
         "id": 365,
@@ -12222,6 +12663,27 @@
         "source_type": "primary"
       },
       {
+        "id": 1152,
+        "work_id": 542,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1154,
+        "work_id": 543,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
         "id": 645,
         "work_id": 147,
         "mechanism_codes": [
@@ -12311,6 +12773,28 @@
         "source_type": "empirical"
       },
       {
+        "id": 1128,
+        "work_id": 526,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1130,
+        "work_id": 527,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "primary"
+      },
+      {
         "id": 652,
         "work_id": 151,
         "mechanism_codes": [
@@ -12352,6 +12836,47 @@
         ],
         "evidence_quality": "meta_analysis",
         "source_type": "propagation"
+      },
+      {
+        "id": 1129,
+        "work_id": 527,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "primary"
+      },
+      {
+        "id": 1133,
+        "work_id": 529,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "challenge"
+      },
+      {
+        "id": 1135,
+        "work_id": 530,
+        "mechanism_codes": [
+          "M1",
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1137,
+        "work_id": 531,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
       },
       {
         "id": 661,
@@ -12761,6 +13286,16 @@
         "source_type": "challenge"
       },
       {
+        "id": 1162,
+        "work_id": 549,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
         "id": 977,
         "work_id": 445,
         "mechanism_codes": [
@@ -12832,6 +13367,16 @@
           "OF2"
         ],
         "evidence_quality": "clinical",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1184,
+        "work_id": 563,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
         "source_type": "empirical"
       },
       {
@@ -13135,6 +13680,18 @@
         "source_type": "empirical"
       },
       {
+        "id": 1132,
+        "work_id": 528,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary"
+      },
+      {
         "id": 892,
         "work_id": 378,
         "mechanism_codes": [
@@ -13198,6 +13755,26 @@
         "source_type": "challenge"
       },
       {
+        "id": 1134,
+        "work_id": 529,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1142,
+        "work_id": 535,
+        "mechanism_codes": [
+          "M10"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
         "id": 463,
         "work_id": 25,
         "mechanism_codes": [
@@ -13220,6 +13797,27 @@
           "DA1"
         ],
         "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1136,
+        "work_id": 531,
+        "mechanism_codes": [
+          "M1",
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1138,
+        "work_id": 532,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
         "source_type": "primary"
       },
       {
@@ -13574,6 +14172,26 @@
         "source_type": "primary"
       },
       {
+        "id": 1139,
+        "work_id": 532,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "challenge"
+      },
+      {
+        "id": 1145,
+        "work_id": 537,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "primary"
+      },
+      {
         "id": 526,
         "work_id": 79,
         "mechanism_codes": [
@@ -13835,6 +14453,16 @@
         ],
         "evidence_quality": "thin",
         "source_type": "primary"
+      },
+      {
+        "id": 1140,
+        "work_id": 533,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical"
       },
       {
         "id": 90,
@@ -15378,6 +16006,590 @@
         ],
         "evidence_quality": "theoretical",
         "source_type": "challenge"
+      },
+      {
+        "id": 1146,
+        "work_id": 538,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1149,
+        "work_id": 540,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1151,
+        "work_id": 541,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1163,
+        "work_id": 549,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1165,
+        "work_id": 550,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1167,
+        "work_id": 551,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1148,
+        "work_id": 530,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1150,
+        "work_id": 540,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1156,
+        "work_id": 545,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1158,
+        "work_id": 546,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1160,
+        "work_id": 547,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1166,
+        "work_id": 550,
+        "mechanism_codes": [
+          "M14",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1153,
+        "work_id": 543,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1157,
+        "work_id": 545,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1159,
+        "work_id": 546,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1169,
+        "work_id": 553,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1177,
+        "work_id": 559,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1164,
+        "work_id": 550,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1168,
+        "work_id": 552,
+        "mechanism_codes": [
+          "M14",
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1170,
+        "work_id": 553,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1172,
+        "work_id": 554,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1176,
+        "work_id": 558,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1178,
+        "work_id": 559,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1182,
+        "work_id": 32,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1171,
+        "work_id": 459,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 1175,
+        "work_id": 557,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1185,
+        "work_id": 564,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1197,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1201,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 1203,
+        "work_id": 569,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1179,
+        "work_id": 560,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1181,
+        "work_id": 32,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1183,
+        "work_id": 562,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1187,
+        "work_id": 564,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1191,
+        "work_id": 31,
+        "mechanism_codes": [
+          "M12"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1186,
+        "work_id": 564,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1194,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1198,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1202,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1188,
+        "work_id": 1,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1196,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1200,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1204,
+        "work_id": 570,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1195,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary"
+      },
+      {
+        "id": 1199,
+        "work_id": 568,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1205,
+        "work_id": 571,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical"
+      },
+      {
+        "id": 1207,
+        "work_id": 572,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 38,
+        "work_id": 19,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1206,
+        "work_id": 572,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1210,
+        "work_id": 574,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1212,
+        "work_id": 575,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1214,
+        "work_id": 576,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 267,
+        "work_id": 4,
+        "mechanism_codes": [
+          "M1",
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA8",
+          "P2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 1209,
+        "work_id": 574,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary"
+      },
+      {
+        "id": 1211,
+        "work_id": 575,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary"
+      },
+      {
+        "id": 1213,
+        "work_id": 576,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
+      },
+      {
+        "id": 471,
+        "work_id": 19,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation"
+      },
+      {
+        "id": 577,
+        "work_id": 99,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P2",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary"
       }
     ],
     "researchers": [
@@ -17376,9 +18588,225 @@
         "evidence_role": "primary"
       },
       {
+        "id": 1540,
+        "mechanism_code": "M1",
+        "extraction_id": 1123,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1542,
+        "mechanism_code": "M1",
+        "extraction_id": 1125,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1544,
+        "mechanism_code": "M1",
+        "extraction_id": 1127,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1548,
+        "mechanism_code": "M2",
+        "extraction_id": 1131,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1560,
+        "mechanism_code": "M7",
+        "extraction_id": 1141,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1566,
+        "mechanism_code": "M13",
+        "extraction_id": 1147,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1573,
+        "mechanism_code": "M3",
+        "extraction_id": 1152,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1575,
+        "mechanism_code": "M3",
+        "extraction_id": 1154,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1576,
+        "mechanism_code": "M9",
+        "extraction_id": 1154,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1585,
+        "mechanism_code": "M9",
+        "extraction_id": 1162,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1587,
+        "mechanism_code": "M9",
+        "extraction_id": 1164,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1592,
+        "mechanism_code": "M14",
+        "extraction_id": 1168,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1593,
+        "mechanism_code": "M3",
+        "extraction_id": 1168,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1595,
+        "mechanism_code": "M14",
+        "extraction_id": 1170,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1597,
+        "mechanism_code": "M14",
+        "extraction_id": 1172,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1601,
+        "mechanism_code": "M3",
+        "extraction_id": 1176,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1603,
+        "mechanism_code": "M5",
+        "extraction_id": 1178,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1607,
+        "mechanism_code": "M6",
+        "extraction_id": 1182,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1613,
+        "mechanism_code": "M11",
+        "extraction_id": 1188,
+        "evidence_role": "primary"
+      },
+      {
         "id": 241,
         "mechanism_code": "M10",
         "extraction_id": 207,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1541,
+        "mechanism_code": "M1",
+        "extraction_id": 1124,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1543,
+        "mechanism_code": "M1",
+        "extraction_id": 1126,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1554,
+        "mechanism_code": "M1",
+        "extraction_id": 1136,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1555,
+        "mechanism_code": "M2",
+        "extraction_id": 1136,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1557,
+        "mechanism_code": "M7",
+        "extraction_id": 1138,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1559,
+        "mechanism_code": "M7",
+        "extraction_id": 1140,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1563,
+        "mechanism_code": "M13",
+        "extraction_id": 1144,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1565,
+        "mechanism_code": "M13",
+        "extraction_id": 1146,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1568,
+        "mechanism_code": "M3",
+        "extraction_id": 1149,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1569,
+        "mechanism_code": "M9",
+        "extraction_id": 1149,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1572,
+        "mechanism_code": "M3",
+        "extraction_id": 1151,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1586,
+        "mechanism_code": "M9",
+        "extraction_id": 1163,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1588,
+        "mechanism_code": "M9",
+        "extraction_id": 1165,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1591,
+        "mechanism_code": "M14",
+        "extraction_id": 1167,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1596,
+        "mechanism_code": "M14",
+        "extraction_id": 1171,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1600,
+        "mechanism_code": "M3",
+        "extraction_id": 1175,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1610,
+        "mechanism_code": "M8",
+        "extraction_id": 1185,
         "evidence_role": "primary"
       },
       {
@@ -17386,6 +18814,96 @@
         "mechanism_code": "M13",
         "extraction_id": 207,
         "evidence_role": "supporting"
+      },
+      {
+        "id": 1545,
+        "mechanism_code": "M1",
+        "extraction_id": 1128,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1547,
+        "mechanism_code": "M2",
+        "extraction_id": 1130,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1549,
+        "mechanism_code": "M2",
+        "extraction_id": 1132,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1551,
+        "mechanism_code": "M2",
+        "extraction_id": 1134,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1561,
+        "mechanism_code": "M10",
+        "extraction_id": 1142,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1574,
+        "mechanism_code": "M9",
+        "extraction_id": 1153,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1580,
+        "mechanism_code": "M4",
+        "extraction_id": 1157,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1582,
+        "mechanism_code": "M4",
+        "extraction_id": 1159,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1594,
+        "mechanism_code": "M14",
+        "extraction_id": 1169,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1602,
+        "mechanism_code": "M5",
+        "extraction_id": 1177,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1604,
+        "mechanism_code": "M5",
+        "extraction_id": 1179,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1606,
+        "mechanism_code": "M6",
+        "extraction_id": 1181,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1608,
+        "mechanism_code": "M6",
+        "extraction_id": 1183,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1612,
+        "mechanism_code": "M8",
+        "extraction_id": 1187,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1616,
+        "mechanism_code": "M12",
+        "extraction_id": 1191,
+        "evidence_role": "primary"
       },
       {
         "id": 243,
@@ -17752,6 +19270,54 @@
         "mechanism_code": "M1",
         "extraction_id": 987,
         "evidence_role": "challenging"
+      },
+      {
+        "id": 1546,
+        "mechanism_code": "M1",
+        "extraction_id": 1129,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1550,
+        "mechanism_code": "M2",
+        "extraction_id": 1133,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1552,
+        "mechanism_code": "M1",
+        "extraction_id": 1135,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1553,
+        "mechanism_code": "M2",
+        "extraction_id": 1135,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1556,
+        "mechanism_code": "M3",
+        "extraction_id": 1137,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1558,
+        "mechanism_code": "M7",
+        "extraction_id": 1139,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1564,
+        "mechanism_code": "M13",
+        "extraction_id": 1145,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1567,
+        "mechanism_code": "M3",
+        "extraction_id": 1148,
+        "evidence_role": "primary"
       },
       {
         "id": 244,
@@ -18915,6 +20481,60 @@
         "id": 1517,
         "mechanism_code": "M5",
         "extraction_id": 1065,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1570,
+        "mechanism_code": "M3",
+        "extraction_id": 1150,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1571,
+        "mechanism_code": "M9",
+        "extraction_id": 1150,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1579,
+        "mechanism_code": "M4",
+        "extraction_id": 1156,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1581,
+        "mechanism_code": "M4",
+        "extraction_id": 1158,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1583,
+        "mechanism_code": "M4",
+        "extraction_id": 1160,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1589,
+        "mechanism_code": "M14",
+        "extraction_id": 1166,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1590,
+        "mechanism_code": "M9",
+        "extraction_id": 1166,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1609,
+        "mechanism_code": "M6",
+        "extraction_id": 1184,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1611,
+        "mechanism_code": "M8",
+        "extraction_id": 1186,
         "evidence_role": "primary"
       },
       {
@@ -21970,6 +23590,1092 @@
         "mechanism_code": "M5",
         "extraction_id": 562,
         "evidence_role": "primary"
+      },
+      {
+        "id": 859,
+        "mechanism_code": "M5",
+        "extraction_id": 563,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 860,
+        "mechanism_code": "M1",
+        "extraction_id": 565,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 861,
+        "mechanism_code": "M1",
+        "extraction_id": 567,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 862,
+        "mechanism_code": "M3",
+        "extraction_id": 571,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 863,
+        "mechanism_code": "M3",
+        "extraction_id": 572,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 864,
+        "mechanism_code": "M3",
+        "extraction_id": 573,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1257,
+        "mechanism_code": "M14",
+        "extraction_id": 844,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 867,
+        "mechanism_code": "M3",
+        "extraction_id": 575,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 868,
+        "mechanism_code": "M11",
+        "extraction_id": 579,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 869,
+        "mechanism_code": "M11",
+        "extraction_id": 580,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 870,
+        "mechanism_code": "M1",
+        "extraction_id": 582,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 871,
+        "mechanism_code": "M3",
+        "extraction_id": 354,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 872,
+        "mechanism_code": "M14",
+        "extraction_id": 346,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 873,
+        "mechanism_code": "M3",
+        "extraction_id": 27,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 874,
+        "mechanism_code": "M2",
+        "extraction_id": 583,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 875,
+        "mechanism_code": "M6",
+        "extraction_id": 583,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 876,
+        "mechanism_code": "M10",
+        "extraction_id": 583,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 877,
+        "mechanism_code": "M11",
+        "extraction_id": 583,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 878,
+        "mechanism_code": "M1",
+        "extraction_id": 584,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 879,
+        "mechanism_code": "M3",
+        "extraction_id": 584,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 880,
+        "mechanism_code": "M6",
+        "extraction_id": 584,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 881,
+        "mechanism_code": "M7",
+        "extraction_id": 584,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 882,
+        "mechanism_code": "M10",
+        "extraction_id": 584,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 883,
+        "mechanism_code": "M11",
+        "extraction_id": 584,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 884,
+        "mechanism_code": "M6",
+        "extraction_id": 585,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 885,
+        "mechanism_code": "M7",
+        "extraction_id": 585,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 886,
+        "mechanism_code": "M2",
+        "extraction_id": 585,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 887,
+        "mechanism_code": "M6",
+        "extraction_id": 586,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 888,
+        "mechanism_code": "M7",
+        "extraction_id": 586,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 889,
+        "mechanism_code": "M10",
+        "extraction_id": 586,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 890,
+        "mechanism_code": "M11",
+        "extraction_id": 586,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 891,
+        "mechanism_code": "M3",
+        "extraction_id": 586,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 892,
+        "mechanism_code": "M6",
+        "extraction_id": 587,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 893,
+        "mechanism_code": "M1",
+        "extraction_id": 587,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 894,
+        "mechanism_code": "M5",
+        "extraction_id": 587,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 895,
+        "mechanism_code": "M14",
+        "extraction_id": 588,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 896,
+        "mechanism_code": "M5",
+        "extraction_id": 588,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 897,
+        "mechanism_code": "M5",
+        "extraction_id": 589,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 898,
+        "mechanism_code": "M14",
+        "extraction_id": 589,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 899,
+        "mechanism_code": "M2",
+        "extraction_id": 589,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 900,
+        "mechanism_code": "M14",
+        "extraction_id": 591,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 901,
+        "mechanism_code": "M5",
+        "extraction_id": 591,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 902,
+        "mechanism_code": "M14",
+        "extraction_id": 592,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 903,
+        "mechanism_code": "M5",
+        "extraction_id": 592,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 904,
+        "mechanism_code": "M2",
+        "extraction_id": 592,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 905,
+        "mechanism_code": "M5",
+        "extraction_id": 593,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 906,
+        "mechanism_code": "M14",
+        "extraction_id": 593,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 907,
+        "mechanism_code": "M11",
+        "extraction_id": 593,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 908,
+        "mechanism_code": "M3",
+        "extraction_id": 595,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 909,
+        "mechanism_code": "M14",
+        "extraction_id": 596,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 910,
+        "mechanism_code": "M12",
+        "extraction_id": 597,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 911,
+        "mechanism_code": "M11",
+        "extraction_id": 598,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 912,
+        "mechanism_code": "M3",
+        "extraction_id": 598,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 913,
+        "mechanism_code": "M3",
+        "extraction_id": 599,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 914,
+        "mechanism_code": "M11",
+        "extraction_id": 599,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 915,
+        "mechanism_code": "M11",
+        "extraction_id": 600,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 916,
+        "mechanism_code": "M3",
+        "extraction_id": 600,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 917,
+        "mechanism_code": "M3",
+        "extraction_id": 601,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 918,
+        "mechanism_code": "M11",
+        "extraction_id": 601,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 919,
+        "mechanism_code": "M3",
+        "extraction_id": 602,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 920,
+        "mechanism_code": "M11",
+        "extraction_id": 602,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 921,
+        "mechanism_code": "M3",
+        "extraction_id": 603,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 922,
+        "mechanism_code": "M3",
+        "extraction_id": 604,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 923,
+        "mechanism_code": "M3",
+        "extraction_id": 605,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 924,
+        "mechanism_code": "M11",
+        "extraction_id": 605,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 925,
+        "mechanism_code": "M3",
+        "extraction_id": 606,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 926,
+        "mechanism_code": "M11",
+        "extraction_id": 606,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 927,
+        "mechanism_code": "M3",
+        "extraction_id": 607,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 928,
+        "mechanism_code": "M11",
+        "extraction_id": 607,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 929,
+        "mechanism_code": "M3",
+        "extraction_id": 608,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 930,
+        "mechanism_code": "M11",
+        "extraction_id": 608,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 931,
+        "mechanism_code": "M7",
+        "extraction_id": 609,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 932,
+        "mechanism_code": "M7",
+        "extraction_id": 610,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 933,
+        "mechanism_code": "M7",
+        "extraction_id": 611,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 934,
+        "mechanism_code": "M7",
+        "extraction_id": 612,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 935,
+        "mechanism_code": "M7",
+        "extraction_id": 613,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 936,
+        "mechanism_code": "M7",
+        "extraction_id": 614,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 937,
+        "mechanism_code": "R1",
+        "extraction_id": 615,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 938,
+        "mechanism_code": "M3",
+        "extraction_id": 615,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 939,
+        "mechanism_code": "R1",
+        "extraction_id": 616,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 940,
+        "mechanism_code": "M3",
+        "extraction_id": 616,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 941,
+        "mechanism_code": "R1",
+        "extraction_id": 617,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 942,
+        "mechanism_code": "M3",
+        "extraction_id": 617,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 943,
+        "mechanism_code": "M5",
+        "extraction_id": 620,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 944,
+        "mechanism_code": "M5",
+        "extraction_id": 621,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 945,
+        "mechanism_code": "M5",
+        "extraction_id": 622,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 946,
+        "mechanism_code": "M5",
+        "extraction_id": 623,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 947,
+        "mechanism_code": "M5",
+        "extraction_id": 624,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1523,
+        "mechanism_code": "M11",
+        "extraction_id": 1073,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1524,
+        "mechanism_code": "M4",
+        "extraction_id": 1073,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 952,
+        "mechanism_code": "M3",
+        "extraction_id": 618,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 953,
+        "mechanism_code": "M9",
+        "extraction_id": 618,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 954,
+        "mechanism_code": "R1",
+        "extraction_id": 618,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 955,
+        "mechanism_code": "M3",
+        "extraction_id": 619,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 956,
+        "mechanism_code": "M11",
+        "extraction_id": 619,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 957,
+        "mechanism_code": "M5",
+        "extraction_id": 619,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 958,
+        "mechanism_code": "M7",
+        "extraction_id": 627,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 959,
+        "mechanism_code": "M7",
+        "extraction_id": 628,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 960,
+        "mechanism_code": "M7",
+        "extraction_id": 629,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 961,
+        "mechanism_code": "M8",
+        "extraction_id": 629,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 962,
+        "mechanism_code": "M7",
+        "extraction_id": 630,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 963,
+        "mechanism_code": "M7",
+        "extraction_id": 631,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 964,
+        "mechanism_code": "M7",
+        "extraction_id": 632,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 965,
+        "mechanism_code": "M7",
+        "extraction_id": 633,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 966,
+        "mechanism_code": "M9",
+        "extraction_id": 634,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 967,
+        "mechanism_code": "M14",
+        "extraction_id": 634,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 968,
+        "mechanism_code": "M9",
+        "extraction_id": 635,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 969,
+        "mechanism_code": "M9",
+        "extraction_id": 636,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 970,
+        "mechanism_code": "M2",
+        "extraction_id": 642,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 971,
+        "mechanism_code": "M2",
+        "extraction_id": 643,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 972,
+        "mechanism_code": "M14",
+        "extraction_id": 644,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 973,
+        "mechanism_code": "M14",
+        "extraction_id": 645,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 974,
+        "mechanism_code": "M13",
+        "extraction_id": 646,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 975,
+        "mechanism_code": "M14",
+        "extraction_id": 646,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 976,
+        "mechanism_code": "M13",
+        "extraction_id": 647,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 977,
+        "mechanism_code": "M10",
+        "extraction_id": 647,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 978,
+        "mechanism_code": "M13",
+        "extraction_id": 648,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 979,
+        "mechanism_code": "M8",
+        "extraction_id": 648,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 980,
+        "mechanism_code": "M13",
+        "extraction_id": 649,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 981,
+        "mechanism_code": "M10",
+        "extraction_id": 649,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 982,
+        "mechanism_code": "M13",
+        "extraction_id": 650,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 983,
+        "mechanism_code": "M10",
+        "extraction_id": 650,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 984,
+        "mechanism_code": "M8",
+        "extraction_id": 652,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 985,
+        "mechanism_code": "M13",
+        "extraction_id": 652,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 986,
+        "mechanism_code": "M3",
+        "extraction_id": 654,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 987,
+        "mechanism_code": "M5",
+        "extraction_id": 654,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 988,
+        "mechanism_code": "M13",
+        "extraction_id": 654,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 989,
+        "mechanism_code": "M13",
+        "extraction_id": 658,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 990,
+        "mechanism_code": "M10",
+        "extraction_id": 658,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 991,
+        "mechanism_code": "M5",
+        "extraction_id": 659,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 992,
+        "mechanism_code": "M3",
+        "extraction_id": 660,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 993,
+        "mechanism_code": "M5",
+        "extraction_id": 660,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 994,
+        "mechanism_code": "M1",
+        "extraction_id": 661,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 995,
+        "mechanism_code": "M4",
+        "extraction_id": 661,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 996,
+        "mechanism_code": "M1",
+        "extraction_id": 662,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 997,
+        "mechanism_code": "M4",
+        "extraction_id": 662,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 998,
+        "mechanism_code": "M3",
+        "extraction_id": 663,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 999,
+        "mechanism_code": "M9",
+        "extraction_id": 663,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1000,
+        "mechanism_code": "M3",
+        "extraction_id": 664,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1001,
+        "mechanism_code": "M9",
+        "extraction_id": 664,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1002,
+        "mechanism_code": "M13",
+        "extraction_id": 665,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1003,
+        "mechanism_code": "M8",
+        "extraction_id": 665,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1004,
+        "mechanism_code": "M13",
+        "extraction_id": 666,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1005,
+        "mechanism_code": "M8",
+        "extraction_id": 666,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1006,
+        "mechanism_code": "M10",
+        "extraction_id": 667,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1007,
+        "mechanism_code": "M7",
+        "extraction_id": 667,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1008,
+        "mechanism_code": "M8",
+        "extraction_id": 667,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1009,
+        "mechanism_code": "M10",
+        "extraction_id": 668,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1010,
+        "mechanism_code": "M7",
+        "extraction_id": 669,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1011,
+        "mechanism_code": "M8",
+        "extraction_id": 669,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1012,
+        "mechanism_code": "R1",
+        "extraction_id": 670,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1013,
+        "mechanism_code": "M3",
+        "extraction_id": 670,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1017,
+        "mechanism_code": "M11",
+        "extraction_id": 673,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1018,
+        "mechanism_code": "M11",
+        "extraction_id": 674,
+        "evidence_role": "constraining"
+      },
+      {
+        "id": 1032,
+        "mechanism_code": "M3",
+        "extraction_id": 685,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1033,
+        "mechanism_code": "M5",
+        "extraction_id": 685,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1034,
+        "mechanism_code": "M11",
+        "extraction_id": 685,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1042,
+        "mechanism_code": "M14",
+        "extraction_id": 691,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1046,
+        "mechanism_code": "M14",
+        "extraction_id": 695,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1066,
+        "mechanism_code": "M11",
+        "extraction_id": 710,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1067,
+        "mechanism_code": "M9",
+        "extraction_id": 710,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1086,
+        "mechanism_code": "M5",
+        "extraction_id": 721,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1087,
+        "mechanism_code": "M5",
+        "extraction_id": 722,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1104,
+        "mechanism_code": "M5",
+        "extraction_id": 731,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1105,
+        "mechanism_code": "M14",
+        "extraction_id": 731,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1133,
+        "mechanism_code": "M3",
+        "extraction_id": 752,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1134,
+        "mechanism_code": "M11",
+        "extraction_id": 752,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1159,
+        "mechanism_code": "M14",
+        "extraction_id": 769,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1160,
+        "mechanism_code": "M5",
+        "extraction_id": 769,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1165,
+        "mechanism_code": "M14",
+        "extraction_id": 772,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1168,
+        "mechanism_code": "M14",
+        "extraction_id": 775,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1169,
+        "mechanism_code": "M14",
+        "extraction_id": 776,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1270,
+        "mechanism_code": "M14",
+        "extraction_id": 851,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1528,
+        "mechanism_code": "M8",
+        "extraction_id": 1080,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1529,
+        "mechanism_code": "M1",
+        "extraction_id": 1080,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1530,
+        "mechanism_code": "M2",
+        "extraction_id": 1086,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1531,
+        "mechanism_code": "M3",
+        "extraction_id": 1092,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1532,
+        "mechanism_code": "R1",
+        "extraction_id": 1092,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1533,
+        "mechanism_code": "M4",
+        "extraction_id": 1092,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1534,
+        "mechanism_code": "M8",
+        "extraction_id": 1094,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1535,
+        "mechanism_code": "M13",
+        "extraction_id": 1094,
+        "evidence_role": "challenging"
       }
     ],
     "empirical_demonstrations": [
@@ -24002,14 +26708,14 @@
           {
             "extraction_id": 38,
             "evidence_role": "supporting",
-            "author_quote": null,
+            "author_quote": "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time.",
             "evidence_quality": "theoretical",
-            "content": "The discordance hypothesis: the human genome was shaped under Paleolithic nutritional conditions and has changed negligibly since the advent of agriculture (~10,000 years ago). Modern diseases of civilization - atherosclerosis, hypertension, obesity, diabetes - result from the mi"
+            "content": "Eaton and Konner argue that the human genus is about 2 million years old and that this evolutionary history shaped our current genetic make-up, partly through the diets of the time. Ancestral diets varied with period, place and season, so humans kept an omnivore's flexibility, ye"
           },
           {
             "extraction_id": 471,
             "evidence_role": "supporting",
-            "author_quote": null,
+            "author_quote": "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1).",
             "evidence_quality": "theoretical",
             "content": "Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about "
           }
@@ -27213,6 +29919,582 @@
         "created_at": "2026-08-10T05:45:57.110031+00:00"
       }
     ],
+    "mechanism_ages": [
+      {
+        "id": 1,
+        "mechanism_code": "M1",
+        "part": "defensive output centre (periaqueductal gray)",
+        "sort": 1,
+        "age_label": "at least 460 million years, likely about 460 to 535",
+        "min_myr": 457.5,
+        "max_myr": 533.8,
+        "dates_what": "the basic circuit in the first vertebrates: a periaqueductal gray homologue, the command centre for freezing, flight and defensive fighting, shared with lampreys",
+        "grade": "thin",
+        "grade_line": "Olson et al. 2017 (lamprey tract tracing, 32 animals): one lab's anatomical homology; the structure's role in lamprey defence has not been tested.",
+        "contested": false,
+        "extraction_ids": [
+          1123,
+          1128,
+          1129,
+          1196,
+          1203
+        ],
+        "note": "Dates from group T: fossil minimum 457.5 (Arandaspis), molecular 459.3 to 533.8; label follows T's suggested wording. Older figures in the A sources (haitina2007: 525 fossil, 564 molecular; Grillner lab: about 500, or over 560) are cited round numbers and are superseded by T. Defensive behaviour itself is older (invertebrates have it) but uses non-homologous circuits (ledoux2012), so it does not date the human system.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 2,
+        "mechanism_code": "M1",
+        "part": "amygdala threat-evaluation and learning circuit",
+        "sort": 2,
+        "age_label": "at least about 340 million years",
+        "min_myr": 337,
+        "max_myr": 351,
+        "dates_what": "the basic circuit in the first four-limbed vertebrates: an amygdala with the same basic plan in frogs, reptiles, birds and mammals",
+        "grade": "replicated",
+        "grade_line": "Moreno and Gonzalez 2007 review of embryological, tract-tracing and neurochemical work by several labs across amniotes and frogs; amphibian functional data are thin.",
+        "contested": false,
+        "extraction_ids": [
+          1070,
+          1124,
+          1125,
+          1126,
+          1127,
+          1129,
+          1198
+        ],
+        "note": "Date from group T: crown tetrapods 337 to 351 (Wardie Shales minimum; molecular 338 to 354). Possibly older: a fish pallial region may be the amygdala homologue (portavella2004, moreno2007), which would push it to the bony-fish ancestor, group T crown osteichthyans 420.7 to 444.9 (portavella2004 says some 400 million years); that extension rests on one lab's goldfish lesions and is graded thin, so it is kept out of the label. No amygdala homologue has been identified in lamprey (suryanarayana2022), so the old field's all-vertebrates reading does not hold for this part.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 3,
+        "mechanism_code": "M2",
+        "part": "dopamine-modulated basal ganglia circuit (action selection and outcome evaluation)",
+        "sort": 1,
+        "age_label": "at least 460 million years, likely about 460 to 535",
+        "min_myr": 457.5,
+        "max_myr": 533.8,
+        "dates_what": "the basic circuit in the first vertebrates: striatum, pallidum and dopamine input with a habenula outcome-evaluation loop, shared with lampreys",
+        "grade": "contested",
+        "grade_line": "Frost-Nylen et al. 2024 and Suryanarayana et al. 2022 review lamprey tracing and physiology from essentially one lab; Yamamoto and Vernier 2011 doubt that lamprey and teleost diencephalic dopamine cells match the mammalian SNc/VTA. Weight leans toward homology on the later lamprey connectivity data.",
+        "contested": true,
+        "extraction_ids": [
+          1130,
+          1132,
+          1133,
+          1196,
+          1198,
+          1203
+        ],
+        "note": "Dates from group T crown vertebrates (fossil minimum 457.5, molecular 459.3 to 533.8); frostnylen2024 says about 500 million years, a cited round number. Yamamoto and Vernier place the conserved dopamine motor role at tetrapods (group T 337 to 351), which is the low end if the lamprey homology fails. This dates the general action-selection machinery that seeking runs on; it does not show reward seeking in lamprey.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 4,
+        "mechanism_code": "M2",
+        "part": "mesolimbic reward pathway (midbrain dopamine to ventral striatum)",
+        "sort": 2,
+        "age_label": "at least about 165 million years",
+        "min_myr": 164.9,
+        "max_myr": null,
+        "dates_what": "the human form's reward-specific pathway, shown in all mammals studied, with a probable counterpart in birds, reptiles and frogs",
+        "grade": "theoretical",
+        "grade_line": "Yamamoto and Vernier 2011: anatomical resemblance of SNc/VTA and a proposed accumbens in birds, reptiles and amphibians; the authors call mesolimbic conservation less clear, and no non-mammal reward test is in these sources.",
+        "contested": false,
+        "extraction_ids": [
+          267,
+          452,
+          1131,
+          1134,
+          1135,
+          1198,
+          1199
+        ],
+        "note": "Lower bound is crown mammals (Panksepp: SEEKING in all mammals), group T 164.9 to 201.5. If the bird, reptile and frog anatomy holds up as homology it would be crown tetrapods (337 to 351), which is why the row is open-ended. The tetrapod reading is probable, not shown. Lamprey striatum has no clear ventral division (suryanarayana2022). The deep circuit row above is the better public figure for the seeking system's machinery; this row records that its reward-specific wiring is less certainly that old.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 5,
+        "mechanism_code": "M3",
+        "part": "attachment and separation distress",
+        "sort": 1,
+        "age_label": "about 165 to 200 million years (as old as the living mammals)",
+        "min_myr": 164.9,
+        "max_myr": 201.5,
+        "dates_what": "the basic circuit in the first mammals: infant attachment and separation distress tied to a nursing mother, shared by the mammals tested",
+        "grade": "theoretical",
+        "grade_line": "Strongest source: Panksepp's brain stimulation work showing the separation-distress system in every mammal tested; main weakness: one programme, species not itemised, no monotreme or marsupial data, and the link to lactation is inference.",
+        "contested": false,
+        "extraction_ids": [
+          267,
+          1148,
+          1154,
+          1155,
+          1199
+        ],
+        "note": "Clade: crown Mammalia. Panksepp E267 says at least 150 million years; Oftedal puts milk-dependent young in mammal ancestors by about 210 million years ago, so the system may be older than crown mammals. Separation calls also occur in chicks, so the behaviour alone is not mammal-only. The field value ~200Myr (mammalian) sits at the top of the crown mammal range. Group T: crown mammals 164.9 to 201.5 (fossil), 164.8 to 204.7 (molecular).",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 6,
+        "mechanism_code": "M3",
+        "part": "oxytocin and vasotocin peptides",
+        "sort": 2,
+        "age_label": "oxytocin gene about 420 to 470 million years (as old as the jawed vertebrates); its vasotocin parent is older",
+        "min_myr": 420.7,
+        "max_myr": 468.4,
+        "dates_what": "the molecular toolkit, not the bonding system: vasotocin (vasopressin) is shared with invertebrate chordate relatives; oxytocin split off from it in the first jawed vertebrates",
+        "grade": "thin",
+        "grade_line": "Strongest source: Theofanopoulou et al. 2021, synteny and phylogeny across 35 vertebrate genomes; main weakness: one group's reconstruction and only four invertebrate genomes.",
+        "contested": false,
+        "extraction_ids": [
+          1149,
+          1150,
+          1197
+        ],
+        "note": "Clade: crown Gnathostomata for oxytocin. These peptides were co-opted into mammalian attachment and maternal care; their age must not be printed as the age of attachment. Group T: crown gnathostomes 420.7 to 468.4. The min and max are for oxytocin only.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 7,
+        "mechanism_code": "M4",
+        "part": "social play (rough-and-tumble)",
+        "sort": 1,
+        "age_label": "at least about 60 million years (all primates play), possibly up to about 160 to 170 million years if marsupial and placental play are one system",
+        "min_myr": 56,
+        "max_myr": 169.6,
+        "dates_what": "the human line's play system, which every living primate shares; play outside mammals evolved separately and is not part of this age",
+        "grade": "theoretical",
+        "grade_line": "Strongest source: Burghardt 2014 (all primates play in all three ways) with Iwaniuk et al. 2001 (play across 15 mammal orders); main weakness: homology is inferred from distribution only, and Burghardt et al. 2024 list a shared mammal-wide play-fighting mechanism as an open question.",
+        "contested": false,
+        "extraction_ids": [
+          222,
+          223,
+          1156,
+          1157,
+          1158,
+          1159,
+          1160,
+          1161,
+          1199,
+          1200,
+          1204
+        ],
+        "note": "Lower bound: crown Primates. Upper bound if marsupial and placental play prove to be one inherited system: crown Theria. Rat play fighting (Pellis E218, E223) is the best-mapped circuit; the rodent and primate common ancestor (Euarchontoglires) is a possible intermediate bound, untested. The field text \"absent in reptiles\" is wrong: play is documented in turtles, lizards, crocodilians, fish and invertebrates (Burghardt 2014, Dinets 2015), but as independent origins. Group T: crown primates 56 to 66 (fossil), 67.3 to 69.1 (molecular); crown therians 156.3 to 169.6 (fossil). The max is the untested upper bound, not an estimate.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 8,
+        "mechanism_code": "M5",
+        "part": "rank detection and rank-driven brain change (social behaviour network)",
+        "sort": 1,
+        "age_label": "about 420 to 445 million years",
+        "min_myr": 420.7,
+        "max_myr": 444.9,
+        "dates_what": "the basic circuit in the first bony vertebrates: the social behaviour network that reads rank is homologous in fish, reptiles, birds and mammals",
+        "grade": "thin",
+        "grade_line": "Strongest: Fernald and Maruska 2012, cichlid fish rank switching with network-wide gene activation, citing homology of the network in fish, reptiles and birds. Weakness: one lab's fish work and one review's summary of the homology; the primary comparative papers were not read.",
+        "contested": false,
+        "extraction_ids": [
+          1177,
+          1178,
+          1197
+        ],
+        "note": "Date: group T crown osteichthyans, 420.7 to 444.9 (Guiyu minimum; molecular composite 420.6 to 444.2). Clade: crown bony vertebrates (Osteichthyes: ray-finned fish plus tetrapods). Cartilaginous fish and lampreys were not covered by the source, so the circuit could be older. Serotonin-linked dominance in crayfish (Huber 1997) shows status behaviour in invertebrates, but no source claims it is the same inherited system, so it does not set the age.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 9,
+        "mechanism_code": "M5",
+        "part": "rank-linked stress physiology, health and survival",
+        "sort": 2,
+        "age_label": "at least about 25 to 34 million years in the human line; also seen in other mammal orders",
+        "min_myr": 24.44,
+        "max_myr": 34.0,
+        "dates_what": "the human form in the primate line: rank-linked survival and stress physiology shared with baboons and macaques",
+        "grade": "thin",
+        "grade_line": "Strongest: Snyder-Mackler et al. 2020, a multi-group review of long-term field studies showing status predicts survival in at least 12 species including baboons and macaques. Weakness: the species acquired social living separately several times, so the shared pattern is partly convergent and its inheritance within primates is inferred.",
+        "contested": false,
+        "extraction_ids": [
+          1179,
+          1200
+        ],
+        "note": "Date: group T crown catarrhines, 24.44 to 34.0. Clade for the human line: crown catarrhines (humans, apes, baboons, macaques). The pattern also appears in rabbits, meerkats, hyenas and ungulates, through several separate transitions to social living, so a single mammal-wide age would overstate homology. Sapolsky 2004 and 2005 (Cor works 91, 92) cover primate rank and health but were not reread here.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 10,
+        "mechanism_code": "M6",
+        "part": "passivity default under prolonged uncontrollable stress (dorsal raphe serotonin)",
+        "sort": 1,
+        "age_label": "at least about 60 to 90 million years; about 165 to 200 million years if all mammals share it, as the authors say",
+        "min_myr": 61.6,
+        "max_myr": 201.5,
+        "dates_what": "the basic circuit as tested: shown in rats, mice and dogs and described by the authors as the default mammalian reaction",
+        "grade": "thin",
+        "grade_line": "Strongest: Maier and Seligman 2016, rat dorsal raphe experiments showing passivity is the default and control is learned. Weakness: one group's rat work; \"mammalian\" is a generalisation, and older origins (a serotonin-linked stress state in flies) are untested for homology.",
+        "contested": true,
+        "extraction_ids": [
+          1181,
+          1184,
+          1199,
+          1204
+        ],
+        "note": "Date: the tested species (rats, mice, dogs) share an ancestor inside crown placentals; group T has no node for that ancestor (Boreoeutheria), so the floor uses the crown placental fossil minimum 61.6 and molecular 87.9 to 90.4 (contested between fossil and molecular readings). The authors' \"mammalian\" would mean crown mammals, 164.9 to 201.5. contested is set true for the dating, not the default itself. Minimum clade: the common ancestor of rodents and dogs (Boreoeutheria) as the tested species; the authors say mammalian, which would mean crown mammals. Serotonin is very old and flies show a stress-induced, serotonin-modulated inactivity state (Ries 2017), so the default may be much older, but no source tests homology.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 11,
+        "mechanism_code": "M6",
+        "part": "prefrontal controllability detector (prelimbic, ventromedial prefrontal cortex)",
+        "sort": 2,
+        "age_label": "at least about 60 to 90 million years",
+        "min_myr": 61.6,
+        "max_myr": 90.4,
+        "dates_what": "the basic circuit in the common ancestor of rodents and primates: the medial (agranular) prefrontal cortex that detects control in rats is homologous to the primate anterior cingulate region",
+        "grade": "thin",
+        "grade_line": "Strongest: Maier and Seligman 2016 for the rat prelimbic detector, plus Laubach et al. 2018 for rodent to primate medial frontal homology. Weakness: the detector is one group's rat result, human evidence is a few imaging studies, and area-by-area homology is debated.",
+        "contested": true,
+        "extraction_ids": [
+          1182,
+          1183,
+          1199,
+          1204
+        ],
+        "note": "Date: the rodent and primate ancestor (Euarchontoglires) lies inside crown placentals and is not a group T node; floor from the crown placental fossil minimum 61.6, upper from the crown placental molecular range 87.9 to 90.4 (fossil and molecular readings disagree, hence contested). Clade: Euarchontoglires (rodents plus primates). No source read covers medial prefrontal cortex in other mammals, so it may be older. The granular lateral prefrontal cortex is primate-specific and is not the detector.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 12,
+        "mechanism_code": "M7",
+        "part": "the human clock-gene system (CLOCK and BMAL1 with PERIOD and CRYPTOCHROME)",
+        "sort": 1,
+        "age_label": "more than 500 million years",
+        "min_myr": 500,
+        "max_myr": null,
+        "dates_what": "the basic clock-gene loop in the common ancestor of insects and vertebrates (bilaterian animals); its CLOCK, CYCLE/BMAL1 and cryptochrome parts reach back to the ancestor shared with sea anemones",
+        "grade": "replicated",
+        "grade_line": "Rosbash 2009 summarises clock-gene orthology between flies and mammals found by many groups; the 500 million year figure is a cited lower bound for the insect-mammal split.",
+        "contested": false,
+        "extraction_ids": [
+          1138,
+          1140,
+          1195,
+          1203
+        ],
+        "note": "Label keeps Rosbash's sourced lower bound. Group T crown bilaterians: fossil 550.25 to 636.1 (minimum rests on Kimberella, disputed), molecular 595.7 to 688.3; if the main session prefers T, about 550 to 690 million years, contested at the minimum. Extension to the cnidarian-bilaterian ancestor (no group T node; it lies between crown animals, 550 to 833, and crown bilaterians) rests on one lab's sea anemone study and lacks Period, so it is kept out of the label (thin). The SCN as master clock is a vertebrate/mammalian arrangement and is not dated here (see unsourced).",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 13,
+        "mechanism_code": "M7",
+        "part": "daily clocks as a kind of system (cyanobacteria)",
+        "sort": 2,
+        "age_label": "about 1 to 3.5 billion years",
+        "min_myr": 944,
+        "max_myr": 3500,
+        "dates_what": "the oldest known daily clocks, in cyanobacteria; a separate invention that is not the ancestor of the human clock",
+        "grade": "thin",
+        "grade_line": "Dvornyk et al. 2003: one molecular-clock study; the full three-gene clock dates to about 1,000 million years, older parts (kaiB, kaiC) to 2,320 to 3,800 million years, with few kaiA sequences and two calibration points.",
+        "contested": false,
+        "extraction_ids": [
+          1139,
+          1141
+        ],
+        "note": "The old field (about 3 billion years, cyanobacteria onward) implied the human clock descends from the cyanobacterial one. It does not: the clock proteins are unrelated and the two systems arose separately (rosbash2009). Even the cyanobacterial three-gene clock is dated to about 1 billion years; 3.5 billion is the age of kaiB/kaiC parts, which alone are not shown to keep daily time. Keep this row off the human-system headline.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 14,
+        "mechanism_code": "M8",
+        "part": "innate immunity and inflammatory signalling (pattern-recognition receptors such as Toll-like receptors)",
+        "sort": 1,
+        "age_label": "about 550 to 830 million years",
+        "min_myr": 550.25,
+        "max_myr": 833.0,
+        "dates_what": "the basic system in the first animals: pattern-recognition receptors are found throughout the animal kingdom",
+        "grade": "thin",
+        "grade_line": "Strongest: Flajnik and Kasahara 2010, a review of comparative immune genomics. Weakness: the animal-wide claim is one sentence citing others, and the date of the animal common ancestor rests on molecular clocks with a wide range.",
+        "contested": true,
+        "extraction_ids": [
+          1185,
+          1195,
+          1203
+        ],
+        "note": "Date: group T crown animals, fossil 550.25 to 833 (contested at the minimum, which rests on reading Kimberella as a bilaterian) and molecular 649.8 to 833.5. Clade: crown animals (Metazoa). \"All multicellular\" is wrong as homology: plants have their own expanded receptor families, and plants and fungi became multicellular separately. Brennan and Gilmore 2018 (Mol Biol Evol, Toll-like receptor origins) could tighten this but its OA copy sits behind a bot check and was not read.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 15,
+        "mechanism_code": "M8",
+        "part": "adaptive immunity (RAG-based antibodies, T cell receptors, MHC)",
+        "sort": 2,
+        "age_label": "about 420 to 470 million years",
+        "min_myr": 420.7,
+        "max_myr": 468.4,
+        "dates_what": "the basic system in the first jawed vertebrates (shared with sharks and rays)",
+        "grade": "replicated",
+        "grade_line": "Strongest: Flajnik and Kasahara 2010, summarising RAG, antibody, T cell receptor and MHC genes found in every jawed vertebrate class and absent in jawless fish. Weakness: the source gives only a round 500 million years; the fossil-calibrated date must come from group T.",
+        "contested": false,
+        "extraction_ids": [
+          1186,
+          1187,
+          1197
+        ],
+        "note": "Date: group T crown gnathostomes, 420.7 to 468.4 (Guiyu minimum; molecular composite 432.1 to 468.1). The source's round \"500 million years\" is a little older than this range; the fossil-calibrated range is used. Clade: crown jawed vertebrates (Gnathostomata); the source says the system has been \"remarkably uniform over 500 million years\"; take the fossil-calibrated range from group T. Lampreys and hagfish evolved a separate adaptive system (VLRs), so it is convergent and does not extend the human system's age; B-like and T-like lymphocyte lineages may predate the jawed and jawless split. Grade replicated holds only if that date is fossil-calibrated.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 16,
+        "mechanism_code": "M9",
+        "part": "maternal care circuitry",
+        "sort": 1,
+        "age_label": "about 165 to 200 million years (as old as the living mammals)",
+        "min_myr": 164.9,
+        "max_myr": 201.5,
+        "dates_what": "the basic circuit in the first mammals: maternal care built around nursing (medial preoptic area, oxytocin, prolactin, dopamine), found in all living mammals",
+        "grade": "thin",
+        "grade_line": "Strongest source: Rilling and Young 2014, a review of rodent circuit work with human parallels; main weakness: the circuit is shown in rodents and humans only, and its presence in all mammals is inferred from lactation (Oftedal 2012, abstract).",
+        "contested": false,
+        "extraction_ids": [
+          1149,
+          1153,
+          1155,
+          1199
+        ],
+        "note": "Clade: crown Mammalia. Oftedal dates milk-dependent young to about 210 million years ago in mammal ancestors (inference). The preoptic area also controls parental care in other vertebrates, so parts of the circuit may be older; not sourced here. Group T: crown mammals 164.9 to 201.5 (fossil).",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 17,
+        "mechanism_code": "M9",
+        "part": "human cooperative breeding (alloparenting)",
+        "sort": 2,
+        "age_label": "at least about 2 million years (theory)",
+        "min_myr": 2,
+        "max_myr": 10,
+        "dates_what": "the human form: routine care and provisioning of young by helpers other than the mother, unique among apes and evolved separately from cooperatively breeding monkeys",
+        "grade": "theoretical",
+        "grade_line": "Strongest source: Burkart et al. 2014, one standardised test across 15 primate species, plus Burkart et al. 2025 placing the setting in early Homo about 2 million years ago; main weakness: the onset is inferred from life-history models and fossil ecology, never observed.",
+        "contested": false,
+        "extraction_ids": [
+          1162,
+          1163,
+          1164,
+          1165,
+          1201
+        ],
+        "note": "Burkart et al. 2025 argue cooperative breeding came before large brains and that weaning age fell already in australopithecines, so the true onset may be older than 2 million years. Competing scenarios (altriciality first, diet first) would put it later. Hrdy 2009 (Cor work 10) and Kramer 2010 (Cor work 193) are the standard sources but no extraction was read here. The max of 10 is only the bound set by the human-chimpanzee split (group T: 6.5 to 10, contested), not an estimate of onset.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 18,
+        "mechanism_code": "M10",
+        "part": "the human form: a body that depends on high daily aerobic activity",
+        "sort": 1,
+        "age_label": "about 2 million years",
+        "min_myr": 2,
+        "max_myr": 2,
+        "dates_what": "the human form: the shift to hunting and gathering, which made high daily aerobic activity normal and, on this argument, made health upkeep depend on it",
+        "grade": "theoretical",
+        "grade_line": "Raichlen and Alexander 2017 model paper: the two million year activity shift comes from cited fossil and archaeological work; the link to today's dependence on exercise is argued, not tested. Raichlen et al. 2012 (humans, dogs, ferrets) supports a running-linked reward but is one small study.",
+        "contested": false,
+        "extraction_ids": [
+          1142,
+          1143
+        ],
+        "note": "The source says around two million years. Group T has no genus Homo node; its notes carry the same about 2 million year genus figure from Eaton and Konner 1985 (E38, verified only from the preview paragraph). The old field (about 500 million years) has no source behind it: nothing found dates movement as a zeitgeber, anti-inflammatory or mood regulator across vertebrates (see unsourced).",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 19,
+        "mechanism_code": "M11",
+        "part": "reciprocal exchange and alliances in primates",
+        "sort": 1,
+        "age_label": "at least about 25 to 34 million years",
+        "min_myr": 24.44,
+        "max_myr": 34.0,
+        "dates_what": "the basic behaviour in the common ancestor of humans, apes and Old World monkeys: reciprocal exchange seen in chimpanzees, baboons and macaques",
+        "grade": "thin",
+        "grade_line": "Strongest: Schino and Aureli 2008, a meta-analysis of grooming reciprocation in 48 groups of 22 primate species. Weakness: behavioural correlation only; homology is inferred from distribution, and similar exchanges in coatis show the trait can arise separately.",
+        "contested": false,
+        "extraction_ids": [
+          297,
+          1188,
+          1189,
+          1200
+        ],
+        "note": "Date: group T crown catarrhines, 24.44 to 34.0. Clade: crown catarrhines (Cosmides and Tooby name macaques and baboons; Schino and Aureli sample is dominated by macaques). Schino and Aureli call the pattern widespread across the primate order, which could push it older, but the species list was not read. Cosmides and Tooby give \"at least\" the human and chimpanzee ancestor, 5 to 10 million years in 1992 estimates, as a floor, and point further back to macaques and baboons.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 20,
+        "mechanism_code": "M11",
+        "part": "third-party norm enforcement and large-scale reciprocity (human form)",
+        "sort": 2,
+        "age_label": "younger than the human and chimpanzee split, about 7 to 10 million years ago; exact age unknown",
+        "min_myr": null,
+        "max_myr": 10.0,
+        "dates_what": "the human form: punishing violators on behalf of others, absent in chimpanzees in the one experiment that tested it",
+        "grade": "theoretical",
+        "grade_line": "Strongest: Riedl et al. 2012, an experiment finding no third-party punishment in chimpanzees. Weakness: one study in one species read as abstract only; no source dates when in the human line this arose.",
+        "contested": false,
+        "extraction_ids": [
+          1190,
+          1201,
+          1205
+        ],
+        "note": "Date: upper bound from group T human vs chimpanzee, fossil 6.5 to 10 (contested), molecular 7 to 13. Upper bound: the human and chimpanzee common ancestor. No lower bound sourced; Tomasello et al. 2012 (Curr Anthropol, interdependence hypothesis) proposes Homo-era steps but its OA copies sit behind a bot check and were not read. Boehm (Cor works 9, 177) and Tomasello (work 14) are in Cor but were not reread.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 21,
+        "mechanism_code": "M12",
+        "part": "pathogen and parasite avoidance behaviour (as a kind of behaviour)",
+        "sort": 1,
+        "age_label": "found across the animal kingdom; no single age, since no source shows it is one inherited system",
+        "min_myr": null,
+        "max_myr": null,
+        "dates_what": "a kind of behaviour found from nematodes and insects to fish, birds and mammals; no source shows it is one inherited system",
+        "grade": "theoretical",
+        "grade_line": "Strongest: Sarabian, Curtis and McMullan 2018, a cross-species overview with experiments in nematodes, bees and bonobos. Weakness: it documents breadth, not homology, and expects commonalities because every organism faces parasites.",
+        "contested": false,
+        "extraction_ids": [
+          1191,
+          1192
+        ],
+        "note": "The presence of the behaviour across animals is well documented; any single date for it would treat convergent solutions as one inherited system. No source traces a shared avoidance circuit between nematodes, insects and vertebrates.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 22,
+        "mechanism_code": "M12",
+        "part": "contamination avoidance in primates (precursor of human pathogen disgust)",
+        "sort": 2,
+        "age_label": "at least about 25 to 34 million years, if the primate response is the same system",
+        "min_myr": 24.44,
+        "max_myr": 34.0,
+        "dates_what": "the basic response in the common ancestor of humans, apes and Old World monkeys: avoidance of faeces-contaminated food in bonobos, chimpanzees, macaques and mandrills",
+        "grade": "thin",
+        "grade_line": "Strongest: bonobo and macaque contamination experiments summarised in Sarabian et al. 2018. Weakness: mostly one research group and few species; continuity with human disgust is argued, not tested.",
+        "contested": false,
+        "extraction_ids": [
+          1193,
+          1200
+        ],
+        "note": "Date: group T crown catarrhines, 24.44 to 34.0. Clade: crown catarrhines. The human disgust expression, its sexual domain and its moral extension have no dated source here: Curtis et al. 2011 show disgust is universal in humans, which makes it old within our species but does not date it. Moral disgust is human-only by definition and its age is unsourced.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 23,
+        "mechanism_code": "M13",
+        "part": "brain appetite brake (leptin and melanocortin MC4 signalling that cut food intake)",
+        "sort": 1,
+        "age_label": "more than 420 million years",
+        "min_myr": 420.7,
+        "max_myr": null,
+        "dates_what": "the basic circuit in the first jawed vertebrates: leptin and brain melanocortin receptors that reduce food intake, shown in bony fish and mammals but not in lamprey brains",
+        "grade": "replicated",
+        "grade_line": "Deck et al. 2017 review: injected leptin cut food intake in five fish species across several groups, as in mammals; fish leptin sequences differ a lot from mammalian leptin, and the lamprey evidence (Haitina et al. 2007) is one lab's.",
+        "contested": false,
+        "extraction_ids": [
+          1144,
+          1146,
+          1196,
+          1197
+        ],
+        "note": "Group T: crown osteichthyans 420.7 to 444.9 (the minimum, from the fish feeding experiments) and crown gnathostomes 420.7 to 468.4 (likely origin on Haitina's reading, since sharks express brain melanocortin receptors). It should be younger than crown vertebrates (460 to 535), since lamprey melanocortin receptors are not in the brain. Leptin as a fat-store signal is not shown in fish (deck2017 ext 1) and was not dated; the old field's 500 million years is too old for the brain appetite brake.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 24,
+        "mechanism_code": "M13",
+        "part": "the human form: a larger daily energy budget and more body fat than other apes",
+        "sort": 2,
+        "age_label": "less than about 6.5 to 10 million years",
+        "min_myr": null,
+        "max_myr": 10,
+        "dates_what": "the human form: faster metabolism and greater fat stores that evolved in the human line after it split from chimpanzees and bonobos",
+        "grade": "thin",
+        "grade_line": "Pontzer et al. 2016 (doubly labelled water, 141 humans, 56 apes): one study, zoo and sanctuary apes, small ape samples.",
+        "contested": false,
+        "extraction_ids": [
+          1147,
+          1201
+        ],
+        "note": "Pontzer shows the change happened in the human line but does not date it within that line; the upper limit is the human-chimpanzee split, group T fossil 6.5 to 10 (contested; molecular 7 to 13). Pontzer's constrained-energy finding (Cor work 61) is a within-lifetime adjustment measured in living adults and supports no age.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 25,
+        "mechanism_code": "M14",
+        "part": "sexual desire: hypothalamic-pituitary-gonadal axis",
+        "sort": 1,
+        "age_label": "at least 460 million years, likely about 460 to 535 (as old as the vertebrates)",
+        "min_myr": 457.5,
+        "max_myr": 533.8,
+        "dates_what": "the basic hormonal circuit in the first vertebrates: GnRH from the hypothalamus driving the pituitary and gonads, already present in lampreys",
+        "grade": "thin",
+        "grade_line": "Strongest source: Sower et al. 2012, lamprey GnRH peptides and receptors from a long lab programme; main weakness: one group's review, and its 550 million year lineage figure is not a calibrated node date.",
+        "contested": false,
+        "extraction_ids": [
+          1167,
+          1196,
+          1203
+        ],
+        "note": "Clade: crown Vertebrata (lamprey plus jawed vertebrates). Sower gives over 550 million years for the agnathan lineage. This dates the hormonal axis; the brain circuits of desire (preoptic area, ventromedial hypothalamus) are not dated by a source read here. The field value ~500Myr sexual is about right for the axis. Group T: crown vertebrates at least 457.5 (fossil, soft max 636.1), molecular 459.3 to 533.8; wording follows T's suggestion.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 26,
+        "mechanism_code": "M14",
+        "part": "human pair bonding",
+        "sort": 2,
+        "age_label": "about 2 to 4 million years (contested)",
+        "min_myr": 2,
+        "max_myr": 4,
+        "dates_what": "the human form: the hominin pair bond, evolved in the human line after the split from chimpanzees; it is not inherited from early mammals, where social monogamy arose about 60 separate times",
+        "grade": "contested",
+        "grade_line": "Strongest sources: Reno et al. 2003 (A. afarensis dimorphism like modern humans, placing the pair bond about 4 million years ago) against Gordon et al. 2008 (gorilla-like dimorphism, so later, with reduced dimorphism by early Homo about 2 million years ago); main weakness: mating systems are inferred from fossil body-size dimorphism, which Plavcan 2012 and Schacht and Kramer 2019 call unreliable.",
+        "contested": true,
+        "extraction_ids": [
+          193,
+          1166,
+          1168,
+          1169,
+          1170,
+          1171,
+          1172,
+          1173,
+          1174,
+          1201
+        ],
+        "note": "The early side (about 4 million years, australopithecines) rests on Reno et al.; Lovejoy 2009 on Ardipithecus, named in the dispatch, was not read in full and is not used; the late side (early Homo, about 2 million years) on Gordon et al. and the reduced dimorphism in early Homo. Weight leans slightly to the later date: Schacht and Kramer report a general consensus that dimorphism was greater in the past and fell over time, and they cite several analyses that find A. afarensis strongly dimorphic (Lockwood et al. 1996 and 2007, Gordon et al. 2008); neither side is decisive. Fisher E193 (3.2 million years, Lucy) sits inside the range and is a trade-book theoretical claim. Hard outer bound: the human-chimpanzee split (group T: 6.5 to 10, fossil, contested).",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      },
+      {
+        "id": 27,
+        "mechanism_code": "R1",
+        "part": "C-tactile (CT) touch afferents",
+        "sort": 1,
+        "age_label": "at least about 60 million years, probably under 90 (placental mammals)",
+        "min_myr": 56,
+        "max_myr": 90.4,
+        "dates_what": "the basic nerve channel as shown so far: slow unmyelinated touch fibres in hairy skin recorded in humans, monkeys, cats and rodents, so present in their common placental ancestor",
+        "grade": "thin",
+        "grade_line": "Strongest source: single-fibre recordings by several groups in cats, monkeys and humans (reviewed by Liljencrantz and Olausson 2014), with a molecular rodent counterpart (Vrontou et al. 2013); main weakness: few placental species, no marsupial or monotreme data, and homology rests on similar response properties.",
+        "contested": false,
+        "extraction_ids": [
+          1175,
+          1176,
+          1199,
+          1200,
+          1204
+        ],
+        "note": "Clade: crown Boreoeutheria (common ancestor of primates, rodents and cats). The field value ~200Myr (mammalian) assumes all mammals have CTs; that is not shown. If CTs are found in marsupials or monotremes the age rises to crown Theria or crown Mammalia. Grooming and allogrooming are not dated by any source read here. Group T has no node for the primate-rodent-carnivore ancestor (Boreoeutheria). It contains crown primates, so it is older than 56 (T crown primates fossil minimum), and it is younger than crown placentals (T: 61.6 to 164.6 fossil, 87.9 to 90.4 molecular). The max is the crown placental soft maximum, not an estimate.",
+        "updated_at": "2026-11-16T09:14:21.201286+00:00"
+      }
+    ],
     "challenges_set_aside": [
       {
         "citation": "Stieglitz et al. 2015",
@@ -27701,6 +30983,22 @@
         ]
       },
       {
+        "id": 1133,
+        "extraction_id": 1133,
+        "work_id": 529,
+        "title": "The evolution of dopamine systems in chordates",
+        "content": "The evolution of dopamine systems in chordates",
+        "citation": "Yamamoto K, Vernier P, 2011",
+        "authors": "Yamamoto K, Vernier P",
+        "year": 2011,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": []
+      },
+      {
         "id": 969,
         "extraction_id": 969,
         "work_id": 440,
@@ -27988,6 +31286,22 @@
         "foundation_codes": [
           "P3"
         ]
+      },
+      {
+        "id": 1139,
+        "extraction_id": 1139,
+        "work_id": 532,
+        "title": "The implications of multiple circadian clock origins",
+        "content": "The implications of multiple circadian clock origins",
+        "citation": "Rosbash M, 2009",
+        "authors": "Rosbash M",
+        "year": 2009,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": []
       },
       {
         "id": 1116,
@@ -28791,21 +32105,21 @@
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 121,
-      "M2": 88,
-      "M3": 203,
-      "M4": 58,
-      "M9": 66,
-      "M14": 78,
-      "M11": 93,
-      "M5": 107,
-      "M13": 39,
-      "M10": 26,
-      "M8": 37,
-      "M12": 13,
-      "M6": 35,
-      "M7": 18,
-      "R1": 18
+      "M1": 138,
+      "M2": 102,
+      "M3": 246,
+      "M4": 67,
+      "M9": 82,
+      "M14": 105,
+      "M11": 116,
+      "M5": 131,
+      "M13": 54,
+      "M10": 36,
+      "M8": 49,
+      "M12": 15,
+      "M6": 44,
+      "M7": 40,
+      "R1": 24
     },
     "eea_by_mechanism": {
       "M11": [

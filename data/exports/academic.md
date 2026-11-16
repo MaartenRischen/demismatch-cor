@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-13 01:37 UTC, from the live Cor atlas snapshot built 2026-11-13 01:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-16 09:16 UTC, from the live Cor atlas snapshot built 2026-11-16 09:15 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 259 works, 845 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 303 works, 926 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
 
 ---
 ## How to read this document
@@ -31,7 +31,7 @@ Each section also records the epistemic grade, tier, phylogenetic age, the forci
 
 ## M1 - Threat Management
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500 Myr (all vertebrates). **Evidence link count:** 115. **Forced by convergence:** C10 (Threat-Detection via Ancient Subcortical Circuits).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~460-535Myr (defence centre, all vertebrates); amygdala circuit ~340Myr+ (four-limbed vertebrates). **Evidence link count:** 115. **Forced by convergence:** C10 (Threat-Detection via Ancient Subcortical Circuits).
 
 The defensive system responding to threat cues. Includes an offensive mode (frustration-aggression) absorbed from the old M3 RAGE system. In the plainest terms: it detects danger and produces freeze, fight, or flee. **Resolution conditions:** safety established, threat eliminated or avoided.
 
@@ -61,7 +61,7 @@ None - a single shared implementation.
 
 ## M2 - Pursuit / Exploration
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 67. **Forced by convergence:** C6 (Wanting-Liking Dissociation as Proxy Hijack).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~460-535Myr (dopamine basal ganglia, all vertebrates; contested); reward pathway ~165Myr+ (mammals). **Evidence link count:** 67. **Forced by convergence:** C6 (Wanting-Liking Dissociation as Proxy Hijack).
 
 The general-purpose seeking system. In a scope change from v3, sexual motivation has been removed and now lives in M14; M2's resolution conditions narrow to engagement with real-world challenges producing tangible outcomes, goal progress, skill building, and resource acquisition. **Resolution conditions:** engagement with real challenges producing tangible outcomes.
 
@@ -93,7 +93,7 @@ None - a single shared implementation.
 
 ## M3 - Social Bonding
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr (mammalian). **Evidence link count:** 192. **Forced by convergence:** C5 (Socially Scaffolded Regulation via Attachment).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~165-200Myr (attachment, mammals); human layered network not dated. **Evidence link count:** 192. **Forced by convergence:** C5 (Socially Scaffolded Regulation via Attachment).
 
 The attachment and co-regulation system. Includes the grief mode absorbed from the old M9 GRIEF system. It runs in two states: security (enables broadly) and grief (suppresses broadly). It forms bonds with other humans and produces pain-grade distress when they are gone.
 
@@ -127,7 +127,7 @@ None - a single shared implementation.
 
 ## M4 - Social Calibration / Play
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr (mammalian, absent in reptiles). **Evidence link count:** 55. **Grounded in:** C2, C4, and C12.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~60Myr+ (social play, all primates; up to ~170Myr if one mammal system); play in reptiles and fish arose separately. **Evidence link count:** 55. **Grounded in:** C2, C4, and C12.
 
 The play system develops social skills; it is absent in threatened or ill animals. It learns social rules through rough-and-tumble play and requires real playmates. **Resolution conditions:** self-directed, unsupervised physical play with other children; in forager childhoods this is a mixed-age group.
 
@@ -159,7 +159,7 @@ None - a single shared implementation.
 
 ## M5 - Status Monitoring
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~50-100 Myr (primates and social mammals). **Evidence link count:** 88. **Grounded in:** C2, C7, C9, and C13.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~420-445Myr (rank circuit, bony vertebrates); rank-linked health ~25-34Myr+ (Old World primates). **Evidence link count:** 88. **Grounded in:** C2, C7, C9, and C13.
 
 Rank regulation: shame, pride, submission, defeat, rank vigilance. It is not optional and runs continuously, monitoring where one stands relative to others. **Resolution conditions:** an acceptable position in a ~150-person reference group, with earned prestige preferred over coerced dominance (the Henrich & Gil-White distinction, which needs explicit treatment).
 
@@ -191,7 +191,7 @@ None - a single shared implementation.
 
 ## M6 - Controllability / Agency
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr. **Evidence link count:** 38. **Grounded in:** C8 and C13.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~60-90Myr+ (placental mammals; possibly ~165-200Myr, all mammals; contested). **Evidence link count:** 38. **Grounded in:** C8 and C13.
 
 The vmPFC-DRN controllability circuit. Critically, learned helplessness is the DEFAULT; agency is the override. This mechanism is central to breaking cascades. It tracks whether actions produce results; the default is passivity, and agency must be learned. **Resolution conditions:** genuine action-outcome feedback and decision latitude.
 
@@ -223,7 +223,7 @@ None - a single shared implementation.
 
 ## M7 - Circadian Regulation
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~3 Byr (cyanobacteria onward). **Evidence link count:** 20. **Grounded in:** C3, C9, and C12.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500Myr+ (animal clock genes, insects and vertebrates); cyanobacterial clocks are older but a separate origin. **Evidence link count:** 20. **Grounded in:** C3, C9, and C12.
 
 The SCN master clock. It gates metabolism, immunity, cognition, and mood. The mismatch is usually one of timing or quality, not duration. It synchronizes every system to the light-dark cycle and is the master timing architecture. **Resolution conditions:** dark-cued sleep onset, bright daylight exposure, and a consistent rhythm.
 
@@ -255,7 +255,7 @@ None - a single shared implementation.
 
 ## M8 - Immune Regulation
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~600 Myr (all multicellular). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~550-830Myr (innate immunity, animals; contested); adaptive immunity ~420-470Myr (jawed vertebrates). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
 
 The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
 
@@ -287,7 +287,7 @@ None - a single shared implementation.
 
 ## M9 - Care / Alloparenting
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~200 Myr. **Evidence link count:** 64. **Grounded in:** C1, C4, C5, and C12.
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~165-200Myr (maternal care, mammals); human cooperative breeding ~2Myr+ (argued). **Evidence link count:** 64. **Grounded in:** C1, C4, C5, and C12.
 
 The parental and alloparental care system, running on oxytocin/prolactin circuits. The architecture expects distributed care - a village, not solo parenting. **Resolution conditions:** a distributed care network rather than solo or dyadic parenting. Traditional-society data typically show multiple non-parent caregivers (~4+); the critical resolving variable is the presence and continuity of real alloparental supply (care plus provisioning), NOT bare kinship.
 
@@ -322,7 +322,7 @@ None - a single shared implementation.
 
 ## M10 - Movement / Regulatory
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 29. **Grounded in:** C3 and C9.
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~2Myr (human form, argued); older regulatory roles not dated. **Evidence link count:** 29. **Grounded in:** C3 and C9.
 
 Physical activity functioning as a zeitgeber, anti-inflammatory, and mood regulator. Movement is not merely exercise: it activates repair mechanisms throughout the organism. **Resolution conditions:** movement that is part of daily life rather than set aside as 'exercise'. Hunter-gatherers typically moved 9-15 km a day as a side effect of how they lived.
 
@@ -354,7 +354,7 @@ None - a single shared implementation.
 
 ## M11 - Cooperation / Alliance
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~2-5 Myr (humans and great apes). **Evidence link count:** 73. **Forced by convergence:** C11 (Reciprocity, Norm Enforcement, and Coalition Architecture).
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr. **Evidence link count:** 73. **Forced by convergence:** C11 (Reciprocity, Norm Enforcement, and Coalition Architecture).
 
 Reciprocity plus norm enforcement plus alliance dynamics. This mechanism absorbs the old M10 (Cooperation) and M11 (Coalitional). Its Tier 2 placement is a confidence grade, not an entailment status: convergence C11 forces this mechanism, and its four converging streams strongly support it without reaching the top confidence tier. In plainest terms: reciprocal exchange, cheater detection, and coalitional identity.
 
@@ -388,7 +388,7 @@ None - a single shared implementation.
 
 ## M12 - Contamination Avoidance
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~300 Myr. **Evidence link count:** 12. **Grounded in:** C2 and C8.
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~25-34Myr+ (contamination avoidance, Old World primates); parasite avoidance across animals has no single age. **Evidence link count:** 12. **Grounded in:** C2 and C8.
 
 Three-domain disgust (pathogen, sexual, moral): the behavioral immune system. Pathogen avoidance extended to moral and social contamination. **Resolution conditions:** clean food, clean social environment, moral disgust contained. (Note: the 'moral disgust contained' clause is flagged CONTESTED.)
 
@@ -418,7 +418,7 @@ None - a single shared implementation.
 
 ## M13 - Energy Regulation
 
-**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~500 Myr. **Evidence link count:** 34. **Grounded in:** C3, C6, and C9.
+**Grade:** strongly_supported. **Tier:** 2. **Phylogenetic age:** ~420Myr+ (appetite brake, jawed vertebrates); human energy budget under ~10Myr. **Evidence link count:** 34. **Grounded in:** C3, C6, and C9.
 
 Pontzer's constrained energy model: energy is redistributed, not simply burned. The mechanism comprises hunger, satiety, and constrained total energy expenditure. **Resolution conditions:** effortful, diverse, seasonal whole foods; metabolic variety.
 
@@ -450,7 +450,7 @@ None - a single shared implementation.
 
 ## M14 - Reproductive Motivation
 
-**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~500 Myr sexual, ~200 Myr pair bonding. **Evidence link count:** 58. **Forced by convergence:** C14 (Reproductive Motivation as Distinct Architecture).
+**Grade:** established. **Tier:** 1. **Phylogenetic age:** ~460-535Myr (sexual hormone axis, all vertebrates); human pair bond ~2-4Myr (contested). **Evidence link count:** 58. **Forced by convergence:** C14 (Reproductive Motivation as Distinct Architecture).
 
 Fisher's three-system model, independent from M2 pursuit and running on the HPG axis, not just brain circuits. The three components - desire, attraction, and pair bonding - can work independently of one another, and this system shapes much more of human behavior than reproduction itself. **Resolution conditions:** sexual fulfillment within a pair bond, plus pair-bond stability, plus reproductive success.
 
@@ -480,7 +480,7 @@ This is a sex-differentiated implementation: the same system with two parameteri
 
 ## R1 - Touch
 
-**Grade:** moderate. **Tier:** 3. **Phylogenetic age:** ~200 Myr (mammalian). **Evidence link count:** 18. **Grounded in:** C4 and C5.
+**Grade:** moderate. **Tier:** 3. **Phylogenetic age:** ~60-90Myr (C-tactile touch fibres, placental mammals). **Evidence link count:** 18. **Grounded in:** C4 and C5.
 
 R1 is NOT a motivational system. It is a regulatory input to M3, carried by C-tactile afferents - a regulatory channel, not a motivation. **Resolution conditions:** regular physical contact with trusted others.
 
@@ -1448,8 +1448,8 @@ Earlier grading notes (rubric v1, kept for the record): HARD-RULE row, fully com
 **Evidence (3 links):**
 
 - ext#39 · contested · primary: Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di
-- ext#38 · argued, not yet tested · supporting: The discordance hypothesis: the human genome was shaped under Paleolithic nutritional conditions and has changed negligibly since the advent of agriculture (~10,000 years ago). Modern diseases of civilization - atherosclerosis, hypertension, obesity, diabetes - result from the mi
-- ext#471 · argued, not yet tested · supporting: Eaton & Konner analyzed nutritional properties of wild game and uncultivated vegetable foods and evaluated archaeological remains to reconstruct Paleolithic diet composition. Their model was derived from 69 game and wild vegetable items. Humanity has existed as a genus for about
+- ext#38 · argued, not yet tested · supporting: "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time."
+- ext#471 · argued, not yet tested · supporting: "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1)."
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.
 
@@ -1723,4 +1723,4 @@ Earlier grading notes (rubric v1, kept for the record): Speculative as an inform
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-13 01:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-13 01:37 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-16 09:15 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-16 09:16 UTC.*

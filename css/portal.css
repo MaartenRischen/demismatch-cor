@@ -312,6 +312,13 @@ button { font-family: inherit; cursor: pointer; color: inherit; background: none
 .phylo-txt { min-width: 0; }
 .phylo-age { font-family: var(--mono); font-size: .82rem; color: var(--oxblood); font-weight: 500; }
 .phylo-note { font-size: .8rem; font-weight: 300; color: var(--oxblood-warm); line-height: 1.45; margin-top: 3px; }
+.phylo-parts { list-style: none; margin: 12px 0 0; padding: 10px 0 0; border-top: 1px solid rgba(58,18,24,.12); font-size: .82rem; font-weight: 300; color: var(--oxblood-warm); line-height: 1.5; }
+.phylo-parts li + li { margin-top: 6px; }
+.phylo-part { font-weight: 500; color: var(--oxblood); }
+.phylo-part-age { font-family: var(--mono); color: var(--oxblood); }
+.phylo-parts .chip { font-family: var(--mono); font-size: .72rem; color: var(--oxblood); white-space: nowrap; }
+.phylo-parts .chip::before { content: "["; }
+.phylo-parts .chip::after { content: "]"; }
 
 /* cascade chips */
 .cascade-grp { margin-bottom: 11px; }
