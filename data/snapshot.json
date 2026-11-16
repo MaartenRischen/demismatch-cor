@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-16T09:46:32.193022+00:00",
+    "built_at": "2026-11-16T10:48:42.592179+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -11688,18 +11688,6 @@
         "source_type": "primary"
       },
       {
-        "id": 1113,
-        "work_id": 520,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1",
-          "OF2",
-          "DA10"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge"
-      },
-      {
         "id": 939,
         "work_id": 413,
         "mechanism_codes": [],
@@ -16821,18 +16809,6 @@
         "source_type": "challenge"
       },
       {
-        "id": 1245,
-        "work_id": 602,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA3",
-          "OF2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge"
-      },
-      {
         "id": 1220,
         "work_id": 580,
         "mechanism_codes": [],
@@ -16859,28 +16835,6 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge"
-      },
-      {
-        "id": 1244,
-        "work_id": 601,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA3",
-          "OF2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge"
-      },
-      {
-        "id": 1246,
-        "work_id": 603,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA3"
         ],
         "evidence_quality": "thin",
         "source_type": "challenge"
@@ -16990,12 +16944,47 @@
         "source_type": "primary"
       },
       {
-        "id": 1249,
-        "work_id": 604,
+        "id": 1113,
+        "work_id": 520,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1",
+          "OF2",
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "challenge"
+      },
+      {
+        "id": 1244,
+        "work_id": 601,
         "mechanism_codes": [],
         "foundation_codes": [
           "DA3",
           "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge"
+      },
+      {
+        "id": 1245,
+        "work_id": 602,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA3",
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge"
+      },
+      {
+        "id": 1246,
+        "work_id": 603,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA3"
         ],
         "evidence_quality": "thin",
         "source_type": "challenge"
@@ -17006,6 +16995,17 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "DA1",
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge"
+      },
+      {
+        "id": 1249,
+        "work_id": 604,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA3",
           "OF2"
         ],
         "evidence_quality": "thin",
@@ -31374,24 +31374,6 @@
         ]
       },
       {
-        "id": 1113,
-        "extraction_id": 1113,
-        "work_id": 520,
-        "title": "The dappled nature of causes of psychiatric illness: replacing the organic-functional/hardware-software dichotomy with empirically based pluralism",
-        "content": "The dappled nature of causes of psychiatric illness: replacing the organic-functional/hardware-software dichotomy with empirically based pluralism",
-        "citation": "Kendler KS, 2012",
-        "authors": "Kendler KS",
-        "year": 2012,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA1",
-          "OF2",
-          "DA10"
-        ]
-      },
-      {
         "id": 1114,
         "extraction_id": 1114,
         "work_id": 520,
@@ -32597,24 +32579,6 @@
         ]
       },
       {
-        "id": 1245,
-        "extraction_id": 1245,
-        "work_id": 602,
-        "title": "Genetic risk, number of previous depressive episodes, and stressful life events in predicting onset of major depression",
-        "content": "Genetic risk, number of previous depressive episodes, and stressful life events in predicting onset of major depression",
-        "citation": "Kendler KS, Thornton LM, Gardner CO, 2001",
-        "authors": "Kendler KS, Thornton LM, Gardner CO",
-        "year": 2001,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA3",
-          "OF2"
-        ]
-      },
-      {
         "id": 1242,
         "extraction_id": 1242,
         "work_id": 599,
@@ -32628,40 +32592,6 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "DA10"
-        ]
-      },
-      {
-        "id": 1244,
-        "extraction_id": 1244,
-        "work_id": 601,
-        "title": "Stressful life events and previous episodes in the etiology of major depression in women: an evaluation of the \"kindling\" hypothesis",
-        "content": "Stressful life events and previous episodes in the etiology of major depression in women: an evaluation of the \"kindling\" hypothesis",
-        "citation": "Kendler KS, Thornton LM, Gardner CO, 2000",
-        "authors": "Kendler KS, Thornton LM, Gardner CO",
-        "year": 2000,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA3",
-          "OF2"
-        ]
-      },
-      {
-        "id": 1246,
-        "extraction_id": 1246,
-        "work_id": 603,
-        "title": "Depressive vulnerability, stressful life events and episode onset of major depression: a longitudinal model",
-        "content": "Depressive vulnerability, stressful life events and episode onset of major depression: a longitudinal model",
-        "citation": "Kendler KS, Gardner CO, 2016",
-        "authors": "Kendler KS, Gardner CO",
-        "year": 2016,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA3"
         ]
       },
       {
@@ -32716,20 +32646,73 @@
         ]
       },
       {
-        "id": 1249,
-        "extraction_id": 1249,
-        "work_id": 604,
-        "title": "Severe and nonsevere events in first onsets versus recurrences of depression: evidence for stress sensitization",
-        "content": "Severe and nonsevere events in first onsets versus recurrences of depression: evidence for stress sensitization",
-        "citation": "Stroud CB, Davila J, Hammen C, Vrshek-Schallhorn S, 2011",
-        "authors": "Stroud CB, Davila J, Hammen C, Vrshek-Schallhorn S",
-        "year": 2011,
+        "id": 1113,
+        "extraction_id": 1113,
+        "work_id": 520,
+        "title": "The dappled nature of causes of psychiatric illness: replacing the organic-functional/hardware-software dichotomy with empirically based pluralism",
+        "content": "The dappled nature of causes of psychiatric illness: replacing the organic-functional/hardware-software dichotomy with empirically based pluralism",
+        "citation": "Kendler KS, 2012",
+        "authors": "Kendler KS",
+        "year": 2012,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1",
+          "OF2",
+          "DA10"
+        ]
+      },
+      {
+        "id": 1244,
+        "extraction_id": 1244,
+        "work_id": 601,
+        "title": "Stressful life events and previous episodes in the etiology of major depression in women: an evaluation of the \"kindling\" hypothesis",
+        "content": "Stressful life events and previous episodes in the etiology of major depression in women: an evaluation of the \"kindling\" hypothesis",
+        "citation": "Kendler KS, Thornton LM, Gardner CO, 2000",
+        "authors": "Kendler KS, Thornton LM, Gardner CO",
+        "year": 2000,
         "researcher": null,
         "evidence_quality": "thin",
         "mechanism_codes": [],
         "foundation_codes": [
           "DA3",
           "OF2"
+        ]
+      },
+      {
+        "id": 1245,
+        "extraction_id": 1245,
+        "work_id": 602,
+        "title": "Genetic risk, number of previous depressive episodes, and stressful life events in predicting onset of major depression",
+        "content": "Genetic risk, number of previous depressive episodes, and stressful life events in predicting onset of major depression",
+        "citation": "Kendler KS, Thornton LM, Gardner CO, 2001",
+        "authors": "Kendler KS, Thornton LM, Gardner CO",
+        "year": 2001,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA3",
+          "OF2"
+        ]
+      },
+      {
+        "id": 1246,
+        "extraction_id": 1246,
+        "work_id": 603,
+        "title": "Depressive vulnerability, stressful life events and episode onset of major depression: a longitudinal model",
+        "content": "Depressive vulnerability, stressful life events and episode onset of major depression: a longitudinal model",
+        "citation": "Kendler KS, Gardner CO, 2016",
+        "authors": "Kendler KS, Gardner CO",
+        "year": 2016,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA3"
         ]
       },
       {
@@ -32746,6 +32729,23 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "DA1",
+          "OF2"
+        ]
+      },
+      {
+        "id": 1249,
+        "extraction_id": 1249,
+        "work_id": 604,
+        "title": "Severe and nonsevere events in first onsets versus recurrences of depression: evidence for stress sensitization",
+        "content": "Severe and nonsevere events in first onsets versus recurrences of depression: evidence for stress sensitization",
+        "citation": "Stroud CB, Davila J, Hammen C, Vrshek-Schallhorn S, 2011",
+        "authors": "Stroud CB, Davila J, Hammen C, Vrshek-Schallhorn S",
+        "year": 2011,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA3",
           "OF2"
         ]
       }
