@@ -116,7 +116,7 @@ Earlier grading notes (rubric v1, kept for the record): Camp ~30 (range 25-50) n
 
 **EEA value** (illustrative, not constants):
 
-  - source_caveat: figures are Hadza/forager web- and abstract-sourced (Hill et al. 2011 PMID 21393537; Dyble et al. 2015 PMID 25977553); both are real (DOI+PMID) but NOT in Cor and NOT full-text-verified in Cor (retrieval returned is_fulltext=false for each)
+  - source_caveat: Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172, background tier (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176, background tier (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored. Camp size range is illustrative.
   - camp_size_total_range: [25, 50]
   - camp_size_adults_approx: 28
   - relatedness_qualitative: low; most campmates unrelated or distantly related

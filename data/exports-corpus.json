@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-16T10:48:42.592179+00:00",
+    "source_built_at": "2026-11-16T12:53:59.504774+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 320,
-    "extractions": 950,
+    "works": 355,
+    "extractions": 1004,
     "researchers": 84,
-    "mechanism_evidence": 1253,
+    "mechanism_evidence": 1278,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 222,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 102
+    "challenges": 106
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -458,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 138,
+        "link_count": 146,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 102,
+        "link_count": 103,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 248,
+        "link_count": 250,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -848,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 133,
+        "link_count": 136,
         "researchers": [
           "Gilbert",
           "Price",
@@ -1372,7 +1372,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 36,
+        "link_count": 37,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1468,7 +1468,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 116,
+        "link_count": 121,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1745,7 +1745,7 @@
         ]
       },
       "evidence": {
-        "link_count": 105,
+        "link_count": 110,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -2268,7 +2268,7 @@
         "name": "Within-camp kin fraction (low; campmates mostly unrelated)",
         "eea_baseline": "A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (illustratively under ~10%), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.",
         "eea_value": {
-          "source_caveat": "figures are Hadza/forager web- and abstract-sourced (Hill et al. 2011 PMID 21393537; Dyble et al. 2015 PMID 25977553); both are real (DOI+PMID) but NOT in Cor and NOT full-text-verified in Cor (retrieval returned is_fulltext=false for each)",
+          "source_caveat": "Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172, background tier (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176, background tier (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored. Camp size range is illustrative.",
           "camp_size_total_range": [
             25,
             50

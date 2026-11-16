@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-16 10:48 UTC, from the live Cor atlas snapshot built 2026-11-16 10:48 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-16 12:54 UTC, from the live Cor atlas snapshot built 2026-11-16 12:53 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 320 works, 950 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 355 works, 1004 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
 
 ---
 ## How to read this document
@@ -624,7 +624,7 @@ Earlier grading notes (rubric v1, kept for the record): Camp ~30 (range 25-50) n
 
 **EEA value** (illustrative, not constants):
 
-  - source_caveat: figures are Hadza/forager web- and abstract-sourced (Hill et al. 2011 PMID 21393537; Dyble et al. 2015 PMID 25977553); both are real (DOI+PMID) but NOT in Cor and NOT full-text-verified in Cor (retrieval returned is_fulltext=false for each)
+  - source_caveat: Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172, background tier (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176, background tier (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored. Camp size range is illustrative.
   - camp_size_total_range: [25, 50]
   - camp_size_adults_approx: 28
   - relatedness_qualitative: low; most campmates unrelated or distantly related
@@ -1723,4 +1723,4 @@ Earlier grading notes (rubric v1, kept for the record): Speculative as an inform
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-16 10:48 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-16 10:48 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-16 12:53 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-16 12:54 UTC.*

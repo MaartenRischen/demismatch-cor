@@ -166,8 +166,32 @@
 @media (max-width: 560px) {
   .corpus-app .cx-stats { gap: 18px; }
   .corpus-app .cx-stat .n { font-size: 1.5rem; }
-  .corpus-app .cx-count { width: 100%; margin-left: 0; }
+  .corpus-app .cx-count { width: 100%; margin-left: 0; white-space: normal; }
 }
 @media (prefers-reduced-motion: reduce) {
   .corpus-app *, .corpus-app *::before, .corpus-app *::after { transition: none !important; }
 }
+
+/* ---------- background tier, citation line, findings (2026-11-16) ---------- */
+.corpus-app .t-bg { color: #6f6a8a; }
+.corpus-app .cx-lede-bg { font-size: .94rem; color: var(--muted); margin-top: 8px; }
+.corpus-app .cx-seg button.bgt[aria-pressed="true"] { background: #6f6a8a; }
+.corpus-app .band.background { background: repeating-linear-gradient(90deg, #8d88a8 0 6px, transparent 6px 10px); }
+.corpus-app .imp.background { background: rgba(111, 106, 138, .14); color: #5b5674; }
+.corpus-app .r-cite { font-size: .98rem; color: var(--oxblood-ink); margin: -8px 0 16px; }
+.corpus-app .r-sec.bgnote { border-left: 3px solid #8d88a8; padding-left: 16px; }
+.corpus-app .r-sec.finds { border-top: 1px solid var(--border); padding-top: 18px; }
+.corpus-app .cx-findings { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.corpus-app .cx-find { border: 1px solid var(--border-soft); border-radius: 8px; padding: 12px 14px; background: var(--parchment); }
+.corpus-app .cx-find.focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(45, 107, 107, .16); }
+.corpus-app .cx-find p { margin: 6px 0 0; font-size: .95rem; line-height: 1.55; color: var(--ink); }
+.corpus-app .f-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.corpus-app .f-id { font-family: var(--mono); font-size: 10.5px; letter-spacing: .5px; color: var(--teal-deep); text-decoration: none; }
+.corpus-app .f-id:hover { text-decoration: underline; }
+.corpus-app .f-grade, .corpus-app .f-tier { font-family: var(--mono); font-size: 9.5px; letter-spacing: .8px; text-transform: uppercase;
+  border-radius: 4px; padding: 2px 6px; background: rgba(138, 125, 94, .16); color: var(--muted); }
+.corpus-app .f-grade.g-many { background: rgba(45, 107, 107, .14); color: var(--teal-deep); }
+.corpus-app .f-grade.g-contested { background: rgba(122, 30, 38, .12); color: var(--oxblood); }
+.corpus-app .f-tier { background: rgba(111, 106, 138, .14); color: #5b5674; }
+.corpus-app .f-none { font-size: .95rem; color: var(--muted); margin: 0; }
+.corpus-app .cx-seg[hidden] { display: none; }
