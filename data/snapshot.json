@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-16T12:53:59.504774+00:00",
+    "built_at": "2026-11-16T16:29:15.926541+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 355,
-    "extractions": 1004,
+    "works": 374,
+    "extractions": 1032,
     "researchers": 84,
-    "mechanism_evidence": 1278,
+    "mechanism_evidence": 1303,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -22,7 +22,7 @@
     "parameter_evidence": 222,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 106
+    "challenges": 112
   },
   "tables": {
     "foundations": [
@@ -5607,6 +5607,26 @@
         "url": "corpus.html#w=105"
       },
       {
+        "id": 313,
+        "title": "The spotlight effect in social judgment: an egocentric bias in estimates of the salience of one's own actions and appearance",
+        "authors": "Gilovich T, Medvec VH, Savitsky K",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0022-3514.78.2.211",
+        "pmid": "10707330",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Personality and Social Psychology",
+        "container": null,
+        "volume": "78",
+        "issue": "2",
+        "pages": "211-222",
+        "url": "corpus.html#w=313"
+      },
+      {
         "id": 337,
         "title": "Human uniqueness? Life history diversity among small-scale societies and chimpanzees",
         "authors": "Davison RJ, Gurven MD",
@@ -5647,6 +5667,46 @@
         "url": "corpus.html#w=334"
       },
       {
+        "id": 321,
+        "title": "Candidate biomarkers in psychiatric disorders: state of the field",
+        "authors": "Abi-Dargham A, Moeller SJ, Ali F, et al.",
+        "year": 2023,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/wps.21078",
+        "pmid": "37159365",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "World Psychiatry",
+        "container": null,
+        "volume": "22",
+        "issue": "2",
+        "pages": "236-262",
+        "url": "corpus.html#w=321"
+      },
+      {
+        "id": 345,
+        "title": "The Prevalence of Behavioural Symptoms and Psychiatric Disorders in Hadza Children",
+        "authors": "Ougrin D, Woodhouse E, Tucker G, Ronaldson A, Bakolis I",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-023-48114-4",
+        "pmid": "38086816",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "13",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=345"
+      },
+      {
         "id": 378,
         "title": "Warfare and reproductive success in a tribal population",
         "authors": "Glowacki L, Wrangham R",
@@ -5665,6 +5725,26 @@
         "issue": "2",
         "pages": "348-353",
         "url": "corpus.html#w=378"
+      },
+      {
+        "id": 382,
+        "title": "Attention deficits linked with proclivity to explore while foraging",
+        "authors": "Barack DL, Ludwig VU, Parodi F, Ahmed N, Brannon EM, Ramakrishnan A, Platt ML",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2022.2584",
+        "pmid": "38378153",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "291",
+        "issue": "2017",
+        "pages": null,
+        "url": "corpus.html#w=382"
       },
       {
         "id": 385,
@@ -9385,6 +9465,306 @@
         "issue": "3",
         "pages": "481-492",
         "url": "corpus.html#w=658"
+      },
+      {
+        "id": 669,
+        "title": "Brain response to visual sexual stimuli in heterosexual and homosexual males",
+        "authors": "Paul T, Schiffer B, Zwarg T, Krüger THC, Karama S, Schedlowski M, Forsting M, Gizewski ER",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/hbm.20435",
+        "pmid": "17636559",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Brain Mapping",
+        "container": null,
+        "volume": "29",
+        "issue": "6",
+        "pages": "726-735",
+        "url": "corpus.html#w=669"
+      },
+      {
+        "id": 670,
+        "title": "The Eyes Have It: Sex and Sexual Orientation Differences in Pupil Dilation Patterns",
+        "authors": "Rieger G, Savin-Williams RC",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0040256",
+        "pmid": "22870196",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLoS ONE",
+        "container": null,
+        "volume": "7",
+        "issue": "8",
+        "pages": "e40256",
+        "url": "corpus.html#w=670"
+      },
+      {
+        "id": 671,
+        "title": "Neural Correlates of Sexual Orientation in Heterosexual, Bisexual, and Homosexual Men",
+        "authors": "Safron A, Sylva D, Klimaj V, Rosenthal AM, Li M, Walter M, Bailey JM",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/srep41314",
+        "pmid": "28145518",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "7",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=671"
+      },
+      {
+        "id": 672,
+        "title": "Neural substrates of sexual arousal are not sex dependent",
+        "authors": "Mitricheva E, Kimura R, Logothetis NK, Noori HR",
+        "year": 2019,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1904975116",
+        "pmid": "31308220",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "116",
+        "issue": "31",
+        "pages": "15671-15676",
+        "url": "corpus.html#w=672"
+      },
+      {
+        "id": 674,
+        "title": "The Relation of Sexual Attitudes to Hypersexuality and Problematic Pornography Use",
+        "authors": "Lewczuk K, Wizła M, Gola M",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s10508-022-02358-9",
+        "pmid": "35896936",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of Sexual Behavior",
+        "container": null,
+        "volume": "52",
+        "issue": "1",
+        "pages": "411-430",
+        "url": "corpus.html#w=674"
+      },
+      {
+        "id": 675,
+        "title": "Increase in the Prevalence of Online Pornography Use: Objective Data Analysis from the Period Between 2004 and 2016 in Poland",
+        "authors": "Lewczuk K, Wójcik A, Gola M",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s10508-021-02090-w",
+        "pmid": "34750777",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of Sexual Behavior",
+        "container": null,
+        "volume": "51",
+        "issue": "2",
+        "pages": "1157-1171",
+        "url": "corpus.html#w=675"
+      },
+      {
+        "id": 678,
+        "title": "A Reassessment of the Defense of Parenthood",
+        "authors": "Bhargava S, Kassam KS, Loewenstein G",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/0956797613503348",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "25",
+        "issue": "1",
+        "pages": "299-302",
+        "url": "corpus.html#w=678"
+      },
+      {
+        "id": 680,
+        "title": "The Baltimore Experience Corps Trial: Enhancing Generativity via Intergenerational Activity Engagement in Later Life",
+        "authors": "Gruenewald TL, Tanner EK, Fried LP, Carlson MC, Xue QL, Parisi JM, Rebok GW, Yarnell LM, Seeman TE",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/geronb/gbv005",
+        "pmid": "25721053",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+        "container": null,
+        "volume": "71",
+        "issue": "4",
+        "pages": "661-670",
+        "url": "corpus.html#w=680"
+      },
+      {
+        "id": 681,
+        "title": "The Effects of Retirement on Sense of Purpose in Life: Crisis or Opportunity?",
+        "authors": "Yemiscigil A, Powdthavee N, Whillans AV",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/09567976211024248",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "32",
+        "issue": "11",
+        "pages": "1856-1864",
+        "url": "corpus.html#w=681"
+      },
+      {
+        "id": 682,
+        "title": "Controlled Interventions to Reduce Burnout in Physicians: A Systematic Review and Meta-analysis",
+        "authors": "Panagioti M, Panagopoulou E, Bower P, Lewith G, Kontopantelis E, Chew-Graham C, Dawson S, van Marwijk H, Geraghty K, Esmail A",
+        "year": 2017,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamainternmed.2016.7674",
+        "pmid": "27918798",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Internal Medicine",
+        "container": null,
+        "volume": "177",
+        "issue": "2",
+        "pages": "195",
+        "url": "corpus.html#w=682"
+      },
+      {
+        "id": 683,
+        "title": "Job burnout in mental health providers: A meta-analysis of 35 years of intervention research",
+        "authors": "Dreison KC, Luther L, Bonfils KA, Sliter MT, McGrew JH, Salyers MP",
+        "year": 2018,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/ocp0000047",
+        "pmid": "27643608",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Occupational Health Psychology",
+        "container": null,
+        "volume": "23",
+        "issue": "1",
+        "pages": "18-30",
+        "url": "corpus.html#w=683"
+      },
+      {
+        "id": 685,
+        "title": "Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis",
+        "authors": "Kalfas M, Tsapekos D, Butler M, McCutcheon RA, Pillinger T, Strawbridge R, Bhat BB, Haddad PM, Cowen PJ, Howes OD, Joyce DW, Nutt DJ, Baldwin DS, Pariante CM, Lewis G, Young AH, Lewis G, Hayes JF, Jauhar S",
+        "year": 2025,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2025.1362",
+        "pmid": "40632531",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "82",
+        "issue": "9",
+        "pages": "896",
+        "url": "corpus.html#w=685"
+      },
+      {
+        "id": 687,
+        "title": "Approaches for discontinuation versus continuation of long-term antidepressant use for depressive and anxiety disorders in adults",
+        "authors": "Van Leeuwen E, van Driel ML, Horowitz MA, Kendrick T, Donald M, De Sutter AI, Robertson L, Christiaens T",
+        "year": 2021,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/14651858.CD013495.pub2",
+        "pmid": "33886130",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Cochrane Database of Systematic Reviews",
+        "container": null,
+        "volume": "2026",
+        "issue": "8",
+        "pages": null,
+        "url": "corpus.html#w=687"
+      },
+      {
+        "id": 690,
+        "title": "Feeling Better...But Also Less Lonely? An Experimental Comparison of How Parasocial and Social Relationships Affect People's Well-Being",
+        "authors": "Stein JP, Liebers N, Faiss M",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1080/15205436.2022.2127369",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Mass Communication and Society",
+        "container": null,
+        "volume": "27",
+        "issue": "3",
+        "pages": "576-598",
+        "url": "corpus.html#w=690"
+      },
+      {
+        "id": 691,
+        "title": "Parasocial relationships as functional social alternatives during pandemic-induced social distancing",
+        "authors": "Bond BJ",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/ppm0000364",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychology of Popular Media",
+        "container": null,
+        "volume": "11",
+        "issue": "3",
+        "pages": "250-257",
+        "url": "corpus.html#w=691"
       }
     ],
     "extractions": [
@@ -10890,6 +11270,19 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=636"
+      },
+      {
+        "id": 825,
+        "work_id": 313,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=825"
       },
       {
         "id": 296,
@@ -20046,6 +20439,21 @@
         "url": "corpus.html#e=851"
       },
       {
+        "id": 859,
+        "work_id": 345,
+        "mechanism_codes": [
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=859"
+      },
+      {
         "id": 1132,
         "work_id": 528,
         "mechanism_codes": [
@@ -24743,6 +25151,368 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1324"
+      },
+      {
+        "id": 833,
+        "work_id": 321,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=833"
+      },
+      {
+        "id": 896,
+        "work_id": 382,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=896"
+      },
+      {
+        "id": 1339,
+        "work_id": 669,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1339"
+      },
+      {
+        "id": 1340,
+        "work_id": 669,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1340"
+      },
+      {
+        "id": 1341,
+        "work_id": 670,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1341"
+      },
+      {
+        "id": 1342,
+        "work_id": 671,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1342"
+      },
+      {
+        "id": 1343,
+        "work_id": 672,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1343"
+      },
+      {
+        "id": 1344,
+        "work_id": 672,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1344"
+      },
+      {
+        "id": 1346,
+        "work_id": 674,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1346"
+      },
+      {
+        "id": 1347,
+        "work_id": 674,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1347"
+      },
+      {
+        "id": 1348,
+        "work_id": 675,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1348"
+      },
+      {
+        "id": 1351,
+        "work_id": 678,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1351"
+      },
+      {
+        "id": 1352,
+        "work_id": 678,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1352"
+      },
+      {
+        "id": 1354,
+        "work_id": 680,
+        "mechanism_codes": [
+          "M9",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1354"
+      },
+      {
+        "id": 1355,
+        "work_id": 681,
+        "mechanism_codes": [
+          "M11",
+          "M6"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1355"
+      },
+      {
+        "id": 1356,
+        "work_id": 682,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1356"
+      },
+      {
+        "id": 1357,
+        "work_id": 682,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1357"
+      },
+      {
+        "id": 1358,
+        "work_id": 683,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1358"
+      },
+      {
+        "id": 1359,
+        "work_id": 683,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1359"
+      },
+      {
+        "id": 1361,
+        "work_id": 685,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1361"
+      },
+      {
+        "id": 1362,
+        "work_id": 685,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1362"
+      },
+      {
+        "id": 1363,
+        "work_id": 685,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1363"
+      },
+      {
+        "id": 1365,
+        "work_id": 687,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1365"
+      },
+      {
+        "id": 1371,
+        "work_id": 690,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA9"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1371"
+      },
+      {
+        "id": 1372,
+        "work_id": 690,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA9"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1372"
+      },
+      {
+        "id": 1373,
+        "work_id": 691,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1373"
       }
     ],
     "researchers": [
@@ -26729,6 +27499,12 @@
         "evidence_role": "supporting"
       },
       {
+        "id": 1318,
+        "mechanism_code": "M2",
+        "extraction_id": 896,
+        "evidence_role": "supporting"
+      },
+      {
         "id": 1539,
         "mechanism_code": "M6",
         "extraction_id": 1119,
@@ -26909,6 +27685,12 @@
         "evidence_role": "primary"
       },
       {
+        "id": 1241,
+        "mechanism_code": "M5",
+        "extraction_id": 825,
+        "evidence_role": "primary"
+      },
+      {
         "id": 241,
         "mechanism_code": "M10",
         "extraction_id": 207,
@@ -27032,6 +27814,138 @@
         "id": 1650,
         "mechanism_code": "M5",
         "extraction_id": 1279,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1673,
+        "mechanism_code": "M14",
+        "extraction_id": 1339,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1674,
+        "mechanism_code": "M14",
+        "extraction_id": 1340,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1675,
+        "mechanism_code": "M14",
+        "extraction_id": 1341,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1676,
+        "mechanism_code": "M14",
+        "extraction_id": 1342,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1677,
+        "mechanism_code": "M14",
+        "extraction_id": 1343,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1678,
+        "mechanism_code": "M14",
+        "extraction_id": 1344,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1680,
+        "mechanism_code": "M14",
+        "extraction_id": 1346,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1681,
+        "mechanism_code": "M14",
+        "extraction_id": 1347,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1682,
+        "mechanism_code": "M14",
+        "extraction_id": 1348,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1686,
+        "mechanism_code": "M9",
+        "extraction_id": 1351,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1687,
+        "mechanism_code": "M9",
+        "extraction_id": 1352,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1690,
+        "mechanism_code": "M9",
+        "extraction_id": 1354,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1691,
+        "mechanism_code": "M11",
+        "extraction_id": 1354,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1692,
+        "mechanism_code": "M11",
+        "extraction_id": 1355,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1693,
+        "mechanism_code": "M6",
+        "extraction_id": 1355,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1694,
+        "mechanism_code": "M6",
+        "extraction_id": 1356,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1695,
+        "mechanism_code": "M6",
+        "extraction_id": 1357,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1696,
+        "mechanism_code": "M6",
+        "extraction_id": 1358,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1697,
+        "mechanism_code": "M6",
+        "extraction_id": 1359,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 1699,
+        "mechanism_code": "M3",
+        "extraction_id": 1371,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1700,
+        "mechanism_code": "M3",
+        "extraction_id": 1372,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1701,
+        "mechanism_code": "M3",
+        "extraction_id": 1373,
         "evidence_role": "primary"
       },
       {
@@ -32936,6 +33850,12 @@
         "id": 1270,
         "mechanism_code": "M14",
         "extraction_id": 851,
+        "evidence_role": "supporting"
+      },
+      {
+        "id": 1274,
+        "mechanism_code": "M10",
+        "extraction_id": 859,
         "evidence_role": "supporting"
       },
       {
@@ -40691,24 +41611,123 @@
         "evidence_quality": "thin",
         "mechanism_codes": [],
         "foundation_codes": []
+      },
+      {
+        "id": 1344,
+        "extraction_id": 1344,
+        "work_id": 672,
+        "title": "Neural substrates of sexual arousal are not sex dependent",
+        "content": "Neural substrates of sexual arousal are not sex dependent",
+        "citation": "Mitricheva E, Kimura R, Logothetis NK, Noori HR, 2019",
+        "authors": "Mitricheva E, Kimura R, Logothetis NK, Noori HR",
+        "year": 2019,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 1347,
+        "extraction_id": 1347,
+        "work_id": 674,
+        "title": "The Relation of Sexual Attitudes to Hypersexuality and Problematic Pornography Use",
+        "content": "The Relation of Sexual Attitudes to Hypersexuality and Problematic Pornography Use",
+        "citation": "Lewczuk K, Wizła M, Gola M, 2023",
+        "authors": "Lewczuk K, Wizła M, Gola M",
+        "year": 2023,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": []
+      },
+      {
+        "id": 1352,
+        "extraction_id": 1352,
+        "work_id": 678,
+        "title": "A Reassessment of the Defense of Parenthood",
+        "content": "A Reassessment of the Defense of Parenthood",
+        "citation": "Bhargava S, Kassam KS, Loewenstein G, 2014",
+        "authors": "Bhargava S, Kassam KS, Loewenstein G",
+        "year": 2014,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": []
+      },
+      {
+        "id": 1355,
+        "extraction_id": 1355,
+        "work_id": 681,
+        "title": "The Effects of Retirement on Sense of Purpose in Life: Crisis or Opportunity?",
+        "content": "The Effects of Retirement on Sense of Purpose in Life: Crisis or Opportunity?",
+        "citation": "Yemiscigil A, Powdthavee N, Whillans AV, 2021",
+        "authors": "Yemiscigil A, Powdthavee N, Whillans AV",
+        "year": 2021,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M11",
+          "M6"
+        ],
+        "foundation_codes": []
+      },
+      {
+        "id": 1359,
+        "extraction_id": 1359,
+        "work_id": 683,
+        "title": "Job burnout in mental health providers: A meta-analysis of 35 years of intervention research",
+        "content": "Job burnout in mental health providers: A meta-analysis of 35 years of intervention research",
+        "citation": "Dreison KC, Luther L, Bonfils KA, Sliter MT, McGrew JH, Salyers MP, 2018",
+        "authors": "Dreison KC, Luther L, Bonfils KA, Sliter MT, McGrew JH, Salyers MP",
+        "year": 2018,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ]
+      },
+      {
+        "id": 1363,
+        "extraction_id": 1363,
+        "work_id": 685,
+        "title": "Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis",
+        "content": "Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis",
+        "citation": "Kalfas M, Tsapekos D, Butler M, McCutcheon RA, Pillinger T, Strawbridge R, Bhat BB, Haddad PM, Cowen PJ, Howes OD, Joyce DW, Nutt DJ, Baldwin DS, Pariante CM, Lewis G, Young AH, Lewis G, Hayes JF, Jauhar S, 2025",
+        "authors": "Kalfas M, Tsapekos D, Butler M, McCutcheon RA, Pillinger T, Strawbridge R, Bhat BB, Haddad PM, Cowen PJ, Howes OD, Joyce DW, Nutt DJ, Baldwin DS, Pariante CM, Lewis G, Young AH, Lewis G, Hayes JF, Jauhar S",
+        "year": 2025,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
       }
     ]
   },
   "derived": {
     "evidence_counts_by_mechanism": {
       "M1": 146,
-      "M2": 103,
-      "M3": 250,
+      "M2": 104,
+      "M3": 253,
       "M4": 67,
-      "M9": 82,
-      "M14": 110,
-      "M11": 121,
-      "M5": 136,
+      "M9": 85,
+      "M14": 119,
+      "M11": 123,
+      "M5": 137,
       "M13": 54,
-      "M10": 37,
+      "M10": 38,
       "M8": 49,
       "M12": 15,
-      "M6": 44,
+      "M6": 49,
       "M7": 40,
       "R1": 24
     },
@@ -40904,12 +41923,12 @@
         "authors": "Everett Waters, Leah Matas, L. Alan Sroufe",
         "year": 1975,
         "work_type": "paper",
-        "journal": "Child development",
+        "journal": "Child Development",
         "container": null,
         "volume": "46",
         "issue": "2",
-        "pages": "348-56",
-        "doi": null,
+        "pages": "348",
+        "doi": "10.2307/1128127",
         "pmid": "1183268",
         "isbn": null,
         "in_physical_collection": false,
@@ -43346,24 +44365,6 @@
         "url": "corpus.html#w=312"
       },
       {
-        "id": 313,
-        "tier": "background",
-        "title": "The spotlight effect in social judgment: an egocentric bias in estimates of the salience of one's own actions and appearance",
-        "authors": "Gilovich T, Medvec VH, Savitsky K",
-        "year": 2000,
-        "work_type": "paper",
-        "journal": "Journal of Personality and Social Psychology",
-        "container": null,
-        "volume": "78",
-        "issue": "2",
-        "pages": "211-222",
-        "doi": "10.1037/0022-3514.78.2.211",
-        "pmid": "10707330",
-        "isbn": null,
-        "in_physical_collection": false,
-        "url": "corpus.html#w=313"
-      },
-      {
         "id": 314,
         "tier": "background",
         "title": "Egocentrism in adolescence",
@@ -43488,24 +44489,6 @@
         "isbn": null,
         "in_physical_collection": false,
         "url": "corpus.html#w=320"
-      },
-      {
-        "id": 321,
-        "tier": "background",
-        "title": "Candidate biomarkers in psychiatric disorders: state of the field",
-        "authors": "Abi-Dargham A, Moeller SJ, Ali F, et al.",
-        "year": 2023,
-        "work_type": "review",
-        "journal": "World Psychiatry",
-        "container": null,
-        "volume": "22",
-        "issue": "2",
-        "pages": "236-262",
-        "doi": "10.1002/wps.21078",
-        "pmid": "37159365",
-        "isbn": null,
-        "in_physical_collection": false,
-        "url": "corpus.html#w=321"
       },
       {
         "id": 322,
@@ -43819,7 +44802,7 @@
         "title": "Influences on antidepressant prescribing trends in the UK: 1995-2011",
         "authors": "Mars B, Heron J, Kessler D, Davies NM, Martin RM, Thomas KH, Gunnell D",
         "year": 2017,
-        "work_type": "review",
+        "work_type": "paper",
         "journal": "Social Psychiatry and Psychiatric Epidemiology",
         "container": null,
         "volume": "52",
@@ -43866,24 +44849,6 @@
         "isbn": null,
         "in_physical_collection": false,
         "url": "corpus.html#w=344"
-      },
-      {
-        "id": 345,
-        "tier": "background",
-        "title": "The Prevalence of Behavioural Symptoms and Psychiatric Disorders in Hadza Children",
-        "authors": "Ougrin D, Woodhouse E, Tucker G, Ronaldson A, Bakolis I",
-        "year": 2023,
-        "work_type": "paper",
-        "journal": "Scientific Reports",
-        "container": null,
-        "volume": "13",
-        "issue": "1",
-        "pages": null,
-        "doi": "10.1038/s41598-023-48114-4",
-        "pmid": "38086816",
-        "isbn": null,
-        "in_physical_collection": false,
-        "url": "corpus.html#w=345"
       },
       {
         "id": 346,
@@ -44514,24 +45479,6 @@
         "isbn": null,
         "in_physical_collection": false,
         "url": "corpus.html#w=381"
-      },
-      {
-        "id": 382,
-        "tier": "background",
-        "title": "Attention deficits linked with proclivity to explore while foraging",
-        "authors": "Barack DL, Ludwig VU, Parodi F, Ahmed N, Brannon EM, Ramakrishnan A, Platt ML",
-        "year": 2024,
-        "work_type": "paper",
-        "journal": "Proceedings of the Royal Society B: Biological Sciences",
-        "container": null,
-        "volume": "291",
-        "issue": "2017",
-        "pages": null,
-        "doi": "10.1098/rspb.2022.2584",
-        "pmid": "38378153",
-        "isbn": null,
-        "in_physical_collection": false,
-        "url": "corpus.html#w=382"
       },
       {
         "id": 383,
@@ -46476,6 +47423,168 @@
         "isbn": null,
         "in_physical_collection": false,
         "url": "corpus.html#w=668"
+      },
+      {
+        "id": 673,
+        "tier": "background",
+        "title": "A sex difference in the specificity of sexual arousal",
+        "authors": "Chivers ML, Rieger G, Latty E, Bailey JM",
+        "year": 2004,
+        "work_type": "paper",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "15",
+        "issue": "11",
+        "pages": "736-744",
+        "doi": "10.1111/j.0956-7976.2004.00750.x",
+        "pmid": "15482445",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=673"
+      },
+      {
+        "id": 676,
+        "tier": "background",
+        "title": "Frequency of Pornography Use and Sexual Health Outcomes in Sweden: Analysis of a National Probability Survey",
+        "authors": "Malki K, Rahm C, Öberg KG, Ueda P",
+        "year": 2021,
+        "work_type": "paper",
+        "journal": "The Journal of Sexual Medicine",
+        "container": null,
+        "volume": "18",
+        "issue": "10",
+        "pages": "1735-1751",
+        "doi": "10.1016/j.jsxm.2021.08.003",
+        "pmid": "34526247",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=676"
+      },
+      {
+        "id": 677,
+        "tier": "background",
+        "title": "Dissecting the Workload of a Major Adult Video Portal",
+        "authors": "Grammenos A, Raman A, Böttger T, Gilani Z, Tyson G",
+        "year": 2020,
+        "work_type": "paper",
+        "journal": null,
+        "container": "Lecture Notes in Computer Science",
+        "volume": null,
+        "issue": null,
+        "pages": "267-279",
+        "doi": "10.1007/978-3-030-44081-7_16",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=677"
+      },
+      {
+        "id": 679,
+        "tier": "background",
+        "title": "Formal volunteering as a protective factor for older adults' psychological well-being",
+        "authors": "Greenfield EA, Marks NF",
+        "year": 2004,
+        "work_type": "paper",
+        "journal": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+        "container": null,
+        "volume": "59",
+        "issue": "5",
+        "pages": "S258-S264",
+        "doi": "10.1093/geronb/59.5.S258",
+        "pmid": "15358800",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=679"
+      },
+      {
+        "id": 684,
+        "tier": "background",
+        "title": "Interventions to prevent and reduce physician burnout: a systematic review and meta-analysis",
+        "authors": "West CP, Dyrbye LN, Erwin PJ, Shanafelt TD",
+        "year": 2016,
+        "work_type": "meta_analysis",
+        "journal": "The Lancet",
+        "container": null,
+        "volume": "388",
+        "issue": "10057",
+        "pages": "2272-2281",
+        "doi": "10.1016/S0140-6736(16)31279-X",
+        "pmid": "27692469",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=684"
+      },
+      {
+        "id": 686,
+        "tier": "background",
+        "title": "Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis",
+        "authors": "Henssler J, Schmidt Y, Schmidt U, Schwarzer G, Bschor T, Baethge C",
+        "year": 2024,
+        "work_type": "meta_analysis",
+        "journal": "The Lancet Psychiatry",
+        "container": null,
+        "volume": "11",
+        "issue": "7",
+        "pages": "526-535",
+        "doi": "10.1016/S2215-0366(24)00133-0",
+        "pmid": "38851198",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=686"
+      },
+      {
+        "id": 688,
+        "tier": "background",
+        "title": "Impact of the DSM-IV to DSM-5 Changes on the National Survey on Drug Use and Health. Chapter 3, Mental Illness",
+        "authors": "Substance Abuse and Mental Health Services Administration",
+        "year": 2016,
+        "work_type": "book",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": "30199183",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=688"
+      },
+      {
+        "id": 689,
+        "tier": "background",
+        "title": "Clinical descriptions and diagnostic requirements for ICD-11 mental, behavioural and neurodevelopmental disorders (CDDR)",
+        "authors": "World Health Organization",
+        "year": 2024,
+        "work_type": "book",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "isbn": "9789240077263",
+        "in_physical_collection": false,
+        "url": "corpus.html#w=689"
+      },
+      {
+        "id": 692,
+        "tier": "background",
+        "title": "Social surrogacy: How favored television programs provide the experience of belonging",
+        "authors": "Derrick JL, Gabriel S, Hugenberg K",
+        "year": 2009,
+        "work_type": "paper",
+        "journal": "Journal of Experimental Social Psychology",
+        "container": null,
+        "volume": "45",
+        "issue": "2",
+        "pages": "352-362",
+        "doi": "10.1016/j.jesp.2008.12.003",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=692"
       }
     ],
     "extractions": [
@@ -46514,8 +47623,8 @@
       {
         "id": 676,
         "work_id": 165,
-        "grade": "contested",
-        "evidence_quality": "contested",
+        "grade": "tested once",
+        "evidence_quality": "thin",
         "tier": "background",
         "url": "corpus.html#e=676"
       },
@@ -47608,14 +48717,6 @@
         "url": "corpus.html#e=824"
       },
       {
-        "id": 825,
-        "work_id": 313,
-        "grade": "tested once",
-        "evidence_quality": "thin",
-        "tier": "background",
-        "url": "corpus.html#e=825"
-      },
-      {
         "id": 826,
         "work_id": 314,
         "grade": "argued, not yet tested",
@@ -47670,14 +48771,6 @@
         "evidence_quality": "contested",
         "tier": "background",
         "url": "corpus.html#e=832"
-      },
-      {
-        "id": 833,
-        "work_id": 321,
-        "grade": "tested many times",
-        "evidence_quality": "replicated",
-        "tier": "background",
-        "url": "corpus.html#e=833"
       },
       {
         "id": 834,
@@ -47854,14 +48947,6 @@
         "evidence_quality": "contested",
         "tier": "background",
         "url": "corpus.html#e=858"
-      },
-      {
-        "id": 859,
-        "work_id": 345,
-        "grade": "tested once",
-        "evidence_quality": "thin",
-        "tier": "background",
-        "url": "corpus.html#e=859"
       },
       {
         "id": 860,
@@ -48142,14 +49227,6 @@
         "evidence_quality": "replicated",
         "tier": "background",
         "url": "corpus.html#e=895"
-      },
-      {
-        "id": 896,
-        "work_id": 382,
-        "grade": "tested once",
-        "evidence_quality": "thin",
-        "tier": "background",
-        "url": "corpus.html#e=896"
       },
       {
         "id": 897,
@@ -49062,6 +50139,102 @@
         "evidence_quality": "thin",
         "tier": "background",
         "url": "corpus.html#e=1338"
+      },
+      {
+        "id": 1345,
+        "work_id": 673,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1345"
+      },
+      {
+        "id": 1349,
+        "work_id": 676,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1349"
+      },
+      {
+        "id": 1350,
+        "work_id": 677,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1350"
+      },
+      {
+        "id": 1353,
+        "work_id": 679,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1353"
+      },
+      {
+        "id": 1360,
+        "work_id": 684,
+        "grade": "tested many times",
+        "evidence_quality": "meta_analysis",
+        "tier": "background",
+        "url": "corpus.html#e=1360"
+      },
+      {
+        "id": 1364,
+        "work_id": 686,
+        "grade": "tested many times",
+        "evidence_quality": "meta_analysis",
+        "tier": "background",
+        "url": "corpus.html#e=1364"
+      },
+      {
+        "id": 1366,
+        "work_id": 688,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1366"
+      },
+      {
+        "id": 1367,
+        "work_id": 688,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1367"
+      },
+      {
+        "id": 1368,
+        "work_id": 689,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1368"
+      },
+      {
+        "id": 1369,
+        "work_id": 689,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1369"
+      },
+      {
+        "id": 1370,
+        "work_id": 689,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1370"
+      },
+      {
+        "id": 1374,
+        "work_id": 692,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1374"
       }
     ]
   }
