@@ -1,0 +1,771 @@
+/* ==========================================================================
+   THIS IS WHY - scroll-scrubbed sequence. Stage, overlays, fallback switch.
+   Loaded on this-is-why.html and hey-ai-this-is-why.html.
+
+   Default state of this file is OFF: the track is display:none and the static
+   hero (the fallback) shows. tiw/sequence.js adds .tiw-seq-on to <html> only
+   after WebGL2, fonts, data and the first frame all succeed. Every rule that
+   changes the page therefore hangs off html.tiw-seq-on, so a JS failure, a
+   reduced-motion preference or a machine with no WebGL leaves the page exactly
+   as it was baked.
+
+   Colours are the site tokens (build-spec.md 3.1). One value is not a token:
+   #6b5e42, the small mono label ink already used by the static hero.
+   ========================================================================== */
+
+/* ---------- fallback switch ---------------------------------------------- */
+
+.tiw-seq-track { display: none; }
+
+/* Everything the sequence changes about the page lives inside this query, so
+   a reader who asks for less motion gets the baked static page even if the
+   class somehow lands on the document. */
+@media (prefers-reduced-motion: no-preference) {
+
+html.tiw-seq-on .tiw-seq-track { display: block; }
+
+/* The banner and the standfirst are approved copy that has to be on the page
+   in BOTH states, so they are not hidden with the rest of the fallback. Their
+   wrappers collapse to display:contents and the fallback-only parts are hidden
+   one at a time, which leaves .tiw-shared in the flow exactly where it sits in
+   the static page: after the h1, before the cards. */
+html.tiw-seq-on .tiw-fallback,
+html.tiw-seq-on .tiw-fallback .tiw-hero,
+html.tiw-seq-on .tiw-fallback .tiw-heromain,
+html.tiw-seq-on .tiw-fallback .tiw-rest { display: contents; }
+html.tiw-seq-on .tiw-fallback .tiw-site,
+html.tiw-seq-on .tiw-fallback .tiw-head,
+html.tiw-seq-on .tiw-fallback .tiw-mass,
+html.tiw-seq-on .tiw-fallback .tiw-fallback-only,
+html.tiw-seq-on .tiw-fallback .tiw-wallsec { display: none; }
+
+/* The last pinned frame of the sequence has to sit exactly on the real page,
+   so what follows the track is pulled up by one stage height less the headroom
+   the h1 needs. JS writes --tiw-pull (negative px) and keeps it current on
+   resize; the banner and the standfirst carry the pull and the card grid
+   follows them normally. */
+html.tiw-seq-on .tiw-shared {
+  margin-top: var(--tiw-pull, 0px);
+  padding-bottom: clamp(12px, 2.4vh, 32px);
+  opacity: var(--tiw-cards-in, 1);
+}
+html.tiw-seq-on .tiw-shared > .tiw-notice { margin-top: 0; }
+html.tiw-seq-on .tiw main.grid > .card { opacity: var(--tiw-cards-in, 1); }
+
+}
+
+/* The headline as plain text for crawlers and screen readers, in the page in
+   every state. The animated copy inside the stage is aria-hidden. */
+.tiw-seq-vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- stage -------------------------------------------------------- */
+
+.tiw-seq-track {
+  position: relative;
+  z-index: 1;
+  height: var(--tiw-track-h, 800vh);
+  width: var(--tiw-vw, 100%);
+  margin-left: var(--tiw-bleed, 0px);
+}
+
+.tiw-seq-stage {
+  position: sticky;
+  top: 0;
+  height: var(--tiw-vh, 100vh);
+  width: 100%;
+  overflow: hidden;
+  background: #e6d9bb;
+  contain: strict;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-stage { background: #1d080c; }
+
+.tiw-seq-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tiw-seq-ui {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  font-family: 'Spectral', Georgia, serif;
+  color: var(--ink, #1a0608);
+  --pad: clamp(18px, 3.4vw, 60px);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-ui { color: var(--parchment, #ece0c4); }
+
+/* Scrims. Not decoration: the sequence puts type over moving paper, and the
+   type has to stay readable at every stop frame. Each scrim only appears with
+   the copy it protects, so an empty frame stays clean. */
+.tiw-seq-ui::before,
+.tiw-seq-ui::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.tiw-seq-ui::before {
+  top: 0;
+  height: 26%;
+  opacity: var(--tiw-scrim-top, 0);
+  background: linear-gradient(to bottom, rgba(222, 206, 170, 0.80) 0%,
+    rgba(222, 206, 170, 0.45) 42%, rgba(222, 206, 170, 0) 100%);
+}
+.tiw-seq-ui::after {
+  bottom: 0;
+  height: 58%;
+  opacity: var(--tiw-scrim, 0);
+  background: radial-gradient(125% 108% at 2% 100%, rgba(222, 206, 170, 0.95) 0%,
+    rgba(222, 206, 170, 0.70) 32%, rgba(222, 206, 170, 0.16) 66%,
+    rgba(222, 206, 170, 0) 88%);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-ui::before {
+  background: linear-gradient(to bottom, rgba(29, 8, 12, 0.94) 0%,
+    rgba(29, 8, 12, 0.62) 40%, rgba(29, 8, 12, 0) 100%);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-ui::after {
+  background: radial-gradient(125% 108% at 2% 100%, rgba(29, 8, 12, 0.95) 0%,
+    rgba(29, 8, 12, 0.70) 32%, rgba(29, 8, 12, 0.16) 66%, rgba(29, 8, 12, 0) 88%);
+}
+
+/* ---------- skip link ---------------------------------------------------- */
+
+.tiw-seq-skip {
+  position: absolute;
+  top: var(--pad);
+  right: var(--pad);
+  z-index: 6;
+  pointer-events: auto;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #6b5e42;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(107, 94, 66, 0.5);
+  padding-bottom: 2px;
+}
+.tiw-seq-skip:hover { color: var(--teal, #2d6b6b); border-bottom-color: var(--teal, #2d6b6b); }
+.tiw-seq-skip:focus-visible { outline: 2px solid var(--gold, #c4962c); outline-offset: 3px; }
+.tiw-seq[data-theme="dark"] .tiw-seq-skip { color: var(--parchment-tan, #c4b894); border-bottom-color: rgba(196, 184, 148, 0.45); }
+.tiw-seq[data-theme="dark"] .tiw-seq-skip:hover { color: var(--gold, #c4962c); }
+
+/* ---------- the headline, revealed phrase by phrase ---------------------- */
+
+.tiw-seq-lede {
+  position: absolute;
+  left: var(--pad);
+  bottom: calc(var(--pad) + 2px);
+  z-index: 5;
+  margin: 0;
+  max-width: min(46ch, 62vw);
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(20px, 2.25vw, 36px);
+  line-height: 1.22;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+/* The headline sits over moving paper, and in the grading chapter the paper
+   comes right through the words. The page-wide scrim is not enough on its own,
+   so the lede carries its own plate: a soft wash bound to the text block, up
+   with the same --tiw-scrim that raises the copy, so an empty frame stays
+   clean. */
+/* The plate runs off the left and bottom of the stage, which crops those two
+   edges away; the gradient reaches zero inside the box on the other two, so
+   the wash has no edge of its own anywhere in frame. */
+.tiw-seq-lede::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: calc(var(--pad) * -1.4);
+  right: -60%;
+  top: -95%;
+  bottom: calc(var(--pad) * -1.9);
+  opacity: var(--tiw-scrim, 0);
+  background: radial-gradient(74% 74% at 26% 78%,
+    rgba(226, 212, 178, 0.99) 0%, rgba(226, 212, 178, 0.98) 55%,
+    rgba(226, 212, 178, 0.86) 74%, rgba(226, 212, 178, 0.38) 89%,
+    rgba(226, 212, 178, 0) 100%);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-lede::before {
+  background: radial-gradient(74% 74% at 26% 78%,
+    rgba(29, 8, 12, 0.99) 0%, rgba(29, 8, 12, 0.98) 55%,
+    rgba(29, 8, 12, 0.86) 74%, rgba(29, 8, 12, 0.38) 89%,
+    rgba(29, 8, 12, 0) 100%);
+}
+.tiw-seq-lede > span {
+  display: block;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.tiw-seq-lede b {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--oxblood, #3a1218);
+  letter-spacing: -0.03em;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-lede b { color: var(--gold, #c4962c); }
+
+/* the page h1 is moved into this slot by JS, so the document keeps exactly one.
+   --tiw-lead is the left edge of the real content column, so the last frame
+   lines the h1 up with the banner and the cards it lands on. --tiw-h1-size is
+   whatever room the banner and the standfirst leave; both come from resize(). */
+.tiw-seq-h1slot {
+  position: absolute;
+  left: var(--tiw-lead, var(--pad));
+  right: var(--pad);
+  top: 0;
+  z-index: 5;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.tiw-seq-h1slot .tiw-h1 {
+  margin: 0;
+  font-size: var(--tiw-h1-size, clamp(54px, 11vw, 190px));
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  font-weight: 600;
+  color: var(--oxblood, #3a1218);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-h1slot .tiw-h1 { color: var(--parchment, #ece0c4); }
+
+/* ---------- captions and counters ---------------------------------------- */
+
+.tiw-seq-cap {
+  position: absolute;
+  left: var(--pad);
+  top: calc(var(--pad) + 4px);
+  z-index: 5;
+  max-width: min(44ch, 60vw);
+  margin: 0;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: clamp(10.5px, 0.86vw, 13px);
+  line-height: 1.75;
+  letter-spacing: 0.055em;
+  color: #6b5e42;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.tiw-seq-cap b { font-weight: 500; color: var(--oxblood, #3a1218); }
+.tiw-seq[data-theme="dark"] .tiw-seq-cap { color: var(--parchment-tan, #c4b894); }
+.tiw-seq[data-theme="dark"] .tiw-seq-cap b { color: var(--gold, #c4962c); }
+
+.tiw-seq-tally {
+  position: absolute;
+  right: var(--pad);
+  bottom: calc(var(--pad) + 2px);
+  z-index: 5;
+  text-align: right;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: clamp(10px, 0.8vw, 12px);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6b5e42;
+  opacity: 0;
+  font-variant-numeric: tabular-nums;
+  will-change: opacity;
+}
+.tiw-seq-tally i { font-style: normal; opacity: 0.62; }
+.tiw-seq-tally u {
+  display: block;
+  text-decoration: none;
+  font-family: 'Spectral', Georgia, serif;
+  font-size: clamp(30px, 3.6vw, 62px);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+  color: var(--oxblood, #3a1218);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tally { color: var(--parchment-tan, #c4b894); }
+.tiw-seq[data-theme="dark"] .tiw-seq-tally u { color: var(--parchment, #ece0c4); }
+
+/* ---------- projected labels welded to the machinery --------------------- */
+
+.tiw-seq-tags {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  overflow: hidden;
+}
+.tiw-seq-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  white-space: nowrap;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: #6b5e42;
+  will-change: transform, opacity;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag { color: var(--parchment-tan, #c4b894); }
+
+/* grade stamp head: the name over its live count, colour bar under */
+.tiw-seq-tag.is-grade {
+  transform-origin: 50% 100%;
+  text-align: center;
+  padding-bottom: 6px;
+  border-bottom: 2px solid currentColor;
+  min-width: 70px;
+}
+.tiw-seq-tag.is-grade em {
+  display: block;
+  font-style: normal;
+  font-size: 8.5px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #6b5e42;
+  margin-bottom: 3px;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-grade em { color: var(--parchment-tan, #c4b894); }
+.tiw-seq-tag.is-grade b {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink, #1a0608);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-grade b { color: var(--parchment, #ece0c4); }
+
+/* mechanism node: code, then name. A node on the right of the frame takes its
+   label on the left, so the name is never cut off by the edge. */
+.tiw-seq-tag.is-node { transform-origin: 0 50%; }
+.tiw-seq-tag.is-node.is-left { transform-origin: 100% 50%; }
+.tiw-seq-tag.is-node em {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  color: var(--teal, #2d6b6b);
+  margin-right: 7px;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-node em { color: var(--gold, #c4962c); }
+.tiw-seq-tag.is-node b {
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0;
+  color: var(--ink, #1a0608);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-node b { color: var(--parchment, #ece0c4); }
+
+/* a single called-out object: the illustrative sheet, the stitched slip */
+.tiw-seq-tag.is-call {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--oxblood, #3a1218);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-call { color: var(--gold, #c4962c); }
+
+/* ---------- the ledger of challenges and gaps ---------------------------- */
+
+.tiw-seq-ledger {
+  position: absolute;
+  left: var(--pad);
+  top: calc(var(--pad) + 4px);
+  z-index: 5;
+  width: min(40ch, 56vw);
+  text-align: left;
+  opacity: 0;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: clamp(10px, 0.78vw, 11.5px);
+  line-height: 1.85;
+  letter-spacing: 0.06em;
+  color: #6b5e42;
+  will-change: opacity;
+}
+.tiw-seq-ledger strong {
+  display: block;
+  font-weight: 500;
+  color: var(--oxblood, #3a1218);
+  margin-bottom: 9px;
+  font-variant-numeric: tabular-nums;
+}
+.tiw-seq-gapwin {
+  height: 7.4em;
+  overflow: hidden;
+  margin-top: 2px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 16%, #000 78%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 16%, #000 78%, transparent 100%);
+}
+.tiw-seq-gaplist { will-change: transform; }
+.tiw-seq-ledger span { display: block; }
+.tiw-seq-ledger span i {
+  font-style: normal;
+  color: var(--teal, #2d6b6b);
+  margin-right: 8px;
+  display: inline-block;
+  min-width: 2.4em;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-ledger { color: var(--parchment-tan, #c4b894); }
+.tiw-seq[data-theme="dark"] .tiw-seq-ledger strong { color: var(--gold, #c4962c); }
+.tiw-seq[data-theme="dark"] .tiw-seq-ledger span i { color: var(--parchment, #ece0c4); }
+
+/* ---------- narrow screens ----------------------------------------------- */
+
+@media (max-width: 720px) {
+  .tiw-seq-ui { --pad: 16px; }
+  .tiw-seq-lede { max-width: 88vw; font-size: clamp(17px, 4.6vw, 22px); line-height: 1.24; }
+  .tiw-seq-cap { max-width: 78vw; font-size: 10px; line-height: 1.65; }
+  .tiw-seq-ledger { width: 62vw; font-size: 9.5px; line-height: 1.7; }
+  .tiw-seq-tally { bottom: auto; top: calc(var(--pad) + 30px); }
+  .tiw-seq-skip { top: auto; bottom: var(--pad); }
+  .tiw-seq-tally u { font-size: 30px; }
+  .tiw-seq-tag { font-size: 9.5px; }
+  .tiw-seq-tag.is-grade { min-width: 52px; }
+  .tiw-seq-tag.is-grade b { font-size: 15px; }
+  .tiw-seq-tag.is-grade em { font-size: 7.5px; letter-spacing: 0.1em; }
+  .tiw-seq-tag.is-node b { font-size: 10.5px; }
+  .tiw-seq-tag.is-node em { margin-right: 4px; }
+}
+
+/* Anyone who asks for less motion never gets the stage at all: sequence.js
+   checks the same query before booting, and every rule above that changes the
+   page is inside a (prefers-reduced-motion: no-preference) query, so nothing
+   here can reach a reader who asked for less. */
+
+/* ---------- the findings chapter ----------------------------------------- */
+
+/* The caption block. Both lines flow inside one box so the second can never
+   land on the first, and the box carries its own soft plate: in the findings
+   chapter the caption sits over paper that runs right through it. */
+.tiw-seq-capwrap {
+  position: absolute;
+  left: var(--pad);
+  top: var(--pad);
+  z-index: 5;
+  max-width: min(52ch, 60vw);
+}
+.tiw-seq-capwrap::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: calc(var(--pad) * -1.3);
+  right: -34%;
+  top: calc(var(--pad) * -1.6);
+  bottom: -150%;
+  opacity: var(--tiw-capscrim, 0);
+  background: radial-gradient(66% 66% at 22% 24%,
+    rgba(226, 212, 178, 0.97) 0%, rgba(226, 212, 178, 0.92) 46%,
+    rgba(226, 212, 178, 0.58) 72%, rgba(226, 212, 178, 0) 100%);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-capwrap::before {
+  background: radial-gradient(66% 66% at 22% 24%,
+    rgba(29, 8, 12, 0.97) 0%, rgba(29, 8, 12, 0.92) 46%,
+    rgba(29, 8, 12, 0.58) 72%, rgba(29, 8, 12, 0) 100%);
+}
+.tiw-seq-capwrap .tiw-seq-cap { position: static; max-width: none; }
+/* the second line of the caption: the five grades that count as evidence */
+.tiw-seq-cap2 {
+  margin: 5px 0 0;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: clamp(9.5px, 0.74vw, 11px);
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  color: #6b5e42;
+  opacity: 0;
+  will-change: opacity;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-cap2 { color: var(--parchment-tan, #c4b894); }
+
+/* The ledger of the 294. Every number is the real count of that grade in the
+   archive; the bar under it is how much of that band has come forward, so a
+   reader who stops anywhere can see what is in and what is still to come. */
+.tiw-seq-rail {
+  position: absolute;
+  right: var(--pad);
+  bottom: calc(var(--pad) + 2px);
+  z-index: 5;
+  opacity: 0;
+  text-align: right;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: clamp(9.5px, 0.74vw, 11px);
+  letter-spacing: 0.08em;
+  will-change: opacity;
+}
+.tiw-seq-railrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  margin-top: 7px;
+  opacity: 0.62;
+}
+.tiw-seq-railrow.is-live { opacity: 1; }
+.tiw-seq-railrow b {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink, #1a0608);
+  min-width: 3ch;
+  text-align: right;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-railrow b { color: var(--parchment, #ece0c4); }
+.tiw-seq-railrow em {
+  font-style: normal;
+  text-transform: uppercase;
+  color: #6b5e42;
+  min-width: 13.5ch;
+  text-align: left;
+  font-size: 0.88em;
+  white-space: nowrap;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-railrow em { color: var(--parchment-tan, #c4b894); }
+.tiw-seq-railrow span {
+  display: block;
+  height: 3px;
+  background: rgba(107, 94, 66, 0.24);
+  overflow: hidden;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-railrow span { background: rgba(196, 184, 148, 0.20); }
+.tiw-seq-railrow span i {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: currentColor;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  will-change: transform;
+}
+
+/* a work with nothing extracted from it yet, and the tally under a work that
+   carries the most replicated findings */
+.tiw-seq-tag.is-unlit {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a7d5e;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-unlit { color: var(--parchment-tan, #c4b894); }
+.tiw-seq-tag.is-mr {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--oxblood, #3a1218);
+  font-variant-numeric: tabular-nums;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-tag.is-mr { color: var(--gold, #c4962c); }
+
+@media (max-width: 720px) {
+  .tiw-seq-capwrap { max-width: 84vw; }
+  .tiw-seq-cap2 { font-size: 9px; }
+  .tiw-seq-rail {
+    right: auto;
+    bottom: auto;
+    left: var(--pad);
+    top: calc(var(--pad) + 74px);
+    text-align: left;
+    font-size: 9px;
+  }
+  .tiw-seq-railrow { justify-content: flex-start; gap: 5px; margin-top: 5px; }
+  .tiw-seq-railrow b { font-size: 12px; }
+  .tiw-seq-railrow em { min-width: 10ch; }
+  .tiw-seq-tag.is-unlit { font-size: 8px; letter-spacing: 0.14em; }
+  .tiw-seq-tag.is-mr { font-size: 7px; letter-spacing: 0.05em; }
+}
+
+/* ---------- the manifest roll -------------------------------------------- */
+
+/* Every English work in the corpus, one entry at a time, running up the middle
+   of the frame over the field of paper. The title is the biggest type on the
+   page while it runs; one small line under it carries the authors, the year
+   and the publication. Position is a pure function of the reader's scroll: one
+   transform on .tiw-seq-rolllist per frame, nothing per entry.
+
+   Layering. The scrim sits ABOVE .tiw-seq-tags, so the labels welded to the
+   3D field dim with the paper they belong to; only the roll itself and the one
+   headline line are over the scrim. All three fade on one custom property,
+   --tiw-roll, written once a frame by updateOverlay().
+
+   The scrim is a full-frame wash, and heavier than the v1 row scrim was: the
+   type now crosses the whole frame, so there is no corner of the picture left
+   for it to skip. It still has to read as paper, which is what holds it below
+   three quarters. */
+.tiw-seq-rollscrim {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: var(--tiw-roll, 0);
+  background: linear-gradient(to bottom,
+    rgba(222, 206, 170, 0.74) 0%,
+    rgba(222, 206, 170, 0.68) 34%,
+    rgba(222, 206, 170, 0.68) 66%,
+    rgba(222, 206, 170, 0.76) 100%);
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-rollscrim {
+  background: linear-gradient(to bottom,
+    rgba(29, 8, 12, 0.82) 0%,
+    rgba(29, 8, 12, 0.76) 34%,
+    rgba(29, 8, 12, 0.76) 66%,
+    rgba(29, 8, 12, 0.84) 100%);
+}
+
+/* The window the entries run through: centred, and most of the stage. It is
+   the stage less 3vw on each side, and that width is the TARGET the type is
+   fitted to - JS reads it back off this box rather than computing it from vw,
+   so the fit is true whatever the padding or a scrollbar does. Its top clears
+   the skip link and its bottom clears the one headline line, so nothing the
+   sequence prints while the roll runs is covered at any p in range. The mask
+   is what lets an entry enter and leave without a cut. */
+.tiw-seq-roll {
+  position: absolute;
+  left: 3vw;
+  right: 3vw;
+  top: calc(var(--pad) + 28px);
+  bottom: calc(var(--pad) + 62px);
+  z-index: 5;
+  opacity: var(--tiw-roll, 0);
+  pointer-events: none;
+  overflow: hidden;
+  contain: layout paint style;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 12%, #000 88%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 12%, #000 88%, transparent 100%);
+}
+.tiw-seq-rolllist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+/* The entry. Two lines, centred, and nothing else: no identifier, no rule, no
+   badge. Both lines are held to ONE line each - white-space is nowrap and the
+   size is fitted per entry by fitRoll(), which also writes the padding that
+   holds every entry to the same height. A line that will not fit even at the
+   floor size is cut at a word and carries the mark ' (...)'.
+
+   The size and the padding are inline, written once at boot and once per
+   width change. The font-size in these rules is only what an entry looks like
+   in the instant before the first fit. */
+.tiw-seq-rent {
+  text-align: center;
+  padding: 40px 0;
+  contain: layout style;
+}
+
+/* The measuring box. Every string in the roll goes in here at FIT_REF, the
+   box is read in one pass and it is taken out again. It is a child of the
+   roll and NOT of the list, and it is out of flow, so it never touches the
+   list height the budget is derived from. Its two cells share their whole
+   typographic declaration with the real cells below, in one rule each, so the
+   thing that is measured cannot drift from the thing that is printed. */
+.tiw-seq-fit {
+  position: absolute;
+  left: -99999px;
+  top: 0;
+  width: 40000px;
+  visibility: hidden;
+  pointer-events: none;
+}
+.tiw-seq-fit > b,
+.tiw-seq-fit > i { display: inline-block; font-size: 100px; }
+
+.tiw-seq-rent > b,
+.tiw-seq-fit > b {
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  white-space: nowrap;
+}
+.tiw-seq-rent > i,
+.tiw-seq-fit > i {
+  font-style: normal;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  letter-spacing: 0.13em;
+  white-space: nowrap;
+}
+.tiw-seq-rent > b {
+  display: block;
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.12;
+  color: var(--ink, #1a0608);
+}
+.tiw-seq-rent > i {
+  display: block;
+  margin: var(--tiw-rgap, 10px) 0 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #6b5e42;
+  opacity: 0.86;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-rent > b { color: var(--parchment, #ece0c4); }
+.tiw-seq[data-theme="dark"] .tiw-seq-rent > i { color: var(--parchment-tan, #c4b894); }
+
+/* The first headline phrase, for the length of the roll only: one centred line
+   at the bottom of the stage, in the headline's own face and size. JS fills it
+   from the phrase that is already in the page, so it is not a second copy of
+   the copy. It comes up and goes down on --tiw-roll, against the headline
+   block, which is held at zero for the same span. */
+.tiw-seq-rollhead {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--pad) + 2px);
+  z-index: 5;
+  /* only as wide as the line it holds, so its box never crosses the counter's
+     corner even though the counter is dark for the whole of the roll */
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: calc(100% - var(--pad) * 2);
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(20px, 2.25vw, 36px);
+  line-height: 1.22;
+  letter-spacing: -0.018em;
+  color: var(--ink, #1a0608);
+  opacity: var(--tiw-roll, 0);
+  pointer-events: none;
+  /* the line keeps its own compositing layer in every state. Without it the
+     glyphs are rastered on the page in one state and on a layer in the other,
+     and a round trip comes back with the antialiasing a shade different. */
+  will-change: opacity;
+}
+.tiw-seq[data-theme="dark"] .tiw-seq-rollhead { color: var(--parchment, #ece0c4); }
+
+/* Narrow: the same design and the same rules. The type is fitted from the
+   stage width, so there is no second set of sizes here - only the window's
+   own placement, and a tighter letter-spacing on the meta line, which is what
+   buys the year and the publication their room at 390. The grouped selector
+   keeps the measuring box on the same spacing as the entry. */
+@media (max-width: 720px) {
+  /* Narrow inverts the stage: the counter is top right and the skip link is
+     bottom right. The window drops below the counter and stops above the skip
+     link, and the headline line sits between the two. */
+  .tiw-seq-roll {
+    top: calc(var(--pad) + 74px);
+    bottom: calc(var(--pad) + 66px);
+  }
+  .tiw-seq-rent { padding: 30px 0; }
+  .tiw-seq-rent > b { font-size: 24px; }
+  .tiw-seq-rent > i,
+  .tiw-seq-fit > i { letter-spacing: 0.06em; }
+  .tiw-seq-rent > i { font-size: 10.5px; }
+  .tiw-seq-rollhead { font-size: 18px; bottom: calc(var(--pad) + 30px); }
+}

@@ -1,0 +1,525 @@
+/* ============================================================================
+   this-is-why.html - HERO + PAPER WALL
+   ----------------------------------------------------------------------------
+   Drop this block AFTER the page's own <style> rules. Every selector is
+   .tiw- prefixed, so nothing here can collide with the card grid, the
+   provenance block or the funnel. Two elements deliberately carry BOTH the
+   mockup class and a .tiw- class (.notice .tiw-notice, .standfirst
+   .tiw-standfirst) so the page keeps its hooks while these rules win on
+   source order.
+
+   Shape: at 1000px and up the hero is a two-column grid. Left column carries
+   the kicker, the h1, the banner, the standfirst and the machinery block.
+   Right column carries the CONTACT SHEET: all 148 works packed tight, so the
+   mass of paper is on screen before the reader scrolls. Below 1000px the same
+   contact sheet sits directly under the h1, before the banner. The contact
+   sheet is aria-hidden and carries no links; the decade wall lower down holds
+   the semantics, the full records and the DOI / PMID links.
+
+   TOKENS THIS FILE READS from the page :root (build-spec.md 3.1 / 3.2 map):
+     --oxblood       #3a1218    display serif, strong ink
+     --oxblood-ink   #4a1e26    secondary prose
+     --parchment     #ece0c4    page ground
+     --parchment-tan #c4b894    hairlines on tinted ground
+     --ink           #1a0608    body ink
+     --teal          #2d6b6b    key band, near hard shadow
+     --teal-bright   #3d8585    link hover
+     --gold          #c4962c    pillar band, far hard shadow, banner rule
+     --border        rgba(58,18,24,.24)
+   Every var() below carries a literal fallback, so the fragment renders on
+   its own with no :root at all.
+
+   ONE COLOUR IS NOT A SITE TOKEN: #6b5e42, used for every small mono label on
+   parchment (eyebrow, kicker, decade markers, legend words, stamp, and the
+   year / identifier on the sheets). It is --muted-warm #8a7d5e darkened until
+   it clears 4.5:1 on parchment (4.85) and on the sheet ground (5.98).
+   --muted-warm itself only reaches 3.10 on parchment and --gold only 2.07, so
+   no gold text appears below 18px anywhere: the legend swatch bars carry the
+   grade colours, the words carry the meaning.
+
+   The sheet's own palette (#faf8f2 ground, #e3dac7 rule, #241812 title,
+   #5f4e40 authors, #e2d8c2 hairline, #b8a988 supporting band) and the
+   teal-then-gold offset double-shadow are lifted verbatim from
+   cor.demismatch.com css/corpus.css, so the wall belongs to the same family
+   as the atlas Corpus page.
+   ========================================================================= */
+
+/* ---------- hero shell ------------------------------------------------ */
+
+.tiw-hero {
+  padding: 44px 0 30px;
+}
+
+.tiw-heromain {
+  display: grid;
+  gap: 24px;
+  grid-template-areas: "head" "mass" "rest";
+}
+.tiw-head { grid-area: head; min-width: 0; }
+.tiw-mass { grid-area: mass; min-width: 0; }
+.tiw-rest { grid-area: rest; min-width: 0; }
+
+@media (min-width: 1000px) {
+  .tiw-heromain {
+    grid-template-columns: minmax(0, 58ch) minmax(300px, 1fr);
+    grid-template-areas: "head mass" "rest mass";
+    column-gap: 46px;
+    row-gap: 0;
+    align-items: start;
+  }
+}
+
+.tiw-site {
+  margin: 0 0 26px;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #6b5e42;
+}
+.tiw-site a { color: inherit; text-decoration: none; }
+.tiw-site a:hover { color: var(--teal, #2d6b6b); }
+
+.tiw-kicker {
+  margin: 0 0 6px;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 12.5px;
+  font-weight: 400;
+  letter-spacing: 0.19em;
+  line-height: 2.05;
+  color: #6b5e42;
+}
+.tiw-count {
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 700;
+  font-size: 3.1em;
+  line-height: 0;
+  letter-spacing: -0.03em;
+  vertical-align: -0.16em;
+  padding: 0 0.06em;
+  color: var(--oxblood, #3a1218);
+  font-variant-numeric: tabular-nums;
+}
+
+.tiw-h1 {
+  margin: 0;
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(46px, 6.6vw, 96px);
+  line-height: 0.94;
+  letter-spacing: -0.037em;
+  color: var(--oxblood, #3a1218);
+  text-wrap: balance;
+}
+
+.tiw-notice {
+  border: 2px solid var(--gold, #c4962c);
+  background: transparent;
+  padding: 16px 20px;
+  margin: 26px 0 24px;
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--ink, #1a0608);
+}
+.tiw-notice a { color: inherit; }
+
+.tiw-standfirst {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 18.5px;
+  line-height: 1.62;
+  font-weight: 300;
+  color: var(--ink, #1a0608);
+}
+.tiw-standfirst > p { margin: 0 0 0.9em; }
+.tiw-standfirst a { color: var(--oxblood, #3a1218); }
+.tiw-standfirst a:hover { color: var(--teal, #2d6b6b); }
+
+/* the machinery block: one claim per line, set as a colophon under a rule */
+.tiw-machinery {
+  margin: 22px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid var(--border, rgba(58, 18, 24, 0.24));
+  font-size: 16.5px;
+  line-height: 1.5;
+  color: var(--oxblood-ink, #4a1e26);
+}
+.tiw-machinery span {
+  display: block;
+  padding: 0 0 0 18px;
+  text-indent: -18px;
+  margin-bottom: 5px;
+}
+.tiw-machinery span:last-child { margin-bottom: 0; }
+
+/* ---------- hero contact sheet: the mass of paper --------------------- */
+
+.tiw-mass {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+  gap: 3px;
+}
+.tiw-mass > li { min-width: 0; }
+
+.tiw-cs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 0.75;
+  overflow: hidden;
+  padding: 5px 4px 4px;
+  background: #faf8f2;
+  border: 1px solid #e3dac7;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(26, 6, 8, 0.13);
+}
+.tiw-cs::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: #b8a988;
+}
+.tiw-cs.tiw-p::before { background: var(--gold, #c4962c); }
+.tiw-cs.tiw-k::before { background: var(--teal, #2d6b6b); }
+.tiw-cs.tiw-u::before { background: #b8a988; }
+.tiw-cs::after {
+  content: "";
+  flex: 1 1 auto;
+  min-height: 0;
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: 1px solid #ece3cf;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(36, 24, 18, 0.24) 0, rgba(36, 24, 18, 0.24) 1.5px,
+    transparent 1.5px, transparent 5px
+  );
+  background-clip: content-box;
+}
+.tiw-cs > i {
+  margin-top: 2px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #e2d8c2;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-style: normal;
+  font-size: 4.8px;
+  letter-spacing: 0.12em;
+  color: #6b5e42;
+  font-variant-numeric: tabular-nums;
+}
+.tiw-cs > h4 {
+  margin: 3px 0 0;
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 600;
+  font-size: 4.6px;
+  line-height: 1.16;
+  color: #241812;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* five moduli, so the scatter never repeats visibly */
+.tiw-mass > li:nth-child(5n+1) .tiw-cs { transform: rotate(-0.7deg); }
+.tiw-mass > li:nth-child(7n+2) .tiw-cs { transform: rotate(0.9deg); }
+.tiw-mass > li:nth-child(11n+3) .tiw-cs { transform: rotate(-1.1deg); }
+.tiw-mass > li:nth-child(13n+5) .tiw-cs { transform: rotate(0.5deg); }
+.tiw-mass > li:nth-child(17n+7) .tiw-cs { transform: rotate(-0.4deg); }
+
+/* ---------- wall section ---------------------------------------------- */
+
+.tiw-wallsec {
+  --tiw-w: 80px;      /* nominal sheet width; everything else derives from it */
+  --tiw-gap: 7px;
+  --tiw-room: 50px;   /* headroom a hover-scaled sheet expands into */
+  margin: 52px 0 0;
+}
+
+.tiw-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  justify-content: flex-end;
+  margin: 0 0 10px;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #6b5e42;
+}
+.tiw-lg { display: inline-flex; align-items: center; gap: 7px; color: inherit; }
+.tiw-lg::before {
+  content: "";
+  width: 16px;
+  height: 4px;
+  background: #b8a988;
+}
+.tiw-key .tiw-p::before { background: var(--gold, #c4962c); }
+.tiw-key .tiw-k::before { background: var(--teal, #2d6b6b); }
+
+/* the bleed box gives edge sheets room to grow and stops any horizontal
+   page scroll; overflow-x:clip leaves the vertical axis visible */
+.tiw-bleed {
+  padding: 34px var(--tiw-room);
+  margin: 0 calc(var(--tiw-room) * -0.5);
+  overflow-x: clip;
+  border-top: 1px solid var(--border, rgba(58, 18, 24, 0.24));
+  border-bottom: 1px solid var(--border, rgba(58, 18, 24, 0.24));
+}
+
+/* one continuous chronological grid. Decade markers are cells in the run, so
+   the wall packs with no holes and still reads decade by decade. */
+.tiw-wall {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--tiw-w), 1fr));
+  gap: var(--tiw-gap);
+}
+.tiw-wall > li { min-width: 0; }
+
+.tiw-dl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tiw-dl span {
+  display: block;
+  width: 100%;
+  padding: 9px 0;
+  border-top: 1px solid var(--border, rgba(58, 18, 24, 0.24));
+  border-bottom: 1px solid var(--border, rgba(58, 18, 24, 0.24));
+  text-align: center;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  color: #6b5e42;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- one sheet ------------------------------------------------- */
+
+.tiw-s {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 0.75;
+  overflow: hidden;
+  padding: 7px 6px 6px;
+  background: #faf8f2;
+  border: 1px solid #e3dac7;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #241812;
+  box-shadow: 0 1px 2px rgba(26, 6, 8, 0.14), 0 9px 20px rgba(26, 6, 8, 0.085);
+  transition: transform 170ms cubic-bezier(0.22, 0.61, 0.36, 1),
+              box-shadow 170ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  transform-origin: center center;
+}
+
+/* importance band along the top edge */
+.tiw-s::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: #b8a988;
+}
+.tiw-s.tiw-p::before { background: var(--gold, #c4962c); }
+.tiw-s.tiw-k::before { background: var(--teal, #2d6b6b); }
+.tiw-s.tiw-u::before { background: #b8a988; }
+
+/* ruled "text lines" - hard-stop stripes, the page texture under the record */
+.tiw-s::after {
+  content: "";
+  order: 4;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #ece3cf;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(36, 24, 18, 0.26) 0, rgba(36, 24, 18, 0.26) 2px,
+    transparent 2px, transparent 7px
+  );
+  background-clip: content-box;
+}
+
+.tiw-s > i {
+  order: 1;
+  margin-top: 3px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e2d8c2;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-style: normal;
+  font-size: 6.4px;
+  letter-spacing: 0.16em;
+  color: #6b5e42;
+  font-variant-numeric: tabular-nums;
+}
+
+.tiw-s > h4 {
+  order: 2;
+  margin: 5px 0 0;
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 600;
+  font-size: 6.7px;
+  line-height: 1.17;
+  color: #241812;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tiw-s > em {
+  order: 3;
+  margin: 3px 0 0;
+  font-family: 'Spectral', Georgia, serif;
+  font-style: italic;
+  font-size: 5.6px;
+  line-height: 1.24;
+  color: #5f4e40;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tiw-s > code {
+  order: 5;
+  flex: 0 0 auto;
+  margin-top: 4px;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 4.8px;
+  letter-spacing: 0.02em;
+  color: #6b5e42;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* alternating rest rotation: seven steps, so no two neighbours match */
+.tiw-wall > li:nth-child(7n+1) .tiw-s { transform: rotate(-1.6deg); }
+.tiw-wall > li:nth-child(7n+2) .tiw-s { transform: rotate(0.9deg); }
+.tiw-wall > li:nth-child(7n+3) .tiw-s { transform: rotate(-0.5deg); }
+.tiw-wall > li:nth-child(7n+4) .tiw-s { transform: rotate(1.6deg); }
+.tiw-wall > li:nth-child(7n+5) .tiw-s { transform: rotate(-1.1deg); }
+.tiw-wall > li:nth-child(7n+6) .tiw-s { transform: rotate(0.4deg); }
+.tiw-wall > li:nth-child(7n+7) .tiw-s { transform: rotate(1.2deg); }
+
+/* ---------- hover: the miniature becomes the record ------------------- */
+
+@media (hover: hover) {
+  .tiw-wall > li:hover { z-index: 6; position: relative; }
+  .tiw-wall > li:hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+1):hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+2):hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+3):hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+4):hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+5):hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+6):hover .tiw-s,
+  .tiw-wall > li:nth-child(7n+7):hover .tiw-s {
+    transform: rotate(0deg) scale(2.2);
+    border-color: #dccfb6;
+    box-shadow: 4px 4px 0 var(--teal, #2d6b6b), 8px 8px 0 var(--gold, #c4962c);
+  }
+  .tiw-wall > li:hover .tiw-s > h4 { -webkit-line-clamp: 6; }
+  .tiw-wall > li:hover .tiw-s > em { -webkit-line-clamp: 3; }
+}
+
+.tiw-wall > li:nth-child(n) .tiw-s:focus-visible {
+  outline: none;
+  z-index: 6;
+  transform: rotate(0deg) scale(2.2);
+  box-shadow: 4px 4px 0 var(--teal, #2d6b6b), 8px 8px 0 var(--gold, #c4962c),
+              0 0 0 2px rgba(45, 107, 107, 0.55);
+}
+.tiw-wall > li:nth-child(n) .tiw-s:focus-visible > h4 { -webkit-line-clamp: 6; }
+.tiw-wall > li:nth-child(n) .tiw-s:focus-visible > em { -webkit-line-clamp: 3; }
+
+/* ---------- caption + stamp ------------------------------------------- */
+
+.tiw-cap {
+  margin: 24px 0 0;
+  max-width: 62ch;
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 19px;
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--oxblood, #3a1218);
+}
+
+.tiw-stamp {
+  margin: 8px 0 0;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  letter-spacing: 0.11em;
+  line-height: 1.6;
+  color: #6b5e42;
+}
+.tiw-stamp a {
+  color: var(--teal, #2d6b6b);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(45, 107, 107, 0.45);
+}
+.tiw-stamp a:hover { color: var(--teal-bright, #3d8585); }
+
+/* ---------- responsive ------------------------------------------------ */
+
+@media (max-width: 1200px) {
+  .tiw-mass { grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); }
+  .tiw-cs > h4 { font-size: 4.2px; }
+}
+
+@media (max-width: 999px) {
+  .tiw-mass { grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); }
+  .tiw-wallsec { --tiw-w: 70px; --tiw-room: 40px; }
+  .tiw-s { padding: 6px 5px 5px; }
+  .tiw-s > h4 { font-size: 6.2px; }
+}
+
+@media (max-width: 700px) {
+  .tiw-hero { padding: 32px 0 22px; }
+  .tiw-site { margin-bottom: 20px; }
+  .tiw-kicker { font-size: 11px; letter-spacing: 0.15em; line-height: 2.1; }
+  .tiw-count { font-size: 2.7em; }
+  .tiw-notice { font-size: 16px; padding: 14px 16px; margin: 22px 0 20px; }
+  .tiw-standfirst { font-size: 17px; }
+  .tiw-machinery { font-size: 16px; }
+  /* phone: 12 columns of year-and-rules sheets, so all 148 fit in about one
+     half screen and the banner is reached within the first scroll */
+  .tiw-mass { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 2px; }
+  .tiw-cs { padding: 3px 2px 2px; border-radius: 1px; }
+  .tiw-cs::before { height: 2px; }
+  .tiw-cs > i { font-size: 4px; letter-spacing: 0.04em; margin-top: 2px; padding-bottom: 2px; }
+  .tiw-cs > h4 { display: none; }
+  .tiw-wallsec { --tiw-w: 56px; --tiw-gap: 5px; --tiw-room: 28px; }
+  .tiw-key { justify-content: flex-start; }
+  .tiw-cap { font-size: 17.5px; }
+  .tiw-dl span { font-size: 8.5px; letter-spacing: 0.1em; padding: 5px 0; }
+}
+
+@media (max-width: 430px) {
+  .tiw-wallsec { --tiw-w: 47px; --tiw-gap: 4px; --tiw-room: 22px; }
+  .tiw-s { padding: 5px 4px 4px; border-radius: 2px; }
+  .tiw-s::before { height: 3px; }
+  .tiw-s > i { font-size: 5.2px; letter-spacing: 0.08em; margin-top: 2px; }
+  .tiw-s > h4 { font-size: 5.4px; margin-top: 4px; }
+  .tiw-s > em { font-size: 4.8px; -webkit-line-clamp: 1; }
+  .tiw-s > code { display: none; }
+  .tiw-s::after { margin-top: 4px; padding-top: 4px; }
+  .tiw-dl span { font-size: 7.5px; letter-spacing: 0.06em; padding: 4px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tiw-s { transition: none; }
+}
