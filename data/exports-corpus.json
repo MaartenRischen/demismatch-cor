@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-16T16:29:15.926541+00:00",
+    "source_built_at": "2026-11-17T01:03:17.717981+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 374,
-    "extractions": 1032,
+    "works": 416,
+    "extractions": 1102,
     "researchers": 84,
-    "mechanism_evidence": 1303,
+    "mechanism_evidence": 1341,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 222,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 112
+    "challenges": 139
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 104,
+        "link_count": 120,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -848,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 137,
+        "link_count": 141,
         "researchers": [
           "Gilbert",
           "Price",
@@ -1052,7 +1052,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 40,
+        "link_count": 58,
         "researchers": [
           "Walker",
           "Roenneberg",
