@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="canonical" href="https://cor.demismatch.com/faq.html">
   <title>Cor - Frequently asked</title>
-  <meta name="description" content="Cor - frequently asked questions. What Cor is, how it is built, and how hard it is checked.">
+  <meta name="description" content="Cor - frequently asked questions. What the atlas is, how it is built, and the quality and philosophy behind it.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Cor">
   <meta property="og:url" content="https://cor.demismatch.com/faq.html">
@@ -46,7 +46,6 @@
           .cor-faq { padding: clamp(3rem, 6vw, 5rem) var(--page-pad, 2rem); max-width: 76ch; margin: 0 auto; }
           .cor-faq-eyebrow { display: block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.3em; text-transform: uppercase; font-weight: 500; color: var(--teal); opacity: 0.8; margin-bottom: clamp(1.6rem, 3vw, 2.4rem); }
           .cor-faq-list { display: flex; flex-direction: column; }
-          .cor-faq-a a { color: var(--teal); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
           .cor-faq-item { border-top: 1px solid var(--border-soft, rgba(58,18,24,0.14)); }
           .cor-faq-item:last-child { border-bottom: 1px solid var(--border-soft, rgba(58,18,24,0.14)); }
           .cor-faq-item summary { display: flex; justify-content: space-between; align-items: baseline; gap: 1.4rem; padding: clamp(0.9rem, 1.6vw, 1.2rem) 0; cursor: pointer; list-style: none; font-family: var(--serif); font-weight: 500; font-size: clamp(1.04rem, 1.4vw, 1.16rem); line-height: 1.35; color: var(--oxblood); user-select: none; }
@@ -61,105 +60,106 @@
         <span class="cor-faq-eyebrow">Frequently asked</span>
 
         <div class="cor-faq-list">
+
           <span class="cor-faq-group">What it is</span>
 
           <details class="cor-faq-item">
             <summary>What is Cor, in one sentence?</summary>
-            <p class="cor-faq-a">Cor is the science of what a human needs: the systems behind what humans want, feel, fear and chase, what each system needs, and which substitutes set the feeling off and deliver nothing.</p>
+            <p class="cor-faq-a">Cor is an evidence-graded atlas of what a human being needs: a map of the motivational and emotional systems that drive what humans want, feel, fear, and pursue, what each of those systems was built to need, and what only fires its cue without supplying the function.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>Is it an atlas or a specification?</summary>
-            <p class="cor-faq-a">An atlas. It maps what is known and marks what is not. A specification, something a builder or a machine can test against line by line, is what Cor is being built toward.</p>
+            <summary>What does "atlas" mean here? I've also seen the word "specification."</summary>
+            <p class="cor-faq-a">Cor is currently an atlas. It maps the territory. The specification is the operational layer it is being built toward, and that word is reserved for that future layer. The precedent is the Allen Brain Atlas or the Human Cell Atlas: open foundational infrastructure that describes what a thing is, built so that anyone can build on top of it.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>What is the core idea?</summary>
-            <p class="cor-faq-a">Feeling bad in the modern world is, in most cases, a healthy body and mind reporting a world that is wrong for a human. Anxiety, low mood, loneliness and restlessness are those systems doing their job. Where a doctor can measure a physical cause, that is a disease. Everywhere else the fix is to change the world the human lives in.</p>
+            <summary>What is the core idea behind it?</summary>
+            <p class="cor-faq-a">That modern human suffering is, in most cases, accurate signaling from a sound organism in a mismatched environment. The hardware works. The environment is wrong. Anxiety, low mood, chronic stress, loneliness, restlessness - these are usually intelligible outputs of systems doing their job, responding to conditions they were never built for. The problem is the gap between the world a human is built for and the world a human lives in. The fix is to change the world, not to locate a defect in the person.</p>
           </details>
 
           <details class="cor-faq-item">
             <summary>Why does that matter beyond psychology?</summary>
-            <p class="cor-faq-a">Nearly everything built for humans assumes that what a human wants shows what is good for that human. It does not. A lonely human can want an AI companion. A human caught in a feed can want the next video. The wanting is real, and it comes from an old system reacting to a fake. Anything that serves the wanting without knowing the system ends up serving the fake. Cor is the record of the systems.</p>
+            <p class="cor-faq-a">Because it points at a blind spot in how we build technology, and especially how we try to align AI. The standard assumption is that what a person wants, clicks, or prefers reveals what is good for them. Cor's position is that preferences are outputs of evolved mechanisms, not ground truth. A lonely person can genuinely want an AI companion. A person caught in a feed can genuinely want the next video. The wanting is real. It is also not reliable evidence that the thing is good for them. Any system that optimizes for stated or revealed preference without a model of the architecture underneath is optimizing against the person it claims to serve. Cor is the model of that architecture. AI alignment is one application built on it. It is not the frame around it.</p>
           </details>
 
-          <span class="cor-faq-group">How it is built</span>
+          <span class="cor-faq-group">How it's built</span>
 
           <details class="cor-faq-item">
-            <summary>Is this made by AI?</summary>
-            <p class="cor-faq-a">Yes, on purpose. AI did the reading, the grading and the source-checking and wrote this site, under one human's direction. Everyone alive grew up inside the modern world, so no human reads it from outside. AI does, when it is held to the studies. Every record carries its source, a DOI or PubMed ID and a word-for-word quote, so nothing has to be taken on trust. <a href="https://demismatch.com/ai.html">Where we stand on AI</a>.</p>
-          </details>
-
-          <details class="cor-faq-item">
-            <summary>How does a source get into Cor?</summary>
-            <p class="cor-faq-a">Three gates. It has to be real and findable: a DOI, a PubMed ID, or the physical book. Everything taken from it has to come from the full text. Abstracts, snippets and summaries are rejected, because an audit found that every claim taken from a snippet was wrong: invented quotes, drifted paraphrases, findings that were not in the paper. And every quote has to be word for word. A quote stitched together from fragments counts as fabrication. A separate background tier, marked on every record and left out of every count, holds wider reading used on the decode pages.</p>
+            <summary>Is a lot of this written by AI? Some of it reads that way.</summary>
+            <p class="cor-faq-a">Yes, this answer included. I wrote hundreds of pages by hand before any AI touched the project, and a lot of what is on this site is still mine, unchanged. Then I built an AI pipeline to do the corpus work: find the evidence, grade it, check the sources, assemble it. That was on purpose. A framework you are supposed to check line by line should not rest on how sure I am about it. So do not read "AI-assembled" as a reason to trust it. Read it as a reason to check it. Every claim links to its source: a DOI or PMID and a word-for-word quote. Where the pipeline turned up junk, that work is quarantined and flagged, not shipped as evidence. What matters isn't who or what wrote the sentence. It's whether the claim underneath it holds - and that you can check yourself. And if you want the pure human voice, with no pipeline anywhere near it, <a href="https://demismatch.com/essay.html">the essay</a> is Maarten's, written by hand from start to finish.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>How do findings become the map?</summary>
-            <p class="cor-faq-a">From the evidence up. A work is read and single findings are pulled from its full text. Each one is graded by how hard it was tested. Where separate lines of research, from different labs, methods and decades, land on the same fact, Cor records a convergence. A convergence that is strong enough forces a system into the map. Five of the fifteen systems are forced that way. The other ten rest on converging evidence without one convergence forcing them, and Cor says so on each. Nothing is bent to fit a theory chosen in advance.</p>
+            <summary>How was a source chosen for inclusion in Cor?</summary>
+            <p class="cor-faq-a">A work has to clear three hard gates. First, it needs to be real and findable - every work needs a verifiable identifier (a DOI or PubMed ID) or must be physically in the collection. Second, anything taken from it has to come from the full text - claims sourced from an abstract, snippet, or aggregator summary are rejected outright. This rule is strict because an internal audit found a complete failure rate on claims pulled from snippets: fabricated quotes, drifted paraphrases, invented findings. Third, any direct quote stored against a work has to be word-for-word. A quote stitched from fragments counts as fabrication, not evidence.</p>
+          </details>
+
+          <details class="cor-faq-item">
+            <summary>How is the material actually turned into findings?</summary>
+            <p class="cor-faq-a">The process runs from the bottom up, from evidence to conclusions, never the other way around. A work is read, and individual findings are pulled from its full text. Each finding is recorded and graded for how strong the evidence is. These findings accumulate against the human systems they bear on. Where several independent lines of research - different labs, different methods, different decades - point at the same structural fact, that agreement is recorded as a convergence. Where the evidence converges hard enough, the convergence forces a system into the map outright. Five of the fifteen mechanisms are forced that way. The other ten are grounded by converging evidence without a single convergence entailing them, and they are marked as such. Nothing is reverse-engineered to fit a theory picked in advance. Where the derivation is incomplete, we mark it incomplete instead of inventing a link.</p>
           </details>
 
           <details class="cor-faq-item">
             <summary>What does the structure look like?</summary>
-            <p class="cor-faq-a">Six layers, fixed: a frame, premises, properties, consequences, convergences, and the mechanisms on top. The premises are that survival and reproduction are what evolution selects for, that the organism is a set of specialised systems working together, and that modern environments push those systems outside the range they were built for. The <a href="derivation.html">stack page</a> shows how well each layer is supported: five mechanisms forced by a convergence, ten associated, and two convergences left open on purpose where attaching them to the nearest plausible parent would have been a guess.</p>
+            <p class="cor-faq-a">It is a pyramid, derived once and now locked. Reading from the foundation up: two framing premises about how organisms relate to the world. Then three core premises: that survival and reproduction are what evolution optimizes for, that the organism is a set of specialized interacting systems rather than one general-purpose learner, and that modern environments systematically push those systems outside the range they were built for. From those, derived properties of the architecture. Then fourteen convergences. Then, at the top, fifteen mechanisms - the actual systems that produce human motivation and emotion. The shape of this structure is locked and will not be re-derived. How well each layer is grounded is a separate question, and the honest answer is on the stack page: of the fifteen mechanisms, five are forced by a convergence that entails them, ten are associated by converging evidence without a single convergence forcing them, and two convergences carry no foundational parent yet and are marked open by design.</p>
           </details>
 
           <details class="cor-faq-item">
             <summary>What are the fifteen mechanisms?</summary>
-            <p class="cor-faq-a">Threat management, pursuit and exploration, social bonding, social calibration through play, status monitoring, agency, circadian regulation, immune regulation, care and alloparenting, movement, cooperation and alliance, contamination avoidance, energy regulation, reproductive motivation, and touch. Each is a system shaped by evolution, with a defined input it checks for and a defined cost when that input is missing.</p>
+            <p class="cor-faq-a">In plain terms: threat management, pursuit and exploration, social bonding, social calibration through play, status monitoring, agency, circadian regulation, immune regulation, care and alloparenting, movement, cooperation and alliance, contamination avoidance, energy regulation, reproductive motivation, and touch. Each maps to a system shaped by evolution, with a defined input the system checks for and a defined cost when that input is missing.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>How big is Cor?</summary>
-            <p class="cor-faq-a">The live counts are on the <a href="index.html">Cor home page</a>. Size is the least interesting thing about it. What counts is how hard each record was checked.</p>
+            <summary>How big is the atlas right now?</summary>
+            <p class="cor-faq-a">The live, canonical counts are best read straight from the dashboard here at cor.demismatch.com, because they move as the work continues. Any specific figures quoted elsewhere are superseded by what the dashboard shows.</p>
           </details>
 
-          <span class="cor-faq-group">How hard it is checked</span>
+          <span class="cor-faq-group">Quality & philosophy</span>
 
           <details class="cor-faq-item">
-            <summary>What is the rule?</summary>
-            <p class="cor-faq-a">Evidence earns its place or it is marked down. In doubt, the grade goes down and never up. "Replicated" means several studies agree. A study that failed to replicate does not get in. Cor's own readings stay marked as theory until they are tested directly.</p>
-          </details>
-
-          <details class="cor-faq-item">
-            <summary>Books or papers?</summary>
-            <p class="cor-faq-a">Papers. A book describes research and a paper is the research. A claim found in a popular book sends Cor to the original study.</p>
+            <summary>What is the quality philosophy?</summary>
+            <p class="cor-faq-a">One rule runs the whole thing: evidence has to earn its place, and when it cannot it gets downgraded instead of defended. When there is doubt about how strong a piece of evidence is, it is graded down, not up. The word "replicated" is reserved for genuine agreement across multiple studies. And the framework's own interpretations stay marked as theoretical unless directly tested. Two further rules: evolutionary hypotheses are never written into a system's description as established fact before they are verified; and known failures from psychology's replication crisis are flagged and excluded rather than quietly used.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>Doesn't it explain away anything that challenges it?</summary>
-            <p class="cor-faq-a">No. Cor keeps <a href="reference.html#ref-challenges">records of the evidence against itself</a>, and they stay in. It publishes <a href="objections.html">the strongest attacks on its whole approach</a>, each in the attacker's own words with a verdict, and it has conceded several of them. It names <a href="programme.html#falsification">the results that would kill it</a>.</p>
+            <summary>Books or papers - which does Cor rely on?</summary>
+            <p class="cor-faq-a">Papers. Books are treated as the map; papers are the territory. A book describes research; a paper is research. So a claim traced to a popular synthesis is treated as a pointer toward the primary literature, not as the evidence itself.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>What are its weak points?</summary>
-            <p class="cor-faq-a">Three, all on the record. A real source is not the same as strong evidence: a record can carry a real identifier and an exact quote and still rest on a small study. Ten of the fifteen mechanisms are not forced by a single convergence. And nobody outside the project has re-run the method yet to see whether they land in the same place. Each is logged in the <a href="reference.html#ref-gaps">gap register</a> and on the <a href="objections.html">objections page</a>.</p>
+            <summary>Doesn't this framework just explain away anything that challenges it?</summary>
+            <p class="cor-faq-a">It is built specifically not to. Two conventions make that concrete, and they cut in opposite directions. When mainstream psychiatry fails - diagnostic categories that don't hold together, treatments that underperform - Cor counts that as support, because the framework predicts it. But findings from addiction neuroscience showing substance-specific neural mechanisms are treated as genuine challenges, not threats to be absorbed. Defending it is the one thing that is not allowed there. If nothing could count against it, it would not be science. The claims Cor refuses to give up, and the results that would refute it, are set out in the <a href="programme.html">research programme</a>. The strongest published attacks on the approach, each with where Cor stands and an honest verdict, are on the <a href="objections.html">objections page</a>.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>Are you saying the caveman life was better?</summary>
-            <p class="cor-faq-a">No. The ancestral environment is the baseline Cor measures against: it shows what the human systems were shaped to receive. It was also short and dangerous, and nobody is asked to go back. What counts is delivering what each system needs, in any form that does it.</p>
+            <summary>What are the atlas's biggest known weaknesses?</summary>
+            <p class="cor-faq-a">Three, and they are on the record before anyone else raises them. First, Cor verifies provenance and not evidential weight. A claim can carry a real DOI, a real identifier and a word-for-word quote and still rest on an underpowered study, and the schema cannot currently tell those apart. Second, the derivation is honest and it is not clean: ten of the fifteen mechanisms are grounded by converging evidence without a single convergence forcing them, and two convergences have no foundational parent yet. Third, and most consequentially, the atlas has never been independently re-run. It is built to be: the method is published, the sources carry identifiers, and the grading rules were written before the gradings. But only one of the fifteen systems currently carries coding criteria a second person could pick up and execute, so nobody has ever applied the method independently and reported whether they landed where it landed. Until that test exists, the honest way to read the atlas is as a hypothesis with its evidence attached. All three are logged in the open gap register, and with the attacks published by others on the <a href="objections.html">objections page</a>.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>Does "mismatch" mean evolution broke us?</summary>
-            <p class="cor-faq-a">The opposite. The systems work. A smoke detector that goes off in a room full of smoke is doing its job. The human's wanting is never the villain. The villain is the gap, and the habit of calling it normal.</p>
+            <summary>What is the EEA, and aren't you just saying "the caveman life was better"?</summary>
+            <p class="cor-faq-a">No, and the distinction matters. The EEA - the environment a human's systems were shaped in - is used as a diagnostic baseline, a reference point for measuring the gap between what a system expects and what it gets. It is not a prescription, a destination, or a romanticized past. The goal is never to restore the ancestral form of anything. It is to deliver the function the system is actually checking for. A bonding system needs the function of trusted co-regulation; it does not need you to live in a hut.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>How does Cor fit into Demismatch?</summary>
-            <p class="cor-faq-a">Cor is the science. <a href="https://demismatch.com/">demismatch.com</a> is the front door. <a href="https://whatreally.is/">whatreally.is</a> reads one subject per page against Cor.</p>
+            <summary>"Mismatch" - does that mean evolution broke us, or that we're badly designed?</summary>
+            <p class="cor-faq-a">The opposite. The systems work. They are doing precisely what they were built to do. What has changed is the input. A smoke detector that goes off because the room is full of smoke is not broken. The architecture is sound; it is being fed conditions outside the range it was built for. Cor never locates the problem in the person. The villain is always the gap, and the normalization of that gap - never the human's wanting.</p>
+          </details>
+
+          <details class="cor-faq-item">
+            <summary>How does Cor fit into the larger project?</summary>
+            <p class="cor-faq-a">Cor is the central reference work of Demismatch. The atlas is the shared source, and the applied work sits on top of it. For machines, that means aligning systems to the architecture as the reference standard. For humans, it means two tools: reading where the mismatch is, and building environments that match. What the whole thing points at is matched environments: changing the world so the deep systems stop sounding the alarm.</p>
           </details>
 
           <details class="cor-faq-item">
             <summary>Can other people build on Cor?</summary>
-            <p class="cor-faq-a">Yes. It is public and free to build on, for anyone: builders, schools, clinics, city planners, AI.</p>
+            <p class="cor-faq-a">Yes. That is the point of building it as open foundational infrastructure rather than a proprietary product. The atlas describes what a human being needs at the level of evolved mechanism. Any team - in technology, policy, education, clinical practice, or design - can build on that. AI alignment is one such application. It is not the limit of what the atlas is for.</p>
           </details>
 
           <details class="cor-faq-item">
-            <summary>Where is the current data?</summary>
-            <p class="cor-faq-a">The <a href="index.html">home page</a> carries the live counts and the full structure. The same records are available as <a href="data/snapshot.json">data</a>, and <a href="llms.txt">llms.txt</a> tells a machine where everything is.</p>
+            <summary>Where do I find the current data?</summary>
+            <p class="cor-faq-a">The dashboard at cor.demismatch.com carries the canonical, live counts and the full structure: every foundation, convergence, mechanism, and the evidence linking them. Any specific figures quoted elsewhere are superseded by what the dashboard shows.</p>
           </details>
 
         </div>

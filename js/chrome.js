@@ -86,7 +86,7 @@
   // mechanism.html keeps its structural exception: the "Detail View" subtitle.
   function subtitleFor(pageKey) {
     if (pageKey === "mechanism") return "Mechanism Spec - Detail View";
-    return "The science of what a human needs";
+    return "An evidence-graded atlas of human needs";
   }
 
   function navLinks(list, navKey, cls) {
@@ -169,10 +169,10 @@
     {
       head: "Papers",
       links: [
-        { label: "Objections", href: "objections.html" },
+        { label: "The Optimizer Without a Target", href: "bridge-paper.html" },
+        { label: "Constitutional",  href: "constitutional.html" },
         { label: "Research Programme", href: "programme.html" },
-        { label: "What You Are Talking To", href: "constitutional.html" },
-        { label: "The Optimizer Without a Target", href: "bridge-paper.html" }
+        { label: "Objections", href: "objections.html" }
       ]
     }
   ];
@@ -180,9 +180,8 @@
   // Cross-site why/what/how triad, ported from the live site's
   // partials/footer.html + xsite-nav.html.
   var XSITE = [
-    { head: "DEMISMATCH",     role: "The why",   desc: "the front door",       href: "https://demismatch.com/" },
-    { head: "WHAT REALLY IS", role: "The reads", desc: "one page per subject", href: "https://whatreally.is/" },
-    { head: "COR",            role: "The science", desc: "what a human needs", href: "https://cor.demismatch.com/", current: true }
+    { head: "DEMISMATCH", role: "The why", desc: "the front door", href: "https://demismatch.com/" },
+    { head: "COR",        role: "The how", desc: "the atlas",      href: "https://cor.demismatch.com/", current: true }
   ];
 
   function sitemapHTML() {
@@ -216,12 +215,12 @@
         sitemapHTML() +
         xsiteHTML() +
       '</div>' +
-      '<p class="foot-canonical">Cor is the science of what a human needs, checked ' +
-        'without mercy. Demismatch and whatreally.is are built on it. Made by AI, ' +
-        'directed by one human, public for any human or AI to read.</p>' +
+      '<p class="foot-canonical">Demismatch is the project. Cor is its central ' +
+        'reference work: the diagnostic tools, the alignment outputs, and the ' +
+        'environment design are all built on it.</p>' +
       '<div class="foot-signature">' +
         '<span>Cor</span><span class="sep">/</span>' +
-        '<span>an atlas, built toward the specification</span>' +
+        '<span>a living atlas, built toward the specification</span>' +
         '<span class="sep">/</span><span id="foot-counts">' + esc(countSignature()) + '</span>' +
         '<span class="sep">/</span><span data-cor-honesty></span>' +
       '</div>';

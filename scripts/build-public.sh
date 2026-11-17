@@ -47,7 +47,6 @@ ROOT_FILES=(
   "CNAME"
   "robots.txt"
   "sitemap.xml"
-  "llms.txt"
 )
 
 PUBLIC_DIRS=(
