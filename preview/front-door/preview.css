@@ -1,0 +1,101 @@
+/* PREVIEW ONLY (preview/front-door). Additions on top of the live Cor styles. */
+
+/* preview bar */
+.pv-bar {
+  font: 500 .72rem/1.5 var(--mono);
+  background: var(--oxblood); color: var(--parchment);
+  padding: .55rem var(--pad-x);
+  display: flex; flex-wrap: wrap; gap: .3rem .9rem; align-items: baseline;
+}
+.pv-bar a { color: var(--parchment); text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---------------------------------------------------------------- home ---- */
+.pv-line2 {
+  margin: clamp(10px, 1.6vw, 16px) 0 0;
+  font: 500 var(--t-h3)/1.2 var(--serif);
+  color: var(--teal-deep);
+}
+.pv-checked {
+  margin-top: clamp(16px, 2.4vw, 22px);
+  font: 300 var(--t-lead)/1.55 var(--serif);
+  color: var(--oxblood-ink);
+  max-width: 60ch;
+}
+.pv-checked a { color: var(--oxblood); text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+.pv-checked a:hover { color: var(--teal-deep); }
+
+.pv-first { margin-top: clamp(22px, 3.2vw, 32px); max-width: 62ch; }
+.pv-first-h {
+  font: 500 var(--t-eyebrow)/1 var(--mono);
+  letter-spacing: .18em; text-transform: uppercase;
+  color: var(--muted-warm); margin: 0 0 .7rem;
+}
+.pv-first-list { list-style: none; margin: 0; padding: 0; counter-reset: pvf; }
+.pv-first-list li { counter-increment: pvf; border-top: 1px solid var(--border-soft); }
+.pv-first-list li:last-child { border-bottom: 1px solid var(--border-soft); }
+.pv-first-list a {
+  display: grid; grid-template-columns: 2rem 1fr; column-gap: .4rem;
+  padding: .8rem 0; text-decoration: none; color: inherit;
+}
+.pv-first-list a::before {
+  content: counter(pvf); grid-row: 1 / span 2;
+  font: 500 .8rem/1.6 var(--mono); color: var(--teal-deep);
+}
+.pv-t { font: 600 1.08rem/1.3 var(--serif); color: var(--oxblood); }
+.pv-first-list a:hover .pv-t { color: var(--teal-deep); text-decoration: underline; }
+.pv-d { font: 300 .95rem/1.45 var(--serif); color: var(--oxblood-ink); margin-top: .15rem; }
+
+.pv-runs, .pv-ai { margin-top: clamp(34px, 5vw, 56px); }
+.pv-runs-h, .pv-ai-h {
+  font: 500 var(--t-h3)/1.15 var(--serif); color: var(--fg);
+  margin: 0 0 .9rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border);
+}
+.pv-runs-grid, .pv-ai-grid {
+  display: grid; gap: var(--gutter);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+}
+.pv-site {
+  display: block; text-decoration: none; color: inherit;
+  padding: 1rem 1.1rem; background: var(--parchment-soft);
+  border: 1px solid var(--border-soft); border-left: 3px solid var(--gold);
+  border-radius: var(--radius-sm);
+}
+.pv-site:hover { border-left-color: var(--teal); }
+.pv-site-url { display: block; font: 600 1.12rem/1.2 var(--serif); color: var(--oxblood); }
+.pv-site-d { display: block; margin-top: .35rem; font: 300 .95rem/1.45 var(--serif); color: var(--oxblood-ink); }
+.pv-ai-lede { font: 300 1rem/1.5 var(--serif); color: var(--oxblood-ink); margin: 0 0 1rem; max-width: 62ch; }
+.pv-paper { display: block; margin: 0; max-width: none; text-decoration: none; }
+.pv-paper .hero-paper-label, .pv-paper .hero-paper-meta { display: block; }
+
+/* ----------------------------------------------------------- the gap ---- */
+/* one column at reading width: a visitor who lands on a record reads one card */
+.pv-gap .gap-cards { grid-template-columns: 1fr; max-width: var(--reading-maxw); margin: 0 auto; }
+.pv-gap .gap-domain-head { max-width: var(--reading-maxw); margin-left: auto; margin-right: auto; }
+.pv-gap .gap-card { scroll-margin-top: 3.2rem; }
+.pv-gap .gap-card:target { border-color: var(--teal); box-shadow: var(--shadow-card); }
+
+.pv-plain { margin: .3rem 0 .9rem; }
+.pv-says { font: 400 1.12rem/1.55 var(--serif); color: var(--fg); margin: 0 0 .75rem; }
+.pv-why {
+  font: 300 .95rem/1.5 var(--serif); color: var(--oxblood-ink);
+  margin: 0 0 .6rem; padding-left: .8rem; border-left: 3px solid var(--border);
+}
+.pv-lab { font-weight: 600; }
+.pv-lab--strong { color: var(--teal-deep); }
+.pv-lab--moderate { color: #7a5e12; }
+.pv-lab--weak { color: var(--oxblood-warm); }
+.pv-how { font: 400 .78rem/1.5 var(--mono); color: var(--fg-faint); margin: 0; }
+.pv-detail-h {
+  font: 500 .66rem/1 var(--mono); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--fg-faint); margin: 0 0 .6rem; padding-top: .7rem; border-top: 1px solid var(--border);
+}
+
+.pv-mechs-k { font: 500 .66rem/1.9 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-faint); margin-right: .2rem; }
+
+.pv-fold { border-top: 1px solid var(--border-soft); padding: .5rem 0; }
+.pv-fold > summary {
+  cursor: pointer; list-style-position: inside;
+  font: 500 .72rem/1.4 var(--mono); letter-spacing: .04em; color: var(--teal-deep);
+}
+.pv-fold[open] > summary { margin-bottom: .55rem; }
+.pv-fold-txt { font: italic 300 .84rem/1.5 var(--serif); color: var(--fg-faint); }

@@ -57,6 +57,7 @@ PUBLIC_DIRS=(
   "vendor"
   "assets"
   "operationalization"   # holds the M3 redirect stub
+  "preview"              # unlinked noindex previews for Maarten (not in sitemap)
 )
 
 rm -rf "$DIST"
