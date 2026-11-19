@@ -87,7 +87,7 @@
   // PREVIEW (preview/front-door, round 2): one line in the top bar of every Cor page,
   // the detail page included, so a visitor reads it first wherever they land.
   // To go live: this function and the .masthead-sub rule in preview.css.
-  var MAST_LINE = "The science of what humans feel and what they really need.";
+  var MAST_LINE = "The science of why humans feel what they feel, and what they really need.";
   function subtitleFor(pageKey) {
     return MAST_LINE;
   }
