@@ -188,7 +188,7 @@ This mechanism has **two separate scales** - don't mix them up.
 
 ### Scale A - how much real caregiving help you actually have
 
-- **Top (real):** a distributed network of about 4+ kin and community members.
+- **Top (real):** a distributed network of kin and community members.
 - Several reliable caregivers, including good paid care.
 - A single occasional helper or high-turnover institutional care.
 - **Empty shelf:** a solo or two-person parent with no network. (This is deprivation, not a fake - just an empty cupboard.)
@@ -205,7 +205,7 @@ The nuclear family with no village behind it. Parents burn out because they're d
 
 Moving your body isn't just "exercise." Movement acts like a timekeeper for your clock, fights inflammation, and regulates mood - it switches on repair processes all through your body.
 
-What it needs: movement woven into daily life, not bolted on as a separate workout. Hunter-gatherers typically moved 9 to 15 km a day just as a side effect of how they lived.
+What it needs: movement woven into daily life, not bolted on as a separate workout. Hadza men walk about 11 km a day and women about 6 km, just as a side effect of foraging.
 
 ### The ladder
 

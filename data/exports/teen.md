@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-11-17 01:03 UTC, from the live Cor atlas snapshot built 2026-11-17 01:03 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-19 03:42 UTC, from the live Cor atlas snapshot built 2026-11-19 03:42 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 416 works, 1102 extractions, 84 researchers. Plus **The Gap**: 42 EEA baseline parameters across 8 domains (13 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 543 works, 1329 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -198,7 +198,7 @@ This mechanism has **two separate scales** - don't mix them up.
 
 ### Scale A - how much real caregiving help you actually have
 
-- **Top (real):** a distributed network of about 4+ kin and community members.
+- **Top (real):** a distributed network of kin and community members.
 - Several reliable caregivers, including good paid care.
 - A single occasional helper or high-turnover institutional care.
 - **Empty shelf:** a solo or two-person parent with no network. (This is deprivation, not a fake - just an empty cupboard.)
@@ -215,7 +215,7 @@ The nuclear family with no village behind it. Parents burn out because they're d
 
 Moving your body isn't just "exercise." Movement acts like a timekeeper for your clock, fights inflammation, and regulates mood - it switches on repair processes all through your body.
 
-What it needs: movement woven into daily life, not bolted on as a separate workout. Hunter-gatherers typically moved 9 to 15 km a day just as a side effect of how they lived.
+What it needs: movement woven into daily life, not bolted on as a separate workout. Hadza men walk about 11 km a day and women about 6 km, just as a side effect of foraging.
 
 ### The ladder
 
@@ -357,4 +357,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-17 01:03 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-17 01:03 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-19 03:42 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-19 03:42 UTC.*

@@ -4,13 +4,13 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**42 parameters across 8 domains** (grades: tested many times 15, argued, not yet tested 11, tested once 9, contested 7; 13 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 15 carry a contested flag).
 **Grade legend.**
 
-- **tested many times** (15): consistent results across independent groups or methods, or a meta-analysis of good studies
-- **tested once** (9): one good study, or one group's results, not yet repeated
-- **argued, not yet tested** (11): a reasoned case with no direct test
-- **contested** (7): published evidence on both sides; the note says which way the weight leans
+- **tested many times** (21): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested once** (12): one good study, or one group's results, not yet repeated
+- **argued, not yet tested** (12): a reasoned case with no direct test
+- **contested** (8): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
@@ -56,7 +56,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
 
-**Ancestrally:** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (illustratively under ~10%), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
+**Ancestrally:** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
 
 **Now (modern default):** Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small, geographically dispersed, and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.
 
@@ -183,7 +183,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 5
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 7
 
 #### Wealth gaps (low to moderate in foragers)
 `EEA-SOC-14 · Social structure` - **tested many times**
@@ -246,6 +246,142 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 11
 
+#### Food shared and eaten in company
+`EEA-SOC-20 · Social structure` - **tested once**
+
+**Ancestrally:** In every forager group with a record, food moved between households before it was eaten. A review of 45 small-scale groups reports food transfers beyond the household throughout, and in all 10 groups where it was checked big game reached more families than small game. Among the Hadza of Tanzania at least 90% of the meat of large animals left the hunter's household. Among the Aka of the Congo a cook and her children ate about 20% of the stew she made, about 75% of the stew a woman ate came from other women's pots, cooking and serving were done in plain view, and the men usually ate together at the men's shelter. Among the Ju/'hoansi of Botswana each family ate the evening meal at its own fire and people then gathered at shared fires. Among the Great Andamanese game was roasted at a public cooking place and each family ate at its own hut. Batek camps in Malaysia, about 34 people, shared food at once, stored none and ate almost nothing out of camp. The meal was mostly a family meal, eaten in sight and reach of the rest of the camp. No record shows a whole camp eating as one table every day. Sharing with the whole band was the exception and went with bands under 40 to 50 people.
+
+**Now (modern default):** In the United States 26% of adults ate every meal of the previous day alone in 2023, more than half again above the 2003 level; among people living alone it was about 70%. In a UK poll of 2,000 adults nearly 70% had never had a meal with a neighbour. Shared meals vary widely between countries today: 11.7 lunches and dinners a week with someone known in Senegal, 2.7 in Bangladesh and Estonia. Food now comes from a shop, and a household's food does not pass through other households.
+
+**The gap to work with:** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
+
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 15
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+
+### Mating & reproduction
+
+#### Who picks the partner (kin-arranged marriage)
+`EEA-MATE-01 · Mating & reproduction` - **tested once**
+
+**Ancestrally:** In most forager societies parents or close kin arranged marriages. In Apostolou's coding of 190 forager societies, arrangement by parents or close kin was the main way to marry in 85%, and marriage involved an exchange between the two families (brideservice, brideprice) in 80%. A phylogenetic reconstruction puts arranged marriage at least as far back as the migrations out of Africa. Courtship also existed: 3 of the 8 African forager societies in the sample marry by courtship, so the oldest African pattern is open. How much say the young people had is not coded in any source read; Hadza men and women state clear preferences for a spouse.
+
+**Now (modern default):** Individuals choose, and increasingly choose strangers. Among US heterosexual couples, 39% of those who met in 2017 met online, against 2% in 1995; meeting through friends fell from 33% to 20% and through family from 15% to 7%. In 2017, 89% of couples who met online had no personal connection before.
+
+**The gap to work with:** Partner choice moved from families and kin, who knew both people, to individuals searching alone among strangers. The people who once filtered and vouched for a partner are now mostly out of the decision.
+
+**Serves:** M11 - Cooperation / Alliance, M14 - Reproductive Motivation  ·  evidence links: 9
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### The pool of possible partners
+`EEA-MATE-02 · Mating & reproduction` - **tested once**
+
+**Ancestrally:** A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, is about 50 km across and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.
+
+**Now (modern default):** Online, the pool is effectively unbounded and made of strangers. On one large US dating site, attention was very unequal: most users got a handful of first messages at most while a few got hundreds (one woman in New York got 1,504 in a month). Men and women mostly wrote to people about 25% more desirable than themselves, and men writing to more desirable women got replies at most 21% of the time.
+
+**The gap to work with:** The pool grew from hundreds of known people to an open-ended list of strangers judged from a profile. Attention concentrates on a few, and most people's approaches go unanswered.
+
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 6
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Marriage system (mostly monogamous, some polygyny, serial pairs)
+`EEA-MATE-03 · Mating & reproduction` - **tested many times**
+
+**Ancestrally:** Most societies in the ethnographic record permitted a man more than one wife (about 85%), but in forager societies most marriages were monogamous. In 87% of 190 forager societies fewer than 20% of men were married polygynously; among tropical African foragers polygyny runs from 3% to 20%; among Savanna Pume foragers 11% of men and 20% of women are ever married polygynously. Men contributing more food went with more monogamy. Serial pairing was common: among the !Kung and Ache, men and women had children with more than one partner.
+
+**Now (modern default):** Law imposes one spouse at a time in most states (Japan from 1880, China 1953, India 1955, Nepal 1963). Serial pairing through divorce and new partners continues.
+
+**The gap to work with:** Small gap. Forager practice was already mostly one spouse at a time with some polygyny and remarriage; modern law removes the polygynous minority. Forager marriages often ended: across ten forager and forager-farmer populations reported divorce rates run from 18% (Agta) to nearly every couple (north Alaskan Inuit), and the reviewers put the general level at a quarter to a third of marriages or more, with remarriage common (ext 1728). The rates were counted differently in each population, so they cannot be averaged or set against a modern rate.
+
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 8
+
+#### Timing: puberty to first birth
+`EEA-MATE-04 · Mating & reproduction` - **tested many times**
+
+**Ancestrally:** Forager women had their first child at about 19 to 20: Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2. Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
+
+**Now (modern default):** US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.
+
+**The gap to work with:** The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.
+
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 6
+
+#### Number of children and spacing
+`EEA-MATE-05 · Mating & reproduction` - **tested many times**
+
+**Ancestrally:** Forager women who lived through their reproductive years had about six births: Ache 8.2, Agta 6.9, Hadza 6.2, Hiwi 5.5, Ju/'hoansi 4.3; the mean across 75 natural-fertility societies was 5.98. Births were spaced about 3 to 4 years apart (hunter-gatherer average 3.7 years). About a third of forager women survived to complete their fertility. With pregnancy and long breastfeeding, menstrual cycles were few: among the Dogon, natural-fertility farmers, a woman had about 100 menstruations in her life.
+
+**Now (modern default):** World births per woman fell from 4.84 in 1950 to 2.23 in 2021, and fell in every country. Among European women born in 1960, 10% (Greece, Spain) to 20% (Germany) had no child, a level also seen in women born around 1900. A US woman with three births has about three times the Dogon count of menstruations.
+
+**The gap to work with:** Fewer children, fewer pregnancies and far more menstrual cycles. Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
+
+**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 5
+
+#### What gets a person chosen, and how unequal men are
+`EEA-MATE-06 · Mating & reproduction` - **tested many times** · **CONTESTED**
+
+**Ancestrally:** Among foragers, men who hunted better had more surviving children (Ache, Hadza, !Kung, Lamalera, Meriam), and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
+
+**Now (modern default):** Stated preferences keep the same sex differences across 45 countries (14,399 people): men weight looks and youth more, women earning prospects and an older partner. On dating sites attention concentrates on a few. In the US, the share of men aged 18 to 24 with no sex in the past year rose from 18.9% (2000 to 2002) to 30.9% (2016 to 2018), and men with lower income and no full-time work were more often sexually inactive.
+
+**The gap to work with:** Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
+
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 9
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Rivals and comparison
+`EEA-MATE-07 · Mating & reproduction` - **argued, not yet tested**
+
+**Ancestrally:** A forager's rivals for a partner were the same-sex people of the camp and the regional network, a few hundred people seen in ordinary life. No study measures this directly; it follows from the size of the pool (EEA-MATE-02).
+
+**Now (modern default):** Media and feeds show a stream of the most attractive and successful people alive, edited. In an experiment, women who saw highly attractive women rated their own value as a marriage partner lower, and men who saw socially dominant men did the same. Across 77 studies, exposure to thin-ideal media images went with more body dissatisfaction in women (d -0.28).
+
+**The gap to work with:** The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
+
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 1
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Sexual stimuli (real people vs unlimited images)
+`EEA-MATE-08 · Mating & reproduction` - **contested** · **CONTESTED**
+
+**Ancestrally:** Sexual cues came from real people a forager knew and could meet. No study measures this directly.
+
+**Now (modern default):** Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.
+
+**The gap to work with:** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
+
+**Serves:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration  ·  evidence links: 4
+
+*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
+
+#### Sex and conception coupled
+`EEA-MATE-09 · Mating & reproduction` - **tested many times**
+
+**Ancestrally:** For foragers, sex led to pregnancy unless breastfeeding or low energy suppressed ovulation. Birth spacing of 3 to 4 years came from breastfeeding and the energy cost of lactation (EEA-MATE-05).
+
+**Now (modern default):** Contraception separates sex from conception. In 2019, 47.7% of all women aged 15 to 49 worldwide used a modern method, 20.1 points more than in 1970, from 1.9% in South Sudan to 87.9% in Norway. In the US, the pill sped up the fall in marital fertility in the 1960s.
+
+**The gap to work with:** Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
+
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 3
+
+#### Paternity and affairs (rates vary between societies)
+`EEA-MATE-10 · Mating & reproduction` - **tested many times**
+
+**Ancestrally:** Rates of children fathered outside the pair vary a lot between societies. In genetic studies of mostly European-descent populations, and in the Dogon of Mali, the rate is about 1 to 2%; across 67 studies the rate for men confident of their paternity was 1.9%. Among Himba pastoralists in Namibia it was 48%, and the community knew which children these were. In 53 of 76 lowland South American societies with data, people believe a child can have more than one father. No genetic paternity rate for a forager population was found.
+
+**Now (modern default):** Modern Western samples give the same 1 to 2%. Paternity can now be tested genetically.
+
+**The gap to work with:** No gap is shown. Cor has no forager genetic paternity rate to compare with, and the modern Western figures match the ones that exist. A page cannot claim that affairs are more or less common than in the past.
+
+**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 4
+
 
 ### Care & development
 
@@ -284,9 +420,9 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** Modern childhood compresses or eliminates free mixed-age play: age-segregated grade cohorts and daycare, adult-structured and supervised activities, indoor screen-based leisure, reduced unsupervised outdoor roaming, and safety norms that discourage rough-and-tumble. Children spend far less time in self-directed, physically-active, mixed-age peer play than the developmental window evolved to expect.
 
-**The gap to work with:** The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. Because play partners causally shape PFC development and social-reciprocity circuits, reduced free play is plausibly a genuine developmental-input deficit, not merely a lifestyle change.
+**The gap to work with:** The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. No study has tested that reading in children.
 
-**What actually has to be present (resolution unit):** Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, screen time, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.
+**What actually has to be present (resolution unit):** Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, solitary screen play, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.
 
 **Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 5
 
@@ -328,7 +464,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.
 
-**The gap to work with:** Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. This is a plausible but, in the present corpus, evidentially thin extension of the daytime affective-touch and attachment findings; it should not be over-stated.
+**The gap to work with:** Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).
 
 **What actually has to be present (resolution unit):** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
@@ -376,7 +512,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.
 
-**What actually has to be present (resolution unit):** Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration. Do not encode a must-hit-8-9h rule.
+**What actually has to be present (resolution unit):** Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration.
 
 **Serves:** M7 - Circadian Regulation  ·  evidence links: 10
 
@@ -401,7 +537,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Daily incidental movement load
 `EEA-SUBS-01 · Subsistence & time-use` - **tested many times**
 
-**Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp - roughly 9-15 km/day (Hadza men ~7-10 mi, women ~5 mi plus hours of digging), with movement woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
+**Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
 
 **Now (modern default):** Movement has been extracted from subsistence and re-inserted, if at all, as discretionary 'exercise': set-aside, planned, dose-prescribed (e.g. 150 min/week guidelines), and separated from the rest of a chair-bound, motor-transported, indoor day. Most waking hours are spent in continuous chair-sitting that holds the lower limbs near-inactive, and total daily distance on foot collapses far below the ancestral range.
 
@@ -433,7 +569,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** Industrial and much digital work narrows the day to repetitive, specialized, often single-task operation - high repetition, low task variety, minimal novel problem-solving - with the SEEKING system left chronically under-stimulated by the work itself and frequently redirected onto engineered supernormal substitutes (feeds, games, variable-ratio rewards) off the clock.
 
-**The gap to work with:** The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. This row is included because it meets the 3-part rule, but the EEA quantification of 'task diversity' is not pinned down in Cor's evidence.
+**The gap to work with:** The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. No study in Cor measures forager task diversity.
 
 **What actually has to be present (resolution unit):** Genuine variety of self-directed, skill-recruiting tasks across the day that engage exploration and problem-solving - not nominal 'multitasking' (rapid switching among equally shallow operations) and not enrichment proxies bolted on outside the core work.
 
@@ -444,11 +580,11 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Daily subsistence work-hours (contested)
 `EEA-SUBS-04 · Subsistence & time-use` - **contested** · **CONTESTED**
 
-**Ancestrally:** QUALITATIVE ONLY. The duration of daily subsistence effort in the EEA is genuinely unresolved and must not be stated as a number. The 'original affluent society' position (Sahlins/Lee) reads the data as short food-quest hours and ample leisure; the opposing reading (Kaplan/Hawkes/Pontzer, and Lieberman's own qualifications) emphasizes that total productive effort includes processing, childcare, toolwork, and travel, and that activity is modest-intensity but spread across the day. What the full-text evidence DOES support qualitatively is that forager workloads are not 'backbreaking' and that overall energetic activity is only modestly above a sedentary Westerner's - but this does not license any specific daily work-hour figure.
+**Ancestrally:** No daily work-hour figure is settled. The 'original affluent society' position (Sahlins/Lee) reads the data as short food-quest hours and ample leisure; the opposing reading (Kaplan/Hawkes/Pontzer, and Lieberman's own qualifications) emphasizes that total productive effort includes processing, childcare, toolwork, and travel, and that activity is modest-intensity but spread across the day. What the full-text evidence DOES support qualitatively is that forager workloads are not 'backbreaking' and that overall energetic activity is only modestly above a sedentary Westerner's - but this does not license any specific daily work-hour figure.
 
 **Now (modern default):** Modern work is organized around fixed, externally scheduled, often long and boundary-less hours (clock-time labor, always-on digital availability) - a structurally different time-architecture from intermittent, self-paced, weather- and resource-contingent subsistence effort, regardless of what the ancestral hour-count actually was.
 
-**The gap to work with:** The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours. Asserting a specific ancestral work-hour number - in either direction - would import a contested anthropological position as if it were settled, which it is not.
+**The gap to work with:** The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours.
 
 **What actually has to be present (resolution unit):** Self-paced, resource-contingent, intermittently-bounded work time - the time ARCHITECTURE (when and how effort is scheduled and bounded), not a target number of daily hours.
 
@@ -498,7 +634,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Removing the work between hunger and food eliminates a natural brake on consumption and decouples eating from the obligate daily movement it was bundled with - calories are now frictionless to obtain and detached from the physical activity that ancestrally accompanied acquisition.
 
-**What actually has to be present (resolution unit):** Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Daily distance/movement is solid; a specific subsistence work-HOURS number is contested and is not asserted here.
+**What actually has to be present (resolution unit):** Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Work hours: see EEA-SUBS-04.
 
 **Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 3
 

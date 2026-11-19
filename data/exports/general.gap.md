@@ -4,7 +4,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**42 parameters across 8 domains** (grades: tested many times 15, argued, not yet tested 11, tested once 9, contested 7; 13 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 15 carry a contested flag).
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (contested · CONTESTED)
@@ -61,6 +61,42 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **What marks someone as "them" (alliance cues)** (tested many times)
   - The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
 
+**Food shared and eaten in company** (tested once)
+  - A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
+
+
+### Mating & reproduction
+
+**Who picks the partner (kin-arranged marriage)** (tested once)
+  - Partner choice moved from families and kin, who knew both people, to individuals searching alone among strangers. The people who once filtered and vouched for a partner are now mostly out of the decision.
+
+**The pool of possible partners** (tested once)
+  - The pool grew from hundreds of known people to an open-ended list of strangers judged from a profile. Attention concentrates on a few, and most people's approaches go unanswered.
+
+**Marriage system (mostly monogamous, some polygyny, serial pairs)** (tested many times)
+  - Small gap. Forager practice was already mostly one spouse at a time with some polygyny and remarriage; modern law removes the polygynous minority. Forager marriages often ended: across ten forager and forager-farmer populations reported divorce rates run from 18% (Agta) to nearly every couple (north Alaskan Inuit), and the reviewers put the general level at a quarter to a third of marriages or more, with remarriage common (ext 1728). The rates were counted differently in each population, so they cannot be averaged or set against a modern rate.
+
+**Timing: puberty to first birth** (tested many times)
+  - The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.
+
+**Number of children and spacing** (tested many times)
+  - Fewer children, fewer pregnancies and far more menstrual cycles. Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
+
+**What gets a person chosen, and how unequal men are** (tested many times · CONTESTED)
+  - Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
+
+**Rivals and comparison** (argued, not yet tested)
+  - The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
+
+**Sexual stimuli (real people vs unlimited images)** (contested · CONTESTED)
+  - The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
+
+**Sex and conception coupled** (tested many times)
+  - Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
+
+**Paternity and affairs (rates vary between societies)** (tested many times)
+  - No gap is shown. Cor has no forager genetic paternity rate to compare with, and the modern Western figures match the ones that exist. A page cannot claim that affairs are more or less common than in the past.
+
 
 ### Care & development
 
@@ -71,7 +107,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, R1), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.
 
 **Mixed-age child playgroups as developmental input** (tested many times)
-  - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. Because play partners causally shape PFC development and social-reciprocity circuits, reduced free play is plausibly a genuine developmental-input deficit, not merely a lifestyle change.
+  - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. No study has tested that reading in children.
 
 **Multigenerational presence (grandmothers as provisioning kin)** (contested)
   - The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.
@@ -83,7 +119,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - Modern environments routinely fall below the ancestral affective-touch floor. Touch deprivation in extreme cases (institutional rearing) produces growth-hormone suppression, immune dysfunction, and developmental arrest; even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
 
 **Co-sleeping / nighttime body contact** (tested many times · CONTESTED)
-  - Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. This is a plausible but, in the present corpus, evidentially thin extension of the daytime affective-touch and attachment findings; it should not be over-stated.
+  - Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).
 
 **Affective grooming/touch from trusted others (adult social touch)** (argued, not yet tested)
   - Loss of routine affiliative touch from trusted others removes a direct endorphin-bonding and cortisol/cardiovascular stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.
@@ -110,10 +146,10 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - Because passivity is the unlearned default that only switches OFF when controllability is detected, environments that obscure the effort-outcome link don't feel neutral - they default the organism toward helplessness-type physiology. The gap is the loss of routinely detectable, self-attributable contingency, which population health data link to elevated disease risk (low job control predicts coronary disease independent of grade).
 
 **Task diversity within the subsistence day** (argued, not yet tested)
-  - The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. This row is included because it meets the 3-part rule, but the EEA quantification of 'task diversity' is not pinned down in Cor's evidence.
+  - The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. No study in Cor measures forager task diversity.
 
 **Daily subsistence work-hours (contested)** (contested · CONTESTED)
-  - The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours. Asserting a specific ancestral work-hour number - in either direction - would import a contested anthropological position as if it were settled, which it is not.
+  - The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours.
 
 
 ### Diet & metabolic

@@ -16,11 +16,12 @@
 
   // Narrative domain order (social mismatch is primary) + display labels.
   var DOMAIN_ORDER = [
-    "social_structure", "care_development", "touch_contact", "circadian_sensory",
+    "social_structure", "mating_reproduction", "care_development", "touch_contact", "circadian_sensory",
     "subsistence_timeuse", "diet_metabolic", "threat_safety", "information_environment",
   ];
   var DOMAIN_LABELS = {
     social_structure: "Social structure",
+    mating_reproduction: "Mating & reproduction",
     care_development: "Care & development",
     touch_contact: "Touch & contact",
     circadian_sensory: "Circadian & sensory",

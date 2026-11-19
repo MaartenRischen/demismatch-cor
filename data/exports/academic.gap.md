@@ -4,13 +4,13 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**42 parameters across 8 domains** (grades: tested many times 15, argued, not yet tested 11, tested once 9, contested 7; 13 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 15 carry a contested flag).
 **Grade legend.**
 
-- **tested many times** (15): consistent results across independent groups or methods, or a meta-analysis of good studies
-- **tested once** (9): one good study, or one group's results, not yet repeated
-- **argued, not yet tested** (11): a reasoned case with no direct test
-- **contested** (7): published evidence on both sides; the note says which way the weight leans
+- **tested many times** (21): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested once** (12): one good study, or one group's results, not yet repeated
+- **argued, not yet tested** (12): a reasoned case with no direct test
+- **contested** (8): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
@@ -43,9 +43,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
 - (+6 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Layered personal networks scaling by about 3 hold up in modern network data, much of it from Dunbar's group, while the 150 derivation fails re-analysis (Lindenfors, Wartel and Lind 2021) and forager groups are fluid (Bird et al. 2019). Weight of evidence: the layering holds; the exact layer sizes and the 150 ceiling are disputed, so treat them as approximate.
-
-Earlier grading notes (rubric v1, kept for the record): This is the one social_structure parameter genuinely full-text-grounded in Cor (Dunbar tradition). The nested ~5/15/50/150 layers, ~3x scaling, and ~150 ceiling are backed by multiple full-text extractions: 404 (Dunbar book, in_physical_collection) and 490 (Social Brain Hypothesis, verbatim Fig.7 quote) for layer structure; 25 (Dunbar book) for the ~150 ceiling and ethnographic mean clan; 483/484/485 (Neocortex 1992 cross-species regression) as the historical cognitive-basis citation; 26 (org-theory 150 threshold). Modern replication of the same architecture and its decay is grounded in genuinely open-access full text (506/507/508/509, Dunbar et al. 2016 R. Soc. Open Sci., DOI 10.1098/rsos.150292, PMC4736918). UPDATE 2026-07-18: the neocortex-ratio derivation of the ~150 figure is now challenged in the corpus (Lindenfors, Wartel & Lind 2021, work 124 / ext 619); contested flipped to true. Grade held replicated for the nested layer STRUCTURE and its comms-data replication, not for the precise number, whose derivation is contested; the precision statistics from the challenged regression (neocortex-predicted ~148, r-squared) have been removed from this parameter's baseline and value. layer_sizes is retained as a structure map (the structure is what survives the challenge). eea_value.outer_ceiling_approx marks ~150 as an approximate central tendency, not a hard interval or constant.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Layered personal networks scaling by about 3 hold up in modern network data, much of it from Dunbar's group, while the 150 derivation fails re-analysis (Lindenfors, Wartel and Lind 2021) and forager groups are fluid (Bird et al. 2019). Weight of evidence: the layering holds; the exact layer sizes and the 150 ceiling are disputed, so treat them as approximate.*
 
 #### Lifetime known-individual ceiling (~1,000)
 `EEA-SOC-02 · Social structure` - **tested once** · **CONTESTED**
@@ -54,7 +52,7 @@ Earlier grading notes (rubric v1, kept for the record): This is the one social_s
 
 **EEA value** (illustrative, not constants):
 
-  - note: The ~1000+ lifetime figure is now FULL-TEXT-VERIFIED against its primary, Hill et al. 2014 PLoS ONE (added to Cor 2026-06-09): a forager 'social universe of about a thousand individuals'; lifetime pool of individually-known interactants 'clearly more than 1,000'. It remains a SINGLE-study, model-based estimate on two forager populations (Ache, Hadza) plus a cited San corroboration - illustrative, not a constant. The ~150 concurrent ceiling and nested 5/15/50/150 layers are separately full-text-grounded/replicated (SOC-01).
+  - note: Hill et al. 2014 (Ache, Hadza; ext 606, 608): a 'social universe of about a thousand individuals'; a lifetime pool 'clearly more than 1,000'. One model-based study in two populations. For the ~150 ceiling and the 5/15/50/150 layers, see EEA-SOC-01.
   - active_network_layers: [5, 15, 50, 150]
   - concurrent_active_network_ceiling: 150
   - lifetime_distinct_known_individuals: ~1000+
@@ -74,9 +72,7 @@ Earlier grading notes (rubric v1, kept for the record): This is the one social_s
 - ext#508 · tested once · challenging: "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%."
 - (+4 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.
-
-Earlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09: the defining ~1,000 lifetime-known-individual figure is now full-text-verified against its actual primary, Hill et al. 2014 PLoS ONE (work added this pass; ext H1-H3) - 'social universe of about a thousand individuals' and a lifetime pool 'clearly more than 1,000', which Hill explicitly contrasts with the ~150 'Dunbar number' (attributed to primate brain/group-size regressions). This replaces the prior web/recall, full-text-pending sourcing. Grade set to 'theoretical' (the EEA-mismatch floor): it is a SINGLE study with model-based estimates (yearly interaction rates x life tables, Table S16) on two forager populations, not a multi-study replicated convergence, and the 'lifetime roster conserved while modern stranger-exposure explodes' framing is a mismatch interpretation (capped at theoretical per the hard rule). contested=true retained: EEA-representativeness of Ache/Hadza is genuinely debated and the figure is a single-population model estimate - treat ~1,000 as illustrative. The adjacent ~150 concurrent ceiling / 5-15-50-150 layers remain separately replicated under SOC-01.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.*
 
 #### Band / camp size (a few dozen adults; ~25-50)
 `EEA-SOC-03 · Social structure` - **tested many times** · **CONTESTED**
@@ -86,7 +82,7 @@ Earlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09: the
 **EEA value** (illustrative, not constants):
 
   - units: co-resident adults in a single band / overnight camp
-  - source_status: Full-text-grounded values are the Dunbar layer magnitudes: band ~35 (ext 490, Dunbar 1998) and overnight camp ~50 (ext 404, Dunbar 2010). The 'reported_mean_adults_unverified' 28.2 and the 25-50 spread come from Hill et al. 2011 but are abstract/web-sourced and full-text-PENDING (R2 not satisfied); they carry NO extraction link and must not be treated as established.
+  - source_status: Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). The mean of 28.2 adults across 32 societies is attributed to Hill et al. 2011 (work 172); Cor's extraction from that work (ext 683) covers relatedness and does not carry the figure.
   - adult_range_low: 25
   - adult_range_high: 50
   - dunbar_band_layer: 35
@@ -105,14 +101,12 @@ Earlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09: the
 - ext#404 · tested many times · supporting: "The innermost group consists of about three to five people."
 - ext#603 · tested once · primary: "The Hadza live in temporary camps that average about 30 individuals."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people of all ages) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide and how typical small mobile bands were is debated.
-
-Earlier grading notes (rubric v1, kept for the record): Camp ~30 (range 25-50) now grounded in Smith et al. 2018 full text ("average about 30 individuals"); single Hadza population, cross-society range (Hill 2011 mean 28.2) still contested. contested=true.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people of all ages) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide and how typical small mobile bands were is debated.*
 
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
 
-**EEA baseline.** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (illustratively under ~10%), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
+**EEA baseline.** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
 
 **EEA value** (illustrative, not constants):
 
@@ -133,9 +127,7 @@ Earlier grading notes (rubric v1, kept for the record): Camp ~30 (range 25-50) n
 - ext#601 · tested many times · supporting: "first-order relatives make up less than 10% of residential camps"
 - ext#605 · tested once · primary: "Relatedness within camps is low with primary kin comprising, on average, 1.43 and 1.93 of men and women's campmates respectively."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Low relatedness within camps comes from a 32-society co-residence census (Hill et al. 2011) and is repeated by separate teams in Hadza, Agta and BaYaka (Apicella et al. 2012; Dyble et al. 2015); the under-10-percent primary-kin figure is Hadza-anchored.
-
-Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedness now grounded in two full-text primaries (Apicella 2012: "first-order relatives make up less than 10% of residential camps"; Smith 2018: primary kin 1.43/1.93 per camp). Both single-population / partly restating Hill 2011; kept thin.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Low relatedness within camps comes from a 32-society co-residence census (Hill et al. 2011) and is repeated by separate teams in Hadza, Agta and BaYaka (Apicella et al. 2012; Dyble et al. 2015); the under-10-percent primary-kin figure is Hadza-anchored.*
 
 #### Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)
 `EEA-SOC-05 · Social structure` - **tested once**
@@ -148,7 +140,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
   - not_yet_in_cor: False
   - preprint_v1_proportion: 0.121
   - preprint_v2_proportion: 0.219
-  - repeated_campmates_status: UNVERIFIED: the published version was not read (publisher copy behind a bot check, 2026-11-04). The two preprint versions disagree because they define the measure differently: bioRxiv 313064v1 reports 12.1% (people lived with at both waves divided by all unique people lived with at either wave); v2 reports 21.9% (share of campmates at one wave still living with the person at the next). Waves are 1 to 3 years apart, so neither is an annual rate. Use no number until the published text is read.
+  - repeated_campmates_status: UNVERIFIED: the published Current Biology text has not been read. The two preprint versions disagree because they define the measure differently: bioRxiv 313064v1 reports 12.1% (people lived with at both waves divided by all unique people lived with at either wave); v2 reports 21.9% (share of campmates at one wave still living with the person at the next). Waves are 1 to 3 years apart, so neither is an annual rate.
   - repeated_campmates_proportion: None
   - camp_relocation_interval_weeks: [4, 8]
 
@@ -165,7 +157,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 - ext#602 · tested once · primary: "Across the three intervals, the mean proportion of repeated campmates was 12.1%."
 - ext#604 · tested once · supporting: "Every 4-8 weeks entire camps shift location usually in response to resource availability."
 
-*Confidence note: Smith et al. 2018 (Hadza). Corrected 2026-11-04: the earlier 12.1% (v1 preprint) and 21.9% (v2 preprint) are both real and use different definitions; the published Current Biology figure is unverified, and 'annual turnover' was dropped because the waves are 1 to 3 years apart. Single Hadza population; kept thin.*
+*Confidence note: Smith et al. 2018 (Hadza; ext 602). The preprint figures (12.1% in v1, 21.9% in v2) use different definitions, and the published figure has not been read. Survey waves are 1 to 3 years apart, so neither figure is an annual rate. Single Hadza population.*
 
 #### Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity; kinship not main glue)
 `EEA-SOC-06 · Social structure` - **tested once**
@@ -176,7 +168,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 
   - homophily_traits: ["age", "height", "weight", "body_fat", "handgrip_strength"]
   - kinship_is_primary_glue: False
-  - reciprocity_naming_odds_multiplier: {"ci_95": [37.6, 51.4], "source": "Apicella et al 2012", "population": "Hadza", "illustrative": true, "point_estimate": 44.2}
+  - reciprocity_naming_odds_multiplier: {"ci_95": [37.6, 51.4], "source": "Apicella et al 2012", "population": "Hadza", "point_estimate": 44.2}
   - cooperator_assortment_degrees_of_separation: 2
 
 **Modern default.** Group membership is overwhelmingly assigned rather than self-assorted: workplaces, school classes, residential buildings, and algorithmically-curated feeds place you among people you did not choose and who did not choose you. Where modern matching exists (dating apps, professional networks, recommender feeds), the optimization target is engagement, novelty, or proximity-of-the-moment - not durable mutual reciprocity, demonstrated cooperativeness, or transitive trust within a personally-known group. The ancestral feedback loop (you preferentially co-reside with people who reciprocate your investment and who others vouch for, observed directly over time) is largely absent; assortment on cooperation is replaced by assortment on platform metrics or institutional convenience.
@@ -200,8 +192,8 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 
 **EEA value** (illustrative, not constants):
 
-  - _note: All numeric values are ILLUSTRATIVE and full-text-PENDING in Cor; NO extraction id is cited for any of them. The ~27-yr co-survival ceiling and the hxaro figures (childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) are attributed to Wiessner 2002 EHB 23:407-436, which is NOT in Cor and whose full text could NOT be obtained (retrieval is_fulltext=false, zero verbatim quotes; snippet figures rejected per R2). For turnover: no number is used; see campmate_turnover_status. Camps shift every ~4-8 weeks (Smith et al. 2018, core work 116).
-  - campmate_turnover_status: UNVERIFIED: see EEA-SOC-05. Smith et al. 2018 (Hadza; in Cor as core work 116) preprint v1 reports 12.1% repeated campmates and v2 reports 21.9%, under different definitions; survey waves are 1 to 3 years apart, so neither is an annual rate; the published figure was not read. Use no turnover number until it is.
+  - _note: The 200 km hxaro range and about 15 partners per adult come from Wiessner & Huang 2022 (ext 752; Ju/'hoansi, 1974). The ~27-year co-survival figure, the ~18% co-resident figure, and childhood onset and inheritance are attributed to Wiessner 2002, which is not in Cor and has not been read. For turnover: no number is used; see campmate_turnover_status. Camps shift every ~4-8 weeks (Smith et al. 2018, core work 116).
+  - campmate_turnover_status: UNVERIFIED: see EEA-SOC-05. Smith et al. 2018 (Hadza; in Cor as core work 116) preprint v1 reports 12.1% repeated campmates and v2 reports 21.9%, under different definitions; survey waves are 1 to 3 years apart, so neither is an annual rate; the published figure was not read.
   - camp_reshuffle_interval_weeks: [4, 8]
   - hxaro_partner_max_distance_km: 200
   - co_survival_ceiling_years_approx: 27
@@ -224,7 +216,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 - ext#479 · argued, not yet tested · supporting: Trivers identifies conditions maximizing the chance reciprocal altruism will be selected for: (1) many altruistic situations in the lifetime of the altruists, (2) a given altruist repeatedly interacts with the same small set of individuals, and (3) pairs of altruists are exposed
 - (+1 more linked extraction(s))
 
-*Confidence note: Mixed and honestly LOW. The headline EEA numbers for this parameter (~27-yr co-survival ceiling; hxaro childhood-onset, lifelong, inherited, <=200 km, ~18% co-resident) come from Wiessner 2002 (Evolution and Human Behavior 23:407-436, DOI 10.1016/S1090-5138(02)00096-X), which is NOT in Cor and whose full text could not be legitimately obtained (paywalled Elsevier; retrieval returned is_fulltext=false with zero verbatim quotes; snippet figures were rejected per R2). The reshuffle figures trace to Smith et al. 2018 (Hadza; in Cor as core work 116, extractions 602-605; camps shift every ~4-8 weeks). Its repeated-campmates proportion is unverified (preprint v1 12.1%, v2 21.9%, different definitions, waves 1 to 3 years apart, published figure unread), so no turnover number is used here. So NO extraction id is cited for any specific ancestral number here; those values are flagged ILLUSTRATIVE / full-text-pending. The evidence that IS cited grounds only the general durability-and-maintenance logic and the modern-side decay, from genuine full-text-backed Cor extractions: 509 and 510 (Dunbar 2016, rsos.150292 - face-to-face contact required to prevent friendship decay; media only slows decay), 503 and 505 (Sutcliffe, Dunbar, Binder & Arrow 2012 - maintenance cost is time-linear; trust is a function of time invested), and 479 (Trivers 1971 - reciprocal altruism requires long lifetime, low dispersal, repeated interaction with the same small set; author_quote intentionally absent/None per its remediation, so no verbatim quote is attributed). Grade held at 'thin' because the parameter-defining ancestral figures are unverified and the cited extractions address the why/modern-half rather than the EEA co-survival/hxaro specifics. Not 'replicated' despite some cited extractions being individually replicated, because they do not converge on this parameter's ancestral claims. Turnover figure corrected 2026-11-04 (tier-2 quality flag, batch 5).*
+*Confidence note: Grade: tested once. Hxaro range and partner count: Wiessner & Huang 2022 (ext 752), Ju/'hoansi only. Co-survival and co-resident figures: Wiessner 2002, not in Cor and unread. Camps move every 4 to 8 weeks (Smith et al. 2018, ext 604, Hadza), and no turnover number is used (see EEA-SOC-05). Modern side: Dunbar proposes that friendships decay without face-to-face meetings and that social media only slow the decay (Dunbar 2016, ext 509, 510; cross-sectional data). In the model of Sutcliffe et al. 2012, the time cost of keeping relationships grows in line with their number, and trust grows with time invested (ext 503, 505; theoretical). Reciprocity is favoured by a long lifetime, low dispersal and repeated interaction with the same few individuals (Trivers 1971, ext 479).*
 
 #### Novel-stranger frequency (rare, salient, often a threat)
 `EEA-SOC-08 · Social structure` - **argued, not yet tested**
@@ -247,7 +239,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 - ext#673 · contested · supporting: "the estimated level of mortality in intergroup conflicts would have had substantial effects, allowing the proliferation of group-beneficial behaviors that were quite costly to the individual altruist"
 - ext#674 · contested · challenging: "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman."
 
-*Confidence note: Pure inference: no Cor extraction and no full-text retrieval quote directly measures or states an ancestral novel-stranger frequency, so eea_value is null and the grade is theoretical. The premise the inference rests on - a bounded, personally-known reference pool capped near ~150 and nested in ~5/15/50/150 layers - IS full-text-grounded via Dunbar's social-brain work: extraction 490 (work 69, DOI 10.1002/(SICI)1520-6505(1998)6:5<178::AID-EVAN5>3.0.CO;2-8; R1 satisfied) on familiarity-based layer clustering, and extraction 485 (work 68, DOI 10.1016/0047-2484(92)90081-J; R1 satisfied) on the neocortical limit to simultaneously-monitorable relationships. Both are cited as SUPPORTING (premise), not primary, because they bound the known pool but do not themselves count strangers. The complementary M1 claim that unfamiliarity functions as an innate danger cue is most directly stated by Bowlby (Attachment and Loss Vol. 2), but that work (id 98) has no DOI/PMID, is not in the physical collection, and its extraction (574) records the book was not directly accessed and carries no verbatim quote (author_quote=None) - it fails R1 and R2 and is deliberately NOT cited; the stranger-as-threat link is full-text-pending. Tomasello extractions 238/250 on cooperation with 'in-group strangers' were considered and rejected as cutting against, not supporting, the rare-stranger-as-threat framing. Not contested as an inference within the framework; it is simply unmeasured. ADDED 2026-11-02: core extraction 383 (Hrdy 2009: lethal raids by males from neighboring groups are a major source of chimpanzee mortality) linked as supporting evidence for the stranger-as-threat side; it is cross-species and does not measure ancestral human stranger frequency, so the grade stays theoretical.*
+*Confidence note: Grade: argued, not yet tested. No study measures how often ancestral humans met strangers. The premise is a bounded pool of personally known people in nested layers of about 5, 12, 35 and 150 (Dunbar 1998, ext 490), with a limit on how many relationships a person can monitor at once (Dunbar 1992, ext 485). For the stranger-as-threat side: in chimpanzees, lethal raids by males from neighbouring groups are a major cause of death (Hrdy 2009, ext 383), and across 18 communities most killings were by males and of members of other communities (Wilson et al. 2014, ext 671). This is animal evidence. Ambush killing between groups is documented in several nomadic forager societies, and how often it happened is disputed (Wrangham & Glowacki 2012, ext 672; Bowles 2009, ext 673). Infants show wariness toward an approaching stranger in lab studies (Waters et al. 1975, ext 676). Against it: in 21 mobile forager bands most recorded killings were homicides, a few were feuds and a minority were war (Fry & Söderberg 2013, ext 674), and Tomasello describes cooperation with in-group strangers (Tomasello 2014, ext 238, 250). Bowlby's claim that strangers are an innate fear cue (ext 574) comes from a book that was not read directly and is not linked as evidence.*
 
 #### Behavioral observability / reputation visibility
 `EEA-SOC-09 · Social structure` - **argued, not yet tested**
@@ -277,7 +269,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 - ext#509 · argued, not yet tested · challenging: "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances."
 - (+2 more linked extraction(s))
 
-*Confidence note: EEA-baseline side is full-text-grounded and convergent across two works in Cor's physical collection: Boehm 1999 'Hierarchy in the Forest' (ext 373 'the band keeps a dossier on every individual, noting positive and negative points'; ext 375 gossip/ridicule/ostracism as enforcement; both graded 'replicated' in Cor) and Tomasello 2014 (ext 239, bidirectional evaluation of collaborative partners; verbatim full-text quote, M11/M5). The ~150 reputational reference-group ceiling is full-text-grounded in Cor via the Dunbar works. Modern-decay side is grounded in Dunbar 2016 (Royal Society Open Science 3:150292): ext 508 (only 27.6% of Facebook friends genuine, modal 0-10%) and ext 509 (face-to-face required to prevent friendship decay through the layers), both 'replicated'. Despite the individual extractions being 'replicated'-graded, the PARAMETER is graded 'theoretical' because the specific EEA-SOC-09 claim (ancestral observability near-total/embodied/high-accountability vs modern visibility mediated/gameable/low-accountability) is an interpretive mismatch synthesis, not a single replicated measured quantity, and the 'near-total observability' baseline is qualitative. Deliberately EXCLUDED: ext 506/507 (about layer SIZES and concurrent-interaction limits, not observability) and ext 480 (QUARANTINED, snippet-sourced). The camp-shuffle/hxaro specifics and the Apicella reciprocity figures failed full-text retrieval (R2) or belong to other parameters and are NOT linked here. contested=false: reputational monitoring in small-scale societies is ethnographically well-established and uncontested; only the modern-mismatch framing is interpretive, which the 'theoretical' grade already encodes.*
+*Confidence note: Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.*
 
 #### Leadership and dominance (no rulers; prestige by consent; exit available)
 `EEA-SOC-10 · Social structure` - **contested** · **CONTESTED**
@@ -299,11 +291,7 @@ Earlier grading notes (rubric v1, kept for the record): Low within-camp relatedn
 - ext#848 · tested once · primary: "Individuals who hunt a lot will become a target for teasing and mockery, even cursing, if people perceive that the group is eating their production too often."
 - (+2 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993; Garfield, von Rueden and Hagen 2019), while Singh and Glowacki 2022 find many non-agricultural peoples sedentary and stratified. Weight of evidence: the description holds for mobile foragers; how representative they were of the ancestral past is disputed.
-
-Earlier grading notes (rubric v1, kept for the record): Graded theoretical (created 2026-11-02). Core grounding: Boehm 1999, Hierarchy in the Forest, extractions 20 (egalitarianism as a reverse-dominance hierarchy), 21 (leveling coalitions; consensual decisions; ridicule, ostracism and execution as enforcement), 372 (the whole adult community acts against a deviant) and 374 (dominance tendencies are innate and must be actively suppressed). Background grounding: Woodburn 1982, 'Egalitarian societies', Man 17(3):431-451, doi:10.2307/2801707 (in immediate-return societies people move between camps without economic penalty, and this mobility is a levelling mechanism; he names it alongside every man's access to lethal weapons). The baseline describes mobile, immediate-return foragers; Woodburn contrasts them with delayed-return societies, which show more inequality, so it is no claim about all foragers. Ext 21's 'adult heads of households' is a tribal framing; women's say varied across forager societies. No measured eea_value. COUNTERPOINT ADDED 2026-11-02, contested set true: Singh, M. & Glowacki, L. (2022) Human social organization during the Late Pleistocene: beyond the nomadic-egalitarian model, Evolution and Human Behavior 43:418-431, doi:10.1016/j.evolhumbehav.2022.07.003, argue that across 34 regions many non-agricultural peoples were sedentary, unequal and politically stratified, so nomadic egalitarian bands are a poor default for the Late Pleistocene. That challenges this parameter's use of mobile bands as the ancestral baseline. Grade stays theoretical.
-
-Added 11 Nov 2026 (mating/status dispatch), grade unchanged: Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848, now read in full). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993; Garfield, von Rueden and Hagen 2019), while Singh and Glowacki 2022 find many non-agricultural peoples sedentary and stratified. Weight of evidence: the description holds for mobile foragers; how representative they were of the ancestral past is disputed. The baseline describes mobile, immediate-return foragers (Woodburn 1982, ext 677). Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.*
 
 #### Status reference group (ranked against people who know you)
 `EEA-SOC-11 · Social structure` - **tested once** · **CONTESTED**
@@ -377,15 +365,16 @@ Added 11 Nov 2026 (mating/status dispatch), grade unchanged: Mbendjele BaYaka mo
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
 
-**Evidence (5 links):**
+**Evidence (7 links):**
 
 - ext#731 · tested many times · primary: "Contra the egalitarianism hypothesis, the effect of status on men’s RS does not differ significantly by subsistence type"
 - ext#1033 · tested many times · primary: "The effect of status on number of surviving offspring, the RS measure that most closely corresponds to biological fitness, is roughly a third smaller in monogamous populations"
 - ext#623 · tested once · supporting: "Prestigious but not dominant men marry wives who first give birth at earlier ages, which multivariate analysis suggests is the strongest pathway between status and fitness in this population."
 - ext#410 · argued, not yet tested · supporting: "You are engaged in maladaptive behavior right now."
 - ext#892 · tested once · challenging: "Among nonelders, raiding was not associated with an increased number of wives or children."
+- (+2 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Counter-evidence: among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2018, doi:10.1007/s12110-018-9334-2, cited in ext 731, not yet a Cor work); among the Waorani and Nyangatom, frequent raiders did not have more wives or children (ext 897, 892). The modern reversal is argued (ext 410), not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Counter-evidence: among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583; 44 adults, and the authors calculate that about 200 are needed to detect the average forager effect, ext 1584); among the Waorani and Nyangatom, frequent raiders did not have more wives or children (ext 897, 892). The modern reversal is argued (ext 410), not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.*
 
 #### Wealth gaps (low to moderate in foragers)
 `EEA-SOC-14 · Social structure` - **tested many times**
@@ -517,6 +506,286 @@ Added 11 Nov 2026 (mating/status dispatch), grade unchanged: Mbendjele BaYaka mo
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'us and them are drawn from alliance cues and can be redrawn' (Kurzban et al. 2001; Voorspoels et al. 2014 preregistered replication; Pietraszewski et al. 2014; Balliet et al. 2014 meta-analysis). Every sample is modern, mostly students; which cues foragers used is argued (Kurzban et al. 2001), not tested. Modern side: US affective polarization tested many times (Iyengar et al. 2019) and not general across countries (ext 682); out-group sharing tested once (Rathje et al. 2021); moral contagion contested; exposure to the other side moved US Republicans further right in one field experiment (Bail et al. 2018), measured as ideology. Background-tier evidence cited (abstract or book only): ext 1055, 1056, 1057, 682, 1066, 679, 681, 890, 798.*
 
+#### Food shared and eaten in company
+`EEA-SOC-20 · Social structure` - **tested once**
+
+**EEA baseline.** In every forager group with a record, food moved between households before it was eaten. A review of 45 small-scale groups reports food transfers beyond the household throughout, and in all 10 groups where it was checked big game reached more families than small game. Among the Hadza of Tanzania at least 90% of the meat of large animals left the hunter's household. Among the Aka of the Congo a cook and her children ate about 20% of the stew she made, about 75% of the stew a woman ate came from other women's pots, cooking and serving were done in plain view, and the men usually ate together at the men's shelter. Among the Ju/'hoansi of Botswana each family ate the evening meal at its own fire and people then gathered at shared fires. Among the Great Andamanese game was roasted at a public cooking place and each family ate at its own hut. Batek camps in Malaysia, about 34 people, shared food at once, stored none and ate almost nothing out of camp. The meal was mostly a family meal, eaten in sight and reach of the rest of the camp. No record shows a whole camp eating as one table every day. Sharing with the whole band was the exception and went with bands under 40 to 50 people.
+
+**EEA value** (illustrative, not constants):
+
+  - batek_camp_size: 34.2
+  - whole_band_sharing: bands under 40 to 50 people
+  - hadza_large_game_leaving_hunters_household: at least 90% (20 carcasses)
+  - aka_share_of_own_stew_eaten_by_cooks_family: about 20%
+  - aka_share_of_stew_eaten_that_other_women_cooked: about 75%
+
+**Modern default.** In the United States 26% of adults ate every meal of the previous day alone in 2023, more than half again above the 2003 level; among people living alone it was about 70%. In a UK poll of 2,000 adults nearly 70% had never had a meal with a neighbour. Shared meals vary widely between countries today: 11.7 lunches and dinners a week with someone known in Senegal, 2.7 in Bangladesh and Estonia. Food now comes from a shop, and a household's food does not pass through other households.
+
+**The gap.** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
+
+**Evidence (15 links):**
+
+- ext#1586 · tested once · primary: "If it is assumed that the amount of stew remaining in the pot after sharing is same as a portion served to another woman, only 20% of stew cooked by the woman was eaten by her and her children. As much as 75% of the stew the woman ate was cooked by the other women."
+- ext#1592 · contested · primary: "At least 90% (usually more) of the meat of large prey goes outside the hunter's household."
+- ext#1577 · tested many times · primary: "Many groups, however, do not engage in bandwide sharing of meat items, and instead restrict initial sharing to the task group or extended family, with only subsequent sharing with other group members"
+- ext#1589 · tested once · supporting: "In the late afternoon, families gathered at their own fires for the evening meal. After dinner and dark, the harsher mood of the day mellowed and people who were in the mood gathered around single fires to talk, make music, or dance."
+- ext#1597 · tested once · supporting: "The meal is a family one, partaken by a man and his wife and children. The bachelors cook and eat their own meal, and the unmarried women also eat by themselves."
+- (+10 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Counter-evidence kept: sharing also followed pressure and was unequal. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); nobody has counted how often (ext 1581), and among the Aka people avoided asking (ext 1588). Background-tier evidence cited (abstract or book only): ext 1580, 709, 828.*
+
+
+### Mating & reproduction
+
+#### Who picks the partner (kin-arranged marriage)
+`EEA-MATE-01 · Mating & reproduction` - **tested once**
+
+**EEA baseline.** In most forager societies parents or close kin arranged marriages. In Apostolou's coding of 190 forager societies, arrangement by parents or close kin was the main way to marry in 85%, and marriage involved an exchange between the two families (brideservice, brideprice) in 80%. A phylogenetic reconstruction puts arranged marriage at least as far back as the migrations out of Africa. Courtship also existed: 3 of the 8 African forager societies in the sample marry by courtship, so the oldest African pattern is open. How much say the young people had is not coded in any source read; Hadza men and women state clear preferences for a spouse.
+
+**EEA value** (illustrative, not constants):
+
+  - arranged_primary_mode: 85% of 190 forager societies (Apostolou coding, reported by Walker et al. 2011)
+  - exchange_between_families: 80%
+  - african_societies_courtship: 3 of 8
+
+**Modern default.** Individuals choose, and increasingly choose strangers. Among US heterosexual couples, 39% of those who met in 2017 met online, against 2% in 1995; meeting through friends fell from 33% to 20% and through family from 15% to 7%. In 2017, 89% of couples who met online had no personal connection before.
+
+**The gap.** Partner choice moved from families and kin, who knew both people, to individuals searching alone among strangers. The people who once filtered and vouched for a partner are now mostly out of the decision.
+
+**Serves mechanisms:** M11 - Cooperation / Alliance, M14 - Reproductive Motivation
+
+**Evidence (9 links):**
+
+- ext#996 · tested once · primary: "arrangement of marriage by parents or close kin is the primary mode of marriage in 85% of the sample; brideservice, brideprice, or some type of exchange between families is found in 80% of the sample; and less than 20% of men are married polygynously in 87% of the sample"
+- ext#691 · argued, not yet tested · supporting: "Arranged marriages are inferred to go back at least to first modern human migrations out of Africa. Reconstructions are equivocal on whether or not earlier human marriages were arranged because several African hunter-gatherers have courtship marriages"
+- ext#1011 · tested once · primary: "We identify 2013 as the approximate year when meeting online surpassed meeting through friends for heterosexual couples in the United States."
+- ext#1012 · tested once · supporting: "Eighty-nine percent of couples who met online from the 2017 survey were previously strangers, meaning there was no personal connection between the respondent and partner before they met online."
+- ext#1732 · tested once · supporting: "While individuals typically have some autonomy in choosing marital partners, parents often play a role in arranging suitable matches. The Tsimane prefer cross-cousin marriage (i.e., marrying the child of one's mother's brother or father's sister), and opposite-sexed siblings will often enter into a system of arranging marriages between their respective children."
+- (+4 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Background-tier evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Counter-evidence: Hadza marriages are typically not arranged (ext 1735). No source read codes a part for the camp beyond kin. On the modern side the one tested prediction did not hold: US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Apostolou 2007 is still read in abstract only (ext 690, 1736).*
+
+#### The pool of possible partners
+`EEA-MATE-02 · Mating & reproduction` - **tested once**
+
+**EEA baseline.** A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, is about 50 km across and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.
+
+**EEA value** (illustrative, not constants):
+
+  - lifetime_known_pool: about 1,000 (ext 606-608)
+  - aka_people_in_exploration_range: about 700 (ext 841)
+
+**Modern default.** Online, the pool is effectively unbounded and made of strangers. On one large US dating site, attention was very unequal: most users got a handful of first messages at most while a few got hundreds (one woman in New York got 1,504 in a month). Men and women mostly wrote to people about 25% more desirable than themselves, and men writing to more desirable women got replies at most 21% of the time.
+
+**The gap.** The pool grew from hundreds of known people to an open-ended list of strangers judged from a profile. Attention concentrates on a few, and most people's approaches go unanswered.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
+
+**Evidence (6 links):**
+
+- ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
+- ext#608 · tested once · supporting: "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions"
+- ext#1013 · tested once · primary: "most people receive a handful of messages at most, but a small fraction of the population receive far more"
+- ext#1014 · tested once · primary: "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures"
+- ext#1012 · tested once · supporting: "Eighty-nine percent of couples who met online from the 2017 survey were previously strangers, meaning there was no personal connection between the respondent and partner before they met online."
+- (+1 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Ancestral value: one Aka ethnography (Hewlett 2005, ext 841) and one model-based estimate in two populations (Hill et al. 2014). Modern side: one site, four US cities, one month (Bruch and Newman 2018). No peer-reviewed data on how unequal likes or matches are on swipe apps was found. Background-tier evidence cited (abstract or book only): ext 841. Added 19 Nov 2026. That a partner was known to the group beforehand is inferred from the size of the pool; no study records it, so that step is argued, not yet tested. Distance between spouses grows as population thins, among foragers and among farmers (MacDonald and Hewlett 1999, ext 1744, abstract only). Among the Tsimane the preferred spouse is known kin (ext 1732).*
+
+#### Marriage system (mostly monogamous, some polygyny, serial pairs)
+`EEA-MATE-03 · Mating & reproduction` - **tested many times**
+
+**EEA baseline.** Most societies in the ethnographic record permitted a man more than one wife (about 85%), but in forager societies most marriages were monogamous. In 87% of 190 forager societies fewer than 20% of men were married polygynously; among tropical African foragers polygyny runs from 3% to 20%; among Savanna Pume foragers 11% of men and 20% of women are ever married polygynously. Men contributing more food went with more monogamy. Serial pairing was common: among the !Kung and Ache, men and women had children with more than one partner.
+
+**EEA value** (illustrative, not constants):
+
+  - pume_ever_polygynous: men 11%, women 20%
+  - forager_polygyny_practised: 3% to 20% (tropical African foragers)
+  - societies_permitting_polygyny: about 85%
+
+**Modern default.** Law imposes one spouse at a time in most states (Japan from 1880, China 1953, India 1955, Nepal 1963). Serial pairing through divorce and new partners continues.
+
+**The gap.** Small gap. Forager practice was already mostly one spouse at a time with some polygyny and remarriage; modern law removes the polygynous minority. Forager marriages often ended: across ten forager and forager-farmer populations reported divorce rates run from 18% (Agta) to nearly every couple (north Alaskan Inuit), and the reviewers put the general level at a quarter to a third of marriages or more, with remarriage common (ext 1728). The rates were counted differently in each population, so they cannot be averaged or set against a modern rate.
+
+**Serves mechanisms:** M14 - Reproductive Motivation
+
+**Evidence (8 links):**
+
+- ext#996 · tested once · primary: "arrangement of marriage by parents or close kin is the primary mode of marriage in 85% of the sample; brideservice, brideprice, or some type of exchange between families is found in 80% of the sample; and less than 20% of men are married polygynously in 87% of the sample"
+- ext#998 · tested once · primary: "For example, among tropical African foragers, the rates of polygyny range from 3 to 20 per cent"
+- ext#769 · tested once · supporting: "The anthropological record indicates that approximately 85 per cent of human societies have permitted men to have more than one wife (polygynous marriage)"
+- ext#1004 · tested once · primary: "among the Savanna Pumé (South American huntergatherers) while polygyny occurs (20% of women and 11% of men are polygynously married at some point during their lives), most marriages are monogamous, consistent with other foraging groups"
+- ext#1728 · tested many times · primary: "Generally, at least a quarter to a third of hunter-gatherer marriages end in divorce, which means many children from these marriages end up in non-natal family configurations. Divorce is often informal in hunter-gatherer groups and generally consists of one spouse simply moving out of the house."
+- (+3 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'mostly monogamous with some polygyny in foragers' (Apostolou coding via Walker et al. 2011; Pume demography, Schacht and Kramer 2019; African forager ethnographies via Henrich et al. 2012; Marlowe 2003, ext 767). Any single number is one study. Keep 'permitted' (85% of societies) apart from 'practised' (a minority of forager marriages). Background-tier evidence cited (abstract or book only): ext 767, 768. Divorce and number of mates, added 19 Nov 2026: Hewlett et al. 2023 (ext 1728, 1729) and Winking and Gurven 2011 (ext 1730) compile the original demographic studies; main weakness: each team counted divorce differently.*
+
+#### Timing: puberty to first birth
+`EEA-MATE-04 · Mating & reproduction` - **tested many times**
+
+**EEA baseline.** Forager women had their first child at about 19 to 20: Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2. Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
+
+**EEA value** (illustrative, not constants):
+
+  - age_last_birth: 39.0
+  - menarche_range: 12.6 to 18.4 (22 societies)
+  - forager_age_first_birth: 18.8 to 20.5 (mean 19.7, Ache/Hiwi/!Kung)
+  - menarche_to_first_birth_years: 4
+
+**Modern default.** US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.
+
+**The gap.** The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.
+
+**Serves mechanisms:** M14 - Reproductive Motivation
+
+**Evidence (6 links):**
+
+- ext#1000 · tested many times · primary: "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees"
+- ext#844 · tested many times · primary: "Average age at first reproduction from four modern human foraging groups: Ache (19.5 years) Hill & Hurtado (1996) ; !Kung (19.2 years) Howell (1979) ; Hadza (18.77 years), Blurton Jones (unpublished data); Hiwi (20.5 years) Kaplan et al. (2000) ."
+- ext#1006 · tested many times · primary: "In these societies, the age of menarche ranged from 12.6-18.4, and the age at growth spurt takeoff ranged from 10-13.5 years."
+- ext#1016 · tested once · primary: "The median age at menarche decreased from 12.1 in 1995 to 11.9 in 2013"
+- ext#1018 · tested many times · primary: "the average age at first birth in 2006 ranged from 25.0 years in the United States to 29.4 years in Switzerland"
+- (+1 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times. Forager first-birth ages from separate field teams (Kaplan et al. 2000; Robson and Wood 2008, ext 844; Page et al. 2025, ext 845); menarche range from Hochberg et al. 2011 (22 societies, mixed subsistence). Modern first birth from national birth registration. The 'about fifteen years' gap is arithmetic from these figures. The long-run US menarche trend is contested (Euling et al. 2008 panel split); the 1995 to 2017 drop is small (12.1 to 11.9). Gluckman and Hanson's maturity argument is theoretical. Background-tier evidence cited (abstract or book only): ext 845, 852, 1017, 1008.*
+
+#### Number of children and spacing
+`EEA-MATE-05 · Mating & reproduction` - **tested many times**
+
+**EEA baseline.** Forager women who lived through their reproductive years had about six births: Ache 8.2, Agta 6.9, Hadza 6.2, Hiwi 5.5, Ju/'hoansi 4.3; the mean across 75 natural-fertility societies was 5.98. Births were spaced about 3 to 4 years apart (hunter-gatherer average 3.7 years). About a third of forager women survived to complete their fertility. With pregnancy and long breastfeeding, menstrual cycles were few: among the Dogon, natural-fertility farmers, a woman had about 100 menstruations in her life.
+
+**EEA value** (illustrative, not constants):
+
+  - forager_tfr: 4.3 to 8.2 (mean about 6)
+  - dogon_lifetime_menses: 100
+  - interbirth_interval_years: 3.7
+
+**Modern default.** World births per woman fell from 4.84 in 1950 to 2.23 in 2021, and fell in every country. Among European women born in 1960, 10% (Greece, Spain) to 20% (Germany) had no child, a level also seen in women born around 1900. A US woman with three births has about three times the Dogon count of menstruations.
+
+**The gap.** Fewer children, fewer pregnancies and far more menstrual cycles. Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M9 - Care / Alloparenting
+
+**Evidence (5 links):**
+
+- ext#1001 · tested many times · primary: "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4"
+- ext#1000 · tested many times · primary: "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees"
+- ext#851 · tested once · supporting: "very few chimpanzees survive to complete their potential TFR (10% of chimpanzees, compared to 33% of hunter-gatherers and 49% of non-foragers)"
+- ext#1020 · tested many times · primary: "global TFR more than halved"
+- ext#1021 · tested many times · primary: "In the former, childlessness started to rise again quickly, varying in the 1960 birth cohort from 10 per cent in Greece and Spain to 20 per cent in Germany"
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for about six births and 3 to 4 year spacing (Gurven and Davison 2019 life tables from five forager populations plus 75 societies; Kaplan et al. 2000). Lifetime menses is one non-forager population (Strassmann 1999, abstract only): thin. Modern TFR and childlessness from GBD 2021 and European census data. Background-tier evidence cited (abstract or book only): ext 846, 1007, 814, 832.*
+
+#### What gets a person chosen, and how unequal men are
+`EEA-MATE-06 · Mating & reproduction` - **tested many times** · **CONTESTED**
+
+**EEA baseline.** Among foragers, men who hunted better had more surviving children (Ache, Hadza, !Kung, Lamalera, Meriam), and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
+
+**EEA value** (illustrative, not constants):
+
+  - rs_variance_ratio_male_to_female: Aka 1.66, !Kung 1.77, Hadza 1.93, Ache 4.22 (Brown et al. 2009)
+
+**Modern default.** Stated preferences keep the same sex differences across 45 countries (14,399 people): men weight looks and youth more, women earning prospects and an older partner. On dating sites attention concentrates on a few. In the US, the share of men aged 18 to 24 with no sex in the past year rose from 18.9% (2000 to 2002) to 30.9% (2016 to 2018), and men with lower income and no full-time work were more often sexually inactive.
+
+**The gap.** Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
+
+**Evidence (9 links):**
+
+- ext#772 · tested once · supporting: "we find that men with low voice pitch have higher reproductive success and more children born to them. However, voice pitch in men does not predict child mortality"
+- ext#1002 · tested many times · primary: "When all populations of human beings are considered together, males exhibit higher mean variation in RS than females (one-sample t test, t17 = 3.82, p = 0.001)."
+- ext#1003 · tested once · challenging: "This variation between populations with regard to Bateman's first principle is inconsistent with the universal sex roles that Bateman envisaged"
+- ext#695 · tested many times · primary: "universal sex differences in preferences remains robust: Men, more than women, prefer attractive, young mates, and women, more than men, prefer older mates with financial prospects."
+- ext#999 · tested once · supporting: "However, inconsistent with biosocial role theory, our results provided little support for a relationship between sex differences in mate preferences and gender equality."
+- (+4 more linked extraction(s))
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times that good hunters and high-status men had more children (ext 770, ext 731) and that male variance in reproductive success is higher on average (Brown et al. 2009, 18 populations). Contested: the size of the sex gap, which varies with marriage system (Brown et al. 2009 challenge); whether stated preferences matter (Eastwick et al. 2014, ext 757); whether gender equality shrinks preference gaps (Zentner and Mitura 2012 for; Walter et al. 2020 finds it only for financial prospects and partner age). Modern sexual inactivity: one survey series (Ueda et al. 2020). Background-tier evidence cited (abstract or book only): ext 770, 771, 692, 694, 1009, 757, 805. Counter-evidence added 19 Nov 2026: among 44 Batek adults followed for 45 years, foraging return and sharing were unrelated to fertility and to surviving children (Kraft et al. 2019, ext 1583); the sample is far below the about 200 the authors say the average effect needs.*
+
+#### Rivals and comparison
+`EEA-MATE-07 · Mating & reproduction` - **argued, not yet tested**
+
+**EEA baseline.** A forager's rivals for a partner were the same-sex people of the camp and the regional network, a few hundred people seen in ordinary life. No study measures this directly; it follows from the size of the pool (EEA-MATE-02).
+
+**Modern default.** Media and feeds show a stream of the most attractive and successful people alive, edited. In an experiment, women who saw highly attractive women rated their own value as a marriage partner lower, and men who saw socially dominant men did the same. Across 77 studies, exposure to thin-ideal media images went with more body dissatisfaction in women (d -0.28).
+
+**The gap.** The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
+
+**Evidence (1 link):**
+
+- ext#1014 · tested once · supporting: "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures"
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017). Background-tier evidence cited (abstract or book only): ext 1022, 1023, 1029, 841.*
+
+#### Sexual stimuli (real people vs unlimited images)
+`EEA-MATE-08 · Mating & reproduction` - **contested** · **CONTESTED**
+
+**EEA baseline.** Sexual cues came from real people a forager knew and could meet. No study measures this directly.
+
+**Modern default.** Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.
+
+**The gap.** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration
+
+**Evidence (4 links):**
+
+- ext#1024 · tested once · primary: "most participants had viewed pornography within their lifetimes (n = 1,461), with just over half reporting some use in the past year (n = 1,056)"
+- ext#1025 · tested once · challenging: "such feelings were most strongly associated with male gender, younger age, greater religiousness, greater moral incongruence regarding pornography use, and greater use of pornography"
+- ext#644 · argued, not yet tested · supporting: "Sexual incentive stimuli activate sexual motivation and heighten the level of general arousal. The sexual motive may induce the individual to approach the incentive, and eventually to initiate sexual acts."
+- ext#645 · tested many times · supporting: "Thus, in rats and humans there is no doubt that testicular hormones, either directly or via aromatization, are in charge of the control of the long-term activity of the sexual central motive state."
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): contested, for the effects side. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Lower satisfaction in men: meta-analysis (Wright et al. 2017), mostly cross-sectional, direction not shown. Kenrick et al. 1989 failed replication (Balzarini et al. 2017). Felt addiction: moral incongruence account (Grubbs et al. 2019), entered as a challenge. Lean: use is common and goes with lower satisfaction in men; no tested effect on attraction or love. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.*
+
+#### Sex and conception coupled
+`EEA-MATE-09 · Mating & reproduction` - **tested many times**
+
+**EEA baseline.** For foragers, sex led to pregnancy unless breastfeeding or low energy suppressed ovulation. Birth spacing of 3 to 4 years came from breastfeeding and the energy cost of lactation (EEA-MATE-05).
+
+**Modern default.** Contraception separates sex from conception. In 2019, 47.7% of all women aged 15 to 49 worldwide used a modern method, 20.1 points more than in 1970, from 1.9% in South Sudan to 87.9% in Norway. In the US, the pill sped up the fall in marital fertility in the 1960s.
+
+**The gap.** Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
+
+**Serves mechanisms:** M14 - Reproductive Motivation
+
+**Evidence (3 links):**
+
+- ext#1031 · tested many times · primary: "Between 1970 and 2019, the global mCPR increased by 20·1 percentage points"
+- ext#1032 · tested once · supporting: "Without bans on the sales of contraception, the marital fertility rate would have been 8 percent lower in states with sales bans and 4 percent lower in the United States as a whole."
+- ext#1001 · tested many times · supporting: "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4"
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875, contested on detail). Background-tier evidence cited (abstract or book only): ext 875.*
+
+#### Paternity and affairs (rates vary between societies)
+`EEA-MATE-10 · Mating & reproduction` - **tested many times**
+
+**EEA baseline.** Rates of children fathered outside the pair vary a lot between societies. In genetic studies of mostly European-descent populations, and in the Dogon of Mali, the rate is about 1 to 2%; across 67 studies the rate for men confident of their paternity was 1.9%. Among Himba pastoralists in Namibia it was 48%, and the community knew which children these were. In 53 of 76 lowland South American societies with data, people believe a child can have more than one father. No genetic paternity rate for a forager population was found.
+
+**EEA value** (illustrative, not constants):
+
+  - himba: 48% (95% CI 32 to 66)
+  - partible_paternity_societies: 53 of 76 lowland South American
+  - nonpaternity_high_confidence_men: 1.9% (67 studies)
+
+**Modern default.** Modern Western samples give the same 1 to 2%. Paternity can now be tested genetically.
+
+**The gap.** No gap is shown. Cor has no forager genetic paternity rate to compare with, and the modern Western figures match the ones that exist. A page cannot claim that affairs are more or less common than in the past.
+
+**Serves mechanisms:** M14 - Reproductive Motivation, M9 - Care / Alloparenting
+
+**Evidence (4 links):**
+
+- ext#997 · tested many times · supporting: "genetic data from both contemporary and historical populations have consistently revealed very low rates of EPP (~1 to 2%)"
+- ext#1005 · tested many times · supporting: "studies employing genetic methods find that rates of non-paternity are low among humans (∼2%) when compared to those of socially monogamous birds (∼20%) and mammals (∼5%"
+- ext#776 · tested once · challenging: "Using a novel, double-blind method designed in collaboration with a community of Himba pastoralists, we find that the rate of EPP in this population is 48%, with 70% of couples having at least one EPP child"
+- ext#775 · tested once · supporting: "In this comparative study of 128 lowland South American societies, the prevalence of partible paternity beliefs may be as much as two times as common as biologically correct beliefs in singular paternity."
+
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for low rates in the populations sampled (Anderson 2006, abstract; Larmuseau et al. 2016, ext 804; syntheses cited by Scelza et al. 2020 and Schacht and Kramer 2019). Most samples are Western or clinical. The Himba 48% is one population (thin). Partible paternity beliefs: Walker et al. 2010 (ext 775). Male jealousy as a motive for violence: Daly et al. 1982 (ext 778). Background-tier evidence cited (abstract or book only): ext 1010, 804, 778, 696, 758.*
+
 
 ### Care & development
 
@@ -552,9 +821,7 @@ Added 11 Nov 2026 (mating/status dispatch), grade unchanged: Mbendjele BaYaka mo
 - ext#380 · argued, not yet tested · supporting: "'Cooperative breeding' refers to any species with alloparental assistance in both the care and provisioning of young."
 - (+2 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Shared infant care is observed in many forager populations by separate field teams (Hadza, Efe, Aka, !Kung, Agta, Pume); the share of care varies widely. The 'cooperative breeder' reading and the calorie argument stay Hrdy's interpretation.
-
-Earlier grading notes (rubric v1, kept for the record): GRADE DOWNGRADED replicated -> theoretical on adversarial review. Cor grades the ethnographic shared-care survey (382) 'replicated' because the underlying foraging fieldwork is cross-cultural (!Kung, Trobriand, Hadza), but that item is a single-author Hrdy compilation within one work (the Hadza 69% figure is itself Marlowe's fieldwork per 382's own caveat), and ~all other CARE-01 evidence is interpretive synthesis from just two Hrdy books (works 10 and 60). The HARD RULES reserve 'replicated' for genuine multi-study full-text convergence and keep mismatch interpretations theoretical; 'when unsure DOWNGRADE.' The cooperative-breeding architecture (13M-calorie cost, faster-than-ape breeding, alloparental provisioning) is Hrdy's interpretive synthesis. The measured Hadza ~69/31 holding split is retained as the replicated-in-Cor ethnographic anchor (382, kept as primary) but does not lift the whole mismatch row to replicated. I did NOT find extraction support for a specific 'alloparents deliver ~40-50% of infant care' figure or a universal 'alloparent count ~4+'; those are held qualitative.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Shared infant care is observed in many forager populations by separate field teams (Hadza, Efe, Aka, !Kung, Agta, Pume); the share of care varies widely. The 'cooperative breeder' reading and the calorie argument stay Hrdy's interpretation.*
 
 #### Caregiver continuity and reliability (present, not merely countable)
 `EEA-CARE-02 · Care & development` - **argued, not yet tested**
@@ -577,7 +844,7 @@ Earlier grading notes (rubric v1, kept for the record): GRADE DOWNGRADED replica
 - ext#296 · argued, not yet tested · supporting: "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth."
 - ext#294 · seen in animals · supporting: "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment."
 
-*Confidence note: All supporting extractions for the continuity/reliability claim are graded theoretical (Hrdy/Bowlby interpretive synthesis); the touch items are 296 (theoretical) and 294 (cross_species, Harlow/Suomi). Per the HARD RULES, mismatch interpretations stay theoretical, so this row is theoretical. The claim that maternal commitment is contingent on perceived reliable support (281, 402) and that attachment is to plural trusted figures (276) is well-grounded; the specific operationalization of 'continuity' as a measured construct is not pinned to a number, hence eea_value is null and the parameter is qualitative.*
+*Confidence note: All supporting extractions for the continuity/reliability claim are graded theoretical (Hrdy/Bowlby interpretive synthesis); the touch items are 296 (theoretical) and 294 (cross_species, Harlow/Suomi). The row is graded argued, not yet tested. The claim that maternal commitment is contingent on perceived reliable support (281, 402) and that attachment is to plural trusted figures (276) is well-grounded; the specific operationalization of 'continuity' as a measured construct is not pinned to a number, hence eea_value is null and the parameter is qualitative.*
 
 #### Mixed-age child playgroups as developmental input
 `EEA-CARE-03 · Care & development` - **tested many times**
@@ -586,9 +853,9 @@ Earlier grading notes (rubric v1, kept for the record): GRADE DOWNGRADED replica
 
 **Modern default.** Modern childhood compresses or eliminates free mixed-age play: age-segregated grade cohorts and daycare, adult-structured and supervised activities, indoor screen-based leisure, reduced unsupervised outdoor roaming, and safety norms that discourage rough-and-tumble. Children spend far less time in self-directed, physically-active, mixed-age peer play than the developmental window evolved to expect.
 
-**The gap.** The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. Because play partners causally shape PFC development and social-reciprocity circuits, reduced free play is plausibly a genuine developmental-input deficit, not merely a lifestyle change.
+**The gap.** The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. No study has tested that reading in children.
 
-**Resolution unit.** Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, screen time, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.
+**Resolution unit.** Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, solitary screen play, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.
 
 **Serves mechanisms:** M4 - Social Calibration / Play, M9 - Care / Alloparenting
 
@@ -600,9 +867,7 @@ Earlier grading notes (rubric v1, kept for the record): GRADE DOWNGRADED replica
 - ext#256 · argued, not yet tested · supporting: "In addition to the preceding primitive systems that are evident in all mammals soon after birth, we also have more sophisticated special-purpose socioemotional systems that are engaged at appropriate times in the lives of all mammals-for instance, those that mediate sexual LUST (see Chapter 12), maternal CARE (see Chapter 13), and roughhousing PLAY (see Chapter 15). Each of these is built around neural complexities that are only provisionally understood. Sexual urges are mediated by specific brain circuits and chemistries that are quite distinct for males and females but appear to share some components such as the physiological and psychological effects of oxytocin, which also promotes maternal motivation."
 - ext#274 · argued, not yet tested · supporting: "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans.
-
-Earlier grading notes (rubric v1, kept for the record): DOWNGRADED honestly and left theoretical on review. The CAUSAL play-shapes-the-brain evidence is strong but is rat-lab (Pellis) graded clinical in Cor (212, 220) and is cross-species, not human; I am NOT claiming human PFC outcomes at clinical grade. The SPECIFIC human parameter - mixed-age playgroups (ages ~3-12) in foragers - was NOT verbatim-grounded in Cor's extractions when this row was written (June 2026); the numeric age band is still absent. The row meets the 3-part inclusion rule (M4/M9, real modern_default, real gap) and is retained, but graded theoretical because the human mixed-age specifics rest on the general play-development mechanism plus the alloparental-childminding context rather than a direct human-forager extraction. The numeric age band (~3-12) is therefore NOT placed in eea_value (null). Note: 274 supports the M9 link via 'unusually extended juvenile period'; it does not literally say 'play window,' so that phrasing is a fair synthesis, not a quote. Update 4 Nov 2026: the mixed-age baseline is now grounded in background-tier evidence linked to this row: a meta-ethnographic review in which children 'transition into the multi-age playgroup' (Lew-Levy et al. 2017, verbatim), Konner 2010, and studies of children learning from and teaching other children (Lew-Levy et al. 2018, 2020). M4's resolution condition, which said 'age-matched', was reconciled to this row the same day. No Cor extraction supports age-matching: the rat partner studies compare more peers, fewer peers and an adult female only (212), and isolated monkeys recovered with younger partners (542). The grade stays theoretical: no extraction tests whether age mixing itself, beyond partnered play, changes outcomes, the brain evidence is cross-species, and the causal role of pretend play is contested (Lillard et al. 2013, background tier).*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans. In monkeys, isolates recovered with younger partners (ext 542). The causal role of pretend play is contested (Lillard et al. 2013, ext 762).*
 
 #### Multigenerational presence (grandmothers as provisioning kin)
 `EEA-CARE-04 · Care & development` - **contested**
@@ -625,9 +890,7 @@ Earlier grading notes (rubric v1, kept for the record): DOWNGRADED honestly and 
 - ext#403 · argued, not yet tested · supporting: "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times."
 - ext#710 · tested many times · supporting: "No children in any forager society produced as much as they consumed until they reached their mid- to late teens."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.
-
-Earlier grading notes (rubric v1, kept for the record): Graded theoretical. The grandmother hypothesis / active-grandparent corollary is Lieberman's interpretive evolutionary argument (203, eq=theoretical, explicitly a corollary to Hawkes et al.'s grandmother hypothesis); it is well-known but interpretive, not a replicated empirical demonstration in Cor's corpus, and mismatch framing stays theoretical per the HARD RULES. eea_value is null because no specific quantitative grandmother-presence parameter is extraction-grounded. The row meets the 3-part inclusion rule and connects directly to the M9 alloparental-supply backbone. Note: 203's mechanism_codes in Cor are M10/M9; the M3 row tag is an architectural mapping carried by the M9/M3 supporting items (401, 274, 403), not by 203.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.*
 
 
 ### Touch & contact
@@ -662,9 +925,7 @@ Earlier grading notes (rubric v1, kept for the record): Graded theoretical. The 
 - ext#294 · seen in animals · supporting: "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment."
 - (+5 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Near-continuous infant carrying and frequent nursing are documented in !Kung, Aka and Efe, with breastfeeding into the second or third year across non-industrial societies (Sellen 2007). The adult high-touch part rests on modern observation and is argued.
-
-Earlier grading notes (rubric v1, kept for the record): Solid and convergent across modality: replicated parent-infant oxytocin/touch studies (Feldman, ext 89), clinical preterm massage and stress-buffering work (Field, ext 293), cross-species touch-deprivation primate work (Harlow/Suomi, ext 294/537), and a 10-year kangaroo-care RCT (ext 100) all point the same way. The often-cited '~40% kangaroo-care mortality reduction' is now grounded in the corpus (ext 618): Conde-Agudelo and Diaz-Rossello's Cochrane 2016 meta-analysis reports reduced mortality in STABILIZED low-birthweight infants (RR 0.60, 95% CI 0.39-0.92 at discharge or 40-41 weeks; RR 0.67, 0.48-0.95 at latest follow-up), so the figure applies specifically to stabilized LBW infants and is largest in low- and middle-income settings, not to all newborns; ext 100 (Feldman) separately carries the developmental/autonomic results. The EEA-as-high-contact-regime claim is strong; the precise frequency is deliberately left qualitative. All 10 cited extraction_ids verified to exist and support their 'why'.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Near-continuous infant carrying and frequent nursing are documented in !Kung, Aka and Efe, with breastfeeding into the second or third year across non-industrial societies (Sellen 2007). The adult high-touch part rests on modern observation and is argued. The kangaroo-care mortality benefit applies to stabilized low-birthweight infants (RR 0.60, 95% CI 0.39-0.92; Conde-Agudelo & Diaz-Rossello 2016, ext 618) and is largest in low- and middle-income settings.*
 
 #### Co-sleeping / nighttime body contact
 `EEA-TOUCH-02 · Touch & contact` - **tested many times** · **CONTESTED**
@@ -673,7 +934,7 @@ Earlier grading notes (rubric v1, kept for the record): Solid and convergent acr
 
 **Modern default.** WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.
 
-**The gap.** Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. This is a plausible but, in the present corpus, evidentially thin extension of the daytime affective-touch and attachment findings; it should not be over-stated.
+**The gap.** Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).
 
 **Resolution unit.** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
@@ -685,9 +946,7 @@ Earlier grading notes (rubric v1, kept for the record): Solid and convergent acr
 - ext#616 · tested once · supporting: "the behavior can be seen to be intimately linked to underlying EEGs, breathing patterns, changes in sleep architecture, body temperature and linked simultaneously to maternal physiological and behavioral events [5]."
 - ext#617 · contested · challenging: "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated"
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands.
-
-Earlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09; grade 'thin' -> 'contested' (contested=true retained). The row's previously ZERO-evidence status is resolved with the best verifiable full text after the canonical McKenna reviews (2005 Paediatr Respir Rev; 2007 AJPA) proved paywalled / not in PMC: McKenna JJ 2014, Evolution Medicine & Public Health (doi:10.1093/emph/eou006, CC-BY open access; work added this pass). Supporting evidence for the nighttime co-regulation channel: ext M1 (cosleeping mother-infant 'interconnected, mutually dependent, synchronous arousals') and M2 (cosleeping infant physiology 'intimately linked to underlying EEGs, breathing patterns, ... body temperature ... maternal physiological and behavioral events'). CHALLENGING evidence: ext M3 (McKenna himself: bedsharing 'safety is determined specifically by how it is practiced ... adverse factors' - the live SIDS/safety contestation). Grade 'contested' is the honest, non-inflationary label: the evidence is a single-author commentary reviewing one research program (McKenna's own lab) in an active scientific debate, and the claim is genuinely contested on SIDS grounds. M1/M2 evidence the proximate co-regulation mechanism (not a literal touch measurement); McKenna in this same text explicitly distances from a naive 'return to the Pleistocene'/Bowlby-EEA reading. If TOUCH-02 is read as an EEA-mismatch claim rather than a co-regulation-channel claim, that interpretation would itself be capped at 'theoretical' per the hard rule.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands.*
 
 #### Affective grooming/touch from trusted others (adult social touch)
 `EEA-TOUCH-03 · Touch & contact` - **argued, not yet tested**
@@ -717,9 +976,7 @@ Earlier grading notes (rubric v1, kept for the record): GROUNDED 2026-06-09; gra
 - ext#295 · tested once · supporting: "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not."
 - ext#418 · argued, not yet tested · supporting: "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value.
-
-Earlier grading notes (rubric v1, kept for the record): Solid: Dunbar's grooming-endorphin link (ext 386) is replicated primate neuroscience extended to human touch bonding, and Field's partner-touch finding (ext 429) is clinical (pre-stress partner contact significantly lowers cortisol and heart-rate responses, outperforming verbal support). Verified: ext 429's author_quote notes cortisol/HR drop with 'no different plasma oxytocin levels', and the 'why' correctly claims cortisol/HR not oxytocin. The mismatch interpretation (modern adult touch deficit) leans on the cross-cultural touch-variance data and is somewhat more inferential than the core physiology, but the underlying mechanism is well-grounded. All 5 cited extraction_ids verified to exist and support their 'why'.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value.*
 
 
 ### Circadian & sensory
@@ -754,9 +1011,7 @@ Earlier grading notes (rubric v1, kept for the record): Solid: Dunbar's grooming
 - ext#609 · tested once · primary: "Here we show that electrical lighting and the constructed environment is associated with reduced exposure to sunlight during the day, increased light exposure after sunset, and a delayed timing of the circadian clock as compared to a summer natural 14h40min:9h20min light-dark cycle camping. Furthermore, we find that after exposure to only natural light, the internal circadian clock synchronizes to solar time such that the beginning of the internal biological night occurs at sunset and the end of the internal biological night occurs before wake time just after sunrise."
 - (+4 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Pre-electric light exposure and sleep timing are measured in Hadza, San and Tsimane (Yetish et al. 2015), in Toba/Qom with and without electricity (de la Iglesia et al. 2015) and in natural-light camping studies; samples are small and modern foragers stand in for ancestral ones. Sleep onset averaged about 3.3 hours after sunset in Yetish et al.
-
-Earlier grading notes (rubric v1, kept for the record): EVIDENCE BASE STRENGTHENED 2026-06-09 but grade HELD at 'theoretical' (a correct outcome, not a failure). The natural-light entrainment MECHANISM is now genuine multi-study full-text convergence: added Wright et al. 2013 (Current Biology; within-subject natural-light field study, n=8; ext W1/W3) and Stothard et al. 2017 (winter + weekend camping, n=5/n=14; ext S1/S3), which directly show natural light entrains the human clock to solar time (biological night begins near sunset) and that modern electrical lighting delays circadian phase, with measured natural-light intensities ~4,500-10,300 lux and a cited Toba/Qom hunter-gatherer + Brazilian rubber-tapper corroboration. This resolves the prior 'single secondary synthesis (Walker) + single 12-person RCT (Chang)' basis for the downgrade. The grade nonetheless STAYS 'theoretical' because the row's eea_value asserts SPECIFIC FORAGER ANCESTRAL BASELINE VALUES (sleep onset ~20:00-22:00, >10,000 lux daytime, firelight ~600nm) - an EEA-baseline reconstruction. The camping studies substitute modern subjects under natural light as a PROXY for the ancestral condition (Wright's own caveat); they validate the mechanism, not the specific ancestral numbers, so the hard mismatch-interpretation cap binds. Not contested: the entrainment finding is robust and convergent, not in dispute - it is capped, not disputed.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Pre-electric light exposure and sleep timing are measured in Hadza, San and Tsimane (Yetish et al. 2015), in Toba/Qom with and without electricity (de la Iglesia et al. 2015) and in natural-light camping studies; samples are small and modern foragers stand in for ancestral ones. Sleep onset averaged about 3.3 hours after sunset in Yetish et al.*
 
 #### Sleep timing/phase alignment to the biological night (not a fixed duration target)
 `EEA-CIRC-02 · Circadian & sensory` - **tested many times**
@@ -767,7 +1022,7 @@ Earlier grading notes (rubric v1, kept for the record): EVIDENCE BASE STRENGTHEN
 
 **The gap.** The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.
 
-**Resolution unit.** Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration. Do not encode a must-hit-8-9h rule.
+**Resolution unit.** Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration.
 
 **Serves mechanisms:** M7 - Circadian Regulation
 
@@ -780,9 +1035,7 @@ Earlier grading notes (rubric v1, kept for the record): EVIDENCE BASE STRENGTHEN
 - ext#79 · tested many times · supporting: During puberty, the suprachiasmatic nucleus shifts the adolescent circadian rhythm progressively forward, pushing sleep onset several hours later than both younger children and adult parents. Walker describes how a nine-year-old's melatonin-driven sleep onset around 9 p.m. shifts
 - (+5 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Night-anchored sleep of about 5.7 to 7.1 hours is measured by actigraphy in three forager societies (Yetish et al. 2015) and in Toba/Qom (de la Iglesia et al. 2015); camping studies move phase while duration holds. Actigraphy only, and parts of the interpretation are disputed.
-
-Earlier grading notes (rubric v1, kept for the record): RE-GRADED 2026-06-09 'theoretical' -> 'longitudinal'. The single-dataset basis for the prior downgrade is resolved: the load-bearing 'phase/timing-not-duration' claim is now supported by a convergence of independent designs - the Roenneberg social-jetlag epidemiology (work 40, n>65,000; the row's existing 'longitudinal'-graded primary) PLUS two controlled natural-light field experiments added this pass: Wright et al. 2013 (ext W2: all circadian markers ~2h earlier while weekly sleep duration 6.7h vs 6.8h, p=0.268, and efficiency were statistically unchanged) and Stothard et al. 2017 (ext S2: weekend natural light advanced melatonin onset/midpoint ~1.4h/~1.0h 'despite no change in sleep timing'). Graded 'longitudinal' (matching its Roenneberg anchor's evidence type), deliberately NOT 'replicated': the two camping experiments share a laboratory and senior author, so they are not fully independent, and top-tier 'replicated' is reserved for stronger independent convergence. The mismatch-interpretation cap does NOT bind here because eea_value is NULL - the row asserts no contested ancestral sleep number; its claim is the present-tense, directly-measured dissociation of circadian PHASE from sleep DURATION in living humans. NOTE: this is the only genuine grade promotion in this pass; flagged for review.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Night-anchored sleep of about 5.7 to 7.1 hours is measured by actigraphy in three forager societies (Yetish et al. 2015) and in Toba/Qom (de la Iglesia et al. 2015); camping studies move phase while duration holds. Actigraphy only, and parts of the interpretation are disputed. The two camping experiments (Wright et al. 2013, ext 610; Stothard et al. 2017, ext 613) come from the same laboratory and share authors.*
 
 #### Falling evening ambient temperature as a co-primary sleep-onset cue
 `EEA-CIRC-03 · Circadian & sensory` - **tested once**
@@ -799,9 +1052,7 @@ Earlier grading notes (rubric v1, kept for the record): RE-GRADED 2026-06-09 'th
 
 **Evidence:** none in the corpus yet (rendered on prose + mechanism link; no citation fabricated).
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. Yetish et al. 2015 found sleep fell during the nightly drop in ambient temperature in Hadza, San and Tsimane; one research group, association only. That temperature acts as a sleep cue is argued.
-
-Earlier grading notes (rubric v1, kept for the record): Kept on inclusion-rule grounds (clear M7 link, real modern_default, real gap) but at the lowest applicable grade and with NO evidence links - verified that Cor's existing M7 temperature extractions (IDs 85, 86) concern the ENDOGENOUS body-temperature rhythm used to estimate intrinsic circadian period via forced desynchrony, NOT ambient falling-temperature as an external onset cue, so none genuinely supports this claim. A full keyword scan of all M7 extractions for temperature/thermal/cooling/ambient returned no supporting source. The ambient-thermal-cue hypothesis is biologically plausible but ungrounded in the current extraction base; treat as theoretical pending a dedicated source.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. Yetish et al. 2015 found sleep fell during the nightly drop in ambient temperature in Hadza, San and Tsimane; one research group, association only. That temperature acts as a sleep cue is argued.*
 
 
 ### Subsistence & time-use
@@ -809,13 +1060,13 @@ Earlier grading notes (rubric v1, kept for the record): Kept on inclusion-rule g
 #### Daily incidental movement load
 `EEA-SUBS-01 · Subsistence & time-use` - **tested many times**
 
-**EEA baseline.** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp - roughly 9-15 km/day (Hadza men ~7-10 mi, women ~5 mi plus hours of digging), with movement woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
+**EEA baseline.** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
 
 **EEA value** (illustrative, not constants):
 
   - PAL: {"men": 1.9, "women": 1.8, "western_desk": 1.6}
   - MVPA_min_per_day: {"approx": 134, "source_note": "~2h14m moderate-vigorous + ~3h40m light (Hadza HR-monitor)"}
-  - daily_distance_km: {"low": 9, "high": 15, "qualifier": "approximate, Hadza-anchored, single-population; foraging-day side-effect"}
+  - daily_distance_km: {"source": "Pontzer et al. 2012, PLoS ONE, doi 10.1371/journal.pone.0040503 (GPS means)", "qualifier": "Hadza only; a side effect of the foraging day", "hadza_men_gps_mean": 11.4, "hadza_women_gps_mean": 5.8}
   - rest_hours_per_day: {"note": "comparable to industrialized adults; difference is posture not amount", "approx": 9.9}
 
 **Modern default.** Movement has been extracted from subsistence and re-inserted, if at all, as discretionary 'exercise': set-aside, planned, dose-prescribed (e.g. 150 min/week guidelines), and separated from the rest of a chair-bound, motor-transported, indoor day. Most waking hours are spent in continuous chair-sitting that holds the lower limbs near-inactive, and total daily distance on foot collapses far below the ancestral range.
@@ -835,9 +1086,7 @@ Earlier grading notes (rubric v1, kept for the record): Kept on inclusion-rule g
 - ext#289 · tested once · supporting: "In addition to ground-sitting postures, Hadza individuals also spend a large percentage of their nonambulatory time in squatting (∼18%) and kneeling postures (∼12.5%) that differ from ground sitting by individuals maintaining an elevated buttocks. [...] For soleus, the assisted squat posture (squatting with heels in ground contact and with the buttocks resting on a small rock) elicited significantly higher muscle activity compared with chair sitting."
 - (+2 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Forager activity of over 100 minutes a day of moderate-to-vigorous movement and activity levels modestly above Western ones are found across populations (Pontzer, Wood and Raichlen 2018); the kilometre band and rest figures are Hadza only.
-
-Earlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'replicated' to 'theoretical' on adversarial review. Two reasons: (a) this is a mismatch interpretation (embedded/continuous vs modern bunched movement), which the grade rules require to stay theoretical; (b) the headline quantitative claim - the 9-15 km/day band and the PAL/MVPA/rest figures - is anchored to a narrow source base (Lieberman/work 57 supplies 196,197,198,195; the single Raichlen/Pontzer 2020 paper/work 63 supplies 288,289; one author/work 64 supplies 427), i.e. essentially Hadza-population data filtered through two source-works, not broad multi-study full-text convergence. What IS robust and converges across these full-text sources is the QUALITATIVE picture: movement is embedded not bout-shaped, active-rest posture matters, and forager PAL is only ~15% above a sedentary Westerner's. Cor must not hide the genuine tension: the same data show hunter-gatherers rest ~9.9h/day and are only modestly more active, so 'we evolved to move constantly and hard' is itself partly myth - the defensible claim is continuity-of-movement and active-rest posture, not heroic exertion. The specific km band is approximate and population-variable.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Forager activity of over 100 minutes a day of moderate-to-vigorous movement and activity levels modestly above Western ones are found across populations (Pontzer, Wood and Raichlen 2018); the kilometre and rest figures are Hadza only.*
 
 #### Effort-to-outcome contingency (closed-loop, self-attributable)
 `EEA-SUBS-02 · Subsistence & time-use` - **argued, not yet tested**
@@ -861,9 +1110,7 @@ Earlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'r
 - ext#159 · tested many times · supporting: "A large body of evidence now exists that supports the demand/control model: people whose jobs are characterised by high demands and low control have a higher risk of developing coronary heart disease than others in jobs with more control. Our own Whitehall II study in the British civil service showed stronger support for the effects of low control on heart disease than for the adverse effects of high demand. Other studies in the US and Sweden, however, do show that a combination of high demand and low control is harmful to health. We also found a strong relation between low control at work and depressive symptoms."
 - (+2 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures how visible the link between effort and outcome was in forager work; the ancestral claim is a mismatch synthesis (van Vugt et al. 2024). The Whitehall II and rodent controllability findings test the modern side and the mechanism, not this ancestral value.
-
-Earlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'replicated' to 'longitudinal' on adversarial review. The Maier-Seligman CONTROLLABILITY MECHANISM (extractions 66/68/69, all work 32) is genuinely replicated full-text - contingency detection, the passivity-default inversion, and trans-situational immunization - and Whitehall II (159, longitudinal) provides independent population confirmation that low control causes coronary disease. However, those replicated items are all one synthesizing source-work (32); the PARAMETER's ancestral-subsistence framing ('effort-outcome links visible and physical in forager work') rests solely on the van Vugt mismatch synthesis (583/587, work 102, quality=theoretical). So the EEA-baseline claim itself is not replicated - the softer link is the bridge from lab/epidemiology to the ancestral baseline. 'longitudinal' honestly reflects that the strongest PARAMETER-LEVEL outcome evidence is the Whitehall II longitudinal finding, while the mechanism beneath it is replicated and the EEA mapping is theoretical. eea_value is null because contingency is qualitative, not a number.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures how visible the link between effort and outcome was in forager work; the ancestral claim is a mismatch synthesis (van Vugt et al. 2024). The Whitehall II and rodent controllability findings test the modern side and the mechanism, not this ancestral value.*
 
 #### Task diversity within the subsistence day
 `EEA-SUBS-03 · Subsistence & time-use` - **argued, not yet tested**
@@ -872,7 +1119,7 @@ Earlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'r
 
 **Modern default.** Industrial and much digital work narrows the day to repetitive, specialized, often single-task operation - high repetition, low task variety, minimal novel problem-solving - with the SEEKING system left chronically under-stimulated by the work itself and frequently redirected onto engineered supernormal substitutes (feeds, games, variable-ratio rewards) off the clock.
 
-**The gap.** The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. This row is included because it meets the 3-part rule, but the EEA quantification of 'task diversity' is not pinned down in Cor's evidence.
+**The gap.** The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. No study in Cor measures forager task diversity.
 
 **Resolution unit.** Genuine variety of self-directed, skill-recruiting tasks across the day that engage exploration and problem-solving - not nominal 'multitasking' (rapid switching among equally shallow operations) and not enrichment proxies bolted on outside the core work.
 
@@ -884,16 +1131,16 @@ Earlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'r
 - ext#251 · argued, not yet tested · supporting: "The SEEKING system (see Chapter 8): This emotional system is a coherently operating neuronal network that promotes a certain class of survival abilities. This system makes animals intensely interested in exploring their world and leads them to become excited when they are about to get what they desire. It eventually allows animals to find and eagerly anticipate the things they need for survival, including, of course, food, water, warmth, and their ultimate evolutionary survival need, sex. In other words, when fully aroused, it helps fill the mind with interest and motivates organisms to"
 - ext#397 · tested many times · supporting: "The SEEKING, or expectancy, system is characterized by a persistent exploratory inquisitiveness. This system engenders energetic forward locomotion - approach and engagement with the world - as an animal probes into the nooks and crannies of interesting places, objects, and events in ways that are characteristic of its species."
 
-*Confidence note: Grade UNCHANGED at 'theoretical' - correctly the lowest substantive grade and honest. Adversarial note: the primary extraction 583 says ancestral work was 'small-group, embodied, skill-based, and autonomy-rich' but does NOT itself use or measure 'task diversity' - the diversity reading is the draft's inference from 'skill-based.' The SEEKING substrate (251 Panksepp, 397) is well-grounded as the evolved appetitive system, but Cor holds NO extraction linking task variety PER SE to a health/affect outcome. This is the softest included row, assembled by inference; it remains a candidate for removal if direct task-diversity evidence is demanded. Confidence wording tightened to flag that 583 does not state 'diversity' explicitly.*
+*Confidence note: Grade: argued, not yet tested. Van Vugt et al. 2024 describe ancestral work as small-group, embodied, skill-based and autonomy-rich (ext 583). They do not measure task diversity. The substrate is Panksepp's SEEKING system (ext 251, 397). No study in Cor links task variety itself to health or mood.*
 
 #### Daily subsistence work-hours (contested)
 `EEA-SUBS-04 · Subsistence & time-use` - **contested** · **CONTESTED**
 
-**EEA baseline.** QUALITATIVE ONLY. The duration of daily subsistence effort in the EEA is genuinely unresolved and must not be stated as a number. The 'original affluent society' position (Sahlins/Lee) reads the data as short food-quest hours and ample leisure; the opposing reading (Kaplan/Hawkes/Pontzer, and Lieberman's own qualifications) emphasizes that total productive effort includes processing, childcare, toolwork, and travel, and that activity is modest-intensity but spread across the day. What the full-text evidence DOES support qualitatively is that forager workloads are not 'backbreaking' and that overall energetic activity is only modestly above a sedentary Westerner's - but this does not license any specific daily work-hour figure.
+**EEA baseline.** No daily work-hour figure is settled. The 'original affluent society' position (Sahlins/Lee) reads the data as short food-quest hours and ample leisure; the opposing reading (Kaplan/Hawkes/Pontzer, and Lieberman's own qualifications) emphasizes that total productive effort includes processing, childcare, toolwork, and travel, and that activity is modest-intensity but spread across the day. What the full-text evidence DOES support qualitatively is that forager workloads are not 'backbreaking' and that overall energetic activity is only modestly above a sedentary Westerner's - but this does not license any specific daily work-hour figure.
 
 **Modern default.** Modern work is organized around fixed, externally scheduled, often long and boundary-less hours (clock-time labor, always-on digital availability) - a structurally different time-architecture from intermittent, self-paced, weather- and resource-contingent subsistence effort, regardless of what the ancestral hour-count actually was.
 
-**The gap.** The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours. Asserting a specific ancestral work-hour number - in either direction - would import a contested anthropological position as if it were settled, which it is not.
+**The gap.** The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours.
 
 **Resolution unit.** Self-paced, resource-contingent, intermittently-bounded work time - the time ARCHITECTURE (when and how effort is scheduled and bounded), not a target number of daily hours.
 
@@ -905,9 +1152,7 @@ Earlier grading notes (rubric v1, kept for the record): Grade DOWNGRADED from 'r
 - ext#197 · tested many times · challenging: "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals."
 - ext#200 · contested · challenging: "When Herman Pontzer and his colleagues measured daily energy expenditures in the Hadza, they were surprised to find that the highly active Hadza spend about the same total number of calories per day as sedentary industrialized people with the same lean body weight. In addition, when Pontzer and colleagues collected energetic data from adults in many countries including the United States, Ghana, Jamaica, and South Africa, they observed that more active people spent only slightly more calories per day than more sedentary people who weighed the same. In addition, individuals who were more physically active didn't have total energy budgets as high as their exertions would predict. How could someone who spent five hundred extra calories a day exercising not have a total energy budget that is five hundred calories higher? The proposed explanation is that people's total energy budgets are constrained: if I use five hundred extra calories walking, I'll spend less energy on my resting metabolism to help pay for my exertions."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Weight of evidence: once processing, travel and childcare are counted, forager work time is longer than the short-hours figures, while foragers still have more leisure than neighbouring farmers (Dyble et al. 2019); no single daily hour figure is supported.
-
-Earlier grading notes (rubric v1, kept for the record): HARD-RULE row, fully compliant and UNCHANGED. The original-affluent-society debate is live: Sahlins/Lee vs Kaplan/Hawkes/Pontzer. eea_value is NULL and NO daily work-hour number is asserted anywhere. All three cited extractions are correctly tagged 'challenging' and support only the qualitative bounded claims (workloads modest/not backbreaking per 196; PAL only ~15% above desk per 197; constrained energetics itself contested per 200) - offered as context for why a clean hour-count cannot be stated, not as a measurement of work duration. Grade is the lowest applicable ('contested').*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Weight of evidence: once processing, travel and childcare are counted, forager work time is longer than the short-hours figures, while foragers still have more leisure than neighbouring farmers (Dyble et al. 2019); no single daily hour figure is supported.*
 
 
 ### Diet & metabolic
@@ -919,7 +1164,7 @@ Earlier grading notes (rubric v1, kept for the record): HARD-RULE row, fully com
 
 **EEA value** (illustrative, not constants):
 
-  - note: Specific paleo-diet macronutrient figures are reconstructions and the exact numbers are contested; direction of divergence is robust, magnitude is not.
+  - note: The 34% and 12% protein figures are model estimates (Eaton & Konner 1985, ext 39). Forager diets vary widely by habitat and season (Milton 2000, ext 763), and later reconstructions show wide ecological variation (Cordain et al. 2000, ext 729).
   - sodium: low
   - potassium: high
   - added_sugar: minimal
@@ -943,9 +1188,7 @@ Earlier grading notes (rubric v1, kept for the record): HARD-RULE row, fully com
 - ext#38 · argued, not yet tested · supporting: "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time."
 - ext#471 · argued, not yet tested · supporting: "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1)."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.
-
-Earlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION of divergence (less processed, more micronutrient-dense, more varied ancestrally) is well-supported; ext 39 (corpus-clinical, primary) carries the clean nutrient-profile claim including the 34% vs 12% protein figures verbatim. The SPECIFIC reconstructed numbers and the seasonality claim rest on Paleolithic-nutrition reconstructions: ext 471 (quarantined, snippet-sourced) is the only seasonality anchor and is cited supporting-only, never load-bearing. Held theoretical + contested because the row's distinctive seasonality/variety claim rests on a quarantined source even though the core nutrient-profile claim is clinical. Confirmed all 3 cited ids exist and support their roles.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.*
 
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested** · **CONTESTED**
@@ -954,7 +1197,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION 
 
 **EEA value** (illustrative, not constants):
 
-  - note: Fiber figures are reconstructions; treat magnitude as approximate.
+  - note: Fiber figures are reconstructions (Eaton & Konner 1985, ext 39).
   - sweet_fat_salt_availability: sweet food seasonal and costly (honey); fat and salt concentrations ancestrally rare; bundled in whole-food matrix
   - fiber_g_per_day_modern_approx: 20
   - fiber_g_per_day_ancestral_estimate: 100-150
@@ -975,7 +1218,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION 
 - ext#76 · argued, not yet tested · supporting: Moss reveals through internal industry sources that food companies knowingly engineer products to exploit evolved taste preferences and are aware of the overconsumption consequences. At a secret 1999 meeting of eleven food industry CEOs, Pillsbury executive James Behnke confronte
 - ext#440 · argued, not yet tested · supporting: "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits."
 
-*Confidence note: VERIFIED with one role correction. The modern half (bliss-point engineering that defeats satiety) is strongly evidenced by full-text industry-sourced extractions 75, 439, 76, 440 (all corpus-clinical, content confirmed). The ancestral fiber NUMBER is a reconstruction (ext 39, which states 100-150 vs 20 g/day verbatim) and the precise figure is contested, so the parameter is graded theoretical + contested. CORRECTION: ext 75 was mislabeled 'challenging' in the draft - it documents the modern mismatch mechanism (bliss-point optimization), which SUPPORTS the parameter's modern-default claim rather than challenging the parameter. Re-roled to supporting. All 5 ids confirmed to exist and match their content. Sweetness narrowed 2026-11-04 (tier-2 quality flag, batch 7): seasonal and costly, per Marlowe et al. 2014 (honey, Hadza).*
+*Confidence note: Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). The ancestral fiber figure (100-150 g a day against 20 g today) is a model estimate and is contested (Eaton & Konner 1985, ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).*
 
 #### Acquisition effort (calories are physically worked for)
 `EEA-DIET-03 · Diet & metabolic` - **tested many times**
@@ -984,7 +1227,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION 
 
 **EEA value** (illustrative, not constants):
 
-  - note: Daily-movement/km figure is solid-ish; do NOT read this as a daily WORK-HOURS figure - total subsistence work-hours are contested (see gap and held_out).
+  - note: Distances are GPS means for the Hadza (Pontzer et al. 2012). They are not work hours; for work hours see EEA-SUBS-04.
   - desk_worker_PAL: ~1.6
   - hunter_gatherer_PAL: 1.8-1.9
   - hadza_distance_source: Pontzer et al. 2012, PLoS ONE, doi 10.1371/journal.pone.0040503 (GPS, means; SD 2.1 men, 1.7 women); women also dig several hours (ext 196)
@@ -996,7 +1239,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION 
 
 **The gap.** Removing the work between hunger and food eliminates a natural brake on consumption and decouples eating from the obligate daily movement it was bundled with - calories are now frictionless to obtain and detached from the physical activity that ancestrally accompanied acquisition.
 
-**Resolution unit.** Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Daily distance/movement is solid; a specific subsistence work-HOURS number is contested and is not asserted here.
+**Resolution unit.** Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Work hours: see EEA-SUBS-04.
 
 **Serves mechanisms:** M10 - Movement / Regulatory, M13 - Energy Regulation
 
@@ -1006,9 +1249,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. The DIRECTION 
 - ext#197 · tested many times · supporting: "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals."
 - ext#427 · argued, not yet tested · supporting: "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Hadza daily distances are GPS-measured (Pontzer et al. 2012) and forager activity levels are compared across populations (Pontzer, Wood and Raichlen 2018); the distance figures are Hadza only.
-
-Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in full-text Hadza energetics (ext 196, corpus-clinical, confirms men 7-10 mi/day, women ~5 mi + hours digging) and cross-population PAL/distance data (ext 197 corpus-replicated; ext 427 theoretical, 10 km/day). Per hard rule, only the daily-movement/distance side (solid-ish) is asserted; NO daily subsistence work-hours number, which remains contested (Sahlins/Lee vs Kaplan/Hawkes/Pontzer). The absolute premium is deliberately stated as modest to avoid the 'noble-savage athlete' overclaim - consistent with ext 196/197 which both explicitly downgrade the magnitude. Clinical grade rests on ext 196 (clinical movement data). NOTE: ext 196 and 427 are M10-tagged only; the M13 'effort-as-brake-on-intake' is interpretive framing (not directly stated in any cited extraction) - M10 is the solidly-grounded mechanism here. All 3 ids confirmed. Distances corrected 2026-11-04 (tier-2 quality flag, batch 7): the baseline now gives the GPS-measured Hadza means from Pontzer et al. 2012 (men 11.4 km/day, women 5.8 km/day); ext 196's 7-10 and 5 miles come from a trade book and overstate the women's figure.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Hadza daily distances are GPS-measured (Pontzer et al. 2012) and forager activity levels are compared across populations (Pontzer, Wood and Raichlen 2018); the distance figures are Hadza only.*
 
 #### Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)
 `EEA-DIET-04 · Diet & metabolic` - **tested many times**
@@ -1039,7 +1280,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in fu
 - ext#284 · tested many times · supporting: "People in less socioeconomically developed populations, including subsistence farmers and traditional hunter-gatherers, have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Mammals living in the wild, including non-human primate species, have total energy expenditures similar to captive populations. These population-level comparisons suggest that total energy expenditure is an evolved, species-specific trait that is homeostatically buffered against variation in habitual physical activity."
 - ext#287 · argued, not yet tested · supporting: "We hypothesize that human daily energy expenditure may be an evolved physiological trait largely independent of cultural differences."
 
-*Confidence note: VERIFIED - 'replicated' is HONEST here, one of the few rows that genuinely earns it. The constrained-TEE / expenditure-buffering finding is multi-population doubly-labeled-water replicated (ext 283 n=332 five populations, ext 284 cross-population + cross-species wild-vs-captive, both corpus-replicated, primary, full-text) and originated in the Hadza study (ext 286, clinical). The downstream inference - obesity difference lies in intake/composition - is EXPLICITLY stated in ext 286 content ('the obesity difference must lie primarily in energy intake and food composition') and ext 287 content, not extrapolated. Draft correctly leaned on primary Pontzer extractions and did NOT cite ext 200 (corpus-contested Lieberman propagation), avoiding over-grading. Fasting/feast-famine cycles correctly held out (no supporting extraction). All 4 ids confirmed.*
+*Confidence note: Grade: tested many times. Total energy expenditure rises with activity at low levels and plateaus above moderate activity in doubly-labelled-water data from five populations (Pontzer et al. 2016, n=332, ext 283). Foragers and subsistence farmers expend about as much energy as people in industrial populations, and wild mammals about as much as captive ones (ext 284). The Hadza study found the same daily expenditure as in Western adults after controlling for body size (Pontzer et al. 2012, n=30, ext 286), which places the obesity difference in intake and food composition, and it proposes that daily energy expenditure is an evolved trait (ext 287).*
 
 
 ### Threat & safety
@@ -1072,7 +1313,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in fu
 - ext#130 · seen in animals · supporting: "Acute and chronic stress cause an imbalance of neural circuitry subserving cognition, decision making, anxiety and mood that can increase or decrease expression of those behaviors and behavioral states. In the short term, such as for increased fearful vigilance and anxiety in a threatening environment, these changes may be adaptive; but, if the danger passes and the behavioral state persists along with the changes in neural circuitry, such maladaptation may need intervention"
 - ext#345 · argued, not yet tested · supporting: "the Smoke Detector Principle. Most of the responses that cause human suffering are unnecessary in the individual instance but still perfectly normal because they have low costs but protect against huge possible losses. They are like false alarms from smoke detectors. The occasional wail when you burn the toast is worth it to ensure that you are warned"
 
-*Confidence note: The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded theoretical per the rule that mismatch interpretations stay theoretical, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
+*Confidence note: The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded argued, not yet tested, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
 
 #### Threat controllability and predictability (resolvable by own action)
 `EEA-THREAT-02 · Threat & safety` - **argued, not yet tested**
@@ -1100,7 +1341,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in fu
 - ext#442 · argued, not yet tested · primary: "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts."
 - ext#587 · argued, not yet tested · supporting: Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation
 
-*Confidence note: The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded theoretical per the mismatch-interpretation rule, with the underlying control science noted as replicated. Mechanism set includes M6 because the controllability evidence (ids 333, 442) is jointly tagged M1/M6 in the corpus (verified); threat_safety borrows M6 here for the control dimension rather than re-deriving it. ADDED 2026-11-02: uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
+*Confidence note: The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded argued, not yet tested, with the underlying control science noted as replicated. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
 
 #### Real-vs-perceived threat ratio and all-clear resolution
 `EEA-THREAT-03 · Threat & safety` - **argued, not yet tested**
@@ -1132,7 +1373,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in fu
 - ext#125 · tested many times · supporting: Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking
 - (+1 more linked extraction(s))
 
-*Confidence note: Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect. Note: prose previously referenced ids 339/444 in passing; only ids actually in the evidence array (331, 469, 308, 565, 125, 461) are load-bearing and all are verified.*
+*Confidence note: Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect.*
 
 #### Killing between groups (frequency contested)
 `EEA-THREAT-04 · Threat & safety` - **contested** · **CONTESTED**
@@ -1183,9 +1424,7 @@ Earlier grading notes (rubric v1, kept for the record): VERIFIED. Grounded in fu
 - ext#509 · argued, not yet tested · supporting: "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances."
 - ext#250 · argued, not yet tested · supporting: "The second step, reflecting the focus of culture theorists such as Vygotsky and Bakhtin, came as human populations began growing in size and competing with one another. This competition meant that group life as a whole became one big collaborative activity, creating a much larger and more permanent shared world, that is to say, a culture. The resulting group-mindedness among all members of the cultural group (including in-group strangers) was based on a new ability to construct common cultural ground via collectively known cultural conventions, norms, and institutions."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from; the claim that nearly all of it came from known people is inferred from band size and gossip ethnography. No published evidence argues the other way.
-
-Earlier grading notes (rubric v1, kept for the record): Speculative as a stand-alone EEA parameter. The underlying ethnography (forager information flow is gossip-borne and provenance-bound, Boehm/373) and the bonding requirement for face-to-face co-presence (Dunbar/509) are well-attested, but framing the modern anonymous-information channel as a distinct 'information_environment' mismatch is a theoretical extrapolation that overlaps heavily with social-structure (SOC-09 reputation) and M3 bonding parameters. Held at the lowest grade and eea_value=NULL because there is no clean ancestral metric for signal provenance. Mechanism codes retained: M11 (grounded by 373/250), M3 (grounded by 509, face-to-face co-presence), M5 (grounded by 373, reputational monitoring).*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from; the claim that nearly all of it came from known people is inferred from band size and gossip ethnography. No published evidence argues the other way.*
 
 #### Gossip and narrative flow as reputation and norm transmission
 `EEA-INFO-02 · Information environment` - **tested many times** · **CONTESTED**
@@ -1206,6 +1445,4 @@ Earlier grading notes (rubric v1, kept for the record): Speculative as a stand-a
 - ext#375 · argued, not yet tested · primary: "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism."
 - ext#121 · argued, not yet tested · supporting: "cultural evolution initiated a process of self-domestication, driving genetic evolution to make us prosocial, docile, rule followers who expect a world governed by social norms monitored and enforced by communities."
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Gossip, ridicule and ostracism as norm enforcement are documented across forager ethnography (Boehm 1993, 1999; Wiessner 2014; Smith et al. 2017) and gossip deters selfishness in experiments (Feinberg et al. 2012). That modern channels weaken this function is the framework's reading, untested.
-
-Earlier grading notes (rubric v1, kept for the record): Speculative as an information_environment parameter and heavily overlapping with social-structure reputation (SOC-09) and M5 status. The forager gossip-as-norm-enforcement finding is robustly attested ethnographically (Boehm 373/375, both 'replicated' in-source; Henrich 121), but the claim that the MODERN information channel degrades this specific function is a mismatch interpretation, so the row is held at the lowest grade with eea_value=NULL. Distinct from EEA-INFO-01 in foregrounding the content (reputational/normative narrative) rather than the provenance of arbitrary signals. M3 was REMOVED from the draft mechanism set: none of the three cited extractions (373=M4/M5/M11, 375=M11/M4, 121=M11/M5) carry M3, and the row's content is about gossip/reputation/norm enforcement, not face-to-face bonding - M3 was unsupported here.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Gossip, ridicule and ostracism as norm enforcement are documented across forager ethnography (Boehm 1993, 1999; Wiessner 2014; Smith et al. 2017) and gossip deters selfishness in experiments (Feinberg et al. 2012). That modern channels weaken this function is the framework's reading, untested.*

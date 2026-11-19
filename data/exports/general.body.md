@@ -4,7 +4,7 @@ Here is the central idea of this framework, stated plainly: a great deal of mode
 
 Your mind and body are full of ancient machinery, shaped over millions of years to keep your ancestors alive and able to raise children. That machinery produces feelings - hunger, fear, loneliness, the itch to chase a goal, the sting of low status. These feelings are signals. By default, this framework treats them as honest information about your circumstances, not as glitches to be silenced. (That default can be set aside when there is real evidence of a different cause - for example, illness, sleep loss, hormonal shifts, injury, or the effects of a drug or medication.)
 
-The catch is that these systems were tuned for a world of small face-to-face groups, physical work, real food, and constant closeness. Modern life often pushes them outside the range they expect. The signal is still accurate. The world has changed underneath it.
+The catch is that these systems were tuned for a world of small face-to-face groups, physical work, real food, and constant closeness. Where modern life departs from that world, it pushes them outside the range they expect. The signal is still accurate. The world has changed underneath it.
 
 ### The derivation stack
 
@@ -312,7 +312,7 @@ Movement is far more than exercise. It acts as a timing cue for the body's clock
 
 ### What actually satisfies it
 
-Movement woven into daily life rather than set aside as "exercise." Hunter-gatherers typically moved 9 to 15 kilometers a day simply as a side effect of how they lived.
+Movement woven into daily life rather than set aside as "exercise." Hadza men walk about 11 kilometers a day and women about 6, simply as a side effect of foraging.
 
 ### The proxy gradient
 

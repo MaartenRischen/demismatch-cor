@@ -95,7 +95,7 @@ async function main() {
       check("the-gap.html", `#${id} data-prerendered`, mountPrerendered(h, id));
     }
     const doms = count(h, /class="gap-domain"/g);
-    check("the-gap.html", `8 gap-domain groups`, doms === 8, `found ${doms}, expected 8`);
+    check("the-gap.html", `9 gap-domain groups`, doms === 9, `found ${doms}, expected 9`);
     const cards = count(h, /class="gap-card"/g);
     check("the-gap.html", `gap-card == counts.eea_parameters`, cards === C.eea_parameters, `found ${cards}, expected ${C.eea_parameters}`);
   }
