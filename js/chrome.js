@@ -83,10 +83,13 @@
       '</svg>' +
     '</span>';
 
-  // mechanism.html keeps its structural exception: the "Detail View" subtitle.
+  // One line in the top bar of every Cor page, the detail page included, so a
+  // visitor reads it first wherever they land. The home page carries the same
+  // line as its headline, so its top bar shows only "Cor".
+  var MAST_LINE = "The science of why humans feel what they feel, and what they really need.";
   function subtitleFor(pageKey) {
-    if (pageKey === "mechanism") return "Mechanism Spec - Detail View";
-    return "An evidence-graded atlas of human needs";
+    if (pageKey === "home") return "";
+    return MAST_LINE;
   }
 
   function navLinks(list, navKey, cls) {

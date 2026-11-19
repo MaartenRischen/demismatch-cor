@@ -1,15 +1,12 @@
 /* ============================================================================
-   the-gap.js - renders "The Gap" (the EEA-baseline layer) for Cor Portal v2.
-
-   Reads only window.CorData (the baked snapshot). No runtime fetch. Every DB
-   string runs through CorData.clean()/cleanMultiline() (hyphens-only, escaped).
-   No fabrication: a parameter with no evidence renders an honest "full-text-
-   pending" line, never an invented citation.
-
-   Honesty contract (Cor decision #1557): these are contested measured numbers,
-   not derived spec. The grade badge + contested flag + "illustrative, not
-   constants" caveat are load-bearing UI, here - never spliced into spec prose.
-   IIFE on window. Works on file://.
+   the-gap.js - renders the EEA-baseline records, with a plain layer:
+   - three records (EEA-SOC-01, EEA-CARE-01, EEA-DIET-02) open with one or two
+     everyday sentences, their public label with the reason for it, and a line on
+     how to read the card. Every plain sentence was checked against its record.
+     The sentences add no claim the record does not make.
+   - row names in plain words; raw data, the evidence list and the rubric-v1
+     notes folded into <details>, still in the HTML for crawlers and AIs.
+   - one "contested" badge where the grade and the contested flag both say it.
    ============================================================================ */
 (function (global) {
   "use strict";
@@ -48,6 +45,46 @@
   function clean(s) { return D ? D.clean(s) : esc(s); }
   function cleanML(s) { return D ? D.cleanMultiline(s) : esc(s); }
 
+
+  // ---- the plain layer (three records so far) -------------------------------
+  var PLAIN = {
+    "EEA-SOC-01": {
+      says: [
+        "In the world humans evolved in, people were known in rings, each about three times the size of the one inside: about 5 to lean on, 15 whose loss would hurt deeply, a camp of about 50, and about 150 known personally.",
+        "Today a person can have hundreds or thousands of contacts, and the inner rings stay just as small."
+      ],
+      why: "The rings hold up in modern network data. The exact sizes are disputed, 150 most of all, so read them as rough."
+    },
+    "EEA-CARE-01": {
+      says: [
+        "In the world humans evolved in, a baby was cared for by many people: the father, grandmothers, aunts, older brothers and sisters, and trusted people outside the family.",
+        "The modern household leaves that work to one or two adults. That is a shortage of hands, and no failure of the parents."
+      ],
+      why: "Separate field teams saw many people caring for babies in forager groups from the Hadza to the Aka. How much of the care came from others varied a lot. The idea that humans are cooperative breeders, and the calorie argument behind it, are Sarah Hrdy's reading. The label does not cover them."
+    },
+    "EEA-DIET-02": {
+      says: [
+        "Ancestral food was full of fiber and bulk and slow to eat, so feeling full kept pace with the calories eaten.",
+        "Ultra-processed food is built to the levels of sugar, fat and salt that make people crave it most, with the fiber stripped out, so people keep eating after the body would have stopped them."
+      ],
+      why: "The modern half rests on Michael Moss's reporting from inside the food industry. The ancestral half rests on reconstructions, and the ancestral fiber figure (100 to 150 grams a day, against about 20 today) is disputed."
+    }
+  };
+  var HOW_TO_READ = "How to read this card: EEA means the world humans evolved in. The label says how well the ancestral picture was tested. Below are the ancestral picture, today's, the gap between them, and the findings behind it.";
+
+  function plainBlock(p) {
+    var pl = PLAIN[p.code];
+    if (!pl) return "";
+    var l = label(p.evidence_grade);
+    var says = pl.says.map(function (t) { return esc(t); }).join(" ");
+    return '<div class="pv-plain">' +
+      '<p class="pv-says">' + says + "</p>" +
+      '<p class="pv-why"><b class="pv-lab pv-lab--' + esc(GRADE_TIER[l] || "neutral") + '">' + esc(l.charAt(0).toUpperCase() + l.slice(1)) + ".</b> " + esc(pl.why) + "</p>" +
+      '<p class="pv-how">' + esc(HOW_TO_READ) + "</p>" +
+      "</div>" +
+      '<p class="pv-detail-h">The detail</p>';
+  }
+
   function gradeBadge(grade) {
     var l = label(grade);
     var tier = GRADE_TIER[l] || "neutral";
@@ -60,7 +97,7 @@
       if (X && typeof X.chip === "function") return X.chip(c);
       return '<span class="xref">' + esc(c) + "</span>";
     }).join("");
-    return '<div class="gap-mechs">' + chips + "</div>";
+    return '<div class="gap-mechs"><span class="pv-mechs-k">Systems involved</span>' + chips + "</div>";
   }
 
   // eea_value (object|null) -> a compact mono block (pretty JSON), or "".
@@ -68,8 +105,8 @@
     if (v == null || (typeof v === "object" && !Object.keys(v).length)) return "";
     var json;
     try { json = JSON.stringify(v, null, 2); } catch (e) { return ""; }
-    return '<div class="gap-row"><div class="gap-k">EEA value</div>' +
-      '<div class="gap-v"><pre class="gap-json">' + esc(json) + "</pre></div></div>";
+    return '<details class="pv-fold"><summary>Raw data</summary>' +
+      '<pre class="gap-json">' + esc(json) + "</pre></details>";
   }
 
   function evidenceBlock(ev) {
@@ -87,8 +124,8 @@
         : (e.content ? '<span class="gap-snippet">' + clean(e.content) + "</span>" : "");
       return '<li class="gap-ev"><span class="gap-ev-meta">' + meta + "</span>" + quote + "</li>";
     }).join("");
-    return '<div class="gap-row"><div class="gap-k">Evidence (' + ev.length + ')</div>' +
-      '<div class="gap-v"><ul class="gap-ev-list">' + items + "</ul></div></div>";
+    return '<details class="pv-fold"><summary>The ' + ev.length + (ev.length === 1 ? " finding" : " findings") + ' behind this record</summary>' +
+      '<ul class="gap-ev-list">' + items + "</ul></details>";
   }
 
   function row(k, v) {
@@ -97,11 +134,27 @@
       '<div class="gap-v">' + cleanML(v) + "</div></div>";
   }
 
+  // Confidence note: the rubric-v2 line stays in view; the v1 history folds.
+  function confidence(p) {
+    var note = p.confidence_note;
+    if (!note || !String(note).trim()) return "";
+    var parts = String(note).split(/\n\s*\n(?=Earlier grading notes)/);
+    var current = /^Grade, rubric v2/.test(parts[0]) ? parts[0] : "";
+    var older = current ? parts.slice(1).join("\n\n") : String(note);
+    var out = "";
+    if (current) out += '<div class="gap-row gap-row--conf"><div class="gap-k">Why this label</div><div class="gap-v">' + cleanML(current) + "</div></div>";
+    if (older) out += '<details class="pv-fold"><summary>' + (current ? "Earlier grading notes" : "Grading notes") + "</summary>" +
+      '<div class="pv-fold-txt">' + cleanML(older) + "</div></details>";
+    return out;
+  }
+
   function card(p) {
-    var contested = p.contested
+    var l = label(p.evidence_grade);
+    var contested = (p.contested && l !== "contested")
       ? '<span class="gap-contested" title="genuinely disputed in the literature">contested</span>'
       : "";
-    return '<article class="gap-card" id="' + esc(p.code) + '">' +
+    var isPlain = !!PLAIN[p.code];
+    return '<article class="gap-card"' + (isPlain ? ' data-plain="1"' : "") + ' id="' + esc(p.code) + '">' +
       '<header class="gap-card-head">' +
         '<div class="gap-card-h">' +
           '<h3 class="gap-card-title">' + clean(p.name) + "</h3>" +
@@ -109,13 +162,14 @@
         "</div>" +
         '<div class="gap-card-badges">' + gradeBadge(p.evidence_grade) + contested + "</div>" +
       "</header>" +
+      plainBlock(p) +
       mechChips(p.mechanism_codes) +
-      row("EEA baseline", p.eea_baseline) +
-      valueBlock(p.eea_value) +
-      row("Modern default", p.modern_default) +
+      row("How humans lived", p.eea_baseline) +
+      row("How humans live now", p.modern_default) +
       row("The gap", p.gap_statement) +
-      row("Resolution unit", p.resolution_unit) +
-      (p.confidence_note ? '<div class="gap-row gap-row--conf"><div class="gap-k">Confidence</div><div class="gap-v">' + cleanML(p.confidence_note) + "</div></div>" : "") +
+      row("What counts", p.resolution_unit) +
+      confidence(p) +
+      valueBlock(p.eea_value) +
       evidenceBlock(p.evidence) +
       "</article>";
   }
@@ -175,6 +229,11 @@
         "</section>";
     }).join("");
     body.innerHTML = html;
+    // The cards render after load, so the browser cannot jump to #EEA-... by
+    // itself (the live page is pre-rendered and can). Jump once they exist.
+    var id = decodeURIComponent((global.location.hash || "").slice(1));
+    var target = id && document.getElementById(id);
+    if (target) target.scrollIntoView({ block: "start" });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render);
