@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-19T03:47:59.828942+00:00",
+    "built_at": "2026-11-19T14:34:04.481084+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -1670,29 +1670,6 @@
         "created_at": "2026-04-04T19:14:56.174226+00:00"
       },
       {
-        "id": 7,
-        "code": "C7",
-        "name": "Adverse Experience Cascading Dose-Response",
-        "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation.",
-        "independent_literatures": [
-          "Felitti ACE Study clinical epidemiology",
-          "McEwen allostatic load neuroendocrinology",
-          "Panksepp cross-system inhibition affective neuroscience"
-        ],
-        "supporting_extractions": [
-          53,
-          54,
-          56,
-          57,
-          58,
-          59,
-          10
-        ],
-        "forces_mechanism": null,
-        "epistemic_grade": "forced",
-        "created_at": "2026-04-04T19:14:56.174226+00:00"
-      },
-      {
         "id": 8,
         "code": "C8",
         "name": "Error Management Asymmetry in Defensive Systems",
@@ -1781,6 +1758,29 @@
         "created_at": "2026-04-04T19:14:56.174226+00:00"
       },
       {
+        "id": 7,
+        "code": "C7",
+        "name": "Adverse Experience Cascading Dose-Response",
+        "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it.",
+        "independent_literatures": [
+          "Felitti ACE Study clinical epidemiology",
+          "McEwen allostatic load neuroendocrinology",
+          "Panksepp cross-system inhibition affective neuroscience"
+        ],
+        "supporting_extractions": [
+          53,
+          54,
+          56,
+          57,
+          58,
+          59,
+          10
+        ],
+        "forces_mechanism": null,
+        "epistemic_grade": "forced",
+        "created_at": "2026-04-04T19:14:56.174226+00:00"
+      },
+      {
         "id": 10,
         "code": "C10",
         "name": "Threat-Detection via Ancient Subcortical Circuits",
@@ -1820,27 +1820,6 @@
         ],
         "forces_mechanism": "M11",
         "epistemic_grade": "strongly_supported",
-        "created_at": "2026-04-04T19:14:56.174226+00:00"
-      },
-      {
-        "id": 12,
-        "code": "C12",
-        "name": "Developmental Calibration within Evolved Ranges",
-        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure.",
-        "independent_literatures": [
-          "Bowlby attachment developmental calibration",
-          "McEwen HPA-axis neuroendocrinology",
-          "Felitti ACE Study clinical developmental epidemiology"
-        ],
-        "supporting_extractions": [
-          12,
-          13,
-          56,
-          57,
-          53
-        ],
-        "forces_mechanism": null,
-        "epistemic_grade": "forced",
         "created_at": "2026-04-04T19:14:56.174226+00:00"
       },
       {
@@ -1931,6 +1910,27 @@
           8,
           11,
           49
+        ],
+        "forces_mechanism": null,
+        "epistemic_grade": "forced",
+        "created_at": "2026-04-04T19:14:56.174226+00:00"
+      },
+      {
+        "id": 12,
+        "code": "C12",
+        "name": "Developmental Calibration within Evolved Ranges",
+        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it.",
+        "independent_literatures": [
+          "Bowlby attachment developmental calibration",
+          "McEwen HPA-axis neuroendocrinology",
+          "Felitti ACE Study clinical developmental epidemiology"
+        ],
+        "supporting_extractions": [
+          12,
+          13,
+          56,
+          57,
+          53
         ],
         "forces_mechanism": null,
         "epistemic_grade": "forced",
@@ -61719,6 +61719,42 @@
         "isbn": null,
         "in_physical_collection": false,
         "url": "corpus.html#w=987"
+      },
+      {
+        "id": 993,
+        "tier": "background",
+        "title": "Increased carrying reduces infant crying: a randomized controlled trial",
+        "authors": "Hunziker UA, Barr RG",
+        "year": 1986,
+        "work_type": "paper",
+        "journal": "Pediatrics",
+        "container": null,
+        "volume": "77",
+        "issue": "5",
+        "pages": "641-8",
+        "doi": null,
+        "pmid": "3517799",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=993"
+      },
+      {
+        "id": 994,
+        "tier": "background",
+        "title": "Borderline Personality Disorder: Treatment and Management",
+        "authors": "National Collaborating Centre for Mental Health (UK)",
+        "year": 2009,
+        "work_type": "book",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": "21796831",
+        "isbn": "978-1-85433-477-0",
+        "in_physical_collection": false,
+        "url": "corpus.html#w=994"
       }
     ],
     "extractions": [
@@ -65577,6 +65613,22 @@
         "evidence_quality": "thin",
         "tier": "background",
         "url": "corpus.html#e=1814"
+      },
+      {
+        "id": 1823,
+        "work_id": 993,
+        "grade": "contested",
+        "evidence_quality": "contested",
+        "tier": "background",
+        "url": "corpus.html#e=1823"
+      },
+      {
+        "id": 1824,
+        "work_id": 994,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1824"
       }
     ]
   }
