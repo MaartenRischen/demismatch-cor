@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-20T04:26:39.738395+00:00",
+    "built_at": "2026-11-20T10:37:35.755926+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 572,
-    "extractions": 1399,
+    "works": 608,
+    "extractions": 1470,
     "researchers": 84,
-    "mechanism_evidence": 1620,
+    "mechanism_evidence": 1677,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -22,7 +22,7 @@
     "parameter_evidence": 294,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 208
+    "challenges": 228
   },
   "tables": {
     "foundations": [
@@ -13725,6 +13725,726 @@
         "issue": "3-4",
         "pages": "259-282",
         "url": "corpus.html#w=1041"
+      },
+      {
+        "id": 1043,
+        "title": "Nature calls: intelligence and natural foraging style predict poor welfare in captive parrots",
+        "authors": "Mellor EL, McDonald Kinkaid HK, Mendl MT, Cuthill IC, van Zeeland YRA, Mason GJ",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2021.1952",
+        "pmid": "34610768",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "288",
+        "issue": "1960",
+        "pages": null,
+        "url": "corpus.html#w=1043"
+      },
+      {
+        "id": 1044,
+        "title": "Efficacy of foraging enrichments to increase foraging time in Grey parrots (Psittacus erithacus erithacus)",
+        "authors": "van Zeeland YRA, Schoemaker NJ, Ravesteijn MM, Mol M, Lumeij JT",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2013.09.005",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "149",
+        "issue": "1-4",
+        "pages": "87-102",
+        "url": "corpus.html#w=1044"
+      },
+      {
+        "id": 1045,
+        "title": "Increasing foraging times with appetitive and consummatory foraging enrichment in grey parrots (Psittacus erithacus)",
+        "authors": "Beekmans MHC, Vinke CM, Maijer A, de Haan I, Schoemaker NJ, Rodenburg TB, Kooistra HS, van Zeeland YRA",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2023.105986",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "265",
+        "issue": null,
+        "pages": "105986",
+        "url": "corpus.html#w=1045"
+      },
+      {
+        "id": 1046,
+        "title": "Extraction without tooling around: the first comprehensive description of the foraging- and socio-ecology of wild Goffin's cockatoos (Cacatua goffiniana)",
+        "authors": "O'Hara M, Mioduszewska B, Haryoko T, Prawiradilaga DM, Huber L, Auersperg A",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1163/1568539X-00003523",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behaviour",
+        "container": null,
+        "volume": "156",
+        "issue": "5-8",
+        "pages": "661-690",
+        "url": "corpus.html#w=1046"
+      },
+      {
+        "id": 1047,
+        "title": "Contrafreeloading in kea (Nestor notabilis) in comparison to Grey parrots (Psittacus erithacus)",
+        "authors": "Smith GE, Bastos APM, Chodorow M, Taylor AH, Pepperberg IM",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-022-21370-6",
+        "pmid": "36258015",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "12",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1047"
+      },
+      {
+        "id": 1049,
+        "title": "An association between feather damaging behavior and corticosterone metabolite excretion in captive African grey parrots (Psittacus erithacus)",
+        "authors": "Costa P, Macchi E, Valle E, De Marco M, Nucera DM, Gasco L, Schiavone A",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.7717/peerj.2462",
+        "pmid": "27672512",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PeerJ",
+        "container": null,
+        "volume": "4",
+        "issue": null,
+        "pages": "e2462",
+        "url": "corpus.html#w=1049"
+      },
+      {
+        "id": 1054,
+        "title": "Characterization of a Jumping Stereotypy in Gerbils (Meriones unguiculatus) and Assessment of Opaque Tubing Enrichment on Stereotypies and Breeding",
+        "authors": "Habenicht LM, Staley AW, Clancy BM, Bozan S, Manuel CA, Fong DL, Nicklawsky AG, Klug A, Leszczynski JK",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.30802/AALAS-JAALAS-21-000101",
+        "pmid": "35140007",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of the American Association for Laboratory Animal Science",
+        "container": null,
+        "volume": "61",
+        "issue": "2",
+        "pages": "149-158",
+        "url": "corpus.html#w=1054"
+      },
+      {
+        "id": 1058,
+        "title": "Housing and husbandry conditions affect stereotypic behaviour in laboratory gerbils",
+        "authors": "Waiblinger E, Konig B",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "19835062",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "ALTEX",
+        "container": null,
+        "volume": "24 Spec No",
+        "issue": null,
+        "pages": "67-9",
+        "url": "corpus.html#w=1058"
+      },
+      {
+        "id": 1059,
+        "title": "The effect of different working definitions on behavioral research involving stereotypies in Mongolian gerbils (Meriones unguiculatus)",
+        "authors": "Moons CP, Breugelmans S, Cassiman N, Kalmar ID, Peremans K, Hermans K, Odberg FO",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "22776116",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of the American Association for Laboratory Animal Science : JAALAS",
+        "container": null,
+        "volume": "51",
+        "issue": "2",
+        "pages": "170-6",
+        "url": "corpus.html#w=1059"
+      },
+      {
+        "id": 1060,
+        "title": "Relatedness and spatial distance modulate intergroup interactions: experimental evidence from a social rodent",
+        "authors": "Deng K, Liu W, Wang DH",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/cz/zoy082",
+        "pmid": "31616483",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Current Zoology",
+        "container": null,
+        "volume": "65",
+        "issue": "5",
+        "pages": "527-534",
+        "url": "corpus.html#w=1060"
+      },
+      {
+        "id": 1061,
+        "title": "Light pollution disrupts sleep in free-living animals",
+        "authors": "Raap T, Pinxten R, Eens M",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/srep13557",
+        "pmid": "26337732",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "5",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1061"
+      },
+      {
+        "id": 1062,
+        "title": "Do Wild Great Tits Avoid Exposure to Light at Night?",
+        "authors": "de Jong M, Ouyang JQ, van Grunsven RHA, Visser ME, Spoelstra K",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0157357",
+        "pmid": "27355354",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS ONE",
+        "container": null,
+        "volume": "11",
+        "issue": "6",
+        "pages": "e0157357",
+        "url": "corpus.html#w=1062"
+      },
+      {
+        "id": 1063,
+        "title": "The preference and costs of sleeping under light at night in forest and urban great tits",
+        "authors": "Ulgezen ZN, Kapyla T, Meerlo P, Spoelstra K, Visser ME, Dominoni DM",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2019.0872",
+        "pmid": "31213184",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "286",
+        "issue": "1905",
+        "pages": "20190872",
+        "url": "corpus.html#w=1063"
+      },
+      {
+        "id": 1065,
+        "title": "Effects of nocturnal illumination on life-history decisions and fitness in two wild songbird species",
+        "authors": "de Jong M, Ouyang JQ, Da Silva A, van Grunsven RHA, Kempenaers B, Visser ME, Spoelstra K",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rstb.2014.0128",
+        "pmid": "25780240",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "370",
+        "issue": "1667",
+        "pages": "20140128",
+        "url": "corpus.html#w=1065"
+      },
+      {
+        "id": 1066,
+        "title": "Does light pollution alter daylength? A test using light loggers on free-ranging European blackbirds (Turdus merula)",
+        "authors": "Dominoni DM, Partecke J",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rstb.2014.0118",
+        "pmid": "25780232",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "370",
+        "issue": "1667",
+        "pages": "20140118",
+        "url": "corpus.html#w=1066"
+      },
+      {
+        "id": 1071,
+        "title": "A phantom road experiment reveals traffic noise is an invisible source of habitat degradation",
+        "authors": "Ware HE, McClure CJW, Carlisle JD, Barber JR",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1504710112",
+        "pmid": "26324924",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "112",
+        "issue": "39",
+        "pages": "12105-12109",
+        "url": "corpus.html#w=1071"
+      },
+      {
+        "id": 1072,
+        "title": "An experimental investigation into the effects of traffic noise on distributions of birds: avoiding the phantom road",
+        "authors": "McClure CJW, Ware HE, Carlisle J, Kaltenecker G, Barber JR",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2013.2290",
+        "pmid": "24197411",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "280",
+        "issue": "1773",
+        "pages": "20132290",
+        "url": "corpus.html#w=1072"
+      },
+      {
+        "id": 1073,
+        "title": "When the birds go unheard: highway noise disrupts information transfer between bird species",
+        "authors": "Grade AM, Sieving KE",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsbl.2016.0113",
+        "pmid": "27095267",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biology Letters",
+        "container": null,
+        "volume": "12",
+        "issue": "4",
+        "pages": "20160113",
+        "url": "corpus.html#w=1073"
+      },
+      {
+        "id": 1074,
+        "title": "Traffic noise drowns out great tit alarm calls",
+        "authors": "Templeton CN, Zollinger SA, Brumm H",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.cub.2016.09.058",
+        "pmid": "27875691",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Current Biology",
+        "container": null,
+        "volume": "26",
+        "issue": "22",
+        "pages": "R1173-R1174",
+        "url": "corpus.html#w=1074"
+      },
+      {
+        "id": 1076,
+        "title": "Anthropogenic noise affects risk assessment and attention: the distracted prey hypothesis",
+        "authors": "Chan AA, Giraldo-Perez P, Smith S, Blumstein DT",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsbl.2009.1081",
+        "pmid": "20164080",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biology Letters",
+        "container": null,
+        "volume": "6",
+        "issue": "4",
+        "pages": "458-461",
+        "url": "corpus.html#w=1076"
+      },
+      {
+        "id": 1078,
+        "title": "Noisy anthropogenic infrastructure interferes with alarm responses in Savannah sparrows (Passerculus sandwichensis)",
+        "authors": "Antze B, Koper N",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsos.172168",
+        "pmid": "29892404",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Royal Society Open Science",
+        "container": null,
+        "volume": "5",
+        "issue": "5",
+        "pages": "172168",
+        "url": "corpus.html#w=1078"
+      },
+      {
+        "id": 1079,
+        "title": "Effects of ambient noise on zebra finch vigilance and foraging efficiency",
+        "authors": "Evans JC, Dall SRX, Kight CR",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0209471",
+        "pmid": "30596692",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS ONE",
+        "container": null,
+        "volume": "13",
+        "issue": "12",
+        "pages": "e0209471",
+        "url": "corpus.html#w=1079"
+      },
+      {
+        "id": 1080,
+        "title": "Welfare of pigs on farm",
+        "authors": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al",
+        "year": 2022,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2903/j.efsa.2022.7421",
+        "pmid": "36034323",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "EFSA Journal",
+        "container": null,
+        "volume": "20",
+        "issue": "8",
+        "pages": null,
+        "url": "corpus.html#w=1080"
+      },
+      {
+        "id": 1081,
+        "title": "Phasing out pig tail docking in the EU: present state, challenges and possibilities",
+        "authors": "De Briyne N, Berg C, Blaha T, Palzer A, Temple D",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/s40813-018-0103-8",
+        "pmid": "30473870",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Porcine Health Management",
+        "container": null,
+        "volume": "4",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1081"
+      },
+      {
+        "id": 1082,
+        "title": "A longitudinal study of the effects of providing straw at different stages of life on tail-biting and other behaviour in commercially housed pigs",
+        "authors": "Statham P, Green L, Mendl M",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2011.08.009",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "134",
+        "issue": "3-4",
+        "pages": "100-108",
+        "url": "corpus.html#w=1082"
+      },
+      {
+        "id": 1083,
+        "title": "Effects of Early and Current Environmental Enrichment on Behavior and Growth in Pigs",
+        "authors": "Luo L, Reimert I, Middelkoop A, Kemp B, Bolhuis JE",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fvets.2020.00268",
+        "pmid": "32582773",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Veterinary Science",
+        "container": null,
+        "volume": "7",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1083"
+      },
+      {
+        "id": 1088,
+        "title": "Environmental and Management Factors Affecting the Time Budgets of Free-Ranging Iberian Pigs Reared in Spain",
+        "authors": "Martinez-Macipe M, Mainau E, Manteca X, Dalmau A",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3390/ani10050798",
+        "pmid": "32380690",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animals",
+        "container": null,
+        "volume": "10",
+        "issue": "5",
+        "pages": "798",
+        "url": "corpus.html#w=1088"
+      },
+      {
+        "id": 1089,
+        "title": "On the rewarding nature of appetitive feeding behaviour in pigs (Sus scrofa): Do domesticated pigs contrafreeload?",
+        "authors": "de Jonge FH, Tilly SL, Baars AM, Spruijt BM",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2008.03.006",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "114",
+        "issue": "3-4",
+        "pages": "359-372",
+        "url": "corpus.html#w=1089"
+      },
+      {
+        "id": 1090,
+        "title": "Frustrations of fur-farmed mink",
+        "authors": "Mason GJ, Cooper J, Clarebrough C",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/35065157",
+        "pmid": "11242031",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature",
+        "container": null,
+        "volume": "410",
+        "issue": "6824",
+        "pages": "35-36",
+        "url": "corpus.html#w=1090"
+      },
+      {
+        "id": 1091,
+        "title": "To swim or not to swim: an interpretation of farmed mink's motivation for a water bath",
+        "authors": "Vinke CM, Hansen SW, Mononen J, Korhonen H, Cooper JJ, Mohaibes M, Bakken M, Spruijt BM",
+        "year": 2008,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2008.02.006",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "111",
+        "issue": "1-2",
+        "pages": "1-27",
+        "url": "corpus.html#w=1091"
+      },
+      {
+        "id": 1092,
+        "title": "The use of operant technology to measure behavioral priorities in captive animals",
+        "authors": "Cooper JJ, Mason GJ",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3758/BF03195397",
+        "pmid": "11591075",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behavior Research Methods, Instruments, & Computers",
+        "container": null,
+        "volume": "33",
+        "issue": "3",
+        "pages": "427-434",
+        "url": "corpus.html#w=1092"
+      },
+      {
+        "id": 1093,
+        "title": "Is out of sight out of mind? The effects of resource cues on motivation in mink, Mustela vison",
+        "authors": "Warburton H, Mason G",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1006/anbe.2003.2097",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animal Behaviour",
+        "container": null,
+        "volume": "65",
+        "issue": "4",
+        "pages": "755-762",
+        "url": "corpus.html#w=1093"
+      },
+      {
+        "id": 1094,
+        "title": "Increasing costs of access to resources cause re-scheduling of behaviour in American mink (Mustela vison): implications for the assessment of behavioural priorities",
+        "authors": "Cooper JJ, Mason GJ",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0168-1591(99)00069-6",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "66",
+        "issue": "1-2",
+        "pages": "135-151",
+        "url": "corpus.html#w=1094"
+      },
+      {
+        "id": 1095,
+        "title": "Anticipatory behaviour and stereotypical behaviour in farmed mink (Mustela vison) in the presence, absence and after the removal of swimming water",
+        "authors": "Vinke CM, Houx BB, Van Den Bos R, Spruijt BM",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2005.04.022",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "96",
+        "issue": "1-2",
+        "pages": "129-142",
+        "url": "corpus.html#w=1095"
+      },
+      {
+        "id": 1097,
+        "title": "Dive performance in a small-bodied, semi-aquatic mammal in the wild",
+        "authors": "Harrington LA, Hays GC, Fasola L, Harrington AL, Righton D, Macdonald DW",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1644/10-MAMM-A-351.1",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Mammalogy",
+        "container": null,
+        "volume": "93",
+        "issue": "1",
+        "pages": "198-210",
+        "url": "corpus.html#w=1097"
+      },
+      {
+        "id": 1098,
+        "title": "Welfare of American mink, red and Arctic foxes, raccoon dog and chinchilla kept for fur production",
+        "authors": "EFSA Panel on Animal Health and Animal Welfare (AHAW), Nielsen SS, Alvarez J, Boklund AE, Dippel S, et al",
+        "year": 2025,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2903/j.efsa.2025.9519",
+        "pmid": "40741366",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "EFSA Journal",
+        "container": null,
+        "volume": "23",
+        "issue": "7",
+        "pages": null,
+        "url": "corpus.html#w=1098"
       }
     ],
     "extractions": [
@@ -16434,11 +17154,10 @@
         "url": "corpus.html#e=537"
       },
       {
-        "id": 538,
+        "id": 540,
         "work_id": 81,
         "mechanism_codes": [
-          "M3",
-          "M1"
+          "R1"
         ],
         "foundation_codes": [
           "DA2"
@@ -16447,7 +17166,7 @@
         "source_type": "primary",
         "tier": "core",
         "grade": "seen in animals",
-        "url": "corpus.html#e=538"
+        "url": "corpus.html#e=540"
       },
       {
         "id": 539,
@@ -16464,21 +17183,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=539"
-      },
-      {
-        "id": 540,
-        "work_id": 81,
-        "mechanism_codes": [
-          "R1"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=540"
       },
       {
         "id": 598,
@@ -30033,6 +30737,22 @@
         "url": "corpus.html#e=1503"
       },
       {
+        "id": 538,
+        "work_id": 81,
+        "mechanism_codes": [
+          "M3",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=538"
+      },
+      {
         "id": 1505,
         "work_id": 790,
         "mechanism_codes": [],
@@ -34701,6 +35421,1065 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=1913"
+      },
+      {
+        "id": 1915,
+        "work_id": 1043,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1915"
+      },
+      {
+        "id": 1916,
+        "work_id": 1043,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1916"
+      },
+      {
+        "id": 1917,
+        "work_id": 1043,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1917"
+      },
+      {
+        "id": 1918,
+        "work_id": 1044,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1918"
+      },
+      {
+        "id": 1919,
+        "work_id": 1044,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1919"
+      },
+      {
+        "id": 1920,
+        "work_id": 1044,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1920"
+      },
+      {
+        "id": 1921,
+        "work_id": 1045,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1921"
+      },
+      {
+        "id": 1922,
+        "work_id": 1045,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1922"
+      },
+      {
+        "id": 1923,
+        "work_id": 1046,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1923"
+      },
+      {
+        "id": 1924,
+        "work_id": 1047,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1924"
+      },
+      {
+        "id": 1925,
+        "work_id": 1047,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1925"
+      },
+      {
+        "id": 1927,
+        "work_id": 1049,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1927"
+      },
+      {
+        "id": 1928,
+        "work_id": 1049,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1928"
+      },
+      {
+        "id": 1933,
+        "work_id": 1054,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1933"
+      },
+      {
+        "id": 1934,
+        "work_id": 1054,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1934"
+      },
+      {
+        "id": 1938,
+        "work_id": 1058,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1938"
+      },
+      {
+        "id": 1939,
+        "work_id": 1058,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1939"
+      },
+      {
+        "id": 1940,
+        "work_id": 1059,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1940"
+      },
+      {
+        "id": 1941,
+        "work_id": 1059,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1941"
+      },
+      {
+        "id": 1942,
+        "work_id": 1059,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1942"
+      },
+      {
+        "id": 1943,
+        "work_id": 1060,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1943"
+      },
+      {
+        "id": 1944,
+        "work_id": 1061,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1944"
+      },
+      {
+        "id": 1945,
+        "work_id": 1061,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1945"
+      },
+      {
+        "id": 1946,
+        "work_id": 1061,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1946"
+      },
+      {
+        "id": 1947,
+        "work_id": 1062,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1947"
+      },
+      {
+        "id": 1948,
+        "work_id": 1062,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1948"
+      },
+      {
+        "id": 1949,
+        "work_id": 1063,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1949"
+      },
+      {
+        "id": 1950,
+        "work_id": 1063,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1950"
+      },
+      {
+        "id": 1952,
+        "work_id": 1065,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1952"
+      },
+      {
+        "id": 1953,
+        "work_id": 1066,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1953"
+      },
+      {
+        "id": 1954,
+        "work_id": 1066,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1954"
+      },
+      {
+        "id": 1959,
+        "work_id": 1071,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1959"
+      },
+      {
+        "id": 1960,
+        "work_id": 1071,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1960"
+      },
+      {
+        "id": 1961,
+        "work_id": 1072,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1961"
+      },
+      {
+        "id": 1962,
+        "work_id": 1073,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1962"
+      },
+      {
+        "id": 1963,
+        "work_id": 1073,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1963"
+      },
+      {
+        "id": 1964,
+        "work_id": 1074,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1964"
+      },
+      {
+        "id": 1966,
+        "work_id": 1076,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1966"
+      },
+      {
+        "id": 1968,
+        "work_id": 1078,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1968"
+      },
+      {
+        "id": 1969,
+        "work_id": 1078,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1969"
+      },
+      {
+        "id": 1970,
+        "work_id": 1079,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1970"
+      },
+      {
+        "id": 1971,
+        "work_id": 1080,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1971"
+      },
+      {
+        "id": 1972,
+        "work_id": 1080,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1972"
+      },
+      {
+        "id": 1973,
+        "work_id": 1080,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1973"
+      },
+      {
+        "id": 1974,
+        "work_id": 1080,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1974"
+      },
+      {
+        "id": 1975,
+        "work_id": 1080,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1975"
+      },
+      {
+        "id": 1976,
+        "work_id": 1080,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1976"
+      },
+      {
+        "id": 1977,
+        "work_id": 1081,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1977"
+      },
+      {
+        "id": 1978,
+        "work_id": 1082,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1978"
+      },
+      {
+        "id": 1979,
+        "work_id": 1082,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1979"
+      },
+      {
+        "id": 1980,
+        "work_id": 1083,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1980"
+      },
+      {
+        "id": 1981,
+        "work_id": 1083,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1981"
+      },
+      {
+        "id": 1986,
+        "work_id": 1088,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1986"
+      },
+      {
+        "id": 1987,
+        "work_id": 1088,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1987"
+      },
+      {
+        "id": 1988,
+        "work_id": 1089,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1988"
+      },
+      {
+        "id": 1989,
+        "work_id": 1089,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1989"
+      },
+      {
+        "id": 1990,
+        "work_id": 1090,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1990"
+      },
+      {
+        "id": 1991,
+        "work_id": 1090,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1991"
+      },
+      {
+        "id": 1992,
+        "work_id": 1091,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA7"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1992"
+      },
+      {
+        "id": 1993,
+        "work_id": 1091,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1993"
+      },
+      {
+        "id": 1994,
+        "work_id": 1091,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1994"
+      },
+      {
+        "id": 1995,
+        "work_id": 1091,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1995"
+      },
+      {
+        "id": 1996,
+        "work_id": 1092,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1996"
+      },
+      {
+        "id": 1997,
+        "work_id": 1093,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1997"
+      },
+      {
+        "id": 1998,
+        "work_id": 1094,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1998"
+      },
+      {
+        "id": 1999,
+        "work_id": 1095,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1999"
+      },
+      {
+        "id": 2001,
+        "work_id": 1097,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2001"
+      },
+      {
+        "id": 2002,
+        "work_id": 1097,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2002"
+      },
+      {
+        "id": 2003,
+        "work_id": 1098,
+        "mechanism_codes": [
+          "M2",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2003"
+      },
+      {
+        "id": 2004,
+        "work_id": 1098,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=2004"
+      },
+      {
+        "id": 2005,
+        "work_id": 1098,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2005"
       }
     ],
     "researchers": [
@@ -37077,6 +38856,228 @@
         "evidence_role": "primary"
       },
       {
+        "id": 2140,
+        "mechanism_code": "M2",
+        "extraction_id": 1915,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2141,
+        "mechanism_code": "M2",
+        "extraction_id": 1916,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2142,
+        "mechanism_code": "M2",
+        "extraction_id": 1917,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2143,
+        "mechanism_code": "M2",
+        "extraction_id": 1918,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2144,
+        "mechanism_code": "M2",
+        "extraction_id": 1919,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2145,
+        "mechanism_code": "M3",
+        "extraction_id": 1920,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2146,
+        "mechanism_code": "M2",
+        "extraction_id": 1921,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2147,
+        "mechanism_code": "M2",
+        "extraction_id": 1922,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2148,
+        "mechanism_code": "M2",
+        "extraction_id": 1923,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2149,
+        "mechanism_code": "M2",
+        "extraction_id": 1924,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2150,
+        "mechanism_code": "M2",
+        "extraction_id": 1925,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2155,
+        "mechanism_code": "M7",
+        "extraction_id": 1944,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2156,
+        "mechanism_code": "M7",
+        "extraction_id": 1945,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2157,
+        "mechanism_code": "M7",
+        "extraction_id": 1946,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2158,
+        "mechanism_code": "M7",
+        "extraction_id": 1947,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2159,
+        "mechanism_code": "M7",
+        "extraction_id": 1948,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2160,
+        "mechanism_code": "M7",
+        "extraction_id": 1949,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2161,
+        "mechanism_code": "M7",
+        "extraction_id": 1950,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2164,
+        "mechanism_code": "M7",
+        "extraction_id": 1953,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2165,
+        "mechanism_code": "M7",
+        "extraction_id": 1954,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2170,
+        "mechanism_code": "M1",
+        "extraction_id": 1959,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2171,
+        "mechanism_code": "M1",
+        "extraction_id": 1960,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2172,
+        "mechanism_code": "M1",
+        "extraction_id": 1962,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2173,
+        "mechanism_code": "M1",
+        "extraction_id": 1963,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2174,
+        "mechanism_code": "M1",
+        "extraction_id": 1964,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2176,
+        "mechanism_code": "M1",
+        "extraction_id": 1966,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2178,
+        "mechanism_code": "M1",
+        "extraction_id": 1968,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2179,
+        "mechanism_code": "M1",
+        "extraction_id": 1969,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2180,
+        "mechanism_code": "M1",
+        "extraction_id": 1970,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2181,
+        "mechanism_code": "M2",
+        "extraction_id": 1971,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2182,
+        "mechanism_code": "M2",
+        "extraction_id": 1972,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2183,
+        "mechanism_code": "M2",
+        "extraction_id": 1975,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2184,
+        "mechanism_code": "M2",
+        "extraction_id": 1976,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2185,
+        "mechanism_code": "M2",
+        "extraction_id": 1978,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2186,
+        "mechanism_code": "M2",
+        "extraction_id": 1979,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2187,
+        "mechanism_code": "M2",
+        "extraction_id": 1980,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2188,
+        "mechanism_code": "M2",
+        "extraction_id": 1981,
+        "evidence_role": "primary"
+      },
+      {
         "id": 241,
         "mechanism_code": "M10",
         "extraction_id": 207,
@@ -37452,6 +39453,126 @@
         "id": 1888,
         "mechanism_code": "M5",
         "extraction_id": 1605,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2193,
+        "mechanism_code": "M2",
+        "extraction_id": 1986,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2194,
+        "mechanism_code": "M2",
+        "extraction_id": 1987,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2195,
+        "mechanism_code": "M2",
+        "extraction_id": 1988,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2196,
+        "mechanism_code": "M2",
+        "extraction_id": 1989,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2197,
+        "mechanism_code": "M2",
+        "extraction_id": 1990,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2198,
+        "mechanism_code": "M2",
+        "extraction_id": 1991,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2199,
+        "mechanism_code": "M2",
+        "extraction_id": 1992,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2200,
+        "mechanism_code": "M2",
+        "extraction_id": 1993,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2201,
+        "mechanism_code": "M2",
+        "extraction_id": 1994,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2202,
+        "mechanism_code": "M2",
+        "extraction_id": 1995,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2203,
+        "mechanism_code": "M2",
+        "extraction_id": 1996,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2204,
+        "mechanism_code": "M2",
+        "extraction_id": 1997,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2205,
+        "mechanism_code": "M2",
+        "extraction_id": 1998,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2206,
+        "mechanism_code": "M2",
+        "extraction_id": 1999,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2208,
+        "mechanism_code": "M2",
+        "extraction_id": 2001,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2209,
+        "mechanism_code": "M2",
+        "extraction_id": 2002,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2210,
+        "mechanism_code": "M2",
+        "extraction_id": 2003,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2211,
+        "mechanism_code": "M10",
+        "extraction_id": 2003,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2212,
+        "mechanism_code": "M2",
+        "extraction_id": 2004,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2213,
+        "mechanism_code": "M2",
+        "extraction_id": 2005,
         "evidence_role": "challenging"
       },
       {
@@ -46452,7 +48573,7 @@
             "evidence_role": "supporting",
             "author_quote": "contact comfort is a variable of overwhelming importance in the development of affectional response, whereas lactation is a variable of negligible importance.",
             "evidence_quality": "cross_species",
-            "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. No measurable difference between cloth-fed and wire-fed gro"
+            "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. The hours are read off the paper's graphs (Figures 5 and 6)"
           },
           {
             "extraction_id": 618,
@@ -55798,25 +57919,386 @@
         "foundation_codes": [
           "DA4"
         ]
+      },
+      {
+        "id": 1917,
+        "extraction_id": 1917,
+        "work_id": 1043,
+        "title": "Nature calls: intelligence and natural foraging style predict poor welfare in captive parrots",
+        "content": "Nature calls: intelligence and natural foraging style predict poor welfare in captive parrots",
+        "citation": "Mellor EL, McDonald Kinkaid HK, Mendl MT, Cuthill IC, van Zeeland YRA, Mason GJ, 2021",
+        "authors": "Mellor EL, McDonald Kinkaid HK, Mendl MT, Cuthill IC, van Zeeland YRA, Mason GJ",
+        "year": 2021,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1920,
+        "extraction_id": 1920,
+        "work_id": 1044,
+        "title": "Efficacy of foraging enrichments to increase foraging time in Grey parrots (Psittacus erithacus erithacus)",
+        "content": "Efficacy of foraging enrichments to increase foraging time in Grey parrots (Psittacus erithacus erithacus)",
+        "citation": "van Zeeland YRA, Schoemaker NJ, Ravesteijn MM, Mol M, Lumeij JT, 2013",
+        "authors": "van Zeeland YRA, Schoemaker NJ, Ravesteijn MM, Mol M, Lumeij JT",
+        "year": 2013,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1924,
+        "extraction_id": 1924,
+        "work_id": 1047,
+        "title": "Contrafreeloading in kea (Nestor notabilis) in comparison to Grey parrots (Psittacus erithacus)",
+        "content": "Contrafreeloading in kea (Nestor notabilis) in comparison to Grey parrots (Psittacus erithacus)",
+        "citation": "Smith GE, Bastos APM, Chodorow M, Taylor AH, Pepperberg IM, 2022",
+        "authors": "Smith GE, Bastos APM, Chodorow M, Taylor AH, Pepperberg IM",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 1934,
+        "extraction_id": 1934,
+        "work_id": 1054,
+        "title": "Characterization of a Jumping Stereotypy in Gerbils (Meriones unguiculatus) and Assessment of Opaque Tubing Enrichment on Stereotypies and Breeding",
+        "content": "Characterization of a Jumping Stereotypy in Gerbils (Meriones unguiculatus) and Assessment of Opaque Tubing Enrichment on Stereotypies and Breeding",
+        "citation": "Habenicht LM, Staley AW, Clancy BM, Bozan S, Manuel CA, Fong DL, Nicklawsky AG, Klug A, Leszczynski JK, 2022",
+        "authors": "Habenicht LM, Staley AW, Clancy BM, Bozan S, Manuel CA, Fong DL, Nicklawsky AG, Klug A, Leszczynski JK",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1939,
+        "extraction_id": 1939,
+        "work_id": 1058,
+        "title": "Housing and husbandry conditions affect stereotypic behaviour in laboratory gerbils",
+        "content": "Housing and husbandry conditions affect stereotypic behaviour in laboratory gerbils",
+        "citation": "Waiblinger E, Konig B, 2007",
+        "authors": "Waiblinger E, Konig B",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1947,
+        "extraction_id": 1947,
+        "work_id": 1062,
+        "title": "Do Wild Great Tits Avoid Exposure to Light at Night?",
+        "content": "Do Wild Great Tits Avoid Exposure to Light at Night?",
+        "citation": "de Jong M, Ouyang JQ, van Grunsven RHA, Visser ME, Spoelstra K, 2016",
+        "authors": "de Jong M, Ouyang JQ, van Grunsven RHA, Visser ME, Spoelstra K",
+        "year": 2016,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1948,
+        "extraction_id": 1948,
+        "work_id": 1062,
+        "title": "Do Wild Great Tits Avoid Exposure to Light at Night?",
+        "content": "Do Wild Great Tits Avoid Exposure to Light at Night?",
+        "citation": "de Jong M, Ouyang JQ, van Grunsven RHA, Visser ME, Spoelstra K, 2016",
+        "authors": "de Jong M, Ouyang JQ, van Grunsven RHA, Visser ME, Spoelstra K",
+        "year": 2016,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1949,
+        "extraction_id": 1949,
+        "work_id": 1063,
+        "title": "The preference and costs of sleeping under light at night in forest and urban great tits",
+        "content": "The preference and costs of sleeping under light at night in forest and urban great tits",
+        "citation": "Ulgezen ZN, Kapyla T, Meerlo P, Spoelstra K, Visser ME, Dominoni DM, 2019",
+        "authors": "Ulgezen ZN, Kapyla T, Meerlo P, Spoelstra K, Visser ME, Dominoni DM",
+        "year": 2019,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1952,
+        "extraction_id": 1952,
+        "work_id": 1065,
+        "title": "Effects of nocturnal illumination on life-history decisions and fitness in two wild songbird species",
+        "content": "Effects of nocturnal illumination on life-history decisions and fitness in two wild songbird species",
+        "citation": "de Jong M, Ouyang JQ, Da Silva A, van Grunsven RHA, Kempenaers B, Visser ME, Spoelstra K, 2015",
+        "authors": "de Jong M, Ouyang JQ, Da Silva A, van Grunsven RHA, Kempenaers B, Visser ME, Spoelstra K",
+        "year": 2015,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1966,
+        "extraction_id": 1966,
+        "work_id": 1076,
+        "title": "Anthropogenic noise affects risk assessment and attention: the distracted prey hypothesis",
+        "content": "Anthropogenic noise affects risk assessment and attention: the distracted prey hypothesis",
+        "citation": "Chan AA, Giraldo-Perez P, Smith S, Blumstein DT, 2010",
+        "authors": "Chan AA, Giraldo-Perez P, Smith S, Blumstein DT",
+        "year": 2010,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1969,
+        "extraction_id": 1969,
+        "work_id": 1078,
+        "title": "Noisy anthropogenic infrastructure interferes with alarm responses in Savannah sparrows (Passerculus sandwichensis)",
+        "content": "Noisy anthropogenic infrastructure interferes with alarm responses in Savannah sparrows (Passerculus sandwichensis)",
+        "citation": "Antze B, Koper N, 2018",
+        "authors": "Antze B, Koper N",
+        "year": 2018,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1972,
+        "extraction_id": 1972,
+        "work_id": 1080,
+        "title": "Welfare of pigs on farm",
+        "content": "Welfare of pigs on farm",
+        "citation": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al, 2022",
+        "authors": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "cross_species",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1973,
+        "extraction_id": 1973,
+        "work_id": 1080,
+        "title": "Welfare of pigs on farm",
+        "content": "Welfare of pigs on farm",
+        "citation": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al, 2022",
+        "authors": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "cross_species",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1975,
+        "extraction_id": 1975,
+        "work_id": 1080,
+        "title": "Welfare of pigs on farm",
+        "content": "Welfare of pigs on farm",
+        "citation": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al, 2022",
+        "authors": "EFSA Panel on Animal Health and Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, et al",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "cross_species",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1978,
+        "extraction_id": 1978,
+        "work_id": 1082,
+        "title": "A longitudinal study of the effects of providing straw at different stages of life on tail-biting and other behaviour in commercially housed pigs",
+        "content": "A longitudinal study of the effects of providing straw at different stages of life on tail-biting and other behaviour in commercially housed pigs",
+        "citation": "Statham P, Green L, Mendl M, 2011",
+        "authors": "Statham P, Green L, Mendl M",
+        "year": 2011,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1989,
+        "extraction_id": 1989,
+        "work_id": 1089,
+        "title": "On the rewarding nature of appetitive feeding behaviour in pigs (Sus scrofa): Do domesticated pigs contrafreeload?",
+        "content": "On the rewarding nature of appetitive feeding behaviour in pigs (Sus scrofa): Do domesticated pigs contrafreeload?",
+        "citation": "de Jonge FH, Tilly SL, Baars AM, Spruijt BM, 2008",
+        "authors": "de Jonge FH, Tilly SL, Baars AM, Spruijt BM",
+        "year": 2008,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1992,
+        "extraction_id": 1992,
+        "work_id": 1091,
+        "title": "To swim or not to swim: an interpretation of farmed mink's motivation for a water bath",
+        "content": "To swim or not to swim: an interpretation of farmed mink's motivation for a water bath",
+        "citation": "Vinke CM, Hansen SW, Mononen J, Korhonen H, Cooper JJ, Mohaibes M, Bakken M, Spruijt BM, 2008",
+        "authors": "Vinke CM, Hansen SW, Mononen J, Korhonen H, Cooper JJ, Mohaibes M, Bakken M, Spruijt BM",
+        "year": 2008,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA7"
+        ]
+      },
+      {
+        "id": 1994,
+        "extraction_id": 1994,
+        "work_id": 1091,
+        "title": "To swim or not to swim: an interpretation of farmed mink's motivation for a water bath",
+        "content": "To swim or not to swim: an interpretation of farmed mink's motivation for a water bath",
+        "citation": "Vinke CM, Hansen SW, Mononen J, Korhonen H, Cooper JJ, Mohaibes M, Bakken M, Spruijt BM, 2008",
+        "authors": "Vinke CM, Hansen SW, Mononen J, Korhonen H, Cooper JJ, Mohaibes M, Bakken M, Spruijt BM",
+        "year": 2008,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1999,
+        "extraction_id": 1999,
+        "work_id": 1095,
+        "title": "Anticipatory behaviour and stereotypical behaviour in farmed mink (Mustela vison) in the presence, absence and after the removal of swimming water",
+        "content": "Anticipatory behaviour and stereotypical behaviour in farmed mink (Mustela vison) in the presence, absence and after the removal of swimming water",
+        "citation": "Vinke CM, Houx BB, Van Den Bos R, Spruijt BM, 2006",
+        "authors": "Vinke CM, Houx BB, Van Den Bos R, Spruijt BM",
+        "year": 2006,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ]
+      },
+      {
+        "id": 2005,
+        "extraction_id": 2005,
+        "work_id": 1098,
+        "title": "Welfare of American mink, red and Arctic foxes, raccoon dog and chinchilla kept for fur production",
+        "content": "Welfare of American mink, red and Arctic foxes, raccoon dog and chinchilla kept for fur production",
+        "citation": "EFSA Panel on Animal Health and Animal Welfare (AHAW), Nielsen SS, Alvarez J, Boklund AE, Dippel S, et al, 2025",
+        "authors": "EFSA Panel on Animal Health and Animal Welfare (AHAW), Nielsen SS, Alvarez J, Boklund AE, Dippel S, et al",
+        "year": 2025,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
       }
     ]
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 212,
-      "M2": 134,
-      "M3": 319,
+      "M1": 221,
+      "M2": 171,
+      "M3": 320,
       "M4": 94,
       "M9": 95,
       "M14": 142,
       "M11": 162,
       "M5": 157,
       "M13": 59,
-      "M10": 40,
+      "M10": 41,
       "M8": 50,
       "M12": 15,
       "M6": 51,
-      "M7": 58,
+      "M7": 67,
       "R1": 32
     },
     "eea_by_mechanism": {
@@ -64429,6 +66911,366 @@
         "isbn": null,
         "in_physical_collection": false,
         "url": "corpus.html#w=1042"
+      },
+      {
+        "id": 1048,
+        "tier": "background",
+        "title": "Initial evidence for eliciting contrafreeloading in grey parrots (Psittacus erithacus) via the opportunity for playful foraging",
+        "authors": "Smith GE, Greene D, Hartsfield LA, Pepperberg IM",
+        "year": 2021,
+        "work_type": "paper",
+        "journal": "Journal of Comparative Psychology",
+        "container": null,
+        "volume": "135",
+        "issue": "4",
+        "pages": "516-533",
+        "doi": "10.1037/com0000295",
+        "pmid": "34460277",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1048"
+      },
+      {
+        "id": 1050,
+        "tier": "background",
+        "title": "Nonmedical factors associated with feather picking in pet psittacine birds",
+        "authors": "Gaskins LA, Hungerford L",
+        "year": 2014,
+        "work_type": "paper",
+        "journal": "Journal of Avian Medicine and Surgery",
+        "container": null,
+        "volume": "28",
+        "issue": "2",
+        "pages": "109-117",
+        "doi": "10.1647/2012-073R",
+        "pmid": "25115039",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1050"
+      },
+      {
+        "id": 1051,
+        "tier": "background",
+        "title": "Feather-damaging behaviour in companion parrots: an initial analysis of potential demographic risk factors",
+        "authors": "McDonald Kinkaid HY, Mills DS, Nichols SG, Meagher RK, Mason GJ",
+        "year": 2013,
+        "work_type": "paper",
+        "journal": "Avian Biology Research",
+        "container": null,
+        "volume": "6",
+        "issue": "4",
+        "pages": "289-296",
+        "doi": "10.3184/175815513X13803574144572",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1051"
+      },
+      {
+        "id": 1052,
+        "tier": "background",
+        "title": "Environmental enrichment and development of cage stereotypy in Orange-winged Amazon parrots (Amazona amazonica)",
+        "authors": "Meehan CL, Garner JP, Mench JA",
+        "year": 2004,
+        "work_type": "paper",
+        "journal": "Developmental Psychobiology",
+        "container": null,
+        "volume": "44",
+        "issue": "4",
+        "pages": "209-218",
+        "doi": "10.1002/dev.20007",
+        "pmid": "15103731",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1052"
+      },
+      {
+        "id": 1053,
+        "tier": "background",
+        "title": "Effects of foraging enrichment on the behaviour of parrots",
+        "authors": "Coulton LE, Waran NK, Young RJ",
+        "year": 1997,
+        "work_type": "paper",
+        "journal": "Animal Welfare",
+        "container": null,
+        "volume": "6",
+        "issue": "4",
+        "pages": "357-363",
+        "doi": "10.1017/S0962728600020066",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1053"
+      },
+      {
+        "id": 1055,
+        "tier": "background",
+        "title": "Causation of the ontogenetic development of stereotypic digging in gerbils",
+        "authors": "Wiedenmayer C",
+        "year": 1997,
+        "work_type": "paper",
+        "journal": "Animal Behaviour",
+        "container": null,
+        "volume": "53",
+        "issue": "3",
+        "pages": "461-470",
+        "doi": "10.1006/anbe.1996.0296",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1055"
+      },
+      {
+        "id": 1056,
+        "tier": "background",
+        "title": "Stereotypies resulting from a deviation in the ontogenetic development of gerbils",
+        "authors": "Wiedenmayer C",
+        "year": 1997,
+        "work_type": "paper",
+        "journal": "Behavioural Processes",
+        "container": null,
+        "volume": "39",
+        "issue": "3",
+        "pages": "215-221",
+        "doi": "10.1016/S0376-6357(96)00751-6",
+        "pmid": "24897327",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1056"
+      },
+      {
+        "id": 1057,
+        "tier": "background",
+        "title": "Refinement of gerbil housing and husbandry in the laboratory",
+        "authors": "Waiblinger E, Konig B",
+        "year": 2004,
+        "work_type": "paper",
+        "journal": "Animal Welfare",
+        "container": null,
+        "volume": "13",
+        "issue": "S1",
+        "pages": "S229-S235",
+        "doi": "10.1017/S0962728600014640",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1057"
+      },
+      {
+        "id": 1064,
+        "tier": "background",
+        "title": "Restless roosts: Light pollution affects behavior, sleep, and physiology in a free-living songbird",
+        "authors": "Ouyang JQ, de Jong M, van Grunsven RHA, Matson KD, Haussmann MF, Meerlo P, Visser ME, Spoelstra K",
+        "year": 2017,
+        "work_type": "paper",
+        "journal": "Global Change Biology",
+        "container": null,
+        "volume": "23",
+        "issue": "11",
+        "pages": "4987-4994",
+        "doi": "10.1111/gcb.13756",
+        "pmid": "28597541",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1064"
+      },
+      {
+        "id": 1067,
+        "tier": "background",
+        "title": "Artificial light at night disrupts sleep in female great tits (Parus major) during the nestling period, and is followed by a sleep rebound",
+        "authors": "Raap T, Pinxten R, Eens M",
+        "year": 2016,
+        "work_type": "paper",
+        "journal": "Environmental Pollution",
+        "container": null,
+        "volume": "215",
+        "issue": null,
+        "pages": "125-134",
+        "doi": "10.1016/j.envpol.2016.04.100",
+        "pmid": "27179331",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1067"
+      },
+      {
+        "id": 1068,
+        "tier": "background",
+        "title": "Cavities shield birds from effects of artificial light at night on sleep",
+        "authors": "Raap T, Pinxten R, Eens M",
+        "year": 2018,
+        "work_type": "paper",
+        "journal": "Journal of Experimental Zoology Part A: Ecological and Integrative Physiology",
+        "container": null,
+        "volume": "329",
+        "issue": "8-9",
+        "pages": "449-456",
+        "doi": "10.1002/jez.2174",
+        "pmid": "29781104",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1068"
+      },
+      {
+        "id": 1069,
+        "tier": "background",
+        "title": "Anthropogenic noise and light pollution additively affect sleep behaviour in free-living birds in sex- and season-dependent fashions",
+        "authors": "Grunst AS, Grunst ML, Raap T, Pinxten R, Eens M",
+        "year": 2023,
+        "work_type": "paper",
+        "journal": "Environmental Pollution",
+        "container": null,
+        "volume": "316",
+        "issue": null,
+        "pages": "120426",
+        "doi": "10.1016/j.envpol.2022.120426",
+        "pmid": "36273698",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1069"
+      },
+      {
+        "id": 1070,
+        "tier": "background",
+        "title": "Artificial Night Lighting Affects Dawn Song, Extra-Pair Siring Success, and Lay Date in Songbirds",
+        "authors": "Kempenaers B, Borgstrom P, Loes P, Schlicht E, Valcu M",
+        "year": 2010,
+        "work_type": "paper",
+        "journal": "Current Biology",
+        "container": null,
+        "volume": "20",
+        "issue": "19",
+        "pages": "1735-1739",
+        "doi": "10.1016/j.cub.2010.08.028",
+        "pmid": "20850324",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1070"
+      },
+      {
+        "id": 1075,
+        "tier": "background",
+        "title": "Noise, predation risk compensation and vigilance in the chaffinch Fringilla coelebs",
+        "authors": "Quinn JL, Whittingham MJ, Butler SJ, Cresswell W",
+        "year": 2006,
+        "work_type": "paper",
+        "journal": "Journal of Avian Biology",
+        "container": null,
+        "volume": "37",
+        "issue": "6",
+        "pages": "601-608",
+        "doi": "10.1111/j.2006.0908-8857.03781.x",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1075"
+      },
+      {
+        "id": 1077,
+        "tier": "background",
+        "title": "A synthesis of two decades of research documenting the effects of noise on wildlife",
+        "authors": "Shannon G, McKenna MF, Angeloni LM, Crooks KR, Fristrup KM, Brown E, Warner KA, Nelson MD, White C, Briggs J, McFarland S, Wittemyer G",
+        "year": 2016,
+        "work_type": "review",
+        "journal": "Biological Reviews",
+        "container": null,
+        "volume": "91",
+        "issue": "4",
+        "pages": "982-1005",
+        "doi": "10.1111/brv.12207",
+        "pmid": "26118691",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1077"
+      },
+      {
+        "id": 1084,
+        "tier": "background",
+        "title": "The behaviour of pigs in a semi-natural environment",
+        "authors": "Stolba A, Wood-Gush DGM",
+        "year": 1989,
+        "work_type": "paper",
+        "journal": "Animal Science",
+        "container": null,
+        "volume": "48",
+        "issue": "2",
+        "pages": "419-425",
+        "doi": "10.1017/S0003356100040411",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1084"
+      },
+      {
+        "id": 1085,
+        "tier": "background",
+        "title": "Injurious tail biting in pigs: how can it be controlled in existing systems without tail docking?",
+        "authors": "D'Eath RB, Arnott G, Turner SP, Jensen T, Lahrmann HP, Busch ME, Niemi JK, Lawrence AB, Sandoe P",
+        "year": 2014,
+        "work_type": "review",
+        "journal": "Animal",
+        "container": null,
+        "volume": "8",
+        "issue": "9",
+        "pages": "1479-1497",
+        "doi": "10.1017/S1751731114001359",
+        "pmid": "25130712",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1085"
+      },
+      {
+        "id": 1086,
+        "tier": "background",
+        "title": "Tail-biting: a new perspective",
+        "authors": "Taylor NR, Main DC, Mendl M, Edwards SA",
+        "year": 2010,
+        "work_type": "review",
+        "journal": "The Veterinary Journal",
+        "container": null,
+        "volume": "186",
+        "issue": "2",
+        "pages": "137-147",
+        "doi": "10.1016/j.tvjl.2009.08.028",
+        "pmid": "19804997",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1086"
+      },
+      {
+        "id": 1087,
+        "tier": "background",
+        "title": "Tail biting in pigs",
+        "authors": "Schroder-Petersen DL, Simonsen HB",
+        "year": 2001,
+        "work_type": "review",
+        "journal": "The Veterinary Journal",
+        "container": null,
+        "volume": "162",
+        "issue": "3",
+        "pages": "196-210",
+        "doi": "10.1053/tvjl.2001.0605",
+        "pmid": "11681870",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1087"
+      },
+      {
+        "id": 1096,
+        "tier": "background",
+        "title": "Water baths for farmed mink: intra-individual consistency and inter-individual variation in swimming behaviour, and effects on stereotyped behaviour",
+        "authors": "Mononen J, Mohaibes M, Savolainen S",
+        "year": 2008,
+        "work_type": "paper",
+        "journal": "Agricultural and Food Science",
+        "container": null,
+        "volume": "17",
+        "issue": "1",
+        "pages": "41",
+        "doi": "10.2137/145960608784182254",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1096"
       }
     ],
     "extractions": [
@@ -68463,6 +71305,166 @@
         "evidence_quality": "thin",
         "tier": "background",
         "url": "corpus.html#e=1914"
+      },
+      {
+        "id": 1926,
+        "work_id": 1048,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1926"
+      },
+      {
+        "id": 1929,
+        "work_id": 1050,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1929"
+      },
+      {
+        "id": 1930,
+        "work_id": 1051,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1930"
+      },
+      {
+        "id": 1931,
+        "work_id": 1052,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1931"
+      },
+      {
+        "id": 1932,
+        "work_id": 1053,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1932"
+      },
+      {
+        "id": 1935,
+        "work_id": 1055,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1935"
+      },
+      {
+        "id": 1936,
+        "work_id": 1056,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1936"
+      },
+      {
+        "id": 1937,
+        "work_id": 1057,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1937"
+      },
+      {
+        "id": 1951,
+        "work_id": 1064,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1951"
+      },
+      {
+        "id": 1955,
+        "work_id": 1067,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1955"
+      },
+      {
+        "id": 1956,
+        "work_id": 1068,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1956"
+      },
+      {
+        "id": 1957,
+        "work_id": 1069,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1957"
+      },
+      {
+        "id": 1958,
+        "work_id": 1070,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1958"
+      },
+      {
+        "id": 1965,
+        "work_id": 1075,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1965"
+      },
+      {
+        "id": 1967,
+        "work_id": 1077,
+        "grade": "tested many times",
+        "evidence_quality": "meta_analysis",
+        "tier": "background",
+        "url": "corpus.html#e=1967"
+      },
+      {
+        "id": 1982,
+        "work_id": 1084,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1982"
+      },
+      {
+        "id": 1983,
+        "work_id": 1085,
+        "grade": "seen in animals",
+        "evidence_quality": "cross_species",
+        "tier": "background",
+        "url": "corpus.html#e=1983"
+      },
+      {
+        "id": 1984,
+        "work_id": 1086,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1984"
+      },
+      {
+        "id": 1985,
+        "work_id": 1087,
+        "grade": "argued, not yet tested",
+        "evidence_quality": "theoretical",
+        "tier": "background",
+        "url": "corpus.html#e=1985"
+      },
+      {
+        "id": 2000,
+        "work_id": 1096,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=2000"
       }
     ]
   }

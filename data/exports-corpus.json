@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-20T04:26:39.738395+00:00",
+    "source_built_at": "2026-11-20T10:37:35.755926+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 572,
-    "extractions": 1399,
+    "works": 608,
+    "extractions": 1470,
     "researchers": 84,
-    "mechanism_evidence": 1620,
+    "mechanism_evidence": 1677,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 294,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 208
+    "challenges": 228
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -458,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 212,
+        "link_count": 221,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 134,
+        "link_count": 171,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 319,
+        "link_count": 320,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -1052,7 +1052,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 58,
+        "link_count": 67,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1372,7 +1372,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 40,
+        "link_count": 41,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -4468,7 +4468,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "cross_species",
             "author_quote": "contact comfort is a variable of overwhelming importance in the development of affectional response, whereas lactation is a variable of negligible importance.",
-            "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. No measurable difference between cloth-fed and wire-fed gro"
+            "content": "Contact comfort overwhelms lactation as determinant of infant attachment. Infant rhesus monkeys spent 17-18 hours/day on cloth-covered surrogate mother vs ~1 hour on wire mother, regardless of which mother provided milk. The hours are read off the paper's graphs (Figures 5 and 6)"
           },
           {
             "extraction_id": 618,
