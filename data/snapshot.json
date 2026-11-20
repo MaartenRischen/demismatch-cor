@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-19T14:34:04.481084+00:00",
+    "built_at": "2026-11-20T04:26:39.738395+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 543,
-    "extractions": 1329,
+    "works": 572,
+    "extractions": 1399,
     "researchers": 84,
-    "mechanism_evidence": 1544,
+    "mechanism_evidence": 1620,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -22,7 +22,7 @@
     "parameter_evidence": 294,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 196
+    "challenges": 208
   },
   "tables": {
     "foundations": [
@@ -13145,6 +13145,586 @@
         "issue": "1",
         "pages": "12-23",
         "url": "corpus.html#w=990"
+      },
+      {
+        "id": 995,
+        "title": "Captivity effects on wide-ranging carnivores",
+        "authors": "Clubb R, Mason G",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/425473a",
+        "pmid": "14523435",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature",
+        "container": null,
+        "volume": "425",
+        "issue": "6957",
+        "pages": "473-474",
+        "url": "corpus.html#w=995"
+      },
+      {
+        "id": 996,
+        "title": "Natural behavioural biology as a risk factor in carnivore welfare: How analysing species differences could help zoos improve enclosures",
+        "authors": "Clubb R, Mason GJ",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2006.05.033",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "102",
+        "issue": "3-4",
+        "pages": "303-328",
+        "url": "corpus.html#w=996"
+      },
+      {
+        "id": 997,
+        "title": "Stereotypic route tracing in captive Carnivora is predicted by species-typical home range sizes and hunting styles",
+        "authors": "Kroshko J, Clubb R, Harper L, Mellor E, Moehrenschlager A, Mason G",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.anbehav.2016.05.010",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animal Behaviour",
+        "container": null,
+        "volume": "117",
+        "issue": null,
+        "pages": "197-209",
+        "url": "corpus.html#w=997"
+      },
+      {
+        "id": 998,
+        "title": "The welfare problems of wide-ranging Carnivora reflect naturally itinerant lifestyles",
+        "authors": "Bandeli M, Mellor EL, Kroshko J, Maherali H, Mason GJ",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsos.230437",
+        "pmid": "37680500",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Royal Society Open Science",
+        "container": null,
+        "volume": "10",
+        "issue": "9",
+        "pages": null,
+        "url": "corpus.html#w=998"
+      },
+      {
+        "id": 999,
+        "title": "Population substructure and space use of Foxe Basin polar bears",
+        "authors": "Sahanatien V, Peacock E, Derocher AE",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ece3.1571",
+        "pmid": "26306171",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ecology and Evolution",
+        "container": null,
+        "volume": "5",
+        "issue": "14",
+        "pages": "2851-2864",
+        "url": "corpus.html#w=999"
+      },
+      {
+        "id": 1001,
+        "title": "A critical review of animal-based welfare indicators for polar bears (Ursus maritimus) in zoos: Identification and evidence of validity",
+        "authors": "Skovlund CR, Kirchner MK, Moos LW, Alsted N, Manteca X, Tallo-Parra O, Stelvig M, Forkman B",
+        "year": 2021,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.7120/09627286.30.1.001",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animal Welfare",
+        "container": null,
+        "volume": "30",
+        "issue": "1",
+        "pages": "1-18",
+        "url": "corpus.html#w=1001"
+      },
+      {
+        "id": 1004,
+        "title": "Can't stop, won't stop: is stereotypy a reliable animal welfare indicator?",
+        "authors": "Mason GJ, Latham NR",
+        "year": 2004,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S096272860001438X",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animal Welfare",
+        "container": null,
+        "volume": "13",
+        "issue": "S1",
+        "pages": "S57-S69",
+        "url": "corpus.html#w=1004"
+      },
+      {
+        "id": 1005,
+        "title": "The neurobiology of social play and its rewarding value in rats",
+        "authors": "Vanderschuren LJMJ, Achterberg EJM, Trezza V",
+        "year": 2016,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.neubiorev.2016.07.025",
+        "pmid": "27587003",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "container": null,
+        "volume": "70",
+        "issue": null,
+        "pages": "86-105",
+        "url": "corpus.html#w=1005"
+      },
+      {
+        "id": 1006,
+        "title": "Methylphenidate disrupts social play behavior in adolescent rats",
+        "authors": "Vanderschuren LJMJ, Trezza V, Griffioen-Roose S, Schiepers OJG, Van Leeuwen N, De Vries TJ, Schoffelmeer ANM",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/npp.2008.10",
+        "pmid": "18305462",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuropsychopharmacology",
+        "container": null,
+        "volume": "33",
+        "issue": "12",
+        "pages": "2946-2956",
+        "url": "corpus.html#w=1006"
+      },
+      {
+        "id": 1007,
+        "title": "Contrasting roles of dopamine and noradrenaline in the motivational properties of social play behavior in rats",
+        "authors": "Achterberg EJM, van Kerkhof LWM, Servadio M, van Swieten MMH, Houwing DJ, Aalderink M, Driel NV, Trezza V, Vanderschuren LJMJ",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/npp.2015.212",
+        "pmid": "26174597",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuropsychopharmacology",
+        "container": null,
+        "volume": "41",
+        "issue": "3",
+        "pages": "858-868",
+        "url": "corpus.html#w=1007"
+      },
+      {
+        "id": 1008,
+        "title": "Conditioned place preference induced by social play behavior: parametrics, extinction, reinstatement and disruption by methylphenidate",
+        "authors": "Trezza V, Damsteegt R, Vanderschuren LJMJ",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.euroneuro.2009.03.006",
+        "pmid": "19427175",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "European Neuropsychopharmacology",
+        "container": null,
+        "volume": "19",
+        "issue": "9",
+        "pages": "659-669",
+        "url": "corpus.html#w=1008"
+      },
+      {
+        "id": 1009,
+        "title": "Specific 50-kHz vocalizations are tightly linked to particular types of behavior in juvenile rats anticipating play",
+        "authors": "Burke CJ, Kisko TM, Swiftwolfe H, Pellis SM, Euston DR",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0175841",
+        "pmid": "28467436",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS ONE",
+        "container": null,
+        "volume": "12",
+        "issue": "5",
+        "pages": "e0175841",
+        "url": "corpus.html#w=1009"
+      },
+      {
+        "id": 1010,
+        "title": "Who's laughing? Play, tickling and ultrasonic vocalizations in rats",
+        "authors": "Burke CJ, Pellis SM, Achterberg EJM",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rstb.2021.0184",
+        "pmid": "36126668",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Philosophical Transactions of the Royal Society B",
+        "container": null,
+        "volume": "377",
+        "issue": "1863",
+        "pages": null,
+        "url": "corpus.html#w=1010"
+      },
+      {
+        "id": 1011,
+        "title": "Social play behavior is critical for the development of prefrontal inhibitory synapses and cognitive flexibility in rats",
+        "authors": "Bijlsma A, Omrani A, Spoelder M, Verharen JPH, Bauer L, Cornelis C, de Zwart B, van Dorland R, Vanderschuren LJMJ, Wierenga CJ",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1523/JNEUROSCI.0524-22.2022",
+        "pmid": "36253083",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Journal of Neuroscience",
+        "container": null,
+        "volume": "42",
+        "issue": "46",
+        "pages": "8716-8728",
+        "url": "corpus.html#w=1011"
+      },
+      {
+        "id": 1012,
+        "title": "Adverse social experiences in adolescent rats result in enduring effects on social competence, pain sensitivity and endocannabinoid signaling",
+        "authors": "Schneider P, Bindila L, Schmahl C, Bohus M, Meyer-Lindenberg A, Lutz B, Spanagel R, Schneider M",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fnbeh.2016.00203",
+        "pmid": "27812328",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Behavioral Neuroscience",
+        "container": null,
+        "volume": "10",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1012"
+      },
+      {
+        "id": 1013,
+        "title": "Adult-juvenile play fighting in rats: insight into the experiences that facilitate the development of socio-cognitive skills",
+        "authors": "Pellis SM, Williams LA, Pellis VC",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.46867/ijcp.2017.30.00.14",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "International Journal of Comparative Psychology",
+        "container": null,
+        "volume": "30",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1013"
+      },
+      {
+        "id": 1014,
+        "title": "Domestication and the role of social play on the development of sociocognitive skills in rats",
+        "authors": "Pellis SM, Pellis VC, Himmler BT, Modlinska K, Stryjek R, Kolb B, Pisula W",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.46867/ijcp.2019.32.00.17",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "International Journal of Comparative Psychology",
+        "container": null,
+        "volume": "32",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1014"
+      },
+      {
+        "id": 1015,
+        "title": "The social life of Norway rats (Rattus norvegicus)",
+        "authors": "Schweinfurth MK",
+        "year": 2020,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.7554/eLife.54020",
+        "pmid": "32271713",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "eLife",
+        "container": null,
+        "volume": "9",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1015"
+      },
+      {
+        "id": 1016,
+        "title": "The ecology and sociology of the Norway rat",
+        "authors": "Calhoun JB",
+        "year": 1963,
+        "work_type": "book",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.5962/bhl.title.112283",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1016"
+      },
+      {
+        "id": 1027,
+        "title": "Social recovery by isolation-reared monkeys",
+        "authors": "Harlow HF, Suomi SJ",
+        "year": 1971,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.68.7.1534",
+        "pmid": "5283943",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "68",
+        "issue": "7",
+        "pages": "1534-1538",
+        "url": "corpus.html#w=1027"
+      },
+      {
+        "id": 1028,
+        "title": "Primate evidence on the late health effects of early-life adversity",
+        "authors": "Conti G, Hansman C, Heckman JJ, Novak MFX, Ruggiero A, Suomi SJ",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1205340109",
+        "pmid": "22615410",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "109",
+        "issue": "23",
+        "pages": "8866-8871",
+        "url": "corpus.html#w=1028"
+      },
+      {
+        "id": 1029,
+        "title": "Risk factors for stereotypic behavior and self-biting in rhesus macaques (Macaca mulatta): animal's history, current environment, and personality",
+        "authors": "Gottlieb DH, Capitanio JP, McCowan B",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajp.22161",
+        "pmid": "23640705",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Primatology",
+        "container": null,
+        "volume": "75",
+        "issue": "10",
+        "pages": "995-1008",
+        "url": "corpus.html#w=1029"
+      },
+      {
+        "id": 1030,
+        "title": "Physiological and behavioural responses to weaning conflict in free-ranging primate infants",
+        "authors": "Mandalaywala TM, Higham JP, Heistermann M, Parker KJ, Maestripieri D",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.anbehav.2014.09.016",
+        "pmid": "25431499",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animal Behaviour",
+        "container": null,
+        "volume": "97",
+        "issue": null,
+        "pages": "241-247",
+        "url": "corpus.html#w=1030"
+      },
+      {
+        "id": 1031,
+        "title": "Measuring infant attachment security in rhesus macaques (Macaca mulatta): adaptation of the attachment Q-set",
+        "authors": "Warfield JJ, Kondo-Ikemura K, Waters E",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajp.20883",
+        "pmid": "20853398",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Primatology",
+        "container": null,
+        "volume": "73",
+        "issue": "2",
+        "pages": "109-118",
+        "url": "corpus.html#w=1031"
+      },
+      {
+        "id": 1035,
+        "title": "\"Say what?\" Vocalisation as an indicator of welfare in the domestic laying hen",
+        "authors": "Zimmerman PH",
+        "year": 1999,
+        "work_type": "book",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.18174/197713",
+        "pmid": null,
+        "isbn": "90-5808-159-1",
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1035"
+      },
+      {
+        "id": 1038,
+        "title": "The development of egg-laying behaviour and nest-site selection in a strain of white laying hens",
+        "authors": "Rietveld-Piepers B",
+        "year": 1987,
+        "work_type": "book",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.18174/202083",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1038"
+      },
+      {
+        "id": 1039,
+        "title": "Welfare of laying hens on farm",
+        "authors": "EFSA Panel on Animal Health and Animal Welfare (AHAW), Nielsen SS, Alvarez J, Bicout DJ, Calistri P, Canali E, Drewe JA, Garin-Bastuji B, Gonzales Rojas JL, Gortazar Schmidt C, Herskin M, Miranda Chueca MA, Padalino B, Pasquali P, Roberts HC, Spoolder H, Stahl K, Velarde A, Viltrop A, Winckler C, Estevez I, Guinebretiere M, Rodenburg B, Schrader L, Tiemann I, Van Niekerk T, Ardizzone M, Ashe S, Hempen M, Mosbach-Schulz O, Rojo Gimeno C, Van der Stede Y, Vitali M, Michel V",
+        "year": 2023,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2903/j.efsa.2023.7789",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "EFSA Journal",
+        "container": null,
+        "volume": "21",
+        "issue": "2",
+        "pages": null,
+        "url": "corpus.html#w=1039"
+      },
+      {
+        "id": 1040,
+        "title": "Laying hen mortality in different indoor housing systems: a meta-analysis of data from commercial farms in 16 countries",
+        "authors": "Schuck-Paim C, Negro-Calduch E, Alonso WJ",
+        "year": 2021,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-021-81868-3",
+        "pmid": "33542280",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "11",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1040"
+      },
+      {
+        "id": 1041,
+        "title": "Why in earth? Dustbathing behaviour in jungle and domestic fowl reviewed from a Tinbergian and animal welfare perspective",
+        "authors": "Olsson IAS, Keeling LJ",
+        "year": 2005,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.applanim.2004.11.018",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "93",
+        "issue": "3-4",
+        "pages": "259-282",
+        "url": "corpus.html#w=1041"
       }
     ],
     "extractions": [
@@ -15901,23 +16481,6 @@
         "url": "corpus.html#e=540"
       },
       {
-        "id": 541,
-        "work_id": 83,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA2"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=541"
-      },
-      {
         "id": 598,
         "work_id": 115,
         "mechanism_codes": [
@@ -15948,24 +16511,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=190"
-      },
-      {
-        "id": 542,
-        "work_id": 83,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA2",
-          "DA3"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=542"
       },
       {
         "id": 72,
@@ -32879,6 +33424,21 @@
         "url": "corpus.html#e=1821"
       },
       {
+        "id": 1872,
+        "work_id": 1016,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1872"
+      },
+      {
         "id": 1638,
         "work_id": 870,
         "mechanism_codes": [],
@@ -33042,6 +33602,1105 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=53"
+      },
+      {
+        "id": 541,
+        "work_id": 83,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=541"
+      },
+      {
+        "id": 542,
+        "work_id": 83,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2",
+          "DA3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=542"
+      },
+      {
+        "id": 1825,
+        "work_id": 995,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1825"
+      },
+      {
+        "id": 1826,
+        "work_id": 995,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1826"
+      },
+      {
+        "id": 1827,
+        "work_id": 995,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1827"
+      },
+      {
+        "id": 1828,
+        "work_id": 996,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1828"
+      },
+      {
+        "id": 1829,
+        "work_id": 996,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1829"
+      },
+      {
+        "id": 1830,
+        "work_id": 996,
+        "mechanism_codes": [
+          "M2",
+          "M6"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1830"
+      },
+      {
+        "id": 1831,
+        "work_id": 997,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1831"
+      },
+      {
+        "id": 1832,
+        "work_id": 997,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1832"
+      },
+      {
+        "id": 1833,
+        "work_id": 997,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1833"
+      },
+      {
+        "id": 1834,
+        "work_id": 998,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1834"
+      },
+      {
+        "id": 1835,
+        "work_id": 998,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1835"
+      },
+      {
+        "id": 1836,
+        "work_id": 998,
+        "mechanism_codes": [
+          "M2",
+          "M6"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1836"
+      },
+      {
+        "id": 1837,
+        "work_id": 999,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1837"
+      },
+      {
+        "id": 1838,
+        "work_id": 999,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1838"
+      },
+      {
+        "id": 1840,
+        "work_id": 1001,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1840"
+      },
+      {
+        "id": 1841,
+        "work_id": 1001,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1841"
+      },
+      {
+        "id": 1869,
+        "work_id": 1015,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1869"
+      },
+      {
+        "id": 1844,
+        "work_id": 1004,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1844"
+      },
+      {
+        "id": 1845,
+        "work_id": 1004,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4",
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1845"
+      },
+      {
+        "id": 1846,
+        "work_id": 1004,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1846"
+      },
+      {
+        "id": 1847,
+        "work_id": 1005,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1847"
+      },
+      {
+        "id": 1870,
+        "work_id": 1015,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1870"
+      },
+      {
+        "id": 1848,
+        "work_id": 1005,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1848"
+      },
+      {
+        "id": 1849,
+        "work_id": 1005,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1849"
+      },
+      {
+        "id": 1850,
+        "work_id": 1006,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1850"
+      },
+      {
+        "id": 1851,
+        "work_id": 1007,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1851"
+      },
+      {
+        "id": 1852,
+        "work_id": 1007,
+        "mechanism_codes": [
+          "M4",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1852"
+      },
+      {
+        "id": 1853,
+        "work_id": 1008,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1853"
+      },
+      {
+        "id": 1854,
+        "work_id": 1008,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1854"
+      },
+      {
+        "id": 1855,
+        "work_id": 1008,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1855"
+      },
+      {
+        "id": 1856,
+        "work_id": 1009,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1856"
+      },
+      {
+        "id": 1857,
+        "work_id": 1009,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1857"
+      },
+      {
+        "id": 1858,
+        "work_id": 1010,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1858"
+      },
+      {
+        "id": 1859,
+        "work_id": 1010,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1859"
+      },
+      {
+        "id": 1860,
+        "work_id": 1011,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1860"
+      },
+      {
+        "id": 1871,
+        "work_id": 1016,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1871"
+      },
+      {
+        "id": 1861,
+        "work_id": 1011,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1861"
+      },
+      {
+        "id": 1862,
+        "work_id": 1012,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1862"
+      },
+      {
+        "id": 1863,
+        "work_id": 1012,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1863"
+      },
+      {
+        "id": 1864,
+        "work_id": 1013,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1864"
+      },
+      {
+        "id": 1865,
+        "work_id": 1013,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1865"
+      },
+      {
+        "id": 1866,
+        "work_id": 1014,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1866"
+      },
+      {
+        "id": 1867,
+        "work_id": 1014,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1867"
+      },
+      {
+        "id": 1868,
+        "work_id": 1015,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1868"
+      },
+      {
+        "id": 1883,
+        "work_id": 81,
+        "mechanism_codes": [
+          "M3",
+          "M1",
+          "R1"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1883"
+      },
+      {
+        "id": 1884,
+        "work_id": 81,
+        "mechanism_codes": [
+          "M3",
+          "M1",
+          "R1"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1884"
+      },
+      {
+        "id": 1885,
+        "work_id": 81,
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1885"
+      },
+      {
+        "id": 1886,
+        "work_id": 83,
+        "mechanism_codes": [
+          "M3",
+          "M1",
+          "M4"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1886"
+      },
+      {
+        "id": 1887,
+        "work_id": 1027,
+        "mechanism_codes": [
+          "M3",
+          "M4",
+          "R1"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1887"
+      },
+      {
+        "id": 1888,
+        "work_id": 1027,
+        "mechanism_codes": [
+          "M3",
+          "R1",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1888"
+      },
+      {
+        "id": 1889,
+        "work_id": 1028,
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1889"
+      },
+      {
+        "id": 1890,
+        "work_id": 1028,
+        "mechanism_codes": [
+          "M3",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1890"
+      },
+      {
+        "id": 1891,
+        "work_id": 1029,
+        "mechanism_codes": [
+          "M3",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1891"
+      },
+      {
+        "id": 1892,
+        "work_id": 1029,
+        "mechanism_codes": [
+          "M3",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1892"
+      },
+      {
+        "id": 1893,
+        "work_id": 1030,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA6"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1893"
+      },
+      {
+        "id": 1894,
+        "work_id": 1031,
+        "mechanism_codes": [
+          "M3",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1894"
+      },
+      {
+        "id": 1899,
+        "work_id": 1035,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1899"
+      },
+      {
+        "id": 1900,
+        "work_id": 1035,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1900"
+      },
+      {
+        "id": 1901,
+        "work_id": 1035,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1901"
+      },
+      {
+        "id": 1904,
+        "work_id": 1038,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1904"
+      },
+      {
+        "id": 1905,
+        "work_id": 1038,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1905"
+      },
+      {
+        "id": 1906,
+        "work_id": 1038,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1906"
+      },
+      {
+        "id": 1907,
+        "work_id": 1039,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1907"
+      },
+      {
+        "id": 1908,
+        "work_id": 1039,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1908"
+      },
+      {
+        "id": 1909,
+        "work_id": 1039,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1909"
+      },
+      {
+        "id": 1910,
+        "work_id": 1040,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1910"
+      },
+      {
+        "id": 1911,
+        "work_id": 1041,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1911"
+      },
+      {
+        "id": 1912,
+        "work_id": 1041,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1912"
+      },
+      {
+        "id": 1913,
+        "work_id": 1041,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=1913"
       }
     ],
     "researchers": [
@@ -35175,6 +36834,42 @@
         "id": 2044,
         "mechanism_code": "M5",
         "extraction_id": 1822,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2134,
+        "mechanism_code": "M14",
+        "extraction_id": 1899,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2135,
+        "mechanism_code": "M14",
+        "extraction_id": 1901,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2136,
+        "mechanism_code": "M14",
+        "extraction_id": 1904,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2137,
+        "mechanism_code": "M14",
+        "extraction_id": 1905,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2138,
+        "mechanism_code": "M14",
+        "extraction_id": 1906,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2139,
+        "mechanism_code": "M14",
+        "extraction_id": 1907,
         "evidence_role": "primary"
       },
       {
@@ -37872,6 +39567,408 @@
         "evidence_role": "primary"
       },
       {
+        "id": 2046,
+        "mechanism_code": "M2",
+        "extraction_id": 1825,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2047,
+        "mechanism_code": "M2",
+        "extraction_id": 1827,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2048,
+        "mechanism_code": "M2",
+        "extraction_id": 1828,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2049,
+        "mechanism_code": "M2",
+        "extraction_id": 1829,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2050,
+        "mechanism_code": "M2",
+        "extraction_id": 1830,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2051,
+        "mechanism_code": "M6",
+        "extraction_id": 1830,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2052,
+        "mechanism_code": "M2",
+        "extraction_id": 1831,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2053,
+        "mechanism_code": "M2",
+        "extraction_id": 1833,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2054,
+        "mechanism_code": "M2",
+        "extraction_id": 1834,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2055,
+        "mechanism_code": "M2",
+        "extraction_id": 1835,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2056,
+        "mechanism_code": "M2",
+        "extraction_id": 1836,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2057,
+        "mechanism_code": "M6",
+        "extraction_id": 1836,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2058,
+        "mechanism_code": "M2",
+        "extraction_id": 1837,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2059,
+        "mechanism_code": "M2",
+        "extraction_id": 1838,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2063,
+        "mechanism_code": "M4",
+        "extraction_id": 1847,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2064,
+        "mechanism_code": "M4",
+        "extraction_id": 1848,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2065,
+        "mechanism_code": "M4",
+        "extraction_id": 1849,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2066,
+        "mechanism_code": "M4",
+        "extraction_id": 1850,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2067,
+        "mechanism_code": "M4",
+        "extraction_id": 1851,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2068,
+        "mechanism_code": "M4",
+        "extraction_id": 1852,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2069,
+        "mechanism_code": "M2",
+        "extraction_id": 1852,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2070,
+        "mechanism_code": "M4",
+        "extraction_id": 1853,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2071,
+        "mechanism_code": "M4",
+        "extraction_id": 1854,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2072,
+        "mechanism_code": "M4",
+        "extraction_id": 1855,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2073,
+        "mechanism_code": "M4",
+        "extraction_id": 1856,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2074,
+        "mechanism_code": "M4",
+        "extraction_id": 1857,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2075,
+        "mechanism_code": "M4",
+        "extraction_id": 1858,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2076,
+        "mechanism_code": "M4",
+        "extraction_id": 1859,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2077,
+        "mechanism_code": "M4",
+        "extraction_id": 1860,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2078,
+        "mechanism_code": "M4",
+        "extraction_id": 1861,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2079,
+        "mechanism_code": "M4",
+        "extraction_id": 1862,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2080,
+        "mechanism_code": "M4",
+        "extraction_id": 1863,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2081,
+        "mechanism_code": "M4",
+        "extraction_id": 1864,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2082,
+        "mechanism_code": "M4",
+        "extraction_id": 1865,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2083,
+        "mechanism_code": "M4",
+        "extraction_id": 1866,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2084,
+        "mechanism_code": "M4",
+        "extraction_id": 1867,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2085,
+        "mechanism_code": "M3",
+        "extraction_id": 1868,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2086,
+        "mechanism_code": "M4",
+        "extraction_id": 1869,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2087,
+        "mechanism_code": "M3",
+        "extraction_id": 1870,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2088,
+        "mechanism_code": "M4",
+        "extraction_id": 1871,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2089,
+        "mechanism_code": "M4",
+        "extraction_id": 1872,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2100,
+        "mechanism_code": "M3",
+        "extraction_id": 1883,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2101,
+        "mechanism_code": "M1",
+        "extraction_id": 1883,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2102,
+        "mechanism_code": "R1",
+        "extraction_id": 1883,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2103,
+        "mechanism_code": "M3",
+        "extraction_id": 1884,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2104,
+        "mechanism_code": "M1",
+        "extraction_id": 1884,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2105,
+        "mechanism_code": "R1",
+        "extraction_id": 1884,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2106,
+        "mechanism_code": "M3",
+        "extraction_id": 1885,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2107,
+        "mechanism_code": "R1",
+        "extraction_id": 1885,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2108,
+        "mechanism_code": "M3",
+        "extraction_id": 1886,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2109,
+        "mechanism_code": "M1",
+        "extraction_id": 1886,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2110,
+        "mechanism_code": "M4",
+        "extraction_id": 1886,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2111,
+        "mechanism_code": "M3",
+        "extraction_id": 1887,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2112,
+        "mechanism_code": "M4",
+        "extraction_id": 1887,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2113,
+        "mechanism_code": "R1",
+        "extraction_id": 1887,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2114,
+        "mechanism_code": "M3",
+        "extraction_id": 1888,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2115,
+        "mechanism_code": "R1",
+        "extraction_id": 1888,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2116,
+        "mechanism_code": "M9",
+        "extraction_id": 1888,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2117,
+        "mechanism_code": "M3",
+        "extraction_id": 1889,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2118,
+        "mechanism_code": "R1",
+        "extraction_id": 1889,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2119,
+        "mechanism_code": "M3",
+        "extraction_id": 1890,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2120,
+        "mechanism_code": "M8",
+        "extraction_id": 1890,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2121,
+        "mechanism_code": "M3",
+        "extraction_id": 1891,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2122,
+        "mechanism_code": "M10",
+        "extraction_id": 1891,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2123,
+        "mechanism_code": "M3",
+        "extraction_id": 1892,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2124,
+        "mechanism_code": "M10",
+        "extraction_id": 1892,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2125,
+        "mechanism_code": "M3",
+        "extraction_id": 1893,
+        "evidence_role": "primary"
+      },
+      {
         "id": 361,
         "mechanism_code": "M14",
         "extraction_id": 281,
@@ -38319,6 +40416,24 @@
         "id": 2004,
         "mechanism_code": "M14",
         "extraction_id": 1739,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2126,
+        "mechanism_code": "M9",
+        "extraction_id": 1893,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2127,
+        "mechanism_code": "M3",
+        "extraction_id": 1894,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2128,
+        "mechanism_code": "M1",
+        "extraction_id": 1894,
         "evidence_role": "primary"
       },
       {
@@ -53466,26 +55581,243 @@
           "DA10",
           "DA7"
         ]
+      },
+      {
+        "id": 1830,
+        "extraction_id": 1830,
+        "work_id": 996,
+        "title": "Natural behavioural biology as a risk factor in carnivore welfare: How analysing species differences could help zoos improve enclosures",
+        "content": "Natural behavioural biology as a risk factor in carnivore welfare: How analysing species differences could help zoos improve enclosures",
+        "citation": "Clubb R, Mason GJ, 2007",
+        "authors": "Clubb R, Mason GJ",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [
+          "M2",
+          "M6"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1832,
+        "extraction_id": 1832,
+        "work_id": 997,
+        "title": "Stereotypic route tracing in captive Carnivora is predicted by species-typical home range sizes and hunting styles",
+        "content": "Stereotypic route tracing in captive Carnivora is predicted by species-typical home range sizes and hunting styles",
+        "citation": "Kroshko J, Clubb R, Harper L, Mellor E, Moehrenschlager A, Mason G, 2016",
+        "authors": "Kroshko J, Clubb R, Harper L, Mellor E, Moehrenschlager A, Mason G",
+        "year": 2016,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1836,
+        "extraction_id": 1836,
+        "work_id": 998,
+        "title": "The welfare problems of wide-ranging Carnivora reflect naturally itinerant lifestyles",
+        "content": "The welfare problems of wide-ranging Carnivora reflect naturally itinerant lifestyles",
+        "citation": "Bandeli M, Mellor EL, Kroshko J, Maherali H, Mason GJ, 2023",
+        "authors": "Bandeli M, Mellor EL, Kroshko J, Maherali H, Mason GJ",
+        "year": 2023,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2",
+          "M6"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1845,
+        "extraction_id": 1845,
+        "work_id": 1004,
+        "title": "Can't stop, won't stop: is stereotypy a reliable animal welfare indicator?",
+        "content": "Can't stop, won't stop: is stereotypy a reliable animal welfare indicator?",
+        "citation": "Mason GJ, Latham NR, 2004",
+        "authors": "Mason GJ, Latham NR",
+        "year": 2004,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4",
+          "OF2"
+        ]
+      },
+      {
+        "id": 1857,
+        "extraction_id": 1857,
+        "work_id": 1009,
+        "title": "Specific 50-kHz vocalizations are tightly linked to particular types of behavior in juvenile rats anticipating play",
+        "content": "Specific 50-kHz vocalizations are tightly linked to particular types of behavior in juvenile rats anticipating play",
+        "citation": "Burke CJ, Kisko TM, Swiftwolfe H, Pellis SM, Euston DR, 2017",
+        "authors": "Burke CJ, Kisko TM, Swiftwolfe H, Pellis SM, Euston DR",
+        "year": 2017,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 1859,
+        "extraction_id": 1859,
+        "work_id": 1010,
+        "title": "Who's laughing? Play, tickling and ultrasonic vocalizations in rats",
+        "content": "Who's laughing? Play, tickling and ultrasonic vocalizations in rats",
+        "citation": "Burke CJ, Pellis SM, Achterberg EJM, 2022",
+        "authors": "Burke CJ, Pellis SM, Achterberg EJM",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 1866,
+        "extraction_id": 1866,
+        "work_id": 1014,
+        "title": "Domestication and the role of social play on the development of sociocognitive skills in rats",
+        "content": "Domestication and the role of social play on the development of sociocognitive skills in rats",
+        "citation": "Pellis SM, Pellis VC, Himmler BT, Modlinska K, Stryjek R, Kolb B, Pisula W, 2019",
+        "authors": "Pellis SM, Pellis VC, Himmler BT, Modlinska K, Stryjek R, Kolb B, Pisula W",
+        "year": 2019,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 1885,
+        "extraction_id": 1885,
+        "work_id": 81,
+        "title": "The Nature of Love",
+        "content": "The Nature of Love",
+        "citation": "Harlow HF, 1958",
+        "authors": "Harlow HF",
+        "year": 1958,
+        "researcher": "Harlow",
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA4"
+        ]
+      },
+      {
+        "id": 1892,
+        "extraction_id": 1892,
+        "work_id": 1029,
+        "title": "Risk factors for stereotypic behavior and self-biting in rhesus macaques (Macaca mulatta): animal's history, current environment, and personality",
+        "content": "Risk factors for stereotypic behavior and self-biting in rhesus macaques (Macaca mulatta): animal's history, current environment, and personality",
+        "citation": "Gottlieb DH, Capitanio JP, McCowan B, 2013",
+        "authors": "Gottlieb DH, Capitanio JP, McCowan B",
+        "year": 2013,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M3",
+          "M10"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA7"
+        ]
+      },
+      {
+        "id": 1900,
+        "extraction_id": 1900,
+        "work_id": 1035,
+        "title": "\"Say what?\" Vocalisation as an indicator of welfare in the domestic laying hen",
+        "content": "\"Say what?\" Vocalisation as an indicator of welfare in the domestic laying hen",
+        "citation": "Zimmerman PH, 1999",
+        "authors": "Zimmerman PH",
+        "year": 1999,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 1905,
+        "extraction_id": 1905,
+        "work_id": 1038,
+        "title": "The development of egg-laying behaviour and nest-site selection in a strain of white laying hens",
+        "content": "The development of egg-laying behaviour and nest-site selection in a strain of white laying hens",
+        "citation": "Rietveld-Piepers B, 1987",
+        "authors": "Rietveld-Piepers B",
+        "year": 1987,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "P3"
+        ]
+      },
+      {
+        "id": 1912,
+        "extraction_id": 1912,
+        "work_id": 1041,
+        "title": "Why in earth? Dustbathing behaviour in jungle and domestic fowl reviewed from a Tinbergian and animal welfare perspective",
+        "content": "Why in earth? Dustbathing behaviour in jungle and domestic fowl reviewed from a Tinbergian and animal welfare perspective",
+        "citation": "Olsson IAS, Keeling LJ, 2005",
+        "authors": "Olsson IAS, Keeling LJ",
+        "year": 2005,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4"
+        ]
       }
     ]
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 208,
-      "M2": 121,
-      "M3": 305,
-      "M4": 68,
-      "M9": 93,
-      "M14": 136,
+      "M1": 212,
+      "M2": 134,
+      "M3": 319,
+      "M4": 94,
+      "M9": 95,
+      "M14": 142,
       "M11": 162,
       "M5": 157,
       "M13": 59,
-      "M10": 38,
-      "M8": 49,
+      "M10": 40,
+      "M8": 50,
       "M12": 15,
-      "M6": 49,
+      "M6": 51,
       "M7": 58,
-      "R1": 26
+      "R1": 32
     },
     "eea_by_mechanism": {
       "M11": [
@@ -61755,6 +64087,348 @@
         "isbn": "978-1-85433-477-0",
         "in_physical_collection": false,
         "url": "corpus.html#w=994"
+      },
+      {
+        "id": 1000,
+        "tier": "background",
+        "title": "Movements and distribution of polar bears in the Beaufort Sea",
+        "authors": "Amstrup SC, Durner GM, Stirling I, Lunn NJ, Messier F",
+        "year": 2000,
+        "work_type": "paper",
+        "journal": "Canadian Journal of Zoology",
+        "container": null,
+        "volume": "78",
+        "issue": "6",
+        "pages": "948-966",
+        "doi": "10.1139/z00-016",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1000"
+      },
+      {
+        "id": 1002,
+        "tier": "background",
+        "title": "Stereotypies in polar bears",
+        "authors": "Wechsler B",
+        "year": 1991,
+        "work_type": "paper",
+        "journal": "Zoo Biology",
+        "container": null,
+        "volume": "10",
+        "issue": "2",
+        "pages": "177-188",
+        "doi": "10.1002/zoo.1430100209",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1002"
+      },
+      {
+        "id": 1003,
+        "tier": "background",
+        "title": "The management and behaviour of captive polar bears",
+        "authors": "Ames A",
+        "year": 2001,
+        "work_type": "book",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": "10.21954/ou.ro.0000f98a",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1003"
+      },
+      {
+        "id": 1017,
+        "tier": "background",
+        "title": "Involvement of opioid and dopaminergic systems in isolation-induced pinning and social grooming of young rats",
+        "authors": "Niesink RJM, Van Ree JM",
+        "year": 1989,
+        "work_type": "paper",
+        "journal": "Neuropharmacology",
+        "container": null,
+        "volume": "28",
+        "issue": "4",
+        "pages": "411-418",
+        "doi": "10.1016/0028-3908(89)90038-5",
+        "pmid": "2546087",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1017"
+      },
+      {
+        "id": 1018,
+        "tier": "background",
+        "title": "The effects of early social isolation on the motivation for social play in juvenile rats",
+        "authors": "Ikemoto S, Panksepp J",
+        "year": 1992,
+        "work_type": "paper",
+        "journal": "Developmental Psychobiology",
+        "container": null,
+        "volume": "25",
+        "issue": "4",
+        "pages": "261-274",
+        "doi": "10.1002/dev.420250404",
+        "pmid": "1624056",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1018"
+      },
+      {
+        "id": 1019,
+        "tier": "background",
+        "title": "Place conditioning reveals the rewarding aspect of social interaction in juvenile rats",
+        "authors": "Calcagnetti DJ, Schechter MD",
+        "year": 1992,
+        "work_type": "paper",
+        "journal": "Physiology & Behavior",
+        "container": null,
+        "volume": "51",
+        "issue": "4",
+        "pages": "667-672",
+        "doi": "10.1016/0031-9384(92)90101-7",
+        "pmid": "1594664",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1019"
+      },
+      {
+        "id": 1020,
+        "tier": "background",
+        "title": "Anticipation of play elicits high-frequency ultrasonic vocalizations in young rats",
+        "authors": "Knutson B, Burgdorf J, Panksepp J",
+        "year": 1998,
+        "work_type": "paper",
+        "journal": "Journal of Comparative Psychology",
+        "container": null,
+        "volume": "112",
+        "issue": "1",
+        "pages": "65-73",
+        "doi": "10.1037/0735-7036.112.1.65",
+        "pmid": "9528115",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1020"
+      },
+      {
+        "id": 1021,
+        "tier": "background",
+        "title": "Isolation during the play period in infancy decreases adult social interactions in rats",
+        "authors": "Hol T, Van den Berg CL, Van Ree JM, Spruijt BM",
+        "year": 1999,
+        "work_type": "paper",
+        "journal": "Behavioural Brain Research",
+        "container": null,
+        "volume": "100",
+        "issue": "1-2",
+        "pages": "91-97",
+        "doi": "10.1016/S0166-4328(98)00116-8",
+        "pmid": "10212056",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1021"
+      },
+      {
+        "id": 1022,
+        "tier": "background",
+        "title": "Play is indispensable for an adequate development of coping with social challenges in the rat",
+        "authors": "van den Berg CL, Hol T, Van Ree JM, Spruijt BM, Everts H, Koolhaas JM",
+        "year": 1999,
+        "work_type": "paper",
+        "journal": "Developmental Psychobiology",
+        "container": null,
+        "volume": "34",
+        "issue": "2",
+        "pages": "129-138",
+        "doi": "10.1002/(SICI)1098-2302(199903)34:2<129::AID-DEV6>3.0.CO;2-L",
+        "pmid": "10086231",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1022"
+      },
+      {
+        "id": 1023,
+        "tier": "background",
+        "title": "A critical period for social isolation in the rat",
+        "authors": "Einon DF, Morgan MJ",
+        "year": 1977,
+        "work_type": "paper",
+        "journal": "Developmental Psychobiology",
+        "container": null,
+        "volume": "10",
+        "issue": "2",
+        "pages": "123-132",
+        "doi": "10.1002/dev.420100205",
+        "pmid": "838157",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1023"
+      },
+      {
+        "id": 1024,
+        "tier": "background",
+        "title": "Juvenile peer play experience and the development of the orbitofrontal and medial prefrontal cortices",
+        "authors": "Bell HC, Pellis SM, Kolb B",
+        "year": 2010,
+        "work_type": "paper",
+        "journal": "Behavioural Brain Research",
+        "container": null,
+        "volume": "207",
+        "issue": "1",
+        "pages": "7-13",
+        "doi": "10.1016/j.bbr.2009.09.029",
+        "pmid": "19786051",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1024"
+      },
+      {
+        "id": 1025,
+        "tier": "background",
+        "title": "How domestication modulates play behavior: a comparative analysis between wild rats and a laboratory strain of Rattus norvegicus",
+        "authors": "Himmler BT, Stryjek R, Modlinska K, Derksen SM, Pisula W, Pellis SM",
+        "year": 2013,
+        "work_type": "paper",
+        "journal": "Journal of Comparative Psychology",
+        "container": null,
+        "volume": "127",
+        "issue": "4",
+        "pages": "453-464",
+        "doi": "10.1037/a0032187",
+        "pmid": "23815592",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1025"
+      },
+      {
+        "id": 1026,
+        "tier": "background",
+        "title": "Pet rat welfare in the United Kingdom: the good, the bad and the ugly",
+        "authors": "Neville V, Mounty J, Benato L, Hunter K, Mendl M, Paul ES",
+        "year": 2021,
+        "work_type": "paper",
+        "journal": "Veterinary Record",
+        "container": null,
+        "volume": "189",
+        "issue": "6",
+        "pages": null,
+        "doi": "10.1002/vetr.559",
+        "pmid": "34101201",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1026"
+      },
+      {
+        "id": 1032,
+        "tier": "background",
+        "title": "Consequences of early adverse rearing experience (EARE) on development: insights from non-human primate studies",
+        "authors": "Zhang B",
+        "year": 2017,
+        "work_type": "review",
+        "journal": "Zoological research",
+        "container": null,
+        "volume": "38",
+        "issue": "1",
+        "pages": "7-35",
+        "doi": "10.13918/j.issn.2095-8137.2017.002",
+        "pmid": "28271667",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1032"
+      },
+      {
+        "id": 1033,
+        "tier": "background",
+        "title": "Demand for nest boxes in laying hens",
+        "authors": "Cooper JJ, Appleby MC",
+        "year": 1996,
+        "work_type": "paper",
+        "journal": "Behavioural Processes",
+        "container": null,
+        "volume": "36",
+        "issue": "2",
+        "pages": "171-182",
+        "doi": "10.1016/0376-6357(95)00027-5",
+        "pmid": "24896684",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1033"
+      },
+      {
+        "id": 1034,
+        "tier": "background",
+        "title": "The value of environmental resources to domestic hens: a comparison of the work-rate for food and for nests as a function of time",
+        "authors": "Cooper JJ, Appleby MC",
+        "year": 2003,
+        "work_type": "paper",
+        "journal": "Animal Welfare",
+        "container": null,
+        "volume": "12",
+        "issue": "1",
+        "pages": "39-52",
+        "doi": "10.1017/S0962728600025367",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1034"
+      },
+      {
+        "id": 1036,
+        "tier": "background",
+        "title": "Frustrated nesting behaviour: relation to extra-cuticular shell calcium and bone strength in White Leghorn hens",
+        "authors": "Yue S, Duncan IJ",
+        "year": 2003,
+        "work_type": "paper",
+        "journal": "British Poultry Science",
+        "container": null,
+        "volume": "44",
+        "issue": "2",
+        "pages": "175-181",
+        "doi": "10.1080/0007166031000088334",
+        "pmid": "12828201",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1036"
+      },
+      {
+        "id": 1037,
+        "tier": "background",
+        "title": "Genetic analysis of strain differences in pre-laying behaviour in battery cages",
+        "authors": "Mills AD, Wood-Gush DG, Hughes BO",
+        "year": 1985,
+        "work_type": "paper",
+        "journal": "British Poultry Science",
+        "container": null,
+        "volume": "26",
+        "issue": "2",
+        "pages": "187-197",
+        "doi": "10.1080/00071668508416803",
+        "pmid": "4005636",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1037"
+      },
+      {
+        "id": 1042,
+        "tier": "background",
+        "title": "Working for a dustbath: are hens increasing pleasure rather than reducing suffering?",
+        "authors": "Widowski TM, Duncan IJ",
+        "year": 2000,
+        "work_type": "paper",
+        "journal": "Applied Animal Behaviour Science",
+        "container": null,
+        "volume": "68",
+        "issue": "1",
+        "pages": "39-53",
+        "doi": "10.1016/S0168-1591(00)00088-5",
+        "pmid": "10771314",
+        "isbn": null,
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1042"
       }
     ],
     "extractions": [
@@ -65629,6 +68303,166 @@
         "evidence_quality": "theoretical",
         "tier": "background",
         "url": "corpus.html#e=1824"
+      },
+      {
+        "id": 1839,
+        "work_id": 1000,
+        "grade": "seen in animals",
+        "evidence_quality": "cross_species",
+        "tier": "background",
+        "url": "corpus.html#e=1839"
+      },
+      {
+        "id": 1842,
+        "work_id": 1002,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1842"
+      },
+      {
+        "id": 1843,
+        "work_id": 1003,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1843"
+      },
+      {
+        "id": 1873,
+        "work_id": 1017,
+        "grade": "seen in animals",
+        "evidence_quality": "cross_species",
+        "tier": "background",
+        "url": "corpus.html#e=1873"
+      },
+      {
+        "id": 1874,
+        "work_id": 1018,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1874"
+      },
+      {
+        "id": 1875,
+        "work_id": 1019,
+        "grade": "seen in animals",
+        "evidence_quality": "cross_species",
+        "tier": "background",
+        "url": "corpus.html#e=1875"
+      },
+      {
+        "id": 1876,
+        "work_id": 1020,
+        "grade": "seen in animals",
+        "evidence_quality": "cross_species",
+        "tier": "background",
+        "url": "corpus.html#e=1876"
+      },
+      {
+        "id": 1877,
+        "work_id": 1021,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1877"
+      },
+      {
+        "id": 1878,
+        "work_id": 1022,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1878"
+      },
+      {
+        "id": 1879,
+        "work_id": 1023,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1879"
+      },
+      {
+        "id": 1880,
+        "work_id": 1024,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1880"
+      },
+      {
+        "id": 1881,
+        "work_id": 1025,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1881"
+      },
+      {
+        "id": 1882,
+        "work_id": 1026,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1882"
+      },
+      {
+        "id": 1895,
+        "work_id": 1032,
+        "grade": "seen in animals",
+        "evidence_quality": "cross_species",
+        "tier": "background",
+        "url": "corpus.html#e=1895"
+      },
+      {
+        "id": 1896,
+        "work_id": 1032,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1896"
+      },
+      {
+        "id": 1897,
+        "work_id": 1033,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1897"
+      },
+      {
+        "id": 1898,
+        "work_id": 1034,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1898"
+      },
+      {
+        "id": 1902,
+        "work_id": 1036,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1902"
+      },
+      {
+        "id": 1903,
+        "work_id": 1037,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1903"
+      },
+      {
+        "id": 1914,
+        "work_id": 1042,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=1914"
       }
     ]
   }
