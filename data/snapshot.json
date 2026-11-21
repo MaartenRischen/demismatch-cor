@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T06:31:12.416122+00:00",
+    "built_at": "2026-11-21T06:35:13.362199+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -119039,103 +119039,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-09",
-        "domain": "social_structure",
-        "name": "Behavioral observability / reputation visibility",
-        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
-        "eea_value": {
-          "identity": "single durable identity, behavior history attached for life",
-          "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
-          "accountability": "high: gossip, ridicule, ostracism, exclusion; non-exitable repeat interaction",
-          "reference_group_basis": "personally-known, named, repeat-interaction reference group (Dunbar ceiling)",
-          "reputational_reference_group_persons": 150
-        },
-        "modern_default": "Most behavior now occurs among strangers or weak ties who do not know one's history and will never interact with one again, while the visibility that does exist is mediated, curated, and quantitatively inflated. On social platforms only ~27.6% of nominal \"friends\" are considered genuine close ties (with a strong modal value between 0 and 10%), so networks are padded with weakly-accountable acquaintances rather than people tracking one's actual conduct. Mediated contact cannot substitute for the embodied, face-to-face observation the bonding/reputation system evolved for: without periodic in-person contact, ties decay through the network layers into mere acquaintance regardless of online activity. Visibility is now selectively self-presented (gameable), fragmented across multiple personas and contexts, frequently pseudonymous or low-stakes, and policed (if at all) by distant institutions or algorithms rather than by named peers with whom one shares a future. Reputation is either absent (anonymity), sortable away (exit/blocking, fresh accounts), or captured by platform metrics that reward performance over honesty.",
-        "gap_statement": "The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.",
-        "resolution_unit": null,
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.",
-        "created_at": "2026-06-08T11:58:52.768471+00:00",
-        "updated_at": "2026-06-08T11:58:52.768471+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 373,
-            "evidence_role": "primary",
-            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
-            "evidence_quality": "replicated",
-            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
-          },
-          {
-            "extraction_id": 375,
-            "evidence_role": "primary",
-            "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
-            "evidence_quality": "theoretical",
-            "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury, "
-          },
-          {
-            "extraction_id": 239,
-            "evidence_role": "supporting",
-            "author_quote": "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully.",
-            "evidence_quality": "theoretical",
-            "content": "Obligate collaborative foraging as evolutionarily stable strategy: interdependence + social selection. Early humans began a lifestyle in which individuals could not procure daily food alone - they were interdependent. This created direct selective pressure for joint-intentionalit"
-          },
-          {
-            "extraction_id": 508,
-            "evidence_role": "challenging",
-            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "thin",
-            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
-          },
-          {
-            "extraction_id": 509,
-            "evidence_role": "challenging",
-            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "theoretical",
-            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
-          },
-          {
-            "extraction_id": 719,
-            "evidence_role": "supporting",
-            "author_quote": "individuals possessing more prosocial orientations are the most motivated to engage in such gossip, even at a personal cost",
-            "evidence_quality": "thin",
-            "content": "In experiments, people passed on reputational information about selfish players even at a cost to themselves, and the threat of gossip made others behave more generously."
-          },
-          {
-            "extraction_id": 721,
-            "evidence_role": "supporting",
-            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
-            "evidence_quality": "replicated",
-            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
-          },
-          {
-            "extraction_id": 722,
-            "evidence_role": "supporting",
-            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
-            "evidence_quality": "replicated",
-            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
-          },
-          {
-            "extraction_id": 808,
-            "evidence_role": "supporting",
-            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
-            "evidence_quality": "thin",
-            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
-          },
-          {
-            "extraction_id": 829,
-            "evidence_role": "challenging",
-            "author_quote": null,
-            "evidence_quality": "contested",
-            "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-03",
         "domain": "social_structure",
         "name": "Band / camp size (a few dozen adults; ~25-50)",
@@ -119439,7 +119342,7 @@
         "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors (ext 2280).",
         "created_at": "2026-06-08T12:32:40.677175+00:00",
         "updated_at": "2026-06-08T12:32:40.677175+00:00",
         "mechanism_codes": [
@@ -120571,7 +120474,7 @@
         "name": "Rivals and comparison",
         "eea_baseline": "A forager's rivals for a partner were the same-sex people of the camp and the regional network, a few hundred people seen in ordinary life. No study measures this directly; it follows from the size of the pool (EEA-MATE-02).",
         "eea_value": null,
-        "modern_default": "Media and feeds show a stream of the most attractive and successful people alive, edited. In an experiment, women who saw highly attractive women rated their own value as a marriage partner lower, and men who saw socially dominant men did the same. Across 77 studies, exposure to thin-ideal media images went with more body dissatisfaction in women (d -0.28).",
+        "modern_default": "Media and feeds show a stream of the most attractive and successful people alive, edited. In an experiment, women who saw highly attractive women rated their own value as a marriage partner lower, and men who saw socially dominant men did the same. Across 77 studies, exposure to thin-ideal media images went with more body dissatisfaction in women (d -0.28). A later meta-analysis of 204 studies found the effect minimal for most women and present mainly in women already dissatisfied with their bodies (ext 3180).",
         "gap_statement": "The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.",
         "resolution_unit": null,
         "evidence_grade": "theoretical",
@@ -122071,159 +121974,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-20",
-        "domain": "social_structure",
-        "name": "Food shared and eaten in company",
-        "eea_baseline": "In every forager group with a record, food moved between households before it was eaten. A review of 45 small-scale groups reports food transfers beyond the household throughout, and in all 10 groups where it was checked big game reached more families than small game. Among the Hadza of Tanzania at least 90% of the meat of large animals left the hunter's household. Among the Aka of the Congo a cook and her children ate about 20% of the stew she made, about 75% of the stew a woman ate came from other women's pots, cooking and serving were done in plain view, and the men usually ate together at the men's shelter. Among the Ju/'hoansi of Botswana each family ate the evening meal at its own fire and people then gathered at shared fires. Among the Great Andamanese game was roasted at a public cooking place and each family ate at its own hut. Batek camps in Malaysia, about 34 people, shared food at once, stored none and ate almost nothing out of camp. The meal was mostly a family meal, eaten in sight and reach of the rest of the camp. No record shows a whole camp eating as one table every day. Sharing with the whole band was the exception and went with bands under 40 to 50 people.",
-        "eea_value": {
-          "batek_camp_size": 34.2,
-          "whole_band_sharing": "bands under 40 to 50 people",
-          "hadza_large_game_leaving_hunters_household": "at least 90% (20 carcasses)",
-          "aka_share_of_own_stew_eaten_by_cooks_family": "about 20%",
-          "aka_share_of_stew_eaten_that_other_women_cooked": "about 75%"
-        },
-        "modern_default": "In the United States 26% of adults ate every meal of the previous day alone in 2023, more than half again above the 2003 level; among people living alone it was about 70%. In a UK poll of 2,000 adults nearly 70% had never had a meal with a neighbour. Shared meals vary widely between countries today: 11.7 lunches and dinners a week with someone known in Senegal, 2.7 in Bangladesh and Estonia. Food now comes from a shop, and a household's food does not pass through other households.",
-        "gap_statement": "A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.",
-        "resolution_unit": null,
-        "evidence_grade": "thin",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Counter-evidence kept: sharing also followed pressure and was unequal. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); nobody has counted how often (ext 1581), and among the Aka people avoided asking (ext 1588). Background-tier evidence cited (abstract or book only): ext 1580, 709, 828.",
-        "created_at": "2026-11-19T03:27:37.130809+00:00",
-        "updated_at": "2026-11-19T03:27:37.130809+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M3"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1586,
-            "evidence_role": "primary",
-            "author_quote": "If it is assumed that the amount of stew remaining in the pot after sharing is same as a portion served to another woman, only 20% of stew cooked by the woman was eaten by her and her children. As much as 75% of the stew the woman ate was cooked by the other women.",
-            "evidence_quality": "thin",
-            "content": "Among the Aka of Linganga-Makaou in northeastern Congo (one residential group of about 80 people followed for 92 days in 1991 to 1992 and one of 43 people for 11 days in 1995), women stewed meat and plants in front of or inside their huts and served it out in plain view of the ca"
-          },
-          {
-            "extraction_id": 1592,
-            "evidence_role": "primary",
-            "author_quote": "At least 90% (usually more) of the meat of large prey goes outside the hunter's household.",
-            "evidence_quality": "contested",
-            "content": "Among the Hadza of Tli'ika, Tanzania (camps of about 35 to 50 people, 20 large animals and 113 household shares recorded in 1985 to 1988), at least 90% of the meat of large prey went outside the hunter's household. The successful hunter's household took about 5% of prey under 180"
-          },
-          {
-            "extraction_id": 1577,
-            "evidence_role": "primary",
-            "author_quote": "Many groups, however, do not engage in bandwide sharing of meat items, and instead restrict initial sharing to the task group or extended family, with only subsequent sharing with other group members",
-            "evidence_quality": "replicated",
-            "content": "Gurven reviewed food transfers in 45 small-scale groups (his table lists 33 hunter-gatherer and 13 forager-agriculturalist entries, the Ache under both). In every group where package size was examined (10 named, among them the Hiwi, Ache, Dobe !Kung, G/wi, Nyae Nyae !Kung and Aka"
-          },
-          {
-            "extraction_id": 1589,
-            "evidence_role": "supporting",
-            "author_quote": "In the late afternoon, families gathered at their own fires for the evening meal. After dinner and dark, the harsher mood of the day mellowed and people who were in the mood gathered around single fires to talk, make music, or dance.",
-            "evidence_quality": "thin",
-            "content": "Among the Ju/'hoansi of /Kae/kae and Dobe, Botswana, in 1974, families ate the evening meal each at their own fire. After dinner and dark, people gathered around single fires to talk, make music or dance, in larger or smaller groups, and went back to their own hearths to sleep. W"
-          },
-          {
-            "extraction_id": 1597,
-            "evidence_role": "supporting",
-            "author_quote": "The meal is a family one, partaken by a man and his wife and children. The bachelors cook and eat their own meal, and the unmarried women also eat by themselves.",
-            "evidence_quality": "thin",
-            "content": "Among the Great Andamanese, as Radcliffe-Brown recorded them in 1906 to 1908, a pig brought home whole was roasted and cut up at the camp's public cooking place, which the bachelors tended, and the meat was given out among the community. Each woman then cooked the family meal at "
-          },
-          {
-            "extraction_id": 1585,
-            "evidence_role": "supporting",
-            "author_quote": "Hunters with game would usually enter camp quietly and then hand the carcass to someone else to butcher and distribute. Gatherers with loads of tubers would distribute their surplus to other families without fanfare.",
-            "evidence_quality": "thin",
-            "content": "Batek camps on the Lebir River in 1975 to 1976 held 34.2 people on average (11.3 men, 8.6 women, 14.4 children under 14) and stayed 8.2 days in one place. Food was shared at once and never stored. Almost nothing was eaten during foraging trips. A hunter usually came into camp qui"
-          },
-          {
-            "extraction_id": 1579,
-            "evidence_role": "supporting",
-            "author_quote": "Although unsolicited giving varies substantially, direct appeals for food, when not excessive, are rarely denied cross-culturally, although the levels of direct requests do vary.",
-            "evidence_quality": "thin",
-            "content": "Among the Ache and the Hiwi, women gave away about 55% of all the plant food they collected, and there was no sex difference in sharing once package size was controlled. Across societies, direct requests for food, when not excessive, were rarely refused, while unsolicited giving "
-          },
-          {
-            "extraction_id": 1593,
-            "evidence_role": "supporting",
-            "author_quote": "Once there, it was usually cooked and consumed by members of the household to which it was initially assigned, though it was not uncommon for others to join in the eating.",
-            "evidence_quality": "thin",
-            "content": "In the same Hadza record, large carcasses were butchered on the spot and much meat was eaten at the kill site, sometimes over several hours, by men, women and children who gathered there. Meat carried back was assigned to households before transport and was usually cooked and eat"
-          },
-          {
-            "extraction_id": 1587,
-            "evidence_role": "supporting",
-            "author_quote": "In the small camps of Period 3 and 4, all women shared with and received from all other women in the camp",
-            "evidence_quality": "thin",
-            "content": "In the same Aka study, camp size set how far a meal reached. In the small camps every woman shared stew with, and received it from, every other woman, and being present was the only condition for getting a portion. In the large camps a cook could no longer serve everyone and gave"
-          },
-          {
-            "extraction_id": 1603,
-            "evidence_role": "primary",
-            "author_quote": "Roughly 1 in 4 American adults (26%) now report eating all of their daily meals alone",
-            "evidence_quality": "thin",
-            "content": "In the American Time Use Survey (about 235,000 adults, 2003 to 2023, weighted to the US population), the share who ate all of the previous day's meals alone rose to 26% in 2023, more than half again above its 2003 level. Among people living alone about 70% ate all meals alone, ag"
-          },
-          {
-            "extraction_id": 1604,
-            "evidence_role": "supporting",
-            "author_quote": "People who shared just one meal in the past week have notably higher life evaluations (5.2) than those who ate all meals alone (4.9).",
-            "evidence_quality": "thin",
-            "content": "Gallup World Poll data from 142 countries (2022 to 2023) show that shared meals vary widely today: people in Senegal reported 11.7 lunches and dinners a week eaten with someone they knew, people in Bangladesh and Estonia 2.7, with the United States ranked 69th and the United King"
-          },
-          {
-            "extraction_id": 1602,
-            "evidence_role": "supporting",
-            "author_quote": "Those who rarely ate socially had many fewer friends and family they could count on for moral, social, emotional or financial support when they needed it. Typically, across the population as a whole this averages about five individuals, but those who mostly ate alone had as few as half this number.",
-            "evidence_quality": "thin",
-            "content": "In a UK poll of 2000 adults in April 2016, people who more often ate their evening meal with others rated their life satisfaction higher and named more people they could count on for support: about five on average across the sample, and as few as half that among those who mostly "
-          },
-          {
-            "extraction_id": 1578,
-            "evidence_role": "challenging",
-            "author_quote": "Similarly, Hiwi and Ache families represented 3% and 5% of their village settlement populations in 1990 and 1998, and kept 20% or more of what they acquired, including meat, giving the rest to fewer than six other nuclear families (out of 23 and 36, respectively)",
-            "evidence_quality": "contested",
-            "content": "In the groups with counts, producers kept more than an equal share. Hiwi and Ache families at their settlements (3% and 5% of the population) kept 20% or more of what they acquired and gave the rest to fewer than six other families out of 23 and 36. Yora families kept about 40% o"
-          },
-          {
-            "extraction_id": 1580,
-            "evidence_role": "challenging",
-            "author_quote": "It is argued that demand sharing involves testing, assertive, and/or substantiating behavior and is important in the constitution of social relations in egalitarian societies.",
-            "evidence_quality": "theoretical",
-            "content": "In the abstract Peterson argues that demand sharing is testing, assertive or substantiating behaviour, and that it matters for building social relations in egalitarian societies. He says a behaviouristic model of demand sharing fits sociobiological expectations, and that his emph"
-          },
-          {
-            "extraction_id": 709,
-            "evidence_role": "challenging",
-            "author_quote": "Despite the prevalence of an ethic of generosity among foragers, much sharing is by demand rather than by unsolicited giving",
-            "evidence_quality": "theoretical",
-            "content": "Much forager sharing happens because others ask for it, and refusing is hard, so sharing is driven as much by demand as by generosity."
-          },
-          {
-            "extraction_id": 1581,
-            "evidence_role": "challenging",
-            "author_quote": "My field observations of the every day among Kuninjku suggests that most sharing occurs within the household and that social constraints on demand sharing from a significant portion of one’s social universe structurally limit the extent that such practice is possible.",
-            "evidence_quality": "theoretical",
-            "content": "Altman, who studied the Kuninjku of western Arnhem Land from 1979, reports that direct demanding is one of several ways food and goods move. Most everyday sharing happens at the time of production, where game is divided among everyone in the hunt whoever made the kill, and unsoli"
-          },
-          {
-            "extraction_id": 1588,
-            "evidence_role": "challenging",
-            "author_quote": "Also, camp members seldom force konja to share food with them. They generally avoid obviously wanting to be shared, leaving the decision to konja.",
-            "evidence_quality": "thin",
-            "content": "Kitanishi reports that every food among these Aka had a named owner (konja) who led its sharing, and who was sometimes someone other than the hunter, collector or cook: for game, the owner of the tool that stopped the animal. An owner with more than 20 kg of meat always shared it"
-          },
-          {
-            "extraction_id": 828,
-            "evidence_role": "challenging",
-            "author_quote": "Large game were shared not like common goods, but in ways that significantly advantaged producers' households. Food sharing and consumption data show that men channeled the foods they produced to their wives, children, and their consanguineal and affinal kin living in other households",
-            "evidence_quality": "contested",
-            "content": "With Hadza data from 2005 to 2009, hunters' own households were favoured when large game was shared."
-          }
-        ]
-      },
-      {
         "code": "EEA-MATE-03",
         "domain": "mating_reproduction",
         "name": "Marriage system (mostly monogamous, some polygyny, serial pairs)",
@@ -122664,111 +122414,6 @@
         ]
       },
       {
-        "code": "EEA-CARE-04",
-        "domain": "care_development",
-        "name": "Multigenerational presence (grandmothers as provisioning kin)",
-        "eea_baseline": "Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that uniquely long human lifespans were selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.",
-        "eea_value": null,
-        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
-        "gap_statement": "The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.",
-        "resolution_unit": "Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.",
-        "evidence_grade": "contested",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.",
-        "created_at": "2026-06-08T12:32:37.55163+00:00",
-        "updated_at": "2026-06-08T12:32:37.55163+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 203,
-            "evidence_role": "primary",
-            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
-            "evidence_quality": "theoretical",
-            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
-          },
-          {
-            "extraction_id": 401,
-            "evidence_role": "supporting",
-            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
-            "evidence_quality": "theoretical",
-            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
-          },
-          {
-            "extraction_id": 274,
-            "evidence_role": "supporting",
-            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
-            "evidence_quality": "theoretical",
-            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
-          },
-          {
-            "extraction_id": 403,
-            "evidence_role": "supporting",
-            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
-            "evidence_quality": "theoretical",
-            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
-          },
-          {
-            "extraction_id": 703,
-            "evidence_role": "supporting",
-            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
-            "evidence_quality": "contested",
-            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
-          },
-          {
-            "extraction_id": 710,
-            "evidence_role": "supporting",
-            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
-            "evidence_quality": "replicated",
-            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
-          },
-          {
-            "extraction_id": 723,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
-          },
-          {
-            "extraction_id": 743,
-            "evidence_role": "supporting",
-            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
-            "evidence_quality": "contested",
-            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
-          },
-          {
-            "extraction_id": 744,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
-          },
-          {
-            "extraction_id": 766,
-            "evidence_role": "challenging",
-            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
-            "evidence_quality": "theoretical",
-            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
-          },
-          {
-            "extraction_id": 822,
-            "evidence_role": "supporting",
-            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
-            "evidence_quality": "thin",
-            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
-          },
-          {
-            "extraction_id": 845,
-            "evidence_role": "supporting",
-            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
-            "evidence_quality": "thin",
-            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
-          }
-        ]
-      },
-      {
         "code": "EEA-CIRC-01",
         "domain": "circadian_sensory",
         "name": "Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal",
@@ -122974,6 +122619,111 @@
             "author_quote": "Obesity prevalence is very low (<5%), and mean body fat percentage is modest (women: 24-28%, men: 9-18%)",
             "evidence_quality": "replicated",
             "content": "Reviewing hunter-gatherer and other small-scale societies and adding new Hadza data, Pontzer and colleagues report very few people with obesity (under 5%), modest mean body fat (women 24-28%, men 9-18%), more than 100 minutes a day of moderate and vigorous activity, and daily ene"
+          }
+        ]
+      },
+      {
+        "code": "EEA-CARE-04",
+        "domain": "care_development",
+        "name": "Multigenerational presence (grandmothers as provisioning kin)",
+        "eea_baseline": "Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that uniquely long human lifespans were selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.",
+        "eea_value": null,
+        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
+        "gap_statement": "The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.",
+        "resolution_unit": "Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.",
+        "evidence_grade": "contested",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.",
+        "created_at": "2026-06-08T12:32:37.55163+00:00",
+        "updated_at": "2026-06-08T12:32:37.55163+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 203,
+            "evidence_role": "primary",
+            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
+            "evidence_quality": "theoretical",
+            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
+          },
+          {
+            "extraction_id": 401,
+            "evidence_role": "supporting",
+            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
+            "evidence_quality": "theoretical",
+            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
+          },
+          {
+            "extraction_id": 274,
+            "evidence_role": "supporting",
+            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
+            "evidence_quality": "theoretical",
+            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
+          },
+          {
+            "extraction_id": 403,
+            "evidence_role": "supporting",
+            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
+            "evidence_quality": "theoretical",
+            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
+          },
+          {
+            "extraction_id": 703,
+            "evidence_role": "supporting",
+            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
+            "evidence_quality": "contested",
+            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
+          },
+          {
+            "extraction_id": 710,
+            "evidence_role": "supporting",
+            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
+            "evidence_quality": "replicated",
+            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
+          },
+          {
+            "extraction_id": 723,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
+          },
+          {
+            "extraction_id": 743,
+            "evidence_role": "supporting",
+            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
+            "evidence_quality": "contested",
+            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
+          },
+          {
+            "extraction_id": 744,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
+          },
+          {
+            "extraction_id": 766,
+            "evidence_role": "challenging",
+            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
+            "evidence_quality": "theoretical",
+            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
+          },
+          {
+            "extraction_id": 822,
+            "evidence_role": "supporting",
+            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
+            "evidence_quality": "thin",
+            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
+          },
+          {
+            "extraction_id": 845,
+            "evidence_role": "supporting",
+            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
+            "evidence_quality": "thin",
+            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
           }
         ]
       },
@@ -123418,6 +123168,256 @@
             "author_quote": "While individuals typically have some autonomy in choosing marital partners, parents often play a role in arranging suitable matches. The Tsimane prefer cross-cousin marriage (i.e., marrying the child of one's mother's brother or father's sister), and opposite-sexed siblings will often enter into a system of arranging marriages between their respective children.",
             "evidence_quality": "thin",
             "content": "Among the Tsimane of lowland Bolivia, forager-horticulturalists living in villages of related families, young people have some say in whom they marry and parents often arrange a match. The preferred partner is a cross-cousin (the child of a mother's brother or a father's sister),"
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-09",
+        "domain": "social_structure",
+        "name": "Behavioral observability / reputation visibility",
+        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Among the Hadza, campmates agreed on who hunts well and who works hard, and barely agreed on who is generous, honest or good-hearted (ext 2795). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
+        "eea_value": {
+          "identity": "single durable identity, behavior history attached for life",
+          "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
+          "accountability": "high: gossip, ridicule, ostracism, exclusion; non-exitable repeat interaction",
+          "reference_group_basis": "personally-known, named, repeat-interaction reference group (Dunbar ceiling)",
+          "reputational_reference_group_persons": 150
+        },
+        "modern_default": "Most behavior now occurs among strangers or weak ties who do not know one's history and will never interact with one again, while the visibility that does exist is mediated, curated, and quantitatively inflated. On social platforms only ~27.6% of nominal \"friends\" are considered genuine close ties (with a strong modal value between 0 and 10%), so networks are padded with weakly-accountable acquaintances rather than people tracking one's actual conduct. Mediated contact cannot substitute for the embodied, face-to-face observation the bonding/reputation system evolved for: without periodic in-person contact, ties decay through the network layers into mere acquaintance regardless of online activity. Visibility is now selectively self-presented (gameable), fragmented across multiple personas and contexts, frequently pseudonymous or low-stakes, and policed (if at all) by distant institutions or algorithms rather than by named peers with whom one shares a future. Reputation is either absent (anonymity), sortable away (exit/blocking, fresh accounts), or captured by platform metrics that reward performance over honesty.",
+        "gap_statement": "The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.",
+        "resolution_unit": null,
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.",
+        "created_at": "2026-06-08T11:58:52.768471+00:00",
+        "updated_at": "2026-06-08T11:58:52.768471+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 373,
+            "evidence_role": "primary",
+            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
+            "evidence_quality": "replicated",
+            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
+          },
+          {
+            "extraction_id": 375,
+            "evidence_role": "primary",
+            "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
+            "evidence_quality": "theoretical",
+            "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury, "
+          },
+          {
+            "extraction_id": 239,
+            "evidence_role": "supporting",
+            "author_quote": "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully.",
+            "evidence_quality": "theoretical",
+            "content": "Obligate collaborative foraging as evolutionarily stable strategy: interdependence + social selection. Early humans began a lifestyle in which individuals could not procure daily food alone - they were interdependent. This created direct selective pressure for joint-intentionalit"
+          },
+          {
+            "extraction_id": 508,
+            "evidence_role": "challenging",
+            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
+            "evidence_quality": "thin",
+            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
+          },
+          {
+            "extraction_id": 509,
+            "evidence_role": "challenging",
+            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
+            "evidence_quality": "theoretical",
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
+          },
+          {
+            "extraction_id": 719,
+            "evidence_role": "supporting",
+            "author_quote": "individuals possessing more prosocial orientations are the most motivated to engage in such gossip, even at a personal cost",
+            "evidence_quality": "thin",
+            "content": "In experiments, people passed on reputational information about selfish players even at a cost to themselves, and the threat of gossip made others behave more generously."
+          },
+          {
+            "extraction_id": 721,
+            "evidence_role": "supporting",
+            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
+            "evidence_quality": "replicated",
+            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
+          },
+          {
+            "extraction_id": 722,
+            "evidence_role": "supporting",
+            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
+            "evidence_quality": "replicated",
+            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
+          },
+          {
+            "extraction_id": 808,
+            "evidence_role": "supporting",
+            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
+            "evidence_quality": "thin",
+            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
+          },
+          {
+            "extraction_id": 829,
+            "evidence_role": "challenging",
+            "author_quote": null,
+            "evidence_quality": "contested",
+            "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-20",
+        "domain": "social_structure",
+        "name": "Food shared and eaten in company",
+        "eea_baseline": "In every forager group with a record, food moved between households. A review of 45 small-scale groups reports food transfers beyond the household throughout, and in all 10 groups where it was checked big game reached more families than small game. Among the Hadza of Tanzania at least 90% of the meat of large animals left the hunter's household. Among the Aka of the Congo a cook and her children ate about 20% of the stew she made, about 75% of the stew a woman ate came from other women's pots, cooking and serving were done in plain view, and the men usually ate together at the men's shelter. Among the Ju/'hoansi of Botswana each family ate the evening meal at its own fire and people then gathered at shared fires. Among the Great Andamanese game was roasted at a public cooking place and each family ate at its own hut. Batek camps in Malaysia, about 34 people, shared food at once, stored none and ate almost nothing out of camp. Hadza men ate about 90 percent of a day's energy on the foray, out of camp, most of it honey (ext 3162). The meal was mostly a family meal, eaten in sight and reach of the rest of the camp. No record shows a whole camp eating as one table every day. Sharing with the whole band was the exception and went with bands under 40 to 50 people.",
+        "eea_value": {
+          "batek_camp_size": 34.2,
+          "whole_band_sharing": "bands under 40 to 50 people",
+          "hadza_large_game_leaving_hunters_household": "at least 90% (20 carcasses)",
+          "aka_share_of_own_stew_eaten_by_cooks_family": "about 20%",
+          "aka_share_of_stew_eaten_that_other_women_cooked": "about 75%"
+        },
+        "modern_default": "In the United States 26% of adults ate every meal of the previous day alone in 2023, more than half again above the 2003 level; among people living alone it was about 70%. In a UK poll of 2,000 adults nearly 70% had never had a meal with a neighbour. Shared meals vary widely between countries today: 11.7 lunches and dinners a week with someone known in Senegal, 2.7 in Bangladesh and Estonia. Food now comes from a shop, and a household's food does not pass through other households.",
+        "gap_statement": "A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.",
+        "resolution_unit": null,
+        "evidence_grade": "thin",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Counter-evidence kept: sharing also followed pressure and was unequal. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); nobody has counted how often (ext 1581), and among the Aka people avoided asking (ext 1588). Background-tier evidence cited (abstract or book only): ext 1580, 709, 828.",
+        "created_at": "2026-11-19T03:27:37.130809+00:00",
+        "updated_at": "2026-11-19T03:27:37.130809+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M3"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1586,
+            "evidence_role": "primary",
+            "author_quote": "If it is assumed that the amount of stew remaining in the pot after sharing is same as a portion served to another woman, only 20% of stew cooked by the woman was eaten by her and her children. As much as 75% of the stew the woman ate was cooked by the other women.",
+            "evidence_quality": "thin",
+            "content": "Among the Aka of Linganga-Makaou in northeastern Congo (one residential group of about 80 people followed for 92 days in 1991 to 1992 and one of 43 people for 11 days in 1995), women stewed meat and plants in front of or inside their huts and served it out in plain view of the ca"
+          },
+          {
+            "extraction_id": 1592,
+            "evidence_role": "primary",
+            "author_quote": "At least 90% (usually more) of the meat of large prey goes outside the hunter's household.",
+            "evidence_quality": "contested",
+            "content": "Among the Hadza of Tli'ika, Tanzania (camps of about 35 to 50 people, 20 large animals and 113 household shares recorded in 1985 to 1988), at least 90% of the meat of large prey went outside the hunter's household. The successful hunter's household took about 5% of prey under 180"
+          },
+          {
+            "extraction_id": 1577,
+            "evidence_role": "primary",
+            "author_quote": "Many groups, however, do not engage in bandwide sharing of meat items, and instead restrict initial sharing to the task group or extended family, with only subsequent sharing with other group members",
+            "evidence_quality": "replicated",
+            "content": "Gurven reviewed food transfers in 45 small-scale groups (his table lists 33 hunter-gatherer and 13 forager-agriculturalist entries, the Ache under both). In every group where package size was examined (10 named, among them the Hiwi, Ache, Dobe !Kung, G/wi, Nyae Nyae !Kung and Aka"
+          },
+          {
+            "extraction_id": 1589,
+            "evidence_role": "supporting",
+            "author_quote": "In the late afternoon, families gathered at their own fires for the evening meal. After dinner and dark, the harsher mood of the day mellowed and people who were in the mood gathered around single fires to talk, make music, or dance.",
+            "evidence_quality": "thin",
+            "content": "Among the Ju/'hoansi of /Kae/kae and Dobe, Botswana, in 1974, families ate the evening meal each at their own fire. After dinner and dark, people gathered around single fires to talk, make music or dance, in larger or smaller groups, and went back to their own hearths to sleep. W"
+          },
+          {
+            "extraction_id": 1597,
+            "evidence_role": "supporting",
+            "author_quote": "The meal is a family one, partaken by a man and his wife and children. The bachelors cook and eat their own meal, and the unmarried women also eat by themselves.",
+            "evidence_quality": "thin",
+            "content": "Among the Great Andamanese, as Radcliffe-Brown recorded them in 1906 to 1908, a pig brought home whole was roasted and cut up at the camp's public cooking place, which the bachelors tended, and the meat was given out among the community. Each woman then cooked the family meal at "
+          },
+          {
+            "extraction_id": 1585,
+            "evidence_role": "supporting",
+            "author_quote": "Hunters with game would usually enter camp quietly and then hand the carcass to someone else to butcher and distribute. Gatherers with loads of tubers would distribute their surplus to other families without fanfare.",
+            "evidence_quality": "thin",
+            "content": "Batek camps on the Lebir River in 1975 to 1976 held 34.2 people on average (11.3 men, 8.6 women, 14.4 children under 14) and stayed 8.2 days in one place. Food was shared at once and never stored. Almost nothing was eaten during foraging trips. A hunter usually came into camp qui"
+          },
+          {
+            "extraction_id": 1579,
+            "evidence_role": "supporting",
+            "author_quote": "Although unsolicited giving varies substantially, direct appeals for food, when not excessive, are rarely denied cross-culturally, although the levels of direct requests do vary.",
+            "evidence_quality": "thin",
+            "content": "Among the Ache and the Hiwi, women gave away about 55% of all the plant food they collected, and there was no sex difference in sharing once package size was controlled. Across societies, direct requests for food, when not excessive, were rarely refused, while unsolicited giving "
+          },
+          {
+            "extraction_id": 1593,
+            "evidence_role": "supporting",
+            "author_quote": "Once there, it was usually cooked and consumed by members of the household to which it was initially assigned, though it was not uncommon for others to join in the eating.",
+            "evidence_quality": "thin",
+            "content": "In the same Hadza record, large carcasses were butchered on the spot and much meat was eaten at the kill site, sometimes over several hours, by men, women and children who gathered there. Meat carried back was assigned to households before transport and was usually cooked and eat"
+          },
+          {
+            "extraction_id": 1587,
+            "evidence_role": "supporting",
+            "author_quote": "In the small camps of Period 3 and 4, all women shared with and received from all other women in the camp",
+            "evidence_quality": "thin",
+            "content": "In the same Aka study, camp size set how far a meal reached. In the small camps every woman shared stew with, and received it from, every other woman, and being present was the only condition for getting a portion. In the large camps a cook could no longer serve everyone and gave"
+          },
+          {
+            "extraction_id": 1603,
+            "evidence_role": "primary",
+            "author_quote": "Roughly 1 in 4 American adults (26%) now report eating all of their daily meals alone",
+            "evidence_quality": "thin",
+            "content": "In the American Time Use Survey (about 235,000 adults, 2003 to 2023, weighted to the US population), the share who ate all of the previous day's meals alone rose to 26% in 2023, more than half again above its 2003 level. Among people living alone about 70% ate all meals alone, ag"
+          },
+          {
+            "extraction_id": 1604,
+            "evidence_role": "supporting",
+            "author_quote": "People who shared just one meal in the past week have notably higher life evaluations (5.2) than those who ate all meals alone (4.9).",
+            "evidence_quality": "thin",
+            "content": "Gallup World Poll data from 142 countries (2022 to 2023) show that shared meals vary widely today: people in Senegal reported 11.7 lunches and dinners a week eaten with someone they knew, people in Bangladesh and Estonia 2.7, with the United States ranked 69th and the United King"
+          },
+          {
+            "extraction_id": 1602,
+            "evidence_role": "supporting",
+            "author_quote": "Those who rarely ate socially had many fewer friends and family they could count on for moral, social, emotional or financial support when they needed it. Typically, across the population as a whole this averages about five individuals, but those who mostly ate alone had as few as half this number.",
+            "evidence_quality": "thin",
+            "content": "In a UK poll of 2000 adults in April 2016, people who more often ate their evening meal with others rated their life satisfaction higher and named more people they could count on for support: about five on average across the sample, and as few as half that among those who mostly "
+          },
+          {
+            "extraction_id": 1578,
+            "evidence_role": "challenging",
+            "author_quote": "Similarly, Hiwi and Ache families represented 3% and 5% of their village settlement populations in 1990 and 1998, and kept 20% or more of what they acquired, including meat, giving the rest to fewer than six other nuclear families (out of 23 and 36, respectively)",
+            "evidence_quality": "contested",
+            "content": "In the groups with counts, producers kept more than an equal share. Hiwi and Ache families at their settlements (3% and 5% of the population) kept 20% or more of what they acquired and gave the rest to fewer than six other families out of 23 and 36. Yora families kept about 40% o"
+          },
+          {
+            "extraction_id": 1580,
+            "evidence_role": "challenging",
+            "author_quote": "It is argued that demand sharing involves testing, assertive, and/or substantiating behavior and is important in the constitution of social relations in egalitarian societies.",
+            "evidence_quality": "theoretical",
+            "content": "In the abstract Peterson argues that demand sharing is testing, assertive or substantiating behaviour, and that it matters for building social relations in egalitarian societies. He says a behaviouristic model of demand sharing fits sociobiological expectations, and that his emph"
+          },
+          {
+            "extraction_id": 709,
+            "evidence_role": "challenging",
+            "author_quote": "Despite the prevalence of an ethic of generosity among foragers, much sharing is by demand rather than by unsolicited giving",
+            "evidence_quality": "theoretical",
+            "content": "Much forager sharing happens because others ask for it, and refusing is hard, so sharing is driven as much by demand as by generosity."
+          },
+          {
+            "extraction_id": 1581,
+            "evidence_role": "challenging",
+            "author_quote": "My field observations of the every day among Kuninjku suggests that most sharing occurs within the household and that social constraints on demand sharing from a significant portion of one’s social universe structurally limit the extent that such practice is possible.",
+            "evidence_quality": "theoretical",
+            "content": "Altman, who studied the Kuninjku of western Arnhem Land from 1979, reports that direct demanding is one of several ways food and goods move. Most everyday sharing happens at the time of production, where game is divided among everyone in the hunt whoever made the kill, and unsoli"
+          },
+          {
+            "extraction_id": 1588,
+            "evidence_role": "challenging",
+            "author_quote": "Also, camp members seldom force konja to share food with them. They generally avoid obviously wanting to be shared, leaving the decision to konja.",
+            "evidence_quality": "thin",
+            "content": "Kitanishi reports that every food among these Aka had a named owner (konja) who led its sharing, and who was sometimes someone other than the hunter, collector or cook: for game, the owner of the tool that stopped the animal. An owner with more than 20 kg of meat always shared it"
+          },
+          {
+            "extraction_id": 828,
+            "evidence_role": "challenging",
+            "author_quote": "Large game were shared not like common goods, but in ways that significantly advantaged producers' households. Food sharing and consumption data show that men channeled the foods they produced to their wives, children, and their consanguineal and affinal kin living in other households",
+            "evidence_quality": "contested",
+            "content": "With Hadza data from 2005 to 2009, hunters' own households were favoured when large game was shared."
           }
         ]
       }
@@ -130796,7 +130796,6 @@
     "eea_by_mechanism": {
       "M11": [
         "EEA-SOC-05",
-        "EEA-SOC-09",
         "EEA-SOC-03",
         "EEA-SOC-04",
         "EEA-SOC-06",
@@ -130809,11 +130808,12 @@
         "EEA-SOC-17",
         "EEA-THREAT-04",
         "EEA-SOC-19",
-        "EEA-SOC-20",
         "EEA-MATE-01",
         "EEA-SOC-01",
         "EEA-SOC-10",
-        "EEA-SOC-07"
+        "EEA-SOC-07",
+        "EEA-SOC-09",
+        "EEA-SOC-20"
       ],
       "M3": [
         "EEA-SOC-05",
@@ -130830,11 +130830,11 @@
         "EEA-SOC-15",
         "EEA-SOC-16",
         "EEA-SOC-17",
-        "EEA-SOC-20",
         "EEA-SOC-01",
         "EEA-CARE-04",
         "EEA-SOC-07",
-        "EEA-SOC-11"
+        "EEA-SOC-11",
+        "EEA-SOC-20"
       ],
       "M1": [
         "EEA-SOC-08",
@@ -130842,22 +130842,6 @@
         "EEA-THREAT-03",
         "EEA-THREAT-04",
         "EEA-THREAT-02"
-      ],
-      "M5": [
-        "EEA-SOC-09",
-        "EEA-INFO-02",
-        "EEA-INFO-01",
-        "EEA-MATE-06",
-        "EEA-MATE-07",
-        "EEA-SOC-12",
-        "EEA-SOC-15",
-        "EEA-SOC-13",
-        "EEA-SOC-14",
-        "EEA-SOC-19",
-        "EEA-SOC-01",
-        "EEA-SOC-10",
-        "EEA-SOC-11",
-        "EEA-MATE-02"
       ],
       "M9": [
         "EEA-CARE-02",
@@ -130903,6 +130887,22 @@
         "EEA-DIET-01",
         "EEA-DIET-02",
         "EEA-DIET-04"
+      ],
+      "M5": [
+        "EEA-INFO-02",
+        "EEA-INFO-01",
+        "EEA-MATE-06",
+        "EEA-MATE-07",
+        "EEA-SOC-12",
+        "EEA-SOC-15",
+        "EEA-SOC-13",
+        "EEA-SOC-14",
+        "EEA-SOC-19",
+        "EEA-SOC-01",
+        "EEA-SOC-10",
+        "EEA-SOC-11",
+        "EEA-MATE-02",
+        "EEA-SOC-09"
       ],
       "M14": [
         "EEA-MATE-06",
