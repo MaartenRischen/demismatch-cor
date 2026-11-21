@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T06:24:48.380420+00:00",
+    "source_built_at": "2026-11-21T06:31:12.416122+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1897,
-    "extractions": 3176,
+    "works": 2089,
+    "extractions": 3438,
     "researchers": 84,
-    "mechanism_evidence": 3599,
+    "mechanism_evidence": 3924,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 386,
+        "link_count": 422,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -555,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 390,
+        "link_count": 417,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 700,
+        "link_count": 757,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 162,
+        "link_count": 173,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 340,
+        "link_count": 370,
         "researchers": [
           "Gilbert",
           "Price",
@@ -957,7 +957,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 106,
+        "link_count": 118,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 147,
+        "link_count": 158,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 87,
+        "link_count": 93,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 227,
+        "link_count": 248,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1303,7 +1303,7 @@
       "tier": 2,
       "description": "Physical activity as zeitgeber, anti-inflammatory, mood regulator.",
       "eli5": "Movement isn't just exercise - it activates repair mechanisms throughout the organism.",
-      "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hadza men walk about 11 km a day and women about 6 km, and the women also dig for several hours, all as a side effect of foraging (Pontzer et al. 2012, GPS; ext 196; Hadza only).",
+      "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hadza men walk about 11 to 13 km a day and women about 6 to 8 km, and the women also dig for several hours, all as a side effect of foraging (Pontzer et al. 2012 and Wood et al. 2021, GPS; ext 196, ext 3418; Hadza only).",
       "mismatch_prediction": "Sedentarism. Gym sessions as partial compensation.",
       "phylogenetic_age": "~2Myr (human form, argued); older regulatory roles not dated",
       "proxy_gradient": {
@@ -1371,7 +1371,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 88,
+        "link_count": 101,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1467,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 415,
+        "link_count": 461,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1539,7 +1539,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 29,
+        "link_count": 34,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 144,
+        "link_count": 162,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1744,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 295,
+        "link_count": 322,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 83,
+        "link_count": 88,
         "researchers": [
           "McGlone",
           "Field"
@@ -3194,7 +3194,7 @@
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis are secondary (cited inside Kohler et al.); the primary source, Davies et al. 2011, was not read. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.",
         "mechanism_codes": [
           "M11",
           "M5"
@@ -3888,7 +3888,7 @@
         "domain": "mating_reproduction",
         "domain_display": "Mating & reproduction",
         "name": "The pool of possible partners",
-        "eea_baseline": "A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, is about 50 km across and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.",
+        "eea_baseline": "A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, reaches about 50 km (half the places an Aka adult has visited lie within 30 km of camp, ext 3204) and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.",
         "eea_value": {
           "lifetime_known_pool": "about 1,000 (ext 606-608)",
           "aka_people_in_exploration_range": "about 700 (ext 841)"
@@ -4997,9 +4997,9 @@
           {
             "extraction_id": 716,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
-            "author_quote": "In early and middle childhood, children transition into the multi-age playgroup, where they learn skills through play, observation, and participation. By the end of middle childhood, most children are proficient food collectors. However, it is not until adolescence that adults (not necessarily parents) begin directly teaching children complex skills such as hunting and complex tool manufacture",
-            "content": "Across forager societies, children learned most subsistence skills through play, observation and participation in multi-age playgroups, and adults directly taught complex skills such as hunting mainly in adolescence."
+            "evidence_quality": "meta_analysis",
+            "author_quote": "We found 58 publications focusing on learning subsistence skills. Learning begins early in infancy, when parents take children on foraging expeditions and give them toy versions of tools.",
+            "content": "A meta-ethnography of 58 publications on how forager children learn subsistence skills found that learning starts in infancy, when parents take children on foraging trips and give them toy versions of tools. In early and middle childhood children move into the multi-age playgroup"
           },
           {
             "extraction_id": 753,
@@ -5317,7 +5317,7 @@
         "resolution_unit": "Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.",
         "evidence_grade": "replicated",
         "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands. The two largest case-control analyses disagree on bed-sharing where no other hazard is present: Blair et al. 2014 found no significant added risk (odds ratio 1.1), with about 18 times the risk on a sofa or beside an adult who had drunk alcohol (ext 3346); Carpenter et al. 2013 found about five times the risk for breastfed babies under 3 months whose parents neither smoke nor drink (ext 3347). On a question of an infant's life the hazard data decide, not the ancestral picture.",
         "mechanism_codes": [
           "M3",
           "M7",
@@ -5539,7 +5539,7 @@
         "domain": "circadian_sensory",
         "domain_display": "Circadian & sensory",
         "name": "Sleep timing/phase alignment to the biological night (not a fixed duration target)",
-        "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from preindustrial-style foraging/horticultural societies place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep, but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
+        "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
         "eea_value": null,
         "modern_default": "Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.",
         "gap_statement": "The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.",
@@ -6149,7 +6149,7 @@
         "domain": "diet_metabolic",
         "domain_display": "Diet & metabolic",
         "name": "Acquisition effort (calories are physically worked for)",
-        "eea_baseline": "Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.",
+        "eea_baseline": "Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012, 30 adults over 11 days) and, in a larger sample of 179 people over 2,078 person-days, 12.9 km for men and 7.6 km for women (Wood et al. 2021, ext 3418), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.",
         "eea_value": {
           "note": "Distances are GPS means for the Hadza (Pontzer et al. 2012). They are not work hours; for work hours see EEA-SUBS-04.",
           "desk_worker_PAL": "~1.6",

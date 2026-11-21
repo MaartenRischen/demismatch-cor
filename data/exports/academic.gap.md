@@ -410,7 +410,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#1034 · tested once · supporting: "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist."
 - ext#756 · contested · challenging: "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed."
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis are secondary (cited inside Kohler et al.); the primary source, Davies et al. 2011, was not read. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.*
 
 #### Famous strangers (one-way bonds)
 `EEA-SOC-15 · Social structure` - **tested once**
@@ -582,7 +582,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### The pool of possible partners
 `EEA-MATE-02 · Mating & reproduction` - **tested once**
 
-**EEA baseline.** A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, is about 50 km across and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.
+**EEA baseline.** A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, reaches about 50 km (half the places an Aka adult has visited lie within 30 km of camp, ext 3204) and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.
 
 **EEA value** (illustrative, not constants):
 
@@ -972,7 +972,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#617 · contested · challenging: "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated"
 - ext#705 · tested many times · supporting: In Barry and Paxson's codes for the Standard Cross-Cultural Sample, the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 of them.
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands. The two largest case-control analyses disagree on bed-sharing where no other hazard is present: Blair et al. 2014 found no significant added risk (odds ratio 1.1), with about 18 times the risk on a sofa or beside an adult who had drunk alcohol (ext 3346); Carpenter et al. 2013 found about five times the risk for breastfed babies under 3 months whose parents neither smoke nor drink (ext 3347). On a question of an infant's life the hazard data decide, not the ancestral picture.*
 
 #### Affective grooming/touch from trusted others (adult social touch)
 `EEA-TOUCH-03 · Touch & contact` - **argued, not yet tested**
@@ -1042,7 +1042,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Sleep timing/phase alignment to the biological night (not a fixed duration target)
 `EEA-CIRC-02 · Circadian & sensory` - **tested many times**
 
-**EEA baseline.** Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from preindustrial-style foraging/horticultural societies place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep, but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.
+**EEA baseline.** Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.
 
 **Modern default.** Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.
 
@@ -1258,7 +1258,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Acquisition effort (calories are physically worked for)
 `EEA-DIET-03 · Diet & metabolic` - **tested many times**
 
-**EEA baseline.** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
+**EEA baseline.** Food had to be physically acquired: walked to, foraged, dug, hunted, and processed. Among the Hadza, GPS-measured daily walking distances average about 11.4 km for men and 5.8 km for women (Pontzer et al. 2012, 30 adults over 11 days) and, in a larger sample of 179 people over 2,078 person-days, 12.9 km for men and 7.6 km for women (Wood et al. 2021, ext 3418), and women also spend several hours digging; broader hunter-gatherer daily travel is on the order of ~10 km. This embeds substantial obligate movement and a real energetic and time cost between hunger and calories. Note: the absolute activity premium over sedentary moderns is modest (hunter-gatherer PAL ~1.8-1.9 vs ~1.6 for desk workers, ~15% higher), so the baseline is 'embedded all-day effort,' not extreme athleticism.
 
 **EEA value** (illustrative, not constants):
 
