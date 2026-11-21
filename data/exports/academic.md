@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-21 13:25 UTC, from the live Cor atlas snapshot built 2026-11-21 13:24 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 13:33 UTC, from the live Cor atlas snapshot built 2026-11-21 13:32 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
@@ -750,8 +750,8 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#490 · tested many times · supporting: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
 - ext#383 · seen in animals · supporting: "Attacks from conspecifics (both infanticide and deaths due to lethal raids by bands of males from neighboring groups) are major sources of mortality."
-- ext#671 · contested · supporting: "males were the most frequent attackers (92% of participants) and victims (73%); most killings (66%) involved intercommunity attacks; and attackers greatly outnumbered their victims (median 8:1 ratio)."
-- ext#672 · contested · supporting: Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not.
+- ext#671 · seen in animals · supporting: "males were the most frequent attackers (92% of participants) and victims (73%); most killings (66%) involved intercommunity attacks; and attackers greatly outnumbered their victims (median 8:1 ratio)."
+- ext#672 · tested once · supporting: Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not.
 - (+3 more linked extraction(s))
 
 *Confidence note: Grade: argued, not yet tested. No study measures how often ancestral humans met strangers. The premise is a bounded pool of personally known people in nested layers of about 5, 12, 35 and 150 (Dunbar 1998, ext 490), with a limit on how many relationships a person can monitor at once (Dunbar 1992, ext 485). For the stranger-as-threat side: in chimpanzees, lethal raids by males from neighbouring groups are a major cause of death (Hrdy 2009, ext 383), and across 18 communities most killings were by males and of members of other communities (Wilson et al. 2014, ext 671). This is animal evidence. Ambush killing between groups is documented in several nomadic forager societies, and how often it happened is disputed (Wrangham & Glowacki 2012, ext 672; Bowles 2009, ext 673). Infants show wariness toward an approaching stranger in lab studies (Waters et al. 1975, ext 676). Against it: in 21 mobile forager bands most recorded killings were homicides, a few were feuds and a minority were war (Fry & Söderberg 2013, ext 674), and Tomasello describes cooperation with in-group strangers (Tomasello 2014, ext 238, 250). Bowlby's claim that strangers are an innate fear cue (ext 574) comes from a book that was not read directly and is not linked as evidence.*
@@ -966,7 +966,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 **Evidence (6 links):**
 
 - ext#1048 · tested once · primary: "The geometric mean of group sizes varied from 4.5 individuals per family to populations of about 840 individuals."
-- ext#685 · contested · supporting: "We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4."
+- ext#685 · tested once · supporting: "We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4."
 - ext#1049 · tested once · primary: "During the 2012 interview period, the Eastern Hadza consisted of approximately 950 individuals living in 49 named bands."
 - ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
 - ext#684 · tested many times · supporting: "We suggest that while residential and foraging groups are often small, there is little evidence that these groups are drawn from small communities nested within small-scale societies. Most mobile hunter-gatherers live in groups dominated by links between non-relatives, where residential group membership is fluid and supports large-scale social networks of interaction"
@@ -994,9 +994,9 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 - ext#1050 · tested once · primary: "First, both study populations are small and encapsulated, with hostile relations with neighbors."
 - ext#752 · tested once · primary: "In 1974, both men and women maintained an average of 15 partnerships with consanguineous kin who lived between 2 and 200 km away"
-- ext#672 · contested · supporting: Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not.
+- ext#672 · tested once · supporting: Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not.
 - ext#691 · argued, not yet tested · supporting: "Arranged marriages are inferred to go back at least to first modern human migrations out of Africa. Reconstructions are equivocal on whether or not earlier human marriages were arranged because several African hunter-gatherers have courtship marriages"
-- ext#1047 · contested · primary: "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone"
+- ext#1047 · tested once · primary: "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone"
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested once per population. Contact between bands within one language group is documented in several populations (Hill et al. 2014; Wiessner and Huang 2022, ext 752). Cor has no measured rate of marriage or trade between different language groups. Hill et al. 2014 warn that their two populations understate contact because both had hostile neighbours. Background-tier evidence cited (abstract or book only): ext 672.*
 
@@ -1420,7 +1420,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#401 · argued, not yet tested · supporting: "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule."
 - ext#274 · argued, not yet tested · supporting: "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species."
 - ext#403 · argued, not yet tested · supporting: "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times."
-- ext#703 · contested · supporting: "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)"
+- ext#703 · tested many times · supporting: "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)"
 - (+7 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved. On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088) and the Hadza (ext 2063), none to grown children's families among the Ache and Hiwi (ext 2301).*
@@ -1586,7 +1586,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Evidence (1 link):**
 
-- ext#745 · contested · supporting: "The sleep period consistently occurred during the nighttime period of falling environmental temperature, was not interrupted by extended periods of waking, and terminated, with vasoconstriction, near the nadir of daily ambient temperature"
+- ext#745 · tested once · supporting: "The sleep period consistently occurred during the nighttime period of falling environmental temperature, was not interrupted by extended periods of waking, and terminated, with vasoconstriction, near the nadir of daily ambient temperature"
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. Yetish et al. 2015 found sleep fell during the nightly drop in ambient temperature in Hadza, San and Tsimane; one research group, association only. That temperature acts as a sleep cue is argued.*
 
@@ -1944,7 +1944,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 - ext#1046 · contested · primary: "The 8 ethnographic and 15 archaeological sources included yield similar results (Table 1), consistent with the view that prehistoric warfare was frequent and lethal"
 - ext#673 · contested · primary: "the estimated level of mortality in intergroup conflicts would have had substantial effects, allowing the proliferation of group-beneficial behaviors that were quite costly to the individual altruist"
-- ext#672 · contested · supporting: Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not.
+- ext#672 · tested once · supporting: Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not.
 - ext#1058 · argued, not yet tested · supporting: "neither parochialism nor altruism would have been viable singly, but by promoting group conflict, they could have evolved jointly"
 - ext#892 · tested once · supporting: "Among nonelders, raiding was not associated with an increased number of wives or children."
 - (+4 more linked extraction(s))
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 13:24 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 13:25 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 13:32 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 13:33 UTC.*

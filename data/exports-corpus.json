@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T13:24:59.529722+00:00",
+    "source_built_at": "2026-11-21T13:32:56.995843+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -2120,7 +2120,7 @@
           {
             "extraction_id": 685,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4.",
             "content": "Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups."
           },
@@ -2642,14 +2642,14 @@
           {
             "extraction_id": 671,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "cross_species",
             "author_quote": "males were the most frequent attackers (92% of participants) and victims (73%); most killings (66%) involved intercommunity attacks; and attackers greatly outnumbered their victims (median 8:1 ratio).",
             "content": "Across 18 chimpanzee communities studied over five decades, killings (recorded in 15 of them) were mostly by males and mostly of members of other communities, and killing rates did not track measures of human disturbance."
           },
           {
             "extraction_id": 672,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not."
           },
@@ -2670,7 +2670,7 @@
           {
             "extraction_id": 674,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
             "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
           }
@@ -2771,7 +2771,7 @@
           {
             "extraction_id": 829,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "meta_analysis",
             "author_quote": null,
             "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
           }
@@ -3341,7 +3341,7 @@
           {
             "extraction_id": 685,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4.",
             "content": "Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups."
           },
@@ -3418,7 +3418,7 @@
           {
             "extraction_id": 672,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not."
           },
@@ -3432,7 +3432,7 @@
           {
             "extraction_id": 1047,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone",
             "content": "In 21 mobile forager band societies from the Standard Cross-Cultural Sample, ethnographies recorded 148 lethal events. About one third involved people of different groups, but 38 of those 50 came from one society, the Tiwi; in the other 20 societies about 15% of events were betwe"
           }
@@ -4793,7 +4793,7 @@
           {
             "extraction_id": 703,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "meta_analysis",
             "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
             "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
           },
@@ -5120,7 +5120,7 @@
           {
             "extraction_id": 703,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "meta_analysis",
             "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
             "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
           },
@@ -5627,7 +5627,7 @@
           {
             "extraction_id": 745,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "The sleep period consistently occurred during the nighttime period of falling environmental temperature, was not interrupted by extended periods of waking, and terminated, with vasoconstriction, near the nadir of daily ambient temperature",
             "content": "In three pre-industrial groups (Hadza, San and Tsimane), people slept about 6 to 7 hours a night, did not sleep longer than industrial adults, and fell asleep as the night got cooler."
           },
@@ -5648,7 +5648,7 @@
           {
             "extraction_id": 748,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Historical records from the pre-industrial British Isles describe sleep in two segments, a 'first' and a 'second' sleep, with a waking period between them."
           }
@@ -5678,7 +5678,7 @@
           {
             "extraction_id": 745,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "The sleep period consistently occurred during the nighttime period of falling environmental temperature, was not interrupted by extended periods of waking, and terminated, with vasoconstriction, near the nadir of daily ambient temperature",
             "content": "In three pre-industrial groups (Hadza, San and Tsimane), people slept about 6 to 7 hours a night, did not sleep longer than industrial adults, and fell asleep as the night got cooler."
           }
@@ -6537,7 +6537,7 @@
           {
             "extraction_id": 672,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Killing between groups of nomadic hunter-gatherers tends to fit the chimpanzee pattern of surprise attacks when one side greatly outnumbers the other. Humans also form peaceful ties and alliances between groups, which chimpanzees do not."
           },
@@ -6565,14 +6565,14 @@
           {
             "extraction_id": 1047,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone",
             "content": "In 21 mobile forager band societies from the Standard Cross-Cultural Sample, ethnographies recorded 148 lethal events. About one third involved people of different groups, but 38 of those 50 came from one society, the Tiwi; in the other 20 societies about 15% of events were betwe"
           },
           {
             "extraction_id": 674,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
             "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
           },
