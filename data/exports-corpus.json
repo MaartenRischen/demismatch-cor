@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T11:06:15.110976+00:00",
+    "source_built_at": "2026-11-21T11:19:34.444919+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3053,
-    "extractions": 4709,
+    "works": 3245,
+    "extractions": 4951,
     "researchers": 84,
-    "mechanism_evidence": 5288,
+    "mechanism_evidence": 5551,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 534,
+        "link_count": 565,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -555,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 504,
+        "link_count": 525,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 1010,
+        "link_count": 1049,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 209,
+        "link_count": 211,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 471,
+        "link_count": 499,
         "researchers": [
           "Gilbert",
           "Price",
@@ -957,7 +957,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 168,
+        "link_count": 172,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 220,
+        "link_count": 235,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 152,
+        "link_count": 166,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 348,
+        "link_count": 357,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1371,7 +1371,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 151,
+        "link_count": 155,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1467,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 642,
+        "link_count": 677,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1539,7 +1539,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 51,
+        "link_count": 83,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 245,
+        "link_count": 253,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1744,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 452,
+        "link_count": 471,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 131,
+        "link_count": 133,
         "researchers": [
           "McGlone",
           "Field"
