@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T10:39:59.860713+00:00",
+    "built_at": "2026-11-21T10:55:24.542975+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 97
+    "challenges": 91
   },
   "tables": {
     "foundations": [
@@ -81518,19 +81518,6 @@
         "url": "corpus.html#e=2319"
       },
       {
-        "id": 2322,
-        "work_id": 1280,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2322"
-      },
-      {
         "id": 4182,
         "work_id": 2628,
         "mechanism_codes": [
@@ -93816,19 +93803,6 @@
         "url": "corpus.html#e=4308"
       },
       {
-        "id": 2061,
-        "work_id": 299,
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2061"
-      },
-      {
         "id": 2062,
         "work_id": 1138,
         "mechanism_codes": [
@@ -96230,20 +96204,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2229"
-      },
-      {
-        "id": 2228,
-        "work_id": 336,
-        "mechanism_codes": [
-          "M5",
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2228"
       },
       {
         "id": 2486,
@@ -99356,20 +99316,6 @@
         "url": "corpus.html#e=1525"
       },
       {
-        "id": 1527,
-        "work_id": 805,
-        "mechanism_codes": [
-          "M11",
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1527"
-      },
-      {
         "id": 4332,
         "work_id": 2748,
         "mechanism_codes": [
@@ -99395,6 +99341,20 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1536"
+      },
+      {
+        "id": 1527,
+        "work_id": 805,
+        "mechanism_codes": [
+          "M11",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1527"
       },
       {
         "id": 1580,
@@ -103325,22 +103285,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2793"
-      },
-      {
-        "id": 2795,
-        "work_id": 1620,
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2795"
       },
       {
         "id": 2796,
@@ -109331,23 +109275,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=3161"
-      },
-      {
-        "id": 3162,
-        "work_id": 1867,
-        "mechanism_codes": [
-          "M13",
-          "M11"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA6"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=3162"
       },
       {
         "id": 3163,
@@ -125342,6 +125269,22 @@
         "url": "corpus.html#e=4108"
       },
       {
+        "id": 2795,
+        "work_id": 1620,
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2795"
+      },
+      {
         "id": 4109,
         "work_id": 2574,
         "mechanism_codes": [
@@ -128531,6 +128474,63 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2301"
+      },
+      {
+        "id": 2061,
+        "work_id": 299,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2061"
+      },
+      {
+        "id": 2228,
+        "work_id": 336,
+        "mechanism_codes": [
+          "M5",
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2228"
+      },
+      {
+        "id": 2322,
+        "work_id": 1280,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2322"
+      },
+      {
+        "id": 3162,
+        "work_id": 1867,
+        "mechanism_codes": [
+          "M13",
+          "M11"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA6"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=3162"
       }
     ],
     "researchers": [
@@ -164796,103 +164796,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-09",
-        "domain": "social_structure",
-        "name": "Behavioral observability / reputation visibility",
-        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Among the Hadza, campmates agreed on who hunts well and who works hard, and barely agreed on who is generous, honest or good-hearted (ext 2795). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
-        "eea_value": {
-          "identity": "single durable identity, behavior history attached for life",
-          "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
-          "accountability": "high: gossip, ridicule, ostracism, exclusion; non-exitable repeat interaction",
-          "reference_group_basis": "personally-known, named, repeat-interaction reference group (Dunbar ceiling)",
-          "reputational_reference_group_persons": 150
-        },
-        "modern_default": "Most behavior now occurs among strangers or weak ties who do not know one's history and will never interact with one again, while the visibility that does exist is mediated, curated, and quantitatively inflated. On social platforms only ~27.6% of nominal \"friends\" are considered genuine close ties (with a strong modal value between 0 and 10%), so networks are padded with weakly-accountable acquaintances rather than people tracking one's actual conduct. Mediated contact cannot substitute for the embodied, face-to-face observation the bonding/reputation system evolved for: without periodic in-person contact, ties decay through the network layers into mere acquaintance regardless of online activity. Visibility is now selectively self-presented (gameable), fragmented across multiple personas and contexts, frequently pseudonymous or low-stakes, and policed (if at all) by distant institutions or algorithms rather than by named peers with whom one shares a future. Reputation is either absent (anonymity), sortable away (exit/blocking, fresh accounts), or captured by platform metrics that reward performance over honesty.",
-        "gap_statement": "The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.",
-        "resolution_unit": null,
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.",
-        "created_at": "2026-06-08T11:58:52.768471+00:00",
-        "updated_at": "2026-06-08T11:58:52.768471+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 373,
-            "evidence_role": "primary",
-            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
-            "evidence_quality": "replicated",
-            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
-          },
-          {
-            "extraction_id": 375,
-            "evidence_role": "primary",
-            "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
-            "evidence_quality": "theoretical",
-            "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury, "
-          },
-          {
-            "extraction_id": 239,
-            "evidence_role": "supporting",
-            "author_quote": "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully.",
-            "evidence_quality": "theoretical",
-            "content": "Obligate collaborative foraging as evolutionarily stable strategy: interdependence + social selection. Early humans began a lifestyle in which individuals could not procure daily food alone - they were interdependent. This created direct selective pressure for joint-intentionalit"
-          },
-          {
-            "extraction_id": 508,
-            "evidence_role": "challenging",
-            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "thin",
-            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
-          },
-          {
-            "extraction_id": 509,
-            "evidence_role": "challenging",
-            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "theoretical",
-            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
-          },
-          {
-            "extraction_id": 719,
-            "evidence_role": "supporting",
-            "author_quote": "individuals possessing more prosocial orientations are the most motivated to engage in such gossip, even at a personal cost",
-            "evidence_quality": "thin",
-            "content": "In experiments, people passed on reputational information about selfish players even at a cost to themselves, and the threat of gossip made others behave more generously."
-          },
-          {
-            "extraction_id": 721,
-            "evidence_role": "supporting",
-            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
-            "evidence_quality": "replicated",
-            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
-          },
-          {
-            "extraction_id": 722,
-            "evidence_role": "supporting",
-            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
-            "evidence_quality": "replicated",
-            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
-          },
-          {
-            "extraction_id": 808,
-            "evidence_role": "supporting",
-            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
-            "evidence_quality": "thin",
-            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
-          },
-          {
-            "extraction_id": 829,
-            "evidence_role": "challenging",
-            "author_quote": null,
-            "evidence_quality": "contested",
-            "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-20",
         "domain": "social_structure",
         "name": "Food shared and eaten in company",
@@ -165042,6 +164945,103 @@
             "author_quote": "Large game were shared not like common goods, but in ways that significantly advantaged producers' households. Food sharing and consumption data show that men channeled the foods they produced to their wives, children, and their consanguineal and affinal kin living in other households",
             "evidence_quality": "contested",
             "content": "With Hadza data from 2005 to 2009, hunters' own households were favoured when large game was shared."
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-09",
+        "domain": "social_structure",
+        "name": "Behavioral observability / reputation visibility",
+        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Where campmates differed, they knew it: asked one by one in 12 Hadza camps, they agreed on who hunts best and who works hardest to get food. They barely agreed on who shares the most food, who tells the fewest lies and who has the best heart (ext 2795). Project position (21 Nov 2026): anyone still in camp shared and was honest enough to be kept there, so on those points there was little left to rank, and such labels sort strangers more than campmates. The study's authors read the low agreement as behaviour that follows the situation and the camp more than the person, under strong norms to share (ext 2796). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
+        "eea_value": {
+          "identity": "single durable identity, behavior history attached for life",
+          "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
+          "accountability": "high: gossip, ridicule, ostracism, exclusion; non-exitable repeat interaction",
+          "reference_group_basis": "personally-known, named, repeat-interaction reference group (Dunbar ceiling)",
+          "reputational_reference_group_persons": 150
+        },
+        "modern_default": "Most behavior now occurs among strangers or weak ties who do not know one's history and will never interact with one again, while the visibility that does exist is mediated, curated, and quantitatively inflated. On social platforms only ~27.6% of nominal \"friends\" are considered genuine close ties (with a strong modal value between 0 and 10%), so networks are padded with weakly-accountable acquaintances rather than people tracking one's actual conduct. Mediated contact cannot substitute for the embodied, face-to-face observation the bonding/reputation system evolved for: without periodic in-person contact, ties decay through the network layers into mere acquaintance regardless of online activity. Visibility is now selectively self-presented (gameable), fragmented across multiple personas and contexts, frequently pseudonymous or low-stakes, and policed (if at all) by distant institutions or algorithms rather than by named peers with whom one shares a future. Reputation is either absent (anonymity), sortable away (exit/blocking, fresh accounts), or captured by platform metrics that reward performance over honesty.",
+        "gap_statement": "The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.",
+        "resolution_unit": null,
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.",
+        "created_at": "2026-06-08T11:58:52.768471+00:00",
+        "updated_at": "2026-06-08T11:58:52.768471+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 373,
+            "evidence_role": "primary",
+            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
+            "evidence_quality": "replicated",
+            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
+          },
+          {
+            "extraction_id": 375,
+            "evidence_role": "primary",
+            "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
+            "evidence_quality": "theoretical",
+            "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury, "
+          },
+          {
+            "extraction_id": 239,
+            "evidence_role": "supporting",
+            "author_quote": "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully.",
+            "evidence_quality": "theoretical",
+            "content": "Obligate collaborative foraging as evolutionarily stable strategy: interdependence + social selection. Early humans began a lifestyle in which individuals could not procure daily food alone - they were interdependent. This created direct selective pressure for joint-intentionalit"
+          },
+          {
+            "extraction_id": 508,
+            "evidence_role": "challenging",
+            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
+            "evidence_quality": "thin",
+            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
+          },
+          {
+            "extraction_id": 509,
+            "evidence_role": "challenging",
+            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
+            "evidence_quality": "theoretical",
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
+          },
+          {
+            "extraction_id": 719,
+            "evidence_role": "supporting",
+            "author_quote": "individuals possessing more prosocial orientations are the most motivated to engage in such gossip, even at a personal cost",
+            "evidence_quality": "thin",
+            "content": "In experiments, people passed on reputational information about selfish players even at a cost to themselves, and the threat of gossip made others behave more generously."
+          },
+          {
+            "extraction_id": 721,
+            "evidence_role": "supporting",
+            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
+            "evidence_quality": "replicated",
+            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
+          },
+          {
+            "extraction_id": 722,
+            "evidence_role": "supporting",
+            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
+            "evidence_quality": "replicated",
+            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
+          },
+          {
+            "extraction_id": 808,
+            "evidence_role": "supporting",
+            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
+            "evidence_quality": "thin",
+            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
+          },
+          {
+            "extraction_id": 829,
+            "evidence_role": "challenging",
+            "author_quote": null,
+            "evidence_quality": "contested",
+            "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
           }
         ]
       },
@@ -169825,6 +169825,36 @@
         "reason": "Refiled on 21 Nov 2026. The model tests whether grandmothering alone can select a long life after the last birth; Cor reports that as a hypothesis and does not rest on it. It stays in the atlas."
       },
       {
+        "citation": "Smith and Apicella 2020",
+        "title": "Hadza hunter-gatherers disagree on perceptions of moral character",
+        "reason": "Refiled on 21 Nov 2026. Cor's row on reputation (EEA-SOC-09) states this finding itself. Campmates agreed where people differed (hunting, hard work); where everyone shares under a strong norm there is little to rank. It stays in the atlas."
+      },
+      {
+        "citation": "Berbesque et al. 2016",
+        "title": "Eat first, share later: Hadza hunter-gatherer men consume more while foraging than in central places",
+        "reason": "Refiled on 21 Nov 2026. Cor's row on sharing (EEA-SOC-20) states this finding itself and no longer says food moved between households before it was eaten. It stays in the atlas."
+      },
+      {
+        "citation": "Sugiyama 2004",
+        "title": "Patterns of Shiwiar health insults indicate that provisioning during health crises reduces juvenile mortality",
+        "reason": "Refiled on 21 Nov 2026. It describes one settled village and gives no count; Cor's row on who lived in a camp is about mobile forager camps and rests on a census of 32 societies. It stays in the atlas."
+      },
+      {
+        "citation": "Kramer and Veile 2018",
+        "title": "Infant allocare in traditional societies",
+        "reason": "Refiled on 21 Nov 2026. It measured how much hands-on care others gave within two groups; Cor's sentence is about shared food for the young as a condition of the species. It found the saving of mothers' time that Cor's row describes. It stays in the atlas."
+      },
+      {
+        "citation": "Garfield et al. 2023",
+        "title": "Norm violations and punishments across human societies",
+        "reason": "Refiled on 21 Nov 2026. It measured execution for any broken norm across mostly settled societies; Cor's sentence is about what mobile bands did to would-be dominants, and calls killing the extreme case. It stays in the atlas."
+      },
+      {
+        "citation": "Bliege Bird et al. 2002",
+        "title": "Risk and reciprocity in Meriam food sharing",
+        "reason": "Refiled on 21 Nov 2026. It measured whether food shares between households were paid back in a settled island community; Cor's sentences are about gossip, ridicule and exclusion in mobile bands. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -171538,22 +171568,6 @@
         ]
       },
       {
-        "id": 2322,
-        "extraction_id": 2322,
-        "work_id": 1280,
-        "title": "Risk and reciprocity in Meriam food sharing",
-        "content": "Risk and reciprocity in Meriam food sharing",
-        "citation": "Bliege Bird R, Bird DW, Smith EA, Kushnick GC, 2002",
-        "authors": "Bliege Bird R, Bird DW, Smith EA, Kushnick GC",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": []
-      },
-      {
         "id": 2353,
         "extraction_id": 2353,
         "work_id": 1300,
@@ -172025,22 +172039,6 @@
         ]
       },
       {
-        "id": 2061,
-        "extraction_id": 2061,
-        "work_id": 299,
-        "title": "Infant allocare in traditional societies",
-        "content": "Infant allocare in traditional societies",
-        "citation": "Kramer KL, Veile A, 2018",
-        "authors": "Kramer KL, Veile A",
-        "year": 2018,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": []
-      },
-      {
         "id": 2443,
         "extraction_id": 2443,
         "work_id": 1360,
@@ -172117,23 +172115,6 @@
         "foundation_codes": [
           "DA10"
         ]
-      },
-      {
-        "id": 2228,
-        "extraction_id": 2228,
-        "work_id": 336,
-        "title": "Norm violations and punishments across human societies",
-        "content": "Norm violations and punishments across human societies",
-        "citation": "Garfield ZH, Ringen EJ, Buckner W, Medupe D, Wrangham RW, Glowacki L, 2023",
-        "authors": "Garfield ZH, Ringen EJ, Buckner W, Medupe D, Wrangham RW, Glowacki L",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M5",
-          "M11"
-        ],
-        "foundation_codes": []
       },
       {
         "id": 2486,
@@ -172264,42 +172245,6 @@
           "M7"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 1527,
-        "extraction_id": 1527,
-        "work_id": 805,
-        "title": "Patterns of Shiwiar health insults indicate that provisioning during health crises reduces juvenile mortality",
-        "content": "Patterns of Shiwiar health insults indicate that provisioning during health crises reduces juvenile mortality",
-        "citation": "Sugiyama LS, 2004",
-        "authors": "Sugiyama LS",
-        "year": 2004,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M11",
-          "M9"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 2795,
-        "extraction_id": 2795,
-        "work_id": 1620,
-        "title": "Hadza hunter-gatherers disagree on perceptions of moral character",
-        "content": "Hadza hunter-gatherers disagree on perceptions of moral character",
-        "citation": "Smith KM, Apicella CL, 2020",
-        "authors": "Smith KM, Apicella CL",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2"
-        ]
       },
       {
         "id": 756,
@@ -172528,26 +172473,6 @@
         ]
       },
       {
-        "id": 3162,
-        "extraction_id": 3162,
-        "work_id": 1867,
-        "title": "Eat first, share later: Hadza hunter-gatherer men consume more while foraging than in central places",
-        "content": "Eat first, share later: Hadza hunter-gatherer men consume more while foraging than in central places",
-        "citation": "Berbesque JC, Wood BM, Crittenden AN, Mabulla A, Marlowe FW, 2016",
-        "authors": "Berbesque JC, Wood BM, Crittenden AN, Mabulla A, Marlowe FW",
-        "year": 2016,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M13",
-          "M11"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA6"
-        ]
-      },
-      {
         "id": 3180,
         "extraction_id": 3180,
         "work_id": 1878,
@@ -172604,8 +172529,8 @@
         "EEA-MATE-01",
         "EEA-SOC-10",
         "EEA-SOC-07",
-        "EEA-SOC-09",
         "EEA-SOC-20",
+        "EEA-SOC-09",
         "EEA-SOC-01"
       ],
       "M3": [

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T10:39:59.860713+00:00",
+    "source_built_at": "2026-11-21T10:55:24.542975+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 97
+    "challenges": 91
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -2682,7 +2682,7 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Behavioral observability / reputation visibility",
-        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Among the Hadza, campmates agreed on who hunts well and who works hard, and barely agreed on who is generous, honest or good-hearted (ext 2795). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
+        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Where campmates differed, they knew it: asked one by one in 12 Hadza camps, they agreed on who hunts best and who works hardest to get food. They barely agreed on who shares the most food, who tells the fewest lies and who has the best heart (ext 2795). Project position (21 Nov 2026): anyone still in camp shared and was honest enough to be kept there, so on those points there was little left to rank, and such labels sort strangers more than campmates. The study's authors read the low agreement as behaviour that follows the situation and the camp more than the person, under strong norms to share (ext 2796). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
         "eea_value": {
           "identity": "single durable identity, behavior history attached for life",
           "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
