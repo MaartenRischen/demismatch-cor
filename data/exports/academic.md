@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-21 06:58 UTC, from the live Cor atlas snapshot built 2026-11-21 06:57 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 07:36 UTC, from the live Cor atlas snapshot built 2026-11-21 07:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 2089 works, 3438 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 2259 works, 3668 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -1322,7 +1322,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Alloparental care supply (a village, not a dyad)
 `EEA-CARE-01 · Care & development` - **tested many times**
 
-**EEA baseline.** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than other apes (every 6-8 years) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the holding of infants under four and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
+**EEA baseline.** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the holding of infants under four and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
 
 **EEA value** (illustrative, not constants):
 
@@ -1726,7 +1726,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#39 · contested · primary: Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di
 - ext#38 · argued, not yet tested · supporting: "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time."
 - ext#471 · argued, not yet tested · supporting: "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1)."
-- ext#729 · contested · supporting: In the Ethnographic Atlas, most forager societies got more than half of their food from animal sources such as hunting and fishing.
+- ext#729 · contested · supporting: "Most (73%) of the worldwide hunter-gatherer societies derived >50% (> or =56-65% of energy) of their subsistence from animal foods, whereas only 14% of these societies derived >50% (> or =56-65% of energy) of their subsistence from gathered plant foods."
 - ext#763 · contested · challenging: Forager diets varied so widely with habitat and season that they fit no single standard pattern that modern people could copy for better health.
 - (+1 more linked extraction(s))
 
@@ -1735,7 +1735,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested** · **CONTESTED**
 
-**EEA baseline.** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100-150 g/day vs ~20 g today). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
+**EEA baseline.** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100 g/day or somewhat more vs ~20 g today; Eaton 2006, ext 3605). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
 
 **EEA value** (illustrative, not constants):
 
@@ -1761,7 +1761,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#440 · argued, not yet tested · supporting: "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits."
 - (+2 more linked extraction(s))
 
-*Confidence note: Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). The ancestral fiber figure (100-150 g a day against 20 g today) is a model estimate and is contested (Eaton & Konner 1985, ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).*
+*Confidence note: Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). The ancestral fiber figure (about 100 g a day or somewhat more against 20 g today; Eaton lowered his own earlier figure in 2006, ext 3605) is a model estimate and is contested (Eaton & Konner 1985, ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).*
 
 #### Acquisition effort (calories are physically worked for)
 `EEA-DIET-03 · Diet & metabolic` - **tested many times**
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 06:57 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 06:58 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 07:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 07:36 UTC.*
