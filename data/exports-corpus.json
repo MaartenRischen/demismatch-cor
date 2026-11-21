@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-20T10:37:35.755926+00:00",
+    "source_built_at": "2026-11-21T02:33:24.366279+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 608,
-    "extractions": 1470,
+    "works": 766,
+    "extractions": 1706,
     "researchers": 84,
-    "mechanism_evidence": 1677,
+    "mechanism_evidence": 1972,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 294,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 228
+    "challenges": 240
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -458,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 221,
+        "link_count": 249,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 171,
+        "link_count": 199,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 320,
+        "link_count": 398,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -747,7 +747,7 @@
         ]
       },
       "evidence": {
-        "link_count": 94,
+        "link_count": 96,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -848,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 157,
+        "link_count": 195,
         "researchers": [
           "Gilbert",
           "Price",
@@ -958,7 +958,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 51,
+        "link_count": 62,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1052,7 +1052,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 67,
+        "link_count": 70,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1154,7 +1154,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 50,
+        "link_count": 54,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1265,7 +1265,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 95,
+        "link_count": 129,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1372,7 +1372,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 41,
+        "link_count": 50,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1468,7 +1468,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 162,
+        "link_count": 203,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1636,7 +1636,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 59,
+        "link_count": 63,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1745,7 +1745,7 @@
         ]
       },
       "evidence": {
-        "link_count": 142,
+        "link_count": 143,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1840,7 +1840,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 32,
+        "link_count": 46,
         "researchers": [
           "McGlone",
           "Field"
