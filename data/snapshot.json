@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T11:19:34.444919+00:00",
+    "built_at": "2026-11-21T11:23:02.590209+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 85
+    "challenges": 78
   },
   "tables": {
     "foundations": [
@@ -84593,21 +84593,6 @@
         "url": "corpus.html#e=4166"
       },
       {
-        "id": 1076,
-        "work_id": 509,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P2",
-          "DA10",
-          "DA7"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=1076"
-      },
-      {
         "id": 1078,
         "work_id": 510,
         "mechanism_codes": [],
@@ -88773,17 +88758,6 @@
         "url": "corpus.html#e=1362"
       },
       {
-        "id": 1363,
-        "work_id": 685,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1363"
-      },
-      {
         "id": 1364,
         "work_id": 686,
         "mechanism_codes": [],
@@ -89297,19 +89271,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1406"
-      },
-      {
-        "id": 1407,
-        "work_id": 718,
-        "mechanism_codes": [
-          "M7"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1407"
       },
       {
         "id": 1408,
@@ -89921,17 +89882,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=2382"
-      },
-      {
-        "id": 1462,
-        "work_id": 756,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1462"
       },
       {
         "id": 1457,
@@ -92470,20 +92420,6 @@
         "url": "corpus.html#e=4216"
       },
       {
-        "id": 1618,
-        "work_id": 857,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1618"
-      },
-      {
         "id": 1622,
         "work_id": 859,
         "mechanism_codes": [],
@@ -93113,19 +93049,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1664"
-      },
-      {
-        "id": 1669,
-        "work_id": 889,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1669"
       },
       {
         "id": 1661,
@@ -101057,19 +100980,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2192"
-      },
-      {
-        "id": 2193,
-        "work_id": 1216,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=2193"
       },
       {
         "id": 2194,
@@ -137672,6 +137582,20 @@
         "url": "corpus.html#e=4971"
       },
       {
+        "id": 1618,
+        "work_id": 857,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1618"
+      },
+      {
         "id": 4945,
         "work_id": 3196,
         "mechanism_codes": [
@@ -138656,6 +138580,82 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=78"
+      },
+      {
+        "id": 1076,
+        "work_id": 509,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P2",
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1076"
+      },
+      {
+        "id": 1363,
+        "work_id": 685,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1363"
+      },
+      {
+        "id": 1407,
+        "work_id": 718,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1407"
+      },
+      {
+        "id": 1462,
+        "work_id": 756,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1462"
+      },
+      {
+        "id": 1669,
+        "work_id": 889,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1669"
+      },
+      {
+        "id": 2193,
+        "work_id": 1216,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2193"
       }
     ],
     "researchers": [
@@ -182195,6 +182195,41 @@
         "reason": "Refiled on 21 Nov 2026. It disputes the method behind the time trends of finding 2102. Cor keeps only that finding's average and no sentence of Cor rests on the trends. It stays in the atlas."
       },
       {
+        "citation": "Heyes 2019",
+        "title": "Précis of Cognitive Gadgets: The Cultural Evolution of Thinking",
+        "reason": "Refiled on 21 Nov 2026. Heyes tests whether cognitive gadgets such as mindreading are inborn; Cor claims no inborn program for those. Cor's heritable gains and thresholds (DA10) are about motivational systems. It stays in the atlas."
+      },
+      {
+        "citation": "Kalfas et al. 2025",
+        "title": "Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis",
+        "reason": "Refiled on 21 Nov 2026. The trials took the drug away with nothing in its place, and tested one-week tapers only; abrupt stopping was still numerically worse. It does not show that a sudden stop is safe, and it does not test replacing the drug with the real thing. It stays in the atlas."
+      },
+      {
+        "citation": "Rajkumar and Sarkar 2015",
+        "title": "Seasonality of admissions for mania: results from a general hospital psychiatric unit in Pondicherry, India",
+        "reason": "Refiled on 21 Nov 2026. No sentence of Cor ties highs to a season. One hospital near the equator counted admissions by month. It stays in the atlas."
+      },
+      {
+        "citation": "Ohlund et al. 2019",
+        "title": "Clinical course and need for hospital admission after lithium discontinuation in patients with bipolar disorder type I or II: mirror-image study based on the LiSIE retrospective cohort",
+        "reason": "Refiled on 21 Nov 2026. An underpowered null on the speed of stopping lithium, with the trend in the direction of Cor's warning; its one clear result, more admissions when people stopped without a doctor, backs 'do it with a doctor'. It stays in the atlas."
+      },
+      {
+        "citation": "Leichsenring et al. 2024",
+        "title": "Borderline personality disorder: a comprehensive review of diagnosis and clinical presentation, etiology, treatment, and current controversies",
+        "reason": "Refiled on 21 Nov 2026. A reviewer's statement, with no design that separates genes, family and recall; the review itself notes that the link with maltreatment is not specific and that no gene variant has been found. It stays in the atlas."
+      },
+      {
+        "citation": "Infurna and Luthar 2016",
+        "title": "Resilience to Major Life Stressors Is Not as Common as Thought",
+        "reason": "Refiled on 21 Nov 2026. It measured life satisfaction after losing a spouse, a marriage or a job; the sentence of Cor it was filed against is about PTSD after a frightening event. A lasting drop where the loss is not replaced fits Cor's reading of grief (M3). It stays in the atlas."
+      },
+      {
+        "citation": "Van der Hallen et al. 2015",
+        "title": "Global processing takes time: a meta-analysis on local-global visual processing in ASD",
+        "reason": "Refiled on 21 Nov 2026. It counts against the attention-to-detail theory (ext 2190), which no sentence of Cor and no page uses. Cor's position is about advantages in a world that fits the trait; a lab test of visual processing does not measure that. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -183715,24 +183750,6 @@
         ]
       },
       {
-        "id": 1076,
-        "extraction_id": 1076,
-        "work_id": 509,
-        "title": "Précis of Cognitive Gadgets: The Cultural Evolution of Thinking",
-        "content": "Précis of Cognitive Gadgets: The Cultural Evolution of Thinking",
-        "citation": "Heyes C, 2019",
-        "authors": "Heyes C",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P2",
-          "DA10",
-          "DA7"
-        ]
-      },
-      {
         "id": 1120,
         "extraction_id": 1120,
         "work_id": 522,
@@ -183839,20 +183856,6 @@
         ]
       },
       {
-        "id": 1363,
-        "extraction_id": 1363,
-        "work_id": 685,
-        "title": "Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis",
-        "content": "Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis",
-        "citation": "Kalfas M, Tsapekos D, Butler M, McCutcheon RA, Pillinger T, Strawbridge R, Bhat BB, Haddad PM, Cowen PJ, Howes OD, Joyce DW, Nutt DJ, Baldwin DS, Pariante CM, Lewis G, Young AH, Lewis G, Hayes JF, Jauhar S, 2025",
-        "authors": "Kalfas M, Tsapekos D, Butler M, McCutcheon RA, Pillinger T, Strawbridge R, Bhat BB, Haddad PM, Cowen PJ, Howes OD, Joyce DW, Nutt DJ, Baldwin DS, Pariante CM, Lewis G, Young AH, Lewis G, Hayes JF, Jauhar S",
-        "year": 2025,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": []
-      },
-      {
         "id": 1378,
         "extraction_id": 1378,
         "work_id": 695,
@@ -183913,22 +183916,6 @@
         "citation": "Akhter A, Fiedorowicz JG, Zhang T, Potash JB, Cavanaugh J, Solomon DA, Coryell WH, 2013",
         "authors": "Akhter A, Fiedorowicz JG, Zhang T, Potash JB, Cavanaugh J, Solomon DA, Coryell WH",
         "year": 2013,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M7"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1407,
-        "extraction_id": 1407,
-        "work_id": 718,
-        "title": "Seasonality of admissions for mania: results from a general hospital psychiatric unit in Pondicherry, India",
-        "content": "Seasonality of admissions for mania: results from a general hospital psychiatric unit in Pondicherry, India",
-        "citation": "Rajkumar RP, Sarkar S, 2015",
-        "authors": "Rajkumar RP, Sarkar S",
-        "year": 2015,
         "researcher": null,
         "evidence_quality": "thin",
         "mechanism_codes": [
@@ -184023,20 +184010,6 @@
         "year": 2020,
         "researcher": null,
         "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": []
-      },
-      {
-        "id": 1462,
-        "extraction_id": 1462,
-        "work_id": 756,
-        "title": "Clinical course and need for hospital admission after lithium discontinuation in patients with bipolar disorder type I or II: mirror-image study based on the LiSIE retrospective cohort",
-        "content": "Clinical course and need for hospital admission after lithium discontinuation in patients with bipolar disorder type I or II: mirror-image study based on the LiSIE retrospective cohort",
-        "citation": "Ohlund L, Ott M, Bergqvist M, Oja S, Lundqvist R, Sandlund M, Salander Renberg E, Werneke U, 2019",
-        "authors": "Ohlund L, Ott M, Bergqvist M, Oja S, Lundqvist R, Sandlund M, Salander Renberg E, Werneke U",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "thin",
         "mechanism_codes": [],
         "foundation_codes": []
       },
@@ -184138,23 +184111,6 @@
         ]
       },
       {
-        "id": 1618,
-        "extraction_id": 1618,
-        "work_id": 857,
-        "title": "Borderline personality disorder: a comprehensive review of diagnosis and clinical presentation, etiology, treatment, and current controversies",
-        "content": "Borderline personality disorder: a comprehensive review of diagnosis and clinical presentation, etiology, treatment, and current controversies",
-        "citation": "Leichsenring F, Fonagy P, Heim N, Kernberg OF, Leweke F, Luyten P, Salzer S, Spitzer C, Steinert C, 2024",
-        "authors": "Leichsenring F, Fonagy P, Heim N, Kernberg OF, Leweke F, Luyten P, Salzer S, Spitzer C, Steinert C",
-        "year": 2024,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ]
-      },
-      {
         "id": 1630,
         "extraction_id": 1630,
         "work_id": 865,
@@ -184166,22 +184122,6 @@
         "researcher": null,
         "evidence_quality": "thin",
         "mechanism_codes": [],
-        "foundation_codes": []
-      },
-      {
-        "id": 1669,
-        "extraction_id": 1669,
-        "work_id": 889,
-        "title": "Resilience to Major Life Stressors Is Not as Common as Thought",
-        "content": "Resilience to Major Life Stressors Is Not as Common as Thought",
-        "citation": "Infurna FJ, Luthar SS, 2016",
-        "authors": "Infurna FJ, Luthar SS",
-        "year": 2016,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
         "foundation_codes": []
       },
       {
@@ -184348,22 +184288,6 @@
         "year": 2011,
         "researcher": null,
         "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10"
-        ]
-      },
-      {
-        "id": 2193,
-        "extraction_id": 2193,
-        "work_id": 1216,
-        "title": "Global processing takes time: a meta-analysis on local-global visual processing in ASD",
-        "content": "Global processing takes time: a meta-analysis on local-global visual processing in ASD",
-        "citation": "Van der Hallen R, Evers K, Brewaeys K, Van den Noortgate W, Wagemans J, 2015",
-        "authors": "Van der Hallen R, Evers K, Brewaeys K, Van den Noortgate W, Wagemans J",
-        "year": 2015,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
         "mechanism_codes": [],
         "foundation_codes": [
           "DA10"
