@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T11:28:51.620066+00:00",
+    "built_at": "2026-11-21T11:30:05.941866+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 76
+    "challenges": 71
   },
   "tables": {
     "foundations": [
@@ -77579,21 +77579,6 @@
         "url": "corpus.html#e=385"
       },
       {
-        "id": 956,
-        "work_id": 427,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=956"
-      },
-      {
         "id": 957,
         "work_id": 428,
         "mechanism_codes": [
@@ -80055,19 +80040,6 @@
         "url": "corpus.html#e=788"
       },
       {
-        "id": 758,
-        "work_id": 246,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=758"
-      },
-      {
         "id": 4146,
         "work_id": 183,
         "mechanism_codes": [
@@ -80164,19 +80136,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=765"
-      },
-      {
-        "id": 764,
-        "work_id": 252,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=764"
       },
       {
         "id": 804,
@@ -93490,22 +93449,6 @@
         "url": "corpus.html#e=4234"
       },
       {
-        "id": 1701,
-        "work_id": 907,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA10",
-          "DA7"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1701"
-      },
-      {
         "id": 1703,
         "work_id": 908,
         "mechanism_codes": [
@@ -95722,23 +95665,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1835"
-      },
-      {
-        "id": 1836,
-        "work_id": 998,
-        "mechanism_codes": [
-          "M2",
-          "M6"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1836"
       },
       {
         "id": 1837,
@@ -137970,6 +137896,19 @@
         "url": "corpus.html#e=4959"
       },
       {
+        "id": 758,
+        "work_id": 246,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=758"
+      },
+      {
         "id": 4960,
         "work_id": 3209,
         "mechanism_codes": [
@@ -138656,6 +138595,67 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2443"
+      },
+      {
+        "id": 764,
+        "work_id": 252,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=764"
+      },
+      {
+        "id": 956,
+        "work_id": 427,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=956"
+      },
+      {
+        "id": 1701,
+        "work_id": 907,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1701"
+      },
+      {
+        "id": 1836,
+        "work_id": 998,
+        "mechanism_codes": [
+          "M2",
+          "M6"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1836"
       }
     ],
     "researchers": [
@@ -182240,6 +182240,31 @@
         "reason": "Refiled on 21 Nov 2026. It compares US survey answers of 1985 and 2004, two points inside modern life; Cor measures modern life against how humans lived. It stays in the atlas."
       },
       {
+        "citation": "Harris 2003",
+        "title": "A review of sex differences in sexual jealousy, including self-report data, psychophysiological responses, interpersonal violence, and morbid jealousy",
+        "reason": "Refiled on 21 Nov 2026. No sentence of Cor claims a sex difference in kinds of jealousy. It stays in the atlas."
+      },
+      {
+        "citation": "Card et al. 2008",
+        "title": "Direct and indirect aggression during childhood and adolescence: A meta-analytic review of gender differences, intercorrelations, and relations to maladjustment",
+        "reason": "Refiled on 21 Nov 2026. No sentence of Cor claims a sex difference in aggression. It stays in the atlas."
+      },
+      {
+        "citation": "Woo et al. 2014",
+        "title": "Separate neural representations for physical pain and social rejection",
+        "reason": "Refiled on 21 Nov 2026. No sentence of Cor claims that rejection and physical pain share circuits; M3's 'pain-grade distress' is about how strong it is. It stays in the atlas."
+      },
+      {
+        "citation": "Bandeli et al. 2023",
+        "title": "The welfare problems of wide-ranging Carnivora reflect naturally itinerant lifestyles",
+        "reason": "Refiled on 21 Nov 2026. It was filed against a page caption, not a sentence of Cor; Cor's own findings 1825 and 1834 already record that the range effect turns on moving on, and M6 names control as the resolution. It stays in the atlas."
+      },
+      {
+        "citation": "LoBue and Adolph 2019",
+        "title": "Fear in infancy: Lessons from snakes, spiders, heights, and strangers",
+        "reason": "Refiled on 21 Nov 2026. Cor's text does not use the claim that strangers are an inborn fear cue for infants (EEA-SOC-08 says so), and a fear found in infants of one temperament fits DA10. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -183608,24 +183633,6 @@
         "foundation_codes": []
       },
       {
-        "id": 956,
-        "extraction_id": 956,
-        "work_id": 427,
-        "title": "Separate neural representations for physical pain and social rejection",
-        "content": "Separate neural representations for physical pain and social rejection",
-        "citation": "Woo CW, Koban L, Kross E, Lindquist MA, Banich MT, Ruzic L, Andrews-Hanna JR, Wager TD, 2014",
-        "authors": "Woo CW, Koban L, Kross E, Lindquist MA, Banich MT, Ruzic L, Andrews-Hanna JR, Wager TD",
-        "year": 2014,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ]
-      },
-      {
         "id": 1133,
         "extraction_id": 1133,
         "work_id": 529,
@@ -183654,38 +183661,6 @@
         "evidence_quality": "thin",
         "mechanism_codes": [
           "M14"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 758,
-        "extraction_id": 758,
-        "work_id": 246,
-        "title": "A review of sex differences in sexual jealousy, including self-report data, psychophysiological responses, interpersonal violence, and morbid jealousy",
-        "content": "A review of sex differences in sexual jealousy, including self-report data, psychophysiological responses, interpersonal violence, and morbid jealousy",
-        "citation": "Harris CR, 2003",
-        "authors": "Harris CR",
-        "year": 2003,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 764,
-        "extraction_id": 764,
-        "work_id": 252,
-        "title": "Direct and indirect aggression during childhood and adolescence: A meta-analytic review of gender differences, intercorrelations, and relations to maladjustment",
-        "content": "Direct and indirect aggression during childhood and adolescence: A meta-analytic review of gender differences, intercorrelations, and relations to maladjustment",
-        "citation": "Card NA, Stucky BD, Sawalani GM, Little TD, 2008",
-        "authors": "Card NA, Stucky BD, Sawalani GM, Little TD",
-        "year": 2008,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [
-          "M5"
         ],
         "foundation_codes": []
       },
@@ -184135,25 +184110,6 @@
         "foundation_codes": []
       },
       {
-        "id": 1701,
-        "extraction_id": 1701,
-        "work_id": 907,
-        "title": "Fear in infancy: Lessons from snakes, spiders, heights, and strangers",
-        "content": "Fear in infancy: Lessons from snakes, spiders, heights, and strangers",
-        "citation": "LoBue V, Adolph KE, 2019",
-        "authors": "LoBue V, Adolph KE",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA10",
-          "DA7"
-        ]
-      },
-      {
         "id": 1735,
         "extraction_id": 1735,
         "work_id": 932,
@@ -184201,26 +184157,6 @@
         "mechanism_codes": [],
         "foundation_codes": [
           "P3"
-        ]
-      },
-      {
-        "id": 1836,
-        "extraction_id": 1836,
-        "work_id": 998,
-        "title": "The welfare problems of wide-ranging Carnivora reflect naturally itinerant lifestyles",
-        "content": "The welfare problems of wide-ranging Carnivora reflect naturally itinerant lifestyles",
-        "citation": "Bandeli M, Mellor EL, Kroshko J, Maherali H, Mason GJ, 2023",
-        "authors": "Bandeli M, Mellor EL, Kroshko J, Maherali H, Mason GJ",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M2",
-          "M6"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
         ]
       },
       {
