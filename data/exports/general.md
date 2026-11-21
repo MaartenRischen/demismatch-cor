@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-21 13:41 UTC, from the live Cor atlas snapshot built 2026-11-21 13:41 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 13:47 UTC, from the live Cor atlas snapshot built 2026-11-21 13:47 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (7 contested-flagged).
 
 ---
 ## How to read this document
@@ -500,16 +500,16 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 15 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 7 carry a contested flag).
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (contested · CONTESTED)
   - The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
-**Lifetime known-individual ceiling (~1,000)** (tested once · CONTESTED)
+**Lifetime known-individual ceiling (~1,000)** (tested once)
   - EEA delivered a finite, slowly-accreting lifetime roster (~1,000+) in which virtually every encountered person was known or one reciprocal link away and carried trackable reputation; modernity delivers an unbounded firehose of identities, the overwhelming majority anonymous, non-reciprocal, and reputation-less. The mismatch is not in the size of the maintainable network (still ~150) but in the ratio of known-to-unknown: a system tuned to "almost everyone you meet is someone you can place" now operates where almost everyone you meet is someone you cannot. This chronically engages strangers as ambient novelty/threat (threat-management framing) and starves the cooperation/reputation system (M11) of the direct, repeated, reciprocal observability it evolved to run on, while the cumulative roster of genuinely-known people fails to grow despite massive nominal connection.
 
-**Band / camp size (a few dozen adults; ~25-50)** (tested many times · CONTESTED)
+**Band / camp size (a few dozen adults; ~25-50)** (tested many times)
   - The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
 **Within-camp kin fraction (low; campmates mostly unrelated)** (tested many times)
@@ -533,7 +533,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Leadership and dominance (no rulers; prestige by consent; exit available)** (contested · CONTESTED)
   - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
-**Status reference group (ranked against people who know you)** (tested once · CONTESTED)
+**Status reference group (ranked against people who know you)** (tested once)
   - The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for students more likely to compare badly with their peers (ext 2031, 2032).
 
 **How standing is earned (prestige and dominance)** (contested · CONTESTED)
@@ -555,7 +555,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours. Modern intergroup ties rarely run through personal relationships.
 
 **What marks someone as "them" (alliance cues)** (tested many times)
-  - The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
+  - The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them' (Rathje et al. 2021, eight datasets). Whether moralised posts in general spread more is contested: Brady et al. 2017 found it in 563,312 tweets, and a re-test on six other Twitter corpora gave inconsistent results (Burton, Cruz and Hahn 2021).
 
 **Food shared and eaten in company** (tested once)
   - A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
@@ -578,7 +578,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Number of children and spacing** (tested many times)
   - Fewer children, fewer pregnancies and far more menstrual cycles. Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
 
-**What gets a person chosen, and how unequal men are** (tested many times · CONTESTED)
+**What gets a person chosen, and how unequal men are** (tested many times)
   - Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
 
 **Rivals and comparison** (argued, not yet tested)
@@ -614,7 +614,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Affective (C-tactile) contact frequency and skin-to-skin time** (tested many times)
   - Modern environments routinely fall below the ancestral affective-touch floor. Touch deprivation in extreme cases (institutional rearing) produces growth-hormone suppression, immune dysfunction, and developmental arrest; even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
 
-**Co-sleeping / nighttime body contact** (tested many times · CONTESTED)
+**Co-sleeping / nighttime body contact** (tested many times)
   - Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).
 
 **Affective grooming/touch from trusted others (adult social touch)** (argued, not yet tested)
@@ -653,7 +653,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)** (contested · CONTESTED)
   - The modern food environment collapses a seasonally varied, micronutrient-dense, whole-food omnivory into a year-round monotony of refined, energy-dense, nutrient-diluted products, removing both the variety and the whole-food matrix the metabolic and digestive systems were calibrated to.
 
-**Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)** (argued, not yet tested · CONTESTED)
+**Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)** (argued, not yet tested)
   - Industrial formulation deliberately separates the reward cues (sweet/fat/salt) from the satiety cues (fiber, bulk, slow digestion) the two were ancestrally bundled together, so modern hyperpalatable food drives consumption past the point the body would otherwise stop, defeating the honest-signal logic of appetite regulation.
 
 **Acquisition effort (calories are physically worked for)** (tested many times)
@@ -680,10 +680,10 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 ### Information environment
 
-**Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)** (argued, not yet tested · CONTESTED)
+**Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)** (argued, not yet tested)
   - The evolved machinery for weighing information by source reputation and face-to-face accountability is deprived of the provenance cues it was calibrated to use. Receivers must evaluate high-stakes claims from sources they cannot place in any reputational web, and senders bear little reputational cost for deception - removing the gossip/ostracism feedback loop that ancestrally policed signal honesty.
 
-**Gossip and narrative flow as reputation and norm transmission** (tested many times · CONTESTED)
+**Gossip and narrative flow as reputation and norm transmission** (tested many times)
   - The gossip/narrative channel that ancestrally fused information transmission with reputation tracking and norm enforcement is decoupled. People consume reputational narrative about strangers they cannot sanction, and the norm-deterrence function (knowing the group is watching and will talk) is weakened in anonymous or one-to-many settings - leaving the evolved appetite for reputational narrative engaged but its enforcement payload disabled.
 ---
 
@@ -691,4 +691,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 13:41 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-21 13:41 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 13:47 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-21 13:47 UTC.*

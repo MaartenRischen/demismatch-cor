@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-21 13:41 UTC, from the live Cor atlas snapshot built 2026-11-21 13:41 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 13:47 UTC, from the live Cor atlas snapshot built 2026-11-21 13:47 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (7 contested-flagged).
 
 ---
 ## How to read this document
@@ -583,7 +583,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 15 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 7 carry a contested flag).
 **Grade legend.**
 
 - **tested many times** (21): consistent results across independent groups or methods, or a meta-analysis of good studies
@@ -607,7 +607,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Lifetime known-individual ceiling (~1,000)
-`EEA-SOC-02 · Social structure` - **tested once** · **CONTESTED**
+`EEA-SOC-02 · Social structure` - **tested once**
 
 **Ancestrally:** Across a foraging lifetime an individual accumulated a bounded pool of personally known others - people met face-to-face, named, placed in a kin/alliance/reputation map, and remembered. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), an order of magnitude above the ~150 actively-maintained network the social brain tracks concurrently. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). Crucially it was finite, slowly-growing, and fully reputation-indexed: nearly everyone one would ever encounter was either already known or one or two reciprocal links away, and almost no one was a true anonymous stranger. The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.
 
@@ -620,7 +620,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Band / camp size (a few dozen adults; ~25-50)
-`EEA-SOC-03 · Social structure` - **tested many times** · **CONTESTED**
+`EEA-SOC-03 · Social structure` - **tested many times**
 
 **Ancestrally:** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
 
@@ -629,8 +629,6 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **The gap to work with:** The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
 **Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 8
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
@@ -728,7 +726,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Status reference group (ranked against people who know you)
-`EEA-SOC-11 · Social structure` - **tested once** · **CONTESTED**
+`EEA-SOC-11 · Social structure` - **tested once**
 
 **Ancestrally:** A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.
 
@@ -821,7 +819,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** Large labelled groups (parties, nations, teams) supply alliance cues without any shared life. In the US, the gap between feelings toward one's own and the other party grew from 22.64 to 40.87 points on a 0 to 100 scale between 1978 and 2016, driven by colder feelings toward the other side. The rise is not general: across 12 OECD democracies six saw it fall. Posts about the political out-group are shared more (each out-group word about 67% higher odds, US media and Congress). Sports fans claim a team's win as their own and say 'we' twice as often after a win.
 
-**The gap to work with:** The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
+**The gap to work with:** The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them' (Rathje et al. 2021, eight datasets). Whether moralised posts in general spread more is contested: Brady et al. 2017 found it in 563,312 tweets, and a re-test on six other Twitter corpora gave inconsistent results (Burton, Cruz and Hahn 2021).
 
 **Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 20
 
@@ -901,7 +899,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 9
 
 #### What gets a person chosen, and how unequal men are
-`EEA-MATE-06 · Mating & reproduction` - **tested many times** · **CONTESTED**
+`EEA-MATE-06 · Mating & reproduction` - **tested many times**
 
 **Ancestrally:** Among foragers, men who hunted better had more surviving children (Ache, Hadza, !Kung, Lamalera, Meriam), and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
 
@@ -910,8 +908,6 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **The gap to work with:** Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
 
 **Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 16
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Rivals and comparison
 `EEA-MATE-07 · Mating & reproduction` - **argued, not yet tested**
@@ -1037,7 +1033,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 14
 
 #### Co-sleeping / nighttime body contact
-`EEA-TOUCH-02 · Touch & contact` - **tested many times** · **CONTESTED**
+`EEA-TOUCH-02 · Touch & contact` - **tested many times**
 
 **Ancestrally:** Ancestral infants and young children slept in body contact with the mother and others rather than alone, extending the daytime carried-contact regime through the night. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels (and likely circadian entrainment cues from the caregiver) operated continuously across the 24-hour cycle, not just during waking.
 
@@ -1048,8 +1044,6 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **What actually has to be present (resolution unit):** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
 **Serves:** M3 - Social Bonding, M7 - Circadian Regulation, R1 - Touch  ·  evidence links: 4
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Affective grooming/touch from trusted others (adult social touch)
 `EEA-TOUCH-03 · Touch & contact` - **argued, not yet tested**
@@ -1190,7 +1184,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
-`EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested** · **CONTESTED**
+`EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested**
 
 **Ancestrally:** Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100 g/day or somewhat more vs ~20 g today; Eaton 2006, ext 3605). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.
 
@@ -1295,7 +1289,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Information environment
 
 #### Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)
-`EEA-INFO-01 · Information environment` - **argued, not yet tested** · **CONTESTED**
+`EEA-INFO-01 · Information environment` - **argued, not yet tested**
 
 **Ancestrally:** Ancestrally, virtually all socially consequential information reached an individual through known, identifiable, reputation-bearing senders within a face-to-face band. A claim about who did what, where the game was, who could be trusted, or what was dangerous arrived attached to a specific person whose track record was known and who was themselves accountable to the same dense web of relationships. There was no anonymous, unaccountable, or de-contextualized information channel: the source of a signal and the receiver's ability to weigh that source by its history were inseparable. Boehm's ethnography of forager gossip describes a band that effectively keeps a running 'dossier' on every individual - provenance was the substrate of trust.
 
@@ -1310,7 +1304,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Gossip and narrative flow as reputation and norm transmission
-`EEA-INFO-02 · Information environment` - **tested many times** · **CONTESTED**
+`EEA-INFO-02 · Information environment` - **tested many times**
 
 **Ancestrally:** The dominant high-bandwidth information process in ancestral groups was gossip and narrative: talk about who behaved how, who is reliable or stingy, what happened, and what one ought to do. This stream did double duty - it transmitted norms, calibrated each person's reputation in the eyes of the group, and deterred free-riding because everyone knew gossip was constantly underway and anyone could become its subject. Boehm documents gossip, ridicule, and ostracism as the primary, low-cost enforcement mechanism against free-riders (bullies, the lazy, feigners, secret meat-eaters); Henrich notes that norm violations meant 'reputational damage, gossip, and a consequent loss of marriage opportunities and allies.' Information about people and norms was the central content of the ancestral information environment.
 
@@ -1321,12 +1315,10 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **What actually has to be present (resolution unit):** Reputation/norm narrative circulating within a bounded group where subjects and audience are mutually known and can reciprocally sanction - NOT raw volume of social content consumed. Doomscrolling celebrity gossip is high-volume but supplies almost no actionable, reciprocal reputational signal.
 
 **Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 9
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 ---
 
 ## About this framework
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 13:41 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 13:41 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 13:47 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 13:47 UTC.*

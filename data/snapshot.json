@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T13:41:33.513365+00:00",
+    "built_at": "2026-11-21T13:47:44.107448+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -173648,6 +173648,91 @@
         ]
       },
       {
+        "code": "EEA-SOC-03",
+        "domain": "social_structure",
+        "name": "Band / camp size (a few dozen adults; ~25-50)",
+        "eea_baseline": "Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.",
+        "eea_value": {
+          "units": "co-resident adults in a single band / overnight camp",
+          "source_status": "Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). The mean of 28.2 adults across 32 societies is attributed to Hill et al. 2011 (work 172); Cor's extraction from that work (ext 683) covers relatedness and does not carry the figure.",
+          "adult_range_low": 25,
+          "adult_range_high": 50,
+          "dunbar_band_layer": 35,
+          "dunbar_overnight_camp_layer": 50,
+          "reported_mean_adults_unverified": 28.2
+        },
+        "modern_default": "Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the ~25-50 face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.",
+        "gap_statement": "The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.",
+        "resolution_unit": null,
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people of all ages) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide (13 to 250 people across Marlowe's 263 societies, ext 754); Singh and Glowacki 2022 (ext 756) argue that larger, settled non-agricultural groups also existed in the Late Pleistocene.",
+        "created_at": "2026-06-08T11:58:45.998829+00:00",
+        "updated_at": "2026-06-08T12:12:33.533992+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M3"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 490,
+            "evidence_role": "supporting",
+            "author_quote": "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values.",
+            "evidence_quality": "replicated",
+            "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
+          },
+          {
+            "extraction_id": 404,
+            "evidence_role": "supporting",
+            "author_quote": "The innermost group consists of about three to five people.",
+            "evidence_quality": "replicated",
+            "content": "Friendship circles nest in a sequence scaling by factors of approximately three: innermost 5 (close confidants who provide emotional and physical support), then 15 (sympathy group, roughly jury size), 50 (typical hunter-gatherer overnight camp), 150 (Dunbar number, clan/tribal si"
+          },
+          {
+            "extraction_id": 603,
+            "evidence_role": "primary",
+            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
+            "evidence_quality": "thin",
+            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
+          },
+          {
+            "extraction_id": 683,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In 32 present-day forager societies, most members of a residential band were not close genetic kin of one another."
+          },
+          {
+            "extraction_id": 684,
+            "evidence_role": "supporting",
+            "author_quote": "We suggest that while residential and foraging groups are often small, there is little evidence that these groups are drawn from small communities nested within small-scale societies. Most mobile hunter-gatherers live in groups dominated by links between non-relatives, where residential group membership is fluid and supports large-scale social networks of interaction",
+            "evidence_quality": "replicated",
+            "content": "Forager residential groups vary widely in size and composition, and people moved between many groups across a regional network, so a single fixed small band is an oversimplification."
+          },
+          {
+            "extraction_id": 686,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Foragers range from small mobile bands to large settled societies with ranks and stored food, so no single foraging type describes them all."
+          },
+          {
+            "extraction_id": 754,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In Marlowe's cross-cultural sample of foragers, the median residential group size was 27 people (mean 41.4, range 13 to 250, across 263 societies)."
+          },
+          {
+            "extraction_id": 808,
+            "evidence_role": "supporting",
+            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
+            "evidence_quality": "thin",
+            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
+          }
+        ]
+      },
+      {
         "code": "EEA-SOC-08",
         "domain": "social_structure",
         "name": "Novel-stranger frequency (rare, salient, often a threat)",
@@ -173721,91 +173806,6 @@
             "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
             "evidence_quality": "thin",
             "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
-          }
-        ]
-      },
-      {
-        "code": "EEA-SOC-03",
-        "domain": "social_structure",
-        "name": "Band / camp size (a few dozen adults; ~25-50)",
-        "eea_baseline": "Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.",
-        "eea_value": {
-          "units": "co-resident adults in a single band / overnight camp",
-          "source_status": "Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). The mean of 28.2 adults across 32 societies is attributed to Hill et al. 2011 (work 172); Cor's extraction from that work (ext 683) covers relatedness and does not carry the figure.",
-          "adult_range_low": 25,
-          "adult_range_high": 50,
-          "dunbar_band_layer": 35,
-          "dunbar_overnight_camp_layer": 50,
-          "reported_mean_adults_unverified": 28.2
-        },
-        "modern_default": "Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the ~25-50 face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.",
-        "gap_statement": "The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.",
-        "resolution_unit": null,
-        "evidence_grade": "replicated",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people of all ages) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide and how typical small mobile bands were is debated.",
-        "created_at": "2026-06-08T11:58:45.998829+00:00",
-        "updated_at": "2026-06-08T12:12:33.533992+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M3"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 490,
-            "evidence_role": "supporting",
-            "author_quote": "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values.",
-            "evidence_quality": "replicated",
-            "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
-          },
-          {
-            "extraction_id": 404,
-            "evidence_role": "supporting",
-            "author_quote": "The innermost group consists of about three to five people.",
-            "evidence_quality": "replicated",
-            "content": "Friendship circles nest in a sequence scaling by factors of approximately three: innermost 5 (close confidants who provide emotional and physical support), then 15 (sympathy group, roughly jury size), 50 (typical hunter-gatherer overnight camp), 150 (Dunbar number, clan/tribal si"
-          },
-          {
-            "extraction_id": 603,
-            "evidence_role": "primary",
-            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
-            "evidence_quality": "thin",
-            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
-          },
-          {
-            "extraction_id": 683,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In 32 present-day forager societies, most members of a residential band were not close genetic kin of one another."
-          },
-          {
-            "extraction_id": 684,
-            "evidence_role": "supporting",
-            "author_quote": "We suggest that while residential and foraging groups are often small, there is little evidence that these groups are drawn from small communities nested within small-scale societies. Most mobile hunter-gatherers live in groups dominated by links between non-relatives, where residential group membership is fluid and supports large-scale social networks of interaction",
-            "evidence_quality": "replicated",
-            "content": "Forager residential groups vary widely in size and composition, and people moved between many groups across a regional network, so a single fixed small band is an oversimplification."
-          },
-          {
-            "extraction_id": 686,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Foragers range from small mobile bands to large settled societies with ranks and stored food, so no single foraging type describes them all."
-          },
-          {
-            "extraction_id": 754,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In Marlowe's cross-cultural sample of foragers, the median residential group size was 27 people (mean 41.4, range 13 to 250, across 263 societies)."
-          },
-          {
-            "extraction_id": 808,
-            "evidence_role": "supporting",
-            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
-            "evidence_quality": "thin",
-            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
           }
         ]
       },
@@ -174013,67 +174013,6 @@
         ]
       },
       {
-        "code": "EEA-TOUCH-03",
-        "domain": "touch_contact",
-        "name": "Affective grooming/touch from trusted others (adult social touch)",
-        "eea_baseline": "Beyond infancy, ancestral adults maintained social bonds through frequent affiliative body contact: the human homolog of primate grooming. Primate grooming is fundamentally about the intimacy of massage, where skin stimulation triggers endorphin release and underwrites social bonding. Ancestral adults lived in high-touch social fields where reassuring, stress-buffering touch from trusted others (partners, kin, allies) was a routine, ever-present channel of social and physiological regulation.",
-        "eea_value": {
-          "mechanism": "skin stimulation -> endorphin release (bonding) and vagal/cortisol regulation (stress buffering)",
-          "qualitative": true,
-          "reciprocity": "bidirectional: giver and receiver both benefit physiologically",
-          "adult_social_touch": "frequent affiliative body contact / grooming-homolog from trusted others"
-        },
-        "modern_default": "Adult-to-adult affiliative touch is sharply curtailed in WEIRD societies by personal-space norms, professionalization of touch, and screen-mediated relationships; trusted-other touch is increasingly confined to a single partner or absent entirely, and remote communication carries none of it.",
-        "gap_statement": "Loss of routine affiliative touch from trusted others removes a bonding and stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.",
-        "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).",
-        "created_at": "2026-06-08T12:32:40.677175+00:00",
-        "updated_at": "2026-06-08T12:32:40.677175+00:00",
-        "mechanism_codes": [
-          "M3",
-          "R1"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 386,
-            "evidence_role": "primary",
-            "author_quote": "Monkey grooming is not about removing fleas. Rather, it is about the intimacy of massage. The physical stimulation of the skin triggers the release of endorphins in the brain.",
-            "evidence_quality": "cross_species",
-            "content": "Primate grooming is not about removing fleas - it is about the intimacy of massage. Physical stimulation of the skin triggers endorphin release in the brain. Low-level pain associated with generalized stresses is dealt with by the endorphin system, creating a sense of wellbeing a"
-          },
-          {
-            "extraction_id": 429,
-            "evidence_role": "primary",
-            "author_quote": "The mean absolute increase in salivary cortisol in response to stress was 11.98 nmol/l in subjects with no interaction, 13.29 nmol/l in subjects of the social support group, and 4.33 nmol/l in subjects with positive physical contact.",
-            "evidence_quality": "thin",
-            "content": "In a randomised experiment with 67 healthy women in Zurich (aged 20 to 37, married to or living with a male partner for at least 12 months), each woman spent 10 minutes before a public speaking and mental arithmetic test (Trier Social Stress Test) either alone (25), receiving ver"
-          },
-          {
-            "extraction_id": 430,
-            "evidence_role": "supporting",
-            "author_quote": "We compared 'grandparent' volunteers massaging infants (figure 2.2), with 'grandparent' volunteers being massaged themselves. Both experiences had positive effects, including such lifestyle changes as participants having more social contacts, drinking less coffee, and making fewer trips to the doctor's office.",
-            "evidence_quality": "thin",
-            "content": "Elderly volunteers who massaged infants showed positive health effects: more social contacts, less coffee consumption, fewer doctor visits. Being massaged and giving massage both produced benefits. This reciprocal caregiving-through-touch model demonstrates that touch regulation "
-          },
-          {
-            "extraction_id": 295,
-            "evidence_role": "supporting",
-            "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
-            "evidence_quality": "thin",
-            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
-          },
-          {
-            "extraction_id": 418,
-            "evidence_role": "supporting",
-            "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
-            "evidence_quality": "theoretical",
-            "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
-          }
-        ]
-      },
-      {
         "code": "EEA-CARE-03",
         "domain": "care_development",
         "name": "Mixed-age child playgroups as developmental input",
@@ -174084,7 +174023,7 @@
         "resolution_unit": "Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, solitary screen play, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans. In monkeys, isolates recovered with younger partners (ext 542). The causal role of pretend play is contested (Lillard et al. 2013, ext 762).",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans. In monkeys, isolates recovered with younger partners (ext 542). A review of tests of pretend play found weak and inconsistent evidence that it causes the developmental gains credited to it (Lillard et al. 2013, ext 762); the tests it reviews are mostly adult-led play training in preschools, which is not the self-organised play this row describes.",
         "created_at": "2026-06-08T12:32:36.274575+00:00",
         "updated_at": "2026-06-08T12:32:36.274575+00:00",
         "mechanism_codes": [
@@ -174196,6 +174135,67 @@
             "author_quote": "Our take-away message is that existing evidence does not support strong causal claims about the unique importance of pretend play for development and that much more and better research is essential for clarifying its possible role",
             "evidence_quality": "contested",
             "content": "A review found weak and inconsistent evidence that pretend play causes the developmental gains often credited to it."
+          }
+        ]
+      },
+      {
+        "code": "EEA-TOUCH-03",
+        "domain": "touch_contact",
+        "name": "Affective grooming/touch from trusted others (adult social touch)",
+        "eea_baseline": "Beyond infancy, ancestral adults maintained social bonds through frequent affiliative body contact: the human homolog of primate grooming. Primate grooming is fundamentally about the intimacy of massage, where skin stimulation triggers endorphin release and underwrites social bonding. Ancestral adults lived in high-touch social fields where reassuring, stress-buffering touch from trusted others (partners, kin, allies) was a routine, ever-present channel of social and physiological regulation.",
+        "eea_value": {
+          "mechanism": "skin stimulation -> endorphin release (bonding) and vagal/cortisol regulation (stress buffering)",
+          "qualitative": true,
+          "reciprocity": "bidirectional: giver and receiver both benefit physiologically",
+          "adult_social_touch": "frequent affiliative body contact / grooming-homolog from trusted others"
+        },
+        "modern_default": "Adult-to-adult affiliative touch is sharply curtailed in WEIRD societies by personal-space norms, professionalization of touch, and screen-mediated relationships; trusted-other touch is increasingly confined to a single partner or absent entirely, and remote communication carries none of it.",
+        "gap_statement": "Loss of routine affiliative touch from trusted others removes a bonding and stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.",
+        "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).",
+        "created_at": "2026-06-08T12:32:40.677175+00:00",
+        "updated_at": "2026-06-08T12:32:40.677175+00:00",
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 386,
+            "evidence_role": "primary",
+            "author_quote": "Monkey grooming is not about removing fleas. Rather, it is about the intimacy of massage. The physical stimulation of the skin triggers the release of endorphins in the brain.",
+            "evidence_quality": "cross_species",
+            "content": "Primate grooming is not about removing fleas - it is about the intimacy of massage. Physical stimulation of the skin triggers endorphin release in the brain. Low-level pain associated with generalized stresses is dealt with by the endorphin system, creating a sense of wellbeing a"
+          },
+          {
+            "extraction_id": 429,
+            "evidence_role": "primary",
+            "author_quote": "The mean absolute increase in salivary cortisol in response to stress was 11.98 nmol/l in subjects with no interaction, 13.29 nmol/l in subjects of the social support group, and 4.33 nmol/l in subjects with positive physical contact.",
+            "evidence_quality": "thin",
+            "content": "In a randomised experiment with 67 healthy women in Zurich (aged 20 to 37, married to or living with a male partner for at least 12 months), each woman spent 10 minutes before a public speaking and mental arithmetic test (Trier Social Stress Test) either alone (25), receiving ver"
+          },
+          {
+            "extraction_id": 430,
+            "evidence_role": "supporting",
+            "author_quote": "We compared 'grandparent' volunteers massaging infants (figure 2.2), with 'grandparent' volunteers being massaged themselves. Both experiences had positive effects, including such lifestyle changes as participants having more social contacts, drinking less coffee, and making fewer trips to the doctor's office.",
+            "evidence_quality": "thin",
+            "content": "Elderly volunteers who massaged infants showed positive health effects: more social contacts, less coffee consumption, fewer doctor visits. Being massaged and giving massage both produced benefits. This reciprocal caregiving-through-touch model demonstrates that touch regulation "
+          },
+          {
+            "extraction_id": 295,
+            "evidence_role": "supporting",
+            "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
+            "evidence_quality": "thin",
+            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
+          },
+          {
+            "extraction_id": 418,
+            "evidence_role": "supporting",
+            "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
+            "evidence_quality": "theoretical",
+            "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
           }
         ]
       },
@@ -174527,6 +174527,49 @@
         ]
       },
       {
+        "code": "EEA-INFO-01",
+        "domain": "information_environment",
+        "name": "Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)",
+        "eea_baseline": "Ancestrally, virtually all socially consequential information reached an individual through known, identifiable, reputation-bearing senders within a face-to-face band. A claim about who did what, where the game was, who could be trusted, or what was dangerous arrived attached to a specific person whose track record was known and who was themselves accountable to the same dense web of relationships. There was no anonymous, unaccountable, or de-contextualized information channel: the source of a signal and the receiver's ability to weigh that source by its history were inseparable. Boehm's ethnography of forager gossip describes a band that effectively keeps a running 'dossier' on every individual - provenance was the substrate of trust.",
+        "eea_value": null,
+        "modern_default": "Most information now arrives through anonymous, algorithmically-mediated, or institutionally-impersonal channels in which the sender's identity, track record, and accountability to the receiver are absent or unverifiable. The shift Tomasello describes - from face-to-face 'I-you' exchange to impersonal 'we-as-group' broadcast - is taken to an extreme by mass and digital media, where signals are detached from any reputation-bearing source the receiver can sanction or even locate.",
+        "gap_statement": "The evolved machinery for weighing information by source reputation and face-to-face accountability is deprived of the provenance cues it was calibrated to use. Receivers must evaluate high-stakes claims from sources they cannot place in any reputational web, and senders bear little reputational cost for deception - removing the gossip/ostracism feedback loop that ancestrally policed signal honesty.",
+        "resolution_unit": "Proportion of consequential information arriving from a known, reputation-bearing, accountable source the receiver can locate and sanction - NOT raw access to information or number of contacts. A person can be flooded with information yet have almost none of it carry verifiable provenance.",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from; the claim that nearly all of it came from known people is inferred from band size and gossip ethnography. No published evidence argues the other way.",
+        "created_at": "2026-06-08T12:33:00.801884+00:00",
+        "updated_at": "2026-06-08T12:33:00.801884+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M3",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 373,
+            "evidence_role": "primary",
+            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
+            "evidence_quality": "replicated",
+            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
+          },
+          {
+            "extraction_id": 509,
+            "evidence_role": "supporting",
+            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
+            "evidence_quality": "theoretical",
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
+          },
+          {
+            "extraction_id": 250,
+            "evidence_role": "supporting",
+            "author_quote": "The second step, reflecting the focus of culture theorists such as Vygotsky and Bakhtin, came as human populations began growing in size and competing with one another. This competition meant that group life as a whole became one big collaborative activity, creating a much larger and more permanent shared world, that is to say, a culture. The resulting group-mindedness among all members of the cultural group (including in-group strangers) was based on a new ability to construct common cultural ground via collectively known cultural conventions, norms, and institutions.",
+            "evidence_quality": "theoretical",
+            "content": "Collective intentionality (second step): as human populations grew and groups competed, group life as a whole became 'one big collaborative activity' - a culture. The resulting group-mindedness among all members of the cultural group (including in-group strangers) was based on ab"
+          }
+        ]
+      },
+      {
         "code": "EEA-INFO-02",
         "domain": "information_environment",
         "name": "Gossip and narrative flow as reputation and norm transmission",
@@ -174536,7 +174579,7 @@
         "gap_statement": "The gossip/narrative channel that ancestrally fused information transmission with reputation tracking and norm enforcement is decoupled. People consume reputational narrative about strangers they cannot sanction, and the norm-deterrence function (knowing the group is watching and will talk) is weakened in anonymous or one-to-many settings - leaving the evolved appetite for reputational narrative engaged but its enforcement payload disabled.",
         "resolution_unit": "Reputation/norm narrative circulating within a bounded group where subjects and audience are mutually known and can reciprocally sanction - NOT raw volume of social content consumed. Doomscrolling celebrity gossip is high-volume but supplies almost no actionable, reciprocal reputational signal.",
         "evidence_grade": "replicated",
-        "contested": true,
+        "contested": false,
         "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Gossip, ridicule and ostracism as norm enforcement are documented across forager ethnography (Boehm 1993, 1999; Wiessner 2014; Smith et al. 2017) and gossip deters selfishness in experiments (Feinberg et al. 2012). That modern channels weaken this function is the framework's reading, untested.",
         "created_at": "2026-06-08T12:33:01.911109+00:00",
         "updated_at": "2026-06-08T12:33:01.911109+00:00",
@@ -174611,31 +174654,61 @@
         ]
       },
       {
-        "code": "EEA-INFO-01",
-        "domain": "information_environment",
-        "name": "Signal provenance and accountability (information from known, reputation-bearing, face-to-face sources)",
-        "eea_baseline": "Ancestrally, virtually all socially consequential information reached an individual through known, identifiable, reputation-bearing senders within a face-to-face band. A claim about who did what, where the game was, who could be trusted, or what was dangerous arrived attached to a specific person whose track record was known and who was themselves accountable to the same dense web of relationships. There was no anonymous, unaccountable, or de-contextualized information channel: the source of a signal and the receiver's ability to weigh that source by its history were inseparable. Boehm's ethnography of forager gossip describes a band that effectively keeps a running 'dossier' on every individual - provenance was the substrate of trust.",
-        "eea_value": null,
-        "modern_default": "Most information now arrives through anonymous, algorithmically-mediated, or institutionally-impersonal channels in which the sender's identity, track record, and accountability to the receiver are absent or unverifiable. The shift Tomasello describes - from face-to-face 'I-you' exchange to impersonal 'we-as-group' broadcast - is taken to an extreme by mass and digital media, where signals are detached from any reputation-bearing source the receiver can sanction or even locate.",
-        "gap_statement": "The evolved machinery for weighing information by source reputation and face-to-face accountability is deprived of the provenance cues it was calibrated to use. Receivers must evaluate high-stakes claims from sources they cannot place in any reputational web, and senders bear little reputational cost for deception - removing the gossip/ostracism feedback loop that ancestrally policed signal honesty.",
-        "resolution_unit": "Proportion of consequential information arriving from a known, reputation-bearing, accountable source the receiver can locate and sanction - NOT raw access to information or number of contacts. A person can be flooded with information yet have almost none of it carry verifiable provenance.",
-        "evidence_grade": "theoretical",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from; the claim that nearly all of it came from known people is inferred from band size and gossip ethnography. No published evidence argues the other way.",
-        "created_at": "2026-06-08T12:33:00.801884+00:00",
-        "updated_at": "2026-06-08T12:33:00.801884+00:00",
+        "code": "EEA-SOC-02",
+        "domain": "social_structure",
+        "name": "Lifetime known-individual ceiling (~1,000)",
+        "eea_baseline": "Across a foraging lifetime an individual accumulated a bounded pool of personally known others - people met face-to-face, named, placed in a kin/alliance/reputation map, and remembered. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), an order of magnitude above the ~150 actively-maintained network the social brain tracks concurrently. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). Crucially it was finite, slowly-growing, and fully reputation-indexed: nearly everyone one would ever encounter was either already known or one or two reciprocal links away, and almost no one was a true anonymous stranger. The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.",
+        "eea_value": {
+          "note": "Hill et al. 2014 (Ache, Hadza; ext 606, 608): a 'social universe of about a thousand individuals'; a lifetime pool 'clearly more than 1,000'. One model-based study in two populations. For the ~150 ceiling and the 5/15/50/150 layers, see EEA-SOC-01.",
+          "active_network_layers": [
+            5,
+            15,
+            50,
+            150
+          ],
+          "concurrent_active_network_ceiling": 150,
+          "lifetime_distinct_known_individuals": "~1000+"
+        },
+        "modern_default": "A networked individual is exposed to vastly more than 1,000 distinct identities - thousands of nominal \"friends\"/followers plus a near-unbounded daily stream of strangers (crowds, feeds, comment sections, customer interactions). Nominal contact counts routinely run into the thousands while the genuinely-tracked inner network stays pinned near the same ~150, and only ~27.6% of those nominal ties register as genuine close friends. The result is a permanent flood of identities the reputation-tracking and trust-calibration system was never built to index: most are anonymous, non-reciprocal, never re-encountered, and carry no durable reputation, so they neither enter the lifetime roster nor decay out of it normally - they simply accumulate as un-indexable noise. The pool of actually-known, reputation-bearing people is no larger than ancestrally, but it is now embedded in an environment of effectively infinite strangers.",
+        "gap_statement": "EEA delivered a finite, slowly-accreting lifetime roster (~1,000+) in which virtually every encountered person was known or one reciprocal link away and carried trackable reputation; modernity delivers an unbounded firehose of identities, the overwhelming majority anonymous, non-reciprocal, and reputation-less. The mismatch is not in the size of the maintainable network (still ~150) but in the ratio of known-to-unknown: a system tuned to \"almost everyone you meet is someone you can place\" now operates where almost everyone you meet is someone you cannot. This chronically engages strangers as ambient novelty/threat (threat-management framing) and starves the cooperation/reputation system (M11) of the direct, repeated, reciprocal observability it evolved to run on, while the cumulative roster of genuinely-known people fails to grow despite massive nominal connection.",
+        "resolution_unit": null,
+        "evidence_grade": "thin",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.",
+        "created_at": "2026-06-08T11:58:44.97257+00:00",
+        "updated_at": "2026-06-08T23:21:57.324504+00:00",
         "mechanism_codes": [
           "M11",
-          "M3",
-          "M5"
+          "M3"
         ],
         "evidence": [
           {
-            "extraction_id": 373,
-            "evidence_role": "primary",
-            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
+            "extraction_id": 502,
+            "evidence_role": "supporting",
+            "author_quote": "Each layer increases relationship numbers by an approximate multiple of 3 (5-15-50-150) but decreasing levels of intimacy (strong, medium, and weak ties) and frequency of interaction.",
             "evidence_quality": "replicated",
-            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
+            "content": "Personal social networks consist of hierarchically inclusive nested layers of approximately 5/15/50/150 individuals, each layer roughly 3x the previous. Support group (~5): individuals from whom one would seek personal advice in severe distress. Sympathy group (~15): people whose"
+          },
+          {
+            "extraction_id": 404,
+            "evidence_role": "supporting",
+            "author_quote": "The innermost group consists of about three to five people.",
+            "evidence_quality": "replicated",
+            "content": "Friendship circles nest in a sequence scaling by factors of approximately three: innermost 5 (close confidants who provide emotional and physical support), then 15 (sympathy group, roughly jury size), 50 (typical hunter-gatherer overnight camp), 150 (Dunbar number, clan/tribal si"
+          },
+          {
+            "extraction_id": 25,
+            "evidence_role": "supporting",
+            "author_quote": "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153",
+            "evidence_quality": "contested",
+            "content": "Extrapolating from the relationship between neocortex size and group size for monkeys and apes gives a group size of about 150 - the limit on the number of social relationships that humans can have. For the twenty-odd tribal societies where census data are available, clan groups "
+          },
+          {
+            "extraction_id": 490,
+            "evidence_role": "supporting",
+            "author_quote": "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values.",
+            "evidence_quality": "replicated",
+            "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
           },
           {
             "extraction_id": 509,
@@ -174645,11 +174718,46 @@
             "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
           },
           {
-            "extraction_id": 250,
+            "extraction_id": 606,
+            "evidence_role": "primary",
+            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
+            "evidence_quality": "thin",
+            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
+          },
+          {
+            "extraction_id": 607,
             "evidence_role": "supporting",
-            "author_quote": "The second step, reflecting the focus of culture theorists such as Vygotsky and Bakhtin, came as human populations began growing in size and competing with one another. This competition meant that group life as a whole became one big collaborative activity, creating a much larger and more permanent shared world, that is to say, a culture. The resulting group-mindedness among all members of the cultural group (including in-group strangers) was based on a new ability to construct common cultural ground via collectively known cultural conventions, norms, and institutions.",
-            "evidence_quality": "theoretical",
-            "content": "Collective intentionality (second step): as human populations grew and groups competed, group life as a whole became 'one big collaborative activity' - a culture. The resulting group-mindedness among all members of the cultural group (including in-group strangers) was based on ab"
+            "author_quote": "Precontact Northern Ache men, for example, are expected to have hunted with 206 men, conversed with 290 men, and watch tool making by 302 different men in a lifetime (Table S16 in File S1). Eastern Hadza men are expected to converse with 427 other Hadza men, hunt with 303 men, and watch tool making by 395 different men in a lifetime. In contrast, chimpanzees living in typical communities of 11 adult males are expected to interact with a mean of only 21 other adult males in a lifetime",
+            "evidence_quality": "thin",
+            "content": "Per-activity lifetime interaction counts for Ache/Hadza men (hundreds of partners) vs ~21 for male chimpanzees: lifetime human social universe is an order of magnitude larger."
+          },
+          {
+            "extraction_id": 608,
+            "evidence_role": "supporting",
+            "author_quote": "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions",
+            "evidence_quality": "thin",
+            "content": "The lifetime pool of individually-known interactants is clearly >1,000 - which Hill et al. explicitly note is far above the ~150 figure (the Dunbar number) that was extrapolated from primate brain / social-group-size regressions."
+          },
+          {
+            "extraction_id": 684,
+            "evidence_role": "supporting",
+            "author_quote": "We suggest that while residential and foraging groups are often small, there is little evidence that these groups are drawn from small communities nested within small-scale societies. Most mobile hunter-gatherers live in groups dominated by links between non-relatives, where residential group membership is fluid and supports large-scale social networks of interaction",
+            "evidence_quality": "replicated",
+            "content": "Forager residential groups vary widely in size and composition, and people moved between many groups across a regional network, so a single fixed small band is an oversimplification."
+          },
+          {
+            "extraction_id": 841,
+            "evidence_role": "supporting",
+            "author_quote": "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals",
+            "evidence_quality": "thin",
+            "content": "Among Aka foragers of the Central African Republic, the exploration range, the area a person explores over a lifetime searching for a mate, visiting kin, hunting and learning, is approximately 50 km and covers an area where they can meet and get to know about 700 people."
+          },
+          {
+            "extraction_id": 508,
+            "evidence_role": "primary",
+            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
+            "evidence_quality": "thin",
+            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           }
         ]
       },
@@ -174663,7 +174771,7 @@
         "gap_statement": "Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).",
         "resolution_unit": "Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.",
         "evidence_grade": "replicated",
-        "contested": true,
+        "contested": false,
         "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands. The two largest case-control analyses disagree on bed-sharing where no other hazard is present: Blair et al. 2014 found no significant added risk (odds ratio 1.1), with about 18 times the risk on a sofa or beside an adult who had drunk alcohol (ext 3346); Carpenter et al. 2013 found about five times the risk for breastfed babies under 3 months whose parents neither smoke nor drink (ext 3347). On a question of an infant's life the hazard data decide, not the ancestral picture.",
         "created_at": "2026-06-08T12:32:39.780011+00:00",
         "updated_at": "2026-06-08T23:21:58.786554+00:00",
@@ -174829,114 +174937,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-02",
-        "domain": "social_structure",
-        "name": "Lifetime known-individual ceiling (~1,000)",
-        "eea_baseline": "Across a foraging lifetime an individual accumulated a bounded pool of personally known others - people met face-to-face, named, placed in a kin/alliance/reputation map, and remembered. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), an order of magnitude above the ~150 actively-maintained network the social brain tracks concurrently. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). Crucially it was finite, slowly-growing, and fully reputation-indexed: nearly everyone one would ever encounter was either already known or one or two reciprocal links away, and almost no one was a true anonymous stranger. The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.",
-        "eea_value": {
-          "note": "Hill et al. 2014 (Ache, Hadza; ext 606, 608): a 'social universe of about a thousand individuals'; a lifetime pool 'clearly more than 1,000'. One model-based study in two populations. For the ~150 ceiling and the 5/15/50/150 layers, see EEA-SOC-01.",
-          "active_network_layers": [
-            5,
-            15,
-            50,
-            150
-          ],
-          "concurrent_active_network_ceiling": 150,
-          "lifetime_distinct_known_individuals": "~1000+"
-        },
-        "modern_default": "A networked individual is exposed to vastly more than 1,000 distinct identities - thousands of nominal \"friends\"/followers plus a near-unbounded daily stream of strangers (crowds, feeds, comment sections, customer interactions). Nominal contact counts routinely run into the thousands while the genuinely-tracked inner network stays pinned near the same ~150, and only ~27.6% of those nominal ties register as genuine close friends. The result is a permanent flood of identities the reputation-tracking and trust-calibration system was never built to index: most are anonymous, non-reciprocal, never re-encountered, and carry no durable reputation, so they neither enter the lifetime roster nor decay out of it normally - they simply accumulate as un-indexable noise. The pool of actually-known, reputation-bearing people is no larger than ancestrally, but it is now embedded in an environment of effectively infinite strangers.",
-        "gap_statement": "EEA delivered a finite, slowly-accreting lifetime roster (~1,000+) in which virtually every encountered person was known or one reciprocal link away and carried trackable reputation; modernity delivers an unbounded firehose of identities, the overwhelming majority anonymous, non-reciprocal, and reputation-less. The mismatch is not in the size of the maintainable network (still ~150) but in the ratio of known-to-unknown: a system tuned to \"almost everyone you meet is someone you can place\" now operates where almost everyone you meet is someone you cannot. This chronically engages strangers as ambient novelty/threat (threat-management framing) and starves the cooperation/reputation system (M11) of the direct, repeated, reciprocal observability it evolved to run on, while the cumulative roster of genuinely-known people fails to grow despite massive nominal connection.",
-        "resolution_unit": null,
-        "evidence_grade": "thin",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.",
-        "created_at": "2026-06-08T11:58:44.97257+00:00",
-        "updated_at": "2026-06-08T23:21:57.324504+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M3"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 502,
-            "evidence_role": "supporting",
-            "author_quote": "Each layer increases relationship numbers by an approximate multiple of 3 (5-15-50-150) but decreasing levels of intimacy (strong, medium, and weak ties) and frequency of interaction.",
-            "evidence_quality": "replicated",
-            "content": "Personal social networks consist of hierarchically inclusive nested layers of approximately 5/15/50/150 individuals, each layer roughly 3x the previous. Support group (~5): individuals from whom one would seek personal advice in severe distress. Sympathy group (~15): people whose"
-          },
-          {
-            "extraction_id": 404,
-            "evidence_role": "supporting",
-            "author_quote": "The innermost group consists of about three to five people.",
-            "evidence_quality": "replicated",
-            "content": "Friendship circles nest in a sequence scaling by factors of approximately three: innermost 5 (close confidants who provide emotional and physical support), then 15 (sympathy group, roughly jury size), 50 (typical hunter-gatherer overnight camp), 150 (Dunbar number, clan/tribal si"
-          },
-          {
-            "extraction_id": 25,
-            "evidence_role": "supporting",
-            "author_quote": "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153",
-            "evidence_quality": "contested",
-            "content": "Extrapolating from the relationship between neocortex size and group size for monkeys and apes gives a group size of about 150 - the limit on the number of social relationships that humans can have. For the twenty-odd tribal societies where census data are available, clan groups "
-          },
-          {
-            "extraction_id": 490,
-            "evidence_role": "supporting",
-            "author_quote": "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values.",
-            "evidence_quality": "replicated",
-            "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
-          },
-          {
-            "extraction_id": 509,
-            "evidence_role": "supporting",
-            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "theoretical",
-            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
-          },
-          {
-            "extraction_id": 606,
-            "evidence_role": "primary",
-            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
-            "evidence_quality": "thin",
-            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
-          },
-          {
-            "extraction_id": 607,
-            "evidence_role": "supporting",
-            "author_quote": "Precontact Northern Ache men, for example, are expected to have hunted with 206 men, conversed with 290 men, and watch tool making by 302 different men in a lifetime (Table S16 in File S1). Eastern Hadza men are expected to converse with 427 other Hadza men, hunt with 303 men, and watch tool making by 395 different men in a lifetime. In contrast, chimpanzees living in typical communities of 11 adult males are expected to interact with a mean of only 21 other adult males in a lifetime",
-            "evidence_quality": "thin",
-            "content": "Per-activity lifetime interaction counts for Ache/Hadza men (hundreds of partners) vs ~21 for male chimpanzees: lifetime human social universe is an order of magnitude larger."
-          },
-          {
-            "extraction_id": 608,
-            "evidence_role": "supporting",
-            "author_quote": "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions",
-            "evidence_quality": "thin",
-            "content": "The lifetime pool of individually-known interactants is clearly >1,000 - which Hill et al. explicitly note is far above the ~150 figure (the Dunbar number) that was extrapolated from primate brain / social-group-size regressions."
-          },
-          {
-            "extraction_id": 684,
-            "evidence_role": "supporting",
-            "author_quote": "We suggest that while residential and foraging groups are often small, there is little evidence that these groups are drawn from small communities nested within small-scale societies. Most mobile hunter-gatherers live in groups dominated by links between non-relatives, where residential group membership is fluid and supports large-scale social networks of interaction",
-            "evidence_quality": "replicated",
-            "content": "Forager residential groups vary widely in size and composition, and people moved between many groups across a regional network, so a single fixed small band is an oversimplification."
-          },
-          {
-            "extraction_id": 841,
-            "evidence_role": "supporting",
-            "author_quote": "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals",
-            "evidence_quality": "thin",
-            "content": "Among Aka foragers of the Central African Republic, the exploration range, the area a person explores over a lifetime searching for a mate, visiting kin, hunting and learning, is approximately 50 km and covers an area where they can meet and get to know about 700 people."
-          },
-          {
-            "extraction_id": 508,
-            "evidence_role": "primary",
-            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "thin",
-            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
-          }
-        ]
-      },
-      {
         "code": "EEA-MATE-06",
         "domain": "mating_reproduction",
         "name": "What gets a person chosen, and how unequal men are",
@@ -174948,8 +174948,8 @@
         "gap_statement": "Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times that good hunters and high-status men had more children (ext 770, ext 731) and that male variance in reproductive success is higher on average (Brown et al. 2009, 18 populations). Contested: the size of the sex gap, which varies with marriage system (Brown et al. 2009 challenge); whether stated preferences matter (Eastwick et al. 2014, ext 757); whether gender equality shrinks preference gaps (Zentner and Mitura 2012 for; Walter et al. 2020 finds it only for financial prospects and partner age). Modern sexual inactivity: one survey series (Ueda et al. 2020). Background-tier evidence cited (abstract or book only): ext 770, 771, 692, 694, 1009, 757, 805. Counter-evidence added 19 Nov 2026: among 44 Batek adults followed for 45 years, foraging return and sharing were unrelated to fertility and to surviving children (Kraft et al. 2019, ext 1583); the sample is far below the about 200 the authors say the average effect needs.",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times that good hunters and high-status men had more children (ext 770, ext 731) and that male variance in reproductive success is higher on average (Brown et al. 2009, 18 populations). The size of the sex gap varies with the marriage system (Brown et al. 2009, ext 1003), as the baseline states. Stated preferences barely predict whom people like when they meet (Eastwick et al. 2014, ext 757), as the gap statement states. Across 45 countries (14,399 people), gender equality was not robustly related to the sex differences in stated preferences, except for financial prospects and partner age (Walter et al. 2020, ext 695, 999); Zentner and Mitura 2012 (ext 1009) found smaller gaps with more parity across 10 nations, and 31 in a re-analysis of Buss's 1989 data. Modern sexual inactivity: one survey series (Ueda et al. 2020). Background-tier evidence cited (abstract or book only): ext 770, 771, 692, 694, 1009, 757, 805. Among 44 Batek adults followed for 45 years, foraging return and sharing were unrelated to fertility and to surviving children (Kraft et al. 2019, ext 1583); the authors calculate that about 200 people are needed to detect the average forager effect (ext 1584), so the study was too small to test it.",
         "created_at": "2026-11-19T02:41:12.541305+00:00",
         "updated_at": "2026-11-19T02:41:12.541305+00:00",
         "mechanism_codes": [
@@ -175797,6 +175797,68 @@
         ]
       },
       {
+        "code": "EEA-SOC-14",
+        "domain": "social_structure",
+        "name": "Wealth gaps (low to moderate in foragers)",
+        "eea_baseline": "Forager material inequality was low to moderate. Weighted wealth Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and inherited (21 small-scale populations). Across eleven kinds of forager wealth most Ginis fell between 0.2 and 0.5; the two material measures averaged 0.36. House sizes at 63 archaeological sites give the same order: median Gini 0.17 at hunter-gatherer sites, 0.35 at agricultural sites.",
+        "eea_value": {
+          "pastoralist": 0.42,
+          "agriculturalist": 0.48,
+          "horticulturalist": 0.27,
+          "hunter_gatherer_wealth_gini": 0.25,
+          "hunter_gatherer_house_size_gini_median": 0.17
+        },
+        "modern_default": "Wealth Gini coefficients in modern states are far higher: about 0.80 for the USA in 2000 and 0.73 for China, figures Kohler et al. cite from other studies. Among the Ju/'hoansi, 44 years of cash income produced large material differences even between neighbours.",
+        "gap_statement": "Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.",
+        "resolution_unit": null,
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.",
+        "created_at": "2026-11-11T04:19:21.374649+00:00",
+        "updated_at": "2026-11-11T04:19:21.374649+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1039,
+            "evidence_role": "primary",
+            "author_quote": "hunter-gatherer and horticultural populations are both quite egalitarian, while pastoral and agricultural societies are characterized by substantial wealth inequality",
+            "evidence_quality": "replicated",
+            "content": "Across 21 small-scale populations, wealth inequality depended on how people made a living. Weighted Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and passe"
+          },
+          {
+            "extraction_id": 1040,
+            "evidence_role": "primary",
+            "author_quote": "Thus, to the extent that our measures for this set of foragers are representative, wealth inequality is moderate",
+            "evidence_quality": "replicated",
+            "content": "In hunter-gatherer populations (Ache, Hadza, Tsimane, Lamalera, Meriam, Ju/'hoansi), Gini coefficients for eleven kinds of wealth (hunting and foraging returns, grip strength, body weight, reproductive success, Lamalera boat shares and housing, exchange and sharing partners) most"
+          },
+          {
+            "extraction_id": 1041,
+            "evidence_role": "primary",
+            "author_quote": "As expected, the hunter-gatherers in this sample exhibit low Gini indices (wealth differences) using the house-size proxy (median = 0.17)",
+            "evidence_quality": "thin",
+            "content": "Using house size as a stand-in for household wealth at 63 archaeological sites, hunter-gatherer sites had a median Gini of 0.17, horticultural sites 0.27 and agricultural sites 0.35. Old World societies later reached about 0.48 to 0.60. The authors set these beside modern wealth "
+          },
+          {
+            "extraction_id": 1034,
+            "evidence_role": "supporting",
+            "author_quote": "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist.",
+            "evidence_quality": "thin",
+            "content": "Among the Ju/'hoansi, 44 years of possession and spending data (1974 /Kae/kae, Botswana; 2017 to 2018 Nyae Nyae, Namibia) show that cash income brought large differences in material wealth, even between neighbours, while hxaro gift partnerships shrank. Social, gender and politica"
+          },
+          {
+            "extraction_id": 756,
+            "evidence_role": "primary",
+            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
+            "evidence_quality": "contested",
+            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
+          }
+        ]
+      },
+      {
         "code": "EEA-SOC-13",
         "domain": "social_structure",
         "name": "What standing buys (children)",
@@ -175811,7 +175873,7 @@
         "resolution_unit": null,
         "evidence_grade": "meta_analysis",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Counter-evidence: among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583; 44 adults, and the authors calculate that about 200 are needed to detect the average forager effect, ext 1584); among the Waorani and Nyangatom, frequent raiders did not have more wives or children (ext 897, 892). The modern reversal is argued (ext 410), not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583); with 44 adults, where the authors calculate that about 200 are needed to detect the average forager effect (ext 1584), the study was too small to test it. Two studies measured raiding: among the Waorani, men who raided more often than average did not have more wives or children (ext 897); among the Nyangatom, younger men's raiding showed no link to wives or children, while elders whom peers named as prolific raiders had more of both (ext 892). The modern reversal is argued (ext 410), not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.",
         "created_at": "2026-11-11T04:19:20.830659+00:00",
         "updated_at": "2026-11-11T04:19:20.830659+00:00",
         "mechanism_codes": [
@@ -175881,68 +175943,6 @@
             "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
             "evidence_quality": "thin",
             "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the "
-          }
-        ]
-      },
-      {
-        "code": "EEA-SOC-14",
-        "domain": "social_structure",
-        "name": "Wealth gaps (low to moderate in foragers)",
-        "eea_baseline": "Forager material inequality was low to moderate. Weighted wealth Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and inherited (21 small-scale populations). Across eleven kinds of forager wealth most Ginis fell between 0.2 and 0.5; the two material measures averaged 0.36. House sizes at 63 archaeological sites give the same order: median Gini 0.17 at hunter-gatherer sites, 0.35 at agricultural sites.",
-        "eea_value": {
-          "pastoralist": 0.42,
-          "agriculturalist": 0.48,
-          "horticulturalist": 0.27,
-          "hunter_gatherer_wealth_gini": 0.25,
-          "hunter_gatherer_house_size_gini_median": 0.17
-        },
-        "modern_default": "Wealth Gini coefficients in modern states are far higher: about 0.80 for the USA in 2000 and 0.73 for China, figures Kohler et al. cite from other studies. Among the Ju/'hoansi, 44 years of cash income produced large material differences even between neighbours.",
-        "gap_statement": "Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.",
-        "resolution_unit": null,
-        "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.",
-        "created_at": "2026-11-11T04:19:21.374649+00:00",
-        "updated_at": "2026-11-11T04:19:21.374649+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1039,
-            "evidence_role": "primary",
-            "author_quote": "hunter-gatherer and horticultural populations are both quite egalitarian, while pastoral and agricultural societies are characterized by substantial wealth inequality",
-            "evidence_quality": "replicated",
-            "content": "Across 21 small-scale populations, wealth inequality depended on how people made a living. Weighted Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and passe"
-          },
-          {
-            "extraction_id": 1040,
-            "evidence_role": "primary",
-            "author_quote": "Thus, to the extent that our measures for this set of foragers are representative, wealth inequality is moderate",
-            "evidence_quality": "replicated",
-            "content": "In hunter-gatherer populations (Ache, Hadza, Tsimane, Lamalera, Meriam, Ju/'hoansi), Gini coefficients for eleven kinds of wealth (hunting and foraging returns, grip strength, body weight, reproductive success, Lamalera boat shares and housing, exchange and sharing partners) most"
-          },
-          {
-            "extraction_id": 1041,
-            "evidence_role": "primary",
-            "author_quote": "As expected, the hunter-gatherers in this sample exhibit low Gini indices (wealth differences) using the house-size proxy (median = 0.17)",
-            "evidence_quality": "thin",
-            "content": "Using house size as a stand-in for household wealth at 63 archaeological sites, hunter-gatherer sites had a median Gini of 0.17, horticultural sites 0.27 and agricultural sites 0.35. Old World societies later reached about 0.48 to 0.60. The authors set these beside modern wealth "
-          },
-          {
-            "extraction_id": 1034,
-            "evidence_role": "supporting",
-            "author_quote": "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist.",
-            "evidence_quality": "thin",
-            "content": "Among the Ju/'hoansi, 44 years of possession and spending data (1974 /Kae/kae, Botswana; 2017 to 2018 Nyae Nyae, Namibia) show that cash income brought large differences in material wealth, even between neighbours, while hxaro gift partnerships shrank. Social, gender and politica"
-          },
-          {
-            "extraction_id": 756,
-            "evidence_role": "primary",
-            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
-            "evidence_quality": "contested",
-            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
           }
         ]
       },
@@ -176102,7 +176102,7 @@
           "ingroup_favouritism_d": "0.32 overall; 0.19 bare labels; 0.42 interdependent (Balliet et al. 2014)"
         },
         "modern_default": "Large labelled groups (parties, nations, teams) supply alliance cues without any shared life. In the US, the gap between feelings toward one's own and the other party grew from 22.64 to 40.87 points on a 0 to 100 scale between 1978 and 2016, driven by colder feelings toward the other side. The rise is not general: across 12 OECD democracies six saw it fall. Posts about the political out-group are shared more (each out-group word about 67% higher odds, US media and Congress). Sports fans claim a team's win as their own and say 'we' twice as often after a win.",
-        "gap_statement": "The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).",
+        "gap_statement": "The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them' (Rathje et al. 2021, eight datasets). Whether moralised posts in general spread more is contested: Brady et al. 2017 found it in 563,312 tweets, and a re-test on six other Twitter corpora gave inconsistent results (Burton, Cruz and Hahn 2021).",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
@@ -176257,6 +176257,101 @@
         ]
       },
       {
+        "code": "EEA-MATE-04",
+        "domain": "mating_reproduction",
+        "name": "Timing: puberty to first birth",
+        "eea_baseline": "Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.",
+        "eea_value": {
+          "age_last_birth": 39.0,
+          "menarche_range": "12.6 to 18.4 (22 societies)",
+          "forager_age_first_birth": "18.8 to 20.5 (mean 19.7, Ache/Hiwi/!Kung)",
+          "menarche_to_first_birth_years": 4
+        },
+        "modern_default": "US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.",
+        "gap_statement": "The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.",
+        "resolution_unit": null,
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times. Forager first-birth ages from separate field teams (Kaplan et al. 2000; Robson and Wood 2008, ext 844; Page et al. 2025, ext 845); menarche range from Hochberg et al. 2011 (22 societies, mixed subsistence). Modern first birth from national birth registration. The 'about fifteen years' gap is arithmetic from these figures. Most of an expert panel judged the US data from 1940 to 1994 enough to suggest earlier menarche in girls, and a minority did not (Euling et al. 2008, ext 1017); the gap uses the current age, and the 1995 to 2017 drop is small (12.1 to 11.9). Gluckman and Hanson's maturity argument is theoretical. Background-tier evidence cited (abstract or book only): ext 845, 852, 1017, 1008.",
+        "created_at": "2026-11-19T02:40:52.84585+00:00",
+        "updated_at": "2026-11-19T02:40:52.84585+00:00",
+        "mechanism_codes": [
+          "M14"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1000,
+            "evidence_role": "primary",
+            "author_quote": "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees",
+            "evidence_quality": "replicated",
+            "content": "In Kaplan and colleagues' Table 1, women's mean age at first reproduction was 19.5 years among the Ache, 20.5 among the Hiwi and 19.2 among the !Kung (forager mean 19.7); the mean interval to the next birth after a surviving infant was 37.6, 45.1 and 41.3 months (mean 41.3, about"
+          },
+          {
+            "extraction_id": 844,
+            "evidence_role": "primary",
+            "author_quote": "Average age at first reproduction from four modern human foraging groups: Ache (19.5 years) Hill & Hurtado (1996) ; !Kung (19.2 years) Howell (1979) ; Hadza (18.77 years), Blurton Jones (unpublished data); Hiwi (20.5 years) Kaplan et al. (2000) .",
+            "evidence_quality": "replicated",
+            "content": "In four modern human foraging groups, women's average age at first birth was 18.8 to 20.5 years: Hadza 18.77, !Kung 19.2, Ache 19.5, Hiwi 20.5."
+          },
+          {
+            "extraction_id": 845,
+            "evidence_role": "supporting",
+            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
+            "evidence_quality": "thin",
+            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
+          },
+          {
+            "extraction_id": 1006,
+            "evidence_role": "primary",
+            "author_quote": "In these societies, the age of menarche ranged from 12.6-18.4, and the age at growth spurt takeoff ranged from 10-13.5 years.",
+            "evidence_quality": "replicated",
+            "content": "In 22 natural-fertility societies, mostly tropical foragers, horticulturalists and pastoralists, mean age at menarche ranged from 12.6 to 18.4 years. Age at menarche correlated with age at first reproduction (r = 0.76), and first reproduction followed menarche by four years on av"
+          },
+          {
+            "extraction_id": 852,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "thin",
+            "content": "Across 22 small-scale societies, African Pygmies, Philippine Negritos and the Hiwi had relatively early puberty, menarche and first reproduction for their adult body size, alongside low subadult survival."
+          },
+          {
+            "extraction_id": 1016,
+            "evidence_role": "primary",
+            "author_quote": "The median age at menarche decreased from 12.1 in 1995 to 11.9 in 2013",
+            "evidence_quality": "thin",
+            "content": "In the US National Survey of Family Growth (in-person interviews; 10,590 women aged 15 to 44 in 2013 to 2017), the median age at first menstrual period fell from 12.1 in 1995 to 11.9 in 2013 to 2017, and the share of girls who had reached menarche by each age from 8 to 12 was hig"
+          },
+          {
+            "extraction_id": 1018,
+            "evidence_role": "primary",
+            "author_quote": "the average age at first birth in 2006 ranged from 25.0 years in the United States to 29.4 years in Switzerland",
+            "evidence_quality": "replicated",
+            "content": "From US birth certificates (all births), the average age of first-time mothers rose 3.6 years, from 21.4 in 1970 to 25.0 in 2006. In 2006 the average age at first birth in the selected rich countries compared ranged from 25.0 in the United States to 29.4 in Switzerland; every cou"
+          },
+          {
+            "extraction_id": 1019,
+            "evidence_role": "primary",
+            "author_quote": "Mean age at first birth increased over time and rose 0.9 year from 26.6 in 2016 to 27.5 in 2023.",
+            "evidence_quality": "replicated",
+            "content": "From all US birth records, the mean age of mothers at first birth rose from 26.6 in 2016 to 27.5 in 2023, and rose in every racial and ethnic group and at every level of urbanicity; in 2023 it was 28.5 in large metropolitan counties and 24.8 in the most rural (noncore) counties."
+          },
+          {
+            "extraction_id": 1017,
+            "evidence_role": "supporting",
+            "author_quote": "A majority of the panelists agreed that data are sufficient to suggest a trend toward an earlier breast development onset and menarche in girls",
+            "evidence_quality": "contested",
+            "content": "An expert panel weighed US puberty data from 1940 to 1994. Most panellists judged the data enough to suggest a trend toward earlier breast development and earlier menarche in girls; a minority judged the data on girls insufficient for any marker, and almost all judged the data on"
+          },
+          {
+            "extraction_id": 1008,
+            "evidence_role": "supporting",
+            "author_quote": "biological maturation has come to precede psychosocial maturation significantly for the first time in our evolutionary history",
+            "evidence_quality": "theoretical",
+            "content": "Gluckman and Hanson argue that as age at menarche has fallen with better child health, biological maturation now comes well before psychosocial maturation, which they describe as happening for the first time in human evolutionary history. They add that contemporary early puberty "
+          }
+        ]
+      },
+      {
         "code": "EEA-MATE-05",
         "domain": "mating_reproduction",
         "name": "Number of children and spacing",
@@ -176345,149 +176440,6 @@
         ]
       },
       {
-        "code": "EEA-MATE-04",
-        "domain": "mating_reproduction",
-        "name": "Timing: puberty to first birth",
-        "eea_baseline": "Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.",
-        "eea_value": {
-          "age_last_birth": 39.0,
-          "menarche_range": "12.6 to 18.4 (22 societies)",
-          "forager_age_first_birth": "18.8 to 20.5 (mean 19.7, Ache/Hiwi/!Kung)",
-          "menarche_to_first_birth_years": 4
-        },
-        "modern_default": "US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.",
-        "gap_statement": "The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.",
-        "resolution_unit": null,
-        "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times. Forager first-birth ages from separate field teams (Kaplan et al. 2000; Robson and Wood 2008, ext 844; Page et al. 2025, ext 845); menarche range from Hochberg et al. 2011 (22 societies, mixed subsistence). Modern first birth from national birth registration. The 'about fifteen years' gap is arithmetic from these figures. The long-run US menarche trend is contested (Euling et al. 2008 panel split); the 1995 to 2017 drop is small (12.1 to 11.9). Gluckman and Hanson's maturity argument is theoretical. Background-tier evidence cited (abstract or book only): ext 845, 852, 1017, 1008.",
-        "created_at": "2026-11-19T02:40:52.84585+00:00",
-        "updated_at": "2026-11-19T02:40:52.84585+00:00",
-        "mechanism_codes": [
-          "M14"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1000,
-            "evidence_role": "primary",
-            "author_quote": "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees",
-            "evidence_quality": "replicated",
-            "content": "In Kaplan and colleagues' Table 1, women's mean age at first reproduction was 19.5 years among the Ache, 20.5 among the Hiwi and 19.2 among the !Kung (forager mean 19.7); the mean interval to the next birth after a surviving infant was 37.6, 45.1 and 41.3 months (mean 41.3, about"
-          },
-          {
-            "extraction_id": 844,
-            "evidence_role": "primary",
-            "author_quote": "Average age at first reproduction from four modern human foraging groups: Ache (19.5 years) Hill & Hurtado (1996) ; !Kung (19.2 years) Howell (1979) ; Hadza (18.77 years), Blurton Jones (unpublished data); Hiwi (20.5 years) Kaplan et al. (2000) .",
-            "evidence_quality": "replicated",
-            "content": "In four modern human foraging groups, women's average age at first birth was 18.8 to 20.5 years: Hadza 18.77, !Kung 19.2, Ache 19.5, Hiwi 20.5."
-          },
-          {
-            "extraction_id": 845,
-            "evidence_role": "supporting",
-            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
-            "evidence_quality": "thin",
-            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
-          },
-          {
-            "extraction_id": 1006,
-            "evidence_role": "primary",
-            "author_quote": "In these societies, the age of menarche ranged from 12.6-18.4, and the age at growth spurt takeoff ranged from 10-13.5 years.",
-            "evidence_quality": "replicated",
-            "content": "In 22 natural-fertility societies, mostly tropical foragers, horticulturalists and pastoralists, mean age at menarche ranged from 12.6 to 18.4 years. Age at menarche correlated with age at first reproduction (r = 0.76), and first reproduction followed menarche by four years on av"
-          },
-          {
-            "extraction_id": 852,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "thin",
-            "content": "Across 22 small-scale societies, African Pygmies, Philippine Negritos and the Hiwi had relatively early puberty, menarche and first reproduction for their adult body size, alongside low subadult survival."
-          },
-          {
-            "extraction_id": 1016,
-            "evidence_role": "primary",
-            "author_quote": "The median age at menarche decreased from 12.1 in 1995 to 11.9 in 2013",
-            "evidence_quality": "thin",
-            "content": "In the US National Survey of Family Growth (in-person interviews; 10,590 women aged 15 to 44 in 2013 to 2017), the median age at first menstrual period fell from 12.1 in 1995 to 11.9 in 2013 to 2017, and the share of girls who had reached menarche by each age from 8 to 12 was hig"
-          },
-          {
-            "extraction_id": 1018,
-            "evidence_role": "primary",
-            "author_quote": "the average age at first birth in 2006 ranged from 25.0 years in the United States to 29.4 years in Switzerland",
-            "evidence_quality": "replicated",
-            "content": "From US birth certificates (all births), the average age of first-time mothers rose 3.6 years, from 21.4 in 1970 to 25.0 in 2006. In 2006 the average age at first birth in the selected rich countries compared ranged from 25.0 in the United States to 29.4 in Switzerland; every cou"
-          },
-          {
-            "extraction_id": 1019,
-            "evidence_role": "primary",
-            "author_quote": "Mean age at first birth increased over time and rose 0.9 year from 26.6 in 2016 to 27.5 in 2023.",
-            "evidence_quality": "replicated",
-            "content": "From all US birth records, the mean age of mothers at first birth rose from 26.6 in 2016 to 27.5 in 2023, and rose in every racial and ethnic group and at every level of urbanicity; in 2023 it was 28.5 in large metropolitan counties and 24.8 in the most rural (noncore) counties."
-          },
-          {
-            "extraction_id": 1017,
-            "evidence_role": "supporting",
-            "author_quote": "A majority of the panelists agreed that data are sufficient to suggest a trend toward an earlier breast development onset and menarche in girls",
-            "evidence_quality": "contested",
-            "content": "An expert panel weighed US puberty data from 1940 to 1994. Most panellists judged the data enough to suggest a trend toward earlier breast development and earlier menarche in girls; a minority judged the data on girls insufficient for any marker, and almost all judged the data on"
-          },
-          {
-            "extraction_id": 1008,
-            "evidence_role": "supporting",
-            "author_quote": "biological maturation has come to precede psychosocial maturation significantly for the first time in our evolutionary history",
-            "evidence_quality": "theoretical",
-            "content": "Gluckman and Hanson argue that as age at menarche has fallen with better child health, biological maturation now comes well before psychosocial maturation, which they describe as happening for the first time in human evolutionary history. They add that contemporary early puberty "
-          }
-        ]
-      },
-      {
-        "code": "EEA-MATE-09",
-        "domain": "mating_reproduction",
-        "name": "Sex and conception coupled",
-        "eea_baseline": "For foragers, sex led to pregnancy unless breastfeeding or low energy suppressed ovulation. Birth spacing of 3 to 4 years came from breastfeeding and the energy cost of lactation (EEA-MATE-05).",
-        "eea_value": null,
-        "modern_default": "Contraception separates sex from conception. In 2019, 47.7% of all women aged 15 to 49 worldwide used a modern method, 20.1 points more than in 1970, from 1.9% in South Sudan to 87.9% in Norway. In the US, the pill sped up the fall in marital fertility in the 1960s.",
-        "gap_statement": "Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.",
-        "resolution_unit": null,
-        "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875, contested on detail). Background-tier evidence cited (abstract or book only): ext 875.",
-        "created_at": "2026-11-19T02:41:44.765155+00:00",
-        "updated_at": "2026-11-19T02:41:44.765155+00:00",
-        "mechanism_codes": [
-          "M14"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1031,
-            "evidence_role": "primary",
-            "author_quote": "Between 1970 and 2019, the global mCPR increased by 20·1 percentage points",
-            "evidence_quality": "replicated",
-            "content": "From 1,162 population surveys in 204 countries and territories, 51.9% of all women aged 15 to 49 were using some contraception in 2019 and 47.7% a modern method, up 20.1 percentage points since 1970. Modern method use ranged from 1.9% of women in South Sudan to 87.9% in Norway."
-          },
-          {
-            "extraction_id": 1032,
-            "evidence_role": "supporting",
-            "author_quote": "Without bans on the sales of contraception, the marital fertility rate would have been 8 percent lower in states with sales bans and 4 percent lower in the United States as a whole.",
-            "evidence_quality": "thin",
-            "content": "Using old US state laws that banned the sale of contraceptives (in force until the 1965 Griswold decision) as a natural experiment, Bailey finds that birth rates fell more slowly in states with sales bans after the pill arrived in 1957; by 1965 the gap was about 8 births per 1,00"
-          },
-          {
-            "extraction_id": 875,
-            "evidence_role": "supporting",
-            "author_quote": "Female ovarian function is particularly sensitive to energy balance and energy flux, resulting in a synchronization of conception with favorable energetic conditions",
-            "evidence_quality": "contested",
-            "content": "In a review of human reproductive energetics, Ellison reports that female ovarian function is particularly sensitive to energy balance and energy flux, that gestation length and birthweight are very sensitive to maternal energy availability, and that the duration of lactational a"
-          },
-          {
-            "extraction_id": 1001,
-            "evidence_role": "supporting",
-            "author_quote": "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4",
-            "evidence_quality": "replicated",
-            "content": "In five forager populations with full life tables, total fertility rate (births per woman surviving the reproductive years) was 8.2 among the Ache, 6.9 Agta, 6.2 Hadza, 5.5 Hiwi and 4.3 Ju/'hoansi, a forager mean of 6.2. Across 75 small-scale natural-fertility societies the mean "
-          }
-        ]
-      },
-      {
         "code": "EEA-MATE-10",
         "domain": "mating_reproduction",
         "name": "Paternity and affairs (rates vary between societies)",
@@ -176572,6 +176524,54 @@
             "author_quote": "This article reviews each line of evidence and finds only one hypothetical measure consistent with the hypothesis. This, however, is contradicted by a variety of other measures (including reported reactions to real infidelity). A meta-analysis of jealousy-inspired homicides, taking into account base rates for murder, found no evidence that jealousy disproportionately motivates men to kill",
             "evidence_quality": "contested",
             "content": "A review argued that the sex difference in jealousy appears mainly in hypothetical forced-choice questions and weakens or disappears in reports of real infidelity and other measures."
+          }
+        ]
+      },
+      {
+        "code": "EEA-MATE-09",
+        "domain": "mating_reproduction",
+        "name": "Sex and conception coupled",
+        "eea_baseline": "For foragers, sex led to pregnancy unless breastfeeding or low energy suppressed ovulation. Birth spacing of 3 to 4 years came from breastfeeding and the energy cost of lactation (EEA-MATE-05).",
+        "eea_value": null,
+        "modern_default": "Contraception separates sex from conception. In 2019, 47.7% of all women aged 15 to 49 worldwide used a modern method, 20.1 points more than in 1970, from 1.9% in South Sudan to 87.9% in Norway. In the US, the pill sped up the fall in marital fertility in the 1960s.",
+        "gap_statement": "Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.",
+        "resolution_unit": null,
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. Background-tier evidence cited (abstract or book only): ext 875.",
+        "created_at": "2026-11-19T02:41:44.765155+00:00",
+        "updated_at": "2026-11-19T02:41:44.765155+00:00",
+        "mechanism_codes": [
+          "M14"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1031,
+            "evidence_role": "primary",
+            "author_quote": "Between 1970 and 2019, the global mCPR increased by 20·1 percentage points",
+            "evidence_quality": "replicated",
+            "content": "From 1,162 population surveys in 204 countries and territories, 51.9% of all women aged 15 to 49 were using some contraception in 2019 and 47.7% a modern method, up 20.1 percentage points since 1970. Modern method use ranged from 1.9% of women in South Sudan to 87.9% in Norway."
+          },
+          {
+            "extraction_id": 1032,
+            "evidence_role": "supporting",
+            "author_quote": "Without bans on the sales of contraception, the marital fertility rate would have been 8 percent lower in states with sales bans and 4 percent lower in the United States as a whole.",
+            "evidence_quality": "thin",
+            "content": "Using old US state laws that banned the sale of contraceptives (in force until the 1965 Griswold decision) as a natural experiment, Bailey finds that birth rates fell more slowly in states with sales bans after the pill arrived in 1957; by 1965 the gap was about 8 births per 1,00"
+          },
+          {
+            "extraction_id": 875,
+            "evidence_role": "supporting",
+            "author_quote": "Female ovarian function is particularly sensitive to energy balance and energy flux, resulting in a synchronization of conception with favorable energetic conditions",
+            "evidence_quality": "contested",
+            "content": "In a review of human reproductive energetics, Ellison reports that female ovarian function is particularly sensitive to energy balance and energy flux, that gestation length and birthweight are very sensitive to maternal energy availability, and that the duration of lactational a"
+          },
+          {
+            "extraction_id": 1001,
+            "evidence_role": "supporting",
+            "author_quote": "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4",
+            "evidence_quality": "replicated",
+            "content": "In five forager populations with full life tables, total fertility rate (births per woman surviving the reproductive years) was 8.2 among the Ache, 6.9 Agta, 6.2 Hadza, 5.5 Hiwi and 4.3 Ju/'hoansi, a forager mean of 6.2. Across 75 small-scale natural-fertility societies the mean "
           }
         ]
       },
@@ -176768,7 +176768,7 @@
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Background-tier evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Counter-evidence: Hadza marriages are typically not arranged (ext 1735). No source read codes a part for the camp beyond kin. On the modern side the one tested prediction did not hold: US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Apostolou 2007 is still read in abstract only (ext 690, 1736).",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Background-tier evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Hadza marriages are typically not arranged, by Marlowe's ethnography as cited by Sorokowski et al. 2017 (ext 1735). No source read codes a part for the camp beyond kin. On the modern side, US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Neither study compares couples whose families knew the partner beforehand with couples whose families did not, which is what the gap statement describes. Apostolou 2007 is still read in abstract only (ext 690, 1736).",
         "created_at": "2026-11-19T02:40:17.955951+00:00",
         "updated_at": "2026-11-19T02:40:17.955951+00:00",
         "mechanism_codes": [
@@ -177466,6 +177466,101 @@
         ]
       },
       {
+        "code": "EEA-SOC-11",
+        "domain": "social_structure",
+        "name": "Status reference group (ranked against people who know you)",
+        "eea_baseline": "A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.",
+        "eea_value": {
+          "camp_size": "about 30 (Hadza, ext 603)",
+          "lifetime_known_pool": "about 1,000 (Ache, Hadza, ext 606-608)",
+          "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
+        },
+        "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
+        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for students more likely to compare badly with their peers (ext 2031, 2032).",
+        "resolution_unit": null,
+        "evidence_grade": "thin",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Modern side: hours on social media go with low mood weakly (ext 103, 104) and near zero in time-use diaries (ext 102); hours are not the row's measure (DA4). The gap statement rests on the staggered arrival of Facebook at 775 US colleges, where poor mental health rose most among students likely to compare badly with their peers (Braghieri, Levy and Makarin 2022, ext 2031, 2032), tested once.",
+        "created_at": "2026-11-11T04:19:19.680814+00:00",
+        "updated_at": "2026-11-11T04:19:19.680814+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 722,
+            "evidence_role": "primary",
+            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
+            "evidence_quality": "replicated",
+            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
+          },
+          {
+            "extraction_id": 721,
+            "evidence_role": "supporting",
+            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
+            "evidence_quality": "replicated",
+            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
+          },
+          {
+            "extraction_id": 1042,
+            "evidence_role": "primary",
+            "author_quote": "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly.",
+            "evidence_quality": "thin",
+            "content": "In four studies of US participants (college groups such as sororities and ROTC units, a broader national sample, an experiment, and a longitudinal study across graduation), respect and admiration in one's face-to-face groups went with life satisfaction and positive feeling more s"
+          },
+          {
+            "extraction_id": 603,
+            "evidence_role": "supporting",
+            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
+            "evidence_quality": "thin",
+            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
+          },
+          {
+            "extraction_id": 606,
+            "evidence_role": "supporting",
+            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
+            "evidence_quality": "thin",
+            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
+          },
+          {
+            "extraction_id": 621,
+            "evidence_role": "supporting",
+            "author_quote": "The sociometer system would serve its purpose if it simply assured that the person maintained sufficient social connections with a relatively small set of personally significant people",
+            "evidence_quality": "theoretical",
+            "content": "The sociometer is calibrated to a small, bounded set of personally significant others rather than to an unbounded audience, and it responds primarily to exclusion (a deprivation state) rather than to ever-greater inclusion: in Studies 3 and 4, exclusion for personal reasons lower"
+          },
+          {
+            "extraction_id": 620,
+            "evidence_role": "supporting",
+            "author_quote": "Study 5 showed that trait self-esteem correlated highly with the degree to which respondents generally felt included versus excluded by other people.",
+            "evidence_quality": "replicated",
+            "content": "In five studies of the sociometer model, events changed people's state self-esteem in line with whether they expected the events to make others accept or reject them (Study 1); how included people felt in a real social situation correlated highly with their self-esteem feelings ("
+          },
+          {
+            "extraction_id": 103,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "meta_analysis",
+            "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall "
+          },
+          {
+            "extraction_id": 104,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "meta_analysis",
+            "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
+          },
+          {
+            "extraction_id": 102,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
+          }
+        ]
+      },
+      {
         "code": "EEA-SOC-20",
         "domain": "social_structure",
         "name": "Food shared and eaten in company",
@@ -177482,7 +177577,7 @@
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Counter-evidence kept: sharing also followed pressure and was unequal. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); Altman, who reports most sharing within the household, gives no counts (ext 1581), and among the Aka people avoided asking (ext 1588).",
+        "confidence_note": "Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Sharing was also unequal and sometimes followed a demand; none of this goes against the row, since the food still moved between households among people who knew who gave what. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); Altman, who reports most sharing within the household, gives no counts (ext 1581), and among the Aka people avoided asking (ext 1588).",
         "created_at": "2026-11-19T03:27:37.130809+00:00",
         "updated_at": "2026-11-19T03:27:37.130809+00:00",
         "mechanism_codes": [
@@ -177619,101 +177714,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-11",
-        "domain": "social_structure",
-        "name": "Status reference group (ranked against people who know you)",
-        "eea_baseline": "A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.",
-        "eea_value": {
-          "camp_size": "about 30 (Hadza, ext 603)",
-          "lifetime_known_pool": "about 1,000 (Ache, Hadza, ext 606-608)",
-          "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
-        },
-        "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
-        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for students more likely to compare badly with their peers (ext 2031, 2032).",
-        "resolution_unit": null,
-        "evidence_grade": "thin",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Contested on the modern side: social media effect sizes are small (ext 103, 104) and near zero in time-use diaries (ext 102).",
-        "created_at": "2026-11-11T04:19:19.680814+00:00",
-        "updated_at": "2026-11-11T04:19:19.680814+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 722,
-            "evidence_role": "primary",
-            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
-            "evidence_quality": "replicated",
-            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
-          },
-          {
-            "extraction_id": 721,
-            "evidence_role": "supporting",
-            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
-            "evidence_quality": "replicated",
-            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
-          },
-          {
-            "extraction_id": 1042,
-            "evidence_role": "primary",
-            "author_quote": "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly.",
-            "evidence_quality": "thin",
-            "content": "In four studies of US participants (college groups such as sororities and ROTC units, a broader national sample, an experiment, and a longitudinal study across graduation), respect and admiration in one's face-to-face groups went with life satisfaction and positive feeling more s"
-          },
-          {
-            "extraction_id": 603,
-            "evidence_role": "supporting",
-            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
-            "evidence_quality": "thin",
-            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
-          },
-          {
-            "extraction_id": 606,
-            "evidence_role": "supporting",
-            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
-            "evidence_quality": "thin",
-            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
-          },
-          {
-            "extraction_id": 621,
-            "evidence_role": "supporting",
-            "author_quote": "The sociometer system would serve its purpose if it simply assured that the person maintained sufficient social connections with a relatively small set of personally significant people",
-            "evidence_quality": "theoretical",
-            "content": "The sociometer is calibrated to a small, bounded set of personally significant others rather than to an unbounded audience, and it responds primarily to exclusion (a deprivation state) rather than to ever-greater inclusion: in Studies 3 and 4, exclusion for personal reasons lower"
-          },
-          {
-            "extraction_id": 620,
-            "evidence_role": "supporting",
-            "author_quote": "Study 5 showed that trait self-esteem correlated highly with the degree to which respondents generally felt included versus excluded by other people.",
-            "evidence_quality": "replicated",
-            "content": "In five studies of the sociometer model, events changed people's state self-esteem in line with whether they expected the events to make others accept or reject them (Study 1); how included people felt in a real social situation correlated highly with their self-esteem feelings ("
-          },
-          {
-            "extraction_id": 103,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "meta_analysis",
-            "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall "
-          },
-          {
-            "extraction_id": 104,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "meta_analysis",
-            "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
-          },
-          {
-            "extraction_id": 102,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
-          }
-        ]
-      },
-      {
         "code": "EEA-DIET-02",
         "domain": "diet_metabolic",
         "name": "Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)",
@@ -177728,8 +177728,8 @@
         "gap_statement": "Industrial formulation deliberately separates the reward cues (sweet/fat/salt) from the satiety cues (fiber, bulk, slow digestion) the two were ancestrally bundled together, so modern hyperpalatable food drives consumption past the point the body would otherwise stop, defeating the honest-signal logic of appetite regulation.",
         "resolution_unit": "Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.",
         "evidence_grade": "theoretical",
-        "contested": true,
-        "confidence_note": "Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). The ancestral fiber figure (about 100 g a day or somewhat more against 20 g today; Eaton lowered his own earlier figure in 2006, ext 3605) is a model estimate and is contested (Eaton & Konner 1985, ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).",
+        "contested": false,
+        "confidence_note": "Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). The ancestral fiber figure (about 100 g a day or somewhat more against 20 g today) is a model estimate (Eaton 2006, ext 3605), which lowered the 100 to 150 g of Eaton and Konner's 1985 model (ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).",
         "created_at": "2026-06-08T12:32:52.468179+00:00",
         "updated_at": "2026-06-08T12:32:52.468179+00:00",
         "mechanism_codes": [
@@ -184474,8 +184474,8 @@
         "EEA-SOC-03",
         "EEA-SOC-06",
         "EEA-SOC-04",
-        "EEA-INFO-02",
         "EEA-INFO-01",
+        "EEA-INFO-02",
         "EEA-SOC-02",
         "EEA-SOC-12",
         "EEA-SOC-16",
@@ -184492,22 +184492,22 @@
       ],
       "M3": [
         "EEA-SOC-05",
-        "EEA-SOC-08",
         "EEA-SOC-03",
+        "EEA-SOC-08",
         "EEA-SOC-06",
         "EEA-SOC-04",
         "EEA-TOUCH-03",
         "EEA-INFO-01",
+        "EEA-SOC-02",
         "EEA-TOUCH-02",
         "EEA-TOUCH-01",
-        "EEA-SOC-02",
         "EEA-CARE-01",
         "EEA-SOC-15",
         "EEA-SOC-16",
         "EEA-SOC-17",
         "EEA-SOC-07",
-        "EEA-SOC-20",
         "EEA-SOC-11",
+        "EEA-SOC-20",
         "EEA-CARE-04",
         "EEA-SOC-01"
       ],
@@ -184564,14 +184564,14 @@
         "EEA-DIET-02"
       ],
       "M5": [
-        "EEA-INFO-02",
         "EEA-INFO-01",
+        "EEA-INFO-02",
         "EEA-MATE-06",
         "EEA-MATE-07",
         "EEA-SOC-12",
         "EEA-SOC-15",
-        "EEA-SOC-13",
         "EEA-SOC-14",
+        "EEA-SOC-13",
         "EEA-SOC-19",
         "EEA-SOC-10",
         "EEA-MATE-02",
@@ -184583,10 +184583,10 @@
         "EEA-MATE-06",
         "EEA-MATE-07",
         "EEA-SOC-13",
-        "EEA-MATE-05",
         "EEA-MATE-04",
-        "EEA-MATE-09",
+        "EEA-MATE-05",
         "EEA-MATE-10",
+        "EEA-MATE-09",
         "EEA-MATE-08",
         "EEA-MATE-03",
         "EEA-MATE-01",
@@ -184610,8 +184610,8 @@
     },
     "eea_by_grade": {
       "thin": 12,
-      "theoretical": 12,
       "replicated": 20,
+      "theoretical": 12,
       "contested": 8,
       "meta_analysis": 1
     }
