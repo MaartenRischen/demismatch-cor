@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T08:58:34.457477+00:00",
+    "source_built_at": "2026-11-21T09:42:01.822254+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 2625,
-    "extractions": 4139,
+    "works": 2819,
+    "extractions": 4387,
     "researchers": 84,
-    "mechanism_evidence": 4753,
+    "mechanism_evidence": 5020,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 476,
+        "link_count": 509,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -555,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 447,
+        "link_count": 468,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 902,
+        "link_count": 949,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 195,
+        "link_count": 204,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 430,
+        "link_count": 460,
         "researchers": [
           "Gilbert",
           "Price",
@@ -957,7 +957,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 139,
+        "link_count": 154,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 191,
+        "link_count": 209,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 142,
+        "link_count": 145,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 311,
+        "link_count": 330,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1467,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 587,
+        "link_count": 611,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1539,7 +1539,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 49,
+        "link_count": 51,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 229,
+        "link_count": 233,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1744,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 389,
+        "link_count": 427,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 123,
+        "link_count": 127,
         "researchers": [
           "McGlone",
           "Field"
@@ -2351,7 +2351,7 @@
           "relatedness_qualitative": "low; most campmates unrelated or distantly related",
           "primary_kin_fraction_of_camp": "<~0.10"
         },
-        "modern_default": "Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small, geographically dispersed, and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.",
+        "modern_default": "Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small, seldom all within reach (in the US three in four adults have a parent or grown child within 30 miles, about a third have all of them that near, and 13 percent share a home with one; Choi et al. 2020, ext 4204), and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.",
         "gap_statement": "The ancestral signal was: 'the group around me is mostly unrelated people I (or my band) actively chose and continuously vetted through reciprocity and reputation; kinship is not what holds us together, the relationships are.' The modern signal is degraded on the selection axis: the unrelated people around us are still mostly unrelated (that part matches), but they are assigned rather than chosen, and the reciprocity/reputation machinery that turned unrelated campmates into durable trusted allies is largely absent or shallow. Mechanisms M3 (bonding) and M11 (cooperation/alliance) evolved expecting that low kin-relatedness would be compensated by self-selected, reciprocal, reputation-anchored dyads. Modernity delivers the low relatedness WITHOUT the compensating chosen-and-vetted dyadic structure, so the mechanisms fire in a world of unrelated-but-also-unbonded co-residents, which is a key part of why being surrounded by people can still register as social isolation.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
@@ -2966,8 +2966,8 @@
             "extraction_id": 620,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
-            "author_quote": "the self-esteem system monitors others' reactions and alerts the individual to the possibility of social exclusion",
-            "content": "Five studies supported the sociometer model: state self-esteem functions as an internal gauge that continuously tracks the individual's perceived relational value (social inclusion versus exclusion) and falls when cues signal potential social devaluation. Self-esteem is the read-"
+            "author_quote": "Study 5 showed that trait self-esteem correlated highly with the degree to which respondents generally felt included versus excluded by other people.",
+            "content": "In five studies of the sociometer model, events changed people's state self-esteem in line with whether they expected the events to make others accept or reject them (Study 1); how included people felt in a real social situation correlated highly with their self-esteem feelings ("
           },
           {
             "extraction_id": 103,
@@ -5074,7 +5074,7 @@
         "name": "Multigenerational presence (grandmothers as provisioning kin)",
         "eea_baseline": "Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.",
         "eea_value": null,
-        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
+        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
         "gap_statement": "The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.",
         "resolution_unit": "Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.",
         "evidence_grade": "contested",
