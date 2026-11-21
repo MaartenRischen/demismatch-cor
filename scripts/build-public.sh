@@ -9,6 +9,14 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST="$ROOT/dist"
 
+# --- Harness (21 Nov 2026): no page ships with a NEW core idea in its short mainstream form, or a generic change
+# used as evidence. The one list is scripts/harness/concepts.json (copied from the main repo's harness/ by
+# harness/install.sh). Known hits are in scripts/harness/baseline.json and get worked off; a new one stops the build
+# and the deploy. A true exception is marked in the page text itself with  harness-ok: <reason>.
+if command -v python3 >/dev/null 2>&1 && [ -f "$ROOT/scripts/harness/check.py" ]; then
+  python3 "$ROOT/scripts/harness/check.py" site --root "$ROOT" --baseline "$ROOT/scripts/harness/baseline.json"
+fi
+
 # --- v2 live surfaces + redirect stubs for cut pages + infra ---
 ROOT_FILES=(
   # v2 pages
