@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T05:31:30.143396+00:00",
+    "source_built_at": "2026-11-21T05:40:40.120138+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1698,
-    "extractions": 2882,
+    "works": 1897,
+    "extractions": 3176,
     "researchers": 84,
-    "mechanism_evidence": 3214,
+    "mechanism_evidence": 3599,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 324
+    "challenges": 338
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 351,
+        "link_count": 386,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -555,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 360,
+        "link_count": 390,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 627,
+        "link_count": 700,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 158,
+        "link_count": 162,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 298,
+        "link_count": 340,
         "researchers": [
           "Gilbert",
           "Price",
@@ -957,7 +957,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 96,
+        "link_count": 106,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 128,
+        "link_count": 147,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 76,
+        "link_count": 87,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 208,
+        "link_count": 227,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1371,7 +1371,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 80,
+        "link_count": 88,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1467,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 357,
+        "link_count": 415,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1539,7 +1539,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 25,
+        "link_count": 29,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 122,
+        "link_count": 144,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1744,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 262,
+        "link_count": 295,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 66,
+        "link_count": 83,
         "researchers": [
           "McGlone",
           "Field"
@@ -3954,8 +3954,8 @@
             "extraction_id": 1744,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "Using quantitative intercultural and intracultural mating distance data, we report significant correlations between mating distance and population density not only among foragers but also among farmers.",
-            "content": "MacDonald and Hewlett compiled mating distances (how far apart spouses come from) within and across cultures and report that mating distance goes with population density among foragers and among farmers: the fewer people per area, the farther people go for a spouse. In every cult"
+            "author_quote": "Table I and figure 3 summarize the mating distance data and suggest that foragers travel significantly farther for mates than horticulturalists (t = 2.63; p = 0.03; d.f. = 6).",
+            "content": "MacDonald and Hewlett measured mating distance, the distance between the birthplaces of husband and wife, from published and unpublished data. Foragers married significantly farther afield than horticulturalists (t = 2.63, p = 0.03). Mating distance fell as population density ros"
           },
           {
             "extraction_id": 1732,
@@ -4773,8 +4773,8 @@
             "extraction_id": 699,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "Twenty Aka and 21 Ngandu 3- to 4-month-olds and 20 Aka and 20 Ngandu 9- to 10-month-olds were observed for 3 hr on each of 4 days so that all 12 daylight hr were covered. The Aka infants were more likely to be held, fed, and asleep or drowsy, whereas Ngandu infants were more likely to be alone and to fuss or cry, smile, vocalize, or play",
-            "content": "Infants of Aka foragers were held for nearly all of the day and were held and fed more than infants of neighbouring farmers."
+            "author_quote": "hold their infants, keep them close, feed them more frequently (2.2 vs. 4.0 times per hour) and longer, and soothe them just as long as Ngandu care providers do, even though Aka infants fuss or cry half as much as Ngandu infants.",
+            "content": "Among Aka foragers and neighbouring Ngandu farmers of the Central African Republic (20 Aka and 21 Ngandu infants aged 3 to 4 months, 20 and 20 aged 9 to 10 months, each observed 3 hours on each of 4 days to cover all 12 daylight hours), Aka infants were held almost all the time."
           },
           {
             "extraction_id": 700,
@@ -5285,8 +5285,8 @@
             "extraction_id": 699,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "Twenty Aka and 21 Ngandu 3- to 4-month-olds and 20 Aka and 20 Ngandu 9- to 10-month-olds were observed for 3 hr on each of 4 days so that all 12 daylight hr were covered. The Aka infants were more likely to be held, fed, and asleep or drowsy, whereas Ngandu infants were more likely to be alone and to fuss or cry, smile, vocalize, or play",
-            "content": "Infants of Aka foragers were held for nearly all of the day and were held and fed more than infants of neighbouring farmers."
+            "author_quote": "hold their infants, keep them close, feed them more frequently (2.2 vs. 4.0 times per hour) and longer, and soothe them just as long as Ngandu care providers do, even though Aka infants fuss or cry half as much as Ngandu infants.",
+            "content": "Among Aka foragers and neighbouring Ngandu farmers of the Central African Republic (20 Aka and 21 Ngandu infants aged 3 to 4 months, 20 and 20 aged 9 to 10 months, each observed 3 hours on each of 4 days to cover all 12 daylight hours), Aka infants were held almost all the time."
           },
           {
             "extraction_id": 706,
