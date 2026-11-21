@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T05:40:40.120138+00:00",
+    "built_at": "2026-11-21T05:57:59.250135+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 338
+    "challenges": 331
   },
   "tables": {
     "foundations": [
@@ -192,17 +192,6 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 19,
-        "code": "DC3",
-        "layer": "consequence",
-        "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
-        "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts. What the person comes back to decides. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). People in a therapeutic community keep their gains until they leave (ext 2830). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925), and most rats on cocaine stop when anything else worth having is offered (ext 928). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); heroin use in a cohort of offenders stayed stable over 33 years (ext 2835); a home of one's own did not change drug use in four trials (ext 2842); craving set off by cues goes with a later return to use (ext 2854); a paid data-entry job with no drug rule did not keep people off cocaine (ext 2455); in rats, after long access, housing and rank no longer changed intake (ext 933, 935).",
-        "created_at": "2026-04-08T14:02:55.382263+00:00"
-      },
-      {
         "id": 8,
         "code": "DA4",
         "layer": "property",
@@ -223,6 +212,17 @@
         "epistemic_grade": "frame",
         "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The statement splits the displacing conditions on the clear-defect rule (DA1). Acute organic disease or state shift, structural damage, large-effect variants such as the 22q11.2 deletion, and substance or medication effects sit on the physical side: each is a clear physical cause, found or not yet found, and the output is its symptom. A marker that only shows how sensitive a person is to stimuli and to mismatch is no defect, and measured activation can sit downstream of mismatch. A setting left by deprivation far outside the evolved range and chronic dysregulation displace the default reading of the CURRENT input without making the output a disease: a threshold set by such deprivation (DA7) or by heritable sensitivity (DA10), or a loop kept running by coupled systems (DA3), is still a response. Sleep loss and low-grade inflammation that a mismatched life produces (M7, M8) are part of the response, even when they are measured. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease. Persistence across environmental change and loss of context-sensitivity are reasons to look for a physical defect and to check calibration and coupling; by themselves they do not license a disease label.",
         "created_at": "2026-04-08T14:00:24.018102+00:00"
+      },
+      {
+        "id": 19,
+        "code": "DC3",
+        "layer": "consequence",
+        "name": "Environment as Primary Intervention Layer",
+        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "epistemic_grade": "plausible_synthesis",
+        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. It never means any change around a person. A change that moves none of those values leaves every mismatch in place and is no test of this property, for it or against it: more money (ext 1312, 1315, 1713, 2246), a voucher for a richer neighbourhood (ext 1314), a stress class at work (ext 1359), a contact programme run by helpers (ext 2108), a flat of one's own (ext 2842), a paid job among strangers (ext 2455). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts. What the person comes back to decides. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). People in a therapeutic community keep their gains until they leave (ext 2830). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925), and most rats on cocaine stop when anything else worth having is offered (ext 928). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); no study has put long-term users among people who need them; craving set off by cues goes with a later return to use (ext 2854); in rats, after long access, housing and rank no longer changed intake (ext 933, 935). No test of this position, because no baseline value was moved: a flat of one's own (ext 2842), a paid data-entry job with no drug rule (ext 2455), and 33 years in the setting of the habit (ext 2835).",
+        "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
     "mechanisms": [
@@ -45073,17 +45073,6 @@
         "url": "corpus.html#e=576"
       },
       {
-        "id": 1713,
-        "work_id": 917,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1713"
-      },
-      {
         "id": 578,
         "work_id": 99,
         "mechanism_codes": [],
@@ -45095,6 +45084,17 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=578"
+      },
+      {
+        "id": 1713,
+        "work_id": 917,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1713"
       },
       {
         "id": 1144,
@@ -52448,19 +52448,6 @@
         "url": "corpus.html#e=2243"
       },
       {
-        "id": 2246,
-        "work_id": 1238,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2246"
-      },
-      {
         "id": 739,
         "work_id": 227,
         "mechanism_codes": [
@@ -59728,17 +59715,6 @@
         "url": "corpus.html#e=1323"
       },
       {
-        "id": 1315,
-        "work_id": 653,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1315"
-      },
-      {
         "id": 2325,
         "work_id": 1281,
         "mechanism_codes": [
@@ -60649,17 +60625,6 @@
         "url": "corpus.html#e=2373"
       },
       {
-        "id": 1312,
-        "work_id": 650,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=1312"
-      },
-      {
         "id": 1304,
         "work_id": 645,
         "mechanism_codes": [],
@@ -60777,17 +60742,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2357"
-      },
-      {
-        "id": 1314,
-        "work_id": 652,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1314"
       },
       {
         "id": 1331,
@@ -61324,21 +61278,6 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=1358"
-      },
-      {
-        "id": 1359,
-        "work_id": 683,
-        "mechanism_codes": [
-          "M6"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=1359"
       },
       {
         "id": 2367,
@@ -71325,21 +71264,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=2106"
-      },
-      {
-        "id": 2108,
-        "work_id": 1163,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2108"
       },
       {
         "id": 784,
@@ -86630,6 +86554,82 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=580"
+      },
+      {
+        "id": 1312,
+        "work_id": 650,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1312"
+      },
+      {
+        "id": 1314,
+        "work_id": 652,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1314"
+      },
+      {
+        "id": 1315,
+        "work_id": 653,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1315"
+      },
+      {
+        "id": 1359,
+        "work_id": 683,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1359"
+      },
+      {
+        "id": 2108,
+        "work_id": 1163,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2108"
+      },
+      {
+        "id": 2246,
+        "work_id": 1238,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2246"
       }
     ],
     "researchers": [
@@ -90324,12 +90324,6 @@
         "mechanism_code": "M6",
         "extraction_id": 1358,
         "evidence_role": "primary"
-      },
-      {
-        "id": 1697,
-        "mechanism_code": "M6",
-        "extraction_id": 1359,
-        "evidence_role": "challenging"
       },
       {
         "id": 1698,
@@ -101126,12 +101120,6 @@
         "evidence_role": "primary"
       },
       {
-        "id": 2349,
-        "mechanism_code": "M3",
-        "extraction_id": 2108,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 2350,
         "mechanism_code": "M3",
         "extraction_id": 2109,
@@ -101459,6 +101447,12 @@
         "id": 2404,
         "mechanism_code": "M3",
         "extraction_id": 2141,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2349,
+        "mechanism_code": "M3",
+        "extraction_id": 2108,
         "evidence_role": "primary"
       },
       {
@@ -108815,6 +108809,12 @@
         "id": 3655,
         "mechanism_code": "M7",
         "extraction_id": 3225,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1697,
+        "mechanism_code": "M6",
+        "extraction_id": 1359,
         "evidence_role": "primary"
       }
     ],
@@ -118355,6 +118355,41 @@
         "citation": "Potarca 2020",
         "title": "The demography of swiping right. An overview of couples who met through dating apps in Switzerland",
         "reason": "Refiled on 21 Nov 2026. It fits Cor's principle that the medium is neutral and the conditions decide (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Wollburg et al. 2023",
+        "title": "Do cash transfers alleviate common mental disorders in low- and middle-income countries? (the record on effects after the payments ended)",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Kessler et al. 2014",
+        "title": "Associations of housing mobility interventions for children in high-poverty neighborhoods with subsequent mental disorders during adolescence",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Costello et al. 2003",
+        "title": "Relationships between poverty and psychopathology: a natural experiment",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Costello et al. 2010",
+        "title": "Association of family income supplements in adolescence with development of psychiatric and substance use disorders in adulthood among an American Indian population",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Lindqvist et al. 2020",
+        "title": "Long-run effects of lottery wealth on psychological well-being",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Dreison et al. 2018",
+        "title": "Job burnout in mental health providers: a meta-analysis of 35 years of intervention research (the record on person-directed against organisation-directed programmes)",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Hawkley and Cacioppo 2010",
+        "title": "Loneliness matters: a theoretical and empirical review of consequences and mechanisms (the record on loneliness programmes)",
+        "reason": "Refiled on 21 Nov 2026. The study changed something around people and moved none of the values in Cor's baseline, so it is no test of undoing a mismatch, for it or against it (DC3). It stays in the atlas. The programmes gave contact or support through helpers; the review describes none that built a circle of people who need the person."
       }
     ],
     "challenges": [
@@ -118613,20 +118648,6 @@
         "mechanism_codes": [
           "M4"
         ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1713,
-        "extraction_id": 1713,
-        "work_id": 917,
-        "title": "Long-Run Effects of Lottery Wealth on Psychological Well-Being",
-        "content": "Long-Run Effects of Lottery Wealth on Psychological Well-Being",
-        "citation": "Lindqvist E, Ostling R, Cesarini D, 2020",
-        "authors": "Lindqvist E, Ostling R, Cesarini D",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
         "foundation_codes": []
       },
       {
@@ -119097,22 +119118,6 @@
           "M2"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 2246,
-        "extraction_id": 2246,
-        "work_id": 1238,
-        "title": "Association of family income supplements in adolescence with development of psychiatric and substance use disorders in adulthood among an American Indian population",
-        "content": "Association of family income supplements in adolescence with development of psychiatric and substance use disorders in adulthood among an American Indian population",
-        "citation": "Costello EJ, Erkanli A, Copeland W, Angold A, 2010",
-        "authors": "Costello EJ, Erkanli A, Copeland W, Angold A",
-        "year": 2010,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ]
       },
       {
         "id": 2248,
@@ -120635,20 +120640,6 @@
         "foundation_codes": []
       },
       {
-        "id": 1315,
-        "extraction_id": 1315,
-        "work_id": 653,
-        "title": "Relationships between poverty and psychopathology: a natural experiment",
-        "content": "Relationships between poverty and psychopathology: a natural experiment",
-        "citation": "Costello EJ, Compton SN, Keeler G, Angold A, 2003",
-        "authors": "Costello EJ, Compton SN, Keeler G, Angold A",
-        "year": 2003,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": []
-      },
-      {
         "id": 1278,
         "extraction_id": 1278,
         "work_id": 629,
@@ -120678,20 +120669,6 @@
         "mechanism_codes": [
           "M10"
         ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1312,
-        "extraction_id": 1312,
-        "work_id": 650,
-        "title": "Do cash transfers alleviate common mental disorders in low- and middle-income countries? A systematic review and meta-analysis",
-        "content": "Do cash transfers alleviate common mental disorders in low- and middle-income countries? A systematic review and meta-analysis",
-        "citation": "Wollburg C, Steinert JI, Reeves A, Nye E, 2023",
-        "authors": "Wollburg C, Steinert JI, Reeves A, Nye E",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [],
         "foundation_codes": []
       },
       {
@@ -120725,20 +120702,6 @@
         "foundation_codes": [
           "P3"
         ]
-      },
-      {
-        "id": 1314,
-        "extraction_id": 1314,
-        "work_id": 652,
-        "title": "Associations of Housing Mobility Interventions for Children in High-Poverty Neighborhoods With Subsequent Mental Disorders During Adolescence",
-        "content": "Associations of Housing Mobility Interventions for Children in High-Poverty Neighborhoods With Subsequent Mental Disorders During Adolescence",
-        "citation": "Kessler RC, Duncan GJ, Gennetian LA, Katz LF, Kling JR, Sampson NA, Sanbonmatsu L, Zaslavsky AM, Ludwig J, 2014",
-        "authors": "Kessler RC, Duncan GJ, Gennetian LA, Katz LF, Kling JR, Sampson NA, Sanbonmatsu L, Zaslavsky AM, Ludwig J",
-        "year": 2014,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": []
       },
       {
         "id": 1344,
@@ -120806,24 +120769,6 @@
           "M6"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 1359,
-        "extraction_id": 1359,
-        "work_id": 683,
-        "title": "Job burnout in mental health providers: A meta-analysis of 35 years of intervention research",
-        "content": "Job burnout in mental health providers: A meta-analysis of 35 years of intervention research",
-        "citation": "Dreison KC, Luther L, Bonfils KA, Sliter MT, McGrew JH, Salyers MP, 2018",
-        "authors": "Dreison KC, Luther L, Bonfils KA, Sliter MT, McGrew JH, Salyers MP",
-        "year": 2018,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [
-          "M6"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ]
       },
       {
         "id": 1363,
@@ -122831,24 +122776,6 @@
           "M3"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 2108,
-        "extraction_id": 2108,
-        "work_id": 1163,
-        "title": "Loneliness matters: a theoretical and empirical review of consequences and mechanisms",
-        "content": "Loneliness matters: a theoretical and empirical review of consequences and mechanisms",
-        "citation": "Hawkley LC, Cacioppo JT, 2010",
-        "authors": "Hawkley LC, Cacioppo JT",
-        "year": 2010,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ]
       },
       {
         "id": 2449,
