@@ -133,7 +133,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Sleep timing/phase alignment to the biological night (not a fixed duration target)** (tested many times)
   - The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.
 
-**Falling evening ambient temperature as a co-primary sleep-onset cue** (tested once)
+**Falling evening ambient temperature as a second sleep-onset cue** (tested once)
   - By flattening the daily thermal cycle, modern housing removes a candidate onset cue that historically co-occurred with dusk and reinforced circadian timing, potentially leaving light as the sole (and now corrupted) entrainment channel.
 
 

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T08:22:24.815323+00:00",
+    "source_built_at": "2026-11-21T08:58:34.457477+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 2419,
-    "extractions": 3876,
+    "works": 2625,
+    "extractions": 4139,
     "researchers": 84,
-    "mechanism_evidence": 4474,
+    "mechanism_evidence": 4753,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 461,
+        "link_count": 476,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -555,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 434,
+        "link_count": 447,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 836,
+        "link_count": 902,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 192,
+        "link_count": 195,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 414,
+        "link_count": 430,
         "researchers": [
           "Gilbert",
           "Price",
@@ -957,7 +957,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 133,
+        "link_count": 139,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 183,
+        "link_count": 191,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 120,
+        "link_count": 142,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 300,
+        "link_count": 311,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1371,7 +1371,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 131,
+        "link_count": 143,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1467,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 539,
+        "link_count": 587,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1539,7 +1539,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 46,
+        "link_count": 49,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 200,
+        "link_count": 229,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1744,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 364,
+        "link_count": 389,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 121,
+        "link_count": 123,
         "researchers": [
           "McGlone",
           "Field"
@@ -5072,7 +5072,7 @@
         "domain": "care_development",
         "domain_display": "Care & development",
         "name": "Multigenerational presence (grandmothers as provisioning kin)",
-        "eea_baseline": "Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that uniquely long human lifespans were selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.",
+        "eea_baseline": "Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.",
         "eea_value": null,
         "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
         "gap_statement": "The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.",
@@ -5539,7 +5539,7 @@
         "domain": "circadian_sensory",
         "domain_display": "Circadian & sensory",
         "name": "Sleep timing/phase alignment to the biological night (not a fixed duration target)",
-        "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
+        "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset about three hours after sunset (3.3 hours on average among Hadza, San and Tsimane, ext 2224; about three hours in rural Haiti without electricity, ext 3903), offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
         "eea_value": null,
         "modern_default": "Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.",
         "gap_statement": "The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.",
@@ -5659,7 +5659,7 @@
         "code": "EEA-CIRC-03",
         "domain": "circadian_sensory",
         "domain_display": "Circadian & sensory",
-        "name": "Falling evening ambient temperature as a co-primary sleep-onset cue",
+        "name": "Falling evening ambient temperature as a second sleep-onset cue",
         "eea_baseline": "Outside thermally buffered shelter, ancestral evenings carried a reliable nocturnal drop in ambient temperature that paralleled dusk. This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light. The baseline environment thus paired a dimming light gradient with a falling temperature gradient at the day-night transition.",
         "eea_value": null,
         "modern_default": "Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the evening cooling ramp; evening heat (and sometimes overheated bedrooms) can also oppose the core-temperature fall required for sleep onset.",
@@ -6230,7 +6230,7 @@
         "resolution_unit": "The binding constraint on energy balance: ancestrally INTAKE (food availability/composition), not expenditure. The mismatch is unbounded intake, not insufficient calorie-burning; exercise is a weak proxy for the metabolic problem.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade: tested many times. Total energy expenditure rises with activity at low levels and plateaus above moderate activity in doubly-labelled-water data from five populations (Pontzer et al. 2016, n=332, ext 283). Foragers and subsistence farmers expend about as much energy as people in industrial populations, and wild mammals about as much as captive ones (ext 284). The Hadza study found the same daily expenditure as in Western adults after controlling for body size (Pontzer et al. 2012, n=30, ext 286), which places the obesity difference in intake and food composition, and it proposes that daily energy expenditure is an evolved trait (ext 287).",
+        "confidence_note": "Grade: tested many times. Total energy expenditure rises with activity at low levels and plateaus above moderate activity in doubly-labelled-water data from five populations (Pontzer et al. 2016, n=332, ext 283). Foragers and subsistence farmers expend about as much energy as people in industrial populations, and wild mammals about as much as captive ones (ext 284). The Hadza study found the same daily expenditure as in Western adults after controlling for body size (Pontzer et al. 2012, n=30, ext 286), which places the obesity difference in intake and food composition, and it proposes that daily energy expenditure is an evolved trait (ext 287). In trials, aerobic exercise alone took off 1.6 kg against controls at 6 months (14 trials, ext 3594), and 3.9 and 5.2 kg under 10 months of supervised sessions five days a week (Donnelly et al. 2013, ext 4028). The achieved energy deficit was in most trials smaller than the energy the sessions burned, mostly because people ate more (Thomas et al. 2012, ext 4054); with intake held fixed, resting metabolic rate fell about 7 percent beyond what the weight lost accounts for (ext 4055).",
         "mechanism_codes": [
           "M13"
         ],

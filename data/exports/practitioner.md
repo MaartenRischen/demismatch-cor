@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-21 08:22 UTC, from the live Cor atlas snapshot built 2026-11-21 08:22 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 08:58 UTC, from the live Cor atlas snapshot built 2026-11-21 08:58 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 2419 works, 3876 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 2625 works, 4139 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -1008,7 +1008,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Multigenerational presence (grandmothers as provisioning kin)
 `EEA-CARE-04 · Care & development` - **contested**
 
-**Ancestrally:** Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that uniquely long human lifespans were selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.
+**Ancestrally:** Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.
 
 **Now (modern default):** Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.
 
@@ -1085,7 +1085,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Sleep timing/phase alignment to the biological night (not a fixed duration target)
 `EEA-CIRC-02 · Circadian & sensory` - **tested many times**
 
-**Ancestrally:** Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset shortly after dusk, offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.
+**Ancestrally:** Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset about three hours after sunset (3.3 hours on average among Hadza, San and Tsimane, ext 2224; about three hours in rural Haiti without electricity, ext 3903), offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.
 
 **Now (modern default):** Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.
 
@@ -1095,7 +1095,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M7 - Circadian Regulation  ·  evidence links: 14
 
-#### Falling evening ambient temperature as a co-primary sleep-onset cue
+#### Falling evening ambient temperature as a second sleep-onset cue
 `EEA-CIRC-03 · Circadian & sensory` - **tested once**
 
 **Ancestrally:** Outside thermally buffered shelter, ancestral evenings carried a reliable nocturnal drop in ambient temperature that paralleled dusk. This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light. The baseline environment thus paired a dimming light gradient with a falling temperature gradient at the day-night transition.
@@ -1329,4 +1329,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 08:22 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 08:22 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 08:58 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 08:58 UTC.*
