@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T11:53:59.336792+00:00",
+    "built_at": "2026-11-21T12:02:39.046953+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 71
+    "challenges": 66
   },
   "tables": {
     "foundations": [
@@ -75503,23 +75503,6 @@
         "url": "corpus.html#e=924"
       },
       {
-        "id": 1025,
-        "work_id": 476,
-        "mechanism_codes": [
-          "M14",
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "OF2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1025"
-      },
-      {
         "id": 313,
         "work_id": 11,
         "mechanism_codes": [
@@ -76045,19 +76028,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=345"
-      },
-      {
-        "id": 2478,
-        "work_id": 1389,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2478"
       },
       {
         "id": 347,
@@ -88285,21 +88255,6 @@
         "url": "corpus.html#e=2349"
       },
       {
-        "id": 2353,
-        "work_id": 1300,
-        "mechanism_codes": [
-          "M7"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2353"
-      },
-      {
         "id": 4020,
         "work_id": 2503,
         "mechanism_codes": [
@@ -92624,6 +92579,19 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=1619"
+      },
+      {
+        "id": 2478,
+        "work_id": 1389,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2478"
       },
       {
         "id": 1620,
@@ -103324,20 +103292,6 @@
         "url": "corpus.html#e=923"
       },
       {
-        "id": 1026,
-        "work_id": 477,
-        "mechanism_codes": [
-          "M14",
-          "M2"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=1026"
-      },
-      {
         "id": 928,
         "work_id": 406,
         "mechanism_codes": [
@@ -109201,21 +109155,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2820"
-      },
-      {
-        "id": 2821,
-        "work_id": 1634,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2821"
       },
       {
         "id": 2822,
@@ -139139,6 +139078,67 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=5035"
+      },
+      {
+        "id": 1025,
+        "work_id": 476,
+        "mechanism_codes": [
+          "M14",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1025"
+      },
+      {
+        "id": 1026,
+        "work_id": 477,
+        "mechanism_codes": [
+          "M14",
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=1026"
+      },
+      {
+        "id": 2353,
+        "work_id": 1300,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2353"
+      },
+      {
+        "id": 2821,
+        "work_id": 1634,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2821"
       }
     ],
     "researchers": [
@@ -182820,6 +182820,31 @@
         "reason": "Refiled on 21 Nov 2026. Cor's text does not use the claim that strangers are an inborn fear cue for infants (EEA-SOC-08 says so), and a fear found in infants of one temperament fits DA10. It stays in the atlas."
       },
       {
+        "citation": "Robins 1994",
+        "title": "The Nathan B. Eddy Lecture: challenging conventional wisdom about drug abuse",
+        "reason": "Refiled on 21 Nov 2026. The setting Robins rejects is the cues of the place where the drug was used; what the men came back to, people who know and need them, was not studied, and a question left unstudied is no objection. It stays in the atlas."
+      },
+      {
+        "citation": "Cohen et al. 2008",
+        "title": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
+        "reason": "Refiled on 21 Nov 2026. 'Developing country' is a form; it tells nothing about what people had around them, so neither the WHO comparison nor this review measures the mismatch. It stays in the atlas."
+      },
+      {
+        "citation": "Grubbs et al. 2019",
+        "title": "Self-reported addiction to pornography in a nationally representative sample: The roles of use habits, religiousness, and moral incongruence",
+        "reason": "Refiled on 21 Nov 2026. Feeling addicted that tracks moral conflict does not go against the reading of porn as a stand-in, which works whether or not a person feels addicted. It stays in the atlas."
+      },
+      {
+        "citation": "Grubbs et al. 2019",
+        "title": "Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis",
+        "reason": "Refiled on 21 Nov 2026. Feeling addicted that tracks moral conflict does not go against the reading of porn as a stand-in, which works whether or not a person feels addicted. It stays in the atlas."
+      },
+      {
+        "citation": "Beale et al. 2017",
+        "title": "Comparison between an African town and a neighbouring village shows delayed, but not decreased, sleep during the early stages of urbanisation",
+        "reason": "Refiled on 21 Nov 2026. A farming village with hard labour, bad beds and crowded rooms is not how humans lived either, so the comparison sets one mismatch against another and does not test light at night. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -184063,26 +184088,6 @@
         "foundation_codes": []
       },
       {
-        "id": 1025,
-        "extraction_id": 1025,
-        "work_id": 476,
-        "title": "Self-reported addiction to pornography in a nationally representative sample: The roles of use habits, religiousness, and moral incongruence",
-        "content": "Self-reported addiction to pornography in a nationally representative sample: The roles of use habits, religiousness, and moral incongruence",
-        "citation": "Grubbs JB, Kraus SW, Perry SL, 2019",
-        "authors": "Grubbs JB, Kraus SW, Perry SL",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M14",
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "OF2"
-        ]
-      },
-      {
         "id": 931,
         "extraction_id": 931,
         "work_id": 409,
@@ -184116,22 +184121,6 @@
         ],
         "foundation_codes": [
           "DC3"
-        ]
-      },
-      {
-        "id": 2478,
-        "extraction_id": 2478,
-        "work_id": 1389,
-        "title": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
-        "content": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
-        "citation": "Cohen A, Patel V, Thara R, Gureje O, 2008",
-        "authors": "Cohen A, Patel V, Thara R, Gureje O",
-        "year": 2008,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA2"
         ]
       },
       {
@@ -184375,24 +184364,6 @@
         "foundation_codes": [
           "OF2",
           "DA1"
-        ]
-      },
-      {
-        "id": 2353,
-        "extraction_id": 2353,
-        "work_id": 1300,
-        "title": "Comparison between an African town and a neighbouring village shows delayed, but not decreased, sleep during the early stages of urbanisation",
-        "content": "Comparison between an African town and a neighbouring village shows delayed, but not decreased, sleep during the early stages of urbanisation",
-        "citation": "Beale AD, Pedrazzoli M, Goncalves BSB, Beijamini F, Duarte NE, Egan KJ, Knutson KL, von Schantz M, Roden LC, 2017",
-        "authors": "Beale AD, Pedrazzoli M, Goncalves BSB, Beijamini F, Duarte NE, Egan KJ, Knutson KL, von Schantz M, Roden LC",
-        "year": 2017,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M7"
-        ],
-        "foundation_codes": [
-          "P3"
         ]
       },
       {
@@ -184844,23 +184815,6 @@
         "foundation_codes": []
       },
       {
-        "id": 1026,
-        "extraction_id": 1026,
-        "work_id": 477,
-        "title": "Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis",
-        "content": "Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis",
-        "citation": "Grubbs JB, Perry SL, Wilt JA, Reid RC, 2019",
-        "authors": "Grubbs JB, Perry SL, Wilt JA, Reid RC",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M14",
-          "M2"
-        ],
-        "foundation_codes": []
-      },
-      {
         "id": 1386,
         "extraction_id": 1386,
         "work_id": 702,
@@ -184892,24 +184846,6 @@
           "M11"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 2821,
-        "extraction_id": 2821,
-        "work_id": 1634,
-        "title": "The Nathan B. Eddy Lecture: challenging conventional wisdom about drug abuse",
-        "content": "The Nathan B. Eddy Lecture: challenging conventional wisdom about drug abuse",
-        "citation": "Robins LN, 1994",
-        "authors": "Robins LN",
-        "year": 1994,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ]
       },
       {
         "id": 2838,
