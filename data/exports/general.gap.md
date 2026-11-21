@@ -109,8 +109,8 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Mixed-age child playgroups as developmental input** (tested many times)
   - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. No study has tested that reading in children.
 
-**Multigenerational presence (grandmothers as provisioning kin)** (contested)
-  - The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.
+**Multigenerational presence (older people inside the band's giving and getting)** (contested)
+  - The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.
 
 
 ### Touch & contact

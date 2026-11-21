@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T10:27:44.052338+00:00",
+    "built_at": "2026-11-21T10:39:59.860713+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 99
+    "challenges": 97
   },
   "tables": {
     "foundations": [
@@ -74851,6 +74851,20 @@
         "url": "corpus.html#e=4147"
       },
       {
+        "id": 766,
+        "work_id": 254,
+        "mechanism_codes": [
+          "M9",
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=766"
+      },
+      {
         "id": 2254,
         "work_id": 1243,
         "mechanism_codes": [
@@ -74920,20 +74934,6 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=764"
-      },
-      {
-        "id": 766,
-        "work_id": 254,
-        "mechanism_codes": [
-          "M9",
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=766"
       },
       {
         "id": 804,
@@ -79998,19 +79998,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1151"
-      },
-      {
-        "id": 2301,
-        "work_id": 1272,
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2301"
       },
       {
         "id": 1163,
@@ -128531,6 +128518,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=799"
+      },
+      {
+        "id": 2301,
+        "work_id": 1272,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2301"
       }
     ],
     "researchers": [
@@ -163077,6 +163077,111 @@
         ]
       },
       {
+        "code": "EEA-CARE-04",
+        "domain": "care_development",
+        "name": "Multigenerational presence (older people inside the band's giving and getting)",
+        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave food to (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
+        "eea_value": null,
+        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, outside the family's daily giving and getting. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less part of the family's daily life than in a band of several generations.",
+        "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.",
+        "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
+        "evidence_grade": "contested",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved. On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088) and the Hadza (ext 2063), none to grown children's families among the Ache and Hiwi (ext 2301).",
+        "created_at": "2026-06-08T12:32:37.55163+00:00",
+        "updated_at": "2026-06-08T12:32:37.55163+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 203,
+            "evidence_role": "primary",
+            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
+            "evidence_quality": "theoretical",
+            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
+          },
+          {
+            "extraction_id": 401,
+            "evidence_role": "supporting",
+            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
+            "evidence_quality": "theoretical",
+            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
+          },
+          {
+            "extraction_id": 274,
+            "evidence_role": "supporting",
+            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
+            "evidence_quality": "theoretical",
+            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
+          },
+          {
+            "extraction_id": 403,
+            "evidence_role": "supporting",
+            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
+            "evidence_quality": "theoretical",
+            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
+          },
+          {
+            "extraction_id": 703,
+            "evidence_role": "supporting",
+            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
+            "evidence_quality": "contested",
+            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
+          },
+          {
+            "extraction_id": 710,
+            "evidence_role": "supporting",
+            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
+            "evidence_quality": "replicated",
+            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
+          },
+          {
+            "extraction_id": 723,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
+          },
+          {
+            "extraction_id": 743,
+            "evidence_role": "supporting",
+            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
+            "evidence_quality": "contested",
+            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
+          },
+          {
+            "extraction_id": 744,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
+          },
+          {
+            "extraction_id": 766,
+            "evidence_role": "challenging",
+            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
+            "evidence_quality": "theoretical",
+            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
+          },
+          {
+            "extraction_id": 822,
+            "evidence_role": "supporting",
+            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
+            "evidence_quality": "thin",
+            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
+          },
+          {
+            "extraction_id": 845,
+            "evidence_role": "supporting",
+            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
+            "evidence_quality": "thin",
+            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
+          }
+        ]
+      },
+      {
         "code": "EEA-SOC-17",
         "domain": "social_structure",
         "name": "Contact between groups (visiting and exchange alongside hostility)",
@@ -165011,111 +165116,6 @@
             "author_quote": "Energy intake was greater during the ultra-processed diet (508±106 kcal/d; p=0.0001)",
             "evidence_quality": "thin",
             "content": "In an inpatient randomized crossover trial, 20 weight-stable adults ate as much or as little as they wanted from ultra-processed or unprocessed diets for 2 weeks each, with meals matched for presented calories, energy density, macronutrients, sugar, sodium and fiber. Energy intak"
-          }
-        ]
-      },
-      {
-        "code": "EEA-CARE-04",
-        "domain": "care_development",
-        "name": "Multigenerational presence (grandmothers as provisioning kin)",
-        "eea_baseline": "Ancestral children typically developed in the presence of grandparents - especially post-reproductive grandmothers - who were active, provisioning members of the group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Grandmothers are thus part of the alloparental supply: a multigenerational band in which a vigorous older generation contributed food, care, and accumulated knowledge to the rearing of the slow-maturing young, rather than being a dependent or absent generation.",
-        "eea_value": null,
-        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, and may be framed as recipients of care rather than contributors to childrearing. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less integrated into the daily provisioning of grandchildren than the multigenerational design assumes.",
-        "gap_statement": "The mismatch is between the present, active, provisioning grandparental generation the cooperative-breeding system expects as part of allomaternal supply (M9, M3) and the modern default of geographically separated or non-provisioning grandparents. The grandmother's evolved contribution to inclusive fitness and to the caloric and knowledge subsidy of grandchildren is structurally absent for many modern families, thinning the alloparental network exactly where it was most reliably staffed.",
-        "resolution_unit": "Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.",
-        "evidence_grade": "contested",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.",
-        "created_at": "2026-06-08T12:32:37.55163+00:00",
-        "updated_at": "2026-06-08T12:32:37.55163+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 203,
-            "evidence_role": "primary",
-            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
-            "evidence_quality": "theoretical",
-            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
-          },
-          {
-            "extraction_id": 401,
-            "evidence_role": "supporting",
-            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
-            "evidence_quality": "theoretical",
-            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
-          },
-          {
-            "extraction_id": 274,
-            "evidence_role": "supporting",
-            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
-            "evidence_quality": "theoretical",
-            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
-          },
-          {
-            "extraction_id": 403,
-            "evidence_role": "supporting",
-            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
-            "evidence_quality": "theoretical",
-            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
-          },
-          {
-            "extraction_id": 703,
-            "evidence_role": "supporting",
-            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
-            "evidence_quality": "contested",
-            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
-          },
-          {
-            "extraction_id": 710,
-            "evidence_role": "supporting",
-            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
-            "evidence_quality": "replicated",
-            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
-          },
-          {
-            "extraction_id": 723,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
-          },
-          {
-            "extraction_id": 743,
-            "evidence_role": "supporting",
-            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
-            "evidence_quality": "contested",
-            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
-          },
-          {
-            "extraction_id": 744,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
-          },
-          {
-            "extraction_id": 766,
-            "evidence_role": "challenging",
-            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
-            "evidence_quality": "theoretical",
-            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
-          },
-          {
-            "extraction_id": 822,
-            "evidence_role": "supporting",
-            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
-            "evidence_quality": "thin",
-            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
-          },
-          {
-            "extraction_id": 845,
-            "evidence_role": "supporting",
-            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
-            "evidence_quality": "thin",
-            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
           }
         ]
       },
@@ -169815,6 +169815,16 @@
         "reason": "Refiled on 21 Nov 2026. The programmes gave contact or support through helpers. A small effect from them is nothing against undoing a mismatch (DC3), which names people who know and need you. It stays in the atlas. The programmes gave contact or support through helpers; the review describes none that built a circle of people who need the person."
       },
       {
+        "citation": "Hill and Hurtado 2009",
+        "title": "Cooperative breeding in South American hunter-gatherers",
+        "reason": "Refiled on 21 Nov 2026. Cor's row on older people (EEA-CARE-04) states this finding itself and no longer says grandmothers were typically providers of food. It stays in the atlas."
+      },
+      {
+        "citation": "Kachel et al. 2011",
+        "title": "Grandmothering and natural selection",
+        "reason": "Refiled on 21 Nov 2026. The model tests whether grandmothering alone can select a long life after the last birth; Cor reports that as a hypothesis and does not rest on it. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -171316,23 +171326,6 @@
         "foundation_codes": []
       },
       {
-        "id": 766,
-        "extraction_id": 766,
-        "work_id": 254,
-        "title": "Grandmothering and natural selection",
-        "content": "Grandmothering and natural selection",
-        "citation": "Kachel AF, Premo LS, Hublin J-J, 2011",
-        "authors": "Kachel AF, Premo LS, Hublin J-J",
-        "year": 2011,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M9",
-          "M3"
-        ],
-        "foundation_codes": []
-      },
-      {
         "id": 590,
         "extraction_id": 590,
         "work_id": 105,
@@ -171543,22 +171536,6 @@
           "OF2",
           "DA1"
         ]
-      },
-      {
-        "id": 2301,
-        "extraction_id": 2301,
-        "work_id": 1272,
-        "title": "Cooperative breeding in South American hunter-gatherers",
-        "content": "Cooperative breeding in South American hunter-gatherers",
-        "citation": "Hill K, Hurtado AM, 2009",
-        "authors": "Hill K, Hurtado AM",
-        "year": 2009,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": []
       },
       {
         "id": 2322,
@@ -172645,11 +172622,11 @@
         "EEA-CARE-01",
         "EEA-SOC-15",
         "EEA-SOC-16",
+        "EEA-CARE-04",
         "EEA-SOC-17",
         "EEA-SOC-07",
         "EEA-SOC-11",
         "EEA-SOC-20",
-        "EEA-CARE-04",
         "EEA-SOC-01"
       ],
       "M1": [
@@ -172663,9 +172640,9 @@
         "EEA-CARE-02",
         "EEA-CARE-03",
         "EEA-CARE-01",
+        "EEA-CARE-04",
         "EEA-MATE-05",
-        "EEA-MATE-10",
-        "EEA-CARE-04"
+        "EEA-MATE-10"
       ],
       "R1": [
         "EEA-CARE-02",
