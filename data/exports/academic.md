@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-21 05:03 UTC, from the live Cor atlas snapshot built 2026-11-21 05:03 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 05:31 UTC, from the live Cor atlas snapshot built 2026-11-21 05:31 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 1656 works, 2824 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 1698 works, 2882 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -821,7 +821,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.
 
-**The gap.** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.
+**The gap.** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for those who compare badly with their peers (ext 2031, 2032).
 
 **Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
 
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 05:03 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 05:03 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 05:31 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 05:31 UTC.*

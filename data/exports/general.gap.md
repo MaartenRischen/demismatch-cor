@@ -38,7 +38,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
 **Status reference group (ranked against people who know you)** (tested once · CONTESTED)
-  - The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.
+  - The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for those who compare badly with their peers (ext 2031, 2032).
 
 **How standing is earned (prestige and dominance)** (contested · CONTESTED)
   - In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.

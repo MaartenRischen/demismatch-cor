@@ -313,7 +313,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.
 
-**The gap.** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.
+**The gap.** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for those who compare badly with their peers (ext 2031, 2032).
 
 **Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
 

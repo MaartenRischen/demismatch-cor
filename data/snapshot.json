@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T05:03:48.709797+00:00",
+    "built_at": "2026-11-21T05:31:30.143396+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1656,
-    "extractions": 2824,
+    "works": 1698,
+    "extractions": 2882,
     "researchers": 84,
-    "mechanism_evidence": 3173,
+    "mechanism_evidence": 3214,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 337
+    "challenges": 324
   },
   "tables": {
     "foundations": [
@@ -57,17 +57,6 @@
         "derivation": "Trivers (parent-offspring conflict, reciprocal altruism) + Boehm (dominance + anti-dominance) + Gilbert (approach + submit).",
         "epistemic_grade": "forced",
         "scope_notes": "\"Matched\" does NOT mean \"conflict-free.\" Matched vs mismatched = managed vs unmanaged tension.",
-        "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
-        "id": 11,
-        "code": "DA7",
-        "layer": "property",
-        "name": "Developmental Calibration",
-        "statement": "The architecture calibrates to developmental and ongoing environmental input within evolved ranges.",
-        "derivation": "Bowlby (internal working models) + Hrdy + McEwen + Meaney (HPA-axis calibration).",
-        "epistemic_grade": "forced",
-        "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced.",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -159,6 +148,17 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
+        "id": 11,
+        "code": "DA7",
+        "layer": "property",
+        "name": "Developmental Calibration",
+        "statement": "The architecture calibrates to developmental and ongoing environmental input within evolved ranges.",
+        "derivation": "Bowlby (internal working models) + Hrdy + McEwen + Meaney (HPA-axis calibration).",
+        "epistemic_grade": "forced",
+        "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced. Childhood and the adult (project position, 21 Nov 2026). What happened to a person as a child explains little of how they feel now; their genes and the world they live in now explain most. Across fifty years of twin studies genes account for 49 percent of the differences between people and the shared home for 17 percent (ext 637, 638). Adoptive siblings reared together correlate .04 in personality (ext 2880). With genes and family held equal, the link between childhood maltreatment and later mental health problems is 45 percent smaller (ext 1638); maltreatment on a court record and not recalled goes with no raised rate of diagnoses (ext 1640); recorded and recalled maltreatment barely overlap (ext 2888). Attachment in infancy does not predict attachment more than 15 years later (ext 2893). After a frightening event most people come through: 9.2 percent met the criteria for PTSD after an event drawn at random from their life (ext 2912). The exception is deprivation far outside anything a human child evolved for (C12). Children assigned by lot to foster care scored lower on general symptoms at 16 than children left in an institution (ext 2909). Romanian children who spent more than six months in an institution still had more problems at 22 to 25 in supportive adoptive homes, and those adopted before six months did not (ext 2903). Open: brothers adopted away scored 4.41 IQ points higher at 18 to 20 than brothers reared at home (ext 2877), and adopted-away siblings of a parent diagnosed with depression were diagnosed with it 23 percent less often (ext 2878); the adoptive family explained 14 percent of schooling and 33 percent of drinking among Korean American adoptees (ext 2872); in poor US families the shared home accounted for about 60 percent of IQ differences at age 7 (ext 2896); people diagnosed with PTSD show a raised heart rate at rest, with no reminder present (ext 2917).",
+        "created_at": "2026-04-04T17:25:29.196006+00:00"
+      },
+      {
         "id": 17,
         "code": "DA9",
         "layer": "property",
@@ -168,17 +168,6 @@
         "epistemic_grade": "strongly_supported",
         "scope_notes": "Cross-system buffering findings count against a strong version of DA9 in which the most-degraded mechanism sets well-being: oxytocin effects on the HPA axis, exercise effects on sleep, meaning effects on illness coping. Cor reads them as coupling effects (DA3). They modulate the consequences of an unmet resolution condition and do not supply it. In Cor, partner touch and a mother's voice lower cortisol responses to a lab stressor (ext 429, ext 820). The exercise and meaning findings have no record in Cor yet.",
         "created_at": "2026-04-08T13:57:50.739198+00:00"
-      },
-      {
-        "id": 18,
-        "code": "OF2",
-        "layer": "frame",
-        "name": "Signal-Default Epistemology",
-        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands). Reading the signal as information is no argument against relieving it. The default is displaced in two ways. A clear physical defect displaces it outright, whether a test has found it yet or not, and the output is then a symptom of that defect: acute organic disease or state shift (an infection or autoimmune disease, an endocrine disease such as a thyroid fault, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. Developmental miscalibration carried forward and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers a threshold set early, or a loop that keeps running, more than the present input. Sleep loss and low-grade inflammation that a mismatched life produces also displace the reading of the current input without making the output a disease. A marker that only shows sensitivity is no defect. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease.",
-        "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
-        "epistemic_grade": "frame",
-        "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The statement splits the displacing conditions on the clear-defect rule (DA1). Acute organic disease or state shift, structural damage, large-effect variants such as the 22q11.2 deletion, and substance or medication effects sit on the physical side: each is a clear physical cause, found or not yet found, and the output is its symptom. A marker that only shows how sensitive a person is to stimuli and to mismatch is no defect, and measured activation can sit downstream of mismatch. Developmental miscalibration and chronic dysregulation displace the default reading of the CURRENT input without making the output a disease: a threshold set by early calibration (DA7) or by heritable sensitivity (DA10), or a loop kept running by coupled systems (DA3), is still a response. Sleep loss and low-grade inflammation that a mismatched life produces (M7, M8) are part of the response, even when they are measured. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease. Persistence across environmental change and loss of context-sensitivity are reasons to look for a physical defect and to check calibration and coupling; by themselves they do not license a disease label.",
-        "created_at": "2026-04-08T14:00:24.018102+00:00"
       },
       {
         "id": 21,
@@ -203,17 +192,6 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 8,
-        "code": "DA4",
-        "layer": "property",
-        "name": "Proxy Hijacking via Open Loops",
-        "statement": "Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.",
-        "derivation": "Tinbergen (supernormal stimuli) + Berridge & Robinson (wanting/liking dissociation).",
-        "epistemic_grade": "forced",
-        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after 25 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and at the same blood level a faster rise gives more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), were used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Open: pituri in Central Australia was chewed almost without pause in a small-scale setting, and no study measured what people gave up for it (ext 2519, 2520).",
-        "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
         "id": 19,
         "code": "DC3",
         "layer": "consequence",
@@ -223,6 +201,28 @@
         "epistemic_grade": "plausible_synthesis",
         "scope_notes": "DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts. What the person comes back to decides. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). People in a therapeutic community keep their gains until they leave (ext 2830). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925), and most rats on cocaine stop when anything else worth having is offered (ext 928). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); heroin use in a cohort of offenders stayed stable over 33 years (ext 2835); a home of one's own did not change drug use in four trials (ext 2842); craving set off by cues goes with a later return to use (ext 2854); a paid data-entry job with no drug rule did not keep people off cocaine (ext 2455); in rats, after long access, housing and rank no longer changed intake (ext 933, 935).",
         "created_at": "2026-04-08T14:02:55.382263+00:00"
+      },
+      {
+        "id": 8,
+        "code": "DA4",
+        "layer": "property",
+        "name": "Proxy Hijacking via Open Loops",
+        "statement": "Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.",
+        "derivation": "Tinbergen (supernormal stimuli) + Berridge & Robinson (wanting/liking dissociation).",
+        "epistemic_grade": "forced",
+        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after 25 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and at the same blood level a faster rise gives more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), were used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Open: pituri in Central Australia was chewed almost without pause in a small-scale setting, and no study measured what people gave up for it (ext 2519, 2520). Feeds (project position, 21 Nov 2026). A feed is a stand-in for company and standing among people who know you. What is missing does the harm, and the hours on a feed are not the measure: across 143 studies time on social media and low-mood scores correlate at about 0.08 (ext 104), and the diaries of 17,247 adolescents show little link (ext 102). Quitting alone changes little, because it takes the stand-in away and puts nothing in its place: ten experiments found no effect on mood or life satisfaction (ext 2009), and the two largest paid experiments found small gains (ext 2006, 2008). Leaving alone costs: students wanted about 50 US dollars to give up TikTok or Instagram for four weeks while their friends stayed on, and 60 percent of the TikTok users and 46 percent of the Instagram users put a negative value on the platform existing at all (ext 2406). The harm shows when a whole group moves onto a feed: the arrival of Facebook at 775 US colleges raised an index of poor mental health by 0.085 standard deviations (ext 2031). College-bound US high school seniors spent an hour a day less with friends in person in 2016 than in the late 1980s (ext 2251). The medium is neutral: couples who met online stay together and rate their relationship as couples who met offline do (ext 1740, 1741, 2293).",
+        "created_at": "2026-04-04T17:25:29.196006+00:00"
+      },
+      {
+        "id": 18,
+        "code": "OF2",
+        "layer": "frame",
+        "name": "Signal-Default Epistemology",
+        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands). Reading the signal as information is no argument against relieving it. The default is displaced in two ways. A clear physical defect displaces it outright, whether a test has found it yet or not, and the output is then a symptom of that defect: acute organic disease or state shift (an infection or autoimmune disease, an endocrine disease such as a thyroid fault, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. A setting left by deprivation far outside the evolved range (DA7) and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers that setting, or a loop that keeps running, more than the present input. An ordinary hard childhood is no such setting: it explains little of how an adult feels (DA7). Sleep loss and low-grade inflammation that a mismatched life produces also displace the reading of the current input without making the output a disease. A marker that only shows sensitivity is no defect. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease.",
+        "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
+        "epistemic_grade": "frame",
+        "scope_notes": "OF2 is a diagnostic default, not an ontological claim. OF1 establishes that perception is not guaranteed veridical at the fitness-interface level; OF2 establishes that motivational-emotional signals are read as informative about state and input conditions before being read as noise. Positive evidence sufficient to displace the OF2 default includes: time-locked onset coincident with medical illness, medication, or substance exposure; lab or neurological evidence of acute physiological perturbation; persistence of the output across environmental changes that would normally resolve a defensive signal; or gross loss of context-sensitivity that breaks the expected defensive logic. The statement splits the displacing conditions on the clear-defect rule (DA1). Acute organic disease or state shift, structural damage, large-effect variants such as the 22q11.2 deletion, and substance or medication effects sit on the physical side: each is a clear physical cause, found or not yet found, and the output is its symptom. A marker that only shows how sensitive a person is to stimuli and to mismatch is no defect, and measured activation can sit downstream of mismatch. A setting left by deprivation far outside the evolved range and chronic dysregulation displace the default reading of the CURRENT input without making the output a disease: a threshold set by such deprivation (DA7) or by heritable sensitivity (DA10), or a loop kept running by coupled systems (DA3), is still a response. Sleep loss and low-grade inflammation that a mismatched life produces (M7, M8) are part of the response, even when they are measured. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease. Persistence across environmental change and loss of context-sensitivity are reasons to look for a physical defect and to check calibration and coupling; by themselves they do not license a disease label.",
+        "created_at": "2026-04-08T14:00:24.018102+00:00"
       }
     ],
     "mechanisms": [
@@ -1691,30 +1691,6 @@
         "created_at": "2026-04-04T19:14:56.174226+00:00"
       },
       {
-        "id": 9,
-        "code": "C9",
-        "name": "Allostatic Load Accumulation",
-        "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology.",
-        "independent_literatures": [
-          "McEwen allostasis and allostatic load neuroendocrinology",
-          "Felitti ACE clinical epidemiology",
-          "Sapolsky primate stress physiology"
-        ],
-        "supporting_extractions": [
-          56,
-          57,
-          58,
-          59,
-          53,
-          54,
-          27,
-          28
-        ],
-        "forces_mechanism": null,
-        "epistemic_grade": "forced",
-        "created_at": "2026-04-04T19:14:56.174226+00:00"
-      },
-      {
         "id": 1,
         "code": "C1",
         "name": "Inclusive Fitness as Loss Function",
@@ -1758,18 +1734,36 @@
         "created_at": "2026-04-04T19:14:56.174226+00:00"
       },
       {
+        "id": 9,
+        "code": "C9",
+        "name": "Allostatic Load Accumulation",
+        "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines.",
+        "independent_literatures": [
+          "McEwen allostasis and allostatic load neuroendocrinology",
+          "Sapolsky primate stress physiology"
+        ],
+        "supporting_extractions": [
+          56,
+          57,
+          58,
+          59,
+          27,
+          28
+        ],
+        "forces_mechanism": null,
+        "epistemic_grade": "strongly_supported",
+        "created_at": "2026-04-04T19:14:56.174226+00:00"
+      },
+      {
         "id": 7,
         "code": "C7",
         "name": "Adverse Experience Cascading Dose-Response",
-        "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it.",
+        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no effect of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines.",
         "independent_literatures": [
-          "Felitti ACE Study clinical epidemiology",
           "McEwen allostatic load neuroendocrinology",
           "Panksepp cross-system inhibition affective neuroscience"
         ],
         "supporting_extractions": [
-          53,
-          54,
           56,
           57,
           58,
@@ -1777,7 +1771,7 @@
           10
         ],
         "forces_mechanism": null,
-        "epistemic_grade": "forced",
+        "epistemic_grade": "strongly_supported",
         "created_at": "2026-04-04T19:14:56.174226+00:00"
       },
       {
@@ -1919,18 +1913,29 @@
         "id": 12,
         "code": "C12",
         "name": "Developmental Calibration within Evolved Ranges",
-        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it.",
+        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ: adoptive siblings reared together correlate .04 in personality, and attachment in infancy does not predict attachment more than 15 years later. Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
         "independent_literatures": [
-          "Bowlby attachment developmental calibration",
-          "McEwen HPA-axis neuroendocrinology",
-          "Felitti ACE Study clinical developmental epidemiology"
+          "Nelson, Zeanah and Fox Bucharest Early Intervention Project (randomised trial)",
+          "Rutter and Sonuga-Barke English and Romanian Adoptees study (natural experiment)",
+          "Meaney and Francis cross-fostering in rats (experimental neuroendocrinology)",
+          "McEwen HPA-axis neuroendocrinology"
         ],
         "supporting_extractions": [
-          12,
-          13,
+          2131,
+          2077,
+          663,
+          2907,
+          2909,
+          2911,
+          2903,
+          2906,
+          99,
+          474,
+          2924,
           56,
           57,
-          53
+          2880,
+          2893
         ],
         "forces_mechanism": null,
         "epistemic_grade": "forced",
@@ -35405,6 +35410,846 @@
         "issue": "16",
         "pages": "1551-1560",
         "url": "corpus.html#w=1668"
+      },
+      {
+        "id": 1669,
+        "title": "How large are the effects from changes in family environment? A study of Korean American adoptees",
+        "authors": "Sacerdote B",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1162/qjec.122.1.119",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Quarterly Journal of Economics",
+        "container": null,
+        "volume": "122",
+        "issue": "1",
+        "pages": "119-157",
+        "url": "corpus.html#w=1669"
+      },
+      {
+        "id": 1670,
+        "title": "Nature, nurture, and cognitive development from 1 to 16 years: a parent-offspring adoption study",
+        "authors": "Plomin R, Fulker DW, Corley R, DeFries JC",
+        "year": 1997,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-9280.1997.tb00458.x",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "8",
+        "issue": "6",
+        "pages": "442-447",
+        "url": "corpus.html#w=1670"
+      },
+      {
+        "id": 1671,
+        "title": "Sources of human psychological differences: the Minnesota Study of Twins Reared Apart",
+        "authors": "Bouchard TJ Jr, Lykken DT, McGue M, Segal NL, Tellegen A",
+        "year": 1990,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1126/science.2218526",
+        "pmid": "2218526",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Science",
+        "container": null,
+        "volume": "250",
+        "issue": "4978",
+        "pages": "223-228",
+        "url": "corpus.html#w=1671"
+      },
+      {
+        "id": 1672,
+        "title": "Family environment and the malleability of cognitive ability: a Swedish national home-reared and adopted-away cosibling control study",
+        "authors": "Kendler KS, Turkheimer E, Ohlsson H, Sundquist J, Sundquist K",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1417106112",
+        "pmid": "25831538",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "112",
+        "issue": "15",
+        "pages": "4612-4617",
+        "url": "corpus.html#w=1672"
+      },
+      {
+        "id": 1673,
+        "title": "The rearing environment and risk for major depression: a Swedish national high-risk home-reared and adopted-away co-sibling control study",
+        "authors": "Kendler KS, Ohlsson H, Sundquist J, Sundquist K",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.2019.19090911",
+        "pmid": "32340466",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "177",
+        "issue": "5",
+        "pages": "447-453",
+        "url": "corpus.html#w=1673"
+      },
+      {
+        "id": 1674,
+        "title": "Why are children in the same family so different from one another?",
+        "authors": "Plomin R, Daniels D",
+        "year": 1987,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/s0140525x00055941",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behavioral and Brain Sciences",
+        "container": null,
+        "volume": "10",
+        "issue": "1",
+        "pages": "1-16",
+        "url": "corpus.html#w=1674"
+      },
+      {
+        "id": 1675,
+        "title": "Nonshared environment: a theoretical, methodological, and quantitative review",
+        "authors": "Turkheimer E, Waldron M",
+        "year": 2000,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0033-2909.126.1.78",
+        "pmid": "10668351",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Bulletin",
+        "container": null,
+        "volume": "126",
+        "issue": "1",
+        "pages": "78-108",
+        "url": "corpus.html#w=1675"
+      },
+      {
+        "id": 1676,
+        "title": "Where is the child's environment? A group socialization theory of development",
+        "authors": "Harris JR",
+        "year": 1995,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0033-295x.102.3.458",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Review",
+        "container": null,
+        "volume": "102",
+        "issue": "3",
+        "pages": "458-489",
+        "url": "corpus.html#w=1676"
+      },
+      {
+        "id": 1677,
+        "title": "Genetic influences on measures of the environment: a systematic review",
+        "authors": "Kendler KS, Baker JH",
+        "year": 2007,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/s0033291706009524",
+        "pmid": "17176502",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "37",
+        "issue": "5",
+        "pages": "615-626",
+        "url": "corpus.html#w=1677"
+      },
+      {
+        "id": 1678,
+        "title": "Parenting as a reaction evoked by children's genotype: a meta-analysis of children-as-twins studies",
+        "authors": "Avinun R, Knafo A",
+        "year": 2014,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/1088868313498308",
+        "pmid": "23940232",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Personality and Social Psychology Review",
+        "container": null,
+        "volume": "18",
+        "issue": "1",
+        "pages": "87-102",
+        "url": "corpus.html#w=1678"
+      },
+      {
+        "id": 1679,
+        "title": "Parental characteristics and offspring mental health and related outcomes: a systematic review of genetically informative literature",
+        "authors": "Jami ES, Hammerschlag AR, Bartels M, Middeldorp CM",
+        "year": 2021,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41398-021-01300-2",
+        "pmid": "33795643",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Translational Psychiatry",
+        "container": null,
+        "volume": "11",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1679"
+      },
+      {
+        "id": 1680,
+        "title": "Agreement between prospective and retrospective measures of childhood maltreatment: a systematic review and meta-analysis",
+        "authors": "Baldwin JR, Reuben A, Newbury JB, Danese A",
+        "year": 2019,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2019.0097",
+        "pmid": "30892562",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "76",
+        "issue": "6",
+        "pages": "584",
+        "url": "corpus.html#w=1680"
+      },
+      {
+        "id": 1681,
+        "title": "Lest we forget: comparing retrospective and prospective assessments of adverse childhood experiences in the prediction of adult health",
+        "authors": "Reuben A, Moffitt TE, Caspi A, Belsky DW, Harrington H, Schroeder F, Hogan S, Ramrakha S, Poulton R, Danese A",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jcpp.12621",
+        "pmid": "27647050",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "57",
+        "issue": "10",
+        "pages": "1103-1112",
+        "url": "corpus.html#w=1681"
+      },
+      {
+        "id": 1682,
+        "title": "Population vs individual prediction of poor health from results of adverse childhood experiences screening",
+        "authors": "Baldwin JR, Caspi A, Meehan AJ, Ambler A, Arseneault L, Fisher HL, Harrington H, Matthews T, Odgers CL, Poulton R, Ramrakha S, Moffitt TE, Danese A",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapediatrics.2020.5602",
+        "pmid": "33492366",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Pediatrics",
+        "container": null,
+        "volume": "175",
+        "issue": "4",
+        "pages": "385",
+        "url": "corpus.html#w=1682"
+      },
+      {
+        "id": 1683,
+        "title": "Attachment stability from infancy to adulthood: meta-analysis and dynamic modeling of developmental mechanisms",
+        "authors": "Fraley RC",
+        "year": 2002,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1207/s15327957pspr0602_03",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Personality and Social Psychology Review",
+        "container": null,
+        "volume": "6",
+        "issue": "2",
+        "pages": "123-151",
+        "url": "corpus.html#w=1683"
+      },
+      {
+        "id": 1684,
+        "title": "Meta-analytic evidence for stability in attachments from infancy to early adulthood",
+        "authors": "Pinquart M, Feussner C, Ahnert L",
+        "year": 2013,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1080/14616734.2013.746257",
+        "pmid": "23210665",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Attachment & Human Development",
+        "container": null,
+        "volume": "15",
+        "issue": "2",
+        "pages": "189-218",
+        "url": "corpus.html#w=1684"
+      },
+      {
+        "id": 1685,
+        "title": "Genetic and environmental influences on adolescent attachment",
+        "authors": "Fearon P, Shmueli-Goetz Y, Viding E, Fonagy P, Plomin R",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jcpp.12171",
+        "pmid": "24256475",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "55",
+        "issue": "9",
+        "pages": "1033-1041",
+        "url": "corpus.html#w=1685"
+      },
+      {
+        "id": 1686,
+        "title": "Attachment in the early life course: meta-analytic evidence for its role in socioemotional development",
+        "authors": "Groh AM, Fearon RMP, van IJzendoorn MH, Bakermans-Kranenburg MJ, Roisman GI",
+        "year": 2017,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/cdep.12213",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development Perspectives",
+        "container": null,
+        "volume": "11",
+        "issue": "1",
+        "pages": "70-76",
+        "url": "corpus.html#w=1686"
+      },
+      {
+        "id": 1687,
+        "title": "Socioeconomic status modifies heritability of IQ in young children",
+        "authors": "Turkheimer E, Haley A, Waldron M, D'Onofrio B, Gottesman II",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1046/j.0956-7976.2003.psci_1475.x",
+        "pmid": "14629696",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "14",
+        "issue": "6",
+        "pages": "623-628",
+        "url": "corpus.html#w=1687"
+      },
+      {
+        "id": 1688,
+        "title": "Large cross-national differences in gene x socioeconomic status interaction on intelligence",
+        "authors": "Tucker-Drob EM, Bates TC",
+        "year": 2016,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/0956797615612727",
+        "pmid": "26671911",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "27",
+        "issue": "2",
+        "pages": "138-149",
+        "url": "corpus.html#w=1688"
+      },
+      {
+        "id": 1689,
+        "title": "Cultural evolution of genetic heritability",
+        "authors": "Uchiyama R, Spicer R, Muthukrishna M",
+        "year": 2022,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/s0140525x21000893",
+        "pmid": "34016199",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behavioral and Brain Sciences",
+        "container": null,
+        "volume": "45",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1689"
+      },
+      {
+        "id": 1690,
+        "title": "Childhood parental loss and adult psychopathology in women. A twin study perspective",
+        "authors": "Kendler KS, Neale MC, Kessler RC, Heath AC, Eaves LJ",
+        "year": 1992,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.1992.01820020029004",
+        "pmid": "1550463",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "49",
+        "issue": "2",
+        "pages": "109",
+        "url": "corpus.html#w=1690"
+      },
+      {
+        "id": 1691,
+        "title": "A children of twins study of parental divorce and offspring psychopathology",
+        "authors": "D'Onofrio BM, Turkheimer E, Emery RE, Maes HH, Silberg J, Eaves LJ",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1469-7610.2007.01741.x",
+        "pmid": "17593147",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "48",
+        "issue": "7",
+        "pages": "667-675",
+        "url": "corpus.html#w=1691"
+      },
+      {
+        "id": 1692,
+        "title": "Child-to-adult neurodevelopmental and mental health trajectories after early life deprivation: the young adult follow-up of the longitudinal English and Romanian Adoptees study",
+        "authors": "Sonuga-Barke EJS, Kennedy M, Kumsta R, Knights N, Golm D, Rutter M, Maughan B, Schlotz W, Kreppner J",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0140-6736(17)30045-4",
+        "pmid": "28237264",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Lancet",
+        "container": null,
+        "volume": "389",
+        "issue": "10078",
+        "pages": "1539-1548",
+        "url": "corpus.html#w=1692"
+      },
+      {
+        "id": 1693,
+        "title": "Developmental catch-up, and deficit, following adoption after severe global early privation",
+        "authors": "Rutter M, English and Romanian Adoptees (ERA) Study Team",
+        "year": 1998,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/1469-7610.00343",
+        "pmid": "9599775",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "39",
+        "issue": "4",
+        "pages": "465-476",
+        "url": "corpus.html#w=1693"
+      },
+      {
+        "id": 1694,
+        "title": "Effects of institutional rearing and foster care on psychopathology at age 12 years in Romania: follow-up of an open, randomised controlled trial",
+        "authors": "Humphreys KL, Gleason MM, Drury SS, Miron D, Nelson CA, Fox NA, Zeanah CH",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S2215-0366(15)00095-4",
+        "pmid": "26303560",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Lancet Psychiatry",
+        "container": null,
+        "volume": "2",
+        "issue": "7",
+        "pages": "625-634",
+        "url": "corpus.html#w=1694"
+      },
+      {
+        "id": 1695,
+        "title": "Effect of foster care intervention on trajectories of general and specific psychopathology among children with histories of institutional rearing: a randomized clinical trial",
+        "authors": "Wade M, Fox NA, Zeanah CH, Nelson CA",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2018.2556",
+        "pmid": "30267045",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "75",
+        "issue": "11",
+        "pages": "1137",
+        "url": "corpus.html#w=1695"
+      },
+      {
+        "id": 1696,
+        "title": "Institutional rearing and psychiatric disorders in Romanian preschool children",
+        "authors": "Zeanah CH, Egger HL, Smyke AT, Nelson CA, Fox NA, Marshall PJ, Guthrie D",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.2009.08091438",
+        "pmid": "19487394",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "166",
+        "issue": "7",
+        "pages": "777-785",
+        "url": "corpus.html#w=1696"
+      },
+      {
+        "id": 1697,
+        "title": "Trauma and posttraumatic stress disorder in the community: the 1996 Detroit Area Survey of Trauma",
+        "authors": "Breslau N, Kessler RC, Chilcoat HD, Schultz LR, Davis GC, Andreski P",
+        "year": 1998,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.55.7.626",
+        "pmid": "9672053",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "55",
+        "issue": "7",
+        "pages": "626",
+        "url": "corpus.html#w=1697"
+      },
+      {
+        "id": 1698,
+        "title": "Posttraumatic stress disorder in the National Comorbidity Survey",
+        "authors": "Kessler RC, Sonnega A, Bromet E, Hughes M, Nelson CB",
+        "year": 1995,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.1995.03950240066012",
+        "pmid": "7492257",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "52",
+        "issue": "12",
+        "pages": "1048",
+        "url": "corpus.html#w=1698"
+      },
+      {
+        "id": 1699,
+        "title": "Classical fear conditioning in the anxiety disorders: a meta-analysis",
+        "authors": "Lissek S, Powers AS, McClure EB, Phelps EA, Woldehawariat G, Grillon C, Pine DS",
+        "year": 2005,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.brat.2004.10.007",
+        "pmid": "15885654",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behaviour Research and Therapy",
+        "container": null,
+        "volume": "43",
+        "issue": "11",
+        "pages": "1391-1424",
+        "url": "corpus.html#w=1699"
+      },
+      {
+        "id": 1700,
+        "title": "Updated meta-analysis of classical fear conditioning in the anxiety disorders",
+        "authors": "Duits P, Cath DC, Lissek S, Hox JJ, Hamm AO, Engelhard IM, van den Hout MA, Baas JMP",
+        "year": 2015,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/da.22353",
+        "pmid": "25703487",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Depression and Anxiety",
+        "container": null,
+        "volume": "32",
+        "issue": "4",
+        "pages": "239-253",
+        "url": "corpus.html#w=1700"
+      },
+      {
+        "id": 1701,
+        "title": "Neural substrates of overgeneralized conditioned fear in PTSD",
+        "authors": "Kaczkurkin AN, Burton PC, Chazin SM, Manbeck AB, Espensen-Sturges T, Cooper SE, Sponheim SR, Lissek S",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.2016.15121549",
+        "pmid": "27794690",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "174",
+        "issue": "2",
+        "pages": "125-134",
+        "url": "corpus.html#w=1701"
+      },
+      {
+        "id": 1702,
+        "title": "The psychophysiology of posttraumatic stress disorder: a meta-analysis",
+        "authors": "Pole N",
+        "year": 2007,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0033-2909.133.5.725",
+        "pmid": "17723027",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Bulletin",
+        "container": null,
+        "volume": "133",
+        "issue": "5",
+        "pages": "725-746",
+        "url": "corpus.html#w=1702"
+      },
+      {
+        "id": 1703,
+        "title": "Posttraumatic stress disorder in abused and neglected children grown up",
+        "authors": "Widom CS",
+        "year": 1999,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/ajp.156.8.1223",
+        "pmid": "10450264",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "156",
+        "issue": "8",
+        "pages": "1223-1229",
+        "url": "corpus.html#w=1703"
+      },
+      {
+        "id": 1704,
+        "title": "Measuring childhood maltreatment to predict early-adult psychopathology: comparison of prospective informant-reports and retrospective self-reports",
+        "authors": "Newbury JB, Arseneault L, Moffitt TE, Caspi A, Danese A, Baldwin JR, Fisher HL",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jpsychires.2017.09.020",
+        "pmid": "28965006",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychiatric Research",
+        "container": null,
+        "volume": "96",
+        "issue": null,
+        "pages": "57-64",
+        "url": "corpus.html#w=1704"
+      },
+      {
+        "id": 1705,
+        "title": "Present-centered therapy (PCT) for post-traumatic stress disorder (PTSD) in adults",
+        "authors": "Belsher BE, Beech E, Evatt D, Smolenski DJ, Shea MT, Otto JL, Rosen CS, Schnurr PP",
+        "year": 2019,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/14651858.CD012898.pub2",
+        "pmid": "31742672",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Cochrane Database of Systematic Reviews",
+        "container": null,
+        "volume": "2019",
+        "issue": "11",
+        "pages": null,
+        "url": "corpus.html#w=1705"
+      },
+      {
+        "id": 1706,
+        "title": "Nongenomic transmission across generations of maternal behavior and stress responses in the rat",
+        "authors": "Francis D, Diorio J, Liu D, Meaney MJ",
+        "year": 1999,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1126/science.286.5442.1155",
+        "pmid": "10550053",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Science",
+        "container": null,
+        "volume": "286",
+        "issue": "5442",
+        "pages": "1155-1158",
+        "url": "corpus.html#w=1706"
+      },
+      {
+        "id": 1707,
+        "title": "Environmental enrichment reverses the effects of maternal separation on stress reactivity",
+        "authors": "Francis DD, Diorio J, Plotsky PM, Meaney MJ",
+        "year": 2002,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1523/JNEUROSCI.22-18-07840.2002",
+        "pmid": "12223535",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Journal of Neuroscience",
+        "container": null,
+        "volume": "22",
+        "issue": "18",
+        "pages": "7840-7843",
+        "url": "corpus.html#w=1707"
+      },
+      {
+        "id": 1708,
+        "title": "Parental death during childhood and depression in young adults: a national cohort study",
+        "authors": "Berg L, Rostila M, Hjern A",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jcpp.12560",
+        "pmid": "27058980",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "57",
+        "issue": "9",
+        "pages": "1092-1098",
+        "url": "corpus.html#w=1708"
+      },
+      {
+        "id": 1709,
+        "title": "Childhood parental loss and risk for first-onset of major depression and alcohol dependence: the time-decay of risk and sex differences",
+        "authors": "Kendler KS, Sheth K, Gardner CO, Prescott CA",
+        "year": 2002,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291702006219",
+        "pmid": "12420888",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "32",
+        "issue": "7",
+        "pages": "1187-1194",
+        "url": "corpus.html#w=1709"
+      },
+      {
+        "id": 1710,
+        "title": "The impact of childhood parental loss on risk for mood, anxiety and substance use disorders in a population-based sample of male twins",
+        "authors": "Otowa T, York TP, Gardner CO, Kendler KS, Hettema JM",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psychres.2014.07.053",
+        "pmid": "25146695",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatry Research",
+        "container": null,
+        "volume": "220",
+        "issue": "1-2",
+        "pages": "404-409",
+        "url": "corpus.html#w=1710"
       }
     ],
     "extractions": [
@@ -36902,19 +37747,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=101"
-      },
-      {
-        "id": 102,
-        "work_id": 45,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=102"
       },
       {
         "id": 283,
@@ -38644,19 +39476,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=540"
-      },
-      {
-        "id": 1658,
-        "work_id": 883,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1658"
       },
       {
         "id": 711,
@@ -41572,7 +42391,7 @@
         ],
         "foundation_codes": null,
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1741"
@@ -46888,17 +47707,6 @@
         "url": "corpus.html#e=2850"
       },
       {
-        "id": 1659,
-        "work_id": 884,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1659"
-      },
-      {
         "id": 1823,
         "work_id": 993,
         "mechanism_codes": [
@@ -48030,6 +48838,22 @@
         "url": "corpus.html#e=2254"
       },
       {
+        "id": 1635,
+        "work_id": 868,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1635"
+      },
+      {
         "id": 763,
         "work_id": 251,
         "mechanism_codes": [
@@ -48711,6 +49535,22 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2261"
+      },
+      {
+        "id": 1636,
+        "work_id": 868,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1636"
       },
       {
         "id": 806,
@@ -50041,21 +50881,6 @@
         "url": "corpus.html#e=2283"
       },
       {
-        "id": 103,
-        "work_id": 46,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=103"
-      },
-      {
         "id": 1134,
         "work_id": 529,
         "mechanism_codes": [
@@ -50261,21 +51086,6 @@
         "url": "corpus.html#e=996"
       },
       {
-        "id": 104,
-        "work_id": 47,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=104"
-      },
-      {
         "id": 131,
         "work_id": 27,
         "mechanism_codes": [
@@ -50450,6 +51260,19 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=119"
+      },
+      {
+        "id": 1637,
+        "work_id": 869,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1637"
       },
       {
         "id": 308,
@@ -50634,23 +51457,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=1145"
-      },
-      {
-        "id": 473,
-        "work_id": 26,
-        "mechanism_codes": [
-          "M1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DC1"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=473"
       },
       {
         "id": 526,
@@ -50869,19 +51675,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=45"
-      },
-      {
-        "id": 2293,
-        "work_id": 1268,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2293"
       },
       {
         "id": 62,
@@ -60425,22 +61218,6 @@
         "url": "corpus.html#e=1634"
       },
       {
-        "id": 1636,
-        "work_id": 868,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1636"
-      },
-      {
         "id": 2409,
         "work_id": 1337,
         "mechanism_codes": [
@@ -60470,19 +61247,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2412"
-      },
-      {
-        "id": 1637,
-        "work_id": 869,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1637"
       },
       {
         "id": 1639,
@@ -60515,22 +61279,6 @@
         "url": "corpus.html#e=2411"
       },
       {
-        "id": 1643,
-        "work_id": 873,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DC1",
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1643"
-      },
-      {
         "id": 1688,
         "work_id": 901,
         "mechanism_codes": [],
@@ -60553,22 +61301,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1642"
-      },
-      {
-        "id": 1644,
-        "work_id": 873,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DC1",
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1644"
       },
       {
         "id": 2414,
@@ -60616,19 +61348,6 @@
         "url": "corpus.html#e=2422"
       },
       {
-        "id": 1645,
-        "work_id": 874,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1645"
-      },
-      {
         "id": 1647,
         "work_id": 876,
         "mechanism_codes": [
@@ -60636,7 +61355,7 @@
         ],
         "foundation_codes": null,
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1647"
@@ -60656,20 +61375,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1738"
-      },
-      {
-        "id": 1651,
-        "work_id": 878,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA7"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1651"
       },
       {
         "id": 2596,
@@ -60796,20 +61501,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1666"
-      },
-      {
-        "id": 1655,
-        "work_id": 880,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA7",
-          "DC1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1655"
       },
       {
         "id": 1660,
@@ -61688,22 +62379,6 @@
         "url": "corpus.html#e=1737"
       },
       {
-        "id": 1740,
-        "work_id": 934,
-        "mechanism_codes": [
-          "M14",
-          "M3"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1740"
-      },
-      {
         "id": 1744,
         "work_id": 938,
         "mechanism_codes": [
@@ -62518,22 +63193,6 @@
         "url": "corpus.html#e=1817"
       },
       {
-        "id": 1635,
-        "work_id": 868,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1635"
-      },
-      {
         "id": 1816,
         "work_id": 989,
         "mechanism_codes": [],
@@ -62672,7 +63331,7 @@
           "DA10"
         ],
         "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=1638"
@@ -62687,7 +63346,7 @@
           "DA7"
         ],
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1641"
@@ -62701,25 +63360,10 @@
           "DA7"
         ],
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1654"
-      },
-      {
-        "id": 1640,
-        "work_id": 871,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA7"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1640"
       },
       {
         "id": 1649,
@@ -62744,10 +63388,23 @@
           "DA7"
         ],
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1653"
+      },
+      {
+        "id": 54,
+        "work_id": 26,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=54"
       },
       {
         "id": 453,
@@ -62770,17 +63427,17 @@
         "url": "corpus.html#e=453"
       },
       {
-        "id": 54,
-        "work_id": 26,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA3"
+        "id": 1696,
+        "work_id": 904,
+        "mechanism_codes": [
+          "M9"
         ],
-        "evidence_quality": "replicated",
-        "source_type": "primary",
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
         "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=54"
+        "grade": "tested once",
+        "url": "corpus.html#e=1696"
       },
       {
         "id": 1625,
@@ -62791,10 +63448,24 @@
           "DA7"
         ],
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1625"
+      },
+      {
+        "id": 53,
+        "work_id": 26,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA3",
+          "DA7"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=53"
       },
       {
         "id": 454,
@@ -62813,33 +63484,6 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=454"
-      },
-      {
-        "id": 53,
-        "work_id": 26,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA3",
-          "DA7"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=53"
-      },
-      {
-        "id": 1696,
-        "work_id": 904,
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1696"
       },
       {
         "id": 541,
@@ -65259,19 +65903,6 @@
         "url": "corpus.html#e=2420"
       },
       {
-        "id": 2009,
-        "work_id": 1101,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2009"
-      },
-      {
         "id": 2010,
         "work_id": 1102,
         "mechanism_codes": [
@@ -65420,19 +66051,6 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=2432"
-      },
-      {
-        "id": 2019,
-        "work_id": 1107,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2019"
       },
       {
         "id": 2021,
@@ -76534,6 +77152,1086 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=977"
+      },
+      {
+        "id": 2872,
+        "work_id": 1669,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2872"
+      },
+      {
+        "id": 2873,
+        "work_id": 1669,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2873"
+      },
+      {
+        "id": 2874,
+        "work_id": 1670,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2874"
+      },
+      {
+        "id": 2875,
+        "work_id": 1671,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2875"
+      },
+      {
+        "id": 2876,
+        "work_id": 1671,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2876"
+      },
+      {
+        "id": 2877,
+        "work_id": 1672,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2877"
+      },
+      {
+        "id": 2878,
+        "work_id": 1673,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2878"
+      },
+      {
+        "id": 2879,
+        "work_id": 1673,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2879"
+      },
+      {
+        "id": 2880,
+        "work_id": 1674,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2880"
+      },
+      {
+        "id": 2881,
+        "work_id": 1674,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2881"
+      },
+      {
+        "id": 2882,
+        "work_id": 1675,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2882"
+      },
+      {
+        "id": 2883,
+        "work_id": 1676,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2883"
+      },
+      {
+        "id": 2884,
+        "work_id": 1677,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2884"
+      },
+      {
+        "id": 2885,
+        "work_id": 1678,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2885"
+      },
+      {
+        "id": 2886,
+        "work_id": 1679,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2886"
+      },
+      {
+        "id": 2887,
+        "work_id": 1679,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2887"
+      },
+      {
+        "id": 2888,
+        "work_id": 1680,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2888"
+      },
+      {
+        "id": 2889,
+        "work_id": 1681,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2889"
+      },
+      {
+        "id": 2890,
+        "work_id": 1681,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2890"
+      },
+      {
+        "id": 2891,
+        "work_id": 1682,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2891"
+      },
+      {
+        "id": 2892,
+        "work_id": 1683,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2892"
+      },
+      {
+        "id": 2893,
+        "work_id": 1684,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2893"
+      },
+      {
+        "id": 2894,
+        "work_id": 1685,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2894"
+      },
+      {
+        "id": 2895,
+        "work_id": 1686,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2895"
+      },
+      {
+        "id": 2896,
+        "work_id": 1687,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2896"
+      },
+      {
+        "id": 2897,
+        "work_id": 1688,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2897"
+      },
+      {
+        "id": 2898,
+        "work_id": 1689,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2898"
+      },
+      {
+        "id": 2899,
+        "work_id": 1689,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2899"
+      },
+      {
+        "id": 2900,
+        "work_id": 1690,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2900"
+      },
+      {
+        "id": 2901,
+        "work_id": 1691,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2901"
+      },
+      {
+        "id": 2902,
+        "work_id": 1691,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2902"
+      },
+      {
+        "id": 2903,
+        "work_id": 1692,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2903"
+      },
+      {
+        "id": 2904,
+        "work_id": 1692,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2904"
+      },
+      {
+        "id": 2905,
+        "work_id": 1692,
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2905"
+      },
+      {
+        "id": 2906,
+        "work_id": 1693,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2906"
+      },
+      {
+        "id": 2907,
+        "work_id": 1694,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2907"
+      },
+      {
+        "id": 2908,
+        "work_id": 1694,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2908"
+      },
+      {
+        "id": 2909,
+        "work_id": 1695,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2909"
+      },
+      {
+        "id": 2910,
+        "work_id": 1695,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2910"
+      },
+      {
+        "id": 2911,
+        "work_id": 1696,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2911"
+      },
+      {
+        "id": 2912,
+        "work_id": 1697,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5",
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2912"
+      },
+      {
+        "id": 2913,
+        "work_id": 1698,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2913"
+      },
+      {
+        "id": 2914,
+        "work_id": 1699,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2914"
+      },
+      {
+        "id": 2915,
+        "work_id": 1700,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2915"
+      },
+      {
+        "id": 2916,
+        "work_id": 1701,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2916"
+      },
+      {
+        "id": 2917,
+        "work_id": 1702,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2917"
+      },
+      {
+        "id": 2918,
+        "work_id": 1702,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2918"
+      },
+      {
+        "id": 2919,
+        "work_id": 1703,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2919"
+      },
+      {
+        "id": 2920,
+        "work_id": 1704,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "OF2",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2920"
+      },
+      {
+        "id": 2921,
+        "work_id": 1704,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "OF2",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2921"
+      },
+      {
+        "id": 2922,
+        "work_id": 1705,
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DC3",
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2922"
+      },
+      {
+        "id": 2923,
+        "work_id": 1705,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2923"
+      },
+      {
+        "id": 2924,
+        "work_id": 1706,
+        "mechanism_codes": [
+          "M3",
+          "M9",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2924"
+      },
+      {
+        "id": 2925,
+        "work_id": 1707,
+        "mechanism_codes": [
+          "M1",
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2925"
+      },
+      {
+        "id": 2926,
+        "work_id": 1707,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2926"
+      },
+      {
+        "id": 2927,
+        "work_id": 1708,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2927"
+      },
+      {
+        "id": 2928,
+        "work_id": 1709,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2928"
+      },
+      {
+        "id": 2929,
+        "work_id": 1710,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2929"
+      },
+      {
+        "id": 1640,
+        "work_id": 871,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1640"
+      },
+      {
+        "id": 1643,
+        "work_id": 873,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DC1",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1643"
+      },
+      {
+        "id": 1644,
+        "work_id": 873,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DC1",
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1644"
+      },
+      {
+        "id": 1645,
+        "work_id": 874,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1645"
+      },
+      {
+        "id": 103,
+        "work_id": 46,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=103"
+      },
+      {
+        "id": 1651,
+        "work_id": 878,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1651"
+      },
+      {
+        "id": 1655,
+        "work_id": 880,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1655"
+      },
+      {
+        "id": 1658,
+        "work_id": 883,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1658"
+      },
+      {
+        "id": 1659,
+        "work_id": 884,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1659"
+      },
+      {
+        "id": 102,
+        "work_id": 45,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=102"
+      },
+      {
+        "id": 104,
+        "work_id": 47,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=104"
+      },
+      {
+        "id": 2009,
+        "work_id": 1101,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2009"
+      },
+      {
+        "id": 2019,
+        "work_id": 1107,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2019"
+      },
+      {
+        "id": 1740,
+        "work_id": 934,
+        "mechanism_codes": [
+          "M14",
+          "M3"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1740"
+      },
+      {
+        "id": 2293,
+        "work_id": 1268,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2293"
+      },
+      {
+        "id": 473,
+        "work_id": 26,
+        "mechanism_codes": [
+          "M1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DC1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=473"
       }
     ],
     "researchers": [
@@ -77302,6 +79000,12 @@
         "evidence_role": "supporting"
       },
       {
+        "id": 102,
+        "mechanism_code": "M5",
+        "extraction_id": 104,
+        "evidence_role": "primary"
+      },
+      {
         "id": 31,
         "mechanism_code": "M13",
         "extraction_id": 38,
@@ -77690,18 +79394,6 @@
         "mechanism_code": "R1",
         "extraction_id": 100,
         "evidence_role": "primary"
-      },
-      {
-        "id": 101,
-        "mechanism_code": "M5",
-        "extraction_id": 103,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 102,
-        "mechanism_code": "M5",
-        "extraction_id": 104,
-        "evidence_role": "challenging"
       },
       {
         "id": 103,
@@ -78902,12 +80594,6 @@
         "mechanism_code": "M5",
         "extraction_id": 2018,
         "evidence_role": "primary"
-      },
-      {
-        "id": 2227,
-        "mechanism_code": "M5",
-        "extraction_id": 2019,
-        "evidence_role": "challenging"
       },
       {
         "id": 2228,
@@ -84232,28 +85918,10 @@
         "evidence_role": "challenging"
       },
       {
-        "id": 1899,
-        "mechanism_code": "M3",
-        "extraction_id": 1636,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1901,
-        "mechanism_code": "M1",
-        "extraction_id": 1640,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 1903,
         "mechanism_code": "M1",
         "extraction_id": 1642,
         "evidence_role": "supporting"
-      },
-      {
-        "id": 1905,
-        "mechanism_code": "M1",
-        "extraction_id": 1644,
-        "evidence_role": "challenging"
       },
       {
         "id": 1907,
@@ -84266,12 +85934,6 @@
         "mechanism_code": "M1",
         "extraction_id": 1648,
         "evidence_role": "supporting"
-      },
-      {
-        "id": 1911,
-        "mechanism_code": "M1",
-        "extraction_id": 1658,
-        "evidence_role": "challenging"
       },
       {
         "id": 1912,
@@ -84568,18 +86230,6 @@
         "evidence_role": "primary"
       },
       {
-        "id": 2007,
-        "mechanism_code": "M14",
-        "extraction_id": 1741,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 2008,
-        "mechanism_code": "M3",
-        "extraction_id": 1741,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 2012,
         "mechanism_code": "M14",
         "extraction_id": 1743,
@@ -84613,6 +86263,36 @@
         "id": 2128,
         "mechanism_code": "M1",
         "extraction_id": 1894,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1901,
+        "mechanism_code": "M1",
+        "extraction_id": 1640,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1905,
+        "mechanism_code": "M1",
+        "extraction_id": 1644,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1911,
+        "mechanism_code": "M1",
+        "extraction_id": 1658,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2007,
+        "mechanism_code": "M14",
+        "extraction_id": 1741,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2008,
+        "mechanism_code": "M3",
+        "extraction_id": 1741,
         "evidence_role": "primary"
       },
       {
@@ -84886,42 +86566,6 @@
         "evidence_role": "primary"
       },
       {
-        "id": 1898,
-        "mechanism_code": "M3",
-        "extraction_id": 1635,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1900,
-        "mechanism_code": "M3",
-        "extraction_id": 1637,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1902,
-        "mechanism_code": "M1",
-        "extraction_id": 1641,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1904,
-        "mechanism_code": "M1",
-        "extraction_id": 1643,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1906,
-        "mechanism_code": "M1",
-        "extraction_id": 1645,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1908,
-        "mechanism_code": "M1",
-        "extraction_id": 1647,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 1910,
         "mechanism_code": "M1",
         "extraction_id": 1657,
@@ -85192,18 +86836,6 @@
         "evidence_role": "primary"
       },
       {
-        "id": 2005,
-        "mechanism_code": "M14",
-        "extraction_id": 1740,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 2006,
-        "mechanism_code": "M3",
-        "extraction_id": 1740,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 2009,
         "mechanism_code": "M14",
         "extraction_id": 1742,
@@ -85297,6 +86929,48 @@
         "id": 2222,
         "mechanism_code": "M11",
         "extraction_id": 2015,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1900,
+        "mechanism_code": "M3",
+        "extraction_id": 1637,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1902,
+        "mechanism_code": "M1",
+        "extraction_id": 1641,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1904,
+        "mechanism_code": "M1",
+        "extraction_id": 1643,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1906,
+        "mechanism_code": "M1",
+        "extraction_id": 1645,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1908,
+        "mechanism_code": "M1",
+        "extraction_id": 1647,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2005,
+        "mechanism_code": "M14",
+        "extraction_id": 1740,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2006,
+        "mechanism_code": "M3",
+        "extraction_id": 1740,
         "evidence_role": "primary"
       },
       {
@@ -94774,6 +96448,162 @@
         "evidence_role": "primary"
       },
       {
+        "id": 3226,
+        "mechanism_code": "M3",
+        "extraction_id": 2879,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3227,
+        "mechanism_code": "M4",
+        "extraction_id": 2883,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3228,
+        "mechanism_code": "M3",
+        "extraction_id": 2892,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3229,
+        "mechanism_code": "M3",
+        "extraction_id": 2893,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3230,
+        "mechanism_code": "M3",
+        "extraction_id": 2894,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3231,
+        "mechanism_code": "M3",
+        "extraction_id": 2895,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3232,
+        "mechanism_code": "M3",
+        "extraction_id": 2900,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3233,
+        "mechanism_code": "M3",
+        "extraction_id": 2903,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3234,
+        "mechanism_code": "M4",
+        "extraction_id": 2903,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3235,
+        "mechanism_code": "M2",
+        "extraction_id": 2904,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3236,
+        "mechanism_code": "M1",
+        "extraction_id": 2905,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3237,
+        "mechanism_code": "M3",
+        "extraction_id": 2905,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3238,
+        "mechanism_code": "M2",
+        "extraction_id": 2906,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3239,
+        "mechanism_code": "M3",
+        "extraction_id": 2907,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3240,
+        "mechanism_code": "M3",
+        "extraction_id": 2908,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3241,
+        "mechanism_code": "M3",
+        "extraction_id": 2909,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3242,
+        "mechanism_code": "M3",
+        "extraction_id": 2910,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3243,
+        "mechanism_code": "M4",
+        "extraction_id": 2910,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3244,
+        "mechanism_code": "M3",
+        "extraction_id": 2911,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3245,
+        "mechanism_code": "M1",
+        "extraction_id": 2912,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3246,
+        "mechanism_code": "M1",
+        "extraction_id": 2913,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3247,
+        "mechanism_code": "M1",
+        "extraction_id": 2914,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3248,
+        "mechanism_code": "M1",
+        "extraction_id": 2915,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3249,
+        "mechanism_code": "M1",
+        "extraction_id": 2916,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3250,
+        "mechanism_code": "M1",
+        "extraction_id": 2917,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3251,
+        "mechanism_code": "M1",
+        "extraction_id": 2918,
+        "evidence_role": "primary"
+      },
+      {
         "id": 2531,
         "mechanism_code": "M13",
         "extraction_id": 2265,
@@ -94850,12 +96680,6 @@
         "mechanism_code": "M3",
         "extraction_id": 2290,
         "evidence_role": "primary"
-      },
-      {
-        "id": 2574,
-        "mechanism_code": "M14",
-        "extraction_id": 2293,
-        "evidence_role": "challenging"
       },
       {
         "id": 2578,
@@ -96163,6 +97987,126 @@
         "id": 3171,
         "mechanism_code": "M7",
         "extraction_id": 2808,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3252,
+        "mechanism_code": "M1",
+        "extraction_id": 2919,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3253,
+        "mechanism_code": "M1",
+        "extraction_id": 2921,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3254,
+        "mechanism_code": "M1",
+        "extraction_id": 2922,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3255,
+        "mechanism_code": "M3",
+        "extraction_id": 2922,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3256,
+        "mechanism_code": "M1",
+        "extraction_id": 2923,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3257,
+        "mechanism_code": "M3",
+        "extraction_id": 2924,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3258,
+        "mechanism_code": "M9",
+        "extraction_id": 2924,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3259,
+        "mechanism_code": "M1",
+        "extraction_id": 2924,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3260,
+        "mechanism_code": "M1",
+        "extraction_id": 2925,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3261,
+        "mechanism_code": "M3",
+        "extraction_id": 2925,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3262,
+        "mechanism_code": "M4",
+        "extraction_id": 2925,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3263,
+        "mechanism_code": "M1",
+        "extraction_id": 2926,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3264,
+        "mechanism_code": "M3",
+        "extraction_id": 2927,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3265,
+        "mechanism_code": "M3",
+        "extraction_id": 2928,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3266,
+        "mechanism_code": "M3",
+        "extraction_id": 2929,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1898,
+        "mechanism_code": "M3",
+        "extraction_id": 1635,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1899,
+        "mechanism_code": "M3",
+        "extraction_id": 1636,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 101,
+        "mechanism_code": "M5",
+        "extraction_id": 103,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2227,
+        "mechanism_code": "M5",
+        "extraction_id": 2019,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2574,
+        "mechanism_code": "M14",
+        "extraction_id": 2293,
         "evidence_role": "primary"
       }
     ],
@@ -98672,101 +100616,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-11",
-        "domain": "social_structure",
-        "name": "Status reference group (ranked against people who know you)",
-        "eea_baseline": "A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.",
-        "eea_value": {
-          "camp_size": "about 30 (Hadza, ext 603)",
-          "lifetime_known_pool": "about 1,000 (Ache, Hadza, ext 606-608)",
-          "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
-        },
-        "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
-        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.",
-        "resolution_unit": null,
-        "evidence_grade": "thin",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Contested on the modern side: social media effect sizes are small (ext 103, 104) and near zero in time-use diaries (ext 102).",
-        "created_at": "2026-11-11T04:19:19.680814+00:00",
-        "updated_at": "2026-11-11T04:19:19.680814+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 722,
-            "evidence_role": "primary",
-            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
-            "evidence_quality": "replicated",
-            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
-          },
-          {
-            "extraction_id": 721,
-            "evidence_role": "supporting",
-            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
-            "evidence_quality": "replicated",
-            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
-          },
-          {
-            "extraction_id": 1042,
-            "evidence_role": "primary",
-            "author_quote": "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly.",
-            "evidence_quality": "thin",
-            "content": "In four studies of US participants (college groups such as sororities and ROTC units, a broader national sample, an experiment, and a longitudinal study across graduation), respect and admiration in one's face-to-face groups went with life satisfaction and positive feeling more s"
-          },
-          {
-            "extraction_id": 603,
-            "evidence_role": "supporting",
-            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
-            "evidence_quality": "thin",
-            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
-          },
-          {
-            "extraction_id": 606,
-            "evidence_role": "supporting",
-            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
-            "evidence_quality": "thin",
-            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
-          },
-          {
-            "extraction_id": 621,
-            "evidence_role": "supporting",
-            "author_quote": "The sociometer system would serve its purpose if it simply assured that the person maintained sufficient social connections with a relatively small set of personally significant people",
-            "evidence_quality": "theoretical",
-            "content": "The sociometer is calibrated to a small, bounded set of personally significant others rather than to an unbounded audience, and it responds primarily to exclusion (a deprivation state) rather than to ever-greater inclusion: in Studies 3 and 4, exclusion for personal reasons lower"
-          },
-          {
-            "extraction_id": 620,
-            "evidence_role": "supporting",
-            "author_quote": "the self-esteem system monitors others' reactions and alerts the individual to the possibility of social exclusion",
-            "evidence_quality": "replicated",
-            "content": "Five studies supported the sociometer model: state self-esteem functions as an internal gauge that continuously tracks the individual's perceived relational value (social inclusion versus exclusion) and falls when cues signal potential social devaluation. Self-esteem is the read-"
-          },
-          {
-            "extraction_id": 103,
-            "evidence_role": "challenging",
-            "author_quote": null,
-            "evidence_quality": "meta_analysis",
-            "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall "
-          },
-          {
-            "extraction_id": 104,
-            "evidence_role": "challenging",
-            "author_quote": null,
-            "evidence_quality": "meta_analysis",
-            "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
-          },
-          {
-            "extraction_id": 102,
-            "evidence_role": "challenging",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-12",
         "domain": "social_structure",
         "name": "How standing is earned (prestige and dominance)",
@@ -101159,6 +103008,101 @@
             "author_quote": "In 1974, both men and women maintained an average of 15 partnerships with consanguineous kin who lived between 2 and 200 km away",
             "evidence_quality": "thin",
             "content": "In 1974, Ju/'hoansi men and women at /Kae/kae (Botswana) each kept on average 15 hxaro gift-exchange partnerships with kin living 2 to 200 km away. The average person spent 4.4 months a year living with hxaro partners, and 69% of possessions had been received as hxaro gifts. Abou"
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-11",
+        "domain": "social_structure",
+        "name": "Status reference group (ranked against people who know you)",
+        "eea_baseline": "A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.",
+        "eea_value": {
+          "camp_size": "about 30 (Hadza, ext 603)",
+          "lifetime_known_pool": "about 1,000 (Ache, Hadza, ext 606-608)",
+          "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
+        },
+        "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
+        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for those who compare badly with their peers (ext 2031, 2032).",
+        "resolution_unit": null,
+        "evidence_grade": "thin",
+        "contested": true,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Contested on the modern side: social media effect sizes are small (ext 103, 104) and near zero in time-use diaries (ext 102).",
+        "created_at": "2026-11-11T04:19:19.680814+00:00",
+        "updated_at": "2026-11-11T04:19:19.680814+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 722,
+            "evidence_role": "primary",
+            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
+            "evidence_quality": "replicated",
+            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
+          },
+          {
+            "extraction_id": 721,
+            "evidence_role": "supporting",
+            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
+            "evidence_quality": "replicated",
+            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
+          },
+          {
+            "extraction_id": 1042,
+            "evidence_role": "primary",
+            "author_quote": "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly.",
+            "evidence_quality": "thin",
+            "content": "In four studies of US participants (college groups such as sororities and ROTC units, a broader national sample, an experiment, and a longitudinal study across graduation), respect and admiration in one's face-to-face groups went with life satisfaction and positive feeling more s"
+          },
+          {
+            "extraction_id": 603,
+            "evidence_role": "supporting",
+            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
+            "evidence_quality": "thin",
+            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
+          },
+          {
+            "extraction_id": 606,
+            "evidence_role": "supporting",
+            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
+            "evidence_quality": "thin",
+            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
+          },
+          {
+            "extraction_id": 621,
+            "evidence_role": "supporting",
+            "author_quote": "The sociometer system would serve its purpose if it simply assured that the person maintained sufficient social connections with a relatively small set of personally significant people",
+            "evidence_quality": "theoretical",
+            "content": "The sociometer is calibrated to a small, bounded set of personally significant others rather than to an unbounded audience, and it responds primarily to exclusion (a deprivation state) rather than to ever-greater inclusion: in Studies 3 and 4, exclusion for personal reasons lower"
+          },
+          {
+            "extraction_id": 620,
+            "evidence_role": "supporting",
+            "author_quote": "the self-esteem system monitors others' reactions and alerts the individual to the possibility of social exclusion",
+            "evidence_quality": "replicated",
+            "content": "Five studies supported the sociometer model: state self-esteem functions as an internal gauge that continuously tracks the individual's perceived relational value (social inclusion versus exclusion) and falls when cues signal potential social devaluation. Self-esteem is the read-"
+          },
+          {
+            "extraction_id": 103,
+            "evidence_role": "challenging",
+            "author_quote": null,
+            "evidence_quality": "meta_analysis",
+            "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall "
+          },
+          {
+            "extraction_id": 104,
+            "evidence_role": "challenging",
+            "author_quote": null,
+            "evidence_quality": "meta_analysis",
+            "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
+          },
+          {
+            "extraction_id": 102,
+            "evidence_role": "challenging",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
           }
         ]
       }
@@ -105598,6 +107542,111 @@
         "citation": "Kosten and Baxter 2019",
         "title": "Review article: Effective management of opioid withdrawal symptoms: A gateway to opioid dependence treatment (the record on the course of opioid withdrawal)",
         "reason": "Refiled on 21 Nov 2026. It describes the change a drug makes in the body, which Cor states itself: a substance effect is a physical cause (OF2), and it does not decide whether a habit lasts (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Skoglund et al. 2021",
+        "title": "Familial risk and heritability of diagnosed borderline personality disorder: a register study of the Swedish population",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Bornovalova et al. 2013",
+        "title": "Tests of a direct effect of childhood abuse on adult borderline personality disorder traits: a longitudinal discordant twin design (2 records)",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Skaug et al. 2022",
+        "title": "Childhood trauma and borderline personality disorder traits: a discordant twin study",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Baldwin et al. 2023",
+        "title": "Childhood maltreatment and mental health problems: a systematic review and meta-analysis of quasi-experimental studies",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Danese and Widom 2020",
+        "title": "Objective and subjective experiences of child maltreatment and their relationships with psychopathology (2 records)",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Gilbertson et al. 2002",
+        "title": "Smaller hippocampal volume predicts pathologic vulnerability to psychological trauma (2 records)",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Stein et al. 2002",
+        "title": "Genetic and environmental influences on trauma exposure and posttraumatic stress disorder symptoms: a twin study",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Lyons et al. 1993",
+        "title": "Do genes influence exposure to trauma? A twin study of combat",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Danielsdottir et al. 2024",
+        "title": "Adverse childhood experiences and adult mental health outcomes",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Warrier et al. 2021",
+        "title": "Gene-environment correlations and causal effects of childhood maltreatment on physical and mental health: a genetically informed approach (2 records)",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Mostoufi et al. 2013",
+        "title": "Adverse childhood experiences, health perception, and the role of shared familial factors in adult twins",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Dinwiddie et al. 2000",
+        "title": "Early sexual abuse and lifetime psychopathology: a co-twin-control study",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Baldwin et al. 2023",
+        "title": "A genetically informed Registered Report on adverse childhood experiences and mental health",
+        "reason": "Refiled on 21 Nov 2026. Cor holds this itself: what happened to a person as a child explains little of how they feel now, and genes and family carry much of the link (DA7, DA10). It stays in the atlas."
+      },
+      {
+        "citation": "Orben and Przybylski 2019",
+        "title": "Screens, Teens, and Psychological Well-Being: Evidence From Three Time-Use-Diary Studies",
+        "reason": "Refiled on 21 Nov 2026. It is what Cor's reading predicts: a feed is a stand-in, what is missing does the harm, and the hours on a feed are not the measure (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Ivie et al. 2020",
+        "title": "A meta-analysis of the association between adolescent social media use and depressive symptoms",
+        "reason": "Refiled on 21 Nov 2026. It is what Cor's reading predicts: a feed is a stand-in, what is missing does the harm, and the hours on a feed are not the measure (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Fassi et al. 2024",
+        "title": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis",
+        "reason": "Refiled on 21 Nov 2026. It is what Cor's reading predicts: a feed is a stand-in, what is missing does the harm, and the hours on a feed are not the measure (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Lemahieu et al. 2025",
+        "title": "The effects of social media abstinence on affective well-being and life satisfaction: a systematic review and meta-analysis",
+        "reason": "Refiled on 21 Nov 2026. It is what Cor's reading predicts: a feed is a stand-in, what is missing does the harm, and the hours on a feed are not the measure (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Valkenburg et al. 2022",
+        "title": "The associations of active and passive social media use with well-being: A critical scoping review",
+        "reason": "Refiled on 21 Nov 2026. It is what Cor's reading predicts: a feed is a stand-in, what is missing does the harm, and the hours on a feed are not the measure (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Rosenfeld 2017",
+        "title": "Marriage, Choice, and Couplehood in the Age of the Internet",
+        "reason": "Refiled on 21 Nov 2026. It fits Cor's principle that the medium is neutral and the conditions decide (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Cacioppo et al. 2013",
+        "title": "Marital satisfaction and break-ups differ across on-line and off-line meeting venues",
+        "reason": "Refiled on 21 Nov 2026. It fits Cor's principle that the medium is neutral and the conditions decide (DA4). It stays in the atlas."
+      },
+      {
+        "citation": "Potarca 2020",
+        "title": "The demography of swiping right. An overview of couples who met through dating apps in Switzerland",
+        "reason": "Refiled on 21 Nov 2026. It fits Cor's principle that the medium is neutral and the conditions decide (DA4). It stays in the atlas."
       }
     ],
     "challenges": [
@@ -105719,22 +107768,6 @@
         ]
       },
       {
-        "id": 102,
-        "extraction_id": 102,
-        "work_id": 45,
-        "title": "Screens, Teens, and Psychological Well-Being: Evidence From Three Time-Use-Diary Studies.",
-        "content": "Screens, Teens, and Psychological Well-Being: Evidence From Three Time-Use-Diary Studies.",
-        "citation": "Orben A, Przybylski AK, 2019",
-        "authors": "Orben A, Przybylski AK",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "replicated",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
         "id": 619,
         "extraction_id": 619,
         "work_id": 124,
@@ -105841,22 +107874,6 @@
         "foundation_codes": []
       },
       {
-        "id": 1658,
-        "extraction_id": 1658,
-        "work_id": 883,
-        "title": "Early sexual abuse and lifetime psychopathology: a co-twin-control study",
-        "content": "Early sexual abuse and lifetime psychopathology: a co-twin-control study",
-        "citation": "Dinwiddie S, Heath AC, Dunne MP, Bucholz KK, Madden PAF, Slutske WS, Bierut LJ, Statham DB, Martin NG, 2000",
-        "authors": "Dinwiddie S, Heath AC, Dunne MP, Bucholz KK, Madden PAF, Slutske WS, Bierut LJ, Statham DB, Martin NG",
-        "year": 2000,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": []
-      },
-      {
         "id": 1036,
         "extraction_id": 1036,
         "work_id": 484,
@@ -105950,23 +107967,6 @@
         "mechanism_codes": [
           "M11",
           "M9"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1741,
-        "extraction_id": 1741,
-        "work_id": 935,
-        "title": "Marital satisfaction and break-ups differ across on-line and off-line meeting venues",
-        "content": "Marital satisfaction and break-ups differ across on-line and off-line meeting venues",
-        "citation": "Cacioppo JT, Cacioppo S, Gonzaga GC, Ogburn EL, VanderWeele TJ, 2013",
-        "authors": "Cacioppo JT, Cacioppo S, Gonzaga GC, Ogburn EL, VanderWeele TJ",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M14",
-          "M3"
         ],
         "foundation_codes": []
       },
@@ -106296,20 +108296,6 @@
         "mechanism_codes": [
           "M11"
         ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1659,
-        "extraction_id": 1659,
-        "work_id": 884,
-        "title": "A genetically informed Registered Report on adverse childhood experiences and mental health",
-        "content": "A genetically informed Registered Report on adverse childhood experiences and mental health",
-        "citation": "Baldwin JR, Sallis HM, Schoeler T, Taylor MJ, Kwong ASF, Tielbeek JJ, Barkhuizen W, Warrier V, Howe LD, Danese A, McCrory E, Rijsdijk F, Larsson H, Lundstrom S, Karlsson R, Lichtenstein P, Munafo M, Pingault JB, 2023",
-        "authors": "Baldwin JR, Sallis HM, Schoeler T, Taylor MJ, Kwong ASF, Tielbeek JJ, Barkhuizen W, Warrier V, Howe LD, Danese A, McCrory E, Rijsdijk F, Larsson H, Lundstrom S, Karlsson R, Lichtenstein P, Munafo M, Pingault JB",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
         "foundation_codes": []
       },
       {
@@ -106798,42 +108784,6 @@
         "foundation_codes": []
       },
       {
-        "id": 103,
-        "extraction_id": 103,
-        "work_id": 46,
-        "title": "A meta-analysis of the association between adolescent social media use and depressive symptoms.",
-        "content": "A meta-analysis of the association between adolescent social media use and depressive symptoms.",
-        "citation": "Ivie EJ, Pettitt A, Moses LJ, Allen NB, 2020",
-        "authors": "Ivie EJ, Pettitt A, Moses LJ, Allen NB",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
-        "id": 104,
-        "extraction_id": 104,
-        "work_id": 47,
-        "title": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis.",
-        "content": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis.",
-        "citation": "Fassi L, Thomas K, Parry DA, Leyland-Craggs A, Ford TJ, Orben A, 2024",
-        "authors": "Fassi L, Thomas K, Parry DA, Leyland-Craggs A, Ford TJ, Orben A",
-        "year": 2024,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
         "id": 2291,
         "extraction_id": 2291,
         "work_id": 1267,
@@ -106865,22 +108815,6 @@
         "evidence_quality": "theoretical",
         "mechanism_codes": [
           "M7"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 2293,
-        "extraction_id": 2293,
-        "work_id": 1268,
-        "title": "The demography of swiping right. An overview of couples who met through dating apps in Switzerland",
-        "content": "The demography of swiping right. An overview of couples who met through dating apps in Switzerland",
-        "citation": "Potarca G, 2020",
-        "authors": "Potarca G",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M14"
         ],
         "foundation_codes": []
       },
@@ -109124,145 +111058,6 @@
         "foundation_codes": []
       },
       {
-        "id": 1636,
-        "extraction_id": 1636,
-        "work_id": 868,
-        "title": "Tests of a direct effect of childhood abuse on adult borderline personality disorder traits: a longitudinal discordant twin design",
-        "content": "Tests of a direct effect of childhood abuse on adult borderline personality disorder traits: a longitudinal discordant twin design",
-        "citation": "Bornovalova MA, Huibregtse BM, Hicks BM, Keyes M, McGue M, Iacono W, 2013",
-        "authors": "Bornovalova MA, Huibregtse BM, Hicks BM, Keyes M, McGue M, Iacono W",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ]
-      },
-      {
-        "id": 1637,
-        "extraction_id": 1637,
-        "work_id": 869,
-        "title": "Childhood trauma and borderline personality disorder traits: a discordant twin study",
-        "content": "Childhood trauma and borderline personality disorder traits: a discordant twin study",
-        "citation": "Skaug E, Czajkowski NO, Waaktaar T, Torgersen S, 2022",
-        "authors": "Skaug E, Czajkowski NO, Waaktaar T, Torgersen S",
-        "year": 2022,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1643,
-        "extraction_id": 1643,
-        "work_id": 873,
-        "title": "Smaller hippocampal volume predicts pathologic vulnerability to psychological trauma",
-        "content": "Smaller hippocampal volume predicts pathologic vulnerability to psychological trauma",
-        "citation": "Gilbertson MW, Shenton ME, Ciszewski A, Kasai K, Lasko NB, Orr SP, Pitman RK, 2002",
-        "authors": "Gilbertson MW, Shenton ME, Ciszewski A, Kasai K, Lasko NB, Orr SP, Pitman RK",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DC1",
-          "DA10"
-        ]
-      },
-      {
-        "id": 1644,
-        "extraction_id": 1644,
-        "work_id": 873,
-        "title": "Smaller hippocampal volume predicts pathologic vulnerability to psychological trauma",
-        "content": "Smaller hippocampal volume predicts pathologic vulnerability to psychological trauma",
-        "citation": "Gilbertson MW, Shenton ME, Ciszewski A, Kasai K, Lasko NB, Orr SP, Pitman RK, 2002",
-        "authors": "Gilbertson MW, Shenton ME, Ciszewski A, Kasai K, Lasko NB, Orr SP, Pitman RK",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DC1",
-          "DA10"
-        ]
-      },
-      {
-        "id": 1645,
-        "extraction_id": 1645,
-        "work_id": 874,
-        "title": "Genetic and environmental influences on trauma exposure and posttraumatic stress disorder symptoms: a twin study",
-        "content": "Genetic and environmental influences on trauma exposure and posttraumatic stress disorder symptoms: a twin study",
-        "citation": "Stein MB, Jang KL, Taylor S, Vernon PA, Livesley WJ, 2002",
-        "authors": "Stein MB, Jang KL, Taylor S, Vernon PA, Livesley WJ",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1647,
-        "extraction_id": 1647,
-        "work_id": 876,
-        "title": "Do genes influence exposure to trauma? A twin study of combat",
-        "content": "Do genes influence exposure to trauma? A twin study of combat",
-        "citation": "Lyons MJ, Goldberg J, Eisen SA, True W, Tsuang MT, Meyer JM, Henderson WG, 1993",
-        "authors": "Lyons MJ, Goldberg J, Eisen SA, True W, Tsuang MT, Meyer JM, Henderson WG",
-        "year": 1993,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1651,
-        "extraction_id": 1651,
-        "work_id": 878,
-        "title": "Adverse childhood experiences and adult mental health outcomes",
-        "content": "Adverse childhood experiences and adult mental health outcomes",
-        "citation": "Danielsdottir HB, Aspelund T, Shen Q, Halldorsdottir T, Jakobsdottir J, Song H, Lu D, Kuja-Halkola R, Larsson H, Fall K, Magnusson PKE, Fang F, Bergstedt J, Valdimarsdottir UA, 2024",
-        "authors": "Danielsdottir HB, Aspelund T, Shen Q, Halldorsdottir T, Jakobsdottir J, Song H, Lu D, Kuja-Halkola R, Larsson H, Fall K, Magnusson PKE, Fang F, Bergstedt J, Valdimarsdottir UA",
-        "year": 2024,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA7"
-        ]
-      },
-      {
-        "id": 1655,
-        "extraction_id": 1655,
-        "work_id": 880,
-        "title": "Adverse childhood experiences, health perception, and the role of shared familial factors in adult twins",
-        "content": "Adverse childhood experiences, health perception, and the role of shared familial factors in adult twins",
-        "citation": "Mostoufi SM, Strachan E, Chopko L, Succop A, Martinez B, Ahumada SM, Afari N, 2013",
-        "authors": "Mostoufi SM, Strachan E, Chopko L, Succop A, Martinez B, Ahumada SM, Afari N",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA7",
-          "DC1"
-        ]
-      },
-      {
         "id": 1669,
         "extraction_id": 1669,
         "work_id": 889,
@@ -109393,25 +111188,6 @@
         "researcher": null,
         "evidence_quality": "thin",
         "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
-        "id": 1740,
-        "extraction_id": 1740,
-        "work_id": 934,
-        "title": "Marriage, Choice, and Couplehood in the Age of the Internet",
-        "content": "Marriage, Choice, and Couplehood in the Age of the Internet",
-        "citation": "Rosenfeld MJ, 2017",
-        "authors": "Rosenfeld MJ",
-        "year": 2017,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M14",
           "M3"
         ],
         "foundation_codes": [
@@ -109624,25 +111400,6 @@
         ]
       },
       {
-        "id": 1635,
-        "extraction_id": 1635,
-        "work_id": 868,
-        "title": "Tests of a direct effect of childhood abuse on adult borderline personality disorder traits: a longitudinal discordant twin design",
-        "content": "Tests of a direct effect of childhood abuse on adult borderline personality disorder traits: a longitudinal discordant twin design",
-        "citation": "Bornovalova MA, Huibregtse BM, Hicks BM, Keyes M, McGue M, Iacono W, 2013",
-        "authors": "Bornovalova MA, Huibregtse BM, Hicks BM, Keyes M, McGue M, Iacono W",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ]
-      },
-      {
         "id": 1816,
         "extraction_id": 1816,
         "work_id": 989,
@@ -109657,110 +111414,6 @@
         "foundation_codes": [
           "DA1",
           "OF2"
-        ]
-      },
-      {
-        "id": 1638,
-        "extraction_id": 1638,
-        "work_id": 870,
-        "title": "Childhood maltreatment and mental health problems: a systematic review and meta-analysis of quasi-experimental studies",
-        "content": "Childhood maltreatment and mental health problems: a systematic review and meta-analysis of quasi-experimental studies",
-        "citation": "Baldwin JR, Wang B, Karwatowska L, Schoeler T, Tsaligopoulou A, Munafo MR, Pingault JB, 2023",
-        "authors": "Baldwin JR, Wang B, Karwatowska L, Schoeler T, Tsaligopoulou A, Munafo MR, Pingault JB",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA7",
-          "DA10"
-        ]
-      },
-      {
-        "id": 1641,
-        "extraction_id": 1641,
-        "work_id": 871,
-        "title": "Objective and subjective experiences of child maltreatment and their relationships with psychopathology",
-        "content": "Objective and subjective experiences of child maltreatment and their relationships with psychopathology",
-        "citation": "Danese A, Widom CS, 2020",
-        "authors": "Danese A, Widom CS",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA7"
-        ]
-      },
-      {
-        "id": 1654,
-        "extraction_id": 1654,
-        "work_id": 879,
-        "title": "Gene-environment correlations and causal effects of childhood maltreatment on physical and mental health: a genetically informed approach",
-        "content": "Gene-environment correlations and causal effects of childhood maltreatment on physical and mental health: a genetically informed approach",
-        "citation": "Warrier V, Kwong ASF, Luo M, Dalvie S, Croft J, Sallis HM, Baldwin J, Munafo MR, Nievergelt CM, Grant AJ, Burgess S, Moore TM, Barzilay R, McIntosh A, van IJzendoorn MH, Cecil CAM, 2021",
-        "authors": "Warrier V, Kwong ASF, Luo M, Dalvie S, Croft J, Sallis HM, Baldwin J, Munafo MR, Nievergelt CM, Grant AJ, Burgess S, Moore TM, Barzilay R, McIntosh A, van IJzendoorn MH, Cecil CAM",
-        "year": 2021,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA7"
-        ]
-      },
-      {
-        "id": 1640,
-        "extraction_id": 1640,
-        "work_id": 871,
-        "title": "Objective and subjective experiences of child maltreatment and their relationships with psychopathology",
-        "content": "Objective and subjective experiences of child maltreatment and their relationships with psychopathology",
-        "citation": "Danese A, Widom CS, 2020",
-        "authors": "Danese A, Widom CS",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA7"
-        ]
-      },
-      {
-        "id": 1653,
-        "extraction_id": 1653,
-        "work_id": 879,
-        "title": "Gene-environment correlations and causal effects of childhood maltreatment on physical and mental health: a genetically informed approach",
-        "content": "Gene-environment correlations and causal effects of childhood maltreatment on physical and mental health: a genetically informed approach",
-        "citation": "Warrier V, Kwong ASF, Luo M, Dalvie S, Croft J, Sallis HM, Baldwin J, Munafo MR, Nievergelt CM, Grant AJ, Burgess S, Moore TM, Barzilay R, McIntosh A, van IJzendoorn MH, Cecil CAM, 2021",
-        "authors": "Warrier V, Kwong ASF, Luo M, Dalvie S, Croft J, Sallis HM, Baldwin J, Munafo MR, Nievergelt CM, Grant AJ, Burgess S, Moore TM, Barzilay R, McIntosh A, van IJzendoorn MH, Cecil CAM",
-        "year": 2021,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC1",
-          "DA7"
-        ]
-      },
-      {
-        "id": 1625,
-        "extraction_id": 1625,
-        "work_id": 861,
-        "title": "Familial risk and heritability of diagnosed borderline personality disorder: a register study of the Swedish population",
-        "content": "Familial risk and heritability of diagnosed borderline personality disorder: a register study of the Swedish population",
-        "citation": "Skoglund C, Tiger A, Rück C, Petrovic P, Asherson P, Hellner C, Mataix-Cols D, Kuja-Halkola R, 2021",
-        "authors": "Skoglund C, Tiger A, Rück C, Petrovic P, Asherson P, Hellner C, Mataix-Cols D, Kuja-Halkola R",
-        "year": 2021,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "DA7"
         ]
       },
       {
@@ -110372,38 +112025,6 @@
           "P3",
           "DA4"
         ]
-      },
-      {
-        "id": 2009,
-        "extraction_id": 2009,
-        "work_id": 1101,
-        "title": "The effects of social media abstinence on affective well-being and life satisfaction: a systematic review and meta-analysis",
-        "content": "The effects of social media abstinence on affective well-being and life satisfaction: a systematic review and meta-analysis",
-        "citation": "Lemahieu L, Vander Zwalmen Y, Mennes M, Koster EHW, Vanden Abeele MMP, Poels K, 2025",
-        "authors": "Lemahieu L, Vander Zwalmen Y, Mennes M, Koster EHW, Vanden Abeele MMP, Poels K",
-        "year": 2025,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3"
-        ]
-      },
-      {
-        "id": 2019,
-        "extraction_id": 2019,
-        "work_id": 1107,
-        "title": "The associations of active and passive social media use with well-being: A critical scoping review",
-        "content": "The associations of active and passive social media use with well-being: A critical scoping review",
-        "citation": "Valkenburg PM, van Driel II, Beyens I, 2022",
-        "authors": "Valkenburg PM, van Driel II, Beyens I",
-        "year": 2022,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": []
       },
       {
         "id": 2030,
@@ -111223,16 +112844,221 @@
         "evidence_quality": "thin",
         "mechanism_codes": [],
         "foundation_codes": []
+      },
+      {
+        "id": 2872,
+        "extraction_id": 2872,
+        "work_id": 1669,
+        "title": "How large are the effects from changes in family environment? A study of Korean American adoptees",
+        "content": "How large are the effects from changes in family environment? A study of Korean American adoptees",
+        "citation": "Sacerdote B, 2007",
+        "authors": "Sacerdote B",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ]
+      },
+      {
+        "id": 2873,
+        "extraction_id": 2873,
+        "work_id": 1669,
+        "title": "How large are the effects from changes in family environment? A study of Korean American adoptees",
+        "content": "How large are the effects from changes in family environment? A study of Korean American adoptees",
+        "citation": "Sacerdote B, 2007",
+        "authors": "Sacerdote B",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 2877,
+        "extraction_id": 2877,
+        "work_id": 1672,
+        "title": "Family environment and the malleability of cognitive ability: a Swedish national home-reared and adopted-away cosibling control study",
+        "content": "Family environment and the malleability of cognitive ability: a Swedish national home-reared and adopted-away cosibling control study",
+        "citation": "Kendler KS, Turkheimer E, Ohlsson H, Sundquist J, Sundquist K, 2015",
+        "authors": "Kendler KS, Turkheimer E, Ohlsson H, Sundquist J, Sundquist K",
+        "year": 2015,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 2878,
+        "extraction_id": 2878,
+        "work_id": 1673,
+        "title": "The rearing environment and risk for major depression: a Swedish national high-risk home-reared and adopted-away co-sibling control study",
+        "content": "The rearing environment and risk for major depression: a Swedish national high-risk home-reared and adopted-away co-sibling control study",
+        "citation": "Kendler KS, Ohlsson H, Sundquist J, Sundquist K, 2020",
+        "authors": "Kendler KS, Ohlsson H, Sundquist J, Sundquist K",
+        "year": 2020,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ]
+      },
+      {
+        "id": 2879,
+        "extraction_id": 2879,
+        "work_id": 1673,
+        "title": "The rearing environment and risk for major depression: a Swedish national high-risk home-reared and adopted-away co-sibling control study",
+        "content": "The rearing environment and risk for major depression: a Swedish national high-risk home-reared and adopted-away co-sibling control study",
+        "citation": "Kendler KS, Ohlsson H, Sundquist J, Sundquist K, 2020",
+        "authors": "Kendler KS, Ohlsson H, Sundquist J, Sundquist K",
+        "year": 2020,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA2"
+        ]
+      },
+      {
+        "id": 2886,
+        "extraction_id": 2886,
+        "work_id": 1679,
+        "title": "Parental characteristics and offspring mental health and related outcomes: a systematic review of genetically informative literature",
+        "content": "Parental characteristics and offspring mental health and related outcomes: a systematic review of genetically informative literature",
+        "citation": "Jami ES, Hammerschlag AR, Bartels M, Middeldorp CM, 2021",
+        "authors": "Jami ES, Hammerschlag AR, Bartels M, Middeldorp CM",
+        "year": 2021,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ]
+      },
+      {
+        "id": 2890,
+        "extraction_id": 2890,
+        "work_id": 1681,
+        "title": "Lest we forget: comparing retrospective and prospective assessments of adverse childhood experiences in the prediction of adult health",
+        "content": "Lest we forget: comparing retrospective and prospective assessments of adverse childhood experiences in the prediction of adult health",
+        "citation": "Reuben A, Moffitt TE, Caspi A, Belsky DW, Harrington H, Schroeder F, Hogan S, Ramrakha S, Poulton R, Danese A, 2016",
+        "authors": "Reuben A, Moffitt TE, Caspi A, Belsky DW, Harrington H, Schroeder F, Hogan S, Ramrakha S, Poulton R, Danese A",
+        "year": 2016,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 2892,
+        "extraction_id": 2892,
+        "work_id": 1683,
+        "title": "Attachment stability from infancy to adulthood: meta-analysis and dynamic modeling of developmental mechanisms",
+        "content": "Attachment stability from infancy to adulthood: meta-analysis and dynamic modeling of developmental mechanisms",
+        "citation": "Fraley RC, 2002",
+        "authors": "Fraley RC",
+        "year": 2002,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 2895,
+        "extraction_id": 2895,
+        "work_id": 1686,
+        "title": "Attachment in the early life course: meta-analytic evidence for its role in socioemotional development",
+        "content": "Attachment in the early life course: meta-analytic evidence for its role in socioemotional development",
+        "citation": "Groh AM, Fearon RMP, van IJzendoorn MH, Bakermans-Kranenburg MJ, Roisman GI, 2017",
+        "authors": "Groh AM, Fearon RMP, van IJzendoorn MH, Bakermans-Kranenburg MJ, Roisman GI",
+        "year": 2017,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 2896,
+        "extraction_id": 2896,
+        "work_id": 1687,
+        "title": "Socioeconomic status modifies heritability of IQ in young children",
+        "content": "Socioeconomic status modifies heritability of IQ in young children",
+        "citation": "Turkheimer E, Haley A, Waldron M, D'Onofrio B, Gottesman II, 2003",
+        "authors": "Turkheimer E, Haley A, Waldron M, D'Onofrio B, Gottesman II",
+        "year": 2003,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7",
+          "DA10"
+        ]
+      },
+      {
+        "id": 2902,
+        "extraction_id": 2902,
+        "work_id": 1691,
+        "title": "A children of twins study of parental divorce and offspring psychopathology",
+        "content": "A children of twins study of parental divorce and offspring psychopathology",
+        "citation": "D'Onofrio BM, Turkheimer E, Emery RE, Maes HH, Silberg J, Eaves LJ, 2007",
+        "authors": "D'Onofrio BM, Turkheimer E, Emery RE, Maes HH, Silberg J, Eaves LJ",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ]
+      },
+      {
+        "id": 2917,
+        "extraction_id": 2917,
+        "work_id": 1702,
+        "title": "The psychophysiology of posttraumatic stress disorder: a meta-analysis",
+        "content": "The psychophysiology of posttraumatic stress disorder: a meta-analysis",
+        "citation": "Pole N, 2007",
+        "authors": "Pole N",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ]
       }
     ]
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 336,
-      "M2": 358,
-      "M3": 608,
-      "M4": 154,
-      "M9": 207,
+      "M1": 351,
+      "M2": 360,
+      "M3": 627,
+      "M4": 158,
+      "M9": 208,
       "M14": 262,
       "M11": 357,
       "M5": 298,
@@ -111278,14 +113104,14 @@
         "EEA-TOUCH-02",
         "EEA-SOC-02",
         "EEA-CARE-01",
-        "EEA-SOC-11",
         "EEA-SOC-15",
         "EEA-SOC-16",
         "EEA-SOC-17",
         "EEA-SOC-20",
         "EEA-SOC-01",
         "EEA-CARE-04",
-        "EEA-SOC-07"
+        "EEA-SOC-07",
+        "EEA-SOC-11"
       ],
       "M1": [
         "EEA-SOC-08",
@@ -111300,7 +113126,6 @@
         "EEA-INFO-01",
         "EEA-MATE-06",
         "EEA-MATE-07",
-        "EEA-SOC-11",
         "EEA-SOC-12",
         "EEA-SOC-14",
         "EEA-SOC-15",
@@ -111308,7 +113133,8 @@
         "EEA-SOC-19",
         "EEA-MATE-02",
         "EEA-SOC-01",
-        "EEA-SOC-10"
+        "EEA-SOC-10",
+        "EEA-SOC-11"
       ],
       "M9": [
         "EEA-CARE-02",

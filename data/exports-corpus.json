@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T05:03:48.709797+00:00",
+    "source_built_at": "2026-11-21T05:31:30.143396+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1656,
-    "extractions": 2824,
+    "works": 1698,
+    "extractions": 2882,
     "researchers": 84,
-    "mechanism_evidence": 3173,
+    "mechanism_evidence": 3214,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 337
+    "challenges": 324
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -57,7 +57,7 @@
         "code": "OF2",
         "layer": "frame",
         "name": "Signal-Default Epistemology",
-        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands). Reading the signal as information is no argument against relieving it. The default is displaced in two ways. A clear physical defect displaces it outright, whether a test has found it yet or not, and the output is then a symptom of that defect: acute organic disease or state shift (an infection or autoimmune disease, an endocrine disease such as a thyroid fault, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. Developmental miscalibration carried forward and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers a threshold set early, or a loop that keeps running, more than the present input. Sleep loss and low-grade inflammation that a mismatched life produces also displace the reading of the current input without making the output a disease. A marker that only shows sensitivity is no defect. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease.",
+        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands). Reading the signal as information is no argument against relieving it. The default is displaced in two ways. A clear physical defect displaces it outright, whether a test has found it yet or not, and the output is then a symptom of that defect: acute organic disease or state shift (an infection or autoimmune disease, an endocrine disease such as a thyroid fault, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. A setting left by deprivation far outside the evolved range (DA7) and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers that setting, or a loop that keeps running, more than the present input. An ordinary hard childhood is no such setting: it explains little of how an adult feels (DA7). Sleep loss and low-grade inflammation that a mismatched life produces also displace the reading of the current input without making the output a disease. A marker that only shows sensitivity is no defect. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease.",
         "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
         "epistemic_grade": "frame"
       },
@@ -303,18 +303,6 @@
         "epistemic_grade": "forced"
       },
       {
-        "code": "C9",
-        "name": "Allostatic Load Accumulation",
-        "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology.",
-        "forces_mechanism": null,
-        "independent_literatures": [
-          "McEwen allostasis and allostatic load neuroendocrinology",
-          "Felitti ACE clinical epidemiology",
-          "Sapolsky primate stress physiology"
-        ],
-        "epistemic_grade": "forced"
-      },
-      {
         "code": "C1",
         "name": "Inclusive Fitness as Loss Function",
         "statement": "Natural selection operates on inclusive fitness - survival plus reproduction weighted by relatedness - establishing a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory, Hamilton's kin-selection formalism, and experimental altruistic-punishment findings that humans enforce cooperation at personal cost where inclusive-fitness logic predicts.",
@@ -327,16 +315,26 @@
         "epistemic_grade": "forced"
       },
       {
-        "code": "C7",
-        "name": "Adverse Experience Cascading Dose-Response",
-        "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it.",
+        "code": "C9",
+        "name": "Allostatic Load Accumulation",
+        "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines.",
         "forces_mechanism": null,
         "independent_literatures": [
-          "Felitti ACE Study clinical epidemiology",
+          "McEwen allostasis and allostatic load neuroendocrinology",
+          "Sapolsky primate stress physiology"
+        ],
+        "epistemic_grade": "strongly_supported"
+      },
+      {
+        "code": "C7",
+        "name": "Adverse Experience Cascading Dose-Response",
+        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no effect of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines.",
+        "forces_mechanism": null,
+        "independent_literatures": [
           "McEwen allostatic load neuroendocrinology",
           "Panksepp cross-system inhibition affective neuroscience"
         ],
-        "epistemic_grade": "forced"
+        "epistemic_grade": "strongly_supported"
       },
       {
         "code": "C15",
@@ -366,12 +364,13 @@
       {
         "code": "C12",
         "name": "Developmental Calibration within Evolved Ranges",
-        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it.",
+        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ: adoptive siblings reared together correlate .04 in personality, and attachment in infancy does not predict attachment more than 15 years later. Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
         "forces_mechanism": null,
         "independent_literatures": [
-          "Bowlby attachment developmental calibration",
-          "McEwen HPA-axis neuroendocrinology",
-          "Felitti ACE Study clinical developmental epidemiology"
+          "Nelson, Zeanah and Fox Bucharest Early Intervention Project (randomised trial)",
+          "Rutter and Sonuga-Barke English and Romanian Adoptees study (natural experiment)",
+          "Meaney and Francis cross-fostering in rats (experimental neuroendocrinology)",
+          "McEwen HPA-axis neuroendocrinology"
         ],
         "epistemic_grade": "forced"
       }
@@ -458,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 336,
+        "link_count": 351,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 358,
+        "link_count": 360,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 608,
+        "link_count": 627,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -747,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 154,
+        "link_count": 158,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -770,7 +769,7 @@
         {
           "code": "C12",
           "name": "Developmental Calibration within Evolved Ranges",
-          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it."
+          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ: adoptive siblings reared together correlate .04 in personality, and attachment in infancy does not predict attachment more than 15 years later. Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
         }
       ]
     },
@@ -868,12 +867,12 @@
         {
           "code": "C7",
           "name": "Adverse Experience Cascading Dose-Response",
-          "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it."
+          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no effect of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines."
         },
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
         },
         {
           "code": "C13",
@@ -1070,12 +1069,12 @@
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
         },
         {
           "code": "C12",
           "name": "Developmental Calibration within Evolved Ranges",
-          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it."
+          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ: adoptive siblings reared together correlate .04 in personality, and attachment in infancy does not predict attachment more than 15 years later. Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
         }
       ]
     },
@@ -1172,12 +1171,12 @@
         {
           "code": "C7",
           "name": "Adverse Experience Cascading Dose-Response",
-          "statement": "Chronic or developmental adverse experiences cascade across physiological systems in a dose-response manner, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by Felitti's ACE Study clinical epidemiology, McEwen's allostatic-load neuroendocrinology, and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it."
+          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no effect of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines."
         },
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
         }
       ]
     },
@@ -1265,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 207,
+        "link_count": 208,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1293,7 +1292,7 @@
         {
           "code": "C12",
           "name": "Developmental Calibration within Evolved Ranges",
-          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs outside those parameters produce persistent miscalibration - established independently by Bowlby's attachment developmental calibration, McEwen's HPA-axis calibration neuroendocrinology, and Felitti's ACE Study dose-response evidence for durable effects of early-life exposure. The ACE leg is an association from adults' own recall. For psychiatric outcomes about half of it is carried by genes and family and part stays. For early death no design that controls for genes or family has tested it."
+          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ: adoptive siblings reared together correlate .04 in personality, and attachment in infancy does not predict attachment more than 15 years later. Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
         }
       ]
     },
@@ -1390,7 +1389,7 @@
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
         }
       ]
     },
@@ -1658,7 +1657,7 @@
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load, Felitti's ACE dose-response clinical epidemiology, and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
         }
       ]
     },
@@ -2907,7 +2906,7 @@
           "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
         },
         "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
-        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. The measured harm of online comparison is small, so the row predicts a shift in who the monitor compares against, and the size of the cost is open.",
+        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for those who compare badly with their peers (ext 2031, 2032).",
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": true,
