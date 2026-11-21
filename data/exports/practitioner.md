@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-21 02:33 UTC, from the live Cor atlas snapshot built 2026-11-21 02:33 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 02:48 UTC, from the live Cor atlas snapshot built 2026-11-21 02:47 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 766 works, 1706 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 1227 works, 2215 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -602,7 +602,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 11
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 12
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -615,7 +615,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** EEA delivered a finite, slowly-accreting lifetime roster (~1,000+) in which virtually every encountered person was known or one reciprocal link away and carried trackable reputation; modernity delivers an unbounded firehose of identities, the overwhelming majority anonymous, non-reciprocal, and reputation-less. The mismatch is not in the size of the maintainable network (still ~150) but in the ratio of known-to-unknown: a system tuned to "almost everyone you meet is someone you can place" now operates where almost everyone you meet is someone you cannot. This chronically engages strangers as ambient novelty/threat (threat-management framing) and starves the cooperation/reputation system (M11) of the direct, repeated, reciprocal observability it evolved to run on, while the cumulative roster of genuinely-known people fails to grow despite massive nominal connection.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 9
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 11
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -628,7 +628,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 3
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -641,7 +641,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The ancestral signal was: 'the group around me is mostly unrelated people I (or my band) actively chose and continuously vetted through reciprocity and reputation; kinship is not what holds us together, the relationships are.' The modern signal is degraded on the selection axis: the unrelated people around us are still mostly unrelated (that part matches), but they are assigned rather than chosen, and the reciprocity/reputation machinery that turned unrelated campmates into durable trusted allies is largely absent or shallow. Mechanisms M3 (bonding) and M11 (cooperation/alliance) evolved expecting that low kin-relatedness would be compensated by self-selected, reciprocal, reputation-anchored dyads. Modernity delivers the low relatedness WITHOUT the compensating chosen-and-vetted dyadic structure, so the mechanisms fire in a world of unrelated-but-also-unbonded co-residents, which is a key part of why being surrounded by people can still register as social isolation.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 2
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
 
 #### Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)
 `EEA-SOC-05 · Social structure` - **tested once**
@@ -667,7 +667,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The EEA delivered a continuous, agency-rich sorting process that filtered one's immediate social world toward reciprocating, cooperative, vouched-for partners - kinship was secondary. The modern environment inverts this: membership in one's daily groups is mostly imposed (employer, building, algorithm), and the explicit matching systems that do exist optimize for engagement/novelty rather than reciprocity and demonstrated cooperation. The result is reduced control over WHO populates one's social field, weaker assortment on actual cooperativeness, and loss of the transitive-reputation signal that let ancestral humans cluster with trustworthy reciprocators out to two degrees. The mismatch is not "fewer people" but a broken selection rule: the inputs the ancestral algorithm ran on (mutual choice, observed reciprocity, cooperator reputation) are no longer the primary determinants of who one lives and works among.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 3
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -697,7 +697,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.
 
-**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 5
+**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -710,7 +710,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 10
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -723,7 +723,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 13
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -749,7 +749,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 9
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -762,7 +762,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 7
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 9
 
 #### Wealth gaps (low to moderate in foragers)
 `EEA-SOC-14 · Social structure` - **tested many times**
@@ -773,7 +773,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 4
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 5
 
 #### Famous strangers (one-way bonds)
 `EEA-SOC-15 · Social structure` - **tested once**
@@ -784,7 +784,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
 
-**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 4
+**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 5
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -797,7 +797,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The largest group a forager counted as 'us' held hundreds to a few thousand people, reachable on foot and linked by marriage. Modern 'us' groups are thousands of times larger and held together by labels and media.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -810,7 +810,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours. Modern intergroup ties rarely run through personal relationships.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 5
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -823,7 +823,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them'. That moralised posts spread more is contested (Brady et al. 2017 against Burton et al. 2021).
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 11
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 20
 
 #### Food shared and eaten in company
 `EEA-SOC-20 · Social structure` - **tested once**
@@ -834,7 +834,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 15
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 18
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -850,7 +850,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Partner choice moved from families and kin, who knew both people, to individuals searching alone among strangers. The people who once filtered and vouched for a partner are now mostly out of the decision.
 
-**Serves:** M11 - Cooperation / Alliance, M14 - Reproductive Motivation  ·  evidence links: 9
+**Serves:** M11 - Cooperation / Alliance, M14 - Reproductive Motivation  ·  evidence links: 13
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -863,7 +863,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The pool grew from hundreds of known people to an open-ended list of strangers judged from a profile. Attention concentrates on a few, and most people's approaches go unanswered.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 6
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -876,7 +876,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Small gap. Forager practice was already mostly one spouse at a time with some polygyny and remarriage; modern law removes the polygynous minority. Forager marriages often ended: across ten forager and forager-farmer populations reported divorce rates run from 18% (Agta) to nearly every couple (north Alaskan Inuit), and the reviewers put the general level at a quarter to a third of marriages or more, with remarriage common (ext 1728). The rates were counted differently in each population, so they cannot be averaged or set against a modern rate.
 
-**Serves:** M14 - Reproductive Motivation  ·  evidence links: 8
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 10
 
 #### Timing: puberty to first birth
 `EEA-MATE-04 · Mating & reproduction` - **tested many times**
@@ -887,7 +887,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.
 
-**Serves:** M14 - Reproductive Motivation  ·  evidence links: 6
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 10
 
 #### Number of children and spacing
 `EEA-MATE-05 · Mating & reproduction` - **tested many times**
@@ -898,7 +898,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Fewer children, fewer pregnancies and far more menstrual cycles. Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
 
-**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 5
+**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 9
 
 #### What gets a person chosen, and how unequal men are
 `EEA-MATE-06 · Mating & reproduction` - **tested many times** · **CONTESTED**
@@ -909,7 +909,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 9
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 16
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -922,7 +922,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 1
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 5
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -935,7 +935,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
 
-**Serves:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration  ·  evidence links: 4
+**Serves:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration  ·  evidence links: 9
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -948,7 +948,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
 
-**Serves:** M14 - Reproductive Motivation  ·  evidence links: 3
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 4
 
 #### Paternity and affairs (rates vary between societies)
 `EEA-MATE-10 · Mating & reproduction` - **tested many times**
@@ -959,7 +959,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** No gap is shown. Cor has no forager genetic paternity rate to compare with, and the modern Western figures match the ones that exist. A page cannot claim that affairs are more or less common than in the past.
 
-**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 4
+**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 9
 
 
 ### Care & development
@@ -975,7 +975,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable, present alloparental supply - care plus provisioning actually delivered by invested caregivers - NOT bare kin count or genealogical presence. Four relatives who live far away and do not share the daily load do not satisfy the parameter; what the infant and mother expect is dependable, hands-on, repeated care from a stable surround.
 
-**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 7
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 19
 
 #### Caregiver continuity and reliability (present, not merely countable)
 `EEA-CARE-02 · Care & development` - **argued, not yet tested**
@@ -988,7 +988,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable, present caregiver supply - responsive caregivers actually and repeatedly available across time, including continuity of body contact - NOT a count of designated or genealogically-related caregivers. The naive reading (enough named caregivers exist) misleads; what regulates the infant is dependable presence.
 
-**Serves:** M9 - Care / Alloparenting, R1 - Touch  ·  evidence links: 5
+**Serves:** M9 - Care / Alloparenting, R1 - Touch  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1003,7 +1003,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, solitary screen play, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.
 
-**Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 5
+**Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 15
 
 #### Multigenerational presence (grandmothers as provisioning kin)
 `EEA-CARE-04 · Care & development` - **contested**
@@ -1016,7 +1016,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Present, active, provisioning grandparental kin - older relatives actually contributing care, food, and knowledge - NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the role the multigenerational band provided.
 
-**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 5
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 12
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1034,7 +1034,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.
 
-**Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 10
+**Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 14
 
 #### Co-sleeping / nighttime body contact
 `EEA-TOUCH-02 · Touch & contact` - **tested many times** · **CONTESTED**
@@ -1047,7 +1047,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
-**Serves:** M3 - Social Bonding, M7 - Circadian Regulation, R1 - Touch  ·  evidence links: 3
+**Serves:** M3 - Social Bonding, M7 - Circadian Regulation, R1 - Touch  ·  evidence links: 4
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1080,7 +1080,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness), not total daily light dose or generic 'brightness'.
 
-**Serves:** M7 - Circadian Regulation  ·  evidence links: 9
+**Serves:** M7 - Circadian Regulation  ·  evidence links: 11
 
 #### Sleep timing/phase alignment to the biological night (not a fixed duration target)
 `EEA-CIRC-02 · Circadian & sensory` - **tested many times**
@@ -1093,7 +1093,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration.
 
-**Serves:** M7 - Circadian Regulation  ·  evidence links: 10
+**Serves:** M7 - Circadian Regulation  ·  evidence links: 14
 
 #### Falling evening ambient temperature as a co-primary sleep-onset cue
 `EEA-CIRC-03 · Circadian & sensory` - **tested once**
@@ -1106,7 +1106,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Direction and timing of the evening ambient-temperature change (a falling ramp at dusk), not absolute thermostat setpoint or daytime comfort.
 
-**Serves:** M7 - Circadian Regulation  ·  evidence links: 0
+**Serves:** M7 - Circadian Regulation  ·  evidence links: 1
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1124,7 +1124,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Incidental all-day movement woven into the fabric of living (errands, carrying, standing, walking between activities, active rest postures) - NOT a set-aside 'exercise' session. The functional target is the continuous distribution of low-level activity across waking hours, not weekly minutes of vigorous training.
 
-**Serves:** M10 - Movement / Regulatory  ·  evidence links: 7
+**Serves:** M10 - Movement / Regulatory  ·  evidence links: 9
 
 #### Effort-to-outcome contingency (closed-loop, self-attributable)
 `EEA-SUBS-02 · Subsistence & time-use` - **argued, not yet tested**
@@ -1137,7 +1137,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliably PRESENT and DETECTABLE response-outcome contingency that the actor can attribute to their own effort - not mere busyness, throughput, or nominal 'autonomy.' What must be restored is the closed, legible loop between action and observed result, not the quantity of work.
 
-**Serves:** M2 - Pursuit / Exploration, M6 - Controllability / Agency  ·  evidence links: 7
+**Serves:** M2 - Pursuit / Exploration, M6 - Controllability / Agency  ·  evidence links: 9
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1167,7 +1167,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Self-paced, resource-contingent, intermittently-bounded work time - the time ARCHITECTURE (when and how effort is scheduled and bounded), not a target number of daily hours.
 
-**Serves:** M10 - Movement / Regulatory, M2 - Pursuit / Exploration, M6 - Controllability / Agency  ·  evidence links: 3
+**Serves:** M10 - Movement / Regulatory, M2 - Pursuit / Exploration, M6 - Controllability / Agency  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1185,7 +1185,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.
 
-**Serves:** M13 - Energy Regulation  ·  evidence links: 3
+**Serves:** M13 - Energy Regulation  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1200,7 +1200,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.
 
-**Serves:** M13 - Energy Regulation  ·  evidence links: 5
+**Serves:** M13 - Energy Regulation  ·  evidence links: 7
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1215,7 +1215,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Work hours: see EEA-SUBS-04.
 
-**Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 3
+**Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 4
 
 #### Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)
 `EEA-DIET-04 · Diet & metabolic` - **tested many times**
@@ -1228,7 +1228,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** The binding constraint on energy balance: ancestrally INTAKE (food availability/composition), not expenditure. The mismatch is unbounded intake, not insufficient calorie-burning; exercise is a weak proxy for the metabolic problem.
 
-**Serves:** M13 - Energy Regulation  ·  evidence links: 4
+**Serves:** M13 - Energy Regulation  ·  evidence links: 5
 
 
 ### Threat & safety
@@ -1244,7 +1244,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Calibrate to threat TEMPORALITY (episode duration and duty cycle with a terminating standdown), not threat magnitude or count. A single intense-but-resolved spike is ancestral-normal; a mild-but-unending engagement is the mismatch. The unit is 'does the activation episode end and the system return to baseline,' not 'how scary was it.'
 
-**Serves:** M1 - Threat Management, M8 - Immune Regulation  ·  evidence links: 4
+**Serves:** M1 - Threat Management, M8 - Immune Regulation  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1259,7 +1259,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Calibrate to CONTROLLABILITY = whether a behavioral response reliably terminates or averts the threat, not to mere familiarity or low intensity. A predictable-but-uncontrollable stressor (you see it coming, nothing you do helps) is the toxic case; an unfamiliar-but-action-resolvable one is ancestral-normal.
 
-**Serves:** M1 - Threat Management, M6 - Controllability / Agency  ·  evidence links: 3
+**Serves:** M1 - Threat Management, M6 - Controllability / Agency  ·  evidence links: 4
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1287,7 +1287,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The two headline numbers measure different things (share of all deaths in war, share of killings between groups) and cannot be averaged. A page can say lethal raids between groups occurred and were sometimes frequent; it cannot give one ancestral percentage.
 
-**Serves:** M1 - Threat Management, M11 - Cooperation / Alliance  ·  evidence links: 5
+**Serves:** M1 - Threat Management, M11 - Cooperation / Alliance  ·  evidence links: 9
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -1320,7 +1320,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reputation/norm narrative circulating within a bounded group where subjects and audience are mutually known and can reciprocally sanction - NOT raw volume of social content consumed. Doomscrolling celebrity gossip is high-volume but supplies almost no actionable, reciprocal reputational signal.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 3
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 9
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 ---
@@ -1329,4 +1329,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 02:33 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 02:33 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 02:47 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 02:48 UTC.*
