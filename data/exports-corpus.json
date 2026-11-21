@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T12:02:39.046953+00:00",
+    "source_built_at": "2026-11-21T13:24:59.529722+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 66
+    "challenges": 16
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -2195,13 +2195,6 @@
             "content": "Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 with virtually no overlap in variance between layers. These represent stable points in the degrees of familiarity and correspond to support clique, sympathy group, band, clan/vill"
           },
           {
-            "extraction_id": 508,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
-          },
-          {
             "extraction_id": 509,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
@@ -2242,6 +2235,13 @@
             "evidence_quality": "thin",
             "author_quote": "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals",
             "content": "Among Aka foragers of the Central African Republic, the exploration range, the area a person explores over a lifetime searching for a mate, visiting kin, hunting and learning, is approximately 50 km and covers an area where they can meet and get to know about 700 people."
+          },
+          {
+            "extraction_id": 508,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
+            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           }
         ],
         "evidence_count": 11
@@ -2661,18 +2661,18 @@
             "content": "Combining archaeological causes of death from the Late Pleistocene and early Holocene with hunter-gatherer ethnography, Bowles estimates that deaths in conflicts between groups were frequent enough to favor the evolution of costly group-beneficial behavior."
           },
           {
-            "extraction_id": 674,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
-            "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
-          },
-          {
             "extraction_id": 676,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
             "author_quote": "Subtle negative responses (wariness) were validated against heart rate acceleration and responses to mother approach and showed significant age changes.",
             "content": "Infants' reactions to an approaching stranger could be reliably coded from video. Subtle negative responses (wariness) were validated against heart rate acceleration and against responses to the mother's approach, and changed significantly with age; the authors read wariness beha"
+          },
+          {
+            "extraction_id": 674,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
+            "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
           }
         ],
         "evidence_count": 8
@@ -2728,14 +2728,14 @@
           },
           {
             "extraction_id": 508,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
             "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
           },
           {
             "extraction_id": 509,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
             "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
@@ -2770,7 +2770,7 @@
           },
           {
             "extraction_id": 829,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": null,
             "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
@@ -2864,13 +2864,6 @@
             "content": "Much forager sharing happens because others ask for it, and refusing is hard, so sharing is driven as much by demand as by generosity."
           },
           {
-            "extraction_id": 756,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
-            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
-          },
-          {
             "extraction_id": 848,
             "evidence_role": "primary",
             "evidence_quality": "thin",
@@ -2890,6 +2883,13 @@
             "evidence_quality": "thin",
             "author_quote": "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist.",
             "content": "Among the Ju/'hoansi, 44 years of possession and spending data (1974 /Kae/kae, Botswana; 2017 to 2018 Nyae Nyae, Namibia) show that cash income brought large differences in material wealth, even between neighbours, while hxaro gift partnerships shrank. Social, gender and politica"
+          },
+          {
+            "extraction_id": 756,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
+            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
           }
         ],
         "evidence_count": 13
@@ -2971,21 +2971,21 @@
           },
           {
             "extraction_id": 103,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "meta_analysis",
             "author_quote": null,
             "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall"
           },
           {
             "extraction_id": 104,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "meta_analysis",
             "author_quote": null,
             "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
           },
           {
             "extraction_id": 102,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "replicated",
             "author_quote": null,
             "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
@@ -3061,13 +3061,6 @@
             "content": "Among the Tsimane, leading a task and holding political standing were different things. Organising a group barbasco fishing trip rotated across households (organisers as young as 8, many of them women, and only 7 of 31 regular households never organised one), and organisers took"
           },
           {
-            "extraction_id": 1036,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "in general a certain, few men rank the highest in most predictors of status and all four manifestations of social status.",
-            "content": "In Ton'tumsi, a Tsimane village of 57 adult men, peers rated four forms of status: winning fights, getting one's way in group disputes, community-wide influence and respect. The four forms and most of their predictors were held by the same few men; there was little sign of differ"
-          },
-          {
             "extraction_id": 1037,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -3080,6 +3073,13 @@
             "evidence_quality": "replicated",
             "author_quote": "Therefore, taken as a whole, the relevant evidence suggests that the desire for status is indeed fundamental",
             "content": "A review of the evidence concluded that the desire for status, meaning respect and admiration from others, is a fundamental human motive."
+          },
+          {
+            "extraction_id": 1036,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "in general a certain, few men rank the highest in most predictors of status and all four manifestations of social status.",
+            "content": "In Ton'tumsi, a Tsimane village of 57 adult men, peers rated four forms of status: winning fights, getting one's way in group disputes, community-wide influence and respect. The four forms and most of their predictors were held by the same few men; there was little sign of differ"
           }
         ],
         "evidence_count": 9
@@ -3147,24 +3147,17 @@
           },
           {
             "extraction_id": 897,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "An analysis of the raiding histories, marital trajectories, and reproductive histories of these men reveals that more aggressive warriors have lower indices of reproductive success than their milder brethren",
             "content": "Among the Waorani of Ecuador, horticulturalist-foragers with very high homicide rates, raiding histories of 95 warriors showed that men who raided more often than average did not have more wives or children than milder men, and had fewer children who survived to age 15. This cont"
           },
           {
             "extraction_id": 892,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "Among nonelders, raiding was not associated with an increased number of wives or children.",
             "content": "Among 120 Nyangatom men (East African agro-pastoralists), the 91 younger men's raiding frequency showed no association with their number of wives or children. Of the 29 elders, the 11 whom peers named as prolific raiders in their youth had more wives and children than the other e"
-          },
-          {
-            "extraction_id": 1583,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
-            "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the"
           },
           {
             "extraction_id": 1584,
@@ -3172,6 +3165,13 @@
             "evidence_quality": "thin",
             "author_quote": "A power analysis of this effect size reveals that a sample size of ~200 would be necessary to obtain a power of 0.8 at a standard alpha level (0.05).",
             "content": "The same paper gives the authors' power analysis: with the average effect that von Rueden and Jaeggi's meta-analysis reports for foragers (0.18), about 200 people are needed for 80% power, against the 44 in this study. With the largest forager effect in that meta-analysis (0.46)"
+          },
+          {
+            "extraction_id": 1583,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
+            "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the"
           }
         ],
         "evidence_count": 9
@@ -3234,7 +3234,7 @@
           },
           {
             "extraction_id": 756,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
             "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
@@ -3431,7 +3431,7 @@
           },
           {
             "extraction_id": 1047,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone",
             "content": "In 21 mobile forager band societies from the Standard Cross-Cultural Sample, ethnographies recorded 148 lethal events. About one third involved people of different groups, but 38 of those 50 came from one society, the Tiwi; in the other 20 societies about 15% of events were betwe"
@@ -3527,13 +3527,6 @@
             "content": "In US surveys, about 4 to 5% said in 1960 that they would be upset if their child married someone from the other party; by 2010 about one third of Democrats and one half of Republicans said so. Klar and colleagues (2018) found that much of this opposition falls away when the pote"
           },
           {
-            "extraction_id": 682,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "According to our baseline estimates, the United States experienced the largest increase in polarization over this period.",
-            "content": "Among 12 OECD democracies over about four decades, the US had the largest baseline increase in affective polarization; five countries rose less and six saw it fall."
-          },
-          {
             "extraction_id": 1063,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -3583,13 +3576,6 @@
             "content": "Mason argues that US partisanship works as a social identity, with other group identities lining up behind the two parties, and that this drives prejudice, anger and activism independently of policy opinions."
           },
           {
-            "extraction_id": 681,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "For many empirical tests, partisan intoxication and policy voting are observationally equivalent.",
-            "content": "Fowler finds that partisan loyalty and policy voting are often observationally equivalent, and where they can be separated (the southern realignment, experiments with hypothetical candidates) the evidence favors policy voting."
-          },
-          {
             "extraction_id": 890,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
@@ -3602,6 +3588,20 @@
             "evidence_quality": "thin",
             "author_quote": "We present a study in which manipulation of music synchrony significantly altered subjects' perceptions of music quality, and in which subjects' perceptions of music quality were correlated with their perceptions of coalition quality, supporting our hypothesis",
             "content": "Hagen and Bryant proposed that music and dance evolved as signals of a coalition's quality, and found that altering a performance's synchrony changed how good listeners judged the music, while listeners' music-quality ratings correlated with their coalition-quality ratings."
+          },
+          {
+            "extraction_id": 682,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "According to our baseline estimates, the United States experienced the largest increase in polarization over this period.",
+            "content": "Among 12 OECD democracies over about four decades, the US had the largest baseline increase in affective polarization; five countries rose less and six saw it fall."
+          },
+          {
+            "extraction_id": 681,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "For many empirical tests, partisan intoxication and policy voting are observationally equivalent.",
+            "content": "Fowler finds that partisan loyalty and policy voting are often observationally equivalent, and where they can be separated (the southern realignment, experiments with hypothetical candidates) the evidence favors policy voting."
           }
         ],
         "evidence_count": 20
@@ -3720,42 +3720,42 @@
           },
           {
             "extraction_id": 1578,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": "Similarly, Hiwi and Ache families represented 3% and 5% of their village settlement populations in 1990 and 1998, and kept 20% or more of what they acquired, including meat, giving the rest to fewer than six other nuclear families (out of 23 and 36, respectively)",
             "content": "In the groups with counts, producers kept more than an equal share. Hiwi and Ache families at their settlements (3% and 5% of the population) kept 20% or more of what they acquired and gave the rest to fewer than six other families out of 23 and 36. Yora families kept about 40% o"
           },
           {
             "extraction_id": 1580,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "It is argued that demand sharing involves testing, assertive, and/or substantiating behavior and is important in the constitution of social relations in egalitarian societies.",
             "content": "In the abstract Peterson argues that demand sharing is testing, assertive or substantiating behaviour, and that it matters for building social relations in egalitarian societies. He says a behaviouristic model of demand sharing fits sociobiological expectations, and that his emph"
           },
           {
             "extraction_id": 709,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "Despite the prevalence of an ethic of generosity among foragers, much sharing is by demand rather than by unsolicited giving",
             "content": "Much forager sharing happens because others ask for it, and refusing is hard, so sharing is driven as much by demand as by generosity."
           },
           {
             "extraction_id": 1581,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "My field observations of the every day among Kuninjku suggests that most sharing occurs within the household and that social constraints on demand sharing from a significant portion of one’s social universe structurally limit the extent that such practice is possible.",
             "content": "Altman, who studied the Kuninjku of western Arnhem Land from 1979, reports that direct demanding is one of several ways food and goods move. Most everyday sharing happens at the time of production, where game is divided among everyone in the hunt whoever made the kill, and unsoli"
           },
           {
             "extraction_id": 1588,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "Also, camp members seldom force konja to share food with them. They generally avoid obviously wanting to be shared, leaving the decision to konja.",
             "content": "Kitanishi reports that every food among these Aka had a named owner (konja) who led its sharing, and who was sometimes someone other than the hunter, collector or cook: for game, the owner of the tool that stopped the animal. An owner with more than 20 kg of meat always shared it"
           },
           {
             "extraction_id": 828,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": "Large game were shared not like common goods, but in ways that significantly advantaged producers' households. Food sharing and consumption data show that men channeled the foods they produced to their wives, children, and their consanguineal and affinal kin living in other households",
             "content": "With Hadza data from 2005 to 2009, hunters' own households were favoured when large game was shared."
@@ -3861,21 +3861,21 @@
           },
           {
             "extraction_id": 1735,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "Marriages are typically not arranged, and divorce is common",
             "content": "Sorokowski and colleagues describe Hadza marriage, citing Marlowe's ethnography: marriages are typically not arranged, divorce is common, about 4 percent of men have two wives and nearly all adults are married. They describe the Hadza as a society where individuals, and not their"
           },
           {
             "extraction_id": 1740,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "According to column 2, if the couples who met online after 1995 had the same demographic profile as the couples who met offline after 1995, their breakup rate would have been 7.0 percent per year (not statistically distinguishable from 7.3 percent per year).",
             "content": "Rosenfeld followed a nationally representative US panel of 3,009 adults with partners from 2009 to 2015 (How Couples Meet and Stay Together). Couples who met online broke up no more often than couples who met offline once the length of the relationship was taken into account: amo"
           },
           {
             "extraction_id": 1741,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "In addition, marriages that began on-line, when compared with those that began through traditional off-line venues, were slightly less likely to result in a marital break-up (separation or divorce) and were associated with slightly higher marital satisfaction among those respondents who remained married.",
             "content": "In a US sample of 19,131 people who married between 2005 and 2012, described by the authors as nationally representative, more than a third of marriages began online. Marriages that began online were slightly less likely to have ended in separation or divorce, and those still mar"
@@ -4246,7 +4246,7 @@
           },
           {
             "extraction_id": 832,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": null,
             "content": "Apart from the Great Recession's role in the first years, Kearney and colleagues could not identify any economic, policy or social factor responsible for much of the US birth-rate decline from 2007 to 2020."
@@ -4278,6 +4278,13 @@
           "M5": "Status Monitoring"
         },
         "evidence": [
+          {
+            "extraction_id": 1003,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "This variation between populations with regard to Bateman's first principle is inconsistent with the universal sex roles that Bateman envisaged",
+            "content": "Brown and colleagues found that the ratio of men's to women's variance in reproductive success depends on the marriage system: in the six monogamous populations it was not different from 1 (Pitcairn Islanders' distributions overlap completely), while polygynous populations had hi"
+          },
           {
             "extraction_id": 770,
             "evidence_role": "primary",
@@ -4314,13 +4321,6 @@
             "content": "Across 18 human populations with lifetime data on men's and women's numbers of children, variance in men's reproductive success was higher than women's on average, with the male to female variance ratio ranging from 0.79 (historical Finland) to 4.75 (Dogon, Mali). In the forager"
           },
           {
-            "extraction_id": 1003,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "This variation between populations with regard to Bateman's first principle is inconsistent with the universal sex roles that Bateman envisaged",
-            "content": "Brown and colleagues found that the ratio of men's to women's variance in reproductive success depends on the marriage system: in the six monogamous populations it was not different from 1 (Pitcairn Islanders' distributions overlap completely), while polygynous populations had hi"
-          },
-          {
             "extraction_id": 695,
             "evidence_role": "primary",
             "evidence_quality": "replicated",
@@ -4340,27 +4340,6 @@
             "evidence_quality": "replicated",
             "author_quote": "Females were found to value cues to resource acquisition in potential mates more highly than males. Characteristics signaling reproductive capacity were valued more by males than by females",
             "content": "Across 37 cultures, women on average placed more weight than men on a partner's earning prospects, and men placed more weight on youth and looks."
-          },
-          {
-            "extraction_id": 1009,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "Both studies show that gender differences in mate preferences with presumed evolutionary roots decline proportionally to increases in nations' gender parity.",
-            "content": "In two studies (3,177 online participants in 10 nations, and a re-analysis of Buss's 1989 data from 8,953 people in 31 nations), the sex differences in mate preferences presumed to have evolutionary roots were smaller in nations with greater gender parity on the Global Gender Gap"
-          },
-          {
-            "extraction_id": 757,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": null,
-            "content": "A meta-analysis found that the sex differences people state in mate preferences for looks and earning prospects barely predict whom they actually like in face-to-face meetings or relationships."
-          },
-          {
-            "extraction_id": 805,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "Supporting the biosocial analysis, sex differences derive from the interaction between the physical specialization of the sexes, especially female reproductive capacity, and the economic and social structural aspects of societies",
-            "content": "A cross-cultural review argued that sex differences in behaviour come mainly from the division of labour and physical sex differences interacting with local economies, and so vary with social conditions."
           },
           {
             "extraction_id": 1015,
@@ -4384,8 +4363,29 @@
             "content": "In a meta-analysis of 288 results from 46 studies in 33 non-industrial societies, higher-status men had greater reproductive success (overall r 0.19, against 0.80 in non-human primates). The effect in foragers (Zr 0.18, 64 results) was about the same as in horticulturalists, past"
           },
           {
+            "extraction_id": 1009,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "Both studies show that gender differences in mate preferences with presumed evolutionary roots decline proportionally to increases in nations' gender parity.",
+            "content": "In two studies (3,177 online participants in 10 nations, and a re-analysis of Buss's 1989 data from 8,953 people in 31 nations), the sex differences in mate preferences presumed to have evolutionary roots were smaller in nations with greater gender parity on the Global Gender Gap"
+          },
+          {
+            "extraction_id": 757,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": null,
+            "content": "A meta-analysis found that the sex differences people state in mate preferences for looks and earning prospects barely predict whom they actually like in face-to-face meetings or relationships."
+          },
+          {
+            "extraction_id": 805,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "Supporting the biosocial analysis, sex differences derive from the interaction between the physical specialization of the sexes, especially female reproductive capacity, and the economic and social structural aspects of societies",
+            "content": "A cross-cultural review argued that sex differences in behaviour come mainly from the division of labour and physical sex differences interacting with local economies, and so vary with social conditions."
+          },
+          {
             "extraction_id": 1583,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
             "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the"
@@ -4483,20 +4483,6 @@
             "content": "In a nationally representative sample of US adult internet users (N = 2,075), 1,461 people (about 70%) had viewed pornography at some point and 1,056 (just over half) had used it in the past year. Roughly 11% of men and 3% of women agreed at least somewhat with the statement \"I a"
           },
           {
-            "extraction_id": 1025,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "such feelings were most strongly associated with male gender, younger age, greater religiousness, greater moral incongruence regarding pornography use, and greater use of pornography",
-            "content": "In the same US national sample, agreeing with \"I am addicted to pornography\" went with being male, younger, more religious, more morally opposed to one's own pornography use (moral incongruence) and using more pornography. The authors conclude that feeling addicted reflects both"
-          },
-          {
-            "extraction_id": 1026,
-            "evidence_role": "challenging",
-            "evidence_quality": "theoretical",
-            "author_quote": "may be, in many cases, better construed as functions of discrepancies",
-            "content": "Grubbs and colleagues propose a model in which many pornography-related problems, especially feeling addicted, are better understood as a clash between a person's beliefs about pornography and their own use (moral incongruence), and test it with a systematic review and meta-analy"
-          },
-          {
             "extraction_id": 1027,
             "evidence_role": "primary",
             "evidence_quality": "meta_analysis",
@@ -4537,6 +4523,20 @@
             "evidence_quality": "replicated",
             "author_quote": "Thus, in rats and humans there is no doubt that testicular hormones, either directly or via aromatization, are in charge of the control of the long-term activity of the sexual central motive state.",
             "content": "Hormones set the gain, not the pressure: in rats and humans, testicular hormones control the long-term activity level of the sexual central motive state (in men via androgen receptors directly; in rats partly via aromatization to estrogens), while short-term variation in sexual m"
+          },
+          {
+            "extraction_id": 1025,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "such feelings were most strongly associated with male gender, younger age, greater religiousness, greater moral incongruence regarding pornography use, and greater use of pornography",
+            "content": "In the same US national sample, agreeing with \"I am addicted to pornography\" went with being male, younger, more religious, more morally opposed to one's own pornography use (moral incongruence) and using more pornography. The authors conclude that feeling addicted reflects both"
+          },
+          {
+            "extraction_id": 1026,
+            "evidence_role": "primary",
+            "evidence_quality": "theoretical",
+            "author_quote": "may be, in many cases, better construed as functions of discrepancies",
+            "content": "Grubbs and colleagues propose a model in which many pornography-related problems, especially feeling addicted, are better understood as a clash between a person's beliefs about pornography and their own use (moral incongruence), and test it with a systematic review and meta-analy"
           }
         ],
         "evidence_count": 9
@@ -4647,13 +4647,6 @@
             "content": "Schacht and Kramer summarise genetic estimates of nonpaternity in humans as ranging from 0 to 11 percent across societies, with median values of 1.7 to 3.3 percent, against rates that regularly exceed 20 percent in socially monogamous birds."
           },
           {
-            "extraction_id": 776,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "Using a novel, double-blind method designed in collaboration with a community of Himba pastoralists, we find that the rate of EPP in this population is 48%, with 70% of couples having at least one EPP child",
-            "content": "Among Himba pastoralists in Namibia, a double-blind genetic paternity study estimated that 48 percent of children were fathered outside the marriage (95 percent credible interval 32 to 66 percent), and 70 percent of couples had at least one such child. The community's own estimat"
-          },
-          {
             "extraction_id": 775,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -4675,8 +4668,15 @@
             "content": "In forced-choice studies, men more often than women picked a partner's sexual infidelity as more upsetting than emotional infidelity."
           },
           {
+            "extraction_id": 776,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "Using a novel, double-blind method designed in collaboration with a community of Himba pastoralists, we find that the rate of EPP in this population is 48%, with 70% of couples having at least one EPP child",
+            "content": "Among Himba pastoralists in Namibia, a double-blind genetic paternity study estimated that 48 percent of children were fathered outside the marriage (95 percent credible interval 32 to 66 percent), and 70 percent of couples had at least one such child. The community's own estimat"
+          },
+          {
             "extraction_id": 758,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "contested",
             "author_quote": "This article reviews each line of evidence and finds only one hypothetical measure consistent with the hypothesis. This, however, is contradicted by a variety of other measures (including reported reactions to real infidelity). A meta-analysis of jealousy-inspired homicides, taking into account base rates for murder, found no evidence that jealousy disproportionately motivates men to kill",
             "content": "A review argued that the sex difference in jealousy appears mainly in hypothetical forced-choice questions and weakens or disappears in reports of real infidelity and other measures."
@@ -5009,13 +5009,6 @@
             "content": "Among Aka forager children aged 4 to 16, play gave way to work as they grew older, and Aka children did less rough-and-tumble play and fewer competitive games than neighbouring farmer children."
           },
           {
-            "extraction_id": 762,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "Our take-away message is that existing evidence does not support strong causal claims about the unique importance of pretend play for development and that much more and better research is essential for clarifying its possible role",
-            "content": "A review found weak and inconsistent evidence that pretend play causes the developmental gains often credited to it."
-          },
-          {
             "extraction_id": 785,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -5063,6 +5056,13 @@
             "evidence_quality": "thin",
             "author_quote": "parents and grandparents consisted of less than 1% of playgroup members",
             "content": "Among Agta foragers (78 children aged 0-6 observed in 2014), children aged 2-6 spent about 13 percent of observations in children-only playgroups, where most care partners were children aged 6-11, with sisters more common than brothers, and playgroups were linked to less maternal"
+          },
+          {
+            "extraction_id": 762,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "Our take-away message is that existing evidence does not support strong causal claims about the unique importance of pretend play for development and that much more and better research is essential for clarifying its possible role",
+            "content": "A review found weak and inconsistent evidence that pretend play causes the developmental gains often credited to it."
           }
         ],
         "evidence_count": 15
@@ -5153,13 +5153,6 @@
             "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
           },
           {
-            "extraction_id": 766,
-            "evidence_role": "challenging",
-            "evidence_quality": "theoretical",
-            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
-            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
-          },
-          {
             "extraction_id": 822,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -5172,6 +5165,13 @@
             "evidence_quality": "thin",
             "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
             "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
+          },
+          {
+            "extraction_id": 766,
+            "evidence_role": "primary",
+            "evidence_quality": "theoretical",
+            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
+            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
           }
         ],
         "evidence_count": 12
@@ -5344,18 +5344,18 @@
             "content": "Across the sleep period, cosleeping infant behavior is intimately linked to underlying EEG, breathing patterns, sleep architecture, and body temperature, coupled simultaneously to maternal physiological and behavioral events."
           },
           {
-            "extraction_id": 617,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated",
-            "content": "McKenna himself stresses that bedsharing safety depends entirely on how it is practiced and on adverse co-factors - the live SIDS/safety contestation that keeps co-sleeping from being a clean \"ancestral good\"."
-          },
-          {
             "extraction_id": 705,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
             "author_quote": null,
             "content": "In Barry and Paxson's codes for the Standard Cross-Cultural Sample, the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 of them."
+          },
+          {
+            "extraction_id": 617,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated",
+            "content": "McKenna himself stresses that bedsharing safety depends entirely on how it is practiced and on adverse co-factors - the live SIDS/safety contestation that keeps co-sleeping from being a clean \"ancestral good\"."
           }
         ],
         "evidence_count": 4
@@ -5948,27 +5948,6 @@
         },
         "evidence": [
           {
-            "extraction_id": 196,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
-            "content": "Lieberman reports a Hadza heart-rate monitor study of 46 adults: the average adult spent about 3 h 40 min a day in light activity and 2 h 14 min in moderate or vigorous activity, which he puts at about twelve times the activity of the average American or European, and he writes t"
-          },
-          {
-            "extraction_id": 197,
-            "evidence_role": "challenging",
-            "evidence_quality": "replicated",
-            "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
-            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
-          },
-          {
-            "extraction_id": 200,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "When Herman Pontzer and his colleagues measured daily energy expenditures in the Hadza, they were surprised to find that the highly active Hadza spend about the same total number of calories per day as sedentary industrialized people with the same lean body weight. In addition, when Pontzer and colleagues collected energetic data from adults in many countries including the United States, Ghana, Jamaica, and South Africa, they observed that more active people spent only slightly more calories per day than more sedentary people who weighed the same. In addition, individuals who were more physically active didn't have total energy budgets as high as their exertions would predict. How could someone who spent five hundred extra calories a day exercising not have a total energy budget that is five hundred calories higher? The proposed explanation is that people's total energy budgets are constrained: if I use five hundred extra calories walking, I'll spend less energy on my resting metabolism to help pay for my exertions.",
-            "content": "The Pontzer constrained energy expenditure hypothesis: highly active Hadza spend about the same total daily energy as sedentary industrialized people with the same lean body weight. Across countries (US, Ghana, Jamaica, South Africa), more active people spend only slightly more c"
-          },
-          {
             "extraction_id": 713,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -5983,11 +5962,32 @@
             "content": "Sahlins argued that foragers met their needs with a few hours of food-getting a day and had much free time, calling them the original affluent society."
           },
           {
+            "extraction_id": 197,
+            "evidence_role": "primary",
+            "evidence_quality": "replicated",
+            "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
+            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
+          },
+          {
+            "extraction_id": 200,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "When Herman Pontzer and his colleagues measured daily energy expenditures in the Hadza, they were surprised to find that the highly active Hadza spend about the same total number of calories per day as sedentary industrialized people with the same lean body weight. In addition, when Pontzer and colleagues collected energetic data from adults in many countries including the United States, Ghana, Jamaica, and South Africa, they observed that more active people spent only slightly more calories per day than more sedentary people who weighed the same. In addition, individuals who were more physically active didn't have total energy budgets as high as their exertions would predict. How could someone who spent five hundred extra calories a day exercising not have a total energy budget that is five hundred calories higher? The proposed explanation is that people's total energy budgets are constrained: if I use five hundred extra calories walking, I'll spend less energy on my resting metabolism to help pay for my exertions.",
+            "content": "The Pontzer constrained energy expenditure hypothesis: highly active Hadza spend about the same total daily energy as sedentary industrialized people with the same lean body weight. Across countries (US, Ghana, Jamaica, South Africa), more active people spend only slightly more c"
+          },
+          {
             "extraction_id": 761,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": null,
             "content": "Data from the Alyawara showed that once food processing is counted, foragers spent far more time on getting food than the original affluent society figures suggested."
+          },
+          {
+            "extraction_id": 196,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work.",
+            "content": "Lieberman reports a Hadza heart-rate monitor study of 46 adults: the average adult spent about 3 h 40 min a day in light activity and 2 h 14 min in moderate or vigorous activity, which he puts at about twelve times the activity of the average American or European, and he writes t"
           }
         ],
         "evidence_count": 6
@@ -6051,18 +6051,18 @@
             "content": "Using the most recent ethnographic compilation of plant-to-animal subsistence patterns among hunter-gatherers, the authors report that 73% of worldwide hunter-gatherer societies got more than half of their subsistence from animal foods and 14% got more than half from gathered pla"
           },
           {
-            "extraction_id": 763,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": null,
-            "content": "Forager diets varied so widely with habitat and season that they fit no single standard pattern that modern people could copy for better health."
-          },
-          {
             "extraction_id": 874,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
             "author_quote": "Obesity prevalence is very low (<5%), and mean body fat percentage is modest (women: 24-28%, men: 9-18%)",
             "content": "Reviewing hunter-gatherer and other small-scale societies and adding new Hadza data, Pontzer and colleagues report very few people with obesity (under 5%), modest mean body fat (women 24-28%, men 9-18%), more than 100 minutes a day of moderate and vigorous activity, and daily ene"
+          },
+          {
+            "extraction_id": 763,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": null,
+            "content": "Forager diets varied so widely with habitat and season that they fit no single standard pattern that modern people could copy for better health."
           }
         ],
         "evidence_count": 6
@@ -6486,7 +6486,7 @@
           },
           {
             "extraction_id": 461,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
             "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
@@ -6549,27 +6549,6 @@
             "content": "In a game-theoretic model and agent-based simulations, Choi and Bowles find that under conditions they take as typical of late Pleistocene and early Holocene humans, neither altruism toward one's own group nor hostility toward other groups could spread alone, while the two could"
           },
           {
-            "extraction_id": 1047,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone",
-            "content": "In 21 mobile forager band societies from the Standard Cross-Cultural Sample, ethnographies recorded 148 lethal events. About one third involved people of different groups, but 38 of those 50 came from one society, the Tiwi; in the other 20 societies about 15% of events were betwe"
-          },
-          {
-            "extraction_id": 674,
-            "evidence_role": "challenging",
-            "evidence_quality": "contested",
-            "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
-            "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
-          },
-          {
-            "extraction_id": 675,
-            "evidence_role": "challenging",
-            "evidence_quality": "thin",
-            "author_quote": "The proportion of human deaths phylogenetically predicted to be caused by interpersonal violence stood at 2%.",
-            "content": "Phylogenetic comparison across mammals predicts that about 2 percent of human deaths are caused by interpersonal violence, similar to the value inferred for the ancestor of primates and apes and to rates seen in prehistoric bands and tribes."
-          },
-          {
             "extraction_id": 892,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
@@ -6578,10 +6557,31 @@
           },
           {
             "extraction_id": 897,
-            "evidence_role": "challenging",
+            "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "An analysis of the raiding histories, marital trajectories, and reproductive histories of these men reveals that more aggressive warriors have lower indices of reproductive success than their milder brethren",
             "content": "Among the Waorani of Ecuador, horticulturalist-foragers with very high homicide rates, raiding histories of 95 warriors showed that men who raided more often than average did not have more wives or children than milder men, and had fewer children who survived to age 15. This cont"
+          },
+          {
+            "extraction_id": 1047,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "three-quarters (38 of 50) of intergroup disputes took place among the Tiwi alone",
+            "content": "In 21 mobile forager band societies from the Standard Cross-Cultural Sample, ethnographies recorded 148 lethal events. About one third involved people of different groups, but 38 of those 50 came from one society, the Tiwi; in the other 20 societies about 15% of events were betwe"
+          },
+          {
+            "extraction_id": 674,
+            "evidence_role": "primary",
+            "evidence_quality": "contested",
+            "author_quote": "More than half of the lethal aggression events were perpetrated by lone individuals, and almost two-thirds resulted from accidents, interfamilial disputes, within-group executions, or interpersonal motives such as competition over a particular woman.",
+            "content": "In 21 mobile forager band societies drawn from the Standard Cross-Cultural Sample, more than half of lethal events had a lone perpetrator, and most killings classify as homicides; a few were feuds and a minority were war."
+          },
+          {
+            "extraction_id": 675,
+            "evidence_role": "primary",
+            "evidence_quality": "thin",
+            "author_quote": "The proportion of human deaths phylogenetically predicted to be caused by interpersonal violence stood at 2%.",
+            "content": "Phylogenetic comparison across mammals predicts that about 2 percent of human deaths are caused by interpersonal violence, similar to the value inferred for the ancestor of primates and apes and to rates seen in prehistoric bands and tribes."
           }
         ],
         "evidence_count": 9
