@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T11:30:05.941866+00:00",
+    "built_at": "2026-11-21T11:53:59.336792+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3245,
-    "extractions": 4951,
+    "works": 3258,
+    "extractions": 4969,
     "researchers": 84,
-    "mechanism_evidence": 5551,
+    "mechanism_evidence": 5563,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -67190,6 +67190,266 @@
         "issue": "10",
         "pages": "2313-2319",
         "url": "corpus.html#w=3220"
+      },
+      {
+        "id": 3260,
+        "title": "Trial of Psilocybin versus Escitalopram for Depression",
+        "authors": "Carhart-Harris R, Giribaldi B, Watts R, Baker-Jones M, Murphy-Beiner A, Murphy R, Martell J, Blemings A, Erritzoe D, Nutt DJ",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1056/NEJMoa2032994",
+        "pmid": "33852780",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "New England Journal of Medicine",
+        "container": null,
+        "volume": "384",
+        "issue": "15",
+        "pages": "1402-1411",
+        "url": "corpus.html#w=3260"
+      },
+      {
+        "id": 3261,
+        "title": "Effects of Psilocybin-Assisted Therapy on Major Depressive Disorder: A Randomized Clinical Trial",
+        "authors": "Davis AK, Barrett FS, May DG, Cosimano MP, Sepeda ND, Johnson MW, Finan PH, Griffiths RR",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2020.3285",
+        "pmid": "33146667",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "78",
+        "issue": "5",
+        "pages": "481",
+        "url": "corpus.html#w=3261"
+      },
+      {
+        "id": 3262,
+        "title": "Efficacy and safety of psilocybin-assisted treatment for major depressive disorder: Prospective 12-month follow-up",
+        "authors": "Gukasyan N, Davis AK, Barrett FS, Cosimano MP, Sepeda ND, Johnson MW, Griffiths RR",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/02698811211073759",
+        "pmid": "35166158",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychopharmacology",
+        "container": null,
+        "volume": "36",
+        "issue": "2",
+        "pages": "151-158",
+        "url": "corpus.html#w=3262"
+      },
+      {
+        "id": 3263,
+        "title": "Single-Dose Psilocybin for a Treatment-Resistant Episode of Major Depression",
+        "authors": "Goodwin GM, Aaronson ST, Alvarez O, Arden PC, Baker A, Bennett JC, Bird C, Blom RE, Brennan C, Brusch D, Burke L, Campbell-Coker K, Carhart-Harris R, Cattell J, Daniel A, DeBattista C, Dunlop BW, Eisen K, Feifel D, Forbes M, Haumann HM, Hellerstein DJ, Hoppe AI, Husain MI, Jelen LA, Kamphuis J, Kawasaki J, Kelly JR, Key RE, Kishon R, Knatz Peck S, Knight G, Koolen MHB, Lean M, Licht RW, Maples-Keller JL, Mars J, Marwood L, McElhiney MC, Miller TL, Mirow A, Mistry S, Mletzko-Crowe T, Modlin LN, Nielsen RE, Nielson EM, Offerhaus SR, O'Keane V, Páleníček T, Printz D, Rademaker MC, van Reemst A, Reinholdt F, Repantis D, Rucker J, Rudow S, Ruffell S, Rush AJ, Schoevers RA, Seynaeve M, Shao S, Soares JC, Somers M, Stansfield SC, Sterling D, Strockis A, Tsai J, Visser L, Wahba M, Williams S, Young AH, Ywema P, Zisook S, Malievskaia E",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1056/NEJMoa2206443",
+        "pmid": "36322843",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "New England Journal of Medicine",
+        "container": null,
+        "volume": "387",
+        "issue": "18",
+        "pages": "1637-1648",
+        "url": "corpus.html#w=3263"
+      },
+      {
+        "id": 3264,
+        "title": "Ten-year course of borderline personality disorder: psychopathology and function from the Collaborative Longitudinal Personality Disorders study",
+        "authors": "Gunderson JG, Stout RL, McGlashan TH, Shea MT, Morey LC, Grilo CM, Zanarini MC, Yen S, Markowitz JC, Sanislow C, Ansell E, Pinto A, Skodol AE",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archgenpsychiatry.2011.37",
+        "pmid": "21464343",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "68",
+        "issue": "8",
+        "pages": "827",
+        "url": "corpus.html#w=3264"
+      },
+      {
+        "id": 3265,
+        "title": "Prevalence of Burnout Among Physicians: A Systematic Review",
+        "authors": "Rotenstein LS, Torre M, Ramos MA, Rosales RC, Guille C, Sen S, Mata DA",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jama.2018.12777",
+        "pmid": "30326495",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA",
+        "container": null,
+        "volume": "320",
+        "issue": "11",
+        "pages": "1131",
+        "url": "corpus.html#w=3265"
+      },
+      {
+        "id": 3266,
+        "title": "Global prevalence of burnout symptoms among nurses: A systematic review and meta-analysis",
+        "authors": "Woo T, Ho R, Tang A, Tam W",
+        "year": 2020,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jpsychires.2019.12.015",
+        "pmid": "32007680",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychiatric Research",
+        "container": null,
+        "volume": "123",
+        "issue": null,
+        "pages": "9-20",
+        "url": "corpus.html#w=3266"
+      },
+      {
+        "id": 3267,
+        "title": "\"Constant, constant, multi-tasking craziness\": managing multiple working spheres",
+        "authors": "González VM, Mark G",
+        "year": 2004,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1145/985692.985707",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+        "volume": null,
+        "issue": null,
+        "pages": "113-120",
+        "url": "corpus.html#w=3267"
+      },
+      {
+        "id": 3268,
+        "title": "No task left behind? Examining the nature of fragmented work",
+        "authors": "Mark G, Gonzalez VM, Harris J",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1145/1054972.1055017",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+        "volume": null,
+        "issue": null,
+        "pages": "321-330",
+        "url": "corpus.html#w=3268"
+      },
+      {
+        "id": 3271,
+        "title": "Efficacy of omega-3 PUFAs in depression: A meta-analysis",
+        "authors": "Liao Y, Xie B, Zhang H, He Q, Guo L, Subramanieapillai M, Fan B, Lu C, McIntyre RS",
+        "year": 2019,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41398-019-0515-5",
+        "pmid": "31383846",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Translational Psychiatry",
+        "container": null,
+        "volume": "9",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3271"
+      },
+      {
+        "id": 3272,
+        "title": "Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population-representative studies with 222 million children, adolescents, and adults",
+        "authors": "NCD Risk Factor Collaboration (NCD-RisC)",
+        "year": 2024,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0140-6736(23)02750-2",
+        "pmid": "38432237",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Lancet",
+        "container": null,
+        "volume": "403",
+        "issue": "10431",
+        "pages": "1027-1050",
+        "url": "corpus.html#w=3272"
+      },
+      {
+        "id": 3269,
+        "title": "Environmental Noise Guidelines for the European Region",
+        "authors": "World Health Organization Regional Office for Europe",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": null,
+        "isbn": "9789289053563",
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3269"
+      },
+      {
+        "id": 3270,
+        "title": "Sixth European Working Conditions Survey: Overview report (2017 update)",
+        "authors": "Eurofound; Parent-Thirion A, Biletta I, Cabrita J, Vargas O, Vermeylen G, Wilczynska A, Wilkens M",
+        "year": 2017,
+        "work_type": "book",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2806/422172",
+        "pmid": null,
+        "isbn": "9789289715973",
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3270"
       }
     ],
     "extractions": [
@@ -88463,6 +88723,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1343"
+      },
+      {
+        "id": 5029,
+        "work_id": 3268,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5029"
       },
       {
         "id": 2521,
@@ -138610,6 +138883,19 @@
         "url": "corpus.html#e=764"
       },
       {
+        "id": 5025,
+        "work_id": 3265,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5025"
+      },
+      {
         "id": 956,
         "work_id": 427,
         "mechanism_codes": [
@@ -138656,6 +138942,203 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1836"
+      },
+      {
+        "id": 5018,
+        "work_id": 3260,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5018"
+      },
+      {
+        "id": 5019,
+        "work_id": 3261,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5019"
+      },
+      {
+        "id": 5020,
+        "work_id": 3262,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5020"
+      },
+      {
+        "id": 5021,
+        "work_id": 3263,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5021"
+      },
+      {
+        "id": 5022,
+        "work_id": 3264,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5022"
+      },
+      {
+        "id": 5023,
+        "work_id": 3264,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5023"
+      },
+      {
+        "id": 5026,
+        "work_id": 3266,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5026"
+      },
+      {
+        "id": 5024,
+        "work_id": 3265,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5024"
+      },
+      {
+        "id": 5027,
+        "work_id": 3267,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5027"
+      },
+      {
+        "id": 5028,
+        "work_id": 3268,
+        "mechanism_codes": [
+          "M2",
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5028"
+      },
+      {
+        "id": 5031,
+        "work_id": 3269,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5031"
+      },
+      {
+        "id": 5034,
+        "work_id": 3271,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5034"
+      },
+      {
+        "id": 5030,
+        "work_id": 3269,
+        "mechanism_codes": [
+          "M1",
+          "M7"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5030"
+      },
+      {
+        "id": 5032,
+        "work_id": 3270,
+        "mechanism_codes": [
+          "M6"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5032"
+      },
+      {
+        "id": 5033,
+        "work_id": 3270,
+        "mechanism_codes": [
+          "M6",
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5033"
+      },
+      {
+        "id": 5035,
+        "work_id": 3272,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5035"
       }
     ],
     "researchers": [
@@ -172554,6 +173037,78 @@
         "mechanism_code": "M1",
         "extraction_id": 4971,
         "evidence_role": "primary"
+      },
+      {
+        "id": 5625,
+        "mechanism_code": "M2",
+        "extraction_id": 5027,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5626,
+        "mechanism_code": "M2",
+        "extraction_id": 5028,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5627,
+        "mechanism_code": "M11",
+        "extraction_id": 5028,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5628,
+        "mechanism_code": "M2",
+        "extraction_id": 5029,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5629,
+        "mechanism_code": "M1",
+        "extraction_id": 5030,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5630,
+        "mechanism_code": "M7",
+        "extraction_id": 5030,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5631,
+        "mechanism_code": "M1",
+        "extraction_id": 5031,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5632,
+        "mechanism_code": "M6",
+        "extraction_id": 5032,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5633,
+        "mechanism_code": "M6",
+        "extraction_id": 5033,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5634,
+        "mechanism_code": "M11",
+        "extraction_id": 5033,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5635,
+        "mechanism_code": "M8",
+        "extraction_id": 5034,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5636,
+        "mechanism_code": "M13",
+        "extraction_id": 5035,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -184570,20 +185125,20 @@
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 565,
-      "M2": 525,
+      "M1": 567,
+      "M2": 528,
       "M3": 1049,
       "M4": 211,
       "M9": 357,
       "M14": 471,
-      "M11": 677,
+      "M11": 679,
       "M5": 499,
-      "M13": 253,
+      "M13": 254,
       "M10": 155,
-      "M8": 166,
+      "M8": 167,
       "M12": 83,
-      "M6": 172,
-      "M7": 235,
+      "M6": 174,
+      "M7": 236,
       "R1": 133
     },
     "eea_by_mechanism": {
