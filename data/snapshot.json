@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T11:23:02.590209+00:00",
+    "built_at": "2026-11-21T11:28:51.620066+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 78
+    "challenges": 76
   },
   "tables": {
     "foundations": [
@@ -203,6 +203,17 @@
         "created_at": "2026-04-08T14:00:24.018102+00:00"
       },
       {
+        "id": 19,
+        "code": "DC3",
+        "layer": "consequence",
+        "name": "Environment as Primary Intervention Layer",
+        "statement": "Cortical override of subcortical activation is costly and tiring, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that undo a mismatch, moving the organism's actual input conditions toward what it evolved for (the baseline rows of this atlas), are therefore more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "epistemic_grade": "plausible_synthesis",
+        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. One question decides whether a change counts: did it make the person less mismatched? The form of the change decides nothing. A job, money, a move or a tool counts by what it supplies: a job can bring a role and people who need you, and money can end a threat. A little less mismatch is better than none. When a charity paid off the debts of poor households in Singapore, the share with the symptoms of generalised anxiety fell from 78 to 53 percent within three months (ext 1712). When a casino income lifted families out of poverty, their children's psychiatric symptom counts fell to the level of children who had never been poor, through fewer conduct and oppositional symptoms (ext 1315, 2243). Cash for poor households lowered depression and anxiety scores while it was paid; after the payments ended the gain was no longer found (ext 1311, 1312). A change that leaves a person as mismatched as before is nothing against this property when it does little: a lottery prize (ext 1713), a flat of one's own (ext 2842), a contact programme run by helpers (ext 2108). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts: with the same body, use rose and fell with the setting. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). Neither study measured what the men lived among, so they show that the body's dependence does not decide, and nothing more. What the person comes back to decides (project position): people who know and need them, and a role among them (EEA-SOC-01, EEA-SOC-11). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); no study has put long-term users among people who need them; craving set off by cues goes with a later return to use (ext 2854); in rats, after long access, housing and rank no longer changed intake (ext 933, 935). A job counts by what it supplies. Women in drug treatment in Baltimore who were given paid work, kept on condition of drug-free urine, gave cocaine-negative samples 54 percent of the time over three years, against 28 percent in usual care (ext 2454). In another trial a job of the same kind with no drug rule did less, 10 percent against 29 percent with the rule (ext 2455). What the work supplied beyond pay was not measured in either. Not counted against this position, because nothing in them brought the person people who know and need them: a flat of one's own (ext 2842) and 33 years in the setting of the habit (ext 2835). Costly and tiring (21 Nov 2026). Self-control is no measured drain on the body's energy: blood glucose did not fall in four self-control experiments (ext 5001), the brain uses about a fifth of the body's energy at a near-constant rate (ext 5007), and two tests in 23 and 36 laboratories found no ego depletion (ext 4294, 4295). It is a cost all the same: people choose the option that asks less mental control (ext 4298), and after a workday of hard control work people chose easier and quicker options and had more glutamate in the lateral prefrontal cortex (ext 5013).",
+        "created_at": "2026-04-08T14:02:55.382263+00:00"
+      },
+      {
         "id": 11,
         "code": "DA7",
         "layer": "property",
@@ -212,17 +223,6 @@
         "epistemic_grade": "forced",
         "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced. Childhood and the adult (project position, 21 Nov 2026). What happened to a person as a child explains little of how they feel now; their genes and the world they live in now explain most. Across fifty years of twin studies genes account for 49 percent of the differences between people and the shared home for 17 percent (ext 637, 638). Adoptive siblings reared together correlate .04 in personality (ext 2880). With genes and family held equal, the link between childhood maltreatment and later mental health problems is 45 percent smaller (ext 1638); maltreatment on a court record and not recalled goes with no raised rate of diagnoses (ext 1640); recorded and recalled maltreatment barely overlap (ext 2888). Attachment in infancy does not predict attachment more than 15 years later (ext 2893). After a frightening event most people come through: 9.2 percent met the criteria for PTSD after an event drawn at random from their life (ext 2912). The exception is deprivation far outside anything a human child evolved for (C12). Children assigned by lot to foster care scored lower on general symptoms at 16 than children left in an institution (ext 2909). Romanian children who spent more than six months in an institution still had more problems at 22 to 25 in supportive adoptive homes, and those adopted before six months did not (ext 2903). Open: brothers adopted away scored 4.41 IQ points higher at 18 to 20 than brothers reared at home (ext 2877), and adopted-away siblings of a parent diagnosed with depression were diagnosed with it 23 percent less often (ext 2878); the adoptive family explained 14 percent of schooling and 33 percent of drinking among Korean American adoptees (ext 2872); in poor US families the shared home accounted for about 60 percent of IQ differences at age 7 (ext 2896); people diagnosed with PTSD show a raised heart rate at rest, with no reminder present (ext 2917); an earlier meta-analysis found attachment moderately stable over the first 19 years (ext 2892).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
-        "id": 19,
-        "code": "DC3",
-        "layer": "consequence",
-        "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that undo a mismatch, moving the organism's actual input conditions toward what it evolved for (the baseline rows of this atlas), are therefore more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
-        "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. One question decides whether a change counts: did it make the person less mismatched? The form of the change decides nothing. A job, money, a move or a tool counts by what it supplies: a job can bring a role and people who need you, and money can end a threat. A little less mismatch is better than none. When a charity paid off the debts of poor households in Singapore, the share with the symptoms of generalised anxiety fell from 78 to 53 percent within three months (ext 1712). When a casino income lifted families out of poverty, their children's psychiatric symptom counts fell to the level of children who had never been poor, through fewer conduct and oppositional symptoms (ext 1315, 2243). Cash for poor households lowered depression and anxiety scores while it was paid; after the payments ended the gain was no longer found (ext 1311, 1312). A change that leaves a person as mismatched as before is nothing against this property when it does little: a lottery prize (ext 1713), a flat of one's own (ext 2842), a contact programme run by helpers (ext 2108). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts: with the same body, use rose and fell with the setting. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). Neither study measured what the men lived among, so they show that the body's dependence does not decide, and nothing more. What the person comes back to decides (project position): people who know and need them, and a role among them (EEA-SOC-01, EEA-SOC-11). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); no study has put long-term users among people who need them; craving set off by cues goes with a later return to use (ext 2854); in rats, after long access, housing and rank no longer changed intake (ext 933, 935). A job counts by what it supplies. Women in drug treatment in Baltimore who were given paid work, kept on condition of drug-free urine, gave cocaine-negative samples 54 percent of the time over three years, against 28 percent in usual care (ext 2454). In another trial a job of the same kind with no drug rule did less, 10 percent against 29 percent with the rule (ext 2455). What the work supplied beyond pay was not measured in either. Not counted against this position, because nothing in them brought the person people who know and need them: a flat of one's own (ext 2842) and 33 years in the setting of the habit (ext 2835).",
-        "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
     "mechanisms": [
@@ -99273,19 +99273,6 @@
         "url": "corpus.html#e=2073"
       },
       {
-        "id": 2443,
-        "work_id": 1360,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2443"
-      },
-      {
         "id": 2075,
         "work_id": 1143,
         "mechanism_codes": [
@@ -99620,19 +99607,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4310"
-      },
-      {
-        "id": 1337,
-        "work_id": 667,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1337"
       },
       {
         "id": 2096,
@@ -138656,6 +138630,32 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=2193"
+      },
+      {
+        "id": 1337,
+        "work_id": 667,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1337"
+      },
+      {
+        "id": 2443,
+        "work_id": 1360,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2443"
       }
     ],
     "researchers": [
@@ -182230,6 +182230,16 @@
         "reason": "Refiled on 21 Nov 2026. It counts against the attention-to-detail theory (ext 2190), which no sentence of Cor and no page uses. Cor's position is about advantages in a world that fits the trait; a lab test of visual processing does not measure that. It stays in the atlas."
       },
       {
+        "citation": "Paik and Sanchagrin 2013",
+        "title": "Social Isolation in America: An Artifact",
+        "reason": "Refiled on 21 Nov 2026. It compares US survey answers of 1985 and 2004, two points inside modern life; Cor measures modern life against how humans lived. It stays in the atlas."
+      },
+      {
+        "citation": "Fischer 2009",
+        "title": "The 2004 GSS finding of shrunken social networks: an artifact?",
+        "reason": "Refiled on 21 Nov 2026. It compares US survey answers of 1985 and 2004, two points inside modern life; Cor measures modern life against how humans lived. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -184230,38 +184240,6 @@
         "foundation_codes": [
           "DA7"
         ]
-      },
-      {
-        "id": 2443,
-        "extraction_id": 2443,
-        "work_id": 1360,
-        "title": "The 2004 GSS finding of shrunken social networks: an artifact?",
-        "content": "The 2004 GSS finding of shrunken social networks: an artifact?",
-        "citation": "Fischer CS, 2009",
-        "authors": "Fischer CS",
-        "year": 2009,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1337,
-        "extraction_id": 1337,
-        "work_id": 667,
-        "title": "Social Isolation in America: An Artifact",
-        "content": "Social Isolation in America: An Artifact",
-        "citation": "Paik A, Sanchagrin K, 2013",
-        "authors": "Paik A, Sanchagrin K",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": []
       },
       {
         "id": 2179,
