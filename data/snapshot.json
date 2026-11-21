@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T06:35:13.362199+00:00",
+    "built_at": "2026-11-21T06:57:54.914193+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -44573,21 +44573,6 @@
         "url": "corpus.html#e=33"
       },
       {
-        "id": 2505,
-        "work_id": 1412,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=2505"
-      },
-      {
         "id": 483,
         "work_id": 68,
         "mechanism_codes": [
@@ -73828,19 +73813,6 @@
         "url": "corpus.html#e=2128"
       },
       {
-        "id": 2448,
-        "work_id": 1363,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2448"
-      },
-      {
         "id": 2719,
         "work_id": 1570,
         "mechanism_codes": [
@@ -74065,19 +74037,6 @@
         "url": "corpus.html#e=2149"
       },
       {
-        "id": 2453,
-        "work_id": 1367,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2453"
-      },
-      {
         "id": 2151,
         "work_id": 1185,
         "mechanism_codes": [
@@ -74125,19 +74084,6 @@
         "url": "corpus.html#e=2154"
       },
       {
-        "id": 2454,
-        "work_id": 1368,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2454"
-      },
-      {
         "id": 2157,
         "work_id": 1189,
         "mechanism_codes": [
@@ -74162,6 +74108,17 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2159"
+      },
+      {
+        "id": 2454,
+        "work_id": 1368,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2454"
       },
       {
         "id": 2160,
@@ -74252,19 +74209,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2166"
-      },
-      {
-        "id": 2456,
-        "work_id": 1370,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2456"
       },
       {
         "id": 2740,
@@ -74444,19 +74388,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2180"
-      },
-      {
-        "id": 2461,
-        "work_id": 1374,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=2461"
       },
       {
         "id": 2182,
@@ -78302,21 +78233,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2500"
-      },
-      {
-        "id": 2501,
-        "work_id": 1409,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2501"
       },
       {
         "id": 2502,
@@ -83063,23 +82979,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=971"
-      },
-      {
-        "id": 977,
-        "work_id": 445,
-        "mechanism_codes": [
-          "M2",
-          "M13"
-        ],
-        "foundation_codes": [
-          "DC3",
-          "DA9"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=977"
       },
       {
         "id": 2872,
@@ -93607,6 +93506,19 @@
         "url": "corpus.html#e=3446"
       },
       {
+        "id": 2505,
+        "work_id": 1412,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2505"
+      },
+      {
         "id": 3443,
         "work_id": 2065,
         "mechanism_codes": [
@@ -94287,6 +94199,79 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=716"
+      },
+      {
+        "id": 2448,
+        "work_id": 1363,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2448"
+      },
+      {
+        "id": 2453,
+        "work_id": 1367,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2453"
+      },
+      {
+        "id": 2456,
+        "work_id": 1370,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2456"
+      },
+      {
+        "id": 2461,
+        "work_id": 1374,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "clinical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2461"
+      },
+      {
+        "id": 2501,
+        "work_id": 1409,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2501"
+      },
+      {
+        "id": 977,
+        "work_id": 445,
+        "mechanism_codes": [
+          "M2",
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA9"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=977"
       }
     ],
     "researchers": [
