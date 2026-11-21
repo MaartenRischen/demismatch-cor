@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-21 07:36 UTC, from the live Cor atlas snapshot built 2026-11-21 07:36 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 08:16 UTC, from the live Cor atlas snapshot built 2026-11-21 08:16 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 2259 works, 3668 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 2419 works, 3876 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -881,7 +881,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Timing: puberty to first birth
 `EEA-MATE-04 · Mating & reproduction` - **tested many times**
 
-**Ancestrally:** Forager women had their first child at about 19 to 20: Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2. Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
+**Ancestrally:** Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
 
 **Now (modern default):** US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.
 
@@ -929,7 +929,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Sexual stimuli (real people vs unlimited images)
 `EEA-MATE-08 · Mating & reproduction` - **contested** · **CONTESTED**
 
-**Ancestrally:** Sexual cues came from real people a forager knew and could meet. No study measures this directly.
+**Ancestrally:** Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).
 
 **Now (modern default):** Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.
 
@@ -1329,4 +1329,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 07:36 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 07:36 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 08:16 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-21 08:16 UTC.*

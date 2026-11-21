@@ -27,6 +27,8 @@ def sentences(text):
 def hits_in_text(text, scope, path=''):
     """List of dicts: concept, sentence, why, ask."""
     res = []
+    # The trap questions that quiz.py pick appends to a brief quote the short forms on purpose: skip that block.
+    text = re.sub(r"## Before your work is accepted: eight cases.*?(?=\n## |\Z)", " ", text, flags=re.S)
     text = re.sub(r"[ \t]+", " ", text)
     for c in CONCEPTS:
         if scope not in c['scopes']: continue

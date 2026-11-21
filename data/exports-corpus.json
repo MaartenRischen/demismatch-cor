@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T07:36:11.962702+00:00",
+    "source_built_at": "2026-11-21T08:16:07.224821+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 2259,
-    "extractions": 3668,
+    "works": 2419,
+    "extractions": 3876,
     "researchers": 84,
-    "mechanism_evidence": 4239,
+    "mechanism_evidence": 4474,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -457,7 +457,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 446,
+        "link_count": 461,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -555,7 +555,7 @@
         ]
       },
       "evidence": {
-        "link_count": 423,
+        "link_count": 434,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -651,7 +651,7 @@
         ]
       },
       "evidence": {
-        "link_count": 802,
+        "link_count": 836,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -746,7 +746,7 @@
         ]
       },
       "evidence": {
-        "link_count": 177,
+        "link_count": 192,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -847,7 +847,7 @@
         ]
       },
       "evidence": {
-        "link_count": 397,
+        "link_count": 414,
         "researchers": [
           "Gilbert",
           "Price",
@@ -957,7 +957,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 128,
+        "link_count": 133,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1051,7 +1051,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 178,
+        "link_count": 183,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1153,7 +1153,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 108,
+        "link_count": 120,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1264,7 +1264,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 277,
+        "link_count": 300,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1371,7 +1371,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 123,
+        "link_count": 131,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1467,7 +1467,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 503,
+        "link_count": 539,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1539,7 +1539,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 35,
+        "link_count": 46,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1635,7 +1635,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 187,
+        "link_count": 200,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1744,7 +1744,7 @@
         ]
       },
       "evidence": {
-        "link_count": 340,
+        "link_count": 364,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1839,7 +1839,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 115,
+        "link_count": 121,
         "researchers": [
           "McGlone",
           "Field"
@@ -4069,7 +4069,7 @@
         "domain": "mating_reproduction",
         "domain_display": "Mating & reproduction",
         "name": "Timing: puberty to first birth",
-        "eea_baseline": "Forager women had their first child at about 19 to 20: Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2. Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.",
+        "eea_baseline": "Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.",
         "eea_value": {
           "age_last_birth": 39.0,
           "menarche_range": "12.6 to 18.4 (22 societies)",
@@ -4458,7 +4458,7 @@
         "domain": "mating_reproduction",
         "domain_display": "Mating & reproduction",
         "name": "Sexual stimuli (real people vs unlimited images)",
-        "eea_baseline": "Sexual cues came from real people a forager knew and could meet. No study measures this directly.",
+        "eea_baseline": "Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).",
         "eea_value": null,
         "modern_default": "Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.",
         "gap_statement": "The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.",
@@ -5377,7 +5377,7 @@
         "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors (ext 2280).",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).",
         "mechanism_codes": [
           "M3",
           "R1"

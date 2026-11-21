@@ -1,80 +1,185 @@
 {
  "_about": "THE ONE LIST. Each core idea of Demismatch next to its short mainstream form. check.py reads this file; so do the briefs, the gate and the session start. Change an idea here and nowhere else. Maarten, 21 Nov 2026: 'We need a failsafe foolproof harness in place to not have our own project shoot itself in the foot again by sheer dumbness.'",
- "scopes": {"page": "text a visitor reads on any of our sites", "cor": "Cor's own text: foundations, mechanisms, baseline rows, convergences, applications", "brief": "anything that instructs an agent or a model: briefs, rules, prompts, CLAUDE.md, memory", "finding": "a finding drafted for Cor"},
+ "scopes": {
+  "page": "text a visitor reads on any of our sites",
+  "cor": "Cor's own text: foundations, mechanisms, baseline rows, convergences, applications",
+  "brief": "anything that instructs an agent or a model: briefs, rules, prompts, CLAUDE.md, memory",
+  "finding": "a finding drafted for Cor"
+ },
  "concepts": [
-  {"id": "environment", "ours": "Undo the mismatch: move a person's conditions toward what humans evolved for, as Cor's baseline rows state it (people around you in Dunbar circles, reciprocity, a role).",
+  {
+   "id": "environment",
+   "ours": "One question: does this make the person less mismatched, closer to what humans evolved for as Cor's baseline rows state it? Function, never form: a job, money or a tool counts by what it supplies.",
    "short": "changing the environment helps",
-   "why": "On 21 Nov 2026 the short form let studies of money, vouchers and stress classes count as evidence against the project.",
+   "why": "On 21 Nov 2026 the bare short form let studies of changes that reduced no mismatch count as evidence against the project. A slogan may stay short when the target is explained on the same page.",
    "ask": "Changed toward what? Name the baseline row.",
-   "scopes": ["page", "cor", "brief"],
-   "patterns": ["\\b(chang|fix|correct|improv|alter)(e|es|ed|ing) (the|their|your|his|her|an?|our) (environment|surroundings|world|inputs?)\\b", "\\benvironment(al)? (correction|intervention|change|fix)\\b", "\\bthe fix is (always )?(the|changing the) (environment|world|input)\\b", "\\bfix the (environment|world) first\\b"],
-   "needs_nearby": "evolved for|baseline|mismatch|how humans lived|what humans|what a human|EEA|Dunbar|people who (know|need)|toward what|circles of"},
-  {"id": "generic-evidence", "ours": "A study is evidence about us only when it measured a baseline value moving. Money, a move, a class, a flat or a job among strangers moves none: no evidence for us and none against us.",
-   "short": "people got X and felt better, or no better",
-   "why": "A generic change proves nothing in either direction. Used as proof it is the mirror of the 21 Nov error.",
-   "ask": "Which baseline value did the study move? If none, it is no evidence.",
-   "scopes": ["page", "cor"],
-   "patterns": ["\\b(cash transfers?|cash for|basic income|income supplement|lottery (win|winners?|wealth)|voucher|debt relief|housing first|wellness program(me)?s?|mindfulness (class|course|training)|resilience (training|class)|stress[- ]management (training|class|course)|found work|returned? to work|job training|vocational (training|program(me)?s?|rehabilitation)|supported employment)\\b[^.]{0,160}\\b(lower|rais|reduc|improv|cut|fell|rose|did not|no effect|went with|better|worse|changed|chang)"],
-   "needs_nearby": "EEA-[A-Z]+-\\d+|baseline value|no test|moves? no|moved no|generic change|no evidence|proves nothing"},
-  {"id": "people", "ours": "People who know you and need you, and give back; circles of about 5, 15, 50 and 150.",
+   "scopes": [
+    "cor",
+    "brief"
+   ],
+   "patterns": [
+    "\\b(chang|fix|correct|improv|alter)(e|es|ed|ing) (the|their|your|his|her|an?|our) (environment|surroundings|world|inputs?)\\b",
+    "\\benvironment(al)? (correction|intervention|change|fix)\\b",
+    "\\bthe fix is (always )?(the|changing the) (environment|world|input)\\b",
+    "\\bfix the (environment|world) first\\b"
+   ],
+   "needs_nearby": "evolved for|baseline|mismatch|how humans lived|what humans|what a human|EEA|Dunbar|people who (know|need)|toward what|circles of"
+  },
+  {
+   "id": "people",
+   "ours": "People who know you and need you, and give back; circles of about 5, 15, 50 and 150.",
    "short": "social support, social connection",
-   "why": "A 'social support' programme run by helpers is no band of people who need you. Mainstream studies of the short form then count for or against us.",
+   "why": "A 'social support' programme run by helpers may be no band of people who need you. Ask what it supplied.",
    "ask": "Did the people know and need the person, and did the person give back?",
-   "scopes": ["page", "cor"],
-   "patterns": ["\\bsocial (support|connection|connectedness|contact|integration)\\b", "\\bsupport network\\b"],
-   "attributed_ok": true},
-  {"id": "stand-in", "ours": "A stand-in sets off a system without meeting what the system is for. What is missing does the harm; the hours on a stand-in are not the measure.",
+   "scopes": [
+    "page",
+    "cor"
+   ],
+   "patterns": [
+    "\\bsocial (support|connection|connectedness|contact|integration)\\b",
+    "\\bsupport network\\b"
+   ],
+   "attributed_ok": true
+  },
+  {
+   "id": "stand-in",
+   "ours": "A stand-in sets off a system without meeting what the system is for. What is missing does the harm; the hours on a stand-in are not the measure.",
    "short": "screen time; social media causes depression",
    "why": "Hours on a device are a medium frame. The medium is neutral.",
    "ask": "What is the stand-in standing in for, and is that thing missing?",
-   "scopes": ["page", "cor", "brief"],
-   "patterns": ["\\bscreen[- ]time\\b", "\\b(social media|phones?|smartphones?|screens?) (cause[sd]?|(is|are) causing|make[s]?|made) (teen|people|kids|children|us|you|them|depress|anx)"]},
-  {"id": "esteem", "ours": "Esteem is given and taken by the people around you.",
+   "scopes": [
+    "page",
+    "cor",
+    "brief"
+   ],
+   "patterns": [
+    "\\bscreen[- ]time\\b",
+    "\\b(social media|phones?|smartphones?|screens?) (cause[sd]?|(is|are) causing|make[s]?|made) (teen|people|kids|children|us|you|them|depress|anx)"
+   ]
+  },
+  {
+   "id": "esteem",
+   "ours": "Esteem is given and taken by the people around you.",
    "short": "self-esteem, self-worth, self-love",
    "why": "Esteem worked up alone is a stand-in.",
    "ask": "Who gives the esteem?",
-   "scopes": ["page", "cor"],
-   "patterns": ["\\bself[- ](esteem|worth|love|care)\\b"],
-   "attributed_ok": true},
-  {"id": "disease", "ours": "Only a clear physical defect is a disease, found or not yet found. Otherwise the reaction is a normal human response to a mismatched world. No label is carved out.",
+   "scopes": [
+    "page",
+    "cor"
+   ],
+   "patterns": [
+    "\\bself[- ](esteem|worth|love|care)\\b"
+   ],
+   "attributed_ok": true
+  },
+  {
+   "id": "disease",
+   "ours": "Only a clear physical defect is a disease, found or not yet found. Otherwise the reaction is a normal human response to a mismatched world. No label is carved out.",
    "short": "mental illness, brain disease, chemical imbalance",
    "why": "Disease wording for anything without a defect is the frame the project rejects.",
    "ask": "Is a physical defect the cause? If not, no disease or disorder wording in our voice.",
-   "scopes": ["page", "cor"],
-   "patterns": ["\\b(mental|psychiatric) (illness(es)?|disease|disorders?)\\b", "\\bbrain disease\\b", "\\bchemical imbalance\\b", "\\bmentally ill\\b"],
-   "attributed_ok": true},
-  {"id": "childhood", "ours": "What happened to a person as a child explains little of how they feel now. Genes and the world they live in now explain most. The exception is deprivation far outside anything a human child evolved for.",
+   "scopes": [
+    "page",
+    "cor"
+   ],
+   "patterns": [
+    "\\b(mental|psychiatric) (illness(es)?|disease|disorders?)\\b",
+    "\\bbrain disease\\b",
+    "\\bchemical imbalance\\b",
+    "\\bmentally ill\\b"
+   ],
+   "attributed_ok": true
+  },
+  {
+   "id": "childhood",
+   "ours": "What happened to a person as a child explains little of how they feel now. Genes and the world they live in now explain most. The exception is deprivation far outside anything a human child evolved for.",
    "short": "your trauma, healing your inner child, trauma-informed",
    "why": "The mainstream trauma frame puts the cause in the past and the fix in the person.",
    "ask": "Is the cause in the person's world now?",
-   "scopes": ["page", "cor"],
-   "patterns": ["\\b(unresolved|unprocessed|childhood|generational) trauma (causes?|leads?|explains?|is behind|drives?)\\b", "\\btrauma[- ]informed\\b", "\\binner child\\b", "\\bheal(ing)? (your|their|the) trauma\\b"],
-   "attributed_ok": true},
-  {"id": "medication-whole", "ours": "The medication line travels whole: the drug gets replaced by the real thing; it comes down while the real thing comes in; where stopping suddenly is dangerous, never stop suddenly, and do it with a doctor.",
+   "scopes": [
+    "page",
+    "cor"
+   ],
+   "patterns": [
+    "\\b(unresolved|unprocessed|childhood|generational) trauma (causes?|leads?|explains?|is behind|drives?)\\b",
+    "\\btrauma[- ]informed\\b",
+    "\\binner child\\b",
+    "\\bheal(ing)? (your|their|the) trauma\\b"
+   ],
+   "attributed_ok": true
+  },
+  {
+   "id": "medication-whole",
+   "ours": "The medication line travels whole: the drug gets replaced by the real thing; it comes down while the real thing comes in; where stopping suddenly is dangerous, never stop suddenly, and do it with a doctor.",
    "short": "come off your meds",
    "why": "One half without the other is the regression Maarten named on 18 Nov 2026.",
    "ask": "Are the replacement and the sudden-stop warning both in this text?",
-   "scopes": ["page"],
-   "file_level": {"if": "\\b(com(e|ing) off|taper(ing|ed)?|stop(ping|ped)? (taking )?(the |your |their )?(pills?|drugs?|medication|meds|antidepressants?|antipsychotics?|lithium))\\b", "require_all": ["\\b(never stop suddenly|stop(ping)? suddenly|sudden stop|at once can)\\b", "\\b(with a doctor|doctor)\\b", "\\b(real thing|people who need you|replac)"]}},
-  {"id": "hedge", "ours": "Claim first, at full force. A study missing from Cor is a gap in Cor, never a weakness of the claim.",
+   "scopes": [
+    "page"
+   ],
+   "file_level": {
+    "if": "\\b(com(e|ing) off|taper(ing|ed)?|stop(ping|ped)? (taking )?(the |your |their )?(pills?|drugs?|medication|meds|antidepressants?|antipsychotics?|lithium))\\b",
+    "require_all": [
+     "\\b(never stop suddenly|stop(ping)? suddenly|sudden stop|at once can)\\b",
+     "\\b(with a doctor|doctor)\\b",
+     "\\b(real thing|people who need you|replac)"
+    ]
+   }
+  },
+  {
+   "id": "hedge",
+   "ours": "Claim first, at full force. A study missing from Cor is a gap in Cor, never a weakness of the claim.",
    "short": "no study in Cor; this is our reading",
    "why": "Maarten, 21 Nov 2026: such lines 'are completely unnecessarily tanking the entire project'.",
    "ask": "Is this a gap in Cor printed as a weakness of the claim?",
-   "scopes": ["page"],
-   "patterns": ["\\bno study in Cor\\b", "\\bnobody has measured this\\b", "\\bCor grades this as argued\\b", "\\bthis is our reading\\b", "\\bDemismatch's reading\\b"],
-   "skip_paths": ["DEMISMATCH COR WEBSITE"]},
-  {"id": "banned", "ours": "The permanent prohibitions in the project CLAUDE.md.",
+   "scopes": [
+    "page"
+   ],
+   "patterns": [
+    "\\bno study in Cor\\b",
+    "\\bnobody has measured this\\b",
+    "\\bCor grades this as argued\\b",
+    "\\bthis is our reading\\b",
+    "\\bDemismatch's reading\\b"
+   ],
+   "skip_paths": [
+    "DEMISMATCH COR WEBSITE"
+   ]
+  },
+  {
+   "id": "banned",
+   "ours": "The permanent prohibitions in the project CLAUDE.md.",
    "short": "salt water for thirst; what a human being is; mismatch broke the brain",
    "why": "Each has its reason in CLAUDE.md, Permanent Prohibitions.",
    "ask": "Is this one of the banned framings?",
-   "scopes": ["page", "cor"],
-   "patterns": ["\\bsalt[- ]?water\\b", "\\bwhat a human( being)? is(?=\\s*[.,:;!?\"]|\\s*$)", "\\bhardware (scarring|is damaged)\\b", "\\bre-entry problem\\b", "\\bmodern (human )?suffering is accurate signal", "\\b(broke|damaged|rewired) (your|the|their|our) brains?\\b"]},
-  {"id": "challenge-filing", "ours": "A finding is filed against Cor only with the quoted sentence of Cor's own text it contradicts, and only if the study measured the same thing.",
+   "scopes": [
+    "page",
+    "cor"
+   ],
+   "patterns": [
+    "\\bsalt[- ]?water\\b",
+    "\\bwhat a human( being)? is(?=\\s*[.,:;!?\"]|\\s*$)",
+    "\\bhardware (scarring|is damaged)\\b",
+    "\\bre-entry problem\\b",
+    "\\bmodern (human )?suffering is accurate signal",
+    "\\b(broke|damaged|rewired) (your|the|their|our) brains?\\b"
+   ]
+  },
+  {
+   "id": "challenge-filing",
+   "ours": "A finding is filed against Cor only with the quoted sentence of Cor's own text it contradicts, and only if the study measured the same thing.",
    "short": "a study that cuts against a claim goes in as a challenge",
    "why": "This sentence stood in every research brief and caused the wrong filings of 21 Nov 2026.",
    "ask": "Does the instruction name cor_sentence and same_measure?",
-   "scopes": ["brief"],
-   "patterns": ["cuts? against (a|the|that|this) (claim|page|reading)[^.]{0,120}(challenge|against Cor)", "goes in[^.]{0,80}as (a )?(source_type )?\"?challenge"],
-   "needs_nearby": "cor_sentence|same_measure|sentence of Cor|quoted sentence|NOT a challenge|not a challenge|ONLY when"}
- ]
+   "scopes": [
+    "brief"
+   ],
+   "patterns": [
+    "cuts? against (a|the|that|this) (claim|page|reading)[^.]{0,120}(challenge|against Cor)",
+    "goes in[^.]{0,80}as (a )?(source_type )?\"?challenge"
+   ],
+   "needs_nearby": "cor_sentence|same_measure|sentence of Cor|quoted sentence|NOT a challenge|not a challenge|ONLY when"
+  }
+ ],
+ "_removed": "generic-evidence (21 Nov 2026, afternoon): it flagged any page line about a job or cash study. Maarten: 'the job of any kind could produce a sense of tribe.' Form is no test; the question is what the change supplied. A regular expression cannot ask that, so the pattern is gone."
 }
