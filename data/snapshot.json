@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T11:02:29.593920+00:00",
+    "built_at": "2026-11-21T11:06:15.110976+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 91
+    "challenges": 85
   },
   "tables": {
     "foundations": [
@@ -67112,21 +67112,6 @@
         "url": "corpus.html#e=175"
       },
       {
-        "id": 1036,
-        "work_id": 484,
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=1036"
-      },
-      {
         "id": 551,
         "work_id": 86,
         "mechanism_codes": [
@@ -68496,20 +68481,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=85"
-      },
-      {
-        "id": 828,
-        "work_id": 316,
-        "mechanism_codes": [
-          "M11",
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=828"
       },
       {
         "id": 231,
@@ -76173,6 +76144,19 @@
         "url": "corpus.html#e=2247"
       },
       {
+        "id": 760,
+        "work_id": 248,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=760"
+      },
+      {
         "id": 2249,
         "work_id": 273,
         "mechanism_codes": [
@@ -76212,19 +76196,6 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=758"
-      },
-      {
-        "id": 760,
-        "work_id": 248,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=760"
       },
       {
         "id": 4146,
@@ -80405,36 +80376,6 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=1046"
-      },
-      {
-        "id": 674,
-        "work_id": 163,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=674"
-      },
-      {
-        "id": 1047,
-        "work_id": 163,
-        "mechanism_codes": [
-          "M1",
-          "M11"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA5"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1047"
       },
       {
         "id": 1048,
@@ -85513,6 +85454,21 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1408"
+      },
+      {
+        "id": 1036,
+        "work_id": 484,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1036"
       },
       {
         "id": 1410,
@@ -98417,19 +98373,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2097"
-      },
-      {
-        "id": 2103,
-        "work_id": 1160,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2103"
       },
       {
         "id": 2130,
@@ -130850,6 +130793,19 @@
         "url": "corpus.html#e=4750"
       },
       {
+        "id": 674,
+        "work_id": 163,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=674"
+      },
+      {
         "id": 4706,
         "work_id": 3022,
         "mechanism_codes": [
@@ -130923,6 +130879,20 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=4751"
+      },
+      {
+        "id": 828,
+        "work_id": 316,
+        "mechanism_codes": [
+          "M11",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=828"
       },
       {
         "id": 4708,
@@ -131441,6 +131411,36 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=141"
+      },
+      {
+        "id": 1047,
+        "work_id": 163,
+        "mechanism_codes": [
+          "M1",
+          "M11"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA5"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1047"
+      },
+      {
+        "id": 2103,
+        "work_id": 1160,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2103"
       }
     ],
     "researchers": [
@@ -173377,6 +173377,31 @@
         "reason": "Refiled on 21 Nov 2026. It measured whether food shares between households were paid back in a settled island community; Cor's sentences are about gossip, ridicule and exclusion in mobile bands. It stays in the atlas."
       },
       {
+        "citation": "Fry and Söderberg 2013",
+        "title": "Lethal aggression in mobile forager bands and implications for the origins of war",
+        "reason": "Refiled on 21 Nov 2026. Cor's rows on killing between groups (EEA-THREAT-04, EEA-SOC-17) give these numbers themselves and say how often groups fought is not settled. It stays in the atlas."
+      },
+      {
+        "citation": "Venkataraman et al. 2024",
+        "title": "Female foragers sometimes hunt, yet gendered divisions of labor are real: a comment on Anderson et al. (2023) The Myth of Man the Hunter",
+        "reason": "Refiled on 21 Nov 2026. No sentence of Cor is about who hunted. It stays in the atlas."
+      },
+      {
+        "citation": "Wood and Marlowe 2013",
+        "title": "Household and kin provisioning by Hadza men",
+        "reason": "Refiled on 21 Nov 2026. Cor's row on sharing (EEA-SOC-20) states this finding itself: a hunter's household got more, and the meat was still shared. It stays in the atlas."
+      },
+      {
+        "citation": "von Rueden et al. 2008",
+        "title": "The multiple dimensions of male social status in an Amazonian society",
+        "reason": "Refiled on 21 Nov 2026. Cor's row on standing (EEA-SOC-12) states this finding itself. It stays in the atlas."
+      },
+      {
+        "citation": "Ragsdale and Thornton 2023",
+        "title": "Multiple sources of uncertainty confound inference of historical human generation times",
+        "reason": "Refiled on 21 Nov 2026. It disputes the method behind the time trends of finding 2102. Cor keeps only that finding's average and no sentence of Cor rests on the trends. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -174556,24 +174581,6 @@
         ]
       },
       {
-        "id": 1036,
-        "extraction_id": 1036,
-        "work_id": 484,
-        "title": "The multiple dimensions of male social status in an Amazonian society",
-        "content": "The multiple dimensions of male social status in an Amazonian society",
-        "citation": "von Rueden C, Gurven M, Kaplan H, 2008",
-        "authors": "von Rueden C, Gurven M, Kaplan H",
-        "year": 2008,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2"
-        ]
-      },
-      {
         "id": 762,
         "extraction_id": 762,
         "work_id": 250,
@@ -174618,23 +174625,6 @@
         "evidence_quality": "contested",
         "mechanism_codes": [
           "M14"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 828,
-        "extraction_id": 828,
-        "work_id": 316,
-        "title": "Household and kin provisioning by Hadza men",
-        "content": "Household and kin provisioning by Hadza men",
-        "citation": "Wood BM, Marlowe FW, 2013",
-        "authors": "Wood BM, Marlowe FW",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M11",
-          "M9"
         ],
         "foundation_codes": []
       },
@@ -174846,22 +174836,6 @@
         "foundation_codes": []
       },
       {
-        "id": 760,
-        "extraction_id": 760,
-        "work_id": 248,
-        "title": "Female foragers sometimes hunt, yet gendered divisions of labor are real: a comment on Anderson et al. (2023) The Myth of Man the Hunter",
-        "content": "Female foragers sometimes hunt, yet gendered divisions of labor are real: a comment on Anderson et al. (2023) The Myth of Man the Hunter",
-        "citation": "Venkataraman VV, Hoffman J, Farquharson K, et al., 2024",
-        "authors": "Venkataraman VV, Hoffman J, Farquharson K, et al.",
-        "year": 2024,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": []
-      },
-      {
         "id": 764,
         "extraction_id": 764,
         "work_id": 252,
@@ -174927,42 +174901,6 @@
         ],
         "foundation_codes": [
           "DA2"
-        ]
-      },
-      {
-        "id": 674,
-        "extraction_id": 674,
-        "work_id": 163,
-        "title": "Lethal aggression in mobile forager bands and implications for the origins of war",
-        "content": "Lethal aggression in mobile forager bands and implications for the origins of war",
-        "citation": "Douglas P. Fry, Patrik Söderberg, 2013",
-        "authors": "Douglas P. Fry, Patrik Söderberg",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 1047,
-        "extraction_id": 1047,
-        "work_id": 163,
-        "title": "Lethal aggression in mobile forager bands and implications for the origins of war",
-        "content": "Lethal aggression in mobile forager bands and implications for the origins of war",
-        "citation": "Douglas P. Fry, Patrik Söderberg, 2013",
-        "authors": "Douglas P. Fry, Patrik Söderberg",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [
-          "M1",
-          "M11"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA5"
         ]
       },
       {
@@ -175669,22 +175607,6 @@
         ],
         "foundation_codes": [
           "DA2"
-        ]
-      },
-      {
-        "id": 2103,
-        "extraction_id": 2103,
-        "work_id": 1160,
-        "title": "Multiple sources of uncertainty confound inference of historical human generation times",
-        "content": "Multiple sources of uncertainty confound inference of historical human generation times",
-        "citation": "Ragsdale AP, Thornton KR, 2023",
-        "authors": "Ragsdale AP, Thornton KR",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "contested",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P1"
         ]
       },
       {
