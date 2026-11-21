@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T02:47:54.287628+00:00",
+    "source_built_at": "2026-11-21T03:20:04.713590+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1227,
-    "extractions": 2215,
+    "works": 1352,
+    "extractions": 2411,
     "researchers": 84,
-    "mechanism_evidence": 2483,
+    "mechanism_evidence": 2705,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 322
+    "challenges": 335
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -458,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 289,
+        "link_count": 311,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 242,
+        "link_count": 257,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 480,
+        "link_count": 516,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -747,7 +747,7 @@
         ]
       },
       "evidence": {
-        "link_count": 125,
+        "link_count": 137,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -848,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 241,
+        "link_count": 263,
         "researchers": [
           "Gilbert",
           "Price",
@@ -958,7 +958,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 74,
+        "link_count": 89,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1052,7 +1052,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 102,
+        "link_count": 114,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1154,7 +1154,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 60,
+        "link_count": 62,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1265,7 +1265,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 170,
+        "link_count": 185,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1372,7 +1372,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 58,
+        "link_count": 68,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1468,7 +1468,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 267,
+        "link_count": 297,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1636,7 +1636,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 90,
+        "link_count": 98,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1745,7 +1745,7 @@
         ]
       },
       "evidence": {
-        "link_count": 217,
+        "link_count": 234,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1840,7 +1840,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 49,
+        "link_count": 55,
         "researchers": [
           "McGlone",
           "Field"
@@ -2392,8 +2392,8 @@
             "extraction_id": 687,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers",
-            "content": "Among Agta and Mbendjele BaYaka foragers, a model in which men and women had equal say over where couples lived reproduced the low within-camp relatedness seen in those camps."
+            "author_quote": "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers.",
+            "content": "Dyble and colleagues built an agent-based model of camp formation in which every individual tries to live with as many kin as possible. Within-camp relatedness came out low when men and women had equal influence over who joined the camp, and the model closely matched observed pat"
           }
         ],
         "evidence_count": 4
@@ -2514,8 +2514,8 @@
             "extraction_id": 687,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers",
-            "content": "Among Agta and Mbendjele BaYaka foragers, a model in which men and women had equal say over where couples lived reproduced the low within-camp relatedness seen in those camps."
+            "author_quote": "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers.",
+            "content": "Dyble and colleagues built an agent-based model of camp formation in which every individual tries to live with as many kin as possible. Within-camp relatedness came out low when men and women had equal influence over who joined the camp, and the model closely matched observed pat"
           }
         ],
         "evidence_count": 4
@@ -3815,8 +3815,8 @@
             "extraction_id": 692,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important. Unlike college students, Hadza men place considerable importance on women being hard-working, and Hadza women cite looks about as often as men do",
-            "content": "Hadza men and women both rated character as important in a spouse; women placed great importance on a man's foraging, and men placed considerable importance on a woman being hard-working."
+            "author_quote": "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important.",
+            "content": "Among Hadza hunter-gatherers of Tanzania, Marlowe collected mate preference data from men and women. Hadza men valued fertility in a mate more than women did, and women valued intelligence more than men did. Women placed great importance on a man's foraging, and both sexes rated"
           },
           {
             "extraction_id": 1011,
@@ -4304,8 +4304,8 @@
             "extraction_id": 692,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important. Unlike college students, Hadza men place considerable importance on women being hard-working, and Hadza women cite looks about as often as men do",
-            "content": "Hadza men and women both rated character as important in a spouse; women placed great importance on a man's foraging, and men placed considerable importance on a woman being hard-working."
+            "author_quote": "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important.",
+            "content": "Among Hadza hunter-gatherers of Tanzania, Marlowe collected mate preference data from men and women. Hadza men valued fertility in a mate more than women did, and women valued intelligence more than men did. Women placed great importance on a man's foraging, and both sexes rated"
           },
           {
             "extraction_id": 1002,
@@ -4795,8 +4795,8 @@
             "extraction_id": 703,
             "evidence_role": "supporting",
             "evidence_quality": "contested",
-            "author_quote": null,
-            "content": "A review of 45 studies found that in almost all of them at least one relative besides the mother improved child survival, most consistently maternal grandmothers and older siblings (the latter from few studies), while fathers improved survival in only a third of studies."
+            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
+            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
           },
           {
             "extraction_id": 704,
@@ -5020,8 +5020,8 @@
             "extraction_id": 785,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "Young boys did not engage in more rough-and-tumble play than girls, but adolescent boys participated in this type of play more than adolescent girls. Children were also more likely to participate in work-themed play which conformed to gender norms within their society",
-            "content": "Among Hadza and BaYaka forager children, most social play happened in mixed-gender groups, children played in same-gender groups more often in camps with more children, and some play, such as work-themed pretend play, followed adult gender roles."
+            "author_quote": "Overall, children in our sample spent 60.1% of their social play observations in mixed-gender groups, representing 70.1% of social play observations for the Hadza and 54.8% for the BaYaka.",
+            "content": "In the same study, 60.1% of children's social play observations were in mixed-gender groups (70.1% among the Hadza, 54.8% among the BaYaka), and children played in mixed-gender groups less often in camps with more available playmates; camps held on average 15.7 children aged 3 to"
           },
           {
             "extraction_id": 786,
@@ -5122,8 +5122,8 @@
             "extraction_id": 703,
             "evidence_role": "supporting",
             "evidence_quality": "contested",
-            "author_quote": null,
-            "content": "A review of 45 studies found that in almost all of them at least one relative besides the mother improved child survival, most consistently maternal grandmothers and older siblings (the latter from few studies), while fathers improved survival in only a third of studies."
+            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
+            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
           },
           {
             "extraction_id": 710,
@@ -6358,8 +6358,8 @@
             "extraction_id": 725,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
-            "author_quote": null,
-            "content": "In small-scale hunter-gatherer and horticulturalist populations, illness caused about 70 percent of deaths on average, with infections such as respiratory and gut disease prominent, while violence and accidents caused about 19 percent on average, ranging from 4 to 69 percent."
+            "author_quote": "Illnesses account for 70 percent, violence and accidents for 20 percent, and degenerative diseases for 9 percent of all deaths in our sample.",
+            "content": "Pooling 3,328 recorded deaths from hunter-gatherer and forager-horticulturalist populations (among them Hadza, !Kung, Ache, Hiwi, Agta, Yanomamo and Tsimane, some partly acculturated), Gurven and Kaplan find that illness accounted for about 70% of deaths, violence and accidents f"
           }
         ],
         "evidence_count": 8

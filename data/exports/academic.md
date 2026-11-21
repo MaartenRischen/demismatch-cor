@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-21 02:48 UTC, from the live Cor atlas snapshot built 2026-11-21 02:47 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-21 03:20 UTC, from the live Cor atlas snapshot built 2026-11-21 03:20 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 1227 works, 2215 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 1352 works, 2411 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (15 contested-flagged).
 
 ---
 ## How to read this document
@@ -638,7 +638,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#601 · tested many times · supporting: "first-order relatives make up less than 10% of residential camps"
 - ext#605 · tested once · primary: "Relatedness within camps is low with primary kin comprising, on average, 1.43 and 1.93 of men and women's campmates respectively."
 - ext#683 · tested many times · supporting: In 32 present-day forager societies, most members of a residential band were not close genetic kin of one another.
-- ext#687 · tested once · supporting: "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers"
+- ext#687 · tested once · supporting: "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers."
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Low relatedness within camps comes from a 32-society co-residence census (Hill et al. 2011) and is repeated by separate teams in Hadza, Agta and BaYaka (Apicella et al. 2012; Dyble et al. 2015); the under-10-percent primary-kin figure is Hadza-anchored.*
 
@@ -695,7 +695,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#598 · tested once · primary: "An "ego" (the naming person) is 44.2 times (95% C.I. 37.6 to 51.4) more likely to name an "alter" (the named person) in the campmate network, and 14.3 times (95% C.I. 12.2 to 16.4) more likely to name an alter in the gift network, if the alter reciprocated the social tie by also naming the ego as a friend"
 - ext#599 · tested once · primary: "in both the campmate and gift networks, social ties are significantly more likely when two people are similar in age, height, weight, body fat, and handgrip strength."
 - ext#600 · tested once · supporting: "social distance appears to be as important as genetic relatedness and physical proximity in explaining assortativity in cooperation"
-- ext#687 · tested once · supporting: "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers"
+- ext#687 · tested once · supporting: "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers."
 
 *Confidence note: Shuffle algorithm now grounded in Apicella 2012 full text: trait homophily, strong reciprocity (44.2x campmate / 14.3x gift), and social distance as important as genetic relatedness (kinship not the sole glue). Single Hadza population; kept thin.*
 
@@ -1081,7 +1081,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#690 · tested once · primary: In most foraging societies in the ethnographic record, parents or other kin arranged marriages, so free individual mate choice was not the usual pattern.
 - ext#996 · tested once · primary: "arrangement of marriage by parents or close kin is the primary mode of marriage in 85% of the sample; brideservice, brideprice, or some type of exchange between families is found in 80% of the sample; and less than 20% of men are married polygynously in 87% of the sample"
 - ext#691 · argued, not yet tested · supporting: "Arranged marriages are inferred to go back at least to first modern human migrations out of Africa. Reconstructions are equivocal on whether or not earlier human marriages were arranged because several African hunter-gatherers have courtship marriages"
-- ext#692 · tested once · supporting: "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important. Unlike college students, Hadza men place considerable importance on women being hard-working, and Hadza women cite looks about as often as men do"
+- ext#692 · tested once · supporting: "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important."
 - ext#1011 · tested once · primary: "We identify 2013 as the approximate year when meeting online surpassed meeting through friends for heterosexual couples in the United States."
 - (+8 more linked extraction(s))
 
@@ -1219,7 +1219,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#770 · tested many times · primary: "Anecdotal evidence from many hunter-gatherer societies suggests that successful hunters experience higher prestige and greater reproductive success. Detailed quantitative data on these patterns are now available for five widely dispersed cases (Ache, Hadza, !Kung, Lamalera, and Meriam) and indicate that better hunters exhibit higher age-corrected reproductive success than other men in their social group"
 - ext#772 · tested once · supporting: "we find that men with low voice pitch have higher reproductive success and more children born to them. However, voice pitch in men does not predict child mortality"
 - ext#771 · tested once · supporting: "Finally, men with stronger upper-bodies experienced greater reproductive success, a result that is largely mediated by hunting reputation"
-- ext#692 · tested once · supporting: "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important. Unlike college students, Hadza men place considerable importance on women being hard-working, and Hadza women cite looks about as often as men do"
+- ext#692 · tested once · supporting: "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important."
 - ext#1002 · tested many times · primary: "When all populations of human beings are considered together, males exhibit higher mean variation in RS than females (one-sample t test, t17 = 3.82, p = 0.001)."
 - (+11 more linked extraction(s))
 
@@ -1420,7 +1420,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#401 · argued, not yet tested · supporting: "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule."
 - ext#274 · argued, not yet tested · supporting: "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species."
 - ext#403 · argued, not yet tested · supporting: "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times."
-- ext#703 · contested · supporting: A review of 45 studies found that in almost all of them at least one relative besides the mother improved child survival, most consistently maternal grandmothers and older siblings (the latter from few studies), while fathers improved survival in only a third of studies.
+- ext#703 · contested · supporting: "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)"
 - (+7 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved.*
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 02:47 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 02:48 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-21 03:20 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-21 03:20 UTC.*
