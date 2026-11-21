@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T13:32:56.995843+00:00",
+    "built_at": "2026-11-21T13:41:33.513365+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -188,7 +188,7 @@
         "statement": "Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.",
         "derivation": "Tinbergen (supernormal stimuli) + Berridge & Robinson (wanting/liking dissociation).",
         "epistemic_grade": "forced",
-        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after 25 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and at the same blood level a faster rise gives more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), were used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Open: pituri in Central Australia was chewed almost without pause in a small-scale setting, and no study measured what people gave up for it (ext 2519, 2520). Feeds (project position, 21 Nov 2026). A feed is a stand-in for company and standing among people who know you. What is missing does the harm, and the hours on a feed are not the measure: across 143 studies time on social media and low-mood scores correlate at about 0.08 (ext 104), and the diaries of 17,247 adolescents show little link (ext 102). Quitting alone changes little, because it takes the stand-in away and puts nothing in its place: ten experiments found no effect on mood or life satisfaction (ext 2009), and the two largest paid experiments found small gains (ext 2006, 2008). Leaving alone costs: students wanted about 50 US dollars to give up TikTok or Instagram for four weeks while their friends stayed on, and 60 percent of the TikTok users and 46 percent of the Instagram users put a negative value on the platform existing at all (ext 2406). The harm shows when a whole group moves onto a feed: the arrival of Facebook at 775 US colleges raised an index of poor mental health by 0.085 standard deviations (ext 2031). College-bound US high school seniors spent an hour a day less with friends in person in 2016 than in the late 1980s (ext 2251). The medium is neutral: couples who met online stay together and rate their relationship as couples who met offline do (ext 1740, 1741, 2293).",
+        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after about 23 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and with a sedative at the same peak blood level, a faster rise gave more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), tobacco in the Americas was typically used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Open: pituri in Central Australia was chewed almost without pause in a small-scale setting, and no study measured what people gave up for it (ext 2519, 2520). Feeds (project position, 21 Nov 2026). A feed is a stand-in for company and standing among people who know you. What is missing does the harm, and the hours on a feed are not the measure: across 143 studies adolescents (ext 104), and the diaries of 17,247 adolescents show little link (ext 102). Quitting alone changes little, because it takes the stand-in away and puts nothing in its place: ten experiments found no significant effect on mood or life satisfaction (ext 2009), and the two largest paid experiments found small gains, in the first with more time spent with friends and family (ext 2006, 2008). Leaving alone costs: students wanted about 50 US dollars to give up TikTok or Instagram for four weeks while their friends stayed on, and 60 percent of the TikTok users and 46 percent of the Instagram users put a negative value on the platform when the question was its removal for their whole university (ext 2406). The harm shows when a whole group moves onto a feed: the arrival of Facebook at 775 US colleges raised an index of poor mental health by 0.085 standard deviations (ext 2031). College-bound US high school seniors spent an hour a day less with friends in person in 2016 than in the late 1980s (ext 2251). The medium is neutral: couples who met online stay together and rate their relationship as couples who met offline do (ext 1740, 1741, 2293).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -203,17 +203,6 @@
         "created_at": "2026-04-08T14:00:24.018102+00:00"
       },
       {
-        "id": 19,
-        "code": "DC3",
-        "layer": "consequence",
-        "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is costly and tiring, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that undo a mismatch, moving the organism's actual input conditions toward what it evolved for (the baseline rows of this atlas), are therefore more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
-        "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. One question decides whether a change counts: did it make the person less mismatched? The form of the change decides nothing. A job, money, a move or a tool counts by what it supplies: a job can bring a role and people who need you, and money can end a threat. A little less mismatch is better than none. When a charity paid off the debts of poor households in Singapore, the share with the symptoms of generalised anxiety fell from 78 to 53 percent within three months (ext 1712). When a casino income lifted families out of poverty, their children's psychiatric symptom counts fell to the level of children who had never been poor, through fewer conduct and oppositional symptoms (ext 1315, 2243). Cash for poor households lowered depression and anxiety scores while it was paid; after the payments ended the gain was no longer found (ext 1311, 1312). A change that leaves a person as mismatched as before is nothing against this property when it does little: a lottery prize (ext 1713), a flat of one's own (ext 2842), a contact programme run by helpers (ext 2108). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts: with the same body, use rose and fell with the setting. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). Neither study measured what the men lived among, so they show that the body's dependence does not decide, and nothing more. What the person comes back to decides (project position): people who know and need them, and a role among them (EEA-SOC-01, EEA-SOC-11). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); no study has put long-term users among people who need them; craving set off by cues goes with a later return to use (ext 2854); in rats, after long access, housing and rank no longer changed intake (ext 933, 935). A job counts by what it supplies. Women in drug treatment in Baltimore who were given paid work, kept on condition of drug-free urine, gave cocaine-negative samples 54 percent of the time over three years, against 28 percent in usual care (ext 2454). In another trial a job of the same kind with no drug rule did less, 10 percent against 29 percent with the rule (ext 2455). What the work supplied beyond pay was not measured in either. Not counted against this position, because nothing in them brought the person people who know and need them: a flat of one's own (ext 2842) and 33 years in the setting of the habit (ext 2835). Costly and tiring (21 Nov 2026). Self-control is no measured drain on the body's energy: blood glucose did not fall in four self-control experiments (ext 5001), the brain uses about a fifth of the body's energy at a near-constant rate (ext 5007), and two tests in 23 and 36 laboratories found no ego depletion (ext 4294, 4295). It is a cost all the same: people choose the option that asks less mental control (ext 4298), and after a workday of hard control work people chose easier and quicker options and had more glutamate in the lateral prefrontal cortex (ext 5013).",
-        "created_at": "2026-04-08T14:02:55.382263+00:00"
-      },
-      {
         "id": 11,
         "code": "DA7",
         "layer": "property",
@@ -221,8 +210,19 @@
         "statement": "The architecture calibrates to developmental and ongoing environmental input within evolved ranges.",
         "derivation": "Bowlby (internal working models) + Hrdy + McEwen + Meaney (HPA-axis calibration).",
         "epistemic_grade": "forced",
-        "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced. Childhood and the adult (project position, 21 Nov 2026). What happened to a person as a child explains little of how they feel now; their genes and the world they live in now explain most. Across fifty years of twin studies genes account for 49 percent of the differences between people and the shared home for 17 percent (ext 637, 638). Adoptive siblings reared together correlate .04 in personality (ext 2880). With genes and family held equal, the link between childhood maltreatment and later mental health problems is 45 percent smaller (ext 1638); maltreatment on a court record and not recalled goes with no raised rate of diagnoses (ext 1640); recorded and recalled maltreatment barely overlap (ext 2888). Attachment in infancy does not predict attachment more than 15 years later (ext 2893). After a frightening event most people come through: 9.2 percent met the criteria for PTSD after an event drawn at random from their life (ext 2912). The exception is deprivation far outside anything a human child evolved for (C12). Children assigned by lot to foster care scored lower on general symptoms at 16 than children left in an institution (ext 2909). Romanian children who spent more than six months in an institution still had more problems at 22 to 25 in supportive adoptive homes, and those adopted before six months did not (ext 2903). Open: brothers adopted away scored 4.41 IQ points higher at 18 to 20 than brothers reared at home (ext 2877), and adopted-away siblings of a parent diagnosed with depression were diagnosed with it 23 percent less often (ext 2878); the adoptive family explained 14 percent of schooling and 33 percent of drinking among Korean American adoptees (ext 2872); in poor US families the shared home accounted for about 60 percent of IQ differences at age 7 (ext 2896); people diagnosed with PTSD show a raised heart rate at rest, with no reminder present (ext 2917); an earlier meta-analysis found attachment moderately stable over the first 19 years (ext 2892).",
+        "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced. Childhood and the adult (project position, 21 Nov 2026). What happened to a person as a child explains little of how they feel now; their genes and the world they live in now explain most. Across all traits measured in fifty years of twin studies genes account for 49 percent of the differences between people and the environment twins share for 17 percent (ext 637, 638). Adoptive siblings reared together correlate .04 in personality (ext 2880). With confounding by genes and family adjusted for in quasi-experimental designs, the link between childhood maltreatment and later mental health problems is 45 percent smaller (ext 1638); maltreatment on a court record and not recalled goes with no raised rate of diagnoses (ext 1640); recorded and recalled maltreatment agree poorly: about half of each group is missing from the other (ext 2888). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). After a frightening event most people come through: 9.2 percent met the criteria for PTSD after an event drawn at random from their life (ext 2912). The exception is deprivation far outside anything a human child evolved for (C12). Children assigned by lot to foster care scored lower on general symptoms at 16 than children assigned to stay in institutional care (ext 2909). Romanian children who spent more than six months in an institution still had more problems at 22 to 25 in supportive adoptive homes, and those adopted before six months mostly did not (ext 2903). Open: brothers adopted away scored 4.41 IQ points higher at 18 to 20 than brothers reared at home (ext 2877), and children of a parent diagnosed with depression who were adopted away were diagnosed with it 23 percent less often than their home-reared full siblings (ext 2878); the adoptive family explained 14 percent of schooling and 33 percent of drinking among Korean American adoptees (ext 2872); in poor US families the shared home accounted for about 60 percent of IQ differences at age 7 (ext 2896); people diagnosed with PTSD show a raised heart rate at rest, with no reminder present (ext 2917); an earlier meta-analysis found attachment moderately stable over the first 19 years (ext 2892).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
+      },
+      {
+        "id": 19,
+        "code": "DC3",
+        "layer": "consequence",
+        "name": "Environment as Primary Intervention Layer",
+        "statement": "Cortical override of subcortical activation is costly and tiring, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that undo a mismatch, moving the organism's actual input conditions toward what it evolved for (the baseline rows of this atlas), are therefore more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "epistemic_grade": "plausible_synthesis",
+        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. One question decides whether a change counts: did it make the person less mismatched? The form of the change decides nothing. A job, money, a move or a tool counts by what it supplies: a job can bring a role and people who need you, and money can end a threat. A little less mismatch is better than none. When a charity paid off the debts of poor households in Singapore, the share with the symptoms of generalised anxiety fell from 78 to 53 percent within three months (ext 1712). When a casino income lifted families out of poverty, their children's psychiatric symptom counts fell to the level of children who had never been poor, through fewer conduct and oppositional symptoms (ext 1315, 2243). Cash for poor households in low- and middle-income countries lowered depression and anxiety scores while it was paid; after the payments ended the gain was smaller and no longer statistically significant (ext 1311, 1312). A change that leaves a person as mismatched as before is nothing against this property when it does little: a lottery prize (ext 1713), a flat of one's own (ext 2842), programmes that arranged more chances to meet people (ext 2108). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it follows a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts: with the same body, use rose and fell with the setting. One in five US Army enlisted men leaving Vietnam in 1971 had become dependent on heroin or opium there (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home, though under 10 percent pure against 90 percent in Vietnam (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and on 81 percent of their returns while abstinent they were using again within a month (ext 2833, 2834). Neither study measured what the men lived among, so they show that the body's dependence does not decide, and nothing more. What the person comes back to decides (project position): people who know and need them, and a role among them (EEA-SOC-01, EEA-SOC-11). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers 80 percent of the wage and social security costs, for up to two years, of people in or after drug treatment (ext 2452); the report gives no figure for what that did to drug use. Open: after long access, housing and rank no longer changed how much rats drank (ext 933); craving set off by cues goes with a later return to use (ext 2854). Not studied: the home the Vietnam men came back to was not among the predictors analysed (ext 2816, 2820), Robins rejects the absence of the cues of use as the explanation (ext 2821), and Cor holds no study that put long-term users among people who need them. A job counts by what it supplies. Women in drug treatment in Baltimore who were given paid work, kept on condition of drug-free urine, gave cocaine-negative samples 54 percent of the time over three years, against 28 percent in usual care (ext 2454). In another trial a job of the same kind with no drug rule did less, 10 percent against 29 percent with the rule (ext 2455). What the work supplied beyond pay was not measured in either. Not counted against this position, because nothing in them brought the person people who know and need them: a flat of one's own (ext 2842) and a 33-year follow-up of men treated under compulsion, which measured nothing of where they lived (ext 2835). Costly and tiring (21 Nov 2026). Self-control is no measured drain on the body's energy: blood glucose did not fall in four short self-control experiments in people who had eaten (ext 5001), the brain uses about a fifth of the body's energy at a near-constant rate (ext 5007), and two tests in 23 and 36 laboratories found ego depletion near zero (d 0.04 and 0.06) (ext 4294, 4295). It is a cost all the same: people choose the option that asks less mental control (ext 4298), and after a workday of hard control work people chose easier and quicker options and had more glutamate in the lateral prefrontal cortex (ext 5013).",
+        "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
     "mechanisms": [
@@ -1758,7 +1758,7 @@
         "id": 7,
         "code": "C7",
         "name": "Adverse Experience Cascading Dose-Response",
-        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no effect of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines.",
+        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no significant effect (ext 1653) of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines.",
         "independent_literatures": [
           "McEwen allostatic load neuroendocrinology",
           "Panksepp cross-system inhibition affective neuroscience"
@@ -1913,7 +1913,7 @@
         "id": 12,
         "code": "C12",
         "name": "Developmental Calibration within Evolved Ranges",
-        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ: adoptive siblings reared together correlate .04 in personality, and attachment in infancy does not predict attachment more than 15 years later. Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
+        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality and attachment: adoptive siblings reared together correlate .04 in personality (ext 2880), and attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
         "independent_literatures": [
           "Nelson, Zeanah and Fox Bucharest Early Intervention Project (randomised trial)",
           "Rutter and Sonuga-Barke English and Romanian Adoptees study (natural experiment)",
@@ -81194,22 +81194,6 @@
         "url": "corpus.html#e=425"
       },
       {
-        "id": 2267,
-        "work_id": 1253,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5",
-          "DA8"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=2267"
-      },
-      {
         "id": 2271,
         "work_id": 1256,
         "mechanism_codes": [
@@ -84753,21 +84737,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=1092"
-      },
-      {
-        "id": 4512,
-        "work_id": 2876,
-        "mechanism_codes": [
-          "M13"
-        ],
-        "foundation_codes": [
-          "DC2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=4512"
       },
       {
         "id": 2298,
@@ -101261,6 +101230,21 @@
         "url": "corpus.html#e=2054"
       },
       {
+        "id": 2711,
+        "work_id": 1566,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2711"
+      },
+      {
         "id": 2059,
         "work_id": 1137,
         "mechanism_codes": [
@@ -104347,22 +104331,6 @@
         "url": "corpus.html#e=1783"
       },
       {
-        "id": 4334,
-        "work_id": 2749,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=4334"
-      },
-      {
         "id": 2536,
         "work_id": 1438,
         "mechanism_codes": [
@@ -106623,21 +106591,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2710"
-      },
-      {
-        "id": 2711,
-        "work_id": 1566,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=2711"
       },
       {
         "id": 2712,
@@ -113729,21 +113682,6 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=3169"
-      },
-      {
-        "id": 3170,
-        "work_id": 1872,
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=3170"
       },
       {
         "id": 3171,
@@ -127902,21 +127840,6 @@
         "url": "corpus.html#e=3981"
       },
       {
-        "id": 3982,
-        "work_id": 2470,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=3982"
-      },
-      {
         "id": 3983,
         "work_id": 2471,
         "mechanism_codes": [
@@ -129566,23 +129489,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4111"
-      },
-      {
-        "id": 4112,
-        "work_id": 2576,
-        "mechanism_codes": [
-          "M8",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA3",
-          "DC1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=4112"
       },
       {
         "id": 4676,
@@ -139139,6 +139045,100 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=4906"
+      },
+      {
+        "id": 3170,
+        "work_id": 1872,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=3170"
+      },
+      {
+        "id": 3982,
+        "work_id": 2470,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=3982"
+      },
+      {
+        "id": 4112,
+        "work_id": 2576,
+        "mechanism_codes": [
+          "M8",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA3",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=4112"
+      },
+      {
+        "id": 4334,
+        "work_id": 2749,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=4334"
+      },
+      {
+        "id": 4512,
+        "work_id": 2876,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": [
+          "DC2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=4512"
+      },
+      {
+        "id": 2267,
+        "work_id": 1253,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5",
+          "DA8"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2267"
       }
     ],
     "researchers": [
@@ -174024,7 +174024,7 @@
           "adult_social_touch": "frequent affiliative body contact / grooming-homolog from trusted others"
         },
         "modern_default": "Adult-to-adult affiliative touch is sharply curtailed in WEIRD societies by personal-space norms, professionalization of touch, and screen-mediated relationships; trusted-other touch is increasingly confined to a single partner or absent entirely, and remote communication carries none of it.",
-        "gap_statement": "Loss of routine affiliative touch from trusted others removes a direct endorphin-bonding and cortisol/cardiovascular stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.",
+        "gap_statement": "Loss of routine affiliative touch from trusted others removes a bonding and stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.",
         "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
         "evidence_grade": "theoretical",
         "contested": false,
@@ -175165,7 +175165,7 @@
         "resolution_unit": null,
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017). Background-tier evidence cited (abstract or book only): ext 1022, 1023, 1029, 841.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017).",
         "created_at": "2026-11-19T02:41:26.383257+00:00",
         "updated_at": "2026-11-19T02:41:26.383257+00:00",
         "mechanism_codes": [
@@ -175283,79 +175283,10 @@
         ]
       },
       {
-        "code": "EEA-THREAT-03",
-        "domain": "threat_safety",
-        "name": "Real-vs-perceived threat ratio and all-clear resolution",
-        "eea_baseline": "Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.",
-        "eea_value": {
-          "quantified": false,
-          "resolution": "behavioral_all_clear_plus_social_all_clear",
-          "termination": "reliable",
-          "alarm_validity": "mostly_real_present_verifiable",
-          "false_alarm_rate": "high_but_each_resolved"
-        },
-        "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
-        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
-        "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect.",
-        "created_at": "2026-06-08T12:32:58.731416+00:00",
-        "updated_at": "2026-06-08T12:32:58.731416+00:00",
-        "mechanism_codes": [
-          "M1",
-          "M8"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 331,
-            "evidence_role": "primary",
-            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
-            "evidence_quality": "replicated",
-            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
-          },
-          {
-            "extraction_id": 469,
-            "evidence_role": "primary",
-            "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
-            "evidence_quality": "theoretical",
-            "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
-          },
-          {
-            "extraction_id": 308,
-            "evidence_role": "supporting",
-            "author_quote": "My view is that some major illnesses considered distinct and \"mental\" are all rooted in a chronically unbalanced body budget and unbridled inflammation. We categorize and name them as different disorders, based on context, much like we categorize and name the same bodily changes as different emotions.",
-            "evidence_quality": "theoretical",
-            "content": "Barrett proposes that major illnesses considered distinct and mental - chronic stress, chronic pain, anxiety, depression - are all rooted in a chronically unbalanced body budget and unbridled inflammation. Different disorders share symptoms, cause atrophy in the same brain region"
-          },
-          {
-            "extraction_id": 565,
-            "evidence_role": "supporting",
-            "author_quote": "Out of 1000 episodes of flight at this response threshold, on the average, 999 will be false alarms and only 1 will be flight from an actual predator.",
-            "evidence_quality": "theoretical",
-            "content": "The smoke detector principle formalized via signal detection theory. For all-or-none defenses, expression is optimal whenever p(Harm) > Cost_defense/Cost_harm. With a 1000:1 cost ratio (300 kcal flight vs 300,000 kcal predator attack), the optimal threshold produces 999 false ala"
-          },
-          {
-            "extraction_id": 125,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking "
-          },
-          {
-            "extraction_id": 461,
-            "evidence_role": "primary",
-            "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
-            "evidence_quality": "theoretical",
-            "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
-          }
-        ]
-      },
-      {
         "code": "EEA-CARE-01",
         "domain": "care_development",
         "name": "Alloparental care supply (a village, not a dyad)",
-        "eea_baseline": "Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the holding of infants under four and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.",
+        "eea_baseline": "Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.",
         "eea_value": {
           "note": "Specific aggregate 'alloparent count ~4+' and a generic '40-50% of care delivered by allomothers' figure are widely cited in the literature but are NOT verbatim-grounded in Cor's extractions; only the Hadza ~69/31 mother/allomother holding split and the qualitative multi-caregiver pattern are. Numbers given are the extraction-supported anchors, not an asserted universal mean.",
           "unit": "qualitative_plus_anchors",
@@ -175516,6 +175447,75 @@
             "author_quote": "parents and grandparents consisted of less than 1% of playgroup members",
             "evidence_quality": "thin",
             "content": "Among Agta foragers (78 children aged 0-6 observed in 2014), children aged 2-6 spent about 13 percent of observations in children-only playgroups, where most care partners were children aged 6-11, with sisters more common than brothers, and playgroups were linked to less maternal"
+          }
+        ]
+      },
+      {
+        "code": "EEA-THREAT-03",
+        "domain": "threat_safety",
+        "name": "Real-vs-perceived threat ratio and all-clear resolution",
+        "eea_baseline": "Ancestral threat activations were predominantly responses to real, present, perceptually-verifiable dangers, and crucially each activation was terminated by an all-clear: the predator left, the danger passed, safety was confirmed. The smoke-detector logic produced many false alarms (a 1000:1 cost asymmetry makes ~999 false alarms per real escape optimal), but each alarm - true or false - was followed by behavioral resolution and a return to baseline, often reinforced by a SOCIAL all-clear (proximity, touch, return to the group), which returns the threat-responsive brain to relative calm.",
+        "eea_value": {
+          "quantified": false,
+          "resolution": "behavioral_all_clear_plus_social_all_clear",
+          "termination": "reliable",
+          "alarm_validity": "mostly_real_present_verifiable",
+          "false_alarm_rate": "high_but_each_resolved"
+        },
+        "modern_default": "Modern threats are disproportionately abstract, displaced, or symbolic (news cycles, notifications, status comparison, anticipated catastrophes) with no present referent to verify as gone and no terminating action that delivers an all-clear. The smoke-detector system keeps firing on cues it cannot resolve; social all-clear is attenuated by isolation. Activation that should be transient becomes chronic, shifting the body budget toward sustained inflammation and allostatic load.",
+        "gap_statement": "The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.",
+        "resolution_unit": "Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'",
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect.",
+        "created_at": "2026-06-08T12:32:58.731416+00:00",
+        "updated_at": "2026-06-08T12:32:58.731416+00:00",
+        "mechanism_codes": [
+          "M1",
+          "M8"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 331,
+            "evidence_role": "primary",
+            "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
+            "evidence_quality": "replicated",
+            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
+          },
+          {
+            "extraction_id": 469,
+            "evidence_role": "primary",
+            "author_quote": "The price of this accommodation to stress can be allostatic load, which is the wear and tear that results from chronic overactivity or underactivity of allostatic systems.",
+            "evidence_quality": "theoretical",
+            "content": "McEwen's 1998 NEJM review: the physiologic response to stress, allostatic load, reflects wear and tear from not only life experiences but also genetic load, individual lifestyle habits (diet, exercise, substance abuse), and developmental experiences. Hormones associated with stre"
+          },
+          {
+            "extraction_id": 308,
+            "evidence_role": "supporting",
+            "author_quote": "My view is that some major illnesses considered distinct and \"mental\" are all rooted in a chronically unbalanced body budget and unbridled inflammation. We categorize and name them as different disorders, based on context, much like we categorize and name the same bodily changes as different emotions.",
+            "evidence_quality": "theoretical",
+            "content": "Barrett proposes that major illnesses considered distinct and mental - chronic stress, chronic pain, anxiety, depression - are all rooted in a chronically unbalanced body budget and unbridled inflammation. Different disorders share symptoms, cause atrophy in the same brain region"
+          },
+          {
+            "extraction_id": 565,
+            "evidence_role": "supporting",
+            "author_quote": "Out of 1000 episodes of flight at this response threshold, on the average, 999 will be false alarms and only 1 will be flight from an actual predator.",
+            "evidence_quality": "theoretical",
+            "content": "The smoke detector principle formalized via signal detection theory. For all-or-none defenses, expression is optimal whenever p(Harm) > Cost_defense/Cost_harm. With a 1000:1 cost ratio (300 kcal flight vs 300,000 kcal predator attack), the optimal threshold produces 999 false ala"
+          },
+          {
+            "extraction_id": 125,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking "
+          },
+          {
+            "extraction_id": 461,
+            "evidence_role": "primary",
+            "author_quote": "the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge.",
+            "evidence_quality": "theoretical",
+            "content": "Allostatic load is the cost of chronic exposure to fluctuating or heightened neural or neuroendocrine response resulting from repeated or chronic environmental challenge. Rather than maintaining constant internal conditions (homeostasis), physiologic systems fluctuate to meet dem"
           }
         ]
       },
@@ -175943,111 +175943,6 @@
             "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
             "evidence_quality": "contested",
             "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
-          }
-        ]
-      },
-      {
-        "code": "EEA-CARE-04",
-        "domain": "care_development",
-        "name": "Multigenerational presence (older people inside the band's giving and getting)",
-        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not supply food to their grown children's families, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave food to (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
-        "eea_value": null,
-        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, outside the family's daily giving and getting. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less part of the family's daily life than in a band of several generations.",
-        "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.",
-        "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
-        "evidence_grade": "contested",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved. On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088) and the Hadza (ext 2063), none to grown children's families among the Ache and Hiwi (ext 2301).",
-        "created_at": "2026-06-08T12:32:37.55163+00:00",
-        "updated_at": "2026-06-08T12:32:37.55163+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 203,
-            "evidence_role": "primary",
-            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
-            "evidence_quality": "theoretical",
-            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
-          },
-          {
-            "extraction_id": 401,
-            "evidence_role": "supporting",
-            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
-            "evidence_quality": "theoretical",
-            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
-          },
-          {
-            "extraction_id": 274,
-            "evidence_role": "supporting",
-            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
-            "evidence_quality": "theoretical",
-            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
-          },
-          {
-            "extraction_id": 403,
-            "evidence_role": "supporting",
-            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
-            "evidence_quality": "theoretical",
-            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
-          },
-          {
-            "extraction_id": 703,
-            "evidence_role": "supporting",
-            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
-            "evidence_quality": "meta_analysis",
-            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
-          },
-          {
-            "extraction_id": 710,
-            "evidence_role": "supporting",
-            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
-            "evidence_quality": "replicated",
-            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
-          },
-          {
-            "extraction_id": 723,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
-          },
-          {
-            "extraction_id": 743,
-            "evidence_role": "supporting",
-            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
-            "evidence_quality": "contested",
-            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
-          },
-          {
-            "extraction_id": 744,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
-          },
-          {
-            "extraction_id": 822,
-            "evidence_role": "supporting",
-            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
-            "evidence_quality": "thin",
-            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
-          },
-          {
-            "extraction_id": 845,
-            "evidence_role": "supporting",
-            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
-            "evidence_quality": "thin",
-            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
-          },
-          {
-            "extraction_id": 766,
-            "evidence_role": "primary",
-            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
-            "evidence_quality": "theoretical",
-            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
           }
         ]
       },
@@ -177491,101 +177386,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-11",
-        "domain": "social_structure",
-        "name": "Status reference group (ranked against people who know you)",
-        "eea_baseline": "A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.",
-        "eea_value": {
-          "camp_size": "about 30 (Hadza, ext 603)",
-          "lifetime_known_pool": "about 1,000 (Ache, Hadza, ext 606-608)",
-          "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
-        },
-        "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
-        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for those who compare badly with their peers (ext 2031, 2032).",
-        "resolution_unit": null,
-        "evidence_grade": "thin",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Contested on the modern side: social media effect sizes are small (ext 103, 104) and near zero in time-use diaries (ext 102).",
-        "created_at": "2026-11-11T04:19:19.680814+00:00",
-        "updated_at": "2026-11-11T04:19:19.680814+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 722,
-            "evidence_role": "primary",
-            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
-            "evidence_quality": "replicated",
-            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
-          },
-          {
-            "extraction_id": 721,
-            "evidence_role": "supporting",
-            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
-            "evidence_quality": "replicated",
-            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
-          },
-          {
-            "extraction_id": 1042,
-            "evidence_role": "primary",
-            "author_quote": "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly.",
-            "evidence_quality": "thin",
-            "content": "In four studies of US participants (college groups such as sororities and ROTC units, a broader national sample, an experiment, and a longitudinal study across graduation), respect and admiration in one's face-to-face groups went with life satisfaction and positive feeling more s"
-          },
-          {
-            "extraction_id": 603,
-            "evidence_role": "supporting",
-            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
-            "evidence_quality": "thin",
-            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
-          },
-          {
-            "extraction_id": 606,
-            "evidence_role": "supporting",
-            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
-            "evidence_quality": "thin",
-            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
-          },
-          {
-            "extraction_id": 621,
-            "evidence_role": "supporting",
-            "author_quote": "The sociometer system would serve its purpose if it simply assured that the person maintained sufficient social connections with a relatively small set of personally significant people",
-            "evidence_quality": "theoretical",
-            "content": "The sociometer is calibrated to a small, bounded set of personally significant others rather than to an unbounded audience, and it responds primarily to exclusion (a deprivation state) rather than to ever-greater inclusion: in Studies 3 and 4, exclusion for personal reasons lower"
-          },
-          {
-            "extraction_id": 620,
-            "evidence_role": "supporting",
-            "author_quote": "Study 5 showed that trait self-esteem correlated highly with the degree to which respondents generally felt included versus excluded by other people.",
-            "evidence_quality": "replicated",
-            "content": "In five studies of the sociometer model, events changed people's state self-esteem in line with whether they expected the events to make others accept or reject them (Study 1); how included people felt in a real social situation correlated highly with their self-esteem feelings ("
-          },
-          {
-            "extraction_id": 103,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "meta_analysis",
-            "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall "
-          },
-          {
-            "extraction_id": 104,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "meta_analysis",
-            "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
-          },
-          {
-            "extraction_id": 102,
-            "evidence_role": "primary",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
-          }
-        ]
-      },
-      {
         "code": "EEA-MATE-02",
         "domain": "mating_reproduction",
         "name": "The pool of possible partners",
@@ -177669,7 +177469,7 @@
         "code": "EEA-SOC-20",
         "domain": "social_structure",
         "name": "Food shared and eaten in company",
-        "eea_baseline": "In every forager group with a record, food moved between households. A review of 45 small-scale groups reports food transfers beyond the household throughout, and in all 10 groups where it was checked big game reached more families than small game. Among the Hadza of Tanzania at least 90% of the meat of large animals left the hunter's household. Among the Aka of the Congo a cook and her children ate about 20% of the stew she made, about 75% of the stew a woman ate came from other women's pots, cooking and serving were done in plain view, and the men usually ate together at the men's shelter. Among the Ju/'hoansi of Botswana each family ate the evening meal at its own fire and people then gathered at shared fires. Among the Great Andamanese game was roasted at a public cooking place and each family ate at its own hut. Batek camps in Malaysia, about 34 people, shared food at once, stored none and ate almost nothing out of camp. Hadza men ate about 90 percent of a day's energy on the foray, out of camp, most of it honey (ext 3162). The meal was mostly a family meal, eaten in sight and reach of the rest of the camp. No record shows a whole camp eating as one table every day. Sharing with the whole band was the exception and went with bands under 40 to 50 people.",
+        "eea_baseline": "In every forager group with a record, food moved between households. A review of 45 small-scale groups reports food transfers beyond the household throughout, and in all 10 groups where it was checked big game reached more families than small game. Among the Hadza of Tanzania at least 90% of the meat of large animals left the hunter's household. Among the Aka of the Congo a cook and her children ate about 20% of the stew she made, about 75% of the stew a woman ate came from other women's pots, cooking and serving were done in plain view, and the men usually ate together at the men's shelter. Among the Ju/'hoansi of Botswana each family ate the evening meal at its own fire and people then gathered at shared fires. Among the Great Andamanese game was roasted at a public cooking place and each family ate at its own hut. Batek camps in Malaysia, about 34 people, shared food at once, stored none and ate almost nothing out of camp. Hadza men ate on the foray, out of camp, about 90 percent of what they are estimated to spend in a day, most of it honey (ext 3162). The meal was mostly a family meal, eaten in sight and reach of the rest of the camp. No record shows a whole camp eating as one table every day. Sharing with the whole band was the exception and went with bands under 40 to 50 people.",
         "eea_value": {
           "batek_camp_size": 34.2,
           "whole_band_sharing": "bands under 40 to 50 people",
@@ -177682,7 +177482,7 @@
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Counter-evidence kept: sharing also followed pressure and was unequal. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); nobody has counted how often (ext 1581), and among the Aka people avoided asking (ext 1588). Background-tier evidence cited (abstract or book only): ext 1580, 709, 828.",
+        "confidence_note": "Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Counter-evidence kept: sharing also followed pressure and was unequal. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); Altman, who reports most sharing within the household, gives no counts (ext 1581), and among the Aka people avoided asking (ext 1588).",
         "created_at": "2026-11-19T03:27:37.130809+00:00",
         "updated_at": "2026-11-19T03:27:37.130809+00:00",
         "mechanism_codes": [
@@ -177819,71 +177619,34 @@
         ]
       },
       {
-        "code": "EEA-SOC-09",
+        "code": "EEA-SOC-11",
         "domain": "social_structure",
-        "name": "Behavioral observability / reputation visibility",
-        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Where campmates differed, they knew it: asked one by one in 12 Hadza camps, they agreed on who hunts best and who works hardest to get food. They barely agreed on who shares the most food, who tells the fewest lies and who has the best heart (ext 2795). Project position (21 Nov 2026): anyone still in camp shared and was honest enough to be kept there, so on those points there was little left to rank, and such labels sort strangers more than campmates. The study's authors read the low agreement as behaviour that follows the situation and the camp more than the person, under strong norms to share (ext 2796). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
+        "name": "Status reference group (ranked against people who know you)",
+        "eea_baseline": "A forager's standing was judged by people who knew them. Daily life ran in a camp of about 30 (Hadza) inside a lifetime pool of roughly 1,000 people known by name (Ache, Hadza). The status monitor weighs this local audience most: across 15 small-scale communities (899 people), the shame people expected to feel over an act tracked how much their own community would think less of them (mean r 0.84) more closely than how other communities would (0.69). In four US studies, respect in one's face-to-face groups went with well-being more strongly than income or education did, and well-being rose and fell with that standing.",
         "eea_value": {
-          "identity": "single durable identity, behavior history attached for life",
-          "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
-          "accountability": "high: gossip, ridicule, ostracism, exclusion; non-exitable repeat interaction",
-          "reference_group_basis": "personally-known, named, repeat-interaction reference group (Dunbar ceiling)",
-          "reputational_reference_group_persons": 150
+          "camp_size": "about 30 (Hadza, ext 603)",
+          "lifetime_known_pool": "about 1,000 (Ache, Hadza, ext 606-608)",
+          "shame_own_vs_other_community_r": "0.84 vs 0.69 (15 small-scale communities, ext 722)"
         },
-        "modern_default": "Most behavior now occurs among strangers or weak ties who do not know one's history and will never interact with one again, while the visibility that does exist is mediated, curated, and quantitatively inflated. On social platforms only ~27.6% of nominal \"friends\" are considered genuine close ties (with a strong modal value between 0 and 10%), so networks are padded with weakly-accountable acquaintances rather than people tracking one's actual conduct. Mediated contact cannot substitute for the embodied, face-to-face observation the bonding/reputation system evolved for: without periodic in-person contact, ties decay through the network layers into mere acquaintance regardless of online activity. Visibility is now selectively self-presented (gameable), fragmented across multiple personas and contexts, frequently pseudonymous or low-stakes, and policed (if at all) by distant institutions or algorithms rather than by named peers with whom one shares a future. Reputation is either absent (anonymity), sortable away (exit/blocking, fresh accounts), or captured by platform metrics that reward performance over honesty.",
-        "gap_statement": "The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.",
+        "modern_default": "Rank can be compared against people who will never know you: celebrities, strangers' edited lives, follower and like counts. No study in Cor measures how many people a person compares themselves with online. The measured link between social media use and low mood is small (r about 0.1 in meta-analyses of adolescents) and near zero in time-use diaries.",
+        "gap_statement": "The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for students more likely to compare badly with their peers (ext 2031, 2032).",
         "resolution_unit": null,
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.",
-        "created_at": "2026-06-08T11:58:52.768471+00:00",
-        "updated_at": "2026-06-08T11:58:52.768471+00:00",
+        "evidence_grade": "thin",
+        "contested": true,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Contested on the modern side: social media effect sizes are small (ext 103, 104) and near zero in time-use diaries (ext 102).",
+        "created_at": "2026-11-11T04:19:19.680814+00:00",
+        "updated_at": "2026-11-11T04:19:19.680814+00:00",
         "mechanism_codes": [
-          "M11",
+          "M3",
           "M5"
         ],
         "evidence": [
           {
-            "extraction_id": 373,
+            "extraction_id": 722,
             "evidence_role": "primary",
-            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
+            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
             "evidence_quality": "replicated",
-            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
-          },
-          {
-            "extraction_id": 375,
-            "evidence_role": "primary",
-            "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
-            "evidence_quality": "theoretical",
-            "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury, "
-          },
-          {
-            "extraction_id": 239,
-            "evidence_role": "supporting",
-            "author_quote": "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully.",
-            "evidence_quality": "theoretical",
-            "content": "Obligate collaborative foraging as evolutionarily stable strategy: interdependence + social selection. Early humans began a lifestyle in which individuals could not procure daily food alone - they were interdependent. This created direct selective pressure for joint-intentionalit"
-          },
-          {
-            "extraction_id": 508,
-            "evidence_role": "primary",
-            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
-            "evidence_quality": "thin",
-            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
-          },
-          {
-            "extraction_id": 509,
-            "evidence_role": "primary",
-            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
-            "evidence_quality": "theoretical",
-            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
-          },
-          {
-            "extraction_id": 719,
-            "evidence_role": "supporting",
-            "author_quote": "individuals possessing more prosocial orientations are the most motivated to engage in such gossip, even at a personal cost",
-            "evidence_quality": "thin",
-            "content": "In experiments, people passed on reputational information about selfish players even at a cost to themselves, and the threat of gossip made others behave more generously."
+            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
           },
           {
             "extraction_id": 721,
@@ -177893,25 +177656,60 @@
             "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
           },
           {
-            "extraction_id": 722,
-            "evidence_role": "supporting",
-            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
-            "evidence_quality": "replicated",
-            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
-          },
-          {
-            "extraction_id": 808,
-            "evidence_role": "supporting",
-            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
+            "extraction_id": 1042,
+            "evidence_role": "primary",
+            "author_quote": "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly.",
             "evidence_quality": "thin",
-            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
+            "content": "In four studies of US participants (college groups such as sororities and ROTC units, a broader national sample, an experiment, and a longitudinal study across graduation), respect and admiration in one's face-to-face groups went with life satisfaction and positive feeling more s"
           },
           {
-            "extraction_id": 829,
+            "extraction_id": 603,
+            "evidence_role": "supporting",
+            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
+            "evidence_quality": "thin",
+            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
+          },
+          {
+            "extraction_id": 606,
+            "evidence_role": "supporting",
+            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
+            "evidence_quality": "thin",
+            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
+          },
+          {
+            "extraction_id": 621,
+            "evidence_role": "supporting",
+            "author_quote": "The sociometer system would serve its purpose if it simply assured that the person maintained sufficient social connections with a relatively small set of personally significant people",
+            "evidence_quality": "theoretical",
+            "content": "The sociometer is calibrated to a small, bounded set of personally significant others rather than to an unbounded audience, and it responds primarily to exclusion (a deprivation state) rather than to ever-greater inclusion: in Studies 3 and 4, exclusion for personal reasons lower"
+          },
+          {
+            "extraction_id": 620,
+            "evidence_role": "supporting",
+            "author_quote": "Study 5 showed that trait self-esteem correlated highly with the degree to which respondents generally felt included versus excluded by other people.",
+            "evidence_quality": "replicated",
+            "content": "In five studies of the sociometer model, events changed people's state self-esteem in line with whether they expected the events to make others accept or reject them (Study 1); how included people felt in a real social situation correlated highly with their self-esteem feelings ("
+          },
+          {
+            "extraction_id": 103,
             "evidence_role": "primary",
             "author_quote": null,
             "evidence_quality": "meta_analysis",
-            "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
+            "content": "Meta-analysis of social media use and depressive symptoms among adolescents (11-18 years) found a small but significant positive correlation (k=12, r=0.11, p&lt;.01) with high heterogeneity (I2=95.22%). The small overall effect size and extreme heterogeneity suggest that overall "
+          },
+          {
+            "extraction_id": 104,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "meta_analysis",
+            "content": "Largest meta-analysis to date on social media and adolescent internalizing symptoms (143 studies, N=1,094,890, 886 effect sizes). Found small but significant meta-correlations: time spent on social media and internalizing symptoms r=0.08 (clinical samples) and similar in communit"
+          },
+          {
+            "extraction_id": 102,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Time-use diaries are more accurate tha"
           }
         ]
       },
@@ -177986,6 +177784,111 @@
             "author_quote": "Energy intake was greater during the ultra-processed diet (508±106 kcal/d; p=0.0001)",
             "evidence_quality": "thin",
             "content": "In an inpatient randomized crossover trial, 20 weight-stable adults ate as much or as little as they wanted from ultra-processed or unprocessed diets for 2 weeks each, with meals matched for presented calories, energy density, macronutrients, sugar, sodium and fiber. Energy intak"
+          }
+        ]
+      },
+      {
+        "code": "EEA-CARE-04",
+        "domain": "care_development",
+        "name": "Multigenerational presence (older people inside the band's giving and getting)",
+        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
+        "eea_value": null,
+        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, outside the family's daily giving and getting. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less part of the family's daily life than in a band of several generations.",
+        "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.",
+        "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
+        "evidence_grade": "contested",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved. On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
+        "created_at": "2026-06-08T12:32:37.55163+00:00",
+        "updated_at": "2026-06-08T12:32:37.55163+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 203,
+            "evidence_role": "primary",
+            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
+            "evidence_quality": "theoretical",
+            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
+          },
+          {
+            "extraction_id": 401,
+            "evidence_role": "supporting",
+            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
+            "evidence_quality": "theoretical",
+            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
+          },
+          {
+            "extraction_id": 274,
+            "evidence_role": "supporting",
+            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
+            "evidence_quality": "theoretical",
+            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
+          },
+          {
+            "extraction_id": 403,
+            "evidence_role": "supporting",
+            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
+            "evidence_quality": "theoretical",
+            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
+          },
+          {
+            "extraction_id": 703,
+            "evidence_role": "supporting",
+            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
+            "evidence_quality": "meta_analysis",
+            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
+          },
+          {
+            "extraction_id": 710,
+            "evidence_role": "supporting",
+            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
+            "evidence_quality": "replicated",
+            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
+          },
+          {
+            "extraction_id": 723,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
+          },
+          {
+            "extraction_id": 743,
+            "evidence_role": "supporting",
+            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
+            "evidence_quality": "contested",
+            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
+          },
+          {
+            "extraction_id": 744,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
+          },
+          {
+            "extraction_id": 822,
+            "evidence_role": "supporting",
+            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
+            "evidence_quality": "thin",
+            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
+          },
+          {
+            "extraction_id": 845,
+            "evidence_role": "supporting",
+            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
+            "evidence_quality": "thin",
+            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
+          },
+          {
+            "extraction_id": 766,
+            "evidence_role": "primary",
+            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
+            "evidence_quality": "theoretical",
+            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
           }
         ]
       },
@@ -178104,6 +178007,103 @@
             "author_quote": "Social engagement with friends, others, and in companionship plummeted for young Americans",
             "evidence_quality": "thin",
             "content": "US time-use data show time with friends fell sharply from 2003 to 2019 for Americans aged 15 to 24, and the pandemic deepened the national decline already under way."
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-09",
+        "domain": "social_structure",
+        "name": "Behavioral observability / reputation visibility",
+        "eea_baseline": "In a band/camp embedded in a personally-known reference group of roughly 150 individuals, virtually all of a person's relevant behavior was directly observable by, or rapidly transmitted through gossip to, people who knew them by name, knew their history, and would interact with them again for decades. Reputation was a shared, continuously-updated, distributed record: as Boehm puts it, \"the band keeps a dossier on every individual, noting positive and negative points.\" Where campmates differed, they knew it: asked one by one in 12 Hadza camps, they agreed more on who hunts best (r 0.23) and a little more on who works hardest (r 0.08). They barely agreed on who shares the most food, who tells the fewest lies and who has the best heart (ext 2795). Project position (21 Nov 2026): anyone still in camp shared and was honest enough to be kept there, so on those points there was little left to rank, and such labels sort strangers more than campmates. The study's authors read the low agreement as moral behaviour that changes across time and situations to fit local circumstances (ext 2796). Observability had teeth: those who deviated (theft, deception, stinginess, free-riding) were subject to gossip, ridicule, ostracism, and ultimately exclusion, and everyone knew this monitoring was constant, so it functioned as a deterrent and people exercised self-control accordingly. Because foraging was obligately collaborative, individuals had to continuously evaluate partners and track how they themselves were being evaluated. The net result: visibility was near-total, embodied, hard to fake over time, attached to a single durable identity, and backed by real consequences enforced by people one could not escape.",
+        "eea_value": {
+          "identity": "single durable identity, behavior history attached for life",
+          "observability": "near-total within band/camp; rapid gossip diffusion across the ~150 layer",
+          "accountability": "high: gossip, ridicule, ostracism, exclusion; non-exitable repeat interaction",
+          "reference_group_basis": "personally-known, named, repeat-interaction reference group (Dunbar ceiling)",
+          "reputational_reference_group_persons": 150
+        },
+        "modern_default": "Most behavior now occurs among strangers or weak ties who do not know one's history and will never interact with one again, while the visibility that does exist is mediated, curated, and quantitatively inflated. On social platforms only ~27.6% of nominal \"friends\" are considered genuine close ties (with a strong modal value between 0 and 10%), so networks are padded with weakly-accountable acquaintances rather than people tracking one's actual conduct. Mediated contact cannot substitute for the embodied, face-to-face observation the bonding/reputation system evolved for: without periodic in-person contact, ties decay through the network layers into mere acquaintance regardless of online activity. Visibility is now selectively self-presented (gameable), fragmented across multiple personas and contexts, frequently pseudonymous or low-stakes, and policed (if at all) by distant institutions or algorithms rather than by named peers with whom one shares a future. Reputation is either absent (anonymity), sortable away (exit/blocking, fresh accounts), or captured by platform metrics that reward performance over honesty.",
+        "gap_statement": "The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.",
+        "resolution_unit": null,
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.",
+        "created_at": "2026-06-08T11:58:52.768471+00:00",
+        "updated_at": "2026-06-08T11:58:52.768471+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 373,
+            "evidence_role": "primary",
+            "author_quote": "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function.",
+            "evidence_quality": "replicated",
+            "content": "Gossip as information processing and social control: the band keeps a dossier on every individual, noting positive and negative points. Types of deviance that all groups watch for include murder, deception, theft, and stinginess. Everyone knows gossiping is constantly taking plac"
+          },
+          {
+            "extraction_id": 375,
+            "evidence_role": "primary",
+            "author_quote": "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism.",
+            "evidence_quality": "theoretical",
+            "content": "Social control through gossip, ridicule, and ostracism targets free-riders: those who have things of value but do not give are subject to social control. Bullying free-riders are handled by egalitarian sanctioning. Other free-riders take advantage by being lazy, feigning injury, "
+          },
+          {
+            "extraction_id": 239,
+            "evidence_role": "supporting",
+            "author_quote": "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully.",
+            "evidence_quality": "theoretical",
+            "content": "Obligate collaborative foraging as evolutionarily stable strategy: interdependence + social selection. Early humans began a lifestyle in which individuals could not procure daily food alone - they were interdependent. This created direct selective pressure for joint-intentionalit"
+          },
+          {
+            "extraction_id": 508,
+            "evidence_role": "primary",
+            "author_quote": "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%.",
+            "evidence_quality": "thin",
+            "content": "Only 27.6% of Facebook friends are considered genuine (close) friends, with a strong modal value between 0 and 10%. Large online networks add only loose acquaintances, not close friends. People with unusually large networks do not increase close friendships but add weakly-defined"
+          },
+          {
+            "extraction_id": 509,
+            "evidence_role": "primary",
+            "author_quote": "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances.",
+            "evidence_quality": "theoretical",
+            "content": "Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances. On his reading, social media may slow this decay and cannot replace in-person contact. Cor's reading: this fits t"
+          },
+          {
+            "extraction_id": 719,
+            "evidence_role": "supporting",
+            "author_quote": "individuals possessing more prosocial orientations are the most motivated to engage in such gossip, even at a personal cost",
+            "evidence_quality": "thin",
+            "content": "In experiments, people passed on reputational information about selfish players even at a cost to themselves, and the threat of gossip made others behave more generously."
+          },
+          {
+            "extraction_id": 721,
+            "evidence_role": "supporting",
+            "author_quote": "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67",
+            "evidence_quality": "replicated",
+            "content": "In the US, India and Israel, how much shame people expected to feel in 29 imagined situations closely matched how much a separate group of local raters would think less of someone in that situation (mean r .72 across the three countries). Shame also tracked devaluation by raters "
+          },
+          {
+            "extraction_id": 722,
+            "evidence_role": "supporting",
+            "author_quote": "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84.",
+            "evidence_quality": "replicated",
+            "content": "Among 899 people in 15 small-scale communities (farmers, herders, fishers and horticulturalists on several continents; none of them mobile foragers), the shame people expected to feel over 12 imagined acts or traits tracked how much their own community would devalue someone for t"
+          },
+          {
+            "extraction_id": 808,
+            "evidence_role": "supporting",
+            "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
+            "evidence_quality": "thin",
+            "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
+          },
+          {
+            "extraction_id": 829,
+            "evidence_role": "primary",
+            "author_quote": null,
+            "evidence_quality": "meta_analysis",
+            "content": "Two meta-analyses found no evidence that artificial surveillance cues, such as images of watching eyes, increase generosity."
           }
         ]
       }
@@ -184487,8 +184487,8 @@
         "EEA-SOC-10",
         "EEA-SOC-07",
         "EEA-SOC-20",
-        "EEA-SOC-09",
-        "EEA-SOC-01"
+        "EEA-SOC-01",
+        "EEA-SOC-09"
       ],
       "M3": [
         "EEA-SOC-05",
@@ -184504,11 +184504,11 @@
         "EEA-CARE-01",
         "EEA-SOC-15",
         "EEA-SOC-16",
-        "EEA-CARE-04",
         "EEA-SOC-17",
         "EEA-SOC-07",
-        "EEA-SOC-11",
         "EEA-SOC-20",
+        "EEA-SOC-11",
+        "EEA-CARE-04",
         "EEA-SOC-01"
       ],
       "M1": [
@@ -184522,9 +184522,9 @@
         "EEA-CARE-02",
         "EEA-CARE-03",
         "EEA-CARE-01",
-        "EEA-CARE-04",
         "EEA-MATE-05",
-        "EEA-MATE-10"
+        "EEA-MATE-10",
+        "EEA-CARE-04"
       ],
       "R1": [
         "EEA-CARE-02",
@@ -184574,10 +184574,10 @@
         "EEA-SOC-14",
         "EEA-SOC-19",
         "EEA-SOC-10",
-        "EEA-SOC-11",
         "EEA-MATE-02",
-        "EEA-SOC-09",
-        "EEA-SOC-01"
+        "EEA-SOC-11",
+        "EEA-SOC-01",
+        "EEA-SOC-09"
       ],
       "M14": [
         "EEA-MATE-06",
