@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T05:57:59.250135+00:00",
+    "source_built_at": "2026-11-21T06:24:48.380420+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 331
+    "challenges": 99
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -185,7 +185,7 @@
         "code": "DC3",
         "layer": "consequence",
         "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
+        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that undo a mismatch, moving the organism's actual input conditions toward what it evolved for (the baseline rows of this atlas), are therefore more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
         "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
         "epistemic_grade": "plausible_synthesis"
       }
