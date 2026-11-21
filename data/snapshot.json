@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T04:51:01.391410+00:00",
+    "built_at": "2026-11-21T05:03:48.709797+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1619,
-    "extractions": 2766,
+    "works": 1656,
+    "extractions": 2824,
     "researchers": 84,
-    "mechanism_evidence": 3128,
+    "mechanism_evidence": 3173,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 333
+    "challenges": 337
   },
   "tables": {
     "foundations": [
@@ -203,17 +203,6 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 19,
-        "code": "DC3",
-        "layer": "consequence",
-        "name": "Environment as Primary Intervention Layer",
-        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
-        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
-        "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this.",
-        "created_at": "2026-04-08T14:02:55.382263+00:00"
-      },
-      {
         "id": 8,
         "code": "DA4",
         "layer": "property",
@@ -223,6 +212,17 @@
         "epistemic_grade": "forced",
         "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after 25 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and at the same blood level a faster rise gives more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), were used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Open: pituri in Central Australia was chewed almost without pause in a small-scale setting, and no study measured what people gave up for it (ext 2519, 2520).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
+      },
+      {
+        "id": 19,
+        "code": "DC3",
+        "layer": "consequence",
+        "name": "Environment as Primary Intervention Layer",
+        "statement": "Cortical override of subcortical activation is metabolically expensive, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that change the organism's actual input conditions are therefore frequently more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
+        "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
+        "epistemic_grade": "plausible_synthesis",
+        "scope_notes": "DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it starts with a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts. What the person comes back to decides. One in five US soldiers became dependent on heroin in Vietnam (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and 81 percent of those who came back abstinent were using again within a month (ext 2833, 2834). People in a therapeutic community keep their gains until they leave (ext 2830). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925), and most rats on cocaine stop when anything else worth having is offered (ext 928). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers up to 80 percent of the wage of people coming out of drug treatment (ext 2452); what that did to drug use was not measured. Open: the home the Vietnam soldiers came back to was never tested as a predictor (ext 2816, 2820), and the study's author rejects the change of setting as the explanation (ext 2821); heroin use in a cohort of offenders stayed stable over 33 years (ext 2835); a home of one's own did not change drug use in four trials (ext 2842); craving set off by cues goes with a later return to use (ext 2854); a paid data-entry job with no drug rule did not keep people off cocaine (ext 2455); in rats, after long access, housing and rank no longer changed intake (ext 933, 935).",
+        "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
     "mechanisms": [
@@ -34665,6 +34665,746 @@
         "issue": "1",
         "pages": null,
         "url": "corpus.html#w=1631"
+      },
+      {
+        "id": 1632,
+        "title": "Drug use by U.S. Army enlisted men in Vietnam: a follow-up on their return home",
+        "authors": "Robins LN, Davis DH, Goodwin DW",
+        "year": 1974,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/oxfordjournals.aje.a121608",
+        "pmid": "4818714",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Epidemiology",
+        "container": null,
+        "volume": "99",
+        "issue": "4",
+        "pages": "235-249",
+        "url": "corpus.html#w=1632"
+      },
+      {
+        "id": 1633,
+        "title": "Estimating addiction rates and locating target populations: how decomposition into stages helps",
+        "authors": "Robins LN",
+        "year": 1977,
+        "work_type": "chapter",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "97556",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "NIDA research monograph",
+        "container": null,
+        "volume": "16",
+        "issue": null,
+        "pages": "25-39",
+        "url": "corpus.html#w=1633"
+      },
+      {
+        "id": 1634,
+        "title": "The Nathan B. Eddy Lecture: challenging conventional wisdom about drug abuse",
+        "authors": "Robins LN",
+        "year": 1994,
+        "work_type": "chapter",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "8722451",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "NIDA research monograph",
+        "container": null,
+        "volume": "140",
+        "issue": null,
+        "pages": "30-45",
+        "url": "corpus.html#w=1634"
+      },
+      {
+        "id": 1635,
+        "title": "Post-Vietnam heroin use and injection by returning US veterans: clues to preventing injection today",
+        "authors": "Robins LN, Slobodyan S",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1046/j.1360-0443.2003.00436.x",
+        "pmid": "12873239",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "98",
+        "issue": "8",
+        "pages": "1053-1060",
+        "url": "corpus.html#w=1635"
+      },
+      {
+        "id": 1636,
+        "title": "Natural recovery from opiate addiction: some social-psychological processes of untreated recovery",
+        "authors": "Waldorf D",
+        "year": 1983,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/002204268301300205",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Drug Issues",
+        "container": null,
+        "volume": "13",
+        "issue": "2",
+        "pages": "237-280",
+        "url": "corpus.html#w=1636"
+      },
+      {
+        "id": 1637,
+        "title": "Social context and \"natural recovery\": the role of social capital in the resolution of drug-associated problems",
+        "authors": "Granfield R, Cloud W",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1081/ja-100106963",
+        "pmid": "11693955",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Substance Use & Misuse",
+        "container": null,
+        "volume": "36",
+        "issue": "11",
+        "pages": "1543-1570",
+        "url": "corpus.html#w=1637"
+      },
+      {
+        "id": 1638,
+        "title": "The motivation for change from problem alcohol and heroin use",
+        "authors": "Klingemann HK",
+        "year": 1991,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1360-0443.1991.tb03099.x",
+        "pmid": "1878623",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Addiction",
+        "container": null,
+        "volume": "86",
+        "issue": "6",
+        "pages": "727-744",
+        "url": "corpus.html#w=1638"
+      },
+      {
+        "id": 1639,
+        "title": "Natural recovery from alcohol and drug problems: methodological review of the research with suggestions for future directions",
+        "authors": "Sobell LC, Ellingstad TP, Sobell MB",
+        "year": 2000,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1046/j.1360-0443.2000.95574911.x",
+        "pmid": "10885050",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "95",
+        "issue": "5",
+        "pages": "749-764",
+        "url": "corpus.html#w=1639"
+      },
+      {
+        "id": 1640,
+        "title": "Therapeutic communities for addictions: a review of their effectiveness from a recovery-oriented perspective",
+        "authors": "Vanderplasschen W, Colpaert K, Autrique M, Rapp RC, Pearce S, Broekaert E, Vandevelde S",
+        "year": 2013,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1155/2013/427817",
+        "pmid": "23401669",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Scientific World Journal",
+        "container": null,
+        "volume": "2013",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1640"
+      },
+      {
+        "id": 1641,
+        "title": "Therapeutic communities for substance related disorder",
+        "authors": "Smith LA, Gates S, Foxcroft D",
+        "year": 2006,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/14651858.CD005338.pub2",
+        "pmid": "16437526",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Cochrane Database of Systematic Reviews",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1641"
+      },
+      {
+        "id": 1642,
+        "title": "Effectiveness of therapeutic communities: a systematic review",
+        "authors": "Malivert M, Fatseas M, Denis C, Langlois E, Auriacombe M",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1159/000331007",
+        "pmid": "21997500",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "European Addiction Research",
+        "container": null,
+        "volume": "18",
+        "issue": "1",
+        "pages": "1-11",
+        "url": "corpus.html#w=1642"
+      },
+      {
+        "id": 1643,
+        "title": "Residence relocation inhibits opioid dependence",
+        "authors": "Maddux JF, Desmond DP",
+        "year": 1982,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.1982.04290110065011",
+        "pmid": "7138233",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "39",
+        "issue": "11",
+        "pages": "1313",
+        "url": "corpus.html#w=1643"
+      },
+      {
+        "id": 1644,
+        "title": "A 33-year follow-up of narcotics addicts",
+        "authors": "Hser YI, Hoffman V, Grella CE, Anglin MD",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.58.5.503",
+        "pmid": "11343531",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "58",
+        "issue": "5",
+        "pages": "503",
+        "url": "corpus.html#w=1644"
+      },
+      {
+        "id": 1645,
+        "title": "Predicting long-term stable recovery from heroin addiction: findings from a 33-year follow-up study",
+        "authors": "Hser YI",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1300/J069v26n01_07",
+        "pmid": "17439868",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Addictive Diseases",
+        "container": null,
+        "volume": "26",
+        "issue": "1",
+        "pages": "51-60",
+        "url": "corpus.html#w=1645"
+      },
+      {
+        "id": 1646,
+        "title": "Breaking good: breaking ties with social groups may be good for recovery from substance misuse",
+        "authors": "Dingle GA, Stark C, Cruwys T, Best D",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/bjso.12081",
+        "pmid": "25209252",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Social Psychology",
+        "container": null,
+        "volume": "54",
+        "issue": "2",
+        "pages": "236-254",
+        "url": "corpus.html#w=1646"
+      },
+      {
+        "id": 1647,
+        "title": "Effects of Housing First approaches on health and well-being of adults who are homeless or at risk of homelessness: systematic review and meta-analysis of randomised controlled trials",
+        "authors": "Baxter AJ, Tweed EJ, Katikireddi SV, Thomson H",
+        "year": 2019,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1136/jech-2018-210981",
+        "pmid": "30777888",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Epidemiology and Community Health",
+        "container": null,
+        "volume": "73",
+        "issue": "5",
+        "pages": "379-387",
+        "url": "corpus.html#w=1647"
+      },
+      {
+        "id": 1648,
+        "title": "Reversal of cocaine addiction by environmental enrichment",
+        "authors": "Solinas M, Chauvet C, Thiriet N, El Rawas R, Jaber M",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.0806889105",
+        "pmid": "18955698",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "105",
+        "issue": "44",
+        "pages": "17145-17150",
+        "url": "corpus.html#w=1648"
+      },
+      {
+        "id": 1649,
+        "title": "Environmental enrichment reduces cocaine seeking and reinstatement induced by cues and stress but not by cocaine",
+        "authors": "Chauvet C, Lardeux V, Goldberg SR, Jaber M, Solinas M",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/npp.2009.127",
+        "pmid": "19741591",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuropsychopharmacology",
+        "container": null,
+        "volume": "34",
+        "issue": "13",
+        "pages": "2767-2778",
+        "url": "corpus.html#w=1649"
+      },
+      {
+        "id": 1650,
+        "title": "Effect of environmental enrichment on escalation of cocaine self-administration in rats",
+        "authors": "Gipson CD, Beckmann JS, El-Maraghi S, Marusich JA, Bardo MT",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s00213-010-2060-z",
+        "pmid": "21057774",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychopharmacology",
+        "container": null,
+        "volume": "214",
+        "issue": "2",
+        "pages": "557-566",
+        "url": "corpus.html#w=1650"
+      },
+      {
+        "id": 1651,
+        "title": "The effects of social contact on cocaine intake under extended-access conditions in male rats",
+        "authors": "Robinson AM, Lacy RT, Strickland JC, Magee CP, Smith MA",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/pha0000078",
+        "pmid": "27454676",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Experimental and Clinical Psychopharmacology",
+        "container": null,
+        "volume": "24",
+        "issue": "4",
+        "pages": "285-296",
+        "url": "corpus.html#w=1651"
+      },
+      {
+        "id": 1652,
+        "title": "Loss of tolerance and overdose mortality after inpatient opiate detoxification: follow up study",
+        "authors": "Strang J, McCambridge J, Best D, Beswick T, Bearn J, Rees S, Gossop M",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1136/bmj.326.7396.959",
+        "pmid": "12727768",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BMJ",
+        "container": null,
+        "volume": "326",
+        "issue": "7396",
+        "pages": "959-960",
+        "url": "corpus.html#w=1652"
+      },
+      {
+        "id": 1653,
+        "title": "Incubation of cocaine craving after withdrawal",
+        "authors": "Grimm JW, Hope BT, Wise RA, Shaham Y",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/35084134",
+        "pmid": "11449260",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature",
+        "container": null,
+        "volume": "412",
+        "issue": "6843",
+        "pages": "141-142",
+        "url": "corpus.html#w=1653"
+      },
+      {
+        "id": 1654,
+        "title": "Incubation of Cue-Induced Craving in Adults Addicted to Cocaine Measured by Electroencephalography",
+        "authors": "Parvaz MA, Moeller SJ, Goldstein RZ",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2016.2181",
+        "pmid": "27603142",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "73",
+        "issue": "11",
+        "pages": "1127",
+        "url": "corpus.html#w=1654"
+      },
+      {
+        "id": 1655,
+        "title": "Incubation of cue-induced cigarette craving during abstinence in human smokers",
+        "authors": "Bedi G, Preston KL, Epstein DH, Heishman SJ, Marrone GF, Shaham Y, de Wit H",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.biopsych.2010.07.014",
+        "pmid": "20817135",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biological Psychiatry",
+        "container": null,
+        "volume": "69",
+        "issue": "7",
+        "pages": "708-711",
+        "url": "corpus.html#w=1655"
+      },
+      {
+        "id": 1656,
+        "title": "Association of Drug Cues and Craving With Drug Use and Relapse: A Systematic Review and Meta-analysis",
+        "authors": "Vafaie N, Kober H",
+        "year": 2022,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2022.1240",
+        "pmid": "35648415",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "79",
+        "issue": "7",
+        "pages": "641",
+        "url": "corpus.html#w=1656"
+      },
+      {
+        "id": 1657,
+        "title": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence",
+        "authors": "Volkow ND, Chang L, Wang GJ, Fowler JS, Franceschi D, Sedler M, Gatley SJ, Miller E, Hitzemann R, Ding YS, Logan J",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1523/JNEUROSCI.21-23-09414.2001",
+        "pmid": "11717374",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Journal of Neuroscience",
+        "container": null,
+        "volume": "21",
+        "issue": "23",
+        "pages": "9414-9418",
+        "url": "corpus.html#w=1657"
+      },
+      {
+        "id": 1658,
+        "title": "Modeling sensitization to stimulants in humans: an [11C]raclopride/positron emission tomography study in healthy men",
+        "authors": "Boileau I, Dagher A, Leyton M, Gunn RN, Baker GB, Diksic M, Benkelfat C",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.63.12.1386",
+        "pmid": "17146013",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "63",
+        "issue": "12",
+        "pages": null,
+        "url": "corpus.html#w=1658"
+      },
+      {
+        "id": 1659,
+        "title": "Rates of opioid misuse, abuse, and addiction in chronic pain: a systematic review and data synthesis",
+        "authors": "Vowles KE, McEntee ML, Julnes PS, Frohe T, Ney JP, van der Goes DN",
+        "year": 2015,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1097/01.j.pain.0000460357.01998.f1",
+        "pmid": "25785523",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Pain",
+        "container": null,
+        "volume": "156",
+        "issue": "4",
+        "pages": "569-576",
+        "url": "corpus.html#w=1659"
+      },
+      {
+        "id": 1660,
+        "title": "Long-term opioid management for chronic noncancer pain",
+        "authors": "Noble M, Treadwell JR, Tregear SJ, Coates VH, Wiffen PJ, Akafomo C, Schoelles KM, Chou R",
+        "year": 2010,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/14651858.CD006605.pub2",
+        "pmid": "20091598",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Cochrane Database of Systematic Reviews",
+        "container": null,
+        "volume": "2018",
+        "issue": "3",
+        "pages": null,
+        "url": "corpus.html#w=1660"
+      },
+      {
+        "id": 1661,
+        "title": "The role of opioid prescription in incident opioid abuse and dependence among individuals with chronic noncancer pain",
+        "authors": "Edlund MJ, Martin BC, Russo JE, DeVries A, Braden JB, Sullivan MD",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1097/AJP.0000000000000021",
+        "pmid": "24281273",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Clinical Journal of Pain",
+        "container": null,
+        "volume": "30",
+        "issue": "7",
+        "pages": "557-564",
+        "url": "corpus.html#w=1661"
+      },
+      {
+        "id": 1662,
+        "title": "New Persistent Opioid Use After Minor and Major Surgical Procedures in US Adults",
+        "authors": "Brummett CM, Waljee JF, Goesling J, Moser S, Lin P, Englesbe MJ, Bohnert ASB, Kheterpal S, Nallamothu BK",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamasurg.2017.0504",
+        "pmid": "28403427",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Surgery",
+        "container": null,
+        "volume": "152",
+        "issue": "6",
+        "pages": "e170504",
+        "url": "corpus.html#w=1662"
+      },
+      {
+        "id": 1663,
+        "title": "Opioid Crisis: No Easy Fix to Its Social and Economic Determinants",
+        "authors": "Dasgupta N, Beletsky L, Ciccarone D",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2105/AJPH.2017.304187",
+        "pmid": "29267060",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Public Health",
+        "container": null,
+        "volume": "108",
+        "issue": "2",
+        "pages": "182-186",
+        "url": "corpus.html#w=1663"
+      },
+      {
+        "id": 1664,
+        "title": "Drivers of the fatal drug epidemic",
+        "authors": "Ruhm CJ",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jhealeco.2019.01.001",
+        "pmid": "30784811",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Health Economics",
+        "container": null,
+        "volume": "64",
+        "issue": null,
+        "pages": "25-42",
+        "url": "corpus.html#w=1664"
+      },
+      {
+        "id": 1665,
+        "title": "Association Between Automotive Assembly Plant Closures and Opioid Overdose Mortality in the United States",
+        "authors": "Venkataramani AS, Bair EF, O'Brien RL, Tsai AC",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamainternmed.2019.5686",
+        "pmid": "31886844",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Internal Medicine",
+        "container": null,
+        "volume": "180",
+        "issue": "2",
+        "pages": "254",
+        "url": "corpus.html#w=1665"
+      },
+      {
+        "id": 1666,
+        "title": "Childhood abuse, neglect, and household dysfunction and the risk of illicit drug use: the adverse childhood experiences study",
+        "authors": "Dube SR, Felitti VJ, Dong M, Chapman DP, Giles WH, Anda RF",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1542/peds.111.3.564",
+        "pmid": "12612237",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Pediatrics",
+        "container": null,
+        "volume": "111",
+        "issue": "3",
+        "pages": "564-572",
+        "url": "corpus.html#w=1666"
+      },
+      {
+        "id": 1667,
+        "title": "The effect of multiple adverse childhood experiences on health: a systematic review and meta-analysis",
+        "authors": "Hughes K, Bellis MA, Hardcastle KA, Sethi D, Butchart A, Mikton C, Jones L, Dunne MP",
+        "year": 2017,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S2468-2667(17)30118-4",
+        "pmid": "29253477",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Lancet Public Health",
+        "container": null,
+        "volume": "2",
+        "issue": "8",
+        "pages": "e356-e366",
+        "url": "corpus.html#w=1667"
+      },
+      {
+        "id": 1668,
+        "title": "Brain Change in Addiction as Learning, Not Disease",
+        "authors": "Lewis M",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1056/NEJMra1602872",
+        "pmid": "30332573",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "New England Journal of Medicine",
+        "container": null,
+        "volume": "379",
+        "issue": "16",
+        "pages": "1551-1560",
+        "url": "corpus.html#w=1668"
       }
     ],
     "extractions": [
@@ -36820,6 +37560,22 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=291"
+      },
+      {
+        "id": 978,
+        "work_id": 445,
+        "mechanism_codes": [
+          "M2",
+          "M1"
+        ],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=978"
       },
       {
         "id": 26,
@@ -46119,20 +46875,17 @@
         "url": "corpus.html#e=492"
       },
       {
-        "id": 969,
-        "work_id": 440,
-        "mechanism_codes": [
-          "M2"
-        ],
+        "id": 2850,
+        "work_id": 1652,
+        "mechanism_codes": [],
         "foundation_codes": [
-          "DA4",
-          "OF2"
+          "DA2"
         ],
-        "evidence_quality": "replicated",
-        "source_type": "challenge",
+        "evidence_quality": "thin",
+        "source_type": "primary",
         "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=969"
+        "grade": "tested once",
+        "url": "corpus.html#e=2850"
       },
       {
         "id": 1659,
@@ -46909,40 +47662,6 @@
         "url": "corpus.html#e=736"
       },
       {
-        "id": 970,
-        "work_id": 440,
-        "mechanism_codes": [
-          "M1",
-          "M2"
-        ],
-        "foundation_codes": [
-          "OF2",
-          "DC1"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=970"
-      },
-      {
-        "id": 971,
-        "work_id": 440,
-        "mechanism_codes": [
-          "M2",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA10",
-          "DC3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=971"
-      },
-      {
         "id": 731,
         "work_id": 219,
         "mechanism_codes": [
@@ -47679,21 +48398,6 @@
         "url": "corpus.html#e=972"
       },
       {
-        "id": 973,
-        "work_id": 441,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "OF2"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=973"
-      },
-      {
         "id": 975,
         "work_id": 443,
         "mechanism_codes": [],
@@ -47922,39 +48626,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=2260"
-      },
-      {
-        "id": 977,
-        "work_id": 445,
-        "mechanism_codes": [
-          "M2",
-          "M13"
-        ],
-        "foundation_codes": [
-          "DC3",
-          "DA9"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=977"
-      },
-      {
-        "id": 978,
-        "work_id": 445,
-        "mechanism_codes": [
-          "M2",
-          "M1"
-        ],
-        "foundation_codes": [
-          "OF2"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=978"
       },
       {
         "id": 979,
@@ -48262,21 +48933,6 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=983"
-      },
-      {
-        "id": 985,
-        "work_id": 449,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "OF2"
-        ],
-        "evidence_quality": "clinical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=985"
       },
       {
         "id": 986,
@@ -74303,6 +74959,22 @@
         "url": "corpus.html#e=2773"
       },
       {
+        "id": 2816,
+        "work_id": 1633,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2816"
+      },
+      {
         "id": 2774,
         "work_id": 1608,
         "mechanism_codes": [
@@ -74932,6 +75604,37 @@
         "url": "corpus.html#e=756"
       },
       {
+        "id": 2843,
+        "work_id": 1647,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2843"
+      },
+      {
+        "id": 2844,
+        "work_id": 1648,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2844"
+      },
+      {
         "id": 1250,
         "work_id": 605,
         "mechanism_codes": [
@@ -74961,6 +75664,876 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=429"
+      },
+      {
+        "id": 2814,
+        "work_id": 1632,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2814"
+      },
+      {
+        "id": 2815,
+        "work_id": 1632,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2815"
+      },
+      {
+        "id": 2817,
+        "work_id": 1633,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2817"
+      },
+      {
+        "id": 2818,
+        "work_id": 1633,
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2818"
+      },
+      {
+        "id": 2819,
+        "work_id": 1634,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2819"
+      },
+      {
+        "id": 2820,
+        "work_id": 1634,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2820"
+      },
+      {
+        "id": 2821,
+        "work_id": 1634,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2821"
+      },
+      {
+        "id": 2822,
+        "work_id": 1635,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2822"
+      },
+      {
+        "id": 2823,
+        "work_id": 1635,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2823"
+      },
+      {
+        "id": 2824,
+        "work_id": 1636,
+        "mechanism_codes": [
+          "M3",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2824"
+      },
+      {
+        "id": 2825,
+        "work_id": 1636,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2825"
+      },
+      {
+        "id": 2826,
+        "work_id": 1637,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2826"
+      },
+      {
+        "id": 2827,
+        "work_id": 1638,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2827"
+      },
+      {
+        "id": 2828,
+        "work_id": 1639,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2828"
+      },
+      {
+        "id": 2829,
+        "work_id": 1640,
+        "mechanism_codes": [
+          "M3",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2829"
+      },
+      {
+        "id": 2830,
+        "work_id": 1640,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2830"
+      },
+      {
+        "id": 2831,
+        "work_id": 1641,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2831"
+      },
+      {
+        "id": 2832,
+        "work_id": 1642,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2832"
+      },
+      {
+        "id": 2833,
+        "work_id": 1643,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2833"
+      },
+      {
+        "id": 2834,
+        "work_id": 1643,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2834"
+      },
+      {
+        "id": 2835,
+        "work_id": 1644,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2835"
+      },
+      {
+        "id": 2836,
+        "work_id": 1644,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2836"
+      },
+      {
+        "id": 2837,
+        "work_id": 1645,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2837"
+      },
+      {
+        "id": 2838,
+        "work_id": 1645,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2838"
+      },
+      {
+        "id": 2839,
+        "work_id": 1646,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2839"
+      },
+      {
+        "id": 2840,
+        "work_id": 1646,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2840"
+      },
+      {
+        "id": 2841,
+        "work_id": 1647,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2841"
+      },
+      {
+        "id": 2842,
+        "work_id": 1647,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2842"
+      },
+      {
+        "id": 2845,
+        "work_id": 1649,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2845"
+      },
+      {
+        "id": 2846,
+        "work_id": 1649,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2846"
+      },
+      {
+        "id": 2847,
+        "work_id": 1650,
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2847"
+      },
+      {
+        "id": 2848,
+        "work_id": 1651,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2848"
+      },
+      {
+        "id": 2849,
+        "work_id": 1652,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2849"
+      },
+      {
+        "id": 2851,
+        "work_id": 1653,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=2851"
+      },
+      {
+        "id": 2852,
+        "work_id": 1654,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2852"
+      },
+      {
+        "id": 2853,
+        "work_id": 1655,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2853"
+      },
+      {
+        "id": 2854,
+        "work_id": 1656,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2854"
+      },
+      {
+        "id": 2855,
+        "work_id": 1657,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2855"
+      },
+      {
+        "id": 2856,
+        "work_id": 1657,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2856"
+      },
+      {
+        "id": 2857,
+        "work_id": 1658,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2857"
+      },
+      {
+        "id": 2858,
+        "work_id": 1659,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2858"
+      },
+      {
+        "id": 2859,
+        "work_id": 1660,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2859"
+      },
+      {
+        "id": 2860,
+        "work_id": 1661,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2860"
+      },
+      {
+        "id": 2861,
+        "work_id": 1661,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2861"
+      },
+      {
+        "id": 2862,
+        "work_id": 1662,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2862"
+      },
+      {
+        "id": 2863,
+        "work_id": 1662,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2863"
+      },
+      {
+        "id": 2869,
+        "work_id": 1667,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2869"
+      },
+      {
+        "id": 2864,
+        "work_id": 1663,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC2",
+          "DA2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2864"
+      },
+      {
+        "id": 2865,
+        "work_id": 1663,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2865"
+      },
+      {
+        "id": 2866,
+        "work_id": 1664,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2866"
+      },
+      {
+        "id": 2867,
+        "work_id": 1665,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2867"
+      },
+      {
+        "id": 2868,
+        "work_id": 1666,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2868"
+      },
+      {
+        "id": 2870,
+        "work_id": 1668,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA7",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2870"
+      },
+      {
+        "id": 2871,
+        "work_id": 1668,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2871"
+      },
+      {
+        "id": 969,
+        "work_id": 440,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "OF2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=969"
+      },
+      {
+        "id": 970,
+        "work_id": 440,
+        "mechanism_codes": [
+          "M1",
+          "M2"
+        ],
+        "foundation_codes": [
+          "OF2",
+          "DC1"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=970"
+      },
+      {
+        "id": 973,
+        "work_id": 441,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=973"
+      },
+      {
+        "id": 985,
+        "work_id": 449,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=985"
+      },
+      {
+        "id": 971,
+        "work_id": 440,
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DC3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=971"
+      },
+      {
+        "id": 977,
+        "work_id": 445,
+        "mechanism_codes": [
+          "M2",
+          "M13"
+        ],
+        "foundation_codes": [
+          "DC3",
+          "DA9"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=977"
       }
     ],
     "researchers": [
@@ -80121,45 +81694,9 @@
         "evidence_role": "challenging"
       },
       {
-        "id": 1397,
-        "mechanism_code": "M2",
-        "extraction_id": 969,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1398,
-        "mechanism_code": "M1",
-        "extraction_id": 970,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1399,
-        "mechanism_code": "M2",
-        "extraction_id": 970,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1400,
-        "mechanism_code": "M2",
-        "extraction_id": 971,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1401,
-        "mechanism_code": "M3",
-        "extraction_id": 971,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 1402,
         "mechanism_code": "M2",
         "extraction_id": 972,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1403,
-        "mechanism_code": "M2",
-        "extraction_id": 973,
         "evidence_role": "challenging"
       },
       {
@@ -80179,30 +81716,6 @@
         "mechanism_code": "M2",
         "extraction_id": 976,
         "evidence_role": "supporting"
-      },
-      {
-        "id": 1407,
-        "mechanism_code": "M2",
-        "extraction_id": 977,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1408,
-        "mechanism_code": "M13",
-        "extraction_id": 977,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1409,
-        "mechanism_code": "M2",
-        "extraction_id": 978,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1410,
-        "mechanism_code": "M1",
-        "extraction_id": 978,
-        "evidence_role": "challenging"
       },
       {
         "id": 1411,
@@ -80227,12 +81740,6 @@
         "mechanism_code": "M5",
         "extraction_id": 980,
         "evidence_role": "primary"
-      },
-      {
-        "id": 1415,
-        "mechanism_code": "M1",
-        "extraction_id": 985,
-        "evidence_role": "challenging"
       },
       {
         "id": 1416,
@@ -80346,6 +81853,66 @@
         "id": 2805,
         "mechanism_code": "M4",
         "extraction_id": 2537,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1398,
+        "mechanism_code": "M1",
+        "extraction_id": 970,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1399,
+        "mechanism_code": "M2",
+        "extraction_id": 970,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1403,
+        "mechanism_code": "M2",
+        "extraction_id": 973,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1409,
+        "mechanism_code": "M2",
+        "extraction_id": 978,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1410,
+        "mechanism_code": "M1",
+        "extraction_id": 978,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1415,
+        "mechanism_code": "M1",
+        "extraction_id": 985,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1400,
+        "mechanism_code": "M2",
+        "extraction_id": 971,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1401,
+        "mechanism_code": "M3",
+        "extraction_id": 971,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1407,
+        "mechanism_code": "M2",
+        "extraction_id": 977,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1408,
+        "mechanism_code": "M13",
+        "extraction_id": 977,
         "evidence_role": "primary"
       },
       {
@@ -92931,6 +94498,282 @@
         "evidence_role": "primary"
       },
       {
+        "id": 3181,
+        "mechanism_code": "M2",
+        "extraction_id": 2814,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3182,
+        "mechanism_code": "M2",
+        "extraction_id": 2815,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3183,
+        "mechanism_code": "M2",
+        "extraction_id": 2816,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3184,
+        "mechanism_code": "M2",
+        "extraction_id": 2817,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3185,
+        "mechanism_code": "M2",
+        "extraction_id": 2818,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3186,
+        "mechanism_code": "M3",
+        "extraction_id": 2818,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3187,
+        "mechanism_code": "M2",
+        "extraction_id": 2819,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3188,
+        "mechanism_code": "M2",
+        "extraction_id": 2820,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3189,
+        "mechanism_code": "M2",
+        "extraction_id": 2821,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3190,
+        "mechanism_code": "M3",
+        "extraction_id": 2822,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3191,
+        "mechanism_code": "M2",
+        "extraction_id": 2823,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3192,
+        "mechanism_code": "M3",
+        "extraction_id": 2824,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3193,
+        "mechanism_code": "M2",
+        "extraction_id": 2824,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3194,
+        "mechanism_code": "M2",
+        "extraction_id": 2825,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3195,
+        "mechanism_code": "M3",
+        "extraction_id": 2826,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3196,
+        "mechanism_code": "M2",
+        "extraction_id": 2827,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3197,
+        "mechanism_code": "M3",
+        "extraction_id": 2829,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3198,
+        "mechanism_code": "M2",
+        "extraction_id": 2829,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3199,
+        "mechanism_code": "M3",
+        "extraction_id": 2830,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3200,
+        "mechanism_code": "M3",
+        "extraction_id": 2831,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3201,
+        "mechanism_code": "M3",
+        "extraction_id": 2832,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3202,
+        "mechanism_code": "M2",
+        "extraction_id": 2833,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3203,
+        "mechanism_code": "M2",
+        "extraction_id": 2834,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3204,
+        "mechanism_code": "M2",
+        "extraction_id": 2835,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3205,
+        "mechanism_code": "M2",
+        "extraction_id": 2836,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3206,
+        "mechanism_code": "M2",
+        "extraction_id": 2837,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3207,
+        "mechanism_code": "M3",
+        "extraction_id": 2838,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3208,
+        "mechanism_code": "M3",
+        "extraction_id": 2839,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3209,
+        "mechanism_code": "M3",
+        "extraction_id": 2840,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3210,
+        "mechanism_code": "M3",
+        "extraction_id": 2843,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3211,
+        "mechanism_code": "M2",
+        "extraction_id": 2844,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3212,
+        "mechanism_code": "M2",
+        "extraction_id": 2845,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3213,
+        "mechanism_code": "M2",
+        "extraction_id": 2846,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3214,
+        "mechanism_code": "M2",
+        "extraction_id": 2847,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3215,
+        "mechanism_code": "M3",
+        "extraction_id": 2847,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3216,
+        "mechanism_code": "M3",
+        "extraction_id": 2848,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3217,
+        "mechanism_code": "M2",
+        "extraction_id": 2851,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3218,
+        "mechanism_code": "M2",
+        "extraction_id": 2852,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3219,
+        "mechanism_code": "M2",
+        "extraction_id": 2853,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3220,
+        "mechanism_code": "M2",
+        "extraction_id": 2854,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3221,
+        "mechanism_code": "M2",
+        "extraction_id": 2855,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3222,
+        "mechanism_code": "M2",
+        "extraction_id": 2856,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 3223,
+        "mechanism_code": "M2",
+        "extraction_id": 2857,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3224,
+        "mechanism_code": "M2",
+        "extraction_id": 2870,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 3225,
+        "mechanism_code": "M2",
+        "extraction_id": 2871,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1397,
+        "mechanism_code": "M2",
+        "extraction_id": 969,
+        "evidence_role": "primary"
+      },
+      {
         "id": 2531,
         "mechanism_code": "M13",
         "extraction_id": 2265,
@@ -103725,6 +105568,36 @@
         "citation": "Hui et al. 2018",
         "title": "Long-term effects of discontinuation from antipsychotic maintenance following first-episode schizophrenia and related disorders: a 10 year follow-up of a randomised, double-blind trial",
         "reason": "Refiled on 21 Nov 2026. The trial took the drug away and put nothing in its place, so it does not test Cor's medication line (A2). Its numbers stay in the atlas."
+      },
+      {
+        "citation": "Volkow, Koob and McLellan 2016",
+        "title": "Neurobiologic Advances from the Brain Disease Model of Addiction (two records: dopamine and cue-triggered craving, the adapted stress system)",
+        "reason": "Refiled on 21 Nov 2026. It describes the change a drug makes in the body, which Cor states itself: a substance effect is a physical cause (OF2), and it does not decide whether a habit lasts (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Volkow, Koob and McLellan 2016",
+        "title": "Neurobiologic Advances from the Brain Disease Model of Addiction (the record that only a minority of users become addicted, more often with poor social support and few alternatives)",
+        "reason": "Refiled on 21 Nov 2026. It supports Cor's reading that what a person comes back to decides whether a habit lasts (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Robinson and Berridge 1993",
+        "title": "The neural basis of drug craving: an incentive-sensitization theory of addiction (the record on how long sensitisation lasts in rats)",
+        "reason": "Refiled on 21 Nov 2026. It describes the change a drug makes in the body, which Cor states itself: a substance effect is a physical cause (OF2), and it does not decide whether a habit lasts (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Heilig et al. 2021",
+        "title": "Addiction as a brain disease revised: why it still matters, and the need for consilience (the record on chimpanzees in withdrawal choosing morphine)",
+        "reason": "Refiled on 21 Nov 2026. It describes the change a drug makes in the body, which Cor states itself: a substance effect is a physical cause (OF2), and it does not decide whether a habit lasts (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Heilig et al. 2021",
+        "title": "Addiction as a brain disease revised: why it still matters, and the need for consilience (the record on rats giving up the drug for a sweet alternative)",
+        "reason": "Refiled on 21 Nov 2026. It supports Cor's reading that what a person comes back to decides whether a habit lasts (DC3). It stays in the atlas."
+      },
+      {
+        "citation": "Kosten and Baxter 2019",
+        "title": "Review article: Effective management of opioid withdrawal symptoms: A gateway to opioid dependence treatment (the record on the course of opioid withdrawal)",
+        "reason": "Refiled on 21 Nov 2026. It describes the change a drug makes in the body, which Cor states itself: a substance effect is a physical cause (OF2), and it does not decide whether a habit lasts (DC3). It stays in the atlas."
       }
     ],
     "challenges": [
@@ -104426,25 +106299,6 @@
         "foundation_codes": []
       },
       {
-        "id": 969,
-        "extraction_id": 969,
-        "work_id": 440,
-        "title": "Neurobiologic Advances from the Brain Disease Model of Addiction",
-        "content": "Neurobiologic Advances from the Brain Disease Model of Addiction",
-        "citation": "Volkow ND, Koob GF, McLellan AT, 2016",
-        "authors": "Volkow ND, Koob GF, McLellan AT",
-        "year": 2016,
-        "researcher": null,
-        "evidence_quality": "replicated",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "OF2"
-        ]
-      },
-      {
         "id": 1659,
         "extraction_id": 1659,
         "work_id": 884,
@@ -104549,46 +106403,6 @@
           "M2"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 970,
-        "extraction_id": 970,
-        "work_id": 440,
-        "title": "Neurobiologic Advances from the Brain Disease Model of Addiction",
-        "content": "Neurobiologic Advances from the Brain Disease Model of Addiction",
-        "citation": "Volkow ND, Koob GF, McLellan AT, 2016",
-        "authors": "Volkow ND, Koob GF, McLellan AT",
-        "year": 2016,
-        "researcher": null,
-        "evidence_quality": "cross_species",
-        "mechanism_codes": [
-          "M1",
-          "M2"
-        ],
-        "foundation_codes": [
-          "OF2",
-          "DC1"
-        ]
-      },
-      {
-        "id": 971,
-        "extraction_id": 971,
-        "work_id": 440,
-        "title": "Neurobiologic Advances from the Brain Disease Model of Addiction",
-        "content": "Neurobiologic Advances from the Brain Disease Model of Addiction",
-        "citation": "Volkow ND, Koob GF, McLellan AT, 2016",
-        "authors": "Volkow ND, Koob GF, McLellan AT",
-        "year": 2016,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M2",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA10",
-          "DC3"
-        ]
       },
       {
         "id": 2246,
@@ -104755,24 +106569,6 @@
         ]
       },
       {
-        "id": 973,
-        "extraction_id": 973,
-        "work_id": 441,
-        "title": "The neural basis of drug craving: an incentive-sensitization theory of addiction",
-        "content": "The neural basis of drug craving: an incentive-sensitization theory of addiction",
-        "citation": "Robinson TE, Berridge KC, 1993",
-        "authors": "Robinson TE, Berridge KC",
-        "year": 1993,
-        "researcher": null,
-        "evidence_quality": "cross_species",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "OF2"
-        ]
-      },
-      {
         "id": 975,
         "extraction_id": 975,
         "work_id": 443,
@@ -104804,45 +106600,6 @@
           "M2"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 977,
-        "extraction_id": 977,
-        "work_id": 445,
-        "title": "Addiction as a brain disease revised: why it still matters, and the need for consilience",
-        "content": "Addiction as a brain disease revised: why it still matters, and the need for consilience",
-        "citation": "Heilig M, MacKillop J, Martinez D, Rehm J, Leggio L, Vanderschuren LJMJ, 2021",
-        "authors": "Heilig M, MacKillop J, Martinez D, Rehm J, Leggio L, Vanderschuren LJMJ",
-        "year": 2021,
-        "researcher": null,
-        "evidence_quality": "cross_species",
-        "mechanism_codes": [
-          "M2",
-          "M13"
-        ],
-        "foundation_codes": [
-          "DC3",
-          "DA9"
-        ]
-      },
-      {
-        "id": 978,
-        "extraction_id": 978,
-        "work_id": 445,
-        "title": "Addiction as a brain disease revised: why it still matters, and the need for consilience",
-        "content": "Addiction as a brain disease revised: why it still matters, and the need for consilience",
-        "citation": "Heilig M, MacKillop J, Martinez D, Rehm J, Leggio L, Vanderschuren LJMJ, 2021",
-        "authors": "Heilig M, MacKillop J, Martinez D, Rehm J, Leggio L, Vanderschuren LJMJ",
-        "year": 2021,
-        "researcher": null,
-        "evidence_quality": "cross_species",
-        "mechanism_codes": [
-          "M2",
-          "M1"
-        ],
-        "foundation_codes": [
-          "OF2"
-        ]
       },
       {
         "id": 979,
@@ -104909,24 +106666,6 @@
           "M3"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 985,
-        "extraction_id": 985,
-        "work_id": 449,
-        "title": "Review article: Effective management of opioid withdrawal symptoms: A gateway to opioid dependence treatment",
-        "content": "Review article: Effective management of opioid withdrawal symptoms: A gateway to opioid dependence treatment",
-        "citation": "Kosten TR, Baxter LE, 2019",
-        "authors": "Kosten TR, Baxter LE",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "clinical",
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "OF2"
-        ]
       },
       {
         "id": 987,
@@ -109295,14 +111034,203 @@
           "M11"
         ],
         "foundation_codes": []
+      },
+      {
+        "id": 2821,
+        "extraction_id": 2821,
+        "work_id": 1634,
+        "title": "The Nathan B. Eddy Lecture: challenging conventional wisdom about drug abuse",
+        "content": "The Nathan B. Eddy Lecture: challenging conventional wisdom about drug abuse",
+        "citation": "Robins LN, 1994",
+        "authors": "Robins LN",
+        "year": 1994,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ]
+      },
+      {
+        "id": 2831,
+        "extraction_id": 2831,
+        "work_id": 1641,
+        "title": "Therapeutic communities for substance related disorder",
+        "content": "Therapeutic communities for substance related disorder",
+        "citation": "Smith LA, Gates S, Foxcroft D, 2006",
+        "authors": "Smith LA, Gates S, Foxcroft D",
+        "year": 2006,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ]
+      },
+      {
+        "id": 2835,
+        "extraction_id": 2835,
+        "work_id": 1644,
+        "title": "A 33-year follow-up of narcotics addicts",
+        "content": "A 33-year follow-up of narcotics addicts",
+        "citation": "Hser YI, Hoffman V, Grella CE, Anglin MD, 2001",
+        "authors": "Hser YI, Hoffman V, Grella CE, Anglin MD",
+        "year": 2001,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 2838,
+        "extraction_id": 2838,
+        "work_id": 1645,
+        "title": "Predicting long-term stable recovery from heroin addiction: findings from a 33-year follow-up study",
+        "content": "Predicting long-term stable recovery from heroin addiction: findings from a 33-year follow-up study",
+        "citation": "Hser YI, 2007",
+        "authors": "Hser YI",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ]
+      },
+      {
+        "id": 2842,
+        "extraction_id": 2842,
+        "work_id": 1647,
+        "title": "Effects of Housing First approaches on health and well-being of adults who are homeless or at risk of homelessness: systematic review and meta-analysis of randomised controlled trials",
+        "content": "Effects of Housing First approaches on health and well-being of adults who are homeless or at risk of homelessness: systematic review and meta-analysis of randomised controlled trials",
+        "citation": "Baxter AJ, Tweed EJ, Katikireddi SV, Thomson H, 2019",
+        "authors": "Baxter AJ, Tweed EJ, Katikireddi SV, Thomson H",
+        "year": 2019,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ]
+      },
+      {
+        "id": 2846,
+        "extraction_id": 2846,
+        "work_id": 1649,
+        "title": "Environmental enrichment reduces cocaine seeking and reinstatement induced by cues and stress but not by cocaine",
+        "content": "Environmental enrichment reduces cocaine seeking and reinstatement induced by cues and stress but not by cocaine",
+        "citation": "Chauvet C, Lardeux V, Goldberg SR, Jaber M, Solinas M, 2009",
+        "authors": "Chauvet C, Lardeux V, Goldberg SR, Jaber M, Solinas M",
+        "year": 2009,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
+        "id": 2847,
+        "extraction_id": 2847,
+        "work_id": 1650,
+        "title": "Effect of environmental enrichment on escalation of cocaine self-administration in rats",
+        "content": "Effect of environmental enrichment on escalation of cocaine self-administration in rats",
+        "citation": "Gipson CD, Beckmann JS, El-Maraghi S, Marusich JA, Bardo MT, 2011",
+        "authors": "Gipson CD, Beckmann JS, El-Maraghi S, Marusich JA, Bardo MT",
+        "year": 2011,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DA2"
+        ]
+      },
+      {
+        "id": 2851,
+        "extraction_id": 2851,
+        "work_id": 1653,
+        "title": "Incubation of cocaine craving after withdrawal",
+        "content": "Incubation of cocaine craving after withdrawal",
+        "citation": "Grimm JW, Hope BT, Wise RA, Shaham Y, 2001",
+        "authors": "Grimm JW, Hope BT, Wise RA, Shaham Y",
+        "year": 2001,
+        "researcher": null,
+        "evidence_quality": "cross_species",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": []
+      },
+      {
+        "id": 2854,
+        "extraction_id": 2854,
+        "work_id": 1656,
+        "title": "Association of Drug Cues and Craving With Drug Use and Relapse: A Systematic Review and Meta-analysis",
+        "content": "Association of Drug Cues and Craving With Drug Use and Relapse: A Systematic Review and Meta-analysis",
+        "citation": "Vafaie N, Kober H, 2022",
+        "authors": "Vafaie N, Kober H",
+        "year": 2022,
+        "researcher": null,
+        "evidence_quality": "meta_analysis",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": []
+      },
+      {
+        "id": 2856,
+        "extraction_id": 2856,
+        "work_id": 1657,
+        "title": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence",
+        "content": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence",
+        "citation": "Volkow ND, Chang L, Wang GJ, Fowler JS, Franceschi D, Sedler M, Gatley SJ, Miller E, Hitzemann R, Ding YS, Logan J, 2001",
+        "authors": "Volkow ND, Chang L, Wang GJ, Fowler JS, Franceschi D, Sedler M, Gatley SJ, Miller E, Hitzemann R, Ding YS, Logan J",
+        "year": 2001,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": []
+      },
+      {
+        "id": 2866,
+        "extraction_id": 2866,
+        "work_id": 1664,
+        "title": "Drivers of the fatal drug epidemic",
+        "content": "Drivers of the fatal drug epidemic",
+        "citation": "Ruhm CJ, 2019",
+        "authors": "Ruhm CJ",
+        "year": 2019,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
       }
     ]
   },
   "derived": {
     "evidence_counts_by_mechanism": {
       "M1": 336,
-      "M2": 327,
-      "M3": 594,
+      "M2": 358,
+      "M3": 608,
       "M4": 154,
       "M9": 207,
       "M14": 262,
