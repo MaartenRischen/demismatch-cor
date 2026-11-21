@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-21T03:20:04.713590+00:00",
+    "built_at": "2026-11-21T04:17:36.482341+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1352,
-    "extractions": 2411,
+    "works": 1425,
+    "extractions": 2497,
     "researchers": 84,
-    "mechanism_evidence": 2705,
+    "mechanism_evidence": 2764,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 335
+    "challenges": 332
   },
   "tables": {
     "foundations": [
@@ -46,17 +46,6 @@
         "derivation": "Panksepp (cross-system inhibition) + Felitti (ACE dose-response) + Borsboom (network psychopathology) + McEwen (cumulative cross-system activation).",
         "epistemic_grade": "forced",
         "scope_notes": null,
-        "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
-        "id": 8,
-        "code": "DA4",
-        "layer": "property",
-        "name": "Proxy Hijacking via Open Loops",
-        "statement": "Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.",
-        "derivation": "Tinbergen (supernormal stimuli) + Berridge & Robinson (wanting/liking dissociation).",
-        "epistemic_grade": "forced",
-        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure.",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -223,6 +212,17 @@
         "epistemic_grade": "plausible_synthesis",
         "scope_notes": "DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this.",
         "created_at": "2026-04-08T14:02:55.382263+00:00"
+      },
+      {
+        "id": 8,
+        "code": "DA4",
+        "layer": "property",
+        "name": "Proxy Hijacking via Open Loops",
+        "statement": "Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.",
+        "derivation": "Tinbergen (supernormal stimuli) + Berridge & Robinson (wanting/liking dissociation).",
+        "epistemic_grade": "forced",
+        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after 25 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and at the same blood level a faster rise gives more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), were used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Open: pituri in Central Australia was chewed almost without pause in a small-scale setting, and no study measured what people gave up for it (ext 2519, 2520).",
+        "created_at": "2026-04-04T17:25:29.196006+00:00"
       }
     ],
     "mechanisms": [
@@ -18527,6 +18527,206 @@
         "url": "corpus.html#w=659"
       },
       {
+        "id": 1363,
+        "title": "What can we learn from the Portuguese decriminalization of illicit drugs?",
+        "authors": "Hughes CE, Stevens A",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/bjc/azq038",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Criminology",
+        "container": null,
+        "volume": "50",
+        "issue": "6",
+        "pages": "999-1022",
+        "url": "corpus.html#w=1363"
+      },
+      {
+        "id": 1364,
+        "title": "A resounding success or a disastrous failure: re-examining the interpretation of evidence on the Portuguese decriminalisation of illicit drugs",
+        "authors": "Hughes CE, Stevens A",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1465-3362.2011.00383.x",
+        "pmid": "22212070",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Drug and Alcohol Review",
+        "container": null,
+        "volume": "31",
+        "issue": "1",
+        "pages": "101-113",
+        "url": "corpus.html#w=1364"
+      },
+      {
+        "id": 1365,
+        "title": "A social cost perspective in the wake of the Portuguese strategy for the fight against drugs",
+        "authors": "Gonçalves R, Lourenço A, Silva SN",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.drugpo.2014.08.017",
+        "pmid": "25265899",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "International Journal of Drug Policy",
+        "container": null,
+        "volume": "26",
+        "issue": "2",
+        "pages": "199-209",
+        "url": "corpus.html#w=1365"
+      },
+      {
+        "id": 1367,
+        "title": "A reinforcement-based therapeutic workplace for the treatment of drug abuse: six-month abstinence outcomes",
+        "authors": "Silverman K, Svikis D, Robles E, Stitzer ML, Bigelow GE",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/1064-1297.9.1.14",
+        "pmid": "11519628",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Experimental and Clinical Psychopharmacology",
+        "container": null,
+        "volume": "9",
+        "issue": "1",
+        "pages": "14-23",
+        "url": "corpus.html#w=1367"
+      },
+      {
+        "id": 1368,
+        "title": "A reinforcement-based therapeutic workplace for the treatment of drug abuse: three-year abstinence outcomes",
+        "authors": "Silverman K, Svikis D, Wong CJ, Hampton J, Stitzer ML, Bigelow GE",
+        "year": 2002,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/1064-1297.10.3.228",
+        "pmid": "12233983",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Experimental and Clinical Psychopharmacology",
+        "container": null,
+        "volume": "10",
+        "issue": "3",
+        "pages": "228-240",
+        "url": "corpus.html#w=1368"
+      },
+      {
+        "id": 1369,
+        "title": "A randomized trial of employment-based reinforcement of cocaine abstinence in injection drug users",
+        "authors": "Silverman K, Wong CJ, Needham M, Diemer KN, Knealing T, Crone-Todd D, Fingerhood M, Nuzzo P, Kolodner K",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1901/jaba.2007.40-387",
+        "pmid": "17970256",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Applied Behavior Analysis",
+        "container": null,
+        "volume": "40",
+        "issue": "3",
+        "pages": "387-410",
+        "url": "corpus.html#w=1369"
+      },
+      {
+        "id": 1370,
+        "title": "Employment-based abstinence reinforcement as a maintenance intervention for the treatment of cocaine dependence: a randomized controlled trial",
+        "authors": "DeFulio A, Donlin WD, Wong CJ, Silverman K",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1360-0443.2009.02657.x",
+        "pmid": "19686522",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "104",
+        "issue": "9",
+        "pages": "1530-1538",
+        "url": "corpus.html#w=1370"
+      },
+      {
+        "id": 1371,
+        "title": "Employment-based abstinence reinforcement as a maintenance intervention for the treatment of cocaine dependence: post-intervention outcomes",
+        "authors": "DeFulio A, Silverman K",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1360-0443.2011.03364.x",
+        "pmid": "21226886",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "106",
+        "issue": "5",
+        "pages": "960-967",
+        "url": "corpus.html#w=1371"
+      },
+      {
+        "id": 1372,
+        "title": "A therapeutic workplace for the long-term treatment of drug addiction and unemployment: eight-year outcomes of a social business intervention",
+        "authors": "Aklin WM, Wong CJ, Hampton J, Svikis DS, Stitzer ML, Bigelow GE, Silverman K",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jsat.2014.06.013",
+        "pmid": "25124257",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Substance Abuse Treatment",
+        "container": null,
+        "volume": "47",
+        "issue": "5",
+        "pages": "329-338",
+        "url": "corpus.html#w=1372"
+      },
+      {
+        "id": 1373,
+        "title": "A randomized controlled trial of the therapeutic workplace for community methadone patients: a partial failure to engage",
+        "authors": "Knealing TW, Wong CJ, Diemer KN, Hampton J, Silverman K",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/1064-1297.14.3.350",
+        "pmid": "16893278",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Experimental and Clinical Psychopharmacology",
+        "container": null,
+        "volume": "14",
+        "issue": "3",
+        "pages": "350-360",
+        "url": "corpus.html#w=1373"
+      },
+      {
         "id": 650,
         "title": "Do cash transfers alleviate common mental disorders in low- and middle-income countries? A systematic review and meta-analysis",
         "authors": "Wollburg C, Steinert JI, Reeves A, Nye E",
@@ -18565,6 +18765,286 @@
         "issue": "3",
         "pages": "309-317",
         "url": "corpus.html#w=644"
+      },
+      {
+        "id": 1374,
+        "title": "Maintenance of reinforcement to address the chronic nature of drug addiction",
+        "authors": "Silverman K, DeFulio A, Sigurdsson SO",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.ypmed.2012.03.013",
+        "pmid": "22668883",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Preventive Medicine",
+        "container": null,
+        "volume": "55",
+        "issue": null,
+        "pages": "S46-S53",
+        "url": "corpus.html#w=1374"
+      },
+      {
+        "id": 1375,
+        "title": "A systematic review of the effectiveness of the community reinforcement approach in alcohol, cocaine and opioid addiction",
+        "authors": "Roozen HG, Boulogne JJ, van Tulder MW, van den Brink W, De Jong CA, Kerkhof AJ",
+        "year": 2004,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.drugalcdep.2003.12.006",
+        "pmid": "15072802",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Drug and Alcohol Dependence",
+        "container": null,
+        "volume": "74",
+        "issue": "1",
+        "pages": "1-13",
+        "url": "corpus.html#w=1375"
+      },
+      {
+        "id": 1376,
+        "title": "The community reinforcement approach: an update of the evidence",
+        "authors": "Meyers RJ, Roozen HG, Smith JE",
+        "year": 2011,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "23580022",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Alcohol research & health : the journal of the National Institute on Alcohol Abuse and Alcoholism",
+        "container": null,
+        "volume": "33",
+        "issue": "4",
+        "pages": "380-8",
+        "url": "corpus.html#w=1376"
+      },
+      {
+        "id": 1377,
+        "title": "Unemployment and substance use: a review of the literature (1990-2010)",
+        "authors": "Henkel D",
+        "year": 2011,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2174/1874473711104010004",
+        "pmid": "21466502",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Current Drug Abuse Reviewse",
+        "container": null,
+        "volume": "4",
+        "issue": "1",
+        "pages": "4-27",
+        "url": "corpus.html#w=1377"
+      },
+      {
+        "id": 1378,
+        "title": "Vocational rehabilitation of drug abusers",
+        "authors": "Platt JJ",
+        "year": 1995,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0033-2909.117.3.416",
+        "pmid": "7777647",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Bulletin",
+        "container": null,
+        "volume": "117",
+        "issue": "3",
+        "pages": "416-433",
+        "url": "corpus.html#w=1378"
+      },
+      {
+        "id": 1379,
+        "title": "Changing network support for drinking: initial findings from the network support project",
+        "authors": "Litt MD, Kadden RM, Kabela-Cormier E, Petry N",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0022-006X.75.4.542",
+        "pmid": "17663609",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Consulting and Clinical Psychology",
+        "container": null,
+        "volume": "75",
+        "issue": "4",
+        "pages": "542-555",
+        "url": "corpus.html#w=1379"
+      },
+      {
+        "id": 1380,
+        "title": "Changing network support for drinking: network support project 2-year follow-up",
+        "authors": "Litt MD, Kadden RM, Kabela-Cormier E, Petry NM",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/a0015252",
+        "pmid": "19309183",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Consulting and Clinical Psychology",
+        "container": null,
+        "volume": "77",
+        "issue": "2",
+        "pages": "229-242",
+        "url": "corpus.html#w=1380"
+      },
+      {
+        "id": 1381,
+        "title": "The role of Alcoholics Anonymous in mobilizing adaptive social network changes: a prospective lagged mediational analysis",
+        "authors": "Kelly JF, Stout RL, Magill M, Tonigan JS, Pagano ME",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.drugalcdep.2010.09.009",
+        "pmid": "21035276",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Drug and Alcohol Dependence",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=1381"
+      },
+      {
+        "id": 1382,
+        "title": "Determining the relative importance of the mechanisms of behavior change within Alcoholics Anonymous: a multiple mediator analysis",
+        "authors": "Kelly JF, Hoeppner B, Stout RL, Pagano M",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1360-0443.2011.03593.x",
+        "pmid": "21917054",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "107",
+        "issue": "2",
+        "pages": "289-299",
+        "url": "corpus.html#w=1382"
+      },
+      {
+        "id": 1383,
+        "title": "New light on the maturing out hypothesis in opioid dependence",
+        "authors": "Maddux JF, Desmond DP",
+        "year": 1980,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "6905767",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Bulletin on narcotics",
+        "container": null,
+        "volume": "32",
+        "issue": "1",
+        "pages": "15-25",
+        "url": "corpus.html#w=1383"
+      },
+      {
+        "id": 1384,
+        "title": "Maturing out of alcohol dependence: the impact of transitional life events",
+        "authors": "Dawson DA, Grant BF, Stinson FS, Chou PS",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.15288/jsa.2006.67.195",
+        "pmid": "16568565",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Studies on Alcohol",
+        "container": null,
+        "volume": "67",
+        "issue": "2",
+        "pages": "195-203",
+        "url": "corpus.html#w=1384"
+      },
+      {
+        "id": 1385,
+        "title": "Contingency management for treatment of substance use disorders: a meta-analysis",
+        "authors": "Prendergast M, Podus D, Finney J, Greenwell L, Roll J",
+        "year": 2006,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1360-0443.2006.01581.x",
+        "pmid": "17034434",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "101",
+        "issue": "11",
+        "pages": "1546-1560",
+        "url": "corpus.html#w=1385"
+      },
+      {
+        "id": 1386,
+        "title": "Long-term efficacy of contingency management treatment based on objective indicators of abstinence from illicit substance use up to 1 year following treatment: a meta-analysis",
+        "authors": "Ginley MK, Pfund RA, Rash CJ, Zajac K",
+        "year": 2021,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/ccp0000552",
+        "pmid": "33507776",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Consulting and Clinical Psychology",
+        "container": null,
+        "volume": "89",
+        "issue": "1",
+        "pages": "58-71",
+        "url": "corpus.html#w=1386"
+      },
+      {
+        "id": 1387,
+        "title": "Revisiting the developed versus developing country distinction in course and outcome in schizophrenia: results from ISoS, the WHO collaborative followup project",
+        "authors": "Hopper K, Wanderling J",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/oxfordjournals.schbul.a033498",
+        "pmid": "11087016",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Bulletin",
+        "container": null,
+        "volume": "26",
+        "issue": "4",
+        "pages": "835-846",
+        "url": "corpus.html#w=1387"
       },
       {
         "id": 651,
@@ -18627,6 +19107,246 @@
         "url": "corpus.html#w=662"
       },
       {
+        "id": 1388,
+        "title": "Recovery from psychotic illness: a 15- and 25-year international follow-up study",
+        "authors": "Harrison G, Hopper K, Craig T, Laska E, Siegel C, Wanderling J, Dube KC, Ganev K, Giel R, an der Heiden W, Holmberg SK, Janca A, Lee PW, León CA, Malhotra S, Marsella AJ, Nakane Y, Sartorius N, Shen Y, Skoda C, Thara R, Tsirkin SJ, Varma VK, Walsh D, Wiersma D",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.178.6.506",
+        "pmid": "11388966",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "178",
+        "issue": "6",
+        "pages": "506-517",
+        "url": "corpus.html#w=1388"
+      },
+      {
+        "id": 1389,
+        "title": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
+        "authors": "Cohen A, Patel V, Thara R, Gureje O",
+        "year": 2008,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/schbul/sbm105",
+        "pmid": "17905787",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Bulletin",
+        "container": null,
+        "volume": "34",
+        "issue": "2",
+        "pages": "229-244",
+        "url": "corpus.html#w=1389"
+      },
+      {
+        "id": 1390,
+        "title": "Expressed emotion and psychiatric relapse: a meta-analysis",
+        "authors": "Butzlaff RL, Hooley JM",
+        "year": 1998,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.55.6.547",
+        "pmid": "9633674",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "55",
+        "issue": "6",
+        "pages": "547",
+        "url": "corpus.html#w=1390"
+      },
+      {
+        "id": 1391,
+        "title": "The predictive power of expressed emotion and its components in relapse of schizophrenia: a meta-analysis and meta-regression",
+        "authors": "Ma CF, Chan SKW, Chung YL, Ng SM, Hui CLM, Suen YN, Chen EYH",
+        "year": 2021,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291721000209",
+        "pmid": "33568244",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "51",
+        "issue": "3",
+        "pages": "365-375",
+        "url": "corpus.html#w=1391"
+      },
+      {
+        "id": 1392,
+        "title": "Family intervention for schizophrenia",
+        "authors": "Pharoah F, Mari J, Rathbone J, Wong W",
+        "year": 2010,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/14651858.CD000088.pub3",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Cochrane Database of Systematic Reviews",
+        "container": null,
+        "volume": "2012",
+        "issue": "11",
+        "pages": null,
+        "url": "corpus.html#w=1392"
+      },
+      {
+        "id": 1393,
+        "title": "Family interventions for relapse prevention in schizophrenia: a systematic review and network meta-analysis",
+        "authors": "Rodolico A, Bighelli I, Avanzato C, Concerto C, Cutrufelli P, Mineo L, Schneider-Thoma J, Siafis S, Signorelli MS, Wu H, Wang D, Furukawa TA, Pitschel-Walz G, Aguglia E, Leucht S",
+        "year": 2022,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S2215-0366(21)00437-5",
+        "pmid": "35093198",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Lancet Psychiatry",
+        "container": null,
+        "volume": "9",
+        "issue": "3",
+        "pages": "211-221",
+        "url": "corpus.html#w=1393"
+      },
+      {
+        "id": 1394,
+        "title": "Do all schizophrenia patients need antipsychotic treatment continuously throughout their lifetime? A 20-year longitudinal study",
+        "authors": "Harrow M, Jobe TH, Faull RN",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291712000220",
+        "pmid": "22340278",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "42",
+        "issue": "10",
+        "pages": "2145-2155",
+        "url": "corpus.html#w=1394"
+      },
+      {
+        "id": 1395,
+        "title": "What is the risk-benefit ratio of long-term antipsychotic treatment in people with schizophrenia?",
+        "authors": "Correll CU, Rubio JM, Kane JM",
+        "year": 2018,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/wps.20516",
+        "pmid": "29856543",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "World Psychiatry",
+        "container": null,
+        "volume": "17",
+        "issue": "2",
+        "pages": "149-160",
+        "url": "corpus.html#w=1395"
+      },
+      {
+        "id": 1396,
+        "title": "The long-term effects of antipsychotic medication on clinical course in schizophrenia",
+        "authors": "Goff DC, Falkai P, Fleischhacker WW, Girgis RR, Kahn RM, Uchida H, Zhao J, Lieberman JA",
+        "year": 2017,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.2017.16091016",
+        "pmid": "28472900",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "174",
+        "issue": "9",
+        "pages": "840-849",
+        "url": "corpus.html#w=1396"
+      },
+      {
+        "id": 1397,
+        "title": "Two-year outcome in first-episode psychosis treated according to an integrated model. Is immediate neuroleptisation always needed?",
+        "authors": "Lehtinen V, Aaltonen J, Koffert T, Räkköläinen V, Syvälahti E",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0924-9338(00)00400-4",
+        "pmid": "10954876",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "European Psychiatry",
+        "container": null,
+        "volume": "15",
+        "issue": "5",
+        "pages": "312-320",
+        "url": "corpus.html#w=1397"
+      },
+      {
+        "id": 1398,
+        "title": "Psychosocial treatment, antipsychotic postponement, and low-dose medication strategies in first-episode psychosis: a review of the literature",
+        "authors": "Bola JR, Lehtinen K, Cullberg J, Ciompi L",
+        "year": 2009,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1080/17522430802610008",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychosis",
+        "container": null,
+        "volume": "1",
+        "issue": "1",
+        "pages": "4-18",
+        "url": "corpus.html#w=1398"
+      },
+      {
+        "id": 1399,
+        "title": "Does employment alter the course and outcome of schizophrenia and other severe mental illnesses? A systematic review of longitudinal research",
+        "authors": "Luciano A, Bond GR, Drake RE",
+        "year": 2014,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.schres.2014.09.010",
+        "pmid": "25278105",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Research",
+        "container": null,
+        "volume": "159",
+        "issue": "2-3",
+        "pages": "312-321",
+        "url": "corpus.html#w=1399"
+      },
+      {
         "id": 652,
         "title": "Associations of Housing Mobility Interventions for Children in High-Poverty Neighborhoods With Subsequent Mental Disorders During Adolescence",
         "authors": "Kessler RC, Duncan GJ, Gennetian LA, Katz LF, Kling JR, Sampson NA, Sanbonmatsu L, Zaslavsky AM, Ludwig J",
@@ -18665,6 +19385,226 @@
         "issue": "3",
         "pages": "e74",
         "url": "corpus.html#w=663"
+      },
+      {
+        "id": 1400,
+        "title": "The effectiveness of supported employment for people with severe mental illness: a randomised controlled trial",
+        "authors": "Burns T, Catty J, Becker T, Drake RE, Fioritti A, Knapp M, Lauber C, Rössler W, Tomov T, van Busschbach J, White S, Wiersma D",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0140-6736(07)61516-5",
+        "pmid": "17905167",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Lancet",
+        "container": null,
+        "volume": "370",
+        "issue": "9593",
+        "pages": "1146-1152",
+        "url": "corpus.html#w=1400"
+      },
+      {
+        "id": 1401,
+        "title": "Supported employment for people with severe mental illness: systematic review and meta-analysis of the international evidence",
+        "authors": "Modini M, Tan L, Brinchmann B, Wang MJ, Killackey E, Glozier N, Mykletun A, Harvey SB",
+        "year": 2016,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.bp.115.165092",
+        "pmid": "27103678",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "209",
+        "issue": "1",
+        "pages": "14-22",
+        "url": "corpus.html#w=1401"
+      },
+      {
+        "id": 1402,
+        "title": "Social networks, support and early psychosis: a systematic review",
+        "authors": "Gayer-Anderson C, Morgan C",
+        "year": 2013,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S2045796012000406",
+        "pmid": "22831843",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Epidemiology and Psychiatric Sciences",
+        "container": null,
+        "volume": "22",
+        "issue": "2",
+        "pages": "131-146",
+        "url": "corpus.html#w=1402"
+      },
+      {
+        "id": 1403,
+        "title": "Loneliness in psychosis: a meta-analytical review",
+        "authors": "Michalska da Rocha B, Rhodes S, Vasilopoulou E, Hutton P",
+        "year": 2018,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/schbul/sbx036",
+        "pmid": "28369646",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Bulletin",
+        "container": null,
+        "volume": "44",
+        "issue": "1",
+        "pages": "114-125",
+        "url": "corpus.html#w=1403"
+      },
+      {
+        "id": 1404,
+        "title": "Guided discontinuation versus maintenance treatment in remitted first-episode psychosis: relapse rates and functional outcome",
+        "authors": "Wunderink L, Nienhuis FJ, Sytema S, Slooff CJ, Knegtering R, Wiersma D",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.4088/JCP.v68n0502",
+        "pmid": "17503973",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Journal of Clinical Psychiatry",
+        "container": null,
+        "volume": "68",
+        "issue": "05",
+        "pages": "654-661",
+        "url": "corpus.html#w=1404"
+      },
+      {
+        "id": 1405,
+        "title": "Factors associated with successful antipsychotic dose reduction in schizophrenia: a systematic review of prospective clinical trials and meta-analysis of randomized controlled trials",
+        "authors": "Tani H, Takasu S, Uchida H, Suzuki T, Mimura M, Takeuchi H",
+        "year": 2020,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41386-019-0573-7",
+        "pmid": "31770770",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuropsychopharmacology",
+        "container": null,
+        "volume": "45",
+        "issue": "5",
+        "pages": "887-901",
+        "url": "corpus.html#w=1405"
+      },
+      {
+        "id": 1406,
+        "title": "A method for tapering antipsychotic treatment that may minimize the risk of relapse",
+        "authors": "Horowitz MA, Jauhar S, Natesan S, Murray RM, Taylor D",
+        "year": 2021,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/schbul/sbab017",
+        "pmid": "33754644",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Bulletin",
+        "container": null,
+        "volume": "47",
+        "issue": "4",
+        "pages": "1116-1129",
+        "url": "corpus.html#w=1406"
+      },
+      {
+        "id": 1407,
+        "title": "Early dose reduction or discontinuation vs maintenance antipsychotics after first psychotic episode remission: a randomized clinical trial",
+        "authors": "Sommer IE, de Beer F, Gangadin S, de Haan L, Veling W, van Beveren N, Boonstra N, Rosema BS, van Os J, Kikkert M, Koops S, Noorman J, Thielen F, Wijnen B, Begemann M",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2025.2525",
+        "pmid": "41032294",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "83",
+        "issue": "1",
+        "pages": "68",
+        "url": "corpus.html#w=1407"
+      },
+      {
+        "id": 1408,
+        "title": "To continue or not to continue? Antipsychotic medication maintenance versus dose-reduction/discontinuation in first episode psychosis: HAMLETT, a pragmatic multicenter single-blind randomized controlled trial",
+        "authors": "Begemann MJH, Thompson IA, Veling W, Gangadin SS, Geraets CNW, van 't Hag E, Müller-Kuperus SJ, Oomen PP, Voppel AE, van der Gaag M, Kikkert MJ, Van Os J, Smit HFE, Knegtering RH, Wiersma S, Stouten LH, Gijsman HJ, Wunderink L, Staring ABP, Veerman SRT, Mahabir AGS, Kurkamp J, Pijnenborg GHM, Veen ND, Marcelis M, Grootens KP, Faber G, van Beveren NJ, Been A, van den Brink T, Bak M, van Amelsvoort TAMJ, Ruissen A, Blanke C, Groen K, de Haan L, Sommer IEC",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/s13063-019-3822-5",
+        "pmid": "32033579",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Trials",
+        "container": null,
+        "volume": "21",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1408"
+      },
+      {
+        "id": 1409,
+        "title": "Can antipsychotic dose reduction lead to better functional recovery in first-episode psychosis? A randomized controlled-trial of antipsychotic dose reduction. The reduce trial: study protocol",
+        "authors": "Weller A, Gleeson J, Alvarez-Jimenez M, McGorry P, Nelson B, Allott K, Bendall S, Bartholomeusz C, Koval P, Harrigan S, O'Donoghue B, Fornito A, Pantelis C, Paul Amminger G, Ratheesh A, Polari A, Wood SJ, van der El K, Ellinghaus C, Gates J, O'Connell J, Mueller M, Wunderink L, Killackey E",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/eip.12769",
+        "pmid": "30488637",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Early Intervention in Psychiatry",
+        "container": null,
+        "volume": "13",
+        "issue": "6",
+        "pages": "1345-1356",
+        "url": "corpus.html#w=1409"
+      },
+      {
+        "id": 1410,
+        "title": "Antipsychotic-induced dopamine supersensitivity psychosis: pharmacology, criteria, and therapy",
+        "authors": "Chouinard G, Samaha AN, Chouinard VA, Peretti CS, Kanahara N, Takase M, Iyo M",
+        "year": 2017,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1159/000477313",
+        "pmid": "28647739",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychotherapy and Psychosomatics",
+        "container": null,
+        "volume": "86",
+        "issue": "4",
+        "pages": "189-219",
+        "url": "corpus.html#w=1410"
       },
       {
         "id": 653,
@@ -18707,6 +19647,266 @@
         "url": "corpus.html#w=664"
       },
       {
+        "id": 1411,
+        "title": "Does antipsychotic withdrawal provoke psychosis? Review of the literature on rapid onset psychosis (supersensitivity psychosis) and withdrawal-related relapse",
+        "authors": "Moncrieff J",
+        "year": 2006,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1600-0447.2006.00787.x",
+        "pmid": "16774655",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Acta Psychiatrica Scandinavica",
+        "container": null,
+        "volume": "114",
+        "issue": "1",
+        "pages": "3-13",
+        "url": "corpus.html#w=1411"
+      },
+      {
+        "id": 1412,
+        "title": "Should psychiatrists be more cautious about the long-term prophylactic use of antipsychotics?",
+        "authors": "Murray RM, Quattrone D, Natesan S, van Os J, Nordentoft M, Howes O, Di Forti M, Taylor D",
+        "year": 2016,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.bp.116.182683",
+        "pmid": "27802977",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "209",
+        "issue": "5",
+        "pages": "361-365",
+        "url": "corpus.html#w=1412"
+      },
+      {
+        "id": 1413,
+        "title": "Antipsychotic medication and remission of psychotic symptoms 10 years after a first-episode psychosis",
+        "authors": "Wils RS, Gotfredsen DR, Hjorthøj C, Austin SF, Albert N, Secher RG, Thorup AAE, Mors O, Nordentoft M",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.schres.2016.10.030",
+        "pmid": "28277310",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Research",
+        "container": null,
+        "volume": "182",
+        "issue": null,
+        "pages": "42-48",
+        "url": "corpus.html#w=1413"
+      },
+      {
+        "id": 1414,
+        "title": "Use and discontinuation of antipsychotic medication in 20 years following a first episode of schizophrenia: results from the OPUS trial",
+        "authors": "Hansen HG, Speyer H, Stürup AE, Hjorthøj C, Öngür D, Nordentoft M, Albert N",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291724002678",
+        "pmid": "39552396",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "54",
+        "issue": "15",
+        "pages": "4374-4384",
+        "url": "corpus.html#w=1414"
+      },
+      {
+        "id": 1415,
+        "title": "Reappraising the long-term course and outcome of psychotic disorders: the AESOP-10 study",
+        "authors": "Morgan C, Lappin J, Heslin M, Donoghue K, Lomas B, Reininghaus U, Onyejiaka A, Croudace T, Jones PB, Murray RM, Fearon P, Doody GA, Dazzan P",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291714000282",
+        "pmid": "25066181",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "44",
+        "issue": "13",
+        "pages": "2713-2726",
+        "url": "corpus.html#w=1415"
+      },
+      {
+        "id": 1416,
+        "title": "Areca nut chewing and dependency syndrome: Is the dependence comparable to smoking? a cross sectional study",
+        "authors": "Mirza SS, Shafique K, Vart P, Arain MI",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/1747-597x-6-23",
+        "pmid": "21851600",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Substance Abuse Treatment, Prevention, and Policy",
+        "container": null,
+        "volume": "6",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1416"
+      },
+      {
+        "id": 1417,
+        "title": "Does areca nut use lead to dependence?",
+        "authors": "Benegal V, Rajkumar RP, Muralidharan K",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.drugalcdep.2008.03.016",
+        "pmid": "18490113",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Drug and Alcohol Dependence",
+        "container": null,
+        "volume": "97",
+        "issue": "1-2",
+        "pages": "114-121",
+        "url": "corpus.html#w=1417"
+      },
+      {
+        "id": 1418,
+        "title": "Betel-quid dependence and oral potentially malignant disorders in six Asian countries",
+        "authors": "Lee CH, Ko AMS, Yen CF, Chu KS, Gao YJ, Warnakulasuriya S, Sunarjo, Ibrahim SO, Zain RB, Patrick WK, Ko YC",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.bp.111.107961",
+        "pmid": "22995631",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "201",
+        "issue": "5",
+        "pages": "383-391",
+        "url": "corpus.html#w=1418"
+      },
+      {
+        "id": 1419,
+        "title": "Association of DSM-5 Betel-Quid Use Disorder With Oral Potentially Malignant Disorder in 6 Betel-Quid Endemic Asian Populations",
+        "authors": "Lee CH, Ko AMS, Yang FM, Hung CC, Warnakulasuriya S, Ibrahim SO, Zain RB, Ko YC",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2017.4307",
+        "pmid": "29417149",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "75",
+        "issue": "3",
+        "pages": "261",
+        "url": "corpus.html#w=1419"
+      },
+      {
+        "id": 1420,
+        "title": "Betel-quid dependence domains and syndrome associated with betel-quid ingredients among chewers: an Asian multi-country evidence",
+        "authors": "Lee CH, Chiang SL, Ko AM, Hua CH, Tsai MH, Warnakulasuriya S, Ibrahim SO, Sunarjo, Zain RB, Ling TY, Huang CL, Lane HY, Lin CC, Ko YC",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/add.12530",
+        "pmid": "24650227",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Addiction",
+        "container": null,
+        "volume": "109",
+        "issue": "7",
+        "pages": "1194-1204",
+        "url": "corpus.html#w=1420"
+      },
+      {
+        "id": 1421,
+        "title": "Biomolecular archaeology reveals ancient origins of indigenous tobacco smoking in North American Plateau",
+        "authors": "Tushingham S, Snyder CM, Brownstein KJ, Damitio WJ, Gang DR",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1813796115",
+        "pmid": "30373836",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "115",
+        "issue": "46",
+        "pages": "11742-11747",
+        "url": "corpus.html#w=1421"
+      },
+      {
+        "id": 1422,
+        "title": "Earliest evidence for human use of tobacco in the Pleistocene Americas",
+        "authors": "Duke D, Wohlgemuth E, Adams KR, Armstrong-Ingram A, Rice SK, Young DC",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41562-021-01202-9",
+        "pmid": "34635825",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Human Behaviour",
+        "container": null,
+        "volume": "6",
+        "issue": "2",
+        "pages": "183-192",
+        "url": "corpus.html#w=1422"
+      },
+      {
+        "id": 1423,
+        "title": "The pituri story: a review of the historical literature surrounding traditional Australian Aboriginal use of nicotine in Central Australia",
+        "authors": "Ratsch A, Steadman KJ, Bogossian F",
+        "year": 2010,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/1746-4269-6-26",
+        "pmid": "20831827",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Ethnobiology and Ethnomedicine",
+        "container": null,
+        "volume": "6",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1423"
+      },
+      {
         "id": 655,
         "title": "Shyness and sociability",
         "authors": "Cheek JM, Buss AH",
@@ -18725,6 +19925,266 @@
         "issue": "2",
         "pages": "330-339",
         "url": "corpus.html#w=655"
+      },
+      {
+        "id": 1424,
+        "title": "Tobacco use vs. helminths in Congo basin hunter-gatherers: self-medication in humans?",
+        "authors": "Roulette CJ, Mann H, Kemp BM, Remiker M, Roulette JW, Hewlett BS, Kazanji M, Breurec S, Monchy D, Sullivan RJ, Hagen EH",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.evolhumbehav.2014.05.005",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Evolution and Human Behavior",
+        "container": null,
+        "volume": "35",
+        "issue": "5",
+        "pages": "397-407",
+        "url": "corpus.html#w=1424"
+      },
+      {
+        "id": 1425,
+        "title": "Coca Leaf Use in Southern Peru: Some Biosocial Aspects",
+        "authors": "Hanna JM",
+        "year": 1974,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1525/aa.1974.76.2.02a00020",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Anthropologist",
+        "container": null,
+        "volume": "76",
+        "issue": "2",
+        "pages": "281-296",
+        "url": "corpus.html#w=1425"
+      },
+      {
+        "id": 1426,
+        "title": "Coca Chewing and High-Altitude Stress: A Spurious Correlation",
+        "authors": "Bray W, Dollery C",
+        "year": 1983,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1086/202995",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Current Anthropology",
+        "container": null,
+        "volume": "24",
+        "issue": "3",
+        "pages": "269-282",
+        "url": "corpus.html#w=1426"
+      },
+      {
+        "id": 1427,
+        "title": "Coca Leaf Chewing: a Public Health Assessment",
+        "authors": "Negrete JC",
+        "year": 1978,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1360-0443.1978.tb00155.x",
+        "pmid": "280352",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Addiction to Alcohol & Other Drugs",
+        "container": null,
+        "volume": "73",
+        "issue": "3",
+        "pages": "283-290",
+        "url": "corpus.html#w=1427"
+      },
+      {
+        "id": 1428,
+        "title": "Cocaine in blood of coca chewers",
+        "authors": "Holmstedt B, Lindgren JE, Rivier L, Plowman T",
+        "year": 1979,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/0378-8741(79)90017-5",
+        "pmid": "544950",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Ethnopharmacology",
+        "container": null,
+        "volume": "1",
+        "issue": "1",
+        "pages": "69-78",
+        "url": "corpus.html#w=1428"
+      },
+      {
+        "id": 1429,
+        "title": "Khat dependence syndrome: A cross sectional preliminary evaluation amongst UK-resident Yemeni khat chewers",
+        "authors": "Kassim S, Croucher R, al'Absi M",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jep.2013.02.011",
+        "pmid": "23454606",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Ethnopharmacology",
+        "container": null,
+        "volume": "146",
+        "issue": "3",
+        "pages": "835-841",
+        "url": "corpus.html#w=1429"
+      },
+      {
+        "id": 1430,
+        "title": "Khat use as risk factor for psychotic disorders: A cross-sectional and case-control study in Somalia",
+        "authors": "Odenwald M, Neuner F, Schauer M, Elbert T, Catani C, Lingenfelder B, Hinkel H, Häfner H, Rockstroh B",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/1741-7015-3-5",
+        "pmid": "15707502",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BMC Medicine",
+        "container": null,
+        "volume": "3",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=1430"
+      },
+      {
+        "id": 1431,
+        "title": "Why does the rapid delivery of drugs to the brain promote addiction?",
+        "authors": "Samaha AN, Robinson TE",
+        "year": 2005,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.tips.2004.12.007",
+        "pmid": "15681025",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Trends in Pharmacological Sciences",
+        "container": null,
+        "volume": "26",
+        "issue": "2",
+        "pages": "82-87",
+        "url": "corpus.html#w=1431"
+      },
+      {
+        "id": 1432,
+        "title": "Rate of increase of plasma drug level influences subjective response in humans",
+        "authors": "de Wit H, Bodker B, Ambre J",
+        "year": 1992,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/bf02245161",
+        "pmid": "1615136",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychopharmacology",
+        "container": null,
+        "volume": "107",
+        "issue": "2-3",
+        "pages": "352-358",
+        "url": "corpus.html#w=1432"
+      },
+      {
+        "id": 1433,
+        "title": "Effects of route of administration on cocaine induced dopamine transporter blockade in the human brain",
+        "authors": "Volkow ND, Wang GJ, Fischman MW, Foltin R, Fowler JS, Franceschi D, Franceschi M, Logan J, Gatley SJ, Wong C, Ding YS, Hitzemann R, Pappas N",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/s0024-3205(00)00731-1",
+        "pmid": "10983846",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Life Sciences",
+        "container": null,
+        "volume": "67",
+        "issue": "12",
+        "pages": "1507-1515",
+        "url": "corpus.html#w=1433"
+      },
+      {
+        "id": 1434,
+        "title": "Variables that affect the clinical use and abuse of methylphenidate in the treatment of ADHD",
+        "authors": "Volkow ND, Swanson JM",
+        "year": 2003,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.160.11.1909",
+        "pmid": "14594733",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "160",
+        "issue": "11",
+        "pages": "1909-1918",
+        "url": "corpus.html#w=1434"
+      },
+      {
+        "id": 1435,
+        "title": "Nicotine delivery kinetics and abuse liability.",
+        "authors": "Henningfield JE, Keenan RM",
+        "year": 1993,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0022-006x.61.5.743",
+        "pmid": "8245272",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Consulting and Clinical Psychology",
+        "container": null,
+        "volume": "61",
+        "issue": "5",
+        "pages": "743-750",
+        "url": "corpus.html#w=1435"
+      },
+      {
+        "id": 1436,
+        "title": "Conversion of Nicotine in Tobacco Smoke to Its Volatile and Available Free-Base Form through the Action of Gaseous Ammonia",
+        "authors": "Pankow JF, Mader BT, Isabelle LM, Luo W, Pavlick A, Liang C",
+        "year": 1997,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1021/es970402f",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Environmental Science & Technology",
+        "container": null,
+        "volume": "31",
+        "issue": "8",
+        "pages": "2428-2433",
+        "url": "corpus.html#w=1436"
       },
       {
         "id": 656,
@@ -29531,6 +30991,19 @@
         "url": "corpus.html#e=448"
       },
       {
+        "id": 2504,
+        "work_id": 1412,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2504"
+      },
+      {
         "id": 166,
         "work_id": 55,
         "mechanism_codes": [
@@ -29815,6 +31288,21 @@
         "url": "corpus.html#e=33"
       },
       {
+        "id": 2505,
+        "work_id": 1412,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2505"
+      },
+      {
         "id": 483,
         "work_id": 68,
         "mechanism_codes": [
@@ -29858,6 +31346,21 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=157"
+      },
+      {
+        "id": 2506,
+        "work_id": 1413,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2506"
       },
       {
         "id": 37,
@@ -30063,6 +31566,21 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=1121"
+      },
+      {
+        "id": 2507,
+        "work_id": 1414,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2507"
       },
       {
         "id": 172,
@@ -30640,6 +32158,22 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=588"
+      },
+      {
+        "id": 2508,
+        "work_id": 1415,
+        "mechanism_codes": [
+          "M2",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2508"
       },
       {
         "id": 91,
@@ -31933,6 +33467,21 @@
         "url": "corpus.html#e=487"
       },
       {
+        "id": 2519,
+        "work_id": 1423,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2519"
+      },
+      {
         "id": 1009,
         "work_id": 463,
         "mechanism_codes": [
@@ -32104,6 +33653,21 @@
         "url": "corpus.html#e=597"
       },
       {
+        "id": 2520,
+        "work_id": 1423,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2520"
+      },
+      {
         "id": 173,
         "work_id": 56,
         "mechanism_codes": [
@@ -32178,6 +33742,21 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=862"
+      },
+      {
+        "id": 2526,
+        "work_id": 1429,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2526"
       },
       {
         "id": 305,
@@ -32501,6 +34080,22 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=1680"
+      },
+      {
+        "id": 2527,
+        "work_id": 1430,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DC2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2527"
       },
       {
         "id": 72,
@@ -33674,6 +35269,22 @@
         "url": "corpus.html#e=209"
       },
       {
+        "id": 2528,
+        "work_id": 1430,
+        "mechanism_codes": [
+          "M2",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2528"
+      },
+      {
         "id": 211,
         "work_id": 58,
         "mechanism_codes": [
@@ -34226,6 +35837,21 @@
         "url": "corpus.html#e=1715"
       },
       {
+        "id": 2529,
+        "work_id": 1431,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2529"
+      },
+      {
         "id": 230,
         "work_id": 59,
         "mechanism_codes": [
@@ -34490,6 +36116,21 @@
         "url": "corpus.html#e=239"
       },
       {
+        "id": 2530,
+        "work_id": 1432,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2530"
+      },
+      {
         "id": 240,
         "work_id": 14,
         "mechanism_codes": [
@@ -34551,6 +36192,21 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=243"
+      },
+      {
+        "id": 2531,
+        "work_id": 1433,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2531"
       },
       {
         "id": 852,
@@ -34945,6 +36601,21 @@
         "url": "corpus.html#e=465"
       },
       {
+        "id": 2532,
+        "work_id": 1434,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2532"
+      },
+      {
         "id": 250,
         "work_id": 14,
         "mechanism_codes": [
@@ -35244,22 +36915,6 @@
         "url": "corpus.html#e=617"
       },
       {
-        "id": 899,
-        "work_id": 385,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=899"
-      },
-      {
         "id": 1741,
         "work_id": 935,
         "mechanism_codes": [
@@ -35320,6 +36975,22 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=1021"
+      },
+      {
+        "id": 2533,
+        "work_id": 1435,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "DC2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2533"
       },
       {
         "id": 129,
@@ -35403,22 +37074,6 @@
         "url": "corpus.html#e=407"
       },
       {
-        "id": 900,
-        "work_id": 385,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=900"
-      },
-      {
         "id": 1123,
         "work_id": 523,
         "mechanism_codes": [
@@ -35449,22 +37104,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=202"
-      },
-      {
-        "id": 901,
-        "work_id": 385,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "P3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=901"
       },
       {
         "id": 592,
@@ -35581,23 +37220,6 @@
         "url": "corpus.html#e=593"
       },
       {
-        "id": 903,
-        "work_id": 386,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4",
-          "DA8"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=903"
-      },
-      {
         "id": 509,
         "work_id": 73,
         "mechanism_codes": [
@@ -35648,21 +37270,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=266"
-      },
-      {
-        "id": 904,
-        "work_id": 386,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=904"
       },
       {
         "id": 401,
@@ -35765,23 +37372,6 @@
         "url": "corpus.html#e=272"
       },
       {
-        "id": 905,
-        "work_id": 386,
-        "mechanism_codes": [
-          "M3",
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "P2"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=905"
-      },
-      {
         "id": 195,
         "work_id": 57,
         "mechanism_codes": [
@@ -35874,20 +37464,17 @@
         "url": "corpus.html#e=280"
       },
       {
-        "id": 907,
-        "work_id": 387,
-        "mechanism_codes": [
-          "M2"
-        ],
+        "id": 2534,
+        "work_id": 1436,
+        "mechanism_codes": [],
         "foundation_codes": [
-          "P3",
-          "DA4"
+          "DC2"
         ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
+        "evidence_quality": "thin",
+        "source_type": "primary",
         "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=907"
+        "grade": "tested once",
+        "url": "corpus.html#e=2534"
       },
       {
         "id": 1,
@@ -36103,6 +37690,21 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=475"
+      },
+      {
+        "id": 904,
+        "work_id": 386,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=904"
       },
       {
         "id": 79,
@@ -36755,23 +38357,6 @@
         "url": "corpus.html#e=451"
       },
       {
-        "id": 919,
-        "work_id": 398,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4",
-          "DA7"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=919"
-      },
-      {
         "id": 1746,
         "work_id": 940,
         "mechanism_codes": [
@@ -36935,6 +38520,23 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=462"
+      },
+      {
+        "id": 2476,
+        "work_id": 1388,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2476"
       },
       {
         "id": 301,
@@ -37471,6 +39073,19 @@
         "url": "corpus.html#e=337"
       },
       {
+        "id": 2477,
+        "work_id": 1388,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2477"
+      },
+      {
         "id": 931,
         "work_id": 409,
         "mechanism_codes": [
@@ -37551,6 +39166,19 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=345"
+      },
+      {
+        "id": 2478,
+        "work_id": 1389,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2478"
       },
       {
         "id": 347,
@@ -37716,6 +39344,17 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=935"
+      },
+      {
+        "id": 2479,
+        "work_id": 1389,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2479"
       },
       {
         "id": 936,
@@ -38854,6 +40493,38 @@
         "url": "corpus.html#e=514"
       },
       {
+        "id": 2480,
+        "work_id": 1390,
+        "mechanism_codes": [
+          "M3",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2480"
+      },
+      {
+        "id": 2481,
+        "work_id": 1391,
+        "mechanism_codes": [
+          "M3",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2481"
+      },
+      {
         "id": 947,
         "work_id": 417,
         "mechanism_codes": [],
@@ -39482,17 +41153,6 @@
         "url": "corpus.html#e=627"
       },
       {
-        "id": 1783,
-        "work_id": 967,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=1783"
-      },
-      {
         "id": 630,
         "work_id": 135,
         "mechanism_codes": [
@@ -39708,6 +41368,23 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=645"
+      },
+      {
+        "id": 905,
+        "work_id": 386,
+        "mechanism_codes": [
+          "M3",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "P2"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=905"
       },
       {
         "id": 647,
@@ -45830,6 +47507,22 @@
         "url": "corpus.html#e=1054"
       },
       {
+        "id": 2482,
+        "work_id": 1392,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2482"
+      },
+      {
         "id": 1056,
         "work_id": 497,
         "mechanism_codes": [
@@ -46594,6 +48287,17 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=1109"
+      },
+      {
+        "id": 2483,
+        "work_id": 1392,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2483"
       },
       {
         "id": 1103,
@@ -49849,6 +51553,21 @@
         "url": "corpus.html#e=1344"
       },
       {
+        "id": 2521,
+        "work_id": 1424,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2521"
+      },
+      {
         "id": 1346,
         "work_id": 674,
         "mechanism_codes": [
@@ -50105,6 +51824,22 @@
         "url": "corpus.html#e=1364"
       },
       {
+        "id": 2522,
+        "work_id": 1425,
+        "mechanism_codes": [
+          "M2",
+          "M13"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2522"
+      },
+      {
         "id": 1365,
         "work_id": 687,
         "mechanism_codes": [],
@@ -50114,6 +51849,22 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1365"
+      },
+      {
+        "id": 2523,
+        "work_id": 1426,
+        "mechanism_codes": [
+          "M2",
+          "M13"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2523"
       },
       {
         "id": 1371,
@@ -50306,6 +52057,19 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=1383"
+      },
+      {
+        "id": 2524,
+        "work_id": 1427,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2524"
       },
       {
         "id": 1390,
@@ -50972,6 +52736,21 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1438"
+      },
+      {
+        "id": 2525,
+        "work_id": 1428,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2525"
       },
       {
         "id": 1439,
@@ -55344,7 +57123,7 @@
           "OF2"
         ],
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1778"
@@ -55371,7 +57150,7 @@
           "OF2"
         ],
         "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=1781"
@@ -55385,7 +57164,7 @@
           "OF2"
         ],
         "evidence_quality": "thin",
-        "source_type": "challenge",
+        "source_type": "primary",
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1785"
@@ -55405,19 +57184,6 @@
         "url": "corpus.html#e=1780"
       },
       {
-        "id": 1782,
-        "work_id": 966,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=1782"
-      },
-      {
         "id": 1786,
         "work_id": 970,
         "mechanism_codes": [],
@@ -55430,6 +57196,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1786"
+      },
+      {
+        "id": 1782,
+        "work_id": 966,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1782"
       },
       {
         "id": 1787,
@@ -59412,6 +61191,22 @@
         "url": "corpus.html#e=2439"
       },
       {
+        "id": 2484,
+        "work_id": 1393,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2484"
+      },
+      {
         "id": 2070,
         "work_id": 1140,
         "mechanism_codes": [
@@ -59614,6 +61409,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2218"
+      },
+      {
+        "id": 2485,
+        "work_id": 1394,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "OF2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2485"
       },
       {
         "id": 2085,
@@ -60245,6 +62053,19 @@
         "url": "corpus.html#e=2128"
       },
       {
+        "id": 2448,
+        "work_id": 1363,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2448"
+      },
+      {
         "id": 2131,
         "work_id": 108,
         "mechanism_codes": [
@@ -60308,6 +62129,28 @@
         "url": "corpus.html#e=2135"
       },
       {
+        "id": 2449,
+        "work_id": 1363,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2449"
+      },
+      {
+        "id": 2450,
+        "work_id": 1364,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2450"
+      },
+      {
         "id": 2138,
         "work_id": 1178,
         "mechanism_codes": [
@@ -60367,6 +62210,17 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2142"
+      },
+      {
+        "id": 2451,
+        "work_id": 1365,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2451"
       },
       {
         "id": 2146,
@@ -60431,6 +62285,19 @@
         "url": "corpus.html#e=2149"
       },
       {
+        "id": 2453,
+        "work_id": 1367,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2453"
+      },
+      {
         "id": 2151,
         "work_id": 1185,
         "mechanism_codes": [
@@ -60476,6 +62343,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2154"
+      },
+      {
+        "id": 2454,
+        "work_id": 1368,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2454"
       },
       {
         "id": 2157,
@@ -60550,6 +62430,17 @@
         "url": "corpus.html#e=2161"
       },
       {
+        "id": 2455,
+        "work_id": 1369,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2455"
+      },
+      {
         "id": 2163,
         "work_id": 1192,
         "mechanism_codes": [
@@ -60608,6 +62499,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2166"
+      },
+      {
+        "id": 2456,
+        "work_id": 1370,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2456"
       },
       {
         "id": 2169,
@@ -60676,6 +62580,30 @@
         "url": "corpus.html#e=2226"
       },
       {
+        "id": 2457,
+        "work_id": 1371,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2457"
+      },
+      {
+        "id": 2458,
+        "work_id": 1371,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2458"
+      },
+      {
         "id": 2173,
         "work_id": 1200,
         "mechanism_codes": [
@@ -60701,6 +62629,30 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2175"
+      },
+      {
+        "id": 2459,
+        "work_id": 1372,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2459"
+      },
+      {
+        "id": 2460,
+        "work_id": 1373,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2460"
       },
       {
         "id": 2177,
@@ -60750,6 +62702,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2180"
+      },
+      {
+        "id": 2461,
+        "work_id": 1374,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "clinical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2461"
       },
       {
         "id": 2182,
@@ -60807,6 +62772,20 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2185"
+      },
+      {
+        "id": 2462,
+        "work_id": 1375,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3",
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2462"
       },
       {
         "id": 2187,
@@ -60932,6 +62911,35 @@
         "url": "corpus.html#e=1556"
       },
       {
+        "id": 2463,
+        "work_id": 1376,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2463"
+      },
+      {
+        "id": 2464,
+        "work_id": 1377,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2464"
+      },
+      {
         "id": 2197,
         "work_id": 1220,
         "mechanism_codes": [
@@ -60989,6 +62997,34 @@
         "url": "corpus.html#e=2201"
       },
       {
+        "id": 2465,
+        "work_id": 1378,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2465"
+      },
+      {
+        "id": 2466,
+        "work_id": 1379,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2466"
+      },
+      {
         "id": 2203,
         "work_id": 1223,
         "mechanism_codes": [
@@ -61034,6 +63070,51 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2206"
+      },
+      {
+        "id": 2467,
+        "work_id": 1380,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2467"
+      },
+      {
+        "id": 2468,
+        "work_id": 1381,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2468"
+      },
+      {
+        "id": 2469,
+        "work_id": 1382,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2469"
       },
       {
         "id": 2208,
@@ -61082,6 +63163,61 @@
         "url": "corpus.html#e=2211"
       },
       {
+        "id": 2470,
+        "work_id": 1383,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2470"
+      },
+      {
+        "id": 2471,
+        "work_id": 1383,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DC3",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2471"
+      },
+      {
+        "id": 2472,
+        "work_id": 1384,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2472"
+      },
+      {
+        "id": 2473,
+        "work_id": 1385,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2473"
+      },
+      {
         "id": 2213,
         "work_id": 1228,
         "mechanism_codes": [
@@ -61127,6 +63263,17 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2216"
+      },
+      {
+        "id": 2474,
+        "work_id": 1386,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2474"
       },
       {
         "id": 2221,
@@ -61233,6 +63380,17 @@
         "url": "corpus.html#e=2228"
       },
       {
+        "id": 2486,
+        "work_id": 1395,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2486"
+      },
+      {
         "id": 2230,
         "work_id": 1232,
         "mechanism_codes": [],
@@ -61277,6 +63435,17 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2232"
+      },
+      {
+        "id": 2487,
+        "work_id": 1396,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "challenge",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2487"
       },
       {
         "id": 2234,
@@ -61364,6 +63533,21 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2239"
+      },
+      {
+        "id": 2492,
+        "work_id": 1401,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2492"
       },
       {
         "id": 2006,
@@ -64085,6 +66269,22 @@
         "url": "corpus.html#e=1474"
       },
       {
+        "id": 2493,
+        "work_id": 1402,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2493"
+      },
+      {
         "id": 1477,
         "work_id": 770,
         "mechanism_codes": [],
@@ -64307,6 +66507,459 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1607"
+      },
+      {
+        "id": 2475,
+        "work_id": 1387,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2475"
+      },
+      {
+        "id": 2494,
+        "work_id": 1403,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2494"
+      },
+      {
+        "id": 2488,
+        "work_id": 1397,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2488"
+      },
+      {
+        "id": 2489,
+        "work_id": 1398,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2489"
+      },
+      {
+        "id": 2490,
+        "work_id": 1399,
+        "mechanism_codes": [
+          "M2",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2490"
+      },
+      {
+        "id": 2491,
+        "work_id": 1400,
+        "mechanism_codes": [
+          "M2",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2491"
+      },
+      {
+        "id": 2499,
+        "work_id": 1407,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2499"
+      },
+      {
+        "id": 2495,
+        "work_id": 1404,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2495"
+      },
+      {
+        "id": 2496,
+        "work_id": 1405,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2496"
+      },
+      {
+        "id": 2497,
+        "work_id": 1406,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=2497"
+      },
+      {
+        "id": 2498,
+        "work_id": 1407,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2498"
+      },
+      {
+        "id": 2500,
+        "work_id": 1408,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2500"
+      },
+      {
+        "id": 2501,
+        "work_id": 1409,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2501"
+      },
+      {
+        "id": 2502,
+        "work_id": 1410,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2502"
+      },
+      {
+        "id": 2503,
+        "work_id": 1411,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=2503"
+      },
+      {
+        "id": 2509,
+        "work_id": 1416,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2509"
+      },
+      {
+        "id": 2510,
+        "work_id": 1416,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2510"
+      },
+      {
+        "id": 2511,
+        "work_id": 1417,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2511"
+      },
+      {
+        "id": 2512,
+        "work_id": 1418,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2512"
+      },
+      {
+        "id": 2513,
+        "work_id": 1418,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DC2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2513"
+      },
+      {
+        "id": 2514,
+        "work_id": 1419,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2514"
+      },
+      {
+        "id": 2515,
+        "work_id": 1420,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2515"
+      },
+      {
+        "id": 2516,
+        "work_id": 1421,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2516"
+      },
+      {
+        "id": 2517,
+        "work_id": 1421,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3",
+          "DC2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2517"
+      },
+      {
+        "id": 2518,
+        "work_id": 1422,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2518"
+      },
+      {
+        "id": 899,
+        "work_id": 385,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=899"
+      },
+      {
+        "id": 900,
+        "work_id": 385,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=900"
+      },
+      {
+        "id": 901,
+        "work_id": 385,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=901"
+      },
+      {
+        "id": 903,
+        "work_id": 386,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=903"
+      },
+      {
+        "id": 907,
+        "work_id": 387,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=907"
+      },
+      {
+        "id": 919,
+        "work_id": 398,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA4",
+          "DA7"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=919"
+      },
+      {
+        "id": 1783,
+        "work_id": 967,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1783"
       }
     ],
     "researchers": [
@@ -69065,58 +71718,16 @@
         "evidence_role": "supporting"
       },
       {
-        "id": 1323,
+        "id": 1327,
         "mechanism_code": "M2",
-        "extraction_id": 899,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1324,
-        "mechanism_code": "M2",
-        "extraction_id": 900,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1325,
-        "mechanism_code": "M2",
-        "extraction_id": 901,
-        "evidence_role": "challenging"
+        "extraction_id": 903,
+        "evidence_role": "primary"
       },
       {
         "id": 1326,
         "mechanism_code": "M2",
         "extraction_id": 902,
         "evidence_role": "primary"
-      },
-      {
-        "id": 1327,
-        "mechanism_code": "M2",
-        "extraction_id": 903,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1328,
-        "mechanism_code": "M2",
-        "extraction_id": 904,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1329,
-        "mechanism_code": "M3",
-        "extraction_id": 905,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1330,
-        "mechanism_code": "M2",
-        "extraction_id": 905,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1331,
-        "mechanism_code": "M2",
-        "extraction_id": 907,
-        "evidence_role": "challenging"
       },
       {
         "id": 1332,
@@ -69165,12 +71776,6 @@
         "mechanism_code": "M13",
         "extraction_id": 917,
         "evidence_role": "primary"
-      },
-      {
-        "id": 1340,
-        "mechanism_code": "M2",
-        "extraction_id": 919,
-        "evidence_role": "challenging"
       },
       {
         "id": 1341,
@@ -69680,6 +72285,48 @@
         "id": 1567,
         "mechanism_code": "M3",
         "extraction_id": 1148,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1324,
+        "mechanism_code": "M2",
+        "extraction_id": 900,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1325,
+        "mechanism_code": "M2",
+        "extraction_id": 901,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1328,
+        "mechanism_code": "M2",
+        "extraction_id": 904,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1329,
+        "mechanism_code": "M3",
+        "extraction_id": 905,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1330,
+        "mechanism_code": "M2",
+        "extraction_id": 905,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1331,
+        "mechanism_code": "M2",
+        "extraction_id": 907,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1340,
+        "mechanism_code": "M2",
+        "extraction_id": 919,
         "evidence_role": "primary"
       },
       {
@@ -81129,6 +83776,366 @@
         "mechanism_code": "M1",
         "extraction_id": 2447,
         "evidence_role": "primary"
+      },
+      {
+        "id": 2744,
+        "mechanism_code": "M2",
+        "extraction_id": 2464,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2745,
+        "mechanism_code": "M2",
+        "extraction_id": 2465,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2746,
+        "mechanism_code": "M3",
+        "extraction_id": 2466,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2747,
+        "mechanism_code": "M3",
+        "extraction_id": 2467,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2748,
+        "mechanism_code": "M3",
+        "extraction_id": 2468,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2749,
+        "mechanism_code": "M3",
+        "extraction_id": 2469,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2750,
+        "mechanism_code": "M3",
+        "extraction_id": 2471,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2751,
+        "mechanism_code": "M9",
+        "extraction_id": 2472,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2752,
+        "mechanism_code": "M3",
+        "extraction_id": 2475,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2753,
+        "mechanism_code": "M11",
+        "extraction_id": 2475,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2754,
+        "mechanism_code": "M3",
+        "extraction_id": 2476,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2755,
+        "mechanism_code": "M11",
+        "extraction_id": 2476,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2756,
+        "mechanism_code": "M3",
+        "extraction_id": 2480,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2757,
+        "mechanism_code": "M5",
+        "extraction_id": 2480,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2758,
+        "mechanism_code": "M3",
+        "extraction_id": 2481,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2759,
+        "mechanism_code": "M5",
+        "extraction_id": 2481,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2760,
+        "mechanism_code": "M3",
+        "extraction_id": 2482,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2761,
+        "mechanism_code": "M3",
+        "extraction_id": 2484,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2762,
+        "mechanism_code": "M3",
+        "extraction_id": 2488,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2763,
+        "mechanism_code": "M3",
+        "extraction_id": 2489,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2764,
+        "mechanism_code": "M2",
+        "extraction_id": 2490,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2765,
+        "mechanism_code": "M5",
+        "extraction_id": 2490,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2766,
+        "mechanism_code": "M2",
+        "extraction_id": 2491,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2767,
+        "mechanism_code": "M5",
+        "extraction_id": 2491,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2768,
+        "mechanism_code": "M2",
+        "extraction_id": 2492,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2769,
+        "mechanism_code": "M3",
+        "extraction_id": 2493,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2770,
+        "mechanism_code": "M11",
+        "extraction_id": 2493,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2771,
+        "mechanism_code": "M3",
+        "extraction_id": 2494,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2772,
+        "mechanism_code": "M2",
+        "extraction_id": 2501,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2773,
+        "mechanism_code": "M2",
+        "extraction_id": 2505,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2774,
+        "mechanism_code": "M2",
+        "extraction_id": 2506,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2775,
+        "mechanism_code": "M2",
+        "extraction_id": 2507,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2776,
+        "mechanism_code": "M2",
+        "extraction_id": 2508,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2777,
+        "mechanism_code": "M3",
+        "extraction_id": 2508,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2778,
+        "mechanism_code": "M2",
+        "extraction_id": 2509,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2779,
+        "mechanism_code": "M2",
+        "extraction_id": 2510,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2780,
+        "mechanism_code": "M2",
+        "extraction_id": 2511,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2781,
+        "mechanism_code": "M2",
+        "extraction_id": 2512,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2782,
+        "mechanism_code": "M2",
+        "extraction_id": 2513,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2783,
+        "mechanism_code": "M2",
+        "extraction_id": 2514,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2784,
+        "mechanism_code": "M2",
+        "extraction_id": 2515,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2785,
+        "mechanism_code": "M2",
+        "extraction_id": 2519,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2786,
+        "mechanism_code": "M2",
+        "extraction_id": 2520,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2787,
+        "mechanism_code": "M8",
+        "extraction_id": 2521,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2788,
+        "mechanism_code": "M2",
+        "extraction_id": 2522,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2789,
+        "mechanism_code": "M13",
+        "extraction_id": 2522,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2790,
+        "mechanism_code": "M2",
+        "extraction_id": 2523,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2791,
+        "mechanism_code": "M13",
+        "extraction_id": 2523,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2792,
+        "mechanism_code": "M2",
+        "extraction_id": 2524,
+        "evidence_role": "challenging"
+      },
+      {
+        "id": 2793,
+        "mechanism_code": "M2",
+        "extraction_id": 2525,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2794,
+        "mechanism_code": "M2",
+        "extraction_id": 2526,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2795,
+        "mechanism_code": "M2",
+        "extraction_id": 2527,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2796,
+        "mechanism_code": "M2",
+        "extraction_id": 2528,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2797,
+        "mechanism_code": "M1",
+        "extraction_id": 2528,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2798,
+        "mechanism_code": "M2",
+        "extraction_id": 2529,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2799,
+        "mechanism_code": "M2",
+        "extraction_id": 2530,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2800,
+        "mechanism_code": "M2",
+        "extraction_id": 2531,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2801,
+        "mechanism_code": "M2",
+        "extraction_id": 2532,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 2802,
+        "mechanism_code": "M2",
+        "extraction_id": 2533,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 1323,
+        "mechanism_code": "M2",
+        "extraction_id": 899,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -90493,6 +93500,46 @@
         "citation": "Stieglitz et al. 2015",
         "title": "Functional disability and social conflict increase risk of depression in older adulthood among Bolivian forager-farmers (Tsimane), prevalence finding",
         "reason": "Set aside as a weak test and moved out of the core set. It is one cross-sectional sample, and its comparison with industrial prevalence runs across questionnaires that are not equivalent. The study's correlates (disability, a lost provider role, conflict) stay in the atlas."
+      },
+      {
+        "citation": "Sullivan and Hagen 2002",
+        "title": "Psychotropic substance-seeking: evolutionary pathology or adaptation? (three records: old plant use, strength and route of traditional use, the small share of refined drugs)",
+        "reason": "Refiled on 21 Nov 2026. Cor's hijack claim covers a drug that is purified, fast or supplied without limit (DA4). This record is about plant drugs at plant strength, which Cor holds to be old and no hijack. It stays in the atlas. The authors apply the mismatch account to purified and synthetic drugs themselves."
+      },
+      {
+        "citation": "Sullivan, Hagen and Hammerstein 2008",
+        "title": "Revealing the paradox of drug reward in human evolution (three records: plant toxins and the liver enzymes, the survey shares, each drug as its own case)",
+        "reason": "Refiled on 21 Nov 2026. Cor's hijack claim covers a drug that is purified, fast or supplied without limit (DA4). This record is about plant drugs at plant strength, which Cor holds to be old and no hijack. It stays in the atlas. The authors grant that heroin may be a real mismatch."
+      },
+      {
+        "citation": "Hagen and Tushingham 2019",
+        "title": "The prehistory of psychoactive drug use (the record on drugs as bitter plant toxins and regulated intake)",
+        "reason": "Refiled on 21 Nov 2026. Cor's hijack claim covers a drug that is purified, fast or supplied without limit (DA4). This record is about plant drugs at plant strength, which Cor holds to be old and no hijack. It stays in the atlas."
+      },
+      {
+        "citation": "Hagen, Roulette and Sullivan 2013",
+        "title": "Explaining human recreational use of 'pesticides': the neurotoxin regulation model of substance use vs. the hijack model (the record on children)",
+        "reason": "Refiled on 21 Nov 2026. Cor's hijack claim covers a drug that is purified, fast or supplied without limit (DA4). This record is about plant drugs at plant strength, which Cor holds to be old and no hijack. It stays in the atlas. The children were tested on nicotine and coffee."
+      },
+      {
+        "citation": "Moncrieff et al. 2023",
+        "title": "Antipsychotic dose reduction and discontinuation versus maintenance treatment (the RADAR trial), relapse finding",
+        "reason": "Refiled on 21 Nov 2026. The trial took the drug away and put nothing in its place, so it does not test Cor's medication line (A2), which replaces the drug with the real thing. Its numbers stay in the atlas. The authors name added social support as the thing to test next."
+      },
+      {
+        "citation": "Ceraso et al. 2020",
+        "title": "Maintenance treatment with antipsychotic drugs for schizophrenia (two records: relapse on drug against placebo, abrupt stop against taper)",
+        "reason": "Refiled on 21 Nov 2026. The trial took the drug away and put nothing in its place, so it does not test Cor's medication line (A2), which replaces the drug with the real thing. Its numbers stay in the atlas."
+      },
+      {
+        "citation": "Leucht et al. 2012",
+        "title": "Antipsychotic drugs versus placebo for relapse prevention in schizophrenia: a systematic review and meta-analysis",
+        "reason": "Refiled on 21 Nov 2026. The trial took the drug away and put nothing in its place, so it does not test Cor's medication line (A2), which replaces the drug with the real thing. Its numbers stay in the atlas."
+      },
+      {
+        "citation": "Hui et al. 2018",
+        "title": "Long-term effects of discontinuation from antipsychotic maintenance following first-episode schizophrenia and related disorders: a 10 year follow-up of a randomised, double-blind trial",
+        "reason": "Refiled on 21 Nov 2026. The trial took the drug away and put nothing in its place, so it does not test Cor's medication line (A2), which replaces the drug with the real thing. Its numbers stay in the atlas."
       }
     ],
     "challenges": [
@@ -90700,6 +93747,24 @@
         "foundation_codes": []
       },
       {
+        "id": 2520,
+        "extraction_id": 2520,
+        "work_id": 1423,
+        "title": "The pituri story: a review of the historical literature surrounding traditional Australian Aboriginal use of nicotine in Central Australia",
+        "content": "The pituri story: a review of the historical literature surrounding traditional Australian Aboriginal use of nicotine in Central Australia",
+        "citation": "Ratsch A, Steadman KJ, Bogossian F, 2010",
+        "authors": "Ratsch A, Steadman KJ, Bogossian F",
+        "year": 2010,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ]
+      },
+      {
         "id": 761,
         "extraction_id": 761,
         "work_id": 249,
@@ -90848,25 +93913,6 @@
         "foundation_codes": []
       },
       {
-        "id": 899,
-        "extraction_id": 899,
-        "work_id": 385,
-        "title": "Psychotropic substance-seeking: evolutionary pathology or adaptation?",
-        "content": "Psychotropic substance-seeking: evolutionary pathology or adaptation?",
-        "citation": "Sullivan RJ, Hagen EH, 2002",
-        "authors": "Sullivan RJ, Hagen EH",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
-        ]
-      },
-      {
         "id": 1741,
         "extraction_id": 1741,
         "work_id": 935,
@@ -90884,121 +93930,6 @@
         "foundation_codes": []
       },
       {
-        "id": 900,
-        "extraction_id": 900,
-        "work_id": 385,
-        "title": "Psychotropic substance-seeking: evolutionary pathology or adaptation?",
-        "content": "Psychotropic substance-seeking: evolutionary pathology or adaptation?",
-        "citation": "Sullivan RJ, Hagen EH, 2002",
-        "authors": "Sullivan RJ, Hagen EH",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
-        ]
-      },
-      {
-        "id": 901,
-        "extraction_id": 901,
-        "work_id": 385,
-        "title": "Psychotropic substance-seeking: evolutionary pathology or adaptation?",
-        "content": "Psychotropic substance-seeking: evolutionary pathology or adaptation?",
-        "citation": "Sullivan RJ, Hagen EH, 2002",
-        "authors": "Sullivan RJ, Hagen EH",
-        "year": 2002,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "P3"
-        ]
-      },
-      {
-        "id": 903,
-        "extraction_id": 903,
-        "work_id": 386,
-        "title": "Revealing the paradox of drug reward in human evolution",
-        "content": "Revealing the paradox of drug reward in human evolution",
-        "citation": "Sullivan RJ, Hagen EH, Hammerstein P, 2008",
-        "authors": "Sullivan RJ, Hagen EH, Hammerstein P",
-        "year": 2008,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4",
-          "DA8"
-        ]
-      },
-      {
-        "id": 904,
-        "extraction_id": 904,
-        "work_id": 386,
-        "title": "Revealing the paradox of drug reward in human evolution",
-        "content": "Revealing the paradox of drug reward in human evolution",
-        "citation": "Sullivan RJ, Hagen EH, Hammerstein P, 2008",
-        "authors": "Sullivan RJ, Hagen EH, Hammerstein P",
-        "year": 2008,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4"
-        ]
-      },
-      {
-        "id": 905,
-        "extraction_id": 905,
-        "work_id": 386,
-        "title": "Revealing the paradox of drug reward in human evolution",
-        "content": "Revealing the paradox of drug reward in human evolution",
-        "citation": "Sullivan RJ, Hagen EH, Hammerstein P, 2008",
-        "authors": "Sullivan RJ, Hagen EH, Hammerstein P",
-        "year": 2008,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M3",
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA4",
-          "P2"
-        ]
-      },
-      {
-        "id": 907,
-        "extraction_id": 907,
-        "work_id": 387,
-        "title": "The prehistory of psychoactive drug use",
-        "content": "The prehistory of psychoactive drug use",
-        "citation": "Hagen EH, Tushingham S, 2019",
-        "authors": "Hagen EH, Tushingham S",
-        "year": 2019,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4"
-        ]
-      },
-      {
         "id": 1745,
         "extraction_id": 1745,
         "work_id": 939,
@@ -91013,26 +93944,6 @@
           "M1"
         ],
         "foundation_codes": []
-      },
-      {
-        "id": 919,
-        "extraction_id": 919,
-        "work_id": 398,
-        "title": "Explaining human recreational use of 'pesticides': the neurotoxin regulation model of substance use vs. the hijack model and implications for age and sex differences in drug consumption",
-        "content": "Explaining human recreational use of 'pesticides': the neurotoxin regulation model of substance use vs. the hijack model and implications for age and sex differences in drug consumption",
-        "citation": "Hagen EH, Roulette CJ, Sullivan RJ, 2013",
-        "authors": "Hagen EH, Roulette CJ, Sullivan RJ",
-        "year": 2013,
-        "researcher": null,
-        "evidence_quality": "theoretical",
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA4",
-          "DA7"
-        ]
       },
       {
         "id": 1746,
@@ -91123,6 +94034,22 @@
         ]
       },
       {
+        "id": 2478,
+        "extraction_id": 2478,
+        "work_id": 1389,
+        "title": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
+        "content": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
+        "citation": "Cohen A, Patel V, Thara R, Gureje O, 2008",
+        "authors": "Cohen A, Patel V, Thara R, Gureje O",
+        "year": 2008,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA2"
+        ]
+      },
+      {
         "id": 934,
         "extraction_id": 934,
         "work_id": 412,
@@ -91162,6 +94089,20 @@
         ]
       },
       {
+        "id": 2479,
+        "extraction_id": 2479,
+        "work_id": 1389,
+        "title": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
+        "content": "Questioning an axiom: better prognosis for schizophrenia in the developing world?",
+        "citation": "Cohen A, Patel V, Thara R, Gureje O, 2008",
+        "authors": "Cohen A, Patel V, Thara R, Gureje O",
+        "year": 2008,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
+      },
+      {
         "id": 1114,
         "extraction_id": 1114,
         "work_id": 520,
@@ -91195,20 +94136,6 @@
         "foundation_codes": [
           "DA1"
         ]
-      },
-      {
-        "id": 1783,
-        "extraction_id": 1783,
-        "work_id": 967,
-        "title": "Antipsychotic drugs versus placebo for relapse prevention in schizophrenia: a systematic review and meta-analysis",
-        "content": "Antipsychotic drugs versus placebo for relapse prevention in schizophrenia: a systematic review and meta-analysis",
-        "citation": "Leucht S, Tardy M, Komossa K, Heres S, Kissling W, Salanti G, Davis JM, 2012",
-        "authors": "Leucht S, Tardy M, Komossa K, Heres S, Kissling W, Salanti G, Davis JM",
-        "year": 2012,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [],
-        "foundation_codes": []
       },
       {
         "id": 1790,
@@ -93434,6 +96361,22 @@
         "foundation_codes": []
       },
       {
+        "id": 2524,
+        "extraction_id": 2524,
+        "work_id": 1427,
+        "title": "Coca Leaf Chewing: a Public Health Assessment",
+        "content": "Coca Leaf Chewing: a Public Health Assessment",
+        "citation": "Negrete JC, 1978",
+        "authors": "Negrete JC",
+        "year": 1978,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": []
+      },
+      {
         "id": 1393,
         "extraction_id": 1393,
         "work_id": 707,
@@ -94605,73 +97548,6 @@
         ]
       },
       {
-        "id": 1778,
-        "extraction_id": 1778,
-        "work_id": 965,
-        "title": "Antipsychotic dose reduction and discontinuation versus maintenance treatment in people with schizophrenia and other recurrent psychotic disorders in England (the RADAR trial): an open, parallel-group, randomised controlled trial",
-        "content": "Antipsychotic dose reduction and discontinuation versus maintenance treatment in people with schizophrenia and other recurrent psychotic disorders in England (the RADAR trial): an open, parallel-group, randomised controlled trial",
-        "citation": "Moncrieff J, Crellin N, Stansfeld J, Cooper R, Marston L, Freemantle N, Lewis G, Hunter R, Johnson S, Barnes T, Morant N, Pinfold V, Smith R, Kent L, Darton K, Long M, Horowitz M, Horne R, Vickerstaff V, Jha M, Priebe S, 2023",
-        "authors": "Moncrieff J, Crellin N, Stansfeld J, Cooper R, Marston L, Freemantle N, Lewis G, Hunter R, Johnson S, Barnes T, Morant N, Pinfold V, Smith R, Kent L, Darton K, Long M, Horowitz M, Horne R, Vickerstaff V, Jha M, Priebe S",
-        "year": 2023,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3",
-          "OF2"
-        ]
-      },
-      {
-        "id": 1781,
-        "extraction_id": 1781,
-        "work_id": 966,
-        "title": "Maintenance treatment with antipsychotic drugs for schizophrenia",
-        "content": "Maintenance treatment with antipsychotic drugs for schizophrenia",
-        "citation": "Ceraso A, Lin JJ, Schneider-Thoma J, Siafis S, Tardy M, Komossa K, Heres S, Kissling W, Davis JM, Leucht S, 2020",
-        "authors": "Ceraso A, Lin JJ, Schneider-Thoma J, Siafis S, Tardy M, Komossa K, Heres S, Kissling W, Davis JM, Leucht S",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3",
-          "OF2"
-        ]
-      },
-      {
-        "id": 1785,
-        "extraction_id": 1785,
-        "work_id": 969,
-        "title": "Long-term effects of discontinuation from antipsychotic maintenance following first-episode schizophrenia and related disorders: a 10 year follow-up of a randomised, double-blind trial",
-        "content": "Long-term effects of discontinuation from antipsychotic maintenance following first-episode schizophrenia and related disorders: a 10 year follow-up of a randomised, double-blind trial",
-        "citation": "Hui CLM, Honer WG, Lee EHM, Chang WC, Chan SKW, Chen ESM, Pang EPF, Lui SSY, Chung DWS, Yeung WS, Ng RMK, Lo WTL, Jones PB, Sham P, Chen EYH, 2018",
-        "authors": "Hui CLM, Honer WG, Lee EHM, Chang WC, Chan SKW, Chen ESM, Pang EPF, Lui SSY, Chung DWS, Yeung WS, Ng RMK, Lo WTL, Jones PB, Sham P, Chen EYH",
-        "year": 2018,
-        "researcher": null,
-        "evidence_quality": "thin",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3",
-          "OF2"
-        ]
-      },
-      {
-        "id": 1782,
-        "extraction_id": 1782,
-        "work_id": 966,
-        "title": "Maintenance treatment with antipsychotic drugs for schizophrenia",
-        "content": "Maintenance treatment with antipsychotic drugs for schizophrenia",
-        "citation": "Ceraso A, Lin JJ, Schneider-Thoma J, Siafis S, Tardy M, Komossa K, Heres S, Kissling W, Davis JM, Leucht S, 2020",
-        "authors": "Ceraso A, Lin JJ, Schneider-Thoma J, Siafis S, Tardy M, Komossa K, Heres S, Kissling W, Davis JM, Leucht S",
-        "year": 2020,
-        "researcher": null,
-        "evidence_quality": "meta_analysis",
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DC3"
-        ]
-      },
-      {
         "id": 1786,
         "extraction_id": 1786,
         "work_id": 970,
@@ -95739,6 +98615,62 @@
         ]
       },
       {
+        "id": 2449,
+        "extraction_id": 2449,
+        "work_id": 1363,
+        "title": "What can we learn from the Portuguese decriminalization of illicit drugs?",
+        "content": "What can we learn from the Portuguese decriminalization of illicit drugs?",
+        "citation": "Hughes CE, Stevens A, 2010",
+        "authors": "Hughes CE, Stevens A",
+        "year": 2010,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
+      },
+      {
+        "id": 2455,
+        "extraction_id": 2455,
+        "work_id": 1369,
+        "title": "A randomized trial of employment-based reinforcement of cocaine abstinence in injection drug users",
+        "content": "A randomized trial of employment-based reinforcement of cocaine abstinence in injection drug users",
+        "citation": "Silverman K, Wong CJ, Needham M, Diemer KN, Knealing T, Crone-Todd D, Fingerhood M, Nuzzo P, Kolodner K, 2007",
+        "authors": "Silverman K, Wong CJ, Needham M, Diemer KN, Knealing T, Crone-Todd D, Fingerhood M, Nuzzo P, Kolodner K",
+        "year": 2007,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
+      },
+      {
+        "id": 2458,
+        "extraction_id": 2458,
+        "work_id": 1371,
+        "title": "Employment-based abstinence reinforcement as a maintenance intervention for the treatment of cocaine dependence: post-intervention outcomes",
+        "content": "Employment-based abstinence reinforcement as a maintenance intervention for the treatment of cocaine dependence: post-intervention outcomes",
+        "citation": "DeFulio A, Silverman K, 2011",
+        "authors": "DeFulio A, Silverman K",
+        "year": 2011,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
+      },
+      {
+        "id": 2460,
+        "extraction_id": 2460,
+        "work_id": 1373,
+        "title": "A randomized controlled trial of the therapeutic workplace for community methadone patients: a partial failure to engage",
+        "content": "A randomized controlled trial of the therapeutic workplace for community methadone patients: a partial failure to engage",
+        "citation": "Knealing TW, Wong CJ, Diemer KN, Hampton J, Silverman K, 2006",
+        "authors": "Knealing TW, Wong CJ, Diemer KN, Hampton J, Silverman K",
+        "year": 2006,
+        "researcher": null,
+        "evidence_quality": "thin",
+        "mechanism_codes": [],
+        "foundation_codes": []
+      },
+      {
         "id": 2179,
         "extraction_id": 2179,
         "work_id": 1204,
@@ -95799,6 +98731,34 @@
           "M5",
           "M11"
         ],
+        "foundation_codes": []
+      },
+      {
+        "id": 2486,
+        "extraction_id": 2486,
+        "work_id": 1395,
+        "title": "What is the risk-benefit ratio of long-term antipsychotic treatment in people with schizophrenia?",
+        "content": "What is the risk-benefit ratio of long-term antipsychotic treatment in people with schizophrenia?",
+        "citation": "Correll CU, Rubio JM, Kane JM, 2018",
+        "authors": "Correll CU, Rubio JM, Kane JM",
+        "year": 2018,
+        "researcher": null,
+        "evidence_quality": "theoretical",
+        "mechanism_codes": [],
+        "foundation_codes": []
+      },
+      {
+        "id": 2487,
+        "extraction_id": 2487,
+        "work_id": 1396,
+        "title": "The long-term effects of antipsychotic medication on clinical course in schizophrenia",
+        "content": "The long-term effects of antipsychotic medication on clinical course in schizophrenia",
+        "citation": "Goff DC, Falkai P, Fleischhacker WW, Girgis RR, Kahn RM, Uchida H, Zhao J, Lieberman JA, 2017",
+        "authors": "Goff DC, Falkai P, Fleischhacker WW, Girgis RR, Kahn RM, Uchida H, Zhao J, Lieberman JA",
+        "year": 2017,
+        "researcher": null,
+        "evidence_quality": "contested",
+        "mechanism_codes": [],
         "foundation_codes": []
       },
       {
@@ -96136,17 +99096,17 @@
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 311,
-      "M2": 257,
-      "M3": 516,
+      "M1": 312,
+      "M2": 288,
+      "M3": 532,
       "M4": 137,
-      "M9": 185,
+      "M9": 186,
       "M14": 234,
-      "M11": 297,
-      "M5": 263,
-      "M13": 98,
+      "M11": 300,
+      "M5": 267,
+      "M13": 100,
       "M10": 68,
-      "M8": 62,
+      "M8": 63,
       "M12": 19,
       "M6": 89,
       "M7": 114,
@@ -96482,6 +99442,24 @@
         "isbn": "978-1-85433-477-0",
         "in_physical_collection": false,
         "url": "corpus.html#w=994"
+      },
+      {
+        "id": 1366,
+        "tier": "background",
+        "title": "Social reintegration and employment: evidence and interventions for drug users in treatment (EMCDDA Insights 13)",
+        "authors": "Sumnall H, Brotherhood A",
+        "year": 2012,
+        "work_type": "review",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": "10.2810/72023",
+        "pmid": null,
+        "isbn": "978-92-9168-557-8",
+        "in_physical_collection": false,
+        "url": "corpus.html#w=1366"
       }
     ],
     "extractions": [
@@ -96612,6 +99590,14 @@
         "evidence_quality": "theoretical",
         "tier": "background",
         "url": "corpus.html#e=1824"
+      },
+      {
+        "id": 2452,
+        "work_id": 1366,
+        "grade": "tested once",
+        "evidence_quality": "thin",
+        "tier": "background",
+        "url": "corpus.html#e=2452"
       }
     ]
   }

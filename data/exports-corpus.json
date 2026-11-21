@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T03:20:04.713590+00:00",
+    "source_built_at": "2026-11-21T04:17:36.482341+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1352,
-    "extractions": 2411,
+    "works": 1425,
+    "extractions": 2497,
     "researchers": 84,
-    "mechanism_evidence": 2705,
+    "mechanism_evidence": 2764,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 335
+    "challenges": 332
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -458,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 311,
+        "link_count": 312,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 257,
+        "link_count": 288,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 516,
+        "link_count": 532,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -848,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 263,
+        "link_count": 267,
         "researchers": [
           "Gilbert",
           "Price",
@@ -1154,7 +1154,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 62,
+        "link_count": 63,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1265,7 +1265,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 185,
+        "link_count": 186,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1468,7 +1468,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 297,
+        "link_count": 300,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1636,7 +1636,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 98,
+        "link_count": 100,
         "researchers": [
           "Pontzer",
           "Keys"
