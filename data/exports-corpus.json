@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T04:21:21.643532+00:00",
+    "source_built_at": "2026-11-21T04:51:01.391410+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,10 +28,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 1425,
-    "extractions": 2497,
+    "works": 1619,
+    "extractions": 2766,
     "researchers": 84,
-    "mechanism_evidence": 2764,
+    "mechanism_evidence": 3128,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 332
+    "challenges": 333
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -458,7 +458,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 312,
+        "link_count": 336,
         "researchers": [
           "Panksepp",
           "LeDoux",
@@ -556,7 +556,7 @@
         ]
       },
       "evidence": {
-        "link_count": 288,
+        "link_count": 327,
         "researchers": [
           "Panksepp",
           "Berridge"
@@ -652,7 +652,7 @@
         ]
       },
       "evidence": {
-        "link_count": 532,
+        "link_count": 594,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -747,7 +747,7 @@
         ]
       },
       "evidence": {
-        "link_count": 137,
+        "link_count": 154,
         "researchers": [
           "Panksepp",
           "Pellis & Pellis",
@@ -848,7 +848,7 @@
         ]
       },
       "evidence": {
-        "link_count": 267,
+        "link_count": 298,
         "researchers": [
           "Gilbert",
           "Price",
@@ -958,7 +958,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 89,
+        "link_count": 96,
         "researchers": [
           "Maier & Seligman"
         ]
@@ -1052,7 +1052,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 114,
+        "link_count": 128,
         "researchers": [
           "Walker",
           "Roenneberg",
@@ -1154,7 +1154,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 63,
+        "link_count": 76,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1188,7 +1188,7 @@
       "tier": 1,
       "description": "Parental and alloparental care system. Oxytocin/prolactin circuits.",
       "eli5": "Distributed care - the organism expects a village, not solo parenting.",
-      "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. In forager societies people other than the mother hold and care for infants: Hadza allomothers hold infants under four about 31% of the time (Marlowe's fieldwork, via Hrdy 2009, ext 382), and Efe infants are cared for by many people from birth (Tronick et al. 1987, ext 700). The critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
+      "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. In forager societies people other than the mother hold and care for infants: Hadza allomothers do about 31% of the holding of infants under four (Crittenden and Marlowe 2008, ext 2128), and Efe infants are cared for by many people from birth (Tronick et al. 1987, ext 700). The critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
       "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
       "phylogenetic_age": "~165-200Myr (maternal care, mammals); human cooperative breeding ~2Myr+ (argued)",
       "proxy_gradient": {
@@ -1265,7 +1265,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 186,
+        "link_count": 207,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1372,7 +1372,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 68,
+        "link_count": 80,
         "researchers": [
           "Pontzer",
           "Lieberman",
@@ -1468,7 +1468,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 300,
+        "link_count": 357,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1540,7 +1540,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 19,
+        "link_count": 25,
         "researchers": [
           "Rozin",
           "Curtis",
@@ -1636,7 +1636,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 100,
+        "link_count": 122,
         "researchers": [
           "Pontzer",
           "Keys"
@@ -1745,7 +1745,7 @@
         ]
       },
       "evidence": {
-        "link_count": 234,
+        "link_count": 262,
         "researchers": [
           "Panksepp",
           "Fisher",
@@ -1840,7 +1840,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 55,
+        "link_count": 66,
         "researchers": [
           "McGlone",
           "Field"
@@ -2538,7 +2538,7 @@
           "hxaro_partners_in_own_camp_pct_approx": 18
         },
         "modern_default": "The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Empirically, friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and online media at best slows that decay rather than preventing it. Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.",
-        "gap_statement": "The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, lifelong delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.",
+        "gap_statement": "The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, long-term delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.",
         "resolution_unit": "The durable, spatially-dispersed reciprocal DYAD plus the maintenance institutions that conserve it across distance and time - i.e., a specific named partner whose bond is actively serviced (face-to-face when possible, and via hxaro-type delayed-reciprocity exchange when apart) so the relationship persists for decades and survives the reshuffling of any particular group. Conserved across the churn is the relationship, not the group; the resolution requires migrating a bond to an institution that keeps it alive once proximity ends, not merely accumulating more low-investment ties.",
         "evidence_grade": "thin",
         "contested": false,
@@ -2854,8 +2854,8 @@
             "extraction_id": 689,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
-            "author_quote": null,
-            "content": "Leaders exist in small-scale societies, but in mobile forager groups their influence is informal, situation-specific and rests on others choosing to follow."
+            "author_quote": "Certainly leadership exists among egalitarian hunter-gatherers, but is highly variable, generally dependent upon individual ability and demonstrated success in activities valued by the group",
+            "content": "Garfield, von Rueden and Hagen review the ethnography of egalitarian hunter-gatherers, nomadic or semi-nomadic bands that largely lack inherited status and wealth. They conclude that leadership exists in these societies but is highly variable, depends on individual ability and de"
           },
           {
             "extraction_id": 709,
@@ -2868,8 +2868,8 @@
             "extraction_id": 756,
             "evidence_role": "challenging",
             "evidence_quality": "contested",
-            "author_quote": null,
-            "content": "Late Pleistocene social organization was probably more varied than the nomadic-egalitarian model, with some forager groups showing inequality and seasonal hierarchy."
+            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
+            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
           },
           {
             "extraction_id": 848,
@@ -3044,8 +3044,8 @@
             "extraction_id": 689,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
-            "author_quote": null,
-            "content": "Leaders exist in small-scale societies, but in mobile forager groups their influence is informal, situation-specific and rests on others choosing to follow."
+            "author_quote": "Certainly leadership exists among egalitarian hunter-gatherers, but is highly variable, generally dependent upon individual ability and demonstrated success in activities valued by the group",
+            "content": "Garfield, von Rueden and Hagen review the ethnography of egalitarian hunter-gatherers, nomadic or semi-nomadic bands that largely lack inherited status and wealth. They conclude that leadership exists in these societies but is highly variable, depends on individual ability and de"
           },
           {
             "extraction_id": 1035,
@@ -3237,8 +3237,8 @@
             "extraction_id": 756,
             "evidence_role": "challenging",
             "evidence_quality": "contested",
-            "author_quote": null,
-            "content": "Late Pleistocene social organization was probably more varied than the nomadic-egalitarian model, with some forager groups showing inequality and seasonal hierarchy."
+            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
+            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
           }
         ],
         "evidence_count": 5
@@ -4690,7 +4690,7 @@
         "domain": "care_development",
         "domain_display": "Care & development",
         "name": "Alloparental care supply (a village, not a dyad)",
-        "eea_baseline": "Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than other apes (every 6-8 years) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, infants under four are held by the mother roughly 69% of the time and by allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.",
+        "eea_baseline": "Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than other apes (every 6-8 years) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the holding of infants under four and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.",
         "eea_value": {
           "note": "Specific aggregate 'alloparent count ~4+' and a generic '40-50% of care delivered by allomothers' figure are widely cited in the literature but are NOT verbatim-grounded in Cor's extractions; only the Hadza ~69/31 mother/allomother holding split and the qualitative multi-caregiver pattern are. Numbers given are the extraction-supported anchors, not an asserted universal mean.",
           "unit": "qualitative_plus_anchors",
@@ -5399,8 +5399,8 @@
             "extraction_id": 429,
             "evidence_role": "primary",
             "evidence_quality": "thin",
-            "author_quote": "Women with physical contact before stress exhibited significantly lower cortisol and heart rate responses to stress but no different plasma oxytocin levels.",
-            "content": "Physical contact from a partner before stress significantly lowers cortisol and heart rate responses. A ten-minute neck and shoulder massage produced greater stress buffering than verbal social support or no partner interaction. Touch-based social regulation operates through dire"
+            "author_quote": "The mean absolute increase in salivary cortisol in response to stress was 11.98 nmol/l in subjects with no interaction, 13.29 nmol/l in subjects of the social support group, and 4.33 nmol/l in subjects with positive physical contact.",
+            "content": "In a randomised experiment with 67 healthy women in Zurich (aged 20 to 37, married to or living with a male partner for at least 12 months), each woman spent 10 minutes before a public speaking and mental arithmetic test (Trier Social Stress Test) either alone (25), receiving ver"
           },
           {
             "extraction_id": 430,
@@ -5643,8 +5643,8 @@
             "extraction_id": 747,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": null,
-            "content": "In a Hadza camp, differences in sleep timing between people meant that someone was almost always awake during the night."
+            "author_quote": "Using actigraphy, we discovered that all subjects were simultaneously scored as asleep for only 18 min in total over 20 days of observation, with a median of eight individuals awake throughout the night-time period; thus, one or more individuals was awake (or in light stages of sleep) during 99.8% of sampled epochs between when the first person went to sleep and the last person awoke.",
+            "content": "Among Hadza hunter-gatherers in a bush camp near Lake Eyasi, Tanzania, 33 healthy adults (21 women, 12 men; up to 22 per night) wore wrist actigraphs over 20 nights. All of them were scored asleep at the same time for only 18 one-minute epochs in total (0.002% of 13,408 night epo"
           },
           {
             "extraction_id": 748,
@@ -5874,8 +5874,8 @@
             "extraction_id": 817,
             "evidence_role": "supporting",
             "evidence_quality": "meta_analysis",
-            "author_quote": "We used individual records from 13 European cohort studies (1985-2006) of men and women without coronary heart disease who were employed at time of baseline assessment",
-            "content": "Across 13 European cohorts (197,473 employees), job strain went with an age and sex adjusted hazard ratio of 1.23 for coronary heart disease (1.17 after adjusting for socioeconomic status), a population attributable fraction of 3.4 percent if the link is causal."
+            "author_quote": "Our findings suggest that job strain is associated with a small, but consistent, increased risk of an incident event of cardiovascular heart disease. Adjustment for lifestyle and conventional risk factors, and for age, sex, and socioeconomic status, did not substantially change the magnitude of this association.",
+            "content": "In an individual-participant meta-analysis of 13 European cohort studies (1985 to 2006; 197,473 employed men and women free of coronary heart disease at baseline), 15% reported job strain (high demands with low control). Over a mean follow-up of 7.5 years there were 2,358 first c"
           }
         ],
         "evidence_count": 9
@@ -5973,8 +5973,8 @@
             "extraction_id": 713,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": "We find that individuals in camps engaging more in non-foraging work spend more time involved in out-of-camp work and have substantially less leisure time",
-            "content": "Among the Agta of the Philippines, people in camps that did more farm work had less leisure than people in camps that mainly foraged, a gap driven mostly by women's extra work outside camp."
+            "author_quote": "We find that individuals in camps engaging more in non-foraging work spend more time involved in out-of-camp work and have substantially less leisure time.",
+            "content": "Across ten Agta camps whose non-foraging share of out-of-camp work ranged from 0% to 80%, a higher share of non-foraging (mostly farm) work went with less leisure (beta -0.185, 95% CI -0.35 to -0.02, P = 0.031) and more total out-of-camp work (beta 0.164, P = 0.041). The link hel"
           },
           {
             "extraction_id": 714,
@@ -6710,8 +6710,8 @@
             "extraction_id": 742,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
-            "author_quote": null,
-            "content": "Among the Agta, camps with skilled storytellers cooperated more, and skilled storytellers were preferred as campmates and had more surviving children."
+            "author_quote": "The results show that skilled storytellers had an additional 0.53 living offspring compared to non-skilled storytellers (b = 0.53, 95% CI: [0.10; 0.96], n = 324, p = 0.016), indicating that storytelling skill is associated with increased fitness",
+            "content": "Among Agta foragers of Palanan, the Philippines, 291 adults in 18 camps named who they would most like to live with. People rated as skilled storytellers by their campmates had about twice the odds of being picked (odds ratio 1.95), more than for any other skill measured (good fi"
           },
           {
             "extraction_id": 803,
