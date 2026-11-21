@@ -177,7 +177,7 @@
         },
         {
           h: "The mechanism",
-          p: "Every evolved system has critical developmental windows during which it calibrates to the inputs it is actually receiving. Attachment, status, play, exploration, competence, threat detection - each one locks in what “normal” means for that system based on what arrives during its window. What the window calibrates to becomes the reference point the system will use for the rest of the person's life."
+          p: "Every evolved system has critical developmental windows during which it calibrates to the inputs it is actually receiving. Attachment, status, play, exploration, competence, threat detection - each one locks in what “normal” means for that system based on what arrives during its window. What the window calibrates to becomes the reference point the system uses for as long as the input stays the same."
         },
         {
           h: "What an authored world does to it",
