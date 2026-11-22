@@ -3,7 +3,7 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-22 09:53 UTC, from the live Cor atlas snapshot built 2026-11-22 09:53 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 10:22 UTC, from the live Cor atlas snapshot built 2026-11-22 10:22 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3361 works, 5099 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -1102,7 +1102,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Daily incidental movement load
 `EEA-SUBS-01 · Subsistence & time-use` - **tested many times**
 
-**Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
+**Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
 
 **Now (modern default):** Movement has been extracted from subsistence and re-inserted, if at all, as discretionary 'exercise': set-aside, planned, dose-prescribed (e.g. 150 min/week guidelines), and separated from the rest of a chair-bound, motor-transported, indoor day. Most waking hours are spent in continuous chair-sitting that holds the lower limbs near-inactive, and total daily distance on foot collapses far below the ancestral range.
 
@@ -1311,4 +1311,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 09:53 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-22 09:53 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 10:22 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-22 10:22 UTC.*

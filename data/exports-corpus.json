@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-22T09:53:25.064106+00:00",
+    "source_built_at": "2026-11-22T10:22:36.848641+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -2321,7 +2321,7 @@
           {
             "extraction_id": 754,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "In Marlowe's cross-cultural sample of foragers, the median residential group size was 27 people (mean 41.4, range 13 to 250, across 263 societies)."
           },
@@ -2442,7 +2442,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "thin",
             "author_quote": "Every 4-8 weeks entire camps shift location usually in response to resource availability.",
-            "content": "Camp membership is fission-fusion: camps merge or split and individuals freely relocate to new camps, so that only 21.9% of a person's campmates live in the same camp with them the next survey year, and the group as a unit does not persist."
+            "content": "Camp membership is fission-fusion: camps merge or split and individuals freely relocate to new camps, so that only 21.9% of a person's campmates live in the same camp with them the next survey year, and the group as a unit does not persist. Entire camps shift location every 4 to"
           }
         ],
         "evidence_count": 2
@@ -2965,7 +2965,7 @@
           {
             "extraction_id": 620,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": "Study 5 showed that trait self-esteem correlated highly with the degree to which respondents generally felt included versus excluded by other people.",
             "content": "In five studies of the sociometer model, events changed people's state self-esteem in line with whether they expected the events to make others accept or reject them (Study 1); how included people felt in a real social situation correlated highly with their self-esteem feelings ("
           },
@@ -2986,7 +2986,7 @@
           {
             "extraction_id": 102,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "Three nationally representative time-use-diary studies (N=17,247; Ireland, US, UK) found little evidence for substantial negative associations between digital-screen engagement and adolescent well-being, including screen time before bedtime. Self-report screen measures are inaccu"
           }
@@ -3369,7 +3369,7 @@
           {
             "extraction_id": 754,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "In Marlowe's cross-cultural sample of foragers, the median residential group size was 27 people (mean 41.4, range 13 to 250, across 263 societies)."
           }
@@ -4837,7 +4837,7 @@
           {
             "extraction_id": 823,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "We exploit a major German reform generating large temporal and spatial variation in child care coverage for children under the age of three",
             "content": "In Germany, a 10 percentage point rise in public childcare coverage for children under three raised the county birth rate by about 2.8 percent the following year."
           },
@@ -5062,7 +5062,7 @@
           {
             "extraction_id": 762,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "Our take-away message is that existing evidence does not support strong causal claims about the unique importance of pretend play for development and that much more and better research is essential for clarifying its possible role",
             "content": "A review found weak and inconsistent evidence that pretend play causes the developmental gains often credited to it."
           }
@@ -5143,7 +5143,7 @@
           {
             "extraction_id": 743,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "theoretical",
             "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
             "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
           },
@@ -5355,7 +5355,7 @@
           {
             "extraction_id": 617,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "theoretical",
             "author_quote": "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated",
             "content": "McKenna himself stresses that bedsharing safety depends entirely on how it is practiced and on adverse co-factors - the live SIDS/safety contestation that keeps co-sleeping from being a clean \"ancestral good\"."
           }
@@ -5559,7 +5559,7 @@
           {
             "extraction_id": 92,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": null,
             "content": "In a large epidemiological database (n>65,000, primarily Central European), social jetlag - the discrepancy between biological circadian clock and socially imposed sleep timing - is associated with increased BMI independently of sleep duration. 69% of the population experiences a"
           },
@@ -5692,7 +5692,7 @@
         "domain": "subsistence_timeuse",
         "domain_display": "Subsistence & time-use",
         "name": "Daily incidental movement load",
-        "eea_baseline": "Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling, ground-sitting) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'",
+        "eea_baseline": "Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'",
         "eea_value": {
           "PAL": {
             "men": 1.9,
@@ -5860,7 +5860,7 @@
           {
             "extraction_id": 333,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
             "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
           },
@@ -6395,7 +6395,7 @@
           {
             "extraction_id": 333,
             "evidence_role": "primary",
-            "evidence_quality": "replicated",
+            "evidence_quality": "thin",
             "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
             "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
           },
