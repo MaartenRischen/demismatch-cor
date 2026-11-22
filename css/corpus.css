@@ -195,3 +195,5 @@
 .corpus-app .f-tier { background: rgba(111, 106, 138, .14); color: #5b5674; }
 .corpus-app .f-none { font-size: .95rem; color: var(--muted); margin: 0; }
 .corpus-app .cx-seg[hidden] { display: none; }
+/* one standard (22 Nov 2026): a finding that did not hold, or held weaker, says so */
+.cx-find .f-note{border-left:3px solid currentColor;padding-left:.6em;font-weight:600}

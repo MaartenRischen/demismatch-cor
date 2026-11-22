@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T08:08:44.415789+00:00",
+    "built_at": "2026-11-22T08:13:27.985925+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -134229,21 +134229,6 @@
         "url": "corpus.html#e=2917"
       },
       {
-        "id": 15,
-        "work_id": 6,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=15"
-      },
-      {
         "id": 188,
         "work_id": 56,
         "mechanism_codes": [
@@ -134259,55 +134244,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=188"
-      },
-      {
-        "id": 243,
-        "work_id": 14,
-        "mechanism_codes": [
-          "M11",
-          "M3"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=243"
-      },
-      {
-        "id": 428,
-        "work_id": 65,
-        "mechanism_codes": [
-          "R1",
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=428"
-      },
-      {
-        "id": 435,
-        "work_id": 35,
-        "mechanism_codes": [
-          "M7",
-          "M8"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=435"
       },
       {
         "id": 580,
@@ -134352,6 +134288,39 @@
         "url": "corpus.html#e=672"
       },
       {
+        "id": 428,
+        "work_id": 65,
+        "mechanism_codes": [
+          "R1",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=428"
+      },
+      {
+        "id": 435,
+        "work_id": 35,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=435"
+      },
+      {
         "id": 693,
         "work_id": 182,
         "mechanism_codes": [
@@ -134363,19 +134332,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=693"
-      },
-      {
-        "id": 736,
-        "work_id": 224,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=736"
       },
       {
         "id": 745,
@@ -134458,19 +134414,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=967"
-      },
-      {
-        "id": 1028,
-        "work_id": 479,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1028"
       },
       {
         "id": 2246,
@@ -134627,19 +134570,6 @@
         "url": "corpus.html#e=1820"
       },
       {
-        "id": 1826,
-        "work_id": 995,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1826"
-      },
-      {
         "id": 1857,
         "work_id": 1009,
         "mechanism_codes": [
@@ -134699,22 +134629,6 @@
         "url": "corpus.html#e=2307"
       },
       {
-        "id": 3736,
-        "work_id": 2284,
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=3736"
-      },
-      {
         "id": 3645,
         "work_id": 2216,
         "mechanism_codes": [
@@ -134743,6 +134657,22 @@
         "url": "corpus.html#e=3821"
       },
       {
+        "id": 3736,
+        "work_id": 2284,
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=3736"
+      },
+      {
         "id": 3992,
         "work_id": 2480,
         "mechanism_codes": [],
@@ -134756,20 +134686,6 @@
         "url": "corpus.html#e=3992"
       },
       {
-        "id": 4249,
-        "work_id": 2677,
-        "mechanism_codes": [
-          "M5",
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=4249"
-      },
-      {
         "id": 4290,
         "work_id": 2711,
         "mechanism_codes": [],
@@ -134779,6 +134695,17 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=4290"
+      },
+      {
+        "id": 4470,
+        "work_id": 2849,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=4470"
       },
       {
         "id": 4906,
@@ -134792,17 +134719,6 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=4906"
-      },
-      {
-        "id": 4470,
-        "work_id": 2849,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "meta_analysis",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=4470"
       },
       {
         "id": 3170,
@@ -141703,6 +141619,90 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=160"
+      },
+      {
+        "id": 15,
+        "work_id": 6,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=15"
+      },
+      {
+        "id": 243,
+        "work_id": 14,
+        "mechanism_codes": [
+          "M11",
+          "M3"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=243"
+      },
+      {
+        "id": 736,
+        "work_id": 224,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=736"
+      },
+      {
+        "id": 1028,
+        "work_id": 479,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1028"
+      },
+      {
+        "id": 1826,
+        "work_id": 995,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=1826"
+      },
+      {
+        "id": 4249,
+        "work_id": 2677,
+        "mechanism_codes": [
+          "M5",
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=4249"
       }
     ],
     "researchers": [

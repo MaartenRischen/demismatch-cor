@@ -198,7 +198,7 @@
         '<div class="f-meta"><a class="f-id" href="#e=' + f.id + '" data-e="' + f.id + '">Finding ' + f.id + '</a>' +
         '<span class="f-grade ' + (GRADE_CLS[f.grade] || "") + '">' + esc(f.grade) + '</span>' +
         (f.tier === "background" ? '<span class="f-tier">background</span>' : '') + '</div>' +
-        paras + '</li>';
+        paras + (f.note ? '<p class="f-note">' + esc(f.note) + '</p>' : '') + '</li>';
     }).join("") + '</ol>';
   }
   function fillFindings(w, focusId) {
