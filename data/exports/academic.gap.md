@@ -368,7 +368,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** In industrial societies the link between men's status and number of children is weak, and higher-status people often have fewer children. Professional status-seeking takes the time and money that children need.
 
-**The gap.** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
+**The gap.** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
 
@@ -423,7 +423,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** Media supply one-way bonds with people who do not know you exist. In a quota sample of 2,028 Hungarian adults, 39% had a favourite celebrity, and on the authors' scale 4.5% of adults and 8.5% of 18 to 34 year olds had a high level of admiration. Of 151 US early adolescents, 61% thought of their favourite media figure as a relationship partner: girls mostly as a friend, boys more often as a mentor.
 
-**The gap.** The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
+**The gap.** The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. In a preregistered experiment, thinking about a favourite media figure lowered negative mood about as much as thinking about a friend, and did not lower loneliness, which thinking about a friend did (ext 1371); De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
 
 **Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
 

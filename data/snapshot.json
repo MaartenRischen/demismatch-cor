@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T06:46:18.110407+00:00",
+    "built_at": "2026-11-22T07:02:19.083487+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -175673,64 +175673,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-15",
-        "domain": "social_structure",
-        "name": "Famous strangers (one-way bonds)",
-        "eea_baseline": "Everyone a forager knew of could be met. The lifetime pool of individually known people was about 1,000, and the people one heard about in stories were part of the same regional network, tied to people one knew. A person you saw and heard often knew you back.",
-        "eea_value": {
-          "lifetime_known_pool": "about 1,000 (ext 606-608)"
-        },
-        "modern_default": "Media supply one-way bonds with people who do not know you exist. In a quota sample of 2,028 Hungarian adults, 39% had a favourite celebrity, and on the authors' scale 4.5% of adults and 8.5% of 18 to 34 year olds had a high level of admiration. Of 151 US early adolescents, 61% thought of their favourite media figure as a relationship partner: girls mostly as a friend, boys more often as a mentor.",
-        "gap_statement": "The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).",
-        "resolution_unit": null,
-        "evidence_grade": "thin",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Background-tier evidence cited (abstract or book only): ext 1045.",
-        "created_at": "2026-11-11T04:19:21.881508+00:00",
-        "updated_at": "2026-11-11T04:19:21.881508+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 608,
-            "evidence_role": "primary",
-            "author_quote": "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions",
-            "evidence_quality": "thin",
-            "content": "The lifetime pool of individually-known interactants is clearly >1,000 - which Hill et al. explicitly note is far above the ~150 figure (the Dunbar number) that was extrapolated from primate brain / social-group-size regressions."
-          },
-          {
-            "extraction_id": 606,
-            "evidence_role": "supporting",
-            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
-            "evidence_quality": "thin",
-            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
-          },
-          {
-            "extraction_id": 1044,
-            "evidence_role": "primary",
-            "author_quote": "Of the 2,028 individuals, 800 participants reported having a favorite celebrity (39%) after reading general definition of a favorite celebrity.",
-            "evidence_quality": "thin",
-            "content": "In a quota sample of 2,028 Hungarian adults aged 18 to 64, matched to the population by sex, age and region, 800 (39%) said they had a favourite celebrity. On a 7-item admiration scale with a cut-off of 26, the authors estimate that 4.53% of adults and 8.51% of 18 to 34 year olds"
-          },
-          {
-            "extraction_id": 1043,
-            "evidence_role": "primary",
-            "author_quote": "Most adolescents (61.1%) thought of their favorite media figures as relationship partners",
-            "evidence_quality": "thin",
-            "content": "Asked to name a famous person they were fond of, 151 US early adolescents (mean age 14.8) mostly chose actors, singers and athletes, and 61.1% thought of that figure as a relationship partner: girls mostly as a friend, boys more often as a mentor or authority. Those who did repor"
-          },
-          {
-            "extraction_id": 1045,
-            "evidence_role": "supporting",
-            "author_quote": "In partial support of the Parasocial Hypothesis, media exposure, but not social isolation, was a strong predictor of interest in celebrities.",
-            "evidence_quality": "thin",
-            "content": "In a survey of 838 people and interviews with 103, age was a strong predictor of interest in celebrity gossip, and media exposure predicted it while social isolation did not. The authors read this as celebrities serving first as models to learn from and, later in life, as people "
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-16",
         "domain": "social_structure",
         "name": "Size of \"us\" (the language group)",
@@ -175799,68 +175741,6 @@
         ]
       },
       {
-        "code": "EEA-SOC-14",
-        "domain": "social_structure",
-        "name": "Wealth gaps (low to moderate in foragers)",
-        "eea_baseline": "Forager material inequality was low to moderate. Weighted wealth Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and inherited (21 small-scale populations). Across eleven kinds of forager wealth most Ginis fell between 0.2 and 0.5; the two material measures averaged 0.36. House sizes at 63 archaeological sites give the same order: median Gini 0.17 at hunter-gatherer sites, 0.35 at agricultural sites.",
-        "eea_value": {
-          "pastoralist": 0.42,
-          "agriculturalist": 0.48,
-          "horticulturalist": 0.27,
-          "hunter_gatherer_wealth_gini": 0.25,
-          "hunter_gatherer_house_size_gini_median": 0.17
-        },
-        "modern_default": "Wealth Gini coefficients in modern states are far higher: about 0.80 for the USA in 2000 and 0.73 for China, figures Kohler et al. cite from other studies. Among the Ju/'hoansi, 44 years of cash income produced large material differences even between neighbours.",
-        "gap_statement": "Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.",
-        "resolution_unit": null,
-        "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.",
-        "created_at": "2026-11-11T04:19:21.374649+00:00",
-        "updated_at": "2026-11-11T04:19:21.374649+00:00",
-        "mechanism_codes": [
-          "M11",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1039,
-            "evidence_role": "primary",
-            "author_quote": "hunter-gatherer and horticultural populations are both quite egalitarian, while pastoral and agricultural societies are characterized by substantial wealth inequality",
-            "evidence_quality": "replicated",
-            "content": "Across 21 small-scale populations, wealth inequality depended on how people made a living. Weighted Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and passe"
-          },
-          {
-            "extraction_id": 1040,
-            "evidence_role": "primary",
-            "author_quote": "Thus, to the extent that our measures for this set of foragers are representative, wealth inequality is moderate",
-            "evidence_quality": "replicated",
-            "content": "In hunter-gatherer populations (Ache, Hadza, Tsimane, Lamalera, Meriam, Ju/'hoansi), Gini coefficients for eleven kinds of wealth (hunting and foraging returns, grip strength, body weight, reproductive success, Lamalera boat shares and housing, exchange and sharing partners) most"
-          },
-          {
-            "extraction_id": 1041,
-            "evidence_role": "primary",
-            "author_quote": "As expected, the hunter-gatherers in this sample exhibit low Gini indices (wealth differences) using the house-size proxy (median = 0.17)",
-            "evidence_quality": "thin",
-            "content": "Using house size as a stand-in for household wealth at 63 archaeological sites, hunter-gatherer sites had a median Gini of 0.17, horticultural sites 0.27 and agricultural sites 0.35. Old World societies later reached about 0.48 to 0.60. The authors set these beside modern wealth "
-          },
-          {
-            "extraction_id": 1034,
-            "evidence_role": "supporting",
-            "author_quote": "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist.",
-            "evidence_quality": "thin",
-            "content": "Among the Ju/'hoansi, 44 years of possession and spending data (1974 /Kae/kae, Botswana; 2017 to 2018 Nyae Nyae, Namibia) show that cash income brought large differences in material wealth, even between neighbours, while hxaro gift partnerships shrank. Social, gender and politica"
-          },
-          {
-            "extraction_id": 756,
-            "evidence_role": "primary",
-            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
-            "evidence_quality": "contested",
-            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-13",
         "domain": "social_structure",
         "name": "What standing buys (children)",
@@ -175871,7 +175751,7 @@
           "nonhuman_primate_r": 0.8
         },
         "modern_default": "In industrial societies the link between men's status and number of children is weak, and higher-status people often have fewer children. Professional status-seeking takes the time and money that children need.",
-        "gap_statement": "Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.",
+        "gap_statement": "Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).",
         "resolution_unit": null,
         "evidence_grade": "meta_analysis",
         "contested": false,
@@ -175945,6 +175825,126 @@
             "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
             "evidence_quality": "thin",
             "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the "
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-14",
+        "domain": "social_structure",
+        "name": "Wealth gaps (low to moderate in foragers)",
+        "eea_baseline": "Forager material inequality was low to moderate. Weighted wealth Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and inherited (21 small-scale populations). Across eleven kinds of forager wealth most Ginis fell between 0.2 and 0.5; the two material measures averaged 0.36. House sizes at 63 archaeological sites give the same order: median Gini 0.17 at hunter-gatherer sites, 0.35 at agricultural sites.",
+        "eea_value": {
+          "pastoralist": 0.42,
+          "agriculturalist": 0.48,
+          "horticulturalist": 0.27,
+          "hunter_gatherer_wealth_gini": 0.25,
+          "hunter_gatherer_house_size_gini_median": 0.17
+        },
+        "modern_default": "Wealth Gini coefficients in modern states are far higher: about 0.80 for the USA in 2000 and 0.73 for China, figures Kohler et al. cite from other studies. Among the Ju/'hoansi, 44 years of cash income produced large material differences even between neighbours.",
+        "gap_statement": "Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.",
+        "resolution_unit": null,
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.",
+        "created_at": "2026-11-11T04:19:21.374649+00:00",
+        "updated_at": "2026-11-11T04:19:21.374649+00:00",
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1039,
+            "evidence_role": "primary",
+            "author_quote": "hunter-gatherer and horticultural populations are both quite egalitarian, while pastoral and agricultural societies are characterized by substantial wealth inequality",
+            "evidence_quality": "replicated",
+            "content": "Across 21 small-scale populations, wealth inequality depended on how people made a living. Weighted Gini coefficients were 0.25 for hunter-gatherers and 0.27 for horticulturalists, against 0.42 for pastoralists and 0.48 for farmers, where land and livestock can be owned and passe"
+          },
+          {
+            "extraction_id": 1040,
+            "evidence_role": "primary",
+            "author_quote": "Thus, to the extent that our measures for this set of foragers are representative, wealth inequality is moderate",
+            "evidence_quality": "replicated",
+            "content": "In hunter-gatherer populations (Ache, Hadza, Tsimane, Lamalera, Meriam, Ju/'hoansi), Gini coefficients for eleven kinds of wealth (hunting and foraging returns, grip strength, body weight, reproductive success, Lamalera boat shares and housing, exchange and sharing partners) most"
+          },
+          {
+            "extraction_id": 1041,
+            "evidence_role": "primary",
+            "author_quote": "As expected, the hunter-gatherers in this sample exhibit low Gini indices (wealth differences) using the house-size proxy (median = 0.17)",
+            "evidence_quality": "thin",
+            "content": "Using house size as a stand-in for household wealth at 63 archaeological sites, hunter-gatherer sites had a median Gini of 0.17, horticultural sites 0.27 and agricultural sites 0.35. Old World societies later reached about 0.48 to 0.60. The authors set these beside modern wealth "
+          },
+          {
+            "extraction_id": 1034,
+            "evidence_role": "supporting",
+            "author_quote": "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist.",
+            "evidence_quality": "thin",
+            "content": "Among the Ju/'hoansi, 44 years of possession and spending data (1974 /Kae/kae, Botswana; 2017 to 2018 Nyae Nyae, Namibia) show that cash income brought large differences in material wealth, even between neighbours, while hxaro gift partnerships shrank. Social, gender and politica"
+          },
+          {
+            "extraction_id": 756,
+            "evidence_role": "primary",
+            "author_quote": "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed.",
+            "evidence_quality": "contested",
+            "content": "Singh and Glowacki review ethnographic and archaeological findings from 34 world regions and conclude that non-agricultural peoples often live in groups that are more sedentary, unequal, large and politically stratified, and more capable of large-scale cooperation and resource ma"
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-15",
+        "domain": "social_structure",
+        "name": "Famous strangers (one-way bonds)",
+        "eea_baseline": "Everyone a forager knew of could be met. The lifetime pool of individually known people was about 1,000, and the people one heard about in stories were part of the same regional network, tied to people one knew. A person you saw and heard often knew you back.",
+        "eea_value": {
+          "lifetime_known_pool": "about 1,000 (ext 606-608)"
+        },
+        "modern_default": "Media supply one-way bonds with people who do not know you exist. In a quota sample of 2,028 Hungarian adults, 39% had a favourite celebrity, and on the authors' scale 4.5% of adults and 8.5% of 18 to 34 year olds had a high level of admiration. Of 151 US early adolescents, 61% thought of their favourite media figure as a relationship partner: girls mostly as a friend, boys more often as a mentor.",
+        "gap_statement": "The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. In a preregistered experiment, thinking about a favourite media figure lowered negative mood about as much as thinking about a friend, and did not lower loneliness, which thinking about a friend did (ext 1371); De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).",
+        "resolution_unit": null,
+        "evidence_grade": "thin",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Background-tier evidence cited (abstract or book only): ext 1045.",
+        "created_at": "2026-11-11T04:19:21.881508+00:00",
+        "updated_at": "2026-11-11T04:19:21.881508+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 608,
+            "evidence_role": "primary",
+            "author_quote": "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions",
+            "evidence_quality": "thin",
+            "content": "The lifetime pool of individually-known interactants is clearly >1,000 - which Hill et al. explicitly note is far above the ~150 figure (the Dunbar number) that was extrapolated from primate brain / social-group-size regressions."
+          },
+          {
+            "extraction_id": 606,
+            "evidence_role": "supporting",
+            "author_quote": "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included.",
+            "evidence_quality": "thin",
+            "content": "Among Ache and Hadza foragers, lifetime same-sex interaction exceeds 300 adults, implying a lifetime \"social universe\" of about a thousand individuals once opposite-sex adults and children are included."
+          },
+          {
+            "extraction_id": 1044,
+            "evidence_role": "primary",
+            "author_quote": "Of the 2,028 individuals, 800 participants reported having a favorite celebrity (39%) after reading general definition of a favorite celebrity.",
+            "evidence_quality": "thin",
+            "content": "In a quota sample of 2,028 Hungarian adults aged 18 to 64, matched to the population by sex, age and region, 800 (39%) said they had a favourite celebrity. On a 7-item admiration scale with a cut-off of 26, the authors estimate that 4.53% of adults and 8.51% of 18 to 34 year olds"
+          },
+          {
+            "extraction_id": 1043,
+            "evidence_role": "primary",
+            "author_quote": "Most adolescents (61.1%) thought of their favorite media figures as relationship partners",
+            "evidence_quality": "thin",
+            "content": "Asked to name a famous person they were fond of, 151 US early adolescents (mean age 14.8) mostly chose actors, singers and athletes, and 61.1% thought of that figure as a relationship partner: girls mostly as a friend, boys more often as a mentor or authority. Those who did repor"
+          },
+          {
+            "extraction_id": 1045,
+            "evidence_role": "supporting",
+            "author_quote": "In partial support of the Parasocial Hypothesis, media exposure, but not social isolation, was a strong predictor of interest in celebrities.",
+            "evidence_quality": "thin",
+            "content": "In a survey of 838 people and interviews with 103, age was a strong predictor of interest in celebrity gossip, and media exposure predicted it while social isolation did not. The authors read this as celebrities serving first as models to learn from and, later in life, as people "
           }
         ]
       },
@@ -184504,8 +184504,8 @@
         "EEA-TOUCH-02",
         "EEA-TOUCH-01",
         "EEA-CARE-01",
-        "EEA-SOC-15",
         "EEA-SOC-16",
+        "EEA-SOC-15",
         "EEA-SOC-17",
         "EEA-SOC-07",
         "EEA-SOC-11",
@@ -184571,9 +184571,9 @@
         "EEA-MATE-06",
         "EEA-MATE-07",
         "EEA-SOC-12",
-        "EEA-SOC-15",
-        "EEA-SOC-14",
         "EEA-SOC-13",
+        "EEA-SOC-14",
+        "EEA-SOC-15",
         "EEA-SOC-19",
         "EEA-SOC-10",
         "EEA-MATE-02",

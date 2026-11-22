@@ -44,13 +44,13 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.
 
 **What standing buys (children)** (tested many times)
-  - Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); no modern fertility-by-status study was entered in this pass.
+  - Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).
 
 **Wealth gaps (low to moderate in foragers)** (tested many times)
   - Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
 
 **Famous strangers (one-way bonds)** (tested once)
-  - The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. Cor has no tested harm or benefit of these one-way bonds; De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
+  - The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. In a preregistered experiment, thinking about a favourite media figure lowered negative mood about as much as thinking about a friend, and did not lower loneliness, which thinking about a friend did (ext 1371); De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
 
 **Size of "us" (the language group)** (tested once)
   - The largest group a forager counted as 'us' held hundreds to a few thousand people, reachable on foot and linked by marriage. Modern 'us' groups are thousands of times larger and held together by labels and media.
