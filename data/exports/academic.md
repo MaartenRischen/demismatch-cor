@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-22 08:44 UTC, from the live Cor atlas snapshot built 2026-11-22 08:44 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 08:58 UTC, from the live Cor atlas snapshot built 2026-11-22 08:58 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3345 works, 5078 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -1308,7 +1308,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 **Evidence (9 links):**
 
 - ext#1010 · tested many times · primary: "A survey of 67 studies reporting nonpaternity suggests that for men with high paternity confidence rates of nonpaternity are(excluding studies of unknown methodology) typically 1.9%"
-- ext#804 · tested many times · primary: Genetic studies of historical and contemporary Western populations put the rate of children fathered by someone other than the presumed father at about 1 to 2 percent per generation.
+- ext#804 · tested many times · primary: Genetic studies put the rate of children fathered by someone other than the presumed father at about 1 to 2 percent in contemporary populations and at around 1 percent per generation over past centuries in historical populations, most of them Western.
 - ext#997 · tested many times · supporting: "genetic data from both contemporary and historical populations have consistently revealed very low rates of EPP (~1 to 2%)"
 - ext#1005 · tested many times · supporting: "studies employing genetic methods find that rates of non-paternity are low among humans (∼2%) when compared to those of socially monogamous birds (∼20%) and mammals (∼5%"
 - ext#775 · tested once · supporting: "In this comparative study of 128 lowland South American societies, the prevalence of partible paternity beliefs may be as much as two times as common as biologically correct beliefs in singular paternity."
@@ -1886,7 +1886,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 - ext#333 · tested many times · primary: "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala."
 - ext#442 · argued, not yet tested · primary: "Learned helplessness in the laboratory - combining the animal and human experimental results - produced eight of the nine symptoms [of depression], with the only exception being suicide and suicidal thoughts."
-- ext#587 · argued, not yet tested · supporting: Electronic monitoring and algorithmic management in digital work environments reduce worker decision latitude, triggering M6 controllability failure (learned helplessness default). Combined with status-threat from visible performance metrics and always-on availability expectation
+- ext#587 · argued, not yet tested · supporting: Electronic performance monitoring in digital work environments has contributed to employee stress, anxiety and burnout, and the authors note fears that employers will use such software to control workers in ways detrimental to their autonomy. Combined with unclear status inputs (
 - ext#724 · tested many times · supporting: Across 20 forager societies, about 49 percent of children died before age 15.
 
 *Confidence note: The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded argued, not yet tested, with the underlying control science noted as replicated. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 08:44 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 08:44 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 08:58 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 08:58 UTC.*
