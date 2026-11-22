@@ -533,7 +533,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** In the United States 26% of adults ate every meal of the previous day alone in 2023, more than half again above the 2003 level; among people living alone it was about 70%. In a UK poll of 2,000 adults nearly 70% had never had a meal with a neighbour. Shared meals vary widely between countries today: 11.7 lunches and dinners a week with someone known in Senegal, 2.7 in Bangladesh and Estonia. Food now comes from a shop, and a household's food does not pass through other households.
 
-**The gap.** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
+**The gap.** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. Project position: the missing exchange is what lowers mood. Among 37,193 older Japanese adults followed for three years, men living alone who usually ate alone had 2.36 times the rate of new depressive symptoms of men living alone who ate with others, after adjustment for income, health, nutrition and other factors (ext 3684); in a cross-sectional study, people who lived with their families yet ate alone had the highest odds of depressive symptoms (ext 3583).
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 

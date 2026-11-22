@@ -3,7 +3,7 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-22 07:02 UTC, from the live Cor atlas snapshot built 2026-11-22 07:02 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 07:04 UTC, from the live Cor atlas snapshot built 2026-11-22 07:03 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (7 contested-flagged).
 
@@ -830,7 +830,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** In the United States 26% of adults ate every meal of the previous day alone in 2023, more than half again above the 2003 level; among people living alone it was about 70%. In a UK poll of 2,000 adults nearly 70% had never had a meal with a neighbour. Shared meals vary widely between countries today: 11.7 lunches and dinners a week with someone known in Senegal, 2.7 in Bangladesh and Estonia. Food now comes from a shop, and a household's food does not pass through other households.
 
-**The gap to work with:** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
+**The gap to work with:** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. Project position: the missing exchange is what lowers mood. Among 37,193 older Japanese adults followed for three years, men living alone who usually ate alone had 2.36 times the rate of new depressive symptoms of men living alone who ate with others, after adjustment for income, health, nutrition and other factors (ext 3684); in a cross-sectional study, people who lived with their families yet ate alone had the highest odds of depressive symptoms (ext 3583).
 
 **Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 18
 
@@ -1321,4 +1321,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 07:02 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-22 07:02 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 07:03 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-22 07:04 UTC.*

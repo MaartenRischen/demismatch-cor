@@ -62,7 +62,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them' (Rathje et al. 2021, eight datasets). Whether moralised posts in general spread more is contested: Brady et al. 2017 found it in 563,312 tweets, and a re-test on six other Twitter corpora gave inconsistent results (Burton, Cruz and Hahn 2021).
 
 **Food shared and eaten in company** (tested once)
-  - A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. That the missing exchange is what lowers mood is Cor's reading. No study has tested it.
+  - A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. Project position: the missing exchange is what lowers mood. Among 37,193 older Japanese adults followed for three years, men living alone who usually ate alone had 2.36 times the rate of new depressive symptoms of men living alone who ate with others, after adjustment for income, health, nutrition and other factors (ext 3684); in a cross-sectional study, people who lived with their families yet ate alone had the highest odds of depressive symptoms (ext 3583).
 
 
 ### Mating & reproduction
