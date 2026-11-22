@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-11-22T08:58:34.187100+00:00",
-  "count": 4078,
+  "scanned_at": "2026-11-22T09:09:32.291118+00:00",
+  "count": 4099,
   "items": [
     {
       "table": "extractions",
@@ -32625,6 +32625,174 @@
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
       "full_field_preview": "A cross-study contrast, not a within-study test of predictability. The proposed hormone account was not measured in this study. Grade, rubric v2 (21 Nov 2026): theoretical. The authors' comparison of their own small experiment with other laboratories' unpredictable-stress studies"
+    },
+    {
+      "table": "extractions",
+      "code": 5146,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The main effect of cycle phase on overall attractiveness ratings comes from the postprint (OSF file version 5, dated the day after online publication); the published abstract does not state it. Same sample as the authors' earlier papers on bodies and voices (Juenger et al. 2018),"
+    },
+    {
+      "table": "extractions",
+      "code": 5147,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The symmetry and apparent-health result is reported in the body with full results on OSF, not in the abstract. Hormone levels are measured, cycle phase is not counted directly. Grade, rubric v2 (21 Nov 2026): thin. One large within-woman study with repeated salivary hormone assay"
+    },
+    {
+      "table": "extractions",
+      "code": 5148,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Pools human couples studies and odour-preference experiments with nonhuman primate data. Grade, rubric v2 (21 Nov 2026): meta_analysis. A phylogenetically controlled meta-analysis of 30 studies; main weakness: few studies per species and mixed human methods (couples, odour rating"
+    },
+    {
+      "table": "extractions",
+      "code": 5149,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "A preference for an MHC-diverse partner is a different claim from a preference for a partner MHC-different from oneself. Grade, rubric v2 (21 Nov 2026): meta_analysis. A phylogenetically controlled meta-analysis of 30 studies; main weakness: the diversity effect rests on fewer st"
+    },
+    {
+      "table": "extractions",
+      "code": 5150,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "German-background couples only; married couples, not dating or odour preference; the authors note that very high MHC polymorphism makes highly similar partners rare in any case. Grade, rubric v2 (21 Nov 2026): thin. The largest genotyped couples study to date (3,691 couples, abou"
+    },
+    {
+      "table": "extractions",
+      "code": 5151,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Measures how apes enter and leave joint activity, not whether they try to reengage a partner who stops; animal evidence, captive groups only. Grade, rubric v2 (21 Nov 2026): thin. One observational study of 50 captive apes in five groups; main weakness: zoo animals living closer "
+    },
+    {
+      "table": "extractions",
+      "code": 5152,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Bonobos only; one captive group; the authors read resumption as joint commitment, which is debated. Grade, rubric v2 (21 Nov 2026): thin. One experiment in one zoo group of 15 bonobos; main weakness: grooming between conspecifics is a different task from the game with a play obje"
+    },
+    {
+      "table": "extractions",
+      "code": 5153,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. The 18 studies and 704 participants named in Cor's grade note for ext 428 are not in the abstract and are not confirmed here. Massage by a therapist is the partial step of R1's proxy gradient (affective touch from a non-intimate caregiver), not touch from a trusted"
+    },
+    {
+      "table": "extractions",
+      "code": 5154,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. The anxiety, depression and pain benefits are stated as established by the authors, not re-estimated in this abstract; Cor holds them from Moyer et al. 2004 (work 2872). Grade, rubric v2 (21 Nov 2026): meta_analysis. A quantitative review; main weakness: read in ab"
+    },
+    {
+      "table": "extractions",
+      "code": 5155,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Measures habitual sleep duration, not timing, light at night or shift work. Asian subgroup rests on 5 studies with moderate heterogeneity (I2 58 percent). Grade, rubric v2 (21 Nov 2026): meta_analysis. A meta-analysis of 61 cohorts and 4 case-control studies with about 1.55 milli"
+    },
+    {
+      "table": "extractions",
+      "code": 5156,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. Rates are for the source's diagnostic label. Lundorff, author of the meta-analysis behind ext 736, is a co-author. Grade, rubric v2 (21 Nov 2026): meta_analysis. A meta-regression of 34 samples in 16 countries; main weakness: read in abstract only, Europe and North"
+    },
+    {
+      "table": "extractions",
+      "code": 5157,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. Country-level association; the authors read it as sociocultural impact on grief processing. The vulnerability index is a country average, not a measure of the bereaved person's own circumstances. Grade, rubric v2 (21 Nov 2026): thin. A between-country meta-regressi"
+    },
+    {
+      "table": "extractions",
+      "code": 5158,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. Probable diagnosis from a questionnaire, not a clinical interview. Grade, rubric v2 (21 Nov 2026): thin. One representative national sample; main weakness: read in abstract only, self-report, and the PG-13+9 was not built for the ICD-11 or DSM-5-TR criteria. Read: "
+    },
+    {
+      "table": "extractions",
+      "code": 5159,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. Measures non-recall at one interview, not whether memory later returned. The 1995 correction (J Consult Clin Psychol 63(3):343, doi 10.1037/0022-006x.63.3.343, read 22 Nov 2026 on the APA PsycNET record) changes one sentence on page 1172, on force and recall; the 3"
+    },
+    {
+      "table": "extractions",
+      "code": 5160,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. Speaks to measurement of peripheral oxytocin, not to whether oxytocin matters for bonding. Defenders of unextracted assays (MacLean et al. 2019) argue the assays measure bound forms of the molecule; that is an argument, not a test. Grade, rubric v2 (21 Nov 2026): r"
+    },
+    {
+      "table": "extractions",
+      "code": 5161,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. The abstract gives no results by subsistence type, so it does not test the forager-specific sentences of EEA-SOC-10 (no rulers, exit available). Grade, rubric v2 (21 Nov 2026): thin. One coding study of a 60-culture probability sample of the ethnographic record; ma"
+    },
+    {
+      "table": "extractions",
+      "code": 5162,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only. The abstract states that leaders were often polygynous; it does not report numbers of children. Grade, rubric v2 (21 Nov 2026): thin. One coding study of 60 cultures; main weakness: read in abstract only; polygyny is coded from texts and offspring numbers are not g"
+    },
+    {
+      "table": "extractions",
+      "code": 5163,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "US only; the authors stress that paid maternity leave is rare in the US and that results will not generalise to all high-income countries. Wealth, not status, is measured. Grade, rubric v2 (21 Nov 2026): thin. One large US panel with cross-sectional and lagged longitudinal models"
+    },
+    {
+      "table": "extractions",
+      "code": 5164,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The authors note Sweden, with income-linked parental leave, shows income positively predicting motherhood. US only. Grade, rubric v2 (21 Nov 2026): thin. Lagged longitudinal models in one large US panel; main weakness: the reverse-causation reading is the authors' interpretation "
+    },
+    {
+      "table": "extractions",
+      "code": 5165,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Measures where exclusion activates the brain, not how much exclusion hurts; the ventral ACC is part of the anterior cingulate, so 'the anterior cingulate was more active' holds for the ventral part. Grade, rubric v2 (21 Nov 2026): meta_analysis. The largest meta-analysis of Cyber"
+    },
+    {
+      "table": "extractions",
+      "code": 5166,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Selection on reported ACC activation; mixes Cyberball with other social pain tasks. Search to March 2013. Grade, rubric v2 (21 Nov 2026): meta_analysis. A meta-analysis of 46 fMRI articles (n=940); main weakness: it included only studies that reported anterior cingulate activatio"
     }
   ]
 }

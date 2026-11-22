@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T08:58:34.187100+00:00",
+    "built_at": "2026-11-22T09:09:32.291118+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3345,
-    "extractions": 5078,
+    "works": 3361,
+    "extractions": 5099,
     "researchers": 84,
-    "mechanism_evidence": 5658,
+    "mechanism_evidence": 5681,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -69190,6 +69190,326 @@
         "issue": "2",
         "pages": "171-183",
         "url": "corpus.html#w=3359"
+      },
+      {
+        "id": 3360,
+        "title": "Probing Ovulatory-Cycle Shifts in Women's Preferences for Men's Behaviors",
+        "authors": "Stern J, Gerlach TM, Penke L",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/0956797619882022",
+        "pmid": "32130075",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "31",
+        "issue": "4",
+        "pages": "424-436",
+        "url": "corpus.html#w=3360"
+      },
+      {
+        "id": 3361,
+        "title": "No Compelling Evidence that Preferences for Facial Masculinity Track Changes in Women's Hormonal Status",
+        "authors": "Jones BC, Hahn AC, Fisher CI, Wang H, Kandrik M, Han C, Fasolt V, Morrison D, Lee AJ, Holzleitner IJ, O'Shea KJ, Roberts SC, Little AC, DeBruine LM",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/0956797618760197",
+        "pmid": "29708849",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "29",
+        "issue": "6",
+        "pages": "996-1005",
+        "url": "corpus.html#w=3361"
+      },
+      {
+        "id": 3362,
+        "title": "Patterns of MHC-dependent mate selection in humans and nonhuman primates: a meta-analysis",
+        "authors": "Winternitz J, Abbate JL, Huchard E, Havlicek J, Garamszegi LZ",
+        "year": 2017,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/mec.13920",
+        "pmid": "27859823",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Ecology",
+        "container": null,
+        "volume": "26",
+        "issue": "2",
+        "pages": "668-688",
+        "url": "corpus.html#w=3362"
+      },
+      {
+        "id": 3363,
+        "title": "Marriage does not relate to major histocompatibility complex: a genetic analysis based on 3691 couples",
+        "authors": "Croy I, Ritschel G, Kressner-Kiel D, Schaefer L, Hummel T, Havlicek J, Sauter J, Ehninger G, Schmidt AH",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2020.1800",
+        "pmid": "33023409",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "287",
+        "issue": "1936",
+        "pages": "20201800",
+        "url": "corpus.html#w=3363"
+      },
+      {
+        "id": 3364,
+        "title": "Assessing joint commitment as a process in great apes",
+        "authors": "Heesen R, Bangerter A, Zuberbuehler K, Iglesias K, Neumann C, Pajot A, Perrenoud L, Guery JP, Rossano F, Genty E",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.isci.2021.102872",
+        "pmid": "34471860",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "iScience",
+        "container": null,
+        "volume": "24",
+        "issue": "8",
+        "pages": "102872",
+        "url": "corpus.html#w=3364"
+      },
+      {
+        "id": 3365,
+        "title": "Bonobos engage in joint commitment",
+        "authors": "Heesen R, Bangerter A, Zuberbuehler K, Rossano F, Iglesias K, Guery JP, Genty E",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1126/sciadv.abd1306",
+        "pmid": "33355132",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Science Advances",
+        "container": null,
+        "volume": "6",
+        "issue": "51",
+        "pages": null,
+        "url": "corpus.html#w=3365"
+      },
+      {
+        "id": 3366,
+        "title": "Does massage therapy reduce cortisol? A comprehensive quantitative review",
+        "authors": "Moyer CA, Seefeldt L, Mann ES, Jackley LM",
+        "year": 2011,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jbmt.2010.06.001",
+        "pmid": "21147413",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Bodywork and Movement Therapies",
+        "container": null,
+        "volume": "15",
+        "issue": "1",
+        "pages": "3-14",
+        "url": "corpus.html#w=3366"
+      },
+      {
+        "id": 3367,
+        "title": "Sleep duration and the risk of cancer: a systematic review and meta-analysis including dose-response relationship",
+        "authors": "Chen Y, Tan F, Wei L, Li X, Lyu Z, Feng X, Wen Y, Guo L, He J, Dai M, Li N",
+        "year": 2018,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/s12885-018-5025-y",
+        "pmid": "30463535",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BMC Cancer",
+        "container": null,
+        "volume": "18",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3367"
+      },
+      {
+        "id": 3368,
+        "title": "Cross-national analysis of the prevalence of prolonged grief disorder",
+        "authors": "Comtesse H, Smid GE, Rummel AM, Spreeuwenberg P, Lundorff M, Dueckers MLA",
+        "year": 2024,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2024.01.094",
+        "pmid": "38220101",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "350",
+        "issue": null,
+        "pages": "359-365",
+        "url": "corpus.html#w=3368"
+      },
+      {
+        "id": 3369,
+        "title": "Prevalence of prolonged grief disorder",
+        "authors": "Rosner R, Comtesse H, Vogel A, Doering BK",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2021.03.058",
+        "pmid": "33812243",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "287",
+        "issue": null,
+        "pages": "301-307",
+        "url": "corpus.html#w=3369"
+      },
+      {
+        "id": 3370,
+        "title": "Recall of childhood trauma: a prospective study of women's memories of child sexual abuse",
+        "authors": "Williams LM",
+        "year": 1994,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0022-006X.62.6.1167",
+        "pmid": "7860814",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Consulting and Clinical Psychology",
+        "container": null,
+        "volume": "62",
+        "issue": "6",
+        "pages": "1167-1176",
+        "url": "corpus.html#w=3370"
+      },
+      {
+        "id": 3371,
+        "title": "Problems with measuring peripheral oxytocin: can the data on oxytocin and human behavior be trusted?",
+        "authors": "McCullough ME, Churchland PS, Mendez AJ",
+        "year": 2013,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.neubiorev.2013.04.018",
+        "pmid": "23665533",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "container": null,
+        "volume": "37",
+        "issue": "8",
+        "pages": "1485-1492",
+        "url": "corpus.html#w=3371"
+      },
+      {
+        "id": 3372,
+        "title": "Evolutionary Models of Leadership: Tests and Synthesis",
+        "authors": "Garfield ZH, Hubbard RL, Hagen EH",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s12110-019-09338-4",
+        "pmid": "30784003",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Nature",
+        "container": null,
+        "volume": "30",
+        "issue": "1",
+        "pages": "23-58",
+        "url": "corpus.html#w=3372"
+      },
+      {
+        "id": 3373,
+        "title": "The Reproductive Ecology of Industrial Societies, Part II: The Association between Wealth and Fertility",
+        "authors": "Stulp G, Sear R, Schaffnit SB, Mills MC, Barrett L",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s12110-016-9272-9",
+        "pmid": "27670437",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Nature",
+        "container": null,
+        "volume": "27",
+        "issue": "4",
+        "pages": "445-470",
+        "url": "corpus.html#w=3373"
+      },
+      {
+        "id": 3374,
+        "title": "Social exclusion reliably engages the default network: A meta-analysis of Cyberball",
+        "authors": "Mwilambwe-Tshilobo L, Spreng RN",
+        "year": 2021,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.neuroimage.2020.117666",
+        "pmid": "33359341",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "NeuroImage",
+        "container": null,
+        "volume": "227",
+        "issue": null,
+        "pages": "117666",
+        "url": "corpus.html#w=3374"
+      },
+      {
+        "id": 3375,
+        "title": "A meta-analysis of the anterior cingulate contribution to social pain",
+        "authors": "Rotge JY, Lemogne C, Hinfray S, Huguet P, Grynszpan O, Tartour E, George N, Fossati P",
+        "year": 2015,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/scan/nsu110",
+        "pmid": "25140048",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Social Cognitive and Affective Neuroscience",
+        "container": null,
+        "volume": "10",
+        "issue": "1",
+        "pages": "19-27",
+        "url": "corpus.html#w=3375"
       }
     ],
     "extractions": [
@@ -92166,6 +92486,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4223"
+      },
+      {
+        "id": 5149,
+        "work_id": 3362,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5149"
       },
       {
         "id": 2414,
@@ -142427,6 +142760,270 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=452"
+      },
+      {
+        "id": 5146,
+        "work_id": 3360,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5146"
+      },
+      {
+        "id": 5147,
+        "work_id": 3361,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5147"
+      },
+      {
+        "id": 5148,
+        "work_id": 3362,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5148"
+      },
+      {
+        "id": 5150,
+        "work_id": 3363,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5150"
+      },
+      {
+        "id": 5151,
+        "work_id": 3364,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5151"
+      },
+      {
+        "id": 5152,
+        "work_id": 3365,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5152"
+      },
+      {
+        "id": 5153,
+        "work_id": 3366,
+        "mechanism_codes": [
+          "R1",
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5153"
+      },
+      {
+        "id": 5154,
+        "work_id": 3366,
+        "mechanism_codes": [
+          "R1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5154"
+      },
+      {
+        "id": 5155,
+        "work_id": 3367,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5155"
+      },
+      {
+        "id": 5156,
+        "work_id": 3368,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5156"
+      },
+      {
+        "id": 5157,
+        "work_id": 3368,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5157"
+      },
+      {
+        "id": 5158,
+        "work_id": 3369,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5158"
+      },
+      {
+        "id": 5159,
+        "work_id": 3370,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5159"
+      },
+      {
+        "id": 5160,
+        "work_id": 3371,
+        "mechanism_codes": [
+          "M3",
+          "M9",
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5160"
+      },
+      {
+        "id": 5161,
+        "work_id": 3372,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5161"
+      },
+      {
+        "id": 5162,
+        "work_id": 3372,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5162"
+      },
+      {
+        "id": 5163,
+        "work_id": 3373,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5163"
+      },
+      {
+        "id": 5164,
+        "work_id": 3373,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5164"
+      },
+      {
+        "id": 5165,
+        "work_id": 3374,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5165"
+      },
+      {
+        "id": 5166,
+        "work_id": 3375,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5166"
       }
     ],
     "researchers": [
@@ -176967,6 +177564,144 @@
         "mechanism_code": "M1",
         "extraction_id": 5145,
         "evidence_role": "primary"
+      },
+      {
+        "id": 5733,
+        "mechanism_code": "M14",
+        "extraction_id": 5146,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5734,
+        "mechanism_code": "M14",
+        "extraction_id": 5147,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5735,
+        "mechanism_code": "M14",
+        "extraction_id": 5148,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5736,
+        "mechanism_code": "M14",
+        "extraction_id": 5149,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5737,
+        "mechanism_code": "M14",
+        "extraction_id": 5150,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5738,
+        "mechanism_code": "M11",
+        "extraction_id": 5151,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5739,
+        "mechanism_code": "M11",
+        "extraction_id": 5152,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5740,
+        "mechanism_code": "R1",
+        "extraction_id": 5153,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5741,
+        "mechanism_code": "M3",
+        "extraction_id": 5153,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5742,
+        "mechanism_code": "R1",
+        "extraction_id": 5154,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5743,
+        "mechanism_code": "M7",
+        "extraction_id": 5155,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5744,
+        "mechanism_code": "M8",
+        "extraction_id": 5155,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5745,
+        "mechanism_code": "M3",
+        "extraction_id": 5156,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5746,
+        "mechanism_code": "M3",
+        "extraction_id": 5157,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5747,
+        "mechanism_code": "M3",
+        "extraction_id": 5158,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5748,
+        "mechanism_code": "M3",
+        "extraction_id": 5160,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5749,
+        "mechanism_code": "M9",
+        "extraction_id": 5160,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5750,
+        "mechanism_code": "M11",
+        "extraction_id": 5160,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5751,
+        "mechanism_code": "M5",
+        "extraction_id": 5161,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5752,
+        "mechanism_code": "M5",
+        "extraction_id": 5162,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5753,
+        "mechanism_code": "M5",
+        "extraction_id": 5163,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5754,
+        "mechanism_code": "M3",
+        "extraction_id": 5165,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5755,
+        "mechanism_code": "M3",
+        "extraction_id": 5166,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -188302,19 +189037,19 @@
     "evidence_counts_by_mechanism": {
       "M1": 579,
       "M2": 529,
-      "M3": 1060,
+      "M3": 1067,
       "M4": 214,
-      "M9": 365,
-      "M14": 481,
-      "M11": 688,
-      "M5": 504,
+      "M9": 366,
+      "M14": 486,
+      "M11": 691,
+      "M5": 507,
       "M13": 265,
       "M10": 159,
-      "M8": 173,
+      "M8": 174,
       "M12": 84,
       "M6": 178,
-      "M7": 246,
-      "R1": 133
+      "M7": 247,
+      "R1": 135
     },
     "eea_by_mechanism": {
       "M14": [
