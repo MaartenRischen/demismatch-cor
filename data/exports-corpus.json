@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-21T13:47:44.107448+00:00",
+    "source_built_at": "2026-11-22T06:33:33.670594+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -1566,7 +1566,7 @@
       "name": "Energy Regulation",
       "grade": "strongly_supported",
       "tier": 2,
-      "description": "Pontzer's constrained energy model. Energy is redistributed, not burned.",
+      "description": "Pontzer's constrained energy model. Part of the energy spent in activity is made up elsewhere in the body: about 28 percent in adults living ordinary lives (ext 2346).",
       "eli5": "Hunger, satiety, and constrained total energy expenditure.",
       "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
       "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
