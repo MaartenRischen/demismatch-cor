@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-22 09:13 UTC, from the live Cor atlas snapshot built 2026-11-22 09:13 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 09:53 UTC, from the live Cor atlas snapshot built 2026-11-22 09:53 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3361 works, 5099 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -939,7 +939,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 - ext#608 · tested once · primary: "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions"
 - ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
-- ext#1044 · tested once · primary: "Of the 2,028 individuals, 800 participants reported having a favorite celebrity (39%) after reading general definition of a favorite celebrity."
+- ext#1044 · tested once · primary: "Of the 2,028 individuals, 800 participants reported having a favorite celebrity (39%) after reading McCutcheon et al.’s (2004) general definition of a favorite celebrity."
 - ext#1043 · tested once · primary: "Most adolescents (61.1%) thought of their favorite media figures as relationship partners"
 - ext#1045 · tested once · supporting: "In partial support of the Parasocial Hypothesis, media exposure, but not social isolation, was a strong predictor of interest in celebrities."
 
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 09:13 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 09:13 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 09:53 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 09:53 UTC.*
