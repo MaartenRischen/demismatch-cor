@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T09:09:32.291118+00:00",
+    "built_at": "2026-11-22T09:13:15.898908+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -133949,22 +133949,6 @@
         "url": "corpus.html#e=672"
       },
       {
-        "id": 428,
-        "work_id": 65,
-        "mechanism_codes": [
-          "R1",
-          "M8"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=428"
-      },
-      {
         "id": 435,
         "work_id": 35,
         "mechanism_codes": [
@@ -141307,21 +141291,6 @@
         "url": "corpus.html#e=160"
       },
       {
-        "id": 15,
-        "work_id": 6,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=15"
-      },
-      {
         "id": 243,
         "work_id": 14,
         "mechanism_codes": [
@@ -143024,6 +142993,37 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=5166"
+      },
+      {
+        "id": 15,
+        "work_id": 6,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=15"
+      },
+      {
+        "id": 428,
+        "work_id": 65,
+        "mechanism_codes": [
+          "R1",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=428"
       }
     ],
     "researchers": [
