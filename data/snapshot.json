@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T06:43:14.844961+00:00",
+    "built_at": "2026-11-22T06:46:18.110407+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -2220,6 +2220,16 @@
         "created_at": "2026-04-04T19:32:21.883117+00:00"
       },
       {
+        "id": 11,
+        "code": "G11",
+        "name": "Challenge layer depth",
+        "what_is_missing": "Cor counts 16 records of evidence against itself (22 Nov 2026), each a test at least as strong as what it hits. What is missing: a search for the strongest tests of each node's central sentences, whichever way they point. A first search found about a dozen strong tests against that Cor did not hold; they are being read.",
+        "why_it_matters": "Active inference and RDoC offer competing accounts of the same outputs. Cor records their claims and has not tested its own claims against them.",
+        "current_approach": "Next: the tests the two rival frameworks name (ext 1122, ext 1118).",
+        "priority": "medium",
+        "created_at": "2026-04-04T19:32:21.883117+00:00"
+      },
+      {
         "id": 14,
         "code": "G14",
         "name": "Joint-authorship FK limitation on v2_works",
@@ -2250,26 +2260,6 @@
         "created_at": "2026-04-04T19:32:21.883117+00:00"
       },
       {
-        "id": 11,
-        "code": "G11",
-        "name": "Challenge layer depth",
-        "what_is_missing": "Cor holds 196 core challenge records (counted 19 Nov 2026), heaviest on OF2, P3, DA10, DA1 and DA7. They include substance-specific addiction neuroscience (Volkow et al. 2016, ext 969-971; Kreek et al. 2005, ext 974), cultural-construction critiques (Wood & Eagly 2002, ext 805), twin and court-record designs against a causal reading of childhood adversity (ext 1635-1659), trials of stopping antipsychotics and of trauma-focused therapy (ext 1778-1785, 1557-1561), and two rival frameworks: active inference (Clark, Watson & Friston 2018, ext 1119-1122) and RDoC (Cuthbert 2014, ext 1116-1118). The rival-framework records are theoretical statements. Each framework names a test that would settle the rivalry (ext 1122, ext 1118), and neither test is in Cor as a study. Also missing: a forager record of how often and how long the signals fire, and any trial that puts a person's own people in place of a drug while the dose comes down.",
-        "why_it_matters": "Active inference and RDoC offer competing accounts of the same outputs. Cor records their claims and has not tested its own claims against them.",
-        "current_approach": "Next: the tests the two rival frameworks name (ext 1122, ext 1118).",
-        "priority": "medium",
-        "created_at": "2026-04-04T19:32:21.883117+00:00"
-      },
-      {
-        "id": 2,
-        "code": "G2",
-        "name": "M14 cross-cultural variation evidence",
-        "what_is_missing": "M14 is sex-differentiated, with distinct female (VMH-centered) and male (POA-centered) neural architectures carrying different emphasis on commitment cues versus variety cues. Stated mate preferences are tested across cultures (Buss 1989, 37 cultures, ext 694; Walter et al. 2020, 45 countries, ext 695), and so is interest in uncommitted sex (Schmitt 2005, 48 nations, ext 779). A meta-analysis finds that the stated sex differences barely predict whom people like once they have met (Eastwick et al. 2014, ext 757), and other studies dispute that result (Li et al. 2013; Meltzer et al. 2014). Cor holds no cross-cultural study that links the female VMH and male POA substrates to these preferences. The ovulatory-shift claim is graded contested, and the weight of evidence leans against cycle shifts in mate preference (ext 15).",
-        "why_it_matters": "Social-role theory reads the same sex differences as products of the division of labour (Wood & Eagly 2002, ext 805). Cross-cultural tests that set the two readings against each other exist (Gangestad et al. 2006, named in ext 805) and are not in Cor as records.",
-        "current_approach": "The ovulatory-shift claim is graded contested (ext 15).",
-        "priority": "medium",
-        "created_at": "2026-04-04T19:32:21.883117+00:00"
-      },
-      {
         "id": 16,
         "code": "G15",
         "name": "Restorative Environments domain primary-source grounding",
@@ -2288,6 +2278,16 @@
         "current_approach": "Open derivation question. Evaluate the theoretical spine first: Sng, Neuberg and Kenrick 2017 (resource competition and life-history, density-dependent life-history strategy) as candidate mechanism-level grounding, then test whether the Yong competition construct reduces to C9 plus C11 plus M5 plus DC2 or requires its own forcing convergence.",
         "priority": "medium",
         "created_at": "2026-07-10T07:10:05.861002+00:00"
+      },
+      {
+        "id": 2,
+        "code": "G2",
+        "name": "M14 cross-cultural variation evidence",
+        "what_is_missing": "M14 is sex-differentiated, with distinct female (VMH-centered) and male (POA-centered) neural architectures carrying different emphasis on commitment cues versus variety cues. Stated mate preferences are tested across cultures (Buss 1989, 37 cultures, ext 694; Walter et al. 2020, 45 countries, ext 695), and so is interest in uncommitted sex (Schmitt 2005, 48 nations, ext 779). A meta-analysis finds that the stated sex differences barely predict whom people like once they have met (Eastwick et al. 2014, ext 757), and other studies dispute that result (Li et al. 2013; Meltzer et al. 2014). Cor holds no cross-cultural study that links the female VMH and male POA substrates to these preferences. The weight of evidence leans against cycle shifts in mate preference, and the larger tests of it are not in Cor as records.",
+        "why_it_matters": "Social-role theory reads the same sex differences as products of the division of labour (Wood & Eagly 2002, ext 805). Cross-cultural tests that set the two readings against each other exist (Gangestad et al. 2006, named in ext 805) and are not in Cor as records.",
+        "current_approach": "Next: read the larger tests of cycle shifts in mate preference into Cor.",
+        "priority": "medium",
+        "created_at": "2026-04-04T19:32:21.883117+00:00"
       }
     ],
     "works": [
