@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-22 06:33 UTC, from the live Cor atlas snapshot built 2026-11-22 06:33 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 06:43 UTC, from the live Cor atlas snapshot built 2026-11-22 06:43 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (7 contested-flagged).
 
@@ -1332,7 +1332,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
   - hadza_allomother_hold_pct: 31
   - calories_to_rear_child_millions: 13
   - human_interbirth_interval_years: [3, 4]
-  - other_ape_interbirth_interval_years: [6, 8]
+  - other_ape_interbirth_interval_years: {"source": "median birth intervals in the wild, Galdikas and Wood 1990, ext 3519", "gorilla": 3.8, "orangutan": 7.7, "chimpanzee": 5.5}
 
 **Modern default.** The modern default is the isolated nuclear (often single-caregiver) household: one or two adults, frequently without resident grandmothers, aunts, older cousins, or trusted neighbours sharing the daily load. The idealized breadwinner-father / homemaker-mother / biological-children unit is a historical aberration roughly a century old (Victorian at most; the 1950s template in the US), departing from the extended-kin allomaternal norm that held for the vast majority of human history. Care that was distributed across many hands is now concentrated on one or two, often supplemented by paid, rotating, or institutional caregivers rather than a stable invested kin network.
 
@@ -1739,10 +1739,10 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **EEA value** (illustrative, not constants):
 
-  - note: Fiber figures are reconstructions (Eaton & Konner 1985, ext 39).
+  - note: Fiber figures are reconstructions (Eaton 2006, ext 3605, which lowered the 100 to 150 g of Eaton & Konner 1985, ext 39).
   - sweet_fat_salt_availability: sweet food seasonal and costly (honey); fat and salt concentrations ancestrally rare; bundled in whole-food matrix
   - fiber_g_per_day_modern_approx: 20
-  - fiber_g_per_day_ancestral_estimate: 100-150
+  - fiber_g_per_day_ancestral_estimate: about 100 or somewhat more
 
 **Modern default.** Ultra-processed, hyperpalatable products engineered to the 'bliss point' - the mathematically optimized concentration of sugar, fat, and salt that maximizes craving - stripped of fiber and whole-food bulk. These foods decouple palatability from nutritional value and deliver calories faster than satiety signaling can register them, so the evolved fullness/reward proxies no longer track intake. Ultra-processed hyperpalatability is the modern proxy that defeats satiety.
 
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 06:33 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 06:33 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 06:43 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 06:43 UTC.*

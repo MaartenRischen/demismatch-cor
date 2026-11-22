@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-22T06:33:33.670594+00:00",
+    "source_built_at": "2026-11-22T06:43:14.844961+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -4700,10 +4700,12 @@
             3,
             4
           ],
-          "other_ape_interbirth_interval_years": [
-            6,
-            8
-          ]
+          "other_ape_interbirth_interval_years": {
+            "source": "median birth intervals in the wild, Galdikas and Wood 1990, ext 3519",
+            "gorilla": 3.8,
+            "orangutan": 7.7,
+            "chimpanzee": 5.5
+          }
         },
         "modern_default": "The modern default is the isolated nuclear (often single-caregiver) household: one or two adults, frequently without resident grandmothers, aunts, older cousins, or trusted neighbours sharing the daily load. The idealized breadwinner-father / homemaker-mother / biological-children unit is a historical aberration roughly a century old (Victorian at most; the 1950s template in the US), departing from the extended-kin allomaternal norm that held for the vast majority of human history. Care that was distributed across many hands is now concentrated on one or two, often supplemented by paid, rotating, or institutional caregivers rather than a stable invested kin network.",
         "gap_statement": "The mismatch is between the reliable, present, multi-caregiver surround the infant's attachment and the mother's reproductive psychology evolved to expect, and the thin one- or two-adult household the modern environment supplies. The load that was carried by a village now falls on isolated parents; maternal investment is calibrated to assess available allomaternal support (M9), so its evolved absence produces overload, depleted caregivers, and infants with fewer attachment figures than the cooperative-breeding design assumes. This is a supply mismatch, not a parental-competence failure.",
@@ -6074,10 +6076,10 @@
         "name": "Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)",
         "eea_baseline": "Ancestral foods were fibrous, water- and bulk-rich, and slow to eat and digest, so the volume and macronutrient signals reaching satiety circuits tracked the actual caloric load. Reconstructions place ancestral fiber intake far above modern levels (on the order of 100 g/day or somewhat more vs ~20 g today; Eaton 2006, ext 3605). Sweetness, fat, and salt arrived bundled inside a whole-food matrix; sweet food was seasonal and costly to obtain (for the Hadza, honey is a favourite food and a substantial calorie share in season, Marlowe et al. 2014), and fat and salt came at concentrations that were ancestrally rare, so the reward-system's responses to those cues were honest proxies for nutritional value.",
         "eea_value": {
-          "note": "Fiber figures are reconstructions (Eaton & Konner 1985, ext 39).",
+          "note": "Fiber figures are reconstructions (Eaton 2006, ext 3605, which lowered the 100 to 150 g of Eaton & Konner 1985, ext 39).",
           "sweet_fat_salt_availability": "sweet food seasonal and costly (honey); fat and salt concentrations ancestrally rare; bundled in whole-food matrix",
           "fiber_g_per_day_modern_approx": 20,
-          "fiber_g_per_day_ancestral_estimate": "100-150"
+          "fiber_g_per_day_ancestral_estimate": "about 100 or somewhat more"
         },
         "modern_default": "Ultra-processed, hyperpalatable products engineered to the 'bliss point' - the mathematically optimized concentration of sugar, fat, and salt that maximizes craving - stripped of fiber and whole-food bulk. These foods decouple palatability from nutritional value and deliver calories faster than satiety signaling can register them, so the evolved fullness/reward proxies no longer track intake. Ultra-processed hyperpalatability is the modern proxy that defeats satiety.",
         "gap_statement": "Industrial formulation deliberately separates the reward cues (sweet/fat/salt) from the satiety cues (fiber, bulk, slow digestion) the two were ancestrally bundled together, so modern hyperpalatable food drives consumption past the point the body would otherwise stop, defeating the honest-signal logic of appetite regulation.",

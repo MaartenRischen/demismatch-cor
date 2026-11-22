@@ -824,7 +824,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
   - hadza_allomother_hold_pct: 31
   - calories_to_rear_child_millions: 13
   - human_interbirth_interval_years: [3, 4]
-  - other_ape_interbirth_interval_years: [6, 8]
+  - other_ape_interbirth_interval_years: {"source": "median birth intervals in the wild, Galdikas and Wood 1990, ext 3519", "gorilla": 3.8, "orangutan": 7.7, "chimpanzee": 5.5}
 
 **Modern default.** The modern default is the isolated nuclear (often single-caregiver) household: one or two adults, frequently without resident grandmothers, aunts, older cousins, or trusted neighbours sharing the daily load. The idealized breadwinner-father / homemaker-mother / biological-children unit is a historical aberration roughly a century old (Victorian at most; the 1950s template in the US), departing from the extended-kin allomaternal norm that held for the vast majority of human history. Care that was distributed across many hands is now concentrated on one or two, often supplemented by paid, rotating, or institutional caregivers rather than a stable invested kin network.
 
@@ -1231,10 +1231,10 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **EEA value** (illustrative, not constants):
 
-  - note: Fiber figures are reconstructions (Eaton & Konner 1985, ext 39).
+  - note: Fiber figures are reconstructions (Eaton 2006, ext 3605, which lowered the 100 to 150 g of Eaton & Konner 1985, ext 39).
   - sweet_fat_salt_availability: sweet food seasonal and costly (honey); fat and salt concentrations ancestrally rare; bundled in whole-food matrix
   - fiber_g_per_day_modern_approx: 20
-  - fiber_g_per_day_ancestral_estimate: 100-150
+  - fiber_g_per_day_ancestral_estimate: about 100 or somewhat more
 
 **Modern default.** Ultra-processed, hyperpalatable products engineered to the 'bliss point' - the mathematically optimized concentration of sugar, fat, and salt that maximizes craving - stripped of fiber and whole-food bulk. These foods decouple palatability from nutritional value and deliver calories faster than satiety signaling can register them, so the evolved fullness/reward proxies no longer track intake. Ultra-processed hyperpalatability is the modern proxy that defeats satiety.
 
