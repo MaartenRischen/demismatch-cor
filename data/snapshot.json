@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T08:39:14.938549+00:00",
+    "built_at": "2026-11-22T08:44:10.926049+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -22,7 +22,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 16
+    "challenges": 15
   },
   "tables": {
     "foundations": [
@@ -76746,20 +76746,6 @@
         "url": "corpus.html#e=493"
       },
       {
-        "id": 920,
-        "work_id": 399,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=920"
-      },
-      {
         "id": 451,
         "work_id": 22,
         "mechanism_codes": [
@@ -76788,6 +76774,20 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=4130"
+      },
+      {
+        "id": 920,
+        "work_id": 399,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=920"
       },
       {
         "id": 1746,
@@ -102297,20 +102297,6 @@
         "url": "corpus.html#e=914"
       },
       {
-        "id": 921,
-        "work_id": 400,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=921"
-      },
-      {
         "id": 933,
         "work_id": 411,
         "mechanism_codes": [
@@ -102323,34 +102309,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=933"
-      },
-      {
-        "id": 922,
-        "work_id": 401,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=922"
-      },
-      {
-        "id": 923,
-        "work_id": 402,
-        "mechanism_codes": [
-          "M3",
-          "M4"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "cross_species",
-        "source_type": "challenge",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=923"
       },
       {
         "id": 928,
@@ -102377,6 +102335,34 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=930"
+      },
+      {
+        "id": 922,
+        "work_id": 401,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=922"
+      },
+      {
+        "id": 923,
+        "work_id": 402,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=923"
       },
       {
         "id": 944,
@@ -139204,6 +139190,20 @@
         "url": "corpus.html#e=4177"
       },
       {
+        "id": 921,
+        "work_id": 400,
+        "mechanism_codes": [
+          "M3",
+          "M4"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "cross_species",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=921"
+      },
+      {
         "id": 4200,
         "work_id": 2642,
         "mechanism_codes": [
@@ -147263,18 +147263,6 @@
         "evidence_role": "supporting"
       },
       {
-        "id": 1347,
-        "mechanism_code": "M3",
-        "extraction_id": 923,
-        "evidence_role": "challenging"
-      },
-      {
-        "id": 1348,
-        "mechanism_code": "M4",
-        "extraction_id": 923,
-        "evidence_role": "challenging"
-      },
-      {
         "id": 1350,
         "mechanism_code": "M3",
         "extraction_id": 925,
@@ -147800,6 +147788,18 @@
         "id": 1550,
         "mechanism_code": "M2",
         "extraction_id": 1133,
+        "evidence_role": "constraining"
+      },
+      {
+        "id": 1347,
+        "mechanism_code": "M3",
+        "extraction_id": 923,
+        "evidence_role": "constraining"
+      },
+      {
+        "id": 1348,
+        "mechanism_code": "M4",
+        "extraction_id": 923,
         "evidence_role": "constraining"
       },
       {
@@ -186925,6 +186925,11 @@
         "reason": "Refiled on 21 Nov 2026 (one standard). It is about adults after mostly adult events rather than childhood, and a raised alarm after a threat fits DA7's own statement that the architecture calibrates to ongoing input. It stays in the atlas."
       },
       {
+        "citation": "Petrie 1996",
+        "title": "Environment is not the most important variable in determining oral morphine consumption in Wistar rats",
+        "reason": "Refiled on 22 Nov 2026 (one standard). An independent laboratory repeated the test with both sexes and a reversal of housing and found isolated rats drank more morphine, and an hour a day of contact removed the difference (Raz and Berger 2010, ext 5123); Petrie's two small studies are outweighed. It stays in the atlas."
+      },
+      {
         "citation": "Anthony 2020",
         "title": "Partisan Intoxication or Policy Voting?",
         "reason": "Set aside on 21 Nov 2026. Held against Cor's own text (EEA-SOC-19), the study measured something else. It stays in the atlas."
@@ -188218,23 +188223,6 @@
         "mechanism_codes": [
           "M3",
           "M5"
-        ],
-        "foundation_codes": []
-      },
-      {
-        "id": 923,
-        "extraction_id": 923,
-        "work_id": 402,
-        "title": "Environment is not the most important variable in determining oral morphine consumption in Wistar rats",
-        "content": "Environment is not the most important variable in determining oral morphine consumption in Wistar rats",
-        "citation": "Petrie BF, 1996",
-        "authors": "Petrie BF",
-        "year": 1996,
-        "researcher": null,
-        "evidence_quality": "cross_species",
-        "mechanism_codes": [
-          "M3",
-          "M4"
         ],
         "foundation_codes": []
       },
