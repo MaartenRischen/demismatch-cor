@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T10:22:36.848641+00:00",
+    "built_at": "2026-11-22T10:30:56.114782+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -72340,21 +72340,6 @@
         "url": "corpus.html#e=306"
       },
       {
-        "id": 536,
-        "work_id": 80,
-        "mechanism_codes": [
-          "M4"
-        ],
-        "foundation_codes": [
-          "DA8"
-        ],
-        "evidence_quality": "cross_species",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "seen in animals",
-        "url": "corpus.html#e=536"
-      },
-      {
         "id": 180,
         "work_id": 56,
         "mechanism_codes": [
@@ -72845,22 +72830,6 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=549"
-      },
-      {
-        "id": 550,
-        "work_id": 86,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA5",
-          "DA8"
-        ],
-        "evidence_quality": "replicated",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=550"
       },
       {
         "id": 152,
@@ -73937,20 +73906,6 @@
         "url": "corpus.html#e=223"
       },
       {
-        "id": 581,
-        "work_id": 101,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P2",
-          "DA6"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=581"
-      },
-      {
         "id": 582,
         "work_id": 101,
         "mechanism_codes": [
@@ -73978,6 +73933,20 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=805"
+      },
+      {
+        "id": 581,
+        "work_id": 101,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P2",
+          "DA6"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=581"
       },
       {
         "id": 346,
@@ -80021,19 +79990,6 @@
         "url": "corpus.html#e=706"
       },
       {
-        "id": 704,
-        "work_id": 193,
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=704"
-      },
-      {
         "id": 720,
         "work_id": 209,
         "mechanism_codes": [
@@ -82031,6 +81987,20 @@
         "url": "corpus.html#e=991"
       },
       {
+        "id": 846,
+        "work_id": 333,
+        "mechanism_codes": [
+          "M14",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=846"
+      },
+      {
         "id": 850,
         "work_id": 336,
         "mechanism_codes": [
@@ -82043,20 +82013,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=850"
-      },
-      {
-        "id": 846,
-        "work_id": 333,
-        "mechanism_codes": [
-          "M14",
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=846"
       },
       {
         "id": 2273,
@@ -111126,6 +111082,22 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=3178"
+      },
+      {
+        "id": 78,
+        "work_id": 35,
+        "mechanism_codes": [
+          "M7",
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA3"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=78"
       },
       {
         "id": 3181,
@@ -140687,24 +140659,6 @@
         "url": "corpus.html#e=289"
       },
       {
-        "id": 300,
-        "work_id": 121,
-        "mechanism_codes": [
-          "M1",
-          "M2",
-          "M3",
-          "M5"
-        ],
-        "foundation_codes": [
-          "P2"
-        ],
-        "evidence_quality": "meta_analysis",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=300"
-      },
-      {
         "id": 366,
         "work_id": 8,
         "mechanism_codes": [
@@ -140878,19 +140832,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=560"
-      },
-      {
-        "id": 566,
-        "work_id": 94,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA5"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=566"
       },
       {
         "id": 567,
@@ -142768,20 +142709,20 @@
         "url": "corpus.html#e=460"
       },
       {
-        "id": 78,
-        "work_id": 35,
+        "id": 550,
+        "work_id": 86,
         "mechanism_codes": [
-          "M7",
-          "M8"
+          "M1"
         ],
         "foundation_codes": [
-          "DA3"
+          "DA5",
+          "DA8"
         ],
         "evidence_quality": "replicated",
         "source_type": "primary",
         "tier": "core",
         "grade": "tested many times",
-        "url": "corpus.html#e=78"
+        "url": "corpus.html#e=550"
       },
       {
         "id": 79,
@@ -142898,23 +142839,6 @@
         "url": "corpus.html#e=333"
       },
       {
-        "id": 617,
-        "work_id": 120,
-        "mechanism_codes": [
-          "R1",
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "P3"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=617"
-      },
-      {
         "id": 717,
         "work_id": 206,
         "mechanism_codes": [
@@ -142926,6 +142850,24 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=717"
+      },
+      {
+        "id": 300,
+        "work_id": 121,
+        "mechanism_codes": [
+          "M1",
+          "M2",
+          "M3",
+          "M5"
+        ],
+        "foundation_codes": [
+          "P2"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=300"
       },
       {
         "id": 1017,
@@ -143024,6 +142966,64 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=1456"
+      },
+      {
+        "id": 566,
+        "work_id": 94,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=566"
+      },
+      {
+        "id": 536,
+        "work_id": 80,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=536"
+      },
+      {
+        "id": 704,
+        "work_id": 193,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=704"
+      },
+      {
+        "id": 617,
+        "work_id": 120,
+        "mechanism_codes": [
+          "R1",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=617"
       }
     ],
     "researchers": [
@@ -179534,9 +179534,9 @@
           {
             "extraction_id": 617,
             "evidence_role": "primary",
-            "author_quote": "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated",
+            "author_quote": "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated with it",
             "evidence_quality": "theoretical",
-            "content": "McKenna himself stresses that bedsharing safety depends entirely on how it is practiced and on adverse co-factors - the live SIDS/safety contestation that keeps co-sleeping from being a clean \"ancestral good\"."
+            "content": "McKenna avoids generic recommendations on bedsharing because its safety is determined specifically by how it is practiced, by whom, and by what adverse factors could be associated with it."
           }
         ]
       },
@@ -180128,7 +180128,7 @@
             "evidence_role": "supporting",
             "author_quote": null,
             "evidence_quality": "contested",
-            "content": "Human mothers rely on help from others to raise several dependent children at once, and this cooperative breeding helps explain humans' short birth intervals."
+            "content": "Help that human mothers get from others in raising children, cooperative breeding in the broad sense, helps explain why humans reproduce faster and keep more children alive than closely related species."
           },
           {
             "extraction_id": 749,
@@ -181042,7 +181042,7 @@
             "extraction_id": 846,
             "evidence_role": "supporting",
             "author_quote": "NBJ aimed to further evaluate and refine the backload model he had built with Richard Sibly to explain the four year birth intervals that Nancy Howell observed among foraging !Kung mothers at Dobe ( Blurton Jones and Sibly 1978 )",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "content": "!Kung foraging mothers at Dobe observed by Howell had birth intervals of about four years, which Blurton Jones and Sibly's backload model explained as the interval that maximised surviving offspring given the weight mothers had to carry."
           },
           {

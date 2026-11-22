@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-22 10:22 UTC, from the live Cor atlas snapshot built 2026-11-22 10:22 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 10:31 UTC, from the live Cor atlas snapshot built 2026-11-22 10:30 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3361 works, 5099 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -1193,7 +1193,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#1001 · tested many times · primary: "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4"
 - ext#1000 · tested many times · primary: "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees"
 - ext#851 · tested once · supporting: "very few chimpanzees survive to complete their potential TFR (10% of chimpanzees, compared to 33% of hunter-gatherers and 49% of non-foragers)"
-- ext#846 · contested · supporting: "NBJ aimed to further evaluate and refine the backload model he had built with Richard Sibly to explain the four year birth intervals that Nancy Howell observed among foraging !Kung mothers at Dobe ( Blurton Jones and Sibly 1978 )"
+- ext#846 · tested once · supporting: "NBJ aimed to further evaluate and refine the backload model he had built with Richard Sibly to explain the four year birth intervals that Nancy Howell observed among foraging !Kung mothers at Dobe ( Blurton Jones and Sibly 1978 )"
 - ext#1007 · tested once · supporting: "The median number of menses per lifetime was approximately 100, about a third as many as experienced by an American woman who had three live births."
 - (+4 more linked extraction(s))
 
@@ -1478,7 +1478,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#615 · tested once · supporting: "Moreover, infants and mothers are induced to awaken by an arousal exhibited by the other (within seconds) therein creating interconnected, mutually dependent, synchronous arousals [1, 2]."
 - ext#616 · tested once · supporting: "the behavior can be seen to be intimately linked to underlying EEGs, breathing patterns, changes in sleep architecture, body temperature and linked simultaneously to maternal physiological and behavioral events [5]."
 - ext#705 · tested many times · supporting: In Barry and Paxson's codes for the Standard Cross-Cultural Sample, the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 of them.
-- ext#617 · argued, not yet tested · primary: "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated"
+- ext#617 · argued, not yet tested · primary: "as bedsharing safety is determined specifically by how it is practiced and by whom and what adverse factors could be associated with it"
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands. The two largest case-control analyses disagree on bed-sharing where no other hazard is present: Blair et al. 2014 found no significant added risk (odds ratio 1.1), with about 18 times the risk on a sofa or beside an adult who had drunk alcohol (ext 3346); Carpenter et al. 2013 found about five times the risk for breastfed babies under 3 months whose parents neither smoke nor drink (ext 3347). On a question of an infant's life the hazard data decide, not the ancestral picture.*
 
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 10:22 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 10:22 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 10:30 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 10:31 UTC.*
