@@ -4,10 +4,10 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 7 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 26, tested once 12, argued, not yet tested 12, contested 3; 3 carry a contested flag).
 ### Social structure
 
-**Social network layers (~5/15/50/150)** (contested · CONTESTED)
+**Social network layers (~5/15/50/150)** (tested many times)
   - The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
 **Lifetime known-individual ceiling (~1,000)** (tested once)
@@ -34,7 +34,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Behavioral observability / reputation visibility** (argued, not yet tested)
   - The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
 
-**Leadership and dominance (no rulers; prestige by consent; exit available)** (contested · CONTESTED)
+**Leadership and dominance (no rulers; prestige by consent; exit available)** (tested many times)
   - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
 **Status reference group (ranked against people who know you)** (tested once)
@@ -88,8 +88,8 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Rivals and comparison** (argued, not yet tested)
   - The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
 
-**Sexual stimuli (real people vs unlimited images)** (contested · CONTESTED)
-  - The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
+**Sexual stimuli (real people vs unlimited images)** (tested many times)
+  - The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. In three preregistered replications, viewing the images did not lower attraction or love for a partner, against the one 1989 experiment that reported it. In two US panels, husbands who used them more reported lower marital quality six years later (among wives the link ran the other way), and starting use went with divorce by the next survey wave in women and men. Feeling addicted tracks moral conflict about one's own use as well as how much one uses.
 
 **Sex and conception coupled** (tested many times)
   - Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
@@ -109,7 +109,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Mixed-age child playgroups as developmental input** (tested many times)
   - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. No study has tested that reading in children.
 
-**Multigenerational presence (older people inside the band's giving and getting)** (contested)
+**Multigenerational presence (older people inside the band's giving and getting)** (tested many times)
   - The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.
 
 
@@ -154,7 +154,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 ### Diet & metabolic
 
-**Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)** (contested · CONTESTED)
+**Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)** (tested many times)
   - The modern food environment collapses a seasonally varied, micronutrient-dense, whole-food omnivory into a year-round monotony of refined, energy-dense, nutrient-diluted products, removing both the variety and the whole-food matrix the metabolic and digestive systems were calibrated to.
 
 **Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)** (argued, not yet tested)

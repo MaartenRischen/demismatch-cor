@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-22 07:10 UTC, from the live Cor atlas snapshot built 2026-11-22 07:10 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 07:16 UTC, from the live Cor atlas snapshot built 2026-11-22 07:16 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (7 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
 ---
 ## How to read this document
@@ -583,28 +583,26 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 7 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 26, tested once 12, argued, not yet tested 12, contested 3; 3 carry a contested flag).
 **Grade legend.**
 
-- **tested many times** (21): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested many times** (26): consistent results across independent groups or methods, or a meta-analysis of good studies
 - **tested once** (12): one good study, or one group's results, not yet repeated
 - **argued, not yet tested** (12): a reasoned case with no direct test
-- **contested** (8): published evidence on both sides; the note says which way the weight leans
+- **contested** (3): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
 #### Social network layers (~5/15/50/150)
-`EEA-SOC-01 · Social structure` - **contested** · **CONTESTED**
+`EEA-SOC-01 · Social structure` - **tested many times**
 
-**Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
+**Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
 
 **Now (modern default):** The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.
 
 **The gap to work with:** The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
 **Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 12
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Lifetime known-individual ceiling (~1,000)
 `EEA-SOC-02 · Social structure` - **tested once**
@@ -713,7 +711,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Leadership and dominance (no rulers; prestige by consent; exit available)
-`EEA-SOC-10 · Social structure` - **contested** · **CONTESTED**
+`EEA-SOC-10 · Social structure` - **tested many times**
 
 **Ancestrally:** Mobile hunter-gatherer bands had no rulers. Decisions that affected the group were reached by discussion toward consensus. Influence came from prestige and lasted only while others chose to listen. Anyone who tried to dominate was mocked, shunned or expelled, and in extreme cases killed. People could also leave a camp for another one, and that option checked anyone who tried to take control.
 
@@ -722,8 +720,6 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **The gap to work with:** The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
 
 **Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 13
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Status reference group (ranked against people who know you)
 `EEA-SOC-11 · Social structure` - **tested once**
@@ -923,17 +919,15 @@ What the environment used to supply, what it supplies now, and the gap you are a
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Sexual stimuli (real people vs unlimited images)
-`EEA-MATE-08 · Mating & reproduction` - **contested** · **CONTESTED**
+`EEA-MATE-08 · Mating & reproduction` - **tested many times**
 
 **Ancestrally:** Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).
 
 **Now (modern default):** Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.
 
-**The gap to work with:** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
+**The gap to work with:** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. In three preregistered replications, viewing the images did not lower attraction or love for a partner, against the one 1989 experiment that reported it. In two US panels, husbands who used them more reported lower marital quality six years later (among wives the link ran the other way), and starting use went with divorce by the next survey wave in women and men. Feeling addicted tracks moral conflict about one's own use as well as how much one uses.
 
 **Serves:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration  ·  evidence links: 9
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Sex and conception coupled
 `EEA-MATE-09 · Mating & reproduction` - **tested many times**
@@ -1002,7 +996,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 15
 
 #### Multigenerational presence (older people inside the band's giving and getting)
-`EEA-CARE-04 · Care & development` - **contested**
+`EEA-CARE-04 · Care & development` - **tested many times**
 
 **Ancestrally:** Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.
 
@@ -1013,8 +1007,6 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **What actually has to be present (resolution unit):** Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.
 
 **Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 12
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 
 ### Touch & contact
@@ -1169,7 +1161,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 ### Diet & metabolic
 
 #### Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)
-`EEA-DIET-01 · Diet & metabolic` - **contested** · **CONTESTED**
+`EEA-DIET-01 · Diet & metabolic` - **tested many times**
 
 **Ancestrally:** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero industrially processed food.
 
@@ -1180,8 +1172,6 @@ What the environment used to supply, what it supplies now, and the gap you are a
 **What actually has to be present (resolution unit):** Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.
 
 **Serves:** M13 - Energy Regulation  ·  evidence links: 6
-
-*Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested**
@@ -1321,4 +1311,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 07:10 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-22 07:10 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 07:16 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-22 07:16 UTC.*

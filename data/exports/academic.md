@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-22 07:10 UTC, from the live Cor atlas snapshot built 2026-11-22 07:10 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 07:16 UTC, from the live Cor atlas snapshot built 2026-11-22 07:16 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (7 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3258 works, 4969 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
 ---
 ## How to read this document
@@ -512,20 +512,20 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**53 parameters across 9 domains** (grades: tested many times 21, tested once 12, argued, not yet tested 12, contested 8; 7 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 26, tested once 12, argued, not yet tested 12, contested 3; 3 carry a contested flag).
 **Grade legend.**
 
-- **tested many times** (21): consistent results across independent groups or methods, or a meta-analysis of good studies
+- **tested many times** (26): consistent results across independent groups or methods, or a meta-analysis of good studies
 - **tested once** (12): one good study, or one group's results, not yet repeated
 - **argued, not yet tested** (12): a reasoned case with no direct test
-- **contested** (8): published evidence on both sides; the note says which way the weight leans
+- **contested** (3): published evidence on both sides; the note says which way the weight leans
 
 ### Social structure
 
 #### Social network layers (~5/15/50/150)
-`EEA-SOC-01 · Social structure` - **contested** · **CONTESTED**
+`EEA-SOC-01 · Social structure` - **tested many times**
 
-**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
+**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
 
 **EEA value** (illustrative, not constants):
 
@@ -551,7 +551,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
 - (+7 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Layered personal networks scaling by about 3 hold up in modern network data, much of it from Dunbar's group, while the 150 derivation fails re-analysis (Lindenfors, Wartel and Lind 2021) and forager groups are fluid (Bird et al. 2019). Weight of evidence: the layering holds; the exact layer sizes and the 150 ceiling are disputed, so treat them as approximate.*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of 34.9 million users (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The 150 figure fails re-analysis of the primate regression it came from (Lindenfors, Wartel and Lind 2021, ext 619), so the layer sizes and the 150 ceiling are approximate. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.*
 
 #### Lifetime known-individual ceiling (~1,000)
 `EEA-SOC-02 · Social structure` - **tested once**
@@ -787,7 +787,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 *Confidence note: Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.*
 
 #### Leadership and dominance (no rulers; prestige by consent; exit available)
-`EEA-SOC-10 · Social structure` - **contested** · **CONTESTED**
+`EEA-SOC-10 · Social structure` - **tested many times**
 
 **EEA baseline.** Mobile hunter-gatherer bands had no rulers. Decisions that affected the group were reached by discussion toward consensus. Influence came from prestige and lasted only while others chose to listen. Anyone who tried to dominate was mocked, shunned or expelled, and in extreme cases killed. People could also leave a camp for another one, and that option checked anyone who tried to take control.
 
@@ -806,7 +806,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#677 · argued, not yet tested · primary: In immediate-return hunter-gatherer societies people could move between camps at any time without economic penalty, and this freedom to leave worked as a levelling check on anyone who tried to dominate. Woodburn names it alongside every man's access to lethal hunting weapons.
 - (+8 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993; Garfield, von Rueden and Hagen 2019), while Singh and Glowacki 2022 find many non-agricultural peoples sedentary and stratified. Weight of evidence: the description holds for mobile foragers; how representative they were of the ancestral past is disputed. The baseline describes mobile, immediate-return foragers (Woodburn 1982, ext 677). Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for mobile foragers. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993, ext 688; Garfield, von Rueden and Hagen 2019, ext 689); main weakness: the ethnographies differ in method and date. Singh and Glowacki 2022 (ext 756) review 34 regions and argue that sedentary, unequal non-agricultural societies also existed through the Late Pleistocene; their data are mostly sedentary Holocene societies, and they do not dispute the description of mobile foragers. The baseline describes mobile, immediate-return foragers (Woodburn 1982, ext 677). Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.*
 
 #### Status reference group (ranked against people who know you)
 `EEA-SOC-11 · Social structure` - **tested once**
@@ -1247,13 +1247,13 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 *Confidence note: Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017).*
 
 #### Sexual stimuli (real people vs unlimited images)
-`EEA-MATE-08 · Mating & reproduction` - **contested** · **CONTESTED**
+`EEA-MATE-08 · Mating & reproduction` - **tested many times**
 
 **EEA baseline.** Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).
 
 **Modern default.** Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.
 
-**The gap.** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.
+**The gap.** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. In three preregistered replications, viewing the images did not lower attraction or love for a partner, against the one 1989 experiment that reported it. In two US panels, husbands who used them more reported lower marital quality six years later (among wives the link ran the other way), and starting use went with divorce by the next survey wave in women and men. Feeling addicted tracks moral conflict about one's own use as well as how much one uses.
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration
 
@@ -1266,7 +1266,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#1030 · tested once · supporting: "Lifetime pornography use was reported by most respondents."
 - (+4 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): contested, for the effects side. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Lower satisfaction in men: meta-analysis (Wright et al. 2017), mostly cross-sectional, direction not shown. Kenrick et al. 1989 failed replication (Balzarini et al. 2017). Felt addiction: moral incongruence account (Grubbs et al. 2019), entered as a challenge. Lean: use is common and goes with lower satisfaction in men; no tested effect on attraction or love. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.*
 
 #### Sex and conception coupled
 `EEA-MATE-09 · Mating & reproduction` - **tested many times**
@@ -1402,7 +1402,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans. In monkeys, isolates recovered with younger partners (ext 542). A review of tests of pretend play found weak and inconsistent evidence that it causes the developmental gains credited to it (Lillard et al. 2013, ext 762); the tests it reviews are mostly adult-led play training in preschools, which is not the self-organised play this row describes.*
 
 #### Multigenerational presence (older people inside the band's giving and getting)
-`EEA-CARE-04 · Care & development` - **contested**
+`EEA-CARE-04 · Care & development` - **tested many times**
 
 **EEA baseline.** Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.
 
@@ -1423,7 +1423,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#703 · tested many times · supporting: "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)"
 - (+7 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved. On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).*
 
 
 ### Touch & contact
@@ -1697,7 +1697,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 ### Diet & metabolic
 
 #### Food diversity and seasonality (whole-food, micronutrient-dense, omnivorous variety)
-`EEA-DIET-01 · Diet & metabolic` - **contested** · **CONTESTED**
+`EEA-DIET-01 · Diet & metabolic` - **tested many times**
 
 **EEA baseline.** Ancestral intake came from a wide, seasonally rotating array of wild plant and animal foods eaten in their whole, minimally altered form. Diet composition shifted with paleontological period, geography, and season, sustaining the broad versatility typical of an omnivore. Macronutrient and micronutrient profiles diverged sharply from the modern Western diet in nearly every measurable dimension at once: higher protein share, dramatically less refined carbohydrate and added sugar, lower sodium, higher potassium, higher micronutrient density, and near-zero industrially processed food.
 
@@ -1726,11 +1726,11 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#39 · contested · primary: Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di
 - ext#38 · argued, not yet tested · supporting: "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time."
 - ext#471 · argued, not yet tested · supporting: "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1)."
-- ext#729 · contested · supporting: "Most (73%) of the worldwide hunter-gatherer societies derived >50% (> or =56-65% of energy) of their subsistence from animal foods, whereas only 14% of these societies derived >50% (> or =56-65% of energy) of their subsistence from gathered plant foods."
+- ext#729 · tested once · supporting: "Most (73%) of the worldwide hunter-gatherer societies derived >50% (> or =56-65% of energy) of their subsistence from animal foods, whereas only 14% of these societies derived >50% (> or =56-65% of energy) of their subsistence from gathered plant foods."
 - ext#874 · tested many times · supporting: "Obesity prevalence is very low (<5%), and mean body fat percentage is modest (women: 24-28%, men: 9-18%)"
 - (+1 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times that forager diets varied widely with habitat and drew less energy from carbohydrate than modern diets. Strongest: two independent analyses of the ethnographic codes for 229 forager societies, Cordain et al. 2000 (ext 729: animal foods above half of subsistence in 73% of societies, protein 19 to 35% of energy) and Ströhle and Hahn 2011 (ext 3616, 3617: carbohydrate from about 3 to 50% of energy, tracking latitude and habitat, below current recommendations in most societies). Main weakness: both rest on the same coarse codes of subsistence shares, skewed toward high-latitude groups, not measured intake. Change of diet with season is measured in single populations (Hadza: Marlowe and Berbesque 2009, ext 2687). Near-zero industrial processing follows from the period. Single figures such as 34% protein are model reconstructions (Eaton and Konner 1985, ext 39) and no single value holds.*
 
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested**
@@ -2004,4 +2004,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 07:10 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 07:10 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 07:16 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-22 07:16 UTC.*

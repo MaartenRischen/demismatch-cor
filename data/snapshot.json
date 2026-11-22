@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T07:10:04.125847+00:00",
+    "built_at": "2026-11-22T07:16:18.132267+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -67718,20 +67718,6 @@
         "url": "corpus.html#e=14"
       },
       {
-        "id": 812,
-        "work_id": 300,
-        "mechanism_codes": [
-          "M14",
-          "M9"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=812"
-      },
-      {
         "id": 814,
         "work_id": 302,
         "mechanism_codes": [
@@ -68139,19 +68125,6 @@
         "url": "corpus.html#e=49"
       },
       {
-        "id": 832,
-        "work_id": 320,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=832"
-      },
-      {
         "id": 1296,
         "work_id": 639,
         "mechanism_codes": [],
@@ -68187,6 +68160,19 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=829"
+      },
+      {
+        "id": 832,
+        "work_id": 320,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=832"
       },
       {
         "id": 824,
@@ -71927,10 +71913,10 @@
           "M14"
         ],
         "foundation_codes": null,
-        "evidence_quality": "contested",
+        "evidence_quality": "replicated",
         "source_type": "primary",
         "tier": "core",
-        "grade": "contested",
+        "grade": "tested many times",
         "url": "corpus.html#e=1017"
       },
       {
@@ -72853,17 +72839,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=406"
-      },
-      {
-        "id": 881,
-        "work_id": 367,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=881"
       },
       {
         "id": 870,
@@ -76632,27 +76607,6 @@
         "url": "corpus.html#e=395"
       },
       {
-        "id": 393,
-        "work_id": 3,
-        "mechanism_codes": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M9",
-          "M14"
-        ],
-        "foundation_codes": [
-          "P2",
-          "DA8"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=393"
-      },
-      {
         "id": 396,
         "work_id": 3,
         "mechanism_codes": [
@@ -77411,21 +77365,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=479"
-      },
-      {
-        "id": 1060,
-        "work_id": 500,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1060"
       },
       {
         "id": 35,
@@ -79284,19 +79223,6 @@
         "url": "corpus.html#e=755"
       },
       {
-        "id": 712,
-        "work_id": 201,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=712"
-      },
-      {
         "id": 1929,
         "work_id": 1050,
         "mechanism_codes": [],
@@ -79560,19 +79486,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=730"
-      },
-      {
-        "id": 783,
-        "work_id": 271,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=783"
       },
       {
         "id": 2000,
@@ -79912,32 +79825,6 @@
         "url": "corpus.html#e=751"
       },
       {
-        "id": 2247,
-        "work_id": 1239,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P3"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2247"
-      },
-      {
-        "id": 760,
-        "work_id": 248,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=760"
-      },
-      {
         "id": 2249,
         "work_id": 273,
         "mechanism_codes": [
@@ -79951,6 +79838,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2249"
+      },
+      {
+        "id": 760,
+        "work_id": 248,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=760"
       },
       {
         "id": 788,
@@ -80038,19 +79938,6 @@
         "url": "corpus.html#e=1635"
       },
       {
-        "id": 763,
-        "work_id": 251,
-        "mechanism_codes": [
-          "M13"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=763"
-      },
-      {
         "id": 765,
         "work_id": 253,
         "mechanism_codes": [
@@ -80075,6 +79962,19 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=1399"
+      },
+      {
+        "id": 763,
+        "work_id": 251,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=763"
       },
       {
         "id": 804,
@@ -81687,10 +81587,10 @@
           "M4"
         ],
         "foundation_codes": null,
-        "evidence_quality": "contested",
+        "evidence_quality": "replicated",
         "source_type": "empirical",
         "tier": "core",
-        "grade": "contested",
+        "grade": "tested many times",
         "url": "corpus.html#e=885"
       },
       {
@@ -82659,27 +82559,6 @@
         "url": "corpus.html#e=2290"
       },
       {
-        "id": 11,
-        "work_id": 4,
-        "mechanism_codes": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M9",
-          "M14"
-        ],
-        "foundation_codes": [
-          "DA8",
-          "P2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=11"
-      },
-      {
         "id": 19,
         "work_id": 8,
         "mechanism_codes": [],
@@ -82708,6 +82587,27 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2716"
+      },
+      {
+        "id": 11,
+        "work_id": 4,
+        "mechanism_codes": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M9",
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA8",
+          "P2"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=11"
       },
       {
         "id": 39,
@@ -85587,19 +85487,6 @@
         "url": "corpus.html#e=577"
       },
       {
-        "id": 2308,
-        "work_id": 298,
-        "mechanism_codes": [
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2308"
-      },
-      {
         "id": 236,
         "work_id": 59,
         "mechanism_codes": [
@@ -87654,21 +87541,6 @@
         "url": "corpus.html#e=1334"
       },
       {
-        "id": 2359,
-        "work_id": 1304,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2359"
-      },
-      {
         "id": 2366,
         "work_id": 1310,
         "mechanism_codes": [
@@ -87753,17 +87625,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=896"
-      },
-      {
-        "id": 854,
-        "work_id": 340,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=854"
       },
       {
         "id": 1339,
@@ -88990,17 +88851,6 @@
         "url": "corpus.html#e=4202"
       },
       {
-        "id": 1444,
-        "work_id": 747,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1444"
-      },
-      {
         "id": 1445,
         "work_id": 748,
         "mechanism_codes": [],
@@ -89010,6 +88860,17 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1445"
+      },
+      {
+        "id": 1444,
+        "work_id": 747,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1444"
       },
       {
         "id": 1447,
@@ -90328,22 +90189,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1546"
-      },
-      {
-        "id": 1547,
-        "work_id": 821,
-        "mechanism_codes": [
-          "M9",
-          "M3"
-        ],
-        "foundation_codes": [
-          "P1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1547"
       },
       {
         "id": 2399,
@@ -92165,19 +92010,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1668"
-      },
-      {
-        "id": 1671,
-        "work_id": 223,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1671"
       },
       {
         "id": 1673,
@@ -99423,10 +99255,10 @@
         "work_id": 1203,
         "mechanism_codes": [],
         "foundation_codes": null,
-        "evidence_quality": "contested",
+        "evidence_quality": "replicated",
         "source_type": "propagation",
         "tier": "core",
-        "grade": "contested",
+        "grade": "tested many times",
         "url": "corpus.html#e=2178"
       },
       {
@@ -99704,17 +99536,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2199"
-      },
-      {
-        "id": 2201,
-        "work_id": 1222,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2201"
       },
       {
         "id": 2465,
@@ -101042,10 +100863,10 @@
         "work_id": 1222,
         "mechanism_codes": [],
         "foundation_codes": null,
-        "evidence_quality": "contested",
+        "evidence_quality": "theoretical",
         "source_type": "propagation",
         "tier": "core",
-        "grade": "contested",
+        "grade": "argued, not yet tested",
         "url": "corpus.html#e=2200"
       },
       {
@@ -101768,20 +101589,6 @@
         "url": "corpus.html#e=723"
       },
       {
-        "id": 734,
-        "work_id": 222,
-        "mechanism_codes": [
-          "M5",
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=734"
-      },
-      {
         "id": 774,
         "work_id": 262,
         "mechanism_codes": [
@@ -101808,6 +101615,20 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4323"
+      },
+      {
+        "id": 734,
+        "work_id": 222,
+        "mechanism_codes": [
+          "M5",
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=734"
       },
       {
         "id": 789,
@@ -102923,23 +102744,6 @@
         "url": "corpus.html#e=1607"
       },
       {
-        "id": 2475,
-        "work_id": 1387,
-        "mechanism_codes": [
-          "M3",
-          "M11"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "DC3"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2475"
-      },
-      {
         "id": 2494,
         "work_id": 1403,
         "mechanism_codes": [
@@ -103097,17 +102901,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4333"
-      },
-      {
-        "id": 2502,
-        "work_id": 1410,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2502"
       },
       {
         "id": 2503,
@@ -107334,10 +107127,10 @@
         "work_id": 1660,
         "mechanism_codes": [],
         "foundation_codes": null,
-        "evidence_quality": "contested",
+        "evidence_quality": "thin",
         "source_type": "propagation",
         "tier": "core",
-        "grade": "contested",
+        "grade": "tested once",
         "url": "corpus.html#e=2859"
       },
       {
@@ -109071,21 +108864,6 @@
         "url": "corpus.html#e=2961"
       },
       {
-        "id": 2962,
-        "work_id": 1733,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2962"
-      },
-      {
         "id": 2963,
         "work_id": 1734,
         "mechanism_codes": [
@@ -109552,23 +109330,6 @@
         "url": "corpus.html#e=2998"
       },
       {
-        "id": 2999,
-        "work_id": 1758,
-        "mechanism_codes": [
-          "M3",
-          "M7"
-        ],
-        "foundation_codes": [
-          "P3",
-          "DA2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2999"
-      },
-      {
         "id": 4355,
         "work_id": 2764,
         "mechanism_codes": [
@@ -109613,6 +109374,23 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=3003"
+      },
+      {
+        "id": 2999,
+        "work_id": 1758,
+        "mechanism_codes": [
+          "M3",
+          "M7"
+        ],
+        "foundation_codes": [
+          "P3",
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2999"
       },
       {
         "id": 3004,
@@ -110335,38 +110113,6 @@
         "url": "corpus.html#e=3052"
       },
       {
-        "id": 3053,
-        "work_id": 1796,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": [
-          "DA2",
-          "DA7"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=3053"
-      },
-      {
-        "id": 3054,
-        "work_id": 1796,
-        "mechanism_codes": [
-          "M3",
-          "R1"
-        ],
-        "foundation_codes": [
-          "DA7"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=3054"
-      },
-      {
         "id": 3051,
         "work_id": 1794,
         "mechanism_codes": [
@@ -110382,6 +110128,38 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=3051"
+      },
+      {
+        "id": 3053,
+        "work_id": 1796,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=3053"
+      },
+      {
+        "id": 3054,
+        "work_id": 1796,
+        "mechanism_codes": [
+          "M3",
+          "R1"
+        ],
+        "foundation_codes": [
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=3054"
       },
       {
         "id": 3055,
@@ -112022,10 +111800,10 @@
           "P1",
           "DA2"
         ],
-        "evidence_quality": "contested",
+        "evidence_quality": "thin",
         "source_type": "propagation",
         "tier": "core",
-        "grade": "contested",
+        "grade": "tested once",
         "url": "corpus.html#e=3169"
       },
       {
@@ -113214,17 +112992,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=1249"
-      },
-      {
-        "id": 1255,
-        "work_id": 610,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1255"
       },
       {
         "id": 1256,
@@ -114586,21 +114353,6 @@
         "tier": "core",
         "grade": "seen in animals",
         "url": "corpus.html#e=1973"
-      },
-      {
-        "id": 1859,
-        "work_id": 1010,
-        "mechanism_codes": [
-          "M4"
-        ],
-        "foundation_codes": [
-          "DA4"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=1859"
       },
       {
         "id": 1885,
@@ -116292,19 +116044,6 @@
         "url": "corpus.html#e=3349"
       },
       {
-        "id": 3343,
-        "work_id": 1995,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=3343"
-      },
-      {
         "id": 3345,
         "work_id": 1997,
         "mechanism_codes": [],
@@ -116498,17 +116237,6 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=3362"
-      },
-      {
-        "id": 3357,
-        "work_id": 371,
-        "mechanism_codes": [],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=3357"
       },
       {
         "id": 3359,
@@ -118888,10 +118616,10 @@
         "foundation_codes": [
           "P1"
         ],
-        "evidence_quality": "contested",
+        "evidence_quality": "meta_analysis",
         "source_type": "primary",
         "tier": "core",
-        "grade": "contested",
+        "grade": "tested many times",
         "url": "corpus.html#e=3536"
       },
       {
@@ -120186,6 +119914,34 @@
         "url": "corpus.html#e=3642"
       },
       {
+        "id": 2962,
+        "work_id": 1733,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2962"
+      },
+      {
+        "id": 3343,
+        "work_id": 1995,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=3343"
+      },
+      {
         "id": 3646,
         "work_id": 2217,
         "mechanism_codes": [
@@ -121186,19 +120942,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=3721"
-      },
-      {
-        "id": 729,
-        "work_id": 217,
-        "mechanism_codes": [
-          "M13"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=729"
       },
       {
         "id": 3722,
@@ -127698,20 +127441,6 @@
         "url": "corpus.html#e=4538"
       },
       {
-        "id": 4543,
-        "work_id": 2901,
-        "mechanism_codes": [
-          "M3",
-          "M11"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=4543"
-      },
-      {
         "id": 4529,
         "work_id": 2889,
         "mechanism_codes": [],
@@ -127738,19 +127467,6 @@
         "url": "corpus.html#e=4537"
       },
       {
-        "id": 4542,
-        "work_id": 2900,
-        "mechanism_codes": [
-          "M3"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=4542"
-      },
-      {
         "id": 4546,
         "work_id": 2903,
         "mechanism_codes": [
@@ -127762,19 +127478,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4546"
-      },
-      {
-        "id": 4550,
-        "work_id": 2906,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=4550"
       },
       {
         "id": 4540,
@@ -127979,19 +127682,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4551"
-      },
-      {
-        "id": 4558,
-        "work_id": 2911,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=4558"
       },
       {
         "id": 4562,
@@ -130371,19 +130061,6 @@
         "url": "corpus.html#e=4714"
       },
       {
-        "id": 4745,
-        "work_id": 3049,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=4745"
-      },
-      {
         "id": 4752,
         "work_id": 3053,
         "mechanism_codes": [],
@@ -130407,6 +130084,19 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=4766"
+      },
+      {
+        "id": 4745,
+        "work_id": 3049,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=4745"
       },
       {
         "id": 4716,
@@ -130803,19 +130493,6 @@
         "url": "corpus.html#e=141"
       },
       {
-        "id": 2103,
-        "work_id": 1160,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "P1"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2103"
-      },
-      {
         "id": 4776,
         "work_id": 3068,
         "mechanism_codes": [
@@ -130845,6 +130522,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4805"
+      },
+      {
+        "id": 2103,
+        "work_id": 1160,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2103"
       },
       {
         "id": 4777,
@@ -136317,21 +136007,6 @@
         "url": "corpus.html#e=2243"
       },
       {
-        "id": 2256,
-        "work_id": 192,
-        "mechanism_codes": [
-          "M9"
-        ],
-        "foundation_codes": [
-          "DA2"
-        ],
-        "evidence_quality": "contested",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "contested",
-        "url": "corpus.html#e=2256"
-      },
-      {
         "id": 2261,
         "work_id": 1247,
         "mechanism_codes": [
@@ -138845,6 +138520,20 @@
         "url": "corpus.html#e=3908"
       },
       {
+        "id": 812,
+        "work_id": 300,
+        "mechanism_codes": [
+          "M14",
+          "M9"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=812"
+      },
+      {
         "id": 3917,
         "work_id": 2422,
         "mechanism_codes": [
@@ -139127,6 +138816,21 @@
         "url": "corpus.html#e=4046"
       },
       {
+        "id": 1859,
+        "work_id": 1010,
+        "mechanism_codes": [
+          "M4"
+        ],
+        "foundation_codes": [
+          "DA4"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1859"
+      },
+      {
         "id": 4049,
         "work_id": 2522,
         "mechanism_codes": [
@@ -139139,6 +138843,302 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4049"
+      },
+      {
+        "id": 393,
+        "work_id": 3,
+        "mechanism_codes": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M9",
+          "M14"
+        ],
+        "foundation_codes": [
+          "P2",
+          "DA8"
+        ],
+        "evidence_quality": "cross_species",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "seen in animals",
+        "url": "corpus.html#e=393"
+      },
+      {
+        "id": 712,
+        "work_id": 201,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=712"
+      },
+      {
+        "id": 729,
+        "work_id": 217,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=729"
+      },
+      {
+        "id": 783,
+        "work_id": 271,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=783"
+      },
+      {
+        "id": 854,
+        "work_id": 340,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=854"
+      },
+      {
+        "id": 881,
+        "work_id": 367,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=881"
+      },
+      {
+        "id": 1060,
+        "work_id": 500,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1060"
+      },
+      {
+        "id": 1255,
+        "work_id": 610,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1255"
+      },
+      {
+        "id": 1547,
+        "work_id": 821,
+        "mechanism_codes": [
+          "M9",
+          "M3"
+        ],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=1547"
+      },
+      {
+        "id": 1671,
+        "work_id": 223,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=1671"
+      },
+      {
+        "id": 2201,
+        "work_id": 1222,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2201"
+      },
+      {
+        "id": 2247,
+        "work_id": 1239,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2247"
+      },
+      {
+        "id": 2256,
+        "work_id": 192,
+        "mechanism_codes": [
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2256"
+      },
+      {
+        "id": 2308,
+        "work_id": 298,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2308"
+      },
+      {
+        "id": 2359,
+        "work_id": 1304,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=2359"
+      },
+      {
+        "id": 2475,
+        "work_id": 1387,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC3"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2475"
+      },
+      {
+        "id": 2502,
+        "work_id": 1410,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=2502"
+      },
+      {
+        "id": 3357,
+        "work_id": 371,
+        "mechanism_codes": [],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=3357"
+      },
+      {
+        "id": 4542,
+        "work_id": 2900,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=4542"
+      },
+      {
+        "id": 4543,
+        "work_id": 2901,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "replicated",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=4543"
+      },
+      {
+        "id": 4550,
+        "work_id": 2906,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=4550"
+      },
+      {
+        "id": 4558,
+        "work_id": 2911,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=4558"
       }
     ],
     "researchers": [
@@ -175229,9 +175229,9 @@
         "modern_default": "A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.",
         "gap_statement": "The modern food environment collapses a seasonally varied, micronutrient-dense, whole-food omnivory into a year-round monotony of refined, energy-dense, nutrient-diluted products, removing both the variety and the whole-food matrix the metabolic and digestive systems were calibrated to.",
         "resolution_unit": "Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.",
-        "evidence_grade": "contested",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Forager diets are measured across the ethnographic record, and they vary widely by habitat and season (Cordain et al. 2000; Milton 2000). Weight of evidence: whole, unprocessed, varied and seasonal foods are not in dispute; single figures such as 34% protein are reconstructions and no single value holds.",
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times that forager diets varied widely with habitat and drew less energy from carbohydrate than modern diets. Strongest: two independent analyses of the ethnographic codes for 229 forager societies, Cordain et al. 2000 (ext 729: animal foods above half of subsistence in 73% of societies, protein 19 to 35% of energy) and Ströhle and Hahn 2011 (ext 3616, 3617: carbohydrate from about 3 to 50% of energy, tracking latitude and habitat, below current recommendations in most societies). Main weakness: both rest on the same coarse codes of subsistence shares, skewed toward high-latitude groups, not measured intake. Change of diet with season is measured in single populations (Hadza: Marlowe and Berbesque 2009, ext 2687). Near-zero industrial processing follows from the period. Single figures such as 34% protein are model reconstructions (Eaton and Konner 1985, ext 39) and no single value holds.",
         "created_at": "2026-06-08T12:32:51.168455+00:00",
         "updated_at": "2026-06-08T12:32:51.168455+00:00",
         "mechanism_codes": [
@@ -175263,7 +175263,7 @@
             "extraction_id": 729,
             "evidence_role": "supporting",
             "author_quote": "Most (73%) of the worldwide hunter-gatherer societies derived >50% (> or =56-65% of energy) of their subsistence from animal foods, whereas only 14% of these societies derived >50% (> or =56-65% of energy) of their subsistence from gathered plant foods.",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "content": "Using the most recent ethnographic compilation of plant-to-animal subsistence patterns among hunter-gatherers, the authors report that 73% of worldwide hunter-gatherer societies got more than half of their subsistence from animal foods and 14% got more than half from gathered pla"
           },
           {
@@ -175277,7 +175277,7 @@
             "extraction_id": 763,
             "evidence_role": "primary",
             "author_quote": null,
-            "evidence_quality": "contested",
+            "evidence_quality": "replicated",
             "content": "Forager diets varied so widely with habitat and season that they fit no single standard pattern that modern people could copy for better health."
           }
         ]
@@ -176176,7 +176176,7 @@
             "extraction_id": 1060,
             "evidence_role": "supporting",
             "author_quote": "that figure had jumped to one-third of Democrats and one-half of Republicans by 2010",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "content": "In US surveys, about 4 to 5% said in 1960 that they would be upset if their child married someone from the other party; by 2010 about one third of Democrats and one half of Republicans said so. Klar and colleagues (2018) found that much of this opposition falls away when the pote"
           },
           {
@@ -176341,7 +176341,7 @@
             "extraction_id": 1017,
             "evidence_role": "supporting",
             "author_quote": "A majority of the panelists agreed that data are sufficient to suggest a trend toward an earlier breast development onset and menarche in girls",
-            "evidence_quality": "contested",
+            "evidence_quality": "replicated",
             "content": "An expert panel weighed US puberty data from 1940 to 1994. Most panellists judged the data enough to suggest a trend toward earlier breast development and earlier menarche in girls; a minority judged the data on girls insufficient for any marker, and almost all judged the data on"
           },
           {
@@ -176436,7 +176436,7 @@
             "extraction_id": 832,
             "evidence_role": "primary",
             "author_quote": null,
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "content": "Apart from the Great Recession's role in the first years, Kearney and colleagues could not identify any economic, policy or social factor responsible for much of the US birth-rate decline from 2007 to 2020."
           }
         ]
@@ -176584,11 +176584,11 @@
         "eea_baseline": "Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).",
         "eea_value": null,
         "modern_default": "Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.",
-        "gap_statement": "The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. What the images do is contested: the one experiment showing they lower attraction to a partner failed three preregistered replications, and feeling addicted tracks moral conflict about one's own use as well as how much one uses.",
+        "gap_statement": "The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. In three preregistered replications, viewing the images did not lower attraction or love for a partner, against the one 1989 experiment that reported it. In two US panels, husbands who used them more reported lower marital quality six years later (among wives the link ran the other way), and starting use went with divorce by the next survey wave in women and men. Feeling addicted tracks moral conflict about one's own use as well as how much one uses.",
         "resolution_unit": null,
-        "evidence_grade": "contested",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): contested, for the effects side. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Lower satisfaction in men: meta-analysis (Wright et al. 2017), mostly cross-sectional, direction not shown. Kenrick et al. 1989 failed replication (Balzarini et al. 2017). Felt addiction: moral incongruence account (Grubbs et al. 2019), entered as a challenge. Lean: use is common and goes with lower satisfaction in men; no tested effect on attraction or love. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.",
+        "evidence_grade": "meta_analysis",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.",
         "created_at": "2026-11-19T02:41:35.172519+00:00",
         "updated_at": "2026-11-19T02:41:35.172519+00:00",
         "mechanism_codes": [
@@ -176880,9 +176880,9 @@
         "modern_default": "Rulers are chosen at state scale. The people who hold power are personally unknown to almost everyone they govern, and the polity is in practice impossible to leave.",
         "gap_statement": "The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.",
         "resolution_unit": null,
-        "evidence_grade": "contested",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993; Garfield, von Rueden and Hagen 2019), while Singh and Glowacki 2022 find many non-agricultural peoples sedentary and stratified. Weight of evidence: the description holds for mobile foragers; how representative they were of the ancestral past is disputed. The baseline describes mobile, immediate-return foragers (Woodburn 1982, ext 677). Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.",
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for mobile foragers. Mobile foragers suppress would-be dominants and leaders rule by consent across the ethnographic record (Boehm 1993, ext 688; Garfield, von Rueden and Hagen 2019, ext 689); main weakness: the ethnographies differ in method and date. Singh and Glowacki 2022 (ext 756) review 34 regions and argue that sedentary, unequal non-agricultural societies also existed through the Late Pleistocene; their data are mostly sedentary Holocene societies, and they do not dispute the description of mobile foragers. The baseline describes mobile, immediate-return foragers (Woodburn 1982, ext 677). Mbendjele BaYaka mock men who hunt a lot and in effect exiled one persistent hunter; braggarts are teased, avoided and if they persist exiled (Lewis 2014, ext 848). Tsimane fishing-trip organisers rotate across households and take no more fish than others (von Rueden et al. 2014, ext 1038). Ju/'hoansi kept social, gender and political equality for decades after cash created large wealth gaps (Wiessner and Huang 2022, ext 1034). Wealth inequality itself: EEA-SOC-14.",
         "created_at": "2026-11-02T07:59:06.537852+00:00",
         "updated_at": "2026-11-02T07:59:06.537852+00:00",
         "mechanism_codes": [
@@ -177716,115 +177716,10 @@
         ]
       },
       {
-        "code": "EEA-CARE-04",
-        "domain": "care_development",
-        "name": "Multigenerational presence (older people inside the band's giving and getting)",
-        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
-        "eea_value": null,
-        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, outside the family's daily giving and getting. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less part of the family's daily life than in a band of several generations.",
-        "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.",
-        "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
-        "evidence_grade": "contested",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007) and Hadza grandmothers provision (Hawkes et al. 1998), but grandmother effects on child survival are inconsistent across populations (Strassmann and Garrard 2011). Weight of evidence: older women were present and often helped; whether they reliably raised child survival is unresolved. On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
-        "created_at": "2026-06-08T12:32:37.55163+00:00",
-        "updated_at": "2026-06-08T12:32:37.55163+00:00",
-        "mechanism_codes": [
-          "M3",
-          "M9"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 203,
-            "evidence_role": "primary",
-            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
-            "evidence_quality": "theoretical",
-            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
-          },
-          {
-            "extraction_id": 401,
-            "evidence_role": "supporting",
-            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
-            "evidence_quality": "theoretical",
-            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
-          },
-          {
-            "extraction_id": 274,
-            "evidence_role": "supporting",
-            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
-            "evidence_quality": "theoretical",
-            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
-          },
-          {
-            "extraction_id": 403,
-            "evidence_role": "supporting",
-            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
-            "evidence_quality": "theoretical",
-            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
-          },
-          {
-            "extraction_id": 703,
-            "evidence_role": "supporting",
-            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
-            "evidence_quality": "meta_analysis",
-            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
-          },
-          {
-            "extraction_id": 710,
-            "evidence_role": "supporting",
-            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
-            "evidence_quality": "replicated",
-            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
-          },
-          {
-            "extraction_id": 723,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
-          },
-          {
-            "extraction_id": 743,
-            "evidence_role": "supporting",
-            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
-            "evidence_quality": "contested",
-            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
-          },
-          {
-            "extraction_id": 744,
-            "evidence_role": "supporting",
-            "author_quote": null,
-            "evidence_quality": "replicated",
-            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
-          },
-          {
-            "extraction_id": 822,
-            "evidence_role": "supporting",
-            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
-            "evidence_quality": "thin",
-            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
-          },
-          {
-            "extraction_id": 845,
-            "evidence_role": "supporting",
-            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
-            "evidence_quality": "thin",
-            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
-          },
-          {
-            "extraction_id": 766,
-            "evidence_role": "primary",
-            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
-            "evidence_quality": "theoretical",
-            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
-          }
-        ]
-      },
-      {
         "code": "EEA-SOC-01",
         "domain": "social_structure",
         "name": "Social network layers (~5/15/50/150)",
-        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.",
+        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.",
         "eea_value": {
           "unit": "individuals",
           "layer_sizes": {
@@ -177841,9 +177736,9 @@
         "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.",
         "gap_statement": "The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
-        "evidence_grade": "contested",
-        "contested": true,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): contested. Layered personal networks scaling by about 3 hold up in modern network data, much of it from Dunbar's group, while the 150 derivation fails re-analysis (Lindenfors, Wartel and Lind 2021) and forager groups are fluid (Bird et al. 2019). Weight of evidence: the layering holds; the exact layer sizes and the 150 ceiling are disputed, so treat them as approximate.",
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of 34.9 million users (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The 150 figure fails re-analysis of the primate regression it came from (Lindenfors, Wartel and Lind 2021, ext 619), so the layer sizes and the 150 ceiling are approximate. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
         "created_at": "2026-06-08T11:58:43.891141+00:00",
         "updated_at": "2026-06-08T11:58:43.891141+00:00",
         "mechanism_codes": [
@@ -178106,6 +178001,111 @@
             "author_quote": "Energy intake was greater during the ultra-processed diet (508±106 kcal/d; p=0.0001)",
             "evidence_quality": "thin",
             "content": "In an inpatient randomized crossover trial, 20 weight-stable adults ate as much or as little as they wanted from ultra-processed or unprocessed diets for 2 weeks each, with meals matched for presented calories, energy density, macronutrients, sugar, sodium and fiber. Energy intak"
+          }
+        ]
+      },
+      {
+        "code": "EEA-CARE-04",
+        "domain": "care_development",
+        "name": "Multigenerational presence (older people inside the band's giving and getting)",
+        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
+        "eea_value": null,
+        "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, outside the family's daily giving and getting. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less part of the family's daily life than in a band of several generations.",
+        "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.",
+        "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
+        "created_at": "2026-06-08T12:32:37.55163+00:00",
+        "updated_at": "2026-06-08T12:32:37.55163+00:00",
+        "mechanism_codes": [
+          "M3",
+          "M9"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 203,
+            "evidence_role": "primary",
+            "author_quote": "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity.",
+            "evidence_quality": "theoretical",
+            "content": "Lieberman's own theoretical contribution - the active grandparent hypothesis - proposes that human longevity was not only selected for but also made possible by physical activity in older age. The core mechanism: humans evolved unique longevity BECAUSE grandparents who stayed phy"
+          },
+          {
+            "extraction_id": 401,
+            "evidence_role": "supporting",
+            "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
+            "evidence_quality": "theoretical",
+            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
+          },
+          {
+            "extraction_id": 274,
+            "evidence_role": "supporting",
+            "author_quote": "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species.",
+            "evidence_quality": "theoretical",
+            "content": "Hrdy's alloparenting role in human evolution: alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species. This links the cross-species cooperative-breeding finding to the sp"
+          },
+          {
+            "extraction_id": 403,
+            "evidence_role": "supporting",
+            "author_quote": "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times.",
+            "evidence_quality": "theoretical",
+            "content": "The idealized nuclear family (breadwinner father, homemaker mother, biological children) dates back only about a century, to Victorian times at most. In American contexts, it became the template only in the 1950s. This family structure is a historical aberration - for the vast ma"
+          },
+          {
+            "extraction_id": 703,
+            "evidence_role": "supporting",
+            "author_quote": "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)",
+            "evidence_quality": "meta_analysis",
+            "content": "Sear and Mace reviewed 45 populations (mostly natural-fertility populations with little or no modern medical care, historical and contemporary, across a wide geographic range) in which the effect of at least one kind of kin on child mortality had been tested. In almost all, at le"
+          },
+          {
+            "extraction_id": 710,
+            "evidence_role": "supporting",
+            "author_quote": "No children in any forager society produced as much as they consumed until they reached their mid- to late teens.",
+            "evidence_quality": "replicated",
+            "content": "Forager adults produced more food than they ate and transferred the surplus to children and others, because children take many years to become net producers."
+          },
+          {
+            "extraction_id": 723,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "In hunter-gatherer populations with minimal or no exposure to modern medicine, about 57 percent of children survived to age 15, and the most common age of adult death was about 70 (68 to 78 across populations)."
+          },
+          {
+            "extraction_id": 743,
+            "evidence_role": "supporting",
+            "author_quote": "This pattern may have evolved with mother-child food sharing, a practice that allowed aging females to enhance their daughters' fertility, thereby increasing selection against senescence",
+            "evidence_quality": "contested",
+            "content": "The grandmother hypothesis holds that long human life after menopause evolved because older women fed their weaned grandchildren, which let their daughters have babies sooner."
+          },
+          {
+            "extraction_id": 744,
+            "evidence_role": "supporting",
+            "author_quote": null,
+            "evidence_quality": "replicated",
+            "content": "Across hunting records from 40 sites in subsistence societies, hunting skill rose into adulthood and peaked on average around age 33, then declined only slowly, so skill stayed high through much of adulthood."
+          },
+          {
+            "extraction_id": 822,
+            "evidence_role": "supporting",
+            "author_quote": "Using three-generation longitudinal data anchored in a sample of grandparents aged 55 and over in 1992 in the Netherlands, we show that childcare support from grandparents increases the probability that parents have additional children in the next 8 to 10 years",
+            "evidence_quality": "thin",
+            "content": "In the Netherlands, frequent grandparental childcare went with a 66 percent predicted chance of another birth against 35 percent without, while occasional care showed no significant effect."
+          },
+          {
+            "extraction_id": 845,
+            "evidence_role": "supporting",
+            "author_quote": "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)",
+            "evidence_quality": "thin",
+            "content": "Among Agta foragers of the Philippines interviewed in 2013-14, the 130 women who had given birth reported a mean age at first birth of 20.2 years (SD 4.3), and births were spaced on average 2.7 years apart (SD 1.4, 258 intervals)."
+          },
+          {
+            "extraction_id": 766,
+            "evidence_role": "primary",
+            "author_quote": "Here, we show that the inclusive fitness benefits are too small to affect the evolution of longevity under a wide range of conditions in simulated populations",
+            "evidence_quality": "theoretical",
+            "content": "A simulation model found that grandmothering alone was not enough to select for the long human post-reproductive lifespan."
           }
         ]
       }
@@ -184510,8 +184510,8 @@
         "EEA-SOC-07",
         "EEA-SOC-11",
         "EEA-SOC-20",
-        "EEA-CARE-04",
-        "EEA-SOC-01"
+        "EEA-SOC-01",
+        "EEA-CARE-04"
       ],
       "M1": [
         "EEA-SOC-08",
@@ -184612,10 +184612,10 @@
     },
     "eea_by_grade": {
       "thin": 12,
-      "replicated": 20,
+      "replicated": 24,
       "theoretical": 12,
-      "contested": 8,
-      "meta_analysis": 1
+      "contested": 3,
+      "meta_analysis": 2
     }
   },
   "background": {
