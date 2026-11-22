@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T08:13:27.985925+00:00",
+    "built_at": "2026-11-22T08:19:26.987353+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -71,14 +71,14 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 14,
-        "code": "DC2",
-        "layer": "consequence",
-        "name": "Market Proxy Exploitation",
-        "statement": "Markets can industrialize proxy exploitation of unmet regulatory needs.",
-        "derivation": "P3 + DA4 + market incentive structures + empirical (Moss food, Schull gambling, Haugen attention, Muldoon & Parke companion AI).",
-        "epistemic_grade": "strongly_supported",
-        "scope_notes": null,
+        "id": 6,
+        "code": "DA2",
+        "layer": "property",
+        "name": "Socially Scaffolded Regulation",
+        "statement": "Human regulation is constitutively socially scaffolded; social context is the highest-leverage cross-cutting input dimension.",
+        "derivation": "Dunbar + Coan & Sbarra (social baseline) + Bowlby (attachment) + Hrdy (cooperative breeding).",
+        "epistemic_grade": "forced",
+        "scope_notes": "Grade: forced for social modulation of regulation. Strongly supported for social context being the highest-leverage dimension. Given a cold virus in quarantine, adults with 1 to 3 types of social tie were about four times as likely to develop a cold as adults with 6 or more, step by step with the number of types (Cohen et al. 1997).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -115,14 +115,14 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 6,
-        "code": "DA2",
+        "id": 5,
+        "code": "DA1",
         "layer": "property",
-        "name": "Socially Scaffolded Regulation",
-        "statement": "Human regulation is constitutively socially scaffolded; social context is the highest-leverage cross-cutting input dimension.",
-        "derivation": "Dunbar + Coan & Sbarra (social baseline) + Bowlby (attachment) + Hrdy (cooperative breeding).",
+        "name": "Defensive Signals Under Mismatch",
+        "statement": "Where no clear physical defect is the cause, aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
+        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
         "epistemic_grade": "forced",
-        "scope_notes": "Grade: forced for social modulation of regulation. Strongly supported for social context being the highest-leverage dimension.",
+        "scope_notes": "The line is a clear physical defect. The line is a stance, and Cor states it as one: it decides which cases Cor calls disease. It is never offered as an empirical result about foragers or any other population. Only a clear physical defect is a disease, whether a test has found it yet or not. Where such a defect is the cause (brain infection, autoimmune encephalitis such as anti-NMDA-receptor encephalitis, tumour, poisoning, a substance or medication effect, dementia or another neurodegenerative process, brain injury), it is the sole cause, the person is sick and the behaviour is a symptom of that disease. A defect that no test can find yet is still a defect. Large-effect genetic variants that cause measurable physical damage beyond the behaviour sit on the same side: the 22q11.2 deletion, for example, brings heart defects, immune deficiency and low calcium, and in about 90 percent of cases it arises new in the child (McDonald-McGinn et al. 2015). \"Damage\" in Cor means only a literal physical defect of this kind. A marker is something else. A receptor, a gene variant or a scan pattern that only shows how sensitive a person is to stimuli and to mismatch is no defect and no cause, and measured activation can itself sit downstream of mismatch. Where no defect is the cause, Cor uses no \"disease\" or \"disorder\" category: the output is a normal human response to a mismatched world. Inborn sensitivity, set by common genetic variation, decides how easily a person tips and how large the response is (DA10); common variants set sensitivity and cause no disease. Developmental calibration can set the threshold early (DA7), and recurrent coupling can keep a response running after its trigger has passed (DA3). Cor reads autism and ADHD traits without a physical defect of the kind above as normal heritable variation (DA10), with the distress and impairment coming from the setting the trait lands in. Persistence alone does not move a case across the line, and neither does a marker of sensitivity; a clear defect does. No label is carved out. Psychosis, bipolar and depression are each applied to cases on both sides, so a label settles nothing by itself. Cor's reading of psychosis where no defect is the cause: a signal with no resolution, turned all the way up. In a mismatched world most signals get no resolution, so they keep rising and stop looking like healthy signals. Where a signal gets its answer, as in the world humans lived in for most of their history, it is resolved long before it reaches that level. A withheld need does this to healthy people: kept from sleep in 21 studies of 760 people, they had perceptual distortions within one to two days, hallucinations after two to four days and delusions after three, and normal sleep ended the symptoms in many cases (ext 4020). The reading is Cor's position and carries no empirical grade. If a clear defect is found behind a subset of a label, that subset moves to the physical side. Rival readings: Nesse places psychotic depression and mania, which have no validated marker, in a separate class of broken mood regulation (ext 355, 358), and Keller & Miller read much heritable liability as mutational load (ext 590, 594). Both are arguments with no test of their own, and Cor applies the clear-defect rule.\n\nGrade: forced for the qualitative claim that the output is a defensive signal. Strongly supported for its extent. The clear-defect rule sets the extent. The rule is a stance and carries no grade. Negative thoughts (project position, 21 Nov 2026). Negative thoughts are part of the signal and no separate cause inside the person. Low mood that points at something wrong in a person's conditions carries negative thoughts with it; without them it would not be low mood. Or they are what a person imagines in the absence of a real audience. In 998 adults followed for a year, those who later became depressed had shown no more negative thoughts beforehand, and the thoughts did not last after the episode (ext 4072). The shape of low mood follows its input: in 4,856 adults of a US population twin sample, losing a person brought sadness, loss of pleasure and appetite loss, while chronic stress and failure brought fatigue and oversleeping, and the same held within the same person from one episode to the next (Keller, Neale and Kendler 2007).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -137,14 +137,14 @@
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
-        "id": 5,
-        "code": "DA1",
-        "layer": "property",
-        "name": "Defensive Signals Under Mismatch",
-        "statement": "Where no clear physical defect is the cause, aversive outputs are intelligible defensive signals under mismatch, not evidence of defective design.",
-        "derivation": "P2 + P3 + Nesse (negative outputs as defenses) + McEwen (reversible with environmental correction) + Birkett & Newton-Fisher (all 40 captive chimps studied showed abnormal behavior; none reported in wild observation).",
-        "epistemic_grade": "forced",
-        "scope_notes": "The line is a clear physical defect. The line is a stance, and Cor states it as one: it decides which cases Cor calls disease. It is never offered as an empirical result about foragers or any other population. Only a clear physical defect is a disease, whether a test has found it yet or not. Where such a defect is the cause (brain infection, autoimmune encephalitis such as anti-NMDA-receptor encephalitis, tumour, poisoning, a substance or medication effect, dementia or another neurodegenerative process, brain injury), it is the sole cause, the person is sick and the behaviour is a symptom of that disease. A defect that no test can find yet is still a defect. Large-effect genetic variants that cause measurable physical damage beyond the behaviour sit on the same side: the 22q11.2 deletion, for example, brings heart defects, immune deficiency and low calcium, and in about 90 percent of cases it arises new in the child (McDonald-McGinn et al. 2015). \"Damage\" in Cor means only a literal physical defect of this kind. A marker is something else. A receptor, a gene variant or a scan pattern that only shows how sensitive a person is to stimuli and to mismatch is no defect and no cause, and measured activation can itself sit downstream of mismatch. Where no defect is the cause, Cor uses no \"disease\" or \"disorder\" category: the output is a normal human response to a mismatched world. Inborn sensitivity, set by common genetic variation, decides how easily a person tips and how large the response is (DA10); common variants set sensitivity and cause no disease. Developmental calibration can set the threshold early (DA7), and recurrent coupling can keep a response running after its trigger has passed (DA3). Cor reads autism and ADHD traits without a physical defect of the kind above as normal heritable variation (DA10), with the distress and impairment coming from the setting the trait lands in. Persistence alone does not move a case across the line, and neither does a marker of sensitivity; a clear defect does. No label is carved out. Psychosis, bipolar and depression are each applied to cases on both sides, so a label settles nothing by itself. Cor's reading of psychosis where no defect is the cause: a signal with no resolution, turned all the way up. In a mismatched world most signals get no resolution, so they keep rising and stop looking like healthy signals. Where a signal gets its answer, as in the world humans lived in for most of their history, it is resolved long before it reaches that level. A withheld need does this to healthy people: kept from sleep in 21 studies of 760 people, they had perceptual distortions within one to two days, hallucinations after two to four days and delusions after three, and normal sleep ended the symptoms in many cases (ext 4020). The reading is Cor's position and carries no empirical grade. If a clear defect is found behind a subset of a label, that subset moves to the physical side. Rival readings: Nesse places psychotic depression and mania, which have no validated marker, in a separate class of broken mood regulation (ext 355, 358), and Keller & Miller read much heritable liability as mutational load (ext 590, 594). Both are arguments with no test of their own, and Cor applies the clear-defect rule.\n\nGrade: forced for the qualitative claim that the output is a defensive signal. Strongly supported for its extent. The clear-defect rule sets the extent. The rule is a stance and carries no grade. Negative thoughts (project position, 21 Nov 2026). Negative thoughts are part of the signal and no separate cause inside the person. Low mood that points at something wrong in a person's conditions carries negative thoughts with it; without them it would not be low mood. Or they are what a person imagines in the absence of a real audience. In 998 adults followed for a year, those who later became depressed had shown no more negative thoughts beforehand, and the thoughts did not last after the episode (ext 4072).",
+        "id": 14,
+        "code": "DC2",
+        "layer": "consequence",
+        "name": "Market Proxy Exploitation",
+        "statement": "Markets can industrialize proxy exploitation of unmet regulatory needs.",
+        "derivation": "P3 + DA4 + market incentive structures + empirical (Moss food, Schull gambling, Haugen attention, Muldoon & Parke companion AI; children ate more after a single exposure to food adverts in the experiments pooled by Boyland et al. 2016).",
+        "epistemic_grade": "strongly_supported",
+        "scope_notes": null,
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -155,8 +155,19 @@
         "statement": "Mechanism resolution conditions are not fully interchangeable. Improvement in one mechanism can buffer or modulate consequences in another, especially where mechanisms are recurrently coupled (DA3), but cross-system buffering does not generally replace the specific resolution conditions of an impaired mechanism. Well-being is often bottlenecked by severe unresolved deficits in individual mechanisms and is not well described as a simple average across mechanism states.",
         "derivation": "Follows from P2 (domain-sensitive interacting adaptations: if mechanisms are domain-sensitive, their resolution conditions are not freely interchangeable). Coupling and cross-system buffering effects are handled separately by DA3 (Recurrent Coupling and Cascading); DA9 specifically claims non-fungibility of resolution conditions, not absence of cross-system effects. Liebig's 1840 Law of the Minimum is the historical analogy for the bottleneck pattern.",
         "epistemic_grade": "strongly_supported",
-        "scope_notes": "Cross-system buffering findings count against a strong version of DA9 in which the most-degraded mechanism sets well-being: oxytocin effects on the HPA axis, exercise effects on sleep, meaning effects on illness coping. Cor reads them as coupling effects (DA3). They modulate the consequences of an unmet resolution condition and do not supply it. In Cor, partner touch and a mother's voice lower cortisol responses to a lab stressor (ext 429, ext 820). The exercise and meaning findings have no record in Cor yet.",
+        "scope_notes": "Cross-system buffering findings count against a strong version of DA9 in which the most-degraded mechanism sets well-being: oxytocin effects on the HPA axis, exercise effects on sleep, meaning effects on illness coping. Cor reads them as coupling effects (DA3). They modulate the consequences of an unmet resolution condition and do not supply it. In Cor, partner touch and a mother's voice lower cortisol responses to a lab stressor (ext 429, ext 820). The exercise and meaning findings have no record in Cor yet. Among 33,391 employed US adults, more income went with less unhappiness for the least happy 15 to 20 percent up to about 100,000 dollars a year and then no further; the authors suggest the misery that remains, such as heartbreak and bereavement, is what income does not relieve (Killingsworth, Kahneman and Mellers 2023).",
         "created_at": "2026-04-08T13:57:50.739198+00:00"
+      },
+      {
+        "id": 13,
+        "code": "DC1",
+        "layer": "consequence",
+        "name": "Allostatic Load Accumulation",
+        "statement": "Chronic unresolved activation accumulates as allostatic load.",
+        "derivation": "McEwen (allostatic load) + DA3 + P3.",
+        "epistemic_grade": "forced",
+        "scope_notes": "Allostatic load is physical and measured (cortisol, blood pressure, HbA1c, CRP and other markers; ext 128). In 822 Swedes followed from 16 to 43, adversity that threatened close relationships, added up over the years, went with higher allostatic load at 43 in women and men, independently of socioeconomic disadvantage (Gustafsson et al. 2012). Under the clear-defect rule (DA1), wear that has become a separate disease, such as type 2 diabetes or heart disease, sits on the physical side, and behaviour that disease drives is its symptom. An infection or another clear defect sits there too. Low-grade inflammation that a mismatched life produces (isolation, sitting, poor diet, broken sleep) is M8 responding: it is part of the response and stays on the response side, together with the low mood it drives. Raised markers alone do not move a case across the line: a marker of load or of sensitivity is no defect. The response that built the load stays a normal response. Much wear reverses when the mismatch is undone and the inputs are back toward the baseline rows. Some may not (telomere shortening, hippocampal volume loss).",
+        "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
         "id": 21,
@@ -170,17 +181,6 @@
         "created_at": "2026-08-10T05:43:24.317829+00:00"
       },
       {
-        "id": 13,
-        "code": "DC1",
-        "layer": "consequence",
-        "name": "Allostatic Load Accumulation",
-        "statement": "Chronic unresolved activation accumulates as allostatic load.",
-        "derivation": "McEwen (allostatic load) + DA3 + P3.",
-        "epistemic_grade": "forced",
-        "scope_notes": "Allostatic load is physical and measured (cortisol, blood pressure, HbA1c, CRP and other markers; ext 128). Under the clear-defect rule (DA1), wear that has become a separate disease, such as type 2 diabetes or heart disease, sits on the physical side, and behaviour that disease drives is its symptom. An infection or another clear defect sits there too. Low-grade inflammation that a mismatched life produces (isolation, sitting, poor diet, broken sleep) is M8 responding: it is part of the response and stays on the response side, together with the low mood it drives. Raised markers alone do not move a case across the line: a marker of load or of sensitivity is no defect. The response that built the load stays a normal response. Much wear reverses with environmental correction. Some may not (telomere shortening, hippocampal volume loss).",
-        "created_at": "2026-04-04T17:25:29.196006+00:00"
-      },
-      {
         "id": 8,
         "code": "DA4",
         "layer": "property",
@@ -188,7 +188,7 @@
         "statement": "Proxy cues can activate systems without meeting the conditions that normally regulate or terminate them.",
         "derivation": "Tinbergen (supernormal stimuli) + Berridge & Robinson (wanting/liking dissociation).",
         "epistemic_grade": "forced",
-        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after about 23 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and with a sedative at the same peak blood level, a faster rise gave more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), tobacco in the Americas was typically used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Pituri in Central Australia was chewed mixed with wood ash, which frees the drug, almost without pause in a small-scale setting; no study measured what people gave up for it (ext 2519, 2520). Feeds (project position, 21 Nov 2026). A feed is a stand-in for company and standing among people who know you. What is missing does the harm, and the hours on a feed are not the measure: across 143 studies adolescents (ext 104), and the diaries of 17,247 adolescents show little link (ext 102). Quitting alone changes little, because it takes the stand-in away and puts nothing in its place: ten experiments found no significant effect on mood or life satisfaction (ext 2009), and the two largest paid experiments found small gains, in the first with more time spent with friends and family (ext 2006, 2008). Leaving alone costs: students wanted about 50 US dollars to give up TikTok or Instagram for four weeks while their friends stayed on, and 60 percent of the TikTok users and 46 percent of the Instagram users put a negative value on the platform when the question was its removal for their whole university (ext 2406). The harm shows when a whole group moves onto a feed: the arrival of Facebook at 775 US colleges raised an index of poor mental health by 0.085 standard deviations (ext 2031). College-bound US high school seniors spent an hour a day less with friends in person in 2016 than in the late 1980s (ext 2251). The medium is neutral: couples who met online stay together and rate their relationship as couples who met offline do (ext 1740, 1741, 2293).",
+        "scope_notes": "Not all proxies fail equally. Resolution conditions must be independently specified, not inferred backward from proxy failure. Pictures and videos of food set off cue reactivity and craving that went with later eating and weight gain as strongly as real food did, across 45 reports and 3,292 people (r 0.33 overall; Boswell and Kober 2016). Drugs (project position, 21 Nov 2026). A drug hijacks, taking the place of other sources of reward, through how pure it is, how fast it reaches the brain and how much of it there is. Coca leaf chewed puts cocaine in the blood that peaks after about 23 minutes to two hours (ext 2525); the high of smoked cocaine peaks at 1.4 minutes (ext 2531). People who smoke or inject a drug are more often addicted than people who take the same drug by a slower route (ext 912, 914), and with a sedative at the same peak blood level, a faster rise gave more high and more wanting (ext 2530). Supply without limit is a hyperstimulus as well: betel sold ready-made for 5 to 30 US cents a quid, where 86 percent of current chewers met the authors' criteria for a use disorder (ext 2513, 2514); khat in tea-shops open day and night (ext 2527); cigarette tobacco with ammonia added, which frees the nicotine (ext 2534), against gum and patches that deliver it slowly and seldom turn into compulsive use (ext 2533). Plant drugs at plant strength, in the amounts a plant and a season give, are old (ext 899, 906, 2518), tobacco in the Americas was typically used in limited quantities (ext 2517), and are not the hijack. The line is drawn by purity, speed and quantity, never by a date: a pipe is a fast route and is thousands of years old (ext 906, 2516). Pituri in Central Australia was chewed mixed with wood ash, which frees the drug, almost without pause in a small-scale setting; no study measured what people gave up for it (ext 2519, 2520). Feeds (project position, 21 Nov 2026). A feed is a stand-in for company and standing among people who know you. What is missing does the harm, and the hours on a feed are not the measure: across 143 studies adolescents (ext 104), and the diaries of 17,247 adolescents show little link (ext 102). Quitting alone changes little, because it takes the stand-in away and puts nothing in its place: ten experiments found no significant effect on mood or life satisfaction (ext 2009), and the two largest paid experiments found small gains, in the first with more time spent with friends and family (ext 2006, 2008). Leaving alone costs: students wanted about 50 US dollars to give up TikTok or Instagram for four weeks while their friends stayed on, and 60 percent of the TikTok users and 46 percent of the Instagram users put a negative value on the platform when the question was its removal for their whole university (ext 2406). The harm shows when a whole group moves onto a feed: the arrival of Facebook at 775 US colleges raised an index of poor mental health by 0.085 standard deviations (ext 2031). College-bound US high school seniors spent an hour a day less with friends in person in 2016 than in the late 1980s (ext 2251). The medium is neutral: couples who met online stay together and rate their relationship as couples who met offline do (ext 1740, 1741, 2293).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -210,7 +210,7 @@
         "statement": "The architecture calibrates to developmental and ongoing environmental input within evolved ranges.",
         "derivation": "Bowlby (internal working models) + Hrdy + McEwen + Meaney (HPA-axis calibration).",
         "epistemic_grade": "forced",
-        "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced. Childhood and the adult (project position, 21 Nov 2026). What happened to a person as a child explains little of how they feel now; their genes and the world they live in now explain most. Across all traits measured in fifty years of twin studies genes account for 49 percent of the differences between people and the environment twins share for 17 percent (ext 637, 638). Adoptive siblings reared together correlate .04 in personality (ext 2880). With confounding by genes and family adjusted for in quasi-experimental designs, the link between childhood maltreatment and later mental health problems is 45 percent smaller (ext 1638); maltreatment on a court record and not recalled goes with no raised rate of diagnoses (ext 1640); recorded and recalled maltreatment agree poorly: about half of each group is missing from the other (ext 2888). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). After a frightening event most people come through: 9.2 percent met the criteria for PTSD after an event drawn at random from their life (ext 2912). The exception is deprivation far outside anything a human child evolved for (C12). Children assigned by lot to foster care scored lower on general symptoms at 16 than children assigned to stay in institutional care (ext 2909). Romanian children who spent more than six months in an institution still had more problems at 22 to 25 in supportive adoptive homes, and those adopted before six months mostly did not (ext 2903). Open: brothers adopted away scored 4.41 IQ points higher at 18 to 20 than brothers reared at home (ext 2877), and children of a parent diagnosed with depression who were adopted away were diagnosed with it 23 percent less often than their home-reared full siblings (ext 2878); the adoptive family explained 14 percent of schooling and 33 percent of drinking among Korean American adoptees (ext 2872); in poor US families the shared home accounted for about 60 percent of IQ differences at age 7 (ext 2896); people diagnosed with PTSD show a raised heart rate at rest, with no reminder present (ext 2917); an earlier meta-analysis found attachment moderately stable over the first 19 years (ext 2892).",
+        "scope_notes": "BROAD life history theory rejected. NARROW architectural calibration (specific systems calibrate during specific windows) is forced. Across 54 studies of 116,010 children, threat such as violence went with earlier puberty and faster cellular aging, while deprivation and low income did not (Colich et al. 2020). Childhood and the adult (project position, 21 Nov 2026). What happened to a person as a child explains little of how they feel now; their genes and the world they live in now explain most. Across all traits measured in fifty years of twin studies genes account for 49 percent of the differences between people and the environment twins share for 17 percent (ext 637, 638). Adoptive siblings reared together correlate .04 in personality (ext 2880). With confounding by genes and family adjusted for in quasi-experimental designs, the link between childhood maltreatment and later mental health problems is 45 percent smaller (ext 1638); maltreatment on a court record and not recalled goes with no raised rate of diagnoses (ext 1640); recorded and recalled maltreatment agree poorly: about half of each group is missing from the other (ext 2888). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). After a frightening event most people come through: 9.2 percent met the criteria for PTSD after an event drawn at random from their life (ext 2912). The exception is deprivation far outside anything a human child evolved for (C12). Children assigned by lot to foster care scored lower on general symptoms at 16 than children assigned to stay in institutional care (ext 2909). Romanian children who spent more than six months in an institution still had more problems at 22 to 25 in supportive adoptive homes, and those adopted before six months mostly did not (ext 2903). Open: brothers adopted away scored 4.41 IQ points higher at 18 to 20 than brothers reared at home (ext 2877), and children of a parent diagnosed with depression who were adopted away were diagnosed with it 23 percent less often than their home-reared full siblings (ext 2878); the adoptive family explained 14 percent of schooling and 33 percent of drinking among Korean American adoptees (ext 2872); in poor US families the shared home accounted for about 60 percent of IQ differences at age 7 (ext 2896); people diagnosed with PTSD show a raised heart rate at rest, with no reminder present (ext 2917); an earlier meta-analysis found attachment moderately stable over the first 19 years (ext 2892).",
         "created_at": "2026-04-04T17:25:29.196006+00:00"
       },
       {
@@ -221,7 +221,7 @@
         "statement": "Cortical override of subcortical activation is costly and tiring, and chronic defensive activation downregulates the cortical override machinery itself. Interventions that undo a mismatch, moving the organism's actual input conditions toward what it evolved for (the baseline rows of this atlas), are therefore more durable and less effort-dependent than interventions targeting cognitive override alone. The environment is a primary intervention layer for systemic and population-scale change, and is currently underweighted by major institutions.",
         "derivation": "Empirical corollary of DA8 (phylogenetic priority) + DA9 (non-fungibility of resolution conditions). DA8 + DA9 do not logically entail DC3 - they make environmental intervention a plausible higher-leverage path for systemic design, but the strength of the leverage is an empirical question. Supported by Sapolsky Forest Troop (N=1 troop, striking but limited generalization); Roseto Effect (observational, contested); Ilardi Therapeutic Lifestyle Change (author-reported response rates from a 2007 conference presentation and a 2009 trade book; no peer-reviewed RCT); BEIP foster care (single trial, large effect on reactive attachment disorder signs); captive-chimpanzee enrichment (variable but reproducible).",
         "epistemic_grade": "plausible_synthesis",
-        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. One question decides whether a change counts: did it make the person less mismatched? The form of the change decides nothing. A job, money, a move or a tool counts by what it supplies: a job can bring a role and people who need you, and money can end a threat. A little less mismatch is better than none. When a charity paid off the debts of poor households in Singapore, the share with the symptoms of generalised anxiety fell from 78 to 53 percent within three months (ext 1712). When a casino income lifted families out of poverty, their children's psychiatric symptom counts fell to the level of children who had never been poor, through fewer conduct and oppositional symptoms (ext 1315, 2243). Cash for poor households in low- and middle-income countries lowered depression and anxiety scores while it was paid; after the payments ended the gain was smaller and no longer statistically significant (ext 1311, 1312). A change that leaves a person as mismatched as before is nothing against this property when it does little: a lottery prize (ext 1713), a flat of one's own (ext 2842), programmes that arranged more chances to meet people (ext 2108). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it follows a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts: with the same body, use rose and fell with the setting. One in five US Army enlisted men leaving Vietnam in 1971 had become dependent on heroin or opium there (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home, though under 10 percent pure against 90 percent in Vietnam (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and on 81 percent of their returns while abstinent they were using again within a month (ext 2833, 2834). Neither study measured what the men lived among, so they show that the body's dependence does not decide, and nothing more. What the person comes back to decides (project position): people who know and need them, and a role among them (EEA-SOC-01, EEA-SOC-11). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers 80 percent of the wage and social security costs, for up to two years, of people in or after drug treatment (ext 2452); the report gives no figure for what that did to drug use. Open: after long access, housing and rank no longer changed how much rats drank (ext 933); craving set off by cues goes with a later return to use (ext 2854). Not studied: the home the Vietnam men came back to was not among the predictors analysed (ext 2816, 2820), Robins rejects the absence of the cues of use as the explanation (ext 2821), and Cor holds no study that put long-term users among people who need them. A job counts by what it supplies. Women in drug treatment in Baltimore who were given paid work, kept on condition of drug-free urine, gave cocaine-negative samples 54 percent of the time over three years, against 28 percent in usual care (ext 2454). In another trial a job of the same kind with no drug rule did less, 10 percent against 29 percent with the rule (ext 2455). What the work supplied beyond pay was not measured in either. Not counted against this position, because nothing in them brought the person people who know and need them: a flat of one's own (ext 2842) and a 33-year follow-up of men treated under compulsion, which measured nothing of where they lived (ext 2835). Costly and tiring (21 Nov 2026). Self-control is no measured drain on the body's energy: blood glucose did not fall in four short self-control experiments in people who had eaten (ext 5001), the brain uses about a fifth of the body's energy at a near-constant rate (ext 5007), and two tests in 23 and 36 laboratories found ego depletion near zero (d 0.04 and 0.06) (ext 4294, 4295). It is a cost all the same: people choose the option that asks less mental control (ext 4298), and after a workday of hard control work people chose easier and quicker options and had more glutamate in the lateral prefrontal cortex (ext 5013).",
+        "scope_notes": "What counts as changing the environment (project position, 21 Nov 2026). Changing the environment means undoing the mismatch: moving a person's conditions toward what humans evolved for, as the baseline rows of this atlas state it. That is people around you who know you, in circles of about 5, 15, 50 and 150 (EEA-SOC-01), reciprocity and food shared among them (EEA-SOC-20), care for a child from many hands (EEA-CARE-01), standing given by people who know you (EEA-SOC-11), and the other rows. One question decides whether a change counts: did it make the person less mismatched? The form of the change decides nothing. A job, money, a move or a tool counts by what it supplies: a job can bring a role and people who need you, and money can end a threat. A little less mismatch is better than none. When a charity paid off the debts of poor households in Singapore, the share with the symptoms of generalised anxiety fell from 78 to 53 percent within three months (ext 1712). When a casino income lifted families out of poverty, their children's psychiatric symptom counts fell to the level of children who had never been poor, through fewer conduct and oppositional symptoms (ext 1315, 2243). Cash for poor households in low- and middle-income countries lowered depression and anxiety scores while it was paid; after the payments ended the gain was smaller and no longer statistically significant (ext 1311, 1312). A change that leaves a person as mismatched as before is nothing against this property when it does little: a lottery prize (ext 1713), a flat of one's own (ext 2842), programmes that arranged more chances to meet people (ext 2108). DC3 is a claim about leverage in systemic design. It does not compare treatments head to head. CBT, mindfulness-based interventions, CBT-I, and pharmacotherapy all have meta-analytic support. For medication Cor applies the clear-defect rule (DA1) and the medication line in A2: where a defect is the cause the drug may be treating a disease, and where none is the drug gets replaced by the real thing. Open question: part of measured CBT efficacy may come from environmental scaffolding (therapeutic alliance, weekly attention, structured tasks that build agency). No study in Cor tests this. Drug habits (project position, 21 Nov 2026). A drug habit has two parts. It starts and stays as a stand-in for something missing (DA4), or it follows a purified drug supplied for months: of pain patients given high doses of opioids for 91 days or more, 6.1 percent got a diagnosis of opioid abuse or dependence within a year, against 0.004 percent of those given none (ext 2860), more often people with earlier mental health or substance diagnoses (ext 2861). The drug then changes the body in its own right: tolerance, withdrawal, and wanting set off by the places and people of use (ext 964, 969, 970, 973). That change is a physical effect of the substance (OF2). It is real, and it comes down: in methamphetamine users who stayed off the drug, dopamine transporters rose 16 to 19 percent between about 3 and 14 months (ext 2855). It does not decide whether the habit lasts: with the same body, use rose and fell with the setting. One in five US Army enlisted men leaving Vietnam in 1971 had become dependent on heroin or opium there (ext 2814); 12 percent of the men addicted there were addicted at any time in the three years after return (ext 2820), with heroin easy to get at home, though under 10 percent pure against 90 percent in Vietnam (ext 941). Long-term opioid users from San Antonio were abstinent 54 percent of the time while living elsewhere and 12 percent of the time at home, and on 81 percent of their returns while abstinent they were using again within a month (ext 2833, 2834). Neither study measured what the men lived among, so they show that the body's dependence does not decide, and nothing more. What the person comes back to decides (project position): people who know and need them, and a role among them (EEA-SOC-01, EEA-SOC-11). Rats trained on heroin or methamphetamine chose another rat over the drug almost every time, at any dose (ext 925). The drug comes down while the real thing comes in (A2). Where stopping suddenly is dangerous, as with alcohol and certain drugs, it is never stopped suddenly, and it is done with a doctor; after a stop the old dose can kill, because tolerance has fallen (ext 988, 2849). Portugal paid employers 80 percent of the wage and social security costs, for up to two years, of people in or after drug treatment (ext 2452); the report gives no figure for what that did to drug use. Open: after long access, housing and rank no longer changed how much rats drank (ext 933); craving set off by cues goes with a later return to use (ext 2854). Not studied: the home the Vietnam men came back to was not among the predictors analysed (ext 2816, 2820), Robins rejects the absence of the cues of use as the explanation (ext 2821), and Cor holds no study that put long-term users among people who need them. A job counts by what it supplies. Women in drug treatment in Baltimore who were given paid work, kept on condition of drug-free urine, gave cocaine-negative samples 54 percent of the time over three years, against 28 percent in usual care (ext 2454). In another trial a job of the same kind with no drug rule did less, 10 percent against 29 percent with the rule (ext 2455). What the work supplied beyond pay was not measured in either. Not counted against this position, because nothing in them brought the person people who know and need them: a flat of one's own (ext 2842) and a 33-year follow-up of men treated under compulsion, which measured nothing of where they lived (ext 2835). Costly and tiring (21 Nov 2026). Self-control is no measured drain on the body's energy: blood glucose did not fall in four short self-control experiments in people who had eaten (ext 5001), the brain uses about a fifth of the body's energy at a near-constant rate (ext 5007), and two tests in 23 and 36 laboratories found ego depletion near zero (d 0.04 and 0.06) (ext 4294, 4295). It is a cost all the same: people choose the option that asks less mental control (ext 4298), and after a workday of hard control work people chose easier and quicker options and had more glutamate in the lateral prefrontal cortex (ext 5013). In rats, chronic stress shrank the medial prefrontal cortex and the associative striatum, enlarged the sensorimotor striatum and turned goal-directed choice into habit (Dias-Ferreira et al. 2009). Telling people to use willpower added nothing: in two randomised field experiments, students told to resist distractions by willpower rated their success at a one-week study goal no higher than students given no strategy (Duckworth et al. 2016).",
         "created_at": "2026-04-08T14:02:55.382263+00:00"
       }
     ],
@@ -429,7 +429,7 @@
         "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional - runs continuously.",
         "resolution_conditions": "Acceptable position in a bounded, personally-known reference group on the order of ~150 (an illustrative central tendency, not a hard number; the precise figure is contested per Lindenfors 2021). Earned prestige preferred over coerced dominance. Prestige and dominance are separate routes to rank (Henrich & Gil-White 2001, work 129; Cheng et al. 2013, ext 622). Among the Chabu, prestige predicted elected leadership more strongly than dominance (Garfield & Hagen 2020, ext 624). Among Tsimane men, both routes went with higher fertility, and prestige was the strongest path from status to fitness (von Rueden et al. 2011, ext 623).",
         "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
-        "proxy_gradient": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
+        "proxy_gradient": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; EVIDENCED: across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
         "convergence_codes": [
           "C2",
           "C7",
@@ -457,7 +457,7 @@
         "activation_class_secondary": null,
         "activation_note": "Rank tracking runs continuously; not optional (see description).",
         "proxy_gradient_parsed": {
-          "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; architecture-derived) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
+          "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; EVIDENCED: across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
           "preamble": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top)",
           "levels": [
             {
@@ -485,8 +485,8 @@
               "index": 3,
               "label": "global mediated comparison by follower/like counts",
               "state": "MINIMAL",
-              "tag": "ARCHITECTURE-DERIVED",
-              "note": "architecture-derived"
+              "tag": "EVIDENCED",
+              "note": "EVIDENCED: across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026"
             },
             {
               "index": 4,
@@ -702,7 +702,7 @@
         "tier": 1,
         "grade": "established",
         "eli5": "Synchronizes every system to the light-dark cycle. Master timing architecture.",
-        "description": "SCN master clock. Gates metabolism, immunity, cognition, mood. The mismatch lies in timing more than in sleep duration. A week of natural light moved the body clock about two hours earlier while sleep duration stayed the same (Wright et al. 2013, ext 610, n=8). Social jetlag predicts overweight after controlling for sleep duration (Roenneberg et al. 2012, ext 92).",
+        "description": "SCN master clock. Gates metabolism, immunity, cognition, mood. The mismatch lies in timing more than in sleep duration. A week of natural light moved the body clock about two hours earlier while sleep duration stayed the same (Wright et al. 2013, ext 610, n=8). Social jetlag predicts overweight after controlling for sleep duration (Roenneberg et al. 2012, ext 92). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024).",
         "resolution_conditions": "Dark-cued sleep onset, bright daylight exposure, consistent rhythm.",
         "mismatch_prediction": "Electric light, blue screens, shift work, caffeine",
         "proxy_gradient": "5 levels (Kind B: not a constant-cue hijack - the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Untested: the order of PARTIAL (social jetlag) and MINIMAL (shift work), and whether evening screens are the floor.",
@@ -1511,7 +1511,7 @@
         "description": "Physical activity as zeitgeber, anti-inflammatory, mood regulator.",
         "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hadza men walk about 11 to 13 km a day and women about 6 to 8 km, and the women also dig for several hours, all as a side effect of foraging (Pontzer et al. 2012 and Wood et al. 2021, GPS; ext 196, ext 3418; Hadza only).",
         "mismatch_prediction": "Sedentarism. Gym sessions as partial compensation.",
-        "proxy_gradient": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. On a fitness or mortality axis, MINIMAL (gym) and PARTIAL (incidental movement) could swap. The order is untested.",
+        "proxy_gradient": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
         "convergence_codes": [
           "C3",
           "C9"
@@ -1536,7 +1536,7 @@
         "activation_class_secondary": null,
         "activation_note": "Activation class not yet assigned.",
         "proxy_gradient_parsed": {
-          "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. On a fitness or mortality axis, MINIMAL (gym) and PARTIAL (incidental movement) could swap. The order is untested.",
+          "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
           "preamble": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied)",
           "levels": [
             {
@@ -1575,7 +1575,7 @@
               "note": ""
             }
           ],
-          "trailing": "All five EVIDENCED. On a fitness or mortality axis, MINIMAL (gym) and PARTIAL (incidental movement) could swap. The order is untested.",
+          "trailing": "All five EVIDENCED. On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -176616,6 +176616,54 @@
     ],
     "eea_parameters": [
       {
+        "code": "EEA-MATE-09",
+        "domain": "mating_reproduction",
+        "name": "Sex and conception coupled",
+        "eea_baseline": "For foragers, sex led to pregnancy unless breastfeeding or low energy suppressed ovulation. Birth spacing of 3 to 4 years came from breastfeeding and the energy cost of lactation (EEA-MATE-05).",
+        "eea_value": null,
+        "modern_default": "Contraception separates sex from conception. In 2019, 47.7% of all women aged 15 to 49 worldwide used a modern method, 20.1 points more than in 1970, from 1.9% in South Sudan to 87.9% in Norway. In the US, the pill sped up the fall in marital fertility in the 1960s.",
+        "gap_statement": "Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.",
+        "resolution_unit": null,
+        "evidence_grade": "replicated",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. In two prospective studies, fully breastfeeding women without periods who used no contraception had pregnancy rates of about 1 percent in the first six months after birth (Van der Wijden and Manion 2015). Background-tier evidence cited (abstract or book only): ext 875.",
+        "created_at": "2026-11-19T02:41:44.765155+00:00",
+        "updated_at": "2026-11-19T02:41:44.765155+00:00",
+        "mechanism_codes": [
+          "M14"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1031,
+            "evidence_role": "primary",
+            "author_quote": "Between 1970 and 2019, the global mCPR increased by 20·1 percentage points",
+            "evidence_quality": "replicated",
+            "content": "From 1,162 population surveys in 204 countries and territories, 51.9% of all women aged 15 to 49 were using some contraception in 2019 and 47.7% a modern method, up 20.1 percentage points since 1970. Modern method use ranged from 1.9% of women in South Sudan to 87.9% in Norway."
+          },
+          {
+            "extraction_id": 1032,
+            "evidence_role": "supporting",
+            "author_quote": "Without bans on the sales of contraception, the marital fertility rate would have been 8 percent lower in states with sales bans and 4 percent lower in the United States as a whole.",
+            "evidence_quality": "thin",
+            "content": "Using old US state laws that banned the sale of contraceptives (in force until the 1965 Griswold decision) as a natural experiment, Bailey finds that birth rates fell more slowly in states with sales bans after the pill arrived in 1957; by 1965 the gap was about 8 births per 1,00"
+          },
+          {
+            "extraction_id": 875,
+            "evidence_role": "supporting",
+            "author_quote": "Female ovarian function is particularly sensitive to energy balance and energy flux, resulting in a synchronization of conception with favorable energetic conditions",
+            "evidence_quality": "contested",
+            "content": "In a review of human reproductive energetics, Ellison reports that female ovarian function is particularly sensitive to energy balance and energy flux, that gestation length and birthweight are very sensitive to maternal energy availability, and that the duration of lactational a"
+          },
+          {
+            "extraction_id": 1001,
+            "evidence_role": "supporting",
+            "author_quote": "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4",
+            "evidence_quality": "replicated",
+            "content": "In five forager populations with full life tables, total fertility rate (births per woman surviving the reproductive years) was 8.2 among the Ache, 6.9 Agta, 6.2 Hadza, 5.5 Hiwi and 4.3 Ju/'hoansi, a forager mean of 6.2. Across 75 small-scale natural-fertility societies the mean "
+          }
+        ]
+      },
+      {
         "code": "EEA-SOC-05",
         "domain": "social_structure",
         "name": "Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)",
@@ -176743,6 +176791,94 @@
             "author_quote": "appear to be crowded by choice, and biological indicators of stress are absent",
             "evidence_quality": "thin",
             "content": "!Kung camps were highly crowded, and the !Kung showed no biological indicators of stress from it."
+          }
+        ]
+      },
+      {
+        "code": "EEA-SOC-13",
+        "domain": "social_structure",
+        "name": "What standing buys (children)",
+        "eea_baseline": "Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had more surviving children in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.",
+        "eea_value": {
+          "forager_Zr": 0.18,
+          "status_rs_r": "0.19 (33 societies, men)",
+          "nonhuman_primate_r": 0.8
+        },
+        "modern_default": "In industrial societies the link between men's status and number of children is weak, and the sexes differ: men with higher incomes still have more children, mainly because poor men more often stay childless, while higher income in women and more education in both sexes typically go with fewer children (Stulp and Barrett 2016). Professional status-seeking takes the time and money that children need.",
+        "gap_statement": "Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. Across industrial populations, wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, and income went with more children in men and fewer in women (Stulp and Barrett 2016); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).",
+        "resolution_unit": null,
+        "evidence_grade": "meta_analysis",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583); with 44 adults, where the authors calculate that about 200 are needed to detect the average forager effect (ext 1584), the study was too small to test it. Two studies measured raiding: among the Waorani, men who raided more often than average did not have more wives or children (ext 897); among the Nyangatom, younger men's raiding showed no link to wives or children, while elders whom peers named as prolific raiders had more of both (ext 892). The modern link is tested: in industrial populations wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, men's income went with more children and women's income and education with fewer (Stulp and Barrett 2016); not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.",
+        "created_at": "2026-11-11T04:19:20.830659+00:00",
+        "updated_at": "2026-11-11T04:19:20.830659+00:00",
+        "mechanism_codes": [
+          "M14",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 731,
+            "evidence_role": "primary",
+            "author_quote": "Contra the egalitarianism hypothesis, the effect of status on men’s RS does not differ significantly by subsistence type",
+            "evidence_quality": "meta_analysis",
+            "content": "In a meta-analysis of 288 results from 46 studies in 33 non-industrial societies, higher-status men had greater reproductive success (overall r 0.19, against 0.80 in non-human primates). The effect in foragers (Zr 0.18, 64 results) was about the same as in horticulturalists, past"
+          },
+          {
+            "extraction_id": 1033,
+            "evidence_role": "primary",
+            "author_quote": "The effect of status on number of surviving offspring, the RS measure that most closely corresponds to biological fitness, is roughly a third smaller in monogamous populations",
+            "evidence_quality": "meta_analysis",
+            "content": "In the same meta-analysis, status went with men's fertility and mating success more than with lower child mortality. Status was linked to fewer child deaths only in polygynous societies, and the link between status and number of surviving offspring was about a third smaller in mo"
+          },
+          {
+            "extraction_id": 770,
+            "evidence_role": "supporting",
+            "author_quote": "Anecdotal evidence from many hunter-gatherer societies suggests that successful hunters experience higher prestige and greater reproductive success. Detailed quantitative data on these patterns are now available for five widely dispersed cases (Ache, Hadza, !Kung, Lamalera, and Meriam) and indicate that better hunters exhibit higher age-corrected reproductive success than other men in their social group",
+            "evidence_quality": "replicated",
+            "content": "In five societies with detailed data (Ache, Hadza, !Kung, Lamalera and Meriam), better hunters had higher age-corrected reproductive success than other men in their group."
+          },
+          {
+            "extraction_id": 623,
+            "evidence_role": "supporting",
+            "author_quote": "Prestigious but not dominant men marry wives who first give birth at earlier ages, which multivariate analysis suggests is the strongest pathway between status and fitness in this population.",
+            "evidence_quality": "thin",
+            "content": "Among Tsimane forager-horticulturalists (Bolivia), both dominance (men more likely to win a dyadic physical confrontation) and prestige (men with more community-wide influence) associate with higher fertility, via different pathways: dominant men have higher intra-marital fertili"
+          },
+          {
+            "extraction_id": 410,
+            "evidence_role": "supporting",
+            "author_quote": "You are engaged in maladaptive behavior right now.",
+            "evidence_quality": "theoretical",
+            "content": "Modern middle-class reproductive restraint is a striking maladaptation: professional status-seeking consumes resources (time, money, effort) needed for reproduction. Evolved psychology for status competition in Pleistocene tribal contexts now causes fitness loss in modern economi"
+          },
+          {
+            "extraction_id": 897,
+            "evidence_role": "primary",
+            "author_quote": "An analysis of the raiding histories, marital trajectories, and reproductive histories of these men reveals that more aggressive warriors have lower indices of reproductive success than their milder brethren",
+            "evidence_quality": "thin",
+            "content": "Among the Waorani of Ecuador, horticulturalist-foragers with very high homicide rates, raiding histories of 95 warriors showed that men who raided more often than average did not have more wives or children than milder men, and had fewer children who survived to age 15. This cont"
+          },
+          {
+            "extraction_id": 892,
+            "evidence_role": "primary",
+            "author_quote": "Among nonelders, raiding was not associated with an increased number of wives or children.",
+            "evidence_quality": "thin",
+            "content": "Among 120 Nyangatom men (East African agro-pastoralists), the 91 younger men's raiding frequency showed no association with their number of wives or children. Of the 29 elders, the 11 whom peers named as prolific raiders in their youth had more wives and children than the other e"
+          },
+          {
+            "extraction_id": 1584,
+            "evidence_role": "supporting",
+            "author_quote": "A power analysis of this effect size reveals that a sample size of ~200 would be necessary to obtain a power of 0.8 at a standard alpha level (0.05).",
+            "evidence_quality": "thin",
+            "content": "The same paper gives the authors' power analysis: with the average effect that von Rueden and Jaeggi's meta-analysis reports for foragers (0.18), about 200 people are needed for 80% power, against the 44 in this study. With the largest forager effect in that meta-analysis (0.46) "
+          },
+          {
+            "extraction_id": 1583,
+            "evidence_role": "primary",
+            "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
+            "evidence_quality": "thin",
+            "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the "
           }
         ]
       },
@@ -177033,7 +177169,7 @@
         "eea_baseline": "Ancestral children developed social competence largely through self-organized, free, physically-active play with a mixed-age band of other children - younger and older mixed together - rather than under continuous adult supervision or in age-segregated peer cohorts. Rough-and-tumble and pretend play during the juvenile period is a dedicated developmental input: in the mammalian design, play is a distinct emotional system (Panksepp's PLAY) and play experience physically tunes the maturing prefrontal cortex, refining the circuits that later dampen the amygdala and support social reciprocity, partner discrimination, and emotional regulation. Critically, the AMOUNT and quality of play partners matters: animals raised with more play partners show progressively greater play experience and corresponding PFC development, and even the untreated playmates of more-playful partners develop greater cortical thickness - play is a partnered input, so a richer multi-partner (and, in the human case, multi-age) play environment is the expected calibrating stimulus.",
         "eea_value": null,
         "modern_default": "Modern childhood compresses or eliminates free mixed-age play: age-segregated grade cohorts and daycare, adult-structured and supervised activities, indoor screen-based leisure, reduced unsupervised outdoor roaming, and safety norms that discourage rough-and-tumble. Children spend far less time in self-directed, physically-active, mixed-age peer play than the developmental window evolved to expect.",
-        "gap_statement": "The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. No study has tested that reading in children.",
+        "gap_statement": "The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. In children, general risky outdoor play (13 studies) and places that allow risky play (21 studies) went with better physical, mental, social and cognitive outcomes in a review of 74 studies (Ramsden et al. 2026), and children who played adventurously more had slightly fewer internalising symptoms and more positive affect (Dodd, Nesbit and FitzGibbon 2023).",
         "resolution_unit": "Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, solitary screen play, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.",
         "evidence_grade": "replicated",
         "contested": false,
@@ -177220,11 +177356,11 @@
         "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset about three hours after sunset (3.3 hours on average among Hadza, San and Tsimane, ext 2224; about three hours in rural Haiti without electricity, ext 3903), offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
         "eea_value": null,
         "modern_default": "Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.",
-        "gap_statement": "The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Chasing a duration number while ignoring phase misses the operative variable.",
+        "gap_statement": "The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024), and in the high-quality studies of a review of 68 with higher body mass index, waist, systolic blood pressure and HbA1c (Bouman et al. 2023). In 60,977 UK adults, regular sleep and wake times predicted lower mortality more strongly than sleep duration did (Windred et al. 2024). Chasing a duration number while ignoring phase misses the operative variable.",
         "resolution_unit": "Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Night-anchored sleep of about 5.7 to 7.1 hours is measured by actigraphy in three forager societies (Yetish et al. 2015) and in Toba/Qom (de la Iglesia et al. 2015); camping studies move phase while duration holds. Actigraphy only, and parts of the interpretation are disputed. The two camping experiments (Wright et al. 2013, ext 610; Stothard et al. 2017, ext 613) come from the same laboratory and share authors.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Night-anchored sleep of about 5.7 to 7.1 hours is measured by actigraphy in three forager societies (Yetish et al. 2015), in 33 Hadza adults across 393 days of recording in all (6.25 hours a night, with stronger circadian rhythms than Western populations; Samson et al. 2017) and in Toba/Qom (de la Iglesia et al. 2015); camping studies move phase while duration holds. Actigraphy only, and parts of the interpretation are disputed. The two camping experiments (Wright et al. 2013, ext 610; Stothard et al. 2017, ext 613) come from the same laboratory and share authors.",
         "created_at": "2026-06-08T12:32:43.154477+00:00",
         "updated_at": "2026-06-08T23:21:58.393078+00:00",
         "mechanism_codes": [
@@ -178086,6 +178222,62 @@
         ]
       },
       {
+        "code": "EEA-MATE-07",
+        "domain": "mating_reproduction",
+        "name": "Rivals and comparison",
+        "eea_baseline": "A forager's rivals for a partner were the same-sex people of the camp and the regional network, a few hundred people seen in ordinary life. No study measures this directly; it follows from the size of the pool (EEA-MATE-02).",
+        "eea_value": null,
+        "modern_default": "Media and feeds show a stream of the most attractive and successful people alive, edited. In an experiment, women who saw highly attractive women rated their own value as a marriage partner lower, and men who saw socially dominant men did the same. Across 77 studies, exposure to thin-ideal media images went with more body dissatisfaction in women (d -0.28). A later meta-analysis of 204 studies found the effect minimal for most women and present mainly in women already dissatisfied with their bodies (ext 3180). Across 24 experiments, appearance-ideal images on social media lowered body image moderately against images unrelated to appearance (Hedges g -0.61), and across 14 experiments more than other appearance images did (g -0.68; de Valle et al. 2021).",
+        "gap_statement": "The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.",
+        "resolution_unit": null,
+        "evidence_grade": "theoretical",
+        "contested": false,
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017).",
+        "created_at": "2026-11-19T02:41:26.383257+00:00",
+        "updated_at": "2026-11-19T02:41:26.383257+00:00",
+        "mechanism_codes": [
+          "M14",
+          "M5"
+        ],
+        "evidence": [
+          {
+            "extraction_id": 1022,
+            "evidence_role": "primary",
+            "author_quote": "Findings for self-assessed judgments of desirability as a marriage partner were in line with hypotheses.",
+            "evidence_quality": "thin",
+            "content": "In an experiment, women who saw highly attractive women rated their own desirability as a marriage partner lower, while seeing socially dominant women had little effect; for men the pattern reversed, with dominant men lowering men's self-rated desirability as a marriage partner m"
+          },
+          {
+            "extraction_id": 1023,
+            "evidence_role": "supporting",
+            "author_quote": "The findings support the notion that exposure to media images depicting the thin-ideal body is related to body image concerns for women.",
+            "evidence_quality": "meta_analysis",
+            "content": "A meta-analysis of 77 experimental and correlational studies (141 effect sizes) found small to moderate links between exposure to media images of thin-ideal bodies and women's body dissatisfaction (d = -0.28), internalisation of the thin ideal (d = -0.39) and eating behaviours an"
+          },
+          {
+            "extraction_id": 1014,
+            "evidence_role": "supporting",
+            "author_quote": "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures",
+            "evidence_quality": "thin",
+            "content": "Men and women on the same US dating site mostly wrote to people ranked about 25% more desirable than themselves. Reply rates fell as the gap grew: men were more than twice as likely to get a reply from women less desirable than themselves, and for messages to more desirable women"
+          },
+          {
+            "extraction_id": 1029,
+            "evidence_role": "challenging",
+            "author_quote": "We did not find support for the original finding that exposure to attractive images of opposite-sex others affects males' ratings of their partners' sexual attractiveness or love for their partner.",
+            "evidence_quality": "thin",
+            "content": "Three preregistered, high-powered close replications of Kenrick, Gutierres and Goldberg 1989 Study 2 exposed men and women in committed relationships to opposite-sex erotica or abstract art. Pooled with the original in a meta-analysis, they found no support for the original findi"
+          },
+          {
+            "extraction_id": 841,
+            "evidence_role": "supporting",
+            "author_quote": "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals",
+            "evidence_quality": "thin",
+            "content": "Among Aka foragers of the Central African Republic, the exploration range, the area a person explores over a lifetime searching for a mate, visiting kin, hunting and learning, is approximately 50 km and covers an area where they can meet and get to know about 700 people."
+          }
+        ]
+      },
+      {
         "code": "EEA-THREAT-01",
         "domain": "threat_safety",
         "name": "Threat temporality (acute, episodic, escapable-by-action)",
@@ -178165,62 +178357,6 @@
             "author_quote": "Illnesses account for 70 percent, violence and accidents for 20 percent, and degenerative diseases for 9 percent of all deaths in our sample.",
             "evidence_quality": "replicated",
             "content": "Pooling 3,328 recorded deaths from hunter-gatherer and forager-horticulturalist populations (among them Hadza, !Kung, Ache, Hiwi, Agta, Yanomamo and Tsimane, some partly acculturated), Gurven and Kaplan find that illness accounted for about 70% of deaths, violence and accidents f"
-          }
-        ]
-      },
-      {
-        "code": "EEA-MATE-07",
-        "domain": "mating_reproduction",
-        "name": "Rivals and comparison",
-        "eea_baseline": "A forager's rivals for a partner were the same-sex people of the camp and the regional network, a few hundred people seen in ordinary life. No study measures this directly; it follows from the size of the pool (EEA-MATE-02).",
-        "eea_value": null,
-        "modern_default": "Media and feeds show a stream of the most attractive and successful people alive, edited. In an experiment, women who saw highly attractive women rated their own value as a marriage partner lower, and men who saw socially dominant men did the same. Across 77 studies, exposure to thin-ideal media images went with more body dissatisfaction in women (d -0.28). A later meta-analysis of 204 studies found the effect minimal for most women and present mainly in women already dissatisfied with their bodies (ext 3180).",
-        "gap_statement": "The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.",
-        "resolution_unit": null,
-        "evidence_grade": "theoretical",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017).",
-        "created_at": "2026-11-19T02:41:26.383257+00:00",
-        "updated_at": "2026-11-19T02:41:26.383257+00:00",
-        "mechanism_codes": [
-          "M14",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1022,
-            "evidence_role": "primary",
-            "author_quote": "Findings for self-assessed judgments of desirability as a marriage partner were in line with hypotheses.",
-            "evidence_quality": "thin",
-            "content": "In an experiment, women who saw highly attractive women rated their own desirability as a marriage partner lower, while seeing socially dominant women had little effect; for men the pattern reversed, with dominant men lowering men's self-rated desirability as a marriage partner m"
-          },
-          {
-            "extraction_id": 1023,
-            "evidence_role": "supporting",
-            "author_quote": "The findings support the notion that exposure to media images depicting the thin-ideal body is related to body image concerns for women.",
-            "evidence_quality": "meta_analysis",
-            "content": "A meta-analysis of 77 experimental and correlational studies (141 effect sizes) found small to moderate links between exposure to media images of thin-ideal bodies and women's body dissatisfaction (d = -0.28), internalisation of the thin ideal (d = -0.39) and eating behaviours an"
-          },
-          {
-            "extraction_id": 1014,
-            "evidence_role": "supporting",
-            "author_quote": "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures",
-            "evidence_quality": "thin",
-            "content": "Men and women on the same US dating site mostly wrote to people ranked about 25% more desirable than themselves. Reply rates fell as the gap grew: men were more than twice as likely to get a reply from women less desirable than themselves, and for messages to more desirable women"
-          },
-          {
-            "extraction_id": 1029,
-            "evidence_role": "challenging",
-            "author_quote": "We did not find support for the original finding that exposure to attractive images of opposite-sex others affects males' ratings of their partners' sexual attractiveness or love for their partner.",
-            "evidence_quality": "thin",
-            "content": "Three preregistered, high-powered close replications of Kenrick, Gutierres and Goldberg 1989 Study 2 exposed men and women in committed relationships to opposite-sex erotica or abstract art. Pooled with the original in a meta-analysis, they found no support for the original findi"
-          },
-          {
-            "extraction_id": 841,
-            "evidence_role": "supporting",
-            "author_quote": "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals",
-            "evidence_quality": "thin",
-            "content": "Among Aka foragers of the Central African Republic, the exploration range, the area a person explores over a lifetime searching for a mate, visiting kin, hunting and learning, is approximately 50 km and covers an area where they can meet and get to know about 700 people."
           }
         ]
       },
@@ -178323,7 +178459,7 @@
         "resolution_unit": "Reliable, present alloparental supply - care plus provisioning actually delivered by invested caregivers - NOT bare kin count or genealogical presence. Four relatives who live far away and do not share the daily load do not satisfy the parameter; what the infant and mother expect is dependable, hands-on, repeated care from a stable surround.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Shared infant care is observed in many forager populations by separate field teams (Hadza, Efe, Aka, !Kung, Agta, Pume); the share of care varies widely. The 'cooperative breeder' reading and the calorie argument stay Hrdy's interpretation.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Shared infant care is observed in many forager populations by separate field teams (Hadza, Efe, Aka, !Kung, Agta, Pume); the share of care varies widely. The 'cooperative breeder' reading and the calorie argument stay Hrdy's interpretation. In 15,696 UK infants, care by kin (odds ratio 0.61) and formal daycare (0.68) as the main weekday care went with lower odds of developmental delay at 9 months, and an infant whose mother had none of the six kinds of help and company measured (care by kin in working hours, seeing her own mother, time with friends, other mothers to talk to, family she could count on for money, people at the birth) had about eight times the odds of delay of one whose mother had the most of all six (Waynforth 2024).",
         "created_at": "2026-06-08T12:32:33.92802+00:00",
         "updated_at": "2026-06-08T12:32:33.92802+00:00",
         "mechanism_codes": [
@@ -178751,94 +178887,6 @@
             "author_quote": null,
             "evidence_quality": "replicated",
             "content": "In Marlowe's cross-cultural sample of foragers, the median residential group size was 27 people (mean 41.4, range 13 to 250, across 263 societies)."
-          }
-        ]
-      },
-      {
-        "code": "EEA-SOC-13",
-        "domain": "social_structure",
-        "name": "What standing buys (children)",
-        "eea_baseline": "Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had more surviving children in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.",
-        "eea_value": {
-          "forager_Zr": 0.18,
-          "status_rs_r": "0.19 (33 societies, men)",
-          "nonhuman_primate_r": 0.8
-        },
-        "modern_default": "In industrial societies the link between men's status and number of children is weak, and higher-status people often have fewer children. Professional status-seeking takes the time and money that children need.",
-        "gap_statement": "Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. The modern side here rests on Richerson and Boyd's argument (ext 410, theoretical); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).",
-        "resolution_unit": null,
-        "evidence_grade": "meta_analysis",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583); with 44 adults, where the authors calculate that about 200 are needed to detect the average forager effect (ext 1584), the study was too small to test it. Two studies measured raiding: among the Waorani, men who raided more often than average did not have more wives or children (ext 897); among the Nyangatom, younger men's raiding showed no link to wives or children, while elders whom peers named as prolific raiders had more of both (ext 892). The modern reversal is argued (ext 410), not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.",
-        "created_at": "2026-11-11T04:19:20.830659+00:00",
-        "updated_at": "2026-11-11T04:19:20.830659+00:00",
-        "mechanism_codes": [
-          "M14",
-          "M5"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 731,
-            "evidence_role": "primary",
-            "author_quote": "Contra the egalitarianism hypothesis, the effect of status on men’s RS does not differ significantly by subsistence type",
-            "evidence_quality": "meta_analysis",
-            "content": "In a meta-analysis of 288 results from 46 studies in 33 non-industrial societies, higher-status men had greater reproductive success (overall r 0.19, against 0.80 in non-human primates). The effect in foragers (Zr 0.18, 64 results) was about the same as in horticulturalists, past"
-          },
-          {
-            "extraction_id": 1033,
-            "evidence_role": "primary",
-            "author_quote": "The effect of status on number of surviving offspring, the RS measure that most closely corresponds to biological fitness, is roughly a third smaller in monogamous populations",
-            "evidence_quality": "meta_analysis",
-            "content": "In the same meta-analysis, status went with men's fertility and mating success more than with lower child mortality. Status was linked to fewer child deaths only in polygynous societies, and the link between status and number of surviving offspring was about a third smaller in mo"
-          },
-          {
-            "extraction_id": 770,
-            "evidence_role": "supporting",
-            "author_quote": "Anecdotal evidence from many hunter-gatherer societies suggests that successful hunters experience higher prestige and greater reproductive success. Detailed quantitative data on these patterns are now available for five widely dispersed cases (Ache, Hadza, !Kung, Lamalera, and Meriam) and indicate that better hunters exhibit higher age-corrected reproductive success than other men in their social group",
-            "evidence_quality": "replicated",
-            "content": "In five societies with detailed data (Ache, Hadza, !Kung, Lamalera and Meriam), better hunters had higher age-corrected reproductive success than other men in their group."
-          },
-          {
-            "extraction_id": 623,
-            "evidence_role": "supporting",
-            "author_quote": "Prestigious but not dominant men marry wives who first give birth at earlier ages, which multivariate analysis suggests is the strongest pathway between status and fitness in this population.",
-            "evidence_quality": "thin",
-            "content": "Among Tsimane forager-horticulturalists (Bolivia), both dominance (men more likely to win a dyadic physical confrontation) and prestige (men with more community-wide influence) associate with higher fertility, via different pathways: dominant men have higher intra-marital fertili"
-          },
-          {
-            "extraction_id": 410,
-            "evidence_role": "supporting",
-            "author_quote": "You are engaged in maladaptive behavior right now.",
-            "evidence_quality": "theoretical",
-            "content": "Modern middle-class reproductive restraint is a striking maladaptation: professional status-seeking consumes resources (time, money, effort) needed for reproduction. Evolved psychology for status competition in Pleistocene tribal contexts now causes fitness loss in modern economi"
-          },
-          {
-            "extraction_id": 897,
-            "evidence_role": "primary",
-            "author_quote": "An analysis of the raiding histories, marital trajectories, and reproductive histories of these men reveals that more aggressive warriors have lower indices of reproductive success than their milder brethren",
-            "evidence_quality": "thin",
-            "content": "Among the Waorani of Ecuador, horticulturalist-foragers with very high homicide rates, raiding histories of 95 warriors showed that men who raided more often than average did not have more wives or children than milder men, and had fewer children who survived to age 15. This cont"
-          },
-          {
-            "extraction_id": 892,
-            "evidence_role": "primary",
-            "author_quote": "Among nonelders, raiding was not associated with an increased number of wives or children.",
-            "evidence_quality": "thin",
-            "content": "Among 120 Nyangatom men (East African agro-pastoralists), the 91 younger men's raiding frequency showed no association with their number of wives or children. Of the 29 elders, the 11 whom peers named as prolific raiders in their youth had more wives and children than the other e"
-          },
-          {
-            "extraction_id": 1584,
-            "evidence_role": "supporting",
-            "author_quote": "A power analysis of this effect size reveals that a sample size of ~200 would be necessary to obtain a power of 0.8 at a standard alpha level (0.05).",
-            "evidence_quality": "thin",
-            "content": "The same paper gives the authors' power analysis: with the average effect that von Rueden and Jaeggi's meta-analysis reports for foragers (0.18), about 200 people are needed for 80% power, against the 44 in this study. With the largest forager effect in that meta-analysis (0.46) "
-          },
-          {
-            "extraction_id": 1583,
-            "evidence_role": "primary",
-            "author_quote": "We analyzed foraging return rate, sharing proclivity, cooperative foraging network centrality, and kin presence using data collected between 1970 and 2016, and we found that none of these factors were correlated with fertility or the number of surviving offspring in Batek hunter-gatherers.",
-            "evidence_quality": "thin",
-            "content": "Among the Batek of Peninsular Malaysia, 25 men and 19 women observed for an average of 39.7 days in 1975 to 1976 were followed for reproductive outcomes up to 2016. Foraging return rate, the number of people a person gave food to or received it from, cooperative foraging and the "
           }
         ]
       },
@@ -179378,7 +179426,7 @@
           "interbirth_interval_years": 3.7
         },
         "modern_default": "World births per woman fell from 4.84 in 1950 to 2.23 in 2021, and fell in every country. Among European women born in 1960, 10% (Greece, Spain) to 20% (Germany) had no child, a level also seen in women born around 1900. A US woman with three births has about three times the Dogon count of menstruations.",
-        "gap_statement": "Fewer children, fewer pregnancies and far more menstrual cycles. Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.",
+        "gap_statement": "Fewer children, fewer pregnancies and far more menstrual cycles. Each birth lowered the relative risk of breast cancer by 7.0 percent and each 12 months of breastfeeding by a further 4.3 percent across 47 studies in 30 countries, and the authors estimate that the births and breastfeeding usual in developing countries until recently would cut the cumulative risk by age 70 in developed countries from 6.3 to 2.7 per 100 women (Collaborative Group on Hormonal Factors in Breast Cancer 2002). Women in the top quarter of lifetime ovulatory cycles had 1.81 times the odds of ovarian cancer of women in the bottom quarter (Pelucchi et al. 2007). Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
@@ -179459,7 +179507,7 @@
         "code": "EEA-MATE-10",
         "domain": "mating_reproduction",
         "name": "Paternity and affairs (rates vary between societies)",
-        "eea_baseline": "Rates of children fathered outside the pair vary a lot between societies. In genetic studies of mostly European-descent populations, and in the Dogon of Mali, the rate is about 1 to 2%; across 67 studies the rate for men confident of their paternity was 1.9%. Among Himba pastoralists in Namibia it was 48%, and the community knew which children these were. In 53 of 76 lowland South American societies with data, people believe a child can have more than one father. No genetic paternity rate for a forager population was found.",
+        "eea_baseline": "Rates of children fathered outside the pair vary a lot between societies. In genetic studies of mostly European-descent populations, and in the Dogon of Mali, the rate is about 1 to 2%; across 67 studies the rate for men confident of their paternity was 1.9%. Within one European population over 500 years, the rate among married couples ranged from 0.4 to 5.9 percent, highest in poor families in crowded late-19th-century cities (Larmuseau et al. 2019). Among Himba pastoralists in Namibia it was 48%, and the community knew which children these were. In 53 of 76 lowland South American societies with data, people believe a child can have more than one father. No genetic paternity rate for a forager population was found.",
         "eea_value": {
           "himba": "48% (95% CI 32 to 66)",
           "partible_paternity_societies": "53 of 76 lowland South American",
@@ -179544,54 +179592,6 @@
         ]
       },
       {
-        "code": "EEA-MATE-09",
-        "domain": "mating_reproduction",
-        "name": "Sex and conception coupled",
-        "eea_baseline": "For foragers, sex led to pregnancy unless breastfeeding or low energy suppressed ovulation. Birth spacing of 3 to 4 years came from breastfeeding and the energy cost of lactation (EEA-MATE-05).",
-        "eea_value": null,
-        "modern_default": "Contraception separates sex from conception. In 2019, 47.7% of all women aged 15 to 49 worldwide used a modern method, 20.1 points more than in 1970, from 1.9% in South Sudan to 87.9% in Norway. In the US, the pill sped up the fall in marital fertility in the 1960s.",
-        "gap_statement": "Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.",
-        "resolution_unit": null,
-        "evidence_grade": "replicated",
-        "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. Background-tier evidence cited (abstract or book only): ext 875.",
-        "created_at": "2026-11-19T02:41:44.765155+00:00",
-        "updated_at": "2026-11-19T02:41:44.765155+00:00",
-        "mechanism_codes": [
-          "M14"
-        ],
-        "evidence": [
-          {
-            "extraction_id": 1031,
-            "evidence_role": "primary",
-            "author_quote": "Between 1970 and 2019, the global mCPR increased by 20·1 percentage points",
-            "evidence_quality": "replicated",
-            "content": "From 1,162 population surveys in 204 countries and territories, 51.9% of all women aged 15 to 49 were using some contraception in 2019 and 47.7% a modern method, up 20.1 percentage points since 1970. Modern method use ranged from 1.9% of women in South Sudan to 87.9% in Norway."
-          },
-          {
-            "extraction_id": 1032,
-            "evidence_role": "supporting",
-            "author_quote": "Without bans on the sales of contraception, the marital fertility rate would have been 8 percent lower in states with sales bans and 4 percent lower in the United States as a whole.",
-            "evidence_quality": "thin",
-            "content": "Using old US state laws that banned the sale of contraceptives (in force until the 1965 Griswold decision) as a natural experiment, Bailey finds that birth rates fell more slowly in states with sales bans after the pill arrived in 1957; by 1965 the gap was about 8 births per 1,00"
-          },
-          {
-            "extraction_id": 875,
-            "evidence_role": "supporting",
-            "author_quote": "Female ovarian function is particularly sensitive to energy balance and energy flux, resulting in a synchronization of conception with favorable energetic conditions",
-            "evidence_quality": "contested",
-            "content": "In a review of human reproductive energetics, Ellison reports that female ovarian function is particularly sensitive to energy balance and energy flux, that gestation length and birthweight are very sensitive to maternal energy availability, and that the duration of lactational a"
-          },
-          {
-            "extraction_id": 1001,
-            "evidence_role": "supporting",
-            "author_quote": "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4",
-            "evidence_quality": "replicated",
-            "content": "In five forager populations with full life tables, total fertility rate (births per woman surviving the reproductive years) was 8.2 among the Ache, 6.9 Agta, 6.2 Hadza, 5.5 Hiwi and 4.3 Ju/'hoansi, a forager mean of 6.2. Across 75 small-scale natural-fertility societies the mean "
-          }
-        ]
-      },
-      {
         "code": "EEA-MATE-08",
         "domain": "mating_reproduction",
         "name": "Sexual stimuli (real people vs unlimited images)",
@@ -179602,7 +179602,7 @@
         "resolution_unit": null,
         "evidence_grade": "meta_analysis",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.",
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026; across 74 data sets with 112,397 people in 16 countries, the strongest predictors of problem scores were frequency of use, use to avoid feelings or relieve stress, moral incongruence and sexual shame, Bőthe et al. 2024); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.",
         "created_at": "2026-11-19T02:41:35.172519+00:00",
         "updated_at": "2026-11-19T02:41:35.172519+00:00",
         "mechanism_codes": [
@@ -180017,7 +180017,7 @@
         "resolution_unit": "Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness), not total daily light dose or generic 'brightness'.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Pre-electric light exposure and sleep timing are measured in Hadza, San and Tsimane (Yetish et al. 2015), in Toba/Qom with and without electricity (de la Iglesia et al. 2015) and in natural-light camping studies; samples are small and modern foragers stand in for ancestral ones. Sleep onset averaged about 3.3 hours after sunset in Yetish et al.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Pre-electric light exposure and sleep timing are measured in Hadza, San and Tsimane (Yetish et al. 2015), in Toba/Qom with and without electricity (de la Iglesia et al. 2015) and in natural-light camping studies; samples are small and modern foragers stand in for ancestral ones. Sleep onset averaged about 3.3 hours after sunset in Yetish et al. In about 400,000 UK adults, each extra hour a day outdoors in daylight went with less frequent low mood and tiredness, fewer insomnia symptoms, an earlier chronotype and lower odds of antidepressant use (Burns et al. 2021).",
         "created_at": "2026-06-08T12:32:42.029442+00:00",
         "updated_at": "2026-06-08T23:21:58.017669+00:00",
         "mechanism_codes": [
@@ -180747,12 +180747,12 @@
           "outer_ceiling_approx": 150,
           "tribal_clan_grouping": "clusters in the low hundreds (ethnographic)"
         },
-        "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge.",
+        "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).",
         "gap_statement": "The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of 34.9 million users (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The 150 figure fails re-analysis of the primate regression it came from (Lindenfors, Wartel and Lind 2021, ext 619), so the layer sizes and the 150 ceiling are approximate. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of 34.9 million users (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The 150 figure fails re-analysis of the primate regression it came from (Lindenfors, Wartel and Lind 2021, ext 619), so the layer sizes and the 150 ceiling are approximate. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
         "created_at": "2026-06-08T11:58:43.891141+00:00",
         "updated_at": "2026-06-08T11:58:43.891141+00:00",
         "mechanism_codes": [
@@ -180960,7 +180960,7 @@
         "resolution_unit": "Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). The ancestral fiber figure (about 100 g a day or somewhat more against 20 g today) is a model estimate (Eaton 2006, ext 3605), which lowered the 100 to 150 g of Eaton and Konner's 1985 model (ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).",
+        "confidence_note": "Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). In a review of 185 prospective studies and 58 trials, the trials found lower bodyweight, systolic blood pressure and total cholesterol with more dietary fibre, and in the prospective studies the highest fibre intakes went with 15 to 30 percent less death from all causes and from cardiovascular disease, with the benefit greatest at 25 to 29 g a day and the dose-response curves pointing to more benefit at higher intakes (Reynolds et al. 2019). The ancestral fiber figure (about 100 g a day or somewhat more against 20 g today) is a model estimate (Eaton 2006, ext 3605), which lowered the 100 to 150 g of Eaton and Konner's 1985 model (ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).",
         "created_at": "2026-06-08T12:32:52.468179+00:00",
         "updated_at": "2026-06-08T12:32:52.468179+00:00",
         "mechanism_codes": [
@@ -181029,7 +181029,7 @@
         "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On child growth, among 127 Aka children grandmothers were the allomother most linked to better nutritional status, clearest from 9 months to 3 years (Meehan, Helfrecht and Quinlan 2014). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
         "created_at": "2026-06-08T12:32:37.55163+00:00",
         "updated_at": "2026-06-08T12:32:37.55163+00:00",
         "mechanism_codes": [
@@ -187485,6 +187485,19 @@
       "R1": 133
     },
     "eea_by_mechanism": {
+      "M14": [
+        "EEA-MATE-09",
+        "EEA-SOC-13",
+        "EEA-MATE-06",
+        "EEA-MATE-07",
+        "EEA-MATE-04",
+        "EEA-MATE-05",
+        "EEA-MATE-10",
+        "EEA-MATE-08",
+        "EEA-MATE-03",
+        "EEA-MATE-01",
+        "EEA-MATE-02"
+      ],
       "M11": [
         "EEA-SOC-05",
         "EEA-SOC-03",
@@ -187526,6 +187539,22 @@
         "EEA-SOC-20",
         "EEA-SOC-01",
         "EEA-CARE-04"
+      ],
+      "M5": [
+        "EEA-SOC-13",
+        "EEA-INFO-01",
+        "EEA-INFO-02",
+        "EEA-MATE-06",
+        "EEA-MATE-07",
+        "EEA-SOC-12",
+        "EEA-SOC-14",
+        "EEA-SOC-15",
+        "EEA-SOC-19",
+        "EEA-SOC-10",
+        "EEA-MATE-02",
+        "EEA-SOC-11",
+        "EEA-SOC-01",
+        "EEA-SOC-09"
       ],
       "M1": [
         "EEA-SOC-08",
@@ -187579,41 +187608,13 @@
         "EEA-DIET-04",
         "EEA-DIET-02"
       ],
-      "M5": [
-        "EEA-INFO-01",
-        "EEA-INFO-02",
-        "EEA-MATE-06",
-        "EEA-MATE-07",
-        "EEA-SOC-12",
-        "EEA-SOC-13",
-        "EEA-SOC-14",
-        "EEA-SOC-15",
-        "EEA-SOC-19",
-        "EEA-SOC-10",
-        "EEA-MATE-02",
-        "EEA-SOC-11",
-        "EEA-SOC-01",
-        "EEA-SOC-09"
-      ],
-      "M14": [
-        "EEA-MATE-06",
-        "EEA-MATE-07",
-        "EEA-SOC-13",
-        "EEA-MATE-04",
-        "EEA-MATE-05",
-        "EEA-MATE-10",
-        "EEA-MATE-09",
-        "EEA-MATE-08",
-        "EEA-MATE-03",
-        "EEA-MATE-01",
-        "EEA-MATE-02"
-      ],
       "M8": [
         "EEA-THREAT-01",
         "EEA-THREAT-03"
       ]
     },
     "eea_by_domain": {
+      "mating_reproduction": 10,
       "social_structure": 19,
       "care_development": 4,
       "touch_contact": 3,
@@ -187621,15 +187622,14 @@
       "subsistence_timeuse": 4,
       "diet_metabolic": 4,
       "information_environment": 2,
-      "mating_reproduction": 10,
       "threat_safety": 4
     },
     "eea_by_grade": {
-      "thin": 12,
       "replicated": 24,
+      "thin": 12,
+      "meta_analysis": 2,
       "theoretical": 12,
-      "contested": 3,
-      "meta_analysis": 2
+      "contested": 3
     }
   },
   "background": {
