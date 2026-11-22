@@ -15,6 +15,12 @@
     set("pv-eea-count", c.eea_parameters || (D.eeaParameters ? D.eeaParameters().length : 0));
     var ch = D.challenges ? D.challenges() : null;
     set("pv-ch-count", ch && ch.rows ? ch.rows.length : 0);
+    var cr = (global.COR_SNAPSHOT || {}).criticism;
+    var n = cr && cr.counts ? cr.counts : {};
+    set("pv-chg-count", n.changed);
+    set("pv-kd-count", n.knocked_down);
+    set("pv-wk-count", n.weaker);
+    set("pv-sa-count", n.set_aside);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run);
   else run();

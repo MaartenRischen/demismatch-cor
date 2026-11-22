@@ -79,6 +79,24 @@ for dir in "${PUBLIC_DIRS[@]}"; do
   rsync -a --delete --exclude=".DS_Store" "$ROOT/$dir/" "$DIST/$dir/"
 done
 
+# --- Home counts of what went against Cor (22 Nov 2026): stamped into the static index.html from the baked
+# snapshot, so the numbers are in the HTML without JavaScript and none is typed by hand. js/home-counts.js sets
+# the same spans again in the browser.
+python3 - "$DIST/index.html" "$DIST/data/snapshot.json" <<'PYSTAMP'
+import json, re, sys
+page, snap = sys.argv[1], json.load(open(sys.argv[2], encoding="utf-8"))
+cr = (snap.get("criticism") or {}).get("counts") or {}
+vals = {"pv-ch-count": len(snap["tables"].get("challenges") or []), "pv-chg-count": cr.get("changed"),
+        "pv-kd-count": cr.get("knocked_down"), "pv-wk-count": cr.get("weaker"), "pv-sa-count": cr.get("set_aside")}
+t = open(page, encoding="utf-8").read()
+for k, v in vals.items():
+    if not v: raise SystemExit(f"home count {k} missing from snapshot")
+    t, n = re.subn(r'(<span id="%s">)[^<]*(</span>)' % k, r"\g<1>%d\g<2>" % v, t)
+    if n != 1: raise SystemExit(f"home count span {k} found {n} times in index.html")
+open(page, "w", encoding="utf-8").write(t)
+print("  home counts stamped:", vals)
+PYSTAMP
+
 cp "$ROOT/.nojekyll" "$DIST/.nojekyll"
 
 echo "Built publishable site in $DIST"

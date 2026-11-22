@@ -474,13 +474,59 @@
           citeHTML +
           "</article>";
       }).join("") + "</div>";
-      // Rows taken off the counted list stay named, each with its reason.
-      var aside = D.table("challenges_set_aside") || [];
-      if (aside.length) {
-        html += '<div class="ref-sub ref-set-aside"><span class="ref-sub-lbl">Set aside, not counted above</span>' +
-          '<ul class="ref-lit">' + aside.map(function (a) {
-            return "<li><strong>" + clean(a.citation) + "</strong>, " + clean(a.title) + ". " + clean(a.reason) + "</li>";
-          }).join("") + "</ul></div>";
+      // What went against Cor and what Cor did about it (22 Nov 2026). Every number below is counted from the
+      // baked data (build-snapshot.py, build_criticism): sentences changed because a study went against them,
+      // findings that did not hold in a stronger test, and the set-aside records grouped by reason.
+      var cr = (window.COR_SNAPSHOT || {}).criticism || null;
+      if (cr) {
+        var studyLinks = function (list) {
+          return (list || []).map(function (t) {
+            return '<a href="' + esc(t.url) + '">' + clean(t.cite) + "</a>";
+          }).join(" ");
+        };
+        var n = cr.counts || {};
+        html = '<p class="ref-ch-lead">Cor counts ' + (ch.rows || []).length + " records against itself, listed first below. " +
+          'It also changed <a href="#ref-ch-changed">' + n.changed + " of its own sentences</a> because a study went against them, " +
+          'marked <a href="#ref-ch-knocked">' + n.knocked_down + " findings</a> that did not hold, in whole or in part, in a stronger test and <a href=\"#ref-ch-weaker\">" + n.weaker + " that a larger test found weaker</a>, and set aside " +
+          '<a href="#ref-ch-aside">' + n.set_aside + " records</a> filed against it, grouped by reason.</p>" + html;
+        html += '<div class="ref-sub ref-ch-block" id="ref-ch-changed"><h3 class="ref-ch-h">Sentences Cor changed because a study went against them (' + n.changed + ")</h3>" +
+          '<ol class="ref-ch-list">' + (cr.changed || []).map(function (c) {
+            return '<li class="ref-ch-item"><p class="ref-ch-meta">' + esc(c.date) + " " + chip(c.code) + "</p>" +
+              '<p class="ref-ch-old"><span class="ref-ch-k">Was</span> ' + clean(c.old) + "</p>" +
+              '<p class="ref-ch-new"><span class="ref-ch-k">Now</span> ' + clean(c.new) + "</p>" +
+              '<p class="ref-ch-study"><span class="ref-ch-k">Study</span> ' + studyLinks(c.studies) + "</p></li>";
+          }).join("") + "</ol></div>";
+        var knockItem = function (k, label) {
+          return '<li class="ref-ch-item"><p class="ref-ch-meta"><a href="' + esc(k.url) + '">' + clean(k.cite) + "</a></p>" +
+            '<p class="ref-ch-old"><span class="ref-ch-k">Finding</span> ' + clean(k.content) + "</p>" +
+            '<p class="ref-ch-new"><span class="ref-ch-k">' + label + (k.date ? " (" + esc(k.date) + ")" : "") + "</span> " + clean(k.note) + "</p>" +
+            ((k.tests || []).length ? '<p class="ref-ch-study"><span class="ref-ch-k">Test</span> ' + studyLinks(k.tests) + "</p>" : "") + "</li>";
+        };
+        html += '<div class="ref-sub ref-ch-block" id="ref-ch-knocked"><h3 class="ref-ch-h">Findings that did not hold, in whole or in part, in a stronger test (' + n.knocked_down + ")</h3>" +
+          '<ol class="ref-ch-list">' + (cr.knocked_down || []).map(function (k) { return knockItem(k, "Did not hold"); }).join("") + "</ol>";
+        if ((cr.weaker || []).length) {
+          html += '<h4 class="ref-ch-h4" id="ref-ch-weaker">Findings a larger test found weaker (' + n.weaker + ")</h4>" +
+            '<ol class="ref-ch-list">' + cr.weaker.map(function (k) { return knockItem(k, "Weaker in a larger test"); }).join("") + "</ol>";
+        }
+        html += "</div>";
+        html += '<div class="ref-sub ref-ch-block ref-set-aside" id="ref-ch-aside"><h3 class="ref-ch-h">Records set aside, not counted above (' + n.set_aside + ")</h3>" +
+          '<p class="ref-ch-rule">A record counts against Cor only if it would be good enough to count for Cor: a test, not outweighed by a larger or better study, at least as strong as the evidence behind the sentence it goes against, and measuring the same thing. Every record below stays in the atlas.</p>' +
+          (cr.set_aside_groups || []).map(function (g) {
+            return '<details class="ref-ch-group"><summary><strong>' + clean(g.label) + "</strong> (" + g.count + ")</summary>" +
+              '<p class="ref-ch-sum">' + clean(g.summary) + "</p>" +
+              '<ul class="ref-lit">' + g.rows.map(function (a) {
+                return "<li><strong>" + clean(a.citation) + "</strong>, " + clean(a.title) + ". " + clean(a.reason) + "</li>";
+              }).join("") + "</ul></details>";
+          }).join("") + "</div>";
+      } else {
+        // Older bake without the criticism block: the flat list, each record with its reason.
+        var aside = D.table("challenges_set_aside") || [];
+        if (aside.length) {
+          html += '<div class="ref-sub ref-set-aside"><span class="ref-sub-lbl">Set aside, not counted above</span>' +
+            '<ul class="ref-lit">' + aside.map(function (a) {
+              return "<li><strong>" + clean(a.citation) + "</strong>, " + clean(a.title) + ". " + clean(a.reason) + "</li>";
+            }).join("") + "</ul></div>";
+        }
       }
     } else {
       html =

@@ -3,7 +3,7 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-22 10:31 UTC, from the live Cor atlas snapshot built 2026-11-22 10:30 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-22 13:58 UTC, from the live Cor atlas snapshot built 2026-11-22 13:57 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3361 works, 5099 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -579,7 +579,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - Fewer children, fewer pregnancies and far more menstrual cycles. Each birth lowered the relative risk of breast cancer by 7.0 percent and each 12 months of breastfeeding by a further 4.3 percent across 47 studies in 30 countries, and the authors estimate that the births and breastfeeding usual in developing countries until recently would cut the cumulative risk by age 70 in developed countries from 6.3 to 2.7 per 100 women (Collaborative Group on Hormonal Factors in Breast Cancer 2002). Women in the top quarter of lifetime ovulatory cycles had 1.81 times the odds of ovarian cancer of women in the bottom quarter (Pelucchi et al. 2007). Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
 
 **What gets a person chosen, and how unequal men are** (tested many times)
-  - Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
+  - Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and the sex differences in stated preferences barely show up in whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
 
 **Rivals and comparison** (argued, not yet tested)
   - The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
@@ -691,4 +691,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 10:30 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-22 10:31 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-22 13:57 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-22 13:58 UTC.*

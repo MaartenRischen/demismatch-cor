@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-22T10:30:56.114782+00:00",
+    "source_built_at": "2026-11-22T13:57:57.663204+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -40,7 +40,7 @@
     "parameter_evidence": 449,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 15
+    "challenges": 14
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -57,7 +57,7 @@
         "code": "OF2",
         "layer": "frame",
         "name": "Signal-Default Epistemology",
-        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands). Reading the signal as information is no argument against relieving it. The default is displaced in two ways. A clear physical defect displaces it outright, whether a test has found it yet or not, and the output is then a symptom of that defect: acute organic disease or state shift (an infection or autoimmune disease, an endocrine disease such as a thyroid fault, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. A setting left by deprivation far outside the evolved range (DA7) and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers that setting, or a loop that keeps running, more than the present input. An ordinary hard childhood is no such setting: it explains little of how an adult feels (DA7). Sleep loss and low-grade inflammation that a mismatched life produces also displace the reading of the current input without making the output a disease. A marker that only shows sensitivity is no defect. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease.",
+        "statement": "Motivational-emotional outputs are treated as prima facie informative about the organism's regulated conditions, by default. The signal is read as information about input conditions and current state, not as noise to be suppressed. This is a diagnostic default, not a presumption of veridicality (OF1 stands). Reading the signal as information is no argument against relieving it. The default is displaced in two ways. A clear physical defect displaces it outright, whether a test has found it yet or not, and the output is then a symptom of that defect: acute organic disease or state shift (an infection or autoimmune disease, an endocrine disease such as a thyroid fault, delirium), structural damage, a large-effect genetic variant with measurable physical effects, and substance or medication effects. A setting left by deprivation far outside the evolved range (DA7) and chronic dysregulation displace the reading of the current input without making the output a disease: the output answers that setting, or a loop that keeps running, more than the present input. An ordinary hard childhood is no such setting, and even maltreatment, once genes and family are adjusted for, explains little of how an adult feels (DA7). Sleep loss and low-grade inflammation that a mismatched life produces also displace the reading of the current input without making the output a disease. A marker that only shows sensitivity is no defect. Chronic dysregulation counts as a physical cause only where a clear defect is behind it, such as an infection or another separate disease.",
         "derivation": "Frame layer, sibling of OF1. Methodological commitment that follows from P2 + DA1 + DA7: if the architecture is domain-sensitive (P2), and aversive outputs are intelligible defensive signals (DA1), and the architecture calibrates to developmental input (DA7), then the default reading of any mechanism output must be accurate to the environment the mechanism was calibrated for. Decoupling is the exception requiring evidence.",
         "epistemic_grade": "frame"
       },
@@ -328,7 +328,7 @@
       {
         "code": "C7",
         "name": "Adverse Experience Cascading Dose-Response",
-        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no significant effect (ext 1653) of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines.",
+        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). The convergence now stands on two lines.",
         "forces_mechanism": null,
         "independent_literatures": [
           "McEwen allostatic load neuroendocrinology",
@@ -364,7 +364,7 @@
       {
         "code": "C12",
         "name": "Developmental Calibration within Evolved Ranges",
-        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality and attachment: adoptive siblings reared together correlate .04 in personality (ext 2880), and attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
+        "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality: adoptive siblings reared together correlate .04 (ext 2880). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
         "forces_mechanism": null,
         "independent_literatures": [
           "Nelson, Zeanah and Fox Bucharest Early Intervention Project (randomised trial)",
@@ -769,7 +769,7 @@
         {
           "code": "C12",
           "name": "Developmental Calibration within Evolved Ranges",
-          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality and attachment: adoptive siblings reared together correlate .04 in personality (ext 2880), and attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
+          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality: adoptive siblings reared together correlate .04 (ext 2880). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
         }
       ]
     },
@@ -867,7 +867,7 @@
         {
           "code": "C7",
           "name": "Adverse Experience Cascading Dose-Response",
-          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no significant effect (ext 1653) of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines."
+          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). The convergence now stands on two lines."
         },
         {
           "code": "C9",
@@ -1074,7 +1074,7 @@
         {
           "code": "C12",
           "name": "Developmental Calibration within Evolved Ranges",
-          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality and attachment: adoptive siblings reared together correlate .04 in personality (ext 2880), and attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
+          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality: adoptive siblings reared together correlate .04 (ext 2880). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
         }
       ]
     },
@@ -1171,7 +1171,7 @@
         {
           "code": "C7",
           "name": "Adverse Experience Cascading Dose-Response",
-          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the dose-response wording in the name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall, about half of it is carried by genes and family for psychiatric outcomes, and a genetic analysis found no significant effect (ext 1653) of childhood maltreatment on heart disease, diabetes or inflammation. The convergence now stands on two lines."
+          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). The convergence now stands on two lines."
         },
         {
           "code": "C9",
@@ -1292,7 +1292,7 @@
         {
           "code": "C12",
           "name": "Developmental Calibration within Evolved Ranges",
-          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality and attachment: adoptive siblings reared together correlate .04 in personality (ext 2880), and attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
+          "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality: adoptive siblings reared together correlate .04 (ext 2880). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall."
         }
       ]
     },
@@ -1566,7 +1566,7 @@
       "name": "Energy Regulation",
       "grade": "strongly_supported",
       "tier": 2,
-      "description": "Pontzer's constrained energy model. Part of the energy spent in activity is made up elsewhere in the body: about 28 percent in adults living ordinary lives (ext 2346).",
+      "description": "Pontzer's constrained energy model. Part of the energy spent in activity is offset by lower basal expenditure: about 28 percent in adults living ordinary lives (ext 2346).",
       "eli5": "Hunger, satiety, and constrained total energy expenditure.",
       "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
       "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
@@ -2351,7 +2351,7 @@
           "relatedness_qualitative": "low; most campmates unrelated or distantly related",
           "primary_kin_fraction_of_camp": "<~0.10"
         },
-        "modern_default": "Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small, seldom all within reach (in the US three in four adults have a parent or grown child within 30 miles, about a third have all of them that near, and 13 percent share a home with one; Choi et al. 2020, ext 4204), and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.",
+        "modern_default": "Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small and, for about two in three adults, not all within reach (in the US, of adults with a living parent or grown child, three in four have one within 30 miles, about a third have all of them that near, and 13 percent share a home with one; Choi et al. 2020, ext 4204), and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.",
         "gap_statement": "The ancestral signal was: 'the group around me is mostly unrelated people I (or my band) actively chose and continuously vetted through reciprocity and reputation; kinship is not what holds us together, the relationships are.' The modern signal is degraded on the selection axis: the unrelated people around us are still mostly unrelated (that part matches), but they are assigned rather than chosen, and the reciprocity/reputation machinery that turned unrelated campmates into durable trusted allies is largely absent or shallow. Mechanisms M3 (bonding) and M11 (cooperation/alliance) evolved expecting that low kin-relatedness would be compensated by self-selected, reciprocal, reputation-anchored dyads. Modernity delivers the low relatedness WITHOUT the compensating chosen-and-vetted dyadic structure, so the mechanisms fire in a world of unrelated-but-also-unbonded co-residents, which is a key part of why being surrounded by people can still register as social isolation.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
@@ -2435,7 +2435,7 @@
             "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "Across the three intervals, the mean proportion of repeated campmates was 12.1%.",
-            "content": "Across 6 years / 4 waves, Hadza camps continuously dissolve and reconstitute: only about 12% of campmates repeat from one survey wave to the next (waves 1 to 3 years apart), yet cooperative assortment persists."
+            "content": "Across 6 years / 4 waves, Hadza camps continuously dissolve and reconstitute: of all the people a person lived with at either of two successive survey waves, only about 12% lived with them at both (waves 1 to 3 years apart), yet cooperative assortment persists."
           },
           {
             "extraction_id": 604,
@@ -3095,12 +3095,12 @@
           "status_rs_r": "0.19 (33 societies, men)",
           "nonhuman_primate_r": 0.8
         },
-        "modern_default": "In industrial societies the link between men's status and number of children is weak, and the sexes differ: men with higher incomes still have more children, mainly because poor men more often stay childless, while higher income in women and more education in both sexes typically go with fewer children (Stulp and Barrett 2016). Professional status-seeking takes the time and money that children need.",
+        "modern_default": "In industrial societies the link between men's status and number of children is weaker than in pre-industrial societies, and the sexes differ: men with higher incomes still have more children, mainly because poor men more often stay childless, while higher income in women and more education in both sexes typically go with fewer children (ext 5072). Professional status-seeking takes the time and money that children need.",
         "gap_statement": "Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. Across industrial populations, wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, and income went with more children in men and fewer in women (Stulp and Barrett 2016); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).",
         "resolution_unit": null,
         "evidence_grade": "meta_analysis",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583); with 44 adults, where the authors calculate that about 200 are needed to detect the average forager effect (ext 1584), the study was too small to test it. Two studies measured raiding: among the Waorani, men who raided more often than average did not have more wives or children (ext 897); among the Nyangatom, younger men's raiding showed no link to wives or children, while elders whom peers named as prolific raiders had more of both (ext 892). The modern link is tested: in industrial populations wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, men's income went with more children and women's income and education with fewer (Stulp and Barrett 2016); not graded here. Background-tier evidence cited (abstract or book only): ext 770, 897.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583); with 44 adults, where the authors calculate that about 200 are needed to detect the average forager effect (ext 1584), the study was too small to test it. Two studies measured raiding: among the Waorani, men who raided more often than average did not have more wives or children (ext 897); among the Nyangatom, younger men's raiding showed no link to wives or children, while elders whom peers named as prolific raiders had more of both (ext 892). The modern link is tested: in industrial populations wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, men's income went with more children and women's income and education with fewer (Stulp and Barrett 2016); the grade of this row covers the ancestral link only. Background-tier evidence cited (abstract or book only): ext 770, 897.",
         "mechanism_codes": [
           "M14",
           "M5"
@@ -3143,7 +3143,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "You are engaged in maladaptive behavior right now.",
-            "content": "Modern middle-class reproductive restraint is a striking maladaptation: professional status-seeking consumes resources (time, money, effort) needed for reproduction. Evolved psychology for status competition in Pleistocene tribal contexts now causes fitness loss in modern economi"
+            "content": "Modern middle-class reproductive restraint is a striking maladaptation: professional status-seeking consumes resources (time, money, effort) needed for reproduction. Most evolutionary social scientists hold that evolved psychology for status competition in Pleistocene foraging so"
           },
           {
             "extraction_id": 897,
@@ -4264,11 +4264,11 @@
           "rs_variance_ratio_male_to_female": "Aka 1.66, !Kung 1.77, Hadza 1.93, Ache 4.22 (Brown et al. 2009)"
         },
         "modern_default": "Stated preferences keep the same sex differences across 45 countries (14,399 people): men weight looks and youth more, women earning prospects and an older partner. On dating sites attention concentrates on a few. In the US, the share of men aged 18 to 24 with no sex in the past year rose from 18.9% (2000 to 2002) to 30.9% (2016 to 2018), and men with lower income and no full-time work were more often sexually inactive.",
-        "gap_statement": "Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and stated preferences barely predict whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.",
+        "gap_statement": "Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and the sex differences in stated preferences barely show up in whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times that good hunters and high-status men had more children (ext 770, ext 731) and that male variance in reproductive success is higher on average (Brown et al. 2009, 18 populations). The size of the sex gap varies with the marriage system (Brown et al. 2009, ext 1003), as the baseline states. Stated preferences barely predict whom people like when they meet (Eastwick et al. 2014, ext 757), as the gap statement states. Across 45 countries (14,399 people), gender equality was not robustly related to the sex differences in stated preferences, except for financial prospects and partner age (Walter et al. 2020, ext 695, 999); Zentner and Mitura 2012 (ext 1009) found smaller gaps with more parity across 10 nations, and 31 in a re-analysis of Buss's 1989 data. Modern sexual inactivity: one survey series (Ueda et al. 2020). Background-tier evidence cited (abstract or book only): ext 770, 771, 692, 694, 1009, 757, 805. Among 44 Batek adults followed for 45 years, foraging return and sharing were unrelated to fertility and to surviving children (Kraft et al. 2019, ext 1583); the authors calculate that about 200 people are needed to detect the average forager effect (ext 1584), so the study was too small to test it.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times that good hunters and high-status men had more children (ext 770, ext 731) and that male variance in reproductive success is higher on average (Brown et al. 2009, 18 populations). The size of the sex gap varies with the marriage system (Brown et al. 2009, ext 1003), as the baseline states. The sex differences in stated preferences barely show up in whom people like when they meet (Eastwick et al. 2014, ext 757), as the gap statement states. Across 45 countries (14,399 people), gender equality was not robustly related to the sex differences in stated preferences, except for financial prospects and partner age (Walter et al. 2020, ext 695, 999); Zentner and Mitura 2012 (ext 1009) found smaller gaps with more parity across 10 nations, and 31 in a re-analysis of Buss's 1989 data. Modern sexual inactivity: one survey series (Ueda et al. 2020). Background-tier evidence cited (abstract or book only): ext 770, 771, 692, 694, 1009, 757, 805. Among 44 Batek adults followed for 45 years, foraging return and sharing were unrelated to fertility and to surviving children (Kraft et al. 2019, ext 1583); the authors calculate that about 200 people are needed to detect the average forager effect (ext 1584), so the study was too small to test it.",
         "mechanism_codes": [
           "M14",
           "M5"
@@ -4689,7 +4689,7 @@
         "domain": "care_development",
         "domain_display": "Care & development",
         "name": "Alloparental care supply (a village, not a dyad)",
-        "eea_baseline": "Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This was not a cultural add-on but species architecture: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.",
+        "eea_baseline": "Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This is part of human biology: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.",
         "eea_value": {
           "note": "Specific aggregate 'alloparent count ~4+' and a generic '40-50% of care delivered by allomothers' figure are widely cited in the literature but are NOT verbatim-grounded in Cor's extractions; only the Hadza ~69/31 mother/allomother holding split and the qualitative multi-caregiver pattern are. Numbers given are the extraction-supported anchors, not an asserted universal mean.",
           "unit": "qualitative_plus_anchors",
@@ -4734,7 +4734,7 @@
             "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
-            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
+            "content": "Humans produce the largest, slowest-maturing, most costly babies of any ape yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is through"
           },
           {
             "extraction_id": 22,
@@ -5074,7 +5074,7 @@
         "domain": "care_development",
         "domain_display": "Care & development",
         "name": "Multigenerational presence (older people inside the band's giving and getting)",
-        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food, care and knowledge where they could, and they were given to. Project position (21 Nov 2026): reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species found only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
+        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food (ext 2063, 3088), care (ext 2084) and knowledge (ext 3827) where they could, and they were given to (ext 3088, 3665). The project's position: reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). Human longevity itself is bound up with this role: the grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species, longer than chance only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
         "eea_value": null,
         "modern_default": "Modern households are frequently bi-generational or single-generation: grandparents commonly live separately, often at a geographic distance, outside the family's daily giving and getting. In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209). Where grandparents are present they are often less physically active and less part of the family's daily life than in a band of several generations.",
         "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.",
@@ -5103,7 +5103,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule.",
-            "content": "Humans produce the largest, slowest-maturing, most costly babies of any primate yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is thr"
+            "content": "Humans produce the largest, slowest-maturing, most costly babies of any ape yet breed the fastest (every 3-4 years vs. 6-8 years for other apes). This paradox requires approximately 13 million calories per child from birth to independence. The only way this is possible is through"
           },
           {
             "extraction_id": 274,
@@ -5218,7 +5218,7 @@
             "evidence_role": "primary",
             "evidence_quality": "clinical",
             "author_quote": "We have since found that moderate pressure is key to the massage therapy effects. We massage babies from head to foot (all but their chests and stomachs; they do not want to be touched there, most likely because that is where all the tubes have been inserted). The babies who were massaged gained 47 percent more weight than those not massaged, a significant weight gain.",
-            "content": "Field's foundational premature-infant massage finding: infants massaged from head to foot (excluding chest and stomach where IVs were inserted) gained 47 percent more weight than unmassaged infants. This established touch as a quantifiable developmental input with direct physiolo"
+            "content": "Field's foundational premature-infant massage finding: infants massaged from head to foot (excluding chest and stomach where the tubes were inserted) gained 47 percent more weight than unmassaged infants. This established touch as a quantifiable developmental input with direct ph"
           },
           {
             "extraction_id": 89,
@@ -5246,21 +5246,21 @@
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "Tana was raised in a Romanian orphanage. At age seven, relief workers found her all skin and bones and only half the height of a normal child her age.",
-            "content": "Touch deprivation in Romanian orphanages produced devastating consequences: children were skeletal, half normal height, unable to walk or run. After months of regular nutrition and massage therapy, orphanage children recovered physically - illustrating that touch is not merely pl"
+            "content": "Touch deprivation in Romanian orphanages produced devastating consequences: children were skeletal, half normal height, barely able to walk. After months of regular nutrition and massage therapy, orphanage children recovered physically - illustrating that touch is not merely plea"
           },
           {
             "extraction_id": 418,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
-            "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
+            "content": "Some human cultures live skin-to-skin with virtually everyone, passing their babies from person to person from very early on. Northern societies such as Holland, Great Britain and the United States are not contact societies, and the United States has touch taboos. The reduction o"
           },
           {
             "extraction_id": 295,
             "evidence_role": "supporting",
             "evidence_quality": "thin",
             "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
-            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
+            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the dramatic cros"
           },
           {
             "extraction_id": 537,
@@ -5393,7 +5393,7 @@
             "extraction_id": 386,
             "evidence_role": "primary",
             "evidence_quality": "cross_species",
-            "author_quote": "Monkey grooming is not about removing fleas. Rather, it is about the intimacy of massage. The physical stimulation of the skin triggers the release of endorphins in the brain.",
+            "author_quote": "Contrary to popular imagination, monkey grooming is not about removing fleas. It is not even just about removing the bits of debris and vegetation that clog up the fur during a day's foraging, though it certainly does this. Rather, it is about the intimacy of massage. The physical stimulation of the skin triggers the release of endorphins in the brain.",
             "content": "Primate grooming is not about removing fleas - it is about the intimacy of massage. Physical stimulation of the skin triggers endorphin release in the brain. Low-level pain associated with generalized stresses is dealt with by the endorphin system, creating a sense of wellbeing a"
           },
           {
@@ -5415,14 +5415,14 @@
             "evidence_role": "supporting",
             "evidence_quality": "thin",
             "author_quote": "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not.",
-            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts in one hour varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the d"
+            "content": "Jourard's cross-cultural café-touch observations, reported by Field: in cafés where two people shared coffee, the number of physical contacts varied from 0 (London) to 2 (Gainesville Florida) to 110 (Paris) to more than 180 (San Juan Puerto Rico). This documents the dramatic cros"
           },
           {
             "extraction_id": 418,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone.",
-            "content": "Many human cultures live skin-to-skin with virtually everyone, maintaining continuous physical contact as the primary mode of social interaction. Modern Western cultures are historically unusual in the degree of touch avoidance and personal-space norms. The reduction of casual ph"
+            "content": "Some human cultures live skin-to-skin with virtually everyone, passing their babies from person to person from very early on. Northern societies such as Holland, Great Britain and the United States are not contact societies, and the United States has touch taboos. The reduction o"
           }
         ],
         "evidence_count": 5
@@ -5468,7 +5468,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
             "author_quote": "Central to many of the questions in the opening paragraph is the powerful sculpting force of your twenty-four-hour rhythm, also known as your circadian rhythm.",
-            "content": "The circadian rhythm - the twenty-four-hour biological pacemaker - orchestrates immune function, metabolic timing, hormonal release, body temperature, and cognitive performance. The suprachiasmatic nucleus generates this rhythm and is synchronized by light-dark cycles. Artificial"
+            "content": "The circadian rhythm - the twenty-four-hour biological pacemaker - orchestrates mood, metabolic timing, hormonal release, body temperature, and cognitive performance. The suprachiasmatic nucleus generates this rhythm and is synchronized by light-dark cycles. Artificial lighting,"
           },
           {
             "extraction_id": 82,
@@ -5541,7 +5541,7 @@
         "domain": "circadian_sensory",
         "domain_display": "Circadian & sensory",
         "name": "Sleep timing/phase alignment to the biological night (not a fixed duration target)",
-        "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset about three hours after sunset (3.3 hours on average among Hadza, San and Tsimane, ext 2224; about three hours in rural Haiti without electricity, ext 3903), offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813), but the load-bearing ancestral feature is the alignment of the sleep episode to circadian phase, not hitting a particular hour count. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
+        "eea_baseline": "Ancestrally, sleep occurred within a stable phase relationship to the solar/circadian night: onset about three hours after sunset (3.3 hours on average among Hadza, San and Tsimane, ext 2224; about three hours in rural Haiti without electricity, ext 3903), offset near or before dawn, with the sleep episode anchored to internal circadian time. Field data from three preindustrial societies (Hadza, San, Tsimane) place habitual sleep within a window in the rough range of ~6-7 hours of nocturnal sleep; subsistence horticulturalists on Tanna, Vanuatu, slept about 7.4 to 7.9 hours (ext 2813). The ancestral feature that counts is the alignment of the sleep episode to circadian phase; the hour count differed between groups. Total nightly sleep duration in such groups is modest and overlaps the lower end of modern recommendations; there is no evidence of a hard-wired 8-9 hour requirement.",
         "eea_value": null,
         "modern_default": "Industrial schedules set wake (and increasingly sleep) times by clock and alarm rather than by internal time, producing chronic 'social jetlag' - a standing offset between the endogenous circadian phase and the socially imposed sleep window. In a large Central-European dataset ~69% experience >=1 hour of social jetlag and about one-third >=2 hours; ~80% of workers wake by alarm; population chronotype has drifted later while workday sleep has shortened.",
         "gap_statement": "The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024), and in the high-quality studies of a review of 68 with higher body mass index, waist, systolic blood pressure and HbA1c (Bouman et al. 2023). In 60,977 UK adults, regular sleep and wake times predicted lower mortality more strongly than sleep duration did (Windred et al. 2024). Chasing a duration number while ignoring phase misses the operative variable.",
@@ -5739,14 +5739,14 @@
             "evidence_role": "primary",
             "evidence_quality": "theoretical",
             "author_quote": "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress.",
-            "content": "Modern sedentary lifestyle is directly mismatched with ancestral activity patterns. Walking or running 10+ kilometers daily, climbing trees, throwing, eschewing chairs, and sleeping on hard surfaces were normal for most of human evolutionary history. The primal-lifestyle movement"
+            "content": "Modern sedentary lifestyle is directly mismatched with ancestral activity patterns. Walking 9 (women) to 15 (men) kilometers daily when foraging, climbing trees, throwing, eschewing chairs, and sleeping on hard surfaces were normal for most of human evolutionary history. The prim"
           },
           {
             "extraction_id": 197,
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
             "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
-            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
+            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding about an hour of exercise per day to a sedentary Westerner's routine."
           },
           {
             "extraction_id": 288,
@@ -5862,7 +5862,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "thin",
             "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
-            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
+            "content": "Lack of predictability and control over stressors is so aversive that many subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
           },
           {
             "extraction_id": 810,
@@ -5918,7 +5918,7 @@
           {
             "extraction_id": 397,
             "evidence_role": "supporting",
-            "evidence_quality": "replicated",
+            "evidence_quality": "cross_species",
             "author_quote": "The SEEKING, or expectancy, system is characterized by a persistent exploratory inquisitiveness. This system engenders energetic forward locomotion - approach and engagement with the world - as an animal probes into the nooks and crannies of interesting places, objects, and events in ways that are characteristic of its species.",
             "content": "The SEEKING system is characterized by persistent exploratory inquisitiveness. It engenders energetic forward locomotion - approach and engagement with the world - as animals probe nooks and crannies of interesting places, objects, and events. This system holds a special place am"
           }
@@ -5968,7 +5968,7 @@
             "evidence_role": "primary",
             "evidence_quality": "replicated",
             "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
-            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
+            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding about an hour of exercise per day to a sedentary Westerner's routine."
           },
           {
             "extraction_id": 200,
@@ -6188,14 +6188,14 @@
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
             "author_quote": "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals.",
-            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding one hour of walking per day to a sedentary Westerner's routine. Hunter"
+            "content": "Physical Activity Level (PAL) data across populations reveals the surprising result that typical hunter-gatherers are only about 15% more active than industrialized people with desk jobs - equivalent to adding about an hour of exercise per day to a sedentary Westerner's routine."
           },
           {
             "extraction_id": 427,
             "evidence_role": "supporting",
             "evidence_quality": "theoretical",
             "author_quote": "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress.",
-            "content": "Modern sedentary lifestyle is directly mismatched with ancestral activity patterns. Walking or running 10+ kilometers daily, climbing trees, throwing, eschewing chairs, and sleeping on hard surfaces were normal for most of human evolutionary history. The primal-lifestyle movement"
+            "content": "Modern sedentary lifestyle is directly mismatched with ancestral activity patterns. Walking 9 (women) to 15 (men) kilometers daily when foraging, climbing trees, throwing, eschewing chairs, and sleeping on hard surfaces were normal for most of human evolutionary history. The prim"
           },
           {
             "extraction_id": 726,
@@ -6318,7 +6318,7 @@
             "evidence_role": "primary",
             "evidence_quality": "replicated",
             "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
-            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
+            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to some infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychologica"
           },
           {
             "extraction_id": 130,
@@ -6397,7 +6397,7 @@
             "evidence_role": "primary",
             "evidence_quality": "thin",
             "author_quote": "In another study subjects waited an unknown length of time to receive a shock. This lack of predictability and control was so aversive that many chose to receive a stronger shock immediately. And in the others the period of anticipatory dread increasingly activated the amygdala.",
-            "content": "Lack of predictability and control over stressors is so aversive that subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
+            "content": "Lack of predictability and control over stressors is so aversive that many subjects chose to receive a stronger shock immediately rather than wait an unknown time for a weaker one. The period of anticipatory dread increasingly activated the amygdala."
           },
           {
             "extraction_id": 442,
@@ -6456,7 +6456,7 @@
             "evidence_role": "primary",
             "evidence_quality": "replicated",
             "author_quote": "while the acute stress response involves enhanced immunity, chronic stress suppresses immunity, increasing vulnerability to some infectious diseases.",
-            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychological rea"
+            "content": "The acute stress response involves enhanced immunity, but chronic stress suppresses immunity, increasing vulnerability to some infectious diseases. We get sick not from failing to activate the stress response but from activating it too often, too long, and for purely psychologica"
           },
           {
             "extraction_id": 469,
