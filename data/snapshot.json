@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-22T07:51:13.290101+00:00",
+    "built_at": "2026-11-22T08:08:44.415789+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -71269,22 +71269,6 @@
         "url": "corpus.html#e=154"
       },
       {
-        "id": 160,
-        "work_id": 55,
-        "mechanism_codes": [
-          "M6",
-          "M5"
-        ],
-        "foundation_codes": [
-          "DA1"
-        ],
-        "evidence_quality": "longitudinal",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested many times",
-        "url": "corpus.html#e=160"
-      },
-      {
         "id": 297,
         "work_id": 1,
         "mechanism_codes": [
@@ -71637,6 +71621,21 @@
         "url": "corpus.html#e=174"
       },
       {
+        "id": 531,
+        "work_id": 75,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA8"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=531"
+      },
+      {
         "id": 171,
         "work_id": 55,
         "mechanism_codes": [
@@ -71653,21 +71652,6 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=171"
-      },
-      {
-        "id": 531,
-        "work_id": 75,
-        "mechanism_codes": [
-          "M1"
-        ],
-        "foundation_codes": [
-          "DA8"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=531"
       },
       {
         "id": 862,
@@ -141703,6 +141687,22 @@
         "tier": "core",
         "grade": "tested many times",
         "url": "corpus.html#e=5122"
+      },
+      {
+        "id": 160,
+        "work_id": 55,
+        "mechanism_codes": [
+          "M6",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=160"
       }
     ],
     "researchers": [
