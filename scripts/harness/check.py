@@ -3,7 +3,7 @@
 mainstream form, a generic change used as evidence, and the other entries of the list. It is a RATCHET: every hit that
 exists today is recorded in baseline.json and has to be worked off; any NEW hit stops the work (exit 1).
 
-Usage:  python3 harness/check.py all | pages | cor | briefs | site      (named sets; 'site' runs inside a site repo)
+Usage:  python3 harness/check.py all | pages | cor | briefs | traits | site   (named sets; 'site' runs inside a site repo)
         python3 harness/check.py path <file> [<file> ...] --scope page|cor|brief
         python3 harness/check.py --text "..." --scope page
         add --update-baseline to record the current hits; add --list to print every hit, old and new
@@ -116,6 +116,55 @@ def targets(name, root):
                                         'harness/CORE.txt', 'captain/terminal-memory/*.md')]
     raise SystemExit('unknown set ' + name)
 
+# Trait pages (decode method version 7, 24 Nov 2026). A page about a trait or a diagnosis says what having more of the
+# trait got the person, and only from a Cor record. Page data marks such a page with  traitPage:true  (working copy) or
+# "traitPage": true  (whatreally/pages/<slug>.json); its payoff line is the field  payoff . Its ledger
+# (whatreally/ledgers/<slug>.md, else claude-web/project-docs/claude/cor-ledger-<slug>.md) has one line
+#   Payoff: E1234, EEA-SOC-3        the Cor record(s) the payoff line rests on, or
+#   Payoff: Cor holds no record     when the page carries no payoff line (searched, nothing found).
+TRAIT_WHY = ("Decode method version 7: a page about a trait or a diagnosis says what having more of the trait got the person, "
+             "from a Cor record. A camp scene written from intuition has no standing (2 and 4 Nov 2026).")
+TRAIT_ASK = ("Name the Cor record (E... or EEA-...) of the payoff line on the ledger's 'Payoff:' line. A page with no payoff "
+             "line needs 'Payoff: Cor holds no record' there, written after Cor was searched.")
+TRAIT_REC = re.compile(r"\b(E\d{1,5}|EEA-[A-Z]+-\d+)\b")
+TRAIT_NONE = re.compile(r"Cor holds no record", re.I)
+TRAIT_LINE = re.compile(r"(?im)^[ \t>*-]*\**payoff\**[ \t]*:(.*)$")
+
+def trait_pages(root):
+    """[(slug, rel of the page data, payoff text or '')] for every page whose data has traitPage true."""
+    out = []
+    wc = os.path.join(root, 'whatreally', 'working-copy', 'index.html')
+    if os.path.exists(wc):
+        t = open(wc, errors='ignore').read(); i = t.find('const PAGES=')
+        for b in (re.split(r'\n\{slug:"', t[i:])[1:] if i >= 0 else []):
+            if re.search(r'\btraitPage\s*:\s*true\b', b):
+                m = re.search(r'\bpayoff\s*:\s*"((?:[^"\\]|\\.)*)"', b)
+                out.append((b.split('"', 1)[0], 'whatreally/working-copy/index.html', m.group(1).strip() if m else ''))
+    for f in sorted(glob.glob(os.path.join(root, 'whatreally', 'pages', '*.json'))):
+        try: d = json.load(open(f))
+        except Exception: continue
+        if isinstance(d, dict) and d.get('traitPage') is True:
+            out.append((d.get('slug') or os.path.basename(f)[:-5], os.path.relpath(f, root), str(d.get('payoff') or '').strip()))
+    return out
+
+def trait_hits(root):
+    """[(rel, hit)]: a trait page whose payoff line has no Cor record id in its ledger, or that has no payoff line and
+    whose ledger does not say Cor holds no record. No-op where whatreally/ is absent (the copy in the Cor site)."""
+    res = []
+    for slug, rel, payoff in trait_pages(root):
+        led = next((p for p in (os.path.join(root, 'whatreally', 'ledgers', slug + '.md'),
+                                os.path.join(root, 'claude-web', 'project-docs', 'claude', 'cor-ledger-' + slug + '.md')) if os.path.exists(p)), None)
+        lines = [m.group(1) for m in TRAIT_LINE.finditer(open(led, errors='ignore').read())] if led else []
+        if any('harness-ok' in l for l in lines): continue
+        if payoff:
+            if any(TRAIT_REC.search(l) for l in lines): continue
+            why = f"{slug}: payoff line \"{payoff[:120]}\" has no Cor record id on a 'Payoff:' line of " + (os.path.relpath(led, root) if led else 'its ledger (no ledger found)')
+        else:
+            if any(TRAIT_NONE.search(l) for l in lines): continue
+            why = f"{slug}: trait page with no payoff line, and " + (os.path.relpath(led, root) if led else 'no ledger') + " does not say 'Payoff: Cor holds no record'"
+        res.append((rel, {'concept': 'trait-payoff', 'sentence': why, 'why': TRAIT_WHY, 'ask': TRAIT_ASK}))
+    return res
+
 def key(rel, h): return hashlib.sha1((rel + '|' + h['concept'] + '|' + re.sub(r'\s+', ' ', h['sentence'])[:200]).encode()).hexdigest()[:16]
 
 def main():
@@ -123,21 +172,21 @@ def main():
     root = os.path.abspath(a[a.index('--root') + 1]) if '--root' in a else os.path.dirname(HERE)
     basef = a[a.index('--baseline') + 1] if '--baseline' in a else os.path.join(HERE, 'baseline.json')
     scope = a[a.index('--scope') + 1] if '--scope' in a else 'page'
-    items = []                                                   # (scope, label, text)
+    items, extra = [], []                                        # (scope, label, text); extra: (label, hit) from structural checks
     if '--text' in a: items.append((scope, '(text)', a[a.index('--text') + 1]))
     elif a and a[0] == 'path':
         for f in [x for x in a[1:] if not x.startswith('--') and x not in (scope, basef, root)]: items.append((scope, os.path.relpath(os.path.abspath(f), root), read(f)))
     else:
-        names = ['pages', 'cor', 'briefs'] if (not a or a[0] == 'all') else [a[0]]
+        names = ['pages', 'cor', 'briefs', 'traits'] if (not a or a[0] == 'all') else [a[0]]
         for n in names:
             if n == 'cor': items += [('cor', lab, t) for lab, t in cor_texts(root)]
+            elif n == 'traits': extra += trait_hits(root)
             else: items += [(sc, os.path.relpath(f, root), read(f)) for sc, f in targets(n, root)]
     base = json.load(open(basef)) if os.path.exists(basef) else {}
     found, new, newk = {}, [], set()
-    for sc, rel, text in items:
-        for h in hits_in_text(text, sc, rel):
-            k = key(rel, h); found[k] = {'file': rel, 'concept': h['concept'], 'sentence': h['sentence'][:200]}
-            if k not in base and k not in newk: newk.add(k); new.append((rel, h))
+    for rel, h in [(rel, h) for sc, rel, text in items for h in hits_in_text(text, sc, rel)] + extra:
+        k = key(rel, h); found[k] = {'file': rel, 'concept': h['concept'], 'sentence': h['sentence'][:200]}
+        if k not in base and k not in newk: newk.add(k); new.append((rel, h))
     if '--update-baseline' in a:
         if '--text' not in a and not (a and a[0] == 'path'):
             keep = {k: v for k, v in base.items() if not any(v['file'] == rel for _, rel, _ in items)} if a and a[0] not in ('all',) else {}
