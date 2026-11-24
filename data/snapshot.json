@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-24T03:57:09.196454+00:00",
+    "built_at": "2026-11-24T05:17:00.171066+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -126861,6 +126861,21 @@
         "url": "corpus.html#e=4508"
       },
       {
+        "id": 5242,
+        "work_id": 3429,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5242"
+      },
+      {
         "id": 4504,
         "work_id": 2871,
         "mechanism_codes": [],
@@ -146492,21 +146507,6 @@
         "url": "corpus.html#e=5241"
       },
       {
-        "id": 5242,
-        "work_id": 3429,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5242"
-      },
-      {
         "id": 5243,
         "work_id": 3430,
         "mechanism_codes": [
@@ -146817,20 +146817,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5266"
-      },
-      {
-        "id": 5267,
-        "work_id": 3452,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10",
-          "P1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5267"
       },
       {
         "id": 5268,
@@ -147269,6 +147255,20 @@
         "url": "corpus.html#e=5298"
       },
       {
+        "id": 5267,
+        "work_id": 3452,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5267"
+      },
+      {
         "id": 5299,
         "work_id": 3477,
         "mechanism_codes": [
@@ -147628,21 +147628,6 @@
         "url": "corpus.html#e=5238"
       },
       {
-        "id": 5187,
-        "work_id": 3389,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5187"
-      },
-      {
         "id": 5221,
         "work_id": 3416,
         "mechanism_codes": [
@@ -147669,6 +147654,21 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5235"
+      },
+      {
+        "id": 5187,
+        "work_id": 3389,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5187"
       },
       {
         "id": 5310,
