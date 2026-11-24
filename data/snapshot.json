@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-24T05:17:00.171066+00:00",
+    "built_at": "2026-11-24T06:52:28.625241+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3481,
-    "extractions": 5255,
+    "works": 3576,
+    "extractions": 5368,
     "researchers": 84,
-    "mechanism_evidence": 5782,
+    "mechanism_evidence": 5854,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -10830,6 +10830,26 @@
         "issue": "2046",
         "pages": null,
         "url": "corpus.html#w=332"
+      },
+      {
+        "id": 3533,
+        "title": "Suicide and family loading for affective disorders",
+        "authors": "Egeland JA, Sussex JN",
+        "year": 1985,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "4021024",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA",
+        "container": null,
+        "volume": "254",
+        "issue": "7",
+        "pages": "915-8",
+        "url": "corpus.html#w=3533"
       },
       {
         "id": 337,
@@ -71212,6 +71232,26 @@
         "url": "corpus.html#w=3460"
       },
       {
+        "id": 3532,
+        "title": "Epidemiology and burden of bipolar disorder in Africa: a systematic review of data from Africa",
+        "authors": "Esan O, Esan A",
+        "year": 2016,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s00127-015-1091-5",
+        "pmid": "26155900",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Social Psychiatry and Psychiatric Epidemiology",
+        "container": null,
+        "volume": "51",
+        "issue": "1",
+        "pages": "93-100",
+        "url": "corpus.html#w=3532"
+      },
+      {
         "id": 3461,
         "title": "Relations of inattention and hyperactivity/impulsivity to preadolescent peer functioning: the mediating roles of aggressive and prosocial behaviors",
         "authors": "Tseng WL, Kawabata Y, Gau SS, Banny AM, Lingras KA, Crick NR",
@@ -71910,6 +71950,1866 @@
         "issue": null,
         "pages": null,
         "url": "corpus.html#w=3495"
+      },
+      {
+        "id": 3496,
+        "title": "Mechanisms in manic-depressive disorder: an evolutionary model",
+        "authors": "Gardner R Jr",
+        "year": 1982,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.1982.04290120066013",
+        "pmid": "7149905",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "39",
+        "issue": "12",
+        "pages": "1436",
+        "url": "corpus.html#w=3496"
+      },
+      {
+        "id": 3497,
+        "title": "Evolutionary epidemiology and manic depression",
+        "authors": "Wilson DR",
+        "year": 1998,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.2044-8341.1998.tb00999.x",
+        "pmid": "9875952",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Medical Psychology",
+        "container": null,
+        "volume": "71",
+        "issue": "4",
+        "pages": "375-395",
+        "url": "corpus.html#w=3497"
+      },
+      {
+        "id": 3498,
+        "title": "Advancing paternal age and bipolar disorder",
+        "authors": "Frans EM, Sandin S, Reichenberg A, Lichtenstein P, Langstrom N, Hultman CM",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.65.9.1034",
+        "pmid": "18762589",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "65",
+        "issue": "9",
+        "pages": "1034",
+        "url": "corpus.html#w=3498"
+      },
+      {
+        "id": 3499,
+        "title": "Exome sequencing in bipolar disorder identifies AKAP11 as a risk gene shared with schizophrenia",
+        "authors": "Palmer DS, Howrigan DP, Chapman SB, Adolfsson R, Bass N, Blackwood D, Boks MPM, Chen CY, Churchhouse C, Corvin AP, Craddock N, Curtis D, Di Florio A, Dickerson F, Freimer NB, Goes FS, Jia X, Jones I, Jones L, Jonsson L, Kahn RS, Landen M, Locke AE, McIntosh AM, McQuillin A, Morris DW, O'Donovan MC, Ophoff RA, Owen MJ, Pedersen NL, Posthuma D, Reif A, Risch N, Schaefer C, Scott L, Singh T, Smoller JW, Solomonson M, St Clair D, Stahl EA, Vreeker A, Walters JTR, Wang W, Watts NA, Yolken R, Zandi PP, Neale BM",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41588-022-01034-x",
+        "pmid": "35410376",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Genetics",
+        "container": null,
+        "volume": "54",
+        "issue": "5",
+        "pages": "541-547",
+        "url": "corpus.html#w=3499"
+      },
+      {
+        "id": 3500,
+        "title": "Copy number variation in bipolar disorder",
+        "authors": "Green EK, Rees E, Walters JTR, Smith KG, Forty L, Grozeva D, Moran JL, Sklar P, Ripke S, Chambert KD, Genovese G, McCarroll SA, Jones I, Jones L, Owen MJ, O'Donovan MC, Craddock N, Kirov G",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/mp.2014.174",
+        "pmid": "25560756",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "21",
+        "issue": "1",
+        "pages": "89-93",
+        "url": "corpus.html#w=3500"
+      },
+      {
+        "id": 3501,
+        "title": "Contribution of rare copy number variants to bipolar disorder risk is limited to schizoaffective cases",
+        "authors": "Charney AW, Stahl EA, Green EK, Chen CY, Moran JL, Chambert K, Belliveau RA Jr, Forty L, Gordon-Smith K, Lee PH, Bromet EJ, Buckley PF, Escamilla MA, Fanous AH, Fochtmann LJ, Lehrer DS, Malaspina D, Marder SR, Morley CP, Nicolini H, Perkins DO, Rakofsky JJ, Rapaport MH, Medeiros H, Sobell JL, Backlund L, Bergen SE, Jureus A, Schalling M, Lichtenstein P, Knowles JA, Burdick KE, Jones I, Jones LA, Hultman CM, Perlis R, Purcell SM, McCarroll SA, Pato CN, Pato MT, Di Florio A, Craddock N, Landen M, Smoller JW, Ruderfer DM, Sklar P",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.biopsych.2018.12.009",
+        "pmid": "30686506",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biological Psychiatry",
+        "container": null,
+        "volume": "86",
+        "issue": "2",
+        "pages": "110-119",
+        "url": "corpus.html#w=3501"
+      },
+      {
+        "id": 3502,
+        "title": "Age at fatherhood: heritability and associations with psychiatric disorders",
+        "authors": "Frans EM, Lichtenstein P, Hultman CM, Kuja-Halkola R",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291716001744",
+        "pmid": "27516123",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "46",
+        "issue": "14",
+        "pages": "2981-2988",
+        "url": "corpus.html#w=3502"
+      },
+      {
+        "id": 3503,
+        "title": "No evidence for excess runs of homozygosity in bipolar disorder",
+        "authors": "Vine AE, McQuillin A, Bass NJ, Pereira A, Kandaswamy R, Robinson M, Lawrence J, Anjorin A, Sklar P, Gurling HM, Curtis D",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1097/YPG.0b013e32832a4faa",
+        "pmid": "19451863",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatric Genetics",
+        "container": null,
+        "volume": "19",
+        "issue": "4",
+        "pages": "165-170",
+        "url": "corpus.html#w=3503"
+      },
+      {
+        "id": 3504,
+        "title": "Consanguinity associated with increased risk for bipolar I disorder in Egypt",
+        "authors": "Mansour H, Klei L, Wood J, Talkowski M, Chowdari K, Fathi W, Eissa A, Yassin A, Salah H, Tobar S, El-Boraie H, Gaafar H, Elassy M, Ibrahim NE, El-Bahaei W, Elsayed M, Shahda M, El Sheshtawy E, El-Boraie O, El-Chennawi F, Devlin B, Nimgaonkar VL",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajmg.b.30913",
+        "pmid": "19152378",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics",
+        "container": null,
+        "volume": "150B",
+        "issue": "6",
+        "pages": "879-885",
+        "url": "corpus.html#w=3504"
+      },
+      {
+        "id": 3505,
+        "title": "The U-shaped relationship between parental age and the risk of bipolar disorder in the offspring: A systematic review and meta-analysis",
+        "authors": "Fico G, Oliva V, De Prisco M, Gimenez-Palomo A, Sague-Vilavella M, Gomes-da-Costa S, Garriga M, Sole E, Valenti M, Fanelli G, Serretti A, Fornaro M, Carvalho AF, Vieta E, Murru A",
+        "year": 2022,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.euroneuro.2022.05.004",
+        "pmid": "35635997",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "European Neuropsychopharmacology",
+        "container": null,
+        "volume": "60",
+        "issue": null,
+        "pages": "55-75",
+        "url": "corpus.html#w=3505"
+      },
+      {
+        "id": 3506,
+        "title": "Understanding the association between advanced paternal age and schizophrenia and bipolar disorder",
+        "authors": "Weiser M, Fenchel D, Frenkel O, Fruchter E, Burshtein S, Yehuda AB, Yoffe R, Bergman-Levi T, Reichenberg A, Davidson M, Sandin S",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291719000242",
+        "pmid": "30827282",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "50",
+        "issue": "3",
+        "pages": "431-437",
+        "url": "corpus.html#w=3506"
+      },
+      {
+        "id": 3507,
+        "title": "High frequencies of de novo CNVs in bipolar disorder and schizophrenia",
+        "authors": "Malhotra D, McCarthy S, Michaelson JJ, Vacic V, Burdick KE, Yoon S, Cichon S, Corvin A, Gary S, Gershon ES, Gill M, Karayiorgou M, Kelsoe JR, Krastoshevsky O, Krause V, Leibenluft E, Levy DL, Makarov V, Bhandari A, Malhotra AK, McMahon FJ, Nothen MM, Potash JB, Rietschel M, Schulze TG, Sebat J",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.neuron.2011.11.007",
+        "pmid": "22196331",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuron",
+        "container": null,
+        "volume": "72",
+        "issue": "6",
+        "pages": "951-963",
+        "url": "corpus.html#w=3507"
+      },
+      {
+        "id": 3508,
+        "title": "De novo CNVs in bipolar affective disorder and schizophrenia",
+        "authors": "Georgieva L, Rees E, Moran JL, Chambert KD, Milanova V, Craddock N, Purcell S, Sklar P, McCarroll S, Holmans P, O'Donovan MC, Owen MJ, Kirov G",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/hmg/ddu379",
+        "pmid": "25055870",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Molecular Genetics",
+        "container": null,
+        "volume": "23",
+        "issue": "24",
+        "pages": "6677-6683",
+        "url": "corpus.html#w=3508"
+      },
+      {
+        "id": 3509,
+        "title": "Systematic analysis of exonic germline and postzygotic de novo mutations in bipolar disorder",
+        "authors": "Nishioka M, Kazuno AA, Nakamura T, Sakai N, Hayama T, Fujii K, Matsuo K, Komori A, Ishiwata M, Watanabe Y, Oka T, Matoba N, Kataoka M, Alkanaq AN, Hamanaka K, Tsuboi T, Sengoku T, Ogata K, Iwata N, Ikeda M, Matsumoto N, Kato T, Takata A",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41467-021-23453-w",
+        "pmid": "34145229",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Communications",
+        "container": null,
+        "volume": "12",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3509"
+      },
+      {
+        "id": 3510,
+        "title": "Enhanced neurocognitive functioning and positive temperament in twins discordant for bipolar disorder",
+        "authors": "Higier RG, Jimenez AM, Hultman CM, Borg J, Roman C, Kizling I, Larsson H, Cannon TD",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.2014.13121683",
+        "pmid": "25124743",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "171",
+        "issue": "11",
+        "pages": "1191-1198",
+        "url": "corpus.html#w=3510"
+      },
+      {
+        "id": 3511,
+        "title": "An evolutionary approach to mania studying Sardinian immigrants to Argentina",
+        "authors": "Carta MG, Perra A, Atzeni M, D'Oca S, Moro MF, Kurotschka PK, Moro D, Sancassiani F, Minerba L, Brasesco MV, Mausel G, Nardi AE, Tondo L",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1590/1516-4446-2016-2005",
+        "pmid": "28300934",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Revista Brasileira de Psiquiatria",
+        "container": null,
+        "volume": "39",
+        "issue": "2",
+        "pages": "147-153",
+        "url": "corpus.html#w=3511"
+      },
+      {
+        "id": 3512,
+        "title": "Investigating rare pathogenic/likely pathogenic exonic variation in bipolar disorder",
+        "authors": "Jia X, Goes FS, Locke AE, Palmer D, Wang W, Cohen-Woods S, Genovese G, Jackson AU, Jiang C, Kvale M, Mullins N, and others (Bipolar Sequencing Consortium), Scott LJ",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41380-020-01006-9",
+        "pmid": "33483695",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "26",
+        "issue": "9",
+        "pages": "5239-5250",
+        "url": "corpus.html#w=3512"
+      },
+      {
+        "id": 3513,
+        "title": "Higher frequencies of CNV deletions in bipolar disorder among Chinese Population",
+        "authors": "Wu Y, Li X, Sun Y, Zhang C, Sun P, Hui L, Zhao Y, Feng X, Wang B, Yang J, and others, Li Z, Li M",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41380-026-03853-4",
+        "pmid": "42661060",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3513"
+      },
+      {
+        "id": 3514,
+        "title": "Polygenic risk scores for schizophrenia and bipolar disorder predict creativity",
+        "authors": "Power RA, Steinberg S, Bjornsdottir G, Rietveld CA, Abdellaoui A, Nivard MM, Johannesson M, Galesloot TE, Hottenga JJ, Willemsen G, Cesarini D, Benjamin DJ, Magnusson PK, Ullen F, Tiemeier H, Hofman A, van Rooij FJ, Walters GB, Sigurdsson E, Thorgeirsson TE, Ingason A, Helgason A, Kong A, Kiemeney LA, Koellinger P, Boomsma DI, Gudbjartsson D, Stefansson H, Stefansson K",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/nn.4040",
+        "pmid": "26053403",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Neuroscience",
+        "container": null,
+        "volume": "18",
+        "issue": "7",
+        "pages": "953-955",
+        "url": "corpus.html#w=3514"
+      },
+      {
+        "id": 3515,
+        "title": "Local adaptation in European populations affected the genetics of psychiatric disorders and behavioral traits",
+        "authors": "Polimanti R, Kayser MH, Gelernter J",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/s13073-018-0532-7",
+        "pmid": "29580271",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Genome Medicine",
+        "container": null,
+        "volume": "10",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3515"
+      },
+      {
+        "id": 3516,
+        "title": "Creativity and bipolar disorder: a shared genetic vulnerability",
+        "authors": "Greenwood TA",
+        "year": 2020,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1146/annurev-clinpsy-050718-095449",
+        "pmid": "32040337",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Annual Review of Clinical Psychology",
+        "container": null,
+        "volume": "16",
+        "issue": "1",
+        "pages": "239-264",
+        "url": "corpus.html#w=3516"
+      },
+      {
+        "id": 3517,
+        "title": "Ancient DNA reveals pervasive directional selection across West Eurasia",
+        "authors": "Akbari A, Perry A, Barton AR, Kariminejad M, Gazal S, Li Z, Zeng Y, Mittnik A, Patterson N, Mah M, Zhou X, Price AL, Lander ES, Pinhasi R, Rohland N, Mallick S, Reich D",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41586-026-10358-1",
+        "pmid": "41986721",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature",
+        "container": null,
+        "volume": "654",
+        "issue": "8118",
+        "pages": "419-428",
+        "url": "corpus.html#w=3517"
+      },
+      {
+        "id": 3518,
+        "title": "Association of etiological factors for hypomanic symptoms, bipolar disorder, and other severe mental illnesses",
+        "authors": "Hosang GM, Martin J, Karlsson R, Lundstrom S, Larsson H, Ronald A, Lichtenstein P, Taylor MJ",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/jamapsychiatry.2021.3654",
+        "pmid": "34910090",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "JAMA Psychiatry",
+        "container": null,
+        "volume": "79",
+        "issue": "2",
+        "pages": "143",
+        "url": "corpus.html#w=3518"
+      },
+      {
+        "id": 3519,
+        "title": "Genetic risk for bipolar disorder and psychopathology from childhood to early adulthood",
+        "authors": "Mistry S, Escott-Price V, Florio AD, Smith DJ, Zammit S",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2018.12.091",
+        "pmid": "30611060",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "246",
+        "issue": null,
+        "pages": "633-639",
+        "url": "corpus.html#w=3519"
+      },
+      {
+        "id": 3520,
+        "title": "Genome-wide association study of creativity reveals genetic overlap with psychiatric disorders, risk tolerance, and risky behaviors",
+        "authors": "Li H, Zhang C, Cai X, Wang L, Luo F, Ma Y, Li M, Xiao X",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/schbul/sbaa025",
+        "pmid": "32133506",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Bulletin",
+        "container": null,
+        "volume": "46",
+        "issue": "5",
+        "pages": "1317-1326",
+        "url": "corpus.html#w=3520"
+      },
+      {
+        "id": 3521,
+        "title": "Polygenic risk score for bipolar disorder associates with divergent thinking and brain structures in the prefrontal cortex",
+        "authors": "Takeuchi H, Kimura R, Tomita H, Taki Y, Kikuchi Y, Ono C, Yu Z, Matsudaira I, Nouchi R, Yokoyama R, Kotozaki Y, Nakagawa S, Hanawa S, Iizuka K, Sekiguchi A, Araki T, Miyauchi CM, Ikeda S, Sakaki K, dos S Kawata KH, Nozawa T, Yokota S, Magistro D, Imanishi T, Kawashima R",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/hbm.25667",
+        "pmid": "34587347",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Brain Mapping",
+        "container": null,
+        "volume": "42",
+        "issue": "18",
+        "pages": "6028-6037",
+        "url": "corpus.html#w=3521"
+      },
+      {
+        "id": 3522,
+        "title": "Neuropsychiatric polygenic scores are weak predictors of professional categories",
+        "authors": "Voloudakis G, Therrien K, Tomasi S, Rajagopal VM, Choi SW, Demontis D, Fullard JF, Borglum AD, O'Reilly PF, Hoffman GE, Roussos P",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41562-024-02074-5",
+        "pmid": "39658624",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Human Behaviour",
+        "container": null,
+        "volume": "9",
+        "issue": "3",
+        "pages": "595-608",
+        "url": "corpus.html#w=3522"
+      },
+      {
+        "id": 3523,
+        "title": "Is an elevated family-genetic risk for major psychiatric disorders specific to creative occupations?",
+        "authors": "Kendler KS, Ohlsson H, Sundquist J, Sundquist K",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/s0033291722001349",
+        "pmid": "35674100",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "53",
+        "issue": "10",
+        "pages": "4474-4486",
+        "url": "corpus.html#w=3523"
+      },
+      {
+        "id": 3524,
+        "title": "The shared genetic architecture of schizophrenia, bipolar disorder and lifespan",
+        "authors": "Muntane G, Farre X, Bosch E, Martorell L, Navarro A, Vilella E",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s00439-020-02213-8",
+        "pmid": "32772156",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Genetics",
+        "container": null,
+        "volume": "140",
+        "issue": "3",
+        "pages": "441-455",
+        "url": "corpus.html#w=3524"
+      },
+      {
+        "id": 3525,
+        "title": "Genetic adaptation of the human circadian clock to day-length latitudinal variations and relevance for affective disorders",
+        "authors": "Forni D, Pozzoli U, Cagliani R, Tresoldi C, Menozzi G, Riva S, Guerini FR, Comi GP, Bolognesi E, Bresolin N, Clerici M, Sironi M",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/s13059-014-0499-7",
+        "pmid": "25358694",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Genome Biology",
+        "container": null,
+        "volume": "15",
+        "issue": "10",
+        "pages": null,
+        "url": "corpus.html#w=3525"
+      },
+      {
+        "id": 3526,
+        "title": "Bipolar disorder among an isolated island community in Ethiopia",
+        "authors": "Fekadu A, Shibre T, Alem A, Kebede D, Kebreab S, Negash A, Owen MJ",
+        "year": 2004,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0165-0327(02)00345-2",
+        "pmid": "15094252",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "80",
+        "issue": "1",
+        "pages": "1-10",
+        "url": "corpus.html#w=3526"
+      },
+      {
+        "id": 3527,
+        "title": "Socio-demographic correlates of bipolar disorder in Butajira, rural Ethiopia",
+        "authors": "Kebede D, Alem A, Shibre T, Negash A, Deyassa N, Beyero T",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.4314/eamj.v82i1.9292",
+        "pmid": "16122110",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "East African Medical Journal",
+        "container": null,
+        "volume": "82",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3527"
+      },
+      {
+        "id": 3528,
+        "title": "Excess mortality in severe mental illness: 10-year population-based cohort study in rural Ethiopia",
+        "authors": "Fekadu A, Medhin G, Kebede D, Alem A, Cleare AJ, Prince M, Hanlon C, Shibre T",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.bp.114.149112",
+        "pmid": "25657358",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "206",
+        "issue": "4",
+        "pages": "289-296",
+        "url": "corpus.html#w=3528"
+      },
+      {
+        "id": 3529,
+        "title": "Suicide and suicide attempts in people with severe mental disorders in Butajira, Ethiopia: 10 year follow-up of a population-based cohort",
+        "authors": "Shibre T, Hanlon C, Medhin G, Alem A, Kebede D, Teferra S, Kullgren G, Jacobsson L, Fekadu A",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/1471-244X-14-150",
+        "pmid": "24886518",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BMC Psychiatry",
+        "container": null,
+        "volume": "14",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3529"
+      },
+      {
+        "id": 3530,
+        "title": "Amish Study, I: Affective disorders among the Amish, 1976-1980",
+        "authors": "Egeland JA, Hostetter AM",
+        "year": 1983,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/ajp.140.1.56",
+        "pmid": "6847986",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "140",
+        "issue": "1",
+        "pages": "56-61",
+        "url": "corpus.html#w=3530"
+      },
+      {
+        "id": 3531,
+        "title": "Amish Study, III: the impact of cultural factors on diagnosis of bipolar illness",
+        "authors": "Egeland JA, Hostetter AM, Eshleman SK 3rd",
+        "year": 1983,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/ajp.140.1.67",
+        "pmid": "6847988",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "140",
+        "issue": "1",
+        "pages": "67-71",
+        "url": "corpus.html#w=3531"
+      },
+      {
+        "id": 3534,
+        "title": "Prevalence of psychosis among the Hutterites: a reanalysis of the 1950-1953 study",
+        "authors": "Torrey EF",
+        "year": 1995,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/0920-9964(95)00042-K",
+        "pmid": "7577770",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Research",
+        "container": null,
+        "volume": "16",
+        "issue": "2",
+        "pages": "167-170",
+        "url": "corpus.html#w=3534"
+      },
+      {
+        "id": 3535,
+        "title": "Low prevalence of psychoses among the Hutterites, an isolated religious community",
+        "authors": "Nimgaonkar VL, Fujiwara TM, Dutta M, Wood J, Gentry K, Maendel S, Morgan K, Eaton J",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.157.7.1065",
+        "pmid": "10873912",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "157",
+        "issue": "7",
+        "pages": "1065-1070",
+        "url": "corpus.html#w=3535"
+      },
+      {
+        "id": 3536,
+        "title": "The behavioral activation system and mania",
+        "authors": "Johnson SL, Edge MD, Holmes MK, Carver CS",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1146/annurev-clinpsy-032511-143148",
+        "pmid": "22077912",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Annual Review of Clinical Psychology",
+        "container": null,
+        "volume": "8",
+        "issue": "1",
+        "pages": "243-267",
+        "url": "corpus.html#w=3536"
+      },
+      {
+        "id": 3537,
+        "title": "Exploring behavioral activation and inhibition sensitivities among college students at risk for bipolar spectrum symptomatology",
+        "authors": "Meyer B, Johnson SL, Carver CS",
+        "year": 1999,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1023/A:1022119414440",
+        "pmid": "21765591",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychopathology and Behavioral Assessment",
+        "container": null,
+        "volume": "21",
+        "issue": "4",
+        "pages": "275-292",
+        "url": "corpus.html#w=3537"
+      },
+      {
+        "id": 3538,
+        "title": "Decision-making and trait impulsivity in bipolar disorder are associated with reduced prefrontal regulation of striatal reward valuation",
+        "authors": "Mason L, O'Sullivan N, Montaldi D, Bentall RP, El-Deredy W",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/brain/awu152",
+        "pmid": "25009169",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Brain",
+        "container": null,
+        "volume": "137",
+        "issue": "8",
+        "pages": "2346-2355",
+        "url": "corpus.html#w=3538"
+      },
+      {
+        "id": 3539,
+        "title": "Impulsivity, decision-making and risk-taking behaviour in bipolar disorder: a systematic review and meta-analysis",
+        "authors": "Ramirez-Martin A, Ramos-Martin J, Mayoral-Cleries F, Moreno-Kustner B, Guzman-Parra J",
+        "year": 2020,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291720003086",
+        "pmid": "32878660",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "50",
+        "issue": "13",
+        "pages": "2141-2153",
+        "url": "corpus.html#w=3539"
+      },
+      {
+        "id": 3540,
+        "title": "Iowa gambling task performance in euthymic bipolar I disorder: a meta-analysis and empirical study",
+        "authors": "Edge MD, Johnson SL, Ng T, Carver CS",
+        "year": 2013,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2012.11.027",
+        "pmid": "23219060",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "150",
+        "issue": "1",
+        "pages": "115-122",
+        "url": "corpus.html#w=3540"
+      },
+      {
+        "id": 3541,
+        "title": "Effort-based decision making in psychopathology: a transdiagnostic multilevel meta-analysis and systematic review of behavioral patterns and mechanisms underlying amotivational psychopathology",
+        "authors": "Pillny M, Renz KE, Hay A, Fulford D, Lincoln TM, Barch DM, Gold JM, Kaiser S",
+        "year": 2026,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/bul0000510",
+        "pmid": "41785146",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Bulletin",
+        "container": null,
+        "volume": "152",
+        "issue": "1",
+        "pages": "33-65",
+        "url": "corpus.html#w=3541"
+      },
+      {
+        "id": 3542,
+        "title": "Willingness to expend effort toward reward and extreme ambitions in bipolar I disorder",
+        "authors": "Johnson SL, Swerdlow BA, Treadway M, Tharp JA, Carver CS",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/2167702617718181",
+        "pmid": "42979556",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Clinical Psychological Science",
+        "container": null,
+        "volume": "5",
+        "issue": "6",
+        "pages": "943-951",
+        "url": "corpus.html#w=3542"
+      },
+      {
+        "id": 3543,
+        "title": "Bipolar disorders and creativity: the roles of ambition, effort-based decision-making, and exploration",
+        "authors": "Tse S, Johnson SL, Yu CH, Yuen W, Lo I, Clark L, Michalak EE, Ironside M, Modavi K",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpsyt.2025.1505314",
+        "pmid": "40364996",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Psychiatry",
+        "container": null,
+        "volume": "16",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3543"
+      },
+      {
+        "id": 3544,
+        "title": "Unraveling reward processing in schizophrenia and bipolar disorder: a multilevel examination of the positive valence system",
+        "authors": "van der Weijden-Germann M, van Haren NEM, Meijer MN, Broer MI, Vreeker A, van den Brink-Steinmann LJ, Paludanus S, Ophoff R, Bilder RM, Barendse MEA",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291726103444",
+        "pmid": "42037492",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "56",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3544"
+      },
+      {
+        "id": 3545,
+        "title": "Computational modeling of reversal learning impairments in schizophrenia and bipolar disorder reveals shared failure to exploit rewards",
+        "authors": "MacDonald AW, Patzelt E, Kurth-Nelson Z, Barch DM, Carter CS, Gold JM, Ragland JD, Silverstein SM",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/abn0000944",
+        "pmid": "40063391",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychopathology and Clinical Science",
+        "container": null,
+        "volume": "134",
+        "issue": "3",
+        "pages": "262-271",
+        "url": "corpus.html#w=3545"
+      },
+      {
+        "id": 3546,
+        "title": "Diminished effort on a progressive ratio task in both unipolar and bipolar depression",
+        "authors": "Hershenberg R, Satterthwaite TD, Daldal A, Katchmar N, Moore TM, Kable JW, Wolf DH",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2016.02.003",
+        "pmid": "26919058",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "196",
+        "issue": null,
+        "pages": "97-100",
+        "url": "corpus.html#w=3546"
+      },
+      {
+        "id": 3547,
+        "title": "Effort-based decision-making in ultra-high-risk for psychosis and bipolar disorder",
+        "authors": "Bora E, Cesim E, Eyuboglu MS, Demir M, Yalincetin B, Ermis C, Ozbek Uzman S, Sut E, Demirlek C, Verim B, Baykara B, Inal N, Akdede BB",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S003329172400134X",
+        "pmid": "39238129",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "54",
+        "issue": "11",
+        "pages": "3188-3196",
+        "url": "corpus.html#w=3547"
+      },
+      {
+        "id": 3562,
+        "title": "Brainstorm: occupational choice, bipolar illness and creativity",
+        "authors": "Tremblay CH, Grosskopf S, Yang K",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.ehb.2010.01.001",
+        "pmid": "20138016",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Economics & Human Biology",
+        "container": null,
+        "volume": "8",
+        "issue": "2",
+        "pages": "233-241",
+        "url": "corpus.html#w=3562"
+      },
+      {
+        "id": 3548,
+        "title": "Hyperthymic temperament predicts neural responsiveness for monetary reward",
+        "authors": "Ogura Y, Wakatsuki Y, Hashimoto N, Miyamoto T, Nakai Y, Toyomaki A, Tsuchida Y, Nakagawa S, Inoue T, Kusumi I",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2022.09.154",
+        "pmid": "36206884",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "320",
+        "issue": null,
+        "pages": "674-681",
+        "url": "corpus.html#w=3548"
+      },
+      {
+        "id": 3549,
+        "title": "Increased impulsivity as a vulnerability marker for bipolar disorder: evidence from self-report and experimental measures in two high-risk populations",
+        "authors": "Wessa M, Kollmann B, Linke J, Schonfelder S, Kanske P",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2015.02.018",
+        "pmid": "25770479",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "178",
+        "issue": null,
+        "pages": "18-24",
+        "url": "corpus.html#w=3549"
+      },
+      {
+        "id": 3550,
+        "title": "Repeated assessment of exploration and novelty seeking in the human behavioral pattern monitor in bipolar disorder patients and healthy individuals",
+        "authors": "Minassian A, Henry BL, Young JW, Masten V, Geyer MA, Perry W",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0024185",
+        "pmid": "21912623",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLoS ONE",
+        "container": null,
+        "volume": "6",
+        "issue": "8",
+        "pages": "e24185",
+        "url": "corpus.html#w=3550"
+      },
+      {
+        "id": 3551,
+        "title": "Behavioral indices of effort discounting are related to creative accomplishment and problem-solving and to bipolar disorder",
+        "authors": "Johnson SL, Ironside ML, Clark L, Michalak EE, Hsu M, Poh C",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.31234/osf.io/b9nfe",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3551"
+      },
+      {
+        "id": 3552,
+        "title": "Computational modeling of effort allocation in first-episode psychosis and first-episode bipolar disorder: cognitive and clinical correlates",
+        "authors": "Ozbek SU, Arslan B, Kizilay E, Eyuboglu MS, Cesim E, Demir M, Verim B, Yalincetin B, Ermis C, Sut E, Demirlek C, Baykara B, Inal N, Akdede BB, Bora E",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.bpsc.2026.10.016",
+        "pmid": "43009099",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3552"
+      },
+      {
+        "id": 3553,
+        "title": "Motivational differences in unipolar and bipolar depression, manic bipolar, acute and stable phase schizophrenia",
+        "authors": "Yang X, Huang J, Harrision P, Roser ME, Tian K, Wang D, Liu G",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2021.01.075",
+        "pmid": "33571794",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "283",
+        "issue": null,
+        "pages": "254-261",
+        "url": "corpus.html#w=3553"
+      },
+      {
+        "id": 3554,
+        "title": "Dissociation of cognitive effort-based decision making and its associations with symptoms, cognition, and everyday life function across schizophrenia, bipolar disorder, and depression",
+        "authors": "Barch DM, Culbreth AJ, Ben Zeev D, Campbell A, Nepal S, Moran EK",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.biopsych.2023.04.007",
+        "pmid": "37080416",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biological Psychiatry",
+        "container": null,
+        "volume": "94",
+        "issue": "6",
+        "pages": "501-510",
+        "url": "corpus.html#w=3554"
+      },
+      {
+        "id": 3555,
+        "title": "Cognitive effort-based decision making in schizophrenia and bipolar disorder: associations with clinical symptoms and cognitive performance",
+        "authors": "Leathem LD, Barch DM, Moran EK, Patel PK, Green MF, Wynn JK",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psychres.2025.116629",
+        "pmid": "40651193",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatry Research",
+        "container": null,
+        "volume": "351",
+        "issue": null,
+        "pages": "116629",
+        "url": "corpus.html#w=3555"
+      },
+      {
+        "id": 3556,
+        "title": "Effort-cost computation in a transdiagnostic psychiatric sample: differences among patients with schizophrenia, bipolar disorder, and major depressive disorder",
+        "authors": "Zou YM, Ni K, Wang YY, Yu EQ, Lui SSY, Zhou FC, Yang HX, Cohen AS, Strauss GP, Cheung EFC, Chan RCK",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/pchj.316",
+        "pmid": "31692266",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PsyCh Journal",
+        "container": null,
+        "volume": "9",
+        "issue": "2",
+        "pages": "210-222",
+        "url": "corpus.html#w=3556"
+      },
+      {
+        "id": 3557,
+        "title": "Reproductive patterns in psychotic patients",
+        "authors": "Laursen TM, Munk-Olsen T",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.schres.2010.05.018",
+        "pmid": "20570491",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Research",
+        "container": null,
+        "volume": "121",
+        "issue": "1-3",
+        "pages": "234-240",
+        "url": "corpus.html#w=3557"
+      },
+      {
+        "id": 3558,
+        "title": "Mental illness, suicide and creativity: 40-year prospective total population study",
+        "authors": "Kyaga S, Landén M, Boman M, Hultman CM, Långström N, Lichtenstein P",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jpsychires.2012.09.010",
+        "pmid": "23063328",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychiatric Research",
+        "container": null,
+        "volume": "47",
+        "issue": "1",
+        "pages": "83-90",
+        "url": "corpus.html#w=3558"
+      },
+      {
+        "id": 3559,
+        "title": "Excellent school performance at age 16 and risk of adult bipolar disorder: national cohort study",
+        "authors": "MacCabe JH, Lambe MP, Cnattingius S, Sham PC, David AS, Reichenberg A, Murray RM, Hultman CM",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.bp.108.060368",
+        "pmid": "20118454",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "196",
+        "issue": "2",
+        "pages": "109-115",
+        "url": "corpus.html#w=3559"
+      },
+      {
+        "id": 3560,
+        "title": "Childhood IQ and risk of bipolar disorder in adulthood: prospective birth cohort study",
+        "authors": "Smith DJ, Anderson J, Zammit S, Meyer TD, Pell JP, Mackay D",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjpo.bp.115.000455",
+        "pmid": "27703726",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BJPsych Open",
+        "container": null,
+        "volume": "1",
+        "issue": "1",
+        "pages": "74-80",
+        "url": "corpus.html#w=3560"
+      },
+      {
+        "id": 3561,
+        "title": "A systematic review and meta-analysis of premature mortality in bipolar affective disorder",
+        "authors": "Hayes JF, Miles J, Walters K, King M, Osborn DPJ",
+        "year": 2015,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/acps.12408",
+        "pmid": "25735195",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Acta Psychiatrica Scandinavica",
+        "container": null,
+        "volume": "131",
+        "issue": "6",
+        "pages": "417-425",
+        "url": "corpus.html#w=3561"
+      },
+      {
+        "id": 3563,
+        "title": "Creativity and bipolar disorder: touched by fire or burning with questions?",
+        "authors": "Johnson SL, Murray G, Fredrickson B, Youngstrom EA, Hinshaw S, Bass JM, Deckersbach T, Schooler J, Salloum I",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.cpr.2011.10.001",
+        "pmid": "22088366",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Clinical Psychology Review",
+        "container": null,
+        "volume": "32",
+        "issue": "1",
+        "pages": "1-12",
+        "url": "corpus.html#w=3563"
+      },
+      {
+        "id": 3564,
+        "title": "Bipolar disorder and leadership: a total population study",
+        "authors": "Kyaga S, Lichtenstein P, Boman M, Landén M",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/acps.12304",
+        "pmid": "24963750",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Acta Psychiatrica Scandinavica",
+        "container": null,
+        "volume": "131",
+        "issue": "2",
+        "pages": "111-119",
+        "url": "corpus.html#w=3564"
+      },
+      {
+        "id": 3565,
+        "title": "Is bipolar disorder more common in highly intelligent people? A cohort study of a million men",
+        "authors": "Gale CR, Batty GD, McIntosh AM, Porteous DJ, Deary IJ, Rasmussen F",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/mp.2012.26",
+        "pmid": "22472877",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "18",
+        "issue": "2",
+        "pages": "190-194",
+        "url": "corpus.html#w=3565"
+      },
+      {
+        "id": 3566,
+        "title": "A Swedish national prospective and co-relative study of school achievement at age 16, and risk for schizophrenia, other nonaffective psychosis, and bipolar illness",
+        "authors": "Kendler KS, Ohlsson H, Mezuk B, Sundquist K, Sundquist J",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/schbul/sbv103",
+        "pmid": "26231719",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Schizophrenia Bulletin",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": "sbv103",
+        "url": "corpus.html#w=3566"
+      },
+      {
+        "id": 3567,
+        "title": "School performance and later diagnoses of nonaffective psychoses, bipolar disorder, and depression",
+        "authors": "Gyllenberg D, Ristikari T, Kelleher I, Kääriälä A, Gissler M",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/acps.13481",
+        "pmid": "35876770",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Acta Psychiatrica Scandinavica",
+        "container": null,
+        "volume": "146",
+        "issue": "5",
+        "pages": "420-429",
+        "url": "corpus.html#w=3567"
+      },
+      {
+        "id": 3568,
+        "title": "Artistic creativity and risk for schizophrenia, bipolar disorder and unipolar depression: a Swedish population-based case-control study and sib-pair analysis",
+        "authors": "MacCabe JH, Sariaslan A, Almqvist C, Lichtenstein P, Larsson H, Kyaga S",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.2018.23",
+        "pmid": "29697041",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The British Journal of Psychiatry",
+        "container": null,
+        "volume": "212",
+        "issue": "6",
+        "pages": "370-376",
+        "url": "corpus.html#w=3568"
+      },
+      {
+        "id": 3569,
+        "title": "Life expectancy and years of potential life lost in bipolar disorder: systematic review and meta-analysis",
+        "authors": "Chan JKN, Tong CHY, Wong CSM, Chen EYH, Chang WC",
+        "year": 2022,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.2022.19",
+        "pmid": "35184778",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The British Journal of Psychiatry",
+        "container": null,
+        "volume": "221",
+        "issue": "3",
+        "pages": "567-576",
+        "url": "corpus.html#w=3569"
+      },
+      {
+        "id": 3570,
+        "title": "A nation-wide population-based longitudinal study on life expectancy and cause specific mortality in patients with bipolar disorder and their siblings",
+        "authors": "Kessing LV, Ziersen SC, Andersen PK, Vinberg M",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2021.07.065",
+        "pmid": "34325167",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "294",
+        "issue": null,
+        "pages": "472-476",
+        "url": "corpus.html#w=3570"
+      },
+      {
+        "id": 3571,
+        "title": "Fertility among Norwegian women and men with mental disorders",
+        "authors": "Kravdal Ø, Flatø M, Torvik FA",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s10680-025-09739-5",
+        "pmid": "40668460",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "European Journal of Population",
+        "container": null,
+        "volume": "41",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3571"
+      },
+      {
+        "id": 3572,
+        "title": "A multinational study of mental disorders, marriage, and divorce",
+        "authors": "Breslau J, Miller E, Jin R, Sampson NA, Alonso J, Andrade LH, Bromet EJ, de Girolamo G, Demyttenaere K, Fayyad J, Fukao A, Gălăon M, Gureje O, He Y, Hinkov HR, Hu C, Kovess-Masfety V, Matschinger H, Medina-Mora ME, Ormel J, Posada-Villa J, Sagar R, Scott KM, Kessler RC",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1600-0447.2011.01712.x",
+        "pmid": "21534936",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Acta Psychiatrica Scandinavica",
+        "container": null,
+        "volume": "124",
+        "issue": "6",
+        "pages": "474-486",
+        "url": "corpus.html#w=3572"
+      },
+      {
+        "id": 3573,
+        "title": "Manic tendencies are not related to being an entrepreneur, intending to become an entrepreneur, or succeeding as an entrepreneur",
+        "authors": "Johnson SL, Freeman MA, Staudenmaier PJ",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2014.10.049",
+        "pmid": "25462410",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "173",
+        "issue": null,
+        "pages": "154-158",
+        "url": "corpus.html#w=3573"
+      },
+      {
+        "id": 3574,
+        "title": "Bipolar spectrum traits and the space between madness and genius: the muse is in the dose",
+        "authors": "Greenwood TA, Chow LJ, Gur RC, Kelsoe JR",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jpsychires.2022.07.009",
+        "pmid": "35816974",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Psychiatric Research",
+        "container": null,
+        "volume": "153",
+        "issue": null,
+        "pages": "149-158",
+        "url": "corpus.html#w=3574"
+      },
+      {
+        "id": 3575,
+        "title": "Are hypomanics the happier normals?",
+        "authors": "Gamma A, Angst J, Ajdacic-Gross V, Rössler W",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2008.02.020",
+        "pmid": "18405979",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "111",
+        "issue": "2-3",
+        "pages": "235-243",
+        "url": "corpus.html#w=3575"
+      },
+      {
+        "id": 3576,
+        "title": "Mania-like behavior induced by disruption of CLOCK",
+        "authors": "Roybal K, Theobold D, Graham A, DiNieri JA, Russo SJ, Krishnan V, Chakravarty S, Peevey J, Oehrlein N, Birnbaum S, Vitaterna MH, Orsulak P, Takahashi JS, Nestler EJ, Carlezon WA Jr, McClung CA",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.0609625104",
+        "pmid": "17379666",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "104",
+        "issue": "15",
+        "pages": "6406-6411",
+        "url": "corpus.html#w=3576"
+      },
+      {
+        "id": 3577,
+        "title": "Personality, habitat use, and their consequences for survival in North American red squirrels Tamiasciurus hudsonicus",
+        "authors": "Boon AK, Réale D, Boutin S",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.0030-1299.2008.16567.x",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Oikos",
+        "container": null,
+        "volume": "117",
+        "issue": "9",
+        "pages": "1321-1328",
+        "url": "corpus.html#w=3577"
+      },
+      {
+        "id": 3578,
+        "title": "Selection on female behaviour fluctuates with offspring environment",
+        "authors": "Taylor RW, Boutin S, Humphries MM, McAdam AG",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jeb.12495",
+        "pmid": "25293495",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Evolutionary Biology",
+        "container": null,
+        "volume": "27",
+        "issue": "11",
+        "pages": "2308-2321",
+        "url": "corpus.html#w=3578"
+      },
+      {
+        "id": 3579,
+        "title": "Natural selection, plasticity and the emergence of a behavioural syndrome in the wild",
+        "authors": "Adriaenssens B, Johnsson JI",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/ele.12011",
+        "pmid": "23034098",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ecology Letters",
+        "container": null,
+        "volume": "16",
+        "issue": "1",
+        "pages": "47-55",
+        "url": "corpus.html#w=3579"
+      },
+      {
+        "id": 3580,
+        "title": "Early-life behaviour predicts first-year survival in a long-distance avian migrant",
+        "authors": "Rotics S, Turjeman S, Kaatz M, Zurell D, Wikelski M, Sapir N, Fiedler W, Eggers U, Resheff YS, Jeltsch F, Nathan R",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2020.2670",
+        "pmid": "33434462",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "288",
+        "issue": "1942",
+        "pages": "20202670",
+        "url": "corpus.html#w=3580"
+      },
+      {
+        "id": 3581,
+        "title": "Metabolic-behavioural performance for overwinter survival in a wild rodent",
+        "authors": "Boratyński JS, Zub K, Iwińska K, Boratyński Z",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsbl.2025.0195",
+        "pmid": "40664240",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biology Letters",
+        "container": null,
+        "volume": "21",
+        "issue": "7",
+        "pages": null,
+        "url": "corpus.html#w=3581"
+      },
+      {
+        "id": 3582,
+        "title": "Social environment determines the effect of boldness and activity on survival",
+        "authors": "Pearish S, Bensky MK, Bell AM",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/eth.12939",
+        "pmid": "36590873",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ethology",
+        "container": null,
+        "volume": "125",
+        "issue": "12",
+        "pages": "855-862",
+        "url": "corpus.html#w=3582"
+      },
+      {
+        "id": 3583,
+        "title": "Predators select against high growth rates and risk-taking behaviour in domestic trout populations",
+        "authors": "Biro PA, Abrahams MV, Post JR, Parkinson EA",
+        "year": 2004,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2004.2861",
+        "pmid": "15539348",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society of London. Series B: Biological Sciences",
+        "container": null,
+        "volume": "271",
+        "issue": "1554",
+        "pages": "2233-2237",
+        "url": "corpus.html#w=3583"
+      },
+      {
+        "id": 3584,
+        "title": "Winning fights elevates testosterone levels in California mice and enhances future ability to win fights",
+        "authors": "Oyegbile TO, Marler CA",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.yhbeh.2005.04.007",
+        "pmid": "15979073",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Hormones and Behavior",
+        "container": null,
+        "volume": "48",
+        "issue": "3",
+        "pages": "259-267",
+        "url": "corpus.html#w=3584"
+      },
+      {
+        "id": 3585,
+        "title": "Self-organizing dominance hierarchies in a wild primate population",
+        "authors": "Franz M, McLean E, Tung J, Altmann J, Alberts SC",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2015.1512",
+        "pmid": "26336168",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "282",
+        "issue": "1814",
+        "pages": "20151512",
+        "url": "corpus.html#w=3585"
+      },
+      {
+        "id": 3586,
+        "title": "Simulating winning in the wild: the behavioral and hormonal response of black redstarts to single and repeated territorial challenges of high and low intensity",
+        "authors": "Apfelbeck B, Stegherr J, Goymann W",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.yhbeh.2011.08.005",
+        "pmid": "21872602",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Hormones and Behavior",
+        "container": null,
+        "volume": "60",
+        "issue": "5",
+        "pages": "565-571",
+        "url": "corpus.html#w=3586"
+      },
+      {
+        "id": 3587,
+        "title": "Variation in personality and fitness in wild female baboons",
+        "authors": "Seyfarth RM, Silk JB, Cheney DL",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1210780109",
+        "pmid": "23027933",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "109",
+        "issue": "42",
+        "pages": "16980-16985",
+        "url": "corpus.html#w=3587"
+      },
+      {
+        "id": 3588,
+        "title": "Diets of yearling female primates (Papio cynocephalus) predict lifetime fitness",
+        "authors": "Altmann SA",
+        "year": 1991,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.88.2.420",
+        "pmid": "1988942",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "88",
+        "issue": "2",
+        "pages": "420-423",
+        "url": "corpus.html#w=3588"
+      },
+      {
+        "id": 3589,
+        "title": "Impact of personality traits and early life experience on timing of emigration and rise to alpha male status for wild male white-faced capuchin monkeys (Cebus capucinus) at Lomas Barbudal Biological Reserve, Costa Rica",
+        "authors": "Perry S, Godoy I, Lammers W, Lin A",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1163/1568539x-00003418",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behaviour",
+        "container": null,
+        "volume": "154",
+        "issue": "2",
+        "pages": "195-226",
+        "url": "corpus.html#w=3589"
+      },
+      {
+        "id": 3590,
+        "title": "Natural selection against a circadian clock gene mutation in mice",
+        "authors": "Spoelstra K, Wikelski M, Daan S, Loudon AS, Hau M",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1516442113",
+        "pmid": "26715747",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "113",
+        "issue": "3",
+        "pages": "686-691",
+        "url": "corpus.html#w=3590"
       }
     ],
     "extractions": [
@@ -83630,19 +85530,6 @@
         "url": "corpus.html#e=873"
       },
       {
-        "id": 882,
-        "work_id": 368,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": null,
-        "evidence_quality": "thin",
-        "source_type": "empirical",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=882"
-      },
-      {
         "id": 886,
         "work_id": 372,
         "mechanism_codes": [],
@@ -83678,6 +85565,22 @@
         "tier": "core",
         "grade": "argued, not yet tested",
         "url": "corpus.html#e=894"
+      },
+      {
+        "id": 882,
+        "work_id": 368,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "empirical",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=882"
       },
       {
         "id": 2276,
@@ -112198,6 +114101,19 @@
         "url": "corpus.html#e=78"
       },
       {
+        "id": 5360,
+        "work_id": 3527,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5360"
+      },
+      {
         "id": 3181,
         "work_id": 1879,
         "mechanism_codes": [
@@ -114837,6 +116753,19 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=4374"
+      },
+      {
+        "id": 5377,
+        "work_id": 3540,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5377"
       },
       {
         "id": 4375,
@@ -147491,6 +149420,22 @@
         "url": "corpus.html#e=5314"
       },
       {
+        "id": 5323,
+        "work_id": 3496,
+        "mechanism_codes": [
+          "M5",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5323"
+      },
+      {
         "id": 5315,
         "work_id": 3490,
         "mechanism_codes": [
@@ -147671,6 +149616,32 @@
         "url": "corpus.html#e=5187"
       },
       {
+        "id": 5329,
+        "work_id": 3501,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5329"
+      },
+      {
+        "id": 5330,
+        "work_id": 3502,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5330"
+      },
+      {
         "id": 5310,
         "work_id": 3485,
         "mechanism_codes": [
@@ -147717,6 +149688,1565 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5320"
+      },
+      {
+        "id": 5324,
+        "work_id": 3497,
+        "mechanism_codes": [
+          "M5",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5324"
+      },
+      {
+        "id": 5325,
+        "work_id": 3498,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5325"
+      },
+      {
+        "id": 5326,
+        "work_id": 3499,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5326"
+      },
+      {
+        "id": 5327,
+        "work_id": 3499,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5327"
+      },
+      {
+        "id": 5328,
+        "work_id": 3500,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5328"
+      },
+      {
+        "id": 5331,
+        "work_id": 3503,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5331"
+      },
+      {
+        "id": 5332,
+        "work_id": 3504,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5332"
+      },
+      {
+        "id": 5333,
+        "work_id": 3505,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5333"
+      },
+      {
+        "id": 5334,
+        "work_id": 3506,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5334"
+      },
+      {
+        "id": 5335,
+        "work_id": 3507,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5335"
+      },
+      {
+        "id": 5346,
+        "work_id": 3515,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5346"
+      },
+      {
+        "id": 5336,
+        "work_id": 3508,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5336"
+      },
+      {
+        "id": 5337,
+        "work_id": 3509,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5337"
+      },
+      {
+        "id": 5338,
+        "work_id": 3510,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5338"
+      },
+      {
+        "id": 5339,
+        "work_id": 3511,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5339"
+      },
+      {
+        "id": 5340,
+        "work_id": 3512,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5340"
+      },
+      {
+        "id": 5341,
+        "work_id": 3513,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5341"
+      },
+      {
+        "id": 5342,
+        "work_id": 3514,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5342"
+      },
+      {
+        "id": 5343,
+        "work_id": 3409,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5343"
+      },
+      {
+        "id": 5344,
+        "work_id": 3409,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5344"
+      },
+      {
+        "id": 5345,
+        "work_id": 3414,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5345"
+      },
+      {
+        "id": 5347,
+        "work_id": 3516,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5347"
+      },
+      {
+        "id": 5348,
+        "work_id": 3517,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5348"
+      },
+      {
+        "id": 5349,
+        "work_id": 3518,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5349"
+      },
+      {
+        "id": 5350,
+        "work_id": 3518,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5350"
+      },
+      {
+        "id": 5351,
+        "work_id": 3519,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5351"
+      },
+      {
+        "id": 5352,
+        "work_id": 3520,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5352"
+      },
+      {
+        "id": 5353,
+        "work_id": 3521,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5353"
+      },
+      {
+        "id": 5354,
+        "work_id": 3522,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5354"
+      },
+      {
+        "id": 5355,
+        "work_id": 3523,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5355"
+      },
+      {
+        "id": 5356,
+        "work_id": 3524,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5356"
+      },
+      {
+        "id": 5357,
+        "work_id": 3525,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5357"
+      },
+      {
+        "id": 5358,
+        "work_id": 3526,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5358"
+      },
+      {
+        "id": 5359,
+        "work_id": 741,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5359"
+      },
+      {
+        "id": 5361,
+        "work_id": 3528,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5361"
+      },
+      {
+        "id": 5362,
+        "work_id": 3529,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5362"
+      },
+      {
+        "id": 5363,
+        "work_id": 3530,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5363"
+      },
+      {
+        "id": 5364,
+        "work_id": 3531,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5364"
+      },
+      {
+        "id": 5365,
+        "work_id": 131,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5365"
+      },
+      {
+        "id": 5366,
+        "work_id": 3532,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5366"
+      },
+      {
+        "id": 5367,
+        "work_id": 3533,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5367"
+      },
+      {
+        "id": 5368,
+        "work_id": 3534,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5368"
+      },
+      {
+        "id": 5369,
+        "work_id": 3535,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5369"
+      },
+      {
+        "id": 5370,
+        "work_id": 3536,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5370"
+      },
+      {
+        "id": 5371,
+        "work_id": 3536,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5371"
+      },
+      {
+        "id": 5372,
+        "work_id": 3536,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5372"
+      },
+      {
+        "id": 5373,
+        "work_id": 3537,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5373"
+      },
+      {
+        "id": 5374,
+        "work_id": 3538,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5374"
+      },
+      {
+        "id": 5375,
+        "work_id": 3539,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5375"
+      },
+      {
+        "id": 5376,
+        "work_id": 3540,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5376"
+      },
+      {
+        "id": 5378,
+        "work_id": 3541,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5378"
+      },
+      {
+        "id": 5379,
+        "work_id": 3542,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5379"
+      },
+      {
+        "id": 5380,
+        "work_id": 3543,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5380"
+      },
+      {
+        "id": 5381,
+        "work_id": 3543,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5381"
+      },
+      {
+        "id": 5382,
+        "work_id": 3544,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5382"
+      },
+      {
+        "id": 5383,
+        "work_id": 3545,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5383"
+      },
+      {
+        "id": 5384,
+        "work_id": 3546,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5384"
+      },
+      {
+        "id": 5385,
+        "work_id": 3547,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5385"
+      },
+      {
+        "id": 5386,
+        "work_id": 3548,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5386"
+      },
+      {
+        "id": 5387,
+        "work_id": 3549,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5387"
+      },
+      {
+        "id": 5388,
+        "work_id": 3550,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5388"
+      },
+      {
+        "id": 5389,
+        "work_id": 3551,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5389"
+      },
+      {
+        "id": 5390,
+        "work_id": 3552,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5390"
+      },
+      {
+        "id": 5391,
+        "work_id": 3553,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5391"
+      },
+      {
+        "id": 5392,
+        "work_id": 3553,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5392"
+      },
+      {
+        "id": 5393,
+        "work_id": 3554,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5393"
+      },
+      {
+        "id": 5394,
+        "work_id": 3555,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5394"
+      },
+      {
+        "id": 5395,
+        "work_id": 3556,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5395"
+      },
+      {
+        "id": 5396,
+        "work_id": 3557,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5396"
+      },
+      {
+        "id": 5397,
+        "work_id": 3558,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5397"
+      },
+      {
+        "id": 5398,
+        "work_id": 3559,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5398"
+      },
+      {
+        "id": 5399,
+        "work_id": 3559,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5399"
+      },
+      {
+        "id": 5400,
+        "work_id": 3560,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5400"
+      },
+      {
+        "id": 5401,
+        "work_id": 3561,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5401"
+      },
+      {
+        "id": 5402,
+        "work_id": 3562,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5402"
+      },
+      {
+        "id": 5403,
+        "work_id": 3563,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5403"
+      },
+      {
+        "id": 5404,
+        "work_id": 3563,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=5404"
+      },
+      {
+        "id": 5405,
+        "work_id": 3564,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5405"
+      },
+      {
+        "id": 5406,
+        "work_id": 3565,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5406"
+      },
+      {
+        "id": 5407,
+        "work_id": 3565,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5407"
+      },
+      {
+        "id": 5408,
+        "work_id": 3566,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5408"
+      },
+      {
+        "id": 5409,
+        "work_id": 3567,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5409"
+      },
+      {
+        "id": 5410,
+        "work_id": 3568,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5410"
+      },
+      {
+        "id": 5411,
+        "work_id": 3569,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5411"
+      },
+      {
+        "id": 5412,
+        "work_id": 3570,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5412"
+      },
+      {
+        "id": 5413,
+        "work_id": 3570,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5413"
+      },
+      {
+        "id": 5414,
+        "work_id": 3571,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5414"
+      },
+      {
+        "id": 5419,
+        "work_id": 3576,
+        "mechanism_codes": [
+          "M2",
+          "M7"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5419"
+      },
+      {
+        "id": 5415,
+        "work_id": 3572,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5415"
+      },
+      {
+        "id": 5416,
+        "work_id": 3573,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5416"
+      },
+      {
+        "id": 5417,
+        "work_id": 3574,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5417"
+      },
+      {
+        "id": 5418,
+        "work_id": 3575,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5418"
+      },
+      {
+        "id": 5420,
+        "work_id": 3576,
+        "mechanism_codes": [
+          "M2",
+          "M7"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5420"
+      },
+      {
+        "id": 5421,
+        "work_id": 3577,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5421"
+      },
+      {
+        "id": 5422,
+        "work_id": 3577,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5422"
+      },
+      {
+        "id": 5423,
+        "work_id": 3578,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5423"
+      },
+      {
+        "id": 5424,
+        "work_id": 3579,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5424"
+      },
+      {
+        "id": 5425,
+        "work_id": 3580,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5425"
+      },
+      {
+        "id": 5426,
+        "work_id": 3581,
+        "mechanism_codes": [
+          "M2",
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5426"
+      },
+      {
+        "id": 5427,
+        "work_id": 3582,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5427"
+      },
+      {
+        "id": 5428,
+        "work_id": 3583,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5428"
+      },
+      {
+        "id": 5429,
+        "work_id": 3584,
+        "mechanism_codes": [
+          "M5",
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5429"
+      },
+      {
+        "id": 5430,
+        "work_id": 3585,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5430"
+      },
+      {
+        "id": 5431,
+        "work_id": 3586,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": null,
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5431"
+      },
+      {
+        "id": 5432,
+        "work_id": 3587,
+        "mechanism_codes": [
+          "M3",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5432"
+      },
+      {
+        "id": 5433,
+        "work_id": 3588,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5433"
+      },
+      {
+        "id": 5434,
+        "work_id": 3589,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5434"
+      },
+      {
+        "id": 5435,
+        "work_id": 3590,
+        "mechanism_codes": [
+          "M7"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5435"
       }
     ],
     "researchers": [
@@ -183001,6 +186531,438 @@
         "mechanism_code": "M2",
         "extraction_id": 5322,
         "evidence_role": "primary"
+      },
+      {
+        "id": 5857,
+        "mechanism_code": "M5",
+        "extraction_id": 5323,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5858,
+        "mechanism_code": "M2",
+        "extraction_id": 5323,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5859,
+        "mechanism_code": "M5",
+        "extraction_id": 5324,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5860,
+        "mechanism_code": "M2",
+        "extraction_id": 5324,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5861,
+        "mechanism_code": "M2",
+        "extraction_id": 5338,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5862,
+        "mechanism_code": "M2",
+        "extraction_id": 5339,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5863,
+        "mechanism_code": "M2",
+        "extraction_id": 5347,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5864,
+        "mechanism_code": "M2",
+        "extraction_id": 5349,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5865,
+        "mechanism_code": "M2",
+        "extraction_id": 5350,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5866,
+        "mechanism_code": "M2",
+        "extraction_id": 5351,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5867,
+        "mechanism_code": "M2",
+        "extraction_id": 5352,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5868,
+        "mechanism_code": "M2",
+        "extraction_id": 5353,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5869,
+        "mechanism_code": "M7",
+        "extraction_id": 5357,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5870,
+        "mechanism_code": "M2",
+        "extraction_id": 5364,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5871,
+        "mechanism_code": "M2",
+        "extraction_id": 5365,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5872,
+        "mechanism_code": "M2",
+        "extraction_id": 5370,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5873,
+        "mechanism_code": "M2",
+        "extraction_id": 5371,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5874,
+        "mechanism_code": "M2",
+        "extraction_id": 5372,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5875,
+        "mechanism_code": "M2",
+        "extraction_id": 5373,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5876,
+        "mechanism_code": "M2",
+        "extraction_id": 5374,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5877,
+        "mechanism_code": "M2",
+        "extraction_id": 5378,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5878,
+        "mechanism_code": "M2",
+        "extraction_id": 5379,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5879,
+        "mechanism_code": "M2",
+        "extraction_id": 5380,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5880,
+        "mechanism_code": "M2",
+        "extraction_id": 5381,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5881,
+        "mechanism_code": "M2",
+        "extraction_id": 5382,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5882,
+        "mechanism_code": "M2",
+        "extraction_id": 5383,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5883,
+        "mechanism_code": "M2",
+        "extraction_id": 5384,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5884,
+        "mechanism_code": "M2",
+        "extraction_id": 5385,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5885,
+        "mechanism_code": "M2",
+        "extraction_id": 5386,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5886,
+        "mechanism_code": "M2",
+        "extraction_id": 5387,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5887,
+        "mechanism_code": "M2",
+        "extraction_id": 5388,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5888,
+        "mechanism_code": "M2",
+        "extraction_id": 5389,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5889,
+        "mechanism_code": "M2",
+        "extraction_id": 5390,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5890,
+        "mechanism_code": "M2",
+        "extraction_id": 5391,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5891,
+        "mechanism_code": "M2",
+        "extraction_id": 5392,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5892,
+        "mechanism_code": "M2",
+        "extraction_id": 5393,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5893,
+        "mechanism_code": "M2",
+        "extraction_id": 5394,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5894,
+        "mechanism_code": "M2",
+        "extraction_id": 5395,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5895,
+        "mechanism_code": "M14",
+        "extraction_id": 5396,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5896,
+        "mechanism_code": "M2",
+        "extraction_id": 5397,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5897,
+        "mechanism_code": "M2",
+        "extraction_id": 5398,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5898,
+        "mechanism_code": "M2",
+        "extraction_id": 5400,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5899,
+        "mechanism_code": "M2",
+        "extraction_id": 5403,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5900,
+        "mechanism_code": "M2",
+        "extraction_id": 5404,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5901,
+        "mechanism_code": "M2",
+        "extraction_id": 5405,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5902,
+        "mechanism_code": "M14",
+        "extraction_id": 5414,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5903,
+        "mechanism_code": "M14",
+        "extraction_id": 5415,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5904,
+        "mechanism_code": "M2",
+        "extraction_id": 5416,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5905,
+        "mechanism_code": "M2",
+        "extraction_id": 5417,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5906,
+        "mechanism_code": "M2",
+        "extraction_id": 5418,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5907,
+        "mechanism_code": "M2",
+        "extraction_id": 5419,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5908,
+        "mechanism_code": "M7",
+        "extraction_id": 5419,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5909,
+        "mechanism_code": "M2",
+        "extraction_id": 5420,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5910,
+        "mechanism_code": "M7",
+        "extraction_id": 5420,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5911,
+        "mechanism_code": "M2",
+        "extraction_id": 5421,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5912,
+        "mechanism_code": "M2",
+        "extraction_id": 5422,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5913,
+        "mechanism_code": "M2",
+        "extraction_id": 5423,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5914,
+        "mechanism_code": "M2",
+        "extraction_id": 5424,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5915,
+        "mechanism_code": "M2",
+        "extraction_id": 5425,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5916,
+        "mechanism_code": "M2",
+        "extraction_id": 5426,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5917,
+        "mechanism_code": "M13",
+        "extraction_id": 5426,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5918,
+        "mechanism_code": "M2",
+        "extraction_id": 5427,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5919,
+        "mechanism_code": "M2",
+        "extraction_id": 5428,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5920,
+        "mechanism_code": "M5",
+        "extraction_id": 5429,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5921,
+        "mechanism_code": "M2",
+        "extraction_id": 5429,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5922,
+        "mechanism_code": "M5",
+        "extraction_id": 5430,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5923,
+        "mechanism_code": "M5",
+        "extraction_id": 5431,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5924,
+        "mechanism_code": "M3",
+        "extraction_id": 5432,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5925,
+        "mechanism_code": "M11",
+        "extraction_id": 5432,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5926,
+        "mechanism_code": "M2",
+        "extraction_id": 5433,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5927,
+        "mechanism_code": "M5",
+        "extraction_id": 5434,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 5928,
+        "mechanism_code": "M7",
+        "extraction_id": 5435,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -194321,19 +198283,19 @@
   "derived": {
     "evidence_counts_by_mechanism": {
       "M1": 582,
-      "M2": 614,
-      "M3": 1068,
+      "M2": 670,
+      "M3": 1069,
       "M4": 214,
       "M9": 366,
-      "M14": 490,
-      "M11": 693,
-      "M5": 511,
-      "M13": 265,
+      "M14": 493,
+      "M11": 694,
+      "M5": 517,
+      "M13": 266,
       "M10": 161,
       "M8": 174,
       "M12": 84,
       "M6": 178,
-      "M7": 247,
+      "M7": 251,
       "R1": 135
     },
     "eea_by_mechanism": {
