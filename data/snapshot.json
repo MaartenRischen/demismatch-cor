@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-24T03:41:29.232580+00:00",
+    "built_at": "2026-11-24T03:57:09.196454+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -126732,22 +126732,6 @@
         "url": "corpus.html#e=5309"
       },
       {
-        "id": 5310,
-        "work_id": 3485,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10",
-          "P1"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5310"
-      },
-      {
         "id": 4482,
         "work_id": 2858,
         "mechanism_codes": [],
@@ -144279,21 +144263,6 @@
         "url": "corpus.html#e=232"
       },
       {
-        "id": 5194,
-        "work_id": 3396,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5194"
-      },
-      {
         "id": 233,
         "work_id": 59,
         "mechanism_codes": [
@@ -145479,21 +145448,6 @@
         "url": "corpus.html#e=5186"
       },
       {
-        "id": 5187,
-        "work_id": 3389,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "propagation",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5187"
-      },
-      {
         "id": 5222,
         "work_id": 3417,
         "mechanism_codes": [],
@@ -145916,36 +145870,6 @@
         "url": "corpus.html#e=5192"
       },
       {
-        "id": 5195,
-        "work_id": 3396,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5195"
-      },
-      {
-        "id": 5196,
-        "work_id": 3396,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "theoretical",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "argued, not yet tested",
-        "url": "corpus.html#e=5196"
-      },
-      {
         "id": 5197,
         "work_id": 3397,
         "mechanism_codes": [
@@ -145987,6 +145911,21 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5223"
+      },
+      {
+        "id": 5196,
+        "work_id": 3396,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5196"
       },
       {
         "id": 5199,
@@ -146310,21 +146249,6 @@
         "url": "corpus.html#e=5220"
       },
       {
-        "id": 5221,
-        "work_id": 3416,
-        "mechanism_codes": [
-          "M14"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5221"
-      },
-      {
         "id": 5224,
         "work_id": 3418,
         "mechanism_codes": [
@@ -146482,19 +146406,6 @@
         "url": "corpus.html#e=5234"
       },
       {
-        "id": 5235,
-        "work_id": 3423,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5235"
-      },
-      {
         "id": 5246,
         "work_id": 3433,
         "mechanism_codes": [
@@ -146534,19 +146445,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5237"
-      },
-      {
-        "id": 5238,
-        "work_id": 3426,
-        "mechanism_codes": [],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5238"
       },
       {
         "id": 5239,
@@ -147657,6 +147555,138 @@
         "url": "corpus.html#e=5318"
       },
       {
+        "id": 5321,
+        "work_id": 3494,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5321"
+      },
+      {
+        "id": 5322,
+        "work_id": 3495,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5322"
+      },
+      {
+        "id": 5194,
+        "work_id": 3396,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5194"
+      },
+      {
+        "id": 5195,
+        "work_id": 3396,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5195"
+      },
+      {
+        "id": 5238,
+        "work_id": 3426,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5238"
+      },
+      {
+        "id": 5187,
+        "work_id": 3389,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5187"
+      },
+      {
+        "id": 5221,
+        "work_id": 3416,
+        "mechanism_codes": [
+          "M14"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5221"
+      },
+      {
+        "id": 5235,
+        "work_id": 3423,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5235"
+      },
+      {
+        "id": 5310,
+        "work_id": 3485,
+        "mechanism_codes": [
+          "M2"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5310"
+      },
+      {
         "id": 5319,
         "work_id": 3493,
         "mechanism_codes": [
@@ -147687,36 +147717,6 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5320"
-      },
-      {
-        "id": 5321,
-        "work_id": 3494,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5321"
-      },
-      {
-        "id": 5322,
-        "work_id": 3495,
-        "mechanism_codes": [
-          "M2"
-        ],
-        "foundation_codes": [
-          "DA10"
-        ],
-        "evidence_quality": "thin",
-        "source_type": "primary",
-        "tier": "core",
-        "grade": "tested once",
-        "url": "corpus.html#e=5322"
       }
     ],
     "researchers": [
