@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-24T08:00:55.904106+00:00",
+    "built_at": "2026-11-24T08:09:09.791611+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3813,
-    "extractions": 5654,
+    "works": 3906,
+    "extractions": 5765,
     "researchers": 84,
-    "mechanism_evidence": 6071,
+    "mechanism_evidence": 6096,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -78550,6 +78550,1866 @@
         "issue": "1756",
         "pages": "20170297",
         "url": "corpus.html#w=3827"
+      },
+      {
+        "id": 3828,
+        "title": "Evolutionary emergence of responsive and unresponsive personalities",
+        "authors": "Wolf M, van Doorn GS, Weissing FJ",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.0805473105",
+        "pmid": "18838685",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "105",
+        "issue": "41",
+        "pages": "15825-15830",
+        "url": "corpus.html#w=3828"
+      },
+      {
+        "id": 3829,
+        "title": "Individual differences in environmental sensitivity",
+        "authors": "Pluess M",
+        "year": 2015,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/cdep.12120",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development Perspectives",
+        "container": null,
+        "volume": "9",
+        "issue": "3",
+        "pages": "138-143",
+        "url": "corpus.html#w=3829"
+      },
+      {
+        "id": 3830,
+        "title": "Distinguishing differential susceptibility from diathesis-stress: recommendations for evaluating interaction effects",
+        "authors": "Roisman GI, Newman DA, Fraley RC, Haltigan JD, Groh AM, Haydon KC",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579412000065",
+        "pmid": "22559121",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "24",
+        "issue": "2",
+        "pages": "389-409",
+        "url": "corpus.html#w=3830"
+      },
+      {
+        "id": 3831,
+        "title": "Dandelions, tulips and orchids: evidence for the existence of low-sensitive, medium-sensitive and high-sensitive individuals",
+        "authors": "Lionetti F, Aron A, Aron EN, Burns GL, Jagiellowicz J, Pluess M",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41398-017-0090-6",
+        "pmid": "29353876",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Translational Psychiatry",
+        "container": null,
+        "volume": "8",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3831"
+      },
+      {
+        "id": 3832,
+        "title": "Sensory-processing sensitivity and its relation to introversion and emotionality",
+        "authors": "Aron EN, Aron A",
+        "year": 1997,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0022-3514.73.2.345",
+        "pmid": "9248053",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Personality and Social Psychology",
+        "container": null,
+        "volume": "73",
+        "issue": "2",
+        "pages": "345-368",
+        "url": "corpus.html#w=3832"
+      },
+      {
+        "id": 3833,
+        "title": "Interactions between infant characteristics and parenting factors rarely replicate across cohorts and developmental domains",
+        "authors": "Eves R, Nearchou F, Wolke D, Pluess M, Lemola S",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jcpp.14149",
+        "pmid": "40064329",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "66",
+        "issue": "8",
+        "pages": "1234-1248",
+        "url": "corpus.html#w=3833"
+      },
+      {
+        "id": 3834,
+        "title": "Beyond orchids and dandelions: susceptibility to environmental influences is not bimodal",
+        "authors": "Zhang X, Widaman K, Belsky J",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579421000821",
+        "pmid": "34711295",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "35",
+        "issue": "1",
+        "pages": "191-203",
+        "url": "corpus.html#w=3834"
+      },
+      {
+        "id": 3835,
+        "title": "Differential susceptibility 2.0: are the same children affected by different experiences and exposures?",
+        "authors": "Belsky J, Zhang X, Sayler K",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579420002205",
+        "pmid": "33634774",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "34",
+        "issue": "3",
+        "pages": "1025-1033",
+        "url": "corpus.html#w=3835"
+      },
+      {
+        "id": 3836,
+        "title": "Infant temperament, early-childhood parenting, and early-adolescent development: testing alternative models of Parenting x Temperament interaction",
+        "authors": "Zhang X, Sayler K, Hartman S, Belsky J",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579420002096",
+        "pmid": "33446300",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "34",
+        "issue": "3",
+        "pages": "784-795",
+        "url": "corpus.html#w=3836"
+      },
+      {
+        "id": 3837,
+        "title": "Biological sensitivity to context: II. Empirical explorations of an evolutionary-developmental theory",
+        "authors": "Ellis BJ, Essex MJ, Boyce WT",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579405050157",
+        "pmid": "16761547",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "17",
+        "issue": "2",
+        "pages": "303-328",
+        "url": "corpus.html#w=3837"
+      },
+      {
+        "id": 3838,
+        "title": "Biological sensitivity to context: a test of the hypothesized U-shaped relation between early adversity and stress responsivity",
+        "authors": "Shakiba N, Ellis BJ, Bush NR, Boyce WT",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579419000518",
+        "pmid": "31347484",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "32",
+        "issue": "2",
+        "pages": "641-660",
+        "url": "corpus.html#w=3838"
+      },
+      {
+        "id": 3839,
+        "title": "Domain specificity of differential susceptibility: testing an evolutionary theory of temperament in early childhood",
+        "authors": "Hentges RF, Davies PT, Sturge-Apple ML",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579422000256",
+        "pmid": "35550240",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "35",
+        "issue": "3",
+        "pages": "1515-1528",
+        "url": "corpus.html#w=3839"
+      },
+      {
+        "id": 3840,
+        "title": "A mathematical model of the evolution of individual differences in developmental plasticity arising through parental bet-hedging",
+        "authors": "Frankenhuis WE, Panchanathan K, Belsky J",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/desc.12309",
+        "pmid": "26010335",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Science",
+        "container": null,
+        "volume": "19",
+        "issue": "2",
+        "pages": "251-274",
+        "url": "corpus.html#w=3840"
+      },
+      {
+        "id": 3841,
+        "title": "The evolution of interaction shape in differential susceptibility",
+        "authors": "Del Giudice M",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/cdev.12710",
+        "pmid": "28032644",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "88",
+        "issue": "6",
+        "pages": "1897-1912",
+        "url": "corpus.html#w=3841"
+      },
+      {
+        "id": 3842,
+        "title": "Early and later susceptibility to effects of parenting: exploring Frankenhuis and Panchanathan's (2011) evolutionary commitment hypothesis",
+        "authors": "Zhang X, Machlin L, McLaughlin K, Belsky J",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/dev0002023",
+        "pmid": "40638297",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychology",
+        "container": null,
+        "volume": "61",
+        "issue": "12",
+        "pages": "2396-2405",
+        "url": "corpus.html#w=3842"
+      },
+      {
+        "id": 3843,
+        "title": "A genome-wide test of the differential susceptibility hypothesis reveals a genetic predictor of differential response to psychological treatments for child anxiety disorders",
+        "authors": "Keers R, Coleman JRI, Lester KJ, Roberts S, Breen G, Thastum M, Bögels S, Schneider S, Heiervang E, Meiser-Stedman R, Nauta M, Creswell C, Thirlwall K, Rapee RM, Hudson JL, Lewis C, Plomin R, Eley TC",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1159/000444023",
+        "pmid": "27043157",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychotherapy and Psychosomatics",
+        "container": null,
+        "volume": "85",
+        "issue": "3",
+        "pages": "146-158",
+        "url": "corpus.html#w=3843"
+      },
+      {
+        "id": 3844,
+        "title": "Genetics of monozygotic twins reveals the impact of environmental sensitivity on psychiatric and neurodevelopmental phenotypes",
+        "authors": "Assary E, Coleman JRI, Hemani G, van de Weijer MP, Howe LJ, Palviainen T, Grasby KL, and others, Eley TC, Davies NM, Munroe PB, Keers R",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41562-025-02193-7",
+        "pmid": "40494901",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Human Behaviour",
+        "container": null,
+        "volume": "9",
+        "issue": "8",
+        "pages": "1683-1696",
+        "url": "corpus.html#w=3844"
+      },
+      {
+        "id": 3845,
+        "title": "Serotonin transporter gene (SLC6A4) polymorphism and susceptibility to a home-visiting maternal-infant attachment intervention delivered by community health workers in South Africa: reanalysis of a randomized controlled trial",
+        "authors": "Morgan B, Kumsta R, Fearon P, Moser D, Skeen S, Cooper P, Murray L, Moran G, Tomlinson M",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pmed.1002237",
+        "pmid": "28245280",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS Medicine",
+        "container": null,
+        "volume": "14",
+        "issue": "2",
+        "pages": "e1002237",
+        "url": "corpus.html#w=3845"
+      },
+      {
+        "id": 3846,
+        "title": "Genetic moderation of the effects of the Family Check-Up intervention on children's internalizing symptoms: a longitudinal study with a racially/ethnically diverse sample",
+        "authors": "Lemery-Chalfant K, Clifford S, Dishion TJ, Shaw DS, Wilson MN",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S095457941800127X",
+        "pmid": "30451141",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "30",
+        "issue": "5",
+        "pages": "1729-1747",
+        "url": "corpus.html#w=3846"
+      },
+      {
+        "id": 3847,
+        "title": "Genetic sensitivity predicts long-term psychological benefits of a relationship education program for married couples",
+        "authors": "Pluess M, Rhoades G, Keers R, Knopp K, Belsky J, Markman H, Stanley S",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/ccp0000715",
+        "pmid": "35113582",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Consulting and Clinical Psychology",
+        "container": null,
+        "volume": "90",
+        "issue": "2",
+        "pages": "195-207",
+        "url": "corpus.html#w=3847"
+      },
+      {
+        "id": 3848,
+        "title": "Genome-wide stress sensitivity moderates the stress-depression relationship in a nationally representative sample of adults",
+        "authors": "Davidson T, Braudt DB, Keers R, Assary E, Harris KM, Boardman JD",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-021-98684-4",
+        "pmid": "34645846",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "11",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3848"
+      },
+      {
+        "id": 3849,
+        "title": "Genetic and subjective sensitivity, relationship dynamics, and psychological distress in couples",
+        "authors": "Brown SM, Rhoades GK, Pluess M, Allen ES, Stanley SM",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/fam0001229",
+        "pmid": "38647465",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Family Psychology",
+        "container": null,
+        "volume": "38",
+        "issue": "5",
+        "pages": "743-750",
+        "url": "corpus.html#w=3849"
+      },
+      {
+        "id": 3850,
+        "title": "Male reproductive timing in rhesus macaques is influenced by the 5HTTLPR promoter polymorphism of the serotonin transporter gene",
+        "authors": "Krawczak M, Trefilov A, Berard J, Bercovitch F, Kessler M, Sauermann U, Croucher P, Nürnberg P, Widdig A, Schmidtke J",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1095/biolreprod.104.038059",
+        "pmid": "15635127",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biology of Reproduction",
+        "container": null,
+        "volume": "72",
+        "issue": "5",
+        "pages": "1109-1113",
+        "url": "corpus.html#w=3850"
+      },
+      {
+        "id": 3851,
+        "title": "Brief communication: 5-HTTLPR genetic diversity and mode of subsistence in Native Americans",
+        "authors": "Bisso-Machado R, Ramallo V, Tarazona-Santos E, Salzano FM, Bortolini MC, Hünemeier T",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajpa.22286",
+        "pmid": "23686378",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Physical Anthropology",
+        "container": null,
+        "volume": "151",
+        "issue": "3",
+        "pages": "492-494",
+        "url": "corpus.html#w=3851"
+      },
+      {
+        "id": 3852,
+        "title": "Culture-gene coevolution of individualism-collectivism and the serotonin transporter gene",
+        "authors": "Chiao JY, Blizinsky KD",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2009.1650",
+        "pmid": "19864286",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "277",
+        "issue": "1681",
+        "pages": "529-537",
+        "url": "corpus.html#w=3852"
+      },
+      {
+        "id": 3853,
+        "title": "Testing the null hypothesis: comments on 'Culture-gene coevolution of individualism-collectivism and the serotonin transporter gene'",
+        "authors": "Eisenberg DT, Hayes MG",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2010.0714",
+        "pmid": "20861042",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "278",
+        "issue": "1704",
+        "pages": "329-332",
+        "url": "corpus.html#w=3853"
+      },
+      {
+        "id": 3854,
+        "title": "Gene-environment interactions between stress and 5-HTTLPR in depression: a meta-analytic update",
+        "authors": "Bleys D, Luyten P, Soenens B, Claes S",
+        "year": 2018,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2017.09.050",
+        "pmid": "29031184",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "226",
+        "issue": null,
+        "pages": "339-345",
+        "url": "corpus.html#w=3854"
+      },
+      {
+        "id": 3855,
+        "title": "Molecular signatures of natural selection for polymorphic genes of the human dopaminergic and serotonergic systems: a review",
+        "authors": "Taub DR, Page J",
+        "year": 2016,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpsyg.2016.00857",
+        "pmid": "27375535",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Psychology",
+        "container": null,
+        "volume": "7",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3855"
+      },
+      {
+        "id": 3856,
+        "title": "Genetic differential susceptibility on trial: meta-analytic support from randomized controlled experiments",
+        "authors": "van IJzendoorn MH, Bakermans-Kranenburg MJ",
+        "year": 2015,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579414001369",
+        "pmid": "25640837",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "27",
+        "issue": "1",
+        "pages": "151-162",
+        "url": "corpus.html#w=3856"
+      },
+      {
+        "id": 3857,
+        "title": "Metabolic and reproductive consequences of the serotonin transporter promoter polymorphism (5-HTTLPR) in adult female rhesus monkeys (Macaca mulatta)",
+        "authors": "Hoffman JB, Kaplan JR, Kinkead B, Berga SL, Wilson ME",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s12020-007-0017-8",
+        "pmid": "17873333",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Endocrine",
+        "container": null,
+        "volume": "31",
+        "issue": "2",
+        "pages": "202-211",
+        "url": "corpus.html#w=3857"
+      },
+      {
+        "id": 3858,
+        "title": "Social economics of childhood glucocorticoid stress response and health",
+        "authors": "Flinn MV, England BG",
+        "year": 1997,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/(SICI)1096-8644(199701)102:1<33::AID-AJPA4>3.0.CO;2-E",
+        "pmid": "9034037",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Physical Anthropology",
+        "container": null,
+        "volume": "102",
+        "issue": "1",
+        "pages": "33-53",
+        "url": "corpus.html#w=3858"
+      },
+      {
+        "id": 3859,
+        "title": "Male-female differences in effects of parental absence on glucocorticoid stress response",
+        "authors": "Flinn MV, Quinlan RJ, Decker SA, Turner MT, England BG",
+        "year": 1996,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/BF02692108",
+        "pmid": "24203317",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Nature",
+        "container": null,
+        "volume": "7",
+        "issue": "2",
+        "pages": "125-162",
+        "url": "corpus.html#w=3859"
+      },
+      {
+        "id": 3876,
+        "title": "Differential susceptibility to peer rejection and acceptance: A within-child experiment",
+        "authors": "Liu D, van Dijk A, Tian Z, Deković M, Dubas JS",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579426101382",
+        "pmid": "41943893",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "38",
+        "issue": "3",
+        "pages": "1564-1576",
+        "url": "corpus.html#w=3876"
+      },
+      {
+        "id": 3860,
+        "title": "Diurnal cortisol rhythms and child growth: exploring the life history consequences of HPA activation among the Tsimane'",
+        "authors": "Nyberg CH, Leonard WR, Tanner S, McDade T, Huanca T, Godoy RA",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajhb.22304",
+        "pmid": "23042663",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Human Biology",
+        "container": null,
+        "volume": "24",
+        "issue": "6",
+        "pages": "730-738",
+        "url": "corpus.html#w=3860"
+      },
+      {
+        "id": 3861,
+        "title": "Household food insecurity, hair cortisol, and adiposity among Tsimane' hunter-forager-horticulturalists in Bolivia",
+        "authors": "Bethancourt HJ, Ulrich MA, Almeida DM, Rosinger AY",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/oby.23137",
+        "pmid": "33864348",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Obesity",
+        "container": null,
+        "volume": "29",
+        "issue": "6",
+        "pages": "1046-1057",
+        "url": "corpus.html#w=3861"
+      },
+      {
+        "id": 3862,
+        "title": "Biological sensitivity to context in Pakistani preschoolers: hair cortisol and family wealth are interactively associated with girls' cognitive skills",
+        "authors": "Armstrong-Carter E, Finch JE, Siyal S, Yousafzai AK, Obradovic J",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/dev.21981",
+        "pmid": "32458442",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychobiology",
+        "container": null,
+        "volume": "62",
+        "issue": "8",
+        "pages": "1046-1061",
+        "url": "corpus.html#w=3862"
+      },
+      {
+        "id": 3863,
+        "title": "Impact of maternal depressive symptoms and infant temperament on early infant growth and motor development: results from a population based study in Bangladesh",
+        "authors": "Nasreen HE, Kabir ZN, Forsell Y, Edhborg M",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jad.2012.09.013",
+        "pmid": "23063237",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Affective Disorders",
+        "container": null,
+        "volume": "146",
+        "issue": "2",
+        "pages": "254-261",
+        "url": "corpus.html#w=3863"
+      },
+      {
+        "id": 3864,
+        "title": "Higher sensory processing sensitivity, introversion and ectomorphism: new biomarkers for human creativity in developing rural areas",
+        "authors": "Rizzo-Sierra CV, Leon-S ME, Leon-Sarmiento FE",
+        "year": 2012,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.4103/0976-3147.98314",
+        "pmid": "22865969",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Neurosciences in Rural Practice",
+        "container": null,
+        "volume": "03",
+        "issue": "02",
+        "pages": "159-162",
+        "url": "corpus.html#w=3864"
+      },
+      {
+        "id": 3865,
+        "title": "The trait of sensory processing sensitivity and neural responses to changes in visual scenes",
+        "authors": "Jagiellowicz J, Xu X, Aron A, Aron E, Cao G, Feng T, Weng X",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/scan/nsq001",
+        "pmid": "20203139",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Social Cognitive and Affective Neuroscience",
+        "container": null,
+        "volume": "6",
+        "issue": "1",
+        "pages": "38-47",
+        "url": "corpus.html#w=3865"
+      },
+      {
+        "id": 3866,
+        "title": "The highly sensitive brain: an fMRI study of sensory processing sensitivity and response to others' emotions",
+        "authors": "Acevedo BP, Aron EN, Aron A, Sangster MD, Collins N, Brown LL",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/brb3.242",
+        "pmid": "25161824",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Brain and Behavior",
+        "container": null,
+        "volume": "4",
+        "issue": "4",
+        "pages": "580-594",
+        "url": "corpus.html#w=3866"
+      },
+      {
+        "id": 3867,
+        "title": "Sensory processing sensitivity predicts performance in an emotional antisaccade paradigm",
+        "authors": "Hoffmann A, Marhenke R, Sachse P",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.actpsy.2021.103463",
+        "pmid": "34952450",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Acta Psychologica",
+        "container": null,
+        "volume": "222",
+        "issue": null,
+        "pages": "103463",
+        "url": "corpus.html#w=3867"
+      },
+      {
+        "id": 3868,
+        "title": "Individual differences in sensory processing sensitivity amplify effects of post-learning activity for better and for worse",
+        "authors": "Marhenke R, Acevedo B, Sachse P, Martini M",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-023-31192-9",
+        "pmid": "36932138",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "13",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3868"
+      },
+      {
+        "id": 3869,
+        "title": "Sensory processing sensitivity predicts pilot decision time via indecisiveness: evidence from flight simulation and fNIRS",
+        "authors": "Zhou K, Zhang Y, Lei Y, Li J, Tang H",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1186/s40359-026-04402-y",
+        "pmid": "41897007",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BMC Psychology",
+        "container": null,
+        "volume": "14",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3869"
+      },
+      {
+        "id": 3870,
+        "title": "Of Orchids and Dandelions: Empathy but Not Sensory Processing Sensitivity Is Associated with Tactile Discrimination Abilities",
+        "authors": "Schaefer M, Kevekordes MC, Sommer H, Gärtner M",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3390/brainsci12050641",
+        "pmid": "35625027",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Brain Sciences",
+        "container": null,
+        "volume": "12",
+        "issue": "5",
+        "pages": "641",
+        "url": "corpus.html#w=3870"
+      },
+      {
+        "id": 3871,
+        "title": "The impact of noise exposure, time pressure, and cognitive load on objective task performance and subjective sensory overload and fatigue",
+        "authors": "Marzolla MC, Borghans L, Ebus J, Gwiazda M, van Heugten C, Hurks P",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1080/13803395.2025.2458539",
+        "pmid": "39868545",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Clinical and Experimental Neuropsychology",
+        "container": null,
+        "volume": "46",
+        "issue": "10",
+        "pages": "1001-1014",
+        "url": "corpus.html#w=3871"
+      },
+      {
+        "id": 3872,
+        "title": "Paranormal experiences, sensory-processing sensitivity, and the priming of pareidolia",
+        "authors": "Williams JM, Blagrove M",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0274595",
+        "pmid": "36103566",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS ONE",
+        "container": null,
+        "volume": "17",
+        "issue": "9",
+        "pages": "e0274595",
+        "url": "corpus.html#w=3872"
+      },
+      {
+        "id": 3873,
+        "title": "Sensory-Processing Sensitivity Predicts Fatigue From Listening, But Not Perceived Effort, in Young and Older Adults",
+        "authors": "McGarrigle R, Mattys S",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1044/2022_JSLHR-22-00374",
+        "pmid": "36657070",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Speech, Language, and Hearing Research",
+        "container": null,
+        "volume": "66",
+        "issue": "2",
+        "pages": "444-460",
+        "url": "corpus.html#w=3873"
+      },
+      {
+        "id": 3874,
+        "title": "The impact of sensory processing sensitivity on subtle dynamic facial expression recognition and metacognitive awareness",
+        "authors": "Xiao L, Deroost N, Ma N, Baetens K",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s00426-026-02364-9",
+        "pmid": "42616159",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Research",
+        "container": null,
+        "volume": "90",
+        "issue": "5",
+        "pages": null,
+        "url": "corpus.html#w=3874"
+      },
+      {
+        "id": 3875,
+        "title": "Environmental sensitivity in children is associated with emotion recognition",
+        "authors": "Kähkönen JE, Lionetti F, Pluess M",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/emo0001524",
+        "pmid": "40193471",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Emotion",
+        "container": null,
+        "volume": "25",
+        "issue": "7",
+        "pages": "1764-1773",
+        "url": "corpus.html#w=3875"
+      },
+      {
+        "id": 3877,
+        "title": "Sensory Processing Sensitivity and cognitive performance: A systematic review and theoretical framework through the lens of hot and cold cognition",
+        "authors": "O'Brien J, Cronin S, Connery T, Ryan C, Lionetti F, O'Keffee F, Chan JS, Slagter H, Setti A",
+        "year": 2026,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.31234/osf.io/d7y3w_v3",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3877"
+      },
+      {
+        "id": 3878,
+        "title": "Painfully Sensitive: How Sensory Processing Sensitivity Affects Healthy Adolescents' Perception of Pain",
+        "authors": "Hochreuter J, Wehrli S, Locher C, Lionetti F, Kossowsky J, Pluess M, Koechlin H",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.2147/JPR.S473575",
+        "pmid": "39975531",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Pain Research",
+        "container": null,
+        "volume": "Volume 18",
+        "issue": null,
+        "pages": "719-733",
+        "url": "corpus.html#w=3878"
+      },
+      {
+        "id": 3879,
+        "title": "Did you see it? Robust individual differences in the speed with which meaningful visual stimuli break suppression",
+        "authors": "Sklar AY, Goldstein AY, Abir Y, Goldstein A, Dotsch R, Todorov A, Hassin RR",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.cognition.2021.104638",
+        "pmid": "33740538",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Cognition",
+        "container": null,
+        "volume": "211",
+        "issue": null,
+        "pages": "104638",
+        "url": "corpus.html#w=3879"
+      },
+      {
+        "id": 3880,
+        "title": "Predictors of Listening-Related Fatigue Across the Adult Life Span",
+        "authors": "McGarrigle R, Knight S, Hornsby BWY, Mattys S",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/09567976211016410",
+        "pmid": "34751602",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "32",
+        "issue": "12",
+        "pages": "1937-1951",
+        "url": "corpus.html#w=3880"
+      },
+      {
+        "id": 3881,
+        "title": "The personality trait of environmental sensitivity predicts children's positive response to school-based antibullying intervention",
+        "authors": "Nocentini A, Menesini E, Pluess M",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/2167702618782194",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Clinical Psychological Science",
+        "container": null,
+        "volume": "6",
+        "issue": "6",
+        "pages": "848-859",
+        "url": "corpus.html#w=3881"
+      },
+      {
+        "id": 3882,
+        "title": "Sensory-processing sensitivity predicts treatment response to a school-based depression prevention program: evidence of vantage sensitivity",
+        "authors": "Pluess M, Boniwell I",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.paid.2015.03.011",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Personality and Individual Differences",
+        "container": null,
+        "volume": "82",
+        "issue": null,
+        "pages": "40-45",
+        "url": "corpus.html#w=3882"
+      },
+      {
+        "id": 3883,
+        "title": "Sensory processing sensitivity as a marker of differential susceptibility to parenting",
+        "authors": "Slagt M, Dubas JS, van Aken MAG, Ellis BJ, Dekovic M",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/dev0000431",
+        "pmid": "29154642",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychology",
+        "container": null,
+        "volume": "54",
+        "issue": "3",
+        "pages": "543-558",
+        "url": "corpus.html#w=3883"
+      },
+      {
+        "id": 3884,
+        "title": "Biological sensitivity to context: the interactive effects of stress reactivity and family adversity on socioemotional behavior and school readiness",
+        "authors": "Obradovic J, Bush NR, Stamperdahl J, Adler NE, Boyce WT",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-8624.2009.01394.x",
+        "pmid": "20331667",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "81",
+        "issue": "1",
+        "pages": "270-289",
+        "url": "corpus.html#w=3884"
+      },
+      {
+        "id": 3885,
+        "title": "Sensory processing sensitivity in the context of environmental sensitivity: a critical review and development of research agenda",
+        "authors": "Greven CU, Lionetti F, Booth C, Aron EN, Fox E, Schendan HE, Pluess M, Bruining H, Acevedo B, Bijttebier P, Homberg J",
+        "year": 2019,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.neubiorev.2019.01.009",
+        "pmid": "30639671",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "container": null,
+        "volume": "98",
+        "issue": null,
+        "pages": "287-305",
+        "url": "corpus.html#w=3885"
+      },
+      {
+        "id": 3886,
+        "title": "Sensory-processing sensitivity moderates the association between childhood experiences and adult life satisfaction",
+        "authors": "Booth C, Standage H, Fox E",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.paid.2015.07.020",
+        "pmid": "26688599",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Personality and Individual Differences",
+        "container": null,
+        "volume": "87",
+        "issue": null,
+        "pages": "24-29",
+        "url": "corpus.html#w=3886"
+      },
+      {
+        "id": 3887,
+        "title": "Household chaos and parenting: the effect of household chaos does not depend on sensory-processing sensitivity and self-regulation",
+        "authors": "Andeweg SM, Bodrij FF, Prevoo MJL, Rippe RCA, Alink LRA",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/imhj.22105",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Infant Mental Health Journal",
+        "container": null,
+        "volume": "45",
+        "issue": "2",
+        "pages": "165-184",
+        "url": "corpus.html#w=3887"
+      },
+      {
+        "id": 3888,
+        "title": "Sensory processing sensitivity behavior moderates the association between environmental harshness, unpredictability, and child socioemotional functioning",
+        "authors": "Li Z, Sturge-Apple ML, Jones-Gordils HR, Davies PT",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0954579421001188",
+        "pmid": "35039104",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Development and Psychopathology",
+        "container": null,
+        "volume": "34",
+        "issue": "2",
+        "pages": "675-688",
+        "url": "corpus.html#w=3888"
+      },
+      {
+        "id": 3889,
+        "title": "Highly sensitive adolescent benefits in positive school transitions: evidence for vantage sensitivity in Japanese high-schoolers",
+        "authors": "Iimura S, Kibe C",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/dev0000991",
+        "pmid": "32525329",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychology",
+        "container": null,
+        "volume": "56",
+        "issue": "8",
+        "pages": "1565-1581",
+        "url": "corpus.html#w=3889"
+      },
+      {
+        "id": 3890,
+        "title": "Sensory processing sensitivity and culturally modified resilience education: differential susceptibility in Japanese adolescents",
+        "authors": "Kibe C, Suzuki M, Hirano M, Boniwell I",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0239002",
+        "pmid": "32925957",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS ONE",
+        "container": null,
+        "volume": "15",
+        "issue": "9",
+        "pages": "e0239002",
+        "url": "corpus.html#w=3890"
+      },
+      {
+        "id": 3891,
+        "title": "Who is more susceptible to job stressors and resources? Sensory-processing sensitivity as a personal resource and vulnerability factor",
+        "authors": "Vander Elst T, Sercu M, Van den Broeck A, Van Hoof E, Baillien E, Godderis L",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pone.0225103",
+        "pmid": "31738812",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS ONE",
+        "container": null,
+        "volume": "14",
+        "issue": "11",
+        "pages": "e0225103",
+        "url": "corpus.html#w=3891"
+      },
+      {
+        "id": 3892,
+        "title": "Parent and child physiological reactivity as moderator of a proof-of-principle randomized microtrial parenting intervention",
+        "authors": "Chhangur RR, Pupillo F, Belsky J",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/chidev/aacag095",
+        "pmid": "42119009",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3892"
+      },
+      {
+        "id": 3893,
+        "title": "Psychological stress reactivity and future health and disease outcomes: a systematic review of prospective evidence",
+        "authors": "Turner AI, Smyth N, Hall SJ, Torres SJ, Hussein M, Jayasinghe SU, Ball K, Clow AJ",
+        "year": 2020,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psyneuen.2020.104599",
+        "pmid": "32045797",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychoneuroendocrinology",
+        "container": null,
+        "volume": "114",
+        "issue": null,
+        "pages": "104599",
+        "url": "corpus.html#w=3893"
+      },
+      {
+        "id": 3894,
+        "title": "Lower cardiovascular reactivity is associated with more childhood adversity and poorer midlife health: replicated findings from the Dunedin and MIDUS cohorts",
+        "authors": "Bourassa KJ, Moffitt TE, Harrington H, Houts R, Poulton R, Ramrakha S, Caspi A",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/2167702621993900",
+        "pmid": "34707918",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Clinical Psychological Science",
+        "container": null,
+        "volume": "9",
+        "issue": "5",
+        "pages": "961-978",
+        "url": "corpus.html#w=3894"
+      },
+      {
+        "id": 3895,
+        "title": "Psychobiological reactivity to acute psychological stress as a predictor of cardiovascular disease and mortality: the Multi-Ethnic Study of Atherosclerosis",
+        "authors": "Chauntry AJ, Moore JB, Seeman T, Shea SJ, Sloan RP, Whittaker AC, Puterman E, Turner AI, Tyne WP, Hutson MJ, Funnell MP, Zieff G, Geleta BM, Stone K, Hanson ED, Stoner L, Bancks MP",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psyneuen.2025.107657",
+        "pmid": "41135261",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychoneuroendocrinology",
+        "container": null,
+        "volume": "183",
+        "issue": null,
+        "pages": "107657",
+        "url": "corpus.html#w=3895"
+      },
+      {
+        "id": 3896,
+        "title": "Increased blood pressure reactions to acute mental stress are associated with 16-year cardiovascular disease mortality",
+        "authors": "Carroll D, Ginty AT, Der G, Hunt K, Benzeval M, Phillips AC",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1469-8986.2012.01463.x",
+        "pmid": "22958235",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychophysiology",
+        "container": null,
+        "volume": "49",
+        "issue": "10",
+        "pages": "1444-1448",
+        "url": "corpus.html#w=3896"
+      },
+      {
+        "id": 3897,
+        "title": "Parent-child relationship quality and adolescent health: testing the differential susceptibility and diathesis-stress hypotheses in African American youths",
+        "authors": "Shakiba N, Gao MM, Conradt E, Terrell S, Lester BM",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/cdev.13667",
+        "pmid": "34473345",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "93",
+        "issue": "1",
+        "pages": "269-287",
+        "url": "corpus.html#w=3897"
+      },
+      {
+        "id": 3898,
+        "title": "The role of environmental sensitivity in the mental health of Syrian refugee children: a multi-level analysis",
+        "authors": "May AK, Smeeth D, McEwen F, Karam E, Rieder MJ, Elzagallaai AA, van Uum S, Lionetti F, Pluess M",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41380-024-02573-x",
+        "pmid": "38702371",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "29",
+        "issue": "10",
+        "pages": "3170-3179",
+        "url": "corpus.html#w=3898"
+      },
+      {
+        "id": 3899,
+        "title": "Coping styles in animals: current status in behavior and stress-physiology",
+        "authors": "Koolhaas JM, Korte SM, De Boer SF, Van Der Vegt BJ, Van Reenen CG, Hopster H, De Jong IC, Ruis MA, Blokhuis HJ",
+        "year": 1999,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/S0149-7634(99)00026-3",
+        "pmid": "10580307",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "container": null,
+        "volume": "23",
+        "issue": "7",
+        "pages": "925-935",
+        "url": "corpus.html#w=3899"
+      },
+      {
+        "id": 3900,
+        "title": "The evolutionary ecology of individual phenotypic plasticity in wild populations",
+        "authors": "Nussey DH, Wilson AJ, Brommer JE",
+        "year": 2007,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1420-9101.2007.01300.x",
+        "pmid": "17465894",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Evolutionary Biology",
+        "container": null,
+        "volume": "20",
+        "issue": "3",
+        "pages": "831-844",
+        "url": "corpus.html#w=3900"
+      },
+      {
+        "id": 3901,
+        "title": "Selection on heritable phenotypic plasticity in a wild bird population",
+        "authors": "Nussey DH, Postma E, Gienapp P, Visser ME",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1126/science.1117004",
+        "pmid": "16224020",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Science",
+        "container": null,
+        "volume": "310",
+        "issue": "5746",
+        "pages": "304-306",
+        "url": "corpus.html#w=3901"
+      },
+      {
+        "id": 3902,
+        "title": "Phenological mismatch drives selection on elevation, but not on slope, of breeding time plasticity in a wild songbird",
+        "authors": "Ramakers JJC, Gienapp P, Visser ME",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/evo.13660",
+        "pmid": "30556587",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Evolution",
+        "container": null,
+        "volume": "73",
+        "issue": "2",
+        "pages": "175-187",
+        "url": "corpus.html#w=3902"
+      },
+      {
+        "id": 3903,
+        "title": "Individual variation in reaction norms but no directional selection in reproductive plasticity of a wild passerine population",
+        "authors": "Chik HYJ, Estrada C, Wang Y, Tank P, Lord A, Schroeder J",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ece3.8582",
+        "pmid": "35222960",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ecology and Evolution",
+        "container": null,
+        "volume": "12",
+        "issue": "2",
+        "pages": null,
+        "url": "corpus.html#w=3903"
+      },
+      {
+        "id": 3904,
+        "title": "Early experience and serotonin transporter gene variation interact to influence primate CNS function",
+        "authors": "Bennett AJ, Lesch KP, Heils A, Long JC, Lorenz JG, Shoaf SE, Champoux M, Suomi SJ, Linnoila MV, Higley JD",
+        "year": 2002,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/sj.mp.4000949",
+        "pmid": "11803458",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "7",
+        "issue": "1",
+        "pages": "118-122",
+        "url": "corpus.html#w=3904"
+      },
+      {
+        "id": 3905,
+        "title": "Serotonin transporter gene polymorphism, differential early rearing, and behavior in rhesus monkey neonates",
+        "authors": "Champoux M, Bennett A, Shannon C, Higley JD, Lesch KP, Suomi SJ",
+        "year": 2002,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/sj.mp.4001157",
+        "pmid": "12476320",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "7",
+        "issue": "10",
+        "pages": "1058-1063",
+        "url": "corpus.html#w=3905"
+      },
+      {
+        "id": 3906,
+        "title": "Rearing condition and rh5-HTTLPR interact to influence limbic-hypothalamic-pituitary-adrenal axis response to stress in infant macaques",
+        "authors": "Barr CS, Newman TK, Shannon C, Parker C, Dvoskin RL, Becker ML, Schwandt M, Champoux M, Lesch KP, Goldman D, Suomi SJ, Higley JD",
+        "year": 2004,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.biopsych.2003.12.008",
+        "pmid": "15039002",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biological Psychiatry",
+        "container": null,
+        "volume": "55",
+        "issue": "7",
+        "pages": "733-738",
+        "url": "corpus.html#w=3906"
+      },
+      {
+        "id": 3907,
+        "title": "Adaptive developmental plasticity in rhesus macaques: the serotonin transporter gene interacts with maternal care to affect juvenile social behaviour",
+        "authors": "Madrid JE, Mandalaywala TM, Coyne SP, Ahloy-Dallaire J, Garner JP, Barr CS, Maestripieri D, Parker KJ",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2018.0541",
+        "pmid": "29925616",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "285",
+        "issue": "1881",
+        "pages": "20180541",
+        "url": "corpus.html#w=3907"
+      },
+      {
+        "id": 3908,
+        "title": "In search of relationships between the acute adrenocortical response and fitness",
+        "authors": "Breuner CW, Patterson SH, Hahn TP",
+        "year": 2008,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.ygcen.2008.05.017",
+        "pmid": "18602555",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "General and Comparative Endocrinology",
+        "container": null,
+        "volume": "157",
+        "issue": "3",
+        "pages": "288-295",
+        "url": "corpus.html#w=3908"
+      },
+      {
+        "id": 3909,
+        "title": "Stress response during development predicts fitness in a wild, long lived vertebrate",
+        "authors": "Blas J, Bortolotti GR, Tella JL, Baos R, Marchant TA",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.0700232104",
+        "pmid": "17517658",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "104",
+        "issue": "21",
+        "pages": "8880-8884",
+        "url": "corpus.html#w=3909"
+      },
+      {
+        "id": 3910,
+        "title": "Do baseline glucocorticoids predict fitness?",
+        "authors": "Bonier F, Martin PR, Moore IT, Wingfield JC",
+        "year": 2009,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.tree.2009.04.013",
+        "pmid": "19679371",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Trends in Ecology & Evolution",
+        "container": null,
+        "volume": "24",
+        "issue": "11",
+        "pages": "634-642",
+        "url": "corpus.html#w=3910"
+      },
+      {
+        "id": 3911,
+        "title": "Natural selection and glucocorticoid physiology",
+        "authors": "Patterson SH, Hahn TP, Cornelius JM, Breuner CW",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jeb.12286",
+        "pmid": "24341364",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Evolutionary Biology",
+        "container": null,
+        "volume": "27",
+        "issue": "2",
+        "pages": "259-274",
+        "url": "corpus.html#w=3911"
+      },
+      {
+        "id": 3912,
+        "title": "Stress physiology as a predictor of survival in Galapagos marine iguanas",
+        "authors": "Romero LM, Wikelski M",
+        "year": 2010,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2010.0678",
+        "pmid": "20504812",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "277",
+        "issue": "1697",
+        "pages": "3157-3162",
+        "url": "corpus.html#w=3912"
+      },
+      {
+        "id": 3913,
+        "title": "Does stress response predict return rate in a migratory bird species? A study of American redstarts and their non-breeding habitat",
+        "authors": "Angelier F, Holberton RL, Marra PP",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2009.0868",
+        "pmid": "19605397",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "276",
+        "issue": "1672",
+        "pages": "3545-3551",
+        "url": "corpus.html#w=3913"
+      },
+      {
+        "id": 3914,
+        "title": "Hormone levels predict individual differences in reproductive success in a passerine bird",
+        "authors": "Ouyang JQ, Sharp PJ, Dawson A, Quetting M, Hau M",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2010.2490",
+        "pmid": "21247953",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "278",
+        "issue": "1717",
+        "pages": "2537-2545",
+        "url": "corpus.html#w=3914"
+      },
+      {
+        "id": 3915,
+        "title": "Stress responsiveness in a wild primate predicts survival across an extreme El Niño drought",
+        "authors": "Carrera SC, Godoy I, Gault CM, Mensing A, Damm J, Perry SE, Beehner JC",
+        "year": 2025,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1126/sciadv.adq5020",
+        "pmid": "39841838",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Science Advances",
+        "container": null,
+        "volume": "11",
+        "issue": "4",
+        "pages": null,
+        "url": "corpus.html#w=3915"
+      },
+      {
+        "id": 3916,
+        "title": "Plasticity syndromes in wild vertebrates: Patterns and consequences of individual variation in plasticity across multiple behaviours",
+        "authors": "Johansson E, Boersma PD, Jones T, Abrahms B",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/ele.14473",
+        "pmid": "39738940",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ecology Letters",
+        "container": null,
+        "volume": "27",
+        "issue": "12",
+        "pages": null,
+        "url": "corpus.html#w=3916"
+      },
+      {
+        "id": 3917,
+        "title": "Stress and success: individual differences in the glucocorticoid stress response predict behavior and reproductive success under high predation risk",
+        "authors": "Vitousek MN, Jenkins BR, Safran RJ",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.yhbeh.2014.11.004",
+        "pmid": "25461975",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Hormones and Behavior",
+        "container": null,
+        "volume": "66",
+        "issue": "5",
+        "pages": "812-819",
+        "url": "corpus.html#w=3917"
+      },
+      {
+        "id": 3918,
+        "title": "Stress, song and survival in sparrows",
+        "authors": "MacDougall-Shackleton SA, Dindia L, Newman AEM, Potvin DA, Stewart KA, MacDougall-Shackleton EA",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsbl.2009.0382",
+        "pmid": "19605381",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biology Letters",
+        "container": null,
+        "volume": "5",
+        "issue": "6",
+        "pages": "746-748",
+        "url": "corpus.html#w=3918"
+      },
+      {
+        "id": 3919,
+        "title": "Sparse evidence for selection on phenotypic plasticity in response to temperature",
+        "authors": "Arnold PA, Nicotra AB, Kruuk LEB",
+        "year": 2019,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rstb.2018.0185",
+        "pmid": "30966967",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "374",
+        "issue": "1768",
+        "pages": "20180185",
+        "url": "corpus.html#w=3919"
+      },
+      {
+        "id": 3920,
+        "title": "Individual variation in glucocorticoid plasticity to temperature is not associated with reproductive success in a wild songbird population",
+        "authors": "Udino E, Deimel C, Hau M, Moiron M",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.64898/2026.09.22.750903",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": null,
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3920"
       }
     ],
     "extractions": [
@@ -81487,6 +83347,23 @@
         "tier": "core",
         "grade": "contested",
         "url": "corpus.html#e=179"
+      },
+      {
+        "id": 5829,
+        "work_id": 3917,
+        "mechanism_codes": [
+          "M1",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5829"
       },
       {
         "id": 163,
@@ -118180,6 +120057,19 @@
         "url": "corpus.html#e=5648"
       },
       {
+        "id": 5772,
+        "work_id": 3871,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5772"
+      },
+      {
         "id": 3128,
         "work_id": 1847,
         "mechanism_codes": [
@@ -131311,6 +133201,20 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=3980"
+      },
+      {
+        "id": 5813,
+        "work_id": 3903,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5813"
       },
       {
         "id": 3983,
@@ -160198,6 +162102,1493 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5213"
+      },
+      {
+        "id": 5722,
+        "work_id": 3828,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5722"
+      },
+      {
+        "id": 5723,
+        "work_id": 3829,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5723"
+      },
+      {
+        "id": 5724,
+        "work_id": 3830,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5724"
+      },
+      {
+        "id": 5725,
+        "work_id": 3831,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5725"
+      },
+      {
+        "id": 5726,
+        "work_id": 3831,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5726"
+      },
+      {
+        "id": 5727,
+        "work_id": 3832,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5727"
+      },
+      {
+        "id": 5728,
+        "work_id": 3832,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5728"
+      },
+      {
+        "id": 5729,
+        "work_id": 3833,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5729"
+      },
+      {
+        "id": 5730,
+        "work_id": 3833,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5730"
+      },
+      {
+        "id": 5731,
+        "work_id": 3834,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5731"
+      },
+      {
+        "id": 5732,
+        "work_id": 3834,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5732"
+      },
+      {
+        "id": 5733,
+        "work_id": 3835,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5733"
+      },
+      {
+        "id": 5734,
+        "work_id": 3836,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5734"
+      },
+      {
+        "id": 5735,
+        "work_id": 3837,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5735"
+      },
+      {
+        "id": 5736,
+        "work_id": 3838,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5736"
+      },
+      {
+        "id": 5737,
+        "work_id": 3839,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5737"
+      },
+      {
+        "id": 5738,
+        "work_id": 3840,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5738"
+      },
+      {
+        "id": 5739,
+        "work_id": 3841,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5739"
+      },
+      {
+        "id": 5740,
+        "work_id": 3842,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5740"
+      },
+      {
+        "id": 5741,
+        "work_id": 3843,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5741"
+      },
+      {
+        "id": 5742,
+        "work_id": 3843,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5742"
+      },
+      {
+        "id": 5743,
+        "work_id": 3844,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5743"
+      },
+      {
+        "id": 5744,
+        "work_id": 3845,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5744"
+      },
+      {
+        "id": 5745,
+        "work_id": 3846,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5745"
+      },
+      {
+        "id": 5746,
+        "work_id": 3847,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5746"
+      },
+      {
+        "id": 5747,
+        "work_id": 3848,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5747"
+      },
+      {
+        "id": 5748,
+        "work_id": 3849,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5748"
+      },
+      {
+        "id": 5749,
+        "work_id": 3849,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5749"
+      },
+      {
+        "id": 5750,
+        "work_id": 3850,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5750"
+      },
+      {
+        "id": 5751,
+        "work_id": 3851,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5751"
+      },
+      {
+        "id": 5752,
+        "work_id": 3852,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=5752"
+      },
+      {
+        "id": 5753,
+        "work_id": 3853,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5753"
+      },
+      {
+        "id": 5754,
+        "work_id": 3854,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=5754"
+      },
+      {
+        "id": 5755,
+        "work_id": 3855,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5755"
+      },
+      {
+        "id": 5756,
+        "work_id": 3856,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5756"
+      },
+      {
+        "id": 5757,
+        "work_id": 3857,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5757"
+      },
+      {
+        "id": 5758,
+        "work_id": 3858,
+        "mechanism_codes": [
+          "M8"
+        ],
+        "foundation_codes": [
+          "DA2",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5758"
+      },
+      {
+        "id": 5759,
+        "work_id": 3859,
+        "mechanism_codes": [
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA2"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5759"
+      },
+      {
+        "id": 5760,
+        "work_id": 3860,
+        "mechanism_codes": [
+          "M8",
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5760"
+      },
+      {
+        "id": 5761,
+        "work_id": 3861,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5761"
+      },
+      {
+        "id": 5762,
+        "work_id": 3861,
+        "mechanism_codes": [
+          "M13"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5762"
+      },
+      {
+        "id": 5763,
+        "work_id": 3862,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5763"
+      },
+      {
+        "id": 5764,
+        "work_id": 3863,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5764"
+      },
+      {
+        "id": 5765,
+        "work_id": 3864,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5765"
+      },
+      {
+        "id": 5766,
+        "work_id": 3865,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5766"
+      },
+      {
+        "id": 5778,
+        "work_id": 3875,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5778"
+      },
+      {
+        "id": 5767,
+        "work_id": 3866,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5767"
+      },
+      {
+        "id": 5768,
+        "work_id": 3867,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5768"
+      },
+      {
+        "id": 5769,
+        "work_id": 3868,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5769"
+      },
+      {
+        "id": 5770,
+        "work_id": 3869,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5770"
+      },
+      {
+        "id": 5771,
+        "work_id": 3870,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5771"
+      },
+      {
+        "id": 5773,
+        "work_id": 3871,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5773"
+      },
+      {
+        "id": 5774,
+        "work_id": 3872,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5774"
+      },
+      {
+        "id": 5775,
+        "work_id": 3873,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5775"
+      },
+      {
+        "id": 5776,
+        "work_id": 3873,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5776"
+      },
+      {
+        "id": 5777,
+        "work_id": 3874,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5777"
+      },
+      {
+        "id": 5779,
+        "work_id": 3875,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5779"
+      },
+      {
+        "id": 5780,
+        "work_id": 3876,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5780"
+      },
+      {
+        "id": 5781,
+        "work_id": 3877,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5781"
+      },
+      {
+        "id": 5782,
+        "work_id": 3878,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5782"
+      },
+      {
+        "id": 5783,
+        "work_id": 3879,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5783"
+      },
+      {
+        "id": 5784,
+        "work_id": 3880,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5784"
+      },
+      {
+        "id": 5785,
+        "work_id": 3880,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5785"
+      },
+      {
+        "id": 5786,
+        "work_id": 3881,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5786"
+      },
+      {
+        "id": 5797,
+        "work_id": 3888,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5797"
+      },
+      {
+        "id": 5787,
+        "work_id": 3881,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5787"
+      },
+      {
+        "id": 5788,
+        "work_id": 3882,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5788"
+      },
+      {
+        "id": 5789,
+        "work_id": 3883,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5789"
+      },
+      {
+        "id": 5790,
+        "work_id": 3883,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5790"
+      },
+      {
+        "id": 5791,
+        "work_id": 3884,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5791"
+      },
+      {
+        "id": 5792,
+        "work_id": 3884,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5792"
+      },
+      {
+        "id": 5793,
+        "work_id": 3885,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5793"
+      },
+      {
+        "id": 5794,
+        "work_id": 3885,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5794"
+      },
+      {
+        "id": 5795,
+        "work_id": 3886,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5795"
+      },
+      {
+        "id": 5796,
+        "work_id": 3887,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5796"
+      },
+      {
+        "id": 5798,
+        "work_id": 3888,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5798"
+      },
+      {
+        "id": 5799,
+        "work_id": 3889,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5799"
+      },
+      {
+        "id": 5800,
+        "work_id": 3890,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5800"
+      },
+      {
+        "id": 5801,
+        "work_id": 3891,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5801"
+      },
+      {
+        "id": 5802,
+        "work_id": 3892,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5802"
+      },
+      {
+        "id": 5803,
+        "work_id": 3893,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DC1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5803"
+      },
+      {
+        "id": 5804,
+        "work_id": 3894,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7",
+          "DC1"
+        ],
+        "evidence_quality": "longitudinal",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5804"
+      },
+      {
+        "id": 5805,
+        "work_id": 3895,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5805"
+      },
+      {
+        "id": 5806,
+        "work_id": 3896,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DC1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5806"
+      },
+      {
+        "id": 5807,
+        "work_id": 3897,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5807"
+      },
+      {
+        "id": 5808,
+        "work_id": 3898,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5808"
+      },
+      {
+        "id": 5809,
+        "work_id": 3899,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5809"
+      },
+      {
+        "id": 5810,
+        "work_id": 3900,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5810"
+      },
+      {
+        "id": 5811,
+        "work_id": 3901,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5811"
+      },
+      {
+        "id": 5812,
+        "work_id": 3902,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5812"
+      },
+      {
+        "id": 5814,
+        "work_id": 3904,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5814"
+      },
+      {
+        "id": 5815,
+        "work_id": 3905,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5815"
+      },
+      {
+        "id": 5816,
+        "work_id": 3906,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5816"
+      },
+      {
+        "id": 5817,
+        "work_id": 3907,
+        "mechanism_codes": [
+          "M4",
+          "M3"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5817"
+      },
+      {
+        "id": 5822,
+        "work_id": 3911,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5822"
+      },
+      {
+        "id": 5818,
+        "work_id": 3908,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5818"
+      },
+      {
+        "id": 5819,
+        "work_id": 3909,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5819"
+      },
+      {
+        "id": 5820,
+        "work_id": 3910,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "P1"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=5820"
+      },
+      {
+        "id": 5821,
+        "work_id": 3911,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5821"
+      },
+      {
+        "id": 5828,
+        "work_id": 3916,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5828"
+      },
+      {
+        "id": 5823,
+        "work_id": 3912,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5823"
+      },
+      {
+        "id": 5824,
+        "work_id": 3912,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5824"
+      },
+      {
+        "id": 5825,
+        "work_id": 3913,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5825"
+      },
+      {
+        "id": 5826,
+        "work_id": 3914,
+        "mechanism_codes": [
+          "M1",
+          "M9"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5826"
+      },
+      {
+        "id": 5827,
+        "work_id": 3915,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5827"
+      },
+      {
+        "id": 5830,
+        "work_id": 3918,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5830"
+      },
+      {
+        "id": 5831,
+        "work_id": 3919,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5831"
+      },
+      {
+        "id": 5832,
+        "work_id": 3920,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5832"
       }
     ],
     "researchers": [
@@ -197216,6 +200607,156 @@
         "mechanism_code": "M2",
         "extraction_id": 5721,
         "evidence_role": "primary"
+      },
+      {
+        "id": 6146,
+        "mechanism_code": "M3",
+        "extraction_id": 5744,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6147,
+        "mechanism_code": "M8",
+        "extraction_id": 5758,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6148,
+        "mechanism_code": "M3",
+        "extraction_id": 5759,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6149,
+        "mechanism_code": "M8",
+        "extraction_id": 5760,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6150,
+        "mechanism_code": "M13",
+        "extraction_id": 5760,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6151,
+        "mechanism_code": "M13",
+        "extraction_id": 5761,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6152,
+        "mechanism_code": "M13",
+        "extraction_id": 5762,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6153,
+        "mechanism_code": "M1",
+        "extraction_id": 5809,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6154,
+        "mechanism_code": "M4",
+        "extraction_id": 5817,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6155,
+        "mechanism_code": "M3",
+        "extraction_id": 5817,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6156,
+        "mechanism_code": "M1",
+        "extraction_id": 5818,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6157,
+        "mechanism_code": "M1",
+        "extraction_id": 5819,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6158,
+        "mechanism_code": "M1",
+        "extraction_id": 5821,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6159,
+        "mechanism_code": "M1",
+        "extraction_id": 5822,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6160,
+        "mechanism_code": "M1",
+        "extraction_id": 5823,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6161,
+        "mechanism_code": "M1",
+        "extraction_id": 5824,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6162,
+        "mechanism_code": "M1",
+        "extraction_id": 5825,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6163,
+        "mechanism_code": "M1",
+        "extraction_id": 5826,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6164,
+        "mechanism_code": "M9",
+        "extraction_id": 5826,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6165,
+        "mechanism_code": "M1",
+        "extraction_id": 5827,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6166,
+        "mechanism_code": "M1",
+        "extraction_id": 5828,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6167,
+        "mechanism_code": "M1",
+        "extraction_id": 5829,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6168,
+        "mechanism_code": "M9",
+        "extraction_id": 5829,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6169,
+        "mechanism_code": "M1",
+        "extraction_id": 5830,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6170,
+        "mechanism_code": "M1",
+        "extraction_id": 5832,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -208535,17 +212076,17 @@
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 650,
+      "M1": 664,
       "M2": 674,
-      "M3": 1146,
-      "M4": 215,
-      "M9": 373,
+      "M3": 1149,
+      "M4": 216,
+      "M9": 375,
       "M14": 496,
       "M11": 718,
       "M5": 548,
-      "M13": 266,
+      "M13": 269,
       "M10": 161,
-      "M8": 175,
+      "M8": 177,
       "M12": 85,
       "M6": 178,
       "M7": 251,
