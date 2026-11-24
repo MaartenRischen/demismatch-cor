@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-24T07:01:34.342279+00:00",
+    "built_at": "2026-11-24T07:22:07.606675+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -10,10 +10,10 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3644,
-    "extractions": 5453,
+    "works": 3727,
+    "extractions": 5551,
     "researchers": 84,
-    "mechanism_evidence": 5940,
+    "mechanism_evidence": 6035,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
@@ -73552,6 +73552,26 @@
         "url": "corpus.html#w=3577"
       },
       {
+        "id": 3669,
+        "title": "Differences in sensitivity to parenting depending on child temperament: a meta-analysis",
+        "authors": "Slagt M, Dubas JS, Dekovic M, van Aken MAG",
+        "year": 2016,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/bul0000061",
+        "pmid": "27513919",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Bulletin",
+        "container": null,
+        "volume": "142",
+        "issue": "10",
+        "pages": "1068-1110",
+        "url": "corpus.html#w=3669"
+      },
+      {
         "id": 3578,
         "title": "Selection on female behaviour fluctuates with offspring environment",
         "authors": "Taylor RW, Boutin S, Humphries MM, McAdam AG",
@@ -75170,6 +75190,1646 @@
         "issue": "2",
         "pages": "193-207",
         "url": "corpus.html#w=3658"
+      },
+      {
+        "id": 3659,
+        "title": "Shyness and boldness in humans and other animals",
+        "authors": "Wilson DS, Clark AB, Coleman K, Dearstyne T",
+        "year": 1994,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/0169-5347(94)90134-1",
+        "pmid": "21236920",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Trends in Ecology & Evolution",
+        "container": null,
+        "volume": "9",
+        "issue": "11",
+        "pages": "442-446",
+        "url": "corpus.html#w=3659"
+      },
+      {
+        "id": 3660,
+        "title": "Threat detection, precautionary responses, and anxiety disorders",
+        "authors": "Stein DJ, Nesse RM",
+        "year": 2011,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.neubiorev.2010.11.012",
+        "pmid": "21147162",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "container": null,
+        "volume": "35",
+        "issue": "4",
+        "pages": "1075-1079",
+        "url": "corpus.html#w=3660"
+      },
+      {
+        "id": 3661,
+        "title": "Blushing and social phobia: a neuroethological speculation",
+        "authors": "Stein DJ, Bouwer C",
+        "year": 1997,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/s0306-9877(97)90260-7",
+        "pmid": "9247916",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Medical Hypotheses",
+        "container": null,
+        "volume": "49",
+        "issue": "1",
+        "pages": "101-108",
+        "url": "corpus.html#w=3661"
+      },
+      {
+        "id": 3662,
+        "title": "Evolution and social anxiety. The role of attraction, social competition, and social hierarchies",
+        "authors": "Gilbert P",
+        "year": 2001,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/s0193-953x(05)70260-4",
+        "pmid": "11723630",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatric Clinics of North America",
+        "container": null,
+        "volume": "24",
+        "issue": "4",
+        "pages": "723-751",
+        "url": "corpus.html#w=3662"
+      },
+      {
+        "id": 3663,
+        "title": "Whole-exome DNA sequencing in childhood anxiety disorders identifies rare de novo damaging coding variants",
+        "authors": "Olfson E, Lebowitz ER, Hommel G, Pashankar N, Silverman WK, Fernandez TV",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/da.23251",
+        "pmid": "35312124",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Depression and Anxiety",
+        "container": null,
+        "volume": "39",
+        "issue": "6",
+        "pages": "474-484",
+        "url": "corpus.html#w=3663"
+      },
+      {
+        "id": 3664,
+        "title": "Paternal age and 13 psychiatric disorders in the offspring: a population-based cohort study of 7 million children in Taiwan",
+        "authors": "Wang SH, Wu CS, Hsu LY, Lin MC, Chen PC, Thompson WK, Fan CC",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41380-022-01753-x",
+        "pmid": "36042285",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "27",
+        "issue": "12",
+        "pages": "5244-5254",
+        "url": "corpus.html#w=3664"
+      },
+      {
+        "id": 3665,
+        "title": "Copy number variation and neuropsychiatric problems in females and males in the general population",
+        "authors": "Martin J, Tammimies K, Karlsson R, Lu Y, Larsson H, Lichtenstein P, Magnusson PKE",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajmg.b.32685",
+        "pmid": "30307693",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics",
+        "container": null,
+        "volume": "180",
+        "issue": "6",
+        "pages": "341-350",
+        "url": "corpus.html#w=3665"
+      },
+      {
+        "id": 3666,
+        "title": "Impact of copy number variants and polygenic risk scores on psychopathology in the UK Biobank",
+        "authors": "Mollon J, Schultz LM, Huguet G, Knowles EEM, Mathias SR, Rodrigue A, Alexander-Bloch A, Saci Z, Jean-Louis M, Kumar K, Douard E, Almasy L, Jacquemont S, Glahn DC",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.biopsych.2023.01.028",
+        "pmid": "36764568",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Biological Psychiatry",
+        "container": null,
+        "volume": "94",
+        "issue": "7",
+        "pages": "591-600",
+        "url": "corpus.html#w=3666"
+      },
+      {
+        "id": 3667,
+        "title": "Children with 7q11.23 duplication syndrome: psychological characteristics",
+        "authors": "Mervis CB, Klein-Tasman BP, Huffman MJ, Velleman SL, Pitts CH, Henderson DR, Woodruff-Borden J, Morris CA, Osborne LR",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajmg.a.37071",
+        "pmid": "25900101",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Medical Genetics Part A",
+        "container": null,
+        "volume": "167",
+        "issue": "7",
+        "pages": "1436-1450",
+        "url": "corpus.html#w=3667"
+      },
+      {
+        "id": 3668,
+        "title": "Genetic and environmental contributions to social anxiety across different ages: a meta-analytic approach to twin data",
+        "authors": "Scaini S, Belotti R, Ogliari A",
+        "year": 2014,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.janxdis.2014.07.002",
+        "pmid": "25118017",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Anxiety Disorders",
+        "container": null,
+        "volume": "28",
+        "issue": "7",
+        "pages": "650-656",
+        "url": "corpus.html#w=3668"
+      },
+      {
+        "id": 3670,
+        "title": "The evolution of personality disorders: a review of proposals",
+        "authors": "Gutierrez F, Valdesoiro F",
+        "year": 2023,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpsyt.2023.1110420",
+        "pmid": "36793943",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Psychiatry",
+        "container": null,
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3670"
+      },
+      {
+        "id": 3671,
+        "title": "Relationships between estimated autozygosity and complex traits in the UK Biobank",
+        "authors": "Johnson EC, Evans LM, Keller MC",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1371/journal.pgen.1007556",
+        "pmid": "30052639",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PLOS Genetics",
+        "container": null,
+        "volume": "14",
+        "issue": "7",
+        "pages": "e1007556",
+        "url": "corpus.html#w=3671"
+      },
+      {
+        "id": 3672,
+        "title": "When adaptations go awry: functional and dysfunctional aspects of social anxiety",
+        "authors": "Maner JK, Kenrick DT",
+        "year": 2010,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1751-2409.2010.01019.x",
+        "pmid": "21874134",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Social Issues and Policy Review",
+        "container": null,
+        "volume": "4",
+        "issue": "1",
+        "pages": "111-142",
+        "url": "corpus.html#w=3672"
+      },
+      {
+        "id": 3673,
+        "title": "Genome-wide association studies of infant and toddler temperament in European and multi-ancestry populations",
+        "authors": "Hollowell A, Gui A, Wigdor E, Morgan MJ, Hannigan LJ, Corfield EC, Pool R, Bruins S, Ask H, Middeldorp CM, St Pourcain B, Bartels M, et al.",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41562-026-02486-5",
+        "pmid": "42386913",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature Human Behaviour",
+        "container": null,
+        "volume": "10",
+        "issue": "9",
+        "pages": "1821-1840",
+        "url": "corpus.html#w=3673"
+      },
+      {
+        "id": 3674,
+        "title": "Genetic architecture of social anxiety disorder: examining moderation by rural-urban residential environment",
+        "authors": "Harle R, Reed ML, Feuer KL, Kember RL",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.64898/2026.11.13.26367930",
+        "pmid": "43060037",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "medRxiv : the preprint server for health sciences",
+        "container": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3674"
+      },
+      {
+        "id": 3675,
+        "title": "Shared genetic basis between reproductive behaviors and anxiety-related disorders",
+        "authors": "Ohi K, Kuramitsu A, Fujikane D, Takai K, Sugiyama S, Shioiri T",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41380-022-01667-8",
+        "pmid": "35750798",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Molecular Psychiatry",
+        "container": null,
+        "volume": "27",
+        "issue": "10",
+        "pages": "4103-4112",
+        "url": "corpus.html#w=3675"
+      },
+      {
+        "id": 3676,
+        "title": "Evolutionary Trends of Polygenic Scores in European Populations From the Paleolithic to Modern Times",
+        "authors": "Piffer D, Kirkegaard EOW",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/thg.2024.8",
+        "pmid": "38444325",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Twin Research and Human Genetics",
+        "container": null,
+        "volume": "27",
+        "issue": "1",
+        "pages": "30-49",
+        "url": "corpus.html#w=3676"
+      },
+      {
+        "id": 3677,
+        "title": "Robust inference and correlates from genetic associations with personality",
+        "authors": "Schwaba T, Clapp Sullivan ML, Akingbuwa WA, Ilves K, Tanksley PT, Williams CM, Dragostinov Y, Mallard TT, Tubbs JD, Liao W, Ackerman LS, Fealy JCM, et al.",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41586-026-10992-9",
+        "pmid": "42686911",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Nature",
+        "container": null,
+        "volume": "658",
+        "issue": "8138",
+        "pages": "1226-1236",
+        "url": "corpus.html#w=3677"
+      },
+      {
+        "id": 3678,
+        "title": "5-HTTLPR genotype and anxiety-related personality traits: a meta-analysis and new data",
+        "authors": "Munafò MR, Freimer NB, Ng W, Ophoff R, Veijola J, Miettunen J, Järvelin MR, Taanila A, Flint J",
+        "year": 2009,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajmg.b.30808",
+        "pmid": "18546120",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics",
+        "container": null,
+        "volume": "150B",
+        "issue": "2",
+        "pages": "271-281",
+        "url": "corpus.html#w=3678"
+      },
+      {
+        "id": 3679,
+        "title": "Variants of the serotonin transporter gene and NEO-PI-R Neuroticism: No association in the BLSA and SardiNIA samples",
+        "authors": "Terracciano A, Balaci L, Thayer J, Scally M, Kokinos S, Ferrucci L, Tanaka T, Zonderman AB, Sanna S, Olla N, Zuncheddu MA, Naitza S, Busonero F, Uda M, Schlessinger D, Abecasis GR, Costa PT Jr",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ajmg.b.30932",
+        "pmid": "19199283",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics",
+        "container": null,
+        "volume": "150B",
+        "issue": "8",
+        "pages": "1070-1077",
+        "url": "corpus.html#w=3679"
+      },
+      {
+        "id": 3680,
+        "title": "Relation of shyness in grade school children to the genotype for the long form of the serotonin transporter promoter region polymorphism",
+        "authors": "Arbelle S, Benjamin J, Golin M, Kremer I, Belmaker RH, Ebstein RP",
+        "year": 2003,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.160.4.671",
+        "pmid": "12668354",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "160",
+        "issue": "4",
+        "pages": "671-676",
+        "url": "corpus.html#w=3680"
+      },
+      {
+        "id": 3681,
+        "title": "The association between 5-HTTLPR gene polymorphism and behavioral inhibition in Chinese toddlers",
+        "authors": "Chen X, Zhang G, Liang Z, Zhang M, Way N, Yoshikawa H, Ke X, Lu Z, Deng H",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/dev.21253",
+        "pmid": "25196943",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychobiology",
+        "container": null,
+        "volume": "56",
+        "issue": "7",
+        "pages": "1601-1608",
+        "url": "corpus.html#w=3681"
+      },
+      {
+        "id": 3682,
+        "title": "Evidence for a gene-environment interaction in predicting behavioral inhibition in middle childhood",
+        "authors": "Fox NA, Nichols KE, Henderson HA, Rubin K, Schmidt L, Hamer D, Ernst M, Pine DS",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-9280.2005.01637.x",
+        "pmid": "16313653",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Science",
+        "container": null,
+        "volume": "16",
+        "issue": "12",
+        "pages": "921-926",
+        "url": "corpus.html#w=3682"
+      },
+      {
+        "id": 3683,
+        "title": "The nature of individual differences in inhibited temperament and risk for psychiatric disease: A review and meta-analysis",
+        "authors": "Clauss JA, Avery SN, Blackford JU",
+        "year": 2015,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.pneurobio.2015.03.001",
+        "pmid": "25784645",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Progress in Neurobiology",
+        "container": null,
+        "volume": "127-128",
+        "issue": null,
+        "pages": "23-45",
+        "url": "corpus.html#w=3683"
+      },
+      {
+        "id": 3684,
+        "title": "Shyness-sensitivity and social, school, and psychological adjustment in rural migrant and urban children in China",
+        "authors": "Chen X, Wang L, Wang Z",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-8624.2009.01347.x",
+        "pmid": "19765014",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "80",
+        "issue": "5",
+        "pages": "1499-1513",
+        "url": "corpus.html#w=3684"
+      },
+      {
+        "id": 3685,
+        "title": "Shyness-sensitivity and unsociability in rural Chinese children: relations with social, school, and psychological adjustment",
+        "authors": "Chen X, Wang L, Cao R",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-8624.2011.01616.x",
+        "pmid": "21790539",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "82",
+        "issue": "5",
+        "pages": "1531-1543",
+        "url": "corpus.html#w=3685"
+      },
+      {
+        "id": 3686,
+        "title": "Early childhood behavioral inhibition and social and school adjustment in Chinese children: a 5-year longitudinal study",
+        "authors": "Chen X, Chen H, Li D, Wang L",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-8624.2009.01362.x",
+        "pmid": "19930346",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "80",
+        "issue": "6",
+        "pages": "1692-1704",
+        "url": "corpus.html#w=3686"
+      },
+      {
+        "id": 3687,
+        "title": "Social functioning and adjustment in Chinese children: the imprint of historical time",
+        "authors": "Chen X, Cen G, Li D, He Y",
+        "year": 2005,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1467-8624.2005.00838.x",
+        "pmid": "15693766",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "76",
+        "issue": "1",
+        "pages": "182-195",
+        "url": "corpus.html#w=3687"
+      },
+      {
+        "id": 3688,
+        "title": "Pathogen prevalence, group bias, and collectivism in the standard cross-cultural sample",
+        "authors": "Cashdan E, Steele M",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s12110-012-9159-3",
+        "pmid": "23389437",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Human Nature",
+        "container": null,
+        "volume": "24",
+        "issue": "1",
+        "pages": "59-75",
+        "url": "corpus.html#w=3688"
+      },
+      {
+        "id": 3689,
+        "title": "Is this happiness I see? Biases in the identification of emotional facial expressions in depression and social phobia",
+        "authors": "Joormann J, Gotlib IH",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0021-843X.115.4.705",
+        "pmid": "17100528",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Abnormal Psychology",
+        "container": null,
+        "volume": "115",
+        "issue": "4",
+        "pages": "705-714",
+        "url": "corpus.html#w=3689"
+      },
+      {
+        "id": 3690,
+        "title": "Social anxiety is associated with general but not specific biases in emotion recognition",
+        "authors": "Button K, Lewis G, Penton-Voak I, Munafò M",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psychres.2013.06.005",
+        "pmid": "23845415",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatry Research",
+        "container": null,
+        "volume": "210",
+        "issue": "1",
+        "pages": "199-207",
+        "url": "corpus.html#w=3690"
+      },
+      {
+        "id": 3691,
+        "title": "Theory of mind impairments in social anxiety disorder",
+        "authors": "Hezel DM, McNally RJ",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.beth.2014.02.010",
+        "pmid": "24912465",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behavior Therapy",
+        "container": null,
+        "volume": "45",
+        "issue": "4",
+        "pages": "530-540",
+        "url": "corpus.html#w=3691"
+      },
+      {
+        "id": 3692,
+        "title": "Social anxiety and social cognition: the influence of sex",
+        "authors": "Sutterby SR, Bedwell JS, Passler JS, Deptula AE, Mesa F",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psychres.2012.02.014",
+        "pmid": "22424909",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatry Research",
+        "container": null,
+        "volume": "197",
+        "issue": "3",
+        "pages": "242-245",
+        "url": "corpus.html#w=3692"
+      },
+      {
+        "id": 3693,
+        "title": "Performance in emotion recognition and theory of mind tasks in social anxiety and generalized anxiety disorders: a systematic review and meta-analysis",
+        "authors": "Baez S, Tangarife MA, Davila-Mejia G, Trujillo-Güiza M, Forero DA",
+        "year": 2023,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpsyt.2023.1192683",
+        "pmid": "37275989",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Psychiatry",
+        "container": null,
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3693"
+      },
+      {
+        "id": 3694,
+        "title": "Social cognition in social anxiety: first evidence for increased empathic abilities",
+        "authors": "Tibi-Elhanany Y, Shamay-Tsoory SG",
+        "year": 2011,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": null,
+        "pmid": "22120444",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "The Israel journal of psychiatry and related sciences",
+        "container": null,
+        "volume": "48",
+        "issue": "2",
+        "pages": "98-106",
+        "url": "corpus.html#w=3694"
+      },
+      {
+        "id": 3695,
+        "title": "Are socially anxious children poor or advanced mindreaders?",
+        "authors": "Nikolić M, van der Storm L, Colonnesi C, Brummelman E, Kan KJ, Bögels S",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/cdev.13248",
+        "pmid": "31099053",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Development",
+        "container": null,
+        "volume": "90",
+        "issue": "4",
+        "pages": "1424-1441",
+        "url": "corpus.html#w=3695"
+      },
+      {
+        "id": 3696,
+        "title": "Reduced reciprocal giving in social anxiety - Evidence from the Trust Game",
+        "authors": "Anderl C, Steil R, Hahn T, Hitzeroth P, Reif A, Windmann S",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jbtep.2017.10.005",
+        "pmid": "29121505",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Behavior Therapy and Experimental Psychiatry",
+        "container": null,
+        "volume": "59",
+        "issue": null,
+        "pages": "12-18",
+        "url": "corpus.html#w=3696"
+      },
+      {
+        "id": 3697,
+        "title": "Functional neuroimaging of mentalizing during the trust game in social anxiety disorder",
+        "authors": "Sripada CS, Angstadt M, Banks S, Nathan PJ, Liberzon I, Phan KL",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1097/WNR.0b013e32832d0a67",
+        "pmid": "19521264",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "NeuroReport",
+        "container": null,
+        "volume": "20",
+        "issue": "11",
+        "pages": "984-989",
+        "url": "corpus.html#w=3697"
+      },
+      {
+        "id": 3698,
+        "title": "Interpersonal constraint conferred by generalized social anxiety disorder is evident on a behavioral economics task",
+        "authors": "Rodebaugh TL, Shumaker EA, Levinson CA, Fernandez KC, Langer JK, Lim MH, Yarkoni T",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/a0030975",
+        "pmid": "23231458",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Abnormal Psychology",
+        "container": null,
+        "volume": "122",
+        "issue": "1",
+        "pages": "39-44",
+        "url": "corpus.html#w=3698"
+      },
+      {
+        "id": 3699,
+        "title": "Stress makes the difference: social stress and social anxiety in decision-making under uncertainty",
+        "authors": "Hengen KM, Alpers GW",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpsyg.2021.578293",
+        "pmid": "33692716",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Psychology",
+        "container": null,
+        "volume": "12",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3699"
+      },
+      {
+        "id": 3700,
+        "title": "Shyness and risk-taking during peer observation in children and adolescents",
+        "authors": "Poole KL, Willoughby T",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.jecp.2024.105981",
+        "pmid": "38861806",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Experimental Child Psychology",
+        "container": null,
+        "volume": "246",
+        "issue": null,
+        "pages": "105981",
+        "url": "corpus.html#w=3700"
+      },
+      {
+        "id": 3701,
+        "title": "Avoidant decision making in social anxiety: the interaction of angry faces and emotional responses",
+        "authors": "Pittig A, Pawlikowski M, Craske MG, Alpers GW",
+        "year": 2014,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpsyg.2014.01050",
+        "pmid": "25324792",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Psychology",
+        "container": null,
+        "volume": "5",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3701"
+      },
+      {
+        "id": 3702,
+        "title": "Social anxiety and detection of facial untrustworthiness: spatio-temporal oculomotor profiles",
+        "authors": "Gutiérrez-García A, Calvo MG, Eysenck MW",
+        "year": 2018,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.psychres.2018.01.031",
+        "pmid": "29407569",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychiatry Research",
+        "container": null,
+        "volume": "262",
+        "issue": null,
+        "pages": "55-62",
+        "url": "corpus.html#w=3702"
+      },
+      {
+        "id": 3703,
+        "title": "Research Review: The relationship between social anxiety and social cognition in children and adolescents: a systematic review and meta-analysis",
+        "authors": "Pearcey S, Gordon K, Chakrabarti B, Dodd H, Halldorsson B, Creswell C",
+        "year": 2021,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/jcpp.13310",
+        "pmid": "32783234",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "62",
+        "issue": "7",
+        "pages": "805-821",
+        "url": "corpus.html#w=3703"
+      },
+      {
+        "id": 3704,
+        "title": "Social anxiety is negatively associated with theory of mind and empathic accuracy",
+        "authors": "Alvi T, Kouros CD, Lee J, Fulford D, Tabak BA",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/abn0000493",
+        "pmid": "31697138",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Abnormal Psychology",
+        "container": null,
+        "volume": "129",
+        "issue": "1",
+        "pages": "108-113",
+        "url": "corpus.html#w=3704"
+      },
+      {
+        "id": 3705,
+        "title": "The personality trait of behavioral inhibition modulates perceptions of moral character and performance during the trust game: behavioral results and computational modeling",
+        "authors": "Radell ML, Sanchez R, Weinflash N, Myers CE",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.7717/peerj.1631",
+        "pmid": "27004148",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "PeerJ",
+        "container": null,
+        "volume": "4",
+        "issue": null,
+        "pages": "e1631",
+        "url": "corpus.html#w=3705"
+      },
+      {
+        "id": 3706,
+        "title": "Peer pressure: conformity outweighs reciprocity in social anxiety",
+        "authors": "Bică A",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s12144-022-03021-1",
+        "pmid": "35350747",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Current Psychology",
+        "container": null,
+        "volume": "42",
+        "issue": "21",
+        "pages": "18142-18149",
+        "url": "corpus.html#w=3706"
+      },
+      {
+        "id": 3707,
+        "title": "Social anxiety modulates risk sensitivity through activity in the anterior insula",
+        "authors": "Tang GS, van den Bos W, Andrade EB, McClure SM",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fnins.2011.00142",
+        "pmid": "22319462",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Neuroscience",
+        "container": null,
+        "volume": "5",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3707"
+      },
+      {
+        "id": 3708,
+        "title": "Social anxiety and empathy: a systematic review and meta-analysis",
+        "authors": "Pittelkow MM, aan het Rot M, Seidel LJ, Feyel N, Roest AM",
+        "year": 2021,
+        "work_type": "meta_analysis",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.janxdis.2021.102357",
+        "pmid": "33588287",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Anxiety Disorders",
+        "container": null,
+        "volume": "78",
+        "issue": null,
+        "pages": "102357",
+        "url": "corpus.html#w=3708"
+      },
+      {
+        "id": 3709,
+        "title": "Life course sequelae of childhood shyness in Sweden: comparison with the United States",
+        "authors": "Kerr M, Lambert WW, Bem DJ",
+        "year": 1996,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0012-1649.32.6.1100",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychology",
+        "container": null,
+        "volume": "32",
+        "issue": "6",
+        "pages": "1100-1105",
+        "url": "corpus.html#w=3709"
+      },
+      {
+        "id": 3710,
+        "title": "Inhibited and aggressive preschool children at 23 years of age: personality and social transitions into adulthood",
+        "authors": "Asendorpf JB, Denissen JJA, van Aken MAG",
+        "year": 2008,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0012-1649.44.4.997",
+        "pmid": "18605830",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Developmental Psychology",
+        "container": null,
+        "volume": "44",
+        "issue": "4",
+        "pages": "997-1011",
+        "url": "corpus.html#w=3710"
+      },
+      {
+        "id": 3711,
+        "title": "The protective role of trait anxiety: a longitudinal cohort study",
+        "authors": "Lee WE, Wadsworth MEJ, Hotopf M",
+        "year": 2006,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291705006847",
+        "pmid": "16393365",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "36",
+        "issue": "3",
+        "pages": "345-351",
+        "url": "corpus.html#w=3711"
+      },
+      {
+        "id": 3712,
+        "title": "Childhood problem behaviors and injury risk over the life course",
+        "authors": "Jokela M, Power C, Kivimaki M",
+        "year": 2009,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/j.1469-7610.2009.02122.x",
+        "pmid": "19573032",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Child Psychology and Psychiatry",
+        "container": null,
+        "volume": "50",
+        "issue": "12",
+        "pages": "1541-1549",
+        "url": "corpus.html#w=3712"
+      },
+      {
+        "id": 3713,
+        "title": "Early-life temperamental differences as longitudinal predictors of unintentional injuries",
+        "authors": "Ksinan AJ, Dalecka A, Kukla L, Pikhart H, Bobak M",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/jpepsy/jsad072",
+        "pmid": "37847645",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Pediatric Psychology",
+        "container": null,
+        "volume": "49",
+        "issue": "1",
+        "pages": "35-44",
+        "url": "corpus.html#w=3713"
+      },
+      {
+        "id": 3714,
+        "title": "All-cause and cause-specific mortality in social anxiety disorder: a matched cohort and sibling cohort study",
+        "authors": "Fernandez de la Cruz L, Isomura K, Kuja-Halkola R, Pol-Fuster J, Chang Z, D'Onofrio BM, Larsson H, Lichtenstein P, Sidorchuk A, Mataix-Cols D",
+        "year": 2026,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S2045796026100535",
+        "pmid": "41891443",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Epidemiology and Psychiatric Sciences",
+        "container": null,
+        "volume": "35",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3714"
+      },
+      {
+        "id": 3715,
+        "title": "Increased mortality among people with anxiety disorders: total population study",
+        "authors": "Meier SM, Mattheisen M, Mors O, Mortensen PB, Laursen TM, Penninx BW",
+        "year": 2016,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1192/bjp.bp.115.171975",
+        "pmid": "27388572",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "British Journal of Psychiatry",
+        "container": null,
+        "volume": "209",
+        "issue": "3",
+        "pages": "216-221",
+        "url": "corpus.html#w=3715"
+      },
+      {
+        "id": 3716,
+        "title": "Impact of generalized social anxiety disorder in managed care",
+        "authors": "Katzelnick DJ, Kobak KA, DeLeire T, Henk HJ, Greist JH, Davidson JR, Schneier FR, Stein MB, Helstad CP",
+        "year": 2001,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1176/appi.ajp.158.12.1999",
+        "pmid": "11729016",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Psychiatry",
+        "container": null,
+        "volume": "158",
+        "issue": "12",
+        "pages": "1999-2007",
+        "url": "corpus.html#w=3716"
+      },
+      {
+        "id": 3717,
+        "title": "Much more than just shyness: the impact of social anxiety disorder on educational performance across the lifespan",
+        "authors": "Vilaplana-Perez A, Perez-Vigil A, Sidorchuk A, Brander G, Isomura K, Hesselmark E, Kuja-Halkola R, Larsson H, Mataix-Cols D, Fernandez de la Cruz L",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1017/S0033291719003908",
+        "pmid": "31907098",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Psychological Medicine",
+        "container": null,
+        "volume": "51",
+        "issue": "5",
+        "pages": "861-869",
+        "url": "corpus.html#w=3717"
+      },
+      {
+        "id": 3718,
+        "title": "Associations between adolescent social phobia, sickness absence and unemployment: a prospective study of twins in Sweden",
+        "authors": "Amin R, Svedberg P, Narusyte J",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/eurpub/ckz033",
+        "pmid": "30879025",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "European Journal of Public Health",
+        "container": null,
+        "volume": "29",
+        "issue": "5",
+        "pages": "931-936",
+        "url": "corpus.html#w=3718"
+      },
+      {
+        "id": 3719,
+        "title": "Associations between common forms of psychopathology and fecundity: evidence from a prospective, longitudinal twin study",
+        "authors": "Wilson S, Elkins IJ, Malone SM, Iacono WG, McGue M",
+        "year": 2021,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1177/2167702620957321",
+        "pmid": "34012724",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Clinical Psychological Science",
+        "container": null,
+        "volume": "9",
+        "issue": "2",
+        "pages": "197-209",
+        "url": "corpus.html#w=3719"
+      },
+      {
+        "id": 3720,
+        "title": "Infant behavioral inhibition predicts personality and social outcomes three decades later",
+        "authors": "Tang A, Crawford H, Morales S, Degnan KA, Pine DS, Fox NA",
+        "year": 2020,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1917376117",
+        "pmid": "32312813",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "117",
+        "issue": "18",
+        "pages": "9800-9807",
+        "url": "corpus.html#w=3720"
+      },
+      {
+        "id": 3721,
+        "title": "Boys' behavioral inhibition and the risk of later delinquency",
+        "authors": "Kerr M, Tremblay RE, Pagani L, Vitaro F",
+        "year": 1997,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1001/archpsyc.1997.01830210049005",
+        "pmid": "9294371",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Archives of General Psychiatry",
+        "container": null,
+        "volume": "54",
+        "issue": "9",
+        "pages": "809",
+        "url": "corpus.html#w=3721"
+      },
+      {
+        "id": 3722,
+        "title": "Social anxiety in adolescence and the first timing of parental home leaving and living with a partner: a longitudinal population-based Young-HUNT3 study in Norway",
+        "authors": "Halidu MD, Moe CF, Behboudi-Gandevani S, Haugan T",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.3389/fpubh.2024.1484501",
+        "pmid": "39776489",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Frontiers in Public Health",
+        "container": null,
+        "volume": "12",
+        "issue": null,
+        "pages": null,
+        "url": "corpus.html#w=3722"
+      },
+      {
+        "id": 3723,
+        "title": "Personality development within a generational context: life course outcomes of shy children",
+        "authors": "Schmidt LA, Tang A, Day KL, Lahat A, Boyle MH, Saigal S, Van Lieshout RJ",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s10578-016-0691-y",
+        "pmid": "27730314",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Child Psychiatry & Human Development",
+        "container": null,
+        "volume": "48",
+        "issue": "4",
+        "pages": "632-641",
+        "url": "corpus.html#w=3723"
+      },
+      {
+        "id": 3724,
+        "title": "Social avoidance and long-term risk for cardiovascular disease death in healthy men: the Western Electric study",
+        "authors": "Berry JD, Lloyd-Jones DM, Garside DB, Wang R, Greenland P",
+        "year": 2007,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.annepidem.2007.03.010",
+        "pmid": "17531506",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Annals of Epidemiology",
+        "container": null,
+        "volume": "17",
+        "issue": "8",
+        "pages": "591-596",
+        "url": "corpus.html#w=3724"
+      },
+      {
+        "id": 3725,
+        "title": "The relationship of mental and behavioral disorders to all-cause mortality in a 27-year follow-up of 4 epidemiologic catchment area samples",
+        "authors": "Eaton WW, Roth KB, Bruce M, Cottler L, Wu L, Nestadt G, Ford D, Bienvenu OJ, Crum RM, Rebok G, Anthony JC, Munoz A",
+        "year": 2013,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/aje/kwt219",
+        "pmid": "24091891",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "American Journal of Epidemiology",
+        "container": null,
+        "volume": "178",
+        "issue": "9",
+        "pages": "1366-1377",
+        "url": "corpus.html#w=3725"
+      },
+      {
+        "id": 3726,
+        "title": "Human selection of elk behavioural traits in a landscape of fear",
+        "authors": "Ciuti S, Muhly TB, Paton DG, McDevitt AD, Musiani M, Boyce MS",
+        "year": 2012,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rspb.2012.1483",
+        "pmid": "22951744",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the Royal Society B: Biological Sciences",
+        "container": null,
+        "volume": "279",
+        "issue": "1746",
+        "pages": "4407-4416",
+        "url": "corpus.html#w=3726"
+      },
+      {
+        "id": 3727,
+        "title": "Hunters select for behavioral traits in a large carnivore",
+        "authors": "Leclerc M, Zedrosser A, Swenson JE, Pelletier F",
+        "year": 2019,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-019-48853-3",
+        "pmid": "31451727",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "9",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3727"
+      },
+      {
+        "id": 3728,
+        "title": "Consistency of temperament in bighorn ewes and correlates with behaviour and life history",
+        "authors": "Réale D, Gallant BY, Leblanc M, Festa-Bianchet M",
+        "year": 2000,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1006/anbe.2000.1530",
+        "pmid": "11082229",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Animal Behaviour",
+        "container": null,
+        "volume": "60",
+        "issue": "5",
+        "pages": "589-597",
+        "url": "corpus.html#w=3728"
+      },
+      {
+        "id": 3729,
+        "title": "Individual behaviour, growth, survival and vulnerability to hunting in a large mammal",
+        "authors": "Cusson PO, Pelletier F",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/ece3.11003",
+        "pmid": "38352198",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ecology and Evolution",
+        "container": null,
+        "volume": "14",
+        "issue": "2",
+        "pages": null,
+        "url": "corpus.html#w=3729"
+      },
+      {
+        "id": 3730,
+        "title": "Individual variation in behavioural responsiveness to humans leads to differences in breeding success and long-term population phenotypic changes",
+        "authors": "Arroyo B, Mougeot F, Bretagnolle V",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1111/ele.12729",
+        "pmid": "28103631",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Ecology Letters",
+        "container": null,
+        "volume": "20",
+        "issue": "3",
+        "pages": "317-325",
+        "url": "corpus.html#w=3730"
+      },
+      {
+        "id": 3731,
+        "title": "The effect of environmental variation on the relationship between survival and risk-taking behaviour in a migratory songbird",
+        "authors": "Krenhardt K, Martínez-Padilla J, Canal D, Jablonszky M, Hegyi G, Herényi M, Laczi M, Markó G, Nagy G, Rosivall B, Szász E, Szöllősi E, Török J, Vaskuti É, Zsebők S, Garamszegi LZ",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/jeb/voae046",
+        "pmid": "38623610",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Journal of Evolutionary Biology",
+        "container": null,
+        "volume": "37",
+        "issue": "5",
+        "pages": "566-576",
+        "url": "corpus.html#w=3731"
+      },
+      {
+        "id": 3732,
+        "title": "Early-life behavior, survival, and maternal personality in a wild marsupial",
+        "authors": "Menário Costa W, King WJ, Bonnet T, Festa-Bianchet M, Kruuk LEB",
+        "year": 2023,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1093/beheco/arad070",
+        "pmid": "37969552",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Behavioral Ecology",
+        "container": null,
+        "volume": "34",
+        "issue": "6",
+        "pages": "1002-1012",
+        "url": "corpus.html#w=3732"
+      },
+      {
+        "id": 3733,
+        "title": "A predation cost to bold fish in the wild",
+        "authors": "Hulthén K, Chapman BB, Nilsson PA, Hansson LA, Skov C, Brodersen J, Vinterstare J, Brönmark C",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1038/s41598-017-01270-w",
+        "pmid": "28450699",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Scientific Reports",
+        "container": null,
+        "volume": "7",
+        "issue": "1",
+        "pages": null,
+        "url": "corpus.html#w=3733"
+      },
+      {
+        "id": 3734,
+        "title": "Personality and density affect nest defence and nest survival in the great tit",
+        "authors": "Vrublevska J, Krama T, Rantala MJ, Mierauskas P, Freeberg TM, Krams IA",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s10211-014-0191-7",
+        "pmid": null,
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "acta ethologica",
+        "container": null,
+        "volume": "18",
+        "issue": "2",
+        "pages": "111-120",
+        "url": "corpus.html#w=3734"
+      },
+      {
+        "id": 3735,
+        "title": "Individual risk-taking behaviour in black-capped chickadees (Poecile atricapillus) does not predict annual survival",
+        "authors": "Mathot KJ, Arteaga-Torres JD, Wijmenga JJ",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsos.220299",
+        "pmid": "35911194",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Royal Society Open Science",
+        "container": null,
+        "volume": "9",
+        "issue": "7",
+        "pages": null,
+        "url": "corpus.html#w=3735"
+      },
+      {
+        "id": 3736,
+        "title": "Wild jackdaws' reproductive success and their offspring's stress hormones are connected to provisioning rate and brood size, not to parental neophobia",
+        "authors": "Greggor AL, Spencer KA, Clayton NS, Thornton A",
+        "year": 2017,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1016/j.ygcen.2016.11.006",
+        "pmid": "27838379",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "General and Comparative Endocrinology",
+        "container": null,
+        "volume": "243",
+        "issue": null,
+        "pages": "70-77",
+        "url": "corpus.html#w=3736"
+      },
+      {
+        "id": 3737,
+        "title": "Risk-taking neonates do not pay a survival cost in a free-ranging large mammal, the fallow deer (Dama dama)",
+        "authors": "Amin B, Verbeek L, Haigh A, Griffin LL, Ciuti S",
+        "year": 2022,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1098/rsos.220578",
+        "pmid": "36147938",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Royal Society Open Science",
+        "container": null,
+        "volume": "9",
+        "issue": "9",
+        "pages": null,
+        "url": "corpus.html#w=3737"
+      },
+      {
+        "id": 3738,
+        "title": "Boldness predicts foraging behaviour, habitat use and chick growth in a central place marine predator",
+        "authors": "Pereira JM, Ramos JA, Ceia FR, Krüger L, Marques AM, Paiva VH",
+        "year": 2024,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1007/s00442-024-05557-4",
+        "pmid": "38739168",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Oecologia",
+        "container": null,
+        "volume": "205",
+        "issue": "1",
+        "pages": "135-147",
+        "url": "corpus.html#w=3738"
+      },
+      {
+        "id": 3739,
+        "title": "Crowding stress and violent injuries among behaviorally inhibited rhesus macaques",
+        "authors": "Boyce WT, O'Neill-Wagner P, Price CS, Haines M, Suomi SJ",
+        "year": 1998,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1037/0278-6133.17.3.285",
+        "pmid": "9619479",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Health Psychology",
+        "container": null,
+        "volume": "17",
+        "issue": "3",
+        "pages": "285-289",
+        "url": "corpus.html#w=3739"
+      },
+      {
+        "id": 3740,
+        "title": "Intergenerational neural mediators of early-life anxious temperament",
+        "authors": "Fox AS, Oler JA, Shackman AJ, Shelton SE, Raveendran M, McKay DR, Converse AK, Alexander A, Davidson RJ, Blangero J, Rogers J, Kalin NH",
+        "year": 2015,
+        "work_type": "paper",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1073/pnas.1508593112",
+        "pmid": "26150480",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "container": null,
+        "volume": "112",
+        "issue": "29",
+        "pages": "9118-9122",
+        "url": "corpus.html#w=3740"
+      },
+      {
+        "id": 3741,
+        "title": "Animal evolution during domestication: the domesticated fox as a model",
+        "authors": "Trut L, Oskina I, Kharlamova A",
+        "year": 2009,
+        "work_type": "review",
+        "importance": "supporting",
+        "primary_researcher_id": null,
+        "doi": "10.1002/bies.200800070",
+        "pmid": "19260016",
+        "isbn": null,
+        "in_physical_collection": false,
+        "tier": "core",
+        "journal": "BioEssays",
+        "container": null,
+        "volume": "31",
+        "issue": "3",
+        "pages": "349-360",
+        "url": "corpus.html#w=3741"
       }
     ],
     "extractions": [
@@ -89169,6 +90829,22 @@
         "url": "corpus.html#e=2296"
       },
       {
+        "id": 5612,
+        "work_id": 3736,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5612"
+      },
+      {
         "id": 1068,
         "work_id": 508,
         "mechanism_codes": [],
@@ -89210,6 +90886,22 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=690"
+      },
+      {
+        "id": 5613,
+        "work_id": 3737,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5613"
       },
       {
         "id": 2300,
@@ -90267,6 +91959,20 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=2303"
+      },
+      {
+        "id": 5614,
+        "work_id": 3738,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5614"
       },
       {
         "id": 1194,
@@ -153895,6 +155601,1451 @@
         "tier": "core",
         "grade": "tested once",
         "url": "corpus.html#e=5520"
+      },
+      {
+        "id": 5521,
+        "work_id": 3659,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5521"
+      },
+      {
+        "id": 5522,
+        "work_id": 3660,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5522"
+      },
+      {
+        "id": 5523,
+        "work_id": 3661,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA5"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5523"
+      },
+      {
+        "id": 5524,
+        "work_id": 3662,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5524"
+      },
+      {
+        "id": 5525,
+        "work_id": 3662,
+        "mechanism_codes": [
+          "M5",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5525"
+      },
+      {
+        "id": 5608,
+        "work_id": 3732,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5608"
+      },
+      {
+        "id": 5526,
+        "work_id": 3376,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5526"
+      },
+      {
+        "id": 5527,
+        "work_id": 3663,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5527"
+      },
+      {
+        "id": 5528,
+        "work_id": 3664,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5528"
+      },
+      {
+        "id": 5529,
+        "work_id": 3665,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5529"
+      },
+      {
+        "id": 5530,
+        "work_id": 3666,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5530"
+      },
+      {
+        "id": 5531,
+        "work_id": 3667,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5531"
+      },
+      {
+        "id": 5543,
+        "work_id": 3675,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5543"
+      },
+      {
+        "id": 5532,
+        "work_id": 3668,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5532"
+      },
+      {
+        "id": 5533,
+        "work_id": 3669,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5533"
+      },
+      {
+        "id": 5534,
+        "work_id": 3670,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5534"
+      },
+      {
+        "id": 5535,
+        "work_id": 3670,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5535"
+      },
+      {
+        "id": 5536,
+        "work_id": 3670,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5536"
+      },
+      {
+        "id": 5537,
+        "work_id": 3671,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5537"
+      },
+      {
+        "id": 5538,
+        "work_id": 3672,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5538"
+      },
+      {
+        "id": 5539,
+        "work_id": 3672,
+        "mechanism_codes": [
+          "M5",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5539"
+      },
+      {
+        "id": 5540,
+        "work_id": 3672,
+        "mechanism_codes": [
+          "M5",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P3"
+        ],
+        "evidence_quality": "theoretical",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "argued, not yet tested",
+        "url": "corpus.html#e=5540"
+      },
+      {
+        "id": 5541,
+        "work_id": 3673,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5541"
+      },
+      {
+        "id": 5542,
+        "work_id": 3674,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5542"
+      },
+      {
+        "id": 5544,
+        "work_id": 3676,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5544"
+      },
+      {
+        "id": 5545,
+        "work_id": 3515,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5545"
+      },
+      {
+        "id": 5546,
+        "work_id": 3677,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5546"
+      },
+      {
+        "id": 5547,
+        "work_id": 3678,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5547"
+      },
+      {
+        "id": 5552,
+        "work_id": 3683,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "contested",
+        "source_type": "propagation",
+        "tier": "core",
+        "grade": "contested",
+        "url": "corpus.html#e=5552"
+      },
+      {
+        "id": 5548,
+        "work_id": 3679,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5548"
+      },
+      {
+        "id": 5549,
+        "work_id": 3680,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5549"
+      },
+      {
+        "id": 5550,
+        "work_id": 3681,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5550"
+      },
+      {
+        "id": 5551,
+        "work_id": 3682,
+        "mechanism_codes": [],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5551"
+      },
+      {
+        "id": 5609,
+        "work_id": 3733,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5609"
+      },
+      {
+        "id": 5553,
+        "work_id": 3421,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5553"
+      },
+      {
+        "id": 5554,
+        "work_id": 3684,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5554"
+      },
+      {
+        "id": 5555,
+        "work_id": 3685,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5555"
+      },
+      {
+        "id": 5556,
+        "work_id": 3686,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5556"
+      },
+      {
+        "id": 5610,
+        "work_id": 3734,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5610"
+      },
+      {
+        "id": 5557,
+        "work_id": 3687,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5557"
+      },
+      {
+        "id": 5558,
+        "work_id": 3688,
+        "mechanism_codes": [
+          "M12",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA7"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5558"
+      },
+      {
+        "id": 5559,
+        "work_id": 3689,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5559"
+      },
+      {
+        "id": 5560,
+        "work_id": 3690,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5560"
+      },
+      {
+        "id": 5561,
+        "work_id": 3691,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5561"
+      },
+      {
+        "id": 5562,
+        "work_id": 3692,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5562"
+      },
+      {
+        "id": 5563,
+        "work_id": 3693,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5563"
+      },
+      {
+        "id": 5564,
+        "work_id": 3694,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5564"
+      },
+      {
+        "id": 5565,
+        "work_id": 3695,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5565"
+      },
+      {
+        "id": 5566,
+        "work_id": 3696,
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5566"
+      },
+      {
+        "id": 5567,
+        "work_id": 3697,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5567"
+      },
+      {
+        "id": 5568,
+        "work_id": 3698,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5568"
+      },
+      {
+        "id": 5569,
+        "work_id": 3699,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5569"
+      },
+      {
+        "id": 5611,
+        "work_id": 3735,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5611"
+      },
+      {
+        "id": 5570,
+        "work_id": 3700,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5570"
+      },
+      {
+        "id": 5571,
+        "work_id": 3701,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5571"
+      },
+      {
+        "id": 5572,
+        "work_id": 3702,
+        "mechanism_codes": [
+          "M1",
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "DA5"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5572"
+      },
+      {
+        "id": 5573,
+        "work_id": 3703,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5573"
+      },
+      {
+        "id": 5590,
+        "work_id": 3717,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5590"
+      },
+      {
+        "id": 5574,
+        "work_id": 3703,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5574"
+      },
+      {
+        "id": 5575,
+        "work_id": 3704,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5575"
+      },
+      {
+        "id": 5576,
+        "work_id": 3705,
+        "mechanism_codes": [
+          "M11",
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5576"
+      },
+      {
+        "id": 5577,
+        "work_id": 3706,
+        "mechanism_codes": [
+          "M11",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5577"
+      },
+      {
+        "id": 5578,
+        "work_id": 3707,
+        "mechanism_codes": [
+          "M11"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5578"
+      },
+      {
+        "id": 5579,
+        "work_id": 3708,
+        "mechanism_codes": [
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "meta_analysis",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested many times",
+        "url": "corpus.html#e=5579"
+      },
+      {
+        "id": 5580,
+        "work_id": 3709,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5580"
+      },
+      {
+        "id": 5581,
+        "work_id": 3710,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5581"
+      },
+      {
+        "id": 5582,
+        "work_id": 3711,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5582"
+      },
+      {
+        "id": 5583,
+        "work_id": 3712,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5583"
+      },
+      {
+        "id": 5584,
+        "work_id": 3713,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5584"
+      },
+      {
+        "id": 5585,
+        "work_id": 3714,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5585"
+      },
+      {
+        "id": 5586,
+        "work_id": 3714,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5586"
+      },
+      {
+        "id": 5587,
+        "work_id": 3715,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5587"
+      },
+      {
+        "id": 5588,
+        "work_id": 3572,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5588"
+      },
+      {
+        "id": 5589,
+        "work_id": 3716,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5589"
+      },
+      {
+        "id": 5591,
+        "work_id": 3718,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5591"
+      },
+      {
+        "id": 5592,
+        "work_id": 3719,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5592"
+      },
+      {
+        "id": 5593,
+        "work_id": 3719,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5593"
+      },
+      {
+        "id": 5594,
+        "work_id": 3720,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5594"
+      },
+      {
+        "id": 5607,
+        "work_id": 3731,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5607"
+      },
+      {
+        "id": 5595,
+        "work_id": 3720,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5595"
+      },
+      {
+        "id": 5596,
+        "work_id": 3721,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5596"
+      },
+      {
+        "id": 5597,
+        "work_id": 3722,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5597"
+      },
+      {
+        "id": 5598,
+        "work_id": 3723,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5598"
+      },
+      {
+        "id": 5599,
+        "work_id": 3724,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5599"
+      },
+      {
+        "id": 5600,
+        "work_id": 3725,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5600"
+      },
+      {
+        "id": 5601,
+        "work_id": 3726,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5601"
+      },
+      {
+        "id": 5602,
+        "work_id": 3727,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5602"
+      },
+      {
+        "id": 5603,
+        "work_id": 3727,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5603"
+      },
+      {
+        "id": 5604,
+        "work_id": 3728,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5604"
+      },
+      {
+        "id": 5605,
+        "work_id": 3729,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5605"
+      },
+      {
+        "id": 5606,
+        "work_id": 3730,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5606"
+      },
+      {
+        "id": 5615,
+        "work_id": 3739,
+        "mechanism_codes": [
+          "M1",
+          "M5"
+        ],
+        "foundation_codes": [
+          "DA10",
+          "P1"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5615"
+      },
+      {
+        "id": 5616,
+        "work_id": 3740,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5616"
+      },
+      {
+        "id": 5617,
+        "work_id": 3741,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5617"
+      },
+      {
+        "id": 5618,
+        "work_id": 3741,
+        "mechanism_codes": [
+          "M1"
+        ],
+        "foundation_codes": [
+          "DA10"
+        ],
+        "evidence_quality": "thin",
+        "source_type": "primary",
+        "tier": "core",
+        "grade": "tested once",
+        "url": "corpus.html#e=5618"
       }
     ],
     "researchers": [
@@ -190127,6 +193278,576 @@
         "mechanism_code": "M3",
         "extraction_id": 5520,
         "evidence_role": "primary"
+      },
+      {
+        "id": 6015,
+        "mechanism_code": "M1",
+        "extraction_id": 5521,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6016,
+        "mechanism_code": "M1",
+        "extraction_id": 5522,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6017,
+        "mechanism_code": "M5",
+        "extraction_id": 5523,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6018,
+        "mechanism_code": "M5",
+        "extraction_id": 5524,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6019,
+        "mechanism_code": "M5",
+        "extraction_id": 5525,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6020,
+        "mechanism_code": "M1",
+        "extraction_id": 5525,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6021,
+        "mechanism_code": "M1",
+        "extraction_id": 5526,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6022,
+        "mechanism_code": "M1",
+        "extraction_id": 5531,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6023,
+        "mechanism_code": "M1",
+        "extraction_id": 5535,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6024,
+        "mechanism_code": "M1",
+        "extraction_id": 5536,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6025,
+        "mechanism_code": "M5",
+        "extraction_id": 5538,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6026,
+        "mechanism_code": "M5",
+        "extraction_id": 5539,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6027,
+        "mechanism_code": "M1",
+        "extraction_id": 5539,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6028,
+        "mechanism_code": "M5",
+        "extraction_id": 5540,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6029,
+        "mechanism_code": "M1",
+        "extraction_id": 5540,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6030,
+        "mechanism_code": "M1",
+        "extraction_id": 5541,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6031,
+        "mechanism_code": "M1",
+        "extraction_id": 5542,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6032,
+        "mechanism_code": "M1",
+        "extraction_id": 5552,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6033,
+        "mechanism_code": "M1",
+        "extraction_id": 5553,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6034,
+        "mechanism_code": "M5",
+        "extraction_id": 5554,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6035,
+        "mechanism_code": "M5",
+        "extraction_id": 5555,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6036,
+        "mechanism_code": "M5",
+        "extraction_id": 5556,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6037,
+        "mechanism_code": "M5",
+        "extraction_id": 5557,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6038,
+        "mechanism_code": "M12",
+        "extraction_id": 5558,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6039,
+        "mechanism_code": "M1",
+        "extraction_id": 5558,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6040,
+        "mechanism_code": "M1",
+        "extraction_id": 5559,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6041,
+        "mechanism_code": "M5",
+        "extraction_id": 5559,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6042,
+        "mechanism_code": "M1",
+        "extraction_id": 5560,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6043,
+        "mechanism_code": "M5",
+        "extraction_id": 5560,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6044,
+        "mechanism_code": "M5",
+        "extraction_id": 5561,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6045,
+        "mechanism_code": "M5",
+        "extraction_id": 5562,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6046,
+        "mechanism_code": "M5",
+        "extraction_id": 5563,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6047,
+        "mechanism_code": "M5",
+        "extraction_id": 5564,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6048,
+        "mechanism_code": "M5",
+        "extraction_id": 5565,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6049,
+        "mechanism_code": "M11",
+        "extraction_id": 5566,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6050,
+        "mechanism_code": "M5",
+        "extraction_id": 5566,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6051,
+        "mechanism_code": "M11",
+        "extraction_id": 5567,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6052,
+        "mechanism_code": "M11",
+        "extraction_id": 5568,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6053,
+        "mechanism_code": "M1",
+        "extraction_id": 5569,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6054,
+        "mechanism_code": "M1",
+        "extraction_id": 5570,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6055,
+        "mechanism_code": "M1",
+        "extraction_id": 5571,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6056,
+        "mechanism_code": "M1",
+        "extraction_id": 5572,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6057,
+        "mechanism_code": "M11",
+        "extraction_id": 5572,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6058,
+        "mechanism_code": "M5",
+        "extraction_id": 5573,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6059,
+        "mechanism_code": "M5",
+        "extraction_id": 5574,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6060,
+        "mechanism_code": "M5",
+        "extraction_id": 5575,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6061,
+        "mechanism_code": "M11",
+        "extraction_id": 5576,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6062,
+        "mechanism_code": "M1",
+        "extraction_id": 5576,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6063,
+        "mechanism_code": "M11",
+        "extraction_id": 5577,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6064,
+        "mechanism_code": "M5",
+        "extraction_id": 5577,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6065,
+        "mechanism_code": "M11",
+        "extraction_id": 5578,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6066,
+        "mechanism_code": "M5",
+        "extraction_id": 5579,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6067,
+        "mechanism_code": "M1",
+        "extraction_id": 5580,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6068,
+        "mechanism_code": "M1",
+        "extraction_id": 5581,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6069,
+        "mechanism_code": "M1",
+        "extraction_id": 5582,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6070,
+        "mechanism_code": "M1",
+        "extraction_id": 5583,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6071,
+        "mechanism_code": "M1",
+        "extraction_id": 5584,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6072,
+        "mechanism_code": "M1",
+        "extraction_id": 5585,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6073,
+        "mechanism_code": "M1",
+        "extraction_id": 5586,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6074,
+        "mechanism_code": "M1",
+        "extraction_id": 5587,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6075,
+        "mechanism_code": "M1",
+        "extraction_id": 5588,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6076,
+        "mechanism_code": "M5",
+        "extraction_id": 5588,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6077,
+        "mechanism_code": "M1",
+        "extraction_id": 5589,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6078,
+        "mechanism_code": "M5",
+        "extraction_id": 5589,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6079,
+        "mechanism_code": "M1",
+        "extraction_id": 5590,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6080,
+        "mechanism_code": "M5",
+        "extraction_id": 5590,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6081,
+        "mechanism_code": "M1",
+        "extraction_id": 5591,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6082,
+        "mechanism_code": "M5",
+        "extraction_id": 5591,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6083,
+        "mechanism_code": "M1",
+        "extraction_id": 5592,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6084,
+        "mechanism_code": "M1",
+        "extraction_id": 5593,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6085,
+        "mechanism_code": "M1",
+        "extraction_id": 5594,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6086,
+        "mechanism_code": "M1",
+        "extraction_id": 5595,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6087,
+        "mechanism_code": "M1",
+        "extraction_id": 5596,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6088,
+        "mechanism_code": "M1",
+        "extraction_id": 5597,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6089,
+        "mechanism_code": "M1",
+        "extraction_id": 5598,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6090,
+        "mechanism_code": "M1",
+        "extraction_id": 5599,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6091,
+        "mechanism_code": "M1",
+        "extraction_id": 5600,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6092,
+        "mechanism_code": "M1",
+        "extraction_id": 5601,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6093,
+        "mechanism_code": "M1",
+        "extraction_id": 5602,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6094,
+        "mechanism_code": "M1",
+        "extraction_id": 5603,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6095,
+        "mechanism_code": "M1",
+        "extraction_id": 5604,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6096,
+        "mechanism_code": "M1",
+        "extraction_id": 5605,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6097,
+        "mechanism_code": "M1",
+        "extraction_id": 5606,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6098,
+        "mechanism_code": "M1",
+        "extraction_id": 5607,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6099,
+        "mechanism_code": "M1",
+        "extraction_id": 5608,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6100,
+        "mechanism_code": "M1",
+        "extraction_id": 5609,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6101,
+        "mechanism_code": "M1",
+        "extraction_id": 5610,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6102,
+        "mechanism_code": "M1",
+        "extraction_id": 5611,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6103,
+        "mechanism_code": "M1",
+        "extraction_id": 5612,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6104,
+        "mechanism_code": "M1",
+        "extraction_id": 5613,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6105,
+        "mechanism_code": "M1",
+        "extraction_id": 5615,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6106,
+        "mechanism_code": "M5",
+        "extraction_id": 5615,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6107,
+        "mechanism_code": "M1",
+        "extraction_id": 5616,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6108,
+        "mechanism_code": "M1",
+        "extraction_id": 5617,
+        "evidence_role": "primary"
+      },
+      {
+        "id": 6109,
+        "mechanism_code": "M1",
+        "extraction_id": 5618,
+        "evidence_role": "primary"
       }
     ],
     "empirical_demonstrations": [
@@ -201446,18 +205167,18 @@
   },
   "derived": {
     "evidence_counts_by_mechanism": {
-      "M1": 590,
+      "M1": 649,
       "M2": 670,
       "M3": 1128,
       "M4": 214,
       "M9": 370,
       "M14": 495,
-      "M11": 706,
-      "M5": 517,
+      "M11": 713,
+      "M5": 545,
       "M13": 266,
       "M10": 161,
       "M8": 175,
-      "M12": 84,
+      "M12": 85,
       "M6": 178,
       "M7": 251,
       "R1": 135
