@@ -3,7 +3,7 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-24 08:18 UTC, from the live Cor atlas snapshot built 2026-11-24 08:18 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-25 07:12 UTC, from the live Cor atlas snapshot built 2026-11-25 07:12 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -45,7 +45,7 @@ A note on the ladders: most are simple top-to-bottom ordinal ladders. A few syst
 
 ### What it looks like in a person
 
-This is the freeze-fight-flee system, plus the offensive mode of frustration-aggression. In the room, it shows up as panic, hypervigilance, a racing heart, irritability, a client who is "always on," who cannot relax, who startles, who is exhausted by a danger they cannot name. It is mediated by phylogenetically ancient subcortical circuits - amygdala, periaqueductal gray, hypothalamus - that operate pre-attentively and can override cortical processing. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old, and it is a single shared implementation across the sexes.
+This is the freeze-fight-flee system, plus the offensive mode of frustration-aggression. In the room, it shows up as panic, hypervigilance, a racing heart, irritability, a client who is "always on," who cannot relax, who startles, who is exhausted by a danger they cannot name. It is mediated by phylogenetically ancient subcortical circuits - amygdala, periaqueductal gray, hypothalamus - that operate pre-attentively and can override cortical processing. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old.
 
 What resolves it is simple and physical: safety established, the threat eliminated or avoided.
 
@@ -89,11 +89,11 @@ What resolves it: engagement with real challenges that produce tangible outcomes
 
 ### The proxy gradient (cue = SEEKING/wanting, constant throughout)
 
-- **FULL:** engaging a real challenge that yields a real outcome. (Evidenced.)
+- **FULL:** engaging a real challenge that yields a real outcome.
 - **PARTIAL:** knowledge work with a real but abstracted, delayed outcome.
 - **MIXED:** a variable-reward app or feed with intermittent real payoff.
 - **MINIMAL:** infinite novelty, content scroll, idle browsing - cue fires, nothing resolves.
-- **ZERO:** machine gambling engineered for time-on-device with guaranteed net loss. (Evidenced.) Cue fires; not only does nothing resolve, the player is systematically drained.
+- **ZERO:** machine gambling engineered for time-on-device with guaranteed net loss. Cue fires; not only does nothing resolve, the player is systematically drained.
 
 The wanting is identical at the top and the bottom. What drains as you descend is the tangible outcome and the consummatory closure that would say "enough." (The framework notes the MIXED-vs-MINIMAL ordering is its most contestable point.)
 
@@ -129,7 +129,7 @@ What resolves it is reliable human co-regulation through physical presence, orga
 - **PARTIAL:** a real bonded inner circle held at a distance via remote contact - real bond, attenuated presence.
 - **MIXED:** a large mediated network that routes only partly to real co-presence.
 - **MINIMAL:** one-sided parasocial attachment to a non-reciprocating figure - cue fires, no reciprocal regulation.
-- **ZERO:** an AI companion engineered to simulate a reciprocating bond. (Evidenced-theoretical.) Cue fires; nothing co-regulates.
+- **ZERO:** an AI companion engineered to simulate a reciprocating bond. Cue fires; nothing co-regulates.
 
 Note the off-gradient case: isolated or solo living is not a rung on this ladder - it is empty-shelf deprivation, the absence of input entirely.
 
@@ -161,7 +161,7 @@ What resolves it: self-directed, unsupervised, physical play with other children
 
 ### The proxy gradient (cue = the PLAY/SEEKING social-joy pull; ordered by surviving embodied reciprocity with a real partner)
 
-- **FULL:** self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods. (Evidenced.)
+- **FULL:** self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods.
 - **PARTIAL:** adult-structured supervised physical activity, organized sports - real bodies, but adult-directed.
 - **MIXED:** screen-mediated multiplayer play with real peers - real partners, mediated bodies.
 - **MINIMAL:** solitary single-player screen play, no reciprocating partner - cue fires, no real reciprocity.
@@ -197,9 +197,9 @@ What resolves it: an acceptable position within a reference group of about 150, 
 
 ### The proxy gradient (cue = constant comparison/ranking signal; ordered by real standing supplied in a real, knowable group)
 
-- **FULL:** earned prestige in a small face-to-face group. (Evidenced.)
-- **PARTIAL:** a coerced or unstable dominance rank in a real group. (Evidenced.) Real standing, lower quality.
-- **MIXED:** status-striving in a large impersonal society. (Evidenced.)
+- **FULL:** earned prestige in a small face-to-face group.
+- **PARTIAL:** a coerced or unstable dominance rank in a real group. Real standing, lower quality.
+- **MIXED:** status-striving in a large impersonal society.
 - **MINIMAL:** global mediated comparison by follower and like counts. (Architecture-derived.) Cue fires, no real resolvable standing.
 - **ZERO:** purchased status signals, luxury-brand display. (Architecture-derived.) Cue fires; nothing real is earned.
 
@@ -233,10 +233,10 @@ What resolves it: genuine action-outcome feedback and real decision latitude.
 
 ### The proxy gradient (cue = detection of response-outcome contingency)
 
-- **FULL:** decision latitude over consequential outcomes that visibly feed back. (Evidenced.)
-- **PARTIAL:** high demand with reduced but still real decision latitude. (Evidenced.)
-- **MIXED:** abstract, surveilled, or screen-mediated work where effort does not visibly register. (Evidenced.)
-- **MINIMAL:** a chronically uncontrollable real environment producing learned helplessness. (Evidenced.) The cue fires, no real contingency is supplied.
+- **FULL:** decision latitude over consequential outcomes that visibly feed back.
+- **PARTIAL:** high demand with reduced but still real decision latitude.
+- **MIXED:** abstract, surveilled, or screen-mediated work where effort does not visibly register.
+- **MINIMAL:** a chronically uncontrollable real environment producing learned helplessness. The cue fires, no real contingency is supplied.
 - **ZERO:** an engineered simulated-agency loop - a slot machine, game, or dashboard - firing the contingency cue with zero real consequence. (Architecture-derived.)
 
 This is a dual-axis gradient: from PARTIAL down to MINIMAL, real contingency is progressively withdrawn; ZERO substitutes a false one. (The MINIMAL-vs-ZERO ordering is the contestable point.)
@@ -275,7 +275,7 @@ What resolves it: dark-cued sleep onset, bright daylight exposure, and a consist
 - **MINIMAL:** shift work and always-on connectivity, with the dark cue largely gone. Cue degraded, little resolution.
 - **DEFEATED:** evening blue-light screens actively mis-setting the clock - false daylight at biological night.
 
-This is a Kind B gradient: it is not a false cue being fired but the real entraining signal being degraded and finally inverted. All five rungs are evidenced. (Contestable points: the social-jetlag-vs-shift-work ordering, and whether screen signal-inversion is truly the floor.)
+This is a Kind B gradient: it is not a false cue being fired but the real entraining signal being degraded and finally inverted. (Contestable points: the social-jetlag-vs-shift-work ordering, and whether screen signal-inversion is truly the floor.)
 
 ### Mismatch prediction
 
@@ -311,7 +311,7 @@ What resolves it: pathogen cleared, inflammation resolved.
 - **MINIMAL:** chronic social isolation and status stress defeating the inflammatory off-switch. Cue fires, nothing to clear.
 - **DEFEATED:** self-sustaining chronic low-grade inflammation, allostatic-load collapse.
 
-All five rungs are evidenced. (The lifestyle-drivers-over-social-isolation ordering is contestable and could legitimately swap or collapse.)
+(The lifestyle-drivers-over-social-isolation ordering is contestable and could legitimately swap or collapse.)
 
 ### Mismatch prediction
 
@@ -384,7 +384,7 @@ What resolves it: movement woven into daily life rather than set aside as "exerc
 - **MINIMAL:** a sedentary day plus a discrete gym or exercise session - a partial re-supply, not a false cue.
 - **DEFEATED:** chair-bound sedentarism with essentially no movement.
 
-All five rungs are evidenced. (The contestable point: the gym is ranked below all-day incidental NEAT here because the axis is the movement distribution, not fitness; on a fitness or mortality axis it would swap.)
+(The contestable point: the gym is ranked below all-day incidental NEAT here because the axis is the movement distribution, not fitness; on a fitness or mortality axis it would swap.)
 
 ### Mismatch prediction
 
@@ -414,8 +414,8 @@ What resolves it: a trusted reciprocal network with norm enforcement, within a g
 
 ### The proxy gradient (cue = constant alliance/reciprocity machinery)
 
-- **FULL:** a trusted reciprocal network under about 150, with direct reputation tracking and norm enforcement. (Evidenced.)
-- **PARTIAL:** institutionally-scaffolded cooperation beyond about 150 - formal rules, third-party enforcement, shared fictions. (Evidenced.) This is resolution-via-prosthesis: institutions re-supply the same function at scale.
+- **FULL:** a trusted reciprocal network under about 150, with direct reputation tracking and norm enforcement.
+- **PARTIAL:** institutionally-scaffolded cooperation beyond about 150 - formal rules, third-party enforcement, shared fictions. This is resolution-via-prosthesis: institutions re-supply the same function at scale.
 - **MIXED:** market exchange among strangers backed by gameable reputation systems. Proxy failure begins here.
 - **MINIMAL:** coalition-signaling and parasocial alliance via symbolic in-group markers. Cue fires, no real reciprocal function reaches a real counterparty.
 - **ZERO:** anonymous one-shot transactions and AI "allies" with no reputation and no shared narrative. (Architecture-derived.)
@@ -448,7 +448,7 @@ Three-domain disgust - pathogen, sexual, and moral - functioning as a behavioral
 
 What resolves it: clean food, a clean social environment, and moral disgust contained. (Note: the "moral disgust contained" clause is flagged as contested.)
 
-### The proxy gradient (a 3-rung evidenced pathogen-disgust gradient)
+### The proxy gradient (a 3-rung pathogen-disgust gradient)
 
 - **FULL:** clean food and a clean social environment, with disgust firing on real pathogen cues.
 - **PARTIAL:** vulnerability-calibrated over-firing - for example in pregnancy or immunosuppression. Partly resolved; the system raises its threshold appropriately.
@@ -482,11 +482,11 @@ What resolves it: effortful, diverse, seasonal whole foods, and metabolic variet
 
 ### The proxy gradient (Kind B - the satiety/intake-termination signal is progressively disabled then actively defeated; scale = food-processing intensity)
 
-- **FULL:** effortful, diverse, seasonal whole foods. (Evidenced.)
+- **FULL:** effortful, diverse, seasonal whole foods.
 - **ATTENUATED:** minimally processed traditional whole foods. (Resolution still met.)
 - **PARTIAL:** conventionally processed, energy-dense food.
 - **MINIMAL:** energy-dense palatable food optimized for crave. Cue fires, satiety begins to fail.
-- **DEFEATED:** ultra-processed bliss-point food, an engineered supernormal stimulus. (Evidenced.) The off-switch is actively defeated.
+- **DEFEATED:** ultra-processed bliss-point food, an engineered supernormal stimulus. The off-switch is actively defeated.
 
 The endpoints are evidenced; the middle three rungs are architecture-derived. (The contestable point: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or just a bimodal whole-versus-ultra-processed split.)
 
@@ -617,21 +617,21 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
-#### Band / camp size (a few dozen adults; ~25-50)
+#### Band / camp size (a few dozen adults)
 `EEA-SOC-03 · Social structure` - **tested many times**
 
-**Ancestrally:** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
+**Ancestrally:** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
 
-**Now (modern default):** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the ~25-50 face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
+**Now (modern default):** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
 
-**The gap to work with:** The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
+**The gap to work with:** The ancestral social field was a small set of a few dozen personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
 **Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 8
 
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
 
-**Ancestrally:** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
+**Ancestrally:** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
 
 **Now (modern default):** Modern social environments invert the ancestral pattern in two opposite directions at once. (1) The family one is biologically related to is now small and, for about two in three adults, not all within reach (in the US, of adults with a living parent or grown child, three in four have one within 30 miles, about a third have all of them that near, and 13 percent share a home with one; Choi et al. 2020, ext 4204), and often the ONLY kin one regularly co-resides with, so the kin one has are concentrated in a tiny stable household rather than diffused through a larger chosen group. (2) The larger groups one spends daily life inside (workplace, neighborhood, online networks, institutions) are composed of effectively unrelated strangers, but unlike the ancestral camp these groupings are NOT self-assembled through mutual choice, reciprocity, and reputation tracking; membership is assigned by employment, address, or platform. The result is that 'who you live and work among' is no longer the output of a relationship-selection process; it is administratively or commercially determined, and the unrelated people around you are frequently strangers you did not choose and do not reciprocally track.
 
@@ -1014,7 +1014,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Affective (C-tactile) contact frequency and skin-to-skin time
 `EEA-TOUCH-01 · Touch & contact` - **tested many times**
 
-**Ancestrally:** Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day and night, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the phylogenetically first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.
+**Ancestrally:** Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.
 
 **Now (modern default):** WEIRD/industrialized environments are historically unusual in touch avoidance: infants spend much time in cribs, strollers, and carriers that minimize skin contact; personal-space norms and screen-mediated interaction strip casual affective touch from daily adult life. Many people experience chronic 'touch hunger' below the developmental and regulatory floor.
 
@@ -1027,7 +1027,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Co-sleeping / nighttime body contact
 `EEA-TOUCH-02 · Touch & contact` - **tested many times**
 
-**Ancestrally:** Ancestral infants and young children slept in body contact with the mother and others rather than alone, extending the daytime carried-contact regime through the night. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels (and likely circadian entrainment cues from the caregiver) operated continuously across the 24-hour cycle, not just during waking.
+**Ancestrally:** In every one of the 173 societies coded in the Standard Cross-Cultural Sample, the mother slept in the same room as her infant, and in at least 76 of them in the same bed (ext 705); the sample spans foragers, farmers, herders and others, not foragers alone. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels operated across the 24-hour cycle, not just during waking.
 
 **Now (modern default):** WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.
 
@@ -1058,7 +1058,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal
 `EEA-CIRC-01 · Circadian & sensory` - **tested many times**
 
-**Ancestrally:** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset clustering around 8-10 p.m., aligned with dusk-driven melatonin release. The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
+**Ancestrally:** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
 
 **Now (modern default):** Indoor electric and screen light keeps evening illumination bright and short-wavelength (blue-enriched, ~450nm) well past dusk, suppressing melatonin and delaying its onset by 1.5-3 hours; daytime indoor light is far dimmer than outdoor light, flattening the day-night amplitude. The dusk dimming/reddening gradient and true nocturnal darkness are largely abolished.
 
@@ -1201,12 +1201,12 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 4
 
-#### Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)
+#### Energy regulation is intake-bounded
 `EEA-DIET-04 · Diet & metabolic` - **tested many times**
 
 **Ancestrally:** Total daily energy expenditure (TEE) is an evolved, species-typical trait that the body holds within a narrow range, compensating metabolically rather than expending proportionally more as physical activity rises. Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite far greater physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
 
-**Now (modern default):** The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Because expenditure is homeostatically buffered, this model fails: cranking up activity yields little net caloric deficit, while the intake side - driven by hyperpalatable, energy-dense, effortless food - is what has changed and what dysregulates energy balance.
+**Now (modern default):** The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Total expenditure rises with activity at low activity levels and plateaus at higher levels (ext 283): above moderate activity, each added ~100 counts per minute per day went with less than 50 kcal/day more expenditure. Above moderate activity this model fails: cranking up activity adds little to expenditure, while the intake side, driven by hyperpalatable, energy-dense, effortless food, is what has changed and what dysregulates energy balance.
 
 **The gap to work with:** Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped - so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side.
 
@@ -1311,4 +1311,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-24 08:18 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-24 08:18 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-25 07:12 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-25 07:12 UTC.*

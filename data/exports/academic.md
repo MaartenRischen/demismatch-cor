@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-24 08:18 UTC, from the live Cor atlas snapshot built 2026-11-24 08:18 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-25 07:12 UTC, from the live Cor atlas snapshot built 2026-11-25 07:12 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -23,7 +23,7 @@ The framework is built as a layered derivation in which each layer is constraine
 
 ### How to read a proxy gradient
 
-Each mechanism carries an ordinal ladder from full resolution to pure proxy. The load-bearing claim of every gradient is this: **the cue is identical at every level; only the resolving function changes.** A proxy can fire the cue without supplying what actually resolves the system. Reading the ladder top to bottom, the detectable cue stays roughly constant (or, in the cases flagged Kind B, the real input is progressively withdrawn or the terminating signal progressively disabled) while the conditions that would terminate the program drop away. The floor levels are where the cue fires and nothing is supplied - the open-loop state where activation cannot resolve. Verdict tags ('resolution met', 'partly resolved', 'fires, no resolution') record this independently of the level's ordinal name. Evidence tags (EVIDENCED, ARCHITECTURE-DERIVED, SPECULATIVE, CONTESTABLE) record the warrant for each rung; they are reported verbatim where present.
+Each mechanism carries an ordinal ladder from full resolution to pure proxy. The load-bearing claim of every gradient is this: **the cue is identical at every level; only the resolving function changes.** A proxy can fire the cue without supplying what actually resolves the system. Reading the ladder top to bottom, the detectable cue stays roughly constant (or, in the cases flagged Kind B, the real input is progressively withdrawn or the terminating signal progressively disabled) while the conditions that would terminate the program drop away. The floor levels are where the cue fires and nothing is supplied - the open-loop state where activation cannot resolve. Verdict tags ('resolution met', 'partly resolved', 'fires, no resolution') record this independently of the level's ordinal name. Evidence tags (ARCHITECTURE-DERIVED, SPECULATIVE, CONTESTABLE) record the warrant for each rung; they are reported verbatim where present.
 
 Each section also records the epistemic grade, tier, phylogenetic age, the forcing or grounding convergences and their named independent research streams with verbatim evidence-link counts, the cascade topology (which mechanisms a system suppresses, is suppressed by, and interacts with), and any sex-differentiated parameterization.
 
@@ -53,10 +53,6 @@ Five levels along a resolvability/actionability axis; a true DA4 proxy appears o
 
 Suppresses M2, M4, M14, M10, and M6. Suppressed by M3. No interactions recorded.
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ---
 
 ## M2 - Pursuit / Exploration
@@ -71,11 +67,11 @@ C6 establishes that motivational pursuit ('wanting', mediated by mesolimbic dopa
 
 Five levels. The cue is constant (SEEKING/wanting); the ladder is ordered by tangible outcome plus consummatory-liking closure supplied, not by cue strength.
 
-- **FULL** (resolution met): engaging a real challenge that yields a real outcome (evidenced)
+- **FULL** (resolution met): engaging a real challenge that yields a real outcome
 - **PARTIAL** (partly resolved): knowledge work with a real but abstracted, delayed outcome
 - **MIXED** (partly resolved): variable-reward app/feed with intermittent real payoff
 - **MINIMAL** (fires, no resolution): infinite novelty, content scroll/idle browsing
-- **ZERO** (fires, no resolution): machine gambling engineered for time-on-device with guaranteed net loss (evidenced)
+- **ZERO** (fires, no resolution): machine gambling engineered for time-on-device with guaranteed net loss
 
 Note: the most contestable ordering is MIXED-app vs MINIMAL-scroll.
 
@@ -84,10 +80,6 @@ Note: the most contestable ordering is MIXED-app vs MINIMAL-scroll.
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by M1, M3, M7, M8, and M13. Interacts with M4 and M14.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -109,7 +101,7 @@ Five levels, ordered by real co-regulatory function supplied, not by amount of c
 - **PARTIAL** (partly resolved): real bonded inner circle held at a distance, remote contact
 - **MIXED** (partly resolved): large mediated network routing only partly to real co-presence
 - **MINIMAL** (fires, no resolution): one-sided parasocial attachment to a non-reciprocating figure
-- **ZERO** (fires, no resolution): AI companion engineered to simulate a reciprocating bond (evidenced; theoretical)
+- **ZERO** (fires, no resolution): AI companion engineered to simulate a reciprocating bond
 
 Note (off-gradient): isolated/solo living is empty-shelf deprivation, not a rung on this ladder.
 
@@ -117,11 +109,7 @@ Note (off-gradient): isolated/solo living is empty-shelf deprivation, not a rung
 
 ### Cascade topology
 
-Suppresses M1, M2, M4, M10, and M6. Suppressed by nothing recorded. Interacts with M14.
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses M1, M2, M4, and M10. Suppressed by nothing recorded. Interacts with M14.
 
 ---
 
@@ -137,7 +125,7 @@ Three converging streams ground this mechanism. C2 (Domain-Sensitive Organism Ar
 
 Five levels. The cue is approximately a constant PLAY/SEEKING social-joy pull, fired in attenuated or substitute form at lower screen levels; the ladder is ordered by how much real embodied reciprocity with an identity-bearing partner survives.
 
-- **FULL** (resolution met): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (evidenced)
+- **FULL** (resolution met): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods
 - **PARTIAL** (partly resolved): adult-structured supervised physical activity, organized sports
 - **MIXED** (partly resolved): screen-mediated multiplayer play with real peers
 - **MINIMAL** (fires, no resolution): solitary single-player screen play, no reciprocating partner
@@ -150,10 +138,6 @@ Note: the most contestable ordering is screen-mediated-real-peers (MIXED) ranked
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by M1 and M3. Interacts with M2.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -169,9 +153,9 @@ Four convergences support this mechanism. C2 (Domain-Sensitive Organism Architec
 
 Five levels. The cue is approximately a constant comparison/ranking signal, ordered primarily by real standing supplied in a real knowable group, with prestige > dominance quality folded in at the top.
 
-- **FULL** (resolution met): earned prestige in a small face-to-face group (evidenced)
-- **PARTIAL** (partly resolved): coerced/unstable dominance rank in a real group (evidenced)
-- **MIXED** (partly resolved): status-striving in a large impersonal society (evidenced)
+- **FULL** (resolution met): earned prestige in a small face-to-face group
+- **PARTIAL** (partly resolved): coerced/unstable dominance rank in a real group
+- **MIXED** (partly resolved): status-striving in a large impersonal society
 - **MINIMAL** (fires, no resolution): global mediated comparison by follower/like counts (architecture-derived)
 - **ZERO** (fires, no resolution): purchased status signals, luxury-brand display (architecture-derived)
 
@@ -182,10 +166,6 @@ Note: the most contestable point is the floor ordering of purchased-signals (ZER
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M14.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -201,10 +181,10 @@ C8 (Error Management Asymmetry in Defensive Systems) establishes that defensive 
 
 Five levels. This is a Kind A gradient, but the cue is detection of response-outcome contingency rather than a constant appetitive drive; the ladder is ordered by real causal efficacy over fitness-relevant outcomes supplied.
 
-- **FULL** (resolution met): decision latitude over consequential, visibly-feedbacking outcomes (evidenced)
-- **PARTIAL** (partly resolved): high demand with reduced but real decision latitude (evidenced)
-- **MIXED** (partly resolved): abstract/surveilled/screen-mediated work where effort doesn't visibly register (evidenced)
-- **MINIMAL** (fires, no resolution): chronically uncontrollable real environment, learned helplessness (evidenced)
+- **FULL** (resolution met): decision latitude over consequential, visibly-feedbacking outcomes
+- **PARTIAL** (partly resolved): high demand with reduced but real decision latitude
+- **MIXED** (partly resolved): abstract/surveilled/screen-mediated work where effort doesn't visibly register
+- **MINIMAL** (fires, no resolution): chronically uncontrollable real environment, learned helplessness
 - **ZERO** (fires, no resolution): engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence (architecture-derived)
 
 Note: this is dual-axis. PARTIAL to MINIMAL withdraw real contingency; ZERO substitutes a false one. The most contestable ordering is MINIMAL vs ZERO.
@@ -213,11 +193,7 @@ Note: this is dual-axis. PARTIAL to MINIMAL withdraw real contingency; ZERO subs
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1, M14, and M3. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses nothing recorded. Suppressed by M1. No interactions recorded.
 
 ---
 
@@ -231,7 +207,7 @@ C3 (Systematic EEA-Modern Environment Mismatch) holds that modern post-agricultu
 
 ### Proxy gradient
 
-Five levels. This is a Kind B gradient: not a constant-cue hijack but a case where the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation. All five are EVIDENCED.
+Five levels. This is a Kind B gradient: not a constant-cue hijack but a case where the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation.
 
 - **FULL** (resolution met): outdoor light-dark cycle with dark-cued sleep
 - **ATTENUATED** (resolution met): indoor daytime light with a mostly-dark, dimly-lit night
@@ -247,10 +223,6 @@ Note: the most contestable points are the social-jetlag (PARTIAL) vs shift-work 
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ---
 
 ## M8 - Immune Regulation
@@ -263,7 +235,7 @@ C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above
 
 ### Proxy gradient
 
-Five levels. This is a Kind B gradient: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear, while the inflammatory off-switch degrades; ordered by how achievable clear-to-resolve-to-baseline remains. All five are EVIDENCED.
+Five levels. This is a Kind B gradient: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear, while the inflammatory off-switch degrades; ordered by how achievable clear-to-resolve-to-baseline remains.
 
 - **FULL** (resolution met): acute infection/injury fought off and fully resolved
 - **ATTENUATED** (resolution met): recurrent acute stress resolving each time but with incomplete recovery
@@ -277,11 +249,7 @@ Note: the most contestable point is lifestyle-drivers (PARTIAL) ranked above soc
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M8 nonetheless appears as a suppressor of M2 and M14 elsewhere in the atlas.)
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M8 nonetheless appears as a suppressor of M2 elsewhere in the atlas.)
 
 ---
 
@@ -314,10 +282,6 @@ This mechanism has TWO SEPARATE scales (axes), not one ladder. They are presente
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M9 appears as a suppressor of M14 elsewhere in the atlas.)
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ---
 
 ## M10 - Movement / Regulatory
@@ -330,7 +294,7 @@ C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above
 
 ### Proxy gradient
 
-Five levels. This is a Kind B gradient that inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied. All five are EVIDENCED.
+Five levels. This is a Kind B gradient that inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied.
 
 - **FULL** (resolution met): all-day incidental movement of foraging life, locomotion plus active rest postures
 - **ATTENUATED** (resolution met): a physically active job, farming/manual labour/walking-heavy trade
@@ -345,10 +309,6 @@ Note: the most contestable point is the gym (MINIMAL) ranked below incidental al
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by M1 and M3. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -366,8 +326,8 @@ C11 establishes that humans have specialized architecture for reciprocal exchang
 
 Five levels. The cue is approximately a constant alliance/reciprocity machinery. FULL to PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty.
 
-- **FULL** (resolution met): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (evidenced)
-- **PARTIAL** (partly resolved): institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (evidenced)
+- **FULL** (resolution met): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement
+- **PARTIAL** (partly resolved): institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions
 - **MIXED** (partly resolved): market exchange among strangers backed by gameable reputation systems
 - **MINIMAL** (fires, no resolution): coalition-signaling and parasocial alliance via symbolic in-group markers
 - **ZERO** (fires, no resolution): anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (architecture-derived)
@@ -378,11 +338,7 @@ Note: the most contestable point is the PARTIAL/MIXED boundary - where proxy fai
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M14. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses nothing recorded. No interactions recorded.
 
 ---
 
@@ -396,7 +352,7 @@ C2 (Domain-Sensitive Organism Architecture), supported by Tooby & Cosmides, Pank
 
 ### Proxy gradient
 
-A 3-rung EVIDENCED pathogen-disgust gradient (FULL to PARTIAL to MIXED).
+A 3-rung pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 
 - **FULL** (resolution met): clean food and clean social environment, disgust firing on real pathogen cues
 - **PARTIAL** (partly resolved): vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression
@@ -409,10 +365,6 @@ A 3-rung EVIDENCED pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -428,11 +380,11 @@ C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above
 
 Five levels. This is a Kind B gradient: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked. The scale is food-processing intensity, ordered by how much regulatory function the food permits.
 
-- **FULL** (resolution met): effortful, diverse, seasonal whole foods (evidenced)
+- **FULL** (resolution met): effortful, diverse, seasonal whole foods
 - **ATTENUATED** (resolution met): minimally processed traditional whole foods
 - **PARTIAL** (partly resolved): conventionally processed energy-dense food
 - **MINIMAL** (fires, no resolution): energy-dense palatable food optimized for crave
-- **DEFEATED** (fires, no resolution): ultra-processed bliss-point food, an engineered supernormal stimulus (evidenced)
+- **DEFEATED** (fires, no resolution): ultra-processed bliss-point food, an engineered supernormal stimulus
 
 Note: endpoints are EVIDENCED, the middle three architecture-derived. The most contestable point is whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.
 
@@ -441,10 +393,6 @@ Note: endpoints are EVIDENCED, the middle three architecture-derived. The most c
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M13 appears as a suppressor of M2 elsewhere in the atlas.)
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -470,11 +418,11 @@ Five levels, top (need met) to bottom (cue fires, nothing supplied).
 
 ### Cascade topology
 
-Suppresses M6 and M11. Suppressed by M1, M8, and M9. Interacts with M3, M5, and M2.
+Suppressed by M1 and M9. Interacts with M3, M5, and M2.
 
 ### Sex differentiation
 
-This is a sex-differentiated implementation: the same system with two parameterizations. The **female-typical** parameterization is VMH-centered, with estrous cycling, preference for resource/commitment signals, and emphasis on pair-bond security. The **male-typical** parameterization is POA-centered, with tonic testosterone, attention to fertility/accessibility cues, and emphasis on sexual variety.
+The **female-typical** parameterization is VMH-centered, with estrous cycling, preference for resource/commitment signals, and emphasis on pair-bond security. The **male-typical** parameterization is POA-centered, with tonic testosterone, attention to fertility/accessibility cues, and emphasis on sexual variety.
 
 ---
 
@@ -502,10 +450,6 @@ Five levels, flagged CONTESTED - possibly Kind C, and NOT a flagship. The cue-fu
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ## The Gap - the matched environment vs the modern default
 
 Cor is a mismatch framework; this is its quantitative edge. For each mechanism we record what the ancestral environment delivered (the EEA baseline), what the modern environment delivers (the modern default), and the delta (the gap). These are *contested measured numbers*, not derived spec - read them with the grade and contested flag in view.
@@ -530,8 +474,8 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 **EEA value** (illustrative, not constants):
 
   - unit: individuals
-  - layer_sizes: {"affinity_band": 50, "active_network": 150, "support_clique": 5, "sympathy_group": 15}
-  - scaling_factor: 3
+  - layer_sizes: {"affinity_band": "50, the typical hunter-gatherer overnight camp (ext 404); 35, the band (ext 490)", "active_network": "150 (ext 404, 490)", "support_clique": "5 (ext 404, 490)", "sympathy_group": "15 (ext 404); 12 (ext 490)"}
+  - scaling_factor: approximately three (ext 404); about three to four in forager population structure, a constant ratio close to 4 (ext 685)
   - outer_ceiling_note: low hundreds; ~150 is an approximate central tendency, not a constant; the neocortex-ratio derivation is contested (Lindenfors 2021)
   - outer_ceiling_approx: 150
   - tribal_clan_grouping: clusters in the low hundreds (ethnographic)
@@ -582,24 +526,22 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.*
 
-#### Band / camp size (a few dozen adults; ~25-50)
+#### Band / camp size (a few dozen adults)
 `EEA-SOC-03 · Social structure` - **tested many times**
 
-**EEA baseline.** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
+**EEA baseline.** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
 
 **EEA value** (illustrative, not constants):
 
   - units: co-resident adults in a single band / overnight camp
   - source_status: Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). The mean of 28.2 adults across 32 societies is attributed to Hill et al. 2011 (work 172); Cor's extraction from that work (ext 683) covers relatedness and does not carry the figure.
-  - adult_range_low: 25
-  - adult_range_high: 50
   - dunbar_band_layer: 35
   - dunbar_overnight_camp_layer: 50
   - reported_mean_adults_unverified: 28.2
 
-**Modern default.** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the ~25-50 face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
+**Modern default.** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
 
-**The gap.** The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
+**The gap.** The ancestral social field was a small set of a few dozen personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 
@@ -617,12 +559,11 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
 
-**EEA baseline.** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
+**EEA baseline.** A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.
 
 **EEA value** (illustrative, not constants):
 
-  - source_caveat: Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172, background tier (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176, background tier (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored. Camp size range is illustrative.
-  - camp_size_total_range: [25, 50]
+  - source_caveat: Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172 (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176 (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored.
   - camp_size_adults_approx: 28
   - relatedness_qualitative: low; most campmates unrelated or distantly related
   - primary_kin_fraction_of_camp: <~0.10
@@ -943,7 +884,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#1043 · tested once · primary: "Most adolescents (61.1%) thought of their favorite media figures as relationship partners"
 - ext#1045 · tested once · supporting: "In partial support of the Parasocial Hypothesis, media exposure, but not social isolation, was a strong predictor of interest in celebrities."
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Background-tier evidence cited (abstract or book only): ext 1045.*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Evidence cited (abstract or book only): ext 1045.*
 
 #### Size of "us" (the language group)
 `EEA-SOC-16 · Social structure` - **tested once**
@@ -1085,7 +1026,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#1011 · tested once · primary: "We identify 2013 as the approximate year when meeting online surpassed meeting through friends for heterosexual couples in the United States."
 - (+8 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Background-tier evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Hadza marriages are typically not arranged, by Marlowe's ethnography as cited by Sorokowski et al. 2017 (ext 1735). No source read codes a part for the camp beyond kin. On the modern side, US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Neither study compares couples whose families knew the partner beforehand with couples whose families did not, which is what the gap statement describes. Apostolou 2007 is still read in abstract only (ext 690, 1736).*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Hadza marriages are typically not arranged, by Marlowe's ethnography as cited by Sorokowski et al. 2017 (ext 1735). No source read codes a part for the camp beyond kin. On the modern side, US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Neither study compares couples whose families knew the partner beforehand with couples whose families did not, which is what the gap statement describes. Apostolou 2007 is still read in abstract only (ext 690, 1736).*
 
 #### The pool of possible partners
 `EEA-MATE-02 · Mating & reproduction` - **tested once**
@@ -1112,7 +1053,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#1014 · tested once · primary: "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures"
 - (+3 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Ancestral value: one Aka ethnography (Hewlett 2005, ext 841) and one model-based estimate in two populations (Hill et al. 2014). Modern side: one site, four US cities, one month (Bruch and Newman 2018). No peer-reviewed data on how unequal likes or matches are on swipe apps was found. Background-tier evidence cited (abstract or book only): ext 841. Added 19 Nov 2026. That a partner was known to the group beforehand is inferred from the size of the pool; no study records it, so that step is argued, not yet tested. Distance between spouses grows as population thins, among foragers and among farmers (MacDonald and Hewlett 1999, ext 1744, abstract only). Among the Tsimane the preferred spouse is known kin (ext 1732).*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Ancestral value: one Aka ethnography (Hewlett 2005, ext 841) and one model-based estimate in two populations (Hill et al. 2014). Modern side: one site, four US cities, one month (Bruch and Newman 2018). No peer-reviewed data on how unequal likes or matches are on swipe apps was found. Evidence cited (abstract or book only): ext 841. Added 19 Nov 2026. That a partner was known to the group beforehand is inferred from the size of the pool; no study records it, so that step is argued, not yet tested. Distance between spouses grows as population thins, among foragers and among farmers (MacDonald and Hewlett 1999, ext 1744, abstract only). Among the Tsimane the preferred spouse is known kin (ext 1732).*
 
 #### Marriage system (mostly monogamous, some polygyny, serial pairs)
 `EEA-MATE-03 · Mating & reproduction` - **tested many times**
@@ -1140,7 +1081,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#767 · tested once · supporting: "However, an analysis of foragers in the Standard Cross-Cultural Sample reveals that male provisioning does affect the mating system. Societies with higher male contribution to subsistence are more monogamous"
 - (+5 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'mostly monogamous with some polygyny in foragers' (Apostolou coding via Walker et al. 2011; Pume demography, Schacht and Kramer 2019; African forager ethnographies via Henrich et al. 2012; Marlowe 2003, ext 767). Any single number is one study. Keep 'permitted' (85% of societies) apart from 'practised' (a minority of forager marriages). Background-tier evidence cited (abstract or book only): ext 767, 768. Divorce and number of mates, added 19 Nov 2026: Hewlett et al. 2023 (ext 1728, 1729) and Winking and Gurven 2011 (ext 1730) compile the original demographic studies; main weakness: each team counted divorce differently.*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'mostly monogamous with some polygyny in foragers' (Apostolou coding via Walker et al. 2011; Pume demography, Schacht and Kramer 2019; African forager ethnographies via Henrich et al. 2012; Marlowe 2003, ext 767). Any single number is one study. Keep 'permitted' (85% of societies) apart from 'practised' (a minority of forager marriages). Evidence cited (abstract or book only): ext 767, 768. Divorce and number of mates, added 19 Nov 2026: Hewlett et al. 2023 (ext 1728, 1729) and Winking and Gurven 2011 (ext 1730) compile the original demographic studies; main weakness: each team counted divorce differently.*
 
 #### Timing: puberty to first birth
 `EEA-MATE-04 · Mating & reproduction` - **tested many times**
@@ -1151,8 +1092,8 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
   - age_last_birth: 39.0
   - menarche_range: 12.6 to 18.4 (22 societies)
-  - forager_age_first_birth: 18.8 to 20.5 (mean 19.7, Ache/Hiwi/!Kung)
-  - menarche_to_first_birth_years: 4
+  - forager_age_first_birth: 18.8 to 20.5 in four foraging groups (Hadza 18.77, !Kung 19.2, Ache 19.5, Hiwi 20.5; ext 844); mean 19.7 for Ache, Hiwi and !Kung (ext 1000); 20.2 among the Agta (ext 845); 15.3 to 15.5 among the Pume (ext 3816)
+  - menarche_to_first_birth_years: 4 on average across 22 natural-fertility societies (ext 1006); among the Pume, menarche at 12.9 and first birth at 15.3 to 15.5 (ext 3816)
 
 **Modern default.** US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.
 
@@ -1178,7 +1119,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **EEA value** (illustrative, not constants):
 
-  - forager_tfr: 4.3 to 8.2 (mean about 6)
+  - forager_tfr: 4.3 to 8.2 in five forager populations with full life tables (Ache 8.2, Agta 6.9, Hadza 6.2, Hiwi 5.5, Ju/'hoansi 4.3; mean 6.2); mean 5.98 across 75 small-scale natural-fertility societies, where 2 of the 11 hunter-gatherer groups were below 4 (Batak, and Efe at 2.6) (ext 1001)
   - dogon_lifetime_menses: 100
   - interbirth_interval_years: 3.7
 
@@ -1286,7 +1227,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#875 · contested · supporting: "Female ovarian function is particularly sensitive to energy balance and energy flux, resulting in a synchronization of conception with favorable energetic conditions"
 - ext#1001 · tested many times · supporting: "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4"
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. In two prospective studies, fully breastfeeding women without periods who used no contraception had pregnancy rates of about 1 percent in the first six months after birth (Van der Wijden and Manion 2015). Background-tier evidence cited (abstract or book only): ext 875.*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. In two prospective studies, fully breastfeeding women without periods who used no contraception had pregnancy rates of about 1 percent in the first six months after birth (Van der Wijden and Manion 2015). Evidence cited (abstract or book only): ext 875.*
 
 #### Paternity and affairs (rates vary between societies)
 `EEA-MATE-10 · Mating & reproduction` - **tested many times**
@@ -1431,7 +1372,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Affective (C-tactile) contact frequency and skin-to-skin time
 `EEA-TOUCH-01 · Touch & contact` - **tested many times**
 
-**EEA baseline.** Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day and night, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the phylogenetically first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.
+**EEA baseline.** Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.
 
 **EEA value** (illustrative, not constants):
 
@@ -1463,7 +1404,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Co-sleeping / nighttime body contact
 `EEA-TOUCH-02 · Touch & contact` - **tested many times**
 
-**EEA baseline.** Ancestral infants and young children slept in body contact with the mother and others rather than alone, extending the daytime carried-contact regime through the night. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels (and likely circadian entrainment cues from the caregiver) operated continuously across the 24-hour cycle, not just during waking.
+**EEA baseline.** In every one of the 173 societies coded in the Standard Cross-Cultural Sample, the mother slept in the same room as her infant, and in at least 76 of them in the same bed (ext 705); the sample spans foragers, farmers, herders and others, not foragers alone. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels operated across the 24-hour cycle, not just during waking.
 
 **Modern default.** WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.
 
@@ -1518,12 +1459,12 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal
 `EEA-CIRC-01 · Circadian & sensory` - **tested many times**
 
-**EEA baseline.** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset clustering around 8-10 p.m., aligned with dusk-driven melatonin release. The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
+**EEA baseline.** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
 
 **EEA value** (illustrative, not constants):
 
   - biological_night: genuine darkness
-  - typical_sleep_onset: ~20:00-22:00 (dusk-aligned)
+  - typical_sleep_onset: between 8-10 p.m., two to three hours after sunset (Hadza, San; ext 77); on average 3.3 hours after sunset; no group (Hadza, San, Tsimane) went to sleep near sunset (ext 2224)
   - evening_illumination: firelight (low lux, long-wavelength ~600nm+)
   - reference_populations: ["Hadza", "San"]
   - daytime_light_lux_outdoor: >10000
@@ -1710,7 +1651,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
   - seasonality: high (composition tracked season/geography)
   - processed_food: near-zero industrial processing
   - micronutrient_density: high
-  - protein_pct_calories_approx: 34
+  - protein_pct_calories_approx: 19 to 35% of energy (Cordain et al. 2000, ext 729, a model from coded subsistence shares); 34% in the Eaton and Konner 1985 model (ext 39)
   - modern_protein_pct_calories_approx: 12
 
 **Modern default.** A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.
@@ -1795,21 +1736,21 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Hadza daily distances are GPS-measured (Pontzer et al. 2012) and forager activity levels are compared across populations (Pontzer, Wood and Raichlen 2018); the distance figures are Hadza only.*
 
-#### Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)
+#### Energy regulation is intake-bounded
 `EEA-DIET-04 · Diet & metabolic` - **tested many times**
 
 **EEA baseline.** Total daily energy expenditure (TEE) is an evolved, species-typical trait that the body holds within a narrow range, compensating metabolically rather than expending proportionally more as physical activity rises. Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite far greater physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
 
 **EEA value** (illustrative, not constants):
 
-  - finding: TEE constant across activity levels after controlling for body size
+  - finding: TEE increases with physical activity at low activity levels but plateaus at higher levels, after adjusting for body size and composition (ext 283)
   - implication: Obesity difference between Hadza and Westerners lies in intake/composition, not in expenditure.
   - populations: ["Ghana", "Jamaica", "Seychelles", "South Africa", "US"]
   - doubly_labeled_water_n: 332
   - kcal_per_100CPM_above_moderate: <50
   - constrained_TEE_change_point_CPM_per_day: 230
 
-**Modern default.** The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Because expenditure is homeostatically buffered, this model fails: cranking up activity yields little net caloric deficit, while the intake side - driven by hyperpalatable, energy-dense, effortless food - is what has changed and what dysregulates energy balance.
+**Modern default.** The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Total expenditure rises with activity at low activity levels and plateaus at higher levels (ext 283): above moderate activity, each added ~100 counts per minute per day went with less than 50 kcal/day more expenditure. Above moderate activity this model fails: cranking up activity adds little to expenditure, while the intake side, driven by hyperpalatable, energy-dense, effortless food, is what has changed and what dysregulates energy balance.
 
 **The gap.** Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped - so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side.
 
@@ -2004,4 +1945,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-24 08:18 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-24 08:18 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-25 07:12 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-25 07:12 UTC.*

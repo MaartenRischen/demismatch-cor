@@ -179,6 +179,30 @@
     "goes in[^.]{0,80}as (a )?(source_type )?\"?challenge"
    ],
    "needs_nearby": "cor_sentence|same_measure|sentence of Cor|quoted sentence|NOT a challenge|not a challenge|ONLY when"
+  },
+  {
+   "id": "stake-label",
+   "ours": "Survival and reproduction are one measure, inclusive fitness (Cor P1). No system is filed under one or the other, and a label a session filled in for every system is no finding.",
+   "short": "this system puts survival at stake, that one reproduction; survival ranks first",
+   "why": "On 10 Nov 2026 a session filled the field p1_basis for nine systems so that every system had a stake. Hunger was filed under reproduction. Every session after it ranked readings by the label and pages printed it as Cor's verdict (post-mortem fixlog/2026-11-25-postmortem-labels-read-as-findings.md).",
+   "ask": "Is a stake being stated as Cor's verdict or used to rank? Take the clause out. A reading is ranked on details explained and on distance from how humans lived.",
+   "scopes": [
+    "page",
+    "cor",
+    "brief"
+   ],
+   "patterns": [
+    "(survival|reproduction|having children) (is|are) at stake",
+    "puts? (survival|reproduction|having children) at stake",
+    "the stake is (survival|reproduction)",
+    "stake:? (survival|reproduction)\\b",
+    "(survival|reproduction)[- ]level system",
+    "(sits|rests|stands) on (survival|reproduction)\\b",
+    "survival (before|above|first,? then|outranks) reproduction",
+    "reproduction,? which comes after survival",
+    "what is at stake (according to|as) Cor"
+   ],
+   "needs_nearby": "no system is filed|not filed|never filed|is no finding|dropped|removed|taken out|retired|no longer|ranks nothing|decides nothing|stake label|used to|had been|versions? (3|19|20)|harness-ok"
   }
  ],
  "_removed": "generic-evidence (21 Nov 2026, afternoon): it flagged any page line about a job or cash study. Maarten: 'the job of any kind could produce a sense of tribe.' Form is no test; the question is what the change supplied. A regular expression cannot ask that, so the pattern is gone."

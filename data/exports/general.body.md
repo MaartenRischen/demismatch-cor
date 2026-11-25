@@ -105,7 +105,7 @@ The cue is the same pull toward connection. What changes is how much real co-reg
 - **PARTIAL (partly resolved):** a real bonded inner circle, but held at a distance through remote contact.
 - **MIXED (partly resolved):** a large mediated network that only partly routes back to real physical presence.
 - **MINIMAL (fires, no resolution):** one-sided parasocial attachment to a figure who does not know you exist.
-- **ZERO (fires, no resolution):** an AI companion engineered to simulate a two-way bond. (This rung is theoretically evidenced.)
+- **ZERO (fires, no resolution):** an AI companion engineered to simulate a two-way bond.
 
 Note: being isolated or living alone is not a rung on this ladder. It is "empty-shelf" deprivation - the need simply goes unmet.
 
@@ -205,7 +205,7 @@ Abstract work where effort never visibly registers, rigid hierarchies, and burea
 
 ### How well-evidenced
 
-Forced, 38 evidence links. The first four rungs are well-evidenced; the trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat, reproduction, and social bonding.
+Forced, 38 evidence links. The first four rungs are well-evidenced; the trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
 
 ---
 
@@ -235,7 +235,7 @@ Electric light, blue screens, shift work, and caffeine all disrupt the clock's s
 
 ### How well-evidenced
 
-Forced, 20 evidence links - all five rungs are evidenced. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
+Forced, 20 evidence links. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
 
 ---
 
@@ -265,7 +265,7 @@ Chronic low-grade inflammation from diet, sedentary living, and social isolation
 
 ### How well-evidenced
 
-Forced, 37 evidence links - all five rungs evidenced. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
+Forced, 37 evidence links. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
 
 ---
 
@@ -330,7 +330,7 @@ Sedentary living, with gym sessions as only partial compensation.
 
 ### How well-evidenced
 
-This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence links, all five rungs evidenced. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
+This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence links. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
 
 ---
 
@@ -376,7 +376,7 @@ Clean food, a clean social environment, and moral disgust contained. (That last 
 
 ### The proxy gradient
 
-The well-evidenced gradient covers pathogen disgust and has three rungs:
+The gradient covers pathogen disgust and has three rungs:
 
 - **FULL (need met):** clean food and a clean social environment, with disgust firing on real pathogen cues.
 - **PARTIAL (partly resolved):** vulnerability-calibrated over-firing - for example during pregnancy or immunosuppression, when the system understandably gets more sensitive.
@@ -450,7 +450,7 @@ Pornography, dating apps, delayed reproduction, and social-media mate-value comp
 
 ### How well-evidenced
 
-Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrdy. The sexual hormone axis is about 460 to 535 million years old, shared with lampreys; the human pair bond is about 2 to 4 million years old, and that date is contested. This is one of the systems with a **sex-differentiated implementation** - the same system, two settings. The female-typical version is VMH-centered, tied to estrous cycling, with a preference for resource and commitment signals and an emphasis on pair-bond security. The male-typical version is POA-centered, driven by tonic testosterone, attentive to fertility and accessibility cues, with an emphasis on sexual variety. It is suppressed by threat, immune activation, and care; it suppresses agency and cooperation.
+Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrdy. The sexual hormone axis is about 460 to 535 million years old, shared with lampreys; the human pair bond is about 2 to 4 million years old, and that date is contested. The female-typical version is VMH-centered, tied to estrous cycling, with a preference for resource and commitment signals and an emphasis on pair-bond security. The male-typical version is POA-centered, driven by tonic testosterone, attentive to fertility and accessibility cues, with an emphasis on sexual variety. It is suppressed by threat and care.
 
 ---
 

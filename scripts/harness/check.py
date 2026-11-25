@@ -70,8 +70,15 @@ def new_hits_in_text(old, new, scope, path=''):
 
 def strip_html(t):
     t = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", t)
+    # 25 Nov 2026 (Maarten, 09:16 Bangkok, "yes of course" to: skip study names and web addresses). An entry in a list of
+    # sources on a whatreally.is page (<span class="rf">authors (year). title. journal</span>) is somebody else's title,
+    # and the page's own address (whatreally.is/self-esteem) is no sentence. Both were read as the project's voice: the
+    # sentence split cut a title off from its year, so the reference rule (CITE) never saw it. 18 such hits stopped a
+    # commit on 25 Nov 2026 (Open Brain 5589). Everything the project writes itself is checked as before.
+    t = re.sub(r'(?is)<span class="rf(?: more)?">.*?</span>', " ", t)
     t = re.sub(r"(?i)</(p|div|li|h[1-6]|tr|td|section|article|br)\s*>|<br\s*/?>", "\n", t)
-    return html.unescape(re.sub(r"<[^>]+>", " ", t))
+    t = html.unescape(re.sub(r"<[^>]+>", " ", t))
+    return re.sub(r"(?i)\bwhatreally\.is/[a-z0-9-]+", " ", t)
 
 def json_strings(o):
     if isinstance(o, str): yield o

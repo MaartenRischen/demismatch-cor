@@ -13,7 +13,7 @@ The framework is built as a layered derivation in which each layer is constraine
 
 ### How to read a proxy gradient
 
-Each mechanism carries an ordinal ladder from full resolution to pure proxy. The load-bearing claim of every gradient is this: **the cue is identical at every level; only the resolving function changes.** A proxy can fire the cue without supplying what actually resolves the system. Reading the ladder top to bottom, the detectable cue stays roughly constant (or, in the cases flagged Kind B, the real input is progressively withdrawn or the terminating signal progressively disabled) while the conditions that would terminate the program drop away. The floor levels are where the cue fires and nothing is supplied - the open-loop state where activation cannot resolve. Verdict tags ('resolution met', 'partly resolved', 'fires, no resolution') record this independently of the level's ordinal name. Evidence tags (EVIDENCED, ARCHITECTURE-DERIVED, SPECULATIVE, CONTESTABLE) record the warrant for each rung; they are reported verbatim where present.
+Each mechanism carries an ordinal ladder from full resolution to pure proxy. The load-bearing claim of every gradient is this: **the cue is identical at every level; only the resolving function changes.** A proxy can fire the cue without supplying what actually resolves the system. Reading the ladder top to bottom, the detectable cue stays roughly constant (or, in the cases flagged Kind B, the real input is progressively withdrawn or the terminating signal progressively disabled) while the conditions that would terminate the program drop away. The floor levels are where the cue fires and nothing is supplied - the open-loop state where activation cannot resolve. Verdict tags ('resolution met', 'partly resolved', 'fires, no resolution') record this independently of the level's ordinal name. Evidence tags (ARCHITECTURE-DERIVED, SPECULATIVE, CONTESTABLE) record the warrant for each rung; they are reported verbatim where present.
 
 Each section also records the epistemic grade, tier, phylogenetic age, the forcing or grounding convergences and their named independent research streams with verbatim evidence-link counts, the cascade topology (which mechanisms a system suppresses, is suppressed by, and interacts with), and any sex-differentiated parameterization.
 
@@ -43,10 +43,6 @@ Five levels along a resolvability/actionability axis; a true DA4 proxy appears o
 
 Suppresses M2, M4, M14, M10, and M6. Suppressed by M3. No interactions recorded.
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ---
 
 ## M2 - Pursuit / Exploration
@@ -61,11 +57,11 @@ C6 establishes that motivational pursuit ('wanting', mediated by mesolimbic dopa
 
 Five levels. The cue is constant (SEEKING/wanting); the ladder is ordered by tangible outcome plus consummatory-liking closure supplied, not by cue strength.
 
-- **FULL** (resolution met): engaging a real challenge that yields a real outcome [tag: EVIDENCED] [note: EVIDENCED]
+- **FULL** (resolution met): engaging a real challenge that yields a real outcome
 - **PARTIAL** (partly resolved): knowledge work with a real but abstracted, delayed outcome
 - **MIXED** (partly resolved): variable-reward app/feed with intermittent real payoff
 - **MINIMAL** (fires, no resolution): infinite novelty, content scroll/idle browsing
-- **ZERO** (fires, no resolution): machine gambling engineered for time-on-device with guaranteed net loss [tag: EVIDENCED] [note: EVIDENCED]
+- **ZERO** (fires, no resolution): machine gambling engineered for time-on-device with guaranteed net loss
 
 Note: the most contestable ordering is MIXED-app vs MINIMAL-scroll.
 
@@ -74,10 +70,6 @@ Note: the most contestable ordering is MIXED-app vs MINIMAL-scroll.
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by M1, M3, M7, M8, and M13. Interacts with M4 and M14.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -99,7 +91,7 @@ Five levels, ordered by real co-regulatory function supplied, not by amount of c
 - **PARTIAL** (partly resolved): real bonded inner circle held at a distance, remote contact
 - **MIXED** (partly resolved): large mediated network routing only partly to real co-presence
 - **MINIMAL** (fires, no resolution): one-sided parasocial attachment to a non-reciprocating figure
-- **ZERO** (fires, no resolution): AI companion engineered to simulate a reciprocating bond [tag: EVIDENCED] [note: EVIDENCED-theoretical on ext595]
+- **ZERO** (fires, no resolution): AI companion engineered to simulate a reciprocating bond
 
 Note (off-gradient): isolated/solo living is empty-shelf deprivation, not a rung on this ladder.
 
@@ -107,11 +99,7 @@ Note (off-gradient): isolated/solo living is empty-shelf deprivation, not a rung
 
 ### Cascade topology
 
-Suppresses M1, M2, M4, M10, and M6. Suppressed by nothing recorded. Interacts with M14.
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses M1, M2, M4, and M10. Suppressed by nothing recorded. Interacts with M14.
 
 ---
 
@@ -127,7 +115,7 @@ Three converging streams ground this mechanism. C2 (Domain-Sensitive Organism Ar
 
 Five levels. The cue is approximately a constant PLAY/SEEKING social-joy pull, fired in attenuated or substitute form at lower screen levels; the ladder is ordered by how much real embodied reciprocity with an identity-bearing partner survives.
 
-- **FULL** (resolution met): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods [tag: EVIDENCED] [note: EVIDENCED]
+- **FULL** (resolution met): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods
 - **PARTIAL** (partly resolved): adult-structured supervised physical activity, organized sports
 - **MIXED** (partly resolved): screen-mediated multiplayer play with real peers
 - **MINIMAL** (fires, no resolution): solitary single-player screen play, no reciprocating partner
@@ -140,10 +128,6 @@ Note: the most contestable ordering is screen-mediated-real-peers (MIXED) ranked
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by M1 and M3. Interacts with M2.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -159,9 +143,9 @@ Four convergences support this mechanism. C2 (Domain-Sensitive Organism Architec
 
 Five levels. The cue is approximately a constant comparison/ranking signal, ordered primarily by real standing supplied in a real knowable group, with prestige > dominance quality folded in at the top.
 
-- **FULL** (resolution met): earned prestige in a small face-to-face group [tag: EVIDENCED] [note: EVIDENCED]
-- **PARTIAL** (partly resolved): coerced/unstable dominance rank in a real group [tag: EVIDENCED] [note: EVIDENCED]
-- **MIXED** (partly resolved): status-striving in a large impersonal society [tag: EVIDENCED] [note: EVIDENCED]
+- **FULL** (resolution met): earned prestige in a small face-to-face group
+- **PARTIAL** (partly resolved): coerced/unstable dominance rank in a real group
+- **MIXED** (partly resolved): status-striving in a large impersonal society
 - **MINIMAL** (fires, no resolution): global mediated comparison by follower/like counts [tag: ARCHITECTURE-DERIVED] [note: architecture-derived]
 - **ZERO** (fires, no resolution): purchased status signals, luxury-brand display [tag: ARCHITECTURE-DERIVED] [note: architecture-derived]
 
@@ -172,10 +156,6 @@ Note: the most contestable point is the floor ordering of purchased-signals (ZER
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M14.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -191,10 +171,10 @@ C8 (Error Management Asymmetry in Defensive Systems) establishes that defensive 
 
 Five levels. This is a Kind A gradient, but the cue is detection of response-outcome contingency rather than a constant appetitive drive; the ladder is ordered by real causal efficacy over fitness-relevant outcomes supplied.
 
-- **FULL** (resolution met): decision latitude over consequential, visibly-feedbacking outcomes [tag: EVIDENCED] [note: EVIDENCED]
-- **PARTIAL** (partly resolved): high demand with reduced but real decision latitude [tag: EVIDENCED] [note: EVIDENCED]
-- **MIXED** (partly resolved): abstract/surveilled/screen-mediated work where effort doesn't visibly register [tag: EVIDENCED] [note: EVIDENCED]
-- **MINIMAL** (fires, no resolution): chronically uncontrollable real environment, learned helplessness [tag: EVIDENCED] [note: EVIDENCED]
+- **FULL** (resolution met): decision latitude over consequential, visibly-feedbacking outcomes
+- **PARTIAL** (partly resolved): high demand with reduced but real decision latitude
+- **MIXED** (partly resolved): abstract/surveilled/screen-mediated work where effort doesn't visibly register
+- **MINIMAL** (fires, no resolution): chronically uncontrollable real environment, learned helplessness
 - **ZERO** (fires, no resolution): engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence [tag: ARCHITECTURE-DERIVED] [note: architecture-derived]
 
 Note: this is dual-axis. PARTIAL to MINIMAL withdraw real contingency; ZERO substitutes a false one. The most contestable ordering is MINIMAL vs ZERO.
@@ -203,11 +183,7 @@ Note: this is dual-axis. PARTIAL to MINIMAL withdraw real contingency; ZERO subs
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1, M14, and M3. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses nothing recorded. Suppressed by M1. No interactions recorded.
 
 ---
 
@@ -221,7 +197,7 @@ C3 (Systematic EEA-Modern Environment Mismatch) holds that modern post-agricultu
 
 ### Proxy gradient
 
-Five levels. This is a Kind B gradient: not a constant-cue hijack but a case where the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation. All five are EVIDENCED.
+Five levels. This is a Kind B gradient: not a constant-cue hijack but a case where the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation.
 
 - **FULL** (resolution met): outdoor light-dark cycle with dark-cued sleep
 - **ATTENUATED** (resolution met): indoor daytime light with a mostly-dark, dimly-lit night
@@ -237,10 +213,6 @@ Note: the most contestable points are the social-jetlag (PARTIAL) vs shift-work 
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ---
 
 ## M8 - Immune Regulation
@@ -253,7 +225,7 @@ C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above
 
 ### Proxy gradient
 
-Five levels. This is a Kind B gradient: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear, while the inflammatory off-switch degrades; ordered by how achievable clear-to-resolve-to-baseline remains. All five are EVIDENCED.
+Five levels. This is a Kind B gradient: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear, while the inflammatory off-switch degrades; ordered by how achievable clear-to-resolve-to-baseline remains.
 
 - **FULL** (resolution met): acute infection/injury fought off and fully resolved
 - **ATTENUATED** (resolution met): recurrent acute stress resolving each time but with incomplete recovery
@@ -267,11 +239,7 @@ Note: the most contestable point is lifestyle-drivers (PARTIAL) ranked above soc
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M8 nonetheless appears as a suppressor of M2 and M14 elsewhere in the atlas.)
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M8 nonetheless appears as a suppressor of M2 elsewhere in the atlas.)
 
 ---
 
@@ -304,10 +272,6 @@ This mechanism has TWO SEPARATE scales (axes), not one ladder. They are presente
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M9 appears as a suppressor of M14 elsewhere in the atlas.)
 
-### Sex differentiation
-
-None - a single shared implementation.
-
 ---
 
 ## M10 - Movement / Regulatory
@@ -320,7 +284,7 @@ C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above
 
 ### Proxy gradient
 
-Five levels. This is a Kind B gradient that inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied. All five are EVIDENCED.
+Five levels. This is a Kind B gradient that inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied.
 
 - **FULL** (resolution met): all-day incidental movement of foraging life, locomotion plus active rest postures
 - **ATTENUATED** (resolution met): a physically active job, farming/manual labour/walking-heavy trade
@@ -335,10 +299,6 @@ Note: the most contestable point is the gym (MINIMAL) ranked below incidental al
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by M1 and M3. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -356,8 +316,8 @@ C11 establishes that humans have specialized architecture for reciprocal exchang
 
 Five levels. The cue is approximately a constant alliance/reciprocity machinery. FULL to PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty.
 
-- **FULL** (resolution met): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement [tag: EVIDENCED] [note: EVIDENCED]
-- **PARTIAL** (partly resolved): institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions [tag: EVIDENCED] [note: EVIDENCED]
+- **FULL** (resolution met): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement
+- **PARTIAL** (partly resolved): institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions
 - **MIXED** (partly resolved): market exchange among strangers backed by gameable reputation systems
 - **MINIMAL** (fires, no resolution): coalition-signaling and parasocial alliance via symbolic in-group markers
 - **ZERO** (fires, no resolution): anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative [tag: ARCHITECTURE-DERIVED] [note: architecture-derived]
@@ -368,11 +328,7 @@ Note: the most contestable point is the PARTIAL/MIXED boundary - where proxy fai
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M14. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
+Suppresses nothing recorded. No interactions recorded.
 
 ---
 
@@ -386,7 +342,7 @@ C2 (Domain-Sensitive Organism Architecture), supported by Tooby & Cosmides, Pank
 
 ### Proxy gradient
 
-A 3-rung EVIDENCED pathogen-disgust gradient (FULL to PARTIAL to MIXED).
+A 3-rung pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 
 - **FULL** (resolution met): clean food and clean social environment, disgust firing on real pathogen cues
 - **PARTIAL** (partly resolved): vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression
@@ -399,10 +355,6 @@ A 3-rung EVIDENCED pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -418,11 +370,11 @@ C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above
 
 Five levels. This is a Kind B gradient: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked. The scale is food-processing intensity, ordered by how much regulatory function the food permits.
 
-- **FULL** (resolution met): effortful, diverse, seasonal whole foods [tag: EVIDENCED] [note: EVIDENCED]
+- **FULL** (resolution met): effortful, diverse, seasonal whole foods
 - **ATTENUATED** (resolution met): minimally processed traditional whole foods
 - **PARTIAL** (partly resolved): conventionally processed energy-dense food
 - **MINIMAL** (fires, no resolution): energy-dense palatable food optimized for crave
-- **DEFEATED** (fires, no resolution): ultra-processed bliss-point food, an engineered supernormal stimulus [tag: EVIDENCED] [note: EVIDENCED]
+- **DEFEATED** (fires, no resolution): ultra-processed bliss-point food, an engineered supernormal stimulus
 
 Note: endpoints are EVIDENCED, the middle three architecture-derived. The most contestable point is whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.
 
@@ -431,10 +383,6 @@ Note: endpoints are EVIDENCED, the middle three architecture-derived. The most c
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M13 appears as a suppressor of M2 elsewhere in the atlas.)
-
-### Sex differentiation
-
-None - a single shared implementation.
 
 ---
 
@@ -460,11 +408,11 @@ Five levels, top (need met) to bottom (cue fires, nothing supplied).
 
 ### Cascade topology
 
-Suppresses M6 and M11. Suppressed by M1, M8, and M9. Interacts with M3, M5, and M2.
+Suppressed by M1 and M9. Interacts with M3, M5, and M2.
 
 ### Sex differentiation
 
-This is a sex-differentiated implementation: the same system with two parameterizations. The **female-typical** parameterization is VMH-centered, with estrous cycling, preference for resource/commitment signals, and emphasis on pair-bond security. The **male-typical** parameterization is POA-centered, with tonic testosterone, attention to fertility/accessibility cues, and emphasis on sexual variety.
+The **female-typical** parameterization is VMH-centered, with estrous cycling, preference for resource/commitment signals, and emphasis on pair-bond security. The **male-typical** parameterization is POA-centered, with tonic testosterone, attention to fertility/accessibility cues, and emphasis on sexual variety.
 
 ---
 
@@ -491,7 +439,3 @@ Five levels, flagged CONTESTED - possibly Kind C, and NOT a flagship. The cue-fu
 ### Cascade topology
 
 Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
-
-### Sex differentiation
-
-None - a single shared implementation.

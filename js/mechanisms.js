@@ -68,20 +68,7 @@
     return !!(pg && ((pg.levels && pg.levels.length) || (pg.axes && pg.axes.length)));
   }
 
-  // Five small depth bars from the parsed phylogenetic age (older = more lit).
-  // Reads ONLY CorData.phyloDepth; if there is no parseable age, no bars.
-  function phyloBars(depth) {
-    var lit = Math.max(0, Math.min(5, Math.round(depth * 5)));
-    var out = "";
-    for (var i = 0; i < 5; i++) {
-      var h = 5 + i * 2; // 5..13px, oldest tier tallest
-      out += "<i class='" + (i < lit ? "lit" : "") + "' style='height:" + h + "px'></i>";
-    }
-    return out;
-  }
-
   function card(m) {
-    var pd = D.phyloDepth(m.phylogenetic_age || "");
     var ev = D.evidenceCount(m.code);
     var grade = gradeLabel(m.grade);
 
@@ -111,12 +98,9 @@
         "</div>"
       : "<div class='mx-stat'><span class='lbl'>evidence count unavailable</span></div>";
 
-    var phyloRow = pd.label
-      ? "<div class='mx-phylo'>" +
-          "<span class='mx-phylo-bars' aria-hidden='true'>" + phyloBars(pd.depth) + "</span>" +
-          "<span class='mx-phylo-age'>" + esc(D.normalizeDashes(pd.label)) + "</span>" +
-        "</div>"
-      : "";
+    // 25 Nov 2026: no depth bars and no single age per system on the card. The dated parts of
+    // each system, with their grades, are on the system's own page.
+    var phyloRow = "";
 
     var foot = "<div class='mx-foot'>" + evRow + phyloRow + "</div>";
 

@@ -56,8 +56,8 @@
     fails:    "The cue fires the same as ever, but essentially none of the resolving function is supplied.",
   };
   // Tags that get a small evidence-status badge in the readout.
+  // "EVIDENCED" is out (25 Nov 2026, Cor fix round 3, labels are not findings): a rung marked with it shows no mark.
   var TAG_LABEL = {
-    "EVIDENCED": "evidenced",
     "ARCHITECTURE-DERIVED": "architecture-derived",
     "CONTESTABLE": "contestable",
     "SPECULATIVE": "speculative",
@@ -250,21 +250,11 @@
 
   // ---- subordinate phylogenetic depth -------------------------------------
   function phyloBlock(m) {
-    var dep = D.phyloDepth(m.phylogenetic_age || "");
-    var lit = 3;
-    if (dep.myr != null) {
-      if (dep.myr >= 450) lit = 5; else if (dep.myr >= 250) lit = 4;
-      else if (dep.myr >= 150) lit = 3; else if (dep.myr >= 60) lit = 2; else lit = 1;
-    }
-    var bars = "";
-    for (var i = 0; i < 5; i++) {
-      bars += "<span class='phylo-bar " + (i < lit ? "lit" : "dim") + "' style='height:" + (12 + i * 5) + "px'></span>";
-    }
-    var sev = lit >= 5 ? "deepest circuit - hardest to adapt" : lit >= 4 ? "deep circuit - hard to adapt" : lit >= 3 ? "older circuit" : "more plastic circuit";
+    // 25 Nov 2026: no bar and no label is derived from one age per system (the summary field
+    // phylogenetic_age). Most systems have two dated parts, and the order of systems flips with
+    // the part taken. The card shows the dated parts as the age table holds them, each with its
+    // own grade.
     return "<div class='card'><div class='card-head'><span class='dia'></span> Phylogenetic Depth</div>" +
-      "<div class='phylo'><div class='phylo-bars' role='img' aria-label='Depth " + lit + " of 5'>" + bars + "</div>" +
-      "<div class='phylo-txt'><div class='phylo-age'>" + esc(dep.label || "not recorded") + "</div>" +
-      "<div class='phylo-note'>" + (dep.myr != null ? esc(sev) + ". " : "") + "Severity tracks inversely with the age of the targeted circuit.</div></div></div>" +
       phyloParts(m) + "</div>";
   }
 
@@ -317,23 +307,13 @@
       evBlock +
       "</div></div></div>";
 
-    var sexdiff;
-    if (m.sex_differentiated && m.sex_diff_notes) {
-      var rawSD = dash(m.sex_diff_notes), fH = "", mH = "";
-      var fm = rawSD.match(/Female:\s*([\s\S]*?)(?:\s*Male:|$)/);
-      var mm = rawSD.match(/Male:\s*([\s\S]*)$/);
-      if (fm) fH = esc(fm[1].trim().replace(/\.$/, ""));
-      if (mm) mH = esc(mm[1].trim().replace(/\.$/, ""));
-      var cols = (fH || mH)
-        ? "<div class='sd-cols'>" + (fH ? "<div class='sd-col'><h4>Female-typical</h4><p>" + fH + ".</p></div>" : "") +
-          (mH ? "<div class='sd-col'><h4>Male-typical</h4><p>" + mH + ".</p></div>" : "") + "</div>"
-        : "<p style='font-weight:300;font-size:.9rem;line-height:1.5'>" + esc(rawSD) + "</p>";
-      sexdiff = "<div class='card span-2'><div class='card-head'><span class='dia'></span> Sex-Differentiated Implementation</div><div class='card-body'>" +
-        "<button class='sexdiff-toggle' aria-expanded='false' aria-controls='sexdiff-body' data-sexdiff><span class='tw' aria-hidden='true'>&rsaquo;</span> Same system, two parameterizations. Show implementation notes.</button>" +
-        "<div class='sexdiff-body' id='sexdiff-body'>" + cols + "</div></div></div>";
-    } else {
-      sexdiff = "<div class='card span-2'><div class='card-head'><span class='dia'></span> Sex-Differentiated Implementation</div>" +
-        "<div class='card-body'><span class='sexdiff-na'>Not sex-differentiated - a single shared implementation across the population.</span></div></div>";
+    // 25 Nov 2026 (labels are not findings): the yes-or-no field is no longer read. The card prints only what linked
+    // findings report, each id linked to its finding in the corpus. No notes, no card.
+    var sexdiff = "";
+    if (m.sex_diff_notes) {
+      var sdHtml = esc(dash(m.sex_diff_notes)).replace(/\b(?:E|ext )(\d+)\b/g, "<a href='corpus.html#e=$1'>finding $1</a>");
+      sexdiff = "<div class='card span-2'><div class='card-head'><span class='dia'></span> Sex differences in the findings</div><div class='card-body'>" +
+        "<p style='font-weight:300;font-size:.9rem;line-height:1.5'>" + sdHtml + "</p></div></div>";
     }
 
     return "<section class='secondary' aria-label='Supporting detail'>" + mismatch + phyloBlock(m) + cascade + evidence + sexdiff + "</section>";
@@ -660,7 +640,7 @@
         "<div class='mech-welcome-cues'>" +
           "<div class='mech-welcome-cue'><span class='pip'></span> Resolution conditions - what the system needs to settle</div>" +
           "<div class='mech-welcome-cue'><span class='pip'></span> Proxy gradient - the spectrum from real to counterfeit</div>" +
-          "<div class='mech-welcome-cue'><span class='pip'></span> Phylogenetic depth - how old the circuit is, and how hard to adapt</div>" +
+          "<div class='mech-welcome-cue'><span class='pip'></span> Phylogenetic depth - how old the circuit is</div>" +
         "</div>" +
       "</div>";
   }
@@ -699,7 +679,10 @@
     q("[data-out=state]").textContent = lvl.state;
 
     var tagEl = q("[data-out=tag]");
-    if (lvl.tag && TAG_LABEL[lvl.tag]) {
+    if (lvl.tag === "EVIDENCED" || /^\s*evidenced\b|\bEVIDENCED\b/.test(lvl.note || "")) {
+      tagEl.textContent = "";
+      tagEl.style.display = "none";
+    } else if (lvl.tag && TAG_LABEL[lvl.tag]) {
       tagEl.textContent = TAG_LABEL[lvl.tag];
       tagEl.className = "gr-tag tag-" + lvl.tag.toLowerCase().replace(/[^a-z]+/g, "-");
       tagEl.style.display = "";

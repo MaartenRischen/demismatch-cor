@@ -35,7 +35,7 @@ A note on the ladders: most are simple top-to-bottom ordinal ladders. A few syst
 
 ### What it looks like in a person
 
-This is the freeze-fight-flee system, plus the offensive mode of frustration-aggression. In the room, it shows up as panic, hypervigilance, a racing heart, irritability, a client who is "always on," who cannot relax, who startles, who is exhausted by a danger they cannot name. It is mediated by phylogenetically ancient subcortical circuits - amygdala, periaqueductal gray, hypothalamus - that operate pre-attentively and can override cortical processing. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old, and it is a single shared implementation across the sexes.
+This is the freeze-fight-flee system, plus the offensive mode of frustration-aggression. In the room, it shows up as panic, hypervigilance, a racing heart, irritability, a client who is "always on," who cannot relax, who startles, who is exhausted by a danger they cannot name. It is mediated by phylogenetically ancient subcortical circuits - amygdala, periaqueductal gray, hypothalamus - that operate pre-attentively and can override cortical processing. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old.
 
 What resolves it is simple and physical: safety established, the threat eliminated or avoided.
 
@@ -79,11 +79,11 @@ What resolves it: engagement with real challenges that produce tangible outcomes
 
 ### The proxy gradient (cue = SEEKING/wanting, constant throughout)
 
-- **FULL:** engaging a real challenge that yields a real outcome. (Evidenced.)
+- **FULL:** engaging a real challenge that yields a real outcome.
 - **PARTIAL:** knowledge work with a real but abstracted, delayed outcome.
 - **MIXED:** a variable-reward app or feed with intermittent real payoff.
 - **MINIMAL:** infinite novelty, content scroll, idle browsing - cue fires, nothing resolves.
-- **ZERO:** machine gambling engineered for time-on-device with guaranteed net loss. (Evidenced.) Cue fires; not only does nothing resolve, the player is systematically drained.
+- **ZERO:** machine gambling engineered for time-on-device with guaranteed net loss. Cue fires; not only does nothing resolve, the player is systematically drained.
 
 The wanting is identical at the top and the bottom. What drains as you descend is the tangible outcome and the consummatory closure that would say "enough." (The framework notes the MIXED-vs-MINIMAL ordering is its most contestable point.)
 
@@ -119,7 +119,7 @@ What resolves it is reliable human co-regulation through physical presence, orga
 - **PARTIAL:** a real bonded inner circle held at a distance via remote contact - real bond, attenuated presence.
 - **MIXED:** a large mediated network that routes only partly to real co-presence.
 - **MINIMAL:** one-sided parasocial attachment to a non-reciprocating figure - cue fires, no reciprocal regulation.
-- **ZERO:** an AI companion engineered to simulate a reciprocating bond. (Evidenced-theoretical.) Cue fires; nothing co-regulates.
+- **ZERO:** an AI companion engineered to simulate a reciprocating bond. Cue fires; nothing co-regulates.
 
 Note the off-gradient case: isolated or solo living is not a rung on this ladder - it is empty-shelf deprivation, the absence of input entirely.
 
@@ -151,7 +151,7 @@ What resolves it: self-directed, unsupervised, physical play with other children
 
 ### The proxy gradient (cue = the PLAY/SEEKING social-joy pull; ordered by surviving embodied reciprocity with a real partner)
 
-- **FULL:** self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods. (Evidenced.)
+- **FULL:** self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods.
 - **PARTIAL:** adult-structured supervised physical activity, organized sports - real bodies, but adult-directed.
 - **MIXED:** screen-mediated multiplayer play with real peers - real partners, mediated bodies.
 - **MINIMAL:** solitary single-player screen play, no reciprocating partner - cue fires, no real reciprocity.
@@ -187,9 +187,9 @@ What resolves it: an acceptable position within a reference group of about 150, 
 
 ### The proxy gradient (cue = constant comparison/ranking signal; ordered by real standing supplied in a real, knowable group)
 
-- **FULL:** earned prestige in a small face-to-face group. (Evidenced.)
-- **PARTIAL:** a coerced or unstable dominance rank in a real group. (Evidenced.) Real standing, lower quality.
-- **MIXED:** status-striving in a large impersonal society. (Evidenced.)
+- **FULL:** earned prestige in a small face-to-face group.
+- **PARTIAL:** a coerced or unstable dominance rank in a real group. Real standing, lower quality.
+- **MIXED:** status-striving in a large impersonal society.
 - **MINIMAL:** global mediated comparison by follower and like counts. (Architecture-derived.) Cue fires, no real resolvable standing.
 - **ZERO:** purchased status signals, luxury-brand display. (Architecture-derived.) Cue fires; nothing real is earned.
 
@@ -223,10 +223,10 @@ What resolves it: genuine action-outcome feedback and real decision latitude.
 
 ### The proxy gradient (cue = detection of response-outcome contingency)
 
-- **FULL:** decision latitude over consequential outcomes that visibly feed back. (Evidenced.)
-- **PARTIAL:** high demand with reduced but still real decision latitude. (Evidenced.)
-- **MIXED:** abstract, surveilled, or screen-mediated work where effort does not visibly register. (Evidenced.)
-- **MINIMAL:** a chronically uncontrollable real environment producing learned helplessness. (Evidenced.) The cue fires, no real contingency is supplied.
+- **FULL:** decision latitude over consequential outcomes that visibly feed back.
+- **PARTIAL:** high demand with reduced but still real decision latitude.
+- **MIXED:** abstract, surveilled, or screen-mediated work where effort does not visibly register.
+- **MINIMAL:** a chronically uncontrollable real environment producing learned helplessness. The cue fires, no real contingency is supplied.
 - **ZERO:** an engineered simulated-agency loop - a slot machine, game, or dashboard - firing the contingency cue with zero real consequence. (Architecture-derived.)
 
 This is a dual-axis gradient: from PARTIAL down to MINIMAL, real contingency is progressively withdrawn; ZERO substitutes a false one. (The MINIMAL-vs-ZERO ordering is the contestable point.)
@@ -265,7 +265,7 @@ What resolves it: dark-cued sleep onset, bright daylight exposure, and a consist
 - **MINIMAL:** shift work and always-on connectivity, with the dark cue largely gone. Cue degraded, little resolution.
 - **DEFEATED:** evening blue-light screens actively mis-setting the clock - false daylight at biological night.
 
-This is a Kind B gradient: it is not a false cue being fired but the real entraining signal being degraded and finally inverted. All five rungs are evidenced. (Contestable points: the social-jetlag-vs-shift-work ordering, and whether screen signal-inversion is truly the floor.)
+This is a Kind B gradient: it is not a false cue being fired but the real entraining signal being degraded and finally inverted. (Contestable points: the social-jetlag-vs-shift-work ordering, and whether screen signal-inversion is truly the floor.)
 
 ### Mismatch prediction
 
@@ -301,7 +301,7 @@ What resolves it: pathogen cleared, inflammation resolved.
 - **MINIMAL:** chronic social isolation and status stress defeating the inflammatory off-switch. Cue fires, nothing to clear.
 - **DEFEATED:** self-sustaining chronic low-grade inflammation, allostatic-load collapse.
 
-All five rungs are evidenced. (The lifestyle-drivers-over-social-isolation ordering is contestable and could legitimately swap or collapse.)
+(The lifestyle-drivers-over-social-isolation ordering is contestable and could legitimately swap or collapse.)
 
 ### Mismatch prediction
 
@@ -374,7 +374,7 @@ What resolves it: movement woven into daily life rather than set aside as "exerc
 - **MINIMAL:** a sedentary day plus a discrete gym or exercise session - a partial re-supply, not a false cue.
 - **DEFEATED:** chair-bound sedentarism with essentially no movement.
 
-All five rungs are evidenced. (The contestable point: the gym is ranked below all-day incidental NEAT here because the axis is the movement distribution, not fitness; on a fitness or mortality axis it would swap.)
+(The contestable point: the gym is ranked below all-day incidental NEAT here because the axis is the movement distribution, not fitness; on a fitness or mortality axis it would swap.)
 
 ### Mismatch prediction
 
@@ -404,8 +404,8 @@ What resolves it: a trusted reciprocal network with norm enforcement, within a g
 
 ### The proxy gradient (cue = constant alliance/reciprocity machinery)
 
-- **FULL:** a trusted reciprocal network under about 150, with direct reputation tracking and norm enforcement. (Evidenced.)
-- **PARTIAL:** institutionally-scaffolded cooperation beyond about 150 - formal rules, third-party enforcement, shared fictions. (Evidenced.) This is resolution-via-prosthesis: institutions re-supply the same function at scale.
+- **FULL:** a trusted reciprocal network under about 150, with direct reputation tracking and norm enforcement.
+- **PARTIAL:** institutionally-scaffolded cooperation beyond about 150 - formal rules, third-party enforcement, shared fictions. This is resolution-via-prosthesis: institutions re-supply the same function at scale.
 - **MIXED:** market exchange among strangers backed by gameable reputation systems. Proxy failure begins here.
 - **MINIMAL:** coalition-signaling and parasocial alliance via symbolic in-group markers. Cue fires, no real reciprocal function reaches a real counterparty.
 - **ZERO:** anonymous one-shot transactions and AI "allies" with no reputation and no shared narrative. (Architecture-derived.)
@@ -438,7 +438,7 @@ Three-domain disgust - pathogen, sexual, and moral - functioning as a behavioral
 
 What resolves it: clean food, a clean social environment, and moral disgust contained. (Note: the "moral disgust contained" clause is flagged as contested.)
 
-### The proxy gradient (a 3-rung evidenced pathogen-disgust gradient)
+### The proxy gradient (a 3-rung pathogen-disgust gradient)
 
 - **FULL:** clean food and a clean social environment, with disgust firing on real pathogen cues.
 - **PARTIAL:** vulnerability-calibrated over-firing - for example in pregnancy or immunosuppression. Partly resolved; the system raises its threshold appropriately.
@@ -472,11 +472,11 @@ What resolves it: effortful, diverse, seasonal whole foods, and metabolic variet
 
 ### The proxy gradient (Kind B - the satiety/intake-termination signal is progressively disabled then actively defeated; scale = food-processing intensity)
 
-- **FULL:** effortful, diverse, seasonal whole foods. (Evidenced.)
+- **FULL:** effortful, diverse, seasonal whole foods.
 - **ATTENUATED:** minimally processed traditional whole foods. (Resolution still met.)
 - **PARTIAL:** conventionally processed, energy-dense food.
 - **MINIMAL:** energy-dense palatable food optimized for crave. Cue fires, satiety begins to fail.
-- **DEFEATED:** ultra-processed bliss-point food, an engineered supernormal stimulus. (Evidenced.) The off-switch is actively defeated.
+- **DEFEATED:** ultra-processed bliss-point food, an engineered supernormal stimulus. The off-switch is actively defeated.
 
 The endpoints are evidenced; the middle three rungs are architecture-derived. (The contestable point: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or just a bimodal whole-versus-ultra-processed split.)
 

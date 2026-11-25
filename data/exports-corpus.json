@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-24T08:18:09.766195+00:00",
+    "source_built_at": "2026-11-25T07:12:24.609312+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -464,8 +464,9 @@
           "Mobbs"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "ext 733: A meta-analysis found that males are more physically aggressive than females at all ages and across cultures, while girls show more indirect aggression than boys only in later childhood and adolescence, depending on how it is measured. ext 2711: In the first of four experiments, both men and women underestimated the time to arrival of approaching sounds, more strongly among women; in the others women also judged approaching sounds that stopped short of them as closer than men did, while no sex difference appeared for sounds moving away. ext 2581 (before a public speech): Men supported by their partner showed a significantly smaller cortisol response than unsupported or stranger-supported men. Women showed no drop with stranger support and a tendency toward a larger cortisol response when supported by their boyfriend. ext 3667 (driving simulator): men drove more aggressively than women (d = 0.06)."
+      },
       "forced_by_convergence": [
         {
           "code": "C10",
@@ -485,7 +486,7 @@
       "mismatch_prediction": "Variable-reward apps fire SEEKING without resolution. Open loop.",
       "phylogenetic_age": "~460-535Myr (dopamine basal ganglia, all vertebrates; contested); reward pathway ~165Myr+ (mammals)",
       "proxy_gradient": {
-        "raw": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL; EVIDENCED) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO; EVIDENCED). The order of MIXED (app) and MINIMAL (scroll) is untested.",
+        "raw": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength): engaging a real challenge that yields a real outcome (FULL) → knowledge work with a real but abstracted, delayed outcome (PARTIAL) → variable-reward app/feed with intermittent real payoff (MIXED) → infinite novelty, content scroll/idle browsing (MINIMAL) → machine gambling engineered for time-on-device with guaranteed net loss (ZERO). The order of MIXED (app) and MINIMAL (scroll) is untested.",
         "preamble": "5 levels (cue constant = SEEKING/wanting; ordered by tangible outcome + consummatory-liking closure supplied, not by cue strength)",
         "trailing": "The order of MIXED (app) and MINIMAL (scroll) is untested.",
         "demoted": "",
@@ -495,8 +496,8 @@
             "index": 0,
             "label": "engaging a real challenge that yields a real outcome",
             "state": "FULL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "resolves",
             "verdict_text": "resolution met"
           },
@@ -531,8 +532,8 @@
             "index": 4,
             "label": "machine gambling engineered for time-on-device with guaranteed net loss",
             "state": "ZERO",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -561,8 +562,9 @@
           "Berridge"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "ext 3614 (Hadza foraging search paths): Women's bouts were Levy walks more often than men's (56.7% against 36.6%)."
+      },
       "forced_by_convergence": [
         {
           "code": "C6",
@@ -582,7 +584,7 @@
       "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence.",
       "phylogenetic_age": "~165-200Myr (attachment, mammals); human layered network not dated",
       "proxy_gradient": {
-        "raw": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; EVIDENCED-theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
+        "raw": "5 levels (ordered by real co-regulatory function supplied, not amount of contact): reliable physically co-present inner circle (FULL) → real bonded inner circle held at a distance, remote contact (PARTIAL) → large mediated network routing only partly to real co-presence (MIXED) → one-sided parasocial attachment to a non-reciprocating figure (MINIMAL) → AI companion engineered to simulate a reciprocating bond (ZERO; theoretical on ext595). Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
         "preamble": "5 levels (ordered by real co-regulatory function supplied, not amount of contact)",
         "trailing": "Off-gradient: isolated/solo living = empty-shelf deprivation, not a rung.",
         "demoted": "",
@@ -628,8 +630,8 @@
             "index": 4,
             "label": "AI companion engineered to simulate a reciprocating bond",
             "state": "ZERO",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED-theoretical on ext595",
+            "tag": null,
+            "note": "theoretical on ext595",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -642,8 +644,7 @@
           "M1",
           "M2",
           "M4",
-          "M10",
-          "M6"
+          "M10"
         ],
         "suppressed_by": [],
         "interacts_with": [
@@ -659,8 +660,9 @@
           "Hrdy"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E4722: the wish to affiliate with others under stress is much stronger in women than in men; \"seeking and using social support\" showed the largest difference, and of 26 studies that tested for it, 25 favoured women, one found no difference and none went the other way. E5450: overall, men scored higher on avoidance and lower on attachment anxiety than women, with substantial heterogeneity between studies. E2581: men supported by their partner showed a significantly smaller cortisol response than unsupported or stranger-supported men; women showed no drop with stranger support and a tendency toward a larger cortisol response when supported by their boyfriend. E755: women cried more often than men during bereavement. E3726 (rhesus macaques): the effects of removing the mother for a few days varied with the length of the separation and the infant's sex. E5519 (rhesus macaques): male infants played more during this time and female infants played less and groomed others more."
+      },
       "forced_by_convergence": [
         {
           "code": "C5",
@@ -674,13 +676,13 @@
       "name": "Social Calibration / Play",
       "grade": "established",
       "tier": 1,
-      "description": "Play system develops social skills. Absent in threatened or ill animals.",
+      "description": "Play system develops social skills. Play often disappears when animals are under fitness challenge and remains absent under chronic or severe stress. It can also increase in stressful situations, in response to reduced parental care, or as a rebound after a period of deprivation.",
       "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
       "resolution_conditions": "Self-directed, unsupervised physical play with other children. In forager childhoods this is a mixed-age group.",
       "mismatch_prediction": "Structured activities replacing free play. Screens replacing bodies. Play deprivation.",
       "phylogenetic_age": "~60Myr+ (social play, all primates; up to ~170Myr if one mammal system); play in reptiles and fish arose separately",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL; EVIDENCED) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). The order of MIXED (screen play with real peers) and MINIMAL (solitary game) is untested.",
+        "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). The order of MIXED (screen play with real peers) and MINIMAL (solitary game) is untested.",
         "preamble": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives)",
         "trailing": "The order of MIXED (screen play with real peers) and MINIMAL (solitary game) is untested.",
         "demoted": "",
@@ -690,8 +692,8 @@
             "index": 0,
             "label": "self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods",
             "state": "FULL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "resolves",
             "verdict_text": "resolution met"
           },
@@ -753,8 +755,9 @@
           "Gray"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E790 (review): exercise play and rough-and-tumble play are more common in boys; gender differences (greater prevalence in males) characterize these two forms. E2249 (Hadza and BaYaka children and adolescents aged 3 to 18): adolescent girls played less than younger girls while adolescent boys did not. E3535 (23 nine-year-old children): longer confinement went with more exercise play for boys and more social sedentary behaviour for girls at playtime. E2652 (three recess-timing field experiments): after the longer wait children, especially boys, were more socially active on the playground. E3750 (free-living juvenile Belding's ground squirrels): perinatal testosterone raised the sexual play started by young females to near male rates and did not change play fighting."
+      },
       "forced_by_convergence": [
         {
           "code": "C2",
@@ -784,7 +787,7 @@
       "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade.",
       "phylogenetic_age": "~420-445Myr (rank circuit, bony vertebrates); rank-linked health ~25-34Myr+ (Old World primates)",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL; EVIDENCED) → coerced/unstable dominance rank in a real group (PARTIAL; EVIDENCED) → status-striving in a large impersonal society (MIXED; EVIDENCED) → global mediated comparison by follower/like counts (MINIMAL; EVIDENCED: across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
+        "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL) → coerced/unstable dominance rank in a real group (PARTIAL) → status-striving in a large impersonal society (MIXED) → global mediated comparison by follower/like counts (MINIMAL; across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
         "preamble": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top)",
         "trailing": "The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
         "demoted": "",
@@ -794,8 +797,8 @@
             "index": 0,
             "label": "earned prestige in a small face-to-face group",
             "state": "FULL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "resolves",
             "verdict_text": "resolution met"
           },
@@ -803,8 +806,8 @@
             "index": 1,
             "label": "coerced/unstable dominance rank in a real group",
             "state": "PARTIAL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "partial",
             "verdict_text": "partly resolved"
           },
@@ -812,8 +815,8 @@
             "index": 2,
             "label": "status-striving in a large impersonal society",
             "state": "MIXED",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "partial",
             "verdict_text": "partly resolved"
           },
@@ -821,8 +824,8 @@
             "index": 3,
             "label": "global mediated comparison by follower/like counts",
             "state": "MINIMAL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED: across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026",
+            "tag": null,
+            "note": "across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           },
@@ -856,8 +859,9 @@
           "Marmot"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E4950 (203 US undergraduates ranking envy scenarios): men ranked a peer with more status, more signs of earning power, a more attractive partner, more athletic talent and more sexual success as more envy-provoking than women did; women ranked a more attractive peer, a peer whose partner had more money and a peer with no sexual experience as more envy-provoking than men did. E3974 (1,013 participants aged 6 to 22): across ages, males and majority-group students cared more about reputational status than females and minority students. E3178 (status ratings from 14 nations): cost-infliction ability had a small unique association with men's status (0.11) and none with women's."
+      },
       "forced_by_convergence": [
         {
           "code": "C2",
@@ -892,7 +896,7 @@
       "mismatch_prediction": "Abstract work where effort doesn't visibly register. Rigid hierarchies. Bureaucratic systems.",
       "phylogenetic_age": "~60-90Myr+ (placental mammals; possibly ~165-200Myr, all mammals; contested)",
       "proxy_gradient": {
-        "raw": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied): decision latitude over consequential, visibly-feedbacking outcomes (FULL; EVIDENCED) → high demand with reduced but real decision latitude (PARTIAL; EVIDENCED) → abstract/surveilled/screen-mediated work where effort doesn't visibly register (MIXED; EVIDENCED) → chronically uncontrollable real environment, learned helplessness (MINIMAL; EVIDENCED) → engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence (ZERO; architecture-derived). Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one. The MINIMAL-vs-ZERO order is untested.",
+        "raw": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied): decision latitude over consequential, visibly-feedbacking outcomes (FULL) → high demand with reduced but real decision latitude (PARTIAL) → abstract/surveilled/screen-mediated work where effort doesn't visibly register (MIXED) → chronically uncontrollable real environment, learned helplessness (MINIMAL) → engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence (ZERO; architecture-derived). Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one. The MINIMAL-vs-ZERO order is untested.",
         "preamble": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied)",
         "trailing": "Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one. The MINIMAL-vs-ZERO order is untested.",
         "demoted": "",
@@ -902,8 +906,8 @@
             "index": 0,
             "label": "decision latitude over consequential, visibly-feedbacking outcomes",
             "state": "FULL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "resolves",
             "verdict_text": "resolution met"
           },
@@ -911,8 +915,8 @@
             "index": 1,
             "label": "high demand with reduced but real decision latitude",
             "state": "PARTIAL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "partial",
             "verdict_text": "partly resolved"
           },
@@ -920,8 +924,8 @@
             "index": 2,
             "label": "abstract/surveilled/screen-mediated work where effort doesn't visibly register",
             "state": "MIXED",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "partial",
             "verdict_text": "partly resolved"
           },
@@ -929,8 +933,8 @@
             "index": 3,
             "label": "chronically uncontrollable real environment, learned helplessness",
             "state": "MINIMAL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           },
@@ -950,9 +954,7 @@
       "cascade": {
         "suppresses": [],
         "suppressed_by": [
-          "M1",
-          "M14",
-          "M3"
+          "M1"
         ],
         "interacts_with": []
       },
@@ -962,8 +964,9 @@
           "Maier & Seligman"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "ext 4190 (fruit flies given heat they could not control): afterwards it walked more slowly and took longer and more frequent rests, more so in females than in males."
+      },
       "forced_by_convergence": [
         {
           "code": "C8",
@@ -988,9 +991,9 @@
       "mismatch_prediction": "Electric light, blue screens, shift work, caffeine",
       "phylogenetic_age": "~500Myr+ (animal clock genes, insects and vertebrates); cyanobacterial clocks are older but a separate origin",
       "proxy_gradient": {
-        "raw": "5 levels (Kind B: not a constant-cue hijack - the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). All five EVIDENCED. Untested: the order of PARTIAL (social jetlag) and MINIMAL (shift work), and whether evening screens are the floor.",
+        "raw": "5 levels (Kind B: not a constant-cue hijack - the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation): outdoor light-dark cycle with dark-cued sleep (FULL) → indoor daytime light with a mostly-dark, dimly-lit night (ATTENUATED) → correctly-phased clock overridden by a misaligned social schedule / social jetlag (PARTIAL) → shift work and always-on connectivity with the dark cue largely gone (MINIMAL) → evening blue-light screens actively mis-setting the clock, false daylight at biological night (DEFEATED). Untested: the order of PARTIAL (social jetlag) and MINIMAL (shift work), and whether evening screens are the floor.",
         "preamble": "5 levels (Kind B: not a constant-cue hijack - the entraining light signal itself degrades and is finally inverted; ordered by per-individual signal degradation)",
-        "trailing": "All five EVIDENCED. Untested: the order of PARTIAL (social jetlag) and MINIMAL (shift work), and whether evening screens are the floor.",
+        "trailing": "Untested: the order of PARTIAL (social jetlag) and MINIMAL (shift work), and whether evening screens are the floor.",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1058,8 +1061,9 @@
           "Czeisler"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E633: in US time-use diaries, men are typically later chronotypes than women before 40, but earlier types after 40."
+      },
       "forced_by_convergence": [
         {
           "code": "C3",
@@ -1084,14 +1088,14 @@
       "grade": "established",
       "tier": 1,
       "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to low mood via DA3 cascade.",
-      "eli5": "Sickness behavior. Inflammation shuts everything else down to fight infection.",
+      "eli5": "Sickness behavior.",
       "resolution_conditions": "Pathogen cleared, inflammation resolved.",
       "mismatch_prediction": "Chronic low-grade inflammation from diet, sedentarism, social isolation.",
       "phylogenetic_age": "~550-830Myr (innate immunity, animals; contested); adaptive immunity ~420-470Myr (jawed vertebrates)",
       "proxy_gradient": {
-        "raw": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). All five EVIDENCED. The order of PARTIAL (lifestyle drivers) and MINIMAL (social isolation) is untested.",
+        "raw": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). The order of PARTIAL (lifestyle drivers) and MINIMAL (social isolation) is untested.",
         "preamble": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains)",
-        "trailing": "All five EVIDENCED. The order of PARTIAL (lifestyle drivers) and MINIMAL (social isolation) is untested.",
+        "trailing": "The order of PARTIAL (lifestyle drivers) and MINIMAL (social isolation) is untested.",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1146,8 +1150,7 @@
       "proxy_gradient_derived": true,
       "cascade": {
         "suppresses": [
-          "M2",
-          "M14"
+          "M2"
         ],
         "suppressed_by": [],
         "interacts_with": []
@@ -1160,8 +1163,9 @@
           "Irwin"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E5055 (26 cohorts starting interferon-alpha for hepatitis C): major depressive episodes as the authors defined them were more likely in women (odds ratio 1.40). E2806 (26 adults, sleep restricted with or without circadian misalignment): in men, the fall in insulin sensitivity and the rise in the inflammatory marker hsCRP were both about twice as large with misalignment; in women the differences between conditions were not significant. E3595 (narrative review of ultra-processed food and inflammation markers): several links held only in women or only in men. E2560 (endotoxin trial): endotoxin raised self-reported depressed mood from baseline to two hours after injection, with no sex difference. E3576 (meta-analysis of 83 exercise-training trials): the decrease in C-reactive protein after training is reported regardless of age or sex."
+      },
       "forced_by_convergence": [
         {
           "code": "C3",
@@ -1271,8 +1275,9 @@
           "Kenkel"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E4209: in 10 continental European countries, 58% of grandmothers and 49% of grandfathers had given some care to a grandchild aged 15 or younger in the previous 12 months. E4952: women rated family motives somewhat higher than men did; these sex differences were small. E4434 (laboratory mice): inputs from pheromone-processing areas to the parenting neurons were active in fathers and virgin females but not in mothers."
+      },
       "forced_by_convergence": [
         {
           "code": "C1",
@@ -1307,9 +1312,9 @@
       "mismatch_prediction": "Sedentarism. Gym sessions as partial compensation.",
       "phylogenetic_age": "~2Myr (human form, argued); older regulatory roles not dated",
       "proxy_gradient": {
-        "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). All five EVIDENCED. On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
+        "raw": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied): all-day incidental movement of foraging life, locomotion plus active rest postures (FULL) → a physically active job, farming/manual labour/walking-heavy trade (ATTENUATED) → mostly sedentary day broken up by walking, standing and fidgeting / incidental NEAT (PARTIAL) → sedentary day plus a discrete gym/exercise session, a partial re-supply not a false cue (MINIMAL) → chair-bound sedentarism with essentially no movement (DEFEATED). On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
         "preamble": "5 levels (Kind B: inverts the usual proxy story - the real input is withdrawn, not a false cue fired; ordered by how much of the all-day muscle-activity distribution is supplied)",
-        "trailing": "All five EVIDENCED. On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
+        "trailing": "On a mortality axis the order of ATTENUATED and MINIMAL runs the other way: in 22 cohorts of up to 590,497 workers followed for 23 years on average, with each kind of movement adjusted for the other, movement at work went with no longer life than sitting work, while movement in leisure time went with lower mortality in both sexes (HR 0.75 to 0.87; Coenen et al. 2024). On a fitness or mortality axis MINIMAL (gym) and PARTIAL (incidental movement) could also swap; that order is untested.",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1378,8 +1383,9 @@
           "Ratey"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "ext 3418 (Hadza): adult women walked on average 7.6 km a day and took 10,888 steps, and adult men walked 12.9 km and took 18,476 steps. ext 3419 (Hadza): at 15, boys walked 12 km a day on average and girls 9 km. The gap was largest at ages 30 to 45 (men about 14 km, women about 8 km). ext 3614 (Hadza foraging bouts): Women's bouts were Levy walks more often than men's (56.7% against 36.6%). ext 3535 (23 nine-year-old children): longer confinement went with more exercise play for boys and more social sedentary behaviour for girls at playtime. ext 4517 (686 European children aged 10 to 12): Moderate-to-vigorous activity averaged 32 minutes a day for girls and 43 for boys, and 4.6 percent of girls and 16.8 percent of boys reached 60 minutes a day. ext 3009 (smartphone step counts, 46 countries; the spread is that of activity within a country): lower activity among women accounted for 43% of that spread. ext 3819 (Shuar): pregnant and breastfeeding women had the lowest energetic output; in households without a pregnant or breastfeeding woman, men and women did not differ."
+      },
       "forced_by_convergence": [
         {
           "code": "C3",
@@ -1398,13 +1404,13 @@
       "name": "Cooperation / Alliance",
       "grade": "strongly_supported",
       "tier": 2,
-      "description": "Reciprocity + norm enforcement + alliance dynamics. Convergence C11 forces M11. Four literatures support it (Fehr & Gächter, Boehm, Tomasello, Trivers). Its grade is strongly supported, one step below the top tier.",
+      "description": "Reciprocity + norm enforcement + alliance dynamics. Convergence C11 forces M11. Four literatures support it (Fehr & Gächter, Boehm, Tomasello, Trivers).",
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
       "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
       "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL; EVIDENCED) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL; EVIDENCED) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
+        "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
         "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
         "trailing": "Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
         "demoted": "",
@@ -1414,8 +1420,8 @@
             "index": 0,
             "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
             "state": "FULL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "resolves",
             "verdict_text": "resolution met"
           },
@@ -1423,8 +1429,8 @@
             "index": 1,
             "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
             "state": "PARTIAL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "partial",
             "verdict_text": "partly resolved"
           },
@@ -1461,9 +1467,7 @@
       "proxy_gradient_derived": true,
       "cascade": {
         "suppresses": [],
-        "suppressed_by": [
-          "M14"
-        ],
+        "suppressed_by": [],
         "interacts_with": []
       },
       "evidence": {
@@ -1475,8 +1479,9 @@
           "Tomasello"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E4155 (US undergraduates, one-shot ultimatum games with photographed partners): women also treated valuable-looking partners better, but gave partner choice less priority than men did. E4315 (three public-goods experiments with UK undergraduates): men contributed more to their group if their group was competing with other groups than if there was no intergroup competition; women's contributions did not differ between conditions in Experiments 2 and 3, and in Experiment 1 fewer women contributed under group competition (53 against 78 percent). E1579 (Ache and Hiwi): there was no sex difference in sharing once package size was controlled."
+      },
       "forced_by_convergence": [
         {
           "code": "C11",
@@ -1496,9 +1501,9 @@
       "mismatch_prediction": "Moral disgust weaponized in politics, purity spirals.",
       "phylogenetic_age": "~25-34Myr+ (contamination avoidance, Old World primates); parasite avoidance across animals has no single age",
       "proxy_gradient": {
-        "raw": "3-rung EVIDENCED pathogen-disgust gradient (FULL→PARTIAL→MIXED): clean food + clean social environment, disgust firing on real pathogen cues (FULL) → vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression (PARTIAL) → behavioral-immune smoke-detector false positives on harmless people (MIXED; floor). Moral-disgust extension, SPECULATIVE/CONTESTED and unordered: purity-coded social aversion and weaponized moral disgust (purity spirals). These are no rungs. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01). The purity-spiral and dehumanization mismatch prediction rests entirely on this extension, the weakest evidence in M12. The same evidence makes the 'moral disgust contained' clause in resolution_conditions CONTESTED.",
-        "preamble": "3-rung EVIDENCED pathogen-disgust gradient (FULL→PARTIAL→MIXED)",
-        "trailing": "Moral-disgust extension, SPECULATIVE/CONTESTED and unordered: purity-coded social aversion and weaponized moral disgust (purity spirals). These are no rungs. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01). The purity-spiral and dehumanization mismatch prediction rests entirely on this extension, the weakest evidence in M12. The same evidence makes the 'moral disgust contained' clause in resolution_conditions CONTESTED.",
+        "raw": "3-rung pathogen-disgust gradient (FULL→PARTIAL→MIXED): clean food + clean social environment, disgust firing on real pathogen cues (FULL) → vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression (PARTIAL) → behavioral-immune smoke-detector false positives on harmless people (MIXED; floor). Tests of the PARTIAL rung split: in 92 pregnant women total and core disgust were highest in the first trimester (ext 4860); a replication in 94 pregnant women did not find disgust highest in the first trimester, and overall and animal-reminder disgust were higher in the second trimester and after birth (ext 4861); in 375 women, within-woman changes in salivary progesterone, estradiol, testosterone and cortisol did not track changes in pathogen disgust (ext 4871); in a preregistered direct replication with 402 participants, recently ill participants showed no greater attentional bias toward disfigured faces (ext 4875); women who reported recent health problems in the first trimester scored higher on core disgust at that time (ext 4862). Moral-disgust extension, SPECULATIVE/CONTESTED and unordered: purity-coded social aversion and weaponized moral disgust (purity spirals). These are no rungs. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01). The purity-spiral and dehumanization mismatch prediction rests entirely on this extension, the weakest evidence in M12. The same evidence makes the 'moral disgust contained' clause in resolution_conditions CONTESTED.",
+        "preamble": "3-rung pathogen-disgust gradient (FULL→PARTIAL→MIXED)",
+        "trailing": "Tests of the PARTIAL rung split: in 92 pregnant women total and core disgust were highest in the first trimester (ext 4860); a replication in 94 pregnant women did not find disgust highest in the first trimester, and overall and animal-reminder disgust were higher in the second trimester and after birth (ext 4861); in 375 women, within-woman changes in salivary progesterone, estradiol, testosterone and cortisol did not track changes in pathogen disgust (ext 4871); in a preregistered direct replication with 402 participants, recently ill participants showed no greater attentional bias toward disfigured faces (ext 4875); women who reported recent health problems in the first trimester scored higher on core disgust at that time (ext 4862). Moral-disgust extension, SPECULATIVE/CONTESTED and unordered: purity-coded social aversion and weaponized moral disgust (purity spirals). These are no rungs. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01). The purity-spiral and dehumanization mismatch prediction rests entirely on this extension, the weakest evidence in M12. The same evidence makes the 'moral disgust contained' clause in resolution_conditions CONTESTED.",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1546,8 +1551,9 @@
           "Schaller"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E64: females consistently score substantially higher on measures of disgust sensitivity than males. E2719: in a survey of over 40,000 people, women reported higher disgust sensitivity than men. E3415: women rated items as more disgusting than men did, and the gap was by far the largest for sexual items; among 160 US undergraduates the sex difference was Cohen's d 0.32 for pathogen, 1.07 for sexual and 0.32 for moral disgust; among 1,118 US adults it was d 0.17 for pathogen and 1.24 for sexual disgust, and the sexes did not differ on moral disgust (d 0.04). E4879: in a 30-nation survey, women scored consistently higher than men across nations (meta-analysed d = 0.41). E3425: women have consistently higher levels of disgust than men. E3778 (Japanese macaques): females scored higher on the hygiene index than males."
+      },
       "forced_by_convergence": [
         {
           "code": "C2",
@@ -1572,9 +1578,9 @@
       "mismatch_prediction": "Ultra-processed foods defeating satiety signals.",
       "phylogenetic_age": "~420Myr+ (appetite brake, jawed vertebrates); human energy budget under ~10Myr",
       "proxy_gradient": {
-        "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL; EVIDENCED) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED; EVIDENCED). Endpoints EVIDENCED, middle three architecture-derived. Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
+        "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED). Middle three architecture-derived. Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
         "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
-        "trailing": "Endpoints EVIDENCED, middle three architecture-derived. Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
+        "trailing": "Middle three architecture-derived. Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1582,8 +1588,8 @@
             "index": 0,
             "label": "effortful, diverse, seasonal whole foods",
             "state": "FULL",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "resolves",
             "verdict_text": "resolution met"
           },
@@ -1618,8 +1624,8 @@
             "index": 4,
             "label": "ultra-processed bliss-point food, an engineered supernormal stimulus",
             "state": "DEFEATED",
-            "tag": "EVIDENCED",
-            "note": "EVIDENCED",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -1641,8 +1647,9 @@
           "Keys"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E874: in hunter-gatherer and other small-scale societies, mean body fat is modest (women 24-28%, men 9-18%). E871: perceived food insecurity went with higher body weight in adult women in high-income countries; the association was weaker or absent in men, children and low- and middle-income countries. E2767: among Hadza foragers, women ranked berries second and meat fourth, while men ranked meat second and berries fourth."
+      },
       "forced_by_convergence": [
         {
           "code": "C3",
@@ -1666,7 +1673,7 @@
       "name": "Reproductive Motivation",
       "grade": "established",
       "tier": 1,
-      "description": "Fisher's three-system model. Independent from M2 pursuit. HPG axis, not just brain circuits.",
+      "description": "Fisher's three-system model. HPG axis, not just brain circuits.",
       "eli5": "Three components - desire, attraction, and pair bonding - that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
       "resolution_conditions": "Sexual fulfillment within pair bond + pair bond stability + reproductive success.",
       "mismatch_prediction": "Pornography, dating apps, delayed reproduction, social media mate-value comparison.",
@@ -1728,13 +1735,9 @@
       },
       "proxy_gradient_derived": true,
       "cascade": {
-        "suppresses": [
-          "M6",
-          "M11"
-        ],
+        "suppresses": [],
         "suppressed_by": [
           "M1",
-          "M8",
           "M9"
         ],
         "interacts_with": [
@@ -1753,11 +1756,8 @@
           "Hrdy"
         ]
       },
-      "sex_differentiated": true,
       "sex_diff": {
-        "raw": "Female: VMH-centered, estrous cycling, resource/commitment signals preferred, pair bond security emphasis. Male: POA-centered, tonic testosterone, fertility/accessibility cues, sexual variety emphasis.",
-        "female": "VMH-centered, estrous cycling, resource/commitment signals preferred, pair bond security emphasis",
-        "male": "POA-centered, tonic testosterone, fertility/accessibility cues, sexual variety emphasis"
+        "raw": "E694: across 37 cultures, women on average placed more weight than men on a partner's earning prospects, and men placed more weight on youth and looks. E695: in 14,399 people in 45 countries, on average men more than women preferred attractive and young partners, and women more than men preferred older partners with good financial prospects. E4153: in their romantic interest in partners they actually met, there was no sex difference in how much attractiveness and earning prospects mattered. E4154: participants were more romantically interested in partners they saw as attractive and as good potential earners, and these associations did not differ by gender. E4346: when the pool included people at the low end of social status and physical attractiveness, men more than women chose on physical attractiveness, and women more than men on social status. E4258: men reported slightly more sexual experience and more permissive attitudes than women on most variables, and most differences were small; reported masturbation, pornography use, casual sex and attitudes toward casual sex were higher in men, with medium effect sizes. E5146: women's preferences for men's competitive and courtship behaviour did not shift between the fertile and the luteal phase. E4166: near ovulation, women reported more sexual interest in, and fantasy about, men other than their primary partner."
       },
       "forced_by_convergence": [
         {
@@ -1772,8 +1772,8 @@
       "name": "Touch",
       "grade": "moderate",
       "tier": 3,
-      "description": "NOT a motivational system. Regulatory input to M3. C-tactile afferents.",
-      "eli5": "C-tactile nerve input to bonding. Regulatory channel, not a motivation.",
+      "description": "Regulatory input to M3. C-tactile afferents.",
+      "eli5": "C-tactile nerve input to bonding. Regulatory channel.",
       "resolution_conditions": "Regular physical contact with trusted others.",
       "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9).",
       "phylogenetic_age": "~60-90Myr (C-tactile touch fibres, placental mammals)",
@@ -1845,8 +1845,9 @@
           "Field"
         ]
       },
-      "sex_differentiated": false,
-      "sex_diff": null,
+      "sex_diff": {
+        "raw": "E2781: in a survey of 509 adults, men reported more affection deprivation (wanting more affectionate touch and other tactile affection than one receives) than women."
+      },
       "forced_by_convergence": [
         {
           "code": "C4",
@@ -2020,12 +2021,12 @@
         "eea_value": {
           "unit": "individuals",
           "layer_sizes": {
-            "affinity_band": 50,
-            "active_network": 150,
-            "support_clique": 5,
-            "sympathy_group": 15
+            "affinity_band": "50, the typical hunter-gatherer overnight camp (ext 404); 35, the band (ext 490)",
+            "active_network": "150 (ext 404, 490)",
+            "support_clique": "5 (ext 404, 490)",
+            "sympathy_group": "15 (ext 404); 12 (ext 490)"
           },
-          "scaling_factor": 3,
+          "scaling_factor": "approximately three (ext 404); about three to four in forager population structure, a constant ratio close to 4 (ext 685)",
           "outer_ceiling_note": "low hundreds; ~150 is an approximate central tendency, not a constant; the neocortex-ratio derivation is contested (Lindenfors 2021)",
           "outer_ceiling_approx": 150,
           "tribal_clan_grouping": "clusters in the low hundreds (ethnographic)"
@@ -2250,19 +2251,17 @@
         "code": "EEA-SOC-03",
         "domain": "social_structure",
         "domain_display": "Social structure",
-        "name": "Band / camp size (a few dozen adults; ~25-50)",
-        "eea_baseline": "Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - roughly 25 to 50, with central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.",
+        "name": "Band / camp size (a few dozen adults)",
+        "eea_baseline": "Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.",
         "eea_value": {
           "units": "co-resident adults in a single band / overnight camp",
           "source_status": "Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). The mean of 28.2 adults across 32 societies is attributed to Hill et al. 2011 (work 172); Cor's extraction from that work (ext 683) covers relatedness and does not carry the figure.",
-          "adult_range_low": 25,
-          "adult_range_high": 50,
           "dunbar_band_layer": 35,
           "dunbar_overnight_camp_layer": 50,
           "reported_mean_adults_unverified": 28.2
         },
-        "modern_default": "Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the ~25-50 face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.",
-        "gap_statement": "The ancestral social field was a small set of a few dozen (~25-50) personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.",
+        "modern_default": "Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.",
+        "gap_statement": "The ancestral social field was a small set of a few dozen personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
@@ -2340,13 +2339,9 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Within-camp kin fraction (low; campmates mostly unrelated)",
-        "eea_baseline": "A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~25-50 people, ~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.",
+        "eea_baseline": "A person's residential camp/band was NOT a clan of close relatives. Across forager societies the typical residential group (~28 adults) was composed mostly of individuals to whom the focal person was not closely related: primary/first-order kin (parents, siblings, offspring) made up only a small minority of co-residents (under 10% of a residential camp; Apicella et al. 2012, ext 601), and most campmates were unrelated or only distantly related. Because residence was bilocal/sex-egalitarian (couples lived with both the husband's and the wife's kin over time) and camps reshuffled frequently, genetic relatedness within a camp was low. The practical consequence: the durable social glue holding a camp together was NOT shared genes. The bonds that mattered, and that were conserved across the constant churn, were reciprocal, trust-based, reputation-tracked relationships between individuals who chose each other, not kin ties imposed by birth.",
         "eea_value": {
-          "source_caveat": "Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172, background tier (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176, background tier (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored. Camp size range is illustrative.",
-          "camp_size_total_range": [
-            25,
-            50
-          ],
+          "source_caveat": "Low within-camp relatedness: Hill et al. 2011 (PMID 21393537, 32-society co-residence census) is in Cor as work 172 (ext 683); Dyble et al. 2015 (PMID 25977551) is in Cor as work 176 (ext 687). The under-10 percent primary-kin figure is verbatim in Apicella et al. 2012 (work 115, core, ext 601) and Smith et al. 2018 gives primary kin per camp (work 116, core, ext 605); both are Hadza, so the figure is Hadza-anchored.",
           "camp_size_adults_approx": 28,
           "relatedness_qualitative": "low; most campmates unrelated or distantly related",
           "primary_kin_fraction_of_camp": "<~0.10"
@@ -3256,7 +3251,7 @@
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Background-tier evidence cited (abstract or book only): ext 1045.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Evidence cited (abstract or book only): ext 1045.",
         "mechanism_codes": [
           "M3",
           "M5"
@@ -3779,7 +3774,7 @@
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Background-tier evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Hadza marriages are typically not arranged, by Marlowe's ethnography as cited by Sorokowski et al. 2017 (ext 1735). No source read codes a part for the camp beyond kin. On the modern side, US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Neither study compares couples whose families knew the partner beforehand with couples whose families did not, which is what the gap statement describes. Apostolou 2007 is still read in abstract only (ext 690, 1736).",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Every forager number comes from one coding of 190 societies (Apostolou 2007, ext 690, full text not read); Walker et al. 2011 reuses that coding. The modern side is US only, two nationally representative surveys from one research group (Rosenfeld et al. 2019). Evidence cited (abstract or book only): ext 690, 692. Added 19 Nov 2026. Among the Tsimane of Bolivia a father helped get the spouse in 36% of 622 marriages and the preferred partner is a cross-cousin (ext 1732). In 15 of 16 historical farming states parents chose the spouse (Apostolou 2012, ext 1737). Hadza marriages are typically not arranged, by Marlowe's ethnography as cited by Sorokowski et al. 2017 (ext 1735). No source read codes a part for the camp beyond kin. On the modern side, US couples who met online broke up no more often than couples who met offline (Rosenfeld 2017, ext 1740), and marriages begun online were slightly less likely to end in a sample paid for by a dating company (ext 1741, abstract only). Neither study compares couples whose families knew the partner beforehand with couples whose families did not, which is what the gap statement describes. Apostolou 2007 is still read in abstract only (ext 690, 1736).",
         "mechanism_codes": [
           "M11",
           "M14"
@@ -3898,7 +3893,7 @@
         "resolution_unit": null,
         "evidence_grade": "thin",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Ancestral value: one Aka ethnography (Hewlett 2005, ext 841) and one model-based estimate in two populations (Hill et al. 2014). Modern side: one site, four US cities, one month (Bruch and Newman 2018). No peer-reviewed data on how unequal likes or matches are on swipe apps was found. Background-tier evidence cited (abstract or book only): ext 841. Added 19 Nov 2026. That a partner was known to the group beforehand is inferred from the size of the pool; no study records it, so that step is argued, not yet tested. Distance between spouses grows as population thins, among foragers and among farmers (MacDonald and Hewlett 1999, ext 1744, abstract only). Among the Tsimane the preferred spouse is known kin (ext 1732).",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested once. Ancestral value: one Aka ethnography (Hewlett 2005, ext 841) and one model-based estimate in two populations (Hill et al. 2014). Modern side: one site, four US cities, one month (Bruch and Newman 2018). No peer-reviewed data on how unequal likes or matches are on swipe apps was found. Evidence cited (abstract or book only): ext 841. Added 19 Nov 2026. That a partner was known to the group beforehand is inferred from the size of the pool; no study records it, so that step is argued, not yet tested. Distance between spouses grows as population thins, among foragers and among farmers (MacDonald and Hewlett 1999, ext 1744, abstract only). Among the Tsimane the preferred spouse is known kin (ext 1732).",
         "mechanism_codes": [
           "M14",
           "M5"
@@ -3983,7 +3978,7 @@
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'mostly monogamous with some polygyny in foragers' (Apostolou coding via Walker et al. 2011; Pume demography, Schacht and Kramer 2019; African forager ethnographies via Henrich et al. 2012; Marlowe 2003, ext 767). Any single number is one study. Keep 'permitted' (85% of societies) apart from 'practised' (a minority of forager marriages). Background-tier evidence cited (abstract or book only): ext 767, 768. Divorce and number of mates, added 19 Nov 2026: Hewlett et al. 2023 (ext 1728, 1729) and Winking and Gurven 2011 (ext 1730) compile the original demographic studies; main weakness: each team counted divorce differently.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for 'mostly monogamous with some polygyny in foragers' (Apostolou coding via Walker et al. 2011; Pume demography, Schacht and Kramer 2019; African forager ethnographies via Henrich et al. 2012; Marlowe 2003, ext 767). Any single number is one study. Keep 'permitted' (85% of societies) apart from 'practised' (a minority of forager marriages). Evidence cited (abstract or book only): ext 767, 768. Divorce and number of mates, added 19 Nov 2026: Hewlett et al. 2023 (ext 1728, 1729) and Winking and Gurven 2011 (ext 1730) compile the original demographic studies; main weakness: each team counted divorce differently.",
         "mechanism_codes": [
           "M14"
         ],
@@ -4073,8 +4068,8 @@
         "eea_value": {
           "age_last_birth": 39.0,
           "menarche_range": "12.6 to 18.4 (22 societies)",
-          "forager_age_first_birth": "18.8 to 20.5 (mean 19.7, Ache/Hiwi/!Kung)",
-          "menarche_to_first_birth_years": 4
+          "forager_age_first_birth": "18.8 to 20.5 in four foraging groups (Hadza 18.77, !Kung 19.2, Ache 19.5, Hiwi 20.5; ext 844); mean 19.7 for Ache, Hiwi and !Kung (ext 1000); 20.2 among the Agta (ext 845); 15.3 to 15.5 among the Pume (ext 3816)",
+          "menarche_to_first_birth_years": "4 on average across 22 natural-fertility societies (ext 1006); among the Pume, menarche at 12.9 and first birth at 15.3 to 15.5 (ext 3816)"
         },
         "modern_default": "US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.",
         "gap_statement": "The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.",
@@ -4169,7 +4164,7 @@
         "name": "Number of children and spacing",
         "eea_baseline": "Forager women who lived through their reproductive years had about six births: Ache 8.2, Agta 6.9, Hadza 6.2, Hiwi 5.5, Ju/'hoansi 4.3; the mean across 75 natural-fertility societies was 5.98. Births were spaced about 3 to 4 years apart (hunter-gatherer average 3.7 years). About a third of forager women survived to complete their fertility. With pregnancy and long breastfeeding, menstrual cycles were few: among the Dogon, natural-fertility farmers, a woman had about 100 menstruations in her life.",
         "eea_value": {
-          "forager_tfr": "4.3 to 8.2 (mean about 6)",
+          "forager_tfr": "4.3 to 8.2 in five forager populations with full life tables (Ache 8.2, Agta 6.9, Hadza 6.2, Hiwi 5.5, Ju/'hoansi 4.3; mean 6.2); mean 5.98 across 75 small-scale natural-fertility societies, where 2 of the 11 hunter-gatherer groups were below 4 (Batak, and Efe at 2.6) (ext 1001)",
           "dogon_lifetime_menses": 100,
           "interbirth_interval_years": 3.7
         },
@@ -4522,7 +4517,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "replicated",
             "author_quote": "Thus, in rats and humans there is no doubt that testicular hormones, either directly or via aromatization, are in charge of the control of the long-term activity of the sexual central motive state.",
-            "content": "Hormones set the gain, not the pressure: in rats and humans, testicular hormones control the long-term activity level of the sexual central motive state (in men via androgen receptors directly; in rats partly via aromatization to estrogens), while short-term variation in sexual m"
+            "content": "In rats and humans, testicular hormones control the long-term activity level of the sexual central motive state (in men via androgen receptors directly; in rats partly via aromatization to estrogens), while short-term variation in sexual motivation is driven by incentive stimuli,"
           },
           {
             "extraction_id": 1025,
@@ -4553,7 +4548,7 @@
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. In two prospective studies, fully breastfeeding women without periods who used no contraception had pregnancy rates of about 1 percent in the first six months after birth (Van der Wijden and Manion 2015). Background-tier evidence cited (abstract or book only): ext 875.",
+        "confidence_note": "Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. In two prospective studies, fully breastfeeding women without periods who used no contraception had pregnancy rates of about 1 percent in the first six months after birth (Van der Wijden and Manion 2015). Evidence cited (abstract or book only): ext 875.",
         "mechanism_codes": [
           "M14"
         ],
@@ -5183,7 +5178,7 @@
         "domain": "touch_contact",
         "domain_display": "Touch & contact",
         "name": "Affective (C-tactile) contact frequency and skin-to-skin time",
-        "eea_baseline": "Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day and night, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the phylogenetically first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.",
+        "eea_baseline": "Ancestral infants and children lived in near-continuous bodily contact: carried on the body, fed at short intervals, and held skin-to-skin for much of the day, with frequent affectionate, moderate-pressure touch from the mother and a wider circle of caregivers. Adults likewise lived in high-touch social fields where casual physical contact was a routine, primary channel of social interaction. Touch is the first and largest sense organ; the fetus is already continuously stimulated in utero. Skin-to-skin/carried contact was the species-typical default, not an intervention.",
         "eea_value": {
           "note": "No defensible single ancestral 'touches-per-hour' number; cross-cultural touch frequency ranges enormously (0-180+ contacts/hour across modern societies per Jourard), so the EEA value is a high-contact regime with a floor, not a point estimate",
           "qualitative": true,
@@ -5312,7 +5307,7 @@
         "domain": "touch_contact",
         "domain_display": "Touch & contact",
         "name": "Co-sleeping / nighttime body contact",
-        "eea_baseline": "Ancestral infants and young children slept in body contact with the mother and others rather than alone, extending the daytime carried-contact regime through the night. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels (and likely circadian entrainment cues from the caregiver) operated continuously across the 24-hour cycle, not just during waking.",
+        "eea_baseline": "In every one of the 173 societies coded in the Standard Cross-Cultural Sample, the mother slept in the same room as her infant, and in at least 76 of them in the same bed (ext 705); the sample spans foragers, farmers, herders and others, not foragers alone. Nighttime proximity meant the touch, warmth, and physiological co-regulation channels operated across the 24-hour cycle, not just during waking.",
         "eea_value": null,
         "modern_default": "WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.",
         "gap_statement": "Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).",
@@ -5432,10 +5427,10 @@
         "domain": "circadian_sensory",
         "domain_display": "Circadian & sensory",
         "name": "Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal",
-        "eea_baseline": "Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset clustering around 8-10 p.m., aligned with dusk-driven melatonin release. The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.",
+        "eea_baseline": "Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.",
         "eea_value": {
           "biological_night": "genuine darkness",
-          "typical_sleep_onset": "~20:00-22:00 (dusk-aligned)",
+          "typical_sleep_onset": "between 8-10 p.m., two to three hours after sunset (Hadza, San; ext 77); on average 3.3 hours after sunset; no group (Hadza, San, Tsimane) went to sleep near sunset (ext 2224)",
           "evening_illumination": "firelight (low lux, long-wavelength ~600nm+)",
           "reference_populations": [
             "Hadza",
@@ -6008,7 +6003,7 @@
           "seasonality": "high (composition tracked season/geography)",
           "processed_food": "near-zero industrial processing",
           "micronutrient_density": "high",
-          "protein_pct_calories_approx": 34,
+          "protein_pct_calories_approx": "19 to 35% of energy (Cordain et al. 2000, ext 729, a model from coded subsistence shares); 34% in the Eaton and Konner 1985 model (ext 39)",
           "modern_protein_pct_calories_approx": 12
         },
         "modern_default": "A narrow, year-round-uniform diet built largely from a handful of refined commodity crops (wheat, corn, soy, sugar, refined oils) recombined into processed and ultra-processed products. Seasonality is erased by global supply chains; micronutrient density falls while energy density rises; near-total replacement of whole foods with industrially formulated ones.",
@@ -6211,10 +6206,10 @@
         "code": "EEA-DIET-04",
         "domain": "diet_metabolic",
         "domain_display": "Diet & metabolic",
-        "name": "Energy regulation is intake-bounded (total expenditure is homeostatically buffered, not behavior-throttled)",
+        "name": "Energy regulation is intake-bounded",
         "eea_baseline": "Total daily energy expenditure (TEE) is an evolved, species-typical trait that the body holds within a narrow range, compensating metabolically rather than expending proportionally more as physical activity rises. Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite far greater physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.",
         "eea_value": {
-          "finding": "TEE constant across activity levels after controlling for body size",
+          "finding": "TEE increases with physical activity at low activity levels but plateaus at higher levels, after adjusting for body size and composition (ext 283)",
           "implication": "Obesity difference between Hadza and Westerners lies in intake/composition, not in expenditure.",
           "populations": [
             "Ghana",
@@ -6227,7 +6222,7 @@
           "kcal_per_100CPM_above_moderate": "<50",
           "constrained_TEE_change_point_CPM_per_day": 230
         },
-        "modern_default": "The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Because expenditure is homeostatically buffered, this model fails: cranking up activity yields little net caloric deficit, while the intake side - driven by hyperpalatable, energy-dense, effortless food - is what has changed and what dysregulates energy balance.",
+        "modern_default": "The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Total expenditure rises with activity at low activity levels and plateaus at higher levels (ext 283): above moderate activity, each added ~100 counts per minute per day went with less than 50 kcal/day more expenditure. Above moderate activity this model fails: cranking up activity adds little to expenditure, while the intake side, driven by hyperpalatable, energy-dense, effortless food, is what has changed and what dysregulates energy balance.",
         "gap_statement": "Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped - so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side.",
         "resolution_unit": "The binding constraint on energy balance: ancestrally INTAKE (food availability/composition), not expenditure. The mismatch is unbounded intake, not insufficient calorie-burning; exercise is a weak proxy for the metabolic problem.",
         "evidence_grade": "replicated",

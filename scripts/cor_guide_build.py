@@ -268,7 +268,6 @@ for tk, ttitle in TIERS:
           <p class="eli5">{e(m.get('eli5'))}</p>
           {f'<div class="field"><span class="flab">What it is</span>{paras(m.get("description"))}</div>' if m.get('description') else ''}
           <div class="grid2">
-            {f'<div class="field"><span class="flab">Evolutionary basis</span><p>{e(m.get("p1_basis"))}</p></div>' if m.get('p1_basis') else ''}
             {f'<div class="field"><span class="flab">Resolves when</span><p>{e(m.get("resolution_conditions"))}</p></div>' if m.get('resolution_conditions') else ''}
           </div>
           {f'<div class="field danger"><span class="flab">Modern mismatch</span><p>{e(m.get("mismatch_prediction"))}</p></div>' if m.get('mismatch_prediction') else ''}
