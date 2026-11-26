@@ -3,7 +3,7 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-25 07:12 UTC, from the live Cor atlas snapshot built 2026-11-25 07:12 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 03:04 UTC, from the live Cor atlas snapshot built 2026-11-26 03:04 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -51,7 +51,7 @@ Five levels along a resolvability/actionability axis; a true DA4 proxy appears o
 
 ### Cascade topology
 
-Suppresses M2, M4, M14, M10, and M6. Suppressed by M3. No interactions recorded.
+Suppresses M2, M4, M14, M10, and M6. Suppressed by M3, M6, and R1. Interacts with M8.
 
 ---
 
@@ -79,7 +79,7 @@ Note: the most contestable ordering is MIXED-app vs MINIMAL-scroll.
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1, M3, M7, M8, and M13. Interacts with M4 and M14.
+Suppresses nothing recorded. Suppressed by M1, M13, M3, M7, and M8. Interacts with M4, M14, and M3.
 
 ---
 
@@ -109,7 +109,7 @@ Note (off-gradient): isolated/solo living is empty-shelf deprivation, not a rung
 
 ### Cascade topology
 
-Suppresses M1, M2, M4, and M10. Suppressed by nothing recorded. Interacts with M14.
+Suppresses M1, M2, M4, and M10. Suppressed by M13. Interacts with M14 and M2.
 
 ---
 
@@ -137,7 +137,7 @@ Note: the most contestable ordering is screen-mediated-real-peers (MIXED) ranked
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1 and M3. Interacts with M2.
+Suppresses nothing recorded. Suppressed by M1, M13, and M3. Interacts with M2.
 
 ---
 
@@ -165,7 +165,7 @@ Note: the most contestable point is the floor ordering of purchased-signals (ZER
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M14.
+Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M14 and M8.
 
 ---
 
@@ -193,7 +193,7 @@ Note: this is dual-axis. PARTIAL to MINIMAL withdraw real contingency; ZERO subs
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1. No interactions recorded.
+Suppresses M1. Suppressed by M1. No interactions recorded.
 
 ---
 
@@ -221,7 +221,7 @@ Note: the most contestable points are the social-jetlag (PARTIAL) vs shift-work 
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
+Suppresses M2. Suppressed by nothing recorded. Interacts with M10, M8, and M13.
 
 ---
 
@@ -229,7 +229,7 @@ Suppresses nothing recorded. Suppressed by nothing recorded. No interactions rec
 
 **Grade:** established. **Tier:** 1. **Phylogenetic age:** ~550-830Myr (innate immunity, animals; contested); adaptive immunity ~420-470Myr (jawed vertebrates). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
 
-The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
+The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior. **Resolution conditions:** pathogen cleared, inflammation resolved.
 
 C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above. C7 (Adverse Experience Cascading Dose-Response), established independently by Felitti, McEwen, and Panksepp. C9 (Allostatic Load Accumulation), established independently by McEwen, Felitti, and Sapolsky. Key researchers: Dantzer, Danese, Irwin.
 
@@ -249,7 +249,7 @@ Note: the most contestable point is lifestyle-drivers (PARTIAL) ranked above soc
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M8 nonetheless appears as a suppressor of M2 elsewhere in the atlas.)
+Suppresses M2 and M13. Suppressed by M10. Interacts with M12, M1, M5, and M7.
 
 ---
 
@@ -280,7 +280,7 @@ This mechanism has TWO SEPARATE scales (axes), not one ladder. They are presente
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M9 appears as a suppressor of M14 elsewhere in the atlas.)
+Suppresses M14. Suppressed by nothing recorded. No interactions recorded.
 
 ---
 
@@ -308,7 +308,7 @@ Note: the most contestable point is the gym (MINIMAL) ranked below incidental al
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1 and M3. No interactions recorded.
+Suppresses M8. Suppressed by M1 and M3. Interacts with M7 and M13.
 
 ---
 
@@ -338,7 +338,7 @@ Note: the most contestable point is the PARTIAL/MIXED boundary - where proxy fai
 
 ### Cascade topology
 
-Suppresses nothing recorded. No interactions recorded.
+Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
 
 ---
 
@@ -364,7 +364,7 @@ A 3-rung pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
+Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M8.
 
 ---
 
@@ -386,13 +386,13 @@ Five levels. This is a Kind B gradient: the satiety / intake-termination signal 
 - **MINIMAL** (fires, no resolution): energy-dense palatable food optimized for crave
 - **DEFEATED** (fires, no resolution): ultra-processed bliss-point food, an engineered supernormal stimulus
 
-Note: endpoints are EVIDENCED, the middle three architecture-derived. The most contestable point is whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.
+Note: the middle three architecture-derived. The most contestable point is whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.
 
 **Mismatch prediction:** ultra-processed foods defeating satiety signals.
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M13 appears as a suppressor of M2 elsewhere in the atlas.)
+Suppresses M2, M3, M4, and M14. Suppressed by M8. Interacts with M10 and M7.
 
 ---
 
@@ -418,11 +418,7 @@ Five levels, top (need met) to bottom (cue fires, nothing supplied).
 
 ### Cascade topology
 
-Suppressed by M1 and M9. Interacts with M3, M5, and M2.
-
-### Sex differentiation
-
-The **female-typical** parameterization is VMH-centered, with estrous cycling, preference for resource/commitment signals, and emphasis on pair-bond security. The **male-typical** parameterization is POA-centered, with tonic testosterone, attention to fertility/accessibility cues, and emphasis on sexual variety.
+Suppresses nothing recorded. Suppressed by M1, M13, and M9. Interacts with M3, M5, and M2.
 
 ---
 
@@ -448,7 +444,7 @@ Five levels, flagged CONTESTED - possibly Kind C, and NOT a flagship. The cue-fu
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
+Suppresses M1. Suppressed by nothing recorded. No interactions recorded.
 
 ## The Gap - the matched environment vs the modern default
 
@@ -469,7 +465,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Social network layers (~5/15/50/150)
 `EEA-SOC-01 · Social structure` - **tested many times**
 
-**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
+**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).
 
 **EEA value** (illustrative, not constants):
 
@@ -486,14 +482,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring
 
-**Evidence (12 links):**
+**Evidence (18 links):**
 
 - ext#404 · tested many times · primary: "The innermost group consists of about three to five people."
 - ext#490 · tested many times · primary: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#25 · contested · primary: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
 - ext#483 · seen in animals · supporting: "Group size is found to be a function of relative neocortical volume, but the ecological variables are not. This is interpreted as evidence in favour of the social intellect theory and against the ecological theories."
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
-- (+7 more linked extraction(s))
+- (+13 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of 34.9 million users (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The 150 figure fails re-analysis of the primate regression it came from (Lindenfors, Wartel and Lind 2021, ext 619), so the layer sizes and the 150 ceiling are approximate. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.*
 
@@ -526,35 +522,35 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested once. One study estimates a lifetime pool of over 1,000 people from interaction rates and life tables in Ache and Hadza (Hill et al. 2014); model-based, two populations.*
 
-#### Band / camp size (a few dozen adults)
+#### Band / camp size (a few dozen people)
 `EEA-SOC-03 · Social structure` - **tested many times**
 
-**EEA baseline.** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
+**EEA baseline.** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen people - a median residential group of 27 people across 263 forager societies (ext 754), and about 30 individuals in Hadza camps (ext 603) - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
 
 **EEA value** (illustrative, not constants):
 
-  - units: co-resident adults in a single band / overnight camp
-  - source_status: Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). The mean of 28.2 adults across 32 societies is attributed to Hill et al. 2011 (work 172); Cor's extraction from that work (ext 683) covers relatedness and does not carry the figure.
+  - units: co-resident people in a single band / overnight camp
+  - source_status: Band about 35 (Dunbar 1998, ext 490) and overnight camp about 50 (Dunbar 2010, ext 404). Median residential group of 27 people across 263 forager societies (Marlowe 2005, ext 754). Mean experienced band size of 28.2 adults across 32 present-day foraging societies (Hill et al. 2011, ext 2116).
   - dunbar_band_layer: 35
   - dunbar_overnight_camp_layer: 50
-  - reported_mean_adults_unverified: 28.2
+  - mean_experienced_band_size_adults: 28.2
 
-**Modern default.** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
+**Modern default.** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen people has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
 
-**The gap.** The ancestral social field was a small set of a few dozen personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
+**The gap.** The ancestral social field was a small set of a few dozen personally-known people sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen people) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 
-**Evidence (8 links):**
+**Evidence (10 links):**
 
 - ext#490 · tested many times · supporting: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#404 · tested many times · supporting: "The innermost group consists of about three to five people."
 - ext#603 · tested once · primary: "The Hadza live in temporary camps that average about 30 individuals."
 - ext#683 · tested many times · supporting: In 32 present-day forager societies, most members of a residential band were not close genetic kin of one another.
 - ext#684 · tested many times · supporting: "We suggest that while residential and foraging groups are often small, there is little evidence that these groups are drawn from small communities nested within small-scale societies. Most mobile hunter-gatherers live in groups dominated by links between non-relatives, where residential group membership is fluid and supports large-scale social networks of interaction"
-- (+3 more linked extraction(s))
+- (+5 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people of all ages) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide (13 to 250 people across Marlowe's 263 societies, ext 754); Singh and Glowacki 2022 (ext 756) argue that larger, settled non-agricultural groups also existed in the Late Pleistocene.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Residential group size is measured across many forager societies: Marlowe 2005 (263 societies, median 27 people) and Hill et al. 2011 (32 societies, mean 28.2 adults). The range is wide (13 to 250 people across Marlowe's 263 societies, ext 754); Singh and Glowacki 2022 (ext 756) argue that larger, settled non-agricultural groups also existed in the Late Pleistocene.*
 
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
@@ -574,12 +570,13 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 
-**Evidence (4 links):**
+**Evidence (5 links):**
 
 - ext#601 · tested many times · supporting: "first-order relatives make up less than 10% of residential camps"
 - ext#605 · tested once · primary: "Relatedness within camps is low with primary kin comprising, on average, 1.43 and 1.93 of men and women's campmates respectively."
 - ext#683 · tested many times · supporting: In 32 present-day forager societies, most members of a residential band were not close genetic kin of one another.
 - ext#687 · tested once · supporting: "We present an agent-based model suggesting that, even if all individuals in a community seek to live with as many kin as possible, within-camp relatedness is reduced if men and women have equal influence in selecting camp members. Our model closely approximates observed patterns of co-residence among Agta and Mbendjele BaYaka hunter-gatherers."
+- ext#2116 · tested many times · supporting: "we analyzed co-residence patterns among 32 present-day foraging societies (total n = 5067 individuals, mean experienced band size = 28.2 adults)."
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Low relatedness within camps comes from a 32-society co-residence census (Hill et al. 2011) and is repeated by separate teams in Hadza, Agta and BaYaka (Apicella et al. 2012; Dyble et al. 2015); the under-10-percent primary-kin figure is Hadza-anchored.*
 
@@ -616,7 +613,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity; kinship not main glue)
 `EEA-SOC-06 · Social structure` - **tested once**
 
-**EEA baseline.** Who you lived alongside was not assigned by birth or fixed institution but produced by an ongoing, choice-driven assortment process operating across frequent residential reshuffling. In Hadza camps this "algorithm" had recurring structure: (1) homophily - co-residence was more likely between people similar in age, height, weight, body fat, and handgrip strength; (2) strong reciprocity - naming was near-symmetric, with an ego roughly 37-51x (point ~44x) more likely to name an alter who named them; (3) cooperator assortment - cooperators clustered with cooperators, an association extending out to two degrees of separation in gift networks; plus transitivity and geographic decay. Crucially, kinship was NOT the main glue: people actively sorted on disposition and reciprocity, not primarily on relatedness. The output was a camp continually re-composed of preferred, reciprocating, similarly-cooperative partners.
+**EEA baseline.** Who you lived alongside was not assigned by birth or fixed institution but produced by an ongoing, choice-driven assortment process operating across frequent residential reshuffling. In Hadza camps this "algorithm" had recurring structure: (1) homophily - in both the campmate and gift networks, social ties were more likely between people similar in age, height, weight, body fat, and handgrip strength; (2) strong reciprocity - naming was near-symmetric, with an ego roughly 37-51x (point ~44x) more likely to name an alter who named them; (3) cooperator assortment - cooperators clustered with cooperators, an association extending out to two degrees of separation in gift networks; plus transitivity and geographic decay. Crucially, kinship was NOT the main glue: people actively sorted on disposition and reciprocity, not primarily on relatedness. The output was a camp continually re-composed of preferred, reciprocating, similarly-cooperative partners.
 
 **EEA value** (illustrative, not constants):
 
@@ -640,21 +637,19 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 *Confidence note: Shuffle algorithm now grounded in Apicella 2012 full text: trait homophily, strong reciprocity (44.2x campmate / 14.3x gift), and social distance as important as genetic relatedness (kinship not the sole glue). Single Hadza population; kept thin.*
 
-#### Relationship longevity & maintenance (decades-long durable dyads; ~27-yr co-survival ceiling; maintenance institutions like hxaro conserve bonds across distance)
+#### Relationship longevity & maintenance (decades-long durable dyads; maintenance institutions like hxaro conserve bonds across distance)
 `EEA-SOC-07 · Social structure` - **tested once**
 
-**EEA baseline.** In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with most campmates changing from one survey wave to the next), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Two adults who reached adulthood together could expect on the order of ~27 years of overlapping co-survival, and reciprocal alliances ran over that whole horizon. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.
+**EEA baseline.** In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with most campmates changing from one survey wave to the next), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.
 
 **EEA value** (illustrative, not constants):
 
-  - _note: The 200 km hxaro range and about 15 partners per adult come from Wiessner & Huang 2022 (ext 752; Ju/'hoansi, 1974). The ~27-year co-survival figure, the ~18% co-resident figure, and childhood onset and inheritance are attributed to Wiessner 2002, which is not in Cor and has not been read. For turnover: no number is used; see campmate_turnover_status. Camps shift every ~4-8 weeks (Smith et al. 2018, core work 116).
+  - _note: The 200 km hxaro range and about 15 partners per adult come from Wiessner & Huang 2022 (ext 752; Ju/'hoansi, 1974). Childhood onset and inheritance are attributed to Wiessner 2002, which is not in Cor and has not been read. For turnover: no number is used; see campmate_turnover_status. Camps shift every ~4-8 weeks (Smith et al. 2018, core work 116).
   - campmate_turnover_status: UNVERIFIED: see EEA-SOC-05. Smith et al. 2018 (Hadza; in Cor as core work 116) preprint v1 reports 12.1% repeated campmates and v2 reports 21.9%, under different definitions; survey waves are 1 to 3 years apart, so neither is an annual rate; the published figure was not read.
   - camp_reshuffle_interval_weeks: [4, 8]
   - hxaro_partner_max_distance_km: 200
-  - co_survival_ceiling_years_approx: 27
-  - hxaro_partners_in_own_camp_pct_approx: 18
 
-**Modern default.** The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Empirically, friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and online media at best slows that decay rather than preventing it. Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.
+**Modern default.** The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Dunbar proposes that friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and that online media at best slows that decay rather than preventing it (ext 509). Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.
 
 **The gap.** The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, long-term delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.
 
@@ -662,16 +657,16 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 
-**Evidence (6 links):**
+**Evidence (7 links):**
 
 - ext#509 · argued, not yet tested · primary: "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances."
 - ext#510 · tested once · supporting: "social media may function mainly to prevent friendships decaying over time in the absence of opportunities for face-to-face contact."
 - ext#503 · argued, not yet tested · supporting: "At each layer, the benefits are asymptotic but the costs of maintaining a relationship at that level (most obviously, the time that has to be invested in servicing it) are roughly linear with the number of relationships."
 - ext#505 · argued, not yet tested · supporting: "psychologically, these trade-offs are related to the level of trust in a relationship, and that this is itself a function of the time invested in the relationship."
 - ext#479 · argued, not yet tested · supporting: Trivers identifies conditions maximizing the chance reciprocal altruism will be selected for: (1) many altruistic situations in the lifetime of the altruists, (2) a given altruist repeatedly interacts with the same small set of individuals, and (3) pairs of altruists are exposed
-- (+1 more linked extraction(s))
+- (+2 more linked extraction(s))
 
-*Confidence note: Grade: tested once. Hxaro range and partner count: Wiessner & Huang 2022 (ext 752), Ju/'hoansi only. Co-survival and co-resident figures: Wiessner 2002, not in Cor and unread. Camps move every 4 to 8 weeks (Smith et al. 2018, ext 604, Hadza), and no turnover number is used (see EEA-SOC-05). Modern side: Dunbar proposes that friendships decay without face-to-face meetings and that social media only slow the decay (Dunbar 2016, ext 509, 510; cross-sectional data). In the model of Sutcliffe et al. 2012, the time cost of keeping relationships grows in line with their number, and trust grows with time invested (ext 503, 505; theoretical). Reciprocity is favoured by a long lifetime, low dispersal and repeated interaction with the same few individuals (Trivers 1971, ext 479).*
+*Confidence note: Grade: tested once. Hxaro range and partner count: Wiessner & Huang 2022 (ext 752), Ju/'hoansi only. Camps move every 4 to 8 weeks (Smith et al. 2018, ext 604, Hadza), and no turnover number is used (see EEA-SOC-05). Modern side: Dunbar proposes that friendships decay without face-to-face meetings and that social media only slow the decay (Dunbar 2016, ext 509, 510; cross-sectional data). In the model of Sutcliffe et al. 2012, the time cost of keeping relationships grows in line with their number, and trust grows with time invested (ext 503, 505; theoretical). Reciprocity is favoured by a long lifetime, low dispersal and repeated interaction with the same few individuals (Trivers 1971, ext 479).*
 
 #### Novel-stranger frequency (rare, salient, often a threat)
 `EEA-SOC-08 · Social structure` - **argued, not yet tested**
@@ -684,7 +679,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.
 
-**Serves mechanisms:** M1 - Threat Management, M3 - Social Bonding
+**Serves mechanisms:** M1 - Threat Management, M11 - Cooperation / Alliance, M3 - Social Bonding
 
 **Evidence (8 links):**
 
@@ -716,14 +711,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
 
-**Evidence (10 links):**
+**Evidence (11 links):**
 
 - ext#373 · tested many times · primary: "In effect, the band keeps a dossier on every individual, noting positive and negative points. Group members exercise the right to take action if a deviant begins to intimidate other group members individually - or threatens the social equilibrium of the group or its very ability to function."
 - ext#375 · argued, not yet tested · primary: "those who have things of value but do not give are subject to social control through gossip, ridicule or ostracism."
 - ext#239 · argued, not yet tested · supporting: "In the hypothesis of Tomasello et al. (2012), obligate collaborative foraging became an evolutionarily stable strategy for early humans because of two interrelated processes: interdependence and social selection. The first and most basic point is that humans began a lifestyle in which individuals could not procure their daily sustenance alone but instead were interdependent with others in their foraging activities - which meant that individuals needed to develop the skills and motivations to forage collaboratively or else starve. There was thus direct and immediate selective pressure for skills and motivations for joint collaborative activity (joint intentionality). The second point is that as a natural outcome of this interdependence, individuals began to make evaluative judgments about others as potential collaborative partners: they began to be socially selective, since choosing a poor partner meant less food. Cheaters and laggards were thus selected against, and bullies lost their power to bully."
 - ext#508 · tested once · primary: "On average, respondents in Sample 1 considered that only 27.6% of their Facebook friends could be considered 'genuine' (i.e. close) friends, with a strong modal value between 0 and 10%."
 - ext#509 · argued, not yet tested · primary: "it may be that face-to-face meetings are required from time to time to prevent friendships, in particular, sliding down through the network layers and eventually slipping over the edge of the 150 layer into the category of acquaintances."
-- (+5 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade: argued, not yet tested. Forager bands track reputation through gossip, ridicule and ostracism (Boehm 1999, ext 373, 375), and partners evaluate each other (Tomasello 2014, ext 239). The threat of gossip made people more generous in experiments (Feinberg et al. 2012, ext 719), and in 15 small-scale communities shame tracked how much the community would devalue an act (Sznycer et al. 2018, ext 722). Modern side: respondents counted only 27.6% of their Facebook friends as genuine (Dunbar 2016, ext 508), and Dunbar proposes that ties decay without face-to-face meetings (ext 509; cross-sectional data). Two meta-analyses found no evidence that artificial watching-eye cues raise generosity (Northover et al. 2017, ext 829). No study compares ancestral and modern observability directly. The comparison is the framework's reading.*
 
@@ -766,14 +761,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
 
-**Evidence (10 links):**
+**Evidence (11 links):**
 
 - ext#722 · tested many times · primary: "For local audiences, 100% of shame-devaluation correlations were equal to or greater than r = 0.69, with mean r = 0.84."
 - ext#721 · tested many times · supporting: "Shame and devaluation means were highly correlated with one another in each country, with a mean r of .72 and a range of rs of .67"
 - ext#1042 · tested once · primary: "Longitudinally, as sociometric status rises or falls, SWB rises or falls accordingly."
 - ext#603 · tested once · supporting: "The Hadza live in temporary camps that average about 30 individuals."
 - ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
-- (+5 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Strongest study: Sznycer et al. 2018 (ext 722), 899 people in 15 small-scale communities, none of them mobile foragers. The local-ladder paper (Anderson et al. 2012) is US students and adults from one research group. Leary 1995 (ext 621) reads the sociometer as tuned to a small set of significant others; that reading is theoretical, the studies did not compare known people with strangers. Modern side: hours on social media go with low mood weakly (ext 103, 104) and near zero in time-use diaries (ext 102); hours are not the row's measure (DA4). The gap statement rests on the staggered arrival of Facebook at 775 US colleges, where poor mental health rose most among students likely to compare badly with their peers (Braghieri, Levy and Makarin 2022, ext 2031, 2032), tested once.*
 
@@ -807,7 +802,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### What standing buys (children)
 `EEA-SOC-13 · Social structure` - **tested many times**
 
-**EEA baseline.** Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had more surviving children in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.
+**EEA baseline.** Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had higher age-corrected reproductive success than other men in their group in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.
 
 **EEA value** (illustrative, not constants):
 
@@ -821,14 +816,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
 
-**Evidence (9 links):**
+**Evidence (11 links):**
 
 - ext#731 · tested many times · primary: "Contra the egalitarianism hypothesis, the effect of status on men’s RS does not differ significantly by subsistence type"
 - ext#1033 · tested many times · primary: "The effect of status on number of surviving offspring, the RS measure that most closely corresponds to biological fitness, is roughly a third smaller in monogamous populations"
 - ext#770 · tested many times · supporting: "Anecdotal evidence from many hunter-gatherer societies suggests that successful hunters experience higher prestige and greater reproductive success. Detailed quantitative data on these patterns are now available for five widely dispersed cases (Ache, Hadza, !Kung, Lamalera, and Meriam) and indicate that better hunters exhibit higher age-corrected reproductive success than other men in their social group"
 - ext#623 · tested once · supporting: "Prestigious but not dominant men marry wives who first give birth at earlier ages, which multivariate analysis suggests is the strongest pathway between status and fitness in this population."
 - ext#410 · argued, not yet tested · supporting: "You are engaged in maladaptive behavior right now."
-- (+4 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for the ancestral link, men only. Strongest study: von Rueden and Jaeggi 2016 (ext 731), 288 effects from 33 societies; weakness: very different status measures pooled, all correlational. Among the Batek, 45 years of data showed no link between foraging success or sharing and lifetime reproductive success (Kraft et al. 2019, ext 1583); with 44 adults, where the authors calculate that about 200 are needed to detect the average forager effect (ext 1584), the study was too small to test it. Two studies measured raiding: among the Waorani, men who raided more often than average did not have more wives or children (ext 897); among the Nyangatom, younger men's raiding showed no link to wives or children, while elders whom peers named as prolific raiders had more of both (ext 892). The modern link is tested: in industrial populations wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, men's income went with more children and women's income and education with fewer (Stulp and Barrett 2016); the grade of this row covers the ancestral link only. Background-tier evidence cited (abstract or book only): ext 770, 897.*
 
@@ -851,13 +846,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M5 - Status Monitoring
 
-**Evidence (5 links):**
+**Evidence (7 links):**
 
 - ext#1039 · tested many times · primary: "hunter-gatherer and horticultural populations are both quite egalitarian, while pastoral and agricultural societies are characterized by substantial wealth inequality"
 - ext#1040 · tested many times · primary: "Thus, to the extent that our measures for this set of foragers are representative, wealth inequality is moderate"
 - ext#1041 · tested once · primary: "As expected, the hunter-gatherers in this sample exhibit low Gini indices (wealth differences) using the house-size proxy (median = 0.17)"
 - ext#1034 · tested once · supporting: "Substantial material inequalities develop, even between neighbors, but social, gender, and political equalities persist."
 - ext#756 · contested · primary: "We review ethnographic and archaeological findings covering 34 world regions showing that non-agricultural peoples often live in groups that are more sedentary, unequal, large, politically stratified, and capable of large-scale cooperation and resource management than is normally assumed."
+- (+2 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for 'forager material inequality was low to moderate'. Independent field teams (Borgerhoff Mulder et al. 2009; Smith et al. 2010) and an independent archaeological method (Kohler et al. 2017) agree. Population limit: Tsimane, Lamalera and Meriam in the ethnographic set are not mobile foragers. The modern wealth Ginis come from Davies et al. 2011 (ext 3029, 3030): 0.801 for the USA in 2000. Ju/'hoansi change: Wiessner and Huang 2022, two communities in two countries. Background-tier evidence cited (abstract or book only): ext 756.*
 
@@ -876,15 +872,16 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M3 - Social Bonding, M5 - Status Monitoring
 
-**Evidence (5 links):**
+**Evidence (6 links):**
 
 - ext#608 · tested once · primary: "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions"
 - ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
 - ext#1044 · tested once · primary: "Of the 2,028 individuals, 800 participants reported having a favorite celebrity (39%) after reading McCutcheon et al.’s (2004) general definition of a favorite celebrity."
 - ext#1043 · tested once · primary: "Most adolescents (61.1%) thought of their favorite media figures as relationship partners"
 - ext#1045 · tested once · supporting: "In partial support of the Parasocial Hypothesis, media exposure, but not social isolation, was a strong predictor of interest in celebrities."
+- (+1 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. Not read: Horton and Wohl 1956, Derrick et al. 2009, Kanazawa 2002. Evidence cited (abstract or book only): ext 1045.*
+*Confidence note: Grade, rubric v2 (11 Nov 2026): tested once, for the modern prevalence (Zsila et al. 2024, one country, cut-off set by the authors; Gleason et al. 2017, one US convenience sample). The ancestral side rests on Hill et al. 2014 (ext 606-608), one model-based study in two populations. The mismatch reading is argued, not tested. In Cor and not linked to this row: Horton and Wohl 1956 (ext 2398, 2399, graded theoretical), Derrick et al. 2009 (ext 1374, graded thin, abstract only) and Kanazawa 2002 (ext 2109, graded thin). Evidence cited (abstract or book only): ext 1045.*
 
 #### Size of "us" (the language group)
 `EEA-SOC-16 · Social structure` - **tested once**
@@ -986,14 +983,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding
 
-**Evidence (18 links):**
+**Evidence (21 links):**
 
 - ext#1586 · tested once · primary: "If it is assumed that the amount of stew remaining in the pot after sharing is same as a portion served to another woman, only 20% of stew cooked by the woman was eaten by her and her children. As much as 75% of the stew the woman ate was cooked by the other women."
 - ext#1592 · contested · primary: "At least 90% (usually more) of the meat of large prey goes outside the hunter's household."
 - ext#1577 · tested many times · primary: "Many groups, however, do not engage in bandwide sharing of meat items, and instead restrict initial sharing to the task group or extended family, with only subsequent sharing with other group members"
 - ext#1589 · tested once · supporting: "In the late afternoon, families gathered at their own fires for the evening meal. After dinner and dark, the harsher mood of the day mellowed and people who were in the mood gathered around single fires to talk, make music, or dance."
 - ext#1597 · tested once · supporting: "The meal is a family one, partaken by a man and his wife and children. The bachelors cook and eat their own meal, and the unmarried women also eat by themselves."
-- (+13 more linked extraction(s))
+- (+16 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (19 Nov 2026): tested once for the row as a whole. That food reaches other households is tested many times: it is reported in every one of the 45 small-scale groups in Gurven's review (ext 1577). Who ate whose cooked food has been counted once. Strongest study: Kitanishi 1998 (ext 1586), 103 days of counts in two Aka camps; main weakness: one ethnographer in one region, and the 20% and 75% figures rest on his estimate of what stayed in the pot. Modern side: the US time-use series (De Neve et al. 2025, ext 1603); main weakness: one country, in a report chapter without journal review. The links between shared meals and life ratings (ext 1602, 1604) are cross-sectional and both sources leave the direction open. Sharing was also unequal and sometimes followed a demand; none of this goes against the row, since the food still moved between households among people who knew who gave what. Producers often kept more than an equal share (ext 1578), Hadza hunters' households were favoured in later data (ext 828), and Peterson argues that much sharing follows a demand (ext 709, 1580); Altman, who reports most sharing within the household, gives no counts (ext 1581), and among the Aka people avoided asking (ext 1588).*
 
@@ -1086,7 +1083,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Timing: puberty to first birth
 `EEA-MATE-04 · Mating & reproduction` - **tested many times**
 
-**EEA baseline.** Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
+**EEA baseline.** Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, ext 844; Agta 20.2, ext 845) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
 
 **EEA value** (illustrative, not constants):
 
@@ -1101,14 +1098,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation
 
-**Evidence (10 links):**
+**Evidence (11 links):**
 
 - ext#1000 · tested many times · primary: "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees"
 - ext#844 · tested many times · primary: "Average age at first reproduction from four modern human foraging groups: Ache (19.5 years) Hill & Hurtado (1996) ; !Kung (19.2 years) Howell (1979) ; Hadza (18.77 years), Blurton Jones (unpublished data); Hiwi (20.5 years) Kaplan et al. (2000) ."
 - ext#845 · tested once · supporting: "Of 130 women interviewed (who had given birth), the mean age at first birth was 20.2 (s.d. = 4.3)"
 - ext#1006 · tested many times · primary: "In these societies, the age of menarche ranged from 12.6-18.4, and the age at growth spurt takeoff ranged from 10-13.5 years."
 - ext#852 · tested once · supporting: Across 22 small-scale societies, African Pygmies, Philippine Negritos and the Hiwi had relatively early puberty, menarche and first reproduction for their adult body size, alongside low subadult survival.
-- (+5 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times. Forager first-birth ages from separate field teams (Kaplan et al. 2000; Robson and Wood 2008, ext 844; Page et al. 2025, ext 845); menarche range from Hochberg et al. 2011 (22 societies, mixed subsistence). Modern first birth from national birth registration. The 'about fifteen years' gap is arithmetic from these figures. Most of an expert panel judged the US data from 1940 to 1994 enough to suggest earlier menarche in girls, and a minority did not (Euling et al. 2008, ext 1017); the gap uses the current age, and the 1995 to 2017 drop is small (12.1 to 11.9). Gluckman and Hanson's maturity argument is theoretical. Background-tier evidence cited (abstract or book only): ext 845, 852, 1017, 1008.*
 
@@ -1129,21 +1126,21 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M9 - Care / Alloparenting
 
-**Evidence (9 links):**
+**Evidence (11 links):**
 
 - ext#1001 · tested many times · primary: "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4"
 - ext#1000 · tested many times · primary: "The mean interbirth interval between offspring when the first survives to the birth of the second is more than 1.5 times longer among wild chimpanzees"
 - ext#851 · tested once · supporting: "very few chimpanzees survive to complete their potential TFR (10% of chimpanzees, compared to 33% of hunter-gatherers and 49% of non-foragers)"
 - ext#846 · tested once · supporting: "NBJ aimed to further evaluate and refine the backload model he had built with Richard Sibly to explain the four year birth intervals that Nancy Howell observed among foraging !Kung mothers at Dobe ( Blurton Jones and Sibly 1978 )"
 - ext#1007 · tested once · supporting: "The median number of menses per lifetime was approximately 100, about a third as many as experienced by an American woman who had three live births."
-- (+4 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for about six births and 3 to 4 year spacing (Gurven and Davison 2019 life tables from five forager populations plus 75 societies; Kaplan et al. 2000). Lifetime menses is one non-forager population (Strassmann 1999, abstract only): thin. Modern TFR and childlessness from GBD 2021 and European census data. Background-tier evidence cited (abstract or book only): ext 846, 1007, 814, 832.*
 
 #### What gets a person chosen, and how unequal men are
 `EEA-MATE-06 · Mating & reproduction` - **tested many times**
 
-**EEA baseline.** Among foragers, men who hunted better had more surviving children (Ache, Hadza, !Kung, Lamalera, Meriam), and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
+**EEA baseline.** In five societies (Ache, Hadza, !Kung, Lamalera, Meriam), men who hunted better had higher age-corrected reproductive success than other men in their group, and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
 
 **EEA value** (illustrative, not constants):
 
@@ -1155,14 +1152,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
 
-**Evidence (16 links):**
+**Evidence (17 links):**
 
 - ext#1003 · tested once · primary: "This variation between populations with regard to Bateman's first principle is inconsistent with the universal sex roles that Bateman envisaged"
 - ext#770 · tested many times · primary: "Anecdotal evidence from many hunter-gatherer societies suggests that successful hunters experience higher prestige and greater reproductive success. Detailed quantitative data on these patterns are now available for five widely dispersed cases (Ache, Hadza, !Kung, Lamalera, and Meriam) and indicate that better hunters exhibit higher age-corrected reproductive success than other men in their social group"
 - ext#772 · tested once · supporting: "we find that men with low voice pitch have higher reproductive success and more children born to them. However, voice pitch in men does not predict child mortality"
 - ext#771 · tested once · supporting: "Finally, men with stronger upper-bodies experienced greater reproductive success, a result that is largely mediated by hunting reputation"
 - ext#692 · tested once · supporting: "Hadza men value fertility in a mate more than women do, and women value intelligence more than men do. Women place great importance on men's foraging, and both sexes rate character as important."
-- (+11 more linked extraction(s))
+- (+12 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times that good hunters and high-status men had more children (ext 770, ext 731) and that male variance in reproductive success is higher on average (Brown et al. 2009, 18 populations). The size of the sex gap varies with the marriage system (Brown et al. 2009, ext 1003), as the baseline states. The sex differences in stated preferences barely show up in whom people like when they meet (Eastwick et al. 2014, ext 757), as the gap statement states. Across 45 countries (14,399 people), gender equality was not robustly related to the sex differences in stated preferences, except for financial prospects and partner age (Walter et al. 2020, ext 695, 999); Zentner and Mitura 2012 (ext 1009) found smaller gaps with more parity across 10 nations, and 31 in a re-analysis of Buss's 1989 data. Modern sexual inactivity: one survey series (Ueda et al. 2020). Background-tier evidence cited (abstract or book only): ext 770, 771, 692, 694, 1009, 757, 805. Among 44 Batek adults followed for 45 years, foraging return and sharing were unrelated to fertility and to surviving children (Kraft et al. 2019, ext 1583); the authors calculate that about 200 people are needed to detect the average forager effect (ext 1584), so the study was too small to test it.*
 
@@ -1177,13 +1174,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
 
-**Evidence (5 links):**
+**Evidence (6 links):**
 
 - ext#1022 · tested once · primary: "Findings for self-assessed judgments of desirability as a marriage partner were in line with hypotheses."
 - ext#1023 · tested many times · supporting: "The findings support the notion that exposure to media images depicting the thin-ideal body is related to body image concerns for women."
 - ext#1014 · tested once · supporting: "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures"
 - ext#1029 · tested once · challenging: "We did not find support for the original finding that exposure to attractive images of opposite-sex others affects males' ratings of their partners' sexual attractiveness or love for their partner."
 - ext#841 · tested once · supporting: "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals"
+- (+1 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): argued, not yet tested as a whole. Pieces: Gutierres et al. 1999 (one lab experiment, abstract only, thin); Grabe et al. 2008 (meta-analysis, not specific to mating); Bruch and Newman 2018 (people write to partners above their own rank). The erotica contrast effect from the same research group failed three preregistered replications (Balzarini et al. 2017).*
 
@@ -1198,16 +1196,16 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration
 
-**Evidence (9 links):**
+**Evidence (13 links):**
 
 - ext#1024 · tested once · primary: "most participants had viewed pornography within their lifetimes (n = 1,461), with just over half reporting some use in the past year (n = 1,056)"
 - ext#1027 · tested many times · primary: "pornography consumption was associated with lower interpersonal satisfaction outcomes in cross-sectional surveys, longitudinal surveys, and experiments"
 - ext#1028 · contested · supporting: "Males who found the Playboy -type centerfolds more pleasant rated themselves as less in love with their wives."
 - ext#1029 · tested once · challenging: "We did not find support for the original finding that exposure to attractive images of opposite-sex others affects males' ratings of their partners' sexual attractiveness or love for their partner."
 - ext#1030 · tested once · supporting: "Lifetime pornography use was reported by most respondents."
-- (+4 more linked extraction(s))
+- (+8 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026; across 74 data sets with 112,397 people in 16 countries, the strongest predictors of problem scores were frequency of use, use to avoid feelings or relieve stress, moral incongruence and sexual shame, Bőthe et al. 2024); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290, 2291), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026; across 74 data sets with 112,397 people in 16 countries, the strongest predictors of problem scores were frequency of use, use to avoid feelings or relieve stress, moral incongruence and sexual shame, Bőthe et al. 2024); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.*
 
 #### Sex and conception coupled
 `EEA-MATE-09 · Mating & reproduction` - **tested many times**
@@ -1218,14 +1216,15 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **The gap.** Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
 
-**Serves mechanisms:** M14 - Reproductive Motivation
+**Serves mechanisms:** M13 - Energy Regulation, M14 - Reproductive Motivation
 
-**Evidence (4 links):**
+**Evidence (5 links):**
 
 - ext#1031 · tested many times · primary: "Between 1970 and 2019, the global mCPR increased by 20·1 percentage points"
 - ext#1032 · tested once · supporting: "Without bans on the sales of contraception, the marital fertility rate would have been 8 percent lower in states with sales bans and 4 percent lower in the United States as a whole."
 - ext#875 · contested · supporting: "Female ovarian function is particularly sensitive to energy balance and energy flux, resulting in a synchronization of conception with favorable energetic conditions"
 - ext#1001 · tested many times · supporting: "Among 75 small-scale natural fertility subsistence societies, mean ± SD TFR was 5.98 ± 1.40, and only 7 (9%) had TFR < 4"
+- ext#5050 · tested many times · supporting: "Life table pregnancy rates for fully breastfeeding women who were amenorrheic but not using any contraceptive method were 0.88% in one study and 0.9% to 1.2% (95% confidence interval 0.0 to 2.4) in a second study, depending on the definition of menstruation used. The life table menstruation rate at six months in all studies varied between 11.1% and 39.4%."
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for modern use levels (Haakenstad et al. 2022, 1,162 surveys). The size of contraception's effect on fertility is one natural experiment (Bailey 2010, thin; the 40% share is the author's own rough counterfactual). Lactational suppression: Ellison 2003 (ext 875), a review; McNeilly 2002 argues that suckling, not energy load, sets how long it lasts. Both agree that breastfeeding suppresses ovulation. In two prospective studies, fully breastfeeding women without periods who used no contraception had pregnancy rates of about 1 percent in the first six months after birth (Van der Wijden and Manion 2015). Evidence cited (abstract or book only): ext 875.*
 
@@ -1246,14 +1245,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M9 - Care / Alloparenting
 
-**Evidence (9 links):**
+**Evidence (10 links):**
 
 - ext#1010 · tested many times · primary: "A survey of 67 studies reporting nonpaternity suggests that for men with high paternity confidence rates of nonpaternity are(excluding studies of unknown methodology) typically 1.9%"
 - ext#804 · tested many times · primary: Genetic studies put the rate of children fathered by someone other than the presumed father at about 1 to 2 percent in contemporary populations and at around 1 percent per generation over past centuries in historical populations, most of them Western.
 - ext#997 · tested many times · supporting: "genetic data from both contemporary and historical populations have consistently revealed very low rates of EPP (~1 to 2%)"
 - ext#1005 · tested many times · supporting: "studies employing genetic methods find that rates of non-paternity are low among humans (∼2%) when compared to those of socially monogamous birds (∼20%) and mammals (∼5%"
 - ext#775 · tested once · supporting: "In this comparative study of 128 lowland South American societies, the prevalence of partible paternity beliefs may be as much as two times as common as biologically correct beliefs in singular paternity."
-- (+4 more linked extraction(s))
+- (+5 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested many times for low rates in the populations sampled (Anderson 2006, abstract; Larmuseau et al. 2016, ext 804; syntheses cited by Scelza et al. 2020 and Schacht and Kramer 2019). Most samples are Western or clinical. The Himba 48% is one population (thin). Partible paternity beliefs: Walker et al. 2010 (ext 775). Male jealousy as a motive for violence: Daly et al. 1982 (ext 778). Background-tier evidence cited (abstract or book only): ext 1010, 804, 778, 696, 758.*
 
@@ -1263,16 +1262,18 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Alloparental care supply (a village, not a dyad)
 `EEA-CARE-01 · Care & development` - **tested many times**
 
-**EEA baseline.** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This is part of human biology: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
+**EEA baseline.** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This is part of human biology: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; among the Trobriand Islanders, who are horticulturalists, infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
 
 **EEA value** (illustrative, not constants):
 
-  - note: Specific aggregate 'alloparent count ~4+' and a generic '40-50% of care delivered by allomothers' figure are widely cited in the literature but are NOT verbatim-grounded in Cor's extractions; only the Hadza ~69/31 mother/allomother holding split and the qualitative multi-caregiver pattern are. Numbers given are the extraction-supported anchors, not an asserted universal mean.
+  - note: Specific aggregate 'alloparent count ~4+' and a generic '40-50% of care delivered by allomothers' figure are widely cited in the literature but are NOT verbatim-grounded in Cor's extractions; the Hadza ~69/31 mother/allomother holding split, the 57/43 split of an infant's direct care between mothers and other people in one study of Savanna Pume hunter-gatherers and one Yucatec Maya farming village (ext 811), and the qualitative multi-caregiver pattern are. Numbers given are the extraction-supported anchors, not an asserted universal mean.
   - unit: qualitative_plus_anchors
   - hadza_mother_hold_pct: 69
   - hadza_allomother_hold_pct: 31
   - calories_to_rear_child_millions: 13
   - human_interbirth_interval_years: [3, 4]
+  - pume_maya_mother_direct_care_pct: 57
+  - pume_maya_others_direct_care_pct: 43
   - other_ape_interbirth_interval_years: {"source": "median birth intervals in the wild, Galdikas and Wood 1990, ext 3519", "gorilla": 3.8, "orangutan": 7.7, "chimpanzee": 5.5}
 
 **Modern default.** The modern default is the isolated nuclear (often single-caregiver) household: one or two adults, frequently without resident grandmothers, aunts, older cousins, or trusted neighbours sharing the daily load. The idealized breadwinner-father / homemaker-mother / biological-children unit is a historical aberration roughly a century old (Victorian at most; the 1950s template in the US), departing from the extended-kin allomaternal norm that held for the vast majority of human history. Care that was distributed across many hands is now concentrated on one or two, often supplemented by paid, rotating, or institutional caregivers rather than a stable invested kin network.
@@ -1283,21 +1284,21 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting
 
-**Evidence (19 links):**
+**Evidence (21 links):**
 
 - ext#382 · tested many times · primary: "A quick survey of available ethnography indicates how widespread shared care is among foraging peoples."
 - ext#401 · argued, not yet tested · primary: "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule."
 - ext#22 · argued, not yet tested · primary: "these early hominin mothers relied on groupmates to help protect, care for, and provision their unusually slow-maturing children"
 - ext#271 · argued, not yet tested · supporting: "Among humans living in foraging societies, a helpful mate and/or alloparents were usually essential for a mother to rear any infant at all. In a surprisingly broad range of creatures, indispensable alloparents provide many of the same forms of care a mother might, protecting and provisioning, even suckling another female's infant in cases where the alloparent is"
 - ext#380 · argued, not yet tested · supporting: "'Cooperative breeding' refers to any species with alloparental assistance in both the care and provisioning of young."
-- (+14 more linked extraction(s))
+- (+16 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Shared infant care is observed in many forager populations by separate field teams (Hadza, Efe, Aka, !Kung, Agta, Pume); the share of care varies widely. The 'cooperative breeder' reading and the calorie argument stay Hrdy's interpretation. In 15,696 UK infants, care by kin (odds ratio 0.61) and formal daycare (0.68) as the main weekday care went with lower odds of developmental delay at 9 months, and an infant whose mother had none of the six kinds of help and company measured (care by kin in working hours, seeing her own mother, time with friends, other mothers to talk to, family she could count on for money, people at the birth) had about eight times the odds of delay of one whose mother had the most of all six (Waynforth 2024).*
 
 #### Caregiver continuity and reliability (present, not merely countable)
 `EEA-CARE-02 · Care & development` - **argued, not yet tested**
 
-**EEA baseline.** The ancestral infant developed within a web of stable, repeatedly-present attachment figures whose availability could be counted on. Attachment is not a single dyadic bond but secure attachment to one or more trusted caretakers - Bowlby's design refined by Hrdy to plural, reliably-present figures - and human infants are equipped with traits (cuteness, prolonged eye contact, social smiling, differentiated cries) for recruiting and holding the attention of multiple potential caretakers. Crucially, maternal commitment itself is contingent and reliability-sensitive: for a cooperatively breeding mammal, the capacity to conceive is only part of the equation; the mother must be able to carry through to rearing independence, which she assesses against the dependable support actually available. Touch is part of this continuity - the infant evolved to expect near-continuous skin contact (carried, held, co-sleeping), a sense developed first in utero and serving as a primary regulatory channel. The expectation is not a list of relatives but caregivers who are reliably, physically present across time.
+**EEA baseline.** The ancestral infant developed within a web of stable, repeatedly-present attachment figures whose availability could be counted on. Attachment is not a single dyadic bond but secure attachment to one or more trusted caretakers, Bowlby's design refined by Hrdy to plural, reliably-present figures, and human infants are equipped with traits (cuteness, prolonged eye contact, social smiling, differentiated cries) for recruiting and holding the attention of multiple potential caretakers. Crucially, maternal commitment itself is contingent and reliability-sensitive: for a cooperatively breeding mammal, the capacity to conceive is only part of the equation; the mother must be able to carry through to rearing independence, which she assesses against the dependable support actually available. Touch is part of this continuity. In the Standard Cross-Cultural Sample the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). Field argues that the skin is the first and the largest sense organ to develop prenatally (ext 296). The expectation is not a list of relatives but caregivers who are reliably, physically present across time.
 
 **Modern default.** Modern caregiving is frequently discontinuous and rotating: paid daycare with staff turnover, sequential and inconsistent caregivers, geographically dispersed or intermittently-available kin, and reduced continuous body contact (separate sleeping, stroller and crib time, scheduled rather than on-demand holding). Caregivers may be nominally present (counted on paper) yet not reliably, responsively available in the moment-to-moment way the regulatory system expects.
 
@@ -1305,18 +1306,18 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Reliable, present caregiver supply - responsive caregivers actually and repeatedly available across time, including continuity of body contact - NOT a count of designated or genealogically-related caregivers. The naive reading (enough named caregivers exist) misleads; what regulates the infant is dependable presence.
 
-**Serves mechanisms:** M9 - Care / Alloparenting, R1 - Touch
+**Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch
 
-**Evidence (8 links):**
+**Evidence (9 links):**
 
 - ext#281 · argued, not yet tested · primary: "Clearly, for cooperatively breeding mammals, a female's physical capacity to conceive and bear viable young is only a small part of the equation. She must also be able to carry through with the enterprise - rearing offspring to independence."
 - ext#402 · argued, not yet tested · primary: "for their pronounced ambivalence toward newborns and their extremely contingent maternal commitment. Infants have adapted, as we will see later, with special traits for attracting the attention of potential caretakers."
 - ext#276 · argued, not yet tested · primary: "Bowlby demonstrated that babies are genetically programmed to seek and form an attachment to a trusted figure. Secure attachment to one or more trusted caretakers is an essential aspect of emotional development in humans, just as it is in all other primates."
 - ext#296 · argued, not yet tested · supporting: "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth."
 - ext#294 · seen in animals · supporting: "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment."
-- (+3 more linked extraction(s))
+- (+4 more linked extraction(s))
 
-*Confidence note: All supporting extractions for the continuity/reliability claim are graded theoretical (Hrdy/Bowlby interpretive synthesis); the touch items are 296 (theoretical) and 294 (cross_species, Harlow/Suomi). The row is graded argued, not yet tested. The claim that maternal commitment is contingent on perceived reliable support (281, 402) and that attachment is to plural trusted figures (276) is well-grounded; the specific operationalization of 'continuity' as a measured construct is not pinned to a number, hence eea_value is null and the parameter is qualitative.*
+*Confidence note: The extractions for the continuity/reliability claim (276, 281, 402) are graded theoretical (Hrdy/Bowlby interpretive synthesis); the forager care findings 701, 702 and 842 are graded thin; the touch items are 296 (theoretical), 294 (cross_species, Harlow/Suomi) and 705 (replicated). The row is graded argued, not yet tested. The claim that maternal commitment is contingent on perceived reliable support (281, 402) and that attachment is to plural trusted figures (276) is well-grounded; the specific operationalization of 'continuity' as a measured construct is not pinned to a number, hence eea_value is null and the parameter is qualitative.*
 
 #### Mixed-age child playgroups as developmental input
 `EEA-CARE-03 · Care & development` - **tested many times**
@@ -1331,16 +1332,16 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M4 - Social Calibration / Play, M9 - Care / Alloparenting
 
-**Evidence (15 links):**
+**Evidence (16 links):**
 
 - ext#212 · seen in animals · primary: "We found that play fighting in juvenile rats alters the dendritic branching of the neurons of the prefrontal cortex, with the arborization of the basilar dendrites of the OFC cells increasing and that of the apical dendrites of the mPFC cells decreasing."
 - ext#220 · seen in animals · supporting: "Measures of cortical thickness reveal that these more masculine rats have a greater volume of cortex and that the sex-typical asymmetry of their right hemisphere versus their left one is exaggerated relative to control males that were injected with an equal volume of oil. There is nothing particularly unexpected in this finding. However, when the untreated playmates of the testosterone-treated and oil-treated animals were compared, it was found that the partners of the more playful rats also tended to have greater cortical thickness. Just growing up with a more playful partner influences the development of the cortex!"
 - ext#216 · argued, not yet tested · supporting: "emotional responses are dependent on the activation of the amygdala, and, as we discussed in chapter 3, the amygdala is likely crucial to ensuring playful reciprocity. The prefrontal cortex dampens the activity of the amygdala, which thus prevents emotional overreaction. Here is a potential mechanism by which experience with play fighting in the juvenile period refines the prefrontal circuits, and, in doing so, produces animals that are better able to regulate their subcortically generated emotions."
 - ext#256 · argued, not yet tested · supporting: "In addition to the preceding primitive systems that are evident in all mammals soon after birth, we also have more sophisticated special-purpose socioemotional systems that are engaged at appropriate times in the lives of all mammals-for instance, those that mediate sexual LUST (see Chapter 12), maternal CARE (see Chapter 13), and roughhousing PLAY (see Chapter 15). Each of these is built around neural complexities that are only provisionally understood. Sexual urges are mediated by specific brain circuits and chemistries that are quite distinct for males and females but appear to share some components such as the physiological and psychological effects of oxytocin, which also promotes maternal motivation."
 - ext#274 · argued, not yet tested · supporting: "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species."
-- (+10 more linked extraction(s))
+- (+11 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans. In monkeys, isolates recovered with younger partners (ext 542). A review of tests of pretend play found weak and inconsistent evidence that it causes the developmental gains credited to it (Lillard et al. 2013, ext 762); the tests it reviews are mostly adult-led play training in preschools, which is not the self-organised play this row describes.*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Mixed-age child playgroups are documented across forager societies in two systematic reviews (Lew-Levy et al. 2017, 2018). The label covers the ancestral value only: the claim that age mixing shapes development rests on rat work and is untested in humans. In monkeys, isolates raised alone for 6 months recovered with younger partners (ext 1887). A review of tests of pretend play found weak and inconsistent evidence that it causes the developmental gains credited to it (Lillard et al. 2013, ext 762); the tests it reviews are mostly adult-led play training in preschools, which is not the self-organised play this row describes.*
 
 #### Multigenerational presence (older people inside the band's giving and getting)
 `EEA-CARE-04 · Care & development` - **tested many times**
@@ -1355,14 +1356,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting
 
-**Evidence (12 links):**
+**Evidence (20 links):**
 
 - ext#203 · argued, not yet tested · primary: "In order to elucidate the links between exercise and aging, I propose a corollary to the grandmother hypothesis, which I call the active grandparent hypothesis. According to this idea, human longevity was not only selected for but also made possible by having to work moderately during old age to help as many children, grandchildren, and other younger relatives as possible to survive and thrive. That is, while there might have been selection for genes (as yet unidentified) that help humans live past the age of fifty, there was also selection for genes that repair and maintain our bodies when we are physically active. As a result, many of the mechanisms that slow aging and extend life are turned on by physical activity, especially as we get older. Human health and longevity are thus extended both by and for physical activity."
 - ext#401 · argued, not yet tested · supporting: "One widely accepted tenet of life history theory is that, across species, those with bigger babies relative to the mother's body size will also tend to exhibit longer intervals between births because the more babies cost the mother to produce, the longer she will need to recoup before reproducing again. Yet humans - like marmosets - provide a paradoxical exception to this rule."
 - ext#274 · argued, not yet tested · supporting: "alloparenting is particularly well developed and played a special role in the evolution of our own large-brained, slow-growing, and extraordinarily inventive species."
 - ext#403 · argued, not yet tested · supporting: "When politicians lament the 'decline of the family,' they have in mind departures from the nuclear family: a man, his wife, and their biological children. However, the template for this kind of family dates back only a century or so, at most to Victorian times."
 - ext#703 · tested many times · supporting: "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)"
-- (+7 more linked extraction(s))
+- (+15 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On child growth, among 127 Aka children grandmothers were the allomother most linked to better nutritional status, clearest from 9 months to 3 years (Meehan, Helfrecht and Quinlan 2014). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).*
 
@@ -1388,7 +1389,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.
 
-**Serves mechanisms:** M3 - Social Bonding, R1 - Touch
+**Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch
 
 **Evidence (14 links):**
 
@@ -1408,7 +1409,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.
 
-**The gap.** Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).
+**The gap.** Solitary infant sleep removes the nighttime proximity of the Standard Cross-Cultural Sample, where the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). It removes the nighttime physiological co-regulation measured in cosleeping pairs, where mother and infant induce arousals in one another within seconds (ext 615). The evidence for this co-regulation comes from one lab (McKenna 2014, ext 615, 616).
 
 **Resolution unit.** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
@@ -1443,13 +1444,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M3 - Social Bonding, R1 - Touch
 
-**Evidence (5 links):**
+**Evidence (6 links):**
 
 - ext#386 · seen in animals · primary: "Contrary to popular imagination, monkey grooming is not about removing fleas. It is not even just about removing the bits of debris and vegetation that clog up the fur during a day's foraging, though it certainly does this. Rather, it is about the intimacy of massage. The physical stimulation of the skin triggers the release of endorphins in the brain."
 - ext#429 · tested once · primary: "The mean absolute increase in salivary cortisol in response to stress was 11.98 nmol/l in subjects with no interaction, 13.29 nmol/l in subjects of the social support group, and 4.33 nmol/l in subjects with positive physical contact."
 - ext#430 · tested once · supporting: "We compared 'grandparent' volunteers massaging infants (figure 2.2), with 'grandparent' volunteers being massaged themselves. Both experiences had positive effects, including such lifestyle changes as participants having more social contacts, drinking less coffee, and making fewer trips to the doctor's office."
 - ext#295 · tested once · supporting: "Sidney Jourard, a University of Florida psychologist, visited cafés in different parts of the world and recorded the number of times two people who were sharing coffee touched each other. In London, the tally was 0; in Gainesville, Florida, 2; in Paris 110; and in San Juan, Puerto Rico, more than 180. Most sociologists would agree that societies like those in the Mediterranean countries (e.g., Spain, France, Italy, Greece, Turkey, Egypt) are contact societies, whereas the more northern societies in countries such as Holland, Great Britain, and the United States are not."
 - ext#418 · argued, not yet tested · supporting: "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone."
+- (+1 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).*
 
@@ -1459,32 +1461,31 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal
 `EEA-CIRC-01 · Circadian & sensory` - **tested many times**
 
-**EEA baseline.** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
+**EEA baseline.** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination, a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells.
 
 **EEA value** (illustrative, not constants):
 
   - biological_night: genuine darkness
   - typical_sleep_onset: between 8-10 p.m., two to three hours after sunset (Hadza, San; ext 77); on average 3.3 hours after sunset; no group (Hadza, San, Tsimane) went to sleep near sunset (ext 2224)
-  - evening_illumination: firelight (low lux, long-wavelength ~600nm+)
+  - evening_illumination: firelight (low lux, long-wavelength)
   - reference_populations: ["Hadza", "San"]
-  - daytime_light_lux_outdoor: >10000
 
 **Modern default.** Indoor electric and screen light keeps evening illumination bright and short-wavelength (blue-enriched, ~450nm) well past dusk, suppressing melatonin and delaying its onset by 1.5-3 hours; daytime indoor light is far dimmer than outdoor light, flattening the day-night amplitude. The dusk dimming/reddening gradient and true nocturnal darkness are largely abolished.
 
 **The gap.** The modern light environment inverts the ancestral pattern on both ends: too little bright light by day, too much blue-enriched light at night, with no real darkness. This delays circadian phase, compresses and fragments the biological night, and decouples internal time from external solar time.
 
-**Resolution unit.** Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness), not total daily light dose or generic 'brightness'.
+**Resolution unit.** Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness).
 
 **Serves mechanisms:** M7 - Circadian Regulation
 
-**Evidence (11 links):**
+**Evidence (13 links):**
 
 - ext#77 · tested many times · primary: Electric light, caffeine, and alarm clocks systematically disrupt the ancestral dark-cycle sleep pattern that governed human circadian biology for millennia. Walker describes how Edison's incandescent light "put an end to this natural order of things," delaying melatonin release
 - ext#436 · tested many times · supporting: "Central to many of the questions in the opening paragraph is the powerful sculpting force of your twenty-four-hour rhythm, also known as your circadian rhythm."
 - ext#82 · tested once · supporting: In a randomized crossover study (N=12), reading a light-emitting eReader (LE-eBook) for 4 hours before bedtime for 5 consecutive evenings produced multiple measurable disruptions compared to reading a printed book in identical dim light conditions. Melatonin was suppressed by 55.
 - ext#83 · tested once · supporting: The circadian disruption from evening LE-eReader use persisted beyond the reading session. Next-morning sleepiness was significantly greater after LE-eBook reading (P<0.001) and participants took hours longer to fully wake up. The circadian phase shift (dim light melatonin onset
 - ext#609 · tested once · primary: "Here we show that electrical lighting and the constructed environment is associated with reduced exposure to sunlight during the day, increased light exposure after sunset, and a delayed timing of the circadian clock as compared to a summer natural 14h40min:9h20min light-dark cycle camping. Furthermore, we find that after exposure to only natural light, the internal circadian clock synchronizes to solar time such that the beginning of the internal biological night occurs at sunset and the end of the internal biological night occurs before wake time just after sunrise."
-- (+6 more linked extraction(s))
+- (+8 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Pre-electric light exposure and sleep timing are measured in Hadza, San and Tsimane (Yetish et al. 2015), in Toba/Qom with and without electricity (de la Iglesia et al. 2015) and in natural-light camping studies; samples are small and modern foragers stand in for ancestral ones. Sleep onset averaged about 3.3 hours after sunset in Yetish et al. In about 400,000 UK adults, each extra hour a day outdoors in daylight went with less frequent low mood and tiredness, fewer insomnia symptoms, an earlier chronotype and lower odds of antidepressant use (Burns et al. 2021).*
 
@@ -1501,27 +1502,27 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M7 - Circadian Regulation
 
-**Evidence (14 links):**
+**Evidence (21 links):**
 
 - ext#92 · tested once · primary: In a large epidemiological database (n>65,000, primarily Central European), social jetlag - the discrepancy between biological circadian clock and socially imposed sleep timing - is associated with increased BMI independently of sleep duration. 69% of the population experiences a
 - ext#93 · tested once · primary: Social jetlag - the discrepancy between biological and social clocks - is chronic throughout working careers. 69% of the population (N>65,000, central European) experiences at least 1 hour of social jetlag; one-third suffers 2+ hours. Social jetlag peaks in late adolescence due t
 - ext#94 · tested once · supporting: Hierarchical multiple regression revealed social jetlag positively predicts BMI specifically in the overweight group (BMI>=25, n=20,731), with an effect size more than half that of sleep duration, but does NOT predict BMI in the normal weight group (BMI<25, n=43,308). Logistic re
 - ext#81 · tested once · supporting: Roenneberg identifies "social jet lag" - the chronic discrepancy between an individual's biological clock and socially imposed schedules - as a pervasive mismatch condition in industrialized societies. Over 40% of the Central European population suffers from social jet lag of two
 - ext#79 · tested many times · supporting: During puberty, the suprachiasmatic nucleus shifts the adolescent circadian rhythm progressively forward, pushing sleep onset several hours later than both younger children and adult parents. Walker describes how a nine-year-old's melatonin-driven sleep onset around 9 p.m. shifts
-- (+9 more linked extraction(s))
+- (+16 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Night-anchored sleep of about 5.7 to 7.1 hours is measured by actigraphy in three forager societies (Yetish et al. 2015), in 33 Hadza adults across 393 days of recording in all (6.25 hours a night, with stronger circadian rhythms than Western populations; Samson et al. 2017) and in Toba/Qom (de la Iglesia et al. 2015); camping studies move phase while duration holds. Actigraphy only, and parts of the interpretation are disputed. The two camping experiments (Wright et al. 2013, ext 610; Stothard et al. 2017, ext 613) come from the same laboratory and share authors.*
 
 #### Falling evening ambient temperature as a second sleep-onset cue
 `EEA-CIRC-03 · Circadian & sensory` - **tested once**
 
-**EEA baseline.** Outside thermally buffered shelter, ancestral evenings carried a reliable nocturnal drop in ambient temperature that paralleled dusk. This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light. The baseline environment thus paired a dimming light gradient with a falling temperature gradient at the day-night transition.
+**EEA baseline.** In Hadza, San and Tsimane, the sleep period consistently occurred during the nighttime period of falling environmental temperature and ended near the nadir of daily ambient temperature (ext 745). This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light.
 
-**Modern default.** Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the evening cooling ramp; evening heat (and sometimes overheated bedrooms) can also oppose the core-temperature fall required for sleep onset.
+**Modern default.** Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the nighttime period of falling environmental temperature (ext 745); evening heat (and sometimes overheated bedrooms) can also oppose the core-temperature fall required for sleep onset.
 
-**The gap.** By flattening the daily thermal cycle, modern housing removes a candidate onset cue that historically co-occurred with dusk and reinforced circadian timing, potentially leaving light as the sole (and now corrupted) entrainment channel.
+**The gap.** By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
 
-**Resolution unit.** Direction and timing of the evening ambient-temperature change (a falling ramp at dusk), not absolute thermostat setpoint or daytime comfort.
+**Resolution unit.** Direction and timing of the nighttime ambient-temperature change (falling during the sleep period, ext 745), not absolute thermostat setpoint or daytime comfort.
 
 **Serves mechanisms:** M7 - Circadian Regulation
 
@@ -1537,13 +1538,13 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Daily incidental movement load
 `EEA-SUBS-01 · Subsistence & time-use` - **tested many times**
 
-**EEA baseline.** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
+**EEA baseline.** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km (Pontzer et al. 2012, GPS; ext 2430), and the women also dig for several hours (Lieberman 2021, ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
 
 **EEA value** (illustrative, not constants):
 
   - PAL: {"men": 1.9, "women": 1.8, "western_desk": 1.6}
-  - MVPA_min_per_day: {"approx": 134, "source_note": "~2h14m moderate-vigorous + ~3h40m light (Hadza HR-monitor)"}
-  - daily_distance_km: {"source": "Pontzer et al. 2012, PLoS ONE, doi 10.1371/journal.pone.0040503 (GPS means)", "qualifier": "Hadza only; a side effect of the foraging day", "hadza_men_gps_mean": 11.4, "hadza_women_gps_mean": 5.8}
+  - MVPA_min_per_day: {"approx": 134, "source_note": "~2h14m moderate-vigorous + ~3h40m light (Hadza HR-monitor, 46 adults; Lieberman 2021, ext 196)"}
+  - daily_distance_km: {"source": "Pontzer et al. 2012, PLoS ONE, doi 10.1371/journal.pone.0040503 (GPS means; ext 2430)", "qualifier": "Hadza only; a side effect of the foraging day", "hadza_men_gps_mean": 11.4, "hadza_women_gps_mean": 5.8}
   - rest_hours_per_day: {"note": "comparable to industrialized adults; difference is posture not amount", "approx": 9.9}
 
 **Modern default.** Movement has been extracted from subsistence and re-inserted, if at all, as discretionary 'exercise': set-aside, planned, dose-prescribed (e.g. 150 min/week guidelines), and separated from the rest of a chair-bound, motor-transported, indoor day. Most waking hours are spent in continuous chair-sitting that holds the lower limbs near-inactive, and total daily distance on foot collapses far below the ancestral range.
@@ -1554,14 +1555,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M10 - Movement / Regulatory
 
-**Evidence (9 links):**
+**Evidence (11 links):**
 
 - ext#196 · tested once · primary: "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work."
 - ext#427 · argued, not yet tested · primary: "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress."
 - ext#197 · tested many times · supporting: "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals."
 - ext#288 · argued, not yet tested · supporting: "Here, we test the hypothesis that the ways in which urban populations rest, rather than the amount of time spent resting, represents an inactivity mismatch with an evolutionarily relevant hunting and gathering lifestyle, and propose that this mismatch may contribute to the negative health impacts of sedentary behavior today."
 - ext#289 · tested once · supporting: "In addition to ground-sitting postures, Hadza individuals also spend a large percentage of their nonambulatory time in squatting (∼18%) and kneeling postures (∼12.5%) that differ from ground sitting by individuals maintaining an elevated buttocks. [...] For soleus, the assisted squat posture (squatting with heels in ground contact and with the buttocks resting on a small rock) elicited significantly higher muscle activity compared with chair sitting."
-- (+4 more linked extraction(s))
+- (+6 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Forager activity of over 100 minutes a day of moderate-to-vigorous movement and activity levels modestly above Western ones are found across populations (Pontzer, Wood and Raichlen 2018); the kilometre and rest figures are Hadza only.*
 
@@ -1662,14 +1663,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M13 - Energy Regulation
 
-**Evidence (6 links):**
+**Evidence (8 links):**
 
 - ext#39 · contested · primary: Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di
 - ext#38 · argued, not yet tested · supporting: "This phase of evolutionary history made definitive contributions to our current genetic composition, partly in response to dietary influences at that time."
 - ext#471 · argued, not yet tested · supporting: "HUMANITY has existed as a genus for about 2 million years, and our prehuman hominid ancestors, the australopithecines, appeared at least 4 million years ago (Table 1)."
 - ext#729 · tested once · supporting: "Most (73%) of the worldwide hunter-gatherer societies derived >50% (> or =56-65% of energy) of their subsistence from animal foods, whereas only 14% of these societies derived >50% (> or =56-65% of energy) of their subsistence from gathered plant foods."
 - ext#874 · tested many times · supporting: "Obesity prevalence is very low (<5%), and mean body fat percentage is modest (women: 24-28%, men: 9-18%)"
-- (+1 more linked extraction(s))
+- (+3 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times that forager diets varied widely with habitat and drew less energy from carbohydrate than modern diets. Strongest: two independent analyses of the ethnographic codes for 229 forager societies, Cordain et al. 2000 (ext 729: animal foods above half of subsistence in 73% of societies, protein 19 to 35% of energy) and Ströhle and Hahn 2011 (ext 3616, 3617: carbohydrate from about 3 to 50% of energy, tracking latitude and habitat, below current recommendations in most societies). Main weakness: both rest on the same coarse codes of subsistence shares, skewed toward high-latitude groups, not measured intake. Change of diet with season is measured in single populations (Hadza: Marlowe and Berbesque 2009, ext 2687). Near-zero industrial processing follows from the period. Single figures such as 34% protein are model reconstructions (Eaton and Konner 1985, ext 39) and no single value holds.*
 
@@ -1691,16 +1692,16 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.
 
-**Serves mechanisms:** M13 - Energy Regulation
+**Serves mechanisms:** M13 - Energy Regulation, M2 - Pursuit / Exploration
 
-**Evidence (7 links):**
+**Evidence (8 links):**
 
 - ext#39 · contested · primary: Ancestral human diet was characterized by: higher protein (34% vs 12% of calories), dramatically lower refined carbohydrate and sugar, higher fiber (100-150g/day vs 20g), lower sodium, higher potassium, higher micronutrient density, and near-zero processed food. Modern Western di
 - ext#75 · argued, not yet tested · supporting: Moss documents how the food industry systematically optimizes products for the "bliss point" - the precise concentration of sugar, fat, and salt that maximizes sensory pleasure and craving. Howard Moskowitz, a mathematician and experimental psychologist, built a consulting empire
 - ext#439 · argued, not yet tested · supporting: "To plot what industry insiders call the 'bliss point,' or the precise amount of sugar or fat or salt that will send consumers over the moon. At a laboratory in White Plains, New York, industry scientists who perform this alchemy walked me, step by step, through the process of engineering a new soda so that I could see the creation of bliss firsthand."
 - ext#76 · argued, not yet tested · supporting: Moss reveals through internal industry sources that food companies knowingly engineer products to exploit evolved taste preferences and are aware of the overconsumption consequences. At a secret 1999 meeting of eleven food industry CEOs, Pillsbury executive James Behnke confronte
 - ext#440 · argued, not yet tested · supporting: "These were the three pillars of processed food, the creators of crave, and each of the CEOs needed them in huge quantities to turn their products into hits."
-- (+2 more linked extraction(s))
+- (+3 more linked extraction(s))
 
 *Confidence note: Grade: argued, not yet tested. Journalism from industry documents and interviews records that food companies tune sugar, fat and salt to a 'bliss point' that maximizes craving (Moss 2013, ext 75, 76, 439, 440); those sources do not test whether this defeats satiety. In a two-week inpatient crossover trial, 20 adults ate 508 kcal a day more on an ultra-processed diet than on an unprocessed one matched for presented calories, sugar, sodium and fiber (Hall et al. 2019, ext 866). In a review of 185 prospective studies and 58 trials, the trials found lower bodyweight, systolic blood pressure and total cholesterol with more dietary fibre, and in the prospective studies the highest fibre intakes went with 15 to 30 percent less death from all causes and from cardiovascular disease, with the benefit greatest at 25 to 29 g a day and the dose-response curves pointing to more benefit at higher intakes (Reynolds et al. 2019). The ancestral fiber figure (about 100 g a day or somewhat more against 20 g today) is a model estimate (Eaton 2006, ext 3605), which lowered the 100 to 150 g of Eaton and Konner's 1985 model (ext 39). Hadza rank honey as their favourite food, and it supplies a substantial share of their calories (Marlowe et al. 2014, ext 730).*
 
@@ -1727,19 +1728,21 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M10 - Movement / Regulatory, M13 - Energy Regulation
 
-**Evidence (4 links):**
+**Evidence (6 links):**
 
 - ext#196 · tested once · primary: "Among the many studies of the Hadza, one asked forty-six Hadza adults to wear lightweight heart rate monitors for several days. According to these sensors, the average adult Hadza spends a grand total of three hours and forty minutes a day doing light activities and two hours and fourteen minutes a day doing moderate or vigorous activities. Although these few hours of hustling and bustling per day make them about twelve times more active than the average American or European, by no stretch of the imagination could one characterize their workloads as backbreaking. On average, the women walk five miles a day and dig for several hours, whereas the men walk between seven and ten miles a day. And when they aren't being very active, they typically rest or do light work."
 - ext#197 · tested many times · supporting: "Although there is much variation, PALs of hunter-gatherers average 1.9 for men and 1.8 for women, slightly below PAL scores for subsistence farmers, which average 2.1 for men and 1.9 for women. To put these values into context, hunter-gatherer PALs are about the same as those of factory workers and farmers in the developed world (1.8), and about 15 percent higher than PALs of people with desk jobs in developed countries (1.6). In other words, typical hunter-gatherers are about as physically active as Americans or Europeans who include about an hour of exercise in their daily routine. In case you are wondering, most mammals in the wild have PALs of 3.3 or more, nearly twice as high as hunter-gatherers. Thus, comparatively speaking, humans who must hunt and gather all the food they eat and make everything they own by hand are substantially less active than average free-ranging mammals."
 - ext#427 · argued, not yet tested · supporting: "Walk or run 10 kilometers (6.2 miles) a day (barefoot, of course), climb a few trees, chase squirrels in the park, throw rocks, eschew chairs, and sleep on a board instead of a mattress."
 - ext#726 · tested once · supporting: "This is the first study to report that, if we control for habitat quality, hunter-gatherers actually had significantly less--not more--famine than other subsistence modes"
+- ext#2430 · tested once · supporting: "Daily walking distances for Hadza women (mean 5.8, std. dev. ±1.7 km/day) and men (11.4±2.1 km/day) were significantly different (p<0.001, t-test), consistent with previous measurements in hunting and gathering societies"
+- (+1 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (6 Nov 2026): tested many times. Hadza daily distances are GPS-measured (Pontzer et al. 2012) and forager activity levels are compared across populations (Pontzer, Wood and Raichlen 2018); the distance figures are Hadza only.*
 
 #### Energy regulation is intake-bounded
 `EEA-DIET-04 · Diet & metabolic` - **tested many times**
 
-**EEA baseline.** Total daily energy expenditure (TEE) is an evolved, species-typical trait that the body holds within a narrow range, compensating metabolically rather than expending proportionally more as physical activity rises. Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite far greater physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
+**EEA baseline.** Total daily energy expenditure (TEE) increases with physical activity at low activity levels but plateaus at higher levels, after adjusting for body size and composition (ext 283). The authors' model has the body adapt to maintain TEE within a narrow range (ext 283). Pontzer and colleagues hypothesize that human daily energy expenditure may be an evolved physiological trait (ext 287), and write that population comparisons suggest it is an evolved, species-specific trait (ext 284). Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite substantial differences in physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
 
 **EEA value** (illustrative, not constants):
 
@@ -1752,19 +1755,20 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Total expenditure rises with activity at low activity levels and plateaus at higher levels (ext 283): above moderate activity, each added ~100 counts per minute per day went with less than 50 kcal/day more expenditure. Above moderate activity this model fails: cranking up activity adds little to expenditure, while the intake side, driven by hyperpalatable, energy-dense, effortless food, is what has changed and what dysregulates energy balance.
 
-**The gap.** Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped - so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side.
+**The gap.** Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped, so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side. Total energy expenditure increases with physical activity at low activity levels but plateaus at higher activity levels (ext 283).
 
 **Resolution unit.** The binding constraint on energy balance: ancestrally INTAKE (food availability/composition), not expenditure. The mismatch is unbounded intake, not insufficient calorie-burning; exercise is a weak proxy for the metabolic problem.
 
 **Serves mechanisms:** M13 - Energy Regulation
 
-**Evidence (5 links):**
+**Evidence (8 links):**
 
 - ext#286 · tested once · primary: "As expected, physical activity level, PAL, was greater among Hadza foragers than among Westerners. Nonetheless, average daily energy expenditure of traditional Hadza foragers was no different than that of Westerners after controlling for body size. The metabolic cost of walking and resting were also similar among Hadza and Western groups. The similarity in metabolic rates across a broad range of cultures challenges current models of obesity suggesting that Western lifestyles lead to decreased energy expenditure."
 - ext#283 · tested once · supporting: "Here we tested a Constrained total energy expenditure model, in which total energy expenditure increases with physical activity at low activity levels but plateaus at higher activity levels as the body adapts to maintain total energy expenditure within a narrow range. We compared total energy expenditure, measured using doubly labeled water, against physical activity, measured using accelerometry, for a large (n = 332) sample of adults living in five populations. After adjusting for body size and composition, total energy expenditure was positively correlated with physical activity, but the relationship was markedly stronger over the lower range of physical activity. For subjects in the upper range of physical activity, total energy expenditure plateaued, supporting a Constrained total energy expenditure model."
 - ext#284 · tested many times · supporting: "People in less socioeconomically developed populations, including subsistence farmers and traditional hunter-gatherers, have total energy expenditures similar to those in more developed populations despite substantial differences in physical activity. Mammals living in the wild, including non-human primate species, have total energy expenditures similar to captive populations. These population-level comparisons suggest that total energy expenditure is an evolved, species-specific trait that is homeostatically buffered against variation in habitual physical activity."
 - ext#287 · argued, not yet tested · supporting: "We hypothesize that human daily energy expenditure may be an evolved physiological trait largely independent of cultural differences."
 - ext#871 · tested many times · supporting: "There is a robust positive association, but it is restricted to adult women in high-income countries"
+- (+3 more linked extraction(s))
 
 *Confidence note: Grade: tested many times. Total energy expenditure rises with activity at low levels and plateaus above moderate activity in doubly-labelled-water data from five populations (Pontzer et al. 2016, n=332, ext 283). Foragers and subsistence farmers expend about as much energy as people in industrial populations, and wild mammals about as much as captive ones (ext 284). The Hadza study found the same daily expenditure as in Western adults after controlling for body size (Pontzer et al. 2012, n=30, ext 286), which places the obesity difference in intake and food composition, and it proposes that daily energy expenditure is an evolved trait (ext 287). In trials, aerobic exercise alone took off 1.6 kg against controls at 6 months (14 trials, ext 3594), and 3.9 and 5.2 kg under 10 months of supervised sessions five days a week (Donnelly et al. 2013, ext 4028). The achieved energy deficit was in most trials smaller than the energy the sessions burned, mostly because people ate more (Thomas et al. 2012, ext 4054); with intake held fixed, resting metabolic rate fell about 7 percent beyond what the weight lost accounts for (ext 4055).*
 
@@ -1801,7 +1805,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#675 · tested once · supporting: "The proportion of human deaths phylogenetically predicted to be caused by interpersonal violence stood at 2%."
 - (+3 more linked extraction(s))
 
-*Confidence note: The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331; McEwen id 130, both graded replicated): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded argued, not yet tested, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
+*Confidence note: The acute-vs-chronic physiology is replicated in the corpus (Sapolsky id 331, graded replicated; McEwen id 130, graded cross_species): acute stress enhances and chronic stress suppresses immunity, and short-term vigilance changes that persist after the danger passes become maladaptive. The mismatch FRAMING (ancestral pulsatile vs modern continuous) is interpretive and rests on Cacioppo's prose (id 150, theoretical), so the row is graded argued, not yet tested, even though the underlying stress biology is well-replicated. No daily threat-frequency number is asserted. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
 
 #### Threat controllability and predictability (resolvable by own action)
 `EEA-THREAT-02 · Threat & safety` - **argued, not yet tested**
@@ -1830,7 +1834,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#587 · argued, not yet tested · supporting: Electronic performance monitoring in digital work environments has contributed to employee stress, anxiety and burnout, and the authors note fears that employers will use such software to control workers in ways detrimental to their autonomy. Combined with unclear status inputs (
 - ext#724 · tested many times · supporting: Across 20 forager societies, about 49 percent of children died before age 15.
 
-*Confidence note: The controllability/predictability physiology is replicated (Sapolsky id 333; learned-helplessness id 442, both graded replicated). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded argued, not yet tested, with the underlying control science noted as replicated. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
+*Confidence note: The controllability/predictability physiology is replicated (Sapolsky id 333, graded thin; learned-helplessness id 442, graded theoretical). The EEA-baseline claim that ancestral threats were predominantly controllable is interpretive (no extraction quantifies ancestral controllability), so graded argued, not yet tested, with the underlying control science noted as replicated. Uncontrollable threats were not rare in absolute terms. About half of forager children died before age 15 (Volk & Atkinson 2013, Evolution and Human Behavior 34(3):182-192, doi:10.1016/j.evolhumbehav.2012.11.007: mean child mortality 48.8% across 20 hunter-gatherer samples, as coded by HRAF), and seasonal hunger and infectious disease were recurring threats that no individual action could resolve. The acute, controllable framing describes the typical threat episode. Uncontrollable loss was still common.*
 
 #### Real-vs-perceived threat ratio and all-clear resolution
 `EEA-THREAT-03 · Threat & safety` - **argued, not yet tested**
@@ -1851,7 +1855,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'
 
-**Serves mechanisms:** M1 - Threat Management, M8 - Immune Regulation
+**Serves mechanisms:** M1 - Threat Management, M3 - Social Bonding, M8 - Immune Regulation
 
 **Evidence (6 links):**
 
@@ -1862,7 +1866,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#125 · tested many times · supporting: Although the brain is highly responsive to perceived threat, even simple handholding can substantially attenuate threat responses. These effects are potentiated by higher relationship quality, intimacy, and higher perceived mutuality. Critically, the likeliest mechanisms linking
 - (+1 more linked extraction(s))
 
-*Confidence note: Strong supporting physiology: the M8 allostatic-load chain is meta_analysis (McEwen id 469) and replicated (Sapolsky id 331), and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect.*
+*Confidence note: Strong supporting physiology: the M8 allostatic-load chain is graded theoretical in McEwen id 469 and replicated in Sapolsky id 331, and the social all-clear is replicated (Coan/SBT handholding id 125). The integrative 'real-vs-perceived ratio with missing all-clear' framing is itself an interpretive mismatch synthesis, so graded theoretical, but it is the best-evidenced of the three threat rows on the downstream-immune side. No frequency number is asserted; the high false-alarm rate is presented as ancestral-normal (id 565, theoretical signal-detection formalization), not as a defect.*
 
 #### Killing between groups (frequency contested)
 `EEA-THREAT-04 · Threat & safety` - **contested** · **CONTESTED**
@@ -1945,4 +1949,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-25 07:12 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-25 07:12 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 03:04 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-26 03:04 UTC.*

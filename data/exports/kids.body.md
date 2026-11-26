@@ -36,7 +36,7 @@ The real thing is being together in person with people who care about you and ca
 
 ## M4 - Social Calibration / Play
 
-This helper learns how to get along with others by playing. Running around, chasing, and making up games teaches you the rules of being with friends. Animals that are scared or sick do not play, so play is a sign things are okay.
+This helper learns how to get along with others by playing. Running around, chasing, and making up games teaches you the rules of being with friends. Animals that are scared do not play, so play is a sign things are okay.
 
 The real thing is playing with other kids your age, making up your own games with your bodies, not just watching. The pretend version is a game you play alone on a screen with no real friend to play back. It can feel fun, but it does not teach you how to play with people. It is like dancing alone instead of dancing with a partner.
 
@@ -104,6 +104,6 @@ The real thing is a real partner you share life with. The pretend versions are t
 
 ## R1 - Touch
 
-This one is a little different. It is not a helper that pushes you to do something. It is more like a special feeling channel that helps your bonding helper (M3) feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
+This one is a little different. It is more like a special feeling channel that helps your bonding helper (M3) feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
 
 The real thing is a warm hug or hand-hold from someone you trust who hugs you back. Other kinds of touch, like a soft blanket or a touch machine, can feel nice, but they are not a living friend. A real cuddle from someone who loves you does something special that a blanket cannot. Gentle touch matters so much that holding tiny new babies skin-to-skin helps keep them safe and healthy.

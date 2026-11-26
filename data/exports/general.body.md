@@ -23,7 +23,7 @@ Here is the key insight, and it holds for every gradient: **the cue stays exactl
 
 Each gradient is a ladder. At the top is the real thing, which fully meets the need. As you descend, more of the real satisfaction is stripped away while the urge keeps firing. At the bottom is a pure proxy: it fires the cue perfectly and supplies nothing. The system never gets the signal that it can stand down - an "open loop" that just keeps running.
 
-A note on evidence: some rungs are well-evidenced, some are derived from the architecture, and a few are flagged as contested or speculative. We say so as we go.
+A note on evidence: some rungs are derived from the architecture, and a few are flagged as contested or speculative. We say so as we go.
 
 ---
 
@@ -53,7 +53,7 @@ Modern threats - debt, a hostile email, social media pile-ons, status anxiety - 
 
 ### How well-evidenced
 
-This is among the most strongly supported mechanisms here, with 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration); the only thing that overrides it is the social bonding system.
+This is among the most strongly supported mechanisms here, with 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration).
 
 ---
 
@@ -83,7 +83,7 @@ Variable-reward apps are designed to fire the seeking drive again and again with
 
 ### How well-evidenced
 
-Forced, 67 evidence links. Top and bottom rungs are well-evidenced; the trickiest call is whether the variable-reward app really sits above mindless scrolling. Key researchers: Panksepp, Berridge. Its dopamine-driven basal ganglia circuit is probably about 460 to 535 million years old, shared with lampreys (contested); the reward pathway itself is at least about 165 million years old. It gets suppressed by threat, social bonding, circadian, immune, and energy systems.
+Forced, 67 evidence links. The trickiest call is whether the variable-reward app really sits above mindless scrolling. Key researchers: Panksepp, Berridge. Its dopamine-driven basal ganglia circuit is probably about 460 to 535 million years old, shared with lampreys (contested); the reward pathway itself is at least about 165 million years old. It gets suppressed by threat, social bonding, circadian, immune, and energy systems.
 
 ---
 
@@ -115,7 +115,7 @@ The nuclear family, solo living, and screens substituting for physical presence 
 
 ### How well-evidenced
 
-This is the most heavily supported mechanism in the framework, with 192 evidence links. Forced. Key researchers: Bowlby, Panksepp, Coan, Hrdy. Attachment is about 165 to 200 million years old, as old as the mammals. The supporting research includes a finding that strong social relationships carry roughly a 50% survival advantage. In its secure state it enables most other systems; nothing recorded suppresses it.
+This is the most heavily supported mechanism in the framework, with 192 evidence links. Forced. Key researchers: Bowlby, Panksepp, Coan, Hrdy. Attachment is about 165 to 200 million years old, as old as the mammals. The supporting research includes a finding that strong social relationships carry roughly a 50% survival advantage. In its secure state it enables most other systems.
 
 ---
 
@@ -205,7 +205,7 @@ Abstract work where effort never visibly registers, rigid hierarchies, and burea
 
 ### How well-evidenced
 
-Forced, 38 evidence links. The first four rungs are well-evidenced; the trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
+Forced, 38 evidence links. The trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
 
 ---
 
@@ -360,7 +360,7 @@ Anonymous transactions, ghosting, and the absence of any shared narrative leave 
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years. Suppressed by reproduction.
+Strongly supported (Tier 2), 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
 
 ---
 
@@ -420,7 +420,7 @@ Ultra-processed foods are engineered to defeat the satiety signal, so the "stop"
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 34 evidence links. The endpoints are well-evidenced; the middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
+Strongly supported (Tier 2), 34 evidence links. The middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
 
 ---
 
@@ -450,7 +450,7 @@ Pornography, dating apps, delayed reproduction, and social-media mate-value comp
 
 ### How well-evidenced
 
-Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrdy. The sexual hormone axis is about 460 to 535 million years old, shared with lampreys; the human pair bond is about 2 to 4 million years old, and that date is contested. The female-typical version is VMH-centered, tied to estrous cycling, with a preference for resource and commitment signals and an emphasis on pair-bond security. The male-typical version is POA-centered, driven by tonic testosterone, attentive to fertility and accessibility cues, with an emphasis on sexual variety. It is suppressed by threat and care.
+Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrdy. The sexual hormone axis is about 460 to 535 million years old, shared with lampreys; the human pair bond is about 2 to 4 million years old, and that date is contested. It is suppressed by threat and care.
 
 ---
 

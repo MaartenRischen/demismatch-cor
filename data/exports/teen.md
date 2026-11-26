@@ -3,7 +3,7 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-11-25 07:12 UTC, from the live Cor atlas snapshot built 2026-11-25 07:12 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 03:04 UTC, from the live Cor atlas snapshot built 2026-11-26 03:04 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -54,7 +54,7 @@ What actually shuts it off? Safety. The threat is gone, beaten, or escaped.
 
 ### What goes wrong now
 
-Most modern "threats" can't be punched or outrun. Debt. A scary email. A nasty comment. Status anxiety. The alarm fires, but there's no lion to escape, so the system never gets the "you're safe now" signal. It just stays on. This system is ancient: its defence centre is around 460 to 535 million years old, shared with lampreys. It's so powerful it can shut down a bunch of other systems, and only one thing reliably calms it: social bonding.
+Most modern "threats" can't be punched or outrun. Debt. A scary email. A nasty comment. Status anxiety. The alarm fires, but there's no lion to escape, so the system never gets the "you're safe now" signal. It just stays on. This system is ancient: its defence centre is around 460 to 535 million years old, shared with lampreys. It's so powerful it can shut down a bunch of other systems.
 
 ## M2 - Pursuit / Exploration
 
@@ -96,7 +96,7 @@ Small nuclear families, people living alone, and screens standing in for actual 
 
 ## M4 - Social Calibration / Play
 
-Play is how you learn the social rules - how to read people, take turns, handle conflict, win and lose. It's not optional fluff. Animals that are scared or sick don't play, which tells you how fundamental it is.
+Play is how you learn the social rules - how to read people, take turns, handle conflict, win and lose. It's not optional fluff. Animals that are scared don't play, which tells you how fundamental it is.
 
 What satisfies it: real play with kids your own age, that you run yourselves, without an adult directing it, and with your actual bodies.
 
@@ -305,13 +305,6 @@ What resolves it: sexual fulfillment within a pair bond, a stable pair bond, and
 - A soft pure proxy - romance fiction, parasocial crushes.
 - **Bottom (fake):** a hard pure proxy - pornography, AI sexual content.
 
-### Two versions of the same system
-
-This system runs with two parameterizations of the same design:
-
-- **Female-typical:** VMH-centered, estrous cycling, prefers resource and commitment signals, emphasizes pair-bond security.
-- **Male-typical:** POA-centered, tonic testosterone, responds to fertility and accessibility cues, emphasizes sexual variety.
-
 ### What goes wrong now
 
 Pornography, dating apps, delayed reproduction, and comparing your mate value to a flood of images on social media. The pure-proxy versions fire the same drive without delivering any of what actually resolves it. The sexual side is around 460 to 535 million years old; the human pair bond is around 2 to 4 million years old, and that date is argued over.
@@ -357,4 +350,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-25 07:12 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-25 07:12 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 03:04 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-26 03:04 UTC.*

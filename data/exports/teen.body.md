@@ -44,7 +44,7 @@ What actually shuts it off? Safety. The threat is gone, beaten, or escaped.
 
 ### What goes wrong now
 
-Most modern "threats" can't be punched or outrun. Debt. A scary email. A nasty comment. Status anxiety. The alarm fires, but there's no lion to escape, so the system never gets the "you're safe now" signal. It just stays on. This system is ancient: its defence centre is around 460 to 535 million years old, shared with lampreys. It's so powerful it can shut down a bunch of other systems, and only one thing reliably calms it: social bonding.
+Most modern "threats" can't be punched or outrun. Debt. A scary email. A nasty comment. Status anxiety. The alarm fires, but there's no lion to escape, so the system never gets the "you're safe now" signal. It just stays on. This system is ancient: its defence centre is around 460 to 535 million years old, shared with lampreys. It's so powerful it can shut down a bunch of other systems.
 
 ## M2 - Pursuit / Exploration
 
@@ -86,7 +86,7 @@ Small nuclear families, people living alone, and screens standing in for actual 
 
 ## M4 - Social Calibration / Play
 
-Play is how you learn the social rules - how to read people, take turns, handle conflict, win and lose. It's not optional fluff. Animals that are scared or sick don't play, which tells you how fundamental it is.
+Play is how you learn the social rules - how to read people, take turns, handle conflict, win and lose. It's not optional fluff. Animals that are scared don't play, which tells you how fundamental it is.
 
 What satisfies it: real play with kids your own age, that you run yourselves, without an adult directing it, and with your actual bodies.
 
@@ -294,13 +294,6 @@ What resolves it: sexual fulfillment within a pair bond, a stable pair bond, and
 - A partial proxy - a dating app that leads to a real meeting.
 - A soft pure proxy - romance fiction, parasocial crushes.
 - **Bottom (fake):** a hard pure proxy - pornography, AI sexual content.
-
-### Two versions of the same system
-
-This system runs with two parameterizations of the same design:
-
-- **Female-typical:** VMH-centered, estrous cycling, prefers resource and commitment signals, emphasizes pair-bond security.
-- **Male-typical:** POA-centered, tonic testosterone, responds to fertility and accessibility cues, emphasizes sexual variety.
 
 ### What goes wrong now
 

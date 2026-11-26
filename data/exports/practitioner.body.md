@@ -55,7 +55,7 @@ Modern threats - debt, emails, social media, status anxiety - cannot be fought o
 
 ### Cascade
 
-M1 is powerful. It suppresses pursuit (M2), play (M4), reproductive motivation (M14), movement (M10), and status monitoring (M6 - controllability). When threat is high, exploration, play, sex, exercise, and a sense of agency all go offline - which is exactly what you see in a chronically threatened client. M1 is itself suppressed only by M3 (social bonding): a trusted other present can turn the alarm down.
+M1 is powerful. It suppresses pursuit (M2), play (M4), reproductive motivation (M14), movement (M10), and status monitoring (M6 - controllability). When threat is high, exploration, play, sex, exercise, and a sense of agency all go offline - which is exactly what you see in a chronically threatened client. M1 is itself suppressed by M3 (social bonding): a trusted other present can turn the alarm down.
 
 ### What changing the inputs means
 
@@ -129,7 +129,7 @@ The nuclear family, isolated living, and mediated contact substituting for physi
 
 ### Cascade
 
-M3 in its security state is the great enabler - it suppresses threat (M1), and it gates pursuit, play, movement, and agency. In its grief state it suppresses them. It is not suppressed by anything in the recorded cascade and interacts with M14. Recall the survival data behind this: strong social relationships confer roughly a 50% survival advantage (Holt-Lunstad).
+M3 in its security state is the great enabler - it suppresses threat (M1), and it gates pursuit, play, and movement. In its grief state it suppresses them. It interacts with M14. Recall the survival data behind this: strong social relationships confer roughly a 50% survival advantage (Holt-Lunstad).
 
 ### What changing the inputs means
 
@@ -237,7 +237,7 @@ Abstract work where effort does not visibly register. Rigid hierarchies. Bureauc
 
 ### Cascade
 
-M6 is suppressed by threat (M1), reproduction (M14), and bonding's grief state (M3). Because helplessness is the default and agency the override, and because chronic defensive activation degrades the cortical override machinery, this system is fragile under load - and restoring it is often the wedge that lets other cascades reverse.
+M6 is suppressed by threat (M1). Because helplessness is the default and agency the override, and because chronic defensive activation degrades the cortical override machinery, this system is fragile under load - and restoring it is often the wedge that lets other cascades reverse.
 
 ### What changing the inputs means
 
@@ -273,7 +273,7 @@ Electric light, blue screens, shift work, caffeine. These do not just shorten sl
 
 ### Cascade
 
-No recorded cascade links - but functionally this clock gates metabolism, immunity, cognition, and mood, so its disruption shows up everywhere. Always screen circadian inputs in a client with diffuse, cross-domain complaints.
+Functionally this clock gates metabolism, immunity, cognition, and mood, so its disruption shows up everywhere. Always screen circadian inputs in a client with diffuse, cross-domain complaints.
 
 ### What changing the inputs means
 
@@ -309,7 +309,7 @@ Chronic low-grade inflammation from diet, sedentarism, and social isolation. The
 
 ### Cascade
 
-No recorded cascade links, but this is described as the **hub** connecting inflammation to low mood across the wider system. When you see a low-mood picture, inflammation is a candidate input - and the relevant inputs (diet, movement, sleep, social connection) sit in M13, M10, M7, and M3.
+This is described as the **hub** connecting inflammation to low mood across the wider system. When you see a low-mood picture, inflammation is a candidate input - and the relevant inputs (diet, movement, sleep, social connection) sit in M13, M10, M7, and M3.
 
 ### What changing the inputs means
 
@@ -418,7 +418,7 @@ Anonymous transactions, ghosting, no shared narrative. The system needs reputati
 
 ### Cascade
 
-M11 is suppressed by M14 (reproduction). Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
+Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
 
 ### What changing the inputs means
 
@@ -478,7 +478,7 @@ What resolves it: effortful, diverse, seasonal whole foods, and metabolic variet
 - **MINIMAL:** energy-dense palatable food optimized for crave. Cue fires, satiety begins to fail.
 - **DEFEATED:** ultra-processed bliss-point food, an engineered supernormal stimulus. The off-switch is actively defeated.
 
-The endpoints are evidenced; the middle three rungs are architecture-derived. (The contestable point: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or just a bimodal whole-versus-ultra-processed split.)
+The middle three rungs are architecture-derived. (The contestable point: whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or just a bimodal whole-versus-ultra-processed split.)
 
 ### Mismatch prediction
 
@@ -486,7 +486,7 @@ Ultra-processed foods defeating satiety signals. This is the engineered supernor
 
 ### Cascade
 
-No recorded cascade links - but recall that M13 is among the systems whose state can suppress pursuit (M2), and inflammation (M8) is fed by poor diet, so energy regulation is wired into the wider load picture.
+Recall that M13 is among the systems whose state can suppress pursuit (M2), and inflammation (M8) is fed by poor diet, so energy regulation is wired into the wider load picture.
 
 ### What changing the inputs means
 
@@ -504,11 +504,6 @@ Patching means asking a client to out-discipline a food specifically engineered 
 
 Built on Fisher's three-system model - desire, attraction, and pair bonding - which can each operate independently of one another. This system is independent from general pursuit (M2) and runs partly on the HPG axis, not only on brain circuits. The framework notes it shapes far more of human behavior than reproduction itself. In a person, deficit and hijack show up as compulsive use of sexual or romantic proxies alongside an absence of real pair-bonded fulfillment.
 
-This is the one Tier-1 mechanism with a **sex-differentiated implementation** - the same system, two parameterizations:
-
-- **Female-typical:** VMH-centered, estrous cycling, preference for resource and commitment signals, emphasis on pair-bond security.
-- **Male-typical:** POA-centered, tonic testosterone, attention to fertility and accessibility cues, emphasis on sexual variety.
-
 What resolves it: sexual fulfillment within a pair bond, plus pair-bond stability, plus reproductive success.
 
 ### The proxy gradient
@@ -525,11 +520,11 @@ Pornography, dating apps, delayed reproduction, and social-media mate-value comp
 
 ### Cascade
 
-M14 suppresses agency (M6) and cooperation (M11), and is itself suppressed by threat (M1), immune activation (M8), and care (M9). It interacts with bonding (M3), status (M5), and pursuit (M2). Clinically: high threat, inflammation, or active caregiving load can each suppress reproductive motivation - so low desire may be a downstream signal, not a primary problem.
+M14 is suppressed by threat (M1) and care (M9). It interacts with bonding (M3), status (M5), and pursuit (M2). Clinically: high threat or active caregiving load can each suppress reproductive motivation - so low desire may be a downstream signal, not a primary problem.
 
 ### What changing the inputs means
 
-Patching means treating compulsive proxy use as a standalone behavioral addiction in isolation. Changing the inputs means addressing what is suppressing or failing to resolve the system - threat, inflammation, the absence of a stable pair bond - and recognizing that the hard proxies at the floor fire the cue maximally while supplying none of the pair-bond stability and fulfillment that resolve it.
+Patching means treating compulsive proxy use as a standalone behavioral addiction in isolation. Changing the inputs means addressing what is suppressing or failing to resolve the system - threat, the absence of a stable pair bond - and recognizing that the hard proxies at the floor fire the cue maximally while supplying none of the pair-bond stability and fulfillment that resolve it.
 
 ### Evidence
 

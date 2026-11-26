@@ -3,7 +3,7 @@
 
 *For kids. Simple words, short, friendly, and honest.*
 
-> Generated 2026-11-25 07:12 UTC, from the live Cor atlas snapshot built 2026-11-25 07:12 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 03:04 UTC, from the live Cor atlas snapshot built 2026-11-26 03:04 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
 > **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
 
@@ -46,7 +46,7 @@ The real thing is being together in person with people who care about you and ca
 
 ## M4 - Social Calibration / Play
 
-This helper learns how to get along with others by playing. Running around, chasing, and making up games teaches you the rules of being with friends. Animals that are scared or sick do not play, so play is a sign things are okay.
+This helper learns how to get along with others by playing. Running around, chasing, and making up games teaches you the rules of being with friends. Animals that are scared do not play, so play is a sign things are okay.
 
 The real thing is playing with other kids your age, making up your own games with your bodies, not just watching. The pretend version is a game you play alone on a screen with no real friend to play back. It can feel fun, but it does not teach you how to play with people. It is like dancing alone instead of dancing with a partner.
 
@@ -114,7 +114,7 @@ The real thing is a real partner you share life with. The pretend versions are t
 
 ## R1 - Touch
 
-This one is a little different. It is not a helper that pushes you to do something. It is more like a special feeling channel that helps your bonding helper (M3) feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
+This one is a little different. It is more like a special feeling channel that helps your bonding helper (M3) feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
 
 The real thing is a warm hug or hand-hold from someone you trust who hugs you back. Other kinds of touch, like a soft blanket or a touch machine, can feel nice, but they are not a living friend. A real cuddle from someone who loves you does something special that a blanket cannot. Gentle touch matters so much that holding tiny new babies skin-to-skin helps keep them safe and healthy.
 
@@ -135,4 +135,4 @@ The tricky part: a pretend version can trick your brain into feeling like it cou
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-25 07:12 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Kids edition was compiled 2026-11-25 07:12 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 03:04 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Kids edition was compiled 2026-11-26 03:04 UTC.*

@@ -17,13 +17,13 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Social network layers (~5/15/50/150)
 `EEA-SOC-01 · Social structure` - **tested many times**
 
-**Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass.
+**Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (people whose loss would be deeply felt, contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp of casual-but-close associates), and an active personal network of ~150 (the clan/tribal layer, the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy, obligation, and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).
 
 **Now (modern default):** The modern environment delivers a radically inverted network shape: nominal friend/follower counts in the hundreds or thousands that vastly exceed the ~150 cognitive ceiling, while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, statistically indistinguishable from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are inactive labels rather than relationships (only ~27.6% of online 'friends' are reported as genuine). Inner-layer bonds decay back toward mere acquaintance without the face-to-face contact the architecture was built to expect; mediated contact slows but does not substitute for it. The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not, and cannot, enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).
 
 **The gap to work with:** The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 12
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 18
 
 #### Lifetime known-individual ceiling (~1,000)
 `EEA-SOC-02 · Social structure` - **tested once**
@@ -38,16 +38,16 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
-#### Band / camp size (a few dozen adults)
+#### Band / camp size (a few dozen people)
 `EEA-SOC-03 · Social structure` - **tested many times**
 
-**Ancestrally:** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen adults - central estimates clustering near ~28-35 - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
+**Ancestrally:** Ancestral humans lived in small, residentially co-present foraging bands (camps): a single overnight camp typically held on the order of a few dozen people - a median residential group of 27 people across 263 forager societies (ext 754), and about 30 individuals in Hadza camps (ext 603) - a scale that sits within the Dunbar 'band' layer (~35) and 'overnight camp' layer (~50) of the nested social network. At this scale every co-resident is a personally known, named individual whose behaviour can be directly observed and tracked over time. Band size was thus bounded well below the ~150 active-network ceiling, keeping the day-to-day social field small enough that cooperation, status, and bonding all operated face-to-face among mutually familiar people rather than among anonymous strangers.
 
-**Now (modern default):** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen adults has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
+**Now (modern default):** Modern humans do not live in a single bounded, personally-known residential band. Daily life is partitioned across many large, partly anonymous groupings - workplaces, apartment buildings, transit systems, schools, and online networks - most of which exceed the face-to-face band scale and many of which exceed the ~150 ceiling entirely. A person routinely shares physical or digital space with hundreds or thousands of unfamiliar individuals while their actual co-regulating relationships shrink. The small, stable, fully-known co-resident group of a few dozen people has no direct modern equivalent; its functions are split across institutions where most co-present others are strangers.
 
-**The gap to work with:** The ancestral social field was a small set of a few dozen personally-known adults sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen adults) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
+**The gap to work with:** The ancestral social field was a small set of a few dozen personally-known people sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen people) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 8
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 10
 
 #### Within-camp kin fraction (low; campmates mostly unrelated)
 `EEA-SOC-04 · Social structure` - **tested many times**
@@ -58,7 +58,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The ancestral signal was: 'the group around me is mostly unrelated people I (or my band) actively chose and continuously vetted through reciprocity and reputation; kinship is not what holds us together, the relationships are.' The modern signal is degraded on the selection axis: the unrelated people around us are still mostly unrelated (that part matches), but they are assigned rather than chosen, and the reciprocity/reputation machinery that turned unrelated campmates into durable trusted allies is largely absent or shallow. Mechanisms M3 (bonding) and M11 (cooperation/alliance) evolved expecting that low kin-relatedness would be compensated by self-selected, reciprocal, reputation-anchored dyads. Modernity delivers the low relatedness WITHOUT the compensating chosen-and-vetted dyadic structure, so the mechanisms fire in a world of unrelated-but-also-unbonded co-residents, which is a key part of why being surrounded by people can still register as social isolation.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 4
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 5
 
 #### Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)
 `EEA-SOC-05 · Social structure` - **tested once**
@@ -78,7 +78,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity; kinship not main glue)
 `EEA-SOC-06 · Social structure` - **tested once**
 
-**Ancestrally:** Who you lived alongside was not assigned by birth or fixed institution but produced by an ongoing, choice-driven assortment process operating across frequent residential reshuffling. In Hadza camps this "algorithm" had recurring structure: (1) homophily - co-residence was more likely between people similar in age, height, weight, body fat, and handgrip strength; (2) strong reciprocity - naming was near-symmetric, with an ego roughly 37-51x (point ~44x) more likely to name an alter who named them; (3) cooperator assortment - cooperators clustered with cooperators, an association extending out to two degrees of separation in gift networks; plus transitivity and geographic decay. Crucially, kinship was NOT the main glue: people actively sorted on disposition and reciprocity, not primarily on relatedness. The output was a camp continually re-composed of preferred, reciprocating, similarly-cooperative partners.
+**Ancestrally:** Who you lived alongside was not assigned by birth or fixed institution but produced by an ongoing, choice-driven assortment process operating across frequent residential reshuffling. In Hadza camps this "algorithm" had recurring structure: (1) homophily - in both the campmate and gift networks, social ties were more likely between people similar in age, height, weight, body fat, and handgrip strength; (2) strong reciprocity - naming was near-symmetric, with an ego roughly 37-51x (point ~44x) more likely to name an alter who named them; (3) cooperator assortment - cooperators clustered with cooperators, an association extending out to two degrees of separation in gift networks; plus transitivity and geographic decay. Crucially, kinship was NOT the main glue: people actively sorted on disposition and reciprocity, not primarily on relatedness. The output was a camp continually re-composed of preferred, reciprocating, similarly-cooperative partners.
 
 **Now (modern default):** Group membership is overwhelmingly assigned rather than self-assorted: workplaces, school classes, residential buildings, and algorithmically-curated feeds place you among people you did not choose and who did not choose you. Where modern matching exists (dating apps, professional networks, recommender feeds), the optimization target is engagement, novelty, or proximity-of-the-moment - not durable mutual reciprocity, demonstrated cooperativeness, or transitive trust within a personally-known group. The ancestral feedback loop (you preferentially co-reside with people who reciprocate your investment and who others vouch for, observed directly over time) is largely absent; assortment on cooperation is replaced by assortment on platform metrics or institutional convenience.
 
@@ -88,18 +88,18 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
-#### Relationship longevity & maintenance (decades-long durable dyads; ~27-yr co-survival ceiling; maintenance institutions like hxaro conserve bonds across distance)
+#### Relationship longevity & maintenance (decades-long durable dyads; maintenance institutions like hxaro conserve bonds across distance)
 `EEA-SOC-07 · Social structure` - **tested once**
 
-**Ancestrally:** In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with most campmates changing from one survey wave to the next), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Two adults who reached adulthood together could expect on the order of ~27 years of overlapping co-survival, and reciprocal alliances ran over that whole horizon. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.
+**Ancestrally:** In ancestral foraging life the load-bearing social unit was the durable, reciprocal DYAD, not the group. Because groups continuously reshuffled (camps fissioned/fused on the order of every ~4-8 weeks, with most campmates changing from one survey wave to the next), what was conserved across the churn was the relationship itself, sustained for decades by both face-to-face co-presence when proximity allowed AND by explicit maintenance institutions when it did not. Among the Ju/'hoansi, hxaro was a formal delayed-reciprocity gift-partnership system reported to begin in childhood, be kept for life, be inherited at death, and span dispersed bands up to ~200 km apart, with only a minority of a person's partners co-resident in the current camp, so a bond could persist even when the two partners were rarely or never in the same camp. Trivers's conditions for the evolution of reciprocal altruism describe exactly this regime: a long lifetime, low dispersal, and repeated interaction with the same small set of individuals, so that an investment in a specific partner reliably paid back over time.
 
-**Now (modern default):** The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Empirically, friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and online media at best slows that decay rather than preventing it. Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.
+**Now (modern default):** The modern environment inverts the ancestral pattern: it supplies stable GROUP labels (a workplace, a school cohort, a social-media feed, a city) while the dyads inside them are shallow and disposable, and there is no institutional equivalent of hxaro that conserves a specific bond once physical proximity ends. When two people stop sharing a context, the relationship is simply allowed to decay; nothing structurally obligates either party to keep servicing it. Dunbar proposes that friendships require recurring face-to-face contact to avoid sliding down through the network layers and eventually dropping out of the personal network entirely, and that online media at best slows that decay rather than preventing it (ext 509). Trust and bond depth track time invested in a relationship, and the maintenance cost (mainly time) scales roughly linearly with the number of relationships, so modern people spread thin investment across large, low-trust networks and let most ties lapse rather than maintaining a small set of partners across decades.
 
 **The gap to work with:** The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, long-term delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.
 
 **What actually has to be present (resolution unit):** The durable, spatially-dispersed reciprocal DYAD plus the maintenance institutions that conserve it across distance and time - i.e., a specific named partner whose bond is actively serviced (face-to-face when possible, and via hxaro-type delayed-reciprocity exchange when apart) so the relationship persists for decades and survives the reshuffling of any particular group. Conserved across the churn is the relationship, not the group; the resolution requires migrating a bond to an institution that keeps it alive once proximity ends, not merely accumulating more low-investment ties.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 6
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 7
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -114,7 +114,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.
 
-**Serves:** M1 - Threat Management, M3 - Social Bonding  ·  evidence links: 8
+**Serves:** M1 - Threat Management, M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -127,7 +127,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 10
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 11
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -151,7 +151,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for students more likely to compare badly with their peers (ext 2031, 2032).
 
-**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 10
+**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 11
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -171,13 +171,13 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### What standing buys (children)
 `EEA-SOC-13 · Social structure` - **tested many times**
 
-**Ancestrally:** Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had more surviving children in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.
+**Ancestrally:** Across 33 non-industrial societies, higher-status men had more children (meta-analysis of 288 results, overall r 0.19). The effect in foragers (Zr 0.18) was about the same as in farmers and herders. Status worked mostly through more mates and more births, less through fewer child deaths, and the effect on surviving children was about a third smaller where marriage was monogamous. Better hunters had higher age-corrected reproductive success than other men in their group in five societies (Ache, Hadza, !Kung, Lamalera, Meriam). Among the Tsimane both dominance and prestige went with higher fertility, prestige most.
 
 **Now (modern default):** In industrial societies the link between men's status and number of children is weaker than in pre-industrial societies, and the sexes differ: men with higher incomes still have more children, mainly because poor men more often stay childless, while higher income in women and more education in both sexes typically go with fewer children (ext 5072). Professional status-seeking takes the time and money that children need.
 
 **The gap to work with:** Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. Across industrial populations, wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, and income went with more children in men and fewer in women (Stulp and Barrett 2016); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 9
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 11
 
 #### Wealth gaps (low to moderate in foragers)
 `EEA-SOC-14 · Social structure` - **tested many times**
@@ -188,7 +188,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
 
-**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 5
+**Serves:** M11 - Cooperation / Alliance, M5 - Status Monitoring  ·  evidence links: 7
 
 #### Famous strangers (one-way bonds)
 `EEA-SOC-15 · Social structure` - **tested once**
@@ -199,7 +199,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. In a preregistered experiment, thinking about a favourite media figure lowered negative mood about as much as thinking about a friend, and did not lower loneliness, which thinking about a friend did (ext 1371); De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
 
-**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 5
+**Serves:** M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -249,7 +249,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. Project position: the missing exchange is what lowers mood. Among 37,193 older Japanese adults followed for three years, men living alone who usually ate alone had 2.36 times the rate of new depressive symptoms of men living alone who ate with others, after adjustment for income, health, nutrition and other factors (ext 3684); in a cross-sectional study, people who lived with their families yet ate alone had the highest odds of depressive symptoms (ext 3583).
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 18
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding  ·  evidence links: 21
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -296,13 +296,13 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Timing: puberty to first birth
 `EEA-MATE-04 · Mating & reproduction` - **tested many times**
 
-**Ancestrally:** Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, Agta 20.2) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
+**Ancestrally:** Forager women had their first child at about 19 to 20 in five groups (Hadza 18.8, !Kung 19.2, Ache 19.5, Hiwi 20.5, ext 844; Agta 20.2, ext 845) and at about 15.4 among the Pume (Kramer 2008, ext 3816). Mean age at first menstruation ranged from 12.6 to 18.4 across 22 natural-fertility societies, and first birth followed about four years later. Last births came near 39.
 
 **Now (modern default):** US median age at first menstruation was 11.9 in 2013 to 2017. US mean age at first birth rose from 21.4 in 1970 to 25.0 in 2006 and 27.5 in 2023; in 2006 it was 29.4 in Switzerland, and it rose in every rich country compared.
 
 **The gap to work with:** The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.
 
-**Serves:** M14 - Reproductive Motivation  ·  evidence links: 10
+**Serves:** M14 - Reproductive Motivation  ·  evidence links: 11
 
 #### Number of children and spacing
 `EEA-MATE-05 · Mating & reproduction` - **tested many times**
@@ -313,18 +313,18 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Fewer children, fewer pregnancies and far more menstrual cycles. Each birth lowered the relative risk of breast cancer by 7.0 percent and each 12 months of breastfeeding by a further 4.3 percent across 47 studies in 30 countries, and the authors estimate that the births and breastfeeding usual in developing countries until recently would cut the cumulative risk by age 70 in developed countries from 6.3 to 2.7 per 100 women (Collaborative Group on Hormonal Factors in Breast Cancer 2002). Women in the top quarter of lifetime ovulatory cycles had 1.81 times the odds of ovarian cancer of women in the bottom quarter (Pelucchi et al. 2007). Childlessness at 10 to 20% is high, but it is no new level for Europe. No forager source on the share of adults who never reproduce was found.
 
-**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 9
+**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 11
 
 #### What gets a person chosen, and how unequal men are
 `EEA-MATE-06 · Mating & reproduction` - **tested many times**
 
-**Ancestrally:** Among foragers, men who hunted better had more surviving children (Ache, Hadza, !Kung, Lamalera, Meriam), and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
+**Ancestrally:** In five societies (Ache, Hadza, !Kung, Lamalera, Meriam), men who hunted better had higher age-corrected reproductive success than other men in their group, and Hadza men with deeper voices and stronger upper bodies had more children. Hadza women put great weight on a man's foraging, and men on a woman working hard. Men's number of children varied more than women's: the male to female variance ratio was 1.66 among the Aka, 1.77 among the !Kung, 1.93 among the Hadza and 4.22 among the Ache. How large the gap is depends on the marriage system; in monogamous populations it is about 1.
 
 **Now (modern default):** Stated preferences keep the same sex differences across 45 countries (14,399 people): men weight looks and youth more, women earning prospects and an older partner. On dating sites attention concentrates on a few. In the US, the share of men aged 18 to 24 with no sex in the past year rose from 18.9% (2000 to 2002) to 30.9% (2016 to 2018), and men with lower income and no full-time work were more often sexually inactive.
 
 **The gap to work with:** Choice used to run on skill and character seen over years in a small group. On apps it runs on photos and stated traits, and the sex differences in stated preferences barely show up in whom people like when they meet. Whether the rise in sexless young men comes from this shift is untested.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 16
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 17
 
 #### Rivals and comparison
 `EEA-MATE-07 · Mating & reproduction` - **argued, not yet tested**
@@ -335,7 +335,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The comparison set grew from people one knew to the top of a global field, chosen and edited for display. Whether this lowers self-rated mate value outside the lab is untested; the one tested contrast effect from the same lab, for erotica, failed to replicate.
 
-**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 5
+**Serves:** M14 - Reproductive Motivation, M5 - Status Monitoring  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -348,7 +348,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. In three preregistered replications, viewing the images did not lower attraction or love for a partner, against the one 1989 experiment that reported it. In two US panels, husbands who used them more reported lower marital quality six years later (among wives the link ran the other way), and starting use went with divorce by the next survey wave in women and men. Feeling addicted tracks moral conflict about one's own use as well as how much one uses.
 
-**Serves:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration  ·  evidence links: 9
+**Serves:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration  ·  evidence links: 13
 
 #### Sex and conception coupled
 `EEA-MATE-09 · Mating & reproduction` - **tested many times**
@@ -359,7 +359,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** Sex no longer signals possible children. The motivation system that rewards sex runs as before, while the number of children is now set by a separate decision.
 
-**Serves:** M14 - Reproductive Motivation  ·  evidence links: 4
+**Serves:** M13 - Energy Regulation, M14 - Reproductive Motivation  ·  evidence links: 5
 
 #### Paternity and affairs (rates vary between societies)
 `EEA-MATE-10 · Mating & reproduction` - **tested many times**
@@ -370,7 +370,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **The gap to work with:** No gap is shown. Cor has no forager genetic paternity rate to compare with, and the modern Western figures match the ones that exist. A page cannot claim that affairs are more or less common than in the past.
 
-**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 9
+**Serves:** M14 - Reproductive Motivation, M9 - Care / Alloparenting  ·  evidence links: 10
 
 
 ### Care & development
@@ -378,7 +378,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Alloparental care supply (a village, not a dyad)
 `EEA-CARE-01 · Care & development` - **tested many times**
 
-**Ancestrally:** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This is part of human biology: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; Trobriand infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
+**Ancestrally:** Ancestral human infants were not raised by a mother alone but by a network of allomothers - fathers, grandmothers, aunts, older siblings, and trusted non-kin - who shared both direct care (holding, carrying, soothing) and provisioning (food). Humans are a cooperatively breeding ape: unlike other African apes, whose mothers nurture infants essentially on their own, hominin mothers relied on groupmates to protect, care for, and provision their unusually slow-maturing, costly young. This is part of human biology: a human child requires on the order of 13 million calories from birth to independence, and humans breed faster (every 3-4 years) than chimpanzees and orangutans (about every 5.5 and 7.7 years; gorillas breed about every 3.8 years, Galdikas and Wood 1990, ext 3519) while producing larger, slower-maturing babies - a life-history paradox solvable only by shared provisioning. Across foraging ethnography, infants were routinely handled by people other than the mother from shortly after birth: among the Hadza, the mother does roughly 69% of the time children aged four and under were held (ext 2128) and allomothers the rest; !Kung infants have the mother's entire social world available with intense face-to-face engagement; among the Trobriand Islanders, who are horticulturalists, infants are suckled by lactating allomothers. The infant's evolved expectation is a reliable surround of multiple invested caregivers, not a single isolated dyad.
 
 **Now (modern default):** The modern default is the isolated nuclear (often single-caregiver) household: one or two adults, frequently without resident grandmothers, aunts, older cousins, or trusted neighbours sharing the daily load. The idealized breadwinner-father / homemaker-mother / biological-children unit is a historical aberration roughly a century old (Victorian at most; the 1950s template in the US), departing from the extended-kin allomaternal norm that held for the vast majority of human history. Care that was distributed across many hands is now concentrated on one or two, often supplemented by paid, rotating, or institutional caregivers rather than a stable invested kin network.
 
@@ -386,12 +386,12 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable, present alloparental supply - care plus provisioning actually delivered by invested caregivers - NOT bare kin count or genealogical presence. Four relatives who live far away and do not share the daily load do not satisfy the parameter; what the infant and mother expect is dependable, hands-on, repeated care from a stable surround.
 
-**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 19
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 21
 
 #### Caregiver continuity and reliability (present, not merely countable)
 `EEA-CARE-02 · Care & development` - **argued, not yet tested**
 
-**Ancestrally:** The ancestral infant developed within a web of stable, repeatedly-present attachment figures whose availability could be counted on. Attachment is not a single dyadic bond but secure attachment to one or more trusted caretakers - Bowlby's design refined by Hrdy to plural, reliably-present figures - and human infants are equipped with traits (cuteness, prolonged eye contact, social smiling, differentiated cries) for recruiting and holding the attention of multiple potential caretakers. Crucially, maternal commitment itself is contingent and reliability-sensitive: for a cooperatively breeding mammal, the capacity to conceive is only part of the equation; the mother must be able to carry through to rearing independence, which she assesses against the dependable support actually available. Touch is part of this continuity - the infant evolved to expect near-continuous skin contact (carried, held, co-sleeping), a sense developed first in utero and serving as a primary regulatory channel. The expectation is not a list of relatives but caregivers who are reliably, physically present across time.
+**Ancestrally:** The ancestral infant developed within a web of stable, repeatedly-present attachment figures whose availability could be counted on. Attachment is not a single dyadic bond but secure attachment to one or more trusted caretakers, Bowlby's design refined by Hrdy to plural, reliably-present figures, and human infants are equipped with traits (cuteness, prolonged eye contact, social smiling, differentiated cries) for recruiting and holding the attention of multiple potential caretakers. Crucially, maternal commitment itself is contingent and reliability-sensitive: for a cooperatively breeding mammal, the capacity to conceive is only part of the equation; the mother must be able to carry through to rearing independence, which she assesses against the dependable support actually available. Touch is part of this continuity. In the Standard Cross-Cultural Sample the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). Field argues that the skin is the first and the largest sense organ to develop prenatally (ext 296). The expectation is not a list of relatives but caregivers who are reliably, physically present across time.
 
 **Now (modern default):** Modern caregiving is frequently discontinuous and rotating: paid daycare with staff turnover, sequential and inconsistent caregivers, geographically dispersed or intermittently-available kin, and reduced continuous body contact (separate sleeping, stroller and crib time, scheduled rather than on-demand holding). Caregivers may be nominally present (counted on paper) yet not reliably, responsively available in the moment-to-moment way the regulatory system expects.
 
@@ -399,7 +399,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable, present caregiver supply - responsive caregivers actually and repeatedly available across time, including continuity of body contact - NOT a count of designated or genealogically-related caregivers. The naive reading (enough named caregivers exist) misleads; what regulates the infant is dependable presence.
 
-**Serves:** M9 - Care / Alloparenting, R1 - Touch  ·  evidence links: 8
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch  ·  evidence links: 9
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -414,7 +414,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Self-directed, mixed-age, physically-active free play actually engaged in - partnered play experience - NOT adult-structured activities, solitary screen play, or scheduled lessons that occupy time without delivering the rough-and-tumble, role-reversal, peer-negotiated input the circuits expect.
 
-**Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 15
+**Serves:** M4 - Social Calibration / Play, M9 - Care / Alloparenting  ·  evidence links: 16
 
 #### Multigenerational presence (older people inside the band's giving and getting)
 `EEA-CARE-04 · Care & development` - **tested many times**
@@ -427,7 +427,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.
 
-**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 12
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting  ·  evidence links: 20
 
 
 ### Touch & contact
@@ -443,7 +443,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.
 
-**Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 14
+**Serves:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch  ·  evidence links: 14
 
 #### Co-sleeping / nighttime body contact
 `EEA-TOUCH-02 · Touch & contact` - **tested many times**
@@ -452,7 +452,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** WEIRD norms favor solitary infant sleep in a separate crib or room, removing nighttime body contact for most of the sleep period; adult sleep is also frequently solitary or contact-minimized.
 
-**The gap to work with:** Solitary infant and child sleep removes the nighttime half of the ancestral continuous-contact regime, eliminating touch-based physiological co-regulation during sleep. The evidence that night contact regulates infant physiology comes from one lab (McKenna 2014, ext 615, 616).
+**The gap to work with:** Solitary infant sleep removes the nighttime proximity of the Standard Cross-Cultural Sample, where the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). It removes the nighttime physiological co-regulation measured in cosleeping pairs, where mother and infant induce arousals in one another within seconds (ext 615). The evidence for this co-regulation comes from one lab (McKenna 2014, ext 615, 616).
 
 **What actually has to be present (resolution unit):** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
@@ -469,7 +469,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.
 
-**Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 5
+**Serves:** M3 - Social Bonding, R1 - Touch  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -479,15 +479,15 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal
 `EEA-CIRC-01 · Circadian & sensory` - **tested many times**
 
-**Ancestrally:** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination (often >10,000 lux outdoors), a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells, not light intensity per se.
+**Ancestrally:** Across evolutionary history the human circadian pacemaker (suprachiasmatic nucleus) was entrained by a high-amplitude natural light-dark cycle: bright full-spectrum daytime illumination, a gradual dusk dimming and reddening, and then real darkness for the duration of the biological night, with only firelight (low, long-wavelength) as evening illumination. Contemporary hunter-gatherer reference populations (Hadza, San) show sleep onset between 8-10 p.m., two to three hours after sunset (ext 77). In wrist-sensor recordings of Hadza, San and Tsimane adults, no group went to sleep near sunset: sleep began on average 3.3 hours after sunset (ext 2224). The operative signal is the timing and spectral content of light at the day-night transition reaching melanopsin-containing retinal ganglion cells.
 
 **Now (modern default):** Indoor electric and screen light keeps evening illumination bright and short-wavelength (blue-enriched, ~450nm) well past dusk, suppressing melatonin and delaying its onset by 1.5-3 hours; daytime indoor light is far dimmer than outdoor light, flattening the day-night amplitude. The dusk dimming/reddening gradient and true nocturnal darkness are largely abolished.
 
 **The gap to work with:** The modern light environment inverts the ancestral pattern on both ends: too little bright light by day, too much blue-enriched light at night, with no real darkness. This delays circadian phase, compresses and fragments the biological night, and decouples internal time from external solar time.
 
-**What actually has to be present (resolution unit):** Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness), not total daily light dose or generic 'brightness'.
+**What actually has to be present (resolution unit):** Spectral timing of light exposure at the day-night transition (dusk dimming + nocturnal darkness).
 
-**Serves:** M7 - Circadian Regulation  ·  evidence links: 11
+**Serves:** M7 - Circadian Regulation  ·  evidence links: 13
 
 #### Sleep timing/phase alignment to the biological night (not a fixed duration target)
 `EEA-CIRC-02 · Circadian & sensory` - **tested many times**
@@ -500,18 +500,18 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Sleep timing/phase - the alignment of the sleep episode to internal circadian night - NOT sleep duration.
 
-**Serves:** M7 - Circadian Regulation  ·  evidence links: 14
+**Serves:** M7 - Circadian Regulation  ·  evidence links: 21
 
 #### Falling evening ambient temperature as a second sleep-onset cue
 `EEA-CIRC-03 · Circadian & sensory` - **tested once**
 
-**Ancestrally:** Outside thermally buffered shelter, ancestral evenings carried a reliable nocturnal drop in ambient temperature that paralleled dusk. This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light. The baseline environment thus paired a dimming light gradient with a falling temperature gradient at the day-night transition.
+**Ancestrally:** In Hadza, San and Tsimane, the sleep period consistently occurred during the nighttime period of falling environmental temperature and ended near the nadir of daily ambient temperature (ext 745). This descending thermal ramp coincides with the endogenous evening fall in core body temperature that gates sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light.
 
-**Now (modern default):** Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the evening cooling ramp; evening heat (and sometimes overheated bedrooms) can also oppose the core-temperature fall required for sleep onset.
+**Now (modern default):** Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the nighttime period of falling environmental temperature (ext 745); evening heat (and sometimes overheated bedrooms) can also oppose the core-temperature fall required for sleep onset.
 
-**The gap to work with:** By flattening the daily thermal cycle, modern housing removes a candidate onset cue that historically co-occurred with dusk and reinforced circadian timing, potentially leaving light as the sole (and now corrupted) entrainment channel.
+**The gap to work with:** By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
 
-**What actually has to be present (resolution unit):** Direction and timing of the evening ambient-temperature change (a falling ramp at dusk), not absolute thermostat setpoint or daytime comfort.
+**What actually has to be present (resolution unit):** Direction and timing of the nighttime ambient-temperature change (falling during the sleep period, ext 745), not absolute thermostat setpoint or daytime comfort.
 
 **Serves:** M7 - Circadian Regulation  ·  evidence links: 1
 
@@ -523,7 +523,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Daily incidental movement load
 `EEA-SUBS-01 · Subsistence & time-use` - **tested many times**
 
-**Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km, and the women also dig for several hours (Pontzer et al. 2012, GPS; ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
+**Ancestrally:** Across a foraging day, adults covered substantial ground on foot as a structural side-effect of acquiring food, water, and firewood and of moving between patches and camp: Hadza men walk about 11.4 km a day and women about 5.8 km (Pontzer et al. 2012, GPS; ext 2430), and the women also dig for several hours (Lieberman 2021, ext 196). Movement was woven through the whole waking day rather than concentrated into a bout. Activity was modest in intensity but near-continuous and embedded: light chores, child-carrying, frequent sit-to-stand transitions, and active resting postures (squatting, kneeling) that sustain low-level lower-limb muscle activity. Hunter-gatherer PAL is only modestly above a Western desk worker's (~1.8-1.9 vs ~1.6), so the EEA baseline is not 'extreme exertion' but 'movement is the unavoidable medium of subsistence.'
 
 **Now (modern default):** Movement has been extracted from subsistence and re-inserted, if at all, as discretionary 'exercise': set-aside, planned, dose-prescribed (e.g. 150 min/week guidelines), and separated from the rest of a chair-bound, motor-transported, indoor day. Most waking hours are spent in continuous chair-sitting that holds the lower limbs near-inactive, and total daily distance on foot collapses far below the ancestral range.
 
@@ -531,7 +531,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Incidental all-day movement woven into the fabric of living (errands, carrying, standing, walking between activities, active rest postures) - NOT a set-aside 'exercise' session. The functional target is the continuous distribution of low-level activity across waking hours, not weekly minutes of vigorous training.
 
-**Serves:** M10 - Movement / Regulatory  ·  evidence links: 9
+**Serves:** M10 - Movement / Regulatory  ·  evidence links: 11
 
 #### Effort-to-outcome contingency (closed-loop, self-attributable)
 `EEA-SUBS-02 · Subsistence & time-use` - **argued, not yet tested**
@@ -592,7 +592,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Whole-food matrix and dietary variety, not any single 'good' or 'bad' nutrient: the mismatch is in the wholesale shift to refined, processed forms across the whole diet, not in one macronutrient ratio.
 
-**Serves:** M13 - Energy Regulation  ·  evidence links: 6
+**Serves:** M13 - Energy Regulation  ·  evidence links: 8
 
 #### Satiety-honest fiber and whole-food matrix (food that signals fullness truthfully)
 `EEA-DIET-02 · Diet & metabolic` - **argued, not yet tested**
@@ -605,7 +605,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Satiety-honesty of food (does palatability track nutritional/caloric load?), not calorie count alone: the failure is the engineered decoupling of reward from fullness, not merely high energy density.
 
-**Serves:** M13 - Energy Regulation  ·  evidence links: 7
+**Serves:** M13 - Energy Regulation, M2 - Pursuit / Exploration  ·  evidence links: 8
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 
@@ -620,20 +620,20 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Incidental, embedded, all-day acquisition movement (walking, foraging, carrying, digging) - NOT 'exercise' as a discrete bout. The mismatch is the loss of effort woven through daily food-getting, not a missing gym session. Work hours: see EEA-SUBS-04.
 
-**Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 4
+**Serves:** M10 - Movement / Regulatory, M13 - Energy Regulation  ·  evidence links: 6
 
 #### Energy regulation is intake-bounded
 `EEA-DIET-04 · Diet & metabolic` - **tested many times**
 
-**Ancestrally:** Total daily energy expenditure (TEE) is an evolved, species-typical trait that the body holds within a narrow range, compensating metabolically rather than expending proportionally more as physical activity rises. Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite far greater physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
+**Ancestrally:** Total daily energy expenditure (TEE) increases with physical activity at low activity levels but plateaus at higher levels, after adjusting for body size and composition (ext 283). The authors' model has the body adapt to maintain TEE within a narrow range (ext 283). Pontzer and colleagues hypothesize that human daily energy expenditure may be an evolved physiological trait (ext 287), and write that population comparisons suggest it is an evolved, species-specific trait (ext 284). Hunter-gatherers and subsistence populations expend about the same total daily energy as industrialized adults of the same body size despite substantial differences in physical activity; the same wild-vs-captive constancy appears across mammals. Ancestrally, the binding constraint on energy balance was therefore food INTAKE (how much could be acquired and its composition), not how many calories activity could burn off.
 
 **Now (modern default):** The dominant lay (and much policy) model treats body weight as 'calories in minus calories out' with exercise as the lever for the 'out' side. Total expenditure rises with activity at low activity levels and plateaus at higher levels (ext 283): above moderate activity, each added ~100 counts per minute per day went with less than 50 kcal/day more expenditure. Above moderate activity this model fails: cranking up activity adds little to expenditure, while the intake side, driven by hyperpalatable, energy-dense, effortless food, is what has changed and what dysregulates energy balance.
 
-**The gap to work with:** Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped - so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side.
+**The gap to work with:** Modern environments leave intake unbounded (cheap, hyperpalatable, effortless calories) while the body's expenditure stays homeostatically capped, so the one variable the system relied on as the binding constraint (limited, worked-for food) is exactly the one industrialization removed, and the popular 'just exercise it off' remedy targets the wrong, buffered side. Total energy expenditure increases with physical activity at low activity levels but plateaus at higher activity levels (ext 283).
 
 **What actually has to be present (resolution unit):** The binding constraint on energy balance: ancestrally INTAKE (food availability/composition), not expenditure. The mismatch is unbounded intake, not insufficient calorie-burning; exercise is a weak proxy for the metabolic problem.
 
-**Serves:** M13 - Energy Regulation  ·  evidence links: 5
+**Serves:** M13 - Energy Regulation  ·  evidence links: 8
 
 
 ### Threat & safety
@@ -679,7 +679,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **What actually has to be present (resolution unit):** Calibrate to RESOLVABILITY: a present threat that a behavioral all-clear (and a social all-clear via proximity/touch/reunion) can terminate - NOT bare threat count or alarm frequency. The ancestral system tolerated abundant false alarms; what it did not tolerate, and what modernity supplies, is alarms with no all-clear. The unit is 'can this activation be closed,' not 'how many alarms occur.'
 
-**Serves:** M1 - Threat Management, M8 - Immune Regulation  ·  evidence links: 6
+**Serves:** M1 - Threat Management, M3 - Social Bonding, M8 - Immune Regulation  ·  evidence links: 6
 
 *Hold this loosely: the figure is illustrative (often a single forager population) and graded accordingly - do not treat it as a clinical target.*
 

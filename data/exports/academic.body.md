@@ -41,7 +41,7 @@ Five levels along a resolvability/actionability axis; a true DA4 proxy appears o
 
 ### Cascade topology
 
-Suppresses M2, M4, M14, M10, and M6. Suppressed by M3. No interactions recorded.
+Suppresses M2, M4, M14, M10, and M6. Suppressed by M3, M6, and R1. Interacts with M8.
 
 ---
 
@@ -69,7 +69,7 @@ Note: the most contestable ordering is MIXED-app vs MINIMAL-scroll.
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1, M3, M7, M8, and M13. Interacts with M4 and M14.
+Suppresses nothing recorded. Suppressed by M1, M13, M3, M7, and M8. Interacts with M4, M14, and M3.
 
 ---
 
@@ -99,7 +99,7 @@ Note (off-gradient): isolated/solo living is empty-shelf deprivation, not a rung
 
 ### Cascade topology
 
-Suppresses M1, M2, M4, and M10. Suppressed by nothing recorded. Interacts with M14.
+Suppresses M1, M2, M4, and M10. Suppressed by M13. Interacts with M14 and M2.
 
 ---
 
@@ -127,7 +127,7 @@ Note: the most contestable ordering is screen-mediated-real-peers (MIXED) ranked
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1 and M3. Interacts with M2.
+Suppresses nothing recorded. Suppressed by M1, M13, and M3. Interacts with M2.
 
 ---
 
@@ -155,7 +155,7 @@ Note: the most contestable point is the floor ordering of purchased-signals (ZER
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M14.
+Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M14 and M8.
 
 ---
 
@@ -183,7 +183,7 @@ Note: this is dual-axis. PARTIAL to MINIMAL withdraw real contingency; ZERO subs
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1. No interactions recorded.
+Suppresses M1. Suppressed by M1. No interactions recorded.
 
 ---
 
@@ -211,7 +211,7 @@ Note: the most contestable points are the social-jetlag (PARTIAL) vs shift-work 
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
+Suppresses M2. Suppressed by nothing recorded. Interacts with M10, M8, and M13.
 
 ---
 
@@ -219,7 +219,7 @@ Suppresses nothing recorded. Suppressed by nothing recorded. No interactions rec
 
 **Grade:** established. **Tier:** 1. **Phylogenetic age:** ~550-830Myr (innate immunity, animals; contested); adaptive immunity ~420-470Myr (jawed vertebrates). **Evidence link count:** 37. **Grounded in:** C3, C7, and C9.
 
-The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior: inflammation shuts everything else down to fight infection. **Resolution conditions:** pathogen cleared, inflammation resolved.
+The cytokine signaling system. It overrides voluntary intention and is the hub connecting inflammation to low mood via the DA3 cascade. In plainest terms, it produces sickness behavior. **Resolution conditions:** pathogen cleared, inflammation resolved.
 
 C3 (Systematic EEA-Modern Environment Mismatch), with its named streams as above. C7 (Adverse Experience Cascading Dose-Response), established independently by Felitti, McEwen, and Panksepp. C9 (Allostatic Load Accumulation), established independently by McEwen, Felitti, and Sapolsky. Key researchers: Dantzer, Danese, Irwin.
 
@@ -239,7 +239,7 @@ Note: the most contestable point is lifestyle-drivers (PARTIAL) ranked above soc
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M8 nonetheless appears as a suppressor of M2 elsewhere in the atlas.)
+Suppresses M2 and M13. Suppressed by M10. Interacts with M12, M1, M5, and M7.
 
 ---
 
@@ -270,7 +270,7 @@ This mechanism has TWO SEPARATE scales (axes), not one ladder. They are presente
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M9 appears as a suppressor of M14 elsewhere in the atlas.)
+Suppresses M14. Suppressed by nothing recorded. No interactions recorded.
 
 ---
 
@@ -298,7 +298,7 @@ Note: the most contestable point is the gym (MINIMAL) ranked below incidental al
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by M1 and M3. No interactions recorded.
+Suppresses M8. Suppressed by M1 and M3. Interacts with M7 and M13.
 
 ---
 
@@ -328,7 +328,7 @@ Note: the most contestable point is the PARTIAL/MIXED boundary - where proxy fai
 
 ### Cascade topology
 
-Suppresses nothing recorded. No interactions recorded.
+Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
 
 ---
 
@@ -354,7 +354,7 @@ A 3-rung pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
+Suppresses nothing recorded. Suppressed by nothing recorded. Interacts with M8.
 
 ---
 
@@ -376,13 +376,13 @@ Five levels. This is a Kind B gradient: the satiety / intake-termination signal 
 - **MINIMAL** (fires, no resolution): energy-dense palatable food optimized for crave
 - **DEFEATED** (fires, no resolution): ultra-processed bliss-point food, an engineered supernormal stimulus
 
-Note: endpoints are EVIDENCED, the middle three architecture-derived. The most contestable point is whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.
+Note: the middle three architecture-derived. The most contestable point is whether the ATTENUATED/PARTIAL/MINIMAL middle is three real tiers or a bimodal whole-vs-ultra-processed split.
 
 **Mismatch prediction:** ultra-processed foods defeating satiety signals.
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded. (M13 appears as a suppressor of M2 elsewhere in the atlas.)
+Suppresses M2, M3, M4, and M14. Suppressed by M8. Interacts with M10 and M7.
 
 ---
 
@@ -408,11 +408,7 @@ Five levels, top (need met) to bottom (cue fires, nothing supplied).
 
 ### Cascade topology
 
-Suppressed by M1 and M9. Interacts with M3, M5, and M2.
-
-### Sex differentiation
-
-The **female-typical** parameterization is VMH-centered, with estrous cycling, preference for resource/commitment signals, and emphasis on pair-bond security. The **male-typical** parameterization is POA-centered, with tonic testosterone, attention to fertility/accessibility cues, and emphasis on sexual variety.
+Suppresses nothing recorded. Suppressed by M1, M13, and M9. Interacts with M3, M5, and M2.
 
 ---
 
@@ -438,4 +434,4 @@ Five levels, flagged CONTESTED - possibly Kind C, and NOT a flagship. The cue-fu
 
 ### Cascade topology
 
-Suppresses nothing recorded. Suppressed by nothing recorded. No interactions recorded.
+Suppresses M1. Suppressed by nothing recorded. No interactions recorded.
