@@ -55,7 +55,7 @@ Modern threats - debt, emails, social media, status anxiety - cannot be fought o
 
 ### Cascade
 
-M1 is powerful. It suppresses pursuit (M2), play (M4), reproductive motivation (M14), movement (M10), and status monitoring (M6 - controllability). When threat is high, exploration, play, sex, exercise, and a sense of agency all go offline - which is exactly what you see in a chronically threatened client. M1 is itself suppressed by M3 (social bonding): a trusted other present can turn the alarm down.
+M1 is powerful. It suppresses pursuit (M2), play (M4), reproductive motivation (M14), movement (M10), agency (M6) and the immune response (M8). When threat is high, exploration, play, sex, exercise, and a sense of agency all go offline - which is exactly what you see in a chronically threatened client. M1 is itself suppressed by M3 (social bonding): a trusted other present can turn the alarm down.
 
 ### What changing the inputs means
 
@@ -532,11 +532,11 @@ Patching means treating compulsive proxy use as a standalone behavioral addictio
 
 ---
 
-## R1 - Touch
+## M15 - Touch
 
 ### What it looks like in a person
 
-R1 is a regulatory input to social bonding (M3), carried by C-tactile afferents. The framework flags it as contested - the premise that its cue can be separated from its function is itself disputed. In a person, the deficit is touch starvation contributing to the dysregulation you would otherwise attribute purely to M3.
+M15 is touch, an input to social bonding (M3), carried by C-tactile afferents. The framework flags it as contested - the premise that its cue can be separated from its function is itself disputed. In a person, the deficit is touch starvation contributing to the dysregulation you would otherwise attribute purely to M3.
 
 What resolves it: regular physical contact with trusted others.
 
@@ -552,11 +552,11 @@ Note this gradient is not strictly monotonic: MINIMAL and ZERO both have zero re
 
 ### Mismatch prediction
 
-Touch-starved modern environments. The most striking evidence here is the kangaroo-care finding: a 51% reduction in neonatal mortality for infants under 2000 g given skin contact, in pooled randomised trials - a vivid illustration that physical touch is a load-bearing regulatory input, not a luxury.
+Touch-starved modern environments. The most striking evidence here is the kangaroo-care finding: a 51% reduction in neonatal mortality for infants under 2000 g given skin contact, in pooled randomised trials - a vivid illustration that physical touch is a load-bearing input, not a luxury.
 
 ### What changing the inputs means
 
-Because R1 feeds M3, patching the person is largely beside the point - this is an input channel. Changing the inputs means restoring regular affectionate physical contact with trusted, reciprocating others. The speculative floor rungs (weighted substitutes, synthetic haptics) supply some cue magnitude but, by definition, zero relational embedding - so they cannot substitute for the bonded contact at the top of the ladder, and the framework holds them with appropriate caution.
+Because M15 feeds M3, patching the person is largely beside the point - this is an input channel. Changing the inputs means restoring regular affectionate physical contact with trusted, reciprocating others. The speculative floor rungs (weighted substitutes, synthetic haptics) supply some cue magnitude but, by definition, zero relational embedding - so they cannot substitute for the bonded contact at the top of the ladder, and the framework holds them with appropriate caution.
 
 ### Evidence
 

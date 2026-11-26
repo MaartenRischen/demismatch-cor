@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-26 09:19 UTC, from the live Cor atlas snapshot built 2026-11-26 09:19 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 11:33 UTC, from the live Cor atlas snapshot built 2026-11-26 11:32 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3927 works, 5802 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3940 works, 5818 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -253,7 +253,7 @@ Electric light, blue screens, shift work, and caffeine all disrupt the clock's s
 
 ### What it does
 
-This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in everything else. It can override your conscious intentions, and it is a hub that connects inflammation to low mood through cross-system cascades.
+This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in pursuit and food. It can override your conscious intentions, and it is a hub that connects inflammation to low mood through cross-system cascades.
 
 ### What actually satisfies it
 
@@ -464,11 +464,11 @@ Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrd
 
 ---
 
-## R1 - Touch
+## M15 - Touch
 
 ### What it does
 
-Touch is a regulatory input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents.
+Touch is an input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents.
 
 ### What actually satisfies it
 
@@ -504,7 +504,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (tested many times)
-  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.
+  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
 **Lifetime known-individual pool (~1,000)** (tested once)
   - EEA delivered a finite, slowly-accreting lifetime roster (~1,000+).
@@ -600,7 +600,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - The mismatch is between the reliable, present, multi-caregiver surround the infant's attachment and the mother's reproductive psychology evolved to expect, and the thin one- or two-adult household the modern environment supplies. Hrdy argues that maternal commitment is conditional on perceived alloparental support (M9, ext 402). This is a supply mismatch, not a parental-competence failure.
 
 **Caregiver continuity and reliability (present, not merely countable)** (argued, not yet tested)
-  - The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, R1), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.
+  - The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, M15), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.
 
 **Mixed-age child playgroups as developmental input** (tested many times)
   - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. In children, general risky outdoor play (13 studies) and places that allow risky play (21 studies) went with better physical, mental, social and cognitive outcomes in a review of 74 studies (Ramsden et al. 2026, ext 5097), and children whose parents reported more time playing adventurously before the pandemic had slightly fewer internalising symptoms and more positive affect during the first Covid-19 lockdown (Dodd, Nesbit and FitzGibbon 2023, ext 5104).
@@ -691,4 +691,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 09:19 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-26 09:19 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 11:32 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-26 11:33 UTC.*

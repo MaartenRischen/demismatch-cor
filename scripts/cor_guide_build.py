@@ -277,7 +277,7 @@ endpart()
 
 # =================== PART IV — MECHANISMS ===================
 part("IV", "The Mechanisms",
-     f"{len(M)} entries — 14 motivational systems (M1–M14) plus one regulatory input (R1). "
+     f"{len(M)} entries — M1 to M15 (M15 is touch, code R1 until 26 Nov 2026). "
      "This is the heart of the spec: the actual evolved machinery.")
 # 26 Nov 2026: systems are no longer grouped by tier (the field goes out of use);
 # they are listed by code, M before R, numeric within the prefix.

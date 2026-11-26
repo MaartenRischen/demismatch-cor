@@ -57,11 +57,9 @@
   };
   // Tags that get a small evidence-status badge in the readout.
   // "EVIDENCED" is out (25 Nov 2026, Cor fix round 3, labels are not findings): a rung marked with it shows no mark.
-  var TAG_LABEL = {
-    "ARCHITECTURE-DERIVED": "architecture-derived",
-    "CONTESTABLE": "contestable",
-    "SPECULATIVE": "speculative",
-  };
+  // The other tags are out too (26 Nov 2026, part D, labels are not findings: no rung mark is printed as Cor's
+  // verdict). TAG_LABEL stays empty, so a tagged rung shows its note, or nothing.
+  var TAG_LABEL = {};
 
   function ringMark() {
     return "<svg viewBox='0 0 100 100' aria-hidden='true'>" +
@@ -400,9 +398,9 @@
   // synthetic-childhood). Each maps to the mechanisms it most directly shows.
   // These are the v2 case surfaces (built in Phase 4); links are relative.
   var CASES = [
-    { slug: "ai-companion",          title: "The AI Companion",       mechs: ["M3", "R1"] },
+    { slug: "ai-companion",          title: "The AI Companion",       mechs: ["M3", "M15"] },
     { slug: "instagram-depression",  title: "Instagram and Depression", mechs: ["M2", "M5", "M13"] },
-    { slug: "synthetic-childhood",   title: "Synthetic Childhood",    mechs: ["M3", "M4", "R1"] },
+    { slug: "synthetic-childhood",   title: "Synthetic Childhood",    mechs: ["M3", "M4", "M15"] },
   ];
   function casesForMechanism(code) {
     return CASES.filter(function (c) { return c.mechs.indexOf(code) !== -1; });
@@ -832,6 +830,8 @@
     var raw = (location.hash || "").replace("#", "");
     if (!raw) return { code: "", anchor: "" };
     var code = raw.split("-")[0].toUpperCase();
+    // Touch was R1 until 26 Nov 2026 (answer 46 A): old #R1 addresses land on M15.
+    if (code === "R1") { code = "M15"; raw = "M15" + raw.slice(2); }
     if (!D.mechanismByCode(code)) return { code: "", anchor: "" };
     return { code: code, anchor: raw };
   }

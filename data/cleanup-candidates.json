@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-11-26T09:19:00.548762+00:00",
-  "count": 4802,
+  "scanned_at": "2026-11-26T11:32:49.905124+00:00",
+  "count": 4818,
   "items": [
     {
       "table": "extractions",
@@ -32688,7 +32688,7 @@
       "field": "caveats",
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
-      "full_field_preview": "Abstract only. The 18 studies and 704 participants named in Cor's grade note for ext 428 are not in the abstract and are not confirmed here. Massage by a therapist is the partial step of R1's proxy gradient (affective touch from a non-intimate caregiver), not touch from a trusted"
+      "full_field_preview": "Abstract only. The 18 studies and 704 participants named in Cor's grade note for ext 428 are not in the abstract and are not confirmed here. Massage by a therapist is the partial step of M15's proxy gradient (affective touch from a non-intimate caregiver), not touch from a truste"
     },
     {
       "table": "extractions",
@@ -38417,6 +38417,134 @@
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
       "full_field_preview": "The definition (contact within two years, known by sight or name) is far looser than the contact rates that define the 150 layer in Cor's other rows (Hill and Dunbar 2003, Cor 2315). The standard deviations near 260 show a very wide spread between people. Cor work 664 (McCormick "
+    },
+    {
+      "table": "extractions",
+      "code": 5870,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Animal evidence, one population, five adoptions in 19 years. Relatedness is a minimum from the maternal pedigree in four of five cases. Benefit and cost are modelled from survival against litter size, not measured on the adopted litters themselves. The text says adopting a second"
+    },
+    {
+      "table": "extractions",
+      "code": 5871,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Animal evidence. Abstract only: sample sizes, the relatedness values and the size of the indirect gain are not given there and stay out. The abstract notes that the only earlier direct test of kin selection in display partnerships (in another bird species) found the partners unre"
+    },
+    {
+      "table": "extractions",
+      "code": 5872,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Animal evidence. Comparative and correlational: species-level means, data quality scored by the authors on a 1 to 3 scale, and the effect drops to P 0.05 without the two low-relatedness species. The authors note that helpers may also gain direct fitness (survival, inheriting the "
+    },
+    {
+      "table": "extractions",
+      "code": 5873,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Animal evidence. Abstract only: the number of species and studies and the effect sizes are not given there and stay out. Green et al. 2016 (A_green2016) report that kin discrimination in these meta-analyses varied greatly between species and appeared in whether to help, with no e"
+    },
+    {
+      "table": "extractions",
+      "code": 5874,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The exposure is a court record of the 1960s and 1970s, so it misses unreported cases and some controls may have been maltreated. The sample is heavily low income and from one region. Matching approximates group equivalence; genes and family were not modelled. The nine-indicator c"
+    },
+    {
+      "table": "extractions",
+      "code": 5875,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "A null mediation from single measurements does not show that no behavioural or emotional path exists; the authors name timing and measurement of the mediators as a possible reason. The authors could not test HPA-axis or other physiological mediators. The SES null may reflect litt"
+    },
+    {
+      "table": "extractions",
+      "code": 5876,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Many outcomes were tested and several results held only for one type of maltreatment or weakened to trends in the fully adjusted model (peak airflow and vision for maltreatment overall). HbA1c results differed by sex (raised in women, not in men) and the CRP result by race. The a"
+    },
+    {
+      "table": "extractions",
+      "code": 5877,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Observational; the attributable share assumes causality, as the authors state. Genes were not modelled. Two of the maltreatment items (physical and sexual abuse) come from the study members' recall at 26, so the index is only partly prospective; the observed and parent-reported i"
+    },
+    {
+      "table": "extractions",
+      "code": 5878,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The paper's own threshold for the volume models was a Bonferroni-corrected p < 0.006; the white matter results (p = 0.03 and 0.04) do not pass it. The direct randomised contrast (care as usual against foster care) showed no difference in white matter, so the trial does not show t"
+    },
+    {
+      "table": "extractions",
+      "code": 5879,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Not randomised: the authors say they cannot definitively claim a causal link, and later-adopted children may differ in unmeasured ways. About 69 percent of the Romanian adoptees were undernourished at entry to the UK; weight at adoption did not account for the effect, but diet wa"
+    },
+    {
+      "table": "extractions",
+      "code": 5880,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Mediation with brain and behaviour measured at the same time cannot order brain change before the IQ and symptom scores. The autism-symptom null may reflect low power, as the authors say. The ADHD measure is the source's symptom scale. Grade, rubric v2 (26 Nov 2026): thin. One na"
+    },
+    {
+      "table": "extractions",
+      "code": 5881,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only: the survey years, sample size, the biomarkers in the score and the odds ratios are in the full text, which could not be read, and stay out. Cross-sectional: a wider gap at older ages fits accumulation over the life course and could also reflect differences between "
+    },
+    {
+      "table": "extractions",
+      "code": 5882,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Observational. Survey response was 60 percent and 1,812 people with no biomarker data (younger and more deprived) were excluded; missing biomarker values were filled by multiple imputation, and the complete-case analysis gave substantively the same result. The score has no neuroe"
+    },
+    {
+      "table": "extractions",
+      "code": 5883,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The comparison is between hazard ratios on different scales (a 0 to 8 count against single continuous markers), as the authors say. Three single metabolic markers did as well as the composite. Grade, rubric v2 (26 Nov 2026): thin. Robertson et al. 2017, one Scottish survey cohort"
+    },
+    {
+      "table": "extractions",
+      "code": 5884,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only; the number of deaths is not given in the abstract. Same MacArthur cohort as Cor work 1299 (Seeman et al. 2001), so it adds no independent population. It shows that load scores can fall in old age and that a fall went with lower mortality; it does not say what made "
+    },
+    {
+      "table": "extractions",
+      "code": 5885,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Abstract only: the number of youths with blood samples, attrition and the trial's other outcomes are in the full text, which could not be read. Inflammation was measured once, at 19, so the trial shows the programme kept inflammation lower than in controls; it does not show estab"
     }
   ]
 }

@@ -424,7 +424,7 @@ export async function runContradictionGate({ dist, snap, repoRoot, fetchImpl } =
       hits: softHits,
       note:
         `DB mechanisms=${C.mechanisms}. Partial senses are legitimate (the 10 associated ` +
-        "mechanisms; the 14 M-coded ones beside R1). Soft: check each hit is a partial, not a stale total.",
+        "mechanisms; the 14 systems beside touch, M15). Soft: check each hit is a partial, not a stale total.",
     });
   }
 

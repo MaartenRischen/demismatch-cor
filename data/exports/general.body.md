@@ -243,7 +243,7 @@ Electric light, blue screens, shift work, and caffeine all disrupt the clock's s
 
 ### What it does
 
-This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in everything else. It can override your conscious intentions, and it is a hub that connects inflammation to low mood through cross-system cascades.
+This is the system behind "sickness behavior" - the cytokine signaling that, when you are fighting an infection, makes you withdraw, rest, and lose interest in pursuit and food. It can override your conscious intentions, and it is a hub that connects inflammation to low mood through cross-system cascades.
 
 ### What actually satisfies it
 
@@ -454,11 +454,11 @@ Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrd
 
 ---
 
-## R1 - Touch
+## M15 - Touch
 
 ### What it does
 
-Touch is a regulatory input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents.
+Touch is an input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents.
 
 ### What actually satisfies it
 

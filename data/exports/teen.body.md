@@ -249,7 +249,7 @@ What resolves it: clean food, a clean social environment, and moral disgust kept
 
 ### The ladder
 
-The solid, well-evidenced part is the pathogen-disgust gradient, three rungs:
+The pathogen-disgust gradient has three rungs:
 
 - **Top (real):** clean food and clean surroundings, with disgust firing on real pathogen cues.
 - Disgust over-firing when you're more vulnerable - like during pregnancy or with a weakened immune system.
@@ -299,9 +299,9 @@ What resolves it: sexual fulfillment within a pair bond, a stable pair bond, and
 
 Pornography, dating apps, delayed reproduction, and comparing your mate value to a flood of images on social media. The pure-proxy versions fire the same drive without delivering any of what actually resolves it. The sexual side is around 460 to 535 million years old; the human pair bond is around 2 to 4 million years old, and that date is argued over.
 
-## R1 - Touch
+## M15 - Touch
 
-Quick heads-up: this one is different. Touch is a regulatory input that feeds into the bonding system (M3). It works through special nerves called C-tactile afferents. Its ladder is contested.
+Touch is an input that feeds into the bonding system (M3). It works through special nerves called C-tactile afferents. Its ladder is contested.
 
 What resolves it: regular physical contact with trusted people.
 

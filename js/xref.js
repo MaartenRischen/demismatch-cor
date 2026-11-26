@@ -1,6 +1,6 @@
 /* ============================================================================
    Cor Portal v2 - cross-reference resolver (window.CorXref).
-   A single source of truth for turning a taxonomy code (M1-M14, R1, OF/P/DA/DC
+   A single source of truth for turning a taxonomy code (M1-M15, OF/P/DA/DC
    foundations, C* convergences, ED* demonstrations, A* applications, G* gaps,
    BT* bridge thesis) into { label, href }.
 
@@ -57,7 +57,7 @@
     var c = code.trim().toUpperCase();
     if (!c) return null;
     if (/^M\d+$/.test(c)) return { kind: "mechanism", code: c };
-    if (/^R\d+$/.test(c)) return { kind: "mechanism", code: c }; // R1 Touch
+    if (c === "R1") return { kind: "mechanism", code: "M15" }; // touch was R1 until 26 Nov 2026
     if (/^(OF|P|DA|DC)\d+$/.test(c)) return { kind: "foundation", code: c };
     if (/^C\d+$/.test(c)) return { kind: "convergence", code: c };
     if (/^ED\d+$/.test(c)) return { kind: "demonstration", code: c };

@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-11-26 09:19 UTC, from the live Cor atlas snapshot built 2026-11-26 09:19 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 11:33 UTC, from the live Cor atlas snapshot built 2026-11-26 11:32 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3927 works, 5802 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3940 works, 5818 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -259,7 +259,7 @@ What resolves it: clean food, a clean social environment, and moral disgust kept
 
 ### The ladder
 
-The solid, well-evidenced part is the pathogen-disgust gradient, three rungs:
+The pathogen-disgust gradient has three rungs:
 
 - **Top (real):** clean food and clean surroundings, with disgust firing on real pathogen cues.
 - Disgust over-firing when you're more vulnerable - like during pregnancy or with a weakened immune system.
@@ -309,9 +309,9 @@ What resolves it: sexual fulfillment within a pair bond, a stable pair bond, and
 
 Pornography, dating apps, delayed reproduction, and comparing your mate value to a flood of images on social media. The pure-proxy versions fire the same drive without delivering any of what actually resolves it. The sexual side is around 460 to 535 million years old; the human pair bond is around 2 to 4 million years old, and that date is argued over.
 
-## R1 - Touch
+## M15 - Touch
 
-Quick heads-up: this one is different. Touch is a regulatory input that feeds into the bonding system (M3). It works through special nerves called C-tactile afferents. Its ladder is contested.
+Touch is an input that feeds into the bonding system (M3). It works through special nerves called C-tactile afferents. Its ladder is contested.
 
 What resolves it: regular physical contact with trusted people.
 
@@ -350,4 +350,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 09:19 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-26 09:19 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 11:32 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-26 11:33 UTC.*

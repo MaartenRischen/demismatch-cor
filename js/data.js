@@ -102,7 +102,7 @@
     return "derived proxy gradients: " + gradientCount() + " of " + mech + " mechanisms";
   }
 
-  // Canonical mechanism ordering: M1..M14 then R1 (numeric within prefix).
+  // Canonical mechanism ordering: M1..M15 (numeric within prefix).
   function mechanismsOrdered() {
     return mechanisms().slice().sort(function (a, b) {
       function key(c) {

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-26T09:19:00.548762+00:00",
+    "source_built_at": "2026-11-26T11:32:49.905124+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,19 +28,19 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3927,
-    "extractions": 5802,
+    "works": 3940,
+    "extractions": 5818,
     "researchers": 84,
-    "mechanism_evidence": 6140,
+    "mechanism_evidence": 6149,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
     "eea_parameters": 53,
     "parameter_mechanism": 105,
-    "parameter_evidence": 602,
+    "parameter_evidence": 608,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 13
+    "challenges": 12
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -305,33 +305,12 @@
       {
         "code": "C9",
         "name": "Allostatic Load Accumulation",
-        "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines.",
+        "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. A third line takes its place: population studies by groups outside McEwen's laboratory, using the multi-system load score, found the score higher in middle age after social adversity across the life course (ext 5079), and a higher score tied to higher all-cause mortality, across 10 studies (pooled hazard ratio 1.22, ext 4271) and in a national Scottish sample followed for 10 years (5882).",
         "forces_mechanism": null,
         "independent_literatures": [
           "McEwen allostasis and allostatic load neuroendocrinology",
-          "Sapolsky primate stress physiology"
-        ],
-        "epistemic_grade": "strongly_supported"
-      },
-      {
-        "code": "C1",
-        "name": "Inclusive Fitness as Loss Function",
-        "statement": "Natural selection operates on inclusive fitness, one measure: an individual's own reproductive success plus the reproductive success of relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. This establishes a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory and Hamilton's kin-selection formalism.",
-        "forces_mechanism": null,
-        "independent_literatures": [
-          "Darwin natural selection theory",
-          "Hamilton inclusive fitness formalism"
-        ],
-        "epistemic_grade": "forced"
-      },
-      {
-        "code": "C7",
-        "name": "Adverse Experience Cascading Dose-Response",
-        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). The convergence now stands on two lines.",
-        "forces_mechanism": null,
-        "independent_literatures": [
-          "McEwen allostatic load neuroendocrinology",
-          "Panksepp cross-system inhibition affective neuroscience"
+          "Sapolsky primate stress physiology",
+          "Population cohort epidemiology of multi-system allostatic load"
         ],
         "epistemic_grade": "strongly_supported"
       },
@@ -361,6 +340,18 @@
         "epistemic_grade": "forced"
       },
       {
+        "code": "C1",
+        "name": "Inclusive Fitness as Loss Function",
+        "statement": "Natural selection operates on inclusive fitness, one measure: an individual's own reproductive success plus the reproductive success of relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. This establishes a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory and Hamilton's kin-selection formalism; field tests of Hamilton's rule measure its kin term in wild animals: red squirrels adopted orphans only when the orphan was kin and relatedness times the benefit outweighed the cost (5870), across 36 bird species helpers worked harder the closer their kinship to the brood (5872), and across cooperatively breeding vertebrates helpers favoured closer kin (5873).",
+        "forces_mechanism": null,
+        "independent_literatures": [
+          "Darwin natural selection theory",
+          "Hamilton inclusive fitness formalism",
+          "Field tests of Hamilton's rule in wild animal populations"
+        ],
+        "epistemic_grade": "forced"
+      },
+      {
         "code": "C12",
         "name": "Developmental Calibration within Evolved Ranges",
         "statement": "Specific physiological and behavioral systems calibrate during specific developmental windows to environmental inputs within evolved parameters; inputs far outside those parameters leave a lasting mark - established independently by the Bucharest randomised trial of foster care against institutional rearing, the English and Romanian Adoptees natural experiment, and cross-fostering experiments in rats, with McEwen's HPA-axis neuroendocrinology as the bodily route. Inside the ordinary range of homes, differences in upbringing explain little of how adults differ in personality: adoptive siblings reared together correlate .04 (ext 2880). Attachment in infancy showed no significant link with attachment more than 15 years later (ext 2893). Recalled childhood adversity (the ACE Study) was a leg of this convergence until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall.",
@@ -372,6 +363,18 @@
           "McEwen HPA-axis neuroendocrinology"
         ],
         "epistemic_grade": "forced"
+      },
+      {
+        "code": "C7",
+        "name": "Adverse Experience Cascading Dose-Response",
+        "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). A third line takes its place: prospective and experimental studies of early adversity. Children with court-recorded abuse or neglect had a higher allostatic load index across body systems at about age 41 (5874); children maltreated in their first decade had more age-related disease risks at 32, counting depression, inflammation and clustered metabolic risk markers (ext 4796); and in a randomised trial and a natural experiment, early deprivation in institutions changed the stress response (ext 3392) and brain volume (5879).",
+        "forces_mechanism": null,
+        "independent_literatures": [
+          "McEwen allostatic load neuroendocrinology",
+          "Panksepp cross-system inhibition affective neuroscience",
+          "Prospective and experimental studies of early adversity"
+        ],
+        "epistemic_grade": "strongly_supported"
       }
     ]
   },
@@ -448,12 +451,13 @@
           "M4",
           "M14",
           "M10",
-          "M6"
+          "M6",
+          "M8"
         ],
         "suppressed_by": [
+          "M15",
           "M3",
-          "M6",
-          "R1"
+          "M6"
         ],
         "interacts_with": [
           "M8"
@@ -582,9 +586,9 @@
       "name": "Social Bonding",
       "grade": null,
       "tier": null,
-      "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly). Cor reads grief and the low mood that follows loss (what Western scales score as depression) as states of an opioid-modulated affective circuit rather than purely cognitive states (Panksepp, ext 259).",
+      "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security and grief. Cor reads grief and the low mood that follows loss (what Western scales score as depression) as states of an opioid-modulated affective circuit rather than purely cognitive states (Panksepp, ext 259).",
       "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
-      "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships. Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The layer sizes are found among foragers, where periodic multi-group gatherings across 339 societies averaged 165 people (ext 1048), and in modern phone, Christmas-card and Facebook data (EEA-SOC-01).",
+      "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships, the outer ceiling. Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The layer sizes are found among foragers, where periodic multi-group gatherings across 339 societies averaged 165 people (ext 1048), and in modern phone, Christmas-card and Facebook data (EEA-SOC-01).",
       "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence. Cor's reading of Dunbar's proposal that face-to-face meetings are needed to keep friendships from sliding down the network layers (ext 509): this fits the claim that the bonding system needs physical co-presence.",
       "phylogenetic_age": "~165-200Myr (attachment, mammals); human layered network not dated",
       "proxy_gradient": {
@@ -659,7 +663,7 @@
         ]
       },
       "evidence": {
-        "link_count": 1159,
+        "link_count": 1161,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -795,7 +799,7 @@
       "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade. Cor's reading of Gilbert's account of shame as an evolved submissive defense (ext 482): it turns costly when modern status comparison (social media, workplace evaluation, academic competition) keeps it activated.",
       "phylogenetic_age": "~420-445Myr (rank circuit, bony vertebrates); rank-linked health ~25-34Myr+ (Old World primates)",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL) → coerced/unstable dominance rank in a real group (PARTIAL) → status-striving in a large impersonal society (MIXED) → global mediated comparison by follower/like counts (MINIMAL; across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026) → purchased status signals, luxury-brand display (ZERO; architecture-derived). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
+        "raw": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top): earned prestige in a small face-to-face group (FULL) → coerced/unstable dominance rank in a real group (PARTIAL) → status-striving in a large impersonal society (MIXED) → global mediated comparison by follower/like counts (MINIMAL; across 54 samples, upward comparison on social media went with more envy, shame, anxiety and depression symptoms and lower well-being, r about 0.33, Lei et al. 2026) → purchased status signals, luxury-brand display (ZERO; in field experiments in Zurich and Bern a luxury-brand label on a shirt or cap got no more passers-by to answer a short survey and collected no more money for a children's cancer charity than with no label, ext 4414). The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
         "preamble": "5 levels (cue ≈ constant comparison/ranking signal; ordered primarily by real standing supplied in a real knowable group, with prestige>dominance quality folded in at the top)",
         "trailing": "The order of the two floor rungs (MINIMAL social-media comparison, ZERO purchased signals) is untested.",
         "demoted": "",
@@ -841,8 +845,8 @@
             "index": 4,
             "label": "purchased status signals, luxury-brand display",
             "state": "ZERO",
-            "tag": "ARCHITECTURE-DERIVED",
-            "note": "architecture-derived",
+            "tag": null,
+            "note": "in field experiments in Zurich and Bern a luxury-brand label on a shirt or cap got no more passers-by to answer a short survey and collected no more money for a children's cancer charity than with no label, ext 4414",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -880,12 +884,12 @@
         {
           "code": "C7",
           "name": "Adverse Experience Cascading Dose-Response",
-          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). The convergence now stands on two lines."
+          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). A third line takes its place: prospective and experimental studies of early adversity. Children with court-recorded abuse or neglect had a higher allostatic load index across body systems at about age 41 (5874); children maltreated in their first decade had more age-related disease risks at 32, counting depression, inflammation and clustered metabolic risk markers (ext 4796); and in a randomised trial and a natural experiment, early deprivation in institutions changed the stress response (ext 3392) and brain volume (5879)."
         },
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. A third line takes its place: population studies by groups outside McEwen's laboratory, using the multi-system load score, found the score higher in middle age after social adversity across the life course (ext 5079), and a higher score tied to higher all-cause mortality, across 10 studies (pooled hazard ratio 1.22, ext 4271) and in a national Scottish sample followed for 10 years (5882)."
         },
         {
           "code": "C13",
@@ -1077,7 +1081,7 @@
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. A third line takes its place: population studies by groups outside McEwen's laboratory, using the multi-system load score, found the score higher in middle age after social adversity across the life course (ext 5079), and a higher score tied to higher all-cause mortality, across 10 studies (pooled hazard ratio 1.22, ext 4271) and in a national Scottish sample followed for 10 years (5882)."
         },
         {
           "code": "C12",
@@ -1158,6 +1162,7 @@
           "M13"
         ],
         "suppressed_by": [
+          "M1",
           "M10"
         ],
         "interacts_with": [
@@ -1168,7 +1173,7 @@
         ]
       },
       "evidence": {
-        "link_count": 177,
+        "link_count": 180,
         "researchers": [
           "Dantzer",
           "Danese",
@@ -1187,12 +1192,12 @@
         {
           "code": "C7",
           "name": "Adverse Experience Cascading Dose-Response",
-          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). The convergence now stands on two lines."
+          "statement": "Chronic adverse load cascades across physiological systems, with effects that propagate and self-maintain across domains (metabolic, immune, neural, behavioral) - established independently by McEwen's allostatic-load neuroendocrinology and Panksepp's cross-system inhibition evidence for affective-system propagation. The ACE Study was a third leg, and the source of the word 'Dose-Response' in this convergence's name, until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall (ext 1640), and about half of it is carried by genes and family for psychiatric outcomes (ext 1638). A third line takes its place: prospective and experimental studies of early adversity. Children with court-recorded abuse or neglect had a higher allostatic load index across body systems at about age 41 (5874); children maltreated in their first decade had more age-related disease risks at 32, counting depression, inflammation and clustered metabolic risk markers (ext 4796); and in a randomised trial and a natural experiment, early deprivation in institutions changed the stress response (ext 3392) and brain volume (5879)."
         },
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. A third line takes its place: population studies by groups outside McEwen's laboratory, using the multi-system load score, found the score higher in middle age after social adversity across the life course (ext 5079), and a higher score tied to higher all-cause mortality, across 10 studies (pooled hazard ratio 1.22, ext 4271) and in a national Scottish sample followed for 10 years (5882)."
         }
       ]
     },
@@ -1280,7 +1285,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 381,
+        "link_count": 384,
         "researchers": [
           "Hrdy",
           "Panksepp",
@@ -1294,7 +1299,7 @@
         {
           "code": "C1",
           "name": "Inclusive Fitness as Loss Function",
-          "statement": "Natural selection operates on inclusive fitness, one measure: an individual's own reproductive success plus the reproductive success of relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. This establishes a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory and Hamilton's kin-selection formalism."
+          "statement": "Natural selection operates on inclusive fitness, one measure: an individual's own reproductive success plus the reproductive success of relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. This establishes a single loss function that all evolved motivational architecture serves, as demonstrated independently by Darwinian selection theory and Hamilton's kin-selection formalism; field tests of Hamilton's rule measure its kin term in wild animals: red squirrels adopted orphans only when the orphan was kin and relatedness times the benefit outweighed the cost (5870), across 36 bird species helpers worked harder the closer their kinship to the brood (5872), and across cooperatively breeding vertebrates helpers favoured closer kin (5873)."
         },
         {
           "code": "C4",
@@ -1418,7 +1423,7 @@
       "tier": null,
       "description": "Reciprocity + norm enforcement + alliance dynamics. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.",
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
-      "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150, the size found among foragers and in modern networks, EEA-SOC-01). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that size, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+      "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (a ceiling on the order of ~150, the size found among foragers and in modern networks, EEA-SOC-01). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
       "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
       "proxy_gradient": {
@@ -1483,7 +1488,7 @@
         "interacts_with": []
       },
       "evidence": {
-        "link_count": 718,
+        "link_count": 719,
         "researchers": [
           "Trivers",
           "Boehm",
@@ -1686,7 +1691,7 @@
         {
           "code": "C9",
           "name": "Allostatic Load Accumulation",
-          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. The convergence now stands on two lines."
+          "statement": "Chronic unresolved activation of stress-response systems produces cumulative physiological damage across multiple organ systems (allostatic load), reversible in part by environmental correction - established independently by McEwen's neuroendocrinology of allostasis and allostatic load and Sapolsky's primate stress physiology linking hierarchy type to cortisol and downstream pathology. The ACE Study was a third leg until 21 Nov 2026 and is withdrawn: it is a link from adults' own recall. A third line takes its place: population studies by groups outside McEwen's laboratory, using the multi-system load score, found the score higher in middle age after social adversity across the life course (ext 5079), and a higher score tied to higher all-cause mortality, across 10 studies (pooled hazard ratio 1.22, ext 4271) and in a national Scottish sample followed for 10 years (5882)."
         }
       ]
     },
@@ -1791,7 +1796,7 @@
       ]
     },
     {
-      "code": "R1",
+      "code": "M15",
       "name": "Touch",
       "grade": null,
       "tier": null,
@@ -2041,11 +2046,11 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Social network layers (~5/15/50/150)",
-        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. These sizes are found among foragers: across 339 forager societies, aggregated residential groups averaged 54 people and periodic multi-group gatherings 165 (ext 1048). They are found again in modern networks (modern side below). This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).",
+        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. These sizes are found among foragers: across 339 forager societies, aggregated residential groups averaged 54 people and periodic multi-group gatherings 165 (ext 1048). Measured residential camps are often smaller: the median residential group across 263 forager societies was 27 people (ext 754), and Hadza camps center near 30 individuals (ext 603). They are found again in modern networks (modern side below). This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).",
         "eea_value": {
           "unit": "individuals",
           "layer_sizes": {
-            "affinity_band": "50, the typical hunter-gatherer overnight camp (ext 404); 35, the band (ext 490)",
+            "affinity_band": "50, the typical hunter-gatherer overnight camp (ext 404); 35, the band (ext 490); 27, the median residential group across 263 forager societies (ext 754)",
             "active_network": "150 (ext 404, 490)",
             "support_clique": "5 (ext 404, 490)",
             "sympathy_group": "15 (ext 404); 12 (ext 490)"
@@ -2054,12 +2059,12 @@
           "outer_ceiling_approx": 150,
           "tribal_clan_grouping": "clusters in the low hundreds (ethnographic)"
         },
-        "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay the same size. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).",
-        "gap_statement": "The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.",
+        "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay under the same ceiling. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).",
+        "gap_statement": "The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of the 26,680 users who called at least 100 others (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The number 150 was first derived from a primate neocortex-ratio regression, and re-analyses of that regression disagree (Lindenfors, Wartel and Lind 2021, ext 619; Dunbar and Shultz 2023, ext 5868); the group sizes here rest on the forager and network counts above. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Pooled published group and network sizes fall into a hierarchy with a ratio of about 3.2 between successive sizes (Zhou et al. 2005, ext 2042), and personal networks fall into nested layers about three times the size of the one inside in phone records of the 26,680 users who called at least 100 others (Mac Carron, Kaski and Dunbar 2016, ext 2026) and in Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The number 150 was first derived from a primate neocortex-ratio regression, and re-analyses of that regression disagree (Lindenfors, Wartel and Lind 2021, ext 619; Dunbar and Shultz 2023, ext 5868); the group sizes here rest on the forager and network counts above. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
         "mechanism_codes": [
           "M11",
           "M3",
@@ -2245,9 +2250,23 @@
             "evidence_quality": "thin",
             "author_quote": "We use fractal network theory to analyse the statistical structure of 1189 social groups in 339 hunter-gatherer societies from a published compilation of ethnographies. We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4. Further, despite the wide ecological, cultural and historical diversity of hunter-gatherer societies, this remarkable self-similarity holds both within and across cultures and continents.",
             "content": "Hamilton and colleagues analysed 1,189 group-size estimates from 339 hunter-gatherer societies in Binford's ethnographic compilation, at five levels above the individual (family, dispersed group, aggregated group, periodic aggregation, regional population). The number of groups a"
+          },
+          {
+            "extraction_id": 754,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": null,
+            "content": "In Marlowe's cross-cultural sample of foragers, the median residential group size was 27 people (mean 41.4, range 13 to 250, across 263 societies)."
+          },
+          {
+            "extraction_id": 603,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "The Hadza live in temporary camps that average about 30 individuals.",
+            "content": "Hadza camp size centers near 30 individuals, composed of several unrelated nuclear families."
           }
         ],
-        "evidence_count": 25
+        "evidence_count": 27
       },
       {
         "code": "EEA-SOC-02",
@@ -2778,7 +2797,7 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Novel-stranger frequency",
-        "eea_baseline": "Social cognition operated over a bounded pool: a personally-known reference network of about 150 people, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.",
+        "eea_baseline": "Social cognition operated over a bounded pool: a concurrent active network capped at about 150 people, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.",
         "eea_value": null,
         "modern_default": "The M1 machinery still treats unplaceable others as potential threats.",
         "gap_statement": "The delta is one of base rate and resolvability. Ancestrally, novel strangers were rare, salient, and resolvable (place them in the known web, or treat unfamiliarity as an actionable threat signal); modernity inverts this to constant, non-diagnostic, unresolvable novelty. The threat-management system inherited from the rare-stranger regime cannot down-regulate to the new base rate: it either over-fires (chronic low-grade vigilance, stranger-directed wariness in crowds and online) or, where it habituates, leaves people transacting with a stream of others who carry none of the reputational accountability the system implicitly assumes. The conserved unit being eroded is not the count of strangers but the durable, reputationally-tracked dyad against which any new face used to be evaluated; once almost everyone is a stranger, the bounded-pool premise that made novelty meaningful no longer holds.",
@@ -4241,9 +4260,9 @@
         "domain": "mating_reproduction",
         "domain_display": "Mating & reproduction",
         "name": "The pool of possible partners",
-        "eea_baseline": "A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, reaches about 50 km (half the places an Aka adult has visited lie within 30 km of camp, ext 3204) and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.",
+        "eea_baseline": "A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, reaches about 50 km and holds about 700 people they can meet and get to know (ext 841); half of the places on the researchers' list that an Aka adult had visited lay within 30 km of camp (ext 3204). The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.",
         "eea_value": {
-          "lifetime_known_pool": "about 1,000 (ext 606-608)",
+          "lifetime_known_pool": "about 1,000 (ext 606, 608)",
           "aka_people_in_exploration_range": "about 700 (ext 841)"
         },
         "modern_default": "Online, the pool is effectively unbounded and made of strangers. On one large US dating site, attention was very unequal: most users got a handful of first messages at most while a few got hundreds (one woman in New York got 1,504 in a month). Men and women mostly wrote to people about 25% more desirable than themselves, and men writing to more desirable women got replies at most 21% of the time.",
@@ -4316,9 +4335,16 @@
             "evidence_quality": "thin",
             "author_quote": "While individuals typically have some autonomy in choosing marital partners, parents often play a role in arranging suitable matches. The Tsimane prefer cross-cousin marriage (i.e., marrying the child of one's mother's brother or father's sister), and opposite-sexed siblings will often enter into a system of arranging marriages between their respective children.",
             "content": "Among the Tsimane of lowland Bolivia, forager-horticulturalists living in villages of related families, young people have some say in whom they marry and parents often arrange a match. The preferred partner is a cross-cousin (the child of a mother's brother or a father's sister),"
+          },
+          {
+            "extraction_id": 3204,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "The k value computed for all pygmies pooled is 43 km (fig. 2) and corresponds to a half-range of 30 km. This means an Aka from N'Delé or Bagandou would have a 50 per cent. probability of having visited a place 30 km from his camp of residence",
+            "content": "Among Aka foragers of the Central African Republic (109 people: 41 Bagandou men interviewed in 1977 and 68 randomly sampled N'Dele adolescents and adults in 1980), the chance that a person had ever visited a place fell off exponentially with its straight-line distance from camp."
           }
         ],
-        "evidence_count": 8
+        "evidence_count": 9
       },
       {
         "code": "EEA-MATE-03",
@@ -4916,7 +4942,7 @@
         "domain": "mating_reproduction",
         "domain_display": "Mating & reproduction",
         "name": "Sexual stimuli (real people vs unlimited images)",
-        "eea_baseline": "Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).",
+        "eea_baseline": "Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men asked about masturbating before marriage or during the post-partum sex taboo all said it did not occur (Hewlett and Hewlett 2010, ext 3844).",
         "eea_value": null,
         "modern_default": "Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.",
         "gap_statement": "The sexual incentive system now meets unlimited images of strangers chosen to be maximally arousing. In three preregistered replications, viewing the images did not lower attraction or love for a partner, against the one 1989 experiment that reported it. In two US panels, husbands who used them more reported lower marital quality six years later (among wives the link ran the other way), and starting use went with divorce by the next survey wave in women and men. Feeling addicted tracks moral conflict about one's own use as well as how much one uses.",
@@ -5023,9 +5049,16 @@
             "evidence_quality": "meta_analysis",
             "author_quote": "Out of the 700+ potential predictors, 17 variables emerged as significant predictors across data sets, with the top five being (a) pornography use frequency, (b) emotional avoidance pornography use motivation, (c) stress reduction pornography use motivation, (d) moral incongruence toward pornography use, and (e) sexual shame.",
             "content": "A preregistered study pooled 74 existing self-report data sets from independent laboratories (112,397 participants in 16 countries), ran random forest models on each and combined them by random-effects meta-analysis: the predictors together explained 45.84% of the variance in sco"
+          },
+          {
+            "extraction_id": 3844,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "We asked men, in particular, about masturbating before they were married or during the post-partum sex taboo and all indicated this did not occur.",
+            "content": "Among the Aka foragers, the Hewletts found no word for masturbation or for same-sex relations, and Aka men and women had difficulty understanding either when it was described. Men asked about masturbating before marriage or during the post-partum sex taboo all said it did not occ"
           }
         ],
-        "evidence_count": 13
+        "evidence_count": 14
       },
       {
         "code": "EEA-MATE-09",
@@ -5406,7 +5439,7 @@
             "evidence_role": "supporting",
             "evidence_quality": "thin",
             "author_quote": "Using the regression model results for all support variables together, an infant with a mother with no family or social support had around an eight times increased odds of developmental delay when compared with a mother with the maximum possible level of family and social support.",
-            "content": "In the UK Millennium Cohort (15,696 infants born 2000 to 2001, mothers interviewed at about 9 months), developmental delay was scored from 12 parent-reported motor and cognitive milestones and set at 2 SD below the age-adjusted mean. In one logistic regression with all six suppor"
+            "content": "In the UK Millennium Cohort (15,696 infants born 2000 to 2001, mothers interviewed at about 9 months), developmental delay was scored from 12 parent-reported motor and cognitive milestones and set at 2 SD below the age-adjusted mean. The six support measures were how often the mo"
           },
           {
             "extraction_id": 5040,
@@ -5433,20 +5466,20 @@
         "eea_baseline": "Attachment is not a single dyadic bond but secure attachment to one or more trusted caretakers, Bowlby's design refined by Hrdy to plural figures, and human infants are equipped with traits (cuteness, prolonged eye contact, social smiling) for recruiting the attention of potential caretakers. Crucially, maternal commitment itself is contingent: for a cooperatively breeding mammal, the capacity to conceive is only part of the equation; the mother must be able to carry through to rearing independence, which she assesses against perceived alloparental support. Touch is part of this continuity. In the Standard Cross-Cultural Sample the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). Field argues that the skin is the first and the largest sense organ to develop prenatally (ext 296). The expectation is not a list of relatives but caregivers who are reliably, physically present across time.",
         "eea_value": null,
         "modern_default": "In the United States of the late 1970s infants spent little time in body contact with caregivers, their movements were restricted by playpens, high chairs or cribs, and separate sleeping was regularly recommended (ext 3145); all Euro-American infants observed in Washington, D.C. had their own crib in their own room (ext 3151), and of the 18 US infants, 15 slept near their mothers until 3 to 6 months of age, when most were moved to a separate room (ext 3435). Caregivers may be nominally present (counted on paper) yet not reliably, responsively available in the moment-to-moment way the regulatory system expects.",
-        "gap_statement": "The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, R1), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.",
+        "gap_statement": "The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, M15), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.",
         "resolution_unit": "Reliable, present caregiver supply - responsive caregivers actually and repeatedly available across time, including continuity of body contact - NOT a count of designated or genealogically-related caregivers. The naive reading (enough named caregivers exist) misleads; what regulates the infant is dependable presence.",
         "evidence_grade": "theoretical",
         "contested": false,
         "confidence_note": "The extractions for the continuity/reliability claim (276, 281, 402) are graded theoretical (Hrdy/Bowlby interpretive synthesis); the forager care findings 701, 702 and 842 are graded thin; the touch items are 296 (theoretical), 294 (cross_species, Harlow/Suomi) and 705 (replicated). The row is graded argued, not yet tested. The specific operationalization of 'continuity' as a measured construct is not pinned to a number, hence eea_value is null and the parameter is qualitative.",
         "mechanism_codes": [
+          "M15",
           "M3",
-          "M9",
-          "R1"
+          "M9"
         ],
         "mechanism_names": {
+          "M15": "Touch",
           "M3": "Social Bonding",
-          "M9": "Care / Alloparenting",
-          "R1": "Touch"
+          "M9": "Care / Alloparenting"
         },
         "evidence": [
           {
@@ -5532,9 +5565,23 @@
             "evidence_quality": "thin",
             "author_quote": "All 14 Mayan children slept in their mothers' beds into toddlerhood. None of the 18 U.S. infants slept in bed with their mothers on a regular basis as newborns, although 15 slept near their mothers until age 3 to 6 months, when most were moved to a separate room.",
             "content": "Comparing Highland Maya families with middle-class US families over the child's first 2 years, all 14 Mayan children slept in their mothers' beds into toddlerhood. None of the 18 US infants slept in bed with their mothers on a regular basis as newborns; 15 slept near their mother"
+          },
+          {
+            "extraction_id": 2058,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "Infant holding significantly declines from 95.7 % to 82.7 % (over an hour difference) across the time periods. Infant physical contact, where only TP III is represented, illustrates that infants are in physical contact 91.4 % during the last time period.",
+            "content": "Across three observation periods (1994-1996, 2000-2002 and 2009-2013) covering 94 Aka forager infants aged 2 weeks to 12 months in the Central African Republic, about 846 hours of daylight focal observation, infants under 6 months were held in 95.7 percent of observations in the"
+          },
+          {
+            "extraction_id": 2069,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "The mean number of allomothers (in-degree) a child has in the proximity, physical contact, close care, and crying response networks are 14.4 (SD = 6.0), 7.2 (SD = 4.0), 7.9 (SD = 3.8), and 2.5 (SD = 1.6), respectively",
+            "content": "In the same 18 BaYaka children, the mean number of allomothers (caregivers other than the mother) was 14.4 in the proximity network, 7.2 in the physical-contact network, 7.9 for close care and 2.5 for responding to crying. Allomothers gave 40 to 50 percent of care in each domain,"
           }
         ],
-        "evidence_count": 12
+        "evidence_count": 14
       },
       {
         "code": "EEA-CARE-03",
@@ -5692,14 +5739,14 @@
         "domain": "care_development",
         "domain_display": "Care & development",
         "name": "Multigenerational presence (older people inside the band's giving and getting)",
-        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food (ext 2063, 3088), care (ext 2084) and knowledge (ext 3827) where they could, and they were given to (ext 3088, 3665). The project's position: reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). The grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species, longer than chance only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
+        "eea_baseline": "Older people kept a place in the band's giving and getting. They gave food (ext 3088), care (ext 2084) and knowledge (ext 3827) where they could, and they were given to (ext 3088, 3665). The project's position: reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). The grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species, longer than chance only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.",
         "eea_value": null,
         "modern_default": "Among US adults aged 25 or over with a living parent or adult child, 13.2% lived with a parent or adult child, 74.8% had the nearest one within 30 miles and 6.8% had the nearest one 500 miles or more away (ext 4204). In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209).",
         "gap_statement": "The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it.",
         "resolution_unit": "Older relatives present and inside the family's daily giving and getting: giving care, food or knowledge where they can, and being provided for. NOT mere grandparental existence or living-relative count. A surviving grandmother several time zones away does not fill the place a band of several generations gave her.",
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 studies in patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On child growth, among 127 Aka children grandmothers were the allomother most linked to better nutritional status, clearest from 9 months to 3 years (Meehan, Helfrecht and Quinlan 2014). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 studies in patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On child growth, among 127 Aka children grandmothers were the allomother most linked to better nutritional status, clearest from 9 months to 3 years (Meehan, Helfrecht and Quinlan 2014). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).",
         "mechanism_codes": [
           "M3",
           "M9"
@@ -5892,14 +5939,14 @@
         "contested": false,
         "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Near-continuous infant carrying and frequent nursing are documented in !Kung, Aka and Efe, with breastfeeding into the second or third year across non-industrial societies (Sellen 2007). The adult high-touch part rests on modern observation and is argued. The kangaroo-care mortality benefit applies to stabilized low-birthweight infants (RR 0.60, 95% CI 0.39-0.92; Conde-Agudelo & Diaz-Rossello 2016, ext 618) and is largest in low- and middle-income settings.",
         "mechanism_codes": [
+          "M15",
           "M3",
-          "M9",
-          "R1"
+          "M9"
         ],
         "mechanism_names": {
+          "M15": "Touch",
           "M3": "Social Bonding",
-          "M9": "Care / Alloparenting",
-          "R1": "Touch"
+          "M9": "Care / Alloparenting"
         },
         "evidence": [
           {
@@ -6066,14 +6113,14 @@
         "contested": false,
         "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Mother and infant slept in the same room in all 173 societies of the Standard Cross-Cultural Sample and in the same bed in at least 76 (Barry and Paxson 1971). The label covers that ancestral fact only. It says nothing about the safety of bed-sharing today: the AAP 2016 guidance (room-sharing without bed-sharing) stands. Two case-control analyses disagree on bed-sharing where no other hazard is present: Blair et al. 2014 found no significant added risk (odds ratio 1.1), with about 18 times the risk on a sofa or beside an adult who had drunk more than two units of alcohol (ext 3346); Carpenter et al. 2013 found about five times the risk of bed-sharing against room-sharing for breastfed babies under 3 months when neither parent smoked and the mother had taken no alcohol or drugs (ext 3347). On a question of an infant's life the hazard data decide, not the ancestral picture.",
         "mechanism_codes": [
+          "M15",
           "M3",
-          "M7",
-          "R1"
+          "M7"
         ],
         "mechanism_names": {
+          "M15": "Touch",
           "M3": "Social Bonding",
-          "M7": "Circadian Regulation",
-          "R1": "Touch"
+          "M7": "Circadian Regulation"
         },
         "evidence": [
           {
@@ -6166,14 +6213,14 @@
         "resolution_unit": "Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors, though the authors argue release is the standard reading (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. A human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors, though the authors argue release is the standard reading (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).",
         "mechanism_codes": [
-          "M3",
-          "R1"
+          "M15",
+          "M3"
         ],
         "mechanism_names": {
-          "M3": "Social Bonding",
-          "R1": "Touch"
+          "M15": "Touch",
+          "M3": "Social Bonding"
         },
         "evidence": [
           {

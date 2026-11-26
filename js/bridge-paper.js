@@ -113,7 +113,7 @@
       var isForced = Object.prototype.hasOwnProperty.call(FORCED, code);
       var groundCell = isForced
         ? '<span class="lr-tier-t1">forced</span>'
-        : '<span class="lr-tier-t2">supported</span>';
+        : '<span class="lr-tier-t2">associated</span>';
       return "<tr>" +
         "<td>" + chip(code) + "</td>" +
         '<td class="lr-mech-name">' + name + "</td>" +

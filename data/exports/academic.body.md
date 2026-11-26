@@ -41,7 +41,7 @@ Five levels along a resolvability/actionability axis; a true DA4 proxy appears o
 
 ### Cascade topology
 
-Suppresses M2, M4, M14, M10, and M6. Suppressed by M3, M6, and R1. Interacts with M8.
+Suppresses M2, M4, M14, M10, and M6. Suppressed by M3, M6, and M15. Interacts with M8.
 
 ---
 
@@ -412,11 +412,11 @@ Suppresses nothing recorded. Suppressed by M1, M13, and M9. Interacts with M3, M
 
 ---
 
-## R1 - Touch
+## M15 - Touch
 
 **Phylogenetic age:** ~60-90Myr (C-tactile touch fibres, placental mammals). **Evidence link count:** 18. **Grounded in:** C4 and C5.
 
-R1 is a regulatory input to M3, carried by C-tactile afferents. **Resolution conditions:** regular physical contact with trusted others.
+M15 is touch, an input to M3, carried by C-tactile afferents. **Resolution conditions:** regular physical contact with trusted others.
 
 C4 (Phylogenetic Conservation of Subcortical Affective Systems), established by Panksepp, Bowlby, and Hrdy. C5 (Socially Scaffolded Regulation via Attachment), established by Coan, Bowlby, Hrdy, Dunbar, and Holt-Lunstad. Key researchers: McGlone, Field.
 

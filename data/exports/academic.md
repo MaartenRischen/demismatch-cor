@@ -3,9 +3,9 @@
 
 *For researchers and scholars. Full terminology, epistemic grades, evidence, and the complete derivation.*
 
-> Generated 2026-11-26 09:19 UTC, from the live Cor atlas snapshot built 2026-11-26 09:19 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 11:33 UTC, from the live Cor atlas snapshot built 2026-11-26 11:32 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3927 works, 5802 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3940 works, 5818 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -51,7 +51,7 @@ Five levels along a resolvability/actionability axis; a true DA4 proxy appears o
 
 ### Cascade topology
 
-Suppresses M2, M4, M14, M10, and M6. Suppressed by M3, M6, and R1. Interacts with M8.
+Suppresses M2, M4, M14, M10, and M6. Suppressed by M3, M6, and M15. Interacts with M8.
 
 ---
 
@@ -422,11 +422,11 @@ Suppresses nothing recorded. Suppressed by M1, M13, and M9. Interacts with M3, M
 
 ---
 
-## R1 - Touch
+## M15 - Touch
 
 **Phylogenetic age:** ~60-90Myr (C-tactile touch fibres, placental mammals). **Evidence link count:** 18. **Grounded in:** C4 and C5.
 
-R1 is a regulatory input to M3, carried by C-tactile afferents. **Resolution conditions:** regular physical contact with trusted others.
+M15 is touch, an input to M3, carried by C-tactile afferents. **Resolution conditions:** regular physical contact with trusted others.
 
 C4 (Phylogenetic Conservation of Subcortical Affective Systems), established by Panksepp, Bowlby, and Hrdy. C5 (Socially Scaffolded Regulation via Attachment), established by Coan, Bowlby, Hrdy, Dunbar, and Holt-Lunstad. Key researchers: McGlone, Field.
 
@@ -464,32 +464,32 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Social network layers (~5/15/50/150)
 `EEA-SOC-01 · Social structure` - **tested many times**
 
-**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. These sizes are found among foragers: across 339 forager societies, aggregated residential groups averaged 54 people and periodic multi-group gatherings 165 (ext 1048). They are found again in modern networks (modern side below). This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).
+**EEA baseline.** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. These sizes are found among foragers: across 339 forager societies, aggregated residential groups averaged 54 people and periodic multi-group gatherings 165 (ext 1048). Measured residential camps are often smaller: the median residential group across 263 forager societies was 27 people (ext 754), and Hadza camps center near 30 individuals (ext 603). They are found again in modern networks (modern side below). This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).
 
 **EEA value** (illustrative, not constants):
 
   - unit: individuals
-  - layer_sizes: {"affinity_band": "50, the typical hunter-gatherer overnight camp (ext 404); 35, the band (ext 490)", "active_network": "150 (ext 404, 490)", "support_clique": "5 (ext 404, 490)", "sympathy_group": "15 (ext 404); 12 (ext 490)"}
+  - layer_sizes: {"affinity_band": "50, the typical hunter-gatherer overnight camp (ext 404); 35, the band (ext 490); 27, the median residential group across 263 forager societies (ext 754)", "active_network": "150 (ext 404, 490)", "support_clique": "5 (ext 404, 490)", "sympathy_group": "15 (ext 404); 12 (ext 490)"}
   - scaling_factor: approximately three (ext 404); about three to four in forager population structure, a constant ratio close to 4 (ext 685)
   - outer_ceiling_approx: 150
   - tribal_clan_grouping: clusters in the low hundreds (ethnographic)
 
-**Modern default.** The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay the same size. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).
+**Modern default.** The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay under the same ceiling. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).
 
-**The gap.** The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.
+**The gap.** The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
 **Serves mechanisms:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring
 
-**Evidence (25 links):**
+**Evidence (27 links):**
 
 - ext#404 · tested many times · primary: "The innermost group consists of about three to five people."
 - ext#490 · tested many times · primary: "the various human groups that can be identified in any society seem to cluster rather tightly around a series of values (5, 12, 35, 150, 500, and 2,000) with virtually no overlap in the variance around these characteristic values."
 - ext#25 · contested · primary: "for the twenty-odd tribal societies where census data are available, these clan groups turn out to have a mean size of 153"
 - ext#483 · seen in animals · supporting: "Group size is found to be a function of relative neocortical volume, but the ecological variables are not. This is interpreted as evidence in favour of the social intellect theory and against the ecological theories."
 - ext#485 · argued, not yet tested · supporting: "the number of neocortical neurons limits the organism's information-processing capacity and that this then limits the number of relationships that an individual can monitor simultaneously."
-- (+20 more linked extraction(s))
+- (+22 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of the 26,680 users who called at least 100 others (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The number 150 was first derived from a primate neocortex-ratio regression, and re-analyses of that regression disagree (Lindenfors, Wartel and Lind 2021, ext 619; Dunbar and Shultz 2023, ext 5868); the group sizes here rest on the forager and network counts above. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Pooled published group and network sizes fall into a hierarchy with a ratio of about 3.2 between successive sizes (Zhou et al. 2005, ext 2042), and personal networks fall into nested layers about three times the size of the one inside in phone records of the 26,680 users who called at least 100 others (Mac Carron, Kaski and Dunbar 2016, ext 2026) and in Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The number 150 was first derived from a primate neocortex-ratio regression, and re-analyses of that regression disagree (Lindenfors, Wartel and Lind 2021, ext 619; Dunbar and Shultz 2023, ext 5868); the group sizes here rest on the forager and network counts above. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.*
 
 #### Lifetime known-individual pool (~1,000)
 `EEA-SOC-02 · Social structure` - **tested once**
@@ -671,7 +671,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Novel-stranger frequency
 `EEA-SOC-08 · Social structure` - **argued, not yet tested**
 
-**EEA baseline.** Social cognition operated over a bounded pool: a personally-known reference network of about 150 people, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.
+**EEA baseline.** Social cognition operated over a bounded pool: a concurrent active network capped at about 150 people, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.
 
 **Modern default.** The M1 machinery still treats unplaceable others as potential threats.
 
@@ -1027,11 +1027,11 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### The pool of possible partners
 `EEA-MATE-02 · Mating & reproduction` - **tested once**
 
-**EEA baseline.** A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, reaches about 50 km (half the places an Aka adult has visited lie within 30 km of camp, ext 3204) and holds about 700 people they can meet and get to know. The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.
+**EEA baseline.** A forager chose from a small pool of people who were known before anything started. Among the Aka, the area a person explores over a lifetime, looking for a mate, visiting kin and hunting, reaches about 50 km and holds about 700 people they can meet and get to know (ext 841); half of the places on the researchers' list that an Aka adult had visited lay within 30 km of camp (ext 3204). The lifetime pool of individually known people was about 1,000 in the Ache and Hadza. Possible partners came with a known family and a reputation.
 
 **EEA value** (illustrative, not constants):
 
-  - lifetime_known_pool: about 1,000 (ext 606-608)
+  - lifetime_known_pool: about 1,000 (ext 606, 608)
   - aka_people_in_exploration_range: about 700 (ext 841)
 
 **Modern default.** Online, the pool is effectively unbounded and made of strangers. On one large US dating site, attention was very unequal: most users got a handful of first messages at most while a few got hundreds (one woman in New York got 1,504 in a month). Men and women mostly wrote to people about 25% more desirable than themselves, and men writing to more desirable women got replies at most 21% of the time.
@@ -1040,14 +1040,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M5 - Status Monitoring
 
-**Evidence (8 links):**
+**Evidence (9 links):**
 
 - ext#841 · tested once · primary: "(Hewlett et al. 1988), that is, the geographical area individuals explore during their lifetime searching for a mate, visiting friends and family, hunting, and acquiring subsistence knowledge, is the final social unit. This exploration range for the Aka is approximately 50 kilometers, and includes an area where the Aka can meet and get to know about seven hundred individuals"
 - ext#606 · tested once · supporting: "Among the Ache and Hadza, frequent visiting and long lifespans mean that adults typically interact with more than three hundred same-sex adults during their lifetimes. This implies a social universe of about a thousand individuals, when opposite-sex adults and children are included."
 - ext#608 · tested once · supporting: "Additionally, close companions often interact with a somewhat different set of individuals, so that the total number of indirect interactants that each individual hears about repeatedly in detailed stories, and could expect to possibly meet some time during their lifetime is clearly more than 1,000. This is a much higher number of individually known social interactants than reported for any other primate, and possibly more than any other species on earth. It is also much greater than the predicted 150 significant social interactants (known as “Dunbar's number”) that was extrapolated from primate brain by social group size regressions"
 - ext#1013 · tested once · primary: "most people receive a handful of messages at most, but a small fraction of the population receive far more"
 - ext#1014 · tested once · primary: "We find that both men and women pursue partners who are on average about 25% more desirable than themselves by our measures"
-- (+3 more linked extraction(s))
+- (+4 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (11 Nov 2026): tested once. Ancestral value: one Aka ethnography (Hewlett 2005, ext 841) and one model-based estimate in two populations (Hill et al. 2014). Modern side: one site, four US cities, one month (Bruch and Newman 2018). No peer-reviewed data on how unequal likes or matches are on swipe apps was found. Evidence cited (abstract or book only): ext 841. Added 19 Nov 2026. That a partner was known to the group beforehand is inferred from the size of the pool; no study records it, so that step is argued, not yet tested. Distance between spouses grows as population thins, among foragers and among farmers (MacDonald and Hewlett 1999, ext 1744, abstract only). Among the Tsimane the preferred spouse is known kin (ext 1732).*
 
@@ -1187,7 +1187,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Sexual stimuli (real people vs unlimited images)
 `EEA-MATE-08 · Mating & reproduction` - **tested many times**
 
-**EEA baseline.** Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men said it did not occur (Hewlett and Hewlett 2010, ext 3844).
+**EEA baseline.** Sexual cues came from real people a forager knew and could meet. No study measures this directly. Among the Aka, the Hewletts found no word for masturbation, and men asked about masturbating before marriage or during the post-partum sex taboo all said it did not occur (Hewlett and Hewlett 2010, ext 3844).
 
 **Modern default.** Pornography is the norm: in a nationally representative sample of US adult internet users, about 70% had viewed it and just over half had in the past year. About 11% of men and 3% of women agreed at least somewhat that they were addicted to it. Across 50 studies, use went with lower sexual and relationship satisfaction in men; most studies are cross-sectional. In a US probability survey, use went with rough sex such as choking.
 
@@ -1195,14 +1195,14 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Serves mechanisms:** M14 - Reproductive Motivation, M2 - Pursuit / Exploration
 
-**Evidence (13 links):**
+**Evidence (14 links):**
 
 - ext#1024 · tested once · primary: "most participants had viewed pornography within their lifetimes (n = 1,461), with just over half reporting some use in the past year (n = 1,056)"
 - ext#1027 · tested many times · primary: "pornography consumption was associated with lower interpersonal satisfaction outcomes in cross-sectional surveys, longitudinal surveys, and experiments"
 - ext#1028 · contested · supporting: "Males who found the Playboy -type centerfolds more pleasant rated themselves as less in love with their wives."
 - ext#1029 · tested once · challenging: "We did not find support for the original finding that exposure to attractive images of opposite-sex others affects males' ratings of their partners' sexual attractiveness or love for their partner."
 - ext#1030 · tested once · supporting: "Lifetime pornography use was reported by most respondents."
-- (+8 more linked extraction(s))
+- (+9 more linked extraction(s))
 
 *Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times, for the effects side: use goes with lower sexual and relationship satisfaction in men across 50 studies, in cross-sectional surveys, longitudinal surveys and experiments (Wright et al. 2017, ext 1027); main weakness: most studies are cross-sectional, and the link was significant for men only. Two US panels found use followed by lower marital quality among husbands, with the opposite among wives (Perry 2017, ext 2290, 2291), and starting use followed by divorce in women and men (Perry and Schleifer 2018, ext 2729); both are observational. Use levels: one national sample (Grubbs, Kraus and Perry 2019), thin. Kenrick et al. 1989 failed three preregistered replications (Balzarini et al. 2017, ext 1029) and no longer counts for an effect on attraction or love. Felt addiction tracks moral incongruence as well as use (Grubbs, Kraus and Perry 2019, ext 1025; Grubbs et al. 2019, ext 1026; across 74 data sets with 112,397 people in 16 countries, the strongest predictors of problem scores were frequency of use, use to avoid feelings or relieve stress, moral incongruence and sexual shame, Bőthe et al. 2024); that is what the self-label measures, and it bears on neither side of the effects question. Background-tier evidence cited (abstract or book only): ext 1026, 1027, 1028, 1029, 1030.*
 
@@ -1301,20 +1301,20 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Modern default.** In the United States of the late 1970s infants spent little time in body contact with caregivers, their movements were restricted by playpens, high chairs or cribs, and separate sleeping was regularly recommended (ext 3145); all Euro-American infants observed in Washington, D.C. had their own crib in their own room (ext 3151), and of the 18 US infants, 15 slept near their mothers until 3 to 6 months of age, when most were moved to a separate room (ext 3435). Caregivers may be nominally present (counted on paper) yet not reliably, responsively available in the moment-to-moment way the regulatory system expects.
 
-**The gap.** The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, R1), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.
+**The gap.** The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, M15), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.
 
 **Resolution unit.** Reliable, present caregiver supply - responsive caregivers actually and repeatedly available across time, including continuity of body contact - NOT a count of designated or genealogically-related caregivers. The naive reading (enough named caregivers exist) misleads; what regulates the infant is dependable presence.
 
-**Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch
+**Serves mechanisms:** M15 - Touch, M3 - Social Bonding, M9 - Care / Alloparenting
 
-**Evidence (12 links):**
+**Evidence (14 links):**
 
 - ext#281 · argued, not yet tested · primary: "Clearly, for cooperatively breeding mammals, a female's physical capacity to conceive and bear viable young is only a small part of the equation. She must also be able to carry through with the enterprise - rearing offspring to independence."
 - ext#402 · argued, not yet tested · primary: "for their pronounced ambivalence toward newborns and their extremely contingent maternal commitment. Infants have adapted, as we will see later, with special traits for attracting the attention of potential caretakers."
 - ext#276 · argued, not yet tested · primary: "Bowlby demonstrated that babies are genetically programmed to seek and form an attachment to a trusted figure. Secure attachment to one or more trusted caretakers is an essential aspect of emotional development in humans, just as it is in all other primates."
 - ext#296 · argued, not yet tested · supporting: "The skin is the first and the largest sense organ to develop prenatally. The fetus is suspended in amniotic fluid and receives active stimulation from the fluid and the mother and others as they touch her abdomen. The fetus becomes increasingly active as this happens. The fetus also touches itself by thumb sucking and grasping the umbilical cord. The fetus gets a continuous massage for the entire nine months from both the amniotic fluid and the mother's insides. In addition, a pregnant woman naturally massages her baby in the womb. Touch alters oxytocin (an estrogen-dependent chemical), which relaxes the individual, promotes touch, encourages bonding, triggers milk letdown during breastfeeding, and sets off the uterine contractions that accompany childbirth."
 - ext#294 · seen in animals · supporting: "Several decades ago, Harry Harlow, at the University of Wisconsin, performed a classic experiment on touching monkeys. He built one surrogate mother out of terry cloth and a second surrogate mother out of wire mesh. For some of the monkey infants, the terry-cloth mother provided milk, and the wire mother did not. For others, the condition was reversed. The monkey infants preferred the cloth mother without the milk over the wire mother with milk, suggesting that they needed the touch stimulation as much as, if not more than, the nourishment."
-- (+7 more linked extraction(s))
+- (+9 more linked extraction(s))
 
 *Confidence note: The extractions for the continuity/reliability claim (276, 281, 402) are graded theoretical (Hrdy/Bowlby interpretive synthesis); the forager care findings 701, 702 and 842 are graded thin; the touch items are 296 (theoretical), 294 (cross_species, Harlow/Suomi) and 705 (replicated). The row is graded argued, not yet tested. The specific operationalization of 'continuity' as a measured construct is not pinned to a number, hence eea_value is null and the parameter is qualitative.*
 
@@ -1345,7 +1345,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 #### Multigenerational presence (older people inside the band's giving and getting)
 `EEA-CARE-04 · Care & development` - **tested many times**
 
-**EEA baseline.** Older people kept a place in the band's giving and getting. They gave food (ext 2063, 3088), care (ext 2084) and knowledge (ext 3827) where they could, and they were given to (ext 3088, 3665). The project's position: reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). The grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species, longer than chance only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.
+**EEA baseline.** Older people kept a place in the band's giving and getting. They gave food (ext 3088), care (ext 2084) and knowledge (ext 3827) where they could, and they were given to (ext 3088, 3665). The project's position: reciprocity runs across the whole life, so a grandmother who gave for a lifetime holds her place when she takes. What older people gave differed by group. Among the Hadza, grandmothers foraged most when their newest grandchild was youngest (ext 2063). Among the Tsimane, net food flowed down the generations: grandmothers gave a net 117 kcal a day to their grandchildren and grandfathers 223, into their 70s (ext 3088). Among the Aka, care by others, largely grandmothers, lowered mothers' work by up to 216 kcal over nine hours (ext 2084). Tsimane adults named grandparents most often as the source of the stories they knew (ext 3827). Among the Ache and Hiwi, older women did not contribute food that eased the deficits of middle-aged couples raising children, and about 10 percent of middle-aged Ache women lived with their own mothers (ext 2301). Agta adults named old age among the needs that decided whom they gave to in an experimental sharing game (ext 3665). The grandmother hypothesis (and Lieberman's active-grandparent corollary) holds that the long human life after the last birth (among 52 wild mammal species, longer than chance only in humans, orcas and short-finned pilot whales, ext 3722) was selected for and made possible by older adults remaining physically active to help rear children, grandchildren, and other young kin, increasing inclusive fitness through kin-selected provisioning. Older people are thus part of the alloparental supply: a band of several generations in which the old kept a place in the exchange and were no absent generation.
 
 **Modern default.** Among US adults aged 25 or over with a living parent or adult child, 13.2% lived with a parent or adult child, 74.8% had the nearest one within 30 miles and 6.8% had the nearest one 500 miles or more away (ext 4204). In ten European countries 58 percent of grandmothers and 49 percent of grandfathers looked after a grandchild in the past year (Hank and Buber 2009, ext 4209).
 
@@ -1364,7 +1364,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#703 · tested many times · supporting: "maternal grandmothers improved child survival in 69% of cases (nine of 13 studies)"
 - (+18 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Hadza (ext 2063), the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 studies in patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On child growth, among 127 Aka children grandmothers were the allomother most linked to better nutritional status, clearest from 9 months to 3 years (Meehan, Helfrecht and Quinlan 2014). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).*
+*Confidence note: Grade, rubric v2 (22 Nov 2026): tested many times for what the row claims, that older people were present and inside the giving and getting. Post-reproductive survival is common across foragers (Gurven and Kaplan 2007, ext 723), and food and care from older people were measured by separate teams among the Tsimane (ext 3088) and the Aka (ext 2084); main weakness: each flow is measured in one population, and among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301). The grandmother hypothesis in the baseline is an evolutionary reading, which the label does not cover; on child survival, across 17 studies in patrilineal populations surviving maternal grandparents went with lower child mortality and paternal grandparents did not (Strassmann and Garrard 2011, ext 3536). On child growth, among 127 Aka children grandmothers were the allomother most linked to better nutritional status, clearest from 9 months to 3 years (Meehan, Helfrecht and Quinlan 2014). On food the row states a project position (21 Nov 2026): a grandmother who gave for a lifetime need not feed anyone to hold her place. Measured flows differ by group: down the generations among the Tsimane (ext 3088); Hadza grandmothers foraged more when grandchildren were youngest (ext 2063); among the Ache and Hiwi older women did not ease the deficits of middle-aged couples (ext 2301).*
 
 
 ### Touch & contact
@@ -1387,7 +1387,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Reliable supply of skin-to-skin, affective contact, especially in infancy and under stress, and NOT a raw count of any contact. Two kinds of touch carry it: firm, moderate pressure is what helped in the preterm massage studies (ext 293), and slow, gentle stroking is what C-tactile fibres respond to, firing most at stroking speeds of 1 to 10 cm per second that people rate the most pleasant (ext 2147, 2689).
 
-**Serves mechanisms:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch
+**Serves mechanisms:** M15 - Touch, M3 - Social Bonding, M9 - Care / Alloparenting
 
 **Evidence (21 links):**
 
@@ -1411,7 +1411,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Reliable presence of nighttime body contact / proximity that preserves the touch and co-regulation channel through the sleep period; the relevant variable is continuity of contact across the 24-hour cycle, not sleep duration.
 
-**Serves mechanisms:** M3 - Social Bonding, M7 - Circadian Regulation, R1 - Touch
+**Serves mechanisms:** M15 - Touch, M3 - Social Bonding, M7 - Circadian Regulation
 
 **Evidence (10 links):**
 
@@ -1442,7 +1442,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 **Resolution unit.** Reliable supply of affiliative touch from trusted others (the grooming homolog), present as an ongoing relational channel; not one-off or transactional touch, and not mere co-presence without contact.
 
-**Serves mechanisms:** M3 - Social Bonding, R1 - Touch
+**Serves mechanisms:** M15 - Touch, M3 - Social Bonding
 
 **Evidence (7 links):**
 
@@ -1453,7 +1453,7 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 - ext#418 · argued, not yet tested · supporting: "Many human cultures know the primary value of touch. In some primitive cultures, for example, people live skin-to-skin with virtually everyone."
 - (+2 more linked extraction(s))
 
-*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. The one human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors, though the authors argue release is the standard reading (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).*
+*Confidence note: Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No forager measurement of adult social-touch frequency exists; the ancestral claim is inferred from primate grooming, and the modern stress-buffering studies test the mechanism, not this ancestral value. A human scan study of a partner's touch was read by its authors as less opioid release, which they call unexpected (ext 2281); such a scan cannot separate release from a change in receptors, though the authors argue release is the standard reading (ext 2280). In six small-scale societies, grooming one another took about 0.8 percent of the day, against the 4 percent a model of 69 primate species predicts for humans, while time in conversation was as predicted (ext 3607).*
 
 
 ### Circadian & sensory
@@ -1928,4 +1928,4 @@ Cor is a mismatch framework; this is its quantitative edge. For each mechanism w
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 09:19 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-26 09:19 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 11:32 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Full Academic edition was compiled 2026-11-26 11:33 UTC.*

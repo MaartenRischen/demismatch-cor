@@ -51,7 +51,7 @@
   var PLAIN = {
     "EEA-SOC-01": {
       says: [
-        "In the world humans evolved in, people were known in rings, each about three times the size of the one inside: about 5 to lean on, 15 whose loss would hurt deeply, a camp of about 50, and about 150 known personally.",
+        "In the world humans evolved in, people were known in rings, each about three times the size of the one inside: about 5 to lean on, 15 whose loss would hurt deeply, about 50 friends, and about 150 kept up with at one time, the ceiling. A camp held about 30 of them.",
         "Today a person can have hundreds or thousands of contacts, and the inner rings stay just as small."
       ],
       why: "The rings hold up in modern network data. The exact sizes are disputed, 150 most of all, so read them as rough."

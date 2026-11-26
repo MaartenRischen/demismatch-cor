@@ -81,7 +81,7 @@
   /* ---- 3. inline code chips in prose -------------------------------------- */
   // Every <span data-code="M2"></span> (mechanism) or data-code="OF2"
   // (foundation) etc. in the authored prose becomes a CorXref chip. Mechanisms
-  // and Touch (R1) deep-link to mechanism.html#<CODE>; foundations to the
+  // and Touch (M15) deep-link to mechanism.html#<CODE>; foundations to the
   // derivation layer; cut/unknown codes degrade to plain text. Keeps the named
   // systems cross-linked to the interactive spec without any dead links.
 

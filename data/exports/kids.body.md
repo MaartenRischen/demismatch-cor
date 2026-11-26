@@ -102,7 +102,7 @@ This is a grown-up helper. It has three parts that handle wanting to be close, f
 
 The real thing is a real partner you share life with. The pretend versions are things on screens that show the clues of a partner but are not a real person who shares your life. They can switch the helper on, but they cannot give the real closeness and bond that really fill the need.
 
-## R1 - Touch
+## M15 - Touch
 
 This helper feeds your bonding helper (M3) and helps it feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
 
