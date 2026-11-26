@@ -53,6 +53,15 @@
     return s.toLowerCase() === "forced" ? "established" : s;
   }
 
+  // Foundation grade chip. 26 Nov 2026: a statement with "(graded X)" marks
+  // shows those marks, in order, in place of the one field value (which holds
+  // only the first claim's grade). The marks stay in the statement text.
+  function foundationGradeTag(f) {
+    var marks = D && D.gradeMarks ? D.gradeMarks(f.statement) : [];
+    var label = marks.length ? marks.map(gradeLabel).join(" \u00b7 ") : (f.epistemic_grade ? gradeLabel(f.epistemic_grade) : "");
+    return label ? '<span class="ref-tag ref-tag-grade">' + esc(label) + "</span>" : "";
+  }
+
   // Set inner HTML of a section body, with a calm empty-state fallback.
   function fill(id, html, emptyMsg) {
     var el = document.getElementById(id);
@@ -93,7 +102,7 @@
       var head = '<div class="ref-card-top">' +
         chip(f.code) +
         (f.layer ? '<span class="ref-tag">' + esc(humanize(f.layer)) + "</span>" : "") +
-        (f.epistemic_grade ? '<span class="ref-tag ref-tag-grade">' + esc(gradeLabel(f.epistemic_grade)) + "</span>" : "") +
+        foundationGradeTag(f) +
         "</div>";
       var name = '<h3 class="ref-card-name">' + clean(f.name || f.code) + "</h3>";
       var stmt = f.statement ? '<p class="ref-card-body">' + clean(f.statement) + "</p>" : "";

@@ -59,9 +59,14 @@
     var top = el("div", "node-top");
     top.appendChild(el("span", "node-code", C.clean(f.code)));
     if (has(f.name)) top.appendChild(el("span", "node-name", C.clean(f.name)));
-    var gl = gradeLabel(f.epistemic_grade);
+    // 26 Nov 2026: a statement with "(graded X)" marks shows those marks, in
+    // order, in place of the one field value (which holds only the first claim).
+    var marks = C.gradeMarks ? C.gradeMarks(f.statement) : [];
+    var gl = marks.length
+      ? marks.map(function (k) { return gradeLabel(k.replace(/ /g, "_")); }).join(" \u00b7 ")
+      : gradeLabel(f.epistemic_grade);
     // Suppress the grade chip when it just restates the layer (e.g. frame -> "Frame").
-    if (gl && (!has(f.layer) || gl.toLowerCase() !== f.layer.toLowerCase())) {
+    if (gl && (marks.length || !has(f.layer) || gl.toLowerCase() !== f.layer.toLowerCase())) {
       top.appendChild(el("span", "node-grade", C.esc(gl)));
     }
     node.appendChild(top);

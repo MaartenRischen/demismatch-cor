@@ -77,12 +77,21 @@
   }
 
   // ---- identity header -----------------------------------------------------
+  // 26 Nov 2026: no single grade and no tier per system. The header shows how
+  // many of the system's findings carry each public label (rubric order, zero
+  // labels left out). Nothing is rendered when the evidence tables are absent.
+  function labelCountsLine(code) {
+    var rows = D.mechanismLabelCounts ? D.mechanismLabelCounts(code) : [];
+    if (!rows.length) return "";
+    return "<span class='ident-tier'>Findings: " + rows.map(function (r) {
+      return esc(r.n) + " " + esc(r.label);
+    }).join(" &middot; ") + "</span>";
+  }
   function identHeader(m) {
     return "<header class='ident'>" +
       "<div class='ident-top'>" +
         "<span class='ident-code'>" + esc(m.code) + "</span>" +
-        (m.grade ? "<span class='ident-grade'>" + esc(dash(m.grade)) + "</span>" : "") +
-        (m.tier != null ? "<span class='ident-tier'>Tier " + esc(m.tier) + "</span>" : "") +
+        labelCountsLine(m.code) +
       "</div>" +
       "<h1 class='ident-name'>" + clean(m.name) + "</h1>" +
       (m.description ? "<p class='ident-desc'>" + clean(m.description) + "</p>" : "") +

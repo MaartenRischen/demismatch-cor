@@ -398,6 +398,45 @@
     return PUBLIC_GRADE[v] || String(v).replace(/_/g, " ");
   }
 
+  // A foundation statement can hold two claims, each ending with its own mark
+  // "(graded forced)" / "(graded strongly supported)", while the one field
+  // epistemic_grade keeps the first claim's value (26 Nov 2026). Returns the
+  // marks in statement order (e.g. ["forced", "strongly supported"]), [] if none.
+  // The marks stay in the statement text; only the grade chip reads them.
+  function gradeMarks(statement) {
+    var out = [], rx = /\(graded ([a-z _-]+)\)/gi, m;
+    var s = String(statement || "");
+    while ((m = rx.exec(s)) !== null) out.push(m[1].replace(/_/g, " ").trim().toLowerCase());
+    return out;
+  }
+
+  // How many of a system's findings carry each public label (26 Nov 2026: the
+  // site shows these counts in place of one grade and one tier per system).
+  // Counts each finding (extraction) once, from v2_mechanism_evidence joined to
+  // the extraction's evidence_quality. Returns [{label, n}] in rubric order,
+  // zero labels left out; [] when the tables are absent.
+  var _labelCounts = null;
+  function mechanismLabelCounts(code) {
+    if (!_labelCounts) {
+      _labelCounts = {};
+      var q = {};
+      table("extractions").forEach(function (e) { q[e.id] = e.evidence_quality; });
+      var seen = {};
+      table("mechanism_evidence").forEach(function (r) {
+        var key = r.mechanism_code + "|" + r.extraction_id;
+        if (seen[key] || !(r.extraction_id in q)) return;
+        seen[key] = 1;
+        var lab = PUBLIC_GRADE[q[r.extraction_id]];
+        if (!lab) return;
+        var c = _labelCounts[r.mechanism_code] || (_labelCounts[r.mechanism_code] = {});
+        c[lab] = (c[lab] || 0) + 1;
+      });
+    }
+    var c = _labelCounts[code] || {};
+    return PUBLIC_GRADE_ORDER.filter(function (l) { return c[l]; })
+      .map(function (l) { return { label: l, n: c[l] }; });
+  }
+
   // Grade distribution (live, from the rows) for the section legend.
   function eeaGradeCounts() {
     var out = {};
@@ -461,6 +500,8 @@
     eeaForMechanism: eeaForMechanism,
     eeaGradeCounts: eeaGradeCounts,
     gradePublic: gradePublic,
+    mechanismLabelCounts: mechanismLabelCounts,
+    gradeMarks: gradeMarks,
     PUBLIC_GRADE_ORDER: PUBLIC_GRADE_ORDER,
     hasTable: hasTable,
     evidenceCount: evidenceCount,

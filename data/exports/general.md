@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-26 03:24 UTC, from the live Cor atlas snapshot built 2026-11-26 03:04 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 05:38 UTC, from the live Cor atlas snapshot built 2026-11-26 05:38 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3922 works, 5792 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -21,8 +21,8 @@ The catch is that these systems were tuned for a world of small face-to-face gro
 This framework is built in layers, each one forced by the layer beneath it:
 
 - **Frame:** We never see the world directly. We see it through evolved interfaces built to keep us alive, not to show us the unvarnished truth. And the feelings these interfaces produce are treated, by default, as meaningful information.
-- **Premise:** Evolution's only scorecard is inclusive fitness - surviving and reproducing. To serve that, the organism contains many specialized, interacting subsystems. Modern environments routinely push them out of range.
-- **Properties:** From this it follows that many painful feelings are intelligent defensive signals, not defects; that humans regulate themselves through their social bonds; that trouble in one system spreads to others; that systems can be switched on by fake cues without being switched off; that they tend to over-react when the cost of missing a real danger was high; that they compete, take priority over one another, and get calibrated by early experience; and that how loudly each system runs differs from person to person, partly by inheritance - which changes where trouble shows up first, not whether the environment matters.
+- **Premise:** Evolution's only scorecard is inclusive fitness: your own reproductive success plus that of your relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. To serve that, the organism contains many specialized, interacting subsystems. Modern environments routinely push them out of range.
+- **Properties:** From this it follows that many painful feelings are intelligent defensive signals, not defects; that humans regulate themselves through their social bonds; that trouble in one system spreads to others; that systems can be switched on by fake cues without being switched off; that they tend to over-react when the cost of missing a real danger was high; that they compete and get calibrated by early experience; that the old parts deep in the brain can act without the newer outer layer, which can hold them down until stress that cannot be controlled, or that lasts, weakens it; and that how loudly each system runs differs from person to person, partly by inheritance - which changes where trouble shows up first, not whether the environment matters.
 - **Consequences:** Unresolved activation builds up as wear and tear on the body. Markets learn to sell fake fixes. And because forcing yourself to override these systems with willpower is exhausting and unreliable, changing your actual environment is usually the more durable fix.
 
 ### How to read a proxy gradient
@@ -63,7 +63,7 @@ Modern threats - debt, a hostile email, social media pile-ons, status anxiety - 
 
 ### How well-evidenced
 
-This is among the most strongly supported mechanisms here, with 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration).
+It has 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration).
 
 ---
 
@@ -71,7 +71,7 @@ This is among the most strongly supported mechanisms here, with 115 evidence lin
 
 ### What it does
 
-This is your general-purpose seeking drive - the engine that pushes you to explore, chase goals, build skills, and engage with the world. (Sexual motivation is handled separately, by M14.)
+This is your general-purpose seeking drive - the engine that pushes you to explore, chase goals, build skills, and engage with the world. (The same drive also runs when what you want is a partner; what is specific to partners is handled by M14.)
 
 ### What actually satisfies it
 
@@ -155,7 +155,7 @@ Structured activities crowd out free play. Screens replace bodies. The result is
 
 ### How well-evidenced
 
-Forced, 55 evidence links. The most debatable call is ranking screen-play-with-real-peers above a solitary scripted game. Key researchers: Panksepp, Pellis & Pellis, Gray. Social play is at least about 60 million years old (every primate plays); play in reptiles and fish arose separately. It is suppressed by threat and by grief.
+55 evidence links. The most debatable call is ranking screen-play-with-real-peers above a solitary scripted game. Key researchers: Panksepp, Pellis & Pellis, Gray. Social play is at least about 60 million years old (every primate plays); play in reptiles and fish arose separately. It is suppressed by threat and by grief.
 
 ---
 
@@ -185,7 +185,7 @@ Social media throws you into global comparison against millions of "peers." Ther
 
 ### How well-evidenced
 
-Forced, 88 evidence links. The most contested point is whether purchased signals really sit below social-media comparison. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. Its rank circuit is about 420 to 445 million years old, shared with bony fish.
+88 evidence links. The most contested point is whether purchased signals really sit below social-media comparison. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. Its rank circuit is about 420 to 445 million years old, shared with bony fish.
 
 ---
 
@@ -215,7 +215,7 @@ Abstract work where effort never visibly registers, rigid hierarchies, and burea
 
 ### How well-evidenced
 
-Forced, 38 evidence links. The trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
+38 evidence links; no convergence is linked to it. The trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
 
 ---
 
@@ -245,7 +245,7 @@ Electric light, blue screens, shift work, and caffeine all disrupt the clock's s
 
 ### How well-evidenced
 
-Forced, 20 evidence links. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
+20 evidence links. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
 
 ---
 
@@ -275,7 +275,7 @@ Chronic low-grade inflammation from diet, sedentary living, and social isolation
 
 ### How well-evidenced
 
-Forced, 37 evidence links. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
+37 evidence links. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
 
 ---
 
@@ -310,11 +310,11 @@ The nuclear family without an alloparental network leaves parents carrying a loa
 
 ### How well-evidenced
 
-Forced, 64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. Maternal care is about 165 to 200 million years old, as old as the mammals; human cooperative breeding is argued to be at least about 2 million years old.
+64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. Maternal care is about 165 to 200 million years old, as old as the mammals; human cooperative breeding is argued to be at least about 2 million years old.
 
 ---
 
-## M10 - Movement / Regulatory
+## M10 - Movement
 
 ### What it does
 
@@ -340,7 +340,7 @@ Sedentary living, with gym sessions as only partial compensation.
 
 ### How well-evidenced
 
-This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence links. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
+It has 29 evidence links. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
 
 ---
 
@@ -348,7 +348,7 @@ This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence
 
 ### What it does
 
-This is the machinery for reciprocal exchange, detecting cheaters, enforcing norms, and forming coalitions - the sense of who is on your team. An honest note on its rank: no single line of evidence forces a dedicated mechanism here, but four converging research streams strongly support it.
+This is the machinery for reciprocal exchange, detecting cheaters, enforcing norms, and forming coalitions - the sense of who is on your team. Convergence C11 forces it. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.
 
 ### What actually satisfies it
 
@@ -370,7 +370,7 @@ Anonymous transactions, ghosting, and the absence of any shared narrative leave 
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
+Forced, 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
 
 ---
 
@@ -378,7 +378,7 @@ Strongly supported (Tier 2), 73 evidence links. The most contested point is exac
 
 ### What it does
 
-This is the disgust system - the "behavioral immune system." It spans three domains: pathogen disgust (rotten food), sexual disgust, and moral disgust. Pathogen avoidance appears to have been extended into social and moral judgments.
+This is the disgust system - the "behavioral immune system." It spans three domains: pathogen disgust (rotten food), sexual disgust, and moral disgust. How the moral kind began is left open.
 
 ### What actually satisfies it
 
@@ -400,7 +400,7 @@ Moral disgust gets weaponized in politics, fueling purity spirals.
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), but with only 12 evidence links - the thinnest in the framework. Key researchers: Rozin, Curtis, Schaller. Avoiding contaminated food is at least about 25 to 34 million years old, shared with Old World monkeys; parasite avoidance across animals has no single age.
+Only 12 evidence links - the thinnest in the framework. Key researchers: Rozin, Curtis, Schaller. Avoiding contaminated food is at least about 25 to 34 million years old, shared with Old World monkeys; parasite avoidance across animals has no single age.
 
 ---
 
@@ -430,7 +430,7 @@ Ultra-processed foods are engineered to defeat the satiety signal, so the "stop"
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 34 evidence links. The middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
+34 evidence links. The middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
 
 ---
 
@@ -438,7 +438,7 @@ Strongly supported (Tier 2), 34 evidence links. The middle three rungs are deriv
 
 ### What it does
 
-This system, following Fisher's three-system model, has three components that can run independently: desire, attraction, and pair-bonding. It is distinct from general-purpose pursuit (M2) and runs on the body's hormonal HPG axis, not just brain circuits. It shapes far more of human behavior than reproduction alone.
+This system, following Fisher's three-system model, has three components that can run independently: desire, attraction, and pair-bonding. It runs on the body's hormonal HPG axis, not just brain circuits. It shapes far more of human behavior than reproduction alone.
 
 ### What actually satisfies it
 
@@ -468,7 +468,7 @@ Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrd
 
 ### What it does
 
-Touch is not a motivational system in its own right. It is a regulatory input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents. Think of it as a channel that helps tune bonding, rather than a drive that pushes you.
+Touch is a regulatory input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents.
 
 ### What actually satisfies it
 
@@ -492,7 +492,7 @@ We live in touch-starved environments. One striking piece of evidence: kangaroo 
 
 ### How well-evidenced
 
-This is the most tentative entry, rated moderate (Tier 3), with 18 evidence links. Key researchers: McGlone, Field. The touch fibres are at least about 60 to 90 million years old, shown in placental mammals.
+It has 18 evidence links. Key researchers: McGlone, Field. The touch fibres are at least about 60 to 90 million years old, shown in placental mammals.
 
 ## The Gap - the matched environment vs the modern default
 
@@ -500,62 +500,62 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 > This section holds EEA numbers NEXT TO the spec, not inside it: each parameter is a mechanism's resolution baseline + the modern default + the gap between them. Each label says how well the ancestral figure was tested: tested many times, tested once, seen in animals, argued, not yet tested, or contested. Most of information_environment is held out. Exact figures from single forager populations are ILLUSTRATIVE, NOT CONSTANTS.
 
-**53 parameters across 9 domains** (grades: tested many times 26, tested once 12, argued, not yet tested 12, contested 3; 3 carry a contested flag).
+**53 parameters across 9 domains** (grades: tested many times 28, tested once 13, argued, not yet tested 12; 0 carry a contested flag).
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (tested many times)
-  - The mismatch is not in the inner-layer capacities themselves (still ~5/15/50/150, not technologically expandable) but between the number of ties the modern environment presents (hundreds to thousands of nominal contacts) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with unusually large networks do not gain more close friends; they accumulate weakly-defined acquaintances. Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups orders of magnitude larger and largely composed of strangers, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
+  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
 
-**Lifetime known-individual ceiling (~1,000)** (tested once)
-  - EEA delivered a finite, slowly-accreting lifetime roster (~1,000+) in which virtually every encountered person was known or one reciprocal link away and carried trackable reputation; modernity delivers an unbounded firehose of identities, the overwhelming majority anonymous, non-reciprocal, and reputation-less. The mismatch is not in the size of the maintainable network (still ~150) but in the ratio of known-to-unknown: a system tuned to "almost everyone you meet is someone you can place" now operates where almost everyone you meet is someone you cannot. This chronically engages strangers as ambient novelty/threat (threat-management framing) and starves the cooperation/reputation system (M11) of the direct, repeated, reciprocal observability it evolved to run on, while the cumulative roster of genuinely-known people fails to grow despite massive nominal connection.
+**Lifetime known-individual pool (~1,000)** (tested once)
+  - EEA delivered a finite, slowly-accreting lifetime roster (~1,000+).
 
 **Band / camp size (a few dozen people)** (tested many times)
-  - The ancestral social field was a small set of a few dozen personally-known people sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale, dominated by unfamiliar people, while genuinely co-regulating relationships number far fewer than the band once held. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen people) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
+  - The ancestral social field was a small set of a few dozen personally-known people sharing a camp, sitting within the band/overnight-camp Dunbar layer. The modern default replaces this with chronic immersion in groupings far larger than the band scale. The delta is a mismatch between the scale at which our cooperation, status-monitoring, and bonding machinery was calibrated (a bounded, fully-known band/camp of a few dozen people) and the scale we actually inhabit (large, partly anonymous aggregations plus a thin set of disposable ties), so the band-sized layer that once carried daily social life is no longer delivered by any single modern structure.
 
 **Within-camp kin fraction (low; campmates mostly unrelated)** (tested many times)
   - The ancestral signal was: 'the group around me is mostly unrelated people I (or my band) actively chose and continuously vetted through reciprocity and reputation; kinship is not what holds us together, the relationships are.' The modern signal is degraded on the selection axis: the unrelated people around us are still mostly unrelated (that part matches), but they are assigned rather than chosen, and the reciprocity/reputation machinery that turned unrelated campmates into durable trusted allies is largely absent or shallow. Mechanisms M3 (bonding) and M11 (cooperation/alliance) evolved expecting that low kin-relatedness would be compensated by self-selected, reciprocal, reputation-anchored dyads. Modernity delivers the low relatedness WITHOUT the compensating chosen-and-vetted dyadic structure, so the mechanisms fire in a world of unrelated-but-also-unbonded co-residents, which is a key part of why being surrounded by people can still register as social isolation.
 
 **Membership turnover (camp dissolves and reconstitutes; most campmates change between survey waves)** (tested once)
-  - The ancestral and modern environments are inverted on which layer is stable. Ancestrally the GROUP churned (most campmates changed between survey waves) while the durable reciprocal DYAD was conserved across the churn; the relationship, not the group, was the unit that persisted. Modernity delivers the opposite: stable, durable group labels (workplace, cohort, feed) paired with shallow, disposable dyads and no mechanism (no hxaro-equivalent) for conserving a specific bond once proximity ends. The mismatch lies in where turnover lands: on the relationships, which evolved to persist, instead of on group membership, which evolved to be fluid. That leaves the co-regulating, reputation-tracking reciprocal dyad chronically unmet.
+  - The ancestral and modern environments are inverted on which layer is stable. Ancestrally the GROUP churned (most campmates changed between survey waves). Modernity delivers the opposite: stable, durable group labels (workplace, cohort, feed) paired with shallow, disposable dyads and no mechanism (no hxaro-equivalent) for conserving a specific bond once proximity ends. The mismatch lies in where turnover lands: on the relationships, which evolved to persist, instead of on group membership, which evolved to be fluid. That leaves the co-regulating, reputation-tracking reciprocal dyad chronically unmet.
 
-**Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity; kinship not main glue)** (tested once)
-  - The EEA delivered a continuous, agency-rich sorting process that filtered one's immediate social world toward reciprocating, cooperative, vouched-for partners - kinship was secondary. The modern environment inverts this: membership in one's daily groups is mostly imposed (employer, building, algorithm), and the explicit matching systems that do exist optimize for engagement/novelty rather than reciprocity and demonstrated cooperation. The result is reduced control over WHO populates one's social field, weaker assortment on actual cooperativeness, and loss of the transitive-reputation signal that let ancestral humans cluster with trustworthy reciprocators out to two degrees. The mismatch is not "fewer people" but a broken selection rule: the inputs the ancestral algorithm ran on (mutual choice, observed reciprocity, cooperator reputation) are no longer the primary determinants of who one lives and works among.
+**Selection rule / "shuffle algorithm" (choice-driven; homophily + cooperation + reciprocity)** (tested once)
+  - The EEA delivered a continuous, agency-rich sorting process that filtered one's immediate social world toward reciprocating, cooperative, vouched-for partners. The modern environment inverts this: the explicit matching systems that do exist optimize for engagement/novelty rather than reciprocity and demonstrated cooperation. The result is reduced control over WHO populates one's social field, weaker assortment on actual cooperativeness, and loss of the transitive-reputation signal that let ancestral humans cluster with trustworthy reciprocators out to two degrees. The mismatch is a broken selection rule: the inputs the ancestral algorithm ran on (mutual choice, observed reciprocity, cooperator reputation) are no longer the primary determinants of who one lives and works among.
 
-**Relationship longevity & maintenance (decades-long durable dyads; maintenance institutions like hxaro conserve bonds across distance)** (tested once)
-  - The ancestral environment conserved the relationship across changing groups; the modern environment conserves the group label and lets the relationships churn. The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, long-term delayed reciprocity) that actively preserved a named dyad even with little or no co-presence, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties, with the durable decades-long reciprocal partnership that M3/M11 are calibrated to expect largely absent.
+**Relationship longevity & maintenance (durable dyads; maintenance institutions like hxaro conserve bonds across distance)** (tested once)
+  - The specific missing piece is a maintenance institution: the EEA had hxaro-type structures (formalized, inheritable, distance-spanning, long-term delayed reciprocity) that actively preserved a named dyad, whereas modernity has no hxaro-equivalent and instead relies on shared proximity/context as the only glue. When that proximity ends (job change, move, leaving school), the bond is not migrated to an institution that keeps it alive; it decays. The result is many stable-looking memberships sitting on top of disposable, shallow ties.
 
-**Novel-stranger frequency (rare, salient, often a threat)** (argued, not yet tested)
+**Novel-stranger frequency** (argued, not yet tested)
   - The delta is one of base rate and resolvability. Ancestrally, novel strangers were rare, salient, and resolvable (place them in the known web, or treat unfamiliarity as an actionable threat signal); modernity inverts this to constant, non-diagnostic, unresolvable novelty. The threat-management system inherited from the rare-stranger regime cannot down-regulate to the new base rate: it either over-fires (chronic low-grade vigilance, stranger-directed wariness in crowds and online) or, where it habituates, leaves people transacting with a stream of others who carry none of the reputational accountability the system implicitly assumes. The conserved unit being eroded is not the count of strangers but the durable, reputationally-tracked dyad against which any new face used to be evaluated; once almost everyone is a stranger, the bounded-pool premise that made novelty meaningful no longer holds.
 
 **Behavioral observability / reputation visibility** (argued, not yet tested)
-  - The ancestral environment delivered near-total, embodied, hard-to-fake, single-identity behavioral observability inside a ~150-person reference group whose members knew one's history and held real, inescapable enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
+  - The ancestral environment delivered embodied, hard-to-fake, single-identity behavioral observability inside a reference group whose members knew one's history and held real enforcement power. The modern environment delivers visibility that is mediated, curated, gameable, fragmented across exitable contexts, padded with non-accountable weak ties, and largely stripped of peer-enforced consequences. The reputation-tracking machinery (M11) and status-position monitoring (M5) evolved to run on dense, durable, accountable observation now operate on thin, performative, low-accountability signals, producing both reputational impunity for defection among strangers and chronic exposure of curated personas to vast unfamiliar audiences with no reciprocal knowledge of the person behind them.
 
-**Leadership and dominance (no rulers; prestige by consent; exit available)** (tested many times)
-  - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers who never meet the people they govern. One person's say shrinks from a share of a camp consensus to one vote among millions.
+**Leadership and dominance (no rulers; prestige; exit available)** (tested many times)
+  - The forager checks on dominance (ridicule, shunning, walking away, a voice in a face-to-face decision) have no reach over rulers. One person's say shrinks from a share of a camp consensus to one vote.
 
 **Status reference group (ranked against people who know you)** (tested once)
-  - The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost shows where a whole group moves onto a feed, most for students more likely to compare badly with their peers (ext 2031, 2032).
+  - The audience that sets a person's standing grows from a group that knows them to an open-ended field of strangers whose judgement the person cannot meet or change. Hours online are not the measure (DA4): the link between time on social media and low mood is small, and the cost showed where Facebook arrived at US colleges in 2004 to 2006, most for students more likely to compare badly with their peers (ext 2031, 2032).
 
-**How standing is earned (prestige and dominance)** (contested · CONTESTED)
-  - In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: two forager-horticulturalist samples show it.
+**How standing is earned (prestige and dominance)** (tested many times)
+  - In the forager record, command stayed inside the activity and could be refused; modern rank carries command across domains and is hard to refuse or leave. The concentration of respect in a few people is the part that may be old: it shows in one Tsimane village and among the Chabu.
 
 **What standing buys (children)** (tested many times)
-  - Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. Across industrial populations, wealth, measured as income, went with higher fertility in 8 of 12 longitudinal findings, and income went with more children in men and fewer in women (Stulp and Barrett 2016); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).
+  - Status-seeking was tied to children; the motive still runs while the payoff in children has weakened or reversed. Across industrial populations, wealth, measured mostly as income, went with higher fertility in 8 of 12 longitudinal findings, and income went with more children in men and fewer in women (Stulp and Barrett 2016); in three industrial samples the link between men's wealth and their number of children was the weakest of eleven human samples, though still positive (ext 3657), and in Britain higher-income men had more children only because low-income men were more often childless, while women's own income went with fewer children (ext 3658).
 
 **Wealth gaps (low to moderate in foragers)** (tested many times)
-  - Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property, and the distance between top and bottom is now visible to everyone. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
+  - Wealth gaps went from small, mostly in body and skill, to very large, mostly in owned and inherited property. Ju/'hoansi social and political equality held for decades after cash arrived, so a wealth gap does not by itself bring rule by the wealthy.
 
 **Famous strangers (one-way bonds)** (tested once)
-  - The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. In a preregistered experiment, thinking about a favourite media figure lowered negative mood about as much as thinking about a friend, and did not lower loneliness, which thinking about a friend did (ext 1371); De Backer et al. 2007 read celebrity interest as learning from successful others plus mistaking celebrities for members of one's own network (argued).
+  - The bonding and status systems meet familiar, admired faces that never return the bond and never rank you. In a preregistered experiment, thinking about a favourite media figure lowered negative mood about as much as thinking about a friend, and did not lower loneliness, which thinking about a friend did (ext 1371); De Backer et al. 2007 read celebrity interest as learning from models plus mistaking celebrities for members of one's own network (argued).
 
 **Size of "us" (the language group)** (tested once)
-  - The largest group a forager counted as 'us' held hundreds to a few thousand people, reachable on foot and linked by marriage. Modern 'us' groups are thousands of times larger and held together by labels and media.
+  - The largest group a forager counted as 'us' held hundreds to a few thousand people, linked by marriage. Modern 'us' groups are held together by labels and media.
 
 **Contact between groups (visiting and exchange alongside hostility)** (tested once)
-  - Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours. Modern intergroup ties rarely run through personal relationships.
+  - Forager groups were tied by marriage, visits and gifts that ran through people one knew, alongside real hostility toward some neighbours.
 
 **What marks someone as "them" (alliance cues)** (tested many times)
-  - The alliance-sorting system now runs on labels for groups of millions, with no shared life and no repeated contact, and media reward posts about 'them' (Rathje et al. 2021, eight datasets). Whether moralised posts in general spread more is contested: Brady et al. 2017 found it in 563,312 tweets, and a re-test on six other Twitter corpora gave inconsistent results (Burton, Cruz and Hahn 2021).
+  - The alliance-sorting system now runs on labels, with no shared life and no repeated contact, and media reward posts about 'them' (Rathje et al. 2021, eight datasets). Whether moralised posts in general spread more is contested: Brady et al. 2017 found it in 563,312 tweets, and a re-test on six other Twitter corpora gave inconsistent results (Burton, Cruz and Hahn 2021).
 
 **Food shared and eaten in company** (tested once)
   - A forager ate food that others in the camp had caught, carried or cooked, and others ate theirs, among people who knew who gave what. A person who eats alone from a shop gets the calories without the giving and receiving. Project position: the missing exchange is what lowers mood. Among 37,193 older Japanese adults followed for three years, men living alone who usually ate alone had 2.36 times the rate of new depressive symptoms of men living alone who ate with others, after adjustment for income, health, nutrition and other factors (ext 3684); in a cross-sectional study, people who lived with their families yet ate alone had the highest odds of depressive symptoms (ext 3583).
@@ -569,8 +569,8 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **The pool of possible partners** (tested once)
   - The pool grew from hundreds of known people to an open-ended list of strangers judged from a profile. Attention concentrates on a few, and most people's approaches go unanswered.
 
-**Marriage system (mostly monogamous, some polygyny, serial pairs)** (tested many times)
-  - Small gap. Forager practice was already mostly one spouse at a time with some polygyny and remarriage; modern law removes the polygynous minority. Forager marriages often ended: across ten forager and forager-farmer populations reported divorce rates run from 18% (Agta) to nearly every couple (north Alaskan Inuit), and the reviewers put the general level at a quarter to a third of marriages or more, with remarriage common (ext 1728). The rates were counted differently in each population, so they cannot be averaged or set against a modern rate.
+**Marriage system (mostly one spouse at a time, often several over a life, polygyny allowed in most societies)** (tested many times)
+  - Small gap. Forager practice was already mostly one spouse at a time with some polygyny and remarriage; modern law removes the polygynous minority. Forager marriages often ended: across ten forager and forager-farmer populations reported divorce rates run from 18% (Agta) to nearly every couple (north Alaskan Inuit), and the reviewers put the general level at a quarter to a third of marriages or more, with remarriage common (ext 1728). The rates were counted differently in each population, so they cannot be averaged or set against a modern rate. Where polygyny is practised today: in 56 villages of northern Tanzania, within villages polygyny was not significantly related to food security, height-for-age or weight-for-height (ext 5845); among the Dogon of Mali the hazard of death by age 5 was higher in work-eat groups with more married women per married man in villages 1 to 8, and only in village 9, exceptionally large and wealthy, did polygyny show no adverse effect (ext 5848).
 
 **Timing: puberty to first birth** (tested many times)
   - The years between being able to reproduce and doing it grew from about four to about fifteen (US: menarche near 12, first birth near 27.5). Gluckman and Hanson argue that biological maturity now comes well before social maturity for the first time.
@@ -597,37 +597,37 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Care & development
 
 **Alloparental care supply (a village, not a dyad)** (tested many times)
-  - The mismatch is between the reliable, present, multi-caregiver surround the infant's attachment and the mother's reproductive psychology evolved to expect, and the thin one- or two-adult household the modern environment supplies. The load that was carried by a village now falls on isolated parents; maternal investment is calibrated to assess available allomaternal support (M9), so its evolved absence produces overload, depleted caregivers, and infants with fewer attachment figures than the cooperative-breeding design assumes. This is a supply mismatch, not a parental-competence failure.
+  - The mismatch is between the reliable, present, multi-caregiver surround the infant's attachment and the mother's reproductive psychology evolved to expect, and the thin one- or two-adult household the modern environment supplies. Hrdy argues that maternal commitment is conditional on perceived alloparental support (M9, ext 402). This is a supply mismatch, not a parental-competence failure.
 
 **Caregiver continuity and reliability (present, not merely countable)** (argued, not yet tested)
   - The mismatch is between caregiver reliability/continuity as an experienced, present regulatory input and a modern environment that often supplies caregivers who are countable but not dependably present. Because maternal investment and infant attachment are both calibrated to perceived caregiver reliability (M9, R1), low continuity is not neutral: it degrades the secure-base scaffolding and the touch-mediated regulation the infant evolved to expect, even when the number of caregivers on paper looks adequate.
 
 **Mixed-age child playgroups as developmental input** (tested many times)
-  - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured, often sedentary substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. In children, general risky outdoor play (13 studies) and places that allow risky play (21 studies) went with better physical, mental, social and cognitive outcomes in a review of 74 studies (Ramsden et al. 2026), and children who played adventurously more had slightly fewer internalising symptoms and more positive affect (Dodd, Nesbit and FitzGibbon 2023).
+  - The mismatch is between mixed-age, self-organized, physically-active play as the evolved calibrating input for the juvenile prefrontal cortex (M4, embedded in the alloparental child-minding network, M9) and a modern environment that supplies age-segregated, adult-structured substitutes. In rats, play with partners shapes the developing cortex (Pellis & Pellis 2009, ext 212, 220). Cor reads reduced free play in children as a missing developmental input. In children, general risky outdoor play (13 studies) and places that allow risky play (21 studies) went with better physical, mental, social and cognitive outcomes in a review of 74 studies (Ramsden et al. 2026, ext 5097), and children whose parents reported more time playing adventurously before the pandemic had slightly fewer internalising symptoms and more positive affect during the first Covid-19 lockdown (Dodd, Nesbit and FitzGibbon 2023, ext 5104).
 
 **Multigenerational presence (older people inside the band's giving and getting)** (tested many times)
-  - The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it. What they gave to the rearing of the young, in food, care and knowledge, and what was given back to them, is missing for many modern families, which thins the network of carers.
+  - The mismatch is between older people who keep a place in the daily giving and getting of a band of several generations (M9, M3) and the modern default of grandparents who live apart from it.
 
 
 ### Touch & contact
 
 **Affective (C-tactile) contact frequency and skin-to-skin time** (tested many times)
-  - Modern environments routinely fall below the ancestral affective-touch floor. Touch deprivation in extreme cases (institutional rearing) produces growth-hormone suppression, immune dysfunction, and developmental arrest; even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
+  - Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
 
-**Co-sleeping / nighttime body contact** (tested many times)
+**Co-sleeping** (tested many times)
   - Solitary infant sleep removes the nighttime proximity of the Standard Cross-Cultural Sample, where the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). It removes the nighttime physiological co-regulation measured in cosleeping pairs, where mother and infant induce arousals in one another within seconds (ext 615). The evidence for this co-regulation comes from one lab (McKenna 2014, ext 615, 616).
 
 **Affective grooming/touch from trusted others (adult social touch)** (argued, not yet tested)
-  - Loss of routine affiliative touch from trusted others removes a bonding and stress-buffering input that operated continuously in ancestral social life. Partner/trusted-other touch buffers acute stress more effectively than verbal support alone, and the benefit is bidirectional. This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.
+  - In 67 women, a neck and shoulder massage from the partner before a stress test went with a smaller rise in cortisol and heart rate than being alone, and verbal support alone was no better than being alone (ext 429). The benefit is bidirectional (ext 430). This channel is physical-contact-only and cannot be delivered by remote or volumetric technology.
 
 
 ### Circadian & sensory
 
 **Dawn/dusk light gradient with genuine nocturnal darkness as circadian entrainment signal** (tested many times)
-  - The modern light environment inverts the ancestral pattern on both ends: too little bright light by day, too much blue-enriched light at night, with no real darkness. This delays circadian phase, compresses and fragments the biological night, and decouples internal time from external solar time.
+  - The modern light environment inverts the ancestral pattern on both ends: too little bright light by day, too much blue-enriched light at night. This delays circadian phase, compresses the biological night, and decouples internal time from external solar time.
 
 **Sleep timing/phase alignment to the biological night (not a fixed duration target)** (tested many times)
-  - The mismatch is primarily one of phase, not amount. Even when total sleep is adequate, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024), and in the high-quality studies of a review of 68 with higher body mass index, waist, systolic blood pressure and HbA1c (Bouman et al. 2023). In 60,977 UK adults, regular sleep and wake times predicted lower mortality more strongly than sleep duration did (Windred et al. 2024). Chasing a duration number while ignoring phase misses the operative variable.
+  - The mismatch is primarily one of phase, not amount. Independently of sleep duration, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024), and in the high-quality studies of a review of 68 with higher body mass index, waist, systolic blood pressure and HbA1c (Bouman et al. 2023). In 60,977 UK adults, regular sleep and wake times predicted lower mortality more strongly than sleep duration did (Windred et al. 2024). Chasing a duration number while ignoring phase misses the operative variable.
 
 **Falling evening ambient temperature as a second sleep-onset cue** (tested once)
   - By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
@@ -636,15 +636,15 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Subsistence & time-use
 
 **Daily incidental movement load** (tested many times)
-  - The gap is not a calorie or PAL gap (these are surprisingly close) but a distributional one: ancestral movement was low-intensity, continuous, and obligatory; modern movement is optional, bunched, and easily skipped, leaving long uninterrupted muscular-inactivity bouts that the body never encountered. The mismatch is in HOW the day's muscle activity is spread, not in gross energy turnover.
+  - The gap is not a calorie or PAL gap (these are surprisingly close). Hadza adults spent 134.92 minutes a day in moderate-to-vigorous physical activity (ext 2233). Average sedentary bout duration is similar in Hadza and industrialized adults (~15 min), and Hadza spend about 18% of nonambulatory time squatting and 12.5% kneeling; squatting elicits higher muscle activity than chair-sitting (ext 289). Ancestral movement was obligatory; modern movement is optional, bunched, and easily skipped. The mismatch is in HOW the day's muscle activity is spread, not in gross energy turnover.
 
 **Effort-to-outcome contingency (closed-loop, self-attributable)** (argued, not yet tested)
-  - Because passivity is the unlearned default that only switches OFF when controllability is detected, environments that obscure the effort-outcome link don't feel neutral - they default the organism toward helplessness-type physiology. The gap is the loss of routinely detectable, self-attributable contingency, which population health data link to elevated disease risk (low job control predicts coronary disease independent of grade).
+  - Because passivity, in animals, is the unlearned default that only switches OFF when controllability is detected, environments that obscure the effort-outcome link don't feel neutral - they default the organism toward helplessness-type physiology. The gap is the loss of routinely detectable, self-attributable contingency, which population health data link to elevated disease risk (low job control predicts coronary disease independent of grade).
 
 **Task diversity within the subsistence day** (argued, not yet tested)
   - The gap is the collapse from a high-variety, skill-diverse subsistence portfolio to narrow repetitive specialization, under-engaging the exploratory-pursuit system whose canonical evolved function is varied engagement with a changing world. No study in Cor measures forager task diversity.
 
-**Daily subsistence work-hours (contested)** (contested · CONTESTED)
+**Daily subsistence work-hours** (tested once)
   - The defensible mismatch is in the STRUCTURE of work-time (externally clocked, continuous, boundary-less vs. intermittent, self-paced, contingent), not in any claimed reduction or increase in daily hours.
 
 
@@ -669,12 +669,12 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
   - The mismatch is in the time-course, not the threat machinery itself. The system is calibrated for brief, resolvable spikes; modern life supplies sustained, unresolved activation. Acute stress is adaptive (even enhances immunity); the identical response sustained chronically suppresses immunity and accumulates wear-and-tear. The gap is the absence of an episode boundary that lets the response shut down.
 
 **Threat controllability and predictability (resolvable by own action)** (argued, not yet tested)
-  - The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. Lab work shows lack of predictability and control is so aversive that subjects choose a stronger immediate shock over waiting, and chronic uncontrollable stress reproduces eight of the nine symptoms the DSM lists for depression. Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
+  - The harm comes from uncontrollability and unpredictability, the absence of an action that resolves the danger, more than from threat itself. In a lab study of 32 adults waiting for shocks whose delay was shown in advance, nine preferred more voltage sooner to less voltage later (ext 4397), and Maier and Seligman write that learned helplessness in the laboratory, combining animal and human results, produced eight of the nine symptoms the DSM lists for depression (ext 442). Modern environments systematically supply unresolvable, action-proof stressors - the mismatch.
 
 **Real-vs-perceived threat ratio and all-clear resolution** (argued, not yet tested)
-  - The harmful feature is the broken resolution loop: ancestrally, alarms (real or false) closed with an all-clear; modern abstract threats supply alarms that never close. Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself - false alarms were always common and were tolerated precisely because they resolved.
+  - Chronically unbalanced body budgeting and unbridled inflammation are implicated in chronic stress, in persistent anxious and low states (what Western scales score as anxiety and depression), and in physical disease (Barrett; McEwen allostatic load). The mismatch is the missing terminating action and missing social all-clear, not the false-alarm rate itself.
 
-**Killing between groups (frequency contested)** (contested · CONTESTED)
+**Killing between groups** (tested many times)
   - The two headline numbers measure different things (share of all deaths in war, share of killings between groups) and cannot be averaged. A page can say lethal raids between groups occurred and were sometimes frequent; it cannot give one ancestral percentage.
 
 
@@ -691,4 +691,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 03:04 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-26 03:24 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 05:38 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-26 05:38 UTC.*

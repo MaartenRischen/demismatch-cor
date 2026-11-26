@@ -11,8 +11,8 @@ The catch is that these systems were tuned for a world of small face-to-face gro
 This framework is built in layers, each one forced by the layer beneath it:
 
 - **Frame:** We never see the world directly. We see it through evolved interfaces built to keep us alive, not to show us the unvarnished truth. And the feelings these interfaces produce are treated, by default, as meaningful information.
-- **Premise:** Evolution's only scorecard is inclusive fitness - surviving and reproducing. To serve that, the organism contains many specialized, interacting subsystems. Modern environments routinely push them out of range.
-- **Properties:** From this it follows that many painful feelings are intelligent defensive signals, not defects; that humans regulate themselves through their social bonds; that trouble in one system spreads to others; that systems can be switched on by fake cues without being switched off; that they tend to over-react when the cost of missing a real danger was high; that they compete, take priority over one another, and get calibrated by early experience; and that how loudly each system runs differs from person to person, partly by inheritance - which changes where trouble shows up first, not whether the environment matters.
+- **Premise:** Evolution's only scorecard is inclusive fitness: your own reproductive success plus that of your relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. To serve that, the organism contains many specialized, interacting subsystems. Modern environments routinely push them out of range.
+- **Properties:** From this it follows that many painful feelings are intelligent defensive signals, not defects; that humans regulate themselves through their social bonds; that trouble in one system spreads to others; that systems can be switched on by fake cues without being switched off; that they tend to over-react when the cost of missing a real danger was high; that they compete and get calibrated by early experience; that the old parts deep in the brain can act without the newer outer layer, which can hold them down until stress that cannot be controlled, or that lasts, weakens it; and that how loudly each system runs differs from person to person, partly by inheritance - which changes where trouble shows up first, not whether the environment matters.
 - **Consequences:** Unresolved activation builds up as wear and tear on the body. Markets learn to sell fake fixes. And because forcing yourself to override these systems with willpower is exhausting and unreliable, changing your actual environment is usually the more durable fix.
 
 ### How to read a proxy gradient
@@ -53,7 +53,7 @@ Modern threats - debt, a hostile email, social media pile-ons, status anxiety - 
 
 ### How well-evidenced
 
-This is among the most strongly supported mechanisms here, with 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration).
+It has 115 evidence links. It is "forced" - the framework could not be built without it. Key researchers: Panksepp, LeDoux, Mobbs. Its core defence centre is about 460 to 535 million years old, shared with lampreys; the amygdala circuit is at least about 340 million years old. When it activates strongly, it suppresses many other systems (pursuit, play, reproduction, movement, social calibration).
 
 ---
 
@@ -61,7 +61,7 @@ This is among the most strongly supported mechanisms here, with 115 evidence lin
 
 ### What it does
 
-This is your general-purpose seeking drive - the engine that pushes you to explore, chase goals, build skills, and engage with the world. (Sexual motivation is handled separately, by M14.)
+This is your general-purpose seeking drive - the engine that pushes you to explore, chase goals, build skills, and engage with the world. (The same drive also runs when what you want is a partner; what is specific to partners is handled by M14.)
 
 ### What actually satisfies it
 
@@ -145,7 +145,7 @@ Structured activities crowd out free play. Screens replace bodies. The result is
 
 ### How well-evidenced
 
-Forced, 55 evidence links. The most debatable call is ranking screen-play-with-real-peers above a solitary scripted game. Key researchers: Panksepp, Pellis & Pellis, Gray. Social play is at least about 60 million years old (every primate plays); play in reptiles and fish arose separately. It is suppressed by threat and by grief.
+55 evidence links. The most debatable call is ranking screen-play-with-real-peers above a solitary scripted game. Key researchers: Panksepp, Pellis & Pellis, Gray. Social play is at least about 60 million years old (every primate plays); play in reptiles and fish arose separately. It is suppressed by threat and by grief.
 
 ---
 
@@ -175,7 +175,7 @@ Social media throws you into global comparison against millions of "peers." Ther
 
 ### How well-evidenced
 
-Forced, 88 evidence links. The most contested point is whether purchased signals really sit below social-media comparison. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. Its rank circuit is about 420 to 445 million years old, shared with bony fish.
+88 evidence links. The most contested point is whether purchased signals really sit below social-media comparison. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. Its rank circuit is about 420 to 445 million years old, shared with bony fish.
 
 ---
 
@@ -205,7 +205,7 @@ Abstract work where effort never visibly registers, rigid hierarchies, and burea
 
 ### How well-evidenced
 
-Forced, 38 evidence links. The trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
+38 evidence links; no convergence is linked to it. The trickiest call is whether true helplessness or a faked-control loop sits at the floor. Key researchers: Maier & Seligman. At least about 60 to 90 million years old (placental mammals), possibly as old as the mammals. Suppressed by threat.
 
 ---
 
@@ -235,7 +235,7 @@ Electric light, blue screens, shift work, and caffeine all disrupt the clock's s
 
 ### How well-evidenced
 
-Forced, 20 evidence links. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
+20 evidence links. The most debatable points are whether social jetlag or shift work is worse, and whether screens truly sit at the floor. Key researchers: Walker, Roenneberg, Czeisler. Its clock genes are more than 500 million years old, shared by insects and vertebrates; cyanobacteria have older daily clocks, but those evolved separately.
 
 ---
 
@@ -265,7 +265,7 @@ Chronic low-grade inflammation from diet, sedentary living, and social isolation
 
 ### How well-evidenced
 
-Forced, 37 evidence links. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
+37 evidence links. The most contested call is whether lifestyle drivers really rank above social isolation. Key researchers: Dantzer, Danese, Irwin. Innate immunity is about 550 to 830 million years old, across animals; adaptive immunity is about 420 to 470 million years old, from the first jawed vertebrates.
 
 ---
 
@@ -300,11 +300,11 @@ The nuclear family without an alloparental network leaves parents carrying a loa
 
 ### How well-evidenced
 
-Forced, 64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. Maternal care is about 165 to 200 million years old, as old as the mammals; human cooperative breeding is argued to be at least about 2 million years old.
+64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. Maternal care is about 165 to 200 million years old, as old as the mammals; human cooperative breeding is argued to be at least about 2 million years old.
 
 ---
 
-## M10 - Movement / Regulatory
+## M10 - Movement
 
 ### What it does
 
@@ -330,7 +330,7 @@ Sedentary living, with gym sessions as only partial compensation.
 
 ### How well-evidenced
 
-This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence links. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
+It has 29 evidence links. The most debatable point is ranking the gym below all-day incidental movement - the order would flip if you scored by fitness rather than by the activity distribution. Key researchers: Pontzer, Lieberman, Ratey. Its human form, a body that depends on daily activity, is argued to be about 2 million years old; older roles have not been dated. Suppressed by threat and grief.
 
 ---
 
@@ -338,7 +338,7 @@ This is rated strongly supported (Tier 2) rather than forced. It has 29 evidence
 
 ### What it does
 
-This is the machinery for reciprocal exchange, detecting cheaters, enforcing norms, and forming coalitions - the sense of who is on your team. An honest note on its rank: no single line of evidence forces a dedicated mechanism here, but four converging research streams strongly support it.
+This is the machinery for reciprocal exchange, detecting cheaters, enforcing norms, and forming coalitions - the sense of who is on your team. Convergence C11 forces it. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.
 
 ### What actually satisfies it
 
@@ -360,7 +360,7 @@ Anonymous transactions, ghosting, and the absence of any shared narrative leave 
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
+Forced, 73 evidence links. The most contested point is exactly where proxy failure begins, at the PARTIAL/MIXED boundary. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. Reciprocity is at least about 25 to 34 million years old, shared with Old World monkeys; human norm enforcement arose within the last 10 million years.
 
 ---
 
@@ -368,7 +368,7 @@ Strongly supported (Tier 2), 73 evidence links. The most contested point is exac
 
 ### What it does
 
-This is the disgust system - the "behavioral immune system." It spans three domains: pathogen disgust (rotten food), sexual disgust, and moral disgust. Pathogen avoidance appears to have been extended into social and moral judgments.
+This is the disgust system - the "behavioral immune system." It spans three domains: pathogen disgust (rotten food), sexual disgust, and moral disgust. How the moral kind began is left open.
 
 ### What actually satisfies it
 
@@ -390,7 +390,7 @@ Moral disgust gets weaponized in politics, fueling purity spirals.
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), but with only 12 evidence links - the thinnest in the framework. Key researchers: Rozin, Curtis, Schaller. Avoiding contaminated food is at least about 25 to 34 million years old, shared with Old World monkeys; parasite avoidance across animals has no single age.
+Only 12 evidence links - the thinnest in the framework. Key researchers: Rozin, Curtis, Schaller. Avoiding contaminated food is at least about 25 to 34 million years old, shared with Old World monkeys; parasite avoidance across animals has no single age.
 
 ---
 
@@ -420,7 +420,7 @@ Ultra-processed foods are engineered to defeat the satiety signal, so the "stop"
 
 ### How well-evidenced
 
-Strongly supported (Tier 2), 34 evidence links. The middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
+34 evidence links. The middle three rungs are derived from the architecture, and it is debatable whether they are three real tiers or just a whole-versus-ultra-processed split. Key researchers: Pontzer, Keys. Its appetite brake is more than 420 million years old, shared with bony fish.
 
 ---
 
@@ -428,7 +428,7 @@ Strongly supported (Tier 2), 34 evidence links. The middle three rungs are deriv
 
 ### What it does
 
-This system, following Fisher's three-system model, has three components that can run independently: desire, attraction, and pair-bonding. It is distinct from general-purpose pursuit (M2) and runs on the body's hormonal HPG axis, not just brain circuits. It shapes far more of human behavior than reproduction alone.
+This system, following Fisher's three-system model, has three components that can run independently: desire, attraction, and pair-bonding. It runs on the body's hormonal HPG axis, not just brain circuits. It shapes far more of human behavior than reproduction alone.
 
 ### What actually satisfies it
 
@@ -458,7 +458,7 @@ Forced, 58 evidence links. Key researchers: Panksepp, Fisher, Buss, Trivers, Hrd
 
 ### What it does
 
-Touch is not a motivational system in its own right. It is a regulatory input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents. Think of it as a channel that helps tune bonding, rather than a drive that pushes you.
+Touch is a regulatory input that feeds the social bonding system (M3), carried by specialized nerves called C-tactile afferents.
 
 ### What actually satisfies it
 
@@ -482,4 +482,4 @@ We live in touch-starved environments. One striking piece of evidence: kangaroo 
 
 ### How well-evidenced
 
-This is the most tentative entry, rated moderate (Tier 3), with 18 evidence links. Key researchers: McGlone, Field. The touch fibres are at least about 60 to 90 million years old, shown in placental mammals.
+It has 18 evidence links. Key researchers: McGlone, Field. The touch fibres are at least about 60 to 90 million years old, shown in placental mammals.

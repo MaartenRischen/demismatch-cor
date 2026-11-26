@@ -86,36 +86,26 @@
       return;
     }
 
-    // TIER and GROUNDING are two axes and must not share a word. Tier is an
-    // evidence-strength grade (1 strongest / 2 strongly supported / 3 moderate).
-    // Grounding is an entailment status: only a mechanism that some convergence
-    // declares in forces_mechanism is FORCED; the rest are SUPPORTED by
-    // convergent evidence. Five of fifteen are forced today, and the paper's own
-    // prose says so - the table used to say "T1 forced" on all of them.
-    var TIER_LABEL = {
-      1: "T1 strongest evidence",
-      2: "T2 strongly supported",
-      3: "T3 moderate"
-    };
+    // 26 Nov 2026: no tier per system. The column shows how many of the system's
+    // findings carry each public label (rubric order, zero labels left out),
+    // read from the snapshot's evidence rows.
+    // Grounding stays: only a mechanism that some convergence declares in
+    // forces_mechanism is FORCED; the rest are SUPPORTED by convergent evidence.
     // Derived from the snapshot, never a hand-kept list.
     var FORCED = {};
     (D.convergences ? D.convergences() : []).forEach(function (c) {
       var fm = c && c.forces_mechanism;
       if (fm) FORCED[String(fm).trim()] = c.code;
     });
-    function tierInfo(m) {
-      var t = m.tier;
-      var n = (typeof t === "number") ? t : parseInt(t, 10);
-      if (n === 1 || n === 2 || n === 3) {
-        return { label: TIER_LABEL[n], cls: "lr-tier-t" + n };
-      }
-      return { label: "tier not stated", cls: "lr-tier-t3" };
+    function findingsCell(m) {
+      var rows = D.mechanismLabelCounts ? D.mechanismLabelCounts(m.code) : [];
+      if (!rows.length) return '<span class="lr-tier-t3">not stated</span>';
+      return rows.map(function (r) { return esc(r.n) + " " + esc(r.label); }).join("<br>");
     }
 
     var html = rows.map(function (m) {
       var code = m.code || "";
       var name = D.clean(m.name || "");
-      var ti = tierInfo(m);
       var convs = Array.isArray(m.convergence_codes) ? m.convergence_codes : [];
       var convCell = convs.length
         ? convs.map(function (c) { return chip(c); }).join(" ")
@@ -127,7 +117,7 @@
       return "<tr>" +
         "<td>" + chip(code) + "</td>" +
         '<td class="lr-mech-name">' + name + "</td>" +
-        '<td><span class="' + ti.cls + '">' + esc(ti.label) + "</span></td>" +
+        "<td>" + findingsCell(m) + "</td>" +
         "<td>" + groundCell + "</td>" +
         "<td>" + convCell + "</td>" +
         "</tr>";

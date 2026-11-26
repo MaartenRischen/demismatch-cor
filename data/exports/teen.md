@@ -3,9 +3,9 @@
 
 *For teenagers. Relatable, direct, real examples, no jargon.*
 
-> Generated 2026-11-26 03:24 UTC, from the live Cor atlas snapshot built 2026-11-26 03:04 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 05:38 UTC, from the live Cor atlas snapshot built 2026-11-26 05:38 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3906 works, 5765 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (3 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3922 works, 5792 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -21,7 +21,7 @@ So when you feel anxious, lonely, restless, or exhausted, that's usually not a g
 This framework is built like a stack, where each layer forces the next:
 
 - **You don't see reality directly.** Your brain shows you a useful version, not a perfectly true one.
-- **Survival and reproduction are the scoreboard** your biology was built to win.
+- **Passing on genes is the scoreboard** your biology was built to win: your own kids plus your relatives' kids, counted by how closely related they are. Survival counts because the dead do not reproduce.
 - **You're made of many specialized systems** that each handle a different job and talk to each other.
 - **The modern world pushes those systems past what they were built for.**
 - So a lot of bad feelings are **smart alarms in a mismatched world**, not broken parts.
@@ -211,7 +211,7 @@ This mechanism has **two separate scales** - don't mix them up.
 
 The nuclear family with no village behind it. Parents burn out because they're doing a job the human design assumed several people would share. Mothering is around 165 to 200 million years old, as old as the mammals.
 
-## M10 - Movement / Regulatory
+## M10 - Movement
 
 Moving your body isn't just "exercise." Movement acts like a timekeeper for your clock, fights inflammation, and regulates mood - it switches on repair processes all through your body.
 
@@ -233,7 +233,7 @@ We sit all day, then try to fix it with a gym session. That helps, but it doesn'
 
 ## M11 - Cooperation / Alliance
 
-Humans have specialized gear for working together: tracking who owes who, spotting cheaters, enforcing the rules, and feeling loyal to your team. Quick honesty note: no single line of evidence *forces* this as its own separate mechanism, but four strong streams of research point to it, so it's listed at a slightly lower confidence tier.
+Humans have specialized gear for working together: tracking who owes who, spotting cheaters, enforcing the rules, and feeling loyal to your team. Three bodies of tests back it up (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.
 
 What resolves it: a trusted give-and-take network with rule enforcement, within a group small enough (around 150) that you can actually keep track of everyone's reputation. Beyond about 150, you need institutions - formal rules, referees, shared stories - to keep cooperation going.
 
@@ -253,7 +253,7 @@ Anonymous transactions, getting ghosted, no shared narrative tying people togeth
 
 ## M12 - Contamination Avoidance
 
-This is your disgust system - the behavioral immune system. It started as pathogen avoidance (rotten food, sick people) and got extended into sexual and moral domains too.
+This is your disgust system - the behavioral immune system. It covers three kinds of disgust: germs (rotten food, sick people), some sexual acts and partners, and moral violations. How the moral kind began is still open.
 
 What resolves it: clean food, a clean social environment, and moral disgust kept in check.
 
@@ -293,7 +293,7 @@ Ultra-processed foods are built to slip right past your "I'm full" signal, so yo
 
 ## M14 - Reproductive Motivation
 
-This is the system behind desire, attraction, and pair-bonding. It's its own separate engine - not just a flavor of general goal-pursuit. It actually has three parts (desire, attraction, bonding) that can run independently of each other, and it shapes way more of human behavior than just making babies.
+This is the system behind desire, attraction, and pair-bonding. It actually has three parts (desire, attraction, bonding) that can run independently of each other, and it shapes way more of human behavior than just making babies.
 
 What resolves it: sexual fulfillment within a pair bond, a stable pair bond, and reproductive success.
 
@@ -311,7 +311,7 @@ Pornography, dating apps, delayed reproduction, and comparing your mate value to
 
 ## R1 - Touch
 
-Quick heads-up: this one is different. Touch is **not** a motivation in itself - it's a regulatory input that feeds into the bonding system (M3). It works through special nerves called C-tactile afferents. It's a lower-confidence, contested item, so hold it more loosely than the others.
+Quick heads-up: this one is different. Touch is a regulatory input that feeds into the bonding system (M3). It works through special nerves called C-tactile afferents. Its ladder is contested.
 
 What resolves it: regular physical contact with trusted people.
 
@@ -350,4 +350,4 @@ The trap in every case: the *craving* still fires exactly the same. A fake versi
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 03:04 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-26 03:24 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 05:38 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Teen edition was compiled 2026-11-26 05:38 UTC.*

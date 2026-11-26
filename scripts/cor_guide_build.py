@@ -3,7 +3,7 @@
 Reads real data from the FULL backup so all content is verbatim from the DB.
 Usage: python3 cor_guide_build.py <backup_root> <out_html>
 """
-import json, os, sys, html, collections
+import json, os, re, sys, html, collections
 
 ROOT = sys.argv[1]
 OUT = sys.argv[2]
@@ -43,6 +43,30 @@ def badge(val, label=None):
     return f'<span class="badge {cls}">{e(label or str(val).replace("_"," "))}</span>'
 
 
+# 26 Nov 2026: a foundation statement can hold two claims, each ending with its own
+# mark "(graded forced)" / "(graded strongly supported)", while epistemic_grade keeps
+# the first claim's value. When marks are present, show the marks, not the one field.
+GRADED_MARK = re.compile(r"\(graded ([a-z _-]+)\)", re.I)
+
+
+def foundation_badges(f):
+    marks = GRADED_MARK.findall(f.get("statement") or "")
+    if marks:
+        return "".join(badge(m.strip().replace(" ", "_"), m.strip()) for m in marks)
+    return badge(f.get("epistemic_grade"))
+
+
+# Public evidence labels (GRADING-RUBRIC-v2.md mapping table), rubric order.
+PUBLIC_GRADE = {
+    "replicated": "tested many times", "meta_analysis": "tested many times",
+    "longitudinal": "tested many times", "clinical": "tested many times",
+    "thin": "tested once", "cross_species": "seen in animals",
+    "theoretical": "argued, not yet tested", "contested": "contested",
+}
+PUBLIC_GRADE_ORDER = ["tested many times", "tested once", "seen in animals",
+                      "argued, not yet tested", "contested"]
+
+
 # ---- load everything ----
 man = json.load(open(os.path.join(ROOT, "MANIFEST.json")))
 F = load("v2_foundations")
@@ -70,6 +94,19 @@ def mref(code):
 
 # evidence-count per mechanism (from mechanism_evidence)
 mev = collections.Counter(x.get("mechanism_code") for x in ME)
+
+# 26 Nov 2026: per system, how many findings carry each public label (each finding once).
+_eq = {x["id"]: x.get("evidence_quality") for x in EXT}
+_mlab = collections.defaultdict(collections.Counter)
+for _mc, _xid in {(r.get("mechanism_code"), r["extraction_id"]) for r in ME}:
+    _lab = PUBLIC_GRADE.get(_eq.get(_xid))
+    if _lab:
+        _mlab[_mc][_lab] += 1
+
+
+def label_counts(code):
+    c = _mlab.get(code, {})
+    return " · ".join(f"{c[l]} {l}" for l in PUBLIC_GRADE_ORDER if c.get(l))
 
 S = []  # html chunks
 def add(x): S.append(x)
@@ -230,7 +267,7 @@ for lk, ltitle in LAYERS:
         add(f"""
         <div class="card foundation">
           <div class="card-top"><span class="code">{e(f['code'])}</span>
-            <span class="card-name">{e(f['name'])}</span>{badge(f.get('epistemic_grade'))}</div>
+            <span class="card-name">{e(f['name'])}</span>{foundation_badges(f)}</div>
           <p class="statement">{e(f['statement'])}</p>
           {f'<div class="field"><span class="flab">Scope &amp; meaning</span>{paras(f.get("scope_notes"))}</div>' if f.get('scope_notes') else ''}
           {f'<div class="field"><span class="flab">Where it comes from</span><p>{e(f.get("derivation"))}</p></div>' if f.get('derivation') else ''}
@@ -242,41 +279,40 @@ endpart()
 part("IV", "The Mechanisms",
      f"{len(M)} entries — 14 motivational systems (M1–M14) plus one regulatory input (R1). "
      "This is the heart of the spec: the actual evolved machinery.")
-TIERS = [(1,"Tier 1 — forced core systems"),
-         (2,"Tier 2 — strongly supported systems"),
-         (3,"Tier 3 — regulatory inputs")]
-for tk, ttitle in TIERS:
-    rows = sorted([m for m in M if m.get("tier") == tk],
-                  key=lambda x: int("".join(c for c in x["code"] if c.isdigit()) or 0))
-    if not rows:
-        continue
-    add(f'<h3 class="layer">{e(ttitle)}</h3>')
-    for m in rows:
-        rel = []
-        if m.get("cascade_suppressed_by"):
-            rel.append("suppressed by " + ", ".join(m["cascade_suppressed_by"]))
-        if m.get("cascade_suppresses"):
-            rel.append("suppresses " + ", ".join(m["cascade_suppresses"]))
-        if m.get("cascade_interacts"):
-            rel.append("interacts with " + ", ".join(m["cascade_interacts"]))
-        relline = (" · ".join(rel)) if rel else "no recorded cascade links"
-        add(f"""
-        <div class="card mech">
-          <div class="card-top"><span class="code hot">{e(m['code'])}</span>
-            <span class="card-name">{e(m['name'])}</span>
-            {badge(m.get('grade'))}<span class="age">{e(m.get('phylogenetic_age') or '')}</span></div>
-          <p class="eli5">{e(m.get('eli5'))}</p>
-          {f'<div class="field"><span class="flab">What it is</span>{paras(m.get("description"))}</div>' if m.get('description') else ''}
-          <div class="grid2">
-            {f'<div class="field"><span class="flab">Resolves when</span><p>{e(m.get("resolution_conditions"))}</p></div>' if m.get('resolution_conditions') else ''}
-          </div>
-          {f'<div class="field danger"><span class="flab">Modern mismatch</span><p>{e(m.get("mismatch_prediction"))}</p></div>' if m.get('mismatch_prediction') else ''}
-          <div class="metaline">
-            <span><b>Cascade:</b> {e(relline)}</span>
-            <span><b>Evidence rows:</b> {mev.get(m['code'],0)}</span>
-            <span><b>Researchers:</b> {e(", ".join(m.get('source_researchers') or []))}</span>
-          </div>
-        </div>""")
+# 26 Nov 2026: systems are no longer grouped by tier (the field goes out of use);
+# they are listed by code, M before R, numeric within the prefix.
+def _code_key(x):
+    code = x.get("code") or ""
+    return (0 if code.startswith("M") else 1, int("".join(c for c in code if c.isdigit()) or 0))
+
+
+for m in sorted(M, key=_code_key):
+    rel = []
+    if m.get("cascade_suppressed_by"):
+        rel.append("suppressed by " + ", ".join(m["cascade_suppressed_by"]))
+    if m.get("cascade_suppresses"):
+        rel.append("suppresses " + ", ".join(m["cascade_suppresses"]))
+    if m.get("cascade_interacts"):
+        rel.append("interacts with " + ", ".join(m["cascade_interacts"]))
+    relline = (" · ".join(rel)) if rel else "no recorded cascade links"
+    add(f"""
+    <div class="card mech">
+      <div class="card-top"><span class="code hot">{e(m['code'])}</span>
+        <span class="card-name">{e(m['name'])}</span>
+        <span class="age">{e(m.get('phylogenetic_age') or '')}</span></div>
+      <p class="eli5">{e(m.get('eli5'))}</p>
+      {f'<div class="field"><span class="flab">What it is</span>{paras(m.get("description"))}</div>' if m.get('description') else ''}
+      <div class="grid2">
+        {f'<div class="field"><span class="flab">Resolves when</span><p>{e(m.get("resolution_conditions"))}</p></div>' if m.get('resolution_conditions') else ''}
+      </div>
+      {f'<div class="field danger"><span class="flab">Modern mismatch</span><p>{e(m.get("mismatch_prediction"))}</p></div>' if m.get('mismatch_prediction') else ''}
+      <div class="metaline">
+        <span><b>Cascade:</b> {e(relline)}</span>
+        <span><b>Evidence rows:</b> {mev.get(m['code'],0)}</span>
+        {f'<span><b>Findings:</b> {e(label_counts(m["code"]))}</span>' if label_counts(m["code"]) else ''}
+        <span><b>Researchers:</b> {e(", ".join(m.get('source_researchers') or []))}</span>
+      </div>
+    </div>""")
 endpart()
 
 

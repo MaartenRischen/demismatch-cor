@@ -11,7 +11,7 @@ There are well-defined exceptions where the signal stops being a reliable readou
 The framework is built in layers, each forced by the one beneath it:
 
 - **Frame:** We never get unmediated access to reality. We get evolved interfaces that were selected to keep our ancestors alive and reproducing, not to tell us the truth. And the default reading of a motivational or emotional output is that it is information about conditions, not noise to suppress.
-- **Premise:** The loss function evolution optimized is inclusive fitness - survival and reproduction. That is selection's loss function, not something the organism computes at runtime. The organism is not a general-purpose learner; it is a bundle of specialized, interacting systems. Modern environments routinely push those systems outside the ranges they expect.
+- **Premise:** The loss function evolution optimized is inclusive fitness, one measure: an individual's own reproductive success plus the reproductive success of relatives, weighted by how closely they are related. Survival counts because the dead do not reproduce. That is selection's loss function, not something the organism computes at runtime. The organism is not a general-purpose learner; it is a bundle of specialized, interacting systems. Modern environments routinely push those systems outside the ranges they expect.
 - **Properties:** From this it follows that many painful outputs are intelligible defensive signals, that human regulation is built to run on other people, that systems are coupled and can drag each other down, that proxy cues can switch a system on without ever switching it off, that defensive systems are biased toward false alarms, that fixing one system does not generically fix another, and that the tuning of these systems - gains, thresholds, setpoints - varies from person to person within substantially heritable ranges. That last point is a population statistic, not a verdict on any client: it changes where mismatch bites first, not whether changing inputs works.
 - **Consequences:** Chronic unresolved activation accumulates as bodily wear (allostatic load). Markets learn to sell proxies for unmet needs. And because cortical override is metabolically expensive and degrades under chronic load, changing the actual inputs is usually more durable than asking the client to think their way out. The environment is a primary intervention layer - and it is the one most institutions underweight.
 
@@ -71,7 +71,7 @@ Patching the person means teaching them to override an ancient alarm with expens
 
 ### What it looks like in a person
 
-This is the general-purpose SEEKING system - the drive to explore, pursue goals, build skills, and engage with the world. Note the scope change: sexual motivation has been moved out of M2 into M14. What is left is narrow and specific. In a person it looks like drive and curiosity when healthy, and like restless, compulsive, never-satisfied "wanting" when hijacked - the client who scrolls for hours, chases novelty, feels driven but never full.
+This is the general-purpose SEEKING system - the drive to explore, pursue goals, build skills, and engage with the world. The same wanting system also runs when what is wanted is a partner; what is specific to partners belongs to M14. In a person it looks like drive and curiosity when healthy, and like restless, compulsive, never-satisfied "wanting" when hijacked - the client who scrolls for hours, chases novelty, feels driven but never full.
 
 The key dissociation: wanting (mesolimbic dopamine) is separable from liking (hedonic satisfaction). A proxy can crank up the wanting while delivering none of the liking that normally closes the loop.
 
@@ -93,7 +93,7 @@ Variable-reward apps fire SEEKING without resolution. Open loop. This is the tex
 
 ### Cascade
 
-M2 is suppressed by threat (M1), bonding (M3), and several Tier-2 systems (M7 circadian, M8 immune, M13 energy). It interacts with M4 (play) and M14 (reproduction). Practically: a client whose SEEKING looks dead may be downstream of poor sleep, inflammation, threat, or grief - check those before concluding the drive itself is the problem.
+M2 is suppressed by threat (M1), bonding (M3), circadian regulation (M7), immune regulation (M8), and energy regulation (M13). It interacts with M4 (play) and M14 (reproduction). Practically: a client whose SEEKING looks dead may be downstream of poor sleep, inflammation, threat, or grief - check those before concluding the drive itself is the problem.
 
 ### What changing the inputs means
 
@@ -173,7 +173,7 @@ Patching means trying to teach social skills didactically to someone the system 
 
 ### Evidence
 
-55 evidence links. Key researchers: Panksepp, Pellis & Pellis, Gray. This mechanism is **forced** by convergences C2, C4, and C12.
+55 evidence links. Key researchers: Panksepp, Pellis & Pellis, Gray. This mechanism is grounded in convergences C2, C4, and C12.
 
 ---
 
@@ -209,7 +209,7 @@ Patching means trying to talk a client out of comparisons that a continuously-ru
 
 ### Evidence
 
-88 evidence links. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. This mechanism is **forced** by convergences C2, C7, C9, and C13.
+88 evidence links. Key researchers: Gilbert, Price, Mazur, Sapolsky, Marmot. This mechanism is grounded in convergences C2, C7, C9, and C13.
 
 ---
 
@@ -245,7 +245,7 @@ Patching means cognitively reframing helplessness in a client whose actual envir
 
 ### Evidence
 
-38 evidence links. Key researchers: Maier & Seligman. This mechanism is **forced** by convergences C8 and C13.
+38 evidence links. Key researchers: Maier & Seligman. No convergence is linked to this mechanism.
 
 ---
 
@@ -281,7 +281,7 @@ This is a near-pure inputs problem. Patching means treating the downstream mood 
 
 ### Evidence
 
-20 evidence links. Key researchers: Walker, Roenneberg, Czeisler. This mechanism is **forced** by convergences C3, C9, and C12.
+20 evidence links. Key researchers: Walker, Roenneberg, Czeisler. This mechanism is grounded in convergences C3, C9, and C12.
 
 ---
 
@@ -317,7 +317,7 @@ Patching means treating the resulting low mood as a primary mood disorder while 
 
 ### Evidence
 
-37 evidence links. Key researchers: Dantzer, Danese, Irwin. This mechanism is **forced** by convergences C3, C7, and C9.
+37 evidence links. Key researchers: Dantzer, Danese, Irwin. This mechanism is grounded in convergences C3, C7, and C9.
 
 ---
 
@@ -354,15 +354,15 @@ Patching means treating parental burnout as an individual stress-management or r
 
 ### Evidence
 
-64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. This mechanism is **forced** by convergences C1, C4, C5, and C12.
+64 evidence links. Key researchers: Hrdy, Panksepp, Kenkel. This mechanism is grounded in convergences C1, C4, C5, and C12.
 
 ---
 
-## M10 - Movement / Regulatory
+## M10 - Movement
 
 ### What it looks like in a person
 
-Physical activity functions as a zeitgeber, an anti-inflammatory, and a mood regulator. The reframe: **movement isn't just exercise - it activates repair mechanisms throughout the organism.** This is a Tier-2 (strongly supported) mechanism. In a person, deficit shows up as low mood, poor sleep timing, inflammation, and dysregulation that no amount of "exercise" fully fixes - because the system expects all-day movement, not a session.
+Physical activity functions as a zeitgeber, an anti-inflammatory, and a mood regulator. The reframe: **movement isn't just exercise - it activates repair mechanisms throughout the organism.** In a person, deficit shows up as low mood, poor sleep timing, inflammation, and dysregulation that no amount of "exercise" fully fixes - because the system expects all-day movement, not a session.
 
 What resolves it: movement woven into daily life rather than set aside as "exercise." Hadza men walk about 11 km a day and women about 6 km, as a side effect of foraging.
 
@@ -390,7 +390,7 @@ Patching means prescribing "exercise" as a standalone behavior. Changing the inp
 
 ### Evidence
 
-29 evidence links. Key researchers: Pontzer, Lieberman, Ratey. This mechanism is **strongly supported**, forced by convergences C3 and C9.
+29 evidence links. Key researchers: Pontzer, Lieberman, Ratey. This mechanism is grounded in convergence C3.
 
 ---
 
@@ -398,7 +398,7 @@ Patching means prescribing "exercise" as a standalone behavior. Changing the inp
 
 ### What it looks like in a person
 
-Reciprocity, cheater detection, norm enforcement, and coalitional identity, combined into one system. This is Tier 2 - and the framework is honest about why: no single convergence forces a dedicated mechanism here, but four converging research streams strongly support it. In a person, deficit shows up as the corrosive sense of dealing with strangers who can defect without consequence, of belonging to no team, of effort and fairness going untracked and unrewarded.
+Reciprocity, cheater detection, norm enforcement, and coalitional identity, combined into one system. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them. In a person, deficit shows up as the corrosive sense of dealing with strangers who can defect without consequence, of belonging to no team, of effort and fairness going untracked and unrewarded.
 
 What resolves it: a trusted reciprocal network with norm enforcement, within a group small enough for direct reputation tracking - about 150, the same Dunbar ceiling that bounds M3. Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond about 150, cooperation requires institutional scaffolding - formal rules, third-party enforcement, shared fictions - rather than direct reciprocity.
 
@@ -426,7 +426,7 @@ Patching means treating relational cynicism or alienation as a cognitive distort
 
 ### Evidence
 
-73 evidence links. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. This mechanism is **strongly supported**, forced by convergence C11.
+73 evidence links. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello. This mechanism is **forced** by convergence C11.
 
 ---
 
@@ -434,7 +434,7 @@ Patching means treating relational cynicism or alienation as a cognitive distort
 
 ### What it looks like in a person
 
-Three-domain disgust - pathogen, sexual, and moral - functioning as a behavioral immune system. This is Tier 2 (strongly supported), and it carries the lowest evidence count in the atlas (12 links), so hold it more lightly than the Tier-1 mechanisms. In a person, the pathogen domain shows up as contamination fear and avoidance; the moral domain shows up as purity-coded social aversion.
+Three kinds of disgust - pathogen, sexual, and moral - functioning as a behavioral immune system; how the moral kind began is left open. It carries the lowest evidence count in the atlas (12 links). In a person, the pathogen domain shows up as contamination fear and avoidance; the moral domain shows up as purity-coded social aversion.
 
 What resolves it: clean food, a clean social environment, and moral disgust contained. (Note: the "moral disgust contained" clause is flagged as contested.)
 
@@ -458,7 +458,7 @@ For the well-supported pathogen domain, patching means treating contamination ov
 
 ### Evidence
 
-12 evidence links. Key researchers: Rozin, Curtis, Schaller. This mechanism is **strongly supported**, forced by convergences C2 and C8.
+12 evidence links. Key researchers: Rozin, Curtis, Schaller. This mechanism is grounded in convergences C2 and C8.
 
 ---
 
@@ -494,7 +494,7 @@ Patching means asking a client to out-discipline a food specifically engineered 
 
 ### Evidence
 
-34 evidence links. Key researchers: Pontzer, Keys. This mechanism is **strongly supported**, forced by convergences C3, C6, and C9.
+34 evidence links. Key researchers: Pontzer, Keys. This mechanism is grounded in convergences C3, C6, and C9.
 
 ---
 
@@ -502,7 +502,7 @@ Patching means asking a client to out-discipline a food specifically engineered 
 
 ### What it looks like in a person
 
-Built on Fisher's three-system model - desire, attraction, and pair bonding - which can each operate independently of one another. This system is independent from general pursuit (M2) and runs partly on the HPG axis, not only on brain circuits. The framework notes it shapes far more of human behavior than reproduction itself. In a person, deficit and hijack show up as compulsive use of sexual or romantic proxies alongside an absence of real pair-bonded fulfillment.
+Built on Fisher's three-system model - desire, attraction, and pair bonding - which can each operate independently of one another. This system runs partly on the HPG axis, not only on brain circuits. The framework notes it shapes far more of human behavior than reproduction itself. In a person, deficit and hijack show up as compulsive use of sexual or romantic proxies alongside an absence of real pair-bonded fulfillment.
 
 What resolves it: sexual fulfillment within a pair bond, plus pair-bond stability, plus reproductive success.
 
@@ -536,7 +536,7 @@ Patching means treating compulsive proxy use as a standalone behavioral addictio
 
 ### What it looks like in a person
 
-R1 is **not a motivational system.** It is a regulatory input to social bonding (M3), carried by C-tactile afferents. Treat it as a channel that feeds M3, not as a drive in its own right. This is Tier 3 (moderate evidence), and the framework flags it as contested - the premise that its cue can be separated from its function is itself disputed. In a person, the deficit is touch starvation contributing to the dysregulation you would otherwise attribute purely to M3.
+R1 is a regulatory input to social bonding (M3), carried by C-tactile afferents. The framework flags it as contested - the premise that its cue can be separated from its function is itself disputed. In a person, the deficit is touch starvation contributing to the dysregulation you would otherwise attribute purely to M3.
 
 What resolves it: regular physical contact with trusted others.
 
@@ -560,4 +560,4 @@ Because R1 feeds M3, patching the person is largely beside the point - this is a
 
 ### Evidence
 
-18 evidence links. Key researchers: McGlone, Field. This mechanism is graded **moderate** and is forced by convergences C4 and C5.
+18 evidence links. Key researchers: McGlone, Field. This mechanism is grounded in convergences C4 and C5.

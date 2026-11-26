@@ -72,7 +72,7 @@ There are two different things to know here. One is about how many caring helper
 
 The other thing is a fake helper, like a screen or a robot babysitter. It can keep a child busy, but it cannot truly care the way a real person does.
 
-## M10 - Movement / Regulatory
+## M10 - Movement
 
 This helper turns on when your body moves. Moving is not just exercise. It helps your whole body fix and clean itself, and it helps your mood too! Long ago, people walked many miles every day just by living their lives.
 
@@ -88,7 +88,7 @@ The real thing is a group of people who trust each other, small enough that ever
 
 This helper is your disgust feeling. It keeps you away from rotten food and germs that could make you sick. That "yuck!" feeling is actually trying to protect you.
 
-The real thing is feeling yucky about real germs, like spoiled food, so you stay away. Sometimes this helper is extra careful and says "yuck" to safe things too, just to be sure. There is also an idea that this disgust feeling can spread to how we judge other people, but scientists are still less sure about that part. The simple, well-known job is keeping you away from germs, like a guard who keeps bad stuff out.
+The real thing is feeling yucky about real germs, like spoiled food, so you stay away. Sometimes this helper is extra careful and says "yuck" to safe things too, just to be sure. There is also a yuck feeling about people who do mean or unfair things, and scientists are still working out how that one began. The simple, well-known job is keeping you away from germs, like a guard who keeps bad stuff out.
 
 ## M13 - Energy Regulation
 
@@ -104,6 +104,6 @@ The real thing is a real partner you share life with. The pretend versions are t
 
 ## R1 - Touch
 
-This one is a little different. It is more like a special feeling channel that helps your bonding helper (M3) feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
+This helper feeds your bonding helper (M3) and helps it feel calm and safe. Your skin has tiny nerves that love gentle, friendly touch.
 
 The real thing is a warm hug or hand-hold from someone you trust who hugs you back. Other kinds of touch, like a soft blanket or a touch machine, can feel nice, but they are not a living friend. A real cuddle from someone who loves you does something special that a blanket cannot. Gentle touch matters so much that holding tiny new babies skin-to-skin helps keep them safe and healthy.

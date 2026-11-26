@@ -54,15 +54,6 @@
 
   var esc = D.esc, clean = D.clean;
 
-  // Humanize a grade token for the index chip (DB stores e.g.
-  // "strongly_supported"). Underscores -> spaces; never invents a value.
-  function gradeLabel(g) {
-    if (g == null) return "";
-    var s = D.normalizeDashes(String(g)).replace(/_/g, " ").trim();
-    // grade is stored directly (mechanism top tier migrated forced -> established, 2026-07-18).
-    return s;
-  }
-
   function hasGradient(m) {
     var pg = m && m.proxy_gradient_parsed;
     return !!(pg && ((pg.levels && pg.levels.length) || (pg.axes && pg.axes.length)));
@@ -70,13 +61,16 @@
 
   function card(m) {
     var ev = D.evidenceCount(m.code);
-    var grade = gradeLabel(m.grade);
+    // 26 Nov 2026: no single grade and no tier per system. The card shows how many
+    // of the system's findings carry each public label (rubric order, zero labels out).
+    var labels = D.mechanismLabelCounts ? D.mechanismLabelCounts(m.code) : [];
 
     var top =
       "<div class='mx-top'>" +
         "<span class='mx-code'>" + esc(m.code) + "</span>" +
-        (grade ? "<span class='mx-grade'>" + esc(grade) + "</span>" : "") +
-        (m.tier != null ? "<span class='mx-tier'>Tier " + esc(m.tier) + "</span>" : "") +
+        labels.map(function (r) {
+          return "<span class='mx-tier'>" + esc(r.n) + " " + esc(r.label) + "</span>";
+        }).join("") +
         (hasGradient(m)
           ? "<span class='mx-badge'><span class='pip' aria-hidden='true'></span>Proxy gradient</span>"
           : "<span class='mx-badge mx-badge-pending'>Gradient: not yet derived</span>") +
