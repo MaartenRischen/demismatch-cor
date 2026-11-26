@@ -38,7 +38,6 @@
     Object.freeze({ key: "reference",   label: "Reference",  href: "reference.html" }),
     Object.freeze({ key: "programme",   label: "Programme",  href: "programme.html" }),
     Object.freeze({ key: "mindmap",     label: "Map",        href: "mindmap.html" }),
-    Object.freeze({ key: "downloads",   label: "Downloads",  href: "downloads.html" }),
     Object.freeze({ key: "faq",         label: "FAQ",        href: "faq.html" })
   ]);
   // Combined list (matching/compat for setCurrent + window.CorChrome.NAV).
@@ -153,8 +152,7 @@
         { label: "Mechanisms",  href: "mechanisms.html" },
         { label: "The Corpus",  href: "corpus.html" },
         { label: "Derivation",  href: "derivation.html" },
-        { label: "Map",         href: "mindmap.html" },
-        { label: "Downloads",   href: "downloads.html" }
+        { label: "Map",         href: "mindmap.html" }
       ]
     },
     {

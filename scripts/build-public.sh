@@ -27,7 +27,6 @@ ROOT_FILES=(
   "corpus.html"
   "derivation.html"
   "reference.html"
-  "downloads.html"
   "eli5.html"
   "bridge-paper.html"
   "constitutional.html"
@@ -50,6 +49,7 @@ ROOT_FILES=(
   "m3-worked-example.html"
   "contact.html"
   "plan.html"
+  "downloads.html"     # downloads off (Maarten, 26 Nov 2026, OB 5757): stub to about.html
   # infra
   "404.html"
   "CNAME"
@@ -96,6 +96,12 @@ for k, v in vals.items():
 open(page, "w", encoding="utf-8").write(t)
 print("  home counts stamped:", vals)
 PYSTAMP
+
+# --- Downloads off (Maarten, 26 Nov 2026, Open Brain 5757: "just delete this feature for now. No downloads"). The
+# generator and the old texts stay in the repo (data/exports/, js/exports*.js, Cor Portal v2/scripts); none is published.
+# An old address of a text gets the 404 page with its list of entry points; downloads.html is a stub to about.html.
+rm -rf "$DIST/data/exports" "$DIST/data/exports-corpus.json" "$DIST/js/exports-data.js" "$DIST/js/exports.js" \
+       "$DIST/js/downloads.js" "$DIST/css/exports.css" "$DIST/css/downloads.css"
 
 cp "$ROOT/.nojekyll" "$DIST/.nojekyll"
 

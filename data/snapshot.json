@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-11-26T11:40:47.020872+00:00",
+    "built_at": "2026-11-26T13:42:14.677998+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "note": "Static decoupling layer. Page renders from this file, never a live query."
   },
@@ -879,12 +879,97 @@
         }
       },
       {
+        "code": "M11",
+        "name": "Cooperation / Alliance",
+        "tier": null,
+        "grade": null,
+        "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
+        "description": "Reciprocity + norm enforcement + alliance dynamics. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.",
+        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (a ceiling on the order of ~150, the size found among foragers and in modern networks, EEA-SOC-01). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+        "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
+        "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
+        "convergence_codes": [
+          "C11"
+        ],
+        "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
+        "source_researchers": [
+          "Trivers",
+          "Boehm",
+          "Fehr & Gächter",
+          "Tomasello"
+        ],
+        "cascade_suppresses": [],
+        "cascade_suppressed_by": [],
+        "cascade_interacts": [],
+        "sex_diff_notes": "E4155 (US undergraduates, one-shot ultimatum games with photographed partners): women also treated valuable-looking partners better, but gave partner choice less priority than men did. E4315 (three public-goods experiments with UK undergraduates): men contributed more to their group if their group was competing with other groups than if there was no intergroup competition; women's contributions did not differ between conditions in Experiments 2 and 3, and in Experiment 1 fewer women contributed under group competition (53 against 78 percent). E1579 (Ache and Hiwi): there was no sex difference in sharing once package size was controlled.",
+        "created_at": "2026-04-04T19:09:50.118794+00:00",
+        "activation_class": null,
+        "activation_class_secondary": null,
+        "activation_note": null,
+        "proxy_gradient_parsed": {
+          "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
+          "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
+          "levels": [
+            {
+              "index": 0,
+              "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
+              "state": "FULL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 1,
+              "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
+              "state": "PARTIAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "label": "market exchange among strangers backed by gameable reputation systems",
+              "state": "MIXED",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 3,
+              "label": "coalition-signaling and parasocial alliance via symbolic in-group markers",
+              "state": "MINIMAL",
+              "tag": null,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
+              "state": "ZERO",
+              "tag": null,
+              "note": ""
+            }
+          ],
+          "trailing": "Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
+          "demoted": "",
+          "axes": [],
+          "state_order": [
+            "FULL",
+            "ATTENUATED",
+            "PARTIAL",
+            "MIXED",
+            "REDUCED",
+            "THIN",
+            "MINIMAL",
+            "ZERO",
+            "DEFEATED",
+            "EMPTY SHELF"
+          ]
+        }
+      },
+      {
         "code": "M8",
         "name": "Immune Regulation",
         "tier": null,
         "grade": null,
         "eli5": "Sickness behavior.",
-        "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to low mood via DA3 cascade.",
+        "description": "Cytokine signaling system. Its cytokines act on the brain and set a motivational state, sickness behaviour: withdrawal, malaise and loss of interest in reward; cytokines alone, with no germ, bring it on (ext 224, 4682). Hub connecting inflammation to low mood via DA3 cascade.",
         "resolution_conditions": "Pathogen cleared, inflammation resolved.",
         "mismatch_prediction": "Chronic low-grade inflammation from diet, sedentarism, social isolation.",
         "proxy_gradient": "5 levels (Kind B: the trigger drifts from a real clearable pathogen toward psychosocial/lifestyle signals with nothing to clear AND the inflammatory off-switch degrades; ordered by how achievable clear→resolve→baseline remains): acute infection/injury fought off and fully resolved (FULL) → recurrent acute stress resolving each time but with incomplete recovery (ATTENUATED) → sustained lifestyle drivers (sedentarism, poor diet, sleep loss) keeping inflammation simmering (PARTIAL) → chronic social isolation/status stress defeating the inflammatory off-switch (MINIMAL) → self-sustaining chronic low-grade inflammation, allostatic-load collapse (DEFEATED). The order of PARTIAL (lifestyle drivers) and MINIMAL (social isolation) is untested.",
@@ -959,91 +1044,6 @@
             }
           ],
           "trailing": "The order of PARTIAL (lifestyle drivers) and MINIMAL (social isolation) is untested.",
-          "demoted": "",
-          "axes": [],
-          "state_order": [
-            "FULL",
-            "ATTENUATED",
-            "PARTIAL",
-            "MIXED",
-            "REDUCED",
-            "THIN",
-            "MINIMAL",
-            "ZERO",
-            "DEFEATED",
-            "EMPTY SHELF"
-          ]
-        }
-      },
-      {
-        "code": "M11",
-        "name": "Cooperation / Alliance",
-        "tier": null,
-        "grade": null,
-        "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
-        "description": "Reciprocity + norm enforcement + alliance dynamics. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.",
-        "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (a ceiling on the order of ~150, the size found among foragers and in modern networks, EEA-SOC-01). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
-        "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
-        "proxy_gradient": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
-        "convergence_codes": [
-          "C11"
-        ],
-        "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
-        "source_researchers": [
-          "Trivers",
-          "Boehm",
-          "Fehr & Gächter",
-          "Tomasello"
-        ],
-        "cascade_suppresses": [],
-        "cascade_suppressed_by": [],
-        "cascade_interacts": [],
-        "sex_diff_notes": "E4155 (US undergraduates, one-shot ultimatum games with photographed partners): women also treated valuable-looking partners better, but gave partner choice less priority than men did. E4315 (three public-goods experiments with UK undergraduates): men contributed more to their group if their group was competing with other groups than if there was no intergroup competition; women's contributions did not differ between conditions in Experiments 2 and 3, and in Experiment 1 fewer women contributed under group competition (53 against 78 percent). E1579 (Ache and Hiwi): there was no sex difference in sharing once package size was controlled.",
-        "created_at": "2026-04-04T19:09:50.118794+00:00",
-        "activation_class": null,
-        "activation_class_secondary": null,
-        "activation_note": null,
-        "proxy_gradient_parsed": {
-          "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
-          "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
-          "levels": [
-            {
-              "index": 0,
-              "label": "trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement",
-              "state": "FULL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 1,
-              "label": "institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions",
-              "state": "PARTIAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 2,
-              "label": "market exchange among strangers backed by gameable reputation systems",
-              "state": "MIXED",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 3,
-              "label": "coalition-signaling and parasocial alliance via symbolic in-group markers",
-              "state": "MINIMAL",
-              "tag": null,
-              "note": ""
-            },
-            {
-              "index": 4,
-              "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
-              "state": "ZERO",
-              "tag": null,
-              "note": ""
-            }
-          ],
-          "trailing": "Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
           "demoted": "",
           "axes": [],
           "state_order": [
@@ -2139,21 +2139,11 @@
         "name": "Restorative Environments",
         "primary_mechanism": null,
         "cross_cutting": true,
-        "description": "Restricted contact with natural and restorative environments as an input mismatch. Framed resolution-condition-first, not form-first: the target is the functional restorative property (fractal visual complexity, soft-fascination attention recovery, non-threatening biological motion, restorative soundscape, phytoncide exposure), not \"return to nature\" and not an innate biophilia drive. Forest exposure is one delivery form; built and urban environments can supply the same properties, which keeps the domain scalable and out of the naturalistic-fallacy trap. Classified cross-cutting because restorative input resolves several existing systems rather than one: threat and vigilance de-arousal with parasympathetic recovery (Ulrich Stress Reduction Theory), directed-attention restoration (Kaplan Attention Restoration Theory), allostatic offloading (DC1 and C9), immune and inflammatory modulation (M8; forest-medicine phytoncide and NK-cell work), and reduced rumination (Bratman). No new mechanism is asserted; nature contact is treated as an environmental input that lets existing systems stand down, consistent with the core thesis that the fix is the environment. Evidence discipline: the stress-recovery and attention-restoration core is well-supported and partly replicated; forest-medicine immune findings are thinner and often small-sample, so tag down at extraction time. Primary-source grounding is pending (see the ingestion-queue gap, G15). Note: the biophilia literature is the umbrella term for this territory, but Cor treats it as an input-resolution domain, not an innate-drive claim.",
+        "description": "Restricted contact with natural and restorative environments as an input mismatch. Framed resolution-condition-first, not form-first: the target is the functional restorative property (fractal visual complexity, soft-fascination attention recovery, non-threatening biological motion, restorative soundscape, phytoncide exposure), not \"return to nature\" and not an innate biophilia drive. Forest exposure is one delivery form; built and urban environments can supply the same properties, which keeps the domain scalable and out of the naturalistic-fallacy trap. Classified cross-cutting because restorative input resolves several existing systems rather than one: threat and vigilance de-arousal with parasympathetic recovery (Ulrich Stress Reduction Theory), directed-attention restoration (Kaplan Attention Restoration Theory), allostatic offloading (DC1 and C9), immune and inflammatory modulation (M8; forest-medicine phytoncide and NK-cell work), and reduced rumination (Bratman). No new mechanism is asserted; nature contact is treated as an environmental input that lets existing systems stand down, consistent with the core thesis that the fix is the environment. Evidence discipline: the stress-recovery and attention-restoration core is well-supported and partly replicated; forest-medicine immune findings are thinner and often small-sample, so tag down at extraction time. Three primaries are in Cor (Ulrich 1984, ext 4642; Park et al. 2010, ext 4638; Bratman et al. 2015, ext 4499); the rest of the ingestion queue is gap G15. Note: the biophilia literature is the umbrella term for this territory, but Cor treats it as an input-resolution domain, not an innate-drive claim.",
         "created_at": "2026-07-10T07:09:51.471044+00:00"
       }
     ],
     "gaps": [
-      {
-        "id": 1,
-        "code": "G1",
-        "name": "DC2 empirical depth beyond Schüll and Moss",
-        "what_is_missing": "Dedicated empirical depth on Haugen's Facebook Files and on companion-AI harm. Muldoon & Parke 2025 (New Media & Society, DOI 10.1177/14614448251395192) is in Cor (ext 595, 596). It is theoretical and contributes no data of its own.",
-        "why_it_matters": "DC2 (Market Proxy Exploitation) grounds A1 AI alignment and A6 platform regulation. It currently rests on Schüll (gambling) and Moss (food), which is narrow. Companion AI is the highest-risk contemporary case, and Cor holds no empirical study of it.",
-        "current_approach": "Next: Haugen's Facebook Files and empirical companion-AI studies.",
-        "priority": "high",
-        "created_at": "2026-04-04T19:32:21.883117+00:00"
-      },
       {
         "id": 3,
         "code": "G3",
@@ -2192,6 +2182,16 @@
         "why_it_matters": "A1 AI alignment risk analysis and A2 clinical practice both depend on being able to locate specific proxy products on the gradient with some reliability.",
         "current_approach": "The ladder is the project's position and is used to place stand-ins. Next: outcome and dose-response studies by level.",
         "priority": "medium",
+        "created_at": "2026-04-04T19:32:21.883117+00:00"
+      },
+      {
+        "id": 1,
+        "code": "G1",
+        "name": "DC2 empirical depth beyond Schüll and Moss",
+        "what_is_missing": "Dedicated empirical depth on Haugen's Facebook Files and on companion-AI harm. Muldoon & Parke 2025 (New Media & Society, DOI 10.1177/14614448251395192) is in Cor (ext 595, 596). It is theoretical and contributes no data of its own.",
+        "why_it_matters": "DC2 (Market Proxy Exploitation) grounds A1 AI alignment and A6 platform regulation. It currently rests on Schüll (gambling) and Moss (food), which is narrow. Companion AI is the highest-risk contemporary case. Cor holds empirical studies of it, all graded thin: two experiments with GPT-3 and GPT-4 companions (De Freitas et al. 2025, ext 2409, 2410), interviews with 18 Replika users (Skjuve et al. 2021, ext 2418, 2419), 582 Reddit posts (Laestadius et al. 2022, ext 2028), a survey of 1,006 Replika users (Maples et al. 2024, ext 2029, 2030) and a survey of 1,060 US teens (Robb and Mann 2025, ext 4603, 4604).",
+        "current_approach": "Next: Haugen's Facebook Files and empirical companion-AI studies.",
+        "priority": "high",
         "created_at": "2026-04-04T19:32:21.883117+00:00"
       },
       {
@@ -2278,8 +2278,8 @@
         "id": 16,
         "code": "G15",
         "name": "Restorative Environments domain primary-source grounding",
-        "what_is_missing": "The new Restorative Environments domain has no primary extractions yet. A primary-source ingestion queue is defined: (1) Ulrich 1984, \"View through a window may influence recovery from surgery,\" Science, the anchor stress-recovery result; (2) Kaplan and Kaplan 1989, The Experience of Nature (Attention Restoration Theory), with Berman, Jonides and Kaplan 2008, Psychological Science, as the experimental test; (3) Miyazaki and Li forest-medicine primaries on phytoncides, NK-cell activity, and cortisol/HRV (strongest primary studies, not review-of-reviews); (4) Hartig et al. 2014, \"Nature and health,\" Annual Review of Public Health, a review; (5) Bratman et al. 2015, PNAS, nature walk reduces rumination and subgenual prefrontal activity, a strong mechanism-level primary.",
-        "why_it_matters": "Restorative-environment mismatch is the cleanest non-social mismatch available to Cor: strong evidence, an obvious resolution condition, and a delivery form that need not be literal wilderness. It makes the atlas visibly more than a social-mismatch account. Until the primaries are extracted, the domain is a container without grounding.",
+        "what_is_missing": "Three studies of the ingestion queue are in Cor: Ulrich 1984 (ext 4642), a forest study from Miyazaki's group (Park et al. 2010, 24 Japanese forests, ext 4638) and Bratman et al. 2015 (ext 4499). The queue: (1) Ulrich 1984, \"View through a window may influence recovery from surgery,\" Science, the anchor stress-recovery result; (2) Kaplan and Kaplan 1989, The Experience of Nature (Attention Restoration Theory), with Berman, Jonides and Kaplan 2008, Psychological Science, as the experimental test; (3) Miyazaki and Li forest-medicine primaries on phytoncides, NK-cell activity, and cortisol/HRV (strongest primary studies, not review-of-reviews); (4) Hartig et al. 2014, \"Nature and health,\" Annual Review of Public Health, a review; (5) Bratman et al. 2015, PNAS, nature walk reduces rumination and subgenual prefrontal activity, a strong mechanism-level primary.",
+        "why_it_matters": "Restorative-environment mismatch is the cleanest non-social mismatch available to Cor: strong evidence, an obvious resolution condition, and a delivery form that need not be literal wilderness. It makes the atlas visibly more than a social-mismatch account. Three primaries are in Cor (Ulrich 1984, ext 4642; Park et al. 2010, ext 4638; Bratman et al. 2015, ext 4499); the rest of the queue is not.",
         "current_approach": "Domain created as a cross-cutting input-resolution domain with no new mechanism. Evidence-tagging discipline recorded in the domain description (stress-recovery and attention-restoration core well-supported and partly replicated; forest-medicine immune findings thinner and often small-sample).",
         "priority": "medium",
         "created_at": "2026-07-10T07:10:01.84288+00:00"
@@ -2298,7 +2298,7 @@
         "id": 2,
         "code": "G2",
         "name": "M14 cross-cultural variation evidence",
-        "what_is_missing": "M14 is sex-differentiated, with distinct female (VMH-centered) and male (POA-centered) neural architectures carrying different emphasis on commitment cues versus variety cues. Stated mate preferences are tested across cultures (Buss 1989, 37 cultures, ext 694; Walter et al. 2020, 45 countries, ext 695), and so is interest in uncommitted sex (Schmitt 2005, 48 nations, ext 779). A meta-analysis finds that the stated sex differences barely predict whom people like once they have met (Eastwick et al. 2014, ext 757), and other studies dispute that result (Li et al. 2013; Meltzer et al. 2014). Cor holds no cross-cultural study that links the female VMH and male POA substrates to these preferences. The weight of evidence leans against cycle shifts in mate preference, and the larger tests of it are not in Cor as records.",
+        "what_is_missing": "Stated mate preferences are tested across cultures (Buss 1989, 37 cultures, ext 694; Walter et al. 2020, 45 countries, ext 695), and so is interest in uncommitted sex (Schmitt 2005, 48 nations, ext 779). A meta-analysis finds that the stated sex differences barely predict whom people like once they have met (Eastwick et al. 2014, ext 757), and other studies dispute that result (Li et al. 2013; Meltzer et al. 2014). Cor holds no cross-cultural study that links the female VMH and male POA substrates to these preferences. The weight of evidence leans against cycle shifts in mate preference, and the larger tests of it are not in Cor as records.",
         "why_it_matters": "Social-role theory reads the same sex differences as products of the division of labour (Wood & Eagly 2002, ext 805). Cross-cultural tests that set the two readings against each other exist (Gangestad et al. 2006, named in ext 805) and are not in Cor as records.",
         "current_approach": "Next: read the larger tests of cycle shifts in mate preference into Cor.",
         "priority": "medium",
