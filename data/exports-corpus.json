@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-26T11:32:49.905124+00:00",
+    "source_built_at": "2026-11-26T11:40:47.020872+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -390,7 +390,7 @@
       "mismatch_prediction": "Modern threats - debt, emails, social media, status anxiety - can't be fought or fled. System stays on.",
       "phylogenetic_age": "~460-535Myr (defence centre, all vertebrates); amygdala circuit ~340Myr+ (four-limbed vertebrates)",
       "proxy_gradient": {
-        "raw": "5 levels (resolvability/actionability axis; true DA4 proxy only at floor): acute danger you can fight/flee then escape (FULL) → real present threat resolved by a trusted other (PARTIAL) → chronic slow-burn real threat, no terminating action (MIXED) → abstract/anticipated threat, no physical target (MINIMAL) → engineered supernormal outrage/threat media (ZERO; CONTESTABLE)",
+        "raw": "5 levels (resolvability/actionability axis; true DA4 proxy only at floor): acute danger you can fight/flee then escape (FULL) → real present threat resolved by a trusted other (PARTIAL) → chronic slow-burn real threat, no terminating action (MIXED) → abstract/anticipated threat, no physical target (MINIMAL) → engineered supernormal outrage/threat media (ZERO)",
         "preamble": "5 levels (resolvability/actionability axis; true DA4 proxy only at floor)",
         "trailing": "",
         "demoted": "",
@@ -436,8 +436,8 @@
             "index": 4,
             "label": "engineered supernormal outrage/threat media",
             "state": "ZERO",
-            "tag": "CONTESTABLE",
-            "note": "CONTESTABLE",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -693,7 +693,7 @@
       "mismatch_prediction": "Structured activities replacing free play. Screens replacing bodies. Play deprivation.",
       "phylogenetic_age": "~60Myr+ (social play, all primates; up to ~170Myr if one mammal system); play in reptiles and fish arose separately",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO; architecture-derived). The order of MIXED (screen play with real peers) and MINIMAL (solitary game) is untested.",
+        "raw": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives): self-directed, unsupervised physical play with other children, mixed-age as in forager childhoods (FULL) → adult-structured supervised physical activity, organized sports (PARTIAL) → screen-mediated multiplayer play with real peers (MIXED) → solitary single-player screen play, no reciprocating partner (MINIMAL) → engineered companion-AI / supernormal variable-reward 'play' product (ZERO). The order of MIXED (screen play with real peers) and MINIMAL (solitary game) is untested.",
         "preamble": "5 levels (cue ≈ constant PLAY/SEEKING social-joy pull, fired in attenuated/substitute form at lower screen levels; ordered by how much real embodied reciprocity with an identity-bearing partner survives)",
         "trailing": "The order of MIXED (screen play with real peers) and MINIMAL (solitary game) is untested.",
         "demoted": "",
@@ -739,8 +739,8 @@
             "index": 4,
             "label": "engineered companion-AI / supernormal variable-reward 'play' product",
             "state": "ZERO",
-            "tag": "ARCHITECTURE-DERIVED",
-            "note": "architecture-derived",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -909,7 +909,7 @@
       "mismatch_prediction": "Abstract work where effort doesn't visibly register. Rigid hierarchies. Bureaucratic systems.",
       "phylogenetic_age": "~60-90Myr+ (placental mammals; possibly ~165-200Myr, all mammals; contested)",
       "proxy_gradient": {
-        "raw": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied): decision latitude over consequential, visibly-feedbacking outcomes (FULL) → high demand with reduced but real decision latitude (PARTIAL) → abstract/surveilled/screen-mediated work where effort doesn't visibly register (MIXED) → chronically uncontrollable real environment, learned helplessness (MINIMAL) → engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence (ZERO; architecture-derived). Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one. The MINIMAL-vs-ZERO order is untested.",
+        "raw": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied): decision latitude over consequential, visibly-feedbacking outcomes (FULL) → high demand with reduced but real decision latitude (PARTIAL) → abstract/surveilled/screen-mediated work where effort doesn't visibly register (MIXED) → chronically uncontrollable real environment, learned helplessness (MINIMAL) → engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence (ZERO). Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one. The MINIMAL-vs-ZERO order is untested.",
         "preamble": "5 levels (Kind A but the cue is detection of response-outcome contingency, not a constant appetitive drive; ordered by real causal efficacy over fitness-relevant outcomes supplied)",
         "trailing": "Dual-axis: PARTIAL→MINIMAL withdraw real contingency, ZERO substitutes a false one. The MINIMAL-vs-ZERO order is untested.",
         "demoted": "",
@@ -955,8 +955,8 @@
             "index": 4,
             "label": "engineered simulated-agency loop (slot machine/game/dashboard) firing the contingency cue with zero real consequence",
             "state": "ZERO",
-            "tag": "ARCHITECTURE-DERIVED",
-            "note": "architecture-derived",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -1212,7 +1212,7 @@
       "mismatch_prediction": "Nuclear family without alloparental network. Parent burnout cascade.",
       "phylogenetic_age": "~165-200Myr (maternal care, mammals); human cooperative breeding ~2Myr+ (argued)",
       "proxy_gradient": {
-        "raw": "Two scales. Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO; architecture-derived).",
+        "raw": "Two scales. Axis A - real alloparental supply (empty-shelf/deprivation axis; ordered by caregiver count × continuity, NOT kinship): distributed kin-and-community network (FULL) → multiple reliable caregivers incl. high-quality paid care (REDUCED) → single intermittent helper / high-turnover institutional care (THIN) → solo/dyadic parent, no network (EMPTY SHELF; deprivation floor, not a proxy). Axis B - fake-fix proxy (real alloparental function ≈0 for both; ordered by completeness of the caregiver-OTHER counterfeit): screen/app babysitter → AI/robot 'caregiver' (ZERO).",
         "preamble": "Two scales",
         "trailing": "",
         "demoted": "",
@@ -1267,8 +1267,8 @@
                 "index": 0,
                 "label": "screen/app babysitter → AI/robot 'caregiver'",
                 "state": "ZERO",
-                "tag": "ARCHITECTURE-DERIVED",
-                "note": "architecture-derived",
+                "tag": null,
+                "note": "",
                 "verdict": "fails",
                 "verdict_text": "fires, no resolution"
               }
@@ -1427,7 +1427,7 @@
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
       "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
       "proxy_gradient": {
-        "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO; architecture-derived). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
+        "raw": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty): trusted reciprocal network under ~150 with direct reputation tracking and norm enforcement (FULL) → institutionally-scaffolded cooperation beyond ~150, formal rules / third-party enforcement / shared fictions (PARTIAL) → market exchange among strangers backed by gameable reputation systems (MIXED) → coalition-signaling and parasocial alliance via symbolic in-group markers (MINIMAL) → anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative (ZERO). Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
         "preamble": "5 levels (cue ≈ constant alliance/reciprocity machinery; FULL→PARTIAL is resolution-via-prosthesis - institutions re-supply the same function beyond ~150 - so proxy failure begins at MIXED; ordered by how much enforceable reciprocal function reaches a real reputation-bearing counterparty)",
         "trailing": "Where proxy failure begins (the PARTIAL/MIXED boundary) is untested.",
         "demoted": "",
@@ -1473,8 +1473,8 @@
             "index": 4,
             "label": "anonymous one-shot transactions and AI 'allies' with no reputation and no shared narrative",
             "state": "ZERO",
-            "tag": "ARCHITECTURE-DERIVED",
-            "note": "architecture-derived",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
@@ -1597,9 +1597,9 @@
       "mismatch_prediction": "Ultra-processed foods defeating satiety signals. Cor reads chronic arterial inflammation as a paradigm case of allostatic load from metabolic mismatch (ext 426).",
       "phylogenetic_age": "~420Myr+ (appetite brake, jawed vertebrates); human energy budget under ~10Myr",
       "proxy_gradient": {
-        "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED). Middle three architecture-derived. Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
+        "raw": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits): effortful, diverse, seasonal whole foods (FULL) → minimally processed traditional whole foods (ATTENUATED) → conventionally processed energy-dense food (PARTIAL) → energy-dense palatable food optimized for crave (MINIMAL) → ultra-processed bliss-point food, an engineered supernormal stimulus (DEFEATED). Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
         "preamble": "5 levels (Kind B: the satiety / intake-termination signal itself is progressively disabled then actively defeated, not a constant cue hijacked; scale = food-processing intensity, ordered by how much regulatory function the food permits)",
-        "trailing": "Middle three architecture-derived. Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
+        "trailing": "Untested: whether the middle three rungs are separate tiers or one split between whole and ultra-processed food.",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1806,7 +1806,7 @@
       "mismatch_prediction": "Touch-starved modern environments. Kangaroo-care evidence: large developmental and autonomic gains from skin-to-skin care (ED9). In low-birthweight infants, mostly enrolled after stabilization, kangaroo mother care was associated with a reduction in the risk of mortality at discharge or 40 to 41 weeks' postmenstrual age (risk ratio 0.60; eight trials, 1736 infants; ext 618). Among low-birthweight newborns, kangaroo mother care compared to conventional care was associated with 36% lower mortality (RR 0.64; ext 3103).",
       "phylogenetic_age": "~60-90Myr (C-tactile touch fibres, placental mammals)",
       "proxy_gradient": {
-        "raw": "5 levels (CONTESTED: whether the touch cue can be separated from its bonding function is disputed): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL; SPECULATIVE/future-conditional) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO; SPECULATIVE/future-conditional). Ordered by remaining relational/bond function. MINIMAL and ZERO both supply no relational function. Only the strength of the touch cue separates them.",
+        "raw": "5 levels (CONTESTED: whether the touch cue can be separated from its bonding function is disputed): affectionate touch from a trusted, reciprocating other (FULL) → affective touch from a non-intimate caregiver / massage (PARTIAL) → incidental, non-affective everyday contact (MIXED) → weighted / deep-pressure substitute, no living other (MINIMAL) → synthetic/haptic/AI C-tactile stimulation, zero relational embedding (ZERO). Ordered by remaining relational/bond function. MINIMAL and ZERO both supply no relational function. Only the strength of the touch cue separates them.",
         "preamble": "5 levels (CONTESTED: whether the touch cue can be separated from its bonding function is disputed)",
         "trailing": "Ordered by remaining relational/bond function. MINIMAL and ZERO both supply no relational function. Only the strength of the touch cue separates them.",
         "demoted": "",
@@ -1843,8 +1843,8 @@
             "index": 3,
             "label": "weighted / deep-pressure substitute, no living other",
             "state": "MINIMAL",
-            "tag": "SPECULATIVE",
-            "note": "SPECULATIVE/future-conditional",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           },
@@ -1852,8 +1852,8 @@
             "index": 4,
             "label": "synthetic/haptic/AI C-tactile stimulation, zero relational embedding",
             "state": "ZERO",
-            "tag": "SPECULATIVE",
-            "note": "SPECULATIVE/future-conditional",
+            "tag": null,
+            "note": "",
             "verdict": "fails",
             "verdict_text": "fires, no resolution"
           }
