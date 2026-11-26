@@ -3,9 +3,9 @@
 
 *For clinicians, therapists, and coaches. What each mechanism looks like in a person, and what to change.*
 
-> Generated 2026-11-26 05:38 UTC, from the live Cor atlas snapshot built 2026-11-26 05:38 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 09:19 UTC, from the live Cor atlas snapshot built 2026-11-26 09:19 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3922 works, 5792 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3927 works, 5802 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -121,7 +121,7 @@ You cannot satisfy a hijacked SEEKING system with more of the proxy - that is th
 
 This is attachment and co-regulation, and it now also includes grief (absorbed from the old GRIEF system). It runs in two states: security, which enables the person broadly, and grief, which suppresses broadly. In the room: the securely-bonded client recovers from stress faster and explores more; the grieving or isolated client looks shut down across the board. Attachment is about 165 to 200 million years old, as old as the mammals, with 192 evidence links - the most heavily grounded mechanism in the entire atlas.
 
-What resolves it is reliable human co-regulation through physical presence, organized in nested layers: about 5 intimate co-regulators who provide most of the regulation, about 15 in the sympathy group, about 50 close partners, and about 150 coherent face-to-face relationships (the Dunbar number, the outer cognitive ceiling). The critical variable at the innermost layer of about 5 is **reliability, not count**.
+What resolves it is reliable human co-regulation through physical presence, organized in nested layers: about 5 intimate co-regulators who provide most of the regulation, about 15 in the sympathy group, about 50 close partners, and about 150 coherent face-to-face relationships, the sizes found among foragers and in modern networks. The critical variable at the innermost layer of about 5 is **reliability, not count**.
 
 ### The proxy gradient (ordered by real co-regulatory function, not amount of contact)
 
@@ -410,7 +410,7 @@ Patching means prescribing "exercise" as a standalone behavior. Changing the inp
 
 Reciprocity, cheater detection, norm enforcement, and coalitional identity, combined into one system. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them. In a person, deficit shows up as the corrosive sense of dealing with strangers who can defect without consequence, of belonging to no team, of effort and fairness going untracked and unrewarded.
 
-What resolves it: a trusted reciprocal network with norm enforcement, within a group small enough for direct reputation tracking - about 150, the same Dunbar ceiling that bounds M3. Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond about 150, cooperation requires institutional scaffolding - formal rules, third-party enforcement, shared fictions - rather than direct reciprocity.
+What resolves it: a trusted reciprocal network with norm enforcement, within a group small enough for direct reputation tracking - about 150, the size found among foragers and in modern networks. Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond about 150, cooperation requires institutional scaffolding - formal rules, third-party enforcement, shared fictions - rather than direct reciprocity.
 
 ### The proxy gradient (cue = constant alliance/reciprocity machinery)
 
@@ -446,7 +446,7 @@ Patching means treating relational cynicism or alienation as a cognitive distort
 
 Three kinds of disgust - pathogen, sexual, and moral - functioning as a behavioral immune system; how the moral kind began is left open. It carries the lowest evidence count in the atlas (12 links). In a person, the pathogen domain shows up as contamination fear and avoidance; the moral domain shows up as purity-coded social aversion.
 
-What resolves it: clean food, a clean social environment, and moral disgust contained. (Note: the "moral disgust contained" clause is flagged as contested.)
+What resolves it: clean food, a clean social environment, and moral disgust contained.
 
 ### The proxy gradient (a 3-rung pathogen-disgust gradient)
 
@@ -454,9 +454,9 @@ What resolves it: clean food, a clean social environment, and moral disgust cont
 - **PARTIAL:** vulnerability-calibrated over-firing - for example in pregnancy or immunosuppression. Partly resolved; the system raises its threshold appropriately.
 - **MIXED:** behavioral-immune smoke-detector false positives on harmless people. This is the floor.
 
-### Demoted: the moral-disgust extension
+### Moral disgust: no rungs
 
-Separately, and explicitly **not a rung on the ladder**, there is a speculative and contested moral-disgust extension: purity-coded social aversion plus weaponized moral disgust and purity spirals. This is unordered and rests on the weakest evidence (confirmed by Tybur that moral disgust is functionally distinct from pathogen disgust, sharing only the expressive component, with a near-zero effect size in one source). The purity-spiral and dehumanization mismatch prediction lives entirely here, on this weakest evidence. Treat any clinical use of it with corresponding caution.
+Moral disgust, the third kind, is **not a rung on the ladder**: purity-coded social aversion plus weaponized moral disgust and purity spirals. How the moral kind began is left open. Tybur and colleagues treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust, and a meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected.
 
 ### Mismatch prediction
 
@@ -590,18 +590,18 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Social network layers (~5/15/50/150)
 `EEA-SOC-01 · Social structure` - **tested many times**
 
-**Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).
+**Ancestrally:** The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. These sizes are found among foragers: across 339 forager societies, aggregated residential groups averaged 54 people and periodic multi-group gatherings 165 (ext 1048). They are found again in modern networks (modern side below). This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).
 
-**Now (modern default):** The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).
+**Now (modern default):** The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay the same size. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).
 
-**The gap to work with:** The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
+**The gap to work with:** The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.
 
-**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 24
+**Serves:** M11 - Cooperation / Alliance, M3 - Social Bonding, M5 - Status Monitoring  ·  evidence links: 25
 
 #### Lifetime known-individual pool (~1,000)
 `EEA-SOC-02 · Social structure` - **tested once**
 
-**Ancestrally:** Across a foraging lifetime an individual accumulated a bounded pool of personally known others. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), much greater than the predicted 150 significant social interactants (Dunbar's number) that was extrapolated from primate brain by social group size regressions. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.
+**Ancestrally:** Across a foraging lifetime an individual accumulated a bounded pool of personally known others. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), much greater than the predicted 150 significant social interactants (Dunbar's number) that was extrapolated from primate brain by social group size regressions. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). The active network of about 150 people (EEA-SOC-01) was the layer within this lifetime pool that a person kept up with at any one time.
 
 **Now (modern default):** Facebook friend counts run to many hundreds or thousands for a small minority of users (ext 4624), and only ~27.6% of Facebook friends register as genuine close friends (ext 508).
 
@@ -679,7 +679,7 @@ What the environment used to supply, what it supplies now, and the gap you are a
 #### Novel-stranger frequency
 `EEA-SOC-08 · Social structure` - **argued, not yet tested**
 
-**Ancestrally:** Social cognition operated over a bounded pool: a personally-known reference network capped near the ~150 Dunbar ceiling, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.
+**Ancestrally:** Social cognition operated over a bounded pool: a personally-known reference network of about 150 people, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.
 
 **Now (modern default):** The M1 machinery still treats unplaceable others as potential threats.
 
@@ -1010,9 +1010,9 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Now (modern default):** In the United States of the late 1970s infants spent little time in body contact with caregivers and their movements were restricted by playpens, high chairs or cribs (ext 3145), and Euro-American infants were held less than Aka and Ngandu infants and were more often alone (ext 3151); personal-space norms and screen-mediated interaction strip casual affective touch from daily adult life.
 
-**The gap to work with:** Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
+**The gap to work with:** Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of affective touch, firm and gentle, removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
 
-**What actually has to be present (resolution unit):** Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.
+**What actually has to be present (resolution unit):** Reliable supply of skin-to-skin, affective contact, especially in infancy and under stress, and NOT a raw count of any contact. Two kinds of touch carry it: firm, moderate pressure is what helped in the preterm massage studies (ext 293), and slow, gentle stroking is what C-tactile fibres respond to, firing most at stroking speeds of 1 to 10 cm per second that people rate the most pleasant (ext 2147, 2689).
 
 **Serves:** M3 - Social Bonding, M9 - Care / Alloparenting, R1 - Touch  ·  evidence links: 21
 
@@ -1073,14 +1073,14 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 **Serves:** M7 - Circadian Regulation  ·  evidence links: 22
 
-#### Falling evening ambient temperature as a second sleep-onset cue
+#### Sleep in the nightly period of falling temperature
 `EEA-CIRC-03 · Circadian & sensory` - **tested once**
 
-**Ancestrally:** In Hadza, San and Tsimane, the sleep period consistently occurred during the nighttime period of falling environmental temperature and ended near the nadir of daily ambient temperature (ext 745). This descending thermal ramp coincides with the endogenous evening fall in core body temperature that accompanies sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light.
+**Ancestrally:** In Hadza, San and Tsimane, the sleep period consistently occurred during the nighttime period of falling environmental temperature and ended near the nadir of daily ambient temperature (ext 745). Yetish and colleagues read it this way: the daily cycle of temperature change, largely eliminated from modern sleep environments, may be a potent natural regulator of sleep (Yetish et al. 2015, ext 745).
 
 **Now (modern default):** Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the nighttime period of falling environmental temperature (ext 745).
 
-**The gap to work with:** By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
+**The gap to work with:** Modern sleep environments have largely eliminated the daily cycle of temperature change (Yetish et al. 2015, ext 745). In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
 
 **What actually has to be present (resolution unit):** Direction and timing of the nighttime ambient-temperature change (falling during the sleep period, ext 745), not absolute thermostat setpoint or daytime comfort.
 
@@ -1299,4 +1299,4 @@ What the environment used to supply, what it supplies now, and the gap you are a
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 05:38 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-26 05:38 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 09:19 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Practitioner / Applied edition was compiled 2026-11-26 09:19 UTC.*

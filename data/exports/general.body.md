@@ -95,7 +95,7 @@ This is your attachment and co-regulation system - the machinery that forms bond
 
 ### What actually satisfies it
 
-Reliable co-regulation through physical presence, arranged in nested layers: roughly 5 intimate co-regulators, about 15 in a sympathy group, about 50 close partners, and about 150 stable face-to-face relationships - the "Dunbar number," the outer limit of how many real relationships a human can track. The innermost ~5 do most of the regulating, and what matters most there is reliability, not headcount.
+Reliable co-regulation through physical presence, arranged in nested layers: roughly 5 intimate co-regulators, about 15 in a sympathy group, about 50 close partners, and about 150 stable face-to-face relationships, the sizes found among foragers and in modern networks. The innermost ~5 do most of the regulating, and what matters most there is reliability, not headcount.
 
 ### The proxy gradient
 
@@ -342,7 +342,7 @@ This is the machinery for reciprocal exchange, detecting cheaters, enforcing nor
 
 ### What actually satisfies it
 
-A trusted reciprocal network with norm enforcement, inside a group small enough for direct reputation tracking - about 150 people, the same Dunbar ceiling that bounds social bonding. Enforcing norms requires repeated direct contact where cheaters can be identified, remembered, and sanctioned. Beyond ~150, cooperation needs institutional scaffolding - formal rules, third-party enforcement, shared fictions.
+A trusted reciprocal network with norm enforcement, inside a group small enough for direct reputation tracking - about 150 people, the size found among foragers and in modern networks. Enforcing norms requires repeated direct contact where cheaters can be identified, remembered, and sanctioned. Beyond ~150, cooperation needs institutional scaffolding - formal rules, third-party enforcement, shared fictions.
 
 ### The proxy gradient
 
@@ -372,7 +372,7 @@ This is the disgust system - the "behavioral immune system." It spans three doma
 
 ### What actually satisfies it
 
-Clean food, a clean social environment, and moral disgust contained. (That last clause is flagged as contested.)
+Clean food, a clean social environment, and moral disgust contained.
 
 ### The proxy gradient
 
@@ -382,7 +382,7 @@ The gradient covers pathogen disgust and has three rungs:
 - **PARTIAL (partly resolved):** vulnerability-calibrated over-firing - for example during pregnancy or immunosuppression, when the system understandably gets more sensitive.
 - **MIXED (partly resolved):** behavioral-immune false alarms - the smoke-detector reflex firing on harmless people. (This is the floor.)
 
-There is also a **demoted, non-ordinal** extension covering moral disgust: purity-coded social aversion, weaponized moral disgust, and purity spirals. These are **not rungs** on the ladder. Research (Tybur) suggests moral disgust is functionally distinct, sharing only the facial expression with pathogen disgust. This extension rests on the weakest evidence, and the prediction below lives entirely here.
+Moral disgust, the third kind, has **no rungs** on this ladder: purity-coded social aversion, weaponized moral disgust, and purity spirals. How the moral kind began is left open. Tybur and colleagues treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust.
 
 ### What goes wrong in modern life
 

@@ -3,9 +3,9 @@
 
 *For any thoughtful adult. Plain language, every term defined, the whole picture.*
 
-> Generated 2026-11-26 05:38 UTC, from the live Cor atlas snapshot built 2026-11-26 05:38 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
+> Generated 2026-11-26 09:19 UTC, from the live Cor atlas snapshot built 2026-11-26 09:19 UTC. This printout reflects exactly what the Cor portal surfaces at the moment of download.
 
-> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3922 works, 5792 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
+> **The atlas in numbers:** 15 mechanisms (15 with a derived proxy gradient), 18 foundations, 15 convergences, 3927 works, 5802 extractions, 84 researchers. Plus **The Gap**: 53 EEA baseline parameters across 9 domains (0 contested-flagged).
 
 ---
 ## How to read this document
@@ -105,7 +105,7 @@ This is your attachment and co-regulation system - the machinery that forms bond
 
 ### What actually satisfies it
 
-Reliable co-regulation through physical presence, arranged in nested layers: roughly 5 intimate co-regulators, about 15 in a sympathy group, about 50 close partners, and about 150 stable face-to-face relationships - the "Dunbar number," the outer limit of how many real relationships a human can track. The innermost ~5 do most of the regulating, and what matters most there is reliability, not headcount.
+Reliable co-regulation through physical presence, arranged in nested layers: roughly 5 intimate co-regulators, about 15 in a sympathy group, about 50 close partners, and about 150 stable face-to-face relationships, the sizes found among foragers and in modern networks. The innermost ~5 do most of the regulating, and what matters most there is reliability, not headcount.
 
 ### The proxy gradient
 
@@ -352,7 +352,7 @@ This is the machinery for reciprocal exchange, detecting cheaters, enforcing nor
 
 ### What actually satisfies it
 
-A trusted reciprocal network with norm enforcement, inside a group small enough for direct reputation tracking - about 150 people, the same Dunbar ceiling that bounds social bonding. Enforcing norms requires repeated direct contact where cheaters can be identified, remembered, and sanctioned. Beyond ~150, cooperation needs institutional scaffolding - formal rules, third-party enforcement, shared fictions.
+A trusted reciprocal network with norm enforcement, inside a group small enough for direct reputation tracking - about 150 people, the size found among foragers and in modern networks. Enforcing norms requires repeated direct contact where cheaters can be identified, remembered, and sanctioned. Beyond ~150, cooperation needs institutional scaffolding - formal rules, third-party enforcement, shared fictions.
 
 ### The proxy gradient
 
@@ -382,7 +382,7 @@ This is the disgust system - the "behavioral immune system." It spans three doma
 
 ### What actually satisfies it
 
-Clean food, a clean social environment, and moral disgust contained. (That last clause is flagged as contested.)
+Clean food, a clean social environment, and moral disgust contained.
 
 ### The proxy gradient
 
@@ -392,7 +392,7 @@ The gradient covers pathogen disgust and has three rungs:
 - **PARTIAL (partly resolved):** vulnerability-calibrated over-firing - for example during pregnancy or immunosuppression, when the system understandably gets more sensitive.
 - **MIXED (partly resolved):** behavioral-immune false alarms - the smoke-detector reflex firing on harmless people. (This is the floor.)
 
-There is also a **demoted, non-ordinal** extension covering moral disgust: purity-coded social aversion, weaponized moral disgust, and purity spirals. These are **not rungs** on the ladder. Research (Tybur) suggests moral disgust is functionally distinct, sharing only the facial expression with pathogen disgust. This extension rests on the weakest evidence, and the prediction below lives entirely here.
+Moral disgust, the third kind, has **no rungs** on this ladder: purity-coded social aversion, weaponized moral disgust, and purity spirals. How the moral kind began is left open. Tybur and colleagues treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust.
 
 ### What goes wrong in modern life
 
@@ -504,7 +504,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (tested many times)
-  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
+  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.
 
 **Lifetime known-individual pool (~1,000)** (tested once)
   - EEA delivered a finite, slowly-accreting lifetime roster (~1,000+).
@@ -612,7 +612,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Touch & contact
 
 **Affective (C-tactile) contact frequency and skin-to-skin time** (tested many times)
-  - Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
+  - Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of affective touch, firm and gentle, removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
 
 **Co-sleeping** (tested many times)
   - Solitary infant sleep removes the nighttime proximity of the Standard Cross-Cultural Sample, where the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). It removes the nighttime physiological co-regulation measured in cosleeping pairs, where mother and infant induce arousals in one another within seconds (ext 615). The evidence for this co-regulation comes from one lab (McKenna 2014, ext 615, 616).
@@ -629,8 +629,8 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Sleep timing/phase alignment to the biological night (not a fixed duration target)** (tested many times)
   - The mismatch is primarily one of phase, not amount. Independently of sleep duration, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024), and in the high-quality studies of a review of 68 with higher body mass index, waist, systolic blood pressure and HbA1c (Bouman et al. 2023). In 60,977 UK adults, regular sleep and wake times predicted lower mortality more strongly than sleep duration did (Windred et al. 2024). Chasing a duration number while ignoring phase misses the operative variable.
 
-**Falling evening ambient temperature as a second sleep-onset cue** (tested once)
-  - By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
+**Sleep in the nightly period of falling temperature** (tested once)
+  - Modern sleep environments have largely eliminated the daily cycle of temperature change (Yetish et al. 2015, ext 745). In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
 
 
 ### Subsistence & time-use
@@ -691,4 +691,4 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 
 Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.
 
-*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 05:38 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-26 05:38 UTC.*
+*Cor is a living atlas, built toward the full specification. Every figure above is read from the baked snapshot built 2026-11-26 09:19 UTC; nothing is hand-entered. Some fields are finished and evidence-graded; some are still in progress. The structure is fixed; the filling-in is ongoing. This Curious Newcomer edition was compiled 2026-11-26 09:19 UTC.*

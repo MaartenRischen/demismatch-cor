@@ -111,7 +111,7 @@ You cannot satisfy a hijacked SEEKING system with more of the proxy - that is th
 
 This is attachment and co-regulation, and it now also includes grief (absorbed from the old GRIEF system). It runs in two states: security, which enables the person broadly, and grief, which suppresses broadly. In the room: the securely-bonded client recovers from stress faster and explores more; the grieving or isolated client looks shut down across the board. Attachment is about 165 to 200 million years old, as old as the mammals, with 192 evidence links - the most heavily grounded mechanism in the entire atlas.
 
-What resolves it is reliable human co-regulation through physical presence, organized in nested layers: about 5 intimate co-regulators who provide most of the regulation, about 15 in the sympathy group, about 50 close partners, and about 150 coherent face-to-face relationships (the Dunbar number, the outer cognitive ceiling). The critical variable at the innermost layer of about 5 is **reliability, not count**.
+What resolves it is reliable human co-regulation through physical presence, organized in nested layers: about 5 intimate co-regulators who provide most of the regulation, about 15 in the sympathy group, about 50 close partners, and about 150 coherent face-to-face relationships, the sizes found among foragers and in modern networks. The critical variable at the innermost layer of about 5 is **reliability, not count**.
 
 ### The proxy gradient (ordered by real co-regulatory function, not amount of contact)
 
@@ -400,7 +400,7 @@ Patching means prescribing "exercise" as a standalone behavior. Changing the inp
 
 Reciprocity, cheater detection, norm enforcement, and coalitional identity, combined into one system. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them. In a person, deficit shows up as the corrosive sense of dealing with strangers who can defect without consequence, of belonging to no team, of effort and fairness going untracked and unrewarded.
 
-What resolves it: a trusted reciprocal network with norm enforcement, within a group small enough for direct reputation tracking - about 150, the same Dunbar ceiling that bounds M3. Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond about 150, cooperation requires institutional scaffolding - formal rules, third-party enforcement, shared fictions - rather than direct reciprocity.
+What resolves it: a trusted reciprocal network with norm enforcement, within a group small enough for direct reputation tracking - about 150, the size found among foragers and in modern networks. Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond about 150, cooperation requires institutional scaffolding - formal rules, third-party enforcement, shared fictions - rather than direct reciprocity.
 
 ### The proxy gradient (cue = constant alliance/reciprocity machinery)
 
@@ -436,7 +436,7 @@ Patching means treating relational cynicism or alienation as a cognitive distort
 
 Three kinds of disgust - pathogen, sexual, and moral - functioning as a behavioral immune system; how the moral kind began is left open. It carries the lowest evidence count in the atlas (12 links). In a person, the pathogen domain shows up as contamination fear and avoidance; the moral domain shows up as purity-coded social aversion.
 
-What resolves it: clean food, a clean social environment, and moral disgust contained. (Note: the "moral disgust contained" clause is flagged as contested.)
+What resolves it: clean food, a clean social environment, and moral disgust contained.
 
 ### The proxy gradient (a 3-rung pathogen-disgust gradient)
 
@@ -444,9 +444,9 @@ What resolves it: clean food, a clean social environment, and moral disgust cont
 - **PARTIAL:** vulnerability-calibrated over-firing - for example in pregnancy or immunosuppression. Partly resolved; the system raises its threshold appropriately.
 - **MIXED:** behavioral-immune smoke-detector false positives on harmless people. This is the floor.
 
-### Demoted: the moral-disgust extension
+### Moral disgust: no rungs
 
-Separately, and explicitly **not a rung on the ladder**, there is a speculative and contested moral-disgust extension: purity-coded social aversion plus weaponized moral disgust and purity spirals. This is unordered and rests on the weakest evidence (confirmed by Tybur that moral disgust is functionally distinct from pathogen disgust, sharing only the expressive component, with a near-zero effect size in one source). The purity-spiral and dehumanization mismatch prediction lives entirely here, on this weakest evidence. Treat any clinical use of it with corresponding caution.
+Moral disgust, the third kind, is **not a rung on the ladder**: purity-coded social aversion plus weaponized moral disgust and purity spirals. How the moral kind began is left open. Tybur and colleagues treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust, and a meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected.
 
 ### Mismatch prediction
 

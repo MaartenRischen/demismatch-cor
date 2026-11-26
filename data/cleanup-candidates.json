@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-11-26T05:38:24.893060+00:00",
-  "count": 4792,
+  "scanned_at": "2026-11-26T09:19:00.548762+00:00",
+  "count": 4802,
   "items": [
     {
       "table": "extractions",
@@ -8040,7 +8040,7 @@
       "field": "caveats",
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
-      "full_field_preview": "The 61 estimates come from studies with different definitions of a group; the authors note small samples and inclusion criteria as sources of bias. The confidence level drops to 0.85 if the noise is strongly correlated. Later reanalyses (not read here) dispute fixed layer sizes, "
+      "full_field_preview": "The 61 estimates come from studies with different definitions of a group; the authors note small samples and inclusion criteria as sources of bias. The confidence level drops to 0.85 if the noise is strongly correlated. Grade, rubric v2 (21 Nov 2026): thin. One pooled analysis of"
     },
     {
       "table": "extractions",
@@ -10176,7 +10176,7 @@
       "field": "caveats",
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
-      "full_field_preview": "Abstract only. Christmas cards are a Western custom; the closeness to 150 is a match to a prediction, not a measurement of a cognitive limit. Cor's EEA-SOC-01 layer row is graded contested. Grade, rubric v2 (21 Nov 2026): thin. One survey of Christmas card networks in a Western s"
+      "full_field_preview": "Abstract only. Christmas cards are a Western custom; the closeness to 150 is a match to a prediction, not a measurement of a cognitive limit. Grade, rubric v2 (21 Nov 2026): thin. One survey of Christmas card networks in a Western sample (size not given in the abstract); card lis"
     },
     {
       "table": "extractions",
@@ -20720,7 +20720,7 @@
       "field": "caveats",
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
-      "full_field_preview": "Abstract only; no skeleton counts or dates are given in it. Published evidence stands on both sides, which is why EEA-THREAT-04 is graded contested. Grade, rubric v2 (21 Nov 2026): contested. Strongest: a review of the archaeological record of past hunter-gatherers by two archaeo"
+      "full_field_preview": "Abstract only; no skeleton counts or dates are given in it. Grade, rubric v2 (26 Nov 2026, one standard): argued, not yet tested. A review of the archaeological record of past hunter-gatherers by two archaeologists, read in its abstract, which argues and gives no counts; other co"
     },
     {
       "table": "extractions",
@@ -38337,6 +38337,86 @@
       "artifact_type": "agent-id",
       "offending_string": "cor-app",
       "full_field_preview": "Cross-sectional; marriages that ended are not in the sample, so lasting marriages may score higher on love for that reason. The love scale was translated and simplified for people unused to surveys. Only the Tsimane are partly foragers. Says nothing on whether romantic love exist"
+    },
+    {
+      "table": "extractions",
+      "code": 5860,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The authors note 'considerable overlap between group sizes at each level, particularly above the level of families' and that a higher level 'does not necessarily imply more individuals'. North American societies make up 216 of the 339. Family size is estimated as population divid"
+    },
+    {
+      "table": "extractions",
+      "code": 5861,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "This is the authors' hypothesis, stated as such. They do not reject a cognitive account: they write that group foraging, cognitive capacity, demographic variance and fissioning 'must play important roles individually' and ask a different question, whether the whole structure is s"
+    },
+    {
+      "table": "extractions",
+      "code": 5862,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Animal evidence across primate species; says nothing directly about human networks. Uses whole endocranial volume; the authors say neocortex and whole-brain measures could in principle give different results. Leans: this study and DeCasien et al. 2017 find little link; Shultz and"
+    },
+    {
+      "table": "extractions",
+      "code": 5863,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The instability cuts both ways: it limits the ecological results as much as the social one. The authors write that it 'remains plausible that sociality is related to cognitive evolution in primates', only that a robust brain-size and group-size correlation can no longer be claime"
+    },
+    {
+      "table": "extractions",
+      "code": 5864,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "Written by the authors of 'Dunbar's number' deconstructed (Cor work 124). Their own data show the most stable link in the set is between female group size and neocortex size, the measure the social brain hypothesis uses; they read this with caution. Their conclusion is that model"
+    },
+    {
+      "table": "extractions",
+      "code": 5865,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The authors say the meta-analysis 'should be interpreted with caution' for unreported non-significant results and non-independent datasets. It explains the apparently contradictory findings across primate brain studies, DeCasien 2017 among them, by the brain measure used (relativ"
+    },
+    {
+      "table": "extractions",
+      "code": 5866,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The authors do not call the Bickart result failed: they call their replication inconclusive and argue that effects this small need meta-analysis. For the online-network result (Kanai et al. 2012, read as grey matter volume) they did not obtain support, and in several cases obtain"
+    },
+    {
+      "table": "extractions",
+      "code": 5867,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The authors state their positions strongly and the paper is a review with reanalyses. Their table 1 does not give the number of species. Leans: published evidence on both sides; DeCasien 2017 (Cor 3767), Powell 2017 and Lindenfors 2021 against, this paper and Shultz and Dunbar 20"
+    },
+    {
+      "table": "extractions",
+      "code": 5868,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The 'observed' 153.7 comes from the authors' own compilation of human network samples. The authors say they did not correct for phylogeny in this part of the paper and argue that primate social data carry little phylogenetic signal. This is a reply to a published reanalysis, so i"
+    },
+    {
+      "table": "extractions",
+      "code": 5869,
+      "field": "caveats",
+      "artifact_type": "agent-id",
+      "offending_string": "cor-app",
+      "full_field_preview": "The definition (contact within two years, known by sight or name) is far looser than the contact rates that define the 150 layer in Cor's other rows (Hill and Dunbar 2003, Cor 2315). The standard deviations near 260 show a very wide spread between people. Cor work 664 (McCormick "
     }
   ]
 }

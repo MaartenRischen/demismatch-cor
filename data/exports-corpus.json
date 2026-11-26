@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source_built_at": "2026-11-26T05:38:24.893060+00:00",
+    "source_built_at": "2026-11-26T09:19:00.548762+00:00",
     "source": "Cor v2 Supabase (anon REST, build-time read)",
     "mechanism_count": 15,
     "gradients_derived": 15,
@@ -28,19 +28,19 @@
     "convergences": 15,
     "domains": 23,
     "gaps": 16,
-    "works": 3922,
-    "extractions": 5792,
+    "works": 3927,
+    "extractions": 5802,
     "researchers": 84,
-    "mechanism_evidence": 6130,
+    "mechanism_evidence": 6140,
     "empirical_demonstrations": 9,
     "applications": 8,
     "bridge_theses": 1,
     "eea_parameters": 53,
     "parameter_mechanism": 105,
-    "parameter_evidence": 601,
+    "parameter_evidence": 602,
     "foundation_convergences": 15,
     "mechanism_ages": 27,
-    "challenges": 14
+    "challenges": 13
   },
   "thesis": "Human systems signal when their conditions are not met, and modern environments withhold those conditions at scale. Preferences are mechanism outputs, not ground truth. The load-bearing claim of every proxy gradient: the cue is identical at every level; only the resolving function changes, so a proxy can fire the cue without supplying what actually resolves it.",
   "derivation": {
@@ -379,8 +379,8 @@
     {
       "code": "M1",
       "name": "Threat Management",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Defensive system responding to threat cues. Includes offensive mode (frustration-aggression) absorbed from old M3 RAGE.",
       "eli5": "Detects danger. Makes you freeze, fight, or flee.",
       "resolution_conditions": "Safety established, threat eliminated or avoided.",
@@ -481,8 +481,8 @@
     {
       "code": "M2",
       "name": "Pursuit / Exploration",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "General-purpose seeking system. The same wanting system also runs when what is wanted is a partner: in human brain imaging the networks for sex are comparable to those for other rewards and follow the same phases of wanting, liking and satiety (ext 2724), and in male rats accumbens dopamine rose again during mating with a new receptive female (ext 2285). What is specific to partners belongs to M14. M2 resolves through real-world challenges that produce tangible outcomes: goal progress, skill building, resource acquisition. Cor reads the low-drive, low-pleasure state that Western scales score as anhedonic depression as SEEKING underactivation (Panksepp 1998, ext 264). Where a clear physical defect is behind the dopamine decline, that case sits on the physical side of the clear-defect rule; otherwise it is a response state.",
       "eli5": "Drives you to explore, pursue goals, and engage with the world.",
       "resolution_conditions": "Engagement with real challenges producing tangible outcomes.",
@@ -580,11 +580,11 @@
     {
       "code": "M3",
       "name": "Social Bonding",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Attachment and co-regulation system. Includes grief mode (absorbed from old M9 GRIEF). Two states: security (enables broadly) and grief (suppresses broadly). Cor reads grief and the low mood that follows loss (what Western scales score as depression) as states of an opioid-modulated affective circuit rather than purely cognitive states (Panksepp, ext 259).",
       "eli5": "Forms bonds with other humans. Pain-grade distress when they're gone.",
-      "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships (Dunbar number - outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 outer figure is an illustrative central tendency, not a hard limit: its derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021). What the evidence carries is the nested layering and the reliability-over-count point, not the exact rung figures; the layered structure and its low-hundreds clustering are separately observed in phone, Christmas-card, and Facebook data.",
+      "resolution_conditions": "Reliable human co-regulation through physical presence, operating through nested social layers: ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, ~150 coherent face-to-face relationships. Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The layer sizes are found among foragers, where periodic multi-group gatherings across 339 societies averaged 165 people (ext 1048), and in modern phone, Christmas-card and Facebook data (EEA-SOC-01).",
       "mismatch_prediction": "Nuclear family, isolated living, mediated contact substituting for physical presence. Cor's reading of Dunbar's proposal that face-to-face meetings are needed to keep friendships from sliding down the network layers (ext 509): this fits the claim that the bonding system needs physical co-presence.",
       "phylogenetic_age": "~165-200Myr (attachment, mammals); human layered network not dated",
       "proxy_gradient": {
@@ -659,7 +659,7 @@
         ]
       },
       "evidence": {
-        "link_count": 1149,
+        "link_count": 1159,
         "researchers": [
           "Bowlby",
           "Panksepp",
@@ -681,8 +681,8 @@
     {
       "code": "M4",
       "name": "Social Calibration / Play",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Play system develops social skills. Play often disappears when animals are under fitness challenge and remains absent under chronic or severe stress. It can also increase in stressful situations, in response to reduced parental care, or as a rebound after a period of deprivation.",
       "eli5": "Learns social rules through rough-and-tumble play. Requires real playmates.",
       "resolution_conditions": "Self-directed, unsupervised physical play with other children. In forager childhoods this is a mixed-age group.",
@@ -787,11 +787,11 @@
     {
       "code": "M5",
       "name": "Status Monitoring",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Rank regulation. Shame, pride, submission, defeat, rank vigilance. Not optional - runs continuously.",
       "eli5": "Constantly monitors where you stand relative to others.",
-      "resolution_conditions": "Acceptable position in a bounded, personally-known reference group on the order of ~150 (an illustrative central tendency, not a hard number; the precise figure is contested per Lindenfors 2021). Earned prestige preferred over coerced dominance. Prestige and dominance are separate routes to rank (Henrich & Gil-White 2001, work 129; Cheng et al. 2013, ext 622). Among the Chabu, prestige predicted elected leadership more strongly than dominance (Garfield & Hagen 2020, ext 624). Among Tsimane men, both routes went with higher fertility, and prestige was the strongest path from status to fitness (von Rueden et al. 2011, ext 623).",
+      "resolution_conditions": "Acceptable position in a bounded, personally-known reference group on the order of ~150, the size found among foragers and in modern networks (EEA-SOC-01). Earned prestige preferred over coerced dominance. Prestige and dominance are separate routes to rank (Henrich & Gil-White 2001, work 129; Cheng et al. 2013, ext 622). Among the Chabu, prestige predicted elected leadership more strongly than dominance (Garfield & Hagen 2020, ext 624). Among Tsimane men, both routes went with higher fertility, and prestige was the strongest path from status to fitness (von Rueden et al. 2011, ext 623).",
       "mismatch_prediction": "Global comparison via social media. Millions of \"peers.\" Status-defeat cascade. Cor's reading of Gilbert's account of shame as an evolved submissive defense (ext 482): it turns costly when modern status comparison (social media, workplace evaluation, academic competition) keeps it activated.",
       "phylogenetic_age": "~420-445Myr (rank circuit, bony vertebrates); rank-linked health ~25-34Myr+ (Old World primates)",
       "proxy_gradient": {
@@ -897,8 +897,8 @@
     {
       "code": "M6",
       "name": "Controllability / Agency",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "vmPFC-DRN controllability circuit. Learned helplessness is the DEFAULT; agency is the override. Critical for breaking cascades.",
       "eli5": "Tracks whether your actions produce results. Default is passivity - agency must be learned.",
       "resolution_conditions": "Genuine action-outcome feedback. Decision latitude.",
@@ -983,8 +983,8 @@
     {
       "code": "M7",
       "name": "Circadian Regulation",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "SCN master clock. Gates metabolism, immunity, cognition, mood. The mismatch lies in timing more than in sleep duration. A week of natural light moved the body clock about two hours earlier while sleep duration stayed the same (Wright et al. 2013, ext 610, n=8). Social jetlag predicts overweight after controlling for sleep duration (Roenneberg et al. 2012, ext 92). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024). Cor's reading of the finding that judges rate sleep-deprived people as less healthy and less attractive from photographs alone (ext 438): this makes sleep a phenotypic fitness signal: the physiological state produced by adequate sleep is visible to potential mates and social partners, and sleep loss degrades that signal.",
       "eli5": "Synchronizes every system to the light-dark cycle. Master timing architecture.",
       "resolution_conditions": "Dark-cued sleep onset, bright daylight exposure, consistent rhythm.",
@@ -1089,8 +1089,8 @@
     {
       "code": "M8",
       "name": "Immune Regulation",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Cytokine signaling system. Overrides voluntary intention. Hub connecting inflammation to low mood via DA3 cascade.",
       "eli5": "Sickness behavior.",
       "resolution_conditions": "Pathogen cleared, inflammation resolved.",
@@ -1199,8 +1199,8 @@
     {
       "code": "M9",
       "name": "Care / Alloparenting",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Parental and alloparental care system. Oxytocin/prolactin circuits. Cor reads maternal ambivalence as adaptive rather than pathological (Hrdy, ext 281).",
       "eli5": "Distributed care - the organism expects a village, not solo parenting.",
       "resolution_conditions": "A distributed care network rather than solo or dyadic parenting. In forager societies people other than the mother hold and care for infants: Hadza allomothers do about 31% of the holding of infants under four (Crittenden and Marlowe 2008, ext 2128), and Efe infants are cared for by many people from birth (Tronick et al. 1987, ext 700). The critical resolving variable is the presence + continuity of real alloparental supply (care + provisioning), NOT bare kinship.",
@@ -1316,8 +1316,8 @@
     {
       "code": "M10",
       "name": "Movement",
-      "grade": "strongly_supported",
-      "tier": 2,
+      "grade": null,
+      "tier": null,
       "description": "Physical activity as zeitgeber, anti-inflammatory, mood regulator.",
       "eli5": "Movement isn't just exercise - it activates repair mechanisms throughout the organism.",
       "resolution_conditions": "Movement that's part of daily life rather than set aside as 'exercise'. Hadza men walk about 11 to 13 km a day and women about 6 to 8 km (Pontzer et al. 2012 and Wood et al. 2021, GPS; ext 2430, ext 3418), and the women also dig for several hours (Lieberman 2021, ext 196), all as a side effect of foraging (Hadza only).",
@@ -1414,11 +1414,11 @@
     {
       "code": "M11",
       "name": "Cooperation / Alliance",
-      "grade": "strongly_supported",
-      "tier": 2,
+      "grade": null,
+      "tier": null,
       "description": "Reciprocity + norm enforcement + alliance dynamics. Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them.",
       "eli5": "Reciprocal exchange, cheater detection, coalitional identity.",
-      "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
+      "resolution_conditions": "Trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150, the size found among foragers and in modern networks, EEA-SOC-01). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that size, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. No shared fiction at the direct-reciprocity layer.",
       "mismatch_prediction": "Anonymous transactions, ghosting, no shared narrative.",
       "phylogenetic_age": "~25-34Myr+ (reciprocity, Old World primates); human norm enforcement under ~10Myr",
       "proxy_gradient": {
@@ -1505,17 +1505,17 @@
     {
       "code": "M12",
       "name": "Contamination Avoidance",
-      "grade": "strongly_supported",
-      "tier": 2,
+      "grade": null,
+      "tier": null,
       "description": "Three kinds of disgust, pathogen, sexual and moral: ratings of how disgusting acts and objects are fall into these three factors (ext 3414). How the moral kind began is left open. Behavioral immune system.",
       "eli5": "Disgust system. It pulls you back from germs, from some sexual acts and partners, and from moral violations.",
       "resolution_conditions": "Clean food, clean social environment, moral disgust contained.",
       "mismatch_prediction": "Moral disgust weaponized in politics, purity spirals.",
       "phylogenetic_age": "~25-34Myr+ (contamination avoidance, Old World primates); parasite avoidance across animals has no single age",
       "proxy_gradient": {
-        "raw": "3-rung pathogen-disgust gradient (FULL→PARTIAL→MIXED): clean food + clean social environment, disgust firing on real pathogen cues (FULL) → vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression (PARTIAL) → behavioral-immune smoke-detector false positives on harmless people (MIXED; floor). Tests of the PARTIAL rung split: in 92 pregnant women total and core disgust were highest in the first trimester (ext 4860); a replication in 94 pregnant women did not find disgust highest in the first trimester, and overall and animal-reminder disgust were higher in the second trimester and after birth (ext 4861); in 375 women, within-woman changes in salivary progesterone, estradiol, testosterone and cortisol did not track changes in pathogen disgust (ext 4871); in a preregistered direct replication with 402 participants, recently ill participants showed no greater attentional bias toward disfigured faces (ext 4875); women who reported recent health problems in the first trimester scored higher on core disgust at that time (ext 4862). Moral-disgust extension, SPECULATIVE/CONTESTED and unordered: purity-coded social aversion and weaponized moral disgust (purity spirals). These are no rungs. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01). The purity-spiral and dehumanization mismatch prediction rests entirely on this extension, the weakest evidence in M12. The same evidence makes the 'moral disgust contained' clause in resolution_conditions CONTESTED.",
+        "raw": "3-rung pathogen-disgust gradient (FULL→PARTIAL→MIXED): clean food + clean social environment, disgust firing on real pathogen cues (FULL) → vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression (PARTIAL) → behavioral-immune smoke-detector false positives on harmless people (MIXED; floor). Tests of the PARTIAL rung split: in 92 pregnant women total and core disgust were highest in the first trimester (ext 4860); a replication in 94 pregnant women did not find disgust highest in the first trimester, and overall and animal-reminder disgust were higher in the second trimester and after birth (ext 4861); in 375 women, within-woman changes in salivary progesterone, estradiol, testosterone and cortisol did not track changes in pathogen disgust (ext 4871); in a preregistered direct replication with 402 participants, recently ill participants showed no greater attentional bias toward disfigured faces (ext 4875); women who reported recent health problems in the first trimester scored higher on core disgust at that time (ext 4862). Moral disgust, the third kind (ext 3414), has no rungs on this ladder: purity-coded social aversion and weaponized moral disgust (purity spirals). How the moral kind began is left open. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01).",
         "preamble": "3-rung pathogen-disgust gradient (FULL→PARTIAL→MIXED)",
-        "trailing": "Tests of the PARTIAL rung split: in 92 pregnant women total and core disgust were highest in the first trimester (ext 4860); a replication in 94 pregnant women did not find disgust highest in the first trimester, and overall and animal-reminder disgust were higher in the second trimester and after birth (ext 4861); in 375 women, within-woman changes in salivary progesterone, estradiol, testosterone and cortisol did not track changes in pathogen disgust (ext 4871); in a preregistered direct replication with 402 participants, recently ill participants showed no greater attentional bias toward disfigured faces (ext 4875); women who reported recent health problems in the first trimester scored higher on core disgust at that time (ext 4862). Moral-disgust extension, SPECULATIVE/CONTESTED and unordered: purity-coded social aversion and weaponized moral disgust (purity spirals). These are no rungs. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01). The purity-spiral and dehumanization mismatch prediction rests entirely on this extension, the weakest evidence in M12. The same evidence makes the 'moral disgust contained' clause in resolution_conditions CONTESTED.",
+        "trailing": "Tests of the PARTIAL rung split: in 92 pregnant women total and core disgust were highest in the first trimester (ext 4860); a replication in 94 pregnant women did not find disgust highest in the first trimester, and overall and animal-reminder disgust were higher in the second trimester and after birth (ext 4861); in 375 women, within-woman changes in salivary progesterone, estradiol, testosterone and cortisol did not track changes in pathogen disgust (ext 4871); in a preregistered direct replication with 402 participants, recently ill participants showed no greater attentional bias toward disfigured faces (ext 4875); women who reported recent health problems in the first trimester scored higher on core disgust at that time (ext 4862). Moral disgust, the third kind (ext 3414), has no rungs on this ladder: purity-coded social aversion and weaponized moral disgust (purity spirals). How the moral kind began is left open. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (ext 597, a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, ext 105, d=-0.01).",
         "demoted": "",
         "kind": "ladder",
         "levels": [
@@ -1584,8 +1584,8 @@
     {
       "code": "M13",
       "name": "Energy Regulation",
-      "grade": "strongly_supported",
-      "tier": 2,
+      "grade": null,
+      "tier": null,
       "description": "Pontzer's constrained energy model. Part of the energy spent in activity is offset by lower basal expenditure: about 28 percent in adults living ordinary lives (ext 2346).",
       "eli5": "Hunger, satiety, and constrained total energy expenditure.",
       "resolution_conditions": "Effortful, diverse, seasonal whole foods. Metabolic variety.",
@@ -1693,8 +1693,8 @@
     {
       "code": "M14",
       "name": "Reproductive Motivation",
-      "grade": "established",
-      "tier": 1,
+      "grade": null,
+      "tier": null,
       "description": "Fisher's three-system model. HPG axis, not just brain circuits.",
       "eli5": "Three components - desire, attraction, and pair bonding - that can work independently of each other. This system shapes much more of human behavior than reproduction itself.",
       "resolution_conditions": "Sexual fulfillment within pair bond + a couple that lasts long enough to raise the children + reproductive success.",
@@ -1793,8 +1793,8 @@
     {
       "code": "R1",
       "name": "Touch",
-      "grade": "moderate",
-      "tier": 3,
+      "grade": null,
+      "tier": null,
       "description": "Touch carried by C-tactile afferents, an input to M3. People want it: the more days people had spent in lockdown, the more touch they wanted, most of all intimate touch (ext 2775). It also acts under threat: married women holding their husband's hand under threat of shock showed a broad drop in activation of threat-response systems (ext 2270).",
       "eli5": "C-tactile nerve input to bonding.",
       "resolution_conditions": "Regular physical contact with trusted others.",
@@ -2041,7 +2041,7 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Social network layers (~5/15/50/150)",
-        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. The ~150 outer figure is an illustrative central tendency, not a constant: traditional tribal and clan groupings cluster in the low hundreds. Its original derivation from the primate neocortex-ratio regression fails re-analysis (Lindenfors, Wartel and Lind 2021), so the specific number is treated as approximate; what is load-bearing is the nested layering, not the precise ceiling. This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).",
+        "eea_baseline": "The ancestral social world was structured as a series of hierarchically inclusive, nested relationship layers, each roughly three times the size of the one inside it: an innermost support clique of ~5 close confidants who provided emotional and physical support, a sympathy group of ~15 (contacted at least monthly), an affinity/band layer of ~50 (the typical overnight foraging camp), and an active personal network of ~150 (the outer ceiling of stable, individually-known relationships). Each layer carried a qualitatively different grade of intimacy and contact frequency, with the heaviest investment concentrated in the inner ~5-15. These sizes are found among foragers: across 339 forager societies, aggregated residential groups averaged 54 people and periodic multi-group gatherings 165 (ext 1048). They are found again in modern networks (modern side below). This was the full architecture within which status was monitored and alliances tracked: a personally-known reference group bounded at ~150, not an anonymous mass. Human social groups cluster at characteristic values of approximately 5, 12, 35, 150, 500, and 2,000 (ext 490). Forager populations were organized in nested levels, with each level about three to four times larger than the one below it, from families through camps to regional groups (ext 685).",
         "eea_value": {
           "unit": "individuals",
           "layer_sizes": {
@@ -2051,16 +2051,15 @@
             "sympathy_group": "15 (ext 404); 12 (ext 490)"
           },
           "scaling_factor": "approximately three (ext 404); about three to four in forager population structure, a constant ratio close to 4 (ext 685)",
-          "outer_ceiling_note": "low hundreds; ~150 is an approximate central tendency, not a constant; the neocortex-ratio derivation is contested (Lindenfors 2021)",
           "outer_ceiling_approx": 150,
           "tribal_clan_grouping": "clusters in the low hundreds (ethnographic)"
         },
-        "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay capacity-bounded. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).",
-        "gap_statement": "The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.",
+        "modern_default": "The modern environment delivers a radically inverted network shape: nominal friend counts that for a small minority run to many hundreds or thousands (ext 4624), while the layers that actually carry support and intimacy stay the same size. Online networks reproduce the same ~5/15 inner structure when genuine ties are measured (support clique ~4, sympathy group ~14, not significantly different from offline values), and mean platform friend counts hover near ~150-190 (across all 721 million Facebook users of May 2011 the mean was about 190 and the median 99; Ugander et al. 2011, ext 4624), but the bulk of nominal connections are not considered close friends (only ~27.6% of Facebook friends are considered 'genuine' (i.e. close) friends, ext 508). Dunbar proposes that face-to-face meetings are needed from time to time to keep friendships from sliding down the network layers until they become mere acquaintances, and that social media may slow this decay and cannot replace in-person contact (ext 509). The result is a wide, shallow periphery of weak or fictive ties layered on top of a core that the larger network does not enlarge: among 117 adults, more time on social media went with more online friends and with no larger or emotionally closer offline network (Pollet, Roberts and Dunbar 2011).",
+        "gap_statement": "The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.",
         "resolution_unit": null,
         "evidence_grade": "replicated",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of the 26,680 users who called at least 100 others (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The 150 figure fails re-analysis of the primate regression it came from (Lindenfors, Wartel and Lind 2021, ext 619), so the layer sizes and the 150 ceiling are approximate. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
+        "confidence_note": "Grade, rubric v2 (22 Nov 2026): tested many times for the layering. Forager populations were organised in nested levels, each about three to four times the size of the one below, across 339 societies in Binford's compilation (Hamilton et al. 2007, ext 1048: families of about 4.5, dispersed groups of 15.6, residential groups of 54, periodic gatherings of 165). Personal networks fall into nested layers about three times the size of the one inside in pooled published group sizes (Zhou et al. 2005, ext 2042), phone records of the 26,680 users who called at least 100 others (Mac Carron, Kaski and Dunbar 2016, ext 2026), and Facebook and Twitter contact data (Dunbar et al. 2015, ext 4336; Arnaboldi et al. 2016, ext 3323). A model with one fixed capacity for relationships, in which closer ties cost more, reproduces the layers, and about 98 percent of 84 students' networks showed them with a scaling ratio of about 2.7 to 3.1 (Tamarit et al. 2018). Main weakness: the forager levels are group sizes, not one person's network, and the modern network data all come from Dunbar's group and its collaborators. The number 150 was first derived from a primate neocortex-ratio regression, and re-analyses of that regression disagree (Lindenfors, Wartel and Lind 2021, ext 619; Dunbar and Shultz 2023, ext 5868); the group sizes here rest on the forager and network counts above. Forager residential groups are fluid (Bird et al. 2019, ext 684), which concerns who shares a camp, not the layers of a person's network.",
         "mechanism_codes": [
           "M11",
           "M3",
@@ -2239,16 +2238,23 @@
             "evidence_quality": "thin",
             "author_quote": "Using fractal analysis, we identify, with high statistical confidence, a discrete hierarchy of group sizes with a preferred scaling ratio close to three",
             "content": "Pooling 61 published estimates of human group and network sizes (support cliques, sympathy groups, forager overnight camps, communities, mega-bands and tribes, from many countries and from hunter-gatherer ethnography), the authors found mean sizes of about 4.6, 14.3, 42.6, 132.5,"
+          },
+          {
+            "extraction_id": 5860,
+            "evidence_role": "supporting",
+            "evidence_quality": "thin",
+            "author_quote": "We use fractal network theory to analyse the statistical structure of 1189 social groups in 339 hunter-gatherer societies from a published compilation of ethnographies. We show that population structure is indeed self-similar or fractal-like with the number of individuals or groups belonging to each successively higher level of organization exhibiting a constant ratio close to 4. Further, despite the wide ecological, cultural and historical diversity of hunter-gatherer societies, this remarkable self-similarity holds both within and across cultures and continents.",
+            "content": "Hamilton and colleagues analysed 1,189 group-size estimates from 339 hunter-gatherer societies in Binford's ethnographic compilation, at five levels above the individual (family, dispersed group, aggregated group, periodic aggregation, regional population). The number of groups a"
           }
         ],
-        "evidence_count": 24
+        "evidence_count": 25
       },
       {
         "code": "EEA-SOC-02",
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Lifetime known-individual pool (~1,000)",
-        "eea_baseline": "Across a foraging lifetime an individual accumulated a bounded pool of personally known others. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), much greater than the predicted 150 significant social interactants (Dunbar's number) that was extrapolated from primate brain by social group size regressions. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). The cognitive machinery for naming, tracking reputation, and gauging trust was calibrated to a lifetime ceiling on this order, with the ~150 active-network limit (Dunbar) operating as the concurrent sub-ceiling within it.",
+        "eea_baseline": "Across a foraging lifetime an individual accumulated a bounded pool of personally known others. Estimates put this cumulative lifetime roster at roughly 1,000+ distinct individuals (Hill et al. 2014, Hadza/Ache), much greater than the predicted 150 significant social interactants (Dunbar's number) that was extrapolated from primate brain by social group size regressions. This pool was not a single contemporaneous group: it accreted over decades through camp reshuffling, regional fission-fusion, and durable cross-camp partnerships (e.g. Ju/'hoansi hxaro). The active network of about 150 people (EEA-SOC-01) was the layer within this lifetime pool that a person kept up with at any one time.",
         "eea_value": {
           "note": "Hill et al. 2014 (Ache, Hadza; ext 606, 608): a 'social universe of about a thousand individuals'; a lifetime pool 'clearly more than 1,000'. One model-based study in two populations. For the ~150 ceiling and the 5/15/50/150 layers, see EEA-SOC-01.",
           "active_network_layers": [
@@ -2772,14 +2778,14 @@
         "domain": "social_structure",
         "domain_display": "Social structure",
         "name": "Novel-stranger frequency",
-        "eea_baseline": "Social cognition operated over a bounded pool: a personally-known reference network capped near the ~150 Dunbar ceiling, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.",
+        "eea_baseline": "Social cognition operated over a bounded pool: a personally-known reference network of about 150 people, nested in ~5/15/50/150 layers of decreasing intimacy. Within that architecture almost every face encountered was already known, placed, and reputationally tracked. A genuinely novel stranger, an individual who could not be located anywhere in one's known network or in the known networks of one's allies, was therefore a comparatively rare event. Because the bounded pool had no slot for such a person, novelty itself was diagnostic: a never-before-seen individual could not be vouched for, had no shared reputational history, and could not be assumed to be bound by the local web of reciprocity and norm enforcement. Encounters with unplaceable strangers were thus both infrequent and highly salient, and the threat-management system (M1) treated unfamiliarity as a plausible danger cue to be resolved (placed, vouched-for, or avoided) rather than as a routine background condition. This is an inference from the bounded-pool architecture plus M1, not a directly measured ancestral rate.",
         "eea_value": null,
         "modern_default": "The M1 machinery still treats unplaceable others as potential threats.",
         "gap_statement": "The delta is one of base rate and resolvability. Ancestrally, novel strangers were rare, salient, and resolvable (place them in the known web, or treat unfamiliarity as an actionable threat signal); modernity inverts this to constant, non-diagnostic, unresolvable novelty. The threat-management system inherited from the rare-stranger regime cannot down-regulate to the new base rate: it either over-fires (chronic low-grade vigilance, stranger-directed wariness in crowds and online) or, where it habituates, leaves people transacting with a stream of others who carry none of the reputational accountability the system implicitly assumes. The conserved unit being eroded is not the count of strangers but the durable, reputationally-tracked dyad against which any new face used to be evaluated; once almost everyone is a stranger, the bounded-pool premise that made novelty meaningful no longer holds.",
         "resolution_unit": "The durable, reputationally-tracked reciprocal dyad: ancestrally every new face was evaluated against a finite web of known, vouched-for relationships, and it was that web of bonds - not the count of strangers per se - that gave novelty its diagnostic and protective meaning. The mismatch resolves only insofar as new encounters can be anchored back into durable, accountable relationships rather than left as anonymous one-off contacts.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade: argued, not yet tested. No study measures how often ancestral humans met strangers. The premise is a bounded pool of personally known people in nested layers of about 5, 12, 35 and 150 (Dunbar 1998, ext 490), with a limit, argued by Dunbar 1992 (ext 485), on how many relationships a person can monitor at once. For the stranger-as-threat side: in chimpanzees, attacks from conspecifics, including lethal raids by males from neighbouring groups, are major sources of mortality (Hrdy 2009, ext 383), and across 18 communities most killings were by males and of members of other communities (Wilson et al. 2014, ext 671). This is animal evidence. Ambush killing between groups is documented in several nomadic forager societies, and how often it happened is disputed (Wrangham & Glowacki 2012, ext 672; Bowles 2009, ext 673). Infants show wariness toward an approaching stranger in lab studies (Waters et al. 1975, ext 676). In 21 mobile forager bands most recorded killings were homicides, a few were feuds and a minority were war (Fry & Söderberg 2013, ext 674), and Tomasello describes cooperation with in-group strangers (Tomasello 2014, ext 238, 250). Bowlby's claim that strangers are an innate fear cue (ext 574) comes from a book that was not read directly and is not linked as evidence.",
+        "confidence_note": "Grade: argued, not yet tested. No study measures how often ancestral humans met strangers. The premise is a bounded pool of personally known people in nested layers of about 5, 12, 35 and 150 (Dunbar 1998, ext 490). For the stranger-as-threat side: in chimpanzees, attacks from conspecifics, including lethal raids by males from neighbouring groups, are major sources of mortality (Hrdy 2009, ext 383), and across 18 communities most killings were by males and of members of other communities (Wilson et al. 2014, ext 671). This is animal evidence. Ambush killing between groups is documented in several nomadic forager societies, and how often it happened is disputed (Wrangham & Glowacki 2012, ext 672; Bowles 2009, ext 673). Infants show wariness toward an approaching stranger in lab studies (Waters et al. 1975, ext 676). In 21 mobile forager bands most recorded killings were homicides, a few were feuds and a minority were war (Fry & Söderberg 2013, ext 674), and Tomasello describes cooperation with in-group strangers (Tomasello 2014, ext 238, 250). Bowlby's claim that strangers are an innate fear cue (ext 574) comes from a book that was not read directly and is not linked as evidence.",
         "mechanism_codes": [
           "M1",
           "M11",
@@ -2829,7 +2835,7 @@
           {
             "extraction_id": 673,
             "evidence_role": "supporting",
-            "evidence_quality": "contested",
+            "evidence_quality": "theoretical",
             "author_quote": "the estimated level of mortality in intergroup conflicts would have had substantial effects, allowing the proliferation of group-beneficial behaviors that were quite costly to the individual altruist",
             "content": "Combining archaeological causes of death from the Late Pleistocene and early Holocene with hunter-gatherer ethnography, Bowles estimates that deaths in conflicts between groups were frequent enough to favor the evolution of costly group-beneficial behavior."
           },
@@ -5880,8 +5886,8 @@
           "caregiver_scope": "mother plus alloparents"
         },
         "modern_default": "In the United States of the late 1970s infants spent little time in body contact with caregivers and their movements were restricted by playpens, high chairs or cribs (ext 3145), and Euro-American infants were held less than Aka and Ngandu infants and were more often alone (ext 3151); personal-space norms and screen-mediated interaction strip casual affective touch from daily adult life.",
-        "gap_statement": "Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.",
-        "resolution_unit": "Reliable supply of moderate-pressure, skin-to-skin/affective (C-tactile) contact, especially in infancy and under stress; NOT incidental or light/ticklish touch (light touch does not produce the physiological response) and NOT a raw count of any contact.",
+        "gap_statement": "Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of affective touch, firm and gentle, removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.",
+        "resolution_unit": "Reliable supply of skin-to-skin, affective contact, especially in infancy and under stress, and NOT a raw count of any contact. Two kinds of touch carry it: firm, moderate pressure is what helped in the preterm massage studies (ext 293), and slow, gentle stroking is what C-tactile fibres respond to, firing most at stroking speeds of 1 to 10 cm per second that people rate the most pleasant (ext 2147, 2689).",
         "evidence_grade": "replicated",
         "contested": false,
         "confidence_note": "Grade, rubric v2 (6 Nov 2026): tested many times. Near-continuous infant carrying and frequent nursing are documented in !Kung, Aka and Efe, with breastfeeding into the second or third year across non-industrial societies (Sellen 2007). The adult high-touch part rests on modern observation and is argued. The kangaroo-care mortality benefit applies to stabilized low-birthweight infants (RR 0.60, 95% CI 0.39-0.92; Conde-Agudelo & Diaz-Rossello 2016, ext 618) and is largest in low- and middle-income settings.",
@@ -6553,11 +6559,11 @@
         "code": "EEA-CIRC-03",
         "domain": "circadian_sensory",
         "domain_display": "Circadian & sensory",
-        "name": "Falling evening ambient temperature as a second sleep-onset cue",
-        "eea_baseline": "In Hadza, San and Tsimane, the sleep period consistently occurred during the nighttime period of falling environmental temperature and ended near the nadir of daily ambient temperature (ext 745). This descending thermal ramp coincides with the endogenous evening fall in core body temperature that accompanies sleep onset, plausibly acting as a second zeitgeber-like onset cue alongside light.",
+        "name": "Sleep in the nightly period of falling temperature",
+        "eea_baseline": "In Hadza, San and Tsimane, the sleep period consistently occurred during the nighttime period of falling environmental temperature and ended near the nadir of daily ambient temperature (ext 745). Yetish and colleagues read it this way: the daily cycle of temperature change, largely eliminated from modern sleep environments, may be a potent natural regulator of sleep (Yetish et al. 2015, ext 745).",
         "eea_value": null,
         "modern_default": "Climate-controlled indoor environments hold ambient temperature roughly constant across the 24-hour cycle, removing the nighttime period of falling environmental temperature (ext 745).",
-        "gap_statement": "By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).",
+        "gap_statement": "Modern sleep environments have largely eliminated the daily cycle of temperature change (Yetish et al. 2015, ext 745). In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).",
         "resolution_unit": "Direction and timing of the nighttime ambient-temperature change (falling during the sleep period, ext 745), not absolute thermostat setpoint or daytime comfort.",
         "evidence_grade": "thin",
         "contested": false,
@@ -7585,14 +7591,14 @@
           {
             "extraction_id": 1046,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "thin",
             "author_quote": "The 8 ethnographic and 15 archaeological sources included yield similar results (Table 1), consistent with the view that prehistoric warfare was frequent and lethal",
             "content": "Bowles compiled 15 archaeological and 8 ethnographic sources on foragers without chiefs or states, including some sedentary forager populations. Deaths in war made up on average 14% of all deaths (weighted mean; archaeological 12%, ethnographic 16%). Single sites ranged from 0% ("
           },
           {
             "extraction_id": 673,
             "evidence_role": "primary",
-            "evidence_quality": "contested",
+            "evidence_quality": "theoretical",
             "author_quote": "the estimated level of mortality in intergroup conflicts would have had substantial effects, allowing the proliferation of group-beneficial behaviors that were quite costly to the individual altruist",
             "content": "Combining archaeological causes of death from the Late Pleistocene and early Holocene with hunter-gatherer ethnography, Bowles estimates that deaths in conflicts between groups were frequent enough to favor the evolution of costly group-beneficial behavior."
           },
@@ -7660,7 +7666,7 @@
         "resolution_unit": "Proportion of consequential information arriving from a known, reputation-bearing, accountable source the receiver can locate and sanction - NOT raw access to information or number of contacts. A person can be flooded with information yet have almost none of it carry verifiable provenance.",
         "evidence_grade": "theoretical",
         "contested": false,
-        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from; the claim that nearly all of it came from known people is inferred from band size and gossip ethnography. No published evidence argues the other way.",
+        "confidence_note": "Grade, rubric v2 (6 Nov 2026): argued, not yet tested. No study measures where ancestral information came from. No published evidence argues the other way.",
         "mechanism_codes": [
           "M11",
           "M3",

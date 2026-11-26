@@ -68,7 +68,7 @@ Variable-reward apps are the classic trap. They fire the "seeking" feeling over 
 
 This is your attachment system. Your brain expects to have trusted people physically nearby to help you stay regulated. This is not a luxury or a personality trait - it's built into the architecture. When you lose someone you're bonded to, this system flips into grief, which is real, pain-grade distress.
 
-What it actually needs is reliable, in-person co-regulation, arranged in layers: about 5 closest people, around 15 in your sympathy group, about 50 close partners, and roughly 150 people total you can really know face to face. The inner 5 do most of the emotional work, and the key thing there isn't how many - it's whether they're reliable.
+What it actually needs is reliable, in-person co-regulation, arranged in layers: about 5 closest people, around 15 in your sympathy group, about 50 close partners, and roughly 150 people you really know face to face. The inner 5 do most of the emotional work, and the key thing there isn't how many - it's whether they're reliable.
 
 ### The ladder
 
@@ -255,11 +255,11 @@ The solid, well-evidenced part is the pathogen-disgust gradient, three rungs:
 - Disgust over-firing when you're more vulnerable - like during pregnancy or with a weakened immune system.
 - **Floor:** false alarms where the behavioral immune system flags harmless people as "gross."
 
-There's also a separate, much weaker and contested extension into **moral disgust** - purity-coded social aversion and weaponized moral outrage. This is not a rung on the ladder, and the evidence for it is the shakiest part of this whole mechanism.
+Then there's **moral disgust**, the third kind - purity-coded social aversion and weaponized moral outrage. It is not a rung on the ladder, and how it began is still open.
 
 ### What goes wrong now
 
-The contested part is where moral disgust gets weaponized in politics, fueling purity spirals. Just remember the evidence there is weak. Avoiding dirty food is at least around 25 to 34 million years old, shared with monkeys.
+Moral disgust gets weaponized in politics, fueling purity spirals. Avoiding dirty food is at least around 25 to 34 million years old, shared with monkeys.
 
 ## M13 - Energy Regulation
 

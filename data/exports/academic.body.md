@@ -79,7 +79,7 @@ Suppresses nothing recorded. Suppressed by M1, M13, M3, M7, and M8. Interacts wi
 
 The attachment and co-regulation system. Includes the grief mode absorbed from the old M9 GRIEF system. It runs in two states: security (enables broadly) and grief (suppresses broadly). It forms bonds with other humans and produces pain-grade distress when they are gone.
 
-**Resolution conditions:** reliable human co-regulation through physical presence, operating through nested social layers - ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, and ~150 coherent face-to-face relationships (the Dunbar number, the outer cognitive ceiling). Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The ~150 outer figure is an illustrative central tendency, not a hard limit: its derivation from the primate neocortex-ratio regression is contested (Lindenfors, Wartel & Lind 2021), while the layered structure and its low-hundreds clustering are separately observed in phone, Christmas-card, and Facebook data.
+**Resolution conditions:** reliable human co-regulation through physical presence, operating through nested social layers - ~5 intimate co-regulators (primary emotional/physical support), ~15 sympathy group, ~50 close social partners, and ~150 coherent face-to-face relationships. Each layer represents qualitatively different relationship types with different obligations and investment requirements. The innermost ~5 provide the majority of social regulation; the critical variable at this layer is reliability, not count. The layer sizes are found among foragers, where periodic multi-group gatherings across 339 societies averaged 165 people (Hamilton et al. 2007), and in modern phone, Christmas-card and Facebook data.
 
 C5 establishes that human regulation is constitutively socially scaffolded: the organism's default expectation is proximity to trusted co-regulators, and this scaffolding is architectural rather than optional. Established independently by Coan's Social Baseline Theory fMRI program, Bowlby's attachment theory, Hrdy's cooperative-breeding thesis, Dunbar's social-brain hypothesis, and Holt-Lunstad's mortality meta-analysis showing a 50% survival advantage from strong social relationships. Key researchers: Bowlby, Panksepp, Coan, Hrdy.
 
@@ -308,7 +308,7 @@ Suppresses M8. Suppressed by M1 and M3. Interacts with M7 and M13.
 
 Reciprocity plus norm enforcement plus alliance dynamics. This mechanism absorbs the old M10 (Cooperation) and M11 (Coalitional). Convergence C11 forces M11. Three bodies of tests support it (Fehr & Gächter, Boehm, Tomasello), with Trivers 1971 as the theory behind them. In plainest terms: reciprocal exchange, cheater detection, and coalitional identity.
 
-**Resolution conditions:** a trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150 - the same low-hundreds ceiling that bounds M3; the precise figure is contested per Lindenfors 2021). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that ceiling, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. There is no shared fiction at the direct-reciprocity layer.
+**Resolution conditions:** a trusted reciprocal network with norm enforcement within a group small enough for direct reputation tracking (on the order of ~150, the size found among foragers and in modern networks). Norm enforcement requires repeated direct interaction where defectors can be identified, remembered, and sanctioned. Beyond that size, cooperation requires institutional scaffolding (formal rules, third-party enforcement, shared fictions) rather than direct reciprocity. There is no shared fiction at the direct-reciprocity layer.
 
 C11 establishes that humans have specialized architecture for reciprocal exchange, cheater detection, norm enforcement, and coalitional identity, supported independently by Fehr & Gächter's experimental altruistic-punishment findings, Boehm's reverse-dominance coalition dynamics in hunter-gatherer anthropology, and Tomasello's shared-intentionality comparative-cognition research. Key researchers: Trivers, Boehm, Fehr & Gächter, Tomasello.
 
@@ -336,7 +336,7 @@ Suppresses nothing recorded. Suppressed by nothing recorded. No interactions rec
 
 **Phylogenetic age:** ~25-34Myr+ (contamination avoidance, Old World primates); parasite avoidance across animals has no single age. **Evidence link count:** 12. **Grounded in:** C2 and C8.
 
-Three kinds of disgust, pathogen, sexual and moral: ratings of how disgusting acts and objects are fall into these three factors. How the moral kind began is left open. The behavioral immune system. **Resolution conditions:** clean food, clean social environment, moral disgust contained. (Note: the 'moral disgust contained' clause is flagged CONTESTED.)
+Three kinds of disgust, pathogen, sexual and moral: ratings of how disgusting acts and objects are fall into these three factors. How the moral kind began is left open. The behavioral immune system. **Resolution conditions:** clean food, clean social environment, moral disgust contained.
 
 C2 (Domain-Sensitive Organism Architecture), supported by Tooby & Cosmides, Panksepp, and Bowlby. C8 (Error Management Asymmetry in Defensive Systems), established by Nesse, Haselton & Buss, and the Öhman/Mineka program. Key researchers: Rozin, Curtis, Schaller.
 
@@ -348,7 +348,7 @@ A 3-rung pathogen-disgust gradient (FULL to PARTIAL to MIXED).
 - **PARTIAL** (partly resolved): vulnerability-calibrated over-firing, e.g. pregnancy/immunosuppression
 - **MIXED** (partly resolved): behavioral-immune smoke-detector false positives on harmless people [note: floor]
 
-**DEMOTED (non-ordinal, NOT a rung on the ladder):** a SPECULATIVE/CONTESTED moral-disgust extension (per #1583, confirmed by ext597 Tybur - moral disgust is functionally distinct and shares only the expressive component; ext105 d ≈ 0): purity-coded social aversion plus weaponized moral disgust / purity spirals. These are unordered, not rungs. The purity-spiral/dehumanization mismatch prediction lives entirely here, on the weakest evidence. Registered resolution conditions are untouched.
+**Moral disgust, the third kind, has no rungs on this ladder:** purity-coded social aversion and weaponized moral disgust (purity spirals). How the moral kind began is left open. Tybur et al. 2013 treat moral disgust as a separate adaptation that shares mainly its facial and vocal expression with pathogen disgust (a theoretical framework). A meta-analysis of 50 studies finds that incidental disgust does not amplify moral judgment once publication bias is corrected (Landy & Goodwin 2015, d = -0.01).
 
 **Mismatch prediction:** moral disgust weaponized in politics, purity spirals.
 

@@ -8,7 +8,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Social structure
 
 **Social network layers (~5/15/50/150)** (tested many times)
-  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number the brain can actually monitor and invest in (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers remain capped and are under-fed when face-to-face contact is displaced.
+  - The mismatch is between the number of ties the modern environment presents (a mean of about 190 Facebook friends, and many hundreds or thousands for a small minority, ext 4624) and the number of people a person actually knows and invests in, found among foragers and in modern networks (~150, with real support concentrated in the inner ~5-15). People with large networks had on average weaker ties, measured as time spent calling (ext 4349). Status monitoring (M5) and alliance/reputation tracking (M11), evolved for a ~150 personally-known reference group, are now flooded by reference groups, while the trust-bearing inner layers do not grow and are under-fed when face-to-face contact is displaced.
 
 **Lifetime known-individual pool (~1,000)** (tested once)
   - EEA delivered a finite, slowly-accreting lifetime roster (~1,000+).
@@ -116,7 +116,7 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 ### Touch & contact
 
 **Affective (C-tactile) contact frequency and skin-to-skin time** (tested many times)
-  - Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of moderate-pressure affective touch removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
+  - Touch deprivation produces growth hormone suppression in rat pups and immune breakdown in infant monkeys (ext 3508, 294); even in non-extreme modern life the loss of affective touch, firm and gentle, removes a direct oxytocin/vagal/cortisol-regulating input. Critically, affective touch is the one ancestral channel that remote, volumetric, or screen-based technology cannot deliver: it requires physical skin contact.
 
 **Co-sleeping** (tested many times)
   - Solitary infant sleep removes the nighttime proximity of the Standard Cross-Cultural Sample, where the mother slept in the same room as her infant in every one of the 173 societies coded, and in the same bed in at least 76 (ext 705). It removes the nighttime physiological co-regulation measured in cosleeping pairs, where mother and infant induce arousals in one another within seconds (ext 615). The evidence for this co-regulation comes from one lab (McKenna 2014, ext 615, 616).
@@ -133,8 +133,8 @@ Here is the same idea as a list you can scan: for each part of life, what the wo
 **Sleep timing/phase alignment to the biological night (not a fixed duration target)** (tested many times)
   - The mismatch is primarily one of phase, not amount. Independently of sleep duration, misalignment between biological and social clocks is associated with metabolic harm (e.g. social jetlag raises overweight odds and predicts BMI in the overweight, with an effect more than half that of sleep duration, after controlling for duration itself). Across 43 studies of 231,648 people, social jetlag went with higher body mass index and 1.2 times the odds of overweight (Arab et al. 2024), and in the high-quality studies of a review of 68 with higher body mass index, waist, systolic blood pressure and HbA1c (Bouman et al. 2023). In 60,977 UK adults, regular sleep and wake times predicted lower mortality more strongly than sleep duration did (Windred et al. 2024). Chasing a duration number while ignoring phase misses the operative variable.
 
-**Falling evening ambient temperature as a second sleep-onset cue** (tested once)
-  - By flattening the daily thermal cycle, modern housing removes a candidate onset cue, potentially leaving light as the sole (and now corrupted) entrainment channel. In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
+**Sleep in the nightly period of falling temperature** (tested once)
+  - Modern sleep environments have largely eliminated the daily cycle of temperature change (Yetish et al. 2015, ext 745). In Hadza, San and Tsimane the sleep period consistently occurred during the nighttime period of falling environmental temperature (ext 745).
 
 
 ### Subsistence & time-use
