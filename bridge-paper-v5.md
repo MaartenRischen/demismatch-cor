@@ -197,7 +197,7 @@ Defensive systems are biased toward over-activation (DA5). Mechanism M1 (Threat 
 
 ### 3.4 Loop accumulation (DC1, M11, C9)
 
-Open cognitive threads exert measurable cognitive load. Hunter-gatherer band life closed daily loops at the evening fire circle, an institution that simultaneously satisfied M11 (Cooperation/Alliance), M3 (Social Bonding), M5 (Status Monitoring), and M7 (Circadian Regulation), and is documented in the M11 mechanism evidence base. Modern systems open loops continuously and close them rarely. The system measures throughput; the organism measures unresolved threads and pays the metabolic cost as allostatic load (C9). **Detected by:** notification-to-resolution ratio, thread-opening rate per session, allostatic load index in research protocols. **Missed by current evaluation because:** loop closure has no metric.
+Open cognitive threads exert measurable cognitive load. Hunter-gatherer camp life closed daily loops at the evening fire circle, an institution that simultaneously satisfied M11 (Cooperation/Alliance), M3 (Social Bonding), M5 (Status Monitoring), and M7 (Circadian Regulation), and is documented in the M11 mechanism evidence base. Modern systems open loops continuously and close them rarely. The system measures throughput; the organism measures unresolved threads and pays the metabolic cost as allostatic load (C9). **Detected by:** notification-to-resolution ratio, thread-opening rate per session, allostatic load index in research protocols. **Missed by current evaluation because:** loop closure has no metric.
 
 ### 3.5 Circadian disruption (P3, M7)
 

@@ -215,7 +215,7 @@ M1 expects threats to resolve into action or safeness. Chronic activation withou
 
 ### 3.4 Loop accumulation (DC1, M11, C9)
 
-Open cognitive threads exert measurable cognitive load. Hunter-gatherer band life closed daily loops at the evening fire circle, an institution simultaneously satisfying M11, M3, M5, and M7. Modern systems open loops continuously and close them rarely. The organism pays the metabolic cost as allostatic load. **Detected by:** notification-to-resolution ratio, thread-opening rate, allostatic load index. **Missed because:** loop closure has no metric.
+Open cognitive threads exert measurable cognitive load. Hunter-gatherer camp life closed daily loops at the evening fire circle, an institution simultaneously satisfying M11, M3, M5, and M7. Modern systems open loops continuously and close them rarely. The organism pays the metabolic cost as allostatic load. **Detected by:** notification-to-resolution ratio, thread-opening rate, allostatic load index. **Missed because:** loop closure has no metric.
 
 ### 3.5 Circadian disruption (P3, M7)
 
