@@ -203,6 +203,22 @@
     "what is at stake (according to|as) Cor"
    ],
    "needs_nearby": "no system is filed|not filed|never filed|is no finding|dropped|removed|taken out|retired|no longer|ranks nothing|decides nothing|stake label|used to|had been|versions? (3|19|20)|harness-ok"
+  },
+  {
+   "id": "band",
+   "ours": "camp: the people living together, a camp of a few dozen people who know each other; group: a wider unit or a kind of society.",
+   "short": "band, bands (for a forager group)",
+   "why": "Maarten, 28 Nov 2026: \"we should ban the word [band] ... People will just think of a music band\" (Open Brain 5842).",
+   "ask": "Is this a forager group? Write camp where it means the people living together, else group. A music band, an age band, a quotation or a study title stays.",
+   "scopes": [
+    "page",
+    "cor"
+   ],
+   "patterns": [
+    "\\bbands?\\b"
+   ],
+   "quoted_ok": true,
+   "ok_near": "boy-band|band's songs|played in (his|her|their|a|the) band|a crew, a band|a team, a band|Inter-Band|\\b(age|IQ|score|depression|top|high|moderate|kappa|ordinal|frequency|Hz|slowest|letterbox|top-)\\s?bands?\\b|Eastern Band|bands and chess|guitar|\\bmusic|\\brock band|brass band|jazz band|wedding band|rubber band|wristband|armband|arm-band|structure of hunter-gatherer bands|Lethal aggression in mobile forager bands"
   }
  ],
  "_removed": "generic-evidence (21 Nov 2026, afternoon): it flagged any page line about a job or cash study. Maarten: 'the job of any kind could produce a sense of tribe.' Form is no test; the question is what the change supplied. A regular expression cannot ask that, so the pattern is gone."

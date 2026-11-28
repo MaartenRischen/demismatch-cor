@@ -50,6 +50,12 @@ def hits_in_text(text, scope, path=''):
                 if 'harness-ok' in line: continue
                 near = text[max(0, m.start() - 320):m.end() + 320]
                 if c.get('needs_nearby') and re.search(c['needs_nearby'], near, re.I): continue
+                # 28 Nov 2026 (OB 5842): a word whose other senses are fine ('band': music, age band, a title) names them in
+                # ok_near, matched only within 40 characters; quoted_ok skips the word inside a quotation only.
+                if c.get('ok_near') and re.search(c['ok_near'], text[max(0, m.start() - 40):m.end() + 40], re.I): continue
+                if c.get('quoted_ok'):
+                    bq = text[s0:m.start()]
+                    if (bq.count('"') % 2 == 1) or (bq.count('\u201c') > bq.count('\u201d')): continue
                 if c.get('attributed_ok'):
                     before = text[s0:m.start()]
                     inquote = (before.count('"') % 2 == 1) or (before.count('\u201c') > before.count('\u201d'))
